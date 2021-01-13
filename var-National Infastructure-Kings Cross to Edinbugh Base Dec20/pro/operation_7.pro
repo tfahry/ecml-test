@@ -7,7 +7,7 @@ Project: NIM 2018 02 14
   Variant          : National Infastructure
   Timetable variant: Kings Cross to Edinbugh Base Dec20
   Line             : ECML Longlands Jn - Edinburgh
-  Date             : 2018-02-22 / 25/11/2020 11:33
+  Date             : 2018-02-22 / 25/11/2020 12:10
 
  Base data of timetable
 
@@ -28,7 +28,7 @@ Status: Loading file C:/railsys models/ECML (Longlands Jn - Edinburgh) TT Base -
 Status: Loading file C:/railsys models/ECML (Longlands Jn - Edinburgh) TT Base - 6.11.20/global/dat/traction_unit_usage.xml
 Status: Loading file C:/railsys models/ECML (Longlands Jn - Edinburgh) TT Base - 6.11.20/global/dat/time_slice_parameters.xml
 Status: Checking train types
-Lesen der bin.Daten: 6.375/2.379
+Lesen der bin.Daten: 6.71875/2.438
 Status: Loading file C:/railsys models/ECML (Longlands Jn - Edinburgh) TT Base - 6.11.20/global/dat\disruptions.xml
 	Error: Pattern /In Time Scope/Cross Country does not exist (Reading file C:/railsys models/ECML (Longlands Jn - Edinburgh) TT Base - 6.11.20/global/dat\disruptions.xml).
 	Error: Pattern /In Time Scope/East Midland Railway/1 Down Norwich Services does not exist (Reading file C:/railsys models/ECML (Longlands Jn - Edinburgh) TT Base - 6.11.20/global/dat\disruptions.xml).
@@ -164,13 +164,14 @@ Status: Loading file C:/railsys models/ECML (Longlands Jn - Edinburgh) TT Base -
 	Error: Pattern /In Time Scope/Northern/5 Sheffield - Doncaster does not exist (Reading file C:/railsys models/ECML (Longlands Jn - Edinburgh) TT Base - 6.11.20/global/dat\disruptions.xml).
 	Error: Pattern /In Time Scope/TransPennine Express does not exist (Reading file C:/railsys models/ECML (Longlands Jn - Edinburgh) TT Base - 6.11.20/global/dat\disruptions.xml).
 Parsing projectwide (global) perturbation data.
-Create graph for route search: 0.078125
-
 	Status: Reading timetable file "C:/Users/Tfarhy/OneDrive - Network Rail/2020.11.24_XML backend for adding connections/longlands.rsx"
 	Status: Imported trains: 1984
+Create graph for route search: 0.078125
+
+	Error: Completion of train route: No train route found beyond station PRNCSTG, sequential number 4 (Block sections for train route not found from M/P signal (hmktj/1704) onwards, station   5/PRNCSTG)
 	Error: Completion of train route: No train route found beyond station EDINBUR, sequential number 0 (no (suitable) block sections found for entry (first station))
 	Error: Completion of train route: No train route found beyond station PRNCSTG, sequential number 5 (Block sections for train route not found from EDINBUR D-11 onwards, station   6/PRNCSTG)
- Rechenzeit 7.8s
+ Rechenzeit 1.6s
 --------------------------------------------------------------------------------
 Program: RailSys-Timetable and simulation manager   Version 10.3.296
 
@@ -180,10 +181,305 @@ Project: NIM 2018 02 14
   Variant          : National Infastructure
   Timetable variant: Kings Cross to Edinbugh Base Dec20
   Line             : ECML Longlands Jn - Edinburgh
-  Date             : 2018-02-22 / 25/11/2020 12:05
+  Date             : 2018-02-22 / 25/11/2020 12:10
 
  Log file for calculation of scheduled timetable
 
 --------------------------------------------------------------------------------
 
-Calculation of scheduled timetable: 23.526s
+Calculation of scheduled timetable: 21.348s
+	Status: Reading timetable file "C:/Users/Tfarhy/OneDrive - Network Rail/2020.11.24_XML backend for adding connections/longlands.rsx"
+	Status: Imported trains: 1984
+	Error: Completion of train route: No train route found beyond station PRNCSTG, sequential number 4 (Block sections for train route not found from M/P signal (hmktj/1704) onwards, station   5/PRNCSTG)
+	Error: Completion of train route: No train route found beyond station EDINBUR, sequential number 0 (no (suitable) block sections found for entry (first station))
+	Error: Completion of train route: No train route found beyond station PRNCSTG, sequential number 5 (Block sections for train route not found from EDINBUR D-11 onwards, station   6/PRNCSTG)
+ Rechenzeit 2.0s
+--------------------------------------------------------------------------------
+Program: RailSys-Timetable and simulation manager   Version 10.3.296
+
+Project: NIM 2018 02 14
+
+  Editor           : Alec Howe
+  Variant          : National Infastructure
+  Timetable variant: Kings Cross to Edinbugh Base Dec20
+  Line             : ECML Longlands Jn - Edinburgh
+  Date             : 2018-02-22 / 25/11/2020 12:13
+
+ Log file for calculation of scheduled timetable
+
+--------------------------------------------------------------------------------
+
+Calculation of scheduled timetable: 23.737s
+	Status: Reading timetable file "C:/Users/Tfarhy/OneDrive - Network Rail/2020.11.24_XML backend for adding connections/longlands_progadd.rsx"
+	Status: Imported trains: 1984
+	Error: Completion of train route: No train route found beyond station PRNCSTG, sequential number 4 (Block sections for train route not found from M/P signal (hmktj/1704) onwards, station   5/PRNCSTG)
+	Error: Completion of train route: No train route found beyond station EDINBUR, sequential number 0 (no (suitable) block sections found for entry (first station))
+	Error: Completion of train route: No train route found beyond station PRNCSTG, sequential number 5 (Block sections for train route not found from EDINBUR D-11 onwards, station   6/PRNCSTG)
+ Rechenzeit 2.1s
+--------------------------------------------------------------------------------
+Program: RailSys-Timetable and simulation manager   Version 10.3.296
+
+Project: NIM 2018 02 14
+
+  Editor           : Alec Howe
+  Variant          : National Infastructure
+  Timetable variant: Kings Cross to Edinbugh Base Dec20
+  Line             : ECML Longlands Jn - Edinburgh
+  Date             : 2018-02-22 / 26/11/2020 12:19
+
+ Log file for calculation of scheduled timetable
+
+--------------------------------------------------------------------------------
+
+Calculation of scheduled timetable: 24.03s
+	Status: Reading timetable file "C:/Users/Tfarhy/OneDrive - Network Rail/2020.11.24_XML backend for adding connections/longlands_nocon.rsx"
+	Status: Imported trains: 1984
+	Error: Completion of train route: No train route found beyond station PRNCSTG, sequential number 4 (Block sections for train route not found from M/P signal (hmktj/1704) onwards, station   5/PRNCSTG)
+	Error: Completion of train route: No train route found beyond station EDINBUR, sequential number 0 (no (suitable) block sections found for entry (first station))
+	Error: Completion of train route: No train route found beyond station PRNCSTG, sequential number 5 (Block sections for train route not found from EDINBUR D-11 onwards, station   6/PRNCSTG)
+ Rechenzeit 2.3s
+--------------------------------------------------------------------------------
+Program: RailSys-Timetable and simulation manager   Version 10.3.296
+
+Project: NIM 2018 02 14
+
+  Editor           : Alec Howe
+  Variant          : National Infastructure
+  Timetable variant: Kings Cross to Edinbugh Base Dec20
+  Line             : ECML Longlands Jn - Edinburgh
+  Date             : 2018-02-22 / 26/11/2020 13:36
+
+ Log file for calculation of scheduled timetable
+
+--------------------------------------------------------------------------------
+
+Calculation of scheduled timetable: 22.533s
+	Status: Reading timetable file "C:/Users/Tfarhy/OneDrive - Network Rail/2020.11.24_XML backend for adding connections/longlands_progadd.rsx"
+	Status: Imported trains: 1984
+	Error: Completion of train route: No train route found beyond station PRNCSTG, sequential number 4 (Block sections for train route not found from M/P signal (hmktj/1704) onwards, station   5/PRNCSTG)
+	Error: Completion of train route: No train route found beyond station EDINBUR, sequential number 0 (no (suitable) block sections found for entry (first station))
+	Error: Completion of train route: No train route found beyond station PRNCSTG, sequential number 5 (Block sections for train route not found from EDINBUR D-11 onwards, station   6/PRNCSTG)
+ Rechenzeit 1.7s
+--------------------------------------------------------------------------------
+Program: RailSys-Timetable and simulation manager   Version 10.3.296
+
+Project: NIM 2018 02 14
+
+  Editor           : Alec Howe
+  Variant          : National Infastructure
+  Timetable variant: Kings Cross to Edinbugh Base Dec20
+  Line             : ECML Longlands Jn - Edinburgh
+  Date             : 2018-02-22 / 26/11/2020 13:37
+
+ Log file for calculation of scheduled timetable
+
+--------------------------------------------------------------------------------
+
+Calculation of scheduled timetable: 26.791s
+	Status: Reading timetable file "C:/Users/Tfarhy/OneDrive - Network Rail/2020.11.24_XML backend for adding connections/longlands_nocon.rsx"
+	Status: Imported trains: 1984
+	Error: Completion of train route: No train route found beyond station EDINBUR, sequential number 0 (no (suitable) block sections found for entry (first station))
+	Error: Completion of train route: No train route found beyond station PRNCSTG, sequential number 4 (Block sections for train route not found from M/P signal (hmktj/1704) onwards, station   5/PRNCSTG)
+	Error: Completion of train route: No train route found beyond station PRNCSTG, sequential number 5 (Block sections for train route not found from EDINBUR D-11 onwards, station   6/PRNCSTG)
+ Rechenzeit 1.8s
+--------------------------------------------------------------------------------
+Program: RailSys-Timetable and simulation manager   Version 10.3.296
+
+Project: NIM 2018 02 14
+
+  Editor           : Alec Howe
+  Variant          : National Infastructure
+  Timetable variant: Kings Cross to Edinbugh Base Dec20
+  Line             : ECML Longlands Jn - Edinburgh
+  Date             : 2018-02-22 / 26/11/2020 15:58
+
+ Log file for calculation of scheduled timetable
+
+--------------------------------------------------------------------------------
+
+Calculation of scheduled timetable: 25.798s
+	Status: Reading timetable file "C:/Users/Tfarhy/OneDrive - Network Rail/2020.11.24_XML backend for adding connections/longlands_nocon.rsx"
+	Status: Imported trains: 1984
+	Error: Completion of train route: No train route found beyond station PRNCSTG, sequential number 4 (Block sections for train route not found from M/P signal (hmktj/1704) onwards, station   5/PRNCSTG)
+	Error: Completion of train route: No train route found beyond station EDINBUR, sequential number 0 (no (suitable) block sections found for entry (first station))
+	Error: Completion of train route: No train route found beyond station PRNCSTG, sequential number 5 (Block sections for train route not found from EDINBUR D-11 onwards, station   6/PRNCSTG)
+ Rechenzeit 1.9s
+--------------------------------------------------------------------------------
+Program: RailSys-Timetable and simulation manager   Version 10.3.296
+
+Project: NIM 2018 02 14
+
+  Editor           : Alec Howe
+  Variant          : National Infastructure
+  Timetable variant: Kings Cross to Edinbugh Base Dec20
+  Line             : ECML Longlands Jn - Edinburgh
+  Date             : 2018-02-22 / 26/11/2020 16:02
+
+ Log file for calculation of scheduled timetable
+
+--------------------------------------------------------------------------------
+
+Calculation of scheduled timetable: 21.84s
+	Status: Reading timetable file "C:/Users/Tfarhy/OneDrive - Network Rail/2020.11.24_XML backend for adding connections/longlands_progadd.rsx"
+	Status: Imported trains: 1984
+	Error: Completion of train route: No train route found beyond station PRNCSTG, sequential number 4 (Block sections for train route not found from M/P signal (hmktj/1704) onwards, station   5/PRNCSTG)
+	Error: Completion of train route: No train route found beyond station EDINBUR, sequential number 0 (no (suitable) block sections found for entry (first station))
+	Error: Completion of train route: No train route found beyond station PRNCSTG, sequential number 5 (Block sections for train route not found from EDINBUR D-11 onwards, station   6/PRNCSTG)
+ Rechenzeit 1.9s
+--------------------------------------------------------------------------------
+Program: RailSys-Timetable and simulation manager   Version 10.3.296
+
+Project: NIM 2018 02 14
+
+  Editor           : Alec Howe
+  Variant          : National Infastructure
+  Timetable variant: Kings Cross to Edinbugh Base Dec20
+  Line             : ECML Longlands Jn - Edinburgh
+  Date             : 2018-02-22 / 26/11/2020 16:03
+
+ Log file for calculation of scheduled timetable
+
+--------------------------------------------------------------------------------
+
+Calculation of scheduled timetable: 24.044s
+	Status: Reading timetable file "C:/Users/Tfarhy/OneDrive - Network Rail/2020.11.24_XML backend for adding connections/longlands_progadd.rsx"
+	Status: Imported trains: 1984
+	Error: Completion of train route: No train route found beyond station PRNCSTG, sequential number 4 (Block sections for train route not found from M/P signal (hmktj/1704) onwards, station   5/PRNCSTG)
+	Error: Completion of train route: No train route found beyond station EDINBUR, sequential number 0 (no (suitable) block sections found for entry (first station))
+	Error: Completion of train route: No train route found beyond station PRNCSTG, sequential number 5 (Block sections for train route not found from EDINBUR D-11 onwards, station   6/PRNCSTG)
+ Rechenzeit 1.8s
+--------------------------------------------------------------------------------
+Program: RailSys-Timetable and simulation manager   Version 10.3.296
+
+Project: NIM 2018 02 14
+
+  Editor           : Alec Howe
+  Variant          : National Infastructure
+  Timetable variant: Kings Cross to Edinbugh Base Dec20
+  Line             : ECML Longlands Jn - Edinburgh
+  Date             : 2018-02-22 / 26/11/2020 16:29
+
+ Log file for calculation of scheduled timetable
+
+--------------------------------------------------------------------------------
+
+Calculation of scheduled timetable: 24.73s
+	Status: Reading timetable file "C:/Users/Tfarhy/OneDrive - Network Rail/2020.11.24_XML backend for adding connections/longlands_progadd.rsx"
+	Status: Imported trains: 1984
+	Error: Completion of train route: No train route found beyond station PRNCSTG, sequential number 5 (Block sections for train route not found from EDINBUR D-11 onwards, station   6/PRNCSTG)
+	Error: Completion of train route: No train route found beyond station EDINBUR, sequential number 0 (no (suitable) block sections found for entry (first station))
+	Error: Completion of train route: No train route found beyond station PRNCSTG, sequential number 4 (Block sections for train route not found from M/P signal (hmktj/1704) onwards, station   5/PRNCSTG)
+ Rechenzeit 1.9s
+--------------------------------------------------------------------------------
+Program: RailSys-Timetable and simulation manager   Version 10.3.296
+
+Project: NIM 2018 02 14
+
+  Editor           : Alec Howe
+  Variant          : National Infastructure
+  Timetable variant: Kings Cross to Edinbugh Base Dec20
+  Line             : ECML Longlands Jn - Edinburgh
+  Date             : 2018-02-22 / 27/11/2020 17:23
+
+ Log file for calculation of scheduled timetable
+
+--------------------------------------------------------------------------------
+
+Calculation of scheduled timetable: 23.344s
+	Status: Reading timetable file "C:/Users/Tfarhy/OneDrive - Network Rail/2020.11.24_XML backend for adding connections/longlands_progadd.rsx"
+	Status: Imported trains: 1984
+	Error: Completion of train route: No train route found beyond station PRNCSTG, sequential number 5 (Block sections for train route not found from EDINBUR D-11 onwards, station   6/PRNCSTG)
+	Error: Completion of train route: No train route found beyond station EDINBUR, sequential number 0 (no (suitable) block sections found for entry (first station))
+	Error: Completion of train route: No train route found beyond station PRNCSTG, sequential number 4 (Block sections for train route not found from M/P signal (hmktj/1704) onwards, station   5/PRNCSTG)
+ Rechenzeit 2.7s
+--------------------------------------------------------------------------------
+Program: RailSys-Timetable and simulation manager   Version 10.3.296
+
+Project: NIM 2018 02 14
+
+  Editor           : Alec Howe
+  Variant          : National Infastructure
+  Timetable variant: Kings Cross to Edinbugh Base Dec20
+  Line             : ECML Longlands Jn - Edinburgh
+  Date             : 2018-02-22 / 30/11/2020 14:54
+
+ Log file for calculation of scheduled timetable
+
+--------------------------------------------------------------------------------
+
+Calculation of scheduled timetable: 27.784s
+	Status: Reading timetable file "C:/Users/Tfarhy/OneDrive - Network Rail/2020.11.24_XML backend for adding connections/longlands.rsx"
+	Status: Imported trains: 1984
+	Error: Completion of train route: No train route found beyond station PRNCSTG, sequential number 5 (Block sections for train route not found from EDINBUR D-11 onwards, station   6/PRNCSTG)
+	Error: Completion of train route: No train route found beyond station EDINBUR, sequential number 0 (no (suitable) block sections found for entry (first station))
+	Error: Completion of train route: No train route found beyond station PRNCSTG, sequential number 4 (Block sections for train route not found from M/P signal (hmktj/1704) onwards, station   5/PRNCSTG)
+ Rechenzeit 2.4s
+--------------------------------------------------------------------------------
+Program: RailSys-Timetable and simulation manager   Version 10.3.296
+
+Project: NIM 2018 02 14
+
+  Editor           : Alec Howe
+  Variant          : National Infastructure
+  Timetable variant: Kings Cross to Edinbugh Base Dec20
+  Line             : ECML Longlands Jn - Edinburgh
+  Date             : 2018-02-22 / 30/11/2020 15:02
+
+ Log file for calculation of scheduled timetable
+
+--------------------------------------------------------------------------------
+
+Calculation of scheduled timetable: 21.321s
+	Status: Reading timetable file "C:/Users/Tfarhy/OneDrive - Network Rail/2020.11.24_XML backend for adding connections/longlands.rsx"
+	Status: Imported trains: 1984
+	Error: Completion of train route: No train route found beyond station PRNCSTG, sequential number 5 (Block sections for train route not found from EDINBUR D-11 onwards, station   6/PRNCSTG)
+	Error: Completion of train route: No train route found beyond station EDINBUR, sequential number 0 (no (suitable) block sections found for entry (first station))
+	Error: Completion of train route: No train route found beyond station PRNCSTG, sequential number 4 (Block sections for train route not found from M/P signal (hmktj/1704) onwards, station   5/PRNCSTG)
+ Rechenzeit 1.7s
+--------------------------------------------------------------------------------
+Program: RailSys-Timetable and simulation manager   Version 10.3.296
+
+Project: NIM 2018 02 14
+
+  Editor           : Alec Howe
+  Variant          : National Infastructure
+  Timetable variant: Kings Cross to Edinbugh Base Dec20
+  Line             : ECML Longlands Jn - Edinburgh
+  Date             : 2018-02-22 / 02/12/2020 15:37
+
+ Log file for calculation of scheduled timetable
+
+--------------------------------------------------------------------------------
+
+Calculation of scheduled timetable: 26.11s
+	Status: Reading timetable file "C:/Users/Tfarhy/OneDrive - Network Rail/2020.11.24_XML backend for adding connections/longlands.rsx"
+	Status: Imported trains: 1984
+	Error: Completion of train route: No train route found beyond station PRNCSTG, sequential number 5 (Block sections for train route not found from EDINBUR D-11 onwards, station   6/PRNCSTG)
+	Error: Completion of train route: No train route found beyond station EDINBUR, sequential number 0 (no (suitable) block sections found for entry (first station))
+	Error: Completion of train route: No train route found beyond station PRNCSTG, sequential number 4 (Block sections for train route not found from M/P signal (hmktj/1704) onwards, station   5/PRNCSTG)
+ Rechenzeit 2.0s
+--------------------------------------------------------------------------------
+Program: RailSys-Timetable and simulation manager   Version 10.3.296
+
+Project: NIM 2018 02 14
+
+  Editor           : Alec Howe
+  Variant          : National Infastructure
+  Timetable variant: Kings Cross to Edinbugh Base Dec20
+  Line             : ECML Longlands Jn - Edinburgh
+  Date             : 2018-02-22 / 03/12/2020 12:04
+
+ Log file for calculation of scheduled timetable
+
+--------------------------------------------------------------------------------
+
+Calculation of scheduled timetable: 22.869s
+Status: Schreibe Taktdatei "C:/railsys models/ECML (Longlands Jn - Edinburgh) TT Base - 6.11.20/var-National Infastructure-Kings Cross to Edinbugh Base Dec20/dat/takt.xml"
+Status: Writing catalogue of operators "C:/railsys models/ECML (Longlands Jn - Edinburgh) TT Base - 6.11.20/global/dat/betreiber.xml"
+Status: Writing catalogue of lines "C:/railsys models/ECML (Longlands Jn - Edinburgh) TT Base - 6.11.20/global/dat/linien.xml"
+Status: Write catalogue of operating day names "C:/railsys models/ECML (Longlands Jn - Edinburgh) TT Base - 6.11.20/global/dat/verkehrstagname.xml"
+Status: Writing traffic types "C:/railsys models/ECML (Longlands Jn - Edinburgh) TT Base - 6.11.20/global/dat/verkehrsarten.xml"
+Status: Writing file C:/railsys models/ECML (Longlands Jn - Edinburgh) TT Base - 6.11.20/global/dat/time_slice_parameters.xml
+Status: Writing colours of train class "C:/railsys models/ECML (Longlands Jn - Edinburgh) TT Base - 6.11.20/global/dat/zugklassenfarben.xml"
+Status: Writing file C:/railsys models/ECML (Longlands Jn - Edinburgh) TT Base - 6.11.20/var-National Infastructure-Kings Cross to Edinbugh Base Dec20/bin/betrieb.ECML Longlands Jn - Edinburgh.bin
+Schreiben der bin.Daten: 2.96875/5.297

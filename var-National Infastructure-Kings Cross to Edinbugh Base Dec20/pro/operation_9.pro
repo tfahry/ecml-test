@@ -7,7 +7,7 @@ Project: NIM 2018 02 14
   Variant          : National Infastructure
   Timetable variant: Kings Cross to Edinbugh Base Dec20
   Line             : ECML Longlands Jn - Edinburgh
-  Date             : 2018-02-22 / 24/11/2020 09:47
+  Date             : 2018-02-22 / 24/11/2020 13:26
 
  Base data of timetable
 
@@ -28,7 +28,7 @@ Status: Loading file C:/Users/OYusuff/Desktop/ECML (Longlands Jn - Edinburgh) TT
 Status: Loading file C:/Users/OYusuff/Desktop/ECML (Longlands Jn - Edinburgh) TT Base - 09.11.2020/ECML (Longlands Jn - Edinburgh) TT Base - 6.11.20/global/dat/traction_unit_usage.xml
 Status: Loading file C:/Users/OYusuff/Desktop/ECML (Longlands Jn - Edinburgh) TT Base - 09.11.2020/ECML (Longlands Jn - Edinburgh) TT Base - 6.11.20/global/dat/time_slice_parameters.xml
 Status: Checking train types
-Lesen der bin.Daten: 6.66124/2.428
+Lesen der bin.Daten: 6.66124/2.503
 Status: Loading file C:/Users/OYusuff/Desktop/ECML (Longlands Jn - Edinburgh) TT Base - 09.11.2020/ECML (Longlands Jn - Edinburgh) TT Base - 6.11.20/global/dat\disruptions.xml
 	Error: Pattern /In Time Scope/Cross Country does not exist (Reading file C:/Users/OYusuff/Desktop/ECML (Longlands Jn - Edinburgh) TT Base - 09.11.2020/ECML (Longlands Jn - Edinburgh) TT Base - 6.11.20/global/dat\disruptions.xml).
 	Error: Pattern /In Time Scope/East Midland Railway/1 Down Norwich Services does not exist (Reading file C:/Users/OYusuff/Desktop/ECML (Longlands Jn - Edinburgh) TT Base - 09.11.2020/ECML (Longlands Jn - Edinburgh) TT Base - 6.11.20/global/dat\disruptions.xml).
@@ -173,7 +173,7 @@ Status: Writing traffic types "C:/Users/OYusuff/Desktop/ECML (Longlands Jn - Edi
 Status: Writing file C:/Users/OYusuff/Desktop/ECML (Longlands Jn - Edinburgh) TT Base - 09.11.2020/ECML (Longlands Jn - Edinburgh) TT Base - 6.11.20/global/dat/time_slice_parameters.xml
 Status: Writing colours of train class "C:/Users/OYusuff/Desktop/ECML (Longlands Jn - Edinburgh) TT Base - 09.11.2020/ECML (Longlands Jn - Edinburgh) TT Base - 6.11.20/global/dat/zugklassenfarben.xml"
 Status: Writing file C:/Users/OYusuff/Desktop/ECML (Longlands Jn - Edinburgh) TT Base - 09.11.2020/ECML (Longlands Jn - Edinburgh) TT Base - 6.11.20/var-National Infastructure-Kings Cross to Edinbugh Base Dec20/bin/betrieb.ECML Longlands Jn - Edinburgh.bin
-Schreiben der bin.Daten: 4.32123/1.02
+Schreiben der bin.Daten: 5.92804/1.259
 Status: Schreibe Taktdatei "C:/Users/OYusuff/Desktop/ECML (Longlands Jn - Edinburgh) TT Base - 09.11.2020/ECML (Longlands Jn - Edinburgh) TT Base - 6.11.20/var-National Infastructure-Kings Cross to Edinbugh Base Dec20/dat/takt.xml"
 Status: Writing catalogue of operators "C:/Users/OYusuff/Desktop/ECML (Longlands Jn - Edinburgh) TT Base - 09.11.2020/ECML (Longlands Jn - Edinburgh) TT Base - 6.11.20/global/dat/betreiber.xml"
 Status: Writing catalogue of lines "C:/Users/OYusuff/Desktop/ECML (Longlands Jn - Edinburgh) TT Base - 09.11.2020/ECML (Longlands Jn - Edinburgh) TT Base - 6.11.20/global/dat/linien.xml"
@@ -182,7 +182,7 @@ Status: Writing traffic types "C:/Users/OYusuff/Desktop/ECML (Longlands Jn - Edi
 Status: Writing file C:/Users/OYusuff/Desktop/ECML (Longlands Jn - Edinburgh) TT Base - 09.11.2020/ECML (Longlands Jn - Edinburgh) TT Base - 6.11.20/global/dat/time_slice_parameters.xml
 Status: Writing colours of train class "C:/Users/OYusuff/Desktop/ECML (Longlands Jn - Edinburgh) TT Base - 09.11.2020/ECML (Longlands Jn - Edinburgh) TT Base - 6.11.20/global/dat/zugklassenfarben.xml"
 Status: Writing file C:/Users/OYusuff/Desktop/ECML (Longlands Jn - Edinburgh) TT Base - 09.11.2020/ECML (Longlands Jn - Edinburgh) TT Base - 6.11.20/var-National Infastructure-Kings Cross to Edinbugh Base Dec20/bin/betrieb.ECML Longlands Jn - Edinburgh.bin
-Schreiben der bin.Daten: 4.49283/1.059
+Schreiben der bin.Daten: 4.71123/1.185
 Status: Schreibe Taktdatei "C:/Users/OYusuff/Desktop/ECML (Longlands Jn - Edinburgh) TT Base - 09.11.2020/ECML (Longlands Jn - Edinburgh) TT Base - 6.11.20/var-National Infastructure-Kings Cross to Edinbugh Base Dec20/dat/takt.xml"
 Status: Writing catalogue of operators "C:/Users/OYusuff/Desktop/ECML (Longlands Jn - Edinburgh) TT Base - 09.11.2020/ECML (Longlands Jn - Edinburgh) TT Base - 6.11.20/global/dat/betreiber.xml"
 Status: Writing catalogue of lines "C:/Users/OYusuff/Desktop/ECML (Longlands Jn - Edinburgh) TT Base - 09.11.2020/ECML (Longlands Jn - Edinburgh) TT Base - 6.11.20/global/dat/linien.xml"
@@ -191,7 +191,7 @@ Status: Writing traffic types "C:/Users/OYusuff/Desktop/ECML (Longlands Jn - Edi
 Status: Writing file C:/Users/OYusuff/Desktop/ECML (Longlands Jn - Edinburgh) TT Base - 09.11.2020/ECML (Longlands Jn - Edinburgh) TT Base - 6.11.20/global/dat/time_slice_parameters.xml
 Status: Writing colours of train class "C:/Users/OYusuff/Desktop/ECML (Longlands Jn - Edinburgh) TT Base - 09.11.2020/ECML (Longlands Jn - Edinburgh) TT Base - 6.11.20/global/dat/zugklassenfarben.xml"
 Status: Writing file C:/Users/OYusuff/Desktop/ECML (Longlands Jn - Edinburgh) TT Base - 09.11.2020/ECML (Longlands Jn - Edinburgh) TT Base - 6.11.20/var-National Infastructure-Kings Cross to Edinbugh Base Dec20/bin/betrieb.ECML Longlands Jn - Edinburgh.bin
-Schreiben der bin.Daten: 4.96083/1.051
+Schreiben der bin.Daten: 4.85163/1.192
 Status: Schreibe Taktdatei "C:/Users/OYusuff/Desktop/ECML (Longlands Jn - Edinburgh) TT Base - 09.11.2020/ECML (Longlands Jn - Edinburgh) TT Base - 6.11.20/var-National Infastructure-Kings Cross to Edinbugh Base Dec20/dat/takt.xml"
 Status: Writing catalogue of operators "C:/Users/OYusuff/Desktop/ECML (Longlands Jn - Edinburgh) TT Base - 09.11.2020/ECML (Longlands Jn - Edinburgh) TT Base - 6.11.20/global/dat/betreiber.xml"
 Status: Writing catalogue of lines "C:/Users/OYusuff/Desktop/ECML (Longlands Jn - Edinburgh) TT Base - 09.11.2020/ECML (Longlands Jn - Edinburgh) TT Base - 6.11.20/global/dat/linien.xml"
@@ -200,15 +200,7 @@ Status: Writing traffic types "C:/Users/OYusuff/Desktop/ECML (Longlands Jn - Edi
 Status: Writing file C:/Users/OYusuff/Desktop/ECML (Longlands Jn - Edinburgh) TT Base - 09.11.2020/ECML (Longlands Jn - Edinburgh) TT Base - 6.11.20/global/dat/time_slice_parameters.xml
 Status: Writing colours of train class "C:/Users/OYusuff/Desktop/ECML (Longlands Jn - Edinburgh) TT Base - 09.11.2020/ECML (Longlands Jn - Edinburgh) TT Base - 6.11.20/global/dat/zugklassenfarben.xml"
 Status: Writing file C:/Users/OYusuff/Desktop/ECML (Longlands Jn - Edinburgh) TT Base - 09.11.2020/ECML (Longlands Jn - Edinburgh) TT Base - 6.11.20/var-National Infastructure-Kings Cross to Edinbugh Base Dec20/bin/betrieb.ECML Longlands Jn - Edinburgh.bin
-Schreiben der bin.Daten: 4.69563/1.047
-Status: Schreibe Taktdatei "C:/Users/OYusuff/Desktop/ECML (Longlands Jn - Edinburgh) TT Base - 09.11.2020/ECML (Longlands Jn - Edinburgh) TT Base - 6.11.20/var-National Infastructure-Kings Cross to Edinbugh Base Dec20/dat/takt.xml"
-Status: Writing catalogue of operators "C:/Users/OYusuff/Desktop/ECML (Longlands Jn - Edinburgh) TT Base - 09.11.2020/ECML (Longlands Jn - Edinburgh) TT Base - 6.11.20/global/dat/betreiber.xml"
-Status: Writing catalogue of lines "C:/Users/OYusuff/Desktop/ECML (Longlands Jn - Edinburgh) TT Base - 09.11.2020/ECML (Longlands Jn - Edinburgh) TT Base - 6.11.20/global/dat/linien.xml"
-Status: Write catalogue of operating day names "C:/Users/OYusuff/Desktop/ECML (Longlands Jn - Edinburgh) TT Base - 09.11.2020/ECML (Longlands Jn - Edinburgh) TT Base - 6.11.20/global/dat/verkehrstagname.xml"
-Status: Writing traffic types "C:/Users/OYusuff/Desktop/ECML (Longlands Jn - Edinburgh) TT Base - 09.11.2020/ECML (Longlands Jn - Edinburgh) TT Base - 6.11.20/global/dat/verkehrsarten.xml"
-Status: Writing file C:/Users/OYusuff/Desktop/ECML (Longlands Jn - Edinburgh) TT Base - 09.11.2020/ECML (Longlands Jn - Edinburgh) TT Base - 6.11.20/global/dat/time_slice_parameters.xml
-Status: Writing colours of train class "C:/Users/OYusuff/Desktop/ECML (Longlands Jn - Edinburgh) TT Base - 09.11.2020/ECML (Longlands Jn - Edinburgh) TT Base - 6.11.20/global/dat/zugklassenfarben.xml"
- Writing scheduled timetable: Saving                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                1 of %2 trains
+Schreiben der bin.Daten: 4.99203/1.003
 Status: Schreibe Taktdatei "C:/Users/OYusuff/Desktop/ECML (Longlands Jn - Edinburgh) TT Base - 09.11.2020/ECML (Longlands Jn - Edinburgh) TT Base - 6.11.20/var-National Infastructure-Kings Cross to Edinbugh Base Dec20/dat/takt.xml"
 Status: Writing catalogue of operators "C:/Users/OYusuff/Desktop/ECML (Longlands Jn - Edinburgh) TT Base - 09.11.2020/ECML (Longlands Jn - Edinburgh) TT Base - 6.11.20/global/dat/betreiber.xml"
 Status: Writing catalogue of lines "C:/Users/OYusuff/Desktop/ECML (Longlands Jn - Edinburgh) TT Base - 09.11.2020/ECML (Longlands Jn - Edinburgh) TT Base - 6.11.20/global/dat/linien.xml"
@@ -217,7 +209,7 @@ Status: Writing traffic types "C:/Users/OYusuff/Desktop/ECML (Longlands Jn - Edi
 Status: Writing file C:/Users/OYusuff/Desktop/ECML (Longlands Jn - Edinburgh) TT Base - 09.11.2020/ECML (Longlands Jn - Edinburgh) TT Base - 6.11.20/global/dat/time_slice_parameters.xml
 Status: Writing colours of train class "C:/Users/OYusuff/Desktop/ECML (Longlands Jn - Edinburgh) TT Base - 09.11.2020/ECML (Longlands Jn - Edinburgh) TT Base - 6.11.20/global/dat/zugklassenfarben.xml"
 Status: Writing file C:/Users/OYusuff/Desktop/ECML (Longlands Jn - Edinburgh) TT Base - 09.11.2020/ECML (Longlands Jn - Edinburgh) TT Base - 6.11.20/var-National Infastructure-Kings Cross to Edinbugh Base Dec20/bin/betrieb.ECML Longlands Jn - Edinburgh.bin
-Schreiben der bin.Daten: 4.78923/1.042
+Schreiben der bin.Daten: 4.94523/1.042
 Status: Schreibe Taktdatei "C:/Users/OYusuff/Desktop/ECML (Longlands Jn - Edinburgh) TT Base - 09.11.2020/ECML (Longlands Jn - Edinburgh) TT Base - 6.11.20/var-National Infastructure-Kings Cross to Edinbugh Base Dec20/dat/takt.xml"
 Status: Writing catalogue of operators "C:/Users/OYusuff/Desktop/ECML (Longlands Jn - Edinburgh) TT Base - 09.11.2020/ECML (Longlands Jn - Edinburgh) TT Base - 6.11.20/global/dat/betreiber.xml"
 Status: Writing catalogue of lines "C:/Users/OYusuff/Desktop/ECML (Longlands Jn - Edinburgh) TT Base - 09.11.2020/ECML (Longlands Jn - Edinburgh) TT Base - 6.11.20/global/dat/linien.xml"
@@ -226,7 +218,7 @@ Status: Writing traffic types "C:/Users/OYusuff/Desktop/ECML (Longlands Jn - Edi
 Status: Writing file C:/Users/OYusuff/Desktop/ECML (Longlands Jn - Edinburgh) TT Base - 09.11.2020/ECML (Longlands Jn - Edinburgh) TT Base - 6.11.20/global/dat/time_slice_parameters.xml
 Status: Writing colours of train class "C:/Users/OYusuff/Desktop/ECML (Longlands Jn - Edinburgh) TT Base - 09.11.2020/ECML (Longlands Jn - Edinburgh) TT Base - 6.11.20/global/dat/zugklassenfarben.xml"
 Status: Writing file C:/Users/OYusuff/Desktop/ECML (Longlands Jn - Edinburgh) TT Base - 09.11.2020/ECML (Longlands Jn - Edinburgh) TT Base - 6.11.20/var-National Infastructure-Kings Cross to Edinbugh Base Dec20/bin/betrieb.ECML Longlands Jn - Edinburgh.bin
-Schreiben der bin.Daten: 4.10283/1.011
+Schreiben der bin.Daten: 5.46004/1.16
 Status: Schreibe Taktdatei "C:/Users/OYusuff/Desktop/ECML (Longlands Jn - Edinburgh) TT Base - 09.11.2020/ECML (Longlands Jn - Edinburgh) TT Base - 6.11.20/var-National Infastructure-Kings Cross to Edinbugh Base Dec20/dat/takt.xml"
 Status: Writing catalogue of operators "C:/Users/OYusuff/Desktop/ECML (Longlands Jn - Edinburgh) TT Base - 09.11.2020/ECML (Longlands Jn - Edinburgh) TT Base - 6.11.20/global/dat/betreiber.xml"
 Status: Writing catalogue of lines "C:/Users/OYusuff/Desktop/ECML (Longlands Jn - Edinburgh) TT Base - 09.11.2020/ECML (Longlands Jn - Edinburgh) TT Base - 6.11.20/global/dat/linien.xml"
@@ -235,7 +227,7 @@ Status: Writing traffic types "C:/Users/OYusuff/Desktop/ECML (Longlands Jn - Edi
 Status: Writing file C:/Users/OYusuff/Desktop/ECML (Longlands Jn - Edinburgh) TT Base - 09.11.2020/ECML (Longlands Jn - Edinburgh) TT Base - 6.11.20/global/dat/time_slice_parameters.xml
 Status: Writing colours of train class "C:/Users/OYusuff/Desktop/ECML (Longlands Jn - Edinburgh) TT Base - 09.11.2020/ECML (Longlands Jn - Edinburgh) TT Base - 6.11.20/global/dat/zugklassenfarben.xml"
 Status: Writing file C:/Users/OYusuff/Desktop/ECML (Longlands Jn - Edinburgh) TT Base - 09.11.2020/ECML (Longlands Jn - Edinburgh) TT Base - 6.11.20/var-National Infastructure-Kings Cross to Edinbugh Base Dec20/bin/betrieb.ECML Longlands Jn - Edinburgh.bin
-Schreiben der bin.Daten: 4.72683/0.966
+Schreiben der bin.Daten: 5.10123/1.083
 Status: Schreibe Taktdatei "C:/Users/OYusuff/Desktop/ECML (Longlands Jn - Edinburgh) TT Base - 09.11.2020/ECML (Longlands Jn - Edinburgh) TT Base - 6.11.20/var-National Infastructure-Kings Cross to Edinbugh Base Dec20/dat/takt.xml"
 Status: Writing catalogue of operators "C:/Users/OYusuff/Desktop/ECML (Longlands Jn - Edinburgh) TT Base - 09.11.2020/ECML (Longlands Jn - Edinburgh) TT Base - 6.11.20/global/dat/betreiber.xml"
 Status: Writing catalogue of lines "C:/Users/OYusuff/Desktop/ECML (Longlands Jn - Edinburgh) TT Base - 09.11.2020/ECML (Longlands Jn - Edinburgh) TT Base - 6.11.20/global/dat/linien.xml"
@@ -244,15 +236,7 @@ Status: Writing traffic types "C:/Users/OYusuff/Desktop/ECML (Longlands Jn - Edi
 Status: Writing file C:/Users/OYusuff/Desktop/ECML (Longlands Jn - Edinburgh) TT Base - 09.11.2020/ECML (Longlands Jn - Edinburgh) TT Base - 6.11.20/global/dat/time_slice_parameters.xml
 Status: Writing colours of train class "C:/Users/OYusuff/Desktop/ECML (Longlands Jn - Edinburgh) TT Base - 09.11.2020/ECML (Longlands Jn - Edinburgh) TT Base - 6.11.20/global/dat/zugklassenfarben.xml"
 Status: Writing file C:/Users/OYusuff/Desktop/ECML (Longlands Jn - Edinburgh) TT Base - 09.11.2020/ECML (Longlands Jn - Edinburgh) TT Base - 6.11.20/var-National Infastructure-Kings Cross to Edinbugh Base Dec20/bin/betrieb.ECML Longlands Jn - Edinburgh.bin
-Schreiben der bin.Daten: 4.82043/0.949
-Status: Schreibe Taktdatei "C:/Users/OYusuff/Desktop/ECML (Longlands Jn - Edinburgh) TT Base - 09.11.2020/ECML (Longlands Jn - Edinburgh) TT Base - 6.11.20/var-National Infastructure-Kings Cross to Edinbugh Base Dec20/dat/takt.xml"
-Status: Writing catalogue of operators "C:/Users/OYusuff/Desktop/ECML (Longlands Jn - Edinburgh) TT Base - 09.11.2020/ECML (Longlands Jn - Edinburgh) TT Base - 6.11.20/global/dat/betreiber.xml"
-Status: Writing catalogue of lines "C:/Users/OYusuff/Desktop/ECML (Longlands Jn - Edinburgh) TT Base - 09.11.2020/ECML (Longlands Jn - Edinburgh) TT Base - 6.11.20/global/dat/linien.xml"
-Status: Write catalogue of operating day names "C:/Users/OYusuff/Desktop/ECML (Longlands Jn - Edinburgh) TT Base - 09.11.2020/ECML (Longlands Jn - Edinburgh) TT Base - 6.11.20/global/dat/verkehrstagname.xml"
-Status: Writing traffic types "C:/Users/OYusuff/Desktop/ECML (Longlands Jn - Edinburgh) TT Base - 09.11.2020/ECML (Longlands Jn - Edinburgh) TT Base - 6.11.20/global/dat/verkehrsarten.xml"
-Status: Writing file C:/Users/OYusuff/Desktop/ECML (Longlands Jn - Edinburgh) TT Base - 09.11.2020/ECML (Longlands Jn - Edinburgh) TT Base - 6.11.20/global/dat/time_slice_parameters.xml
-Status: Writing colours of train class "C:/Users/OYusuff/Desktop/ECML (Longlands Jn - Edinburgh) TT Base - 09.11.2020/ECML (Longlands Jn - Edinburgh) TT Base - 6.11.20/global/dat/zugklassenfarben.xml"
- Writing scheduled timetable: Saving                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                1 of %2 trains
+Schreiben der bin.Daten: 4.33683/0.962
 Status: Schreibe Taktdatei "C:/Users/OYusuff/Desktop/ECML (Longlands Jn - Edinburgh) TT Base - 09.11.2020/ECML (Longlands Jn - Edinburgh) TT Base - 6.11.20/var-National Infastructure-Kings Cross to Edinbugh Base Dec20/dat/takt.xml"
 Status: Writing catalogue of operators "C:/Users/OYusuff/Desktop/ECML (Longlands Jn - Edinburgh) TT Base - 09.11.2020/ECML (Longlands Jn - Edinburgh) TT Base - 6.11.20/global/dat/betreiber.xml"
 Status: Writing catalogue of lines "C:/Users/OYusuff/Desktop/ECML (Longlands Jn - Edinburgh) TT Base - 09.11.2020/ECML (Longlands Jn - Edinburgh) TT Base - 6.11.20/global/dat/linien.xml"
@@ -261,7 +245,7 @@ Status: Writing traffic types "C:/Users/OYusuff/Desktop/ECML (Longlands Jn - Edi
 Status: Writing file C:/Users/OYusuff/Desktop/ECML (Longlands Jn - Edinburgh) TT Base - 09.11.2020/ECML (Longlands Jn - Edinburgh) TT Base - 6.11.20/global/dat/time_slice_parameters.xml
 Status: Writing colours of train class "C:/Users/OYusuff/Desktop/ECML (Longlands Jn - Edinburgh) TT Base - 09.11.2020/ECML (Longlands Jn - Edinburgh) TT Base - 6.11.20/global/dat/zugklassenfarben.xml"
 Status: Writing file C:/Users/OYusuff/Desktop/ECML (Longlands Jn - Edinburgh) TT Base - 09.11.2020/ECML (Longlands Jn - Edinburgh) TT Base - 6.11.20/var-National Infastructure-Kings Cross to Edinbugh Base Dec20/bin/betrieb.ECML Longlands Jn - Edinburgh.bin
-Schreiben der bin.Daten: 4.10283/0.92
+Schreiben der bin.Daten: 6.30244/1.34
 Status: Schreibe Taktdatei "C:/Users/OYusuff/Desktop/ECML (Longlands Jn - Edinburgh) TT Base - 09.11.2020/ECML (Longlands Jn - Edinburgh) TT Base - 6.11.20/var-National Infastructure-Kings Cross to Edinbugh Base Dec20/dat/takt.xml"
 Status: Writing catalogue of operators "C:/Users/OYusuff/Desktop/ECML (Longlands Jn - Edinburgh) TT Base - 09.11.2020/ECML (Longlands Jn - Edinburgh) TT Base - 6.11.20/global/dat/betreiber.xml"
 Status: Writing catalogue of lines "C:/Users/OYusuff/Desktop/ECML (Longlands Jn - Edinburgh) TT Base - 09.11.2020/ECML (Longlands Jn - Edinburgh) TT Base - 6.11.20/global/dat/linien.xml"
@@ -270,31 +254,4 @@ Status: Writing traffic types "C:/Users/OYusuff/Desktop/ECML (Longlands Jn - Edi
 Status: Writing file C:/Users/OYusuff/Desktop/ECML (Longlands Jn - Edinburgh) TT Base - 09.11.2020/ECML (Longlands Jn - Edinburgh) TT Base - 6.11.20/global/dat/time_slice_parameters.xml
 Status: Writing colours of train class "C:/Users/OYusuff/Desktop/ECML (Longlands Jn - Edinburgh) TT Base - 09.11.2020/ECML (Longlands Jn - Edinburgh) TT Base - 6.11.20/global/dat/zugklassenfarben.xml"
 Status: Writing file C:/Users/OYusuff/Desktop/ECML (Longlands Jn - Edinburgh) TT Base - 09.11.2020/ECML (Longlands Jn - Edinburgh) TT Base - 6.11.20/var-National Infastructure-Kings Cross to Edinbugh Base Dec20/bin/betrieb.ECML Longlands Jn - Edinburgh.bin
-Schreiben der bin.Daten: 5.47564/1.133
-Status: Schreibe Taktdatei "C:/Users/OYusuff/Desktop/ECML (Longlands Jn - Edinburgh) TT Base - 09.11.2020/ECML (Longlands Jn - Edinburgh) TT Base - 6.11.20/var-National Infastructure-Kings Cross to Edinbugh Base Dec20/dat/takt.xml"
-Status: Writing catalogue of operators "C:/Users/OYusuff/Desktop/ECML (Longlands Jn - Edinburgh) TT Base - 09.11.2020/ECML (Longlands Jn - Edinburgh) TT Base - 6.11.20/global/dat/betreiber.xml"
-Status: Writing catalogue of lines "C:/Users/OYusuff/Desktop/ECML (Longlands Jn - Edinburgh) TT Base - 09.11.2020/ECML (Longlands Jn - Edinburgh) TT Base - 6.11.20/global/dat/linien.xml"
-Status: Write catalogue of operating day names "C:/Users/OYusuff/Desktop/ECML (Longlands Jn - Edinburgh) TT Base - 09.11.2020/ECML (Longlands Jn - Edinburgh) TT Base - 6.11.20/global/dat/verkehrstagname.xml"
-Status: Writing traffic types "C:/Users/OYusuff/Desktop/ECML (Longlands Jn - Edinburgh) TT Base - 09.11.2020/ECML (Longlands Jn - Edinburgh) TT Base - 6.11.20/global/dat/verkehrsarten.xml"
-Status: Writing file C:/Users/OYusuff/Desktop/ECML (Longlands Jn - Edinburgh) TT Base - 09.11.2020/ECML (Longlands Jn - Edinburgh) TT Base - 6.11.20/global/dat/time_slice_parameters.xml
-Status: Writing colours of train class "C:/Users/OYusuff/Desktop/ECML (Longlands Jn - Edinburgh) TT Base - 09.11.2020/ECML (Longlands Jn - Edinburgh) TT Base - 6.11.20/global/dat/zugklassenfarben.xml"
-Status: Writing file C:/Users/OYusuff/Desktop/ECML (Longlands Jn - Edinburgh) TT Base - 09.11.2020/ECML (Longlands Jn - Edinburgh) TT Base - 6.11.20/var-National Infastructure-Kings Cross to Edinbugh Base Dec20/bin/betrieb.ECML Longlands Jn - Edinburgh.bin
-Schreiben der bin.Daten: 4.41483/1.113
-Status: Schreibe Taktdatei "C:/Users/OYusuff/Desktop/ECML (Longlands Jn - Edinburgh) TT Base - 09.11.2020/ECML (Longlands Jn - Edinburgh) TT Base - 6.11.20/var-National Infastructure-Kings Cross to Edinbugh Base Dec20/dat/takt.xml"
-Status: Writing catalogue of operators "C:/Users/OYusuff/Desktop/ECML (Longlands Jn - Edinburgh) TT Base - 09.11.2020/ECML (Longlands Jn - Edinburgh) TT Base - 6.11.20/global/dat/betreiber.xml"
-Status: Writing catalogue of lines "C:/Users/OYusuff/Desktop/ECML (Longlands Jn - Edinburgh) TT Base - 09.11.2020/ECML (Longlands Jn - Edinburgh) TT Base - 6.11.20/global/dat/linien.xml"
-Status: Write catalogue of operating day names "C:/Users/OYusuff/Desktop/ECML (Longlands Jn - Edinburgh) TT Base - 09.11.2020/ECML (Longlands Jn - Edinburgh) TT Base - 6.11.20/global/dat/verkehrstagname.xml"
-Status: Writing traffic types "C:/Users/OYusuff/Desktop/ECML (Longlands Jn - Edinburgh) TT Base - 09.11.2020/ECML (Longlands Jn - Edinburgh) TT Base - 6.11.20/global/dat/verkehrsarten.xml"
-Status: Writing file C:/Users/OYusuff/Desktop/ECML (Longlands Jn - Edinburgh) TT Base - 09.11.2020/ECML (Longlands Jn - Edinburgh) TT Base - 6.11.20/global/dat/time_slice_parameters.xml
-Status: Writing colours of train class "C:/Users/OYusuff/Desktop/ECML (Longlands Jn - Edinburgh) TT Base - 09.11.2020/ECML (Longlands Jn - Edinburgh) TT Base - 6.11.20/global/dat/zugklassenfarben.xml"
-Status: Writing file C:/Users/OYusuff/Desktop/ECML (Longlands Jn - Edinburgh) TT Base - 09.11.2020/ECML (Longlands Jn - Edinburgh) TT Base - 6.11.20/var-National Infastructure-Kings Cross to Edinbugh Base Dec20/bin/betrieb.ECML Longlands Jn - Edinburgh.bin
-Schreiben der bin.Daten: 4.89843/1.079
-Status: Schreibe Taktdatei "C:/Users/OYusuff/Desktop/ECML (Longlands Jn - Edinburgh) TT Base - 09.11.2020/ECML (Longlands Jn - Edinburgh) TT Base - 6.11.20/var-National Infastructure-Kings Cross to Edinbugh Base Dec20/dat/takt.xml"
-Status: Writing catalogue of operators "C:/Users/OYusuff/Desktop/ECML (Longlands Jn - Edinburgh) TT Base - 09.11.2020/ECML (Longlands Jn - Edinburgh) TT Base - 6.11.20/global/dat/betreiber.xml"
-Status: Writing catalogue of lines "C:/Users/OYusuff/Desktop/ECML (Longlands Jn - Edinburgh) TT Base - 09.11.2020/ECML (Longlands Jn - Edinburgh) TT Base - 6.11.20/global/dat/linien.xml"
-Status: Write catalogue of operating day names "C:/Users/OYusuff/Desktop/ECML (Longlands Jn - Edinburgh) TT Base - 09.11.2020/ECML (Longlands Jn - Edinburgh) TT Base - 6.11.20/global/dat/verkehrstagname.xml"
-Status: Writing traffic types "C:/Users/OYusuff/Desktop/ECML (Longlands Jn - Edinburgh) TT Base - 09.11.2020/ECML (Longlands Jn - Edinburgh) TT Base - 6.11.20/global/dat/verkehrsarten.xml"
-Status: Writing file C:/Users/OYusuff/Desktop/ECML (Longlands Jn - Edinburgh) TT Base - 09.11.2020/ECML (Longlands Jn - Edinburgh) TT Base - 6.11.20/global/dat/time_slice_parameters.xml
-Status: Writing colours of train class "C:/Users/OYusuff/Desktop/ECML (Longlands Jn - Edinburgh) TT Base - 09.11.2020/ECML (Longlands Jn - Edinburgh) TT Base - 6.11.20/global/dat/zugklassenfarben.xml"
-Status: Writing file C:/Users/OYusuff/Desktop/ECML (Longlands Jn - Edinburgh) TT Base - 09.11.2020/ECML (Longlands Jn - Edinburgh) TT Base - 6.11.20/var-National Infastructure-Kings Cross to Edinbugh Base Dec20/bin/betrieb.ECML Longlands Jn - Edinburgh.bin
-Schreiben der bin.Daten: 3.35402/0.912
+Schreiben der bin.Daten: 5.66284/1.166
