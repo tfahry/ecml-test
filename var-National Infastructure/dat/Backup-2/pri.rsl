@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<line lineID="pri" name="Princes Risborough" trafficRouting="on_the_left" type="global" dependentLines="md701 md720">
+	<transformations>
+		<transformation line="1" m11="1" m12="0" m21="0" m22="1" dx="0" dy="0"/>
+		<transformation line="10701" m11="1" m12="0" m21="0" m22="1" dx="63774" dy="-7374"/>
+		<transformation line="10720" m11="1" m12="0" m21="0" m22="1" dx="18769" dy="-7684"/>
+		<transformation line="md701" m11="1" m12="0" m21="0" m22="1" dx="-479896" dy="9057"/>
+		<transformation line="md720" m11="1" m12="0" m21="0" m22="1" dx="-321576" dy="27139"/>
+	</transformations>
+	<version major="1" minor="2" patchlevel="0" comment=""/>
+	<creator user="VWaddelo" timestamp="2016-07-08T10:58:15"/>
+	<lasteditor user="VWaddelo" timestamp="2016-07-08T10:58:15"/>
+	<stations>
+		<station stationID="PRINRIS" name="Princes Risborough" xNet="163183.745" yNet="1095887" uicLocationCode="0" circleDiameter="0">
+			<textElement type="name">
+				<pos view="net" x="3571.7" y="3571.7" angle="0" system="source"/>
+				<pos view="wgs84" x="3571.7" y="3571.7" angle="0" system="source"/>
+				<pos view="line" x="5387.46" y="5387.46" angle="0" system="source"/>
+				<pos view="macro" x="28.2843" y="28.2843" angle="0" system="source"/>
+				<pos view="macroWgs84" x="0" y="0" angle="0" system="source"/>
+			</textElement>
+		</station>
+	</stations>
+	<nodes>
+		<node nodeID="2" name="GRAD" kilometre="39.289" x="993844" y="-27293.001" xNet="163109.21" yNet="1091604.8"/>
+		<track trackID="D-2" stationID="PRINRIS" interlockingMachine="3 Aspect Pannel (Below 75mph)" nodeID="70020" name="SIG:ME165" kilometre="39.492" x="997904" y="-27293.001" xNet="163089.74" yNet="1095357.4" referenceNode="70121">
+			<platform startPos="-1580" endPos="50" width="150" left="false" open="false"/>
+		</track>
+		<node nodeID="3" name="GRAD" kilometre="39.289" x="993844" y="-27102.001" xNet="162909.44" yNet="1091608.6"/>
+		<track trackID="D-3" stationID="PRINRIS" interlockingMachine="3 Aspect Pannel (Below 75mph)" nodeID="70041" name="SIG:ME163" kilometre="39.492" x="997904" y="-27102.001" xNet="162891.19" yNet="1095385.1" referenceNode="70120">
+			<platform startPos="-1700" endPos="0" width="150" left="true" open="true"/>
+		</track>
+		<track trackID="Z-1" stationID="PRINRIS" interlockingMachine="3 Aspect Pannel (Below 75mph)" nodeID="70057" name="SIG:8" kilometre="39.420" x="997218" y="-27507.001" xNet="163384.52" yNet="1096579.7" referenceNode="70059"/>
+		<track trackID="U-1" stationID="PRINRIS" type="stopBoard" nodeID="70059" kilometre="39.424" x="997298" y="-27507.001" xNet="163385.78" yNet="1096619.5" referenceNode="70091"/>
+		<track trackID="D-1" stationID="PRINRIS" interlockingMachine="3 Aspect Pannel (Below 75mph)" nodeID="70058" name="SIG:ME167" kilometre="68.257" x="1002110" y="-27510.001" xNet="163457.77" yNet="1100134.5" referenceNode="70088"/>
+		<switch start="70023" endOfMainTrack="70081" endOfBranchTrack="70098" nodeID="70080" name="POINTS:" kilometre="39.500" x="998064" y="-27293.001" xNet="163132.75" yNet="1097013.6"/>
+		<switch start="70080" endOfMainTrack="70100" endOfBranchTrack="70085" nodeID="70081" name="POINTS:" kilometre="39.593" x="1000534" y="-27293.001" xNet="163228.92" yNet="1099334.9"/>
+		<switch start="1" endOfMainTrack="70102" endOfBranchTrack="70097" nodeID="70082" name="POINTS:" kilometre="39.588" x="999824" y="-27102.001" xNet="162963.12" yNet="1097900"/>
+		<switch start="70127" endOfMainTrack="70068" endOfBranchTrack="70086" nodeID="70084" name="POINTS:" kilometre="68.333" x="1003630" y="-27510.001" xNet="163418.16" yNet="1100892.8"/>
+		<kilometreInconsistency newKilometre="39.594" nodeID="70085" kilometre="68.216" x="1000734" y="-27318.001" xNet="163318.18" yNet="1099821.8" referenceNode="70092"/>
+		<kilometreInconsistency newKilometre="39.594" nodeID="70087" kilometre="68.216" x="1001298" y="-27507.001" xNet="163476.3" yNet="1099728.6" referenceNode="70090"/>
+		<node nodeID="70088" name="GRAD" kilometre="68.254" x="1002050" y="-27510.001" xNet="163459.06" yNet="1100104.7"/>
+		<node nodeID="70063" name="TC" kilometre="68.262" x="1002210" y="-27510.001" xNet="163454.74" yNet="1100184.2"/>
+		<node nodeID="70090" name="SD:" kilometre="68.231" x="1001590" y="-27510.001" xNet="163471.14" yNet="1099874.7" referenceNode="70087" sightingDistance="true"/>
+		<node nodeID="70091" name="GRAD" kilometre="39.480" x="998098" y="-27507.001" xNet="163400" yNet="1097019.6"/>
+		<speedIndicator nodeID="70097" name="SPEED" kilometre="39.583" x="999724" y="-27113.001" xNet="162972.38" yNet="1097849.4" referenceNode="70082"/>
+		<speedIndicator nodeID="70098" name="SPEED" kilometre="39.505" x="998164" y="-27282.001" xNet="163123.41" yNet="1097064.2" referenceNode="70097"/>
+		<node nodeID="70102" name="TC" kilometre="39.494" x="997944" y="-27102.001" xNet="162931.06" yNet="1096960.5"/>
+		<track trackID="U-3" stationID="PRINRIS" type="stopBoard" nodeID="70104" kilometre="39.331" x="994684" y="-27102.001" xNet="162916.24" yNet="1092028.8" referenceNode="70120"/>
+		<track trackID="Z-2" stationID="PRINRIS" interlockingMachine="3 Aspect Pannel (Below 75mph)" nodeID="70016" name="SIG:ME162" kilometre="39.217" x="992404" y="-27293.001" xNet="163096.37" yNet="1090885.3" referenceNode="2"/>
+		<track trackID="U-2" stationID="PRINRIS" type="stopBoard" nodeID="70039" kilometre="39.331" x="994684" y="-27293.001" xNet="163115.89" yNet="1092024.9" referenceNode="70112"/>
+		<signal type="shunting" interlockingMachine="Shunt" nodeID="4" name="SIG:SHUNT ME160" kilometre="39.197" x="992004" y="-27102.001" xNet="162893.41" yNet="1090688.7" referenceNode="209"/>
+		<node nodeID="6" name="TC" kilometre="39.193" x="991924" y="-27102.001" xNet="162892.83" yNet="1090648.8">
+			<netLimitInfo lineID="md701"/>
+		</node>
+		<node nodeID="70077" name="TC" kilometre="39.203" x="992124" y="-27293.001" xNet="163094.15" yNet="1090745.2">
+			<netLimitInfo lineID="md701"/>
+		</node>
+		<node nodeID="70120" name="GRAD" kilometre="39.480" x="997664" y="-27102.001" xNet="162891.53" yNet="1093291.7"/>
+		<node nodeID="70121" name="GRAD" kilometre="39.480" x="997664" y="-27293.001" xNet="163164.94" yNet="1093158.5"/>
+		<node nodeID="1" name="GA" kilometre="39.601" x="1000240" y="-27102.001" xNet="163037.94" yNet="1099177.9"/>
+		<switch start="1" endOfMainTrack="1020" endOfBranchTrack="70101" nodeID="70083" name="POINTS:" kilometre="39.611" x="1007486" y="-27086.001" xNet="163028.46" yNet="1099345.6"/>
+		<speedIndicator nodeID="70089" name="SPEED" kilometre="39.630" x="1007677" y="-27086.001" xNet="163021.2" yNet="1099477.6" referenceNode="70099"/>
+		<node nodeID="70099" kilometre="39.636" x="1007737.5" y="-27086.001" xNet="163018.83" yNet="1099519.9">
+			<netLimitInfo lineID="md701"/>
+		</node>
+		<stationBorder exitType="regular" stationID="PRINRIS" lineID="md701" trackNumber="1" nodeID="1014" name="[PRIN159] - [md701/1]" kilometre="39.213" x="992320" y="-27293.001" xNet="163095.28" yNet="1090843.8" referenceNode="70016"/>
+		<stationBorder exitType="alternative" stationID="PRINRIS" lineID="md701" trackNumber="2" nodeID="1015" name="[PRIN159] - [md701/2]" kilometre="39.318" x="994432" y="-27102.001" xNet="162914.13" yNet="1091902.8" referenceNode="70104"/>
+		<stationBorder exitType="locked" stationID="PRINRIS" trackNumber="" nodeID="1018" name="Buffer stop 357" kilometre="39.420" x="997168" y="-27507.001" xNet="163382.34" yNet="1096530.6" referenceNode="70057"/>
+		<stationBorder exitType="regular" stationID="PRINRIS" lineID="md701" trackNumber="2" nodeID="1020" name="[HADMATP] - [md701/2]" kilometre="39.617" x="1007543.3" y="-27086.001" xNet="163026.11" yNet="1099385.2" referenceNode="70083"/>
+		<stationBorder exitType="alternative" stationID="PRINRIS" lineID="md701" trackNumber="1" nodeID="70100" name="[HADMATP] - [md701/1]" kilometre="39.668" x="1001424" y="-27293.001" xNet="163205.46" yNet="1099779.5" referenceNode="70081">
+			<netLimitInfo lineID="md701"/>
+		</stationBorder>
+		<stationBorder exitType="regular" stationID="PRINRIS" lineID="md720" trackNumber="1" nodeID="70127" name="[PRIN178] - [md720/1]" kilometre="68.334" x="1003650" y="-27510.001" xNet="163434.34" yNet="1100930.2" referenceNode="70084">
+			<netLimitInfo lineID="md720"/>
+		</stationBorder>
+		<stationBorder exitType="regular" stationID="PRINRIS" lineID="md701" trackNumber="1" nodeID="70101" name="[PRINACE] - [md701/1]" kilometre="39.611" x="1007552" y="-27080.941" xNet="162978.41" yNet="1099455.3" referenceNode="70083">
+			<netLimitInfo lineID="md701"/>
+		</stationBorder>
+		<speedIndicator nodeID="70092" name="SPEED" kilometre="68.220" x="1000790" y="-27323.001" xNet="163321.87" yNet="1099850.7" referenceNode="70085"/>
+		<node nodeID="70023" name="SD:" kilometre="39.499" x="998044" y="-27293.001" xNet="163127.37" yNet="1096806.6" referenceNode="70080" sightingDistance="true"/>
+		<node nodeID="70112" name="SD:" kilometre="39.414" x="996343.99" y="-27293.001" xNet="163172.61" yNet="1092763.8" referenceNode="70039" sightingDistance="true"/>
+		<node nodeID="209" name="SD:" kilometre="39.288" x="993823.97" y="-27102.001" xNet="162909.27" yNet="1091598.6" referenceNode="4" sightingDistance="true"/>
+		<node nodeID="70065" kilometre="68.328" x="1003530" y="-27510.001" xNet="163420.74" yNet="1100842.9"/>
+		<speedIndicator nodeID="70086" name="GRAD" kilometre="68.254" x="1002046" y="-27424.001" xNet="163355.34" yNet="1100098.8" referenceNode="70084"/>
+		<node nodeID="70068" kilometre="68.329" x="1003550" y="-27510.001" xNet="163420.22" yNet="1100852.9"/>
+	</nodes>
+	<links>
+		<link source="1" target="70083" length="11" vmax="105" vmaxr="105">
+			<vzg index="1" vmax="48" vmaxr="48"/>
+			<vzg index="8" vmax="48" vmaxr="48"/>
+		</link>
+		<link source="2" target="70039" length="42" gradient="-3.7879" vmax="40" vmaxr="145">
+			<vzg index="1" vmaxr="97"/>
+			<vzg index="8" vmaxr="97"/>
+		</link>
+		<link source="3" target="1015" length="29" gradient="-3.7879" vmax="105" vmaxr="105">
+			<vzg index="1" vmax="48" vmaxr="48"/>
+			<vzg index="8" vmax="48" vmaxr="48"/>
+		</link>
+		<link source="4" target="209" length="91" gradient="-6.211" vmax="105" vmaxr="105">
+			<vzg index="1" vmax="48" vmaxr="48"/>
+			<vzg index="8" vmax="48" vmaxr="48"/>
+		</link>
+		<link source="6" target="4" length="4" gradient="-6.211" vmax="105" vmaxr="105">
+			<vzg index="1" vmax="48" vmaxr="48"/>
+			<vzg index="8" vmax="48" vmaxr="48"/>
+		</link>
+		<link source="209" target="3" length="1" gradient="-6.211" vmax="105" vmaxr="105">
+			<vzg index="1" vmax="48" vmaxr="48"/>
+			<vzg index="8" vmax="48" vmaxr="48"/>
+		</link>
+		<link source="1014" target="70016" length="4" gradient="-6.2112" vmax="40" vmaxr="145">
+			<vzg index="1" vmaxr="97"/>
+			<vzg index="8" vmaxr="97"/>
+		</link>
+		<link source="1015" target="70104" length="13" gradient="-3.7879" vmax="105" vmaxr="105">
+			<vzg index="1" vmax="48" vmaxr="48"/>
+			<vzg index="8" vmax="48" vmaxr="48"/>
+		</link>
+		<link source="1018" target="70057" gradient="-3.7879" vmax="24" vmaxr="24"/>
+		<link source="1020" target="70089" length="13" vmax="105" vmaxr="105">
+			<vzg index="1" vmax="48" vmaxr="48"/>
+			<vzg index="8" vmax="48" vmaxr="48"/>
+		</link>
+		<link source="70016" target="2" length="72" gradient="-6.2112" vmax="40" vmaxr="145">
+			<vzg index="1" vmaxr="97"/>
+			<vzg index="8" vmaxr="97"/>
+		</link>
+		<link source="70020" target="70023" length="7" vmax="40" vmaxr="145">
+			<vzg index="1" vmaxr="97"/>
+			<vzg index="8" vmaxr="97"/>
+		</link>
+		<link source="70023" target="70080" length="1" vmax="40" vmaxr="145">
+			<vzg index="1" vmaxr="97"/>
+			<vzg index="8" vmaxr="97"/>
+		</link>
+		<link source="70039" target="70112" length="83" gradient="-3.7879" vmax="40" vmaxr="145">
+			<vzg index="1" vmaxr="97"/>
+			<vzg index="8" vmaxr="97"/>
+		</link>
+		<link source="70041" target="70102" length="2" vmax="105" vmaxr="105">
+			<vzg index="1" vmax="48" vmaxr="48"/>
+			<vzg index="8" vmax="48" vmaxr="48"/>
+		</link>
+		<link source="70057" target="70059" length="4" gradient="-3.7879" vmax="24" vmaxr="24"/>
+		<link source="70058" target="70063" length="5" gradient="-2.571" vmax="24" vmaxr="24"/>
+		<link source="70059" target="70091" length="56" gradient="-3.788" vmax="24" vmaxr="24"/>
+		<link source="70063" target="70065" length="66" gradient="-2.571" vmax="24" vmaxr="24"/>
+		<link source="70065" target="70068" length="1" gradient="-2.571" vmax="24" vmaxr="24"/>
+		<link source="70068" target="70084" length="4" gradient="-2.571" vmax="24" vmaxr="24"/>
+		<link source="70077" target="1014" length="10" gradient="-6.2112" vmax="40" vmaxr="145">
+			<vzg index="1" vmaxr="97"/>
+			<vzg index="8" vmaxr="97"/>
+		</link>
+		<link source="70080" target="70081" length="93" vmax="40" vmaxr="145">
+			<vzg index="1" vmaxr="97"/>
+			<vzg index="8" vmaxr="97"/>
+		</link>
+		<link source="70080" target="70098" length="5" vmax="40" vmaxr="145">
+			<vzg index="1" vmaxr="97"/>
+			<vzg index="8" vmaxr="97"/>
+		</link>
+		<link source="70081" target="70085" length="1" vmax="40" vmaxr="145">
+			<vzg index="1" vmaxr="97"/>
+			<vzg index="8" vmaxr="97"/>
+		</link>
+		<link source="70081" target="70100" length="75" vmax="40" vmaxr="145">
+			<vzg index="1" vmaxr="97"/>
+			<vzg index="8" vmaxr="97"/>
+		</link>
+		<link source="70082" target="1" length="14" vmax="105" vmaxr="105">
+			<vzg index="1" vmax="48" vmaxr="48"/>
+			<vzg index="8" vmax="48" vmaxr="48"/>
+		</link>
+		<link source="70083" target="1020" length="6" vmax="105" vmaxr="105">
+			<vzg index="1" vmax="48" vmaxr="48"/>
+			<vzg index="8" vmax="48" vmaxr="48"/>
+		</link>
+		<link source="70083" target="70101" vmax="105" vmaxr="105" bidirectional="true">
+			<vzg index="1" vmax="48" vmaxr="48"/>
+			<vzg index="8" vmax="48" vmaxr="48"/>
+		</link>
+		<link source="70084" target="70127" length="1" gradient="-2.571" vmax="24" vmaxr="24" bidirectional="true"/>
+		<link source="70085" target="70092" length="4" vmax="40" vmaxr="145">
+			<vzg index="1" vmaxr="97"/>
+			<vzg index="8" vmaxr="97"/>
+		</link>
+		<link source="70086" target="70084" length="79" gradient="-2.571" vmax="24" vmaxr="24"/>
+		<link source="70087" target="70090" length="15" vmax="24" vmaxr="24"/>
+		<link source="70088" target="70058" length="3" gradient="-2.571" vmax="24" vmaxr="24"/>
+		<link source="70089" target="70099" length="6" vmax="105" vmaxr="105">
+			<vzg index="1" vmax="64" vmaxr="64"/>
+			<vzg index="8" vmax="64" vmaxr="64"/>
+		</link>
+		<link source="70090" target="70088" length="23" vmax="24" vmaxr="24"/>
+		<link source="70091" target="70087" length="110" vmax="24" vmaxr="24"/>
+		<link source="70092" target="70086" length="34" vmax="24" vmaxr="24"/>
+		<link source="70097" target="70082" length="5" vmax="105" vmaxr="105">
+			<vzg index="1" vmax="48" vmaxr="48"/>
+			<vzg index="8" vmax="48" vmaxr="48"/>
+		</link>
+		<link source="70098" target="70097" length="78" vmax="40" vmaxr="40"/>
+		<link source="70102" target="70082" length="94" vmax="105" vmaxr="105">
+			<vzg index="1" vmax="48" vmaxr="48"/>
+			<vzg index="8" vmax="48" vmaxr="48"/>
+		</link>
+		<link source="70104" target="70120" length="149" gradient="-3.7879" vmax="105" vmaxr="105">
+			<vzg index="1" vmax="48" vmaxr="48"/>
+			<vzg index="8" vmax="48" vmaxr="48"/>
+		</link>
+		<link source="70112" target="70121" length="66" gradient="-3.788" vmax="40" vmaxr="145">
+			<vzg index="1" vmaxr="97"/>
+			<vzg index="8" vmaxr="97"/>
+		</link>
+		<link source="70120" target="70041" length="12" vmax="105" vmaxr="105">
+			<vzg index="1" vmax="48" vmaxr="48"/>
+			<vzg index="8" vmax="48" vmaxr="48"/>
+		</link>
+		<link source="70121" target="70020" length="12" vmax="40" vmaxr="145">
+			<vzg index="1" vmaxr="97"/>
+			<vzg index="8" vmaxr="97"/>
+		</link>
+	</links>
+	<dependentLinks/>
+	<blockSections>
+		<blocksection uuid="{0912d7c5-5d1b-42c5-a27d-68b7d72f503c}" lines="md701 pri">
+			<part nodes="70041 70102 70082 1 70083 70101"/>
+		</blocksection>
+		<blocksection uuid="{0d43cc5c-df7d-47f3-9f58-c0c046fdc01b}" lines="md720 pri" speedIndicators="70086 70092">
+			<part nodes="70020 70023 70080 70081 70085 70092 70086 70084 70127"/>
+		</blocksection>
+		<blocksection uuid="{261d955b-a171-40e6-9a9a-5272addd2040}" lines="md720 pri">
+			<part nodes="70127 70084 70068 70065 70063 70058 70088 70090 70087 70091 70059 70057"/>
+		</blocksection>
+		<blocksection uuid="{2a31dea3-1a92-47ee-ab62-b512ef425ed9}" lines="md701 pri" shuntingBlock="true" speedIndicators="70089 70097 70098">
+			<part nodes="70099 70089 1020 70083 1 70082 70097 70098 70080 70023 70020 70121 70112 70039 2 70016"/>
+		</blocksection>
+		<blocksection uuid="{2a5be398-5f5f-4050-947a-05b7058c0ce3}" lines="pri" shuntingBlock="true">
+			<part nodes="70041 70120 70104 1015 3 209 4"/>
+		</blocksection>
+		<blocksection uuid="{2f559a29-3428-475b-b05a-4bcf198550f3}" lines="md701 pri" speedIndicators="70097 70098">
+			<part nodes="70101 70083 1 70082 70097 70098 70080 70023 70020 70121 70112 70039 2 70016"/>
+		</blocksection>
+		<blocksection uuid="{3dba2709-ad13-4e9b-83f0-477c7cee3f2b}" lines="md701 pri">
+			<part nodes="70016 1014 70077"/>
+		</blocksection>
+		<blocksection uuid="{4af596fa-a2e5-4ed0-af95-a54f0c2fe2fe}" lines="md701 pri" speedIndicators="70089 70097 70098">
+			<part nodes="70020 70023 70080 70098 70097 70082 1 70083 1020 70089 70099"/>
+		</blocksection>
+		<blocksection uuid="{64f9a87b-9956-49ca-92c0-7a7ee006d28d}" lines="pri">
+			<part nodes="70016 2 70039 70112 70121 70020"/>
+		</blocksection>
+		<blocksection uuid="{669fa204-e3a2-4248-8694-2ca4b6bc248c}" lines="md701 pri" speedIndicators="70097 70098">
+			<part nodes="70020 70023 70080 70098 70097 70082 1 70083 70101"/>
+		</blocksection>
+		<blocksection uuid="{86a8934a-2933-4876-a564-c1c428b52004}" lines="md701 pri">
+			<part nodes="70041 70102 70082 1 70083 70101"/>
+		</blocksection>
+		<blocksection uuid="{899ccf49-6b2c-440c-9929-cbbf843cd2ef}" lines="md701 pri" speedIndicators="70097 70098">
+			<part nodes="70101 70083 1 70082 70097 70098 70080 70023 70020 70121 70112 70039 2 70016"/>
+		</blocksection>
+		<blocksection uuid="{8ac00047-ac44-4f49-9799-7ebb3ec12d06}" lines="md701 pri" speedIndicators="70089">
+			<part nodes="70041 70102 70082 1 70083 1020 70089 70099"/>
+		</blocksection>
+		<blocksection uuid="{8b42399d-2e08-4867-ba1a-01065df1b9a4}" lines="md701 pri">
+			<part nodes="70020 70023 70080 70081 70100"/>
+		</blocksection>
+		<blocksection uuid="{a0872b73-b0ae-4491-ac0b-37e2c581f1e3}" lines="md701 pri">
+			<part nodes="70077 1014 70016 2 70039 70112 70121 70020"/>
+		</blocksection>
+		<blocksection uuid="{a7418339-6d08-4d62-8b29-86f8ef4dab8a}" lines="pri">
+			<part nodes="70020 70121 70112 70039 2 70016"/>
+		</blocksection>
+		<blocksection uuid="{b499a612-a910-408a-9fed-a076d6afda86}" lines="md720 pri">
+			<part nodes="70058 70063 70065 70068 70084 70127"/>
+		</blocksection>
+		<blocksection uuid="{c9efaa9d-41aa-4215-9a1c-af9f3266030b}" lines="pri">
+			<part nodes="70057 70059 70091 70087 70090 70088 70058"/>
+		</blocksection>
+		<blocksection uuid="{cac56a53-1e28-493f-8d20-2cafb80334b5}" lines="md701 pri">
+			<part nodes="70100 70081 70080 70023 70020 70121 70112 70039 2 70016"/>
+		</blocksection>
+		<blocksection uuid="{d8039cd4-e13a-4f42-a536-55bcbd206b82}" lines="md701 pri" speedIndicators="70097 70098">
+			<part nodes="70020 70023 70080 70098 70097 70082 1 70083 70101"/>
+		</blocksection>
+		<blocksection uuid="{d8a4f4fe-d1a7-4866-850f-2873e5a54bde}" lines="md701 pri" speedIndicators="70089 70097 70098">
+			<part nodes="70099 70089 1020 70083 1 70082 70097 70098 70080 70023 70020 70121 70112 70039 2 70016"/>
+		</blocksection>
+		<blocksection uuid="{ded65023-a824-470e-8326-2cf9d446a021}" lines="md701 pri">
+			<part nodes="6 4 209 3 1015 70104 70120 70041"/>
+		</blocksection>
+		<blocksection uuid="{e50c1450-c10e-48cb-84be-a44033e833c4}" lines="md720 pri" speedIndicators="70086 70092">
+			<part nodes="70127 70084 70086 70092 70085 70081 70080 70023 70020 70121 70112 70039 2 70016"/>
+		</blocksection>
+	</blockSections>
+	<slipDistances>
+		<slipdistance uuid="{06355db0-c6e6-441e-a85e-af4f7a3bc3cf}" vmax="999" lines="md701 pri" serialNumber="1">
+			<part nodes="70020 70023 70080 70098 70097 70082 1 70083 1020 70089 70099"/>
+		</slipdistance>
+		<slipdistance uuid="{08c27f12-b0a3-495c-903b-9697e500304a}" vmax="999" lines="md701 pri" serialNumber="0">
+			<part nodes="4 6"/>
+		</slipdistance>
+		<slipdistance uuid="{35714324-1761-454c-a869-da78fcea67b1}" vmax="999" lines="md720 pri" serialNumber="0">
+			<part nodes="70058 70063 70065 70068 70084 70127"/>
+		</slipdistance>
+		<slipdistance uuid="{4349855e-e0bf-480a-8026-c2f89f73225d}" vmax="999" lines="md701 pri" serialNumber="0">
+			<part nodes="70020 70023 70080 70081 70100"/>
+		</slipdistance>
+		<slipdistance uuid="{9448b388-6f0b-43e5-9033-3f238c0abde9}" vmax="999" lines="md701 pri" serialNumber="0">
+			<part nodes="70016 1014 70077"/>
+		</slipdistance>
+		<slipdistance uuid="{cd5525cd-3d3d-4106-8fcd-cf16df048be7}" vmax="999" lines="md701 pri" serialNumber="0">
+			<part nodes="70041 70102 70082 1 70083 1020 70089 70099"/>
+		</slipdistance>
+	</slipDistances>
+	<approachControlRoutes>
+		<ACRoute controlTyp="mar" uuid="{f5c76d92-4261-4953-8f1c-3ac2c4007e79}" publicName="ME178" lines="md720 pri">
+			<part nodes="70127 70084 70068"/>
+		</ACRoute>
+	</approachControlRoutes>
+	<stationRoutes>
+		<stationRoute stationID="PRINRIS" name="[HADMATP]-[md701/1]-[2]-[HADMATP]-[md701/1] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="70100 70081 70080 70023 70020 70121 70112 70039 2 70016 2 70039 70112 70121 70020 70023 70080 70081 70100"/>
+		<stationRoute stationID="PRINRIS" name="[HADMATP]-[md701/1]-[2]-[HADMATP]-[md701/2] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=90;NRz=90;S=90;Rz=90;FGz=90;NGz=90;Gz=90;Lz=90;Unbekannt=90" nodes="70100 70081 70080 70023 70020 70121 70112 70039 2 70016 2 70039 70112 70121 70020 70023 70080 70098 70097 70082 1 70083 1020"/>
+		<stationRoute stationID="PRINRIS" name="[HADMATP]-[md701/1]-[2]-[PRIN159]-[md701/1] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="70100 70081 70080 70023 70020 70121 70112 70039 2 70016 1014"/>
+		<stationRoute stationID="PRINRIS" name="[HADMATP]-[md701/1]-[2]-[PRIN178]-[md720/1] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=90;NRz=90;S=90;Rz=90;FGz=90;NGz=90;Gz=90;Lz=90;Unbekannt=90" nodes="70100 70081 70080 70023 70020 70121 70112 70039 2 70016 2 70039 70112 70121 70020 70023 70080 70081 70085 70092 70086 70084 70127"/>
+		<stationRoute stationID="PRINRIS" name="[HADMATP]-[md701/1]-[2]-[PRINACE]-[md701/1] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=85;NRz=85;S=85;Rz=85;FGz=85;NGz=85;Gz=85;Lz=85;Unbekannt=85" nodes="70100 70081 70080 70023 70020 70121 70112 70039 2 70016 2 70039 70112 70121 70020 70023 70080 70098 70097 70082 1 70083 70101"/>
+		<stationRoute stationID="PRINRIS" name="[HADMATP]-[md701/2]-[2]-[HADMATP]-[md701/1] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=90;NRz=90;S=90;Rz=90;FGz=90;NGz=90;Gz=90;Lz=90;Unbekannt=90" nodes="1020 70083 1 70082 70097 70098 70080 70023 70020 70121 70112 70039 2 70016 2 70039 70112 70121 70020 70023 70080 70081 70100"/>
+		<stationRoute stationID="PRINRIS" name="[HADMATP]-[md701/2]-[2]-[HADMATP]-[md701/2] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=80;NRz=80;S=80;Rz=80;FGz=80;NGz=80;Gz=80;Lz=80;Unbekannt=80" nodes="1020 70083 1 70082 70097 70098 70080 70023 70020 70121 70112 70039 2 70016 2 70039 70112 70121 70020 70023 70080 70098 70097 70082 1 70083 1020"/>
+		<stationRoute stationID="PRINRIS" name="[HADMATP]-[md701/2]-[2]-[PRIN159]-[md701/1] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=90;NRz=90;S=90;Rz=90;FGz=90;NGz=90;Gz=90;Lz=90;Unbekannt=90" nodes="1020 70083 1 70082 70097 70098 70080 70023 70020 70121 70112 70039 2 70016 1014"/>
+		<stationRoute stationID="PRINRIS" name="[HADMATP]-[md701/2]-[2]-[PRIN178]-[md720/1] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=80;NRz=80;S=80;Rz=80;FGz=80;NGz=80;Gz=80;Lz=80;Unbekannt=80" nodes="1020 70083 1 70082 70097 70098 70080 70023 70020 70121 70112 70039 2 70016 2 70039 70112 70121 70020 70023 70080 70081 70085 70092 70086 70084 70127"/>
+		<stationRoute stationID="PRINRIS" name="[HADMATP]-[md701/2]-[2]-[PRINACE]-[md701/1] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=75;NRz=75;S=75;Rz=75;FGz=75;NGz=75;Gz=75;Lz=75;Unbekannt=75" nodes="1020 70083 1 70082 70097 70098 70080 70023 70020 70121 70112 70039 2 70016 2 70039 70112 70121 70020 70023 70080 70098 70097 70082 1 70083 70101"/>
+		<stationRoute stationID="PRINRIS" name="[PRIN159]-[md701/1]-[2]-[HADMATP]-[md701/1] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="1014 70016 2 70039 70112 70121 70020 70023 70080 70081 70100"/>
+		<stationRoute stationID="PRINRIS" name="[PRIN159]-[md701/1]-[2]-[HADMATP]-[md701/2] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=90;NRz=90;S=90;Rz=90;FGz=90;NGz=90;Gz=90;Lz=90;Unbekannt=90" nodes="1014 70016 2 70039 70112 70121 70020 70023 70080 70098 70097 70082 1 70083 1020"/>
+		<stationRoute stationID="PRINRIS" name="[PRIN159]-[md701/1]-[2]-[PRIN159]-[md701/1] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="1014 70016 2 70039 70112 70121 70020 70121 70112 70039 2 70016 1014"/>
+		<stationRoute stationID="PRINRIS" name="[PRIN159]-[md701/1]-[2]-[PRIN178]-[md720/1] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=90;NRz=90;S=90;Rz=90;FGz=90;NGz=90;Gz=90;Lz=90;Unbekannt=90" nodes="1014 70016 2 70039 70112 70121 70020 70023 70080 70081 70085 70092 70086 70084 70127"/>
+		<stationRoute stationID="PRINRIS" name="[PRIN159]-[md701/1]-[2]-[PRINACE]-[md701/1] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=85;NRz=85;S=85;Rz=85;FGz=85;NGz=85;Gz=85;Lz=85;Unbekannt=85" nodes="1014 70016 2 70039 70112 70121 70020 70023 70080 70098 70097 70082 1 70083 70101"/>
+		<stationRoute stationID="PRINRIS" name="[PRIN159]-[md701/2]-[3]-[HADMATP]-[md701/2] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="1015 70104 70120 70041 70102 70082 1 70083 1020"/>
+		<stationRoute stationID="PRINRIS" name="[PRIN159]-[md701/2]-[3]-[PRIN159]-[md701/2] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="1015 70104 70120 70041 70120 70104 1015"/>
+		<stationRoute stationID="PRINRIS" name="[PRIN159]-[md701/2]-[3]-[PRINACE]-[md701/1] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=95;NRz=95;S=95;Rz=95;FGz=95;NGz=95;Gz=95;Lz=95;Unbekannt=95" nodes="1015 70104 70120 70041 70102 70082 1 70083 70101"/>
+		<stationRoute stationID="PRINRIS" name="[PRIN178]-[md720/1]-[1]-[PRIN178]-[md720/1] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="70127 70084 70068 70065 70063 70058 70088 70090 70087 70091 70059 70057 70059 70091 70087 70090 70088 70058 70063 70065 70068 70084 70127"/>
+		<stationRoute stationID="PRINRIS" name="[PRIN178]-[md720/1]-[1]-[]-[?/] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="70127 70084 70068 70065 70063 70058 70088 70090 70087 70091 70059 70057 1018"/>
+		<stationRoute stationID="PRINRIS" name="[PRIN178]-[md720/1]-[2]-[HADMATP]-[md701/1] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=90;NRz=90;S=90;Rz=90;FGz=90;NGz=90;Gz=90;Lz=90;Unbekannt=90" nodes="70127 70084 70086 70092 70085 70081 70080 70023 70020 70121 70112 70039 2 70016 2 70039 70112 70121 70020 70023 70080 70081 70100"/>
+		<stationRoute stationID="PRINRIS" name="[PRIN178]-[md720/1]-[2]-[HADMATP]-[md701/2] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=80;NRz=80;S=80;Rz=80;FGz=80;NGz=80;Gz=80;Lz=80;Unbekannt=80" nodes="70127 70084 70086 70092 70085 70081 70080 70023 70020 70121 70112 70039 2 70016 2 70039 70112 70121 70020 70023 70080 70098 70097 70082 1 70083 1020"/>
+		<stationRoute stationID="PRINRIS" name="[PRIN178]-[md720/1]-[2]-[PRIN159]-[md701/1] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=90;NRz=90;S=90;Rz=90;FGz=90;NGz=90;Gz=90;Lz=90;Unbekannt=90" nodes="70127 70084 70086 70092 70085 70081 70080 70023 70020 70121 70112 70039 2 70016 1014"/>
+		<stationRoute stationID="PRINRIS" name="[PRIN178]-[md720/1]-[2]-[PRIN178]-[md720/1] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=80;NRz=80;S=80;Rz=80;FGz=80;NGz=80;Gz=80;Lz=80;Unbekannt=80" nodes="70127 70084 70086 70092 70085 70081 70080 70023 70020 70121 70112 70039 2 70016 2 70039 70112 70121 70020 70023 70080 70081 70085 70092 70086 70084 70127"/>
+		<stationRoute stationID="PRINRIS" name="[PRIN178]-[md720/1]-[2]-[PRINACE]-[md701/1] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=75;NRz=75;S=75;Rz=75;FGz=75;NGz=75;Gz=75;Lz=75;Unbekannt=75" nodes="70127 70084 70086 70092 70085 70081 70080 70023 70020 70121 70112 70039 2 70016 2 70039 70112 70121 70020 70023 70080 70098 70097 70082 1 70083 70101"/>
+		<stationRoute stationID="PRINRIS" name="[PRINACE]-[md701/1]-[2]-[HADMATP]-[md701/1] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=85;NRz=85;S=85;Rz=85;FGz=85;NGz=85;Gz=85;Lz=85;Unbekannt=85" nodes="70101 70083 1 70082 70097 70098 70080 70023 70020 70121 70112 70039 2 70016 2 70039 70112 70121 70020 70023 70080 70081 70100"/>
+		<stationRoute stationID="PRINRIS" name="[PRINACE]-[md701/1]-[2]-[HADMATP]-[md701/2] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=75;NRz=75;S=75;Rz=75;FGz=75;NGz=75;Gz=75;Lz=75;Unbekannt=75" nodes="70101 70083 1 70082 70097 70098 70080 70023 70020 70121 70112 70039 2 70016 2 70039 70112 70121 70020 70023 70080 70098 70097 70082 1 70083 1020"/>
+		<stationRoute stationID="PRINRIS" name="[PRINACE]-[md701/1]-[2]-[PRIN159]-[md701/1] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=85;NRz=85;S=85;Rz=85;FGz=85;NGz=85;Gz=85;Lz=85;Unbekannt=85" nodes="70101 70083 1 70082 70097 70098 70080 70023 70020 70121 70112 70039 2 70016 1014"/>
+		<stationRoute stationID="PRINRIS" name="[PRINACE]-[md701/1]-[2]-[PRIN178]-[md720/1] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=75;NRz=75;S=75;Rz=75;FGz=75;NGz=75;Gz=75;Lz=75;Unbekannt=75" nodes="70101 70083 1 70082 70097 70098 70080 70023 70020 70121 70112 70039 2 70016 2 70039 70112 70121 70020 70023 70080 70081 70085 70092 70086 70084 70127"/>
+		<stationRoute stationID="PRINRIS" name="[PRINACE]-[md701/1]-[2]-[PRINACE]-[md701/1] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=70;NRz=70;S=70;Rz=70;FGz=70;NGz=70;Gz=70;Lz=70;Unbekannt=70" nodes="70101 70083 1 70082 70097 70098 70080 70023 70020 70121 70112 70039 2 70016 2 70039 70112 70121 70020 70023 70080 70098 70097 70082 1 70083 70101"/>
+		<stationRoute stationID="PRINRIS" name="[]-[?/]-[1]-[PRIN178]-[md720/1] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="1018 70057 70059 70091 70087 70090 70088 70058 70063 70065 70068 70084 70127"/>
+	</stationRoutes>
+	<lineCatalog/>
+	<zugNummernFelder/>
+	<switchGears/>
+</line>

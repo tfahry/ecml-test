@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<line lineID="gw864" name="GW864 Cogan Jn to Penarth" trafficRouting="on_the_left" type="local" dependentLines="cogan">
+	<version major="1" minor="2" patchlevel="0" comment=""/>
+	<creator user="JCowe" timestamp="2017-06-19T10:30:19"/>
+	<lasteditor user="JCowe" timestamp="2017-06-19T10:30:19"/>
+	<stations>
+		<station stationID="DGLROAD" name="Dingle Road Halt" xNet="-2750800" yNet="-50600" uicLocationCode="0" circleDiameter="0"/>
+		<station stationID="PENARTH" name="Penarth" xNet="-2746400" yNet="-55000" uicLocationCode="0" circleDiameter="0"/>
+	</stations>
+	<nodes>
+		<node nodeID="575" kilometre="1.000" x="40000" y="200" xNet="-2601412.15" yNet="650965.495"/>
+		<node nodeID="577" name="GRAD" kilometre="1.400" x="44000" y="200" xNet="-2598640.15" yNet="648210.495"/>
+		<node nodeID="578" kilometre="1.600" x="46000" y="200" xNet="-2597226.15" yNet="646796.495"/>
+		<track trackID="U-1" stationID="PENARTH" interlockingMachine="2 Aspect Pannel (Below 75mph)" nodeID="10044" name="DUMMY: U1" description="PENARTH START" kilometre="1.715" x="47150" y="200" xNet="-2596414.15" yNet="645984.495" referenceNode="608"/>
+		<track trackID="D-1" stationID="DGLROAD" type="stopBoard" nodeID="606" kilometre="1.235" x="42350" y="200" xNet="-2599840.15" yNet="649410.495" referenceNode="607">
+			<platform startPos="-1200" endPos="0" width="75" left="false" open="true"/>
+		</track>
+		<track trackID="U-1" stationID="DGLROAD" type="stopBoard" nodeID="607" kilometre="1.115" x="41150" y="200" xNet="-2600598.15" yNet="650168.495" referenceNode="606"/>
+		<track trackID="D-1" stationID="PENARTH" interlockingMachine="Buffer Stop" nodeID="608" name="DUMMY: D1" description="BUFFER STOP" kilometre="1.850" x="48500" y="200" xNet="-2595104.45" yNet="644675.845" referenceNode="10044">
+			<platform startPos="-1350" endPos="0" width="75" left="false" open="true"/>
+		</track>
+		<stationBorder exitType="regular" stationID="DGLROAD" lineID="gw864" trackNumber="1" nodeID="2" kilometre="1.285" x="42845" y="200" xNet="-2599480.15" yNet="649050.495" referenceNode="606"/>
+		<stationBorder exitType="regular" stationID="DGLROAD" lineID="gw864" trackNumber="1" nodeID="4" kilometre="1.081" x="40805" y="200" xNet="-2600842.35" yNet="650407.595" referenceNode="607"/>
+		<stationBorder exitType="regular" stationID="PENARTH" lineID="gw864" trackNumber="1" nodeID="5" kilometre="1.681" x="46805" y="200" xNet="-2596657.75" yNet="646228.095" referenceNode="10044"/>
+		<stationBorder exitType="locked" stationID="PENARTH" trackNumber="" nodeID="7" kilometre="1.850" x="48550" y="200" xNet="-2595069.05" yNet="644640.505" referenceNode="608"/>
+	</nodes>
+	<links>
+		<link source="2" target="577" length="115" gradient="-25" vmax="56" vmaxr="56">
+			<vzg index="1" vmax="40" vmaxr="40"/>
+		</link>
+		<link source="4" target="607" length="34" gradient="-25" vmax="56" vmaxr="56">
+			<vzg index="1" vmax="40" vmaxr="40"/>
+		</link>
+		<link source="5" target="10044" length="34" vmax="56" vmaxr="56">
+			<vzg index="1" vmax="40" vmaxr="40"/>
+		</link>
+		<link source="33.cogan" target="575" length="200" gradient="-25" vmax="56" vmaxr="56">
+			<vzg index="1" vmax="40" vmaxr="40"/>
+		</link>
+		<link source="575" target="4" length="81" gradient="-25" vmax="56" vmaxr="56">
+			<vzg index="1" vmax="40" vmaxr="40"/>
+		</link>
+		<link source="577" target="578" length="200" vmax="56" vmaxr="56">
+			<vzg index="1" vmax="40" vmaxr="40"/>
+		</link>
+		<link source="578" target="5" length="81" vmax="56" vmaxr="56">
+			<vzg index="1" vmax="40" vmaxr="40"/>
+		</link>
+		<link source="606" target="2" length="50" gradient="-25" vmax="56" vmaxr="56">
+			<vzg index="1" vmax="40" vmaxr="40"/>
+		</link>
+		<link source="607" target="606" length="120" gradient="-25" vmax="56" vmaxr="56">
+			<vzg index="1" vmax="40" vmaxr="40"/>
+		</link>
+		<link source="608" target="7" gradient="7.813" vmax="56" vmaxr="56">
+			<vzg index="1" vmax="40" vmaxr="40"/>
+		</link>
+		<link source="10044" target="608" length="135" gradient="7.813" vmax="56" vmaxr="56">
+			<vzg index="1" vmax="40" vmaxr="40"/>
+		</link>
+	</links>
+	<dependentLinks/>
+	<blockSections>
+		<blocksection uuid="{31e1490a-8950-45b5-b58b-86632ebc5b4c}" lines="cogan gw864">
+			<part nodes="33.cogan 575 4 607 606 2 577 578 5 10044 608"/>
+		</blocksection>
+		<blocksection uuid="{795cf5dd-5a82-4a53-951a-f37e615b12f3}" lines="cogan gw864">
+			<part nodes="33.cogan 575 4 607 606 2 577 578 5 10044 608"/>
+		</blocksection>
+		<blocksection uuid="{924c4486-1447-4451-ae5e-b12b5dfda892}" lines="cogan gw864">
+			<part nodes="33.cogan 575 4 607 606 2 577 578 5 10044 608"/>
+		</blocksection>
+		<blocksection uuid="{a326f36a-96bc-4c38-baff-1617783a2449}" lines="cogan gw864">
+			<part nodes="33.cogan 575 4 607 606 2 577 578 5 10044 608"/>
+		</blocksection>
+		<blocksection uuid="{a45097d0-9578-4514-9858-3975e419f888}" lines="gw864">
+			<part nodes="10044 608"/>
+		</blocksection>
+		<blocksection uuid="{acfa558b-02ef-4882-9f70-dba1f16134c4}" lines="gw864">
+			<part nodes="608 10044"/>
+		</blocksection>
+		<blocksection uuid="{c5745f45-496d-4956-83dd-3d5291d395bd}" lines="cogan gw864">
+			<part nodes="10044 5 578 577 2 606 607 4 575 33.cogan"/>
+		</blocksection>
+	</blockSections>
+	<slipDistances/>
+	<approachControlRoutes/>
+	<stationRoutes>
+		<stationRoute stationID="DGLROAD" name="[COGANJ]-[gw864/1]-[1]-[PENARTH]-[gw864/1] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="4 607 606 2"/>
+		<stationRoute stationID="DGLROAD" name="[PENARTH]-[gw864/1]-[1]-[COGANJ]-[gw864/1] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="2 606 607 4"/>
+		<stationRoute stationID="PENARTH" name="[DGLROAD]-[gw864/1]-[1]-[DGLROAD]-[gw864/1] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="5 10044 608 10044 5"/>
+		<stationRoute stationID="PENARTH" name="[DGLROAD]-[gw864/1]-[1]-[]-[?/] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="5 10044 608 7"/>
+		<stationRoute stationID="PENARTH" name="[]-[?/]-[1]-[DGLROAD]-[gw864/1] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="7 608 10044 5"/>
+	</stationRoutes>
+	<lineCatalog/>
+	<zugNummernFelder/>
+	<switchGears/>
+</line>

@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<line lineID="crfda" name="Crayford Spur &apos;A&apos; Jn" trafficRouting="on_the_left" type="global" dependentLines="so290 so310f">
+	<transformations>
+		<transformation line="so290" m11="1" m12="0" m21="0" m22="1" dx="5147.56" dy="-197.453"/>
+		<transformation line="so310f" m11="-1" m12="-1.22461e-16" m21="1.22461e-16" m22="-1" dx="526254" dy="-199.85"/>
+	</transformations>
+	<version major="1" minor="2" patchlevel="0" comment=""/>
+	<creator user="Ahowe4" timestamp="2016-11-01T12:54:22"/>
+	<lasteditor user="Ahowe4" timestamp="2016-11-01T12:54:22"/>
+	<stations>
+		<station stationID="CRFDSPA" name="Crayford Spur A Jn" xNet="1366912.2" yNet="626239.055" uicLocationCode="0" circleDiameter="0">
+			<textElement type="name">
+				<pos view="net" x="3128.35" y="3128.35" angle="0" system="source"/>
+				<pos view="wgs84" x="3128.35" y="3128.35" angle="0" system="source"/>
+				<pos view="line" x="2378.32" y="2378.32" angle="0" system="source"/>
+				<pos view="macro" x="28.2843" y="28.2843" angle="0" system="source"/>
+				<pos view="macroWgs84" x="0" y="0" angle="0" system="source"/>
+			</textElement>
+		</station>
+	</stations>
+	<nodes>
+		<switch start="667" endOfMainTrack="523" endOfBranchTrack="609" nodeID="466" name="POINTS : 2165A" description="POINTS : 2165A;  mph; 16m 43.3218ch" kilometre="26.621" x="261186.56" y="499.99527" xNet="1367939.7" yNet="626732.96"/>
+		<node nodeID="362" name="OL NK148" description="OL for SIG : NK148" kilometre="26.688" x="261856.56" y="499.99515" xNet="1367993.1" yNet="625651.27"/>
+		<track trackID="U-1" stationID="CRFDSPA" interlockingMachine="4 Aspect IECC (Below 75mph)" nodeID="382" name="SIG : NK148" description="Signal NK148; 16m 55.6ch" kilometre="26.868" x="263656.56" y="499.99478" xNet="1370037" yNet="623930.91" referenceNode="706"/>
+		<node nodeID="244" name="GRAD" description="Gradient; 16m 34.7717ch" kilometre="26.449" x="259466.56" y="699.99561" xNet="1367748" yNet="628410"/>
+		<switch start="584" endOfMainTrack="712" endOfBranchTrack="598" nodeID="68" name="POINTS : 2164" description="POINTS : 2164;  mph; 16m 43.3715098739199ch" kilometre="26.622" x="261196.56" y="699.99524" xNet="1368244.8" yNet="626732.96"/>
+		<track trackID="D-2" stationID="CRFDSPA" interlockingMachine="4 Aspect IECC (Below 75mph)" nodeID="78" name="SIG : NK147" description="Signal NK147; 16m 24.4818ch" kilometre="26.242" x="257396.56" y="699.99603" xNet="1365360" yNet="628741" referenceNode="708"/>
+		<node nodeID="243" name="OL NK147" description="OL for SIG : NK147" kilometre="26.422" x="259196.56" y="699.99567" xNet="1366847" yNet="628846"/>
+		<node nodeID="245" name="SD : NK149" description="sighting distance for SIG : NK149" kilometre="26.516" x="260136.56" y="699.99548" xNet="1368080" yNet="628126" referenceNode="244" sightingDistance="true"/>
+		<signal interlockingMachine="4 Aspect IECC (Below 75mph)" nodeID="76" name="SIG : NK149" description="Signal NK149; 16m 47.4477ch" kilometre="26.704" x="262016.56" y="699.99512" xNet="1369561.1" yNet="624946.31" referenceNode="712">
+			<netLimitInfo lineID="so290"/>
+		</signal>
+		<crossing type="kr" startOfMainTrack="362" startOfBranchTrack="697" endOfMainTrack="466" endOfBranchTrack="605" nodeID="523" name="FD :" description="FD :" kilometre="26.671" x="261686.56" y="499.99518" xNet="1367979.4" yNet="625924.52"/>
+		<node nodeID="524" kilometre="26.582" x="261394" y="212" xNet="1367794.8" yNet="626579.36"/>
+		<node nodeID="525" kilometre="26.572" x="261876.56" y="299.99512" xNet="1367842.1" yNet="625609.23"/>
+		<kilometreInconsistency newKilometre="26.582" nodeID="609" kilometre="26.621" x="261322" y="351" xNet="1367860.2" yNet="626648.77" referenceNode="466"/>
+		<kilometreInconsistency newKilometre="26.572" nodeID="610" kilometre="26.671" x="261780.72" y="399.99515" xNet="1367911.3" yNet="625768.32" referenceNode="697"/>
+		<signal interlockingMachine="4 Aspect IECC (Below 75mph)" nodeID="616" name="SIG : NK398" description="Signal NK398; 16m 33.68ch" kilometre="26.427" x="262347.56" y="299.99503" xNet="1367229.2" yNet="623866.8" referenceNode="617">
+			<netLimitInfo lineID="so310f"/>
+		</signal>
+		<node nodeID="617" name="SD : NK398" description="sighting distance for SIG : NK398" kilometre="26.497" x="262120.56" y="299.99509" xNet="1367525.1" yNet="624707.98" referenceNode="525" sightingDistance="true"/>
+		<node nodeID="618" name="POINTS : 2165B" description="POINTS 2165B; 20 mph; 16m 38.65ch" kilometre="26.527" x="261518" y="157" xNet="1367560.8" yNet="625872.54"/>
+		<node nodeID="621" name="OL NK397" description="OL for SIG : NK397" kilometre="26.522" x="261536" y="157" xNet="1367539.5" yNet="625808.27"/>
+		<speedIndicator nodeID="281" name="SPEED" description="Speed;" kilometre="26.621" x="261186.56" y="699.99524" xNet="1368244" yNet="626749.13" referenceNode="806"/>
+		<node nodeID="271" kilometre="26.226" x="257235.59" y="699.99609" xNet="1362475" yNet="628551">
+			<netLimitInfo lineID="so290"/>
+		</node>
+		<node nodeID="598" name="tc" description="release contact for track circuit; " kilometre="26.640" x="261378.31" y="625.80847" xNet="1368146.4" yNet="626433.1" referenceNode="68" releaseContact="true" arranged="true"/>
+		<node nodeID="605" name="tc" description="release contact for track circuit; " kilometre="26.641" x="261388.25" y="621.75" xNet="1368140.9" yNet="626416.68" referenceNode="523" releaseContact="true" arranged="true"/>
+		<speedIndicator nodeID="667" kilometre="26.621" x="261173.06" y="499.99527" xNet="1367938.6" yNet="626754.71" referenceNode="466"/>
+		<stationBorder exitType="regular" stationID="CRFDSPA" lineID="so310f" trackNumber="3" nodeID="697" name="[CRFDSPB] - [s290/1]" kilometre="26.671" x="261714.81" y="469.99517" xNet="1367958.9" yNet="625877.66" referenceNode="523"/>
+		<stationBorder exitType="regular" stationID="CRFDSPA" lineID="so290" trackNumber="1" nodeID="1" name="[XY_15] - [s290/1]" kilometre="26.581" x="260784.56" y="499.99536" xNet="1367907.8" yNet="627380.85" referenceNode="2"/>
+		<stationBorder exitType="alternative" stationID="CRFDSPA" lineID="so290" trackNumber="1" nodeID="706" name="[DARTFDJ] - [s290/1]" kilometre="26.908" x="264052.56" y="499.9947" xNet="1370524.4" yNet="623632.11" referenceNode="382">
+			<netLimitInfo lineID="so290"/>
+		</stationBorder>
+		<stationBorder exitType="alternative" stationID="CRFDSPA" lineID="so290" trackNumber="2" nodeID="708" name="[XY_15] - [s290/2]" kilometre="26.237" x="257348.27" y="699.99605" xNet="1363300" yNet="628600" referenceNode="78"/>
+		<stationBorder exitType="regular" stationID="CRFDSPA" lineID="so290" trackNumber="2" nodeID="712" name="[DARTFDJ] - [s290/2]" kilometre="26.647" x="261442.56" y="699.9952" xNet="1368322" yNet="626055.67" referenceNode="68"/>
+		<speedIndicator nodeID="584" kilometre="26.622" x="261196.06" y="699.99524" xNet="1368244.8" yNet="626733.77" referenceNode="281"/>
+		<stationBorder exitType="regular" stationID="CRFDSPA" lineID="so310f" trackNumber="4" nodeID="802" kilometre="26.500" x="261565.53" y="148.76496" xNet="1367445.8" yNet="625525.54" referenceNode="621">
+			<netLimitInfo lineID="so310f"/>
+		</stationBorder>
+		<track trackID="T-1" stationID="CRFDSPA" type="timingPoint" nodeID="2" kilometre="26.594" x="260910.83" y="499.99533" xNet="1367917.9" yNet="627177.35" referenceNode="1"/>
+		<track trackID="T-2" stationID="CRFDSPA" type="timingPoint" nodeID="806" kilometre="26.594" x="260919.96" y="699.9953" xNet="1368222.5" yNet="627179.77" referenceNode="245"/>
+		<node nodeID="3" name="GRAD" description="Gradient; 16m 34.7717ch" kilometre="26.449" x="259166.75" y="501.08835" xNet="1366645" yNet="628232"/>
+		<node nodeID="361" name="SD : NK146" description="sighting distance for SIG : NK146" kilometre="26.550" x="260176.75" y="501.08837" xNet="1367883.3" yNet="627877.71" referenceNode="1" sightingDistance="true"/>
+		<signal interlockingMachine="4 Aspect IECC (Below 75mph)" nodeID="381" name="SIG : NK146" description="Signal NK146; 16m 30.4469ch" kilometre="26.362" x="258472.44" y="497.453" xNet="1362800" yNet="628100" referenceNode="626">
+			<netLimitInfo lineID="so290"/>
+		</signal>
+		<node nodeID="626" kilometre="26.395" x="258806.26" y="497.453" xNet="1364300" yNet="628100"/>
+	</nodes>
+	<links>
+		<link source="1" target="2" length="13" gradient="0.235" vmax="97" vmaxr="97">
+			<vzg index="1" vmax="64" vmaxr="64"/>
+			<vzg index="9" vmax="64" vmaxr="64"/>
+		</link>
+		<link source="2" target="667" length="27" gradient="0.235" vmax="97" vmaxr="97">
+			<vzg index="1" vmax="64" vmaxr="64"/>
+			<vzg index="9" vmax="64" vmaxr="64"/>
+		</link>
+		<link source="3" target="361" length="101" gradient="0.235" vmax="97" vmaxr="97">
+			<vzg index="1" vmax="64" vmaxr="64"/>
+			<vzg index="9" vmax="64" vmaxr="64"/>
+		</link>
+		<link source="68" target="598" length="18" gradient="0.235" vmax="32" vmaxr="32">
+			<vzg index="9" vmax="32" vmaxr="32"/>
+		</link>
+		<link source="68" target="712" length="25" gradient="0.235" vmax="97" vmaxr="97">
+			<vzg index="1" vmax="64" vmaxr="64"/>
+			<vzg index="9" vmax="64" vmaxr="64"/>
+		</link>
+		<link source="78" target="243" length="180" gradient="2.463" vmax="97" vmaxr="97">
+			<vzg index="1" vmax="64" vmaxr="64"/>
+			<vzg index="9" vmax="64" vmaxr="64"/>
+		</link>
+		<link source="243" target="244" length="27" gradient="2.463" vmax="97" vmaxr="97">
+			<vzg index="1" vmax="64" vmaxr="64"/>
+			<vzg index="9" vmax="64" vmaxr="64"/>
+		</link>
+		<link source="244" target="245" length="67" gradient="0.235" vmax="97" vmaxr="97">
+			<vzg index="1" vmax="64" vmaxr="64"/>
+			<vzg index="9" vmax="64" vmaxr="64"/>
+		</link>
+		<link source="245" target="806" length="78" gradient="0.235" vmax="97" vmaxr="97">
+			<vzg index="1" vmax="64" vmaxr="64"/>
+			<vzg index="9" vmax="64" vmaxr="64"/>
+		</link>
+		<link source="271" target="708" length="11" gradient="2.463" vmax="97" vmaxr="97">
+			<vzg index="1" vmax="64" vmaxr="64"/>
+			<vzg index="9" vmax="64" vmaxr="64"/>
+		</link>
+		<link source="281" target="584" length="1" gradient="0.235" vmax="97" vmaxr="97">
+			<vzg index="1" vmax="64" vmaxr="64"/>
+			<vzg index="9" vmax="64" vmaxr="64"/>
+		</link>
+		<link source="361" target="1" length="31" gradient="0.235" vmax="97" vmaxr="97">
+			<vzg index="1" vmax="64" vmaxr="64"/>
+			<vzg index="9" vmax="64" vmaxr="64"/>
+		</link>
+		<link source="362" target="382" length="180" gradient="0.235" vmax="97" vmaxr="97">
+			<vzg index="1" vmax="64" vmaxr="64"/>
+			<vzg index="9" vmax="64" vmaxr="64"/>
+		</link>
+		<link source="381" target="626" length="33" gradient="2.463" vmax="97" vmaxr="97">
+			<vzg index="1" vmax="64" vmaxr="64"/>
+			<vzg index="9" vmax="64" vmaxr="64"/>
+		</link>
+		<link source="382" target="706" length="40" gradient="0.235" vmax="97" vmaxr="97">
+			<vzg index="1" vmax="64" vmaxr="64"/>
+			<vzg index="9" vmax="64" vmaxr="64"/>
+		</link>
+		<link source="466" target="523" length="50" gradient="0.235" vmax="97" vmaxr="97">
+			<vzg index="1" vmax="64" vmaxr="64"/>
+			<vzg index="9" vmax="64" vmaxr="64"/>
+		</link>
+		<link source="466" target="609" vmax="32" vmaxr="32">
+			<vzg index="9" vmax="32" vmaxr="32"/>
+		</link>
+		<link source="523" target="362" length="17" gradient="0.235" vmax="97" vmaxr="97">
+			<vzg index="1" vmax="64" vmaxr="64"/>
+			<vzg index="9" vmax="64" vmaxr="64"/>
+		</link>
+		<link source="523" target="697" vmax="32" vmaxr="32">
+			<vzg index="9" vmax="32" vmaxr="32"/>
+		</link>
+		<link source="524" target="618" length="55" vmax="32" vmaxr="32">
+			<vzg index="9" vmax="32" vmaxr="32"/>
+		</link>
+		<link source="525" target="617" length="75" vmax="32" vmaxr="32">
+			<vzg index="9" vmax="32" vmaxr="32"/>
+		</link>
+		<link source="584" target="68" gradient="0.235" vmax="97" vmaxr="97">
+			<vzg index="1" vmax="64" vmaxr="64"/>
+			<vzg index="9" vmax="64" vmaxr="64"/>
+		</link>
+		<link source="598" target="605" length="1" gradient="0.235" vmax="32" vmaxr="32">
+			<vzg index="9" vmax="32" vmaxr="32"/>
+		</link>
+		<link source="605" target="523" length="30" gradient="0.235" vmax="32" vmaxr="32">
+			<vzg index="9" vmax="32" vmaxr="32"/>
+		</link>
+		<link source="609" target="524" vmax="32" vmaxr="32">
+			<vzg index="9" vmax="32" vmaxr="32"/>
+		</link>
+		<link source="610" target="525" vmax="32" vmaxr="32">
+			<vzg index="9" vmax="32" vmaxr="32"/>
+		</link>
+		<link source="617" target="616" length="70" vmax="32" vmaxr="32">
+			<vzg index="9" vmax="32" vmaxr="32"/>
+		</link>
+		<link source="618" target="621" length="5" vmax="32" vmaxr="32">
+			<vzg index="9" vmax="32" vmaxr="32"/>
+		</link>
+		<link source="621" target="802" length="22" vmax="32" vmaxr="32">
+			<vzg index="9" vmax="32" vmaxr="32"/>
+		</link>
+		<link source="626" target="3" length="54" gradient="2.463" vmax="97" vmaxr="97">
+			<vzg index="1" vmax="64" vmaxr="64"/>
+			<vzg index="9" vmax="64" vmaxr="64"/>
+		</link>
+		<link source="667" target="466" gradient="0.235" vmax="97" vmaxr="97">
+			<vzg index="1" vmax="64" vmaxr="64"/>
+			<vzg index="9" vmax="64" vmaxr="64"/>
+		</link>
+		<link source="697" target="610" vmax="32" vmaxr="32">
+			<vzg index="9" vmax="32" vmaxr="32"/>
+		</link>
+		<link source="708" target="78" length="5" gradient="2.463" vmax="97" vmaxr="97">
+			<vzg index="1" vmax="64" vmaxr="64"/>
+			<vzg index="9" vmax="64" vmaxr="64"/>
+		</link>
+		<link source="712" target="76" length="57" gradient="0.235" vmax="97" vmaxr="97">
+			<vzg index="1" vmax="64" vmaxr="64"/>
+			<vzg index="9" vmax="64" vmaxr="64"/>
+		</link>
+		<link source="806" target="281" length="27" gradient="0.235" vmax="97" vmaxr="97">
+			<vzg index="1" vmax="64" vmaxr="64"/>
+			<vzg index="9" vmax="64" vmaxr="64"/>
+		</link>
+	</links>
+	<dependentLinks/>
+	<blockSections>
+		<blocksection uuid="{3dcb1241-4eb1-4031-aab5-df340d8721b7}" lines="crfda">
+			<part nodes="78 243 244 245 806 281 584 68 712 76"/>
+		</blocksection>
+		<blocksection uuid="{7954426e-dbb9-42d3-aa09-e6e460d138e7}" lines="crfda dart so290">
+			<part nodes="706 382"/>
+		</blocksection>
+		<blocksection uuid="{86d08cf2-e65e-45db-8522-97cb6cec1a62}" lines="crfda so310f" speedIndicators="667">
+			<part nodes="802 621 618 524 609 466 667 2 1 361 3 626 381"/>
+		</blocksection>
+		<blocksection uuid="{8ee640c9-f913-4047-8a89-e4d008fc5bb3}" lines="crfda" speedIndicators="281 584">
+			<part nodes="78 243 244 245 806 281 584 68 598 605 523 697 610 525 617 616"/>
+		</blocksection>
+		<blocksection uuid="{8fb674c2-0e0c-4e84-b806-9454397de457}" lines="crfda dart so290">
+			<part nodes="706 382"/>
+		</blocksection>
+		<blocksection uuid="{f469204c-eb4d-487c-8023-83f03b2d46bb}" lines="crfda">
+			<part nodes="382 362 523 466 667 2 1 361 3 626 381"/>
+		</blocksection>
+		<blocksection uuid="{f7874043-c68b-41e6-80cc-0018f32b8fc8}" lines="crfda crfdc so290">
+			<part nodes="271 708 78"/>
+		</blocksection>
+		<blocksection uuid="{fdcc5324-9224-4cba-bb14-09dfd16ae243}" lines="crfda dart so290">
+			<part nodes="706 382"/>
+		</blocksection>
+	</blockSections>
+	<slipDistances>
+		<slipdistance uuid="{0f3c8738-f409-418f-b10c-d27e50cdeca7}" vmax="999" lines="crfda" serialNumber="0">
+			<part nodes="382 362"/>
+		</slipdistance>
+		<slipdistance uuid="{8250c611-9056-4f04-8d93-66d1f2e2604c}" vmax="999" lines="crfda" serialNumber="0">
+			<part nodes="78 243"/>
+		</slipdistance>
+		<slipdistance uuid="{e187b2d5-d094-4853-ade4-e380fcd3e244}" vmax="999" lines="crfda so310f" serialNumber="0">
+			<part nodes="802 621"/>
+		</slipdistance>
+	</slipDistances>
+	<approachControlRoutes>
+		<ACRoute controlTyp="mar" uuid="{7500a27f-cd9a-4d4e-9ab6-77449a58ac6f}" publicName="NK147 - NK396" lines="crfda">
+			<part nodes="78 243 244 245 806 281 584 68 598 605 523 697"/>
+		</ACRoute>
+	</approachControlRoutes>
+	<stationRoutes>
+		<stationRoute stationID="CRFDSPA" name="[CRFDCKJ]-[s290/2]-[3]-[CRFDSPB]-[s290/1] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=95;NRz=95;S=95;Rz=95;FGz=95;NGz=95;Gz=95;Lz=95;Unbekannt=95" nodes="708 78 243 244 245 806 281 584 68 598 605 523 697"/>
+		<stationRoute stationID="CRFDSPA" name="[CRFDCKJ]-[s290/2]-[3]-[DARTFDJ]-[s290/2] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="708 78 243 244 245 806 281 584 68 712"/>
+		<stationRoute stationID="CRFDSPA" name="[CRFDSPB]-[s290/2]-[1]-[CRFDCKJ]-[s290/1] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=95;NRz=95;S=95;Rz=95;FGz=95;NGz=95;Gz=95;Lz=95;Unbekannt=95" nodes="802 621 618 524 609 466 667 2 1"/>
+		<stationRoute stationID="CRFDSPA" name="[DARTFDJ]-[s290/1]-[2]-[CRFDCKJ]-[s290/1] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="706 382 362 523 466 667 2 1"/>
+	</stationRoutes>
+	<lineCatalog/>
+	<zugNummernFelder/>
+	<switchGears/>
+</line>

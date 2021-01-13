@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<line lineID="n7011" name="Lostock Hall Lines" trafficRouting="on_the_left" type="local" dependentLines="fcjn fjn">
+	<version major="1" minor="2" patchlevel="0" comment=""/>
+	<creator user="VWaddelo" timestamp="2016-07-08T10:58:15"/>
+	<lasteditor user="VWaddelo" timestamp="2016-07-08T10:58:15"/>
+	<stations>
+		<station stationID="LSTHJNS" name="Lostock Hall Jn Sdg" xNet="-1921754.45" yNet="4917536.05" uicLocationCode="0" circleDiameter="0">
+			<textElement type="name">
+				<pos view="net" x="468.382" y="468.382" angle="0" system="source"/>
+				<pos view="wgs84" x="468.382" y="468.382" angle="0" system="source"/>
+				<pos view="line" x="439.912" y="439.912" angle="0" system="source"/>
+				<pos view="macro" x="28.2843" y="28.2843" angle="0" system="source"/>
+				<pos view="macroWgs84" x="0" y="0" angle="0" system="source"/>
+			</textElement>
+		</station>
+	</stations>
+	<nodes>
+		<switch start="21" endOfMainTrack="87053" endOfBranchTrack="87054" nodeID="87051" name="POINTS: 751 A" description="GEOGIS S&amp;C|LHL|148087051|[496][1331]|" kilometre="1.217" x="12171" y="-5600" xNet="-1922100.9" yNet="4917045.2"/>
+		<node nodeID="88323" name="GRAD" kilometre="0.646" x="6459.9277" y="-6000" xNet="-1925302.2" yNet="4912298.4"/>
+		<node nodeID="55354" name="GRAD" kilometre="0.646" x="6463.4727" y="-5800" xNet="-1925458.5" yNet="4912424.5"/>
+		<signal interlockingMachine="3 Aspect Pannel (Below 75mph)" nodeID="55355" name="SIG: 497" kilometre="0.860" x="8600.4102" y="-5800" xNet="-1924142.4" yNet="4914107.7" referenceNode="55360"/>
+		<node nodeID="55356" name="OL: 497" kilometre="0.993" x="9930.9473" y="-5800" xNet="-1923322.5" yNet="4915157"/>
+		<node nodeID="76018" name="TC" kilometre="1.165" x="11648.834" y="-5744.4443" xNet="-1922309.6" yNet="4916544.4" referenceNode="76019" releaseContact="true" arranged="true"/>
+		<node nodeID="76019" name="TC" kilometre="1.197" x="11970.167" y="-5655.5557" xNet="-1922181.3" yNet="4916851.2" referenceNode="76018" releaseContact="true" arranged="true"/>
+		<node nodeID="87054" name="TC" kilometre="1.237" x="12370.107" y="-5600" xNet="-1921979.2" yNet="4917202.6" referenceNode="87051" releaseContact="true" arranged="true"/>
+		<node nodeID="88329" name="SD: 504" kilometre="0.435" x="4349.7705" y="-6000" xNet="-1926601.1" yNet="4910635" referenceNode="88323" sightingDistance="true"/>
+		<node nodeID="55360" name="SD: 497" kilometre="0.782" x="7821.5264" y="-5800" xNet="-1924622" yNet="4913494.8" referenceNode="55354" sightingDistance="true"/>
+		<node nodeID="88325" name="SD: 495" kilometre="0.981" x="9805.3037" y="-6000" xNet="-1923242.4" yNet="4914933.9" referenceNode="88323" sightingDistance="true"/>
+		<track trackID="U-1" stationID="LSTHJNS" type="shunting" interlockingMachine="Shunt" nodeID="87053" name="SIG: 494" kilometre="1.267" x="12668.768" y="-5400" xNet="-1921954" yNet="4917560.5" referenceNode="73454"/>
+		<track trackID="U-2" stationID="LSTHJNS" type="shunting" interlockingMachine="Shunt" nodeID="87052" name="SIG: 493" kilometre="1.267" x="12668.768" y="-5600" xNet="-1921795.4" yNet="4917438" referenceNode="61645"/>
+		<track trackID="D-2" stationID="LSTHJNS" interlockingMachine="Buffer Stop" nodeID="61645" name="Siding 2" description="GEOGIS S&amp;C|LHL|148061645|[496][1453]|" kilometre="1.329" x="13286" y="-5600" xNet="-1921414.8" yNet="4917923.1" referenceNode="87052"/>
+		<track trackID="D-1" stationID="LSTHJNS" interlockingMachine="Buffer Stop" nodeID="73454" name="Siding 1" description="GEOGIS S&amp;C|LHL|148073454|[494][1453]|" kilometre="1.329" x="13286" y="-5400" xNet="-1921572.4" yNet="4918045.7" referenceNode="87053"/>
+		<stationBorder exitType="locked" stationID="LSTHJNS" trackNumber="" nodeID="19" name="Prellbock 107" kilometre="1.329" x="13336" y="-5600" xNet="-1921383.9" yNet="4917962.4" referenceNode="61645"/>
+		<stationBorder exitType="locked" stationID="LSTHJNS" trackNumber="" nodeID="20" name="Prellbock 108" kilometre="1.329" x="13336" y="-5400" xNet="-1921541.5" yNet="4918085.1" referenceNode="73454"/>
+		<stationBorder exitType="alternative" stationID="LSTHJNS" lineID="n7011" trackNumber="1" nodeID="21" name="[LSTHJN] - [n7011/1]" kilometre="1.211" x="12110.75" y="-5616.6667" xNet="-1922125" yNet="4916987" referenceNode="87051"/>
+	</nodes>
+	<links>
+		<link source="21" target="87051" length="6" gradient="4.425" vmax="24" vmaxr="24" bidirectional="true" radius="2901"/>
+		<link source="55354" target="55360" length="136" gradient="3.663" vmax="40" vmaxr="40" radius="2100">
+			<vzg index="3" vmax="16" vmaxr="16"/>
+			<vzg index="5" vmax="16" vmaxr="16"/>
+		</link>
+		<link source="55355" target="55356" length="133" gradient="3.663" vmax="40" vmaxr="40" radius="2100">
+			<vzg index="3" vmax="16" vmaxr="16"/>
+			<vzg index="5" vmax="16" vmaxr="16"/>
+		</link>
+		<link source="55356" target="55353.fcjn" length="107" gradient="3.663" vmax="40" vmaxr="40" radius="2100">
+			<vzg index="3" vmax="16" vmaxr="16"/>
+			<vzg index="5" vmax="16" vmaxr="16"/>
+		</link>
+		<link source="55357.fjn" target="55354" length="471" gradient="-3.096" vmax="40" vmaxr="40" radius="2100">
+			<vzg index="3" vmax="16" vmaxr="16"/>
+			<vzg index="5" vmax="16" vmaxr="16"/>
+		</link>
+		<link source="55360" target="55355" length="78" gradient="3.663" vmax="40" vmaxr="40" radius="2100">
+			<vzg index="3" vmax="16" vmaxr="16"/>
+			<vzg index="5" vmax="16" vmaxr="16"/>
+		</link>
+		<link source="61645" target="19" gradient="4.425" vmax="24" vmaxr="24" radius="2901"/>
+		<link source="73454" target="20" gradient="4.425" vmax="24" vmaxr="24" radius="2902"/>
+		<link source="76015.fcjn" target="76018" length="6" gradient="4.425" vmax="24" vmaxr="24" bidirectional="true" radius="2901"/>
+		<link source="76018" target="76019" length="32" gradient="4.425" vmax="24" vmaxr="24" bidirectional="true" radius="2901"/>
+		<link source="76019" target="21" length="14" gradient="4.425" vmax="24" vmaxr="24" bidirectional="true" radius="2901"/>
+		<link source="87051" target="87053" length="50" gradient="4.425" vmax="24" vmaxr="24" radius="2902"/>
+		<link source="87051" target="87054" length="20" gradient="4.425" vmax="24" vmaxr="24" radius="2901"/>
+		<link source="87052" target="61645" length="62" gradient="4.425" vmax="24" vmaxr="24" radius="2901"/>
+		<link source="87053" target="73454" length="62" gradient="4.425" vmax="24" vmaxr="24" radius="2902"/>
+		<link source="87054" target="87052" length="30" gradient="4.425" vmax="24" vmaxr="24" radius="2901"/>
+		<link source="88323" target="88325" length="334" gradient="3.663" vmax="40" vmaxr="40" radius="1100">
+			<vzg index="3" vmax="16" vmaxr="16"/>
+			<vzg index="5" vmax="16" vmaxr="16"/>
+		</link>
+		<link source="88325" target="88327.fcjn" length="61" gradient="3.663" vmax="40" vmaxr="40" radius="1100">
+			<vzg index="3" vmax="16" vmaxr="16"/>
+			<vzg index="5" vmax="16" vmaxr="16"/>
+		</link>
+		<link source="88329" target="88323" length="211" gradient="-3.096" vmax="40" vmaxr="40" radius="1100">
+			<vzg index="3" vmax="16" vmaxr="16"/>
+			<vzg index="5" vmax="16" vmaxr="16"/>
+		</link>
+		<link source="88330.fjn" target="88329" length="65" gradient="-3.096" vmax="40" vmaxr="40" radius="1100">
+			<vzg index="3" vmax="16" vmaxr="16"/>
+			<vzg index="5" vmax="16" vmaxr="16"/>
+		</link>
+	</links>
+	<dependentLinks/>
+	<blockSections>
+		<blocksection uuid="{0d59a2a7-aab8-41e9-af11-dee4bd20216a}" lines="fcjn n7011">
+			<part nodes="55355 55356 55353.fcjn"/>
+			<part nodes="76015.fcjn 76018 76019 21 87051 87054 87052 61645"/>
+		</blocksection>
+		<blocksection uuid="{0dcf2b0f-b32e-4e34-a3de-862a93679825}" lines="n7011" shuntingBlock="true">
+			<part nodes="61645 87052"/>
+		</blocksection>
+		<blocksection uuid="{26a0c899-50b7-4e68-be89-a9ce7a1504f9}" lines="fcjn fjn n7011" shuntingBlock="true">
+			<part nodes="88327.fcjn 88325 88323 88329 88330.fjn"/>
+		</blocksection>
+		<blocksection uuid="{27100981-5e6e-4944-9e3d-771d7f175632}" lines="n7011" shuntingBlock="true">
+			<part nodes="73454 87053"/>
+		</blocksection>
+		<blocksection uuid="{29a1c35b-e15b-47ad-b6d1-4ca3d0531a2c}" lines="fjn n7011">
+			<part nodes="55357.fjn 55354 55360 55355"/>
+		</blocksection>
+		<blocksection uuid="{2ae6e74c-976a-40f5-a45d-dcc8425489ff}" lines="fcjn n7011" shuntingBlock="true">
+			<part nodes="76015.fcjn 76018 76019 21 87051 87053 73454"/>
+		</blocksection>
+		<blocksection uuid="{747631b6-5ef1-4835-97d3-91596ee69243}" lines="fcjn n7011">
+			<part nodes="55355 55356 55353.fcjn"/>
+		</blocksection>
+		<blocksection uuid="{75540047-63e0-4d58-971a-631743eeabc4}" lines="fjn n7011">
+			<part nodes="55357.fjn 55354 55360 55355"/>
+		</blocksection>
+		<blocksection uuid="{7633fc2f-79ba-4817-a842-1b99f51971f0}" lines="fjn n7011">
+			<part nodes="55357.fjn 55354 55360 55355"/>
+		</blocksection>
+		<blocksection uuid="{780b0354-7aec-432c-8572-07ceefd5b105}" lines="fcjn n7011" shuntingBlock="true">
+			<part nodes="76015.fcjn 76018 76019 21 87051 87054 87052 61645"/>
+		</blocksection>
+		<blocksection uuid="{95201e86-e92b-43bf-abf2-61d2cd19dbfa}" lines="fcjn fjn n7011" shuntingBlock="true">
+			<part nodes="88330.fjn 88329 88323 88325 88327.fcjn"/>
+		</blocksection>
+		<blocksection uuid="{9648e09d-a671-4c49-8323-84924e72eada}" lines="fcjn fjn n7011" shuntingBlock="true">
+			<part nodes="87052 87054 87051 21 76019 76018 76015.fcjn"/>
+			<part nodes="88327.fcjn 88325 88323 88329 88330.fjn"/>
+		</blocksection>
+		<blocksection uuid="{964e5cf8-ab60-4865-9a7a-4ad1aa28731f}" lines="fcjn fjn n7011" shuntingBlock="true">
+			<part nodes="88330.fjn 88329 88323 88325 88327.fcjn"/>
+		</blocksection>
+		<blocksection uuid="{a1879d08-8af3-4fe3-b01f-46e71dd29186}" lines="fcjn fjn n7011">
+			<part nodes="88327.fcjn 88325 88323 88329 88330.fjn"/>
+		</blocksection>
+		<blocksection uuid="{b2fcfe82-c04c-4e02-8b8f-22a16cf06910}" lines="fcjn fjn n7011" shuntingBlock="true">
+			<part nodes="88330.fjn 88329 88323 88325 88327.fcjn"/>
+		</blocksection>
+		<blocksection uuid="{b40a2818-bcf2-49f6-863a-941d77bf797b}" lines="fcjn n7011">
+			<part nodes="55355 55356 55353.fcjn"/>
+			<part nodes="76015.fcjn 76018 76019 21 87051 87053 73454"/>
+		</blocksection>
+		<blocksection uuid="{cf25e5c6-babb-40f1-a9fe-8a672459bb0d}" lines="fcjn fjn n7011" shuntingBlock="true">
+			<part nodes="87053 87051 21 76019 76018 76015.fcjn"/>
+			<part nodes="88327.fcjn 88325 88323 88329 88330.fjn"/>
+		</blocksection>
+	</blockSections>
+	<slipDistances>
+		<slipdistance uuid="{46bc6e82-1dfc-4abc-bed4-c360069b62e5}" vmax="999" lines="fcjn n7011" serialNumber="0">
+			<part nodes="76015.fcjn 76018"/>
+		</slipdistance>
+		<slipdistance uuid="{a176a345-b433-4566-919d-3809e2832efc}" vmax="999" lines="n7011" serialNumber="0">
+			<part nodes="55355 55356"/>
+		</slipdistance>
+	</slipDistances>
+	<approachControlRoutes/>
+	<stationRoutes>
+		<stationRoute stationID="LSTHJNS" name="[LSTHJN]-[n7011/1]-[1]-[LSTHJN]-[n7011/1] (3)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="21 87051 87053 73454 87053 87051 21"/>
+		<stationRoute stationID="LSTHJNS" name="[LSTHJN]-[n7011/1]-[1]-[]-[?/] (2)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="21 87051 87053 73454 20"/>
+		<stationRoute stationID="LSTHJNS" name="[LSTHJN]-[n7011/1]-[2]-[LSTHJN]-[n7011/1] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=90;NRz=90;S=90;Rz=90;FGz=90;NGz=90;Gz=90;Lz=90;Unbekannt=90" nodes="21 87051 87054 87052 61645 87052 87054 87051 21"/>
+		<stationRoute stationID="LSTHJNS" name="[LSTHJN]-[n7011/1]-[2]-[]-[?/] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=95;NRz=95;S=95;Rz=95;FGz=95;NGz=95;Gz=95;Lz=95;Unbekannt=95" nodes="21 87051 87054 87052 61645 19"/>
+		<stationRoute stationID="LSTHJNS" name="[]-[?/]-[1]-[LSTHJN]-[n7011/1] (2)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="20 73454 87053 87051 21"/>
+		<stationRoute stationID="LSTHJNS" name="[]-[?/]-[2]-[LSTHJN]-[n7011/1] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=95;NRz=95;S=95;Rz=95;FGz=95;NGz=95;Gz=95;Lz=95;Unbekannt=95" nodes="19 61645 87052 87054 87051 21"/>
+	</stationRoutes>
+	<lineCatalog/>
+	<zugNummernFelder/>
+	<switchGears/>
+</line>

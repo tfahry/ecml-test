@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<line lineID="sc079" name="HNTRSJN - CLYDE PORT" trafficRouting="on_the_left" type="local" dependentLines="hunj">
+	<version major="1" minor="2" patchlevel="0" comment=""/>
+	<creator user="VWaddelo" timestamp="2016-07-08T10:58:15"/>
+	<lasteditor user="VWaddelo" timestamp="2016-07-08T10:58:15"/>
+	<stations>
+		<station stationID="HNTRLFL" name="Clyde Port" xNet="-3758025.2" yNet="8923350" uicLocationCode="0" circleDiameter="0">
+			<textElement type="name">
+				<pos view="net" x="681.722" y="681.722" angle="0" system="source"/>
+				<pos view="wgs84" x="681.722" y="681.722" angle="0" system="source"/>
+				<pos view="line" x="681.686" y="681.686" angle="0" system="source"/>
+				<pos view="macro" x="28.2843" y="28.2843" angle="0" system="source"/>
+				<pos view="macroWgs84" x="0" y="0" angle="0" system="source"/>
+			</textElement>
+		</station>
+	</stations>
+	<nodes>
+		<node nodeID="215" kilometre="60.000" x="600000" y="500" xNet="-3722939.3" yNet="8923350"/>
+		<node nodeID="220" kilometre="61.000" x="610000" y="500" xNet="-3732939.3" yNet="8923350"/>
+		<node nodeID="225" kilometre="62.000" x="620000" y="500" xNet="-3742939.3" yNet="8923350"/>
+		<node nodeID="242" name="SIG:PH524R" kilometre="60.119" x="601190" y="500" xNet="-3724129.3" yNet="8923350" referenceNode="241.hunj" presignal="true" with1000HzMagnet="true"/>
+		<node nodeID="243" name="TC" kilometre="60.592" x="605920" y="500" xNet="-3728859.3" yNet="8923350"/>
+		<node nodeID="244" name="TC" kilometre="61.492" x="614920" y="500" xNet="-3737859.3" yNet="8923350"/>
+		<node nodeID="245" name="SIG:PH527R" kilometre="61.925" x="619250" y="500" xNet="-3742189.3" yNet="8923350" referenceNode="375" presignal="true" with1000HzMagnet="true"/>
+		<node nodeID="250" kilometre="63.000" x="630000" y="500" xNet="-3752939.3" yNet="8923350"/>
+		<node nodeID="255" name="TC" kilometre="62.805" x="628050" y="500" xNet="-3750989.3" yNet="8923350"/>
+		<signal interlockingMachine="2 Aspect Pannel (Below 75mph)" nodeID="256" name="SIG:PH527" kilometre="62.895" x="628950" y="500" xNet="-3751889.3" yNet="8923350" referenceNode="377"/>
+		<node nodeID="257" name="TC" kilometre="63.065" x="630647" y="500" xNet="-3753586.3" yNet="8923350"/>
+		<node nodeID="259" name="TC" kilometre="63.551" x="635510" y="500" xNet="-3758449.3" yNet="8923350"/>
+		<node nodeID="303" name="OL" kilometre="63.194" x="631940" y="500" xNet="-3754879.3" yNet="8923350"/>
+		<node nodeID="372" name="GRAD" kilometre="60.217" x="602167" y="500" xNet="-3725106.3" yNet="8923350"/>
+		<node nodeID="374" name="GRAD" kilometre="61.359" x="613590" y="500" xNet="-3736529.3" yNet="8923350"/>
+		<node nodeID="375" name="GRAD" kilometre="61.658" x="616580" y="500" xNet="-3739519.3" yNet="8923350"/>
+		<node nodeID="376" name="GRAD" kilometre="62.696" x="626960" y="500" xNet="-3749899.3" yNet="8923350"/>
+		<node nodeID="377" name="GRAD" kilometre="62.889" x="628890" y="500" xNet="-3751829.3" yNet="8923350"/>
+		<node nodeID="378" kilometre="63.517" x="635168" y="500" xNet="-3758107.3" yNet="8923350"/>
+		<speedIndicator nodeID="381" name="SPEED" kilometre="60.329" x="603290" y="500" xNet="-3726229.3" yNet="8923350" referenceNode="372"/>
+		<node nodeID="576" name="OL" kilometre="60.040" x="600398" y="500" xNet="-3723337.3" yNet="8923350"/>
+		<node nodeID="383" name="SD:PH527" kilometre="62.825" x="628250" y="500" xNet="-3751189.3" yNet="8923350" referenceNode="255" sightingDistance="true"/>
+		<track trackID="U-1" stationID="HNTRLFL" interlockingMachine="2 Aspect Pannel (Below 75mph)" nodeID="258" name="SIG:PH528" kilometre="63.506" x="635057" y="500" xNet="-3757996.3" yNet="8923350" referenceNode="378"/>
+		<track trackID="D-1" stationID="HNTRLFL" type="exit" interlockingMachine="2 Aspect Pannel (Below 75mph)" nodeID="253" name="EXIT" kilometre="63.600" x="636000" y="500" xNet="-3758939.3" yNet="8923350" referenceNode="259"/>
+		<stationBorder exitType="regular" stationID="HNTRLFL" lineID="sc079" trackNumber="1" nodeID="1" name="[HNTRSJN] - [sc079/1]" kilometre="63.412" x="634121.9" y="500" xNet="-3757061.1" yNet="8923350" referenceNode="258"/>
+		<stationBorder exitType="locked" stationID="HNTRLFL" trackNumber="" nodeID="2" name="Prellbock 134" kilometre="63.600" x="636050" y="500" xNet="-3758989.3" yNet="8923350" referenceNode="253"/>
+	</nodes>
+	<links>
+		<link source="1" target="258" length="94" gradient="-10" vmax="8" vmaxr="8" bidirectional="true"/>
+		<link source="215" target="576" length="40" gradient="-2.5" vmax="16" vmaxr="16" bidirectional="true"/>
+		<link source="220" target="374" length="359" gradient="-10" vmax="8" vmaxr="8" bidirectional="true"/>
+		<link source="222.hunj" target="215" length="251" gradient="-2.5" vmax="16" vmaxr="16" bidirectional="true"/>
+		<link source="225" target="376" length="696" gradient="-10" vmax="8" vmaxr="8" bidirectional="true"/>
+		<link source="241.hunj" target="242" length="10" gradient="-2.5" vmax="16" vmaxr="16" bidirectional="true"/>
+		<link source="242" target="372" length="98" gradient="-2.5" vmax="16" vmaxr="16" bidirectional="true"/>
+		<link source="243" target="220" length="408" gradient="-10" vmax="8" vmaxr="8" bidirectional="true"/>
+		<link source="244" target="375" length="166" vmax="8" vmaxr="8" bidirectional="true"/>
+		<link source="245" target="225" length="75" gradient="-10" vmax="8" vmaxr="8" bidirectional="true"/>
+		<link source="250" target="257" length="65" gradient="-10" vmax="8" vmaxr="8" bidirectional="true"/>
+		<link source="253" target="2" gradient="-10" vmax="8" vmaxr="8" bidirectional="true"/>
+		<link source="255" target="383" length="20" vmax="8" vmaxr="8" bidirectional="true"/>
+		<link source="256" target="250" length="105" gradient="-10" vmax="8" vmaxr="8" bidirectional="true"/>
+		<link source="257" target="303" length="129" gradient="-10" vmax="8" vmaxr="8" bidirectional="true"/>
+		<link source="258" target="378" length="11" gradient="-10" vmax="8" vmaxr="8" bidirectional="true"/>
+		<link source="259" target="253" length="49" gradient="-10" vmax="8" vmaxr="8" bidirectional="true"/>
+		<link source="303" target="1" length="218" gradient="-10" vmax="8" vmaxr="8" bidirectional="true"/>
+		<link source="372" target="381" length="112" gradient="-10" vmax="16" vmaxr="16" bidirectional="true"/>
+		<link source="374" target="244" length="133" vmax="8" vmaxr="8" bidirectional="true"/>
+		<link source="375" target="245" length="267" gradient="-10" vmax="8" vmaxr="8" bidirectional="true"/>
+		<link source="376" target="255" length="109" vmax="8" vmaxr="8" bidirectional="true"/>
+		<link source="377" target="256" length="6" gradient="-10" vmax="8" vmaxr="8" bidirectional="true"/>
+		<link source="378" target="259" length="34" gradient="-10" vmax="8" vmaxr="8" bidirectional="true"/>
+		<link source="381" target="243" length="263" gradient="-10" vmax="8" vmaxr="8" bidirectional="true"/>
+		<link source="383" target="377" length="64" vmax="8" vmaxr="8" bidirectional="true"/>
+		<link source="576" target="241.hunj" length="69" gradient="-2.5" vmax="16" vmaxr="16" bidirectional="true"/>
+	</links>
+	<dependentLinks/>
+	<blockSections>
+		<blocksection uuid="{64ae89b8-7566-455d-ad13-072536b4e8c4}" lines="sc079">
+			<part nodes="256 250 257 303 1 258 378 259 253"/>
+		</blocksection>
+		<blocksection uuid="{9f2fa9f4-32d2-4d00-8402-1d58460a43f8}" lines="hunj sc079" presignalMode="specified" presignal="242" speedIndicators="381">
+			<part nodes="222.hunj 215 576 241.hunj 242 372 381 243 220 374 244 375 245 225 376 255 383 377 256"/>
+		</blocksection>
+		<blocksection uuid="{bcdc8625-a79b-4606-94dd-f8b1def212c1}" lines="hunj sc079" speedIndicators="381">
+			<part nodes="258 1 303 257 250 256 377 383 255 376 225 245 375 244 374 220 243 381 372 242 241.hunj 576 215 222.hunj"/>
+		</blocksection>
+	</blockSections>
+	<slipDistances>
+		<slipdistance uuid="{40e9f45b-769e-49ed-a112-b8fcc8378b3e}" vmax="999" lines="sc079" serialNumber="0">
+			<part nodes="256 250 257 303"/>
+		</slipdistance>
+		<slipdistance uuid="{5b99d946-17e8-4e73-b930-ba405ddd69c5}" vmax="999" lines="hunj sc079" serialNumber="0">
+			<part nodes="222.hunj 215 576"/>
+		</slipdistance>
+		<slipdistance uuid="{caa3367e-4a88-4a03-ad0f-06adcc066df2}" vmax="999" lines="sc079" serialNumber="0">
+			<part nodes="258 1 303"/>
+		</slipdistance>
+	</slipDistances>
+	<approachControlRoutes/>
+	<stationRoutes>
+		<stationRoute stationID="HNTRLFL" name="[HNTRSJN]-[sc079/1]-[1]-[]-[?/] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="1 258 378 259 253 2"/>
+		<stationRoute stationID="HNTRLFL" name="[]-[?/]-[1]-[HNTRSJN]-[sc079/1] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="2 253 259 378 258 1"/>
+	</stationRoutes>
+	<lineCatalog/>
+	<zugNummernFelder/>
+	<switchGears/>
+</line>

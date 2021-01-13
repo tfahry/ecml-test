@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<line lineID="sw240a" name="Old Kew Jn - Kew East Jn" trafficRouting="on_the_left" type="local" dependentLines="kewej stha">
+	<version major="1" minor="2" patchlevel="0" comment=""/>
+	<creator user="Ahowe4" timestamp="2016-11-01T12:54:22"/>
+	<lasteditor user="Ahowe4" timestamp="2016-11-01T12:54:22"/>
+	<stations/>
+	<nodes>
+		<node nodeID="60072" kilometre="4.854" x="131280.54" y="-1861.0872" xNet="834685.49" yNet="704859.35"/>
+		<node nodeID="60078" kilometre="4.854" x="131048.95" y="-1567.0872" xNet="834968.73" yNet="704948.02"/>
+		<node nodeID="60080" kilometre="5.054" x="131480.54" y="-1572.4792" xNet="834737.17" yNet="704684.72"/>
+		<node nodeID="60088" name="SD:S-2" description="sighting distance for SIG:S-2" kilometre="5.113" x="131598.54" y="-1572.4792" xNet="832351.97" yNet="702122.79" referenceNode="60080" sightingDistance="true"/>
+		<node nodeID="183" name="SD:BL110" description="sighting distance for SIG:BL110" kilometre="4.794" x="131077.89" y="-1865.0872" xNet="834747.05" yNet="705632.47" referenceNode="60072" sightingDistance="true"/>
+		<node nodeID="60074" kilometre="5.054" x="131575.54" y="-1846.0872" xNet="832307.11" yNet="702274.73"/>
+	</nodes>
+	<links>
+		<link source="30.stha" target="183" length="81" vmax="72" vmaxr="72"/>
+		<link source="183" target="60072" length="60" vmax="72" vmaxr="72"/>
+		<link source="60063.stha" target="60078" length="227" vmax="72" vmaxr="72"/>
+		<link source="60072" target="60074" length="200" vmax="72" vmaxr="72"/>
+		<link source="60074" target="3.kewej" length="120" vmax="72" vmaxr="72"/>
+		<link source="60078" target="60080" length="200" vmax="72" vmaxr="72"/>
+		<link source="60080" target="60088" length="59" vmax="72" vmaxr="72"/>
+		<link source="60088" target="6.kewej" length="81" vmax="72" vmaxr="72"/>
+	</links>
+	<dependentLinks/>
+	<blockSections>
+		<blocksection uuid="{2f4b3d56-511e-4a1d-93c5-c0c3dab16c4a}" lines="kewej stha sw240a">
+			<part nodes="60063.stha 60078 60080 60088 6.kewej"/>
+		</blocksection>
+		<blocksection uuid="{505ba7b3-d2a0-494f-b11b-8356f6f8df42}" lines="kewej stha sw240a">
+			<part nodes="3.kewej 60074 60072 183 30.stha"/>
+		</blocksection>
+	</blockSections>
+	<slipDistances/>
+	<approachControlRoutes/>
+	<stationRoutes/>
+	<lineCatalog/>
+	<zugNummernFelder/>
+	<switchGears/>
+</line>

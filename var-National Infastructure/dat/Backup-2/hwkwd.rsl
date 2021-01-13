@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<line lineID="hwkwd" name="Hawkwood Jn (near Petts Wood)" trafficRouting="on_the_left" type="global" dependentLines="so110y so130g">
+	<transformations>
+		<transformation line="so130g" m11="1" m12="0" m21="0" m22="1" dx="-17220.5" dy="575.408"/>
+	</transformations>
+	<version major="1" minor="2" patchlevel="0" comment=""/>
+	<creator user="Ahowe4" timestamp="2016-11-01T12:54:22"/>
+	<lasteditor user="Ahowe4" timestamp="2016-11-01T12:54:22"/>
+	<stations>
+		<station stationID="ZHWKWDJN" name="Hawkwood Jn (RailSys)" xNet="1213373.75" yNet="528759.19" uicLocationCode="0" circleDiameter="0">
+			<textElement type="name">
+				<pos view="net" x="1568.85" y="1568.85" angle="0" system="source"/>
+				<pos view="wgs84" x="1568.85" y="1568.85" angle="0" system="source"/>
+				<pos view="line" x="1026.86" y="1026.86" angle="0" system="source"/>
+				<pos view="macro" x="28.2843" y="28.2843" angle="0" system="source"/>
+				<pos view="macroWgs84" x="0" y="0" angle="0" system="source"/>
+			</textElement>
+		</station>
+	</stations>
+	<nodes>
+		<switch start="482" endOfMainTrack="478" endOfBranchTrack="797" nodeID="440" name="POINTS : 875" description="POINTS : 875;  mph; 11m 67.37ch" kilometre="19.058" x="208210" y="300" xNet="1215024.8" yNet="527986.13"/>
+		<switch start="483" endOfMainTrack="798" endOfBranchTrack="5" nodeID="441" name="POINTS : 868" description="POINTS : 868;  mph; 11m 64.98ch" kilometre="19.010" x="207730" y="300" xNet="1212516.8" yNet="529052.96"/>
+		<speedIndicator nodeID="482" name="SPEED" description="Speed;" kilometre="19.058" x="208186" y="300" xNet="1214899.4" yNet="528039.47" referenceNode="440"/>
+		<speedIndicator nodeID="483" name="SPEED" description="Speed;" kilometre="19.010" x="207752.8" y="300" xNet="1212635.8" yNet="529002.29" referenceNode="517"/>
+		<stationBorder exitType="alternative" stationID="ZHWKWDJN" lineID="so110y" trackNumber="DSV" nodeID="5" name="[BICKLYJ] - [s110a/2]" description="200MM : 18.8" kilometre="18.800" x="205630.02" y="300" xNet="1211315.1" yNet="529116.77" referenceNode="441">
+			<netLimitInfo lineID="so110y"/>
+		</stationBorder>
+		<stationBorder exitType="regular" stationID="ZHWKWDJN" lineID="so110y" trackNumber="DSV" nodeID="797" name="[PETSWDJ] - [s110a/1]" kilometre="19.064" x="208270.17" y="300" xNet="1215168.5" yNet="527931.82" referenceNode="440">
+			<netLimitInfo lineID="so110y"/>
+		</stationBorder>
+		<stationBorder exitType="regular" stationID="ZHWKWDJN" lineID="so130g" trackNumber="CL" nodeID="798" name="[CHSLHRJ] - [s110a/2]" kilometre="19.004" x="207364.18" y="352.81823" xNet="1212024" yNet="529586.56" referenceNode="441">
+			<netLimitInfo lineID="so130g"/>
+		</stationBorder>
+		<stationBorder exitType="regular" stationID="ZHWKWDJN" lineID="so130g" trackNumber="CL" nodeID="478" kilometre="19.079" x="208531.34" y="433.46194" xNet="1215432.4" yNet="528319.49" referenceNode="440">
+			<netLimitInfo lineID="so130g"/>
+		</stationBorder>
+		<track trackID="T-1" stationID="ZHWKWDJN" type="timingPoint" nodeID="517" kilometre="19.053" x="208138.47" y="300" xNet="1214651.1" yNet="528145.12" referenceNode="483"/>
+	</nodes>
+	<links>
+		<link source="5" target="441" length="210" vmax="80" vmaxr="80" bidirectional="true">
+			<vzg index="9" vmax="48" vmaxr="48"/>
+		</link>
+		<link source="440" target="478" length="21" vmax="64" vmaxr="64" bidirectional="true">
+			<vzg index="9" vmax="40" vmaxr="40"/>
+		</link>
+		<link source="440" target="797" length="6" vmax="80" vmaxr="80" bidirectional="true">
+			<vzg index="9" vmax="48" vmaxr="48"/>
+		</link>
+		<link source="441" target="483" vmax="80" vmaxr="80">
+			<vzg index="9" vmax="48" vmaxr="48"/>
+		</link>
+		<link source="441" target="798" length="6" vmax="64" vmaxr="64" bidirectional="true">
+			<vzg index="9" vmax="40" vmaxr="40"/>
+		</link>
+		<link source="482" target="440" vmax="80" vmaxr="80">
+			<vzg index="9" vmax="48" vmaxr="48"/>
+		</link>
+		<link source="483" target="517" length="43" vmax="80" vmaxr="80">
+			<vzg index="9" vmax="48" vmaxr="48"/>
+		</link>
+		<link source="517" target="482" length="5" vmax="80" vmaxr="80">
+			<vzg index="9" vmax="48" vmaxr="48"/>
+		</link>
+	</links>
+	<dependentLinks/>
+	<blockSections>
+		<blocksection uuid="{1beb999b-dbc0-4705-9910-43877713006a}" lines="chsl hwkwd so130g stmryc" speedIndicators="482 483">
+			<part nodes="478 440 482 517 483 441 798"/>
+		</blocksection>
+		<blocksection uuid="{4b0e469f-60fb-4b32-b41b-8fbd8d831011}" lines="bickl hwkwd pets so110y">
+			<part nodes="5 441 483 517 482 440 797"/>
+		</blocksection>
+		<blocksection uuid="{77b6c313-8f52-4110-841c-38789caec296}" lines="bickl hwkwd pets so110y">
+			<part nodes="5 441 483 517 482 440 797"/>
+		</blocksection>
+	</blockSections>
+	<slipDistances/>
+	<approachControlRoutes/>
+	<stationRoutes>
+		<stationRoute stationID="ZHWKWDJN" name="[BICKLYJ]-[s110a/2]-[1]-[PETSWDJ]-[s110a/1] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=90;NRz=90;S=90;Rz=90;FGz=90;NGz=90;Gz=90;Lz=90;Unbekannt=90" nodes="5 441 483 517 482 440 797"/>
+		<stationRoute stationID="ZHWKWDJN" name="[STMRYCJ]-[s110a/1]-[1]-[CHSLHRJ]-[s110a/2] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="478 440 482 517 483 441 798"/>
+	</stationRoutes>
+	<lineCatalog/>
+	<zugNummernFelder/>
+	<switchGears/>
+</line>

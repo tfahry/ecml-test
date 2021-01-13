@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<line lineID="gw430" name="YATE MIDDLE - TYTHERINGTON" trafficRouting="on_the_left" type="local" dependentLines="yates">
+	<version major="1" minor="2" patchlevel="0" comment=""/>
+	<creator user="Ahowe4" timestamp="2016-11-01T12:54:22"/>
+	<lasteditor user="Ahowe4" timestamp="2016-11-01T12:54:22"/>
+	<stations>
+		<station stationID="DUMRVTYQ" name="TYTHRING BUFFER REVERSE DUMMY" xNet="-1748151.3" yNet="795404.8" uicLocationCode="0" circleDiameter="0">
+			<textElement type="name">
+				<pos view="net" x="183.154" y="183.154" angle="0" system="source"/>
+				<pos view="wgs84" x="183.154" y="183.154" angle="0" system="source"/>
+				<pos view="line" x="183.141" y="183.141" angle="0" system="source"/>
+				<pos view="macro" x="28.2843" y="28.2843" angle="0" system="source"/>
+				<pos view="macroWgs84" x="0" y="0" angle="0" system="source"/>
+			</textElement>
+		</station>
+		<station stationID="DUMYWLP" name="YATE WEST LOOP DUMMY TIPLOC" xNet="-1675380" yNet="736531" uicLocationCode="0" circleDiameter="0">
+			<textElement type="name">
+				<pos view="net" x="482.759" y="482.759" angle="0" system="source"/>
+				<pos view="wgs84" x="482.759" y="482.759" angle="0" system="source"/>
+				<pos view="line" x="453.031" y="453.031" angle="0" system="source"/>
+				<pos view="macro" x="28.2843" y="28.2843" angle="0" system="source"/>
+				<pos view="macroWgs84" x="0" y="0" angle="0" system="source"/>
+			</textElement>
+		</station>
+		<station stationID="IRONACT" name="IRON ACTON STATION" xNet="-1695100" yNet="752500" uicLocationCode="0" circleDiameter="0">
+			<textElement type="name">
+				<pos view="net" x="1151.09" y="1151.09" angle="0" system="source"/>
+				<pos view="wgs84" x="1151.09" y="1151.09" angle="0" system="source"/>
+				<pos view="line" x="9027.28" y="9027.28" angle="0" system="source"/>
+				<pos view="macro" x="28.2843" y="28.2843" angle="0" system="source"/>
+				<pos view="macroWgs84" x="0" y="0" angle="0" system="source"/>
+			</textElement>
+		</station>
+		<station stationID="TYTHRNG" name="TYTHERINGTON QUARRY" xNet="-1745731.15" yNet="793445" uicLocationCode="0" circleDiameter="0">
+			<textElement type="name">
+				<pos view="net" x="1770.67" y="1770.67" angle="0" system="source"/>
+				<pos view="wgs84" x="1770.67" y="1770.67" angle="0" system="source"/>
+				<pos view="line" x="1772.07" y="1772.07" angle="0" system="source"/>
+				<pos view="macro" x="28.2843" y="28.2843" angle="0" system="source"/>
+				<pos view="macroWgs84" x="0" y="0" angle="0" system="source"/>
+			</textElement>
+		</station>
+	</stations>
+	<nodes>
+		<switch start="34" endOfMainTrack="27" endOfBranchTrack="6" nodeID="4" name="POINTS" kilometre="0.500" x="29000" y="-38000" xNet="-1675907" yNet="736902.5"/>
+		<node nodeID="6" kilometre="0.480" x="28800" y="-38200" xNet="-1675625.7" yNet="736932.1"/>
+		<track trackID="U-1" stationID="DUMYWLP" interlockingMachine="Phone For Authorisation" nodeID="11" name="INCOMING PFA" description="AWAIT INSTRUCTION" kilometre="0.402" x="28020" y="-38000" xNet="-1675145.4" yNet="736285.8" referenceNode="44"/>
+		<signal interlockingMachine="Phone For Authorisation" nodeID="12" name="TOKEN STAFF" description="COMMENCEMENT OF TOKEN STAFF" kilometre="0.512" x="29120" y="-38000" xNet="-1676000.3" yNet="736978" referenceNode="34"/>
+		<signal interlockingMachine="Phone For Authorisation" nodeID="13" name="EO TOKEN STAFF" description="END OF TOKEN STAFF SECTION" kilometre="0.595" x="29950" y="-38000" xNet="-1676645.3" yNet="737500.4" referenceNode="28"/>
+		<track trackID="T-1" stationID="IRONACT" type="timingPoint" nodeID="14" name="IRON ACTON STATION" kilometre="2.937" x="53370" y="-38000" xNet="-1694846.1" yNet="752239.1" referenceNode="32"/>
+		<switch start="30" endOfMainTrack="29" endOfBranchTrack="18" nodeID="15" name="POINTS" kilometre="9.254" x="116540" y="-38000" xNet="-1743938.4" yNet="791993.2"/>
+		<switch start="2" endOfMainTrack="20" endOfBranchTrack="19" nodeID="16" kilometre="9.700" x="121000" y="-38000" xNet="-1747404.4" yNet="794800"/>
+		<track trackID="U-1" stationID="DUMRVTYQ" interlockingMachine="Buffer Stop" nodeID="17" name="TYTHERINGTON QUARRY" kilometre="9.817" x="122170" y="-38000" xNet="-1748313.7" yNet="795536.3" referenceNode="31"/>
+		<node nodeID="18" name="OL" kilometre="9.280" x="116800" y="-38200" xNet="-1744014.6" yNet="792312.3"/>
+		<track trackID="U-2" stationID="TYTHRNG" interlockingMachine="Phone For Authorisation" nodeID="19" name="TYTHRING PFA" description="AWAIT INSTRUCTION" kilometre="9.680" x="120800" y="-38200" xNet="-1747123.1" yNet="794829.6" referenceNode="21"/>
+		<track trackID="D-1" stationID="TYTHRNG" interlockingMachine="Phone For Authorisation" nodeID="20" name="OUTGOING PFA" description="AWAIT INSTRUCTION" kilometre="9.329" x="117290" y="-38000" xNet="-1744521.2" yNet="792465.2" referenceNode="16"/>
+		<track trackID="D-2" stationID="TYTHRNG" interlockingMachine="Phone For Authorisation" nodeID="21" name="LOADING PFA" description="AWAIT INSTRUCTION" kilometre="9.329" x="117290" y="-38200" xNet="-1744395.4" yNet="792620.6" referenceNode="19"/>
+		<signal interlockingMachine="Phone For Authorisation" nodeID="22" name="PFA" description="AWAIT INSTRUCTION" kilometre="9.203" x="116030" y="-38000" xNet="-1743542" yNet="791672.3" referenceNode="32"/>
+		<node nodeID="26" name="OL" kilometre="0.415" x="28150" y="-38200" xNet="-1675120.6" yNet="736523"/>
+		<node nodeID="27" name="OL" kilometre="0.415" x="28150" y="-38000" xNet="-1675246.4" yNet="736367.6"/>
+		<node nodeID="28" name="OL" kilometre="0.692" x="30920" y="-38000" xNet="-1677399.1" yNet="738110.8"/>
+		<node nodeID="29" name="OL" kilometre="9.280" x="116800" y="-38000" xNet="-1744140.4" yNet="792156.8"/>
+		<track trackID="T-1" stationID="TYTHRNG" type="timingPoint" nodeID="30" kilometre="9.248" x="116476.87" y="-38000" xNet="-1743889.2" yNet="791953.4" referenceNode="36"/>
+		<stationBorder exitType="regular" stationID="IRONACT" lineID="gw430" trackNumber="1" nodeID="32" name="[TYTHRING] - [gw430/1]" kilometre="4.817" x="72168" y="-38000" xNet="-1696300" yNet="753600" referenceNode="14"/>
+		<stationBorder exitType="regular" stationID="IRONACT" lineID="gw430" trackNumber="1" nodeID="33" name="[DUMYWLP] - [gw430/1]" kilometre="2.263" x="46635" y="-38000" xNet="-1693900" yNet="751400" referenceNode="14"/>
+		<stationBorder exitType="regular" stationID="DUMYWLP" lineID="gw430" trackNumber="1" nodeID="34" name="[IRONACT] - [gw430/1]" kilometre="0.504" x="29036" y="-38000" xNet="-1675935" yNet="736925.2" referenceNode="4"/>
+		<stationBorder exitType="regular" stationID="DUMRVTYQ" lineID="gw430" trackNumber="1" nodeID="31" name="[TYTHRING] - [gw430/1]" kilometre="9.770" x="121702" y="-38000" xNet="-1747950" yNet="795241.8" referenceNode="17"/>
+		<stationBorder exitType="locked" stationID="DUMRVTYQ" lineID="gw600" trackNumber="" nodeID="35" name="Buffer stop 184" kilometre="9.817" x="122220" y="-38000" xNet="-1748352.6" yNet="795567.8" referenceNode="17"/>
+		<stationBorder exitType="regular" stationID="TYTHRNG" lineID="gw430" trackNumber="1" nodeID="2" name="[DUMRVTYQ] - [gw430/1]" kilometre="9.735" x="121351" y="-38000" xNet="-1747677.2" yNet="795020.9" referenceNode="16"/>
+		<stationBorder exitType="regular" stationID="TYTHRNG" lineID="gw430" trackNumber="1" nodeID="36" name="[IRONACT] - [gw430/1]" kilometre="9.234" x="116342.81" y="-38000" xNet="-1743785.1" yNet="791869.1" referenceNode="30"/>
+		<stationBorder exitType="alternative" stationID="DUMYWLP" lineID="gw430" trackNumber="1" nodeID="42" kilometre="0.377" x="27771.428" y="-38000" xNet="-1674952.2" yNet="736129.3" referenceNode="44"/>
+		<stationBorder exitType="regular" stationID="DUMYWLP" lineID="gw430" trackNumber="2" nodeID="43" kilometre="0.377" x="27770.339" y="-38200" xNet="-1674825.5" yNet="736284.1" referenceNode="45"/>
+		<track trackID="T-1" stationID="DUMYWLP" type="timingPoint" nodeID="44" kilometre="0.392" x="27924.703" y="-38000" xNet="-1675071.3" yNet="736225.8" referenceNode="42"/>
+		<track trackID="T-2" stationID="DUMYWLP" type="timingPoint" nodeID="45" kilometre="0.392" x="27924.736" y="-38200" xNet="-1674945.5" yNet="736381.3" referenceNode="43"/>
+	</nodes>
+	<links>
+		<link source="2" target="31" length="35" vmax="32" vmaxr="32" bidirectional="true"/>
+		<link source="4" target="34" length="4" vmax="32" vmaxr="32" bidirectional="true"/>
+		<link source="6" target="4" length="20" vmax="32" vmaxr="32"/>
+		<link source="11" target="27" length="13" vmax="32" vmaxr="32"/>
+		<link source="12" target="13" length="83" vmax="32" vmaxr="32" bidirectional="true"/>
+		<link source="13" target="28" length="97" vmax="32" vmaxr="32" bidirectional="true"/>
+		<link source="14" target="32" length="1880" vmax="32" vmaxr="32" bidirectional="true"/>
+		<link source="15" target="18" length="26" vmax="32" vmaxr="32"/>
+		<link source="15" target="29" length="26" vmax="32" vmaxr="32"/>
+		<link source="16" target="2" length="35" vmax="32" vmaxr="32" bidirectional="true"/>
+		<link source="17" target="35" vmax="32" vmaxr="32" bidirectional="true"/>
+		<link source="18" target="21" length="49" vmax="32" vmaxr="32"/>
+		<link source="19" target="16" length="20" vmax="32" vmaxr="32"/>
+		<link source="20" target="16" length="371" vmax="32" vmaxr="32"/>
+		<link source="21" target="19" length="351" vmax="32" vmaxr="32"/>
+		<link source="22" target="36" length="31" vmax="32" vmaxr="32" bidirectional="true"/>
+		<link source="23.yates" target="42" length="167" vmax="32" vmaxr="32"/>
+		<link source="24.yates" target="43" length="167" vmax="32" vmaxr="32"/>
+		<link source="26" target="6" length="65" vmax="32" vmaxr="32"/>
+		<link source="27" target="4" length="85" vmax="32" vmaxr="32"/>
+		<link source="28" target="33" length="1572" vmax="32" vmaxr="32" bidirectional="true"/>
+		<link source="29" target="20" length="49" vmax="32" vmaxr="32"/>
+		<link source="30" target="15" length="6" vmax="32" vmaxr="32" bidirectional="true"/>
+		<link source="31" target="17" length="47" vmax="32" vmaxr="32" bidirectional="true"/>
+		<link source="32" target="22" length="4386" vmax="32" vmaxr="32" bidirectional="true"/>
+		<link source="33" target="14" length="673" vmax="32" vmaxr="32" bidirectional="true"/>
+		<link source="34" target="12" length="8" vmax="32" vmaxr="32" bidirectional="true"/>
+		<link source="36" target="30" length="14" vmax="32" vmaxr="32" bidirectional="true"/>
+		<link source="42" target="44" length="15" vmax="32" vmaxr="32"/>
+		<link source="43" target="45" length="15" vmax="32" vmaxr="32"/>
+		<link source="44" target="11" length="10" vmax="32" vmaxr="32"/>
+		<link source="45" target="26" length="23" vmax="32" vmaxr="32"/>
+	</links>
+	<dependentLinks/>
+	<blockSections>
+		<blocksection uuid="{027f00ee-5fa3-41b5-8a5f-269d1b3e4baf}" lines="gw430">
+			<part nodes="17 31 2 16 20"/>
+		</blocksection>
+		<blocksection uuid="{4c708a59-8b08-44b7-88c6-f5b963dd2234}" lines="gw430">
+			<part nodes="11 27 4 34 12"/>
+		</blocksection>
+		<blocksection uuid="{4c812420-7bef-487e-8df6-2c166e7f831a}" lines="gw430">
+			<part nodes="19 21"/>
+		</blocksection>
+		<blocksection uuid="{5a3e0dfa-9650-48aa-b5be-958a07ad40eb}" lines="gw430 yates">
+			<part nodes="13 12 34 4 27 11 44 42 23.yates"/>
+		</blocksection>
+		<blocksection uuid="{7f5cf4c0-787a-4820-9506-db8c9c23ad60}" lines="gw430">
+			<part nodes="19 16 2 31 17"/>
+		</blocksection>
+		<blocksection uuid="{88e894b6-b106-404f-9ac3-271116cb31bd}" lines="gw430">
+			<part nodes="17 31 2 16 19 21"/>
+		</blocksection>
+		<blocksection uuid="{9a043716-7ae4-4c3d-8fcb-1c2a4387b110}" lines="gw430">
+			<part nodes="21 18 15 30 36 22 32 14 33 28 13"/>
+		</blocksection>
+		<blocksection uuid="{9a2e3876-9c14-4799-94af-39330a4059a8}" lines="gw430">
+			<part nodes="21 19"/>
+		</blocksection>
+		<blocksection uuid="{b7fda6a0-04e1-4954-a91b-457125dbfccc}" lines="gw430">
+			<part nodes="20 16 2 31 17"/>
+		</blocksection>
+		<blocksection uuid="{b845c328-a568-4d61-9d7e-516962cb15cb}" lines="gw430 yates">
+			<part nodes="13 12 34 4 6 26 45 43 24.yates"/>
+		</blocksection>
+		<blocksection uuid="{bf26669b-0e69-4cf1-a277-0de05d90f17a}" lines="gw430">
+			<part nodes="22 36 30 15 29 20 16 2 31 17"/>
+		</blocksection>
+		<blocksection uuid="{d7dac899-d220-45d8-8782-f4f26473f26a}" lines="gw430 yates">
+			<part nodes="23.yates 42 44 11"/>
+		</blocksection>
+		<blocksection uuid="{db37093d-de0d-446a-bb49-24e341b1d942}" lines="gw430">
+			<part nodes="20 29 15 30 36 22 32 14 33 28 13"/>
+		</blocksection>
+		<blocksection uuid="{e0c1e6aa-90d9-4508-ae9e-40cfc70e86a0}" lines="gw430 yates">
+			<part nodes="23.yates 42 44 11"/>
+		</blocksection>
+		<blocksection uuid="{e4a53c3c-cada-4163-a60e-f1831199e54a}" lines="gw430">
+			<part nodes="22 36 30 15 18 21 19"/>
+		</blocksection>
+		<blocksection uuid="{fceacbf0-e5d2-4295-b841-1820a8bc6a14}" lines="gw430">
+			<part nodes="12 13 28 33 14 32 22"/>
+		</blocksection>
+	</blockSections>
+	<slipDistances>
+		<slipdistance uuid="{3d610c04-36c0-43d2-b578-d74d735139f9}" vmax="999" lines="gw430" serialNumber="0">
+			<part nodes="21 18"/>
+		</slipdistance>
+		<slipdistance uuid="{6e1ba5d5-5ca5-46c2-bfcd-2d13a59b0187}" vmax="999" lines="gw430" serialNumber="0">
+			<part nodes="13 12 34 4 27"/>
+		</slipdistance>
+		<slipdistance uuid="{81d1a648-799f-45b4-b491-e66e26b62315}" vmax="999" lines="gw430" serialNumber="0">
+			<part nodes="22 36 30 15 29"/>
+		</slipdistance>
+		<slipdistance uuid="{c65ff0d8-1f7a-4928-98f5-b81c342a6283}" vmax="999" lines="gw430" serialNumber="1">
+			<part nodes="13 12 34 4 6 26"/>
+		</slipdistance>
+		<slipdistance uuid="{d4cc8ff3-c704-4656-b6b9-975b9c49d347}" vmax="999" lines="gw430" serialNumber="0">
+			<part nodes="20 29"/>
+		</slipdistance>
+		<slipdistance uuid="{dcdc6a69-13f0-4893-b65e-d9cc727bd392}" vmax="999" lines="gw430" serialNumber="0">
+			<part nodes="12 13 28"/>
+		</slipdistance>
+		<slipdistance uuid="{fb28a13a-017c-401e-a78e-4d0b5b0cbc4e}" vmax="999" lines="gw430" serialNumber="1">
+			<part nodes="22 36 30 15 18"/>
+		</slipdistance>
+	</slipDistances>
+	<approachControlRoutes/>
+	<stationRoutes>
+		<stationRoute stationID="DUMRVTYQ" name="[TYTHRING]-[gw430/1]-[1]-[TYTHRING]-[gw430/1] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="31 17 31"/>
+		<stationRoute stationID="DUMRVTYQ" name="[TYTHRING]-[gw430/1]-[1]-[]-[?/] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="31 17 35"/>
+		<stationRoute stationID="DUMYWLP" name="[IRONACT]-[gw430/1]-[1]-[YATEMDL_]-[gw430/1] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="34 4 27 11 44 42"/>
+		<stationRoute stationID="DUMYWLP" name="[IRONACT]-[gw430/1]-[2]-[YATEMDL_]-[gw430/2] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=95;NRz=95;S=95;Rz=95;FGz=95;NGz=95;Gz=95;Lz=95;Unbekannt=95" nodes="34 4 6 26 45 43"/>
+		<stationRoute stationID="DUMYWLP" name="[YATEMDL_]-[gw430/1]-[1]-[IRONACT]-[gw430/1] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="42 44 11 27 4 34"/>
+		<stationRoute stationID="IRONACT" name="[DUMYWLP]-[gw430/1]-[1]-[TYTHRING]-[gw430/1] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="33 14 32"/>
+		<stationRoute stationID="IRONACT" name="[TYTHRING]-[gw430/1]-[1]-[DUMYWLP]-[gw430/1] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="32 14 33"/>
+		<stationRoute stationID="TYTHRNG" name="[DUMRVTYQ]-[gw430/1]-[1-2]-[IRONACT]-[gw430/1] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=90;NRz=90;S=90;Rz=90;FGz=90;NGz=90;Gz=90;Lz=90;Unbekannt=90" nodes="2 16 19 21 18 15 30 36"/>
+		<stationRoute stationID="TYTHRNG" name="[DUMRVTYQ]-[gw430/1]-[1]-[IRONACT]-[gw430/1] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="2 16 20 29 15 30 36"/>
+		<stationRoute stationID="TYTHRNG" name="[IRONACT]-[gw430/1]-[1-2]-[DUMRVTYQ]-[gw430/1] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=90;NRz=90;S=90;Rz=90;FGz=90;NGz=90;Gz=90;Lz=90;Unbekannt=90" nodes="36 30 15 18 21 19 16 2"/>
+		<stationRoute stationID="TYTHRNG" name="[IRONACT]-[gw430/1]-[1]-[DUMRVTYQ]-[gw430/1] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="36 30 15 29 20 16 2"/>
+	</stationRoutes>
+	<lineCatalog/>
+	<zugNummernFelder/>
+	<switchGears/>
+</line>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<line lineID="nw1021" name="Winwick Jn - Earlestown" trafficRouting="on_the_left" type="local" dependentLines="estjn winwkj">
+	<version major="1" minor="2" patchlevel="0" comment=""/>
+	<creator user="VWaddelo" timestamp="2016-07-08T10:58:15"/>
+	<lasteditor user="VWaddelo" timestamp="2016-07-08T10:58:15"/>
+	<stations/>
+	<nodes>
+		<node nodeID="22" name="1000MM" description="1000MM : 300" kilometre="300.000" x="228459" y="-2200" xNet="-1869845.6" yNet="4395640"/>
+		<node nodeID="25" name="1000MM" description="1000MM : 300" kilometre="300.000" x="228459" y="-2000" xNet="-1870007.5" yNet="4395522.3"/>
+		<signal interlockingMachine="4 Aspect Pannel (Below 75mph)" nodeID="28" name="SIG : 546" description="Signal 546" kilometre="300.077" x="229229" y="-2200" xNet="-1870298.5" yNet="4396262.9" referenceNode="857"/>
+		<signal interlockingMachine="4 Aspect Pannel (Below 75mph)" nodeID="29" name="SIG : 547" description="Signal 547" kilometre="299.604" x="224859" y="-2000" xNet="-1867631" yNet="4392255" referenceNode="45"/>
+		<node nodeID="41" name="SD : 545" description="sighting distance for SIG : 545" kilometre="300.126" x="229719" y="-2000" xNet="-1870748.8" yNet="4396543.1" referenceNode="25" sightingDistance="true"/>
+		<node nodeID="42" name="OL : 546" description="OL for SIG : 546" kilometre="299.620" x="224659" y="-2200" xNet="-1867611.7" yNet="4392565.3"/>
+		<node nodeID="44" name="OL 547" description="OL for SIG : 547" kilometre="299.731" x="225769" y="-2000" xNet="-1868426.1" yNet="4393345.4"/>
+		<node nodeID="45" name="SD : 547" description="sighting distance for SIG : 547" kilometre="299.385" x="222669" y="-2000" xNet="-1866954" yNet="4391325" referenceNode="574" sightingDistance="true"/>
+		<node nodeID="574" kilometre="299.300" x="221076.54" y="-2000" xNet="-1866853" yNet="4391185"/>
+		<node nodeID="624" kilometre="299.300" x="219481.19" y="-2200" xNet="-1866678" yNet="4391271"/>
+		<node nodeID="841" name="SD : 154" description="sighting distance for SIG : 154" kilometre="299.418" x="221390.66" y="-2200" xNet="-1867022.3" yNet="4391748.3" referenceNode="42" sightingDistance="true"/>
+		<node nodeID="13797" kilometre="299.200" x="218127.745836979" y="-1985.63018671588" xNet="-1863038.9" yNet="4381586.1"/>
+		<node nodeID="13767" kilometre="299.200" x="218027.545836979" y="-2178.78818671587" xNet="-1862907.4" yNet="4381612.2"/>
+		<node nodeID="857" kilometre="300.126" x="229720.04" y="-2200" xNet="-1870587" yNet="4396660.1"/>
+	</nodes>
+	<links>
+		<link source="22" target="42" length="380" vmax="113" vmaxr="113"/>
+		<link source="25" target="44" length="269" vmax="113" vmaxr="113"/>
+		<link source="28" target="22" length="77" vmax="113" vmaxr="113"/>
+		<link source="29" target="45" length="219" vmax="113" vmaxr="113"/>
+		<link source="41" target="25" length="126" vmax="113" vmaxr="113"/>
+		<link source="42" target="841" length="202" vmax="113" vmaxr="113"/>
+		<link source="44" target="29" length="127" vmax="113" vmaxr="113"/>
+		<link source="45" target="574" length="85" vmax="113" vmaxr="113"/>
+		<link source="57.winwkj" target="13797" length="48" vmax="113" vmaxr="113"/>
+		<link source="58.winwkj" target="13767" length="48" vmax="113" vmaxr="113"/>
+		<link source="687.estjn" target="41" length="127" vmax="113" vmaxr="113"/>
+		<link source="836.estjn" target="857" length="126" vmax="113" vmaxr="113"/>
+		<link source="841" target="624" length="118" vmax="113" vmaxr="113"/>
+		<link source="857" target="28" length="49" vmax="113" vmaxr="113"/>
+		<link source="13767" target="624" length="100" vmax="113" vmaxr="113"/>
+		<link source="13797" target="574" length="100" vmax="113" vmaxr="113"/>
+	</links>
+	<dependentLinks/>
+	<blockSections>
+		<blocksection uuid="{092d47e1-76d0-44ed-adb7-4e6f9059322e}" lines="estjn nw1021">
+			<part nodes="836.estjn 857 28"/>
+		</blocksection>
+		<blocksection uuid="{0a3087ff-65d3-4f61-9b65-00bf4dc7d101}" lines="estjn nw1021" shuntingBlock="true">
+			<part nodes="28 857 836.estjn"/>
+		</blocksection>
+		<blocksection uuid="{298f63a6-7da8-4574-b9dc-4e6f04899e92}" lines="estjn nw1021">
+			<part nodes="29 44 25 41 687.estjn"/>
+		</blocksection>
+		<blocksection uuid="{2d1053de-285b-4141-aff1-e4d9cba035cd}" lines="nw1021 winwkj">
+			<part nodes="28 22 42 841 624 13767 58.winwkj"/>
+		</blocksection>
+		<blocksection uuid="{3ed26695-3eb5-4b83-ac5f-a39e5174d652}" lines="nw1021 winwkj">
+			<part nodes="57.winwkj 13797 574 45 29"/>
+		</blocksection>
+		<blocksection uuid="{4c3abdda-92d7-4f56-a3f7-7b6de4becc6c}" lines="estjn nw1021" shuntingBlock="true">
+			<part nodes="836.estjn 857 28"/>
+		</blocksection>
+		<blocksection uuid="{6468cef6-a3fb-4cd1-b24e-50fc6d9b4408}" lines="nw1021 winwkj">
+			<part nodes="57.winwkj 13797 574 45 29"/>
+		</blocksection>
+		<blocksection uuid="{bed9128b-c02a-4012-ae04-25fa359fc772}" lines="nw1021 winwkj">
+			<part nodes="57.winwkj 13797 574 45 29"/>
+		</blocksection>
+		<blocksection uuid="{d3116d6f-56ef-46ff-8a63-ed23d4124f29}" lines="estjn nw1021">
+			<part nodes="836.estjn 857 28"/>
+		</blocksection>
+	</blockSections>
+	<slipDistances>
+		<slipdistance uuid="{6a9e24a9-f8b0-4571-bde5-a736d797db2b}" vmax="999" lines="nw1021" serialNumber="0">
+			<part nodes="28 22 42"/>
+		</slipdistance>
+		<slipdistance uuid="{e0a57c30-9cf9-4893-9016-9fb1003bc946}" vmax="999" lines="nw1021" serialNumber="0">
+			<part nodes="29 44"/>
+		</slipdistance>
+	</slipDistances>
+	<approachControlRoutes/>
+	<stationRoutes/>
+	<lineCatalog/>
+	<zugNummernFelder/>
+	<switchGears/>
+</line>

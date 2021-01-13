@@ -1,0 +1,930 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<line lineID="dalmi" name="Dalminy Junction" trafficRouting="on_the_left" type="global" dependentLines="sc113 sc171">
+	<transformations>
+		<transformation line="sc171" m11="-0.601815" m12="0.798636" m21="-0.798636" m22="-0.601815" dx="376932" dy="-20139.1"/>
+	</transformations>
+	<version major="1" minor="2" patchlevel="0" comment=""/>
+	<creator user="ewalker5" timestamp="2016-05-18T15:07:10"/>
+	<lasteditor user="ewalker5" timestamp="2016-05-18T15:07:10"/>
+	<stations>
+		<station stationID="DLMY" name="Dalmeny" xNet="-2549000" yNet="9167170" uicLocationCode="0" circleDiameter="0">
+			<textElement type="name">
+				<pos view="net" x="733.856" y="733.856" angle="0" system="source"/>
+				<pos view="wgs84" x="733.856" y="733.856" angle="0" system="source"/>
+				<pos view="line" x="786.906" y="786.906" angle="0" system="source"/>
+				<pos view="macro" x="28.2843" y="28.2843" angle="0" system="source"/>
+			</textElement>
+		</station>
+		<station stationID="DLMYCE" name="Dalmeny C.E." xNet="-2548250" yNet="9165350" uicLocationCode="0" circleDiameter="0">
+			<textElement type="name">
+				<pos view="net" x="820.061" y="820.061" angle="0" system="source"/>
+				<pos view="wgs84" x="820.061" y="820.061" angle="0" system="source"/>
+				<pos view="line" x="817.751" y="817.751" angle="0" system="source"/>
+				<pos view="macro" x="28.2843" y="28.2843" angle="0" system="source"/>
+			</textElement>
+		</station>
+		<station stationID="DLMYDPL" name="Dalmeny D.P.L." xNet="-2549160" yNet="9163970" uicLocationCode="0" circleDiameter="0">
+			<textElement type="name">
+				<pos view="net" x="1540.37" y="1540.37" angle="0" system="source"/>
+				<pos view="wgs84" x="1540.37" y="1540.37" angle="0" system="source"/>
+				<pos view="line" x="1628.66" y="1628.66" angle="0" system="source"/>
+				<pos view="macro" x="28.2843" y="28.2843" angle="0" system="source"/>
+			</textElement>
+		</station>
+		<station stationID="DLMYJN" name="Dalmeny Junction" xNet="-2551250" yNet="9158900" uicLocationCode="0" circleDiameter="0">
+			<textElement type="name">
+				<pos view="net" x="2732.32" y="2732.32" angle="0" system="source"/>
+				<pos view="wgs84" x="2732.32" y="2732.32" angle="0" system="source"/>
+				<pos view="line" x="2595.08" y="2595.08" angle="0" system="source"/>
+				<pos view="macro" x="28.2843" y="28.2843" angle="0" system="source"/>
+			</textElement>
+		</station>
+		<station stationID="DLMYUPL" name="Dalmeny U.P.L." xNet="-2548670" yNet="9164000" uicLocationCode="0" circleDiameter="0">
+			<textElement type="name">
+				<pos view="net" x="1496.91" y="1496.91" angle="0" system="source"/>
+				<pos view="wgs84" x="1496.91" y="1496.91" angle="0" system="source"/>
+				<pos view="line" x="1568.19" y="1568.19" angle="0" system="source"/>
+				<pos view="macro" x="28.2843" y="28.2843" angle="0" system="source"/>
+			</textElement>
+		</station>
+		<station stationID="DLMYUPR" name="Dalmany UPL regulating point" xNet="-2549000" yNet="9169300" uicLocationCode="0" circleDiameter="0">
+			<textElement type="name">
+				<pos view="net" x="211.304" y="211.304" angle="0" system="source"/>
+				<pos view="wgs84" x="211.304" y="211.304" angle="0" system="source"/>
+				<pos view="line" x="265.045" y="265.045" angle="0" system="source"/>
+				<pos view="macro" x="28.2843" y="28.2843" angle="0" system="source"/>
+			</textElement>
+		</station>
+	</stations>
+	<nodes>
+		<node nodeID="56" kilometre="62.600" x="76000" y="-13496" xNet="-2552368.6" yNet="9156774.7"/>
+		<node nodeID="80" kilometre="62.600" x="76000" y="-13299" xNet="-2552474.6" yNet="9156944.2"/>
+		<node nodeID="81" kilometre="62.800" x="78000" y="-13299" xNet="-2550778.5" yNet="9158004.1"/>
+		<node nodeID="88" name="GRAD" kilometre="62.470" x="74700" y="-13496" xNet="-2553471.1" yNet="9156085.8"/>
+		<node nodeID="20" name="GRAD" kilometre="62.470" x="74700" y="-13299" xNet="-2553577.1" yNet="9156255.4"/>
+		<speedIndicator nodeID="96" name="SPEED" kilometre="62.664" x="76640" y="-13496" xNet="-2551825.9" yNet="9157113.9" referenceNode="56"/>
+		<speedIndicator nodeID="97" name="SPEED" kilometre="62.664" x="76640" y="-13299" xNet="-2551931.8" yNet="9157283.5" referenceNode="99"/>
+		<switch start="81" endOfMainTrack="97" endOfBranchTrack="2090" nodeID="99" name="POINTS: 289" kilometre="62.789" x="77890" y="-13299" xNet="-2550871.7" yNet="9157945.9"/>
+		<node nodeID="98" name="Autogen" kilometre="62.770" x="77700" y="-13496" xNet="-2550926.9" yNet="9157675.6"/>
+		<kilometreInconsistency newKilometre="14.462" nodeID="101" kilometre="62.850" x="78500" y="-13299" xNet="-2549609" yNet="9158906" referenceNode="81"/>
+		<node nodeID="102" name="TC" kilometre="62.783" x="77829" y="-13362" xNet="-2550889.5" yNet="9157859.2" referenceNode="2090" releaseContact="true" arranged="true"/>
+		<signal type="shunting" interlockingMachine="Shunt" nodeID="109" name="SIG: EY953" kilometre="62.712" x="77120" y="-13496" xNet="-2551418.8" yNet="9157368.1" referenceNode="96"/>
+		<node nodeID="3" name="GRAD" kilometre="14.720" x="80283" y="-11326" xNet="-2549100" yNet="9162400"/>
+		<node nodeID="2" name="GRAD" kilometre="14.720" x="80442" y="-11448" xNet="-2548900" yNet="9162400"/>
+		<switch start="147" endOfMainTrack="138" endOfBranchTrack="1459" nodeID="113" name="POINTS 292B" kilometre="14.578" x="79587" y="-12582" xNet="-2548900" yNet="9161000"/>
+		<node nodeID="125" name="POINTA 293B" kilometre="14.677" x="79864" y="-11551" xNet="-2549300" yNet="9162000"/>
+		<node nodeID="165" name="OL SIG EY654 &amp; 656" kilometre="14.407" x="78559" y="-13947" xNet="-2548900" yNet="9159200"/>
+		<node nodeID="267" kilometre="14.000" x="75950" y="-17077" xNet="-2549100" yNet="9155200">
+			<netLimitInfo lineID="sc171"/>
+		</node>
+		<node nodeID="269" kilometre="14.000" x="76109" y="-17198" xNet="-2548900" yNet="9155200">
+			<netLimitInfo lineID="sc171"/>
+		</node>
+		<node nodeID="270" kilometre="14.600" x="79561" y="-12285" xNet="-2549100" yNet="9161200"/>
+		<node nodeID="400" name="TC" kilometre="14.580" x="79442" y="-12444" xNet="-2549100" yNet="9161000" referenceNode="2093" releaseContact="true" arranged="true"/>
+		<node nodeID="401" name="TC" kilometre="14.624" x="79862" y="-12217" xNet="-2548900" yNet="9161500" referenceNode="147" releaseContact="true" arranged="true"/>
+		<node nodeID="402" name="TC" kilometre="14.694" x="80444" y="-11777" xNet="-2548700" yNet="9162200" referenceNode="419" releaseContact="true" arranged="true"/>
+		<node nodeID="403" name="TC" kilometre="14.708" x="80051" y="-11301" xNet="-2549300" yNet="9162300" referenceNode="413" releaseContact="true" arranged="true"/>
+		<node nodeID="405" name="TC" kilometre="14.642" x="80057" y="-12141" xNet="-2548700" yNet="9161700" referenceNode="406" releaseContact="true" arranged="true"/>
+		<node nodeID="406" name="TC" kilometre="14.627" x="79940" y="-12235" xNet="-2548700" yNet="9161500" referenceNode="405" releaseContact="true" arranged="true"/>
+		<node nodeID="408" name="TC" kilometre="14.556" x="79456" y="-12756" xNet="-2548900" yNet="9160700" referenceNode="2092" releaseContact="true" arranged="true"/>
+		<node nodeID="409" name="TC" kilometre="14.477" x="78820" y="-13269" xNet="-2549100" yNet="9159900" referenceNode="135" releaseContact="true" arranged="true"/>
+		<node nodeID="410" name="TC" kilometre="14.627" x="79627" y="-11991" xNet="-2549300" yNet="9161500" referenceNode="411" releaseContact="true" arranged="true"/>
+		<node nodeID="411" name="TC" kilometre="14.623" x="79604" y="-12035" xNet="-2549300" yNet="9161400" referenceNode="410" releaseContact="true" arranged="true"/>
+		<node nodeID="1" name="GRAD" kilometre="14.720" x="80124" y="-11205" xNet="-2549300" yNet="9162400"/>
+		<node nodeID="1760" name="GRAD" kilometre="14.720" x="80603" y="-11566" xNet="-2548700" yNet="9162400"/>
+		<node nodeID="29" name="GRAD" kilometre="15.000" x="81966.625" y="-9090.1768" xNet="-2549100" yNet="9165000"/>
+		<node nodeID="36" kilometre="15.000" x="82126.953" y="-9209.7412" xNet="-2548900" yNet="9165000"/>
+		<speedIndicator nodeID="35" name="SPEED" kilometre="15.349" x="84068.352" y="-6302.7427" xNet="-2549100" yNet="9168600" referenceNode="217"/>
+		<speedIndicator nodeID="34" name="SPEED" kilometre="15.349" x="84227.477" y="-6423.9043" xNet="-2548900" yNet="9168600" referenceNode="216"/>
+		<switch start="37" endOfMainTrack="134" endOfBranchTrack="33" nodeID="32" name="POINTS 298B" kilometre="15.094" x="82693.453" y="-8459.626" xNet="-2548900" yNet="9166000"/>
+		<node nodeID="119" name="POINTS 298A" kilometre="15.016" x="82380.156" y="-9207.7158" xNet="-2548700" yNet="9165300"/>
+		<node nodeID="27" kilometre="14.862" x="81136.914" y="-10192.896" xNet="-2549100" yNet="9163800"/>
+		<node nodeID="26" kilometre="14.946" x="81642.438" y="-9522.042" xNet="-2549100" yNet="9164500"/>
+		<node nodeID="128" kilometre="14.946" x="81322.984" y="-9281.3164" xNet="-2549500" yNet="9164900"/>
+		<node nodeID="25" kilometre="14.876" x="81538.82" y="-10324.208" xNet="-2548700" yNet="9163900"/>
+		<switch start="6" endOfMainTrack="4" endOfBranchTrack="136" nodeID="8" kilometre="14.975" x="82295.547" y="-9652.3252" xNet="-2548200" yNet="9164900"/>
+		<switch start="161" endOfMainTrack="22" endOfBranchTrack="157" nodeID="7" kilometre="15.010" x="82664.703" y="-9494.7627" xNet="-2548000.01707068" yNet="9165097.63245197"/>
+		<node nodeID="170" name="OL SIG EY655" kilometre="15.008" x="82332.008" y="-9271.6074" xNet="-2548700" yNet="9165200"/>
+		<node nodeID="18" name="OL SIG EY655" kilometre="15.008" x="82645.281" y="-9503.9189" xNet="-2548100" yNet="9165000"/>
+		<node nodeID="42" name="OL SIG EY657" kilometre="15.090" x="82484.102" y="-8351.9502" xNet="-2549300" yNet="9165800"/>
+		<node nodeID="43" name="OL SIG EY661" kilometre="15.519" x="85090.836" y="-4945.8613" xNet="-2549100" yNet="9170300"/>
+		<node nodeID="28" name="OL SIG EY663" kilometre="15.519" x="85251.164" y="-5065.4253" xNet="-2548900" yNet="9170300"/>
+		<node nodeID="41" name="OL SIG EY664" kilometre="15.096" x="82546.563" y="-8323.8916" xNet="-2549100" yNet="9165900"/>
+		<node nodeID="37" name="OL SIG EY666" kilometre="15.096" x="82706.289" y="-8444.2549" xNet="-2548900" yNet="9166031"/>
+		<track trackID="U-1" stationID="DLMY" type="stopBoard" nodeID="205" kilometre="15.110" x="82790.344" y="-8331.0459" xNet="-2548900" yNet="9166200" referenceNode="416">
+			<platform startPos="-1850" endPos="0" width="50" left="true" open="true"/>
+		</track>
+		<node nodeID="272" kilometre="14.800" x="80764.391" y="-10687.251" xNet="-2549100" yNet="9163200"/>
+		<node nodeID="275" kilometre="15.200" x="83171.648" y="-7492.7095" xNet="-2549100" yNet="9167100"/>
+		<node nodeID="276" kilometre="15.200" x="83330.773" y="-7613.8711" xNet="-2548900" yNet="9167100"/>
+		<speedIndicator nodeID="33" name="SPEED" kilometre="15.093" x="82689.836" y="-8469.418" xNet="-2548873" yNet="9165928" referenceNode="32"/>
+		<node nodeID="414" name="TC" kilometre="15.121" x="82696.219" y="-8123.6313" xNet="-2549100" yNet="9166300" referenceNode="417" releaseContact="true" arranged="true"/>
+		<node nodeID="415" name="TC" kilometre="15.025" x="82117.875" y="-8891.1201" xNet="-2549100" yNet="9165200" referenceNode="149" releaseContact="true" arranged="true"/>
+		<node nodeID="416" name="TC" kilometre="15.125" x="82882.422" y="-8208.8545" xNet="-2548900" yNet="9166300" referenceNode="205" releaseContact="true" arranged="true"/>
+		<node nodeID="16" name="TC" kilometre="14.948" x="81814.805" y="-9625.6338" xNet="-2548900" yNet="9164700" referenceNode="36" releaseContact="true" arranged="true"/>
+		<node nodeID="15" name="TC" kilometre="14.998" x="82270.625" y="-9353.0674" xNet="-2548700" yNet="9165100" referenceNode="12" releaseContact="true" arranged="true"/>
+		<node nodeID="14" name="TC" kilometre="14.973" x="81645.805" y="-9185.249" xNet="-2549300" yNet="9164800" referenceNode="13" releaseContact="true" arranged="true"/>
+		<node nodeID="420" name="TC" kilometre="15.041" x="82109.359" y="-8678.1006" xNet="-2549300" yNet="9165400" referenceNode="421" releaseContact="true" arranged="true"/>
+		<node nodeID="421" name="TC" kilometre="15.037" x="82079.5" y="-8704.4326" xNet="-2549300" yNet="9165300" referenceNode="420" releaseContact="true" arranged="true"/>
+		<node nodeID="12" name="GRAD" kilometre="15.000" x="82282.664" y="-9337.0947" xNet="-2548700" yNet="9165126"/>
+		<track trackID="U-3" stationID="DLMY" type="stopBoard" nodeID="417" kilometre="15.115" x="82660.109" y="-8171.5493" xNet="-2549100" yNet="9166200" referenceNode="414">
+			<platform startPos="-1850" endPos="0" width="50" left="false" open="false"/>
+		</track>
+		<node nodeID="186" name="SD" kilometre="15.608" x="85626.453" y="-4235.0757" xNet="-2549100" yNet="9171200" referenceNode="278" sightingDistance="true"/>
+		<node nodeID="191" name="SD" kilometre="15.608" x="85786.781" y="-4354.6396" xNet="-2548900" yNet="9171200" referenceNode="281" sightingDistance="true"/>
+		<node nodeID="278" kilometre="16.000" x="87986.164" y="-1103.6262" xNet="-2549100" yNet="9175100">
+			<netLimitInfo lineID="sc171"/>
+		</node>
+		<node nodeID="281" kilometre="16.000" x="88145.297" y="-1224.7877" xNet="-2548900" yNet="9175100">
+			<netLimitInfo lineID="sc171"/>
+		</node>
+		<node nodeID="273" kilometre="14.800" x="80924.117" y="-10807.614" xNet="-2548900" yNet="9163200"/>
+		<stationBorder exitType="locked" stationID="DLMYCE" trackNumber="" nodeID="23" name="Prellbock 431" kilometre="14.876" x="81699.148" y="-10443.772" xNet="-2548200" yNet="9163800" referenceNode="6"/>
+		<stationBorder exitType="locked" stationID="DLMYCE" trackNumber="" nodeID="22" name="Prellbock 432" kilometre="14.964" x="82387.266" y="-9862.9336" xNet="-2548000" yNet="9164700" referenceNode="7"/>
+		<stationBorder exitType="locked" stationID="DLMYCE" trackNumber="" nodeID="21" name="Prellbock 433" kilometre="15.094" x="83172.031" y="-8821.5137" xNet="-2548000" yNet="9166100" referenceNode="161"/>
+		<stationBorder exitType="regular" stationID="DLMYJN" lineID="sc113" trackNumber="2" nodeID="2090" name="[WNCBROJ] - [sc113/2]" kilometre="62.787" x="77871.7" y="-13317.9" xNet="-2550877.3" yNet="9157920" referenceNode="99"/>
+		<stationBorder exitType="alternative" stationID="DLMYJN" lineID="sc171" trackNumber="2" nodeID="2094" name="[STHGYLE] - [sc171/2]" kilometre="14.082" x="76442.8" y="-16422.5" xNet="-2549100" yNet="9156000" referenceNode="48"/>
+		<stationBorder exitType="locked" stationID="DLMYCE" trackNumber="" nodeID="2098" name="Prellbock 434" kilometre="15.094" x="83042.997" y="-8660.4197" xNet="-2548200" yNet="9166100" referenceNode="132"/>
+		<stationBorder exitType="locked" stationID="DLMYDPL" trackNumber="" nodeID="127" name="Prellbock 435" kilometre="14.862" x="80817.266" y="-9950.7695" xNet="-2549500" yNet="9161800" referenceNode="128"/>
+		<stationBorder exitType="regular" stationID="DLMY" lineID="sc171" trackNumber="2" nodeID="2101" name="[NQNSFRY] - [sc113/1]" kilometre="15.311" x="83836.657" y="-6610.2173" xNet="-2549100" yNet="9168200" referenceNode="2113"/>
+		<stationBorder exitType="alternative" stationID="DLMY" lineID="sc171" trackNumber="1" nodeID="2102" name="[NQNSFRY] - [sc113/2]" kilometre="15.311" x="83995.782" y="-6731.379" xNet="-2548900" yNet="9168200" referenceNode="2114"/>
+		<stationBorder exitType="alternative" stationID="DLMYJN" lineID="sc113" trackNumber="3" nodeID="233" kilometre="14.643" x="79701.982" y="-11851.793" xNet="-2549300" yNet="9161600" referenceNode="410"/>
+		<stationBorder exitType="regular" stationID="DLMYDPL" lineID="sc113" trackNumber="3" nodeID="245" kilometre="14.659" x="79776.93" y="-11712.65" xNet="-2549300" yNet="9161800" referenceNode="84"/>
+		<track trackID="D-1" stationID="DLMYCE" type="exit" interlockingMachine="Shunt" nodeID="132" kilometre="15.094" x="83012.906" y="-8700.3516" xNet="-2548200" yNet="9166000" referenceNode="160"/>
+		<node nodeID="4" name="[DLMYCE] - [sc113/1]" kilometre="15.008" x="82494.148" y="-9388.7754" xNet="-2548200" yNet="9165200"/>
+		<stationBorder exitType="alternative" stationID="DLMY" lineID="sc113" trackNumber="2" nodeID="946" kilometre="15.112" x="82643.705" y="-8193.9475" xNet="-2549100" yNet="9166151" referenceNode="417"/>
+		<stationBorder exitType="alternative" stationID="DLMYUPL" lineID="sc113" trackNumber="1" nodeID="271" kilometre="15.102" x="82740.414" y="-8398.0152" xNet="-2548900" yNet="9166100" referenceNode="37"/>
+		<node nodeID="13" name="[DLMYDPL] - [sc113/1]" kilometre="15.000" x="81807.5" y="-8969.0156" xNet="-2549300" yNet="9165000"/>
+		<stationBorder exitType="regular" stationID="DLMYDPL" lineID="sc113" trackNumber="2" nodeID="2097" kilometre="15.111" x="82633.882" y="-8207.3632" xNet="-2549100" yNet="9166130" referenceNode="2099"/>
+		<stationBorder exitType="alternative" stationID="DLMYJN" lineID="sc113" trackNumber="1" nodeID="206" kilometre="14.657" x="80061.477" y="-11953.358" xNet="-2548900" yNet="9161800" referenceNode="208"/>
+		<stationBorder exitType="alternative" stationID="DLMYJN" lineID="sc113" trackNumber="4" nodeID="235" kilometre="14.656" x="80171.729" y="-12049.057" xNet="-2548700" yNet="9161800" referenceNode="256"/>
+		<stationBorder exitType="alternative" stationID="DLMYUPL" lineID="sc113" trackNumber="4" nodeID="2095" kilometre="14.667" x="80257.978" y="-11979.937" xNet="-2548700" yNet="9161900" referenceNode="419"/>
+		<stationBorder exitType="alternative" stationID="DLMYUPL" lineID="sc113" trackNumber="1" nodeID="2100" kilometre="14.667" x="80124.406" y="-11870.483" xNet="-2548900" yNet="9161900" referenceNode="124"/>
+		<stationBorder exitType="alternative" stationID="DLMYDPL" lineID="sc113" trackNumber="2" nodeID="2103" kilometre="14.658" x="79910.38" y="-11820.951" xNet="-2549100" yNet="9161800" referenceNode="3"/>
+		<track trackID="T-2" stationID="DLMYDPL" type="timingPoint" nodeID="2104" kilometre="14.839" x="81001.519" y="-10372.572" xNet="-2549100" yNet="9163600" referenceNode="27"/>
+		<track trackID="T-1" stationID="DLMYUPL" type="timingPoint" nodeID="2106" kilometre="14.839" x="81158.404" y="-10496.704" xNet="-2548900" yNet="9163600" referenceNode="111"/>
+		<stationBorder exitType="regular" stationID="DLMY" lineID="sc113" trackNumber="1" nodeID="2110" kilometre="15.104" x="82755.06" y="-8378.17" xNet="-2548900" yNet="9166134" referenceNode="205"/>
+		<track trackID="U-1" stationID="DLMYUPR" interlockingMachine="3 Aspect Pannel (Below 75mph)" nodeID="189" name="SIG EY666" kilometre="15.420" x="84652.359" y="-5860.0674" xNet="-2548900" yNet="9169300" referenceNode="221"/>
+		<track trackID="U-2" stationID="DLMYUPR" interlockingMachine="3 Aspect Pannel (Below 75mph)" nodeID="185" name="SIG EY664" kilometre="15.420" x="84495.641" y="-5735.7114" xNet="-2549100" yNet="9169300" referenceNode="222"/>
+		<stationBorder exitType="regular" stationID="DLMYUPR" lineID="sc171" trackNumber="1" nodeID="216" kilometre="15.392" x="84483.744" y="-6083.8272" xNet="-2548900" yNet="9169022.2" referenceNode="189"/>
+		<stationBorder exitType="regular" stationID="DLMYUPR" lineID="sc171" trackNumber="2" nodeID="217" kilometre="15.393" x="84333.232" y="-5951.2348" xNet="-2549100" yNet="9169033.9" referenceNode="185"/>
+		<stationBorder exitType="regular" stationID="DLMYUPR" lineID="sc171" trackNumber="2" nodeID="218" kilometre="15.447" x="84660.841" y="-5516.4834" xNet="-2549100" yNet="9169577.6" referenceNode="222"/>
+		<stationBorder exitType="regular" stationID="DLMYUPR" lineID="sc171" trackNumber="1" nodeID="219" kilometre="15.448" x="84823.245" y="-5633.2937" xNet="-2548900" yNet="9169585.4" referenceNode="221"/>
+		<track trackID="T-1" stationID="DLMYUPR" type="timingPoint" nodeID="221" kilometre="15.435" x="84744.319" y="-5738.0324" xNet="-2548900" yNet="9169453.6" referenceNode="219"/>
+		<track trackID="T-2" stationID="DLMYUPR" type="timingPoint" nodeID="222" kilometre="15.436" x="84594.018" y="-5605.1606" xNet="-2549100" yNet="9169465.3" referenceNode="218"/>
+		<node nodeID="79" kilometre="62.400" x="74000" y="-13299" xNet="-2554170.7" yNet="9155884.4">
+			<netLimitInfo lineID="sc113"/>
+		</node>
+		<stationBorder exitType="regular" stationID="DLMYJN" lineID="sc113" trackNumber="1" nodeID="1274" kilometre="62.443" x="74428.543" y="-13299" xNet="-2553807.3" yNet="9156111.6" referenceNode="121"/>
+		<node nodeID="1279" name="OL " description="OL for SIG : " kilometre="62.638" x="76380" y="-13299" xNet="-2552152.3" yNet="9157145.7"/>
+		<track trackID="D-3" stationID="DLMYJN" interlockingMachine="3 Aspect Pannel (Below 75mph)" nodeID="121" name="SIG: EY653" kilometre="62.458" x="74579.993" y="-13299" xNet="-2553678.9" yNet="9156191.8" referenceNode="1274"/>
+		<speedIndicator nodeID="1459" kilometre="14.578" x="79586.6" y="-12582.3" xNet="-2548901.3" yNet="9160995.3" referenceNode="113"/>
+		<node nodeID="51" name="OL SIG: EY651" description="OL for SIG : SIG: EY651" kilometre="14.403" x="78373.8" y="-13858.8" xNet="-2549100" yNet="9159160"/>
+		<track trackID="D-2" stationID="DLMYJN" interlockingMachine="3 Aspect Pannel (76mph - 100mph)" nodeID="48" name="SIG: EY651" kilometre="14.133" x="76749.5101265823" y="-16015.3069620253" xNet="-2549100" yNet="9156484.17721519" referenceNode="2094"/>
+		<node nodeID="52" name="SIG: EAL1024" kilometre="14.069" x="76524.4375" y="-16646.575" xNet="-2548900" yNet="9155861.25" referenceNode="163" presignal="true" with1000HzMagnet="true"/>
+		<node nodeID="84" name="OL SIG: EY652" description="OL for SIG : SIG: EY652" kilometre="14.672" x="79839.8138888889" y="-11595.9027777778" xNet="-2549300" yNet="9161944.44444444"/>
+		<node nodeID="85" name="SD: SIG EY652" kilometre="14.826" x="80761.13764" y="-10359.243236" xNet="-2549300" yNet="9163444" referenceNode="89" sightingDistance="true"/>
+		<track trackID="U-3" stationID="DLMYDPL" interlockingMachine="2 Aspect Pannel (Below 75mph)" nodeID="413" name="SIG: EY652" kilometre="14.682" x="79894.1612903226" y="-11510.6774193548" xNet="-2549300" yNet="9162048.38709677" referenceNode="403"/>
+		<node nodeID="100" name="OL SIG: EY657" description="OL for SIG : SIG: EY657" kilometre="15.130" x="82750.3817974683" y="-8051.75413291139" xNet="-2549100" yNet="9166391.13924051"/>
+		<node nodeID="103" name="SD: SIG EY657" kilometre="14.807" x="80646.9337233962" y="-10510.8411465283" xNet="-2549300" yNet="9163256.86792453" referenceNode="1" sightingDistance="true"/>
+		<track trackID="D-2" stationID="DLMYDPL" interlockingMachine="3 Aspect Pannel (Below 75mph)" nodeID="89" name="SIG: EY657" kilometre="14.951" x="81513.4058032653" y="-9360.94881763267" xNet="-2549300" yNet="9164597.06122449" referenceNode="85"/>
+		<node nodeID="117" name="OL SIG: EY656" description="OL for SIG : SIG: EY656" kilometre="14.398" x="78504.8383233533" y="-14018.8383233533" xNet="-2548900" yNet="9159108.38323353"/>
+		<node nodeID="118" name="SD:SIG EY656" kilometre="14.814" x="81166.8915384616" y="-10817.7407179487" xNet="-2548700" yNet="9163303.84615385" referenceNode="25" sightingDistance="true"/>
+		<node nodeID="2111" name="SD: SIG EY654" kilometre="14.814" x="81008.220025641" y="-10696.0052820513" xNet="-2548900" yNet="9163343.58974359" referenceNode="2106" sightingDistance="true"/>
+		<signal interlockingMachine="3 Aspect Pannel (Below 75mph)" nodeID="124" name="SIG: EY654" kilometre="14.670" x="80142.3830188679" y="-11846.5688679245" xNet="-2548900" yNet="9161928.30188679" referenceNode="2"/>
+		<node nodeID="129" name="OL SIG: EY654" description="OL for SIG : SIG: EY654" kilometre="14.399" x="78510.8562874252" y="-14010.8562874251" xNet="-2548900" yNet="9159118.56287425"/>
+		<node nodeID="131" name="OL SIG: EY655" description="OL for SIG : SIG: EY655" kilometre="14.903" x="81700.8446857143" y="-10109.1923428571" xNet="-2548700" yNet="9164131.42857143"/>
+		<node nodeID="116" name="OL SIG: EY661" description="OL for SIG : SIG: EY661" kilometre="15.478" x="84845.9777361111" y="-5270.79888472222" xNet="-2549100" yNet="9169888.63333333"/>
+		<track trackID="D-2" stationID="DLMY" interlockingMachine="3 Aspect Pannel (Below 75mph)" nodeID="2113" name="SIG: EY661" kilometre="15.299" x="83764.7641351351" y="-6705.62186216218" xNet="-2549100" yNet="9168081.08108108" referenceNode="275"/>
+		<node nodeID="440" name="SD: SIG EY661" kilometre="15.012" x="82036.9490284581" y="-8997.62493860772" xNet="-2549100" yNet="9165092.99045085" referenceNode="441" sightingDistance="true"/>
+		<node nodeID="319" name="SD: SIG EY661" kilometre="15.155" x="82900.8335699118" y="-7852.09592299321" xNet="-2549100" yNet="9166644.30305246" referenceNode="100" sightingDistance="true"/>
+		<signal interlockingMachine="2 Aspect Pannel (76mph - 100mph)" nodeID="2114" name="SIG: EY663" kilometre="15.299" x="83923.8891351351" y="-6826.78355135135" xNet="-2548900" yNet="9168081.08108108" referenceNode="276"/>
+		<node nodeID="133" name="OL SIG: EY663" description="OL for SIG : SIG: EY663" kilometre="15.478" x="85004.0558450704" y="-5393.3493056338" xNet="-2548900" yNet="9169887.34366197"/>
+		<node nodeID="320" name="SD: SIG EY663" kilometre="15.155" x="83061.7624" y="-7970.86113999999" xNet="-2548900" yNet="9166620" referenceNode="416" sightingDistance="true"/>
+		<node nodeID="134" name="SD: SIG EY663" kilometre="15.012" x="82199.2721489362" y="-9113.98181276594" xNet="-2548900" yNet="9165127.65957447" referenceNode="159" sightingDistance="true"/>
+		<switch start="137" endOfMainTrack="409" endOfBranchTrack="115" nodeID="135" name="POINTS: 291" kilometre="14.484" x="78862.6086956522" y="-13212.6956521739" xNet="-2549100" yNet="9159991.30434783"/>
+		<switch start="135" endOfMainTrack="2096" endOfBranchTrack="153" nodeID="137" name="POINTS: 292a" kilometre="14.494" x="78923.4782608696" y="-13132.2608695652" xNet="-2549100" yNet="9160121.73913044"/>
+		<switch start="138" endOfMainTrack="2092" endOfBranchTrack="154" nodeID="142" name="POINTS: 292b" kilometre="14.574" x="79564.1589782743" y="-12612.3384563379" xNet="-2548900" yNet="9160883.76070369"/>
+		<switch start="113" endOfMainTrack="401" endOfBranchTrack="407" nodeID="147" name="POINTS:294" kilometre="14.583" x="79617.25" y="-12542" xNet="-2548900" yNet="9161050"/>
+		<switch start="2096" endOfMainTrack="400" endOfBranchTrack="412" nodeID="2093" name="POINTS: 293a" kilometre="14.558" x="79306.2" y="-12623.2" xNet="-2549100" yNet="9160800"/>
+		<switch start="112" endOfMainTrack="415" endOfBranchTrack="156" nodeID="149" name="POINTS: 297b" kilometre="15.042" x="82220.1815862069" y="-8755.35194482762" xNet="-2549100" yNet="9165375.86206897"/>
+		<switch start="111" endOfMainTrack="16" endOfBranchTrack="155" nodeID="110" name="POINTS: 297a" kilometre="14.941" x="81772.6508073394" y="-9681.57408807341" xNet="-2548900" yNet="9164629.35779816"/>
+		<switch start="2099" endOfMainTrack="41" endOfBranchTrack="126" nodeID="123" name="POINTS: 299" kilometre="15.101" x="82576.254" y="-8283.65920000001" xNet="-2549100" yNet="9165950"/>
+		<signal type="shunting" interlockingMachine="Shunt" nodeID="2099" kilometre="15.102" x="82582.0168" y="-8276.02959999999" xNet="-2549100" yNet="9165968" referenceNode="2097"/>
+		<switch start="421" endOfMainTrack="447" endOfBranchTrack="445" nodeID="444" kilometre="15.016" x="81915.9901111111" y="-8849.0393" xNet="-2549300" yNet="9165144.44444444"/>
+		<signal type="shunting" interlockingMachine="Shunt" nodeID="151" name="SIG: EY655" kilometre="14.896" x="81658.8388283341" y="-10164.9364227708" xNet="-2548700" yNet="9164071.42934648" referenceNode="25"/>
+		<signal type="shunting" interlockingMachine="Shunt" nodeID="111" name="SIG: EY955" kilometre="14.938" x="81754.5847247706" y="-9705.54849724775" xNet="-2548900" yNet="9164599.08256881" referenceNode="2106"/>
+		<switch start="151" endOfMainTrack="131" endOfBranchTrack="122" nodeID="152" kilometre="14.898" x="81670.8407111676" y="-10149.0092650479" xNet="-2548700" yNet="9164088.57228113"/>
+		<switch start="8" endOfMainTrack="23" endOfBranchTrack="130" nodeID="6" kilometre="14.964" x="82229.344" y="-9740.1748" xNet="-2548200" yNet="9164700"/>
+		<track trackID="T-3" stationID="DLMYJN" type="timingPoint" nodeID="114" kilometre="14.476" x="78725.6334292283" y="-13245.2970794942" xNet="-2549292.27451367" yNet="9159581.33113434" referenceNode="101"/>
+		<speedIndicator nodeID="115" name="SPEED" kilometre="14.483" x="78845.4867873492" y="-13216.7708305889" xNet="-2549124.03431421" yNet="9159940.05769614" referenceNode="135"/>
+		<speedIndicator nodeID="153" name="SPEED" kilometre="14.495" x="78931.4867698372" y="-13125.7618393999" xNet="-2549097.5" yNet="9160131.2644001" referenceNode="154"/>
+		<speedIndicator nodeID="154" name="SPEED" kilometre="14.573" x="79554.4883907835" y="-12620.1862891959" xNet="-2548903.01884768" yNet="9160872.25856839" referenceNode="142"/>
+		<speedIndicator nodeID="412" name="SPEED" kilometre="14.559" x="79310.7815384615" y="-12614.1507692308" xNet="-2549103.07692308" yNet="9160809.23076923" referenceNode="2093"/>
+		<speedIndicator nodeID="407" name="SPEED" kilometre="14.584" x="79624.5852272727" y="-12535.0227272727" xNet="-2548895.45454545" yNet="9161060.22727273" referenceNode="406"/>
+		<speedIndicator nodeID="122" name="SPEED" kilometre="14.899" x="81679.2725516783" y="-10142.837005952" xNet="-2548692.45139583" yNet="9164097.80313279" referenceNode="169"/>
+		<speedIndicator nodeID="155" name="SPEED" kilometre="14.942" x="81777.08180515" y="-9672.40357180365" xNet="-2548901.98019802" yNet="9164636.74892955" referenceNode="168"/>
+		<speedIndicator nodeID="156" name="SPEED" kilometre="15.041" x="82215.7505883963" y="-8764.52246109738" xNet="-2549098.01980198" yNet="9165368.47093758" referenceNode="149"/>
+		<speedIndicator nodeID="126" name="SPEED" kilometre="15.100" x="82567.8765454546" y="-8289.86747272728" xNet="-2549118.18181818" yNet="9165936.36363636" referenceNode="42"/>
+		<speedIndicator nodeID="445" name="SPEED" kilometre="15.015" x="81907.5185952381" y="-8855.21468714286" xNet="-2549302.85714286" yNet="9165140.95238095" referenceNode="444"/>
+		<speedIndicator nodeID="130" name="SPEED" kilometre="14.963" x="82220.8454323184" y="-9746.39590458657" xNet="-2548207.60834166" yNet="9164690.69609803" referenceNode="6"/>
+		<speedIndicator nodeID="136" name="SPEED" kilometre="14.976" x="82306.145" y="-9647.82803939394" xNet="-2548196.96969697" yNet="9164903.03030303" referenceNode="18"/>
+		<speedIndicator nodeID="157" name="SPEED" kilometre="15.009" x="82654.1222749186" y="-9499.75081837042" xNet="-2548054.47804079" yNet="9165045.52195921" referenceNode="7"/>
+		<node nodeID="158" name="GRAD" kilometre="15.010" x="82344.045" y="-9255.63449999998" xNet="-2548700" yNet="9165225"/>
+		<node nodeID="159" name="GRAD" kilometre="15.010" x="82187.2189574468" y="-9129.9417106383" xNet="-2548900" yNet="9165106.38297872"/>
+		<node nodeID="441" name="GRAD" kilometre="15.010" x="82025.2283570484" y="-9013.05024883979" xNet="-2549100" yNet="9165077.49204237"/>
+		<node nodeID="447" name="GRAD" kilometre="15.010" x="81875.3063194444" y="-8894.03041250001" xNet="-2549300" yNet="9165090.27777777"/>
+		<node nodeID="448" name="GRAD" kilometre="15.010" x="81865.161015873" y="-8886.09162285716" xNet="-2549317.14285714" yNet="9165123.49206349"/>
+		<node nodeID="160" name="GRAD" kilometre="15.010" x="82506.2121395349" y="-9372.76554418601" xNet="-2548200" yNet="9165218.60465116"/>
+		<node nodeID="161" name="GRAD" kilometre="15.010" x="82664.703" y="-9494.76269999998" xNet="-2548000" yNet="9165100"/>
+		<node nodeID="162" name="GRAD" kilometre="15.010" x="82078.3896562687" y="-9048.80846545996" xNet="-2549036.63366337" yNet="9165139.34586436"/>
+		<node nodeID="256" name="GRAD" kilometre="14.650" x="80122.5594285714" y="-12088.4611428571" xNet="-2548700" yNet="9161757.14285714"/>
+		<node nodeID="208" name="GRAD" kilometre="14.650" x="80019.7184089967" y="-12008.3527438224" xNet="-2548900" yNet="9161717.69841244"/>
+		<node nodeID="2105" name="GRAD" kilometre="14.650" x="79861.7666666667" y="-11884.9727777778" xNet="-2549100" yNet="9161711.11111111"/>
+		<node nodeID="274" name="GRAD" kilometre="14.650" x="79734.77175" y="-11790.9179375" xNet="-2549300" yNet="9161687.5"/>
+		<node nodeID="163" name="GRAD" kilometre="14.270" x="77734.5389221557" y="-15040.5389221557" xNet="-2548900" yNet="9157805.38922156"/>
+		<node nodeID="164" name="GRAD" kilometre="14.270" x="77573.5153374233" y="-14921.3312883435" xNet="-2549100" yNet="9157805.52147239"/>
+		<signal interlockingMachine="3 Aspect Pannel (Below 75mph)" nodeID="166" name="SIG" kilometre="62.543" x="75433.0478888214" y="-13496" xNet="-2552849.41900198" yNet="9156474.25899278" referenceNode="56"/>
+		<stationBorder exitType="regular" stationID="DLMYJN" lineID="sc113" trackNumber="2" nodeID="2107" kilometre="14.640" x="79801.2927289927" y="-11965.4046340492" xNet="-2549100" yNet="9161608.34406641" referenceNode="270"/>
+		<track trackID="T-4" stationID="DLMYUPL" interlockingMachine="3 Aspect Pannel (Below 75mph)" nodeID="419" name="SIG: EY656" kilometre="14.670" x="80278.6471111111" y="-11957.3884444444" xNet="-2548700" yNet="9161933.33333333" referenceNode="402"/>
+		<stationBorder exitType="alternative" stationID="DLMYDPL" lineID="sc113" trackNumber="2" nodeID="167" kilometre="15.000" x="82032.2715110698" y="-9144.25586104857" xNet="-2549016.02361938" yNet="9165062.41843505" referenceNode="162"/>
+		<stationBorder exitType="alternative" stationID="DLMYUPL" lineID="sc113" trackNumber="2" nodeID="168" kilometre="14.980" x="81946.3724604118" y="-9322.03492465746" xNet="-2548977.63562252" yNet="9164919.13441705" referenceNode="155"/>
+		<stationBorder exitType="regular" stationID="DLMYUPL" lineID="sc113" trackNumber="4" nodeID="169" kilometre="14.923" x="81879.4409003047" y="-9996.31017009164" xNet="-2548513.25070657" yNet="9164316.9396701" referenceNode="122"/>
+		<stationBorder exitType="regular" stationID="DLMYCE" lineID="sc113" trackNumber="4" nodeID="171" kilometre="14.932" x="81962.1583052753" y="-9935.75954006406" xNet="-2548439.19796004" yNet="9164407.49547387" referenceNode="130"/>
+		<track trackID="T-3" stationID="DLMYDPL" type="timingPoint" nodeID="112" kilometre="15.061" x="82338.0056795732" y="-8599.59422761565" xNet="-2549100" yNet="9165565.07650923" referenceNode="41"/>
+		<node nodeID="174" name="AT EY652" kilometre="14.825" x="80755.1269075472" y="-10367.2220733962" xNet="-2549300" yNet="9163434.1509434" referenceNode="85" aspectTrigger="true"/>
+		<track trackID="T-2" stationID="DLMYJN" type="timingPoint" nodeID="2096" kilometre="14.524" x="79102.879076087" y="-12893.6385869565" xNet="-2549100" yNet="9160439.67391305" referenceNode="2093"/>
+		<track trackID="T-1" stationID="DLMYJN" type="timingPoint" nodeID="418" kilometre="14.524" x="79263.355704698" y="-13011.7852348993" xNet="-2548900" yNet="9160377.85234899" referenceNode="408"/>
+		<node nodeID="138" kilometre="14.576" x="79576.4211279679" y="-12596.0513262105" xNet="-2548900" yNet="9160946.16350111"/>
+		<stationBorder exitType="regular" stationID="DLMYJN" lineID="sc171" trackNumber="1" nodeID="449" kilometre="14.507" x="79159.6646056837" y="-13149.4620452962" xNet="-2548900" yNet="9160204.45586235" referenceNode="418"/>
+		<node nodeID="2092" name="[STHGYLE] - [sc171/1]" kilometre="14.571" x="79547.7" y="-12634.2" xNet="-2548900" yNet="9160800"/>
+		<node nodeID="55" kilometre="62.400" x="74000" y="-13496" xNet="-2554064.8" yNet="9155714.9">
+			<netLimitInfo lineID="sc113"/>
+		</node>
+		<node nodeID="148" name="SIG: UD-A" kilometre="62.401" x="74009.985" y="-13496" xNet="-2554056.3" yNet="9155720.2"/>
+	</nodes>
+	<links>
+		<link source="1" target="403" length="12" vmax="64" vmaxr="64" owner="2017 10-12" buildingActivityNetworkSegment="HST"/>
+		<link source="2" target="124" length="50" vmax="97" vmaxr="97" owner="2017 10-12" buildingActivityNetworkSegment="HST">
+			<vzg index="2" vmax="129" vmaxr="129"/>
+			<vzg index="7" vmax="129" vmaxr="129"/>
+		</link>
+		<link source="3" target="2103" length="62" vmax="97" vmaxr="97" owner="2017 10-12" buildingActivityNetworkSegment="HST">
+			<vzg index="2" vmax="129" vmaxr="129"/>
+			<vzg index="7" vmax="129" vmaxr="129"/>
+		</link>
+		<link source="4" target="8" length="33" gradient="5" vmax="8" vmaxr="8" owner="2017 10-12" buildingActivityNetworkSegment="HST"/>
+		<link source="6" target="23" length="88" gradient="5" vmax="8" vmaxr="8" owner="2017 10-12" buildingActivityNetworkSegment="HST"/>
+		<link source="6" target="130" length="1" gradient="5" owner="2017 10-12" buildingActivityNetworkSegment="HST"/>
+		<link source="7" target="22" length="46" gradient="5" vmax="8" vmaxr="8" owner="2017 10-12" buildingActivityNetworkSegment="HST"/>
+		<link source="7" target="157" length="1" gradient="5" vmax="8" vmaxr="8" owner="2017 10-12" buildingActivityNetworkSegment="HST"/>
+		<link source="8" target="6" length="11" gradient="5" vmax="8" vmaxr="8" owner="2017 10-12" buildingActivityNetworkSegment="HST"/>
+		<link source="12" target="15" length="2" gradient="5" vmax="64" vmaxr="64" owner="2017 10-12" buildingActivityNetworkSegment="HST"/>
+		<link source="13" target="14" length="27" gradient="5" vmax="64" vmaxr="64" owner="2017 10-12" buildingActivityNetworkSegment="HST"/>
+		<link source="14" target="89" length="22" gradient="5" vmax="64" vmaxr="64" owner="2017 10-12" buildingActivityNetworkSegment="HST"/>
+		<link source="15" target="131" length="95" gradient="5" vmax="64" vmaxr="64" owner="2017 10-12" buildingActivityNetworkSegment="HST"/>
+		<link source="16" target="110" length="7" gradient="5" vmax="97" vmaxr="97" owner="2017 10-12" buildingActivityNetworkSegment="HST">
+			<vzg index="2" vmax="129" vmaxr="129"/>
+			<vzg index="7" vmax="129" vmaxr="129"/>
+		</link>
+		<link source="18" target="136" length="32" gradient="5" vmax="8" vmaxr="8" owner="2017 10-12" buildingActivityNetworkSegment="HST"/>
+		<link source="20" target="80" length="130" vmax="64" vmaxr="64"/>
+		<link source="21" target="161" length="84" vmax="8" vmaxr="8" owner="2017 10-12" buildingActivityNetworkSegment="HST"/>
+		<link source="25" target="118" length="62" gradient="5" vmax="64" vmaxr="64" owner="2017 10-12" buildingActivityNetworkSegment="HST"/>
+		<link source="26" target="27" length="84" gradient="5" vmax="97" vmaxr="97" owner="2017 10-12" buildingActivityNetworkSegment="HST">
+			<vzg index="2" vmax="129" vmaxr="129"/>
+			<vzg index="7" vmax="129" vmaxr="129"/>
+		</link>
+		<link source="27" target="2104" length="23" gradient="5" vmax="97" vmaxr="97" owner="2017 10-12" buildingActivityNetworkSegment="HST">
+			<vzg index="2" vmax="129" vmaxr="129"/>
+			<vzg index="7" vmax="129" vmaxr="129"/>
+		</link>
+		<link source="28" target="133" length="41" vmax="32" vmaxr="32" owner="2017 10-12" buildingActivityNetworkSegment="HST">
+			<vzg index="2" vmax="80"/>
+			<vzg index="3" vmax="80" vmaxr="80"/>
+			<vzg index="7" vmax="80"/>
+		</link>
+		<link source="29" target="26" length="54" gradient="5" vmax="97" vmaxr="97" owner="2017 10-12" buildingActivityNetworkSegment="HST">
+			<vzg index="2" vmax="129" vmaxr="129"/>
+			<vzg index="7" vmax="129" vmaxr="129"/>
+		</link>
+		<link source="32" target="33" length="1" gradient="-5" vmax="97" vmaxr="97" owner="2017 10-12" buildingActivityNetworkSegment="HST">
+			<vzg index="2" vmax="129" vmaxr="129"/>
+		</link>
+		<link source="32" target="134" length="82" vmax="97" vmaxr="97" owner="2017 10-12" buildingActivityNetworkSegment="HST">
+			<vzg index="2" vmax="129" vmaxr="129"/>
+			<vzg index="7" vmax="129" vmaxr="129"/>
+		</link>
+		<link source="33" target="119" length="77" vmax="64" vmaxr="64" owner="2017 10-12" buildingActivityNetworkSegment="HST"/>
+		<link source="34" target="2102" length="39" vmax="97" vmaxr="97" owner="2017 10-12" buildingActivityNetworkSegment="HST">
+			<vzg index="2" vmax="129" vmaxr="129"/>
+			<vzg index="7" vmax="129" vmaxr="129"/>
+		</link>
+		<link source="35" target="2101" length="39" vmax="97" vmaxr="97" owner="2017 10-12" buildingActivityNetworkSegment="HST">
+			<vzg index="2" vmaxr="129"/>
+			<vzg index="7" vmax="129" vmaxr="129"/>
+		</link>
+		<link source="36" target="16" length="52" gradient="5" vmax="97" vmaxr="97" owner="2017 10-12" buildingActivityNetworkSegment="HST">
+			<vzg index="2" vmax="129" vmaxr="129"/>
+			<vzg index="7" vmax="129" vmaxr="129"/>
+		</link>
+		<link source="37" target="32" length="2" vmax="97" vmaxr="97" owner="2017 10-12" buildingActivityNetworkSegment="HST">
+			<vzg index="2" vmax="129" vmaxr="129"/>
+			<vzg index="7" vmax="129"/>
+		</link>
+		<link source="41" target="112" length="35" vmax="97" vmaxr="97" owner="2017 10-12" buildingActivityNetworkSegment="HST">
+			<vzg index="2" vmax="129" vmaxr="129"/>
+			<vzg index="7" vmax="129" vmaxr="129"/>
+		</link>
+		<link source="42" target="420" length="49" gradient="-5" vmax="64" vmaxr="64" owner="2017 10-12" buildingActivityNetworkSegment="HST"/>
+		<link source="43" target="116" length="41" vmax="32" vmaxr="32" owner="2017 10-12" buildingActivityNetworkSegment="HST">
+			<vzg index="2" vmaxr="80"/>
+			<vzg index="3" vmax="80" vmaxr="80"/>
+			<vzg index="7" vmax="80" vmaxr="80"/>
+		</link>
+		<link source="48" target="2094" length="51" vmax="97" vmaxr="97" owner="2017 10-12" buildingActivityNetworkSegment="HST">
+			<vzg index="2" vmax="129" vmaxr="129"/>
+			<vzg index="7" vmax="129" vmaxr="129"/>
+		</link>
+		<link source="51" target="164" length="133" gradient="-5" vmax="97" vmaxr="97" owner="2017 10-12" buildingActivityNetworkSegment="HST">
+			<vzg index="2" vmax="129" vmaxr="129"/>
+			<vzg index="7" vmax="129" vmaxr="129"/>
+		</link>
+		<link source="52" target="269" length="69" vmax="97" vmaxr="97" owner="2017 10-12" buildingActivityNetworkSegment="HST">
+			<vzg index="2" vmax="129" vmaxr="129"/>
+			<vzg index="7" vmax="129" vmaxr="129"/>
+		</link>
+		<link source="55" target="148" length="1" gradient="-6.667" vmax="64" vmaxr="64"/>
+		<link source="56" target="96" length="64" vmax="64" vmaxr="64"/>
+		<link source="79" target="1274" length="43" gradient="-6.667" vmax="64" vmaxr="64"/>
+		<link source="80" target="1279" length="38" vmax="64" vmaxr="64"/>
+		<link source="81" target="101" length="50" gradient="-5" vmax="48" vmaxr="48"/>
+		<link source="84" target="245" length="13" vmax="64" vmaxr="64" owner="2017 10-12" buildingActivityNetworkSegment="HST"/>
+		<link source="85" target="174" length="1" gradient="5" vmax="64" vmaxr="64" owner="2017 10-12" buildingActivityNetworkSegment="HST"/>
+		<link source="88" target="166" length="73" vmax="64" vmaxr="64"/>
+		<link source="89" target="85" length="125" gradient="5" vmax="64" vmaxr="64" owner="2017 10-12" buildingActivityNetworkSegment="HST"/>
+		<link source="96" target="109" length="48" vmax="48" vmaxr="48"/>
+		<link source="97" target="99" length="125" vmax="48" vmaxr="48"/>
+		<link source="98" target="102" length="13" vmax="48" vmaxr="48"/>
+		<link source="99" target="81" length="11" vmax="48" vmaxr="48"/>
+		<link source="100" target="414" length="9" vmax="97" vmaxr="97" owner="2017 10-12" buildingActivityNetworkSegment="HST">
+			<vzg index="2" vmaxr="129"/>
+			<vzg index="7" vmax="129" vmaxr="129"/>
+		</link>
+		<link source="101" target="114" length="14" gradient="-5" vmax="48" vmaxr="48"/>
+		<link source="102" target="2090" length="4" vmax="48" vmaxr="48"/>
+		<link source="103" target="1" length="87" gradient="5" vmax="64" vmaxr="64" owner="2017 10-12" buildingActivityNetworkSegment="HST"/>
+		<link source="109" target="98" length="58" vmax="48" vmaxr="48"/>
+		<link source="110" target="111" length="3" gradient="5" vmax="97" vmaxr="97" owner="2017 10-12" buildingActivityNetworkSegment="HST">
+			<vzg index="2" vmax="129" vmaxr="129"/>
+			<vzg index="7" vmax="129" vmaxr="129"/>
+		</link>
+		<link source="111" target="2106" length="99" gradient="5" vmax="97" vmaxr="97" owner="2017 10-12" buildingActivityNetworkSegment="HST">
+			<vzg index="2" vmax="129" vmaxr="129"/>
+			<vzg index="7" vmax="129" vmaxr="129"/>
+		</link>
+		<link source="112" target="149" length="19" vmax="97" vmaxr="97" owner="2017 10-12" buildingActivityNetworkSegment="HST">
+			<vzg index="2" vmax="129" vmaxr="129"/>
+			<vzg index="7" vmax="129" vmaxr="129"/>
+		</link>
+		<link source="113" target="138" length="2" gradient="-5" vmax="97" vmaxr="97" owner="2017 10-12" buildingActivityNetworkSegment="HST">
+			<vzg index="2" vmax="129" vmaxr="129"/>
+			<vzg index="7" vmax="129" vmaxr="129"/>
+		</link>
+		<link source="113" target="1459" gradient="-5" vmax="97" vmaxr="97" owner="2017 10-12" buildingActivityNetworkSegment="HST">
+			<vzg index="2" vmax="129" vmaxr="129"/>
+		</link>
+		<link source="114" target="115" length="7" gradient="-5" vmax="48" vmaxr="48"/>
+		<link source="115" target="135" length="1" gradient="-5" vmax="97" vmaxr="97">
+			<vzg index="2" vmax="129" vmaxr="129"/>
+		</link>
+		<link source="116" target="218" length="31" vmax="32" vmaxr="32" owner="2017 10-12" buildingActivityNetworkSegment="HST">
+			<vzg index="2" vmaxr="80"/>
+			<vzg index="3" vmax="80" vmaxr="80"/>
+			<vzg index="7" vmax="80" vmaxr="80"/>
+		</link>
+		<link source="117" target="163" length="128" gradient="-5" vmax="97" vmaxr="97" owner="2017 10-12" buildingActivityNetworkSegment="HST">
+			<vzg index="2" vmax="129" vmaxr="129"/>
+			<vzg index="7" vmax="129" vmaxr="129"/>
+		</link>
+		<link source="118" target="1760" length="94" gradient="5" vmax="64" vmaxr="64" owner="2017 10-12" buildingActivityNetworkSegment="HST"/>
+		<link source="119" target="158" length="6" vmax="64" vmaxr="64" owner="2017 10-12" buildingActivityNetworkSegment="HST"/>
+		<link source="121" target="20" length="12" gradient="-6.667" vmax="64" vmaxr="64"/>
+		<link source="122" target="152" length="1" gradient="5" vmax="64" vmaxr="64" owner="2017 10-12" buildingActivityNetworkSegment="HST"/>
+		<link source="123" target="41" length="5" vmax="97" vmaxr="97" owner="2017 10-12" buildingActivityNetworkSegment="HST">
+			<vzg index="2" vmax="129" vmaxr="129"/>
+			<vzg index="7" vmax="129" vmaxr="129"/>
+		</link>
+		<link source="123" target="126" length="1" gradient="-5" vmax="97" vmaxr="97" owner="2017 10-12" buildingActivityNetworkSegment="HST">
+			<vzg index="2" vmax="129" vmaxr="129"/>
+		</link>
+		<link source="124" target="2100" length="3" vmax="97" vmaxr="97" owner="2017 10-12" buildingActivityNetworkSegment="HST">
+			<vzg index="2" vmax="129" vmaxr="129"/>
+			<vzg index="7" vmax="129" vmaxr="129"/>
+		</link>
+		<link source="125" target="84" length="5" vmax="64" vmaxr="64" owner="2017 10-12" buildingActivityNetworkSegment="HST"/>
+		<link source="126" target="42" length="10" gradient="-5" vmax="64" vmaxr="64" owner="2017 10-12" buildingActivityNetworkSegment="HST"/>
+		<link source="128" target="127" length="124" gradient="5" vmax="8" vmaxr="8" owner="2017 10-12" buildingActivityNetworkSegment="HST"/>
+		<link source="129" target="117" gradient="-5" vmax="97" vmaxr="97" owner="2017 10-12" buildingActivityNetworkSegment="HST">
+			<vzg index="2" vmax="129" vmaxr="129"/>
+			<vzg index="7" vmax="129" vmaxr="129"/>
+		</link>
+		<link source="130" target="171" length="30" gradient="5" vmax="8" vmaxr="8" owner="2017 10-12" buildingActivityNetworkSegment="HST"/>
+		<link source="131" target="152" length="5" gradient="5" vmax="64" vmaxr="64" owner="2017 10-12" buildingActivityNetworkSegment="HST"/>
+		<link source="132" target="160" length="84" vmax="8" vmaxr="8" owner="2017 10-12" buildingActivityNetworkSegment="HST"/>
+		<link source="133" target="219" length="30" vmax="32" vmaxr="32" owner="2017 10-12" buildingActivityNetworkSegment="HST">
+			<vzg index="2" vmax="80"/>
+			<vzg index="3" vmax="80" vmaxr="80"/>
+			<vzg index="7" vmax="80"/>
+		</link>
+		<link source="134" target="159" length="2" vmax="97" vmaxr="97" owner="2017 10-12" buildingActivityNetworkSegment="HST">
+			<vzg index="2" vmax="129" vmaxr="129"/>
+			<vzg index="7" vmax="129" vmaxr="129"/>
+		</link>
+		<link source="135" target="409" length="7" gradient="-5" vmax="97" vmaxr="97" owner="2017 10-12" buildingActivityNetworkSegment="HST">
+			<vzg index="2" vmax="129" vmaxr="129"/>
+			<vzg index="7" vmax="129" vmaxr="129"/>
+		</link>
+		<link source="136" target="8" length="1" gradient="5" vmax="8" vmaxr="8" owner="2017 10-12" buildingActivityNetworkSegment="HST"/>
+		<link source="137" target="135" length="10" gradient="-5" vmax="97" vmaxr="97" owner="2017 10-12" buildingActivityNetworkSegment="HST">
+			<vzg index="2" vmax="129" vmaxr="129"/>
+			<vzg index="7" vmax="129" vmaxr="129"/>
+		</link>
+		<link source="138" target="142" length="2" gradient="-5" vmax="97" vmaxr="97" owner="2017 10-12" buildingActivityNetworkSegment="HST">
+			<vzg index="2" vmax="129" vmaxr="129"/>
+			<vzg index="7" vmax="129" vmaxr="129"/>
+		</link>
+		<link source="142" target="154" length="1" vmax="97" vmaxr="97" owner="2017 10-12" buildingActivityNetworkSegment="HST">
+			<vzg index="2" vmax="129" vmaxr="129"/>
+		</link>
+		<link source="142" target="2092" length="3" gradient="-5" vmax="97" vmaxr="97" owner="2017 10-12" buildingActivityNetworkSegment="HST">
+			<vzg index="2" vmax="129" vmaxr="129"/>
+			<vzg index="7" vmax="129" vmaxr="129"/>
+		</link>
+		<link source="147" target="113" length="5" gradient="-5" vmax="97" vmaxr="97" owner="2017 10-12" buildingActivityNetworkSegment="HST">
+			<vzg index="2" vmax="129" vmaxr="129"/>
+			<vzg index="7" vmax="129" vmaxr="129"/>
+		</link>
+		<link source="148" target="88" length="69" gradient="-6.667" vmax="64" vmaxr="64"/>
+		<link source="149" target="156" length="1" vmax="97" vmaxr="97" owner="2017 10-12" buildingActivityNetworkSegment="HST">
+			<vzg index="2" vmax="129" vmaxr="129"/>
+		</link>
+		<link source="149" target="415" length="17" vmax="97" vmaxr="97" owner="2017 10-12" buildingActivityNetworkSegment="HST">
+			<vzg index="2" vmax="129" vmaxr="129"/>
+			<vzg index="7" vmax="129" vmaxr="129"/>
+		</link>
+		<link source="151" target="25" length="20" gradient="5" vmax="64" vmaxr="64" owner="2017 10-12" buildingActivityNetworkSegment="HST"/>
+		<link source="152" target="151" length="2" gradient="5" vmax="64" vmaxr="64" owner="2017 10-12" buildingActivityNetworkSegment="HST"/>
+		<link source="153" target="137" length="1" gradient="-5" vmax="97" vmaxr="97" owner="2017 10-12" buildingActivityNetworkSegment="HST">
+			<vzg index="2" vmax="129" vmaxr="129"/>
+		</link>
+		<link source="154" target="153" length="78" gradient="-5" vmax="48" vmaxr="48" owner="2017 10-12" buildingActivityNetworkSegment="HST"/>
+		<link source="155" target="110" length="1" vmax="97" vmaxr="97" owner="2017 10-12" buildingActivityNetworkSegment="HST">
+			<vzg index="2" vmax="129" vmaxr="129"/>
+		</link>
+		<link source="156" target="162" length="31" vmax="65" vmaxr="65" owner="2017 10-12" buildingActivityNetworkSegment="HST"/>
+		<link source="157" target="18" length="1" gradient="5" vmax="8" vmaxr="8" owner="2017 10-12" buildingActivityNetworkSegment="HST"/>
+		<link source="158" target="170" length="2" gradient="5" vmax="64" vmaxr="64" owner="2017 10-12" buildingActivityNetworkSegment="HST"/>
+		<link source="159" target="36" length="10" gradient="5" vmax="97" vmaxr="97" owner="2017 10-12" buildingActivityNetworkSegment="HST">
+			<vzg index="2" vmax="129" vmaxr="129"/>
+			<vzg index="7" vmax="129" vmaxr="129"/>
+		</link>
+		<link source="160" target="4" length="2" gradient="5" vmax="8" vmaxr="8" owner="2017 10-12" buildingActivityNetworkSegment="HST"/>
+		<link source="161" target="7" vmax="8" vmaxr="8" owner="2017 10-12" buildingActivityNetworkSegment="HST"/>
+		<link source="162" target="167" length="10" gradient="5" vmax="65" vmaxr="65" owner="2017 10-12" buildingActivityNetworkSegment="HST"/>
+		<link source="163" target="52" length="201" vmax="97" vmaxr="97" owner="2017 10-12" buildingActivityNetworkSegment="HST">
+			<vzg index="2" vmax="129" vmaxr="129"/>
+			<vzg index="7" vmax="129" vmaxr="129"/>
+		</link>
+		<link source="164" target="48" length="137" vmax="97" vmaxr="97" owner="2017 10-12" buildingActivityNetworkSegment="HST">
+			<vzg index="2" vmax="129" vmaxr="129"/>
+			<vzg index="7" vmax="129" vmaxr="129"/>
+		</link>
+		<link source="165" target="129" length="9" gradient="-5" vmax="97" vmaxr="97" owner="2017 10-12" buildingActivityNetworkSegment="HST">
+			<vzg index="2" vmax="129" vmaxr="129"/>
+			<vzg index="7" vmax="129" vmaxr="129"/>
+		</link>
+		<link source="166" target="56" length="57" vmax="64" vmaxr="64"/>
+		<link source="167" target="168" length="20" gradient="5" vmax="65" vmaxr="65" owner="2017 10-12" buildingActivityNetworkSegment="HST"/>
+		<link source="168" target="155" length="38" gradient="5" vmax="65" vmaxr="65" owner="2017 10-12" buildingActivityNetworkSegment="HST"/>
+		<link source="169" target="122" length="24" gradient="5" vmax="8" vmaxr="8" owner="2017 10-12" buildingActivityNetworkSegment="HST"/>
+		<link source="170" target="12" length="8" gradient="5" vmax="64" vmaxr="64" owner="2017 10-12" buildingActivityNetworkSegment="HST"/>
+		<link source="171" target="169" length="10" gradient="5" vmax="8" vmaxr="8" owner="2017 10-12" buildingActivityNetworkSegment="HST"/>
+		<link source="174" target="103" length="18" gradient="5" vmax="64" vmaxr="64" owner="2017 10-12" buildingActivityNetworkSegment="HST"/>
+		<link source="185" target="217" length="27" vmax="32" vmaxr="32" owner="2017 10-12" buildingActivityNetworkSegment="HST">
+			<vzg index="2" vmaxr="80"/>
+			<vzg index="3" vmax="80" vmaxr="80"/>
+			<vzg index="7" vmax="80" vmaxr="80"/>
+		</link>
+		<link source="186" target="43" length="89" vmax="32" vmaxr="32" owner="2017 10-12" buildingActivityNetworkSegment="HST">
+			<vzg index="2" vmaxr="80"/>
+			<vzg index="3" vmax="80" vmaxr="80"/>
+			<vzg index="7" vmax="80" vmaxr="80"/>
+		</link>
+		<link source="189" target="216" length="28" vmax="32" vmaxr="32" owner="2017 10-12" buildingActivityNetworkSegment="HST">
+			<vzg index="2" vmax="80"/>
+			<vzg index="3" vmax="80" vmaxr="80"/>
+			<vzg index="7" vmax="80"/>
+		</link>
+		<link source="191" target="28" length="89" vmax="32" vmaxr="32" owner="2017 10-12" buildingActivityNetworkSegment="HST">
+			<vzg index="2" vmax="80"/>
+			<vzg index="3" vmax="80" vmaxr="80"/>
+			<vzg index="7" vmax="80"/>
+		</link>
+		<link source="205" target="2110" length="6" vmax="97" vmaxr="97" owner="2017 10-12" buildingActivityNetworkSegment="HST">
+			<vzg index="2" vmax="129" vmaxr="129"/>
+			<vzg index="7" vmax="129" vmaxr="129"/>
+		</link>
+		<link source="206" target="208" length="7" vmax="97" vmaxr="97" owner="2017 10-12" buildingActivityNetworkSegment="HST">
+			<vzg index="2" vmax="129" vmaxr="129"/>
+			<vzg index="7" vmax="129" vmaxr="129"/>
+		</link>
+		<link source="208" target="401" length="26" gradient="-5" vmax="97" vmaxr="97" owner="2017 10-12" buildingActivityNetworkSegment="HST">
+			<vzg index="2" vmax="129" vmaxr="129"/>
+			<vzg index="7" vmax="129" vmaxr="129"/>
+		</link>
+		<link source="216" target="34" length="43" vmax="32" vmaxr="32" owner="2017 10-12" buildingActivityNetworkSegment="HST">
+			<vzg index="2" vmax="80" vmaxr="80"/>
+			<vzg index="3" vmax="80" vmaxr="80"/>
+			<vzg index="7" vmax="80"/>
+		</link>
+		<link source="217" target="35" length="44" vmax="32" vmaxr="32" owner="2017 10-12" buildingActivityNetworkSegment="HST">
+			<vzg index="2" vmaxr="80"/>
+			<vzg index="3" vmax="80" vmaxr="80"/>
+			<vzg index="7" vmax="80" vmaxr="80"/>
+		</link>
+		<link source="218" target="222" length="11" vmax="32" vmaxr="32" owner="2017 10-12" buildingActivityNetworkSegment="HST">
+			<vzg index="2" vmaxr="80"/>
+			<vzg index="3" vmax="80" vmaxr="80"/>
+			<vzg index="7" vmax="80" vmaxr="80"/>
+		</link>
+		<link source="219" target="221" length="13" vmax="32" vmaxr="32" owner="2017 10-12" buildingActivityNetworkSegment="HST">
+			<vzg index="2" vmax="80"/>
+			<vzg index="3" vmax="80" vmaxr="80"/>
+			<vzg index="7" vmax="80"/>
+		</link>
+		<link source="221" target="189" length="15" vmax="32" vmaxr="32" owner="2017 10-12" buildingActivityNetworkSegment="HST">
+			<vzg index="2" vmax="80"/>
+			<vzg index="3" vmax="80" vmaxr="80"/>
+			<vzg index="7" vmax="80"/>
+		</link>
+		<link source="222" target="185" length="16" vmax="32" vmaxr="32" owner="2017 10-12" buildingActivityNetworkSegment="HST">
+			<vzg index="2" vmaxr="80"/>
+			<vzg index="3" vmax="80" vmaxr="80"/>
+			<vzg index="7" vmax="80" vmaxr="80"/>
+		</link>
+		<link source="233" target="410" length="16" gradient="-5" vmax="64" vmaxr="64" owner="2017 10-12" buildingActivityNetworkSegment="HST"/>
+		<link source="235" target="256" length="6" vmax="64" vmaxr="64" owner="2017 10-12" buildingActivityNetworkSegment="HST"/>
+		<link source="245" target="274" length="9" vmax="64" vmaxr="64" owner="2017 10-12" buildingActivityNetworkSegment="HST"/>
+		<link source="256" target="405" length="8" gradient="-5" vmax="64" vmaxr="64" owner="2017 10-12" buildingActivityNetworkSegment="HST"/>
+		<link source="270" target="400" length="20" gradient="-5" vmax="97" vmaxr="97" owner="2017 10-12" buildingActivityNetworkSegment="HST">
+			<vzg index="2" vmax="129" vmaxr="129"/>
+			<vzg index="7" vmax="129" vmaxr="129"/>
+		</link>
+		<link source="271" target="37" length="6" vmax="97" vmaxr="97" owner="2017 10-12" buildingActivityNetworkSegment="HST">
+			<vzg index="2" vmax="129" vmaxr="129"/>
+			<vzg index="7" vmax="129" vmaxr="129"/>
+		</link>
+		<link source="272" target="3" length="80" gradient="5" vmax="97" vmaxr="97" owner="2017 10-12" buildingActivityNetworkSegment="HST">
+			<vzg index="2" vmax="129" vmaxr="129"/>
+			<vzg index="7" vmax="129" vmaxr="129"/>
+		</link>
+		<link source="273" target="2" length="80" gradient="5" vmax="97" vmaxr="97" owner="2017 10-12" buildingActivityNetworkSegment="HST">
+			<vzg index="2" vmax="129" vmaxr="129"/>
+			<vzg index="7" vmax="129" vmaxr="129"/>
+		</link>
+		<link source="274" target="233" length="7" gradient="-5" vmax="64" vmaxr="64" owner="2017 10-12" buildingActivityNetworkSegment="HST"/>
+		<link source="275" target="319" length="45" vmax="97" vmaxr="97" owner="2017 10-12" buildingActivityNetworkSegment="HST">
+			<vzg index="2" vmaxr="129"/>
+			<vzg index="7" vmax="129" vmaxr="129"/>
+		</link>
+		<link source="276" target="320" length="45" vmax="97" vmaxr="97" owner="2017 10-12" buildingActivityNetworkSegment="HST">
+			<vzg index="2" vmax="129" vmaxr="129"/>
+			<vzg index="7" vmax="129" vmaxr="129"/>
+		</link>
+		<link source="278" target="186" length="392" vmax="32" vmaxr="32" owner="2017 10-12" buildingActivityNetworkSegment="HST">
+			<vzg index="2" vmaxr="80"/>
+			<vzg index="3" vmax="80" vmaxr="80"/>
+			<vzg index="7" vmax="80" vmaxr="80"/>
+		</link>
+		<link source="281" target="191" length="392" vmax="32" vmaxr="32" owner="2017 10-12" buildingActivityNetworkSegment="HST">
+			<vzg index="2" vmax="80"/>
+			<vzg index="3" vmax="80" vmaxr="80"/>
+			<vzg index="7" vmax="80"/>
+		</link>
+		<link source="319" target="100" length="25" vmax="97" vmaxr="97" owner="2017 10-12" buildingActivityNetworkSegment="HST">
+			<vzg index="2" vmaxr="129"/>
+			<vzg index="7" vmax="129" vmaxr="129"/>
+		</link>
+		<link source="320" target="416" length="30" vmax="97" vmaxr="97" owner="2017 10-12" buildingActivityNetworkSegment="HST">
+			<vzg index="2" vmax="129" vmaxr="129"/>
+			<vzg index="7" vmax="129" vmaxr="129"/>
+		</link>
+		<link source="400" target="2093" length="22" gradient="-5" vmax="97" vmaxr="97" owner="2017 10-12" buildingActivityNetworkSegment="HST">
+			<vzg index="2" vmax="129" vmaxr="129"/>
+			<vzg index="7" vmax="129" vmaxr="129"/>
+		</link>
+		<link source="401" target="147" length="41" gradient="-5" vmax="97" vmaxr="97" owner="2017 10-12" buildingActivityNetworkSegment="HST">
+			<vzg index="2" vmax="129" vmaxr="129"/>
+			<vzg index="7" vmax="129" vmaxr="129"/>
+		</link>
+		<link source="402" target="419" length="24" vmax="64" vmaxr="64" owner="2017 10-12" buildingActivityNetworkSegment="HST"/>
+		<link source="403" target="413" length="26" vmax="64" vmaxr="64" owner="2017 10-12" buildingActivityNetworkSegment="HST"/>
+		<link source="405" target="406" length="15" gradient="-5" vmax="64" vmaxr="64" owner="2017 10-12" buildingActivityNetworkSegment="HST"/>
+		<link source="406" target="407" length="43" gradient="-5" vmax="64" vmaxr="64" owner="2017 10-12" buildingActivityNetworkSegment="HST"/>
+		<link source="407" target="147" length="1" gradient="-5" vmax="97" vmaxr="97" owner="2017 10-12" buildingActivityNetworkSegment="HST">
+			<vzg index="2" vmax="129" vmaxr="129"/>
+		</link>
+		<link source="408" target="418" length="32" gradient="-5" vmax="97" vmaxr="97" owner="2017 10-12" buildingActivityNetworkSegment="HST">
+			<vzg index="2" vmax="129" vmaxr="129"/>
+			<vzg index="7" vmax="129" vmaxr="129"/>
+		</link>
+		<link source="409" target="51" length="74" gradient="-5" vmax="97" vmaxr="97" owner="2017 10-12" buildingActivityNetworkSegment="HST">
+			<vzg index="2" vmax="129" vmaxr="129"/>
+			<vzg index="7" vmax="129" vmaxr="129"/>
+		</link>
+		<link source="410" target="411" length="5" gradient="-5" vmax="64" vmaxr="64" owner="2017 10-12" buildingActivityNetworkSegment="HST"/>
+		<link source="411" target="412" length="64" gradient="-5" vmax="64" vmaxr="64" owner="2017 10-12" buildingActivityNetworkSegment="HST"/>
+		<link source="412" target="2093" length="1" gradient="-5" vmax="64" vmaxr="64" owner="2017 10-12" buildingActivityNetworkSegment="HST"/>
+		<link source="413" target="125" length="5" vmax="64" vmaxr="64" owner="2017 10-12" buildingActivityNetworkSegment="HST"/>
+		<link source="414" target="417" length="6" vmax="97" vmaxr="97" owner="2017 10-12" buildingActivityNetworkSegment="HST">
+			<vzg index="2" vmaxr="129"/>
+			<vzg index="7" vmax="129" vmaxr="129"/>
+		</link>
+		<link source="415" target="440" length="13" vmax="97" vmaxr="97" owner="2017 10-12" buildingActivityNetworkSegment="HST">
+			<vzg index="2" vmax="129" vmaxr="129"/>
+			<vzg index="7" vmax="129" vmaxr="129"/>
+		</link>
+		<link source="416" target="205" length="15" vmax="97" vmaxr="97" owner="2017 10-12" buildingActivityNetworkSegment="HST">
+			<vzg index="2" vmax="129" vmaxr="129"/>
+			<vzg index="7" vmax="129" vmaxr="129"/>
+		</link>
+		<link source="417" target="946" length="3" vmax="97" vmaxr="97" owner="2017 10-12" buildingActivityNetworkSegment="HST">
+			<vzg index="2" vmaxr="129"/>
+			<vzg index="7" vmax="129" vmaxr="129"/>
+		</link>
+		<link source="418" target="449" length="17" gradient="-5" vmax="97" vmaxr="97" owner="2017 10-12" buildingActivityNetworkSegment="HST">
+			<vzg index="2" vmax="129" vmaxr="129"/>
+			<vzg index="7" vmax="129" vmaxr="129"/>
+		</link>
+		<link source="419" target="2095" length="3" vmax="64" vmaxr="64" owner="2017 10-12" buildingActivityNetworkSegment="HST"/>
+		<link source="420" target="421" length="4" gradient="-5" vmax="64" vmaxr="64" owner="2017 10-12" buildingActivityNetworkSegment="HST"/>
+		<link source="421" target="444" length="21" gradient="-5" vmax="64" vmaxr="64" owner="2017 10-12" buildingActivityNetworkSegment="HST"/>
+		<link source="440" target="441" length="2" vmax="97" vmaxr="97" owner="2017 10-12" buildingActivityNetworkSegment="HST">
+			<vzg index="2" vmax="129" vmaxr="129"/>
+			<vzg index="7" vmax="129" vmaxr="129"/>
+		</link>
+		<link source="441" target="29" length="10" gradient="5" vmax="97" vmaxr="97" owner="2017 10-12" buildingActivityNetworkSegment="HST">
+			<vzg index="2" vmax="129" vmaxr="129"/>
+			<vzg index="7" vmax="129" vmaxr="129"/>
+		</link>
+		<link source="444" target="445" length="1" vmax="64" vmaxr="64" owner="2017 10-12" buildingActivityNetworkSegment="HST"/>
+		<link source="444" target="447" length="6" gradient="-5" vmax="64" vmaxr="64" owner="2017 10-12" buildingActivityNetworkSegment="HST"/>
+		<link source="445" target="448" length="5" vmax="8" vmaxr="8" owner="2017 10-12" buildingActivityNetworkSegment="HST"/>
+		<link source="447" target="13" length="10" gradient="-5" vmax="64" vmaxr="64" owner="2017 10-12" buildingActivityNetworkSegment="HST"/>
+		<link source="448" target="128" length="64" gradient="5" vmax="8" vmaxr="8" owner="2017 10-12" buildingActivityNetworkSegment="HST"/>
+		<link source="449" target="165" length="100" gradient="-5" vmax="97" vmaxr="97" owner="2017 10-12" buildingActivityNetworkSegment="HST">
+			<vzg index="2" vmax="129" vmaxr="129"/>
+			<vzg index="7" vmax="129" vmaxr="129"/>
+		</link>
+		<link source="946" target="2097" length="1" vmax="97" vmaxr="97" owner="2017 10-12" buildingActivityNetworkSegment="HST">
+			<vzg index="2" vmaxr="129"/>
+			<vzg index="7" vmax="129" vmaxr="129"/>
+		</link>
+		<link source="1274" target="121" length="15" gradient="-6.667" vmax="64" vmaxr="64"/>
+		<link source="1279" target="97" length="26" vmax="64" vmaxr="64"/>
+		<link source="1760" target="402" length="26" vmax="64" vmaxr="64" owner="2017 10-12" buildingActivityNetworkSegment="HST"/>
+		<link source="2090" target="99" length="2" vmax="48" vmaxr="48"/>
+		<link source="2092" target="408" length="15" gradient="-5" vmax="97" vmaxr="97" owner="2017 10-12" buildingActivityNetworkSegment="HST">
+			<vzg index="2" vmax="129" vmaxr="129"/>
+			<vzg index="7" vmax="129" vmaxr="129"/>
+		</link>
+		<link source="2093" target="2096" length="34" gradient="-5" vmax="97" vmaxr="97" owner="2017 10-12" buildingActivityNetworkSegment="HST">
+			<vzg index="2" vmax="129" vmaxr="129"/>
+			<vzg index="7" vmax="129" vmaxr="129"/>
+		</link>
+		<link source="2094" target="267" length="82" vmax="97" vmaxr="97" owner="2017 10-12" buildingActivityNetworkSegment="HST">
+			<vzg index="2" vmax="129" vmaxr="129"/>
+			<vzg index="7" vmax="129" vmaxr="129"/>
+		</link>
+		<link source="2095" target="235" length="11" vmax="64" vmaxr="64" owner="2017 10-12" buildingActivityNetworkSegment="HST"/>
+		<link source="2096" target="137" length="30" gradient="-5" vmax="97" vmaxr="97" owner="2017 10-12" buildingActivityNetworkSegment="HST">
+			<vzg index="2" vmax="129" vmaxr="129"/>
+			<vzg index="7" vmax="129" vmaxr="129"/>
+		</link>
+		<link source="2097" target="2099" length="9" vmax="97" vmaxr="97" owner="2017 10-12" buildingActivityNetworkSegment="HST">
+			<vzg index="2" vmax="129" vmaxr="129"/>
+			<vzg index="7" vmax="129" vmaxr="129"/>
+		</link>
+		<link source="2098" target="132" vmax="8" vmaxr="8" owner="2017 10-12" buildingActivityNetworkSegment="HST"/>
+		<link source="2099" target="123" length="1" vmax="97" vmaxr="97" owner="2017 10-12" buildingActivityNetworkSegment="HST">
+			<vzg index="2" vmax="129" vmaxr="129"/>
+			<vzg index="7" vmax="129" vmaxr="129"/>
+		</link>
+		<link source="2100" target="206" length="10" vmax="97" vmaxr="97" owner="2017 10-12" buildingActivityNetworkSegment="HST">
+			<vzg index="2" vmax="129" vmaxr="129"/>
+			<vzg index="7" vmax="129" vmaxr="129"/>
+		</link>
+		<link source="2101" target="2113" length="12" vmax="97" vmaxr="97" owner="2017 10-12" buildingActivityNetworkSegment="HST">
+			<vzg index="2" vmaxr="129"/>
+			<vzg index="7" vmax="129" vmaxr="129"/>
+		</link>
+		<link source="2102" target="2114" length="12" vmax="97" vmaxr="97" owner="2017 10-12" buildingActivityNetworkSegment="HST">
+			<vzg index="2" vmax="129" vmaxr="129"/>
+			<vzg index="7" vmax="129" vmaxr="129"/>
+		</link>
+		<link source="2103" target="2105" length="8" vmax="97" vmaxr="97" owner="2017 10-12" buildingActivityNetworkSegment="HST">
+			<vzg index="2" vmax="129" vmaxr="129"/>
+			<vzg index="7" vmax="129" vmaxr="129"/>
+		</link>
+		<link source="2104" target="272" length="39" gradient="5" vmax="97" vmaxr="97" owner="2017 10-12" buildingActivityNetworkSegment="HST">
+			<vzg index="2" vmax="129" vmaxr="129"/>
+			<vzg index="7" vmax="129" vmaxr="129"/>
+		</link>
+		<link source="2105" target="2107" length="10" gradient="-5" vmax="97" vmaxr="97" owner="2017 10-12" buildingActivityNetworkSegment="HST">
+			<vzg index="2" vmax="129" vmaxr="129"/>
+			<vzg index="7" vmax="129" vmaxr="129"/>
+		</link>
+		<link source="2106" target="2111" length="25" gradient="5" vmax="97" vmaxr="97" owner="2017 10-12" buildingActivityNetworkSegment="HST">
+			<vzg index="2" vmax="129" vmaxr="129"/>
+			<vzg index="7" vmax="129" vmaxr="129"/>
+		</link>
+		<link source="2107" target="270" length="40" gradient="-5" vmax="97" vmaxr="97" owner="2017 10-12" buildingActivityNetworkSegment="HST">
+			<vzg index="2" vmax="129" vmaxr="129"/>
+			<vzg index="7" vmax="129" vmaxr="129"/>
+		</link>
+		<link source="2110" target="271" length="2" vmax="97" vmaxr="97" owner="2017 10-12" buildingActivityNetworkSegment="HST">
+			<vzg index="2" vmax="129" vmaxr="129"/>
+			<vzg index="7" vmax="129" vmaxr="129"/>
+		</link>
+		<link source="2111" target="273" length="14" gradient="5" vmax="97" vmaxr="97" owner="2017 10-12" buildingActivityNetworkSegment="HST">
+			<vzg index="2" vmax="129" vmaxr="129"/>
+			<vzg index="7" vmax="129" vmaxr="129"/>
+		</link>
+		<link source="2113" target="275" length="99" vmax="97" vmaxr="97" owner="2017 10-12" buildingActivityNetworkSegment="HST">
+			<vzg index="2" vmaxr="129"/>
+			<vzg index="7" vmax="129" vmaxr="129"/>
+		</link>
+		<link source="2114" target="276" length="99" vmax="97" vmaxr="97" owner="2017 10-12" buildingActivityNetworkSegment="HST">
+			<vzg index="2" vmax="129" vmaxr="129"/>
+			<vzg index="7" vmax="129" vmaxr="129"/>
+		</link>
+	</links>
+	<dependentLinks/>
+	<blockSections>
+		<blocksection uuid="{03db770c-66df-48e8-a5fe-d4d0c98dd8aa}" lines="dalmi sc171">
+			<part nodes="281 191 28 133 219 221 189"/>
+		</blocksection>
+		<blocksection uuid="{04b37006-1302-4674-8cf4-4c100ab229b7}" lines="dalmi sc171">
+			<part nodes="124 2100 206 208 401 147 113 138 142 2092 408 418 449 165 129 117 163 52 269"/>
+		</blocksection>
+		<blocksection uuid="{0dcbc6ae-4bf4-4f8b-9f7e-e0dd9546a520}" lines="dalmi">
+			<part nodes="121 20 80 1279 97 99 81 101 114 115 135 137 2096 2093 400 270 2107 2105 2103 3 272 2104 27 26 29 441 440 415 149 112 41 123 2099 2097 946 417 414 100 319 275 2113"/>
+		</blocksection>
+		<blocksection uuid="{1270ef82-0570-41b2-83f6-5465515f2154}" lines="dalmi">
+			<part nodes="48 164 51 409 135 137 153 154 142 138 113 147 401 208 206 2100 124 2 273 2111 2106 111 110 16 36 159 134 32 37 271 2110 205 416 320 276 2114"/>
+		</blocksection>
+		<blocksection uuid="{1d9f6d4d-85a7-46b2-9aab-541809c86ef2}" lines="dalmi" speedIndicators="34">
+			<part nodes="189 216 34 2102 2114 276 320 416 205 2110 271 37 32 134 159 36 16 110 111 2106 2111 273 2 124"/>
+		</blocksection>
+		<blocksection uuid="{22709d43-4183-4968-a500-06e07fcaff88}" lines="dalmi">
+			<part nodes="48 164 51 409 135 137 2096 2093 400 270 2107 2105 2103 3 272 2104 27 26 29 441 440 415 149 112 41 123 2099 2097 946 417 414 100 319 275 2113"/>
+		</blocksection>
+		<blocksection uuid="{327d6605-657c-41e2-80cf-da36d5ed8641}" lines="dalmi sc113 wnbrj">
+			<part nodes="166 88 148 55"/>
+		</blocksection>
+		<blocksection uuid="{38e7938b-5d78-471a-847c-520ab948335a}" lines="dalmi">
+			<part nodes="48 164 51 409 135 137 2096 2093 412 411 410 233 274 245 84 125 413 403 1 103 174 85 89"/>
+		</blocksection>
+		<blocksection uuid="{3dd9e569-bc90-49bf-9306-8ee0ac2b9ad9}" lines="dalmi">
+			<part nodes="413 125 84 245 274 233 410 411 412 2093 2096 137 135 115 114 101 81 99 2090 102 98 109 96 56 166"/>
+		</blocksection>
+		<blocksection uuid="{402958d9-d542-493e-b918-37ce222cb8b0}" lines="dalmi sc171">
+			<part nodes="419 2095 235 256 405 406 407 147 113 138 142 2092 408 418 449 165 129 117 163 52 269"/>
+		</blocksection>
+		<blocksection uuid="{4ba89b7a-476d-48f7-a670-db7f977b73b9}" lines="dalmi sc171" speedIndicators="35">
+			<part nodes="2113 2101 35 217 185 222 218 116 43 186 278"/>
+		</blocksection>
+		<blocksection uuid="{5aa18c45-a344-40be-b73b-8164b098771f}" lines="dalmi sc113 wnbrj" speedIndicators="96 115">
+			<part nodes="55 148 88 166 56 96 109 98 102 2090 99 81 101 114 115 135 137 2096 2093 400 270 2107 2105 2103 3 272 2104 27 26 29 441 440 415 149 112 41 123 2099 2097 946 417 414 100 319 275 2113"/>
+		</blocksection>
+		<blocksection uuid="{6b38e49e-527a-4f11-88c4-b9c265f9f9e3}" lines="dalmi sc171" speedIndicators="34">
+			<part nodes="189 216 34 2102 2114 276 320 416 205 2110 271 37 32 134 159 36 16 110 111 2106 2111 273 2 124 2100 206 208 401 147 113 138 142 2092 408 418 449 165 129 117 163 52 269"/>
+		</blocksection>
+		<blocksection uuid="{70533f6c-4469-46cd-848e-f090a54f008b}" lines="dalmi">
+			<part nodes="189 216 34 2102 2114 276 320 416 205 2110 271 37 32 134 159 36 16 110 111 2106 2111 273 2 124 2100 206 208 401 147 113 138 142 154 153 137 135 115 114 101 81 99 2090 102 98 109 96 56 166"/>
+		</blocksection>
+		<blocksection uuid="{7168fe7e-ba91-46f6-a4e3-0e530be0e2f6}" lines="dalmi sc171">
+			<part nodes="185 217 35 2101 2113 275 319 100 414 417 946 2097 2099 123 41 112 149 156 162 167 168 155 110 111 2106 2111 273 2 124 2100 206 208 401 147 113 138 142 2092 408 418 449 165 129 117 163 52 269"/>
+		</blocksection>
+		<blocksection uuid="{76781fad-e388-43d0-a1c7-13a290334e6b}" lines="dalmi sc171">
+			<part nodes="278 186 43 116 218 222 185"/>
+		</blocksection>
+		<blocksection uuid="{795d7a42-3484-42ae-9949-860725989b76}" lines="dalmi sc113 wnbrj" shuntingBlock="true" speedIndicators="96">
+			<part nodes="55 148 88 166 56 96 109"/>
+		</blocksection>
+		<blocksection uuid="{7bc63bc5-547a-48f5-95f4-28a6c954ecad}" lines="dalmi">
+			<part nodes="121 20 80 1279 97 99 81 101 114 115 135 137 153 154 142 138 113 147 401 208 206 2100 124 2 273 2111 2106 111 110 16 36 159 134 32 37 271 2110 205 416 320 276 2114"/>
+		</blocksection>
+		<blocksection uuid="{7f0c4692-cec0-4e9a-a2ef-d042fea752f0}" lines="dalmi" speedIndicators="33 34">
+			<part nodes="189 216 34 2102 2114 276 320 416 205 2110 271 37 32 33 119 158 170 12 15 131 152 151 25 118 1760 402 419"/>
+		</blocksection>
+		<blocksection uuid="{84be78ed-864a-4ea2-956e-bd89a5f67315}" lines="dalmi">
+			<part nodes="121 20 80 1279 97 99 81 101 114 115 135 137 2096 2093 412 411 410 233 274 245 84 125 413 403 1 103 174 85 89"/>
+		</blocksection>
+		<blocksection uuid="{92654b25-c0f1-4aa3-a73d-00ca5c3a926f}" lines="dalmi sc171">
+			<part nodes="267 2094 48"/>
+		</blocksection>
+		<blocksection uuid="{97d7a234-baf6-452b-b2dc-0cb4ae47b074}" lines="dalmi sc113">
+			<part nodes="79 1274 121"/>
+		</blocksection>
+		<blocksection uuid="{c008bd56-bb4f-4aea-be82-a7240b575261}" lines="dalmi sc113 wnbrj" shuntingBlock="true" speedIndicators="96">
+			<part nodes="55 148 88 166 56 96 109"/>
+		</blocksection>
+		<blocksection uuid="{ca26f4c4-b5a7-4f50-ab5d-4ab9bebf57ca}" lines="dalmi sc171" speedIndicators="34">
+			<part nodes="2114 2102 34 216 189 221 219 133 28 191 281"/>
+		</blocksection>
+		<blocksection uuid="{d1a84e7c-8ee5-47fa-bc12-1f2aaa837cae}" lines="dalmi">
+			<part nodes="124 2100 206 208 401 147 113 138 142 154 153 137 135 115 114 101 81 99 2090 102 98 109 96 56 166"/>
+		</blocksection>
+		<blocksection uuid="{f4ccf009-efac-49b9-999e-e5085ec59016}" lines="dalmi">
+			<part nodes="185 217 35 2101 2113 275 319 100 414 417 946 2097 2099 123 41 112 149 156 162 167 168 155 110 111 2106 2111 273 2 124"/>
+		</blocksection>
+		<blocksection uuid="{f675ded1-6532-46c4-bee9-f0ffd1e69d66}" lines="dalmi">
+			<part nodes="419 2095 235 256 405 406 407 147 113 138 142 154 153 137 135 115 114 101 81 99 2090 102 98 109 96 56 166"/>
+		</blocksection>
+	</blockSections>
+	<slipDistances>
+		<slipdistance uuid="{17c7c90b-8f21-4936-aa2c-3a529ebcc95e}" vmax="999" lines="dalmi" serialNumber="0">
+			<part nodes="121 20 80 1279"/>
+		</slipdistance>
+		<slipdistance uuid="{326f132d-2a0f-452f-81f9-a7d61933b4af}" vmax="999" lines="dalmi" serialNumber="0">
+			<part nodes="2114 2102 34 216 189 221 219 133"/>
+		</slipdistance>
+		<slipdistance uuid="{67828622-daea-47e5-8dcf-2a77feca3aeb}" vmax="999" lines="dalmi" serialNumber="0">
+			<part nodes="2113 2101 35 217 185 222 218 116"/>
+		</slipdistance>
+		<slipdistance uuid="{841ea0b0-253d-4e99-954a-02337e410656}" vmax="999" lines="dalmi" serialNumber="0">
+			<part nodes="48 164 51"/>
+		</slipdistance>
+		<slipdistance uuid="{8ba72312-c412-4679-b895-7a03cb619b89}" vmax="999" lines="dalmi" serialNumber="0">
+			<part nodes="189 216 34 2102 2114 276 320 416 205 2110 271 37"/>
+		</slipdistance>
+		<slipdistance uuid="{b59bc081-7927-47fa-9eda-18eb101da6a4}" vmax="999" lines="dalmi" serialNumber="0">
+			<part nodes="124 2100 206 208 401 147 113 138 142 2092 408 418 449 165 129"/>
+		</slipdistance>
+		<slipdistance uuid="{eba9ada7-b81b-4488-a09f-58e5d4cba90c}" vmax="999" lines="dalmi" serialNumber="0">
+			<part nodes="185 217 35 2101 2113 275 319 100 414 417 946 2097 2099 123 41"/>
+		</slipdistance>
+		<slipdistance uuid="{ef8b03eb-2625-445d-8f5a-975cdb595948}" vmax="999" lines="dalmi" serialNumber="0">
+			<part nodes="413 125 84"/>
+		</slipdistance>
+	</slipDistances>
+	<approachControlRoutes>
+		<ACRoute controlTyp="mar" uuid="{378793aa-d796-4313-bdf7-c70849781523}" publicName="EY652 MAR EW604" lines="dalmi">
+			<part nodes="413 125 84 245 274 233 410 411 412 2093 2096 137 135 115 114 101 81 99 2090 102 98 109 96 56 166"/>
+		</ACRoute>
+		<ACRoute controlTyp="mar" uuid="{3a02907a-6f42-47fe-b790-87d8ac5abdb7}" publicName="MAY653 MAR EY655" lines="dalmi">
+			<part nodes="121 20 80 1279 97 99 81 101 114 115 135 137 153 154 142 138 113 147 407 406 405 256 235 2095 419 402 1760 118 25 151"/>
+		</ACRoute>
+		<ACRoute controlTyp="mar" uuid="{508eb6d3-f960-4662-a279-c4d419541930}" publicName="EY651 MAR EY663" lines="dalmi">
+			<part nodes="48 164 51 409 135 137 153 154 142 138 113 147 401 208 206 2100 124 2 273 2111 2106 111 110 16 36 159 134 32 37 271 2110 205 416 320 276 2114"/>
+		</ACRoute>
+		<ACRoute controlTyp="mar" uuid="{91bdb00b-373d-42d8-b5db-6ae0a7aa0dae}" publicName="EY653 MAR EY657" lines="dalmi">
+			<part nodes="121 20 80 1279 97 99 81 101 114 115 135 137 2096 2093 412 411 410 233 274 245 84 125 413 403 1 103 174 85 89"/>
+		</ACRoute>
+		<ACRoute controlTyp="mar" uuid="{9575fb67-cefc-40f7-83db-0495bb659f9d}" publicName="EY651 MAR EY657" lines="dalmi">
+			<part nodes="48 164 51 409 135 137 2096 2093 412 411 410 233 274 245 84 125 413 403 1 103 174 85 89"/>
+		</ACRoute>
+	</approachControlRoutes>
+	<stationRoutes>
+		<stationRoute stationID="DLMY" name="[DLMYDPL]-[sc113/2]-[2]-[NQNSFRY]-[sc171/2] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="946 417 414 100 319 275 2113 2101"/>
+		<stationRoute stationID="DLMY" name="[NQNSFRY]-[sc171/1]-[1]-[DLMYUPL]-[sc113/1] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="2102 2114 276 320 416 205 2110"/>
+		<stationRoute stationID="DLMY" name="[NQNSFRY]-[sc171/2]-[3]-[DLMYDPL]-[sc113/2] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="2101 2113 275 319 100 414 417 946"/>
+		<stationRoute stationID="DLMYDPL" name="[DLMYJN]-[sc113/2]-[2]-[DLMY]-[sc113/2] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="2103 3 272 2104 27 26 29 441 440 415 149 112 41 123 2099 2097"/>
+		<stationRoute stationID="DLMYDPL" name="[DLMY]-[sc113/2]-[3]-[DLMYUPL]-[sc113/2] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=95;NRz=95;S=95;Rz=95;FGz=95;NGz=95;Gz=95;Lz=95;Unbekannt=95" nodes="2097 2099 123 41 112 149 156 162 167"/>
+		<stationRoute stationID="DLMYJN" name="[CRAGBRAE]-[sc113/1]-[3]-[DLMYDPL]-[sc113/2] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=95;NRz=95;S=95;Rz=95;FGz=95;NGz=95;Gz=95;Lz=95;Unbekannt=95" nodes="1274 121 20 80 1279 97 99 81 101 114 115 135 137 2096 2093 400 270 2107"/>
+		<stationRoute stationID="DLMYJN" name="[CRAGBRAE]-[sc113/1]-[3]-[DLMYDPL]-[sc113/3] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=90;NRz=90;S=90;Rz=90;FGz=90;NGz=90;Gz=90;Lz=90;Unbekannt=90" nodes="1274 121 20 80 1279 97 99 81 101 114 115 135 137 2096 2093 412 411 410 233"/>
+		<stationRoute stationID="DLMYJN" name="[CRAGBRAE]-[sc113/1]-[3]-[DLMYUPL]-[sc113/1] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=85;NRz=85;S=85;Rz=85;FGz=85;NGz=85;Gz=85;Lz=85;Unbekannt=85" nodes="1274 121 20 80 1279 97 99 81 101 114 115 135 137 153 154 142 138 113 147 401 208 206"/>
+		<stationRoute stationID="DLMYJN" name="[DLMYDPL]-[sc113/3]-[3]-[CRAGBRAE]-[sc113/2] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=85;NRz=85;S=85;Rz=85;FGz=85;NGz=85;Gz=85;Lz=85;Unbekannt=85" nodes="233 410 411 412 2093 2096 137 135 115 114 101 81 99 2090"/>
+		<stationRoute stationID="DLMYJN" name="[DLMYUPL]-[sc113/1]-[1-3]-[CRAGBRAE]-[sc113/2] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=80;NRz=80;S=80;Rz=80;FGz=80;NGz=80;Gz=80;Lz=80;Unbekannt=80" nodes="206 208 401 147 113 138 142 154 153 137 135 115 114 101 81 99 2090"/>
+		<stationRoute stationID="DLMYJN" name="[DLMYUPL]-[sc113/1]-[1]-[EDINAPT]-[sc171/1] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="206 208 401 147 113 138 142 2092 408 418 449"/>
+		<stationRoute stationID="DLMYJN" name="[DLMYUPL]-[sc113/4]-[1-3]-[CRAGBRAE]-[sc113/2] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=75;NRz=75;S=75;Rz=75;FGz=75;NGz=75;Gz=75;Lz=75;Unbekannt=75" nodes="235 256 405 406 407 147 113 138 142 154 153 137 135 115 114 101 81 99 2090"/>
+		<stationRoute stationID="DLMYJN" name="[DLMYUPL]-[sc113/4]-[1]-[EDINAPT]-[sc171/1] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=95;NRz=95;S=95;Rz=95;FGz=95;NGz=95;Gz=95;Lz=95;Unbekannt=95" nodes="235 256 405 406 407 147 113 138 142 2092 408 418 449"/>
+		<stationRoute stationID="DLMYJN" name="[EDINAPT]-[sc171/2]-[2]-[DLMYDPL]-[sc113/2] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="2094 48 164 51 409 135 137 2096 2093 400 270 2107"/>
+		<stationRoute stationID="DLMYJN" name="[EDINAPT]-[sc171/2]-[2]-[DLMYDPL]-[sc113/3] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=95;NRz=95;S=95;Rz=95;FGz=95;NGz=95;Gz=95;Lz=95;Unbekannt=95" nodes="2094 48 164 51 409 135 137 2096 2093 412 411 410 233"/>
+		<stationRoute stationID="DLMYJN" name="[EDINAPT]-[sc171/2]-[2]-[DLMYUPL]-[sc113/1] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=90;NRz=90;S=90;Rz=90;FGz=90;NGz=90;Gz=90;Lz=90;Unbekannt=90" nodes="2094 48 164 51 409 135 137 153 154 142 138 113 147 401 208 206"/>
+		<stationRoute stationID="DLMYUPL" name="[DLMYDPL]-[sc113/2]-[1]-[DLMYJN]-[sc113/1] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=95;NRz=95;S=95;Rz=95;FGz=95;NGz=95;Gz=95;Lz=95;Unbekannt=95" nodes="168 155 110 111 2106 2111 273 2 124 2100"/>
+		<stationRoute stationID="DLMYUPL" name="[DLMYJN]-[sc113/1]-[1]-[DLMY]-[sc113/1] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="2100 124 2 273 2111 2106 111 110 16 36 159 134 32 37 271"/>
+		<stationRoute stationID="DLMYUPL" name="[DLMY]-[sc113/1]-[1]-[DLMYJN]-[sc113/1] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="271 37 32 134 159 36 16 110 111 2106 2111 273 2 124 2100"/>
+		<stationRoute stationID="DLMYUPL" name="[DLMY]-[sc113/1]-[4]-[DLMYJN]-[sc113/4] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=95;NRz=95;S=95;Rz=95;FGz=95;NGz=95;Gz=95;Lz=95;Unbekannt=95" nodes="271 37 32 33 119 158 170 12 15 131 152 151 25 118 1760 402 419 2095"/>
+		<stationRoute stationID="DLMYUPR" name="[DLMY]-[sc171/1]-[1]-[NQNSFRY]-[sc171/1] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="216 189 221 219"/>
+		<stationRoute stationID="DLMYUPR" name="[DLMY]-[sc171/2]-[2]-[NQNSFRY]-[sc171/2] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="217 185 222 218"/>
+		<stationRoute stationID="DLMYUPR" name="[NQNSFRY]-[sc171/1]-[1]-[DLMY]-[sc171/1] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="219 221 189 216"/>
+		<stationRoute stationID="DLMYUPR" name="[NQNSFRY]-[sc171/2]-[2]-[DLMY]-[sc171/2] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="218 222 185 217"/>
+	</stationRoutes>
+	<lineCatalog/>
+	<zugNummernFelder/>
+	<switchGears/>
+</line>

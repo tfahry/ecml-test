@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<line lineID="so250b" name="SO250b Battersea Pier Jn - Longhedge Jn" trafficRouting="on_the_left" type="local" dependentLines="bpj pou stwt">
+	<version major="1" minor="2" patchlevel="0" comment=""/>
+	<creator user="Ahowe4" timestamp="2016-11-01T12:54:22"/>
+	<lasteditor user="Ahowe4" timestamp="2016-11-01T12:54:22"/>
+	<stations/>
+	<nodes>
+		<node nodeID="2322" name="SD : VS47" description="sighting distance for SIG : VS47" kilometre="1.783" x="17780.678" y="582.60346" xNet="983041.72" yNet="668912.21" referenceNode="2325" sightingDistance="true"/>
+		<node nodeID="2325" name="SD : VS546" description="sighting distance for SIG : VS546" kilometre="1.728" x="17417.217" y="582.60346" xNet="982524.28" yNet="669500.62" referenceNode="2322" sightingDistance="true"/>
+		<node nodeID="2330" kilometre="1.674" x="17115.359" y="582.60346" xNet="981804.13" yNet="670268.81"/>
+	</nodes>
+	<links>
+		<link source="2322" target="2329.stwt" length="60" vmax="40" vmaxr="40" bidirectional="true">
+			<vzg index="9" vmax="40" vmaxr="40"/>
+		</link>
+		<link source="2325" target="2322" length="55" vmax="40" vmaxr="40" bidirectional="true">
+			<vzg index="9" vmax="40" vmaxr="40"/>
+		</link>
+		<link source="2327.bpj" target="2330" length="12" vmax="40" vmaxr="40" bidirectional="true">
+			<vzg index="9" vmax="40" vmaxr="40"/>
+		</link>
+		<link source="2330" target="2325" length="54" vmax="40" vmaxr="40" bidirectional="true">
+			<vzg index="9" vmax="40" vmaxr="40"/>
+		</link>
+	</links>
+	<dependentLinks/>
+	<blockSections>
+		<blocksection uuid="{49a526de-ac30-450b-9b8e-830e8e983ecc}" lines="bpj so250b stwt" shuntingBlock="true">
+			<part nodes="2329.stwt 2322 2325 2330 2327.bpj"/>
+		</blocksection>
+		<blocksection uuid="{4e24ff66-a818-4eb8-9fec-4709ae7a3871}" lines="bpj so250b stwt">
+			<part nodes="2329.stwt 2322 2325 2330 2327.bpj"/>
+		</blocksection>
+		<blocksection uuid="{d713588c-7e7f-4af2-b531-34e2181a80bb}" lines="bpj so250b stwt" shuntingBlock="true">
+			<part nodes="2329.stwt 2322 2325 2330 2327.bpj"/>
+		</blocksection>
+		<blocksection uuid="{fa9422f4-ab2e-49ec-bf0e-51fbdbb4e947}" lines="bpj so250b stwt">
+			<part nodes="2327.bpj 2330 2325 2322 2329.stwt"/>
+		</blocksection>
+	</blockSections>
+	<slipDistances/>
+	<approachControlRoutes/>
+	<stationRoutes/>
+	<lineCatalog/>
+	<zugNummernFelder/>
+	<switchGears/>
+</line>

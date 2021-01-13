@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<line lineID="nw9013" name="Woodley Jn - Bredbury" trafficRouting="on_the_left" type="local" dependentLines="woodga">
+	<version major="1" minor="2" patchlevel="0" comment=""/>
+	<creator user="VWaddelo" timestamp="2016-07-08T10:58:15"/>
+	<lasteditor user="VWaddelo" timestamp="2016-07-08T10:58:15"/>
+	<stations>
+		<station stationID="BREDS" name="Bredbury Sidings" xNet="-1296398.05" yNet="4343653.2" uicLocationCode="0" circleDiameter="0">
+			<textElement type="name">
+				<pos view="net" x="145.007" y="145.007" angle="0" system="source"/>
+				<pos view="wgs84" x="145.007" y="145.007" angle="0" system="source"/>
+				<pos view="line" x="144.851" y="144.851" angle="0" system="source"/>
+				<pos view="macro" x="28.2843" y="28.2843" angle="0" system="source"/>
+				<pos view="macroWgs84" x="0" y="0" angle="0" system="source"/>
+			</textElement>
+		</station>
+	</stations>
+	<nodes>
+		<track trackID="D-1" stationID="BREDS" type="entry" interlockingMachine="2 Aspect Pannel (Below 75mph)" nodeID="52" name="SIG : ENTRY" description="Signal ENTRY;" kilometre="286.538" x="2868275" y="492" xNet="-1296576.4" yNet="4343605.7" referenceNode="208"/>
+		<track trackID="U-1" stationID="BREDS" type="exit" interlockingMachine="2 Aspect Pannel (Below 75mph)" nodeID="53" name="SIG : EXIT" description="Signal EXIT;" kilometre="286.537" x="2868265" y="492" xNet="-1296586.8" yNet="4343602.8" referenceNode="52"/>
+		<stationBorder exitType="locked" stationID="BREDS" trackNumber="BRED" nodeID="54" name="Buffer stop 174" kilometre="286.536" x="2868255" y="492" xNet="-1296596.1" yNet="4343600" referenceNode="53"/>
+		<stationBorder exitType="regular" stationID="BREDS" lineID="nw9013" trackNumber="BRED" nodeID="206" kilometre="286.577" x="2868664.7" y="492" xNet="-1296200" yNet="4343706.4" referenceNode="208"/>
+		<track trackID="T-1" stationID="BREDS" type="timingPoint" nodeID="208" kilometre="286.557" x="2868468.8" y="492" xNet="-1296389.2" yNet="4343655.8" referenceNode="206"/>
+		<node nodeID="49" name="SD : 37" description="sighting distance for SIG : 37" kilometre="287.469" x="2877585" y="492" xNet="-1292900" yNet="4344600" referenceNode="206" sightingDistance="true"/>
+	</nodes>
+	<links>
+		<link source="49" target="206" length="892" gradient="-0.909091" vmax="24" vmaxr="24" bidirectional="true" tunnelCrossSection="10" electrification="electrified"/>
+		<link source="52" target="53" length="1" gradient="-0.909" vmax="24" vmaxr="24" bidirectional="true" electrification="electrified"/>
+		<link source="53" target="54" length="1" gradient="-0.909" vmax="24" vmaxr="24" bidirectional="true" electrification="electrified"/>
+		<link source="195.woodga" target="49" length="49" gradient="-0.909091" vmax="24" vmaxr="24" bidirectional="true" electrification="electrified"/>
+		<link source="206" target="208" length="20" gradient="-0.909091" vmax="24" vmaxr="24" bidirectional="true" electrification="electrified"/>
+		<link source="208" target="52" length="19" gradient="-0.909091" vmax="24" vmaxr="24" bidirectional="true" electrification="electrified"/>
+	</links>
+	<dependentLinks/>
+	<blockSections>
+		<blocksection uuid="{c621b3ef-8356-40d6-b0f4-b8b5c1a1b652}" lines="nw9013 woodga">
+			<part nodes="52 208 206 49 195.woodga"/>
+		</blocksection>
+		<blocksection uuid="{f52a95ba-b4ac-4f24-bdec-f0e796d42045}" lines="nw9013 woodga">
+			<part nodes="195.woodga 49 206 208 52 53"/>
+		</blocksection>
+	</blockSections>
+	<slipDistances/>
+	<approachControlRoutes/>
+	<stationRoutes>
+		<stationRoute stationID="BREDS" name="DN" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="206 208 52 53 54"/>
+		<stationRoute stationID="BREDS" name="UP" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="54 53 52 208 206"/>
+	</stationRoutes>
+	<lineCatalog/>
+	<zugNummernFelder/>
+	<switchGears/>
+</line>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<line lineID="md360" name="Dalarston Jn - Pleck Jn" trafficRouting="on_the_left" type="local" dependentLines="darla pleck">
+	<version major="1" minor="2" patchlevel="0" comment=""/>
+	<creator user="VWaddelo" timestamp="2016-07-08T10:58:15"/>
+	<lasteditor user="VWaddelo" timestamp="2016-07-08T10:58:15"/>
+	<stations/>
+	<nodes>
+		<node nodeID="7701" kilometre="0.912" x="152796.58" y="34784.273" xNet="-1183502.2" yNet="2696079.3"/>
+		<signal interlockingMachine="4 Aspect Pannel (Below 75mph)" nodeID="7696" name="SIG:WL210" kilometre="0.893" x="152990.43" y="34782.458" xNet="-1183912.4" yNet="2696005.3" referenceNode="7702"/>
+		<node nodeID="7906" name="SD:" kilometre="0.768" x="153917.44" y="34783.165" xNet="-1185376.4" yNet="2695768.7" referenceNode="7909.darla" sightingDistance="true"/>
+		<node nodeID="7699" name="SD:" kilometre="0.667" x="154434.34" y="34984.691" xNet="-1189408.6" yNet="2694950.1" referenceNode="7891" sightingDistance="true"/>
+		<node nodeID="7702" name="GRAD" kilometre="0.831" x="153450.05" y="34782.458" xNet="-1184625.3" yNet="2695885.7"/>
+		<node nodeID="7901" kilometre="1.428" x="143072" y="34782.3" xNet="-1175700" yNet="2702600"/>
+		<node nodeID="7881" name="GRAD" kilometre="1.025" x="147817" y="34782" xNet="-1178535.4" yNet="2696844.6"/>
+		<node nodeID="7882" name="OL" kilometre="1.091" x="146969" y="34782" xNet="-1177900" yNet="2697400"/>
+		<node nodeID="7883" name="GRAD" kilometre="1.143" x="146708" y="34782" xNet="-1177400" yNet="2698600"/>
+		<node nodeID="7886" name="GRAD" kilometre="1.025" x="147814" y="34984" xNet="-1175400" yNet="2701900"/>
+		<node nodeID="7887" name="GRAD" kilometre="1.143" x="146698" y="34984" xNet="-1171206.4" yNet="2709903.6"/>
+		<node nodeID="7891" name="GRAD" kilometre="0.831" x="153456" y="34984" xNet="-1186833.4" yNet="2695253.8"/>
+		<signal interlockingMachine="4 Aspect Pannel (Below 75mph)" nodeID="7892" name="SIG:209" kilometre="1.168" x="146439" y="34985" xNet="-1171061.1" yNet="2709931.8" referenceNode="7894"/>
+		<node nodeID="7893" name="OL" kilometre="0.988" x="149001" y="34982" xNet="-1177700" yNet="2696700"/>
+		<node nodeID="7894" name="SD:" kilometre="1.293" x="145208" y="34985" xNet="-1170264.6" yNet="2710074.5" referenceNode="7903.pleck" sightingDistance="true"/>
+		<node nodeID="7896" name="SD:" kilometre="1.332" x="144149" y="34782" xNet="-1177100" yNet="2699800" referenceNode="7883" sightingDistance="true"/>
+	</nodes>
+	<links>
+		<link source="85.pleck" target="7901" length="20" vmax="64" vmaxr="64" electrification="electrified"/>
+		<link source="7696" target="7702" length="62" gradient="-0.333" vmax="64" vmaxr="64" electrification="electrified"/>
+		<link source="7699" target="226.darla" length="49" vmax="64" vmaxr="64" electrification="electrified"/>
+		<link source="7701" target="7696" length="19" gradient="-0.333" vmax="64" vmaxr="64" electrification="electrified"/>
+		<link source="7702" target="7906" length="63" vmax="64" vmaxr="64" electrification="electrified"/>
+		<link source="7881" target="7701" length="113" gradient="-0.333" vmax="64" vmaxr="64" electrification="electrified"/>
+		<link source="7882" target="7881" length="66" gradient="1.9231" vmax="64" vmaxr="64" electrification="electrified"/>
+		<link source="7883" target="7882" length="52" gradient="1.9231" vmax="64" vmaxr="64" electrification="electrified"/>
+		<link source="7886" target="7893" length="37" gradient="-0.333" vmax="64" vmaxr="64" electrification="electrified"/>
+		<link source="7887" target="7886" length="118" gradient="1.9231" vmax="64" vmaxr="64" electrification="electrified"/>
+		<link source="7891" target="7699" length="164" vmax="64" vmaxr="64" electrification="electrified"/>
+		<link source="7892" target="7887" length="25" vmax="64" vmaxr="64" electrification="electrified"/>
+		<link source="7893" target="7891" length="157" gradient="-0.333" vmax="64" vmaxr="64" electrification="electrified"/>
+		<link source="7894" target="7892" length="125" vmax="64" vmaxr="64" electrification="electrified"/>
+		<link source="7896" target="7883" length="189" vmax="64" vmaxr="64" electrification="electrified"/>
+		<link source="7901" target="7896" length="96" vmax="64" vmaxr="64" electrification="electrified"/>
+		<link source="7903.pleck" target="7894" length="133" vmax="64" vmaxr="64" electrification="electrified"/>
+		<link source="7906" target="7909.darla" length="148" vmax="64" vmaxr="64" electrification="electrified"/>
+	</links>
+	<dependentLinks/>
+	<blockSections>
+		<blocksection uuid="{07eab204-5be7-48ae-9076-fb9798f759f3}" lines="md360 pleck" shuntingBlock="true">
+			<part nodes="7903.pleck 7894 7892"/>
+		</blocksection>
+		<blocksection uuid="{1e547aef-25d4-4b97-93a1-ccebeb651ae2}" lines="md360 pleck" shuntingBlock="true">
+			<part nodes="7903.pleck 7894 7892"/>
+		</blocksection>
+		<blocksection uuid="{264f9482-a5f6-468a-bbd3-3d985c0df1a0}" lines="darla md360">
+			<part nodes="7892 7887 7886 7893 7891 7699 226.darla"/>
+		</blocksection>
+		<blocksection uuid="{3b787fb2-b339-48a6-a380-8f76b966e918}" lines="md360 pleck" shuntingBlock="true">
+			<part nodes="7903.pleck 7894 7892"/>
+		</blocksection>
+		<blocksection uuid="{46790af5-7f19-429e-ab06-d3c19a8f0c1f}" lines="md360 pleck">
+			<part nodes="7903.pleck 7894 7892"/>
+		</blocksection>
+		<blocksection uuid="{afdafb12-1b84-4aa7-85fc-954f2ba5dc33}" lines="md360 pleck">
+			<part nodes="7903.pleck 7894 7892"/>
+		</blocksection>
+		<blocksection uuid="{b723f72a-514a-4029-8fbe-50b60a8507da}" lines="md360 pleck">
+			<part nodes="7696 7701 7881 7882 7883 7896 7901 85.pleck"/>
+		</blocksection>
+		<blocksection uuid="{ef5e4301-f37e-48d7-9fe3-9138e83b07ec}" lines="darla md360">
+			<part nodes="7909.darla 7906 7702 7696"/>
+		</blocksection>
+	</blockSections>
+	<slipDistances>
+		<slipdistance uuid="{96e31be7-8bdc-41f5-97ee-4c15a58f4504}" vmax="999" lines="md360" serialNumber="0">
+			<part nodes="7696 7701 7881 7882"/>
+		</slipdistance>
+		<slipdistance uuid="{fd4d7b6a-d579-4268-b4a8-98898861491c}" vmax="999" lines="md360" serialNumber="0">
+			<part nodes="7892 7887 7886 7893"/>
+		</slipdistance>
+	</slipDistances>
+	<approachControlRoutes/>
+	<stationRoutes/>
+	<lineCatalog/>
+	<zugNummernFelder/>
+	<switchGears/>
+</line>

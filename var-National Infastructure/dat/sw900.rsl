@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<line lineID="sw900" name="SHEEPCOTE LANE" trafficRouting="on_the_left" type="local" dependentLines="clphmj lmj">
+	<version major="1" minor="2" patchlevel="0" comment=""/>
+	<creator user="Ahowe4" timestamp="2016-11-01T12:54:22"/>
+	<lasteditor user="Ahowe4" timestamp="2016-11-01T12:54:22"/>
+	<stations/>
+	<nodes>
+		<signal interlockingMachine="3 Aspect Pannel (Below 75mph)" nodeID="442" name="SIG: VC639" description="SIGNAL: VC639; 3m 29ch" kilometre="5.411" x="658488.83" y="5341.92" xNet="959107.22" yNet="649895.48" referenceNode="505.clphmj"/>
+		<signal interlockingMachine="3 Aspect Pannel (Below 75mph)" nodeID="13281" name="SIG: VC637" description="SIGNAL: VC637;  3m 29ch" kilometre="5.411" x="658343.89" y="4845.6676" xNet="959100.58" yNet="649751.59" referenceNode="13329.clphmj"/>
+		<node nodeID="444" name="xSD: SIG W934" kilometre="5.432" x="658225.62" y="5720.4776" xNet="958989" yNet="649962" referenceNode="446" sightingDistance="true"/>
+		<node nodeID="13283" name="xSD: SIG W932" kilometre="5.432" x="658074.11" y="5274.3449" xNet="958940" yNet="649835" referenceNode="7" sightingDistance="true"/>
+		<node nodeID="6" name="pOL SIG: VC639" description="OL for SIG : SIG: VC639" kilometre="5.502" x="657352.24" y="6976.6286" xNet="958624" yNet="650154"/>
+		<node nodeID="7" name="pOL SIG: VC637" description="OL for SIG : SIG: VC637" kilometre="5.502" x="657176.09" y="6701.2896" xNet="958523" yNet="650046"/>
+		<node nodeID="446" kilometre="5.459" x="657890.83" y="6202" xNet="958862" yNet="650028"/>
+	</nodes>
+	<links>
+		<link source="6" target="502.lmj" length="34" gradient="2.941" vmax="48" vmaxr="48" electrification="electrified">
+			<vzg index="9" vmax="48" vmaxr="48"/>
+		</link>
+		<link source="7" target="13310.lmj" length="32" gradient="2.941" vmax="48" vmaxr="48" electrification="electrified">
+			<vzg index="9" vmax="48" vmaxr="48"/>
+		</link>
+		<link source="442" target="444" length="21" gradient="2.941" vmax="48" vmaxr="48" electrification="electrified">
+			<vzg index="9" vmax="48" vmaxr="48"/>
+		</link>
+		<link source="444" target="446" length="27" gradient="2.941" vmax="48" vmaxr="48" electrification="electrified">
+			<vzg index="9" vmax="48" vmaxr="48"/>
+		</link>
+		<link source="446" target="6" length="43" gradient="2.941" vmax="48" vmaxr="48" electrification="electrified">
+			<vzg index="9" vmax="48" vmaxr="48"/>
+		</link>
+		<link source="505.clphmj" target="442" length="63" gradient="2.941" vmax="48" vmaxr="48" electrification="electrified">
+			<vzg index="9" vmax="48" vmaxr="48"/>
+		</link>
+		<link source="13281" target="13283" length="21" gradient="2.941" vmax="48" vmaxr="48" electrification="electrified">
+			<vzg index="9" vmax="48" vmaxr="48"/>
+		</link>
+		<link source="13283" target="7" length="70" gradient="2.941" vmax="48" vmaxr="48" electrification="electrified">
+			<vzg index="9" vmax="48" vmaxr="48"/>
+		</link>
+		<link source="13329.clphmj" target="13281" length="65" gradient="2.941" vmax="48" vmaxr="48" electrification="electrified">
+			<vzg index="9" vmax="48" vmaxr="48"/>
+		</link>
+	</links>
+	<dependentLinks/>
+	<blockSections>
+		<blocksection uuid="{178aaa39-881e-4482-a6cc-4d2cce45ebb1}" lines="clphmj sw900">
+			<part nodes="13329.clphmj 13281"/>
+		</blocksection>
+		<blocksection uuid="{2822dfbc-0bd7-4886-8e88-0d31b56167f0}" lines="lmj sw900">
+			<part nodes="442 444 446 6 502.lmj"/>
+		</blocksection>
+		<blocksection uuid="{c11a3b7d-1e0c-4556-84fd-1ad22a4b7939}" lines="lmj sw900">
+			<part nodes="13281 13283 7 13310.lmj"/>
+		</blocksection>
+		<blocksection uuid="{e2580d67-21a6-4b63-8c65-f7501e11e0a0}" lines="lmj sw900">
+			<part nodes="13281 13283 7 13310.lmj"/>
+		</blocksection>
+	</blockSections>
+	<slipDistances>
+		<slipdistance uuid="{0f7d5c66-8a85-467a-bd82-9305cda7f233}" vmax="999" lines="sw900" serialNumber="0">
+			<part nodes="13281 13283 7"/>
+		</slipdistance>
+		<slipdistance uuid="{ada0ec27-802a-421b-bda1-992a268a47a9}" vmax="999" lines="sw900" serialNumber="0">
+			<part nodes="442 444 446 6"/>
+		</slipdistance>
+	</slipDistances>
+	<approachControlRoutes/>
+	<stationRoutes/>
+	<lineCatalog/>
+	<zugNummernFelder/>
+	<switchGears/>
+</line>

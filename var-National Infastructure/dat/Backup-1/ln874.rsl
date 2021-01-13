@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<line lineID="ln874" name="Whitwood Jn to Methley Jn" trafficRouting="on_the_left" type="local" dependentLines="meth whitw">
+	<version major="1" minor="2" patchlevel="0" comment=""/>
+	<creator user="Ahowe4" timestamp="2016-11-01T12:54:22"/>
+	<lasteditor user="Ahowe4" timestamp="2016-11-01T12:54:22"/>
+	<stations/>
+	<nodes>
+		<node nodeID="8" name="GRAD" description="Gradient; 0m 27.44ch" kilometre="0.552" x="5520" y="200" xNet="-484461.49" yNet="4912119.8"/>
+		<node nodeID="9" name="OL 960" description="OL for SIG : 960" kilometre="0.601" x="6010" y="200" xNet="-484881.51" yNet="4912371.4"/>
+		<node nodeID="10" name="GRAD" description="Gradient; 0m 40.01ch" kilometre="0.805" x="8050" y="200" xNet="-486629.86" yNet="4913422.2"/>
+		<node nodeID="11" name="GRAD" description="Gradient; 0m 47.47ch" kilometre="0.955" x="9550" y="200" xNet="-487915.4" yNet="4914195.3"/>
+		<node nodeID="12" name="1000MM" description="1000MM : 1" kilometre="1.000" x="10000" y="200" xNet="-488301.05" yNet="4914426.4"/>
+		<node nodeID="13" name="GRAD" description="Gradient; 0m 57.50ch" kilometre="1.157" x="11570" y="200" xNet="-492724.31" yNet="4917004.8"/>
+		<node nodeID="14" name="SD : 962" description="sighting distance for SIG : 962" kilometre="1.274" x="12740" y="200" xNet="-493727.38" yNet="4917608.3" referenceNode="13" sightingDistance="true"/>
+		<node nodeID="26" name="GRAD" description="Gradient; 0m 27.44ch" kilometre="0.552" x="5520" y="0" xNet="-484358.34" yNet="4912290.4"/>
+		<node nodeID="27" name="SD : 963" description="sighting distance for SIG : 963" kilometre="0.553" x="5530" y="0" xNet="-484366.71" yNet="4912295.9" referenceNode="28" sightingDistance="true"/>
+		<node nodeID="28" name="GRAD" description="Gradient; 0m 40.01ch" kilometre="0.805" x="8050" y="0" xNet="-486527.12" yNet="4913594.1"/>
+		<node nodeID="29" name="GRAD" description="Gradient; 0m 47.47ch" kilometre="0.955" x="9550" y="0" xNet="-487813.14" yNet="4914366.3"/>
+		<node nodeID="30" name="1000MM" description="1000MM : 1" kilometre="1.000" x="10000" y="0" xNet="-488198.31" yNet="4914598.3"/>
+		<node nodeID="31" name="GRAD" description="Gradient; 0m 57.50ch" kilometre="1.157" x="11570" y="0" xNet="-492621.61" yNet="4917176.6"/>
+		<node nodeID="32" name="OL 965" description="OL for SIG : 965" kilometre="1.211" x="12110" y="0" xNet="-493084.37" yNet="4917454.4"/>
+		<node nodeID="19" kilometre="1.338" x="13379.543" y="200" xNet="-494276.05" yNet="4917937.5"/>
+		<node nodeID="39" kilometre="1.337" x="13374.164" y="0" xNet="-494167.36" yNet="4918105.7"/>
+	</nodes>
+	<links>
+		<link source="8" target="9" length="49" vmax="48"/>
+		<link source="9" target="10" length="204" vmax="48"/>
+		<link source="10" target="11" length="150" gradient="3.0303" vmax="48"/>
+		<link source="11" target="12" length="45" gradient="0.360231" vmax="48"/>
+		<link source="12" target="13" length="157" gradient="0.360231" vmax="48"/>
+		<link source="13" target="14" length="117" gradient="23.2558" vmax="48"/>
+		<link source="14" target="19" length="64" gradient="23.2558" vmax="48"/>
+		<link source="19" target="15.meth" length="19" gradient="23.2558" vmax="48"/>
+		<link source="20.whitw" target="8" length="81" gradient="0.568182" vmax="48"/>
+		<link source="26" target="27" length="1" vmaxr="48"/>
+		<link source="27" target="28" length="252" vmaxr="48"/>
+		<link source="28" target="29" length="150" gradient="3.0303" vmaxr="48"/>
+		<link source="29" target="30" length="45" gradient="0.360231" vmaxr="48"/>
+		<link source="30" target="31" length="157" gradient="0.360231" vmaxr="48"/>
+		<link source="31" target="32" length="54" gradient="23.2558" vmaxr="48"/>
+		<link source="32" target="39" length="126" gradient="23.2558" vmaxr="48"/>
+		<link source="38.whitw" target="26" length="81" gradient="0.568182" vmaxr="48"/>
+		<link source="39" target="33.meth" length="20" gradient="23.2558" vmaxr="48"/>
+	</links>
+	<dependentLinks/>
+	<blockSections>
+		<blocksection uuid="{8802127a-882e-4764-a6a8-2f9e5e5cb50c}" lines="ln874 meth whitw">
+			<part nodes="33.meth 39 32 31 30 29 28 27 26 38.whitw"/>
+		</blocksection>
+		<blocksection uuid="{aeb26b93-d08b-490b-9683-d15ef039e528}" lines="ln874 meth whitw">
+			<part nodes="20.whitw 8 9 10 11 12 13 14 19 15.meth"/>
+		</blocksection>
+	</blockSections>
+	<slipDistances>
+		<slipdistance uuid="{9c774c92-c48d-4511-93d4-225fba5a0787}" vmax="999" lines="ln874 whitw" serialNumber="0">
+			<part nodes="20.whitw 8 9"/>
+		</slipdistance>
+		<slipdistance uuid="{f2de8ad9-95f0-493d-a40a-8df1a03983d2}" vmax="999" lines="ln874 meth" serialNumber="0">
+			<part nodes="33.meth 39 32"/>
+		</slipdistance>
+	</slipDistances>
+	<approachControlRoutes/>
+	<stationRoutes/>
+	<lineCatalog/>
+	<zugNummernFelder/>
+	<switchGears/>
+</line>

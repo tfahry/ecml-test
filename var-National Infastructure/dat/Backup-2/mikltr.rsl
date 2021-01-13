@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<line lineID="mikltr" name="Mickle Trafford Jn" trafficRouting="on_the_left" type="global" dependentLines="nw3003 nw3023">
+	<transformations>
+		<transformation line="nw3003" m11="-1" m12="4.06034e-07" m21="-4.06034e-07" m22="-1" dx="2.73299e+06" dy="-59887.6"/>
+		<transformation line="nw3023" m11="0.999391" m12="-0.0348993" m21="0.0348993" m22="0.999391" dx="-2.10915e+06" dy="163420"/>
+	</transformations>
+	<version major="1" minor="2" patchlevel="0" comment=""/>
+	<creator user="VWaddelo" timestamp="2016-07-08T10:58:15"/>
+	<lasteditor user="VWaddelo" timestamp="2016-07-08T10:58:15"/>
+	<stations>
+		<station stationID="MIKLTRFJ" name="Mickle Trafford Jn" xNet="-2085671.9" yNet="3958860.2" uicLocationCode="0" circleDiameter="0">
+			<textElement type="name">
+				<pos view="net" x="5799.67" y="5799.67" angle="0" system="source"/>
+				<pos view="wgs84" x="5799.67" y="5799.67" angle="0" system="source"/>
+				<pos view="line" x="9065.8" y="9065.8" angle="0" system="source"/>
+				<pos view="macro" x="28.2843" y="28.2843" angle="0" system="source"/>
+				<pos view="macroWgs84" x="0" y="0" angle="0" system="source"/>
+			</textElement>
+		</station>
+	</stations>
+	<nodes>
+		<node nodeID="6" kilometre="5.000" x="2686535.4" y="-60092.49" xNet="-2085557.9" yNet="3963667">
+			<netLimitInfo lineID="nw3003"/>
+		</node>
+		<node nodeID="27" kilometre="4.000" x="2700639.7" y="-60119.488" xNet="-2090979.7" yNet="3954878.5"/>
+		<node nodeID="33" kilometre="5.000" x="2686535.4" y="-59892.49" xNet="-2085386.9" yNet="3963563.5"/>
+		<node nodeID="55" kilometre="4.000" x="2700339.1" y="-59894.488" xNet="-2090811.3" yNet="3954768.6">
+			<netLimitInfo lineID="nw3003"/>
+		</node>
+		<track trackID="D-2" stationID="MIKLTRFJ" interlockingMachine="3 Aspect Pannel (Below 75mph)" nodeID="100" name="SIG:MT23" kilometre="3.912" x="2701439.7" y="-60119.488" xNet="-2091481.5" yNet="3954148" referenceNode="59"/>
+		<node nodeID="66" name="TC" kilometre="4.023" x="2696639.7" y="-60119.49" xNet="-2090857.7" yNet="3955070.2"/>
+		<node nodeID="69" name="OL:MT23" kilometre="4.094" x="2695595.4" y="-60092.49" xNet="-2090482.8" yNet="3955674.6"/>
+		<switch start="69" endOfMainTrack="673" endOfBranchTrack="21" nodeID="3" name="POINTS : 18B" kilometre="4.130" x="2695235.4" y="-60092.49" xNet="-2090291.1" yNet="3955979.6"/>
+		<switch start="17" endOfMainTrack="674" endOfBranchTrack="10" nodeID="8" name="POINTS : 18A" description="GEOGIS S&amp;C|CHW1|148056645|[512][4620]|" kilometre="4.225" x="2694288.3" y="-59892.49" xNet="-2089619.6" yNet="3956674.7"/>
+		<node nodeID="1" description="GEOGIS S&amp;C|CHW1|148054409|[512][4913]|" kilometre="4.492" x="2691617.3" y="-59892.49" xNet="-2088003.4" yNet="3959209"/>
+		<switch start="1" endOfMainTrack="7" endOfBranchTrack="11" nodeID="4" name="POINTS : 28A" description="GEOGIS S&amp;C|CHW1|148087848|[512][4937]|" kilometre="4.514" x="2691399.6" y="-59892.49" xNet="-2087892.3" yNet="3959395.2"/>
+		<switch start="14" endOfMainTrack="15" endOfBranchTrack="12" nodeID="9" name="POINTS : 28B" description="GEOGIS S&amp;C|CHW1|148059398|[508][4999]|" kilometre="4.571" x="2690825.4" y="-60092.49" xNet="-2087767.4" yNet="3959991.5"/>
+		<speedIndicator nodeID="21" name="SPEED" kilometre="4.131" x="2695225.4" y="-60090.384" xNet="-2090284.4" yNet="3955984.4" referenceNode="3"/>
+		<speedIndicator nodeID="10" name="SPEED" kilometre="4.224" x="2694298.3" y="-59894.595" xNet="-2089626.5" yNet="3956667.6" referenceNode="76"/>
+		<speedIndicator nodeID="11" name="SPEED" kilometre="4.515" x="2691389.5" y="-59895.998" xNet="-2087891.8" yNet="3959404.1" referenceNode="4"/>
+		<speedIndicator nodeID="12" name="SPEED" kilometre="4.570" x="2690835.4" y="-60088.981" xNet="-2087770.3" yNet="3959980.4" referenceNode="2"/>
+		<track trackID="T-2" stationID="MIKLTRFJ" type="timingPoint" nodeID="15" description="Mickle Trafford Signal Box" kilometre="4.406" x="2692475.4" y="-60092.49" xNet="-2088829.3" yNet="3958319.6" referenceNode="9"/>
+		<track trackID="T-1" stationID="MIKLTRFJ" type="timingPoint" nodeID="16" description="Mickle Trafford Signal Box" kilometre="4.406" x="2692477.6" y="-59892.49" xNet="-2088660.8" yNet="3958209.7" referenceNode="1"/>
+		<node nodeID="75" name="tc" description="release contact for track circuit" kilometre="4.179" x="2694750.8" y="-59990.152" xNet="-2089949" yNet="3956336.7" referenceNode="21" releaseContact="true" arranged="true"/>
+		<node nodeID="76" name="tc" description="release contact for track circuit" kilometre="4.180" x="2694740.7" y="-59988.028" xNet="-2089942.3" yNet="3956341.6" referenceNode="10" releaseContact="true" arranged="true"/>
+		<node nodeID="2" kilometre="4.543" x="2691101.9" y="-59996.17" xNet="-2087827.9" yNet="3959704" referenceNode="12" releaseContact="true" arranged="true"/>
+		<node nodeID="5" kilometre="4.542" x="2691111.8" y="-59992.716" xNet="-2087828.9" yNet="3959693.8" referenceNode="11" releaseContact="true" arranged="true"/>
+		<node nodeID="7" name="OL:6" kilometre="4.577" x="2690769.5" y="-59892.49" xNet="-2087569.3" yNet="3959934.3"/>
+		<node nodeID="82" name="TC" kilometre="4.991" x="2686625.4" y="-59892.49" xNet="-2085432.4" yNet="3963486.6"/>
+		<track trackID="U-1" stationID="MIKLTRFJ" interlockingMachine="3 Aspect Pannel (76mph - 100mph)" nodeID="102" name="SIG:MT6" kilometre="5.007" x="2686465.4" y="-59892.49" xNet="-2085351.2" yNet="3963625.4" referenceNode="71"/>
+		<stationBorder exitType="regular" stationID="MIKLTRFJ" lineID="nw3003" trackNumber="1" nodeID="13" name="[CHSTREJ] - [n3003/1]" kilometre="4.104" x="2695498.7" y="-59892.49" xNet="-2090261" yNet="3955648.7" referenceNode="674"/>
+		<stationBorder exitType="regular" stationID="MIKLTRFJ" lineID="nw3003" trackNumber="1" nodeID="14" name="[HELSBY] - [n3003/1]" kilometre="4.588" x="2690655.4" y="-60092.49" xNet="-2087680.9" yNet="3960135.7" referenceNode="9"/>
+		<stationBorder exitType="alternative" stationID="MIKLTRFJ" lineID="nw3003" trackNumber="2" nodeID="59" name="[CHSTREJ] - [n3003/2]" kilometre="3.842" x="2701997.1" y="-60119.487" xNet="-2091907.5" yNet="3953532" referenceNode="100">
+			<netLimitInfo lineID="nw3003"/>
+		</stationBorder>
+		<stationBorder exitType="alternative" stationID="MIKLTRFJ" lineID="nw3003" trackNumber="2" nodeID="71" name="[HELSBY] - [n3003/2]" kilometre="5.073" x="2685808.4" y="-59892.49" xNet="-2085012.2" yNet="3964188.4" referenceNode="102">
+			<netLimitInfo lineID="nw3003"/>
+		</stationBorder>
+		<node nodeID="313" kilometre="4.251" x="2684785.4" y="-59692.49" xNet="-2087403.9" yNet="3958400"/>
+		<speedIndicator change="head" nodeID="504" name="SPEED" description="Speed; 35m 23.06ch" kilometre="56.791" x="2680945.4" y="-59692.49" xNet="-2083773.1" yNet="3959650.2" referenceNode="672"/>
+		<speedIndicator change="head" nodeID="509" name="SPEED" description="Speed; 35m 23.01ch" kilometre="56.790" x="2680935.4" y="-59692.49" xNet="-2083763.7" yNet="3959653.4" referenceNode="316"/>
+		<node nodeID="316" name="GRAD; grad_con no data available" description="Gradient; 35m 15.50ch; grad_con no data available" kilometre="56.639" x="2679425.4" y="-59692.49" xNet="-2082335.9" yNet="3960145"/>
+		<crossing type="kr" startOfMainTrack="317" startOfBranchTrack="460" endOfMainTrack="316" endOfBranchTrack="446" nodeID="135" name="FD : " description="FD : ; 35m 12.87ch" kilometre="56.586" x="2678895.4" y="-59692.49" xNet="-2081834.8" yNet="3960317.6"/>
+		<node nodeID="317" name="OL 1" description="OL for SIG : 1" kilometre="56.541" x="2678445.4" y="-59692.49" xNet="-2081409.3" yNet="3960464.1"/>
+		<node nodeID="446" kilometre="56.587" x="2678905.4" y="-59682.49" xNet="-2081841" yNet="3960304.9"/>
+		<node nodeID="460" kilometre="56.587" x="2678885.4" y="-59702.49" xNet="-2081828.6" yNet="3960330.3"/>
+		<kilometreInconsistency newKilometre="4.275" nodeID="666" kilometre="57.151" x="2684545.4" y="-59692.49" xNet="-2087177" yNet="3958478.1" referenceNode="672"/>
+		<switch start="8" endOfMainTrack="16" endOfBranchTrack="668" nodeID="17" name="POINTS : 15" description="GEOGIS S&amp;C|CHW1|148060621|[512][4644]|" kilometre="4.246" x="2694078.2" y="-59892.49" xNet="-2089508.9" yNet="3956854.3"/>
+		<track trackID="D-4" stationID="MIKLTRFJ" interlockingMachine="3 Aspect Pannel (Below 75mph)" nodeID="539" name="SIG : 1" description="Signal 1; 35m 1.69ch" kilometre="56.361" x="2676645.4" y="-59692.49" xNet="-2079707.4" yNet="3961050.1" referenceNode="667"/>
+		<stationBorder exitType="regular" stationID="MIKLTRFJ" lineID="nw3023" trackNumber="1" nodeID="667" kilometre="56.332" x="2676358.7" y="-59692.49" xNet="-2079436.3" yNet="3961143.4" referenceNode="539">
+			<netLimitInfo lineID="nw3023"/>
+		</stationBorder>
+		<speedIndicator nodeID="668" kilometre="4.247" x="2692219.6" y="-59852.49" xNet="-2089087.9" yNet="3957163.4" referenceNode="313"/>
+		<node nodeID="672" name="tc" description="release contact for track circuit" kilometre="57.140" x="2684435.4" y="-59692.49" xNet="-2087073" yNet="3958513.9" referenceNode="504" releaseContact="true" arranged="true"/>
+		<node nodeID="673" name="tc" description="release contact for track circuit" kilometre="4.170" x="2694835.4" y="-60092.49" xNet="-2090079.2" yNet="3956318.7" referenceNode="15" releaseContact="true" arranged="true"/>
+		<node nodeID="674" name="tc" description="release contact for track circuit" kilometre="4.185" x="2694688.4" y="-59892.49" xNet="-2089831.6" yNet="3956335.5" referenceNode="13" releaseContact="true" arranged="true"/>
+	</nodes>
+	<links>
+		<link source="1" target="4" length="22" gradient="-7.58" vmax="121" vmaxr="121" radius="1100"/>
+		<link source="2" target="12" length="26" gradient="-7.58" vmax="24" radius="3700"/>
+		<link source="3" target="21" length="1" gradient="-7.58" vmax="121" radius="3700"/>
+		<link source="3" target="673" length="40" gradient="-7.58" vmax="121" radius="2100"/>
+		<link source="4" target="7" length="63" gradient="-7.58" vmaxr="121" radius="1100"/>
+		<link source="4" target="11" length="1" gradient="-7.58" vmax="121" radius="3700"/>
+		<link source="5" target="2" length="1" gradient="-7.58" vmax="24" radius="3700"/>
+		<link source="7" target="82" length="414" gradient="-7.58" vmaxr="121" radius="1100"/>
+		<link source="8" target="17" length="21" gradient="-7.58" vmax="121" vmaxr="121" radius="1100"/>
+		<link source="9" target="14" length="17" gradient="-7.58" vmax="121" radius="2100"/>
+		<link source="10" target="8" length="1" gradient="-7.58" vmax="121" radius="3700"/>
+		<link source="11" target="5" length="28" gradient="-7.58" vmax="24" radius="3700"/>
+		<link source="12" target="9" length="1" gradient="-7.58" vmax="121" radius="3700"/>
+		<link source="13" target="674" length="81" gradient="-7.58" vmaxr="121" radius="1100"/>
+		<link source="14" target="6" length="412" gradient="-7.58" vmax="121" radius="2100"/>
+		<link source="15" target="9" length="165" gradient="-7.58" vmax="121" radius="2100"/>
+		<link source="16" target="1" length="86" gradient="-7.58" vmax="121" vmaxr="121" radius="1100"/>
+		<link source="17" target="16" length="160" gradient="-7.58" vmax="121" vmaxr="121" radius="1100"/>
+		<link source="17" target="668" length="1" gradient="-7.58" vmax="121" vmaxr="121"/>
+		<link source="21" target="75" length="48" gradient="-7.58" vmax="56" radius="3700"/>
+		<link source="27" target="66" length="23" gradient="-7.58" vmax="121" radius="2100"/>
+		<link source="33" target="102" length="7" gradient="-7.58" vmaxr="121" radius="1100"/>
+		<link source="55" target="13" length="104" gradient="-7.58" vmaxr="121" radius="1100"/>
+		<link source="59" target="100" length="70" gradient="-7.58" vmax="121" radius="2100"/>
+		<link source="66" target="69" length="71" gradient="-7.58" vmax="121" radius="2100"/>
+		<link source="69" target="3" length="36" gradient="-7.58" vmax="121" radius="2100"/>
+		<link source="75" target="76" length="1" gradient="-7.58" vmax="56" radius="3700"/>
+		<link source="76" target="10" length="44" gradient="-7.58" vmax="56" radius="3700"/>
+		<link source="82" target="33" length="9" gradient="-7.58" vmaxr="121" radius="1100"/>
+		<link source="100" target="27" length="88" gradient="-7.58" vmax="121" radius="2100"/>
+		<link source="102" target="71" length="66" gradient="-7.58" vmaxr="121" radius="1100"/>
+		<link source="135" target="317" length="45" gradient="-13.3333" vmax="97" vmaxr="97" bidirectional="true">
+			<vzg index="1" vmax="40" vmaxr="40"/>
+		</link>
+		<link source="135" target="460" length="1" gradient="-13.3333" vmax="97" vmaxr="97">
+			<vzg index="1" vmax="40" vmaxr="40"/>
+		</link>
+		<link source="313" target="666" length="24" vmax="56" vmaxr="56"/>
+		<link source="316" target="135" length="53" gradient="-13.3333" vmax="97" vmaxr="97">
+			<vzg index="1" vmax="40" vmaxr="40"/>
+		</link>
+		<link source="317" target="539" length="180" gradient="-13.3333" vmax="97" vmaxr="97" bidirectional="true">
+			<vzg index="1" vmax="40" vmaxr="40"/>
+		</link>
+		<link source="446" target="135" length="1" gradient="-13.3333" vmax="97" vmaxr="97">
+			<vzg index="1" vmax="40" vmaxr="40"/>
+		</link>
+		<link source="504" target="509" length="1" vmax="97" vmaxr="56">
+			<vzg index="1" vmax="40"/>
+		</link>
+		<link source="509" target="316" length="151" vmax="97" vmaxr="97">
+			<vzg index="1" vmax="40" vmaxr="40"/>
+		</link>
+		<link source="539" target="667" length="29" gradient="-13.3333" vmax="97" vmaxr="97" bidirectional="true">
+			<vzg index="1" vmax="40" vmaxr="40"/>
+		</link>
+		<link source="666" target="672" length="11" vmax="56" vmaxr="56"/>
+		<link source="668" target="313" length="4" vmax="56" vmaxr="56"/>
+		<link source="672" target="504" length="349" vmax="56" vmaxr="56"/>
+		<link source="673" target="15" length="236" gradient="-7.58" vmax="121" radius="2100"/>
+		<link source="674" target="8" length="40" gradient="-7.58" vmaxr="121" radius="1100"/>
+	</links>
+	<dependentLinks/>
+	<blockSections>
+		<blocksection uuid="{0e216f0d-b5be-468e-a1b8-281911201e0b}" lines="mikltr nw3003">
+			<part nodes="100 27 66 69 3 673 15 9 14 6"/>
+		</blocksection>
+		<blocksection uuid="{2ca9d0b6-8e1f-41ea-848e-5442246d4aa2}" lines="mikltr nw3023">
+			<part nodes="667 539"/>
+		</blocksection>
+		<blocksection uuid="{317d661d-7d1a-4704-abc5-e7874434195e}" lines="mikltr nw3023" speedIndicators="21 504">
+			<part nodes="100 27 66 69 3 21 75 76 10 8 17 668 313 666 672 504 509 316 135 317 539 667"/>
+		</blocksection>
+		<blocksection uuid="{3bd5064c-b180-4d7e-8855-556d11d2c8dd}" lines="mikltr nw3003">
+			<part nodes="102 33 82 7 4 1 16 17 8 674 13 55"/>
+		</blocksection>
+		<blocksection uuid="{3bf59d3d-dac1-41e2-9048-33e060a16988}" lines="mikltr nw3003">
+			<part nodes="59 100"/>
+		</blocksection>
+		<blocksection uuid="{bfa6ec14-0deb-40e5-8511-18bd9c9d80e5}" lines="hels mikltr nw3003">
+			<part nodes="71 102"/>
+		</blocksection>
+		<blocksection uuid="{e6e8a5f8-39b9-4d08-86c1-e71f65cbedd6}" lines="mikltr nw3003" speedIndicators="509 668">
+			<part nodes="539 317 135 316 509 504 672 666 313 668 17 8 674 13 55"/>
+		</blocksection>
+	</blockSections>
+	<slipDistances>
+		<slipdistance uuid="{370d495c-9739-45ed-827a-5af9c9e121ca}" publicName="OL 1" description="OL for SIG : 1" vmax="999" lines="mikltr" serialNumber="0">
+			<part nodes="539 317"/>
+		</slipdistance>
+		<slipdistance uuid="{461fb6f2-6322-49f9-80af-cac334507bbd}" vmax="999" lines="mikltr" serialNumber="0">
+			<part nodes="100 27 66 69"/>
+		</slipdistance>
+		<slipdistance uuid="{def1e107-602f-4910-983d-adf01691d650}" vmax="999" lines="mikltr" serialNumber="0">
+			<part nodes="102 33 82 7"/>
+		</slipdistance>
+	</slipDistances>
+	<approachControlRoutes/>
+	<stationRoutes>
+		<stationRoute stationID="MIKLTRFJ" name="[CHSTREJ]-[n3003/2]-[2-23]-[HELSBY]-[n3003/1] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="59 100 27 66 69 3 673 15 9 14"/>
+		<stationRoute stationID="MIKLTRFJ" name="[CHSTREJ]-[nw3003/2]-[2]-[MLDSWTH]-[nw3023/1] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=85;NRz=85;S=85;Rz=85;FGz=85;NGz=85;Gz=85;Lz=85;Unbekannt=85" nodes="59 100 27 66 69 3 21 75 76 10 8 17 668 313 666 672 504 509 316 135 317 539 667"/>
+		<stationRoute stationID="MIKLTRFJ" name="[HELSBY]-[n3003/2]-[1-6]-[CHSTREJ]-[n3003/1] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="71 102 33 82 7 4 1 16 17 8 674 13"/>
+		<stationRoute stationID="MIKLTRFJ" name="[MLDSWTH]-[nw3023/1]-[4]-[CHSTREJ]-[nw3003/1] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=95;NRz=95;S=95;Rz=95;FGz=95;NGz=95;Gz=95;Lz=95;Unbekannt=95" nodes="667 539 317 135 316 509 504 672 666 313 668 17 8 674 13"/>
+	</stationRoutes>
+	<lineCatalog/>
+	<zugNummernFelder/>
+	<switchGears/>
+</line>

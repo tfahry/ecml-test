@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<line lineID="krkby" name="Kirkby in Ashfield" trafficRouting="on_the_left" type="global" dependentLines="md255 md273">
+	<transformations>
+		<transformation line="md255" m11="1" m12="0" m21="0" m22="1" dx="112.267" dy="4.66203"/>
+		<transformation line="md273" m11="-1" m12="1.22461e-16" m21="-1.22461e-16" m22="-1" dx="1.28687e+06" dy="-10032"/>
+	</transformations>
+	<version major="1" minor="2" patchlevel="0" comment=""/>
+	<creator user="Ahowe4" timestamp="2016-11-01T12:54:22"/>
+	<lasteditor user="Ahowe4" timestamp="2016-11-01T12:54:22"/>
+	<stations>
+		<station stationID="KRKYCEN" name="Kirkby in Ashfield" xNet="-346309.565" yNet="3665438.8" kilometre="222.85" uicLocationCode="0" circleDiameter="0">
+			<textElement type="name">
+				<pos view="net" x="410.679" y="410.679" angle="0" system="source"/>
+				<pos view="wgs84" x="410.679" y="410.679" angle="0" system="source"/>
+				<pos view="line" x="410.809" y="410.809" angle="0" system="source"/>
+				<pos view="macro" x="28.2843" y="28.2843" angle="0" system="source"/>
+				<pos view="macroWgs84" x="0" y="0" angle="0" system="source"/>
+			</textElement>
+		</station>
+		<station stationID="KRKYLEJ" name="Kirkby Lane End Jn" xNet="-348887.145" yNet="3662493.5" kilometre="222.71" uicLocationCode="0" circleDiameter="0">
+			<textElement type="name">
+				<pos view="net" x="1998.65" y="1998.65" angle="0" system="source"/>
+				<pos view="wgs84" x="1998.65" y="1998.65" angle="0" system="source"/>
+				<pos view="line" x="1897.71" y="1897.71" angle="0" system="source"/>
+				<pos view="macro" x="28.2843" y="28.2843" angle="0" system="source"/>
+				<pos view="macroWgs84" x="0" y="0" angle="0" system="source"/>
+			</textElement>
+		</station>
+	</stations>
+	<nodes>
+		<node nodeID="1016" kilometre="223.000" x="895589" y="-8841" xNet="-345143.71" yNet="3666117.4">
+			<netLimitInfo lineID="md273"/>
+		</node>
+		<node nodeID="941" kilometre="223.000" x="895589" y="-8641" xNet="-345055.92" yNet="3665937.1">
+			<netLimitInfo lineID="md273"/>
+		</node>
+		<track trackID="D-1" stationID="KRKYLEJ" interlockingMachine="3 Aspect Pannel (Below 75mph)" nodeID="1030" name="SIG:KS101" description="3 Aspect" kilometre="222.450" x="901089" y="-8841" xNet="-350087.59" yNet="3663706.6" referenceNode="180"/>
+		<node nodeID="1031" name="OL" kilometre="222.630" x="899289" y="-8842" xNet="-348470.74" yNet="3664496.3"/>
+		<switch start="973" endOfMainTrack="969" endOfBranchTrack="1048" nodeID="965" kilometre="222.725" x="898339" y="-8641" xNet="-347526.93" yNet="3664732.8"/>
+		<switch start="1034" endOfMainTrack="1031" endOfBranchTrack="969" nodeID="1032" kilometre="222.725" x="898336" y="-8841" xNet="-347615.79" yNet="3664914"/>
+		<switch start="969" endOfMainTrack="963" endOfBranchTrack="1050" nodeID="964" kilometre="222.660" x="898989" y="-8642" xNet="-348112.65" yNet="3664450.2"/>
+		<switch start="964" endOfMainTrack="965" endOfBranchTrack="1032" nodeID="969" kilometre="222.665" x="898939" y="-8642" xNet="-348067.87" yNet="3664469.4"/>
+		<speedIndicator nodeID="971" name="SPEED" kilometre="220.075" x="900188" y="-8241" xNet="-348800.72" yNet="3663567.1" referenceNode="1050"/>
+		<speedIndicator nodeID="972" name="SPEED" kilometre="220.075" x="900189" y="-8041" xNet="-348626.96" yNet="3663461.9" referenceNode="1052"/>
+		<track trackID="U-2" stationID="KRKYCEN" interlockingMachine="3 Aspect Pannel (Below 75mph)" nodeID="970" name="SIG:KS102" kilometre="222.840" x="897191" y="-8641" xNet="-346496.51" yNet="3665235.9" referenceNode="72">
+			<platform startPos="-800" endPos="0" width="100" left="true" open="true"/>
+		</track>
+		<track trackID="D-1" stationID="KRKYCEN" type="stopBoard" nodeID="1033" kilometre="222.920" x="896392" y="-8841" xNet="-345866.96" yNet="3665766.1" referenceNode="155">
+			<platform startPos="-800" endPos="0" width="100" left="true" open="true"/>
+		</track>
+		<track trackID="T-1" stationID="KRKYLEJ" type="timingPoint" nodeID="1034" kilometre="222.730" x="898290" y="-8841" xNet="-347572.01" yNet="3664933.1" referenceNode="1032"/>
+		<track trackID="T-2" stationID="KRKYLEJ" type="timingPoint" nodeID="973" kilometre="222.730" x="898290" y="-8641" xNet="-347484.29" yNet="3664753.8" referenceNode="965"/>
+		<kilometreInconsistency newKilometre="220.185" nodeID="1049" kilometre="222.650" x="899090" y="-8397" xNet="-348098.01" yNet="3664183.6" referenceNode="1048"/>
+		<kilometreInconsistency newKilometre="220.185" nodeID="1050" kilometre="222.650" x="899166" y="-8583" xNet="-348243.65" yNet="3664316.7" referenceNode="964"/>
+		<node nodeID="1051" kilometre="220.000" x="900888" y="-8242" xNet="-348900.77" yNet="3662646.8"/>
+		<node nodeID="1052" kilometre="220.000" x="900889" y="-8042" xNet="-348707.46" yNet="3662706.5"/>
+		<node nodeID="1057" name="OL" kilometre="219.920" x="901689" y="-8242" xNet="-348666.01" yNet="3661884.4"/>
+		<track trackID="D-3" stationID="KRKYLEJ" interlockingMachine="3 Aspect Pannel (Below 75mph)" nodeID="1058" name="SIG:KS153" description="3 Aspect" kilometre="219.740" x="903489" y="-8242" xNet="-348141.57" yNet="3660161.7" referenceNode="183"/>
+		<node nodeID="1068" kilometre="219.700" x="903889" y="-8242" xNet="-348024.65" yNet="3659780">
+			<netLimitInfo lineID="md255"/>
+		</node>
+		<node nodeID="1069" kilometre="219.700" x="903888" y="-8042" xNet="-347831.13" yNet="3659836.6">
+			<netLimitInfo lineID="md255"/>
+		</node>
+		<speedIndicator nodeID="1078" name="SPEED" kilometre="222.735" x="898240" y="-8841" xNet="-347526.45" yNet="3664955.3" referenceNode="181"/>
+		<speedIndicator nodeID="1079" name="SPEED" kilometre="222.735" x="898243" y="-8641" xNet="-347440.73" yNet="3664775.9" referenceNode="57"/>
+		<node nodeID="1100" name="GRAD" kilometre="222.230" x="903288" y="-8842" xNet="-352064.14" yNet="3662742.4">
+			<netLimitInfo lineID="md273"/>
+		</node>
+		<node nodeID="1101" name="GRAD" kilometre="222.230" x="903289" y="-8642" xNet="-351977.49" yNet="3662564">
+			<netLimitInfo lineID="md273"/>
+		</node>
+		<node nodeID="1070" name="GRAD" kilometre="222.470" x="900889" y="-8842" xNet="-349906.34" yNet="3663795.5"/>
+		<node nodeID="1102" name="GRAD" kilometre="222.470" x="900893" y="-8642" xNet="-349824.54" yNet="3663614.8"/>
+		<node nodeID="1071" name="GRAD" kilometre="222.930" x="896292" y="-8841" xNet="-345774.92" yNet="3665811.6"/>
+		<node nodeID="1103" name="GRAD" kilometre="222.930" x="896292" y="-8641" xNet="-345689.12" yNet="3665631.1"/>
+		<node nodeID="1209" kilometre="222.370" x="901889" y="-8841" xNet="-350805.86" yNet="3663355.7" referenceNode="1100" sightingDistance="true"/>
+		<node nodeID="1212" kilometre="222.965" x="895941" y="-8641" xNet="-345372.12" yNet="3665785.6" referenceNode="941" sightingDistance="true"/>
+		<stationBorder exitType="regular" stationID="KRKYCEN" lineID="md255" trackNumber="1" nodeID="57" name="[KRKYLEJ] - [md255/1]" kilometre="222.809" x="897506.6" y="-8641" xNet="-346779.78" yNet="3665097.9" referenceNode="970"/>
+		<stationBorder exitType="alternative" stationID="KRKYCEN" lineID="md273" trackNumber="2" nodeID="72" name="[STTNPWY] - [md273/2]" kilometre="222.867" x="896921.3" y="-8641" xNet="-346254.3" yNet="3665354.4" referenceNode="970"/>
+		<stationBorder exitType="alternative" stationID="KRKYCEN" lineID="md255" trackNumber="2" nodeID="155" name="[KRKYLEJ] - [md255/2]" kilometre="222.865" x="896946.4" y="-8841" xNet="-346364.81" yNet="3665522.8" referenceNode="1033"/>
+		<stationBorder exitType="regular" stationID="KRKYCEN" lineID="md273" trackNumber="1" nodeID="156" name="[STTNPWY] - [md273/1]" kilometre="222.923" x="896362" y="-8841" xNet="-345839.35" yNet="3665779.7" referenceNode="1033"/>
+		<stationBorder exitType="alternative" stationID="KRKYLEJ" lineID="md273" trackNumber="1" nodeID="180" name="[PINXTON] - [md273/1]" kilometre="222.426" x="901329" y="-8841" xNet="-350303.07" yNet="3663601.3" referenceNode="1030"/>
+		<stationBorder exitType="regular" stationID="KRKYLEJ" lineID="md255" trackNumber="2" nodeID="181" name="[KRKYCEN] - [md255/2]" kilometre="222.731" x="898275" y="-8841" xNet="-347558.35" yNet="3664939.8" referenceNode="1034"/>
+		<stationBorder exitType="alternative" stationID="KRKYLEJ" lineID="md255" trackNumber="1" nodeID="182" name="[KRKYCEN] - [md255/1]" kilometre="222.731" x="898275.9" y="-8641" xNet="-347471.22" yNet="3664760.4" referenceNode="973"/>
+		<stationBorder exitType="alternative" stationID="KRKYLEJ" lineID="md255" trackNumber="2" nodeID="183" name="[LINDLA] - [md255/2]" kilometre="219.728" x="903609" y="-8242" xNet="-348106.49" yNet="3660047.2" referenceNode="1058"/>
+		<stationBorder exitType="regular" stationID="KRKYLEJ" lineID="md273" trackNumber="2" nodeID="963" name="[PINXTON] - [md273/2]" kilometre="222.610" x="899489" y="-8641" xNet="-348560.2" yNet="3664227.4" referenceNode="964"/>
+		<stationBorder exitType="regular" stationID="KRKYLEJ" lineID="md255" trackNumber="1" nodeID="1048" name="[LINDLA] - [md255/1]" kilometre="222.660" x="898989" y="-8430" xNet="-348020.03" yNet="3664258.2" referenceNode="965"/>
+	</nodes>
+	<links>
+		<link source="57" target="970" length="31" gradient="12.658" vmax="64" vmaxr="64"/>
+		<link source="72" target="1103" length="63" gradient="12.658" vmax="64" vmaxr="64"/>
+		<link source="155" target="1033" length="55" gradient="12.658" vmax="64" vmaxr="64"/>
+		<link source="156" target="1071" length="7" gradient="12.658" vmax="64" vmaxr="64"/>
+		<link source="180" target="1030" length="24" gradient="17.857" vmax="32" vmaxr="32"/>
+		<link source="181" target="1078" length="3" gradient="12.658" vmax="32" vmaxr="32">
+			<vzg index="3" vmax="48" vmaxr="48"/>
+		</link>
+		<link source="182" target="1079" length="3" gradient="12.658" vmax="32" vmaxr="32">
+			<vzg index="3" vmax="48" vmaxr="48"/>
+		</link>
+		<link source="183" target="1058" length="12" gradient="12.658" vmax="32" vmaxr="32">
+			<vzg index="3" vmax="64" vmaxr="64"/>
+		</link>
+		<link source="963" target="964" length="50" gradient="12.658" vmax="32" vmaxr="32"/>
+		<link source="964" target="969" length="5" gradient="12.658" vmax="32" vmaxr="32">
+			<vzg index="3" vmax="48" vmaxr="48"/>
+		</link>
+		<link source="965" target="973" length="5" gradient="12.658" vmax="32" vmaxr="32">
+			<vzg index="3" vmax="48" vmaxr="48"/>
+		</link>
+		<link source="969" target="965" length="60" gradient="12.658" vmax="32" vmaxr="32"/>
+		<link source="969" target="1032" length="58" gradient="12.658" vmax="32" vmaxr="32">
+			<vzg index="3" vmax="48" vmaxr="48"/>
+		</link>
+		<link source="970" target="72" length="27" gradient="12.658" vmax="64" vmaxr="64"/>
+		<link source="971" target="1050" length="100" gradient="12.658" vmax="32" vmaxr="32">
+			<vzg index="3" vmax="48" vmaxr="48"/>
+		</link>
+		<link source="972" target="1049" length="110" gradient="12.658" vmax="32" vmaxr="32">
+			<vzg index="3" vmax="48" vmaxr="48"/>
+		</link>
+		<link source="973" target="182" length="2" gradient="12.658" vmax="32" vmaxr="32">
+			<vzg index="3" vmax="48" vmaxr="48"/>
+		</link>
+		<link source="1030" target="1070" length="20" gradient="17.857" vmax="32" vmaxr="32"/>
+		<link source="1031" target="1032" length="95" gradient="12.658" vmax="32" vmaxr="32"/>
+		<link source="1032" target="1034" length="5" gradient="12.658" vmax="32" vmaxr="32">
+			<vzg index="3" vmax="48" vmaxr="48"/>
+		</link>
+		<link source="1033" target="156" length="3" gradient="12.658" vmax="64" vmaxr="64"/>
+		<link source="1034" target="181" length="2" gradient="12.658" vmax="32" vmaxr="32">
+			<vzg index="3" vmax="48" vmaxr="48"/>
+		</link>
+		<link source="1048" target="965" length="65" gradient="12.658" vmax="32" vmaxr="32">
+			<vzg index="3" vmax="48" vmaxr="48"/>
+		</link>
+		<link source="1049" target="1048" length="10" gradient="12.658" vmax="32" vmaxr="32">
+			<vzg index="3" vmax="48" vmaxr="48"/>
+		</link>
+		<link source="1050" target="964" length="20" gradient="12.658" vmax="32" vmaxr="32">
+			<vzg index="3" vmax="48" vmaxr="48"/>
+		</link>
+		<link source="1051" target="971" length="75" gradient="12.658" vmax="32" vmaxr="32">
+			<vzg index="3" vmax="64" vmaxr="64"/>
+		</link>
+		<link source="1052" target="972" length="75" gradient="12.658" vmax="32" vmaxr="32">
+			<vzg index="3" vmax="64" vmaxr="64"/>
+		</link>
+		<link source="1057" target="1051" length="80" gradient="12.658" vmax="32" vmaxr="32">
+			<vzg index="3" vmax="64" vmaxr="64"/>
+		</link>
+		<link source="1058" target="1057" length="180" gradient="12.658" vmax="32" vmaxr="32">
+			<vzg index="3" vmax="64" vmaxr="64"/>
+		</link>
+		<link source="1068" target="183" length="28" gradient="12.658" vmax="32" vmaxr="32">
+			<vzg index="3" vmax="64" vmaxr="64"/>
+		</link>
+		<link source="1069" target="1052" length="300" gradient="12.658" vmax="32" vmaxr="32">
+			<vzg index="3" vmax="64" vmaxr="64"/>
+		</link>
+		<link source="1070" target="1031" length="160" gradient="12.658" vmax="32" vmaxr="32"/>
+		<link source="1071" target="1016" length="70" gradient="9.615" vmax="64" vmaxr="64"/>
+		<link source="1078" target="155" length="130" gradient="12.658" vmax="64" vmaxr="64"/>
+		<link source="1079" target="57" length="74" gradient="12.658" vmax="64" vmaxr="64"/>
+		<link source="1100" target="1209" length="140" gradient="17.857" vmax="32" vmaxr="32"/>
+		<link source="1101" target="1102" length="240" gradient="17.857" vmax="32" vmaxr="32"/>
+		<link source="1102" target="963" length="140" gradient="12.658" vmax="32" vmaxr="32"/>
+		<link source="1103" target="1212" length="35" gradient="9.615" vmax="64" vmaxr="64"/>
+		<link source="1209" target="180" length="56" gradient="17.857" vmax="32" vmaxr="32"/>
+		<link source="1212" target="941" length="35" gradient="9.615" vmax="64" vmaxr="64"/>
+	</links>
+	<dependentLinks/>
+	<blockSections>
+		<blocksection uuid="{04058786-9d40-4868-9041-8ac6b41e0245}" lines="krkby md255" speedIndicators="972 1079">
+			<part nodes="970 57 1079 182 973 965 1048 1049 972 1052 1069"/>
+		</blocksection>
+		<blocksection uuid="{39d80319-6819-4cb1-b545-50538b4d9ff5}" lines="krkby md273" speedIndicators="1079">
+			<part nodes="970 57 1079 182 973 965 969 964 963 1102 1101"/>
+		</blocksection>
+		<blocksection uuid="{8988c3c0-d4bf-4fe7-bbca-e2eba0bbce73}" lines="krkby md273">
+			<part nodes="1100 1209 180 1030"/>
+		</blocksection>
+		<blocksection uuid="{968025c0-2820-4cb2-b527-eb98640518ff}" lines="krkby md255">
+			<part nodes="1068 183 1058"/>
+		</blocksection>
+		<blocksection uuid="{982c859b-6dd9-459a-9f8b-507b301561b2}" lines="krkby md273">
+			<part nodes="941 1212 1103 72 970"/>
+		</blocksection>
+		<blocksection uuid="{dbf047c3-9784-45bf-832f-3cd2649c97b6}" lines="krkby md273" speedIndicators="1078">
+			<part nodes="1030 1070 1031 1032 1034 181 1078 155 1033 156 1071 1016"/>
+		</blocksection>
+		<blocksection uuid="{e44fc9d0-3bd8-43d4-84d4-bbaf1ab0ea20}" lines="krkby md273" speedIndicators="971 1078">
+			<part nodes="1058 1057 1051 971 1050 964 969 1032 1034 181 1078 155 1033 156 1071 1016"/>
+		</blocksection>
+	</blockSections>
+	<slipDistances>
+		<slipdistance uuid="{0a28dee0-56b8-45c3-a1ba-3bfd718011bc}" vmax="999" lines="krkby" serialNumber="0">
+			<part nodes="1058 1057"/>
+		</slipdistance>
+		<slipdistance uuid="{8b6be765-a355-41e3-b009-c29bbf13e827}" vmax="999" lines="krkby" serialNumber="0">
+			<part nodes="1030 1070 1031"/>
+		</slipdistance>
+		<slipdistance uuid="{8fdce904-7f1d-47ca-b1f3-0020c59b6b40}" vmax="999" lines="krkby" serialNumber="0">
+			<part nodes="970 57 1079 182 973 965 1048"/>
+		</slipdistance>
+		<slipdistance uuid="{e01bc3db-f5a1-42a9-be8a-61c10ea54ac4}" vmax="999" lines="krkby" serialNumber="1">
+			<part nodes="970 57 1079 182 973 965 969 964 963"/>
+		</slipdistance>
+	</slipDistances>
+	<approachControlRoutes/>
+	<stationRoutes>
+		<stationRoute stationID="KRKYCEN" name="[KRKYLEJ]-[md255/2]-[1]-[STTNPWY]-[md273/1] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="155 1033 156"/>
+		<stationRoute stationID="KRKYCEN" name="[STTNPWY]-[md273/2]-[2]-[KRKYLEJ]-[md255/1] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="72 970 57"/>
+		<stationRoute stationID="KRKYLEJ" name="[KRKYCEN]-[md255/1]-[2]-[LINDLA]-[md255/1] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=95;NRz=95;S=95;Rz=95;FGz=95;NGz=95;Gz=95;Lz=95;Unbekannt=95" nodes="182 973 965 1048"/>
+		<stationRoute stationID="KRKYLEJ" name="[KRKYCEN]-[md255/1]-[2]-[PINXTON]-[md273/2] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="182 973 965 969 964 963"/>
+		<stationRoute stationID="KRKYLEJ" name="[LINDLA]-[md255/2]-[1-3]-[KRKYCEN]-[md255/2] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=85;NRz=85;S=85;Rz=85;FGz=85;NGz=85;Gz=85;Lz=85;Unbekannt=85" nodes="183 1058 1057 1051 971 1050 964 969 1032 1034 181"/>
+		<stationRoute stationID="KRKYLEJ" name="[PINXTON]-[md273/1]-[1]-[KRKYCEN]-[md255/2] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="180 1030 1070 1031 1032 1034 181"/>
+	</stationRoutes>
+	<lineCatalog/>
+	<zugNummernFelder/>
+	<switchGears/>
+</line>

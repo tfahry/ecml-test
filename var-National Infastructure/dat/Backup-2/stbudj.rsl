@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<line lineID="stbudj" name="St Budeaux Junc" trafficRouting="on_the_left" type="global" dependentLines="gw108 gw637">
+	<transformations>
+		<transformation line="gw637" m11="-1" m12="6.93889e-17" m21="-6.93889e-17" m22="-1" dx="5.22675e+06" dy="2107"/>
+	</transformations>
+	<version major="1" minor="2" patchlevel="0" comment=""/>
+	<creator user="lclarke9" timestamp="2016-07-29T10:04:14"/>
+	<lasteditor user="lclarke9" timestamp="2016-07-29T10:04:14"/>
+	<stations>
+		<station stationID="STBDXJN" name="St. Budeaux Jn" xNet="-3746730" yNet="-1355700" uicLocationCode="0" circleDiameter="0">
+			<textElement type="name">
+				<pos view="net" x="1442.26" y="1442.26" angle="0" system="source"/>
+				<pos view="wgs84" x="1442.26" y="1442.26" angle="0" system="source"/>
+				<pos view="line" x="1415.6" y="1415.6" angle="0" system="source"/>
+				<pos view="macro" x="28.2843" y="28.2843" angle="0" system="source"/>
+				<pos view="macroWgs84" x="0" y="0" angle="0" system="source"/>
+			</textElement>
+		</station>
+	</stations>
+	<nodes>
+		<node nodeID="2237" name="GRAD" kilometre="402.263" x="1562619" y="2307" xNet="-3747499" yNet="-1355603"/>
+		<node nodeID="2238" name="GRAD" kilometre="402.263" x="1562615" y="2507" xNet="-3747547" yNet="-1356035"/>
+		<node nodeID="2704" name="OL:P64" kilometre="402.345" x="1563438" y="2507" xNet="-3748365" yNet="-1355935">
+			<netLimitInfo lineID="gw108"/>
+		</node>
+		<switch start="359" endOfMainTrack="4013" endOfBranchTrack="2708" nodeID="2705" name="POINTS:P265A" description="GEOGIS S&amp;C|MLN2|148087712|[500][439789]|" kilometre="402.145" x="1561437" y="2507" xNet="-3746378" yNet="-1356179"/>
+		<switch start="2237" endOfMainTrack="2272" endOfBranchTrack="2707" nodeID="2706" name="POINTS:P265B" description="GEOGIS S&amp;C|MLN2|148071086|[504][439850]|" kilometre="402.200" x="1561989" y="2307" xNet="-3746874" yNet="-1355681"/>
+		<speedIndicator nodeID="2707" name="SPEED" kilometre="402.199" x="1561979" y="2311" xNet="-3746866" yNet="-1355690" referenceNode="2706"/>
+		<speedIndicator nodeID="2708" name="SPEED" kilometre="402.146" x="1561446" y="2504" xNet="-3746389" yNet="-1356171" referenceNode="4002"/>
+		<switch start="2724" endOfMainTrack="3497" endOfBranchTrack="2896" nodeID="2715" name="POINTS:P266" description="GEOGIS S&amp;C|MLN2|148074619|[504][439969]|" kilometre="402.323" x="1563219" y="2307" xNet="-3748094" yNet="-1355530"/>
+		<track trackID="T-2" stationID="STBDXJN" type="timingPoint" nodeID="2244" kilometre="402.336" x="1563352" y="2507" xNet="-3748278" yNet="-1355945" referenceNode="2238"/>
+		<speedIndicator nodeID="2896" name="SPEED" kilometre="402.324" x="1563225" y="2303" xNet="-3748099" yNet="-1355521" referenceNode="4474"/>
+		<stationBorder exitType="regular" stationID="STBDXJN" lineID="gw108" trackNumber="2" nodeID="360" name="[KEYHAM] - [gw108/1]" kilometre="402.000" x="1559989" y="2307" xNet="-3744890" yNet="-1355924" referenceNode="2272">
+			<netLimitInfo lineID="gw108"/>
+		</stationBorder>
+		<stationBorder exitType="regular" stationID="STBDXJN" lineID="gw108" trackNumber="1" nodeID="3496" name="[STBDXFR] - [gw108/1]" kilometre="402.339" x="1563377.8" y="2507" xNet="-3748304.1" yNet="-1355942" referenceNode="2244"/>
+		<stationBorder exitType="alternative" stationID="STBDXJN" lineID="gw108" trackNumber="2" nodeID="3497" name="[STBDXFR] - [gw108/2]" kilometre="402.348" x="1563466.9" y="2307" xNet="-3748341" yNet="-1355501" referenceNode="2715">
+			<netLimitInfo lineID="gw108"/>
+		</stationBorder>
+		<kilometreInconsistency newKilometre="365.774" nodeID="3498" kilometre="402.450" x="1564530" y="2106" xNet="-3749343.6" yNet="-1354938" referenceNode="4444">
+			<netLimitInfo lineID="gw637"/>
+		</kilometreInconsistency>
+		<node nodeID="157" name="402.000km" kilometre="402.000" x="1559989" y="2507" xNet="-3744941" yNet="-1356356"/>
+		<signal interlockingMachine="3 Aspect Pannel (Below 75mph)" nodeID="359" name="SIG:P64" kilometre="402.010" x="1560089" y="2507" xNet="-3745040" yNet="-1356343" referenceNode="157"/>
+		<stationBorder exitType="alternative" stationID="STBDXJN" lineID="gw108" trackNumber="1" nodeID="3240" kilometre="401.986" x="1559849.7" y="2507" xNet="-3744802.6" yNet="-1356372.8" referenceNode="157">
+			<netLimitInfo lineID="gw108"/>
+		</stationBorder>
+		<track trackID="T-1" stationID="STBDXJN" type="timingPoint" nodeID="2724" kilometre="402.292" x="1562907" y="2307" xNet="-3747784.6" yNet="-1355568" referenceNode="2237"/>
+		<signal interlockingMachine="Phone For Authorisation" nodeID="4444" kilometre="402.387" x="1563869.9" y="2106" xNet="-3748688.2" yNet="-1355018.5" referenceNode="4468"/>
+		<stationBorder exitType="regular" stationID="STBDXJN" lineID="gw637" trackNumber="U&amp;D" nodeID="4468" kilometre="402.384" x="1563833.5" y="2106" xNet="-3748652.1" yNet="-1355022.9" referenceNode="3499"/>
+		<node nodeID="2738" name="GRAD" kilometre="402.350" x="1563489" y="2106" xNet="-3748310" yNet="-1355065"/>
+		<track trackID="S-1" stationID="STBDXJN" interlockingMachine="Phone For Authorisation" nodeID="3499" name="SIG 305" kilometre="402.377" x="1563765.1" y="2106" xNet="-3748584.2" yNet="-1355031.3" referenceNode="4468"/>
+		<node nodeID="4474" name="ROL" kilometre="402.325" x="1563235.6" y="2295.12" xNet="-3748107.4" yNet="-1355502.8"/>
+		<node nodeID="4002" name="TC" kilometre="402.172" x="1561707.47169811" y="2409.32075471698" xNet="-3746623" yNet="-1355935.03773585" referenceNode="2708" releaseContact="true" arranged="true">
+			<textElement type="name">
+				<pos view="net" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="wgs84" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="line" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="macro" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="macroWgs84" x="0" y="0" angle="0" system="source"/>
+			</textElement>
+			<textElement type="kilo">
+				<pos view="net" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="wgs84" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="line" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="macro" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="macroWgs84" x="0" y="0" angle="0" system="source"/>
+			</textElement>
+		</node>
+		<node nodeID="4007" name="TC" kilometre="402.173" x="1561717.52830189" y="2405.67924528302" xNet="-3746632" yNet="-1355925.96226415" referenceNode="2707" releaseContact="true" arranged="true">
+			<textElement type="name">
+				<pos view="net" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="wgs84" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="line" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="macro" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="macroWgs84" x="0" y="0" angle="0" system="source"/>
+			</textElement>
+			<textElement type="kilo">
+				<pos view="net" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="wgs84" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="line" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="macro" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="macroWgs84" x="0" y="0" angle="0" system="source"/>
+			</textElement>
+		</node>
+		<node nodeID="2272" name="TC" kilometre="402.160" x="1561589" y="2307" xNet="-3746477.2" yNet="-1355729.6" referenceNode="2706" releaseContact="true" arranged="true">
+			<textElement type="name">
+				<pos view="net" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="wgs84" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="line" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="macro" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="macroWgs84" x="0" y="0" angle="0" system="source"/>
+			</textElement>
+			<textElement type="kilo">
+				<pos view="net" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="wgs84" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="line" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="macro" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="macroWgs84" x="0" y="0" angle="0" system="source"/>
+			</textElement>
+		</node>
+		<node nodeID="4013" name="TC" kilometre="402.185" x="1561836.3220339" y="2507" xNet="-3746774.27118644" yNet="-1356130.18644068" referenceNode="2705" releaseContact="true" arranged="true">
+			<textElement type="name">
+				<pos view="net" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="wgs84" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="line" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="macro" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="macroWgs84" x="0" y="0" angle="0" system="source"/>
+			</textElement>
+			<textElement type="kilo">
+				<pos view="net" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="wgs84" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="line" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="macro" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="macroWgs84" x="0" y="0" angle="0" system="source"/>
+			</textElement>
+		</node>
+		<node nodeID="4019" name="TC" kilometre="402.363" x="1563621.93703704" y="2106" xNet="-3748442.02222222" yNet="-1355048.77407407" referenceNode="2738" releaseContact="true" arranged="true">
+			<textElement type="name">
+				<pos view="net" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="wgs84" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="line" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="macro" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="macroWgs84" x="0" y="0" angle="0" system="source"/>
+			</textElement>
+			<textElement type="kilo">
+				<pos view="net" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="wgs84" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="line" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="macro" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="macroWgs84" x="0" y="0" angle="0" system="source"/>
+			</textElement>
+		</node>
+	</nodes>
+	<links>
+		<link source="157" target="359" length="10" gradient="7.092" vmax="80" vmaxr="80" bidirectional="true" radius="2100"/>
+		<link source="359" target="2705" length="135" gradient="7.092" vmax="80" vmaxr="80" bidirectional="true" radius="2100"/>
+		<link source="360" target="2272" length="160" gradient="7.092" vmax="80" vmaxr="80" radius="1100"/>
+		<link source="2237" target="2724" length="29" gradient="14.085" vmax="80" vmaxr="80" bidirectional="true" radius="1100"/>
+		<link source="2238" target="2244" length="73" gradient="14.085" vmax="80" vmaxr="80" bidirectional="true" radius="2100"/>
+		<link source="2244" target="3496" length="3" gradient="14.085" vmax="80" vmaxr="80" bidirectional="true" radius="2100"/>
+		<link source="2272" target="2706" length="40" gradient="7.092" vmax="80" vmaxr="80" radius="1100"/>
+		<link source="2705" target="2708" length="1" gradient="7.092" vmax="80" vmaxr="80" bidirectional="true" radius="3700"/>
+		<link source="2705" target="4013" length="40" gradient="7.092" vmax="80" vmaxr="80" bidirectional="true" radius="2100"/>
+		<link source="2706" target="2237" length="63" gradient="7.092" vmax="80" vmaxr="80" bidirectional="true" radius="1100"/>
+		<link source="2707" target="2706" length="1" gradient="7.092" vmax="80" vmaxr="80" bidirectional="true" radius="3700"/>
+		<link source="2708" target="4002" length="26" gradient="7.092" vmax="24" vmaxr="24" bidirectional="true" radius="3700"/>
+		<link source="2715" target="2896" length="1" gradient="-14.085" vmax="80" vmaxr="80" bidirectional="true"/>
+		<link source="2715" target="3497" length="25" gradient="14.085" vmax="80" vmaxr="80" radius="1100"/>
+		<link source="2724" target="2715" length="31" gradient="14.085" vmax="80" vmaxr="80" bidirectional="true" radius="1100"/>
+		<link source="2738" target="4474" length="24" gradient="-14.085" vmax="40" vmaxr="40" bidirectional="true"/>
+		<link source="3240" target="157" length="14" gradient="7.092" vmax="80" vmaxr="80" bidirectional="true" radius="2100"/>
+		<link source="3496" target="2704" length="6" gradient="14.085" vmax="80" vmaxr="80" bidirectional="true" radius="2100"/>
+		<link source="3498" target="4444" length="63" gradient="-14.085" vmax="40" vmaxr="40" bidirectional="true"/>
+		<link source="3499" target="4019" length="14" gradient="-14.085" vmax="40" vmaxr="40" bidirectional="true"/>
+		<link source="4002" target="4007" length="1" gradient="7.092" vmax="24" vmaxr="24" bidirectional="true" radius="3700"/>
+		<link source="4007" target="2707" length="26" gradient="7.092" vmax="24" vmaxr="24" bidirectional="true" radius="3700"/>
+		<link source="4013" target="2238" length="78" gradient="7.092" vmax="80" vmaxr="80" bidirectional="true" radius="2100"/>
+		<link source="4019" target="2738" length="13" gradient="-14.085" vmax="40" vmaxr="40" bidirectional="true"/>
+		<link source="4444" target="4468" length="3" gradient="-14.085" vmax="40" vmaxr="40" bidirectional="true"/>
+		<link source="4468" target="3499" length="7" gradient="-14.085" vmax="40" vmaxr="40" bidirectional="true"/>
+		<link source="4474" target="2896" length="1" vmax="40" vmaxr="40" bidirectional="true"/>
+	</links>
+	<dependentLinks>
+		<dependentLink source="2708" target="4002" direction="in" mode="and" active="true" waitingPeriod="0">
+			<link source="2738" target="4474" direction="in"/>
+			<link source="4474" target="2896" direction="in"/>
+		</dependentLink>
+	</dependentLinks>
+	<blockSections>
+		<blocksection uuid="{039a6b84-b142-464f-a072-b9c9994d5c4d}" lines="gw108 stbudj" shuntingBlock="true">
+			<part nodes="3240 157 359"/>
+		</blocksection>
+		<blocksection uuid="{07c67864-a6cf-4af3-86e7-0f96f4194f7d}" lines="gw108 stbudj">
+			<part nodes="3240 157 359"/>
+		</blocksection>
+		<blocksection uuid="{152dae74-0784-4326-8b55-92caff171d3c}" lines="gw108 stbudj">
+			<part nodes="3497 2715 2724 2237 2706 2272 360"/>
+		</blocksection>
+		<blocksection uuid="{16e8cda3-ef9b-4941-b1cd-392f9d379d87}" lines="gw108 stbudj" shuntingBlock="true" speedIndicators="2707 2708">
+			<part nodes="3497 2715 2724 2237 2706 2707 4007 4002 2708 2705 359 157 3240"/>
+		</blocksection>
+		<blocksection uuid="{1c9913c0-7f8e-42cf-ac6a-89bc103aca21}" lines="gw108 stbudj">
+			<part nodes="3497 2715 2724 2237 2706 2272 360"/>
+		</blocksection>
+		<blocksection uuid="{2a90ece8-0621-406c-8395-6eeb83a240c8}" lines="gw108 stbudj" shuntingBlock="true">
+			<part nodes="3240 157 359"/>
+		</blocksection>
+		<blocksection uuid="{40eb1ee3-dfba-4381-8fe8-0522457eade8}" lines="gw108 stbudj" shuntingBlock="true" speedIndicators="2707 2708 2896">
+			<part nodes="3499 4019 2738 4474 2896 2715 2724 2237 2706 2707 4007 4002 2708 2705 359 157 3240"/>
+		</blocksection>
+		<blocksection uuid="{56faf19a-9965-4368-ba37-564b6d185a35}" lines="gw108 stbudj">
+			<part nodes="359 2705 4013 2238 2244 3496 2704"/>
+		</blocksection>
+		<blocksection uuid="{6a4c669e-0149-4c41-8874-db7a09adde96}" lines="gw108 stbudj">
+			<part nodes="3240 157 359"/>
+		</blocksection>
+		<blocksection uuid="{7adc70bf-c061-44ff-9ff9-af18d89580b4}" lines="gw637 stbudj">
+			<part nodes="3498 4444 4468 3499"/>
+		</blocksection>
+		<blocksection uuid="{9fbd7d5f-bcfd-45bc-bdc3-a13f1a268f93}" lines="gw637 stbudj">
+			<part nodes="4444 3498"/>
+		</blocksection>
+		<blocksection uuid="{a4080e3a-9da6-444c-a1f6-424d2877ff42}" lines="gw108 stbudj" shuntingBlock="true">
+			<part nodes="3240 157 359"/>
+		</blocksection>
+		<blocksection uuid="{d0691090-46fd-4aea-9d71-65ab9007ff97}" lines="stbudj" speedIndicators="2707 2708 2896">
+			<part nodes="359 2705 2708 4002 4007 2707 2706 2237 2724 2715 2896 4474 2738 4019 3499 4468 4444"/>
+		</blocksection>
+		<blocksection uuid="{d8d45d6b-86c2-4b0c-a9b8-8c352ef7ae20}" lines="gw108 stbudj">
+			<part nodes="3497 2715 2724 2237 2706 2272 360"/>
+		</blocksection>
+		<blocksection uuid="{e4e54a02-7835-4750-a48b-04ab234d12cb}" lines="gw108 stbudj">
+			<part nodes="3497 2715 2724 2237 2706 2272 360"/>
+		</blocksection>
+		<blocksection uuid="{e71d0bb4-f8db-41b5-9ddb-c3ad1c8006dc}" lines="gw108 stbudj" speedIndicators="2896">
+			<part nodes="3499 4019 2738 4474 2896 2715 2724 2237 2706 2272 360"/>
+		</blocksection>
+		<blocksection uuid="{fe74e825-2a95-4e6e-9336-948f6015626f}" lines="gw108 stbudj">
+			<part nodes="3240 157 359"/>
+		</blocksection>
+	</blockSections>
+	<slipDistances>
+		<slipdistance uuid="{200311b0-9c28-447d-b5b2-60554c05004c}" publicName="OL:SIG" vmax="999" lines="gw637 stbudj" serialNumber="0">
+			<part nodes="4444 3498"/>
+		</slipdistance>
+		<slipdistance uuid="{43ef41b3-8998-4f80-b31e-4900fba3bc2d}" vmax="999" lines="stbudj" serialNumber="0">
+			<part nodes="359 2705 4013 2238 2244 3496 2704"/>
+		</slipdistance>
+		<slipdistance uuid="{cdb78d54-dfc3-4764-bedd-05a2a14df2bd}" publicName="OL SIG 64" vmax="999" lines="stbudj" serialNumber="1">
+			<part nodes="359 2705 2708 4002 4007 2707 2706 2237 2724 2715 2896 4474"/>
+		</slipdistance>
+		<slipdistance uuid="{d9ca0bb8-56d4-4f8b-a9c7-3ad923956406}" publicName="Reduced Overlap" vmax="999" lines="stbudj" serialNumber="0">
+			<part nodes="3499 4019 2738 4474 2896 2715"/>
+		</slipdistance>
+	</slipDistances>
+	<approachControlRoutes/>
+	<stationRoutes>
+		<stationRoute stationID="STBDXJN" name="1" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="4468 3499 4019 2738 4474 2896 2715 2724 2237 2706 2272 360"/>
+		<stationRoute stationID="STBDXJN" name="2" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="4468 3499 4019 2738 4474 2896 2715 2724 2237 2706 2707 4007 4002 2708 2705 359 157 3240"/>
+		<stationRoute stationID="STBDXJN" name="3" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="3240 157 359 2705 2708 4002 4007 2707 2706 2237 2724 2715 2896 4474 2738 4019 3499 4468"/>
+		<stationRoute stationID="STBDXJN" name="[KEYHAM]-[gw108/2]-[2]-[STBDXFR]-[gw108/1] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="3240 157 359 2705 4013 2238 2244 3496"/>
+		<stationRoute stationID="STBDXJN" name="[STBDXFR]-[gw108/2]-[1]-[KEYHAM]-[gw108/1] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="3497 2715 2724 2237 2706 2272 360"/>
+		<stationRoute stationID="STBDXJN" name="[STBDXFR]-[gw108/2]-[1]-[KEYHAM]-[gw108/2] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=90;NRz=90;S=90;Rz=90;FGz=90;NGz=90;Gz=90;Lz=90;Unbekannt=90" nodes="3497 2715 2724 2237 2706 2707 4007 4002 2708 2705 359 157 3240"/>
+	</stationRoutes>
+	<lineCatalog/>
+	<zugNummernFelder/>
+	<switchGears/>
+</line>

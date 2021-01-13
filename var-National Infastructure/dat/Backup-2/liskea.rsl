@@ -1,0 +1,850 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<line lineID="liskea" name="LiskeardJunc" trafficRouting="on_the_left" type="global" dependentLines="gw108 gw640">
+	<transformations>
+		<transformation line="gw640" m11="1" m12="0" m21="0" m22="1" dx="-1.87146e+06" dy="-1106"/>
+	</transformations>
+	<version major="1" minor="2" patchlevel="0" comment=""/>
+	<creator user="lclarke9" timestamp="2016-07-29T10:04:14"/>
+	<lasteditor user="lclarke9" timestamp="2016-07-29T10:04:14"/>
+	<stations>
+		<station stationID="DUM_Lisk" name="Liskeard Dummy" xNet="-4144750" yNet="-1227960" uicLocationCode="0" circleDiameter="0">
+			<textElement type="name">
+				<pos view="net" x="2668.18" y="2668.18" angle="0" system="source"/>
+				<pos view="wgs84" x="2668.18" y="2668.18" angle="0" system="source"/>
+				<pos view="line" x="5153.63" y="5153.63" angle="0" system="source"/>
+				<pos view="macro" x="28.2843" y="28.2843" angle="0" system="source"/>
+				<pos view="macroWgs84" x="0" y="0" angle="0" system="source"/>
+			</textElement>
+		</station>
+		<station stationID="LISKARD" name="Liskeard" xNet="-4149970" yNet="-1230770" uicLocationCode="0" circleDiameter="0">
+			<textElement type="name">
+				<pos view="net" x="3533.08" y="3533.08" angle="0" system="source"/>
+				<pos view="wgs84" x="3533.08" y="3533.08" angle="0" system="source"/>
+				<pos view="line" x="6625.75" y="6625.75" angle="0" system="source"/>
+				<pos view="macro" x="28.2843" y="28.2843" angle="0" system="source"/>
+				<pos view="macroWgs84" x="0" y="0" angle="0" system="source"/>
+			</textElement>
+		</station>
+	</stations>
+	<nodes>
+		<switch start="3414" endOfMainTrack="2748" endOfBranchTrack="2904" nodeID="2763" name="POINTS:LD19A" description="GEOGIS S&amp;C|MLN3|148072720|[508][466093]|" kilometre="426.204" x="1802029" y="2307" xNet="-4146724" yNet="-1232424"/>
+		<node nodeID="2766" name="Autogen" kilometre="426.175" x="1801736" y="2106" xNet="-4146000" yNet="-1232200"/>
+		<stationBorder exitType="alternative" stationID="LISKARD" lineID="gw108" trackNumber="1" nodeID="2342" name="[MENHENT] - [gw108/1]" kilometre="426.107" x="1801060" y="2507" xNet="-4145815" yNet="-1232973" referenceNode="2380">
+			<netLimitInfo lineID="gw108"/>
+		</stationBorder>
+		<stationBorder exitType="regular" stationID="LISKARD" lineID="gw108" trackNumber="2" nodeID="3478" name="[MENHENT] - [gw108/2]" kilometre="426.086" x="1800847" y="2307" xNet="-4145550.7" yNet="-1232569" referenceNode="3479">
+			<netLimitInfo lineID="gw108"/>
+		</stationBorder>
+		<track trackID="P-3" stationID="LISKARD" type="stopBoard" nodeID="33" kilometre="13.953" x="1792293.2" y="1506" xNet="-4146014.8" yNet="-1229683.7" referenceNode="81">
+			<platform startPos="-2000" endPos="0" width="150" left="true" open="true"/>
+		</track>
+		<stationBorder exitType="locked" stationID="LISKARD" lineID="gw108" trackNumber="" nodeID="28" kilometre="14.223" x="1794308.8" y="1506" xNet="-4146866.6" yNet="-1231510.4" referenceNode="43"/>
+		<switch start="4445" endOfMainTrack="4217" endOfBranchTrack="50" nodeID="35" name="POINTS:" kilometre="13.712" x="1790493" y="1506" xNet="-4145254" yNet="-1228052.1"/>
+		<stationBorder exitType="locked" stationID="DUM_Lisk" lineID="gw108" trackNumber="" nodeID="37" kilometre="13.963" x="1793010" y="1906" xNet="-4145955.2" yNet="-1230502.4" referenceNode="2345"/>
+		<switch start="39" endOfMainTrack="2012" endOfBranchTrack="50" nodeID="36" kilometre="13.808" x="1791458" y="1904" xNet="-4145301.1" yNet="-1229094.9"/>
+		<stationBorder exitType="locked" stationID="DUM_Lisk" lineID="gw108" trackNumber="" nodeID="38" kilometre="13.693" x="1790310" y="1906" xNet="-4144814.1" yNet="-1228055.3" referenceNode="2012"/>
+		<node nodeID="40" kilometre="13.858" x="1791959" y="2106" xNet="-4145329.8" yNet="-1229634.4"/>
+		<switch start="36" endOfMainTrack="2345" endOfBranchTrack="40" nodeID="39" kilometre="13.828" x="1791658.3" y="1904.2581" xNet="-4145385.5" yNet="-1229276.5"/>
+		<node nodeID="51" name="GRAD" kilometre="14.128" x="1793599.6" y="1506" xNet="-4146566.9" yNet="-1230867.7"/>
+		<node nodeID="52" name="GRAD" kilometre="13.883" x="1791770.3" y="1506" xNet="-4145793.8" yNet="-1229209.8"/>
+		<node nodeID="81" name="KM" kilometre="14.000" x="1792644.1" y="1506" xNet="-4146163.1" yNet="-1230001.7"/>
+		<stationBorder exitType="regular" stationID="LISKARD" lineID="gw108" trackNumber="2" nodeID="3376" kilometre="426.747" x="1807459.1" y="2307" xNet="-4152113.8" yNet="-1231761.8" referenceNode="4431">
+			<netLimitInfo lineID="gw108"/>
+		</stationBorder>
+		<signal interlockingMachine="Buffer Stop" nodeID="2012" kilometre="13.694" x="1790320" y="1905.9826" xNet="-4144818.3" yNet="-1228064.3" referenceNode="36"/>
+		<signal interlockingMachine="Buffer Stop" nodeID="2345" kilometre="13.962" x="1793000" y="1905.9871" xNet="-4145951" yNet="-1230493.3" referenceNode="39"/>
+		<speedIndicator nodeID="50" name="SPEED" kilometre="13.713" x="1790503.1" y="1510.1458" xNet="-4145254.5" yNet="-1228063" referenceNode="35"/>
+		<track trackID="Q-3" stationID="LISKARD" interlockingMachine="Buffer Stop" nodeID="43" kilometre="14.222" x="1794301.3" y="1506" xNet="-4146863.4" yNet="-1231503.6" referenceNode="51"/>
+		<track trackID="T-3" stationID="DUM_Lisk" type="timingPoint" nodeID="3466" kilometre="108.318" x="1794032.7" y="2106" xNet="-4145461.8" yNet="-1230069.7" referenceNode="40"/>
+		<stationBorder exitType="regular" stationID="LISKARD" lineID="gw640" trackNumber="1" nodeID="54" name="GRAD" kilometre="13.787" x="1791053.2" y="1506" xNet="-4145490.8" yNet="-1228559.9" referenceNode="52"/>
+		<stationBorder exitType="regular" stationID="DUM_Lisk" lineID="gw640" trackNumber="1" nodeID="4217" kilometre="13.762" x="1790870.2" y="1506" xNet="-4145413.4" yNet="-1228394" referenceNode="35"/>
+		<stationBorder exitType="regular" stationID="DUM_Lisk" lineID="gw108" trackNumber="1" nodeID="1" name="GRAD" kilometre="426.107" x="1801009" y="2106" xNet="-4145905.8" yNet="-1231534.1" referenceNode="3466"/>
+		<stationBorder exitType="regular" stationID="LISKARD" lineID="gw108" trackNumber="1" nodeID="4218" kilometre="426.130" x="1801256.5" y="2106" xNet="-4145937.9" yNet="-1231760.8" referenceNode="4237"/>
+		<track trackID="T-2" stationID="DUM_Lisk" type="timingPoint" nodeID="4445" kilometre="13.712" x="1790490.9" y="1506" xNet="-4145253.1" yNet="-1228050.2" referenceNode="4161"/>
+		<node nodeID="182" name="427.000km" kilometre="427.000" x="1809989" y="2507" xNet="-4154677" yNet="-1231885">
+			<netLimitInfo lineID="gw108"/>
+		</node>
+		<stationBorder exitType="regular" stationID="LISKARD" lineID="gw108" trackNumber="1" nodeID="4456" kilometre="426.978" x="1809766.9" y="2507" xNet="-4154456.6" yNet="-1231912.1" referenceNode="2310"/>
+		<speedIndicator nodeID="2904" name="SPEED" kilometre="426.203" x="1802020" y="2301" xNet="-4146713" yNet="-1232414" referenceNode="2766"/>
+		<node nodeID="57" name="GRAD" kilometre="13.383" x="1788034.5" y="1506" xNet="-4144215" yNet="-1225824"/>
+		<stationBorder exitType="regular" stationID="DUM_Lisk" lineID="gw640" trackNumber="1" nodeID="59" name="GRAD" kilometre="13.170" x="1786444.7" y="1506" xNet="-4143543.1" yNet="-1224383.2" referenceNode="58">
+			<netLimitInfo lineID="gw640"/>
+		</stationBorder>
+		<node nodeID="4161" kilometre="13.711" x="1790486.7" y="1506" xNet="-4145251.3" yNet="-1228046.4"/>
+		<track trackID="R-1" stationID="DUM_Lisk" interlockingMachine="2 Aspect Pannel (Below 75mph)" nodeID="58" name="GRAD" kilometre="13.282" x="1787280.7" y="1506" xNet="-4143896.4" yNet="-1225140.8" referenceNode="57"/>
+		<switch start="3517" endOfMainTrack="4431" endOfBranchTrack="3483" nodeID="3285" name="PTS 10A" kilometre="426.462" x="1804608.23529412" y="2307" xNet="-4149283.68235294" yNet="-1232110.17647059">
+			<textElement type="name">
+				<pos view="net" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="wgs84" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="line" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="macro" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="macroWgs84" x="0" y="0" angle="0" system="source"/>
+			</textElement>
+			<textElement type="kilo">
+				<pos view="net" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="wgs84" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="line" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="macro" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="macroWgs84" x="0" y="0" angle="0" system="source"/>
+			</textElement>
+		</switch>
+		<switch start="3516" endOfMainTrack="3545" endOfBranchTrack="3484" nodeID="3305" name="PTS 10B" kilometre="426.542" x="1805408" y="2507" xNet="-4150130" yNet="-1232443.7027027">
+			<textElement type="name">
+				<pos view="net" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="wgs84" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="line" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="macro" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="macroWgs84" x="0" y="0" angle="0" system="source"/>
+			</textElement>
+			<textElement type="kilo">
+				<pos view="net" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="wgs84" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="line" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="macro" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="macroWgs84" x="0" y="0" angle="0" system="source"/>
+			</textElement>
+		</switch>
+		<switch start="3174" endOfMainTrack="2781" endOfBranchTrack="2782" nodeID="2793" name="PTS 22A" kilometre="426.183" x="1801815.40909091" y="2507" xNet="-4146564.81818182" yNet="-1232880.36363636">
+			<textElement type="name">
+				<pos view="net" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="wgs84" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="line" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="macro" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="macroWgs84" x="0" y="0" angle="0" system="source"/>
+			</textElement>
+			<textElement type="kilo">
+				<pos view="net" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="wgs84" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="line" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="macro" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="macroWgs84" x="0" y="0" angle="0" system="source"/>
+			</textElement>
+		</switch>
+		<switch start="3539" endOfMainTrack="2747" endOfBranchTrack="2749" nodeID="2532" name="PTS 22B" kilometre="426.130" x="1801289" y="2307" xNet="-4145989.31707317" yNet="-1232514.67073171">
+			<textElement type="name">
+				<pos view="net" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="wgs84" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="line" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="macro" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="macroWgs84" x="0" y="0" angle="0" system="source"/>
+			</textElement>
+			<textElement type="kilo">
+				<pos view="net" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="wgs84" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="line" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="macro" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="macroWgs84" x="0" y="0" angle="0" system="source"/>
+			</textElement>
+		</switch>
+		<node nodeID="3388" name="GRAD" kilometre="426.429" x="1804277.74390244" y="2307" xNet="-4148955.63414634" yNet="-1232150.6097561">
+			<textElement type="name">
+				<pos view="net" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="wgs84" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="line" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="macro" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="macroWgs84" x="0" y="0" angle="0" system="source"/>
+			</textElement>
+			<textElement type="kilo">
+				<pos view="net" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="wgs84" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="line" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="macro" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="macroWgs84" x="0" y="0" angle="0" system="source"/>
+			</textElement>
+		</node>
+		<node nodeID="3413" name="GRAD" kilometre="426.429" x="1804278" y="2507" xNet="-4149008.61290323" yNet="-1232580.9516129">
+			<textElement type="name">
+				<pos view="net" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="wgs84" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="line" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="macro" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="macroWgs84" x="0" y="0" angle="0" system="source"/>
+			</textElement>
+			<textElement type="kilo">
+				<pos view="net" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="wgs84" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="line" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="macro" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="macroWgs84" x="0" y="0" angle="0" system="source"/>
+			</textElement>
+		</node>
+		<node nodeID="3414" name="GRAD" kilometre="426.220" x="1802185.66666667" y="2307" xNet="-4146879.66666667" yNet="-1232405.16666667">
+			<textElement type="name">
+				<pos view="net" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="wgs84" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="line" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="macro" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="macroWgs84" x="0" y="0" angle="0" system="source"/>
+			</textElement>
+			<textElement type="kilo">
+				<pos view="net" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="wgs84" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="line" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="macro" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="macroWgs84" x="0" y="0" angle="0" system="source"/>
+			</textElement>
+		</node>
+		<node nodeID="3424" name="GRAD" kilometre="426.220" x="1802185" y="2507" xNet="-4146930.80392157" yNet="-1232836.23529412">
+			<textElement type="name">
+				<pos view="net" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="wgs84" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="line" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="macro" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="macroWgs84" x="0" y="0" angle="0" system="source"/>
+			</textElement>
+			<textElement type="kilo">
+				<pos view="net" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="wgs84" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="line" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="macro" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="macroWgs84" x="0" y="0" angle="0" system="source"/>
+			</textElement>
+		</node>
+		<node nodeID="2380" name="GRAD" kilometre="426.124" x="1801229.10526316" y="2507" xNet="-4145982.76315789" yNet="-1232952.42105263">
+			<textElement type="name">
+				<pos view="net" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="wgs84" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="line" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="macro" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="macroWgs84" x="0" y="0" angle="0" system="source"/>
+			</textElement>
+			<textElement type="kilo">
+				<pos view="net" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="wgs84" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="line" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="macro" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="macroWgs84" x="0" y="0" angle="0" system="source"/>
+			</textElement>
+		</node>
+		<node nodeID="3479" name="GRAD" kilometre="426.124" x="1801228.72727273" y="2307" xNet="-4145929.5056541" yNet="-1232522.0792683">
+			<textElement type="name">
+				<pos view="net" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="wgs84" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="line" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="macro" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="macroWgs84" x="0" y="0" angle="0" system="source"/>
+			</textElement>
+			<textElement type="kilo">
+				<pos view="net" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="wgs84" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="line" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="macro" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="macroWgs84" x="0" y="0" angle="0" system="source"/>
+			</textElement>
+		</node>
+		<speedIndicator nodeID="3483" name="SPEED" kilometre="426.463" x="1804618.23235294" y="2309.5" xNet="-4149294.26132353" yNet="-1232114.34554849" referenceNode="3285">
+			<textElement type="name">
+				<pos view="net" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="wgs84" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="line" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="macro" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="macroWgs84" x="0" y="0" angle="0" system="source"/>
+			</textElement>
+			<textElement type="kilo">
+				<pos view="net" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="wgs84" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="line" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="macro" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="macroWgs84" x="0" y="0" angle="0" system="source"/>
+			</textElement>
+		</speedIndicator>
+		<speedIndicator nodeID="3484" name="SPEED" kilometre="426.541" x="1805398.00294118" y="2504.5" xNet="-4150119.42102941" yNet="-1232439.5336248" referenceNode="3544">
+			<textElement type="name">
+				<pos view="net" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="wgs84" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="line" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="macro" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="macroWgs84" x="0" y="0" angle="0" system="source"/>
+			</textElement>
+			<textElement type="kilo">
+				<pos view="net" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="wgs84" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="line" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="macro" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="macroWgs84" x="0" y="0" angle="0" system="source"/>
+			</textElement>
+		</speedIndicator>
+		<signal interlockingMachine="AB Starter (Block)" nodeID="3499" name="SIG LD32" kilometre="426.671" x="1806698" y="2507" xNet="-4151410.325" yNet="-1232286.375" referenceNode="3516">
+			<textElement type="name">
+				<pos view="net" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="wgs84" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="line" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="macro" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="macroWgs84" x="0" y="0" angle="0" system="source"/>
+			</textElement>
+			<textElement type="kilo">
+				<pos view="net" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="wgs84" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="line" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="macro" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="macroWgs84" x="0" y="0" angle="0" system="source"/>
+			</textElement>
+		</signal>
+		<node nodeID="2310" name="OL SIG LD32" description="OL for SIG : SIG LD32" kilometre="426.691" x="1806898" y="2507" xNet="-4151608.825" yNet="-1232261.98310811"/>
+		<node nodeID="3506" name="SD LD32" kilometre="426.483" x="1804818" y="2507" xNet="-4149544.43225806" yNet="-1232515.62903226" referenceNode="2737" sightingDistance="true">
+			<textElement type="name">
+				<pos view="net" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="wgs84" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="line" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="macro" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="macroWgs84" x="0" y="0" angle="0" system="source"/>
+			</textElement>
+			<textElement type="kilo">
+				<pos view="net" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="wgs84" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="line" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="macro" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="macroWgs84" x="0" y="0" angle="0" system="source"/>
+			</textElement>
+		</node>
+		<signal type="shunting" interlockingMachine="Shunt" nodeID="3516" name="SIG LD9" kilometre="426.549" x="1805478" y="2507" xNet="-4150199.475" yNet="-1232435.16554054" referenceNode="3499">
+			<textElement type="name">
+				<pos view="net" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="wgs84" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="line" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="macro" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="macroWgs84" x="0" y="0" angle="0" system="source"/>
+			</textElement>
+			<textElement type="kilo">
+				<pos view="net" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="wgs84" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="line" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="macro" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="macroWgs84" x="0" y="0" angle="0" system="source"/>
+			</textElement>
+		</signal>
+		<node nodeID="2764" name="OL SIG LD3" description="OL for SIG : SIG LD3" kilometre="426.243" x="1802416.5410428" y="2307" xNet="-4147108.38685356" yNet="-1232377.15365828"/>
+		<signal type="shunting" interlockingMachine="Shunt" nodeID="4225" name="LD 20" kilometre="426.164" x="1801614.43664638" y="2106" xNet="-4145984.25634148" yNet="-1232088.65354555" referenceNode="4237">
+			<textElement type="name">
+				<pos view="net" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="wgs84" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="line" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="macro" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="macroWgs84" x="0" y="0" angle="0" system="source"/>
+			</textElement>
+			<textElement type="kilo">
+				<pos view="net" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="wgs84" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="line" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="macro" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="macroWgs84" x="0" y="0" angle="0" system="source"/>
+			</textElement>
+		</signal>
+		<signal type="shunting" interlockingMachine="Shunt" nodeID="3539" name="SIG LD23" kilometre="426.128" x="1801268.90909091" y="2307" xNet="-4145969.37993348" yNet="-1232517.14024391" referenceNode="3479">
+			<textElement type="name">
+				<pos view="net" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="wgs84" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="line" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="macro" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="macroWgs84" x="0" y="0" angle="0" system="source"/>
+			</textElement>
+			<textElement type="kilo">
+				<pos view="net" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="wgs84" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="line" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="macro" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="macroWgs84" x="0" y="0" angle="0" system="source"/>
+			</textElement>
+		</signal>
+		<signal interlockingMachine="AB Stop (3)" nodeID="2754" name="SIG LD34" kilometre="426.129" x="1801278.79202822" y="2507" xNet="-4146032.08985483" yNet="-1232946.31449193" referenceNode="2380">
+			<textElement type="name">
+				<pos view="net" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="wgs84" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="line" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="macro" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="macroWgs84" x="0" y="0" angle="0" system="source"/>
+			</textElement>
+			<textElement type="kilo">
+				<pos view="net" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="wgs84" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="line" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="macro" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="macroWgs84" x="0" y="0" angle="0" system="source"/>
+			</textElement>
+		</signal>
+		<node nodeID="2781" name="OL SIG LD34" description="OL for SIG : SIG LD34" kilometre="426.149" x="1801477.53908848" y="2507" xNet="-4146229.39664261" yNet="-1232921.88824913"/>
+		<track trackID="U-2" stationID="LISKARD" interlockingMachine="AB Stop (2)" nodeID="2791" name="SIG LD3" kilometre="426.263" x="1802617.30136986" y="2307" xNet="-4147307.2739726" yNet="-1232352.79452055" referenceNode="3388">
+			<textElement type="name">
+				<pos view="net" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="wgs84" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="line" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="macro" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="macroWgs84" x="0" y="0" angle="0" system="source"/>
+			</textElement>
+			<textElement type="kilo">
+				<pos view="net" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="wgs84" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="line" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="macro" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="macroWgs84" x="0" y="0" angle="0" system="source"/>
+			</textElement>
+			<platform startPos="-1560" endPos="40" width="75" left="true" open="true"/>
+		</track>
+		<node nodeID="2737" name="OL SIG LD33" description="OL for SIG : SIG LD33" kilometre="426.442" x="1804408" y="2507" xNet="-4149137.60645161" yNet="-1232565.22580645"/>
+		<node nodeID="3540" name="SD LD33" kilometre="426.234" x="1802325" y="2507" xNet="-4147069.70588235" yNet="-1232819.35294118" referenceNode="3424" sightingDistance="true">
+			<textElement type="name">
+				<pos view="net" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="wgs84" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="line" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="macro" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="macroWgs84" x="0" y="0" angle="0" system="source"/>
+			</textElement>
+			<textElement type="kilo">
+				<pos view="net" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="wgs84" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="line" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="macro" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="macroWgs84" x="0" y="0" angle="0" system="source"/>
+			</textElement>
+		</node>
+		<track trackID="D-1" stationID="LISKARD" interlockingMachine="AB Stop (2)" nodeID="2779" name="SIG LD33" kilometre="426.422" x="1804207.84444444" y="2507" xNet="-4148938.94408603" yNet="-1232589.56152927" referenceNode="3540">
+			<textElement type="name">
+				<pos view="net" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="wgs84" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="line" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="macro" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="macroWgs84" x="0" y="0" angle="0" system="source"/>
+			</textElement>
+			<textElement type="kilo">
+				<pos view="net" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="wgs84" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="line" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="macro" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="macroWgs84" x="0" y="0" angle="0" system="source"/>
+			</textElement>
+			<platform startPos="-1450" endPos="50" width="75" left="true" open="true"/>
+		</track>
+		<node nodeID="4237" name="TC" kilometre="426.163" x="1801603.90909796" y="2106" xNet="-4145982.89291967" yNet="-1232079.01079421" referenceNode="4225" releaseContact="true" arranged="true">
+			<textElement type="name">
+				<pos view="net" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="wgs84" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="line" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="macro" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="macroWgs84" x="0" y="0" angle="0" system="source"/>
+			</textElement>
+			<textElement type="kilo">
+				<pos view="net" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="wgs84" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="line" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="macro" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="macroWgs84" x="0" y="0" angle="0" system="source"/>
+			</textElement>
+		</node>
+		<node nodeID="2747" name="TC" kilometre="426.164" x="1801629" y="2307" xNet="-4146326.87409361" yNet="-1232473.01120633" referenceNode="2748" releaseContact="true" arranged="true">
+			<textElement type="name">
+				<pos view="net" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="wgs84" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="line" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="macro" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="macroWgs84" x="0" y="0" angle="0" system="source"/>
+			</textElement>
+			<textElement type="kilo">
+				<pos view="net" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="wgs84" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="line" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="macro" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="macroWgs84" x="0" y="0" angle="0" system="source"/>
+			</textElement>
+		</node>
+		<track trackID="D-2" stationID="LISKARD" type="shunting" interlockingMachine="Shunt" nodeID="3517" name="SIG LD11" kilometre="426.455" x="1804538.14448026" y="2307" xNet="-4149214.03046395" yNet="-1232118.8178038" referenceNode="4021">
+			<textElement type="name">
+				<pos view="net" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="wgs84" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="line" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="macro" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="macroWgs84" x="0" y="0" angle="0" system="source"/>
+			</textElement>
+			<textElement type="kilo">
+				<pos view="net" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="wgs84" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="line" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="macro" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="macroWgs84" x="0" y="0" angle="0" system="source"/>
+			</textElement>
+		</track>
+		<node nodeID="2748" name="TC" kilometre="426.170" x="1801689" y="2307" xNet="-4146386.44297956" yNet="-1232465.65952538" referenceNode="2747" releaseContact="true" arranged="true">
+			<textElement type="name">
+				<pos view="net" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="wgs84" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="line" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="macro" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="macroWgs84" x="0" y="0" angle="0" system="source"/>
+			</textElement>
+			<textElement type="kilo">
+				<pos view="net" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="wgs84" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="line" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="macro" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="macroWgs84" x="0" y="0" angle="0" system="source"/>
+			</textElement>
+		</node>
+		<track trackID="U-1" stationID="LISKARD" type="shunting" interlockingMachine="Shunt" nodeID="3174" name="SIG LD21" kilometre="426.185" x="1801835.31818182" y="2507" xNet="-4146584.41414142" yNet="-1232878.06060606" referenceNode="3424">
+			<textElement type="name">
+				<pos view="net" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="wgs84" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="line" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="macro" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="macroWgs84" x="0" y="0" angle="0" system="source"/>
+			</textElement>
+			<textElement type="kilo">
+				<pos view="net" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="wgs84" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="line" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="macro" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="macroWgs84" x="0" y="0" angle="0" system="source"/>
+			</textElement>
+		</track>
+		<node nodeID="2749" name="TC" kilometre="426.156" x="1801547.23842196" y="2405.11320754717" xNet="-4146271.63837175" yNet="-1232694.06725097" referenceNode="2532" releaseContact="true" arranged="true">
+			<textElement type="name">
+				<pos view="net" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="wgs84" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="line" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="macro" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="macroWgs84" x="0" y="0" angle="0" system="source"/>
+			</textElement>
+			<textElement type="kilo">
+				<pos view="net" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="wgs84" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="line" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="macro" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="macroWgs84" x="0" y="0" angle="0" system="source"/>
+			</textElement>
+		</node>
+		<node nodeID="2782" name="TC" kilometre="426.157" x="1801557.17066895" y="2408.88679245283" xNet="-4146282.49688324" yNet="-1232700.9671171" referenceNode="2793" releaseContact="true" arranged="true">
+			<textElement type="name">
+				<pos view="net" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="wgs84" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="line" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="macro" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="macroWgs84" x="0" y="0" angle="0" system="source"/>
+			</textElement>
+			<textElement type="kilo">
+				<pos view="net" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="wgs84" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="line" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="macro" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="macroWgs84" x="0" y="0" angle="0" system="source"/>
+			</textElement>
+		</node>
+		<node nodeID="3543" name="TC" kilometre="426.501" x="1804998.12058824" y="2404.5" xNet="-4149696.26220588" yNet="-1232272.77050874" referenceNode="3498" releaseContact="true" arranged="true">
+			<textElement type="name">
+				<pos view="net" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="wgs84" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="line" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="macro" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="macroWgs84" x="0" y="0" angle="0" system="source"/>
+			</textElement>
+			<textElement type="kilo">
+				<pos view="net" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="wgs84" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="line" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="macro" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="macroWgs84" x="0" y="0" angle="0" system="source"/>
+			</textElement>
+		</node>
+		<node nodeID="3544" name="TC" kilometre="426.502" x="1805008.11764706" y="2407" xNet="-4149706.84117647" yNet="-1232276.93958664" referenceNode="3484" releaseContact="true" arranged="true">
+			<textElement type="name">
+				<pos view="net" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="wgs84" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="line" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="macro" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="macroWgs84" x="0" y="0" angle="0" system="source"/>
+			</textElement>
+			<textElement type="kilo">
+				<pos view="net" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="wgs84" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="line" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="macro" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="macroWgs84" x="0" y="0" angle="0" system="source"/>
+			</textElement>
+		</node>
+		<node nodeID="3545" name="TC" kilometre="426.502" x="1805008" y="2507" xNet="-4149733.00492072" yNet="-1232492.46631596" referenceNode="3305" releaseContact="true" arranged="true">
+			<textElement type="name">
+				<pos view="net" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="wgs84" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="line" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="macro" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="macroWgs84" x="0" y="0" angle="0" system="source"/>
+			</textElement>
+			<textElement type="kilo">
+				<pos view="net" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="wgs84" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="line" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="macro" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="macroWgs84" x="0" y="0" angle="0" system="source"/>
+			</textElement>
+		</node>
+		<node nodeID="3498" name="SD LD32" kilometre="426.483" x="1804822.7490691" y="2360.64422145713" xNet="-4149510.68260935" yNet="-1232199.63524587" referenceNode="3483" sightingDistance="true">
+			<textElement type="name">
+				<pos view="net" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="wgs84" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="line" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="macro" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="macroWgs84" x="0" y="0" angle="0" system="source"/>
+			</textElement>
+			<textElement type="kilo">
+				<pos view="net" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="wgs84" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="line" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="macro" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="macroWgs84" x="0" y="0" angle="0" system="source"/>
+			</textElement>
+		</node>
+		<node nodeID="4021" name="SD LD3" kilometre="426.451" x="1804498.0828529" y="2307" xNet="-4149174.27718432" yNet="-1232123.70887338" referenceNode="3517" sightingDistance="true">
+			<textElement type="name">
+				<pos view="net" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="wgs84" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="line" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="macro" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="macroWgs84" x="0" y="0" angle="0" system="source"/>
+			</textElement>
+			<textElement type="kilo">
+				<pos view="net" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="wgs84" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="line" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="macro" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="macroWgs84" x="0" y="0" angle="0" system="source"/>
+			</textElement>
+		</node>
+		<node nodeID="4431" name="OL SIG LD2" kilometre="426.663" x="1806618.57677612" y="2307" xNet="-4151279.52537313" yNet="-1231864.38865672">
+			<textElement type="name">
+				<pos view="net" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="wgs84" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="line" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="macro" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="macroWgs84" x="0" y="0" angle="0" system="source"/>
+			</textElement>
+			<textElement type="kilo">
+				<pos view="net" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="wgs84" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="line" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="macro" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="macroWgs84" x="0" y="0" angle="0" system="source"/>
+			</textElement>
+		</node>
+	</nodes>
+	<links>
+		<link source="1" target="4218" length="23" gradient="2.513" vmax="8" vmaxr="8" bidirectional="true"/>
+		<link source="33" target="81" length="47" gradient="6.25" vmax="40" vmaxr="40" bidirectional="true"/>
+		<link source="35" target="50" length="1" gradient="16.949" vmax="40" vmaxr="40" bidirectional="true"/>
+		<link source="35" target="4217" length="50" gradient="16.949" vmax="40" vmaxr="40" bidirectional="true"/>
+		<link source="36" target="39" length="20" gradient="2.222" vmax="8" vmaxr="8" bidirectional="true"/>
+		<link source="38" target="2012" length="1" gradient="16.949" vmax="8" vmaxr="8" bidirectional="true"/>
+		<link source="39" target="40" length="30" gradient="6.25" vmax="8" vmaxr="8" bidirectional="true"/>
+		<link source="39" target="2345" length="134" gradient="6.25" vmax="8" vmaxr="8" bidirectional="true"/>
+		<link source="40" target="3466" length="26" gradient="6.25" vmax="8" vmaxr="8" bidirectional="true"/>
+		<link source="43" target="28" length="1" vmax="40" vmaxr="40" bidirectional="true"/>
+		<link source="50" target="36" length="95" gradient="16.949" vmax="8" vmaxr="8" bidirectional="true"/>
+		<link source="51" target="43" length="94" vmax="40" vmaxr="40" bidirectional="true"/>
+		<link source="52" target="33" length="70" gradient="6.25" vmax="40" vmaxr="40" bidirectional="true"/>
+		<link source="54" target="52" length="96" gradient="2.222" vmax="40" vmaxr="40" bidirectional="true"/>
+		<link source="57" target="4161" length="328" gradient="16.949" vmax="40" vmaxr="40" bidirectional="true"/>
+		<link source="58" target="57" length="101" gradient="22.727" vmax="40" vmaxr="40" bidirectional="true"/>
+		<link source="59" target="58" length="112" gradient="11.111" vmax="40" vmaxr="40" bidirectional="true"/>
+		<link source="81" target="51" length="128" gradient="6.25" vmax="40" vmaxr="40" bidirectional="true"/>
+		<link source="2012" target="36" length="114" gradient="16.949" vmax="8" vmaxr="8" bidirectional="true"/>
+		<link source="2310" target="4456" length="287" gradient="-16.667" vmax="97" vmaxr="97" radius="2100"/>
+		<link source="2342" target="2380" length="17" gradient="11.765" vmax="97" vmaxr="97" radius="2100"/>
+		<link source="2345" target="37" length="1" gradient="6.25" vmax="8" vmaxr="8" bidirectional="true"/>
+		<link source="2380" target="2754" length="5" gradient="2.959" vmax="97" vmaxr="97" radius="2100"/>
+		<link source="2532" target="2747" length="34" gradient="2.959" vmax="97" vmaxr="97" radius="1100"/>
+		<link source="2532" target="2749" length="26" gradient="2.959" vmax="97" vmaxr="97"/>
+		<link source="2737" target="3506" length="41" gradient="-16.667" vmax="97" vmaxr="97" bidirectional="true" radius="2100"/>
+		<link source="2747" target="2748" length="6" gradient="2.959" vmax="97" vmaxr="97" radius="1100"/>
+		<link source="2748" target="2763" length="34" gradient="2.959" vmax="97" vmaxr="97" radius="1100"/>
+		<link source="2749" target="2782" length="1" gradient="2.959" vmax="97" vmaxr="97"/>
+		<link source="2754" target="2781" length="20" gradient="2.959" vmax="97" vmaxr="97" radius="2100"/>
+		<link source="2763" target="3414" length="16" gradient="2.959" vmax="97" vmaxr="97" bidirectional="true" radius="1100"/>
+		<link source="2764" target="2791" length="20" vmax="97" vmaxr="97" bidirectional="true" radius="1100"/>
+		<link source="2766" target="2904" length="28" gradient="2.513" vmax="8" vmaxr="8" bidirectional="true"/>
+		<link source="2779" target="3413" length="7" vmax="97" vmaxr="97" bidirectional="true" radius="2100"/>
+		<link source="2781" target="2793" length="34" gradient="2.959" vmax="97" vmaxr="97" radius="2100"/>
+		<link source="2782" target="2793" length="26" gradient="2.959" vmax="97" vmaxr="97"/>
+		<link source="2791" target="3388" length="166" vmax="97" vmaxr="97" bidirectional="true" radius="1100"/>
+		<link source="2793" target="3174" length="2" gradient="2.959" vmax="97" vmaxr="97" bidirectional="true" radius="2100"/>
+		<link source="2904" target="2763" length="1" gradient="2.513" vmax="97" vmaxr="97" bidirectional="true"/>
+		<link source="3174" target="3424" length="35" gradient="2.959" vmax="97" vmaxr="97" bidirectional="true" radius="2100"/>
+		<link source="3285" target="3483" length="1" gradient="-16.667" vmax="97" vmaxr="97"/>
+		<link source="3285" target="4431" length="201" gradient="-16.667" vmax="97" vmaxr="97" radius="1100"/>
+		<link source="3305" target="3516" length="7" gradient="-16.667" vmax="97" vmaxr="97" radius="2100"/>
+		<link source="3388" target="4021" length="22" gradient="-16.667" vmax="97" vmaxr="97" bidirectional="true" radius="1100"/>
+		<link source="3413" target="2737" length="13" gradient="-16.667" vmax="97" vmaxr="97" bidirectional="true" radius="2100"/>
+		<link source="3414" target="2764" length="23" vmax="97" vmaxr="97" bidirectional="true" radius="1100"/>
+		<link source="3424" target="3540" length="14" vmax="97" vmaxr="97" bidirectional="true" radius="2100"/>
+		<link source="3466" target="1" length="89" gradient="6.25" vmax="8" vmaxr="8" bidirectional="true"/>
+		<link source="3478" target="3479" length="38" gradient="11.765" vmax="97" vmaxr="97" radius="1100"/>
+		<link source="3479" target="3539" length="4" gradient="2.959" vmax="97" vmaxr="97" radius="1100"/>
+		<link source="3483" target="3498" length="20" gradient="-16.667" vmax="24" vmaxr="24"/>
+		<link source="3484" target="3305" length="1" gradient="-16.667" vmax="97" vmaxr="97"/>
+		<link source="3498" target="3543" length="18" gradient="-16.667" vmax="24" vmaxr="24"/>
+		<link source="3499" target="2310" length="20" gradient="-16.667" vmax="97" vmaxr="97" radius="2100"/>
+		<link source="3506" target="3545" length="19" gradient="-16.667" vmax="97" vmaxr="97" bidirectional="true" radius="2100"/>
+		<link source="3516" target="3499" length="122" gradient="-16.667" vmax="97" vmaxr="97" radius="2100"/>
+		<link source="3517" target="3285" length="7" gradient="-16.667" vmax="97" vmaxr="97" bidirectional="true" radius="1100"/>
+		<link source="3539" target="2532" length="2" gradient="2.959" vmax="97" vmaxr="97" radius="1100"/>
+		<link source="3540" target="2779" length="188" vmax="97" vmaxr="97" bidirectional="true" radius="2100"/>
+		<link source="3543" target="3544" length="1" gradient="-16.667" vmax="24" vmaxr="24"/>
+		<link source="3544" target="3484" length="39" gradient="-16.667" vmax="24" vmaxr="24"/>
+		<link source="3545" target="3305" length="40" gradient="-16.667" vmax="97" vmaxr="97" bidirectional="true" radius="2100"/>
+		<link source="4021" target="3517" length="4" gradient="-16.667" vmax="97" vmaxr="97" bidirectional="true" radius="1100"/>
+		<link source="4161" target="4445" length="1" gradient="16.949" vmax="40" vmaxr="40" bidirectional="true"/>
+		<link source="4217" target="54" length="25" gradient="16.949" vmax="40" vmaxr="40" bidirectional="true"/>
+		<link source="4218" target="4237" length="33" gradient="2.513" vmax="8" vmaxr="8" bidirectional="true"/>
+		<link source="4225" target="2766" length="11" gradient="2.513" vmax="8" vmaxr="8" bidirectional="true"/>
+		<link source="4237" target="4225" length="1" gradient="2.513" vmax="8" vmaxr="8" bidirectional="true"/>
+		<link source="4431" target="3376" length="84" gradient="-16.667" vmax="97" vmaxr="97" radius="1100"/>
+		<link source="4445" target="35" gradient="16.949" vmax="40" vmaxr="40" bidirectional="true"/>
+		<link source="4456" target="182" length="22" gradient="-16.667" vmax="97" vmaxr="97" radius="2100"/>
+	</links>
+	<dependentLinks/>
+	<blockSections>
+		<blocksection uuid="{03fe0b4c-ff0f-466a-8085-e477687a48dd}" lines="liskea">
+			<part nodes="2345 39 36 2012"/>
+		</blocksection>
+		<blocksection uuid="{0c7330c9-db54-4a28-8326-13b82916c56d}" lines="liskea" speedIndicators="2904">
+			<part nodes="2791 2764 3414 2763 2904 2766 4225 4237 4218 1 3466 40 39 36 2012"/>
+		</blocksection>
+		<blocksection uuid="{1aa98cd5-9e4b-4b90-94f6-ef5daa2d9a23}" lines="liskea">
+			<part nodes="2012 36 39 2345"/>
+		</blocksection>
+		<blocksection uuid="{1b7cbd70-e551-4720-8f6d-b4604096ff2a}" lines="gw108 liskea" shuntingBlock="true">
+			<part nodes="182 4456 2310 3499 3516"/>
+		</blocksection>
+		<blocksection uuid="{2175ec72-996e-4c89-bfe6-ba835ef85b66}" lines="liskea">
+			<part nodes="58 57 4161 4445 35 4217 54 52 33 81 51 43"/>
+		</blocksection>
+		<blocksection uuid="{276509e9-043f-4f99-bc78-add21e1becf6}" lines="liskea">
+			<part nodes="43 51 81 33 52 54 4217 35 4445 4161 57 58"/>
+		</blocksection>
+		<blocksection uuid="{2ef3b910-a28b-47b1-aae4-1890ce9fafe6}" lines="liskea" shuntingBlock="true">
+			<part nodes="2779 3540 3424 3174"/>
+		</blocksection>
+		<blocksection uuid="{31425b83-ef73-4efa-988e-35c87b809a9b}" lines="liskea" shuntingBlock="true" speedIndicators="2904">
+			<part nodes="4225 2766 2904 2763 3414 2764 2791 3388 4021 3517"/>
+		</blocksection>
+		<blocksection uuid="{4d966d3c-caba-43bb-a212-4ac901ac41ea}" lines="gw640 liskea">
+			<part nodes="58 59"/>
+		</blocksection>
+		<blocksection uuid="{4db17247-efc2-4cb7-82e8-9588676fdb64}" lines="gw108 liskea">
+			<part nodes="2791 2764 3414 2763 2748 2747 2532 3539 3479 3478"/>
+		</blocksection>
+		<blocksection uuid="{5bdc441f-f492-43a8-9003-a4a8ad8dc061}" lines="liskea" shuntingBlock="true" speedIndicators="3483 3484">
+			<part nodes="3517 3285 3483 3498 3543 3544 3484 3305 3516 3499"/>
+		</blocksection>
+		<blocksection uuid="{614f6e32-7b2f-4d79-888d-6b7f2bc1fdfa}" lines="liskea" shuntingBlock="true">
+			<part nodes="3539 2532 2749 2782 2793 3174 3424 3540 2779"/>
+		</blocksection>
+		<blocksection uuid="{6643b33c-d4bb-4fdc-b244-f6fdada33c1e}" lines="liskea" shuntingBlock="true">
+			<part nodes="2791 3388 4021 3517"/>
+		</blocksection>
+		<blocksection uuid="{72ed14e5-0355-42e6-82e1-3bd75601a79d}" lines="gw640 liskea">
+			<part nodes="59 58 57 4161 4445 35 4217 54 52 33 81 51 43"/>
+		</blocksection>
+		<blocksection uuid="{73e79a00-bff9-401a-9e69-d347a5463ff5}" lines="gw640 liskea" shuntingBlock="true">
+			<part nodes="59 58 57 4161 4445 35 50 36 39 40 3466 1 4218 4237 4225"/>
+		</blocksection>
+		<blocksection uuid="{851f2197-f9b6-4b23-811b-da419c6e2ef4}" lines="liskea" shuntingBlock="true" speedIndicators="3483 3484">
+			<part nodes="3516 3305 3484 3544 3543 3498 3483 3285 3517 4021 3388 2791"/>
+		</blocksection>
+		<blocksection uuid="{8b892796-33aa-4de6-9eb8-1c251381ab8a}" lines="gw108 liskea" shuntingBlock="true">
+			<part nodes="3174 2793 2782 2749 2532 3539 3479 3478"/>
+		</blocksection>
+		<blocksection uuid="{8c9c8868-1e5d-4e94-b789-7409c9bd4279}" lines="gw108 liskea">
+			<part nodes="3499 2310 4456 182"/>
+		</blocksection>
+		<blocksection uuid="{8e6fc90f-c6d3-4dda-a6e2-3e979f2246d0}" lines="gw108 liskea">
+			<part nodes="2342 2380 2754"/>
+		</blocksection>
+		<blocksection uuid="{9a1e6b57-fa0a-477d-86b7-9f4116ec6af0}" lines="liskea" shuntingBlock="true">
+			<part nodes="3517 4021 3388 2791"/>
+		</blocksection>
+		<blocksection uuid="{a2384fff-17f6-4485-9816-d11a497f3d99}" lines="liskea" speedIndicators="50 2904">
+			<part nodes="2791 2764 3414 2763 2904 2766 4225 4237 4218 1 3466 40 39 36 50 35 4445 4161 57 58"/>
+		</blocksection>
+		<blocksection uuid="{b786bffb-a9e6-4f3d-8119-24200b4e7ece}" lines="liskea" shuntingBlock="true" speedIndicators="50">
+			<part nodes="58 57 4161 4445 35 50 36 39 40 3466 1 4218 4237 4225"/>
+		</blocksection>
+		<blocksection uuid="{c16f6818-7dba-4b48-9b5f-515cac563e80}" lines="liskea" shuntingBlock="true">
+			<part nodes="3516 3305 3545 3506 2737 3413 2779 3540 3424 3174"/>
+		</blocksection>
+		<blocksection uuid="{cece7e60-56b5-4858-8e3f-838a94c18a2d}" lines="liskea" speedIndicators="50">
+			<part nodes="58 57 4161 4445 35 50 36 39 2345"/>
+		</blocksection>
+		<blocksection uuid="{d41f720f-7e82-41c6-9dfd-7bcd1ad7a93c}" lines="liskea" shuntingBlock="true">
+			<part nodes="3539 2532 2747 2748 2763 3414 2764 2791 3388 4021 3517"/>
+		</blocksection>
+		<blocksection uuid="{ddb730e4-9728-4bad-9af8-e46b191944da}" lines="liskea">
+			<part nodes="2754 2781 2793 3174 3424 3540 2779"/>
+		</blocksection>
+		<blocksection uuid="{e8f5110f-42af-4fac-b974-b7324eb32504}" lines="liskea" speedIndicators="50">
+			<part nodes="2345 39 36 50 35 4445 4161 57 58"/>
+		</blocksection>
+		<blocksection uuid="{ed8bba6b-fa97-4af9-ad5b-ddcadcf37ef3}" lines="liskea" shuntingBlock="true">
+			<part nodes="3174 3424 3540 2779"/>
+		</blocksection>
+		<blocksection uuid="{f681ab1e-f3aa-4688-8dea-54cc937fd83f}" lines="gw108 liskea">
+			<part nodes="3376 4431 3285 3517 4021 3388 2791"/>
+		</blocksection>
+		<blocksection uuid="{f7c3ef90-6fe2-45d8-8bf4-6b31b995a0e6}" lines="liskea">
+			<part nodes="2779 3413 2737 3506 3545 3305 3516 3499"/>
+		</blocksection>
+	</blockSections>
+	<slipDistances>
+		<slipdistance uuid="{0131eee2-0774-43b7-a488-d8f77371dd10}" vmax="99" lines="liskea" serialNumber="0">
+			<part nodes="3499 2310"/>
+		</slipdistance>
+		<slipdistance uuid="{6dc8eb9b-51b7-4297-bf17-6681a4f27c42}" vmax="999" lines="gw108 liskea" serialNumber="0">
+			<part nodes="3376 4431"/>
+		</slipdistance>
+		<slipdistance uuid="{9d9cdc21-e096-4c48-9338-5f35b9b35b1e}" vmax="99" lines="liskea" serialNumber="0">
+			<part nodes="2791 2764"/>
+		</slipdistance>
+		<slipdistance uuid="{d033fdc7-3c48-4405-a228-d913fbd9a376}" vmax="999" lines="gw108 liskea" serialNumber="0">
+			<part nodes="3376 4431"/>
+		</slipdistance>
+		<slipdistance uuid="{d312547f-852e-4592-be02-f7bfbc3f50e9}" vmax="99" lines="liskea" serialNumber="0">
+			<part nodes="2754 2781"/>
+		</slipdistance>
+		<slipdistance uuid="{e70a7a93-ff7a-45a9-961b-70fc5d2d83cb}" vmax="999" lines="liskea" serialNumber="0">
+			<part nodes="2779 3413 2737"/>
+		</slipdistance>
+	</slipDistances>
+	<approachControlRoutes/>
+	<stationRoutes>
+		<stationRoute stationID="DUM_Lisk" name="[COOMJGF]-[gw640/1]-[1-2]-[LISKARD]-[gw108/1] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=85;NRz=85;S=85;Rz=85;FGz=85;NGz=85;Gz=85;Lz=85;Unbekannt=85" nodes="59 58 57 4161 4445 35 50 36 39 40 3466 1"/>
+		<stationRoute stationID="DUM_Lisk" name="[COOMJGF]-[gw640/1]-[2]-[LISKARD]-[gw640/1] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="59 58 57 4161 4445 35 4217"/>
+		<stationRoute stationID="DUM_Lisk" name="[COOMJGF]-[gw640/1]-[2]-[]-[gw108/] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=90;NRz=90;S=90;Rz=90;FGz=90;NGz=90;Gz=90;Lz=90;Unbekannt=90" nodes="59 58 57 4161 4445 35 50 36 39 2345 37"/>
+		<stationRoute stationID="DUM_Lisk" name="[LISKARD]-[gw108/1]-[1-2-3]-[LISKARD]-[gw108/1] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=70;NRz=70;S=70;Rz=70;FGz=70;NGz=70;Gz=70;Lz=70;Unbekannt=70" nodes="1 3466 40 39 36 50 35 4445 4161 57 58 57 4161 4445 35 50 36 39 40 3466 1"/>
+		<stationRoute stationID="DUM_Lisk" name="[LISKARD]-[gw108/1]-[1-2-3]-[]-[gw108/] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=75;NRz=75;S=75;Rz=75;FGz=75;NGz=75;Gz=75;Lz=75;Unbekannt=75" nodes="1 3466 40 39 36 50 35 4445 4161 57 58 57 4161 4445 35 50 36 39 2345 37"/>
+		<stationRoute stationID="DUM_Lisk" name="[LISKARD]-[gw108/1]-[1-2]-[COOMJGF]-[gw640/1] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=85;NRz=85;S=85;Rz=85;FGz=85;NGz=85;Gz=85;Lz=85;Unbekannt=85" nodes="1 3466 40 39 36 50 35 4445 4161 57 58 59"/>
+		<stationRoute stationID="DUM_Lisk" name="[LISKARD]-[gw108/1]-[1-2]-[LISKARD]-[gw640/1] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=85;NRz=85;S=85;Rz=85;FGz=85;NGz=85;Gz=85;Lz=85;Unbekannt=85" nodes="1 3466 40 39 36 50 35 4445 4161 57 58 57 4161 4445 35 4217"/>
+		<stationRoute stationID="DUM_Lisk" name="[LISKARD]-[gw108/1]-[1]-[]-[gw108/] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=95;NRz=95;S=95;Rz=95;FGz=95;NGz=95;Gz=95;Lz=95;Unbekannt=95" nodes="1 3466 40 39 36 2012 38"/>
+		<stationRoute stationID="DUM_Lisk" name="[LISKARD]-[gw640/1]-[1-2]-[COOMJGF]-[gw640/1] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="4217 35 4445 4161 57 58 59"/>
+		<stationRoute stationID="DUM_Lisk" name="[LISKARD]-[gw640/1]-[1-2]-[LISKARD]-[gw640/1] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="4217 35 4445 4161 57 58 57 4161 4445 35 4217"/>
+		<stationRoute stationID="DUM_Lisk" name="[LISKARD]-[gw640/1]-[1-2]-[]-[gw108/] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=90;NRz=90;S=90;Rz=90;FGz=90;NGz=90;Gz=90;Lz=90;Unbekannt=90" nodes="4217 35 4445 4161 57 58 57 4161 4445 35 50 36 39 2345 37"/>
+		<stationRoute stationID="DUM_Lisk" name="[]-[gw108/]-[1-2-3]-[LISKARD]-[gw108/1] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=75;NRz=75;S=75;Rz=75;FGz=75;NGz=75;Gz=75;Lz=75;Unbekannt=75" nodes="37 2345 39 36 50 35 4445 4161 57 58 57 4161 4445 35 50 36 39 40 3466 1"/>
+		<stationRoute stationID="DUM_Lisk" name="[]-[gw108/]-[1-2]-[COOMJGF]-[gw640/1] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=90;NRz=90;S=90;Rz=90;FGz=90;NGz=90;Gz=90;Lz=90;Unbekannt=90" nodes="37 2345 39 36 50 35 4445 4161 57 58 59"/>
+		<stationRoute stationID="DUM_Lisk" name="[]-[gw108/]-[1-2]-[LISKARD]-[gw640/1] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=90;NRz=90;S=90;Rz=90;FGz=90;NGz=90;Gz=90;Lz=90;Unbekannt=90" nodes="37 2345 39 36 50 35 4445 4161 57 58 57 4161 4445 35 4217"/>
+		<stationRoute stationID="DUM_Lisk" name="[]-[gw108/]-[1]-[LISKARD]-[gw108/1] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=95;NRz=95;S=95;Rz=95;FGz=95;NGz=95;Gz=95;Lz=95;Unbekannt=95" nodes="38 2012 36 39 40 3466 1"/>
+		<stationRoute stationID="DUM_Lisk" name="route rev" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="4217 35 4445 4161 57 58 57 4161 4445 35 50 36 39 40 3466 1"/>
+		<stationRoute stationID="LISKARD" name="[DUM_Lisk]-[gw108/1]-[2]-[DUM_Lisk]-[gw108/1] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=90;NRz=90;S=90;Rz=90;FGz=90;NGz=90;Gz=90;Lz=90;Unbekannt=90" nodes="4218 4237 4225 2766 2904 2763 3414 2764 2791 3388 4021 3517 4021 3388 2791 2764 3414 2763 2904 2766 4225 4237 4218"/>
+		<stationRoute stationID="LISKARD" name="[DUM_Lisk]-[gw108/1]-[2]-[MENHENT]-[gw108/2] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=95;NRz=95;S=95;Rz=95;FGz=95;NGz=95;Gz=95;Lz=95;Unbekannt=95" nodes="4218 4237 4225 2766 2904 2763 3414 2764 2791 3388 4021 3517 4021 3388 2791 2764 3414 2763 2748 2747 2532 3539 3479 3478"/>
+		<stationRoute stationID="LISKARD" name="[DUM_Lisk]-[gw108/1]-[2]-[STPNCVE]-[gw108/1] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=85;NRz=85;S=85;Rz=85;FGz=85;NGz=85;Gz=85;Lz=85;Unbekannt=85" nodes="4218 4237 4225 2766 2904 2763 3414 2764 2791 3388 4021 3517 3285 3483 3498 3543 3544 3484 3305 3516 3499 2310 4456"/>
+		<stationRoute stationID="LISKARD" name="[DUM_Lisk]-[gw640/1]-[1-2]-[DUM_Lisk]-[gw640/1] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="54 52 33 81 51 43 51 81 33 52 54"/>
+		<stationRoute stationID="LISKARD" name="[DUM_Lisk]-[gw640/1]-[2]-[]-[gw108/] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="54 52 33 81 51 43 28"/>
+		<stationRoute stationID="LISKARD" name="[MENHENT]-[gw108/1]-[1]-[MENHENT]-[gw108/2] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=90;NRz=90;S=90;Rz=90;FGz=90;NGz=90;Gz=90;Lz=90;Unbekannt=90" nodes="2342 2380 2754 2781 2793 3174 3424 3540 2779 3540 3424 3174 2793 2782 2749 2532 3539 3479 3478"/>
+		<stationRoute stationID="LISKARD" name="[MENHENT]-[gw108/1]-[1]-[STPNCVE]-[gw108/1] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="2342 2380 2754 2781 2793 3174 3424 3540 2779 3413 2737 3506 3545 3305 3516 3499 2310 4456"/>
+		<stationRoute stationID="LISKARD" name="[STPNCVE]-[gw108/1]-[1]-[MENHENT]-[gw108/2] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=90;NRz=90;S=90;Rz=90;FGz=90;NGz=90;Gz=90;Lz=90;Unbekannt=90" nodes="4456 2310 3499 3516 3305 3545 3506 2737 3413 2779 3540 3424 3174 2793 2782 2749 2532 3539 3479 3478"/>
+		<stationRoute stationID="LISKARD" name="[STPNCVE]-[gw108/1]-[1]-[STPNCVE]-[gw108/1] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="4456 2310 3499 3516 3305 3545 3506 2737 3413 2779 3540 3424 3174 3424 3540 2779 3413 2737 3506 3545 3305 3516 3499 2310 4456"/>
+		<stationRoute stationID="LISKARD" name="[STPNCVE]-[gw108/1]-[2]-[DUM_Lisk]-[gw108/1] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=95;NRz=95;S=95;Rz=95;FGz=95;NGz=95;Gz=95;Lz=95;Unbekannt=95" nodes="3376 4431 3285 3517 4021 3388 2791 2764 3414 2763 2904 2766 4225 4237 4218"/>
+		<stationRoute stationID="LISKARD" name="[STPNCVE]-[gw108/1]-[2]-[DUM_Lisk]-[gw108/1] (3)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=85;NRz=85;S=85;Rz=85;FGz=85;NGz=85;Gz=85;Lz=85;Unbekannt=85" nodes="4456 2310 3499 3516 3305 3484 3544 3543 3498 3483 3285 3517 4021 3388 2791 2764 3414 2763 2904 2766 4225 4237 4218"/>
+		<stationRoute stationID="LISKARD" name="[STPNCVE]-[gw108/1]-[2]-[MENHENT]-[gw108/2] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="3376 4431 3285 3517 4021 3388 2791 2764 3414 2763 2748 2747 2532 3539 3479 3478"/>
+		<stationRoute stationID="LISKARD" name="[STPNCVE]-[gw108/1]-[2]-[MENHENT]-[gw108/2] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=90;NRz=90;S=90;Rz=90;FGz=90;NGz=90;Gz=90;Lz=90;Unbekannt=90" nodes="4456 2310 3499 3516 3305 3484 3544 3543 3498 3483 3285 3517 4021 3388 2791 2764 3414 2763 2748 2747 2532 3539 3479 3478"/>
+		<stationRoute stationID="LISKARD" name="[STPNCVE]-[gw108/1]-[2]-[STPNCVE]-[gw108/1] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=80;NRz=80;S=80;Rz=80;FGz=80;NGz=80;Gz=80;Lz=80;Unbekannt=80" nodes="4456 2310 3499 3516 3305 3484 3544 3543 3498 3483 3285 3517 4021 3388 2791 3388 4021 3517 3285 3483 3498 3543 3544 3484 3305 3516 3499 2310 4456"/>
+		<stationRoute stationID="LISKARD" name="[STPNCVE]-[gw108/2]-[2]-[STPNCVE]-[gw108/1] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=90;NRz=90;S=90;Rz=90;FGz=90;NGz=90;Gz=90;Lz=90;Unbekannt=90" nodes="3376 4431 3285 3517 4021 3388 2791 3388 4021 3517 3285 3483 3498 3543 3544 3484 3305 3516 3499 2310 4456"/>
+		<stationRoute stationID="LISKARD" name="[]-[gw108/]-[1]-[DUM_Lisk]-[gw640/1] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="28 43 51 81 33 52 54"/>
+	</stationRoutes>
+	<lineCatalog/>
+	<zugNummernFelder/>
+	<switchGears/>
+</line>

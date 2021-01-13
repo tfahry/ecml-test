@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<line lineID="sc167" name="Slateford to Craiglockhart Jn" trafficRouting="on_the_left" type="local" dependentLines="clhtl slatfd">
+	<version major="1" minor="2" patchlevel="0" comment=""/>
+	<creator user="AHowe4" timestamp="2018-02-22T18:53:15"/>
+	<lasteditor user="AHowe4" timestamp="2018-02-22T18:53:15"/>
+	<stations/>
+	<nodes>
+		<node nodeID="64" kilometre="0.400" x="-661.993973999999" y="-13205.835818" xNet="-2467162.2" yNet="9100791.2"/>
+		<node nodeID="69" kilometre="0.400" x="-662.617764000001" y="-13406.047228" xNet="-2467375.8" yNet="9100931.6"/>
+		<node nodeID="270" name="SD:ES675" kilometre="0.408" x="-582.069263454519" y="-13205.8739225455" xNet="-2467260.97272727" yNet="9100775.56363636" referenceNode="64" sightingDistance="true"/>
+		<node nodeID="272" name="SD:ES676" kilometre="0.411" x="-552.622902026687" y="-13406.15258512" xNet="-2467499.572" yNet="9100911.91733333" referenceNode="24.slatfd" sightingDistance="true"/>
+	</nodes>
+	<links>
+		<link source="64" target="270" length="8" gradient="4.608" vmax="40" vmaxr="40" owner="2017 07-09" buildingActivityNetworkSegment="ESEP"/>
+		<link source="69" target="272" length="11" gradient="4.608" vmax="32" vmaxr="32" owner="2017 07-09" buildingActivityNetworkSegment="ESEP"/>
+		<link source="236.clhtl" target="64" length="121" gradient="4.608" vmax="40" vmaxr="40" owner="2017 07-09" buildingActivityNetworkSegment="ESEP"/>
+		<link source="270" target="780.slatfd" length="80" gradient="4.608" vmax="40" vmaxr="40" owner="2017 07-09" buildingActivityNetworkSegment="ESEP"/>
+		<link source="272" target="24.slatfd" length="139" gradient="4.608" vmax="32" vmaxr="32" owner="2017 07-09" buildingActivityNetworkSegment="ESEP"/>
+		<link source="790.clhtl" target="69" length="46" gradient="4.608" vmax="32" vmaxr="32" owner="2017 07-09" buildingActivityNetworkSegment="ESEP"/>
+	</links>
+	<dependentLinks/>
+	<blockSections>
+		<blocksection uuid="{5f89cc95-51db-48bc-a82e-4533209fccae}" lines="clhtl sc167 slatfd">
+			<part nodes="24.slatfd 272 69 790.clhtl"/>
+		</blocksection>
+		<blocksection uuid="{7a267bad-7b05-46f6-9b9f-9741184144a2}" lines="clhtl sc167 slatfd">
+			<part nodes="236.clhtl 64 270 780.slatfd"/>
+		</blocksection>
+	</blockSections>
+	<slipDistances/>
+	<approachControlRoutes/>
+	<stationRoutes/>
+	<lineCatalog/>
+	<zugNummernFelder/>
+	<switchGears/>
+</line>

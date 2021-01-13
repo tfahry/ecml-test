@@ -1,0 +1,449 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<line lineID="greg" name="Grenta Green" trafficRouting="on_the_left" type="global" dependentLines="nw4001 sc001 sc031">
+	<transformations>
+		<transformation line="md101" m11="1" m12="0" m21="0" m22="1" dx="17196" dy="170990"/>
+		<transformation line="nw4001" m11="1" m12="0" m21="0" m22="1" dx="2552.67" dy="2414.92"/>
+		<transformation line="sc001" m11="1" m12="0" m21="0" m22="1" dx="-14338" dy="-191303"/>
+		<transformation line="sc001S" m11="1" m12="0" m21="0" m22="1" dx="-14338" dy="-191303"/>
+		<transformation line="sc031" m11="-1" m12="0" m21="0" m22="-1" dx="1.8381e+06" dy="24378.8"/>
+	</transformations>
+	<version major="1" minor="2" patchlevel="0" comment=""/>
+	<creator user="VWaddelo" timestamp="2016-07-08T10:58:15"/>
+	<lasteditor user="VWaddelo" timestamp="2016-07-08T10:58:15"/>
+	<stations>
+		<station stationID="GRETGRN" name="Gretna Green" xNet="-2244018.8" yNet="7259273.7" uicLocationCode="0" circleDiameter="0">
+			<textElement type="name">
+				<pos view="net" x="3123.29" y="3123.29" angle="0" system="source"/>
+				<pos view="wgs84" x="3123.29" y="3123.29" angle="0" system="source"/>
+				<pos view="line" x="4145.95" y="4145.95" angle="0" system="source"/>
+				<pos view="macro" x="28.2843" y="28.2843" angle="0" system="source"/>
+				<pos view="macroWgs84" x="0" y="0" angle="0" system="source"/>
+			</textElement>
+		</station>
+		<station stationID="GRETNAJ" name="Gretna Junction" xNet="-2225985.25" yNet="7256329" uicLocationCode="0" circleDiameter="0">
+			<textElement type="name">
+				<pos view="net" x="5246.52" y="5246.52" angle="0" system="source"/>
+				<pos view="wgs84" x="5246.52" y="5246.52" angle="0" system="source"/>
+				<pos view="line" x="4058.13" y="4058.13" angle="0" system="source"/>
+				<pos view="macro" x="28.2843" y="28.2843" angle="0" system="source"/>
+				<pos view="macroWgs84" x="0" y="0" angle="0" system="source"/>
+			</textElement>
+		</station>
+	</stations>
+	<nodes>
+		<node nodeID="37" name="OL:" kilometre="15.235" x="157700" y="24743" xNet="-2243593" yNet="7259068.5"/>
+		<switch start="39" endOfMainTrack="17" endOfBranchTrack="37" nodeID="16" name="POINTS:" kilometre="15.590" x="161250" y="24587" xNet="-2245697.4" yNet="7259635.7"/>
+		<node nodeID="39" kilometre="15.617" x="161515.56" y="24587" xNet="-2246416.7" yNet="7259753"/>
+		<track trackID="U-1" stationID="GRETGRN" type="stopBoard" nodeID="45" kilometre="15.881" x="164160" y="24587" xNet="-2247093.6" yNet="7259865.3" referenceNode="47"/>
+		<track trackID="D-1" stationID="GRETGRN" type="stopBoard" nodeID="46" kilometre="15.993" x="165280" y="24587" xNet="-2248341.3" yNet="7260062.1" referenceNode="47">
+			<platform startPos="-1100" endPos="0" width="100" left="false" open="false"/>
+		</track>
+		<track trackID="A-1" stationID="GRETGRN" type="timingPoint" nodeID="47" kilometre="15.937" x="164720" y="24587" xNet="-2247718.2" yNet="7259963.4" referenceNode="45"/>
+		<stationBorder exitType="regular" stationID="GRETGRN" lineID="sc031" trackNumber="1" nodeID="9" name="[EASTGF] - [sc031/1]" kilometre="15.995" x="165301" y="24587" xNet="-2248364.4" yNet="7260064.7" referenceNode="46">
+			<netLimitInfo lineID="sc031"/>
+		</stationBorder>
+		<stationBorder exitType="regular" stationID="GRETGRN" lineID="sc031" trackNumber="1" nodeID="17" name="[GRET525] - [sc031/1]" kilometre="15.000" x="155350" y="24587" xNet="-2239673.2" yNet="7258547.8" referenceNode="16"/>
+		<node nodeID="1184" name="OL: CE524" kilometre="14.356" x="139970.39" y="21614.524" xNet="-2224150.5" yNet="7259606.6"/>
+		<switch start="4" endOfMainTrack="8" endOfBranchTrack="11" nodeID="1" name="POINTS:" kilometre="13.983" x="136240.39" y="21770.524" xNet="-2224765.2" yNet="7255026.9"/>
+		<node nodeID="12246" name="GRAD" kilometre="14.049" x="136900.39" y="22082.524" xNet="-2225506.5" yNet="7255245.1"/>
+		<speedIndicator nodeID="25" name="SPEED" kilometre="14.500" x="140084.39" y="22192.524" xNet="-2230070.9" yNet="7256547.3" referenceNode="48"/>
+		<track trackID="U-3" stationID="GRETNAJ" interlockingMachine="4 Aspect Pannel (76mph - 100mph)" nodeID="48" name="SIG:CE525" kilometre="14.502" x="140104.39" y="22192.524" xNet="-2230090.1" yNet="7256553.9" referenceNode="685"/>
+		<switch start="7" endOfMainTrack="15" endOfBranchTrack="5" nodeID="3" name="POINTS:" kilometre="13.823" x="134640.39" y="21614.524" xNet="-2223573.2" yNet="7253694.4"/>
+		<switch start="1" endOfMainTrack="2" endOfBranchTrack="6" nodeID="4" name="POINTS:" kilometre="13.980" x="136210.39" y="21770.524" xNet="-2224739.3" yNet="7255008.7"/>
+		<switch start="13301" endOfMainTrack="28" endOfBranchTrack="15787" nodeID="17565" name="POINTS:" kilometre="14.071" x="137120.39" y="22186.524" xNet="-2225776" yNet="7255307.3"/>
+		<node nodeID="12" kilometre="14.000" x="136410.39" y="21850.887" xNet="-2224968.6" yNet="7255093.2"/>
+		<node nodeID="1113" kilometre="15.000" x="146410.39" y="21614.524" xNet="-2223413" yNet="7266560.8">
+			<netLimitInfo lineID="sc001"/>
+		</node>
+		<speedIndicator nodeID="13301" name="SPEED" kilometre="14.071" x="137120.39" y="22181.325" xNet="-2225695.6" yNet="7255288.2" referenceNode="17565"/>
+		<node nodeID="1131" name="SD:CE524" kilometre="14.893" x="145340.39" y="21614.524" xNet="-2223519.1" yNet="7265373.5" referenceNode="1113" sightingDistance="true"/>
+		<speedIndicator nodeID="5" name="SPEED" kilometre="13.824" x="134650.39" y="21615.514" xNet="-2223578.8" yNet="7253702.2" referenceNode="6"/>
+		<speedIndicator nodeID="6" name="SPEED" kilometre="13.979" x="136200.39" y="21769.524" xNet="-2224651" yNet="7254940" referenceNode="4"/>
+		<node nodeID="10079" kilometre="14.580" x="142209.72" y="21770.524" xNet="-2224003.1" yNet="7261914.7"/>
+		<speedIndicator nodeID="10077" name="SPEED" kilometre="14.544" x="141848.83" y="21770.524" xNet="-2224039.7" yNet="7261511.7" referenceNode="10079"/>
+		<node nodeID="41" name="OL:" kilometre="14.513" x="146890.39" y="22341.524" xNet="-2230247.5" yNet="7256403.5"/>
+		<stationBorder exitType="regular" stationID="GRETNAJ" lineID="sc031" trackNumber="2" nodeID="28" name="[GRETGRN] - [nw4001/1]" kilometre="14.501" x="141422.77" y="22338.374" xNet="-2230114.2" yNet="7256385.3" referenceNode="17565"/>
+		<stationBorder exitType="regular" stationID="GRETNAJ" lineID="nw4001" trackNumber="1" nodeID="7" name="[MSBD] - [nw4001/1]" kilometre="13.511" x="131520.09" y="21614.524" xNet="-2221664.5" yNet="7250861.5" referenceNode="3">
+			<netLimitInfo lineID="nw4001"/>
+		</stationBorder>
+		<stationBorder exitType="regular" stationID="GRETNAJ" lineID="sc001" trackNumber="1" nodeID="8" name="[QNTNSHL] - [sc001S/1]" kilometre="14.151" x="137922.92" y="21770.524" xNet="-2225113.7" yNet="7255488.6" referenceNode="1"/>
+		<node nodeID="13102" kilometre="15.000" x="151760.39" y="22341.524" xNet="-2239694.6" yNet="7258397.3"/>
+		<node nodeID="32" name="GRAD" kilometre="14.805" x="146724" y="24594" xNet="-2237514.1" yNet="7258134.2"/>
+		<stationBorder exitType="alternative" stationID="GRETNAJ" lineID="sc031" trackNumber="1" nodeID="685" kilometre="14.515" x="140383.26" y="22293.693" xNet="-2230402.8" yNet="7256620.5" referenceNode="48"/>
+		<node nodeID="15787" name=" " kilometre="14.169" x="138100.39" y="22186.524" xNet="-2226575.6" yNet="7255639.3"/>
+		<stationBorder exitType="alternative" stationID="GRETNAJ" lineID="nw4001" trackNumber="2" nodeID="10" kilometre="13.470" x="131108.58" y="21770.524" xNet="-2221567.7" yNet="7250367.7" referenceNode="94">
+			<netLimitInfo lineID="nw4001"/>
+		</stationBorder>
+		<node nodeID="2" name="OL SIG: CE521" kilometre="13.792" x="134330.39" y="21770.524" xNet="-2223566.3" yNet="7253409.7"/>
+		<track trackID="D-2" stationID="GRETNAJ" interlockingMachine="4 Aspect Pannel (101mph - 125mph)" nodeID="94" name="SIG:CE521" kilometre="13.511" x="131520.39" y="21770.524" xNet="-2221809.7" yNet="7250763.5" referenceNode="10"/>
+		<stationBorder exitType="alternative" stationID="GRETNAJ" lineID="sc001" trackNumber="2" nodeID="1168" kilometre="14.615" x="142563.87" y="21614.524" xNet="-2223794" yNet="7262290.3" referenceNode="1079"/>
+		<node nodeID="15" name=" " kilometre="14.094" x="137352.39" y="21614.524" xNet="-2224869.6" yNet="7255490.5"/>
+		<track trackID="U-1" stationID="GRETNAJ" interlockingMachine="4 Aspect Pannel (76mph - 100mph)" nodeID="1079" name="SIG:CE524" kilometre="14.580" x="142210.39" y="21614.524" xNet="-2223829" yNet="7261897.8" referenceNode="1168"/>
+		<speedIndicator nodeID="11" kilometre="13.984" x="136250.39" y="21775.251" xNet="-2224777.2" yNet="7255030.9" referenceNode="1"/>
+		<stationBorder exitType="regular" stationID="GRETGRN" lineID="sc031" trackNumber="2" nodeID="13193" kilometre="15.044" x="153661" y="23321.061" xNet="-2240183.7" yNet="7258482.7" referenceNode="40"/>
+		<track trackID="D-2" stationID="GRETGRN" interlockingMachine="3 Aspect Pannel (Below 75mph)" nodeID="40" name="Signal" kilometre="15.107" x="156420" y="24743" xNet="-2240893.7" yNet="7258606.9" referenceNode="13193"/>
+		<node nodeID="11043" kilometre="15.000" x="151760.39" y="21769.52" xNet="-2223600" yNet="7266500">
+			<netLimitInfo lineID="sc001"/>
+		</node>
+		<node nodeID="10268" name="SD:CE532" kilometre="14.645" x="148210.39" y="21769.52" xNet="-2223700" yNet="7265500" referenceNode="10079" sightingDistance="true"/>
+	</nodes>
+	<links>
+		<link source="1" target="8" length="168" gradient="5.1813" vmax="169" vmaxr="169">
+			<vzg index="1" vmax="169" vmaxr="169"/>
+			<vzg index="2" vmax="169" vmaxr="169"/>
+			<vzg index="3" vmax="169" vmaxr="169"/>
+			<vzg index="4" vmax="201" vmaxr="201"/>
+			<vzg index="5" vmax="201" vmaxr="201"/>
+		</link>
+		<link source="1" target="11" length="1" gradient="5.1813" vmax="169" vmaxr="169">
+			<vzg index="1" vmax="80" vmaxr="64"/>
+			<vzg index="2" vmax="80" vmaxr="64"/>
+			<vzg index="3" vmax="80" vmaxr="64"/>
+			<vzg index="4" vmax="80" vmaxr="64"/>
+			<vzg index="5" vmax="80" vmaxr="64"/>
+		</link>
+		<link source="2" target="4" length="188" gradient="5.1813" vmax="169" vmaxr="169">
+			<vzg index="1" vmax="169" vmaxr="169"/>
+			<vzg index="2" vmax="169" vmaxr="169"/>
+			<vzg index="3" vmax="169" vmaxr="169"/>
+			<vzg index="4" vmax="201" vmaxr="201"/>
+			<vzg index="5" vmax="201" vmaxr="201"/>
+		</link>
+		<link source="3" target="5" length="1" gradient="5.1813" vmax="161" vmaxr="161">
+			<vzg index="1" vmax="161" vmaxr="161"/>
+			<vzg index="2" vmax="161" vmaxr="161"/>
+			<vzg index="3" vmax="161" vmaxr="161"/>
+			<vzg index="4" vmax="201" vmaxr="201"/>
+			<vzg index="5" vmax="201" vmaxr="201"/>
+		</link>
+		<link source="3" target="15" length="271" gradient="5.1813" vmax="161" vmaxr="161">
+			<vzg index="1" vmax="161" vmaxr="161"/>
+			<vzg index="2" vmax="161" vmaxr="161"/>
+			<vzg index="3" vmax="161" vmaxr="161"/>
+			<vzg index="4" vmax="201" vmaxr="201"/>
+			<vzg index="5" vmax="201" vmaxr="201"/>
+		</link>
+		<link source="4" target="1" length="3" gradient="5.1813" vmax="169" vmaxr="169">
+			<vzg index="1" vmax="169" vmaxr="169"/>
+			<vzg index="2" vmax="169" vmaxr="169"/>
+			<vzg index="3" vmax="169" vmaxr="169"/>
+			<vzg index="4" vmax="169" vmaxr="169"/>
+			<vzg index="5" vmax="169" vmaxr="169"/>
+		</link>
+		<link source="5" target="6" length="155" gradient="5.1813" vmax="64" vmaxr="64">
+			<vzg index="1" vmax="64" vmaxr="64"/>
+			<vzg index="2" vmax="64" vmaxr="64"/>
+			<vzg index="3" vmax="64" vmaxr="64"/>
+			<vzg index="4" vmax="64" vmaxr="64"/>
+			<vzg index="5" vmax="64" vmaxr="64"/>
+		</link>
+		<link source="6" target="4" length="1" gradient="5.1813" vmax="169" vmaxr="169">
+			<vzg index="1" vmax="169" vmaxr="169"/>
+			<vzg index="2" vmax="169" vmaxr="169"/>
+			<vzg index="3" vmax="169" vmaxr="169"/>
+			<vzg index="4" vmax="169" vmaxr="169"/>
+			<vzg index="5" vmax="169" vmaxr="169"/>
+		</link>
+		<link source="7" target="3" length="312" gradient="5.1813" vmax="161" vmaxr="161">
+			<vzg index="1" vmax="161" vmaxr="161"/>
+			<vzg index="2" vmax="161" vmaxr="161"/>
+			<vzg index="3" vmax="161" vmaxr="161"/>
+			<vzg index="4" vmax="201" vmaxr="201"/>
+			<vzg index="5" vmax="201" vmaxr="201"/>
+		</link>
+		<link source="8" target="10077" length="393" gradient="5.1813" vmax="169" vmaxr="169">
+			<vzg index="1" vmax="169" vmaxr="169"/>
+			<vzg index="2" vmax="169" vmaxr="169"/>
+			<vzg index="3" vmax="169" vmaxr="169"/>
+			<vzg index="4" vmax="201" vmaxr="201"/>
+			<vzg index="5" vmax="201" vmaxr="201"/>
+		</link>
+		<link source="10" target="94" length="41" gradient="5.1813" vmax="169" vmaxr="169">
+			<vzg index="1" vmax="169" vmaxr="169"/>
+			<vzg index="2" vmax="169" vmaxr="169"/>
+			<vzg index="3" vmax="169" vmaxr="169"/>
+			<vzg index="4" vmax="201" vmaxr="201"/>
+			<vzg index="5" vmax="201" vmaxr="201"/>
+		</link>
+		<link source="11" target="12" length="16" gradient="5.1813" vmax="80" vmaxr="64">
+			<vzg index="1" vmax="80" vmaxr="64"/>
+			<vzg index="2" vmax="80" vmaxr="64"/>
+			<vzg index="3" vmax="80" vmaxr="64"/>
+			<vzg index="4" vmax="80" vmaxr="64"/>
+			<vzg index="5" vmax="80" vmaxr="64"/>
+		</link>
+		<link source="12" target="12246" length="49" gradient="5.1813" vmax="80" vmaxr="64">
+			<vzg index="1" vmax="80" vmaxr="64"/>
+			<vzg index="2" vmax="80" vmaxr="64"/>
+			<vzg index="3" vmax="80" vmaxr="64"/>
+			<vzg index="4" vmax="80" vmaxr="64"/>
+			<vzg index="5" vmax="80" vmaxr="64"/>
+		</link>
+		<link source="15" target="1184" length="262" gradient="5.1813" vmax="161" vmaxr="161">
+			<vzg index="1" vmax="161" vmaxr="161"/>
+			<vzg index="2" vmax="161" vmaxr="161"/>
+			<vzg index="3" vmax="161" vmaxr="161"/>
+			<vzg index="4" vmax="201" vmaxr="201"/>
+			<vzg index="5" vmax="201" vmaxr="201"/>
+		</link>
+		<link source="16" target="39" length="27" gradient="5.1813" vmax="80" vmaxr="80" bidirectional="true">
+			<vzg index="1" vmax="80" vmaxr="80"/>
+			<vzg index="2" vmax="80" vmaxr="80"/>
+			<vzg index="3" vmax="80" vmaxr="80"/>
+			<vzg index="4" vmax="80" vmaxr="80"/>
+			<vzg index="5" vmax="80" vmaxr="80"/>
+		</link>
+		<link source="17" target="16" length="590" gradient="5.1813" vmax="80" vmaxr="80">
+			<vzg index="1" vmax="80" vmaxr="80"/>
+			<vzg index="2" vmax="80" vmaxr="80"/>
+			<vzg index="3" vmax="80" vmaxr="80"/>
+			<vzg index="4" vmax="80" vmaxr="80"/>
+			<vzg index="5" vmax="80" vmaxr="80"/>
+		</link>
+		<link source="25" target="48" length="2" gradient="5.1813" vmax="80" vmaxr="80">
+			<vzg index="1" vmax="80" vmaxr="80"/>
+			<vzg index="2" vmax="80" vmaxr="80"/>
+			<vzg index="3" vmax="80" vmaxr="80"/>
+			<vzg index="4" vmax="80" vmaxr="80"/>
+			<vzg index="5" vmax="80" vmaxr="80"/>
+		</link>
+		<link source="28" target="41" length="12" gradient="5.1813" vmax="80" vmaxr="80">
+			<vzg index="1" vmax="80" vmaxr="80"/>
+			<vzg index="2" vmax="80" vmaxr="80"/>
+			<vzg index="3" vmax="80" vmaxr="80"/>
+			<vzg index="4" vmax="80" vmaxr="80"/>
+			<vzg index="5" vmax="80" vmaxr="80"/>
+		</link>
+		<link source="32" target="17" length="195" gradient="5.1813" vmax="80" vmaxr="80">
+			<vzg index="1" vmax="80" vmaxr="80"/>
+			<vzg index="2" vmax="80" vmaxr="80"/>
+			<vzg index="3" vmax="80" vmaxr="80"/>
+			<vzg index="4" vmax="80" vmaxr="80"/>
+			<vzg index="5" vmax="80" vmaxr="80"/>
+		</link>
+		<link source="37" target="16" length="355" gradient="5.1813" vmax="80" vmaxr="80">
+			<vzg index="1" vmax="80" vmaxr="80"/>
+			<vzg index="2" vmax="80" vmaxr="80"/>
+			<vzg index="3" vmax="80" vmaxr="80"/>
+			<vzg index="4" vmax="80" vmaxr="80"/>
+			<vzg index="5" vmax="80" vmaxr="80"/>
+		</link>
+		<link source="39" target="45" length="264" gradient="5.1813" vmax="80" vmaxr="80" bidirectional="true">
+			<vzg index="1" vmax="80" vmaxr="80"/>
+			<vzg index="2" vmax="80" vmaxr="80"/>
+			<vzg index="3" vmax="80" vmaxr="80"/>
+			<vzg index="4" vmax="80" vmaxr="80"/>
+			<vzg index="5" vmax="80" vmaxr="80"/>
+		</link>
+		<link source="40" target="37" length="128" gradient="5.1813" vmax="80" vmaxr="80">
+			<vzg index="1" vmax="80" vmaxr="80"/>
+			<vzg index="2" vmax="80" vmaxr="80"/>
+			<vzg index="3" vmax="80" vmaxr="80"/>
+			<vzg index="4" vmax="80" vmaxr="80"/>
+			<vzg index="5" vmax="80" vmaxr="80"/>
+		</link>
+		<link source="41" target="13102" length="487" gradient="5.1813" vmax="80" vmaxr="80">
+			<vzg index="1" vmax="80" vmaxr="80"/>
+			<vzg index="2" vmax="80" vmaxr="80"/>
+			<vzg index="3" vmax="80" vmaxr="80"/>
+			<vzg index="4" vmax="80" vmaxr="80"/>
+			<vzg index="5" vmax="80" vmaxr="80"/>
+		</link>
+		<link source="45" target="47" length="56" gradient="5.1813" vmax="80" vmaxr="80" bidirectional="true">
+			<vzg index="1" vmax="80" vmaxr="80"/>
+			<vzg index="2" vmax="80" vmaxr="80"/>
+			<vzg index="3" vmax="80" vmaxr="80"/>
+			<vzg index="4" vmax="80" vmaxr="80"/>
+			<vzg index="5" vmax="80" vmaxr="80"/>
+		</link>
+		<link source="46" target="9" length="2" gradient="5.1813" vmax="80" vmaxr="80" bidirectional="true">
+			<vzg index="1" vmax="80" vmaxr="80"/>
+			<vzg index="2" vmax="80" vmaxr="80"/>
+			<vzg index="3" vmax="80" vmaxr="80"/>
+			<vzg index="4" vmax="80" vmaxr="80"/>
+			<vzg index="5" vmax="80" vmaxr="80"/>
+		</link>
+		<link source="47" target="46" length="56" gradient="5.1813" vmax="80" vmaxr="80" bidirectional="true">
+			<vzg index="1" vmax="80" vmaxr="80"/>
+			<vzg index="2" vmax="80" vmaxr="80"/>
+			<vzg index="3" vmax="80" vmaxr="80"/>
+			<vzg index="4" vmax="80" vmaxr="80"/>
+			<vzg index="5" vmax="80" vmaxr="80"/>
+		</link>
+		<link source="48" target="685" length="13" gradient="5.1813" vmax="80" vmaxr="80">
+			<vzg index="1" vmax="80" vmaxr="80"/>
+			<vzg index="2" vmax="80" vmaxr="80"/>
+			<vzg index="3" vmax="80" vmaxr="80"/>
+			<vzg index="4" vmax="80" vmaxr="80"/>
+			<vzg index="5" vmax="80" vmaxr="80"/>
+		</link>
+		<link source="94" target="2" length="281" gradient="5.1813" vmax="169" vmaxr="169">
+			<vzg index="1" vmax="169" vmaxr="169"/>
+			<vzg index="2" vmax="169" vmaxr="169"/>
+			<vzg index="3" vmax="169" vmaxr="169"/>
+			<vzg index="4" vmax="201" vmaxr="201"/>
+			<vzg index="5" vmax="201" vmaxr="201"/>
+		</link>
+		<link source="685" target="32" length="290" gradient="5.1813" vmax="80" vmaxr="80">
+			<vzg index="1" vmax="80" vmaxr="80"/>
+			<vzg index="2" vmax="80" vmaxr="80"/>
+			<vzg index="3" vmax="80" vmaxr="80"/>
+			<vzg index="4" vmax="80" vmaxr="80"/>
+			<vzg index="5" vmax="80" vmaxr="80"/>
+		</link>
+		<link source="1079" target="1168" length="35" gradient="5.1813" vmax="161" vmaxr="161">
+			<vzg index="1" vmax="161" vmaxr="161"/>
+			<vzg index="2" vmax="161" vmaxr="161"/>
+			<vzg index="3" vmax="161" vmaxr="161"/>
+			<vzg index="4" vmax="201" vmaxr="201"/>
+			<vzg index="5" vmax="201" vmaxr="201"/>
+		</link>
+		<link source="1131" target="1113" length="107" gradient="5.1813" vmax="161" vmaxr="161">
+			<vzg index="1" vmax="161" vmaxr="161"/>
+			<vzg index="2" vmax="161" vmaxr="161"/>
+			<vzg index="3" vmax="161" vmaxr="161"/>
+			<vzg index="4" vmax="201" vmaxr="201"/>
+			<vzg index="5" vmax="201" vmaxr="201"/>
+		</link>
+		<link source="1168" target="1131" length="278" gradient="5.1813" vmax="161" vmaxr="161">
+			<vzg index="1" vmax="161" vmaxr="161"/>
+			<vzg index="2" vmax="161" vmaxr="161"/>
+			<vzg index="3" vmax="161" vmaxr="161"/>
+			<vzg index="4" vmax="201" vmaxr="201"/>
+			<vzg index="5" vmax="201" vmaxr="201"/>
+		</link>
+		<link source="1184" target="1079" length="224" gradient="5.1813" vmax="161" vmaxr="161">
+			<vzg index="1" vmax="161" vmaxr="161"/>
+			<vzg index="2" vmax="161" vmaxr="161"/>
+			<vzg index="3" vmax="161" vmaxr="161"/>
+			<vzg index="4" vmax="201" vmaxr="201"/>
+			<vzg index="5" vmax="201" vmaxr="201"/>
+		</link>
+		<link source="10077" target="10079" length="36" gradient="5.1813" vmax="153" vmaxr="153">
+			<vzg index="1" vmax="153" vmaxr="153"/>
+			<vzg index="2" vmax="153" vmaxr="153"/>
+			<vzg index="3" vmax="153" vmaxr="153"/>
+			<vzg index="4" vmax="177" vmaxr="177"/>
+			<vzg index="5" vmax="177" vmaxr="177"/>
+		</link>
+		<link source="10079" target="10268" length="65" gradient="5.1813" vmax="153" vmaxr="153">
+			<vzg index="1" vmax="153" vmaxr="153"/>
+			<vzg index="2" vmax="153" vmaxr="153"/>
+			<vzg index="3" vmax="153" vmaxr="153"/>
+			<vzg index="4" vmax="177" vmaxr="177"/>
+			<vzg index="5" vmax="177" vmaxr="177"/>
+		</link>
+		<link source="10268" target="11043" length="355" gradient="5.1813" vmax="153" vmaxr="153">
+			<vzg index="1" vmax="153" vmaxr="153"/>
+			<vzg index="2" vmax="153" vmaxr="153"/>
+			<vzg index="3" vmax="153" vmaxr="153"/>
+			<vzg index="4" vmax="177" vmaxr="177"/>
+			<vzg index="5" vmax="177" vmaxr="177"/>
+		</link>
+		<link source="12246" target="13301" length="22" gradient="5.1813" vmax="80" vmaxr="64">
+			<vzg index="1" vmax="80" vmaxr="64"/>
+			<vzg index="2" vmax="80" vmaxr="64"/>
+			<vzg index="3" vmax="80" vmaxr="64"/>
+			<vzg index="4" vmax="80" vmaxr="64"/>
+			<vzg index="5" vmax="80" vmaxr="64"/>
+		</link>
+		<link source="13102" target="13193" length="44" gradient="5.181" vmax="80" vmaxr="80">
+			<vzg index="1" vmax="80" vmaxr="80"/>
+			<vzg index="2" vmax="80" vmaxr="80"/>
+			<vzg index="3" vmax="80" vmaxr="80"/>
+			<vzg index="4" vmax="80" vmaxr="80"/>
+			<vzg index="5" vmax="80" vmaxr="80"/>
+		</link>
+		<link source="13193" target="40" length="63" gradient="5.181" vmax="80" vmaxr="80">
+			<vzg index="1" vmax="80" vmaxr="80"/>
+			<vzg index="2" vmax="80" vmaxr="80"/>
+			<vzg index="3" vmax="80" vmaxr="80"/>
+			<vzg index="4" vmax="80" vmaxr="80"/>
+			<vzg index="5" vmax="80" vmaxr="80"/>
+		</link>
+		<link source="13301" target="17565" gradient="5.1813" vmax="80" vmaxr="80">
+			<vzg index="1" vmax="80" vmaxr="80"/>
+			<vzg index="2" vmax="80" vmaxr="80"/>
+			<vzg index="3" vmax="80" vmaxr="80"/>
+			<vzg index="4" vmax="80" vmaxr="80"/>
+			<vzg index="5" vmax="80" vmaxr="80"/>
+		</link>
+		<link source="15787" target="25" length="331" gradient="5.1813" vmax="64" vmaxr="64">
+			<vzg index="1" vmax="64" vmaxr="64"/>
+			<vzg index="2" vmax="64" vmaxr="64"/>
+			<vzg index="3" vmax="64" vmaxr="64"/>
+			<vzg index="4" vmax="64" vmaxr="64"/>
+			<vzg index="5" vmax="64" vmaxr="64"/>
+		</link>
+		<link source="17565" target="28" length="430" gradient="5.1813" vmax="80" vmaxr="80">
+			<vzg index="1" vmax="80" vmaxr="80"/>
+			<vzg index="2" vmax="80" vmaxr="80"/>
+			<vzg index="3" vmax="80" vmaxr="80"/>
+			<vzg index="4" vmax="80" vmaxr="80"/>
+			<vzg index="5" vmax="80" vmaxr="80"/>
+		</link>
+		<link source="17565" target="15787" length="98" gradient="5.1813" vmax="64" vmaxr="64">
+			<vzg index="1" vmax="64" vmaxr="64"/>
+			<vzg index="2" vmax="64" vmaxr="64"/>
+			<vzg index="3" vmax="64" vmaxr="64"/>
+			<vzg index="4" vmax="64" vmaxr="64"/>
+			<vzg index="5" vmax="64" vmaxr="64"/>
+		</link>
+	</links>
+	<dependentLinks/>
+	<blockSections>
+		<blocksection uuid="{6080d43e-9f25-4f76-a716-f2f6b01e5e1a}" lines="greg nw4001">
+			<part nodes="1079 1184 15 3 7"/>
+		</blocksection>
+		<blocksection uuid="{68beedb2-7232-4264-b392-a808b55d98f3}" lines="greg sc001">
+			<part nodes="1113 1131 1168 1079"/>
+		</blocksection>
+		<blocksection uuid="{80d5da6b-4120-43da-8e3a-f59651477a07}" lines="greg nw4001" speedIndicators="5 6 11 25 13301">
+			<part nodes="48 25 15787 17565 13301 12246 12 11 1 4 6 5 3 7"/>
+		</blocksection>
+		<blocksection uuid="{a97643d2-f73b-46f7-b8bf-d69c53395bbd}" lines="greg sc031">
+			<part nodes="9 46 47 45 39 16 17 32 685 48"/>
+		</blocksection>
+		<blocksection uuid="{acf21235-3b21-4e3a-897f-6718194a61b4}" lines="greg sc001">
+			<part nodes="1113 1131 1168 1079"/>
+		</blocksection>
+		<blocksection uuid="{b28eb00c-023a-428d-87d5-22fb6a2b5e2b}" lines="greg sc031">
+			<part nodes="40 37 16 39 45 47 46 9"/>
+		</blocksection>
+		<blocksection uuid="{c477e687-fac6-4810-8a93-5a29d27a451c}" lines="greg sc001" speedIndicators="10077">
+			<part nodes="94 2 4 1 8 10077 10079 10268 11043"/>
+		</blocksection>
+		<blocksection uuid="{ca703e6d-9b3c-4f2c-a829-f1577a80af18}" lines="greg nw4001">
+			<part nodes="10 94"/>
+		</blocksection>
+		<blocksection uuid="{dcf9b84a-2754-479c-ada3-59fc9929e7a6}" lines="greg sc031">
+			<part nodes="40 37 16 39 45 47 46 9"/>
+		</blocksection>
+		<blocksection uuid="{ff887008-7813-42cb-a12f-7dc513d6ea0c}" lines="greg">
+			<part nodes="94 2 4 1 11 12 12246 13301 17565 28 41 13102 13193 40"/>
+		</blocksection>
+	</blockSections>
+	<slipDistances>
+		<slipdistance uuid="{0ddafbdb-5536-453b-bda9-48680f4ce65a}" lines="greg" serialNumber="0">
+			<part nodes="94 2"/>
+		</slipdistance>
+		<slipdistance uuid="{f9630a3f-bf59-4340-9e21-dcea8c28efae}" lines="greg" serialNumber="0">
+			<part nodes="1079 1184"/>
+		</slipdistance>
+		<slipdistance uuid="{fb41b200-e574-4b5a-945f-0377d018f43e}" lines="greg" serialNumber="0">
+			<part nodes="48 25 15787"/>
+		</slipdistance>
+	</slipDistances>
+	<approachControlRoutes/>
+	<stationRoutes>
+		<stationRoute stationID="GRETGRN" name="[EASTGF]-[sc031/1]-[1]-[GRETNAJ]-[sc031/1] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="9 46 47 45 39 16 17"/>
+		<stationRoute stationID="GRETGRN" name="[GRETNAJ]-[sc031/2]-[1-2]-[EASTGF]-[sc031/1] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=95;NRz=95;S=95;Rz=95;FGz=95;NGz=95;Gz=95;Lz=95;Unbekannt=95" nodes="13193 40 37 16 39 45 47 46 9"/>
+		<stationRoute stationID="GRETNAJ" name="[GRETGRN]-[sc031/1]-[3]-[MSBD]-[sc001S/1] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=80;NRz=80;S=80;Rz=80;FGz=80;NGz=80;Gz=80;Lz=80;Unbekannt=80" nodes="685 48 25 15787 17565 13301 12246 12 11 1 4 6 5 3 7"/>
+		<stationRoute stationID="GRETNAJ" name="[MSBD]-[sc001S/2]-[2]-[GRETGRN]-[sc031/2] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=95;NRz=95;S=95;Rz=95;FGz=95;NGz=95;Gz=95;Lz=95;Unbekannt=95" nodes="10 94 2 4 1 11 12 12246 13301 17565 28"/>
+		<stationRoute stationID="GRETNAJ" name="[MSBD]-[sc001S/2]-[2]-[QNTNSHL]-[sc001S/1] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="10 94 2 4 1 8"/>
+		<stationRoute stationID="GRETNAJ" name="[QNTNSHL]-[sc001S/2]-[1]-[MSBD]-[sc001S/1] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="1168 1079 1184 15 3 7"/>
+	</stationRoutes>
+	<lineCatalog/>
+	<zugNummernFelder/>
+	<switchGears/>
+</line>

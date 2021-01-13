@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<line lineID="cly" name="Claydon L&amp;NE Jn" trafficRouting="on_the_left" type="global" dependentLines="md725 md735 md735a">
+	<transformations>
+		<transformation line="MD725" m11="1" m12="0" m21="0" m22="1" dx="2064" dy="11700"/>
+		<transformation line="md725" m11="0.999848" m12="0.0174524" m21="-0.0174524" m22="0.999848" dx="535863" dy="42748"/>
+		<transformation line="md725_" m11="1" m12="0" m21="0" m22="1" dx="537880" dy="47822"/>
+		<transformation line="md735" m11="0.71934" m12="0.694658" m21="-0.694658" m22="0.71934" dx="53571.8" dy="-203112"/>
+		<transformation line="md735a" m11="0" m12="-1" m21="1" m22="0" dx="244240" dy="269017"/>
+	</transformations>
+	<version major="1" minor="2" patchlevel="0" comment=""/>
+	<creator user="VWaddelo" timestamp="2016-07-08T10:58:15"/>
+	<lasteditor user="VWaddelo" timestamp="2016-07-08T10:58:15"/>
+	<stations>
+		<station stationID="CLAYDON" name="Claydon (perhaps closed - has to be checked)" xNet="-20211.4605" yNet="1487779.35" uicLocationCode="0" circleDiameter="0">
+			<textElement type="name">
+				<pos view="net" x="1717.63" y="1717.63" angle="0" system="source"/>
+				<pos view="wgs84" x="1717.63" y="1717.63" angle="0" system="source"/>
+				<pos view="line" x="2139.45" y="2139.45" angle="0" system="source"/>
+				<pos view="macro" x="28.2843" y="28.2843" angle="0" system="source"/>
+				<pos view="macroWgs84" x="0" y="0" angle="0" system="source"/>
+			</textElement>
+		</station>
+		<station stationID="CYDNJN" name="Claydon (L&amp;NE) Jn" xNet="-25451.044" yNet="1486560.2" uicLocationCode="0" circleDiameter="0">
+			<textElement type="name">
+				<pos view="net" x="572.495" y="572.495" angle="0" system="source"/>
+				<pos view="wgs84" x="572.495" y="572.495" angle="0" system="source"/>
+				<pos view="line" x="2121.04" y="2121.04" angle="0" system="source"/>
+				<pos view="macro" x="28.2843" y="28.2843" angle="0" system="source"/>
+				<pos view="macroWgs84" x="0" y="0" angle="0" system="source"/>
+			</textElement>
+		</station>
+	</stations>
+	<nodes>
+		<track trackID="D-1" stationID="CYDNJN" interlockingMachine="3 Aspect Pannel (Below 75mph)" nodeID="6" name="SIG:3" kilometre="20.367" x="277712.6" y="-36954.795" xNet="-25004.502" yNet="1486647.4" referenceNode="38"/>
+		<switch start="20064" endOfMainTrack="20108" endOfBranchTrack="20078" nodeID="20061" name="POINTS:101" kilometre="20.453" x="277134.77" y="-36401.566" xNet="-25808.719" yNet="1486521.1"/>
+		<switch start="20064" endOfMainTrack="20077" endOfBranchTrack="20071" nodeID="20067" name="POINTS:102" kilometre="20.433" x="277228.85" y="-36488.54" xNet="-25269.371" yNet="1486606.5"/>
+		<kilometreInconsistency newKilometre="0.82" nodeID="20063" kilometre="20.464" x="276917.28" y="-36425.379" xNet="-25861.796" yNet="1486482.3" referenceNode="20068"/>
+		<node nodeID="20069" kilometre="20.423" x="277552.78" y="-36525.809" xNet="-25174.15" yNet="1486792.9"/>
+		<node nodeID="20071" kilometre="20.428" x="277308.69" y="-36565.647" xNet="-25225.742" yNet="1486612.4"/>
+		<node nodeID="2" name="GA" kilometre="0.583" x="273588.39" y="-36424.408" xNet="-26057.782" yNet="1486309.4"/>
+		<track trackID="U-1" stationID="CYDNJN" interlockingMachine="3 Aspect Pannel (Below 75mph)" nodeID="20088" name="SIG:4HNC" kilometre="20.604" x="276764.18" y="-36041.205" xNet="-26173.95" yNet="1486445.2" referenceNode="524"/>
+		<speedIndicator nodeID="20079" name="SPEED" kilometre="0.815" x="276848.92" y="-36425.365" xNet="-25882.994" yNet="1486464.2" referenceNode="32"/>
+		<speedIndicator change="head" nodeID="20065" kilometre="0.815" x="276849.61" y="-36425.365" xNet="-25882.781" yNet="1486464.4" referenceNode="20063"/>
+		<stationBorder exitType="regular" stationID="CYDNJN" lineID="md735a" trackNumber="MLUD" nodeID="524" kilometre="20.606" x="276708.96" y="-35987.883" xNet="-26193.714" yNet="1486441.1" referenceNode="20088">
+			<netLimitInfo lineID="md735a"/>
+		</stationBorder>
+		<stationBorder exitType="alternative" stationID="CYDNJN" lineID="md735" trackNumber="MLUD" nodeID="4" kilometre="20.193" x="278951.98" y="-38151.768" xNet="-24708.374" yNet="1486705" referenceNode="38"/>
+		<speedIndicator change="head" nodeID="20077" kilometre="20.432" x="277265.22" y="-36492.394" xNet="-25249" yNet="1486644" referenceNode="20067"/>
+		<node nodeID="152" kilometre="19.800" x="281799.28" y="-40912.781" xNet="-21428" yNet="1487417"/>
+		<node nodeID="153" kilometre="19.600" x="283237.96" y="-42302.098" xNet="-19478.925" yNet="1487843"/>
+		<node nodeID="154" name="GA" kilometre="19.400" x="284676.64" y="-43691.414" xNet="-17526" yNet="1488445">
+			<netLimitInfo lineID="md735"/>
+		</node>
+		<node nodeID="283" name="GRAD" kilometre="19.654" x="282848.8" y="-41926.288" xNet="-20008.099" yNet="1487730.6"/>
+		<node nodeID="20083" kilometre="20.059" x="279889.26" y="-39057.125" xNet="-24417" yNet="1486766.3"/>
+		<speedIndicator change="head" nodeID="147" kilometre="20.000" x="280360.6" y="-39523.465" xNet="-22091" yNet="1487268" referenceNode="152"/>
+		<track trackID="T-1" stationID="CLAYDON" type="timingPoint" nodeID="284" name="Claydon Station" kilometre="19.714" x="282417.2" y="-41509.493" xNet="-20594.985" yNet="1487605.8" referenceNode="321">
+			<platform startPos="-350" endPos="350" width="150" left="false" open="true"/>
+		</track>
+		<track trackID="E-1" stationID="CLAYDON" type="stopBoard" nodeID="321" kilometre="19.750" x="282159.03" y="-41260.18" xNet="-20946.041" yNet="1487531.2" referenceNode="284"/>
+		<track trackID="U-1" stationID="CLAYDON" type="stopBoard" nodeID="320" kilometre="19.677" x="282682.17" y="-41765.37" xNet="-20234.694" yNet="1487682.4" referenceNode="284"/>
+		<node nodeID="8" kilometre="19.800" x="281935.64" y="-40754.119" xNet="-21505" yNet="1487597"/>
+		<track trackID="T-2" stationID="CLAYDON" type="timingPoint" nodeID="577" name="Claydon" kilometre="19.714" x="282555.86" y="-41353.054" xNet="-20987.336" yNet="1487707.7" referenceNode="578"/>
+		<switch start="581" endOfMainTrack="253" endOfBranchTrack="586" nodeID="576" name="POINTS:103" kilometre="19.503" x="283935.73" y="-42975.921" xNet="-19094.925" yNet="1488119"/>
+		<node nodeID="575" name="POINT" kilometre="19.587" x="283470.9" y="-42236.695" xNet="-20551" yNet="1487810"/>
+		<node nodeID="7" name="SIG:3" kilometre="20.272" x="278534.9" y="-37470.853" xNet="-24924.193" yNet="1486845.5"/>
+		<node nodeID="582" name="GRAD" kilometre="19.654" x="282984.91" y="-41767.388" xNet="-20837" yNet="1487740.3"/>
+		<speedIndicator nodeID="20068" kilometre="20.460" x="276996.78" y="-36416.934" xNet="-25849" yNet="1486492" referenceNode="20063"/>
+		<speedIndicator nodeID="20105" name="SPEED" kilometre="20.537" x="276928.27" y="-36200.769" xNet="-26012.229" yNet="1486478.8" referenceNode="20088"/>
+		<speedIndicator nodeID="581" name="SPEED" kilometre="19.495" x="283995.75" y="-43033.882" xNet="-18403.925" yNet="1488261" referenceNode="579"/>
+		<stationBorder exitType="regular" stationID="CYDNJN" lineID="md725" trackNumber="CLUD" nodeID="20058" kilometre="0.573" x="273356.61" y="-36424.049" xNet="-26133.125" yNet="1486237.8" referenceNode="2">
+			<netLimitInfo lineID="md725"/>
+		</stationBorder>
+		<node nodeID="20078" description="Up &amp; Dn Claydon" kilometre="20.460" x="276997.58" y="-36416.849" xNet="-25842.689" yNet="1486496.3"/>
+		<track trackID="D-3" stationID="CYDNJN" interlockingMachine="3 Aspect Pannel (Below 75mph)" nodeID="1" name="SIG:6HNC" kilometre="0.593" x="273813.84" y="-36424.757" xNet="-26012.052" yNet="1486347.4" referenceNode="2"/>
+		<track trackID="D-2" stationID="CYDNJN" interlockingMachine="3 Aspect Pannel (Below 75mph)" nodeID="20106" name="SIG:5" kilometre="20.362" x="277951.14" y="-36905.999" xNet="-25073.173" yNet="1486814.2" referenceNode="20110"/>
+		<stationBorder exitType="regular" stationID="CYDNJN" lineID="md735" trackNumber="GLUD" nodeID="29" kilometre="20.254" x="278661.9" y="-37593.464" xNet="-24755.022" yNet="1486882.6" referenceNode="7"/>
+		<node nodeID="580" kilometre="19.994" x="280536.15" y="-39402.913" xNet="-22382.906" yNet="1487403"/>
+		<stationBorder exitType="alternative" stationID="CLAYDON" lineID="md735" trackNumber="GLUD" nodeID="31" kilometre="20.026" x="280304.92" y="-39179.672" xNet="-22566.463" yNet="1487363.2" referenceNode="9"/>
+		<stationBorder exitType="regular" stationID="CLAYDON" lineID="md735" trackNumber="MLUD" nodeID="20107" kilometre="20.026" x="280152.89" y="-39317.959" xNet="-22526" yNet="1487184" referenceNode="147"/>
+		<node nodeID="578" kilometre="19.765" x="282188.05" y="-40997.866" xNet="-21121.697" yNet="1487676.1"/>
+		<node nodeID="528" kilometre="19.765" x="282053.59" y="-41158.364" xNet="-21089.405" yNet="1487500.7"/>
+		<stationBorder exitType="regular" stationID="CLAYDON" lineID="md735" trackNumber="MLUD" nodeID="584" kilometre="19.434" x="284433.62" y="-43456.731" xNet="-17856.458" yNet="1488374.7" referenceNode="574"/>
+		<node nodeID="579" kilometre="19.484" x="284073.44" y="-43108.909" xNet="-18274" yNet="1488288"/>
+		<track trackID="D-3" stationID="CLAYDON" interlockingMachine="3 Aspect Pannel (Below 75mph)" nodeID="574" name="SIG:1HNC" kilometre="19.460" x="284245.04" y="-43274.622" xNet="-18112.887" yNet="1488320.2" referenceNode="584"/>
+		<track trackID="S-2" stationID="CLAYDON" interlockingMachine="3 Aspect Pannel (Below 75mph)" nodeID="9" name="SIG:2" kilometre="20.011" x="280413.37" y="-39284.375" xNet="-22422" yNet="1487395" referenceNode="31"/>
+		<node nodeID="32" name="tc" description="release contact for track circuit" kilometre="0.791" x="276520.8" y="-36425.299" xNet="-25896.946" yNet="1486451.6" referenceNode="20079" releaseContact="true" arranged="true"/>
+		<node nodeID="20064" name="Claydon L&amp;NE Jn" kilometre="20.443" x="277179.02" y="-36444.991" xNet="-25527.149" yNet="1486565.6"/>
+		<node nodeID="20108" name="tc" description="release contact for track circuit" kilometre="20.493" x="277036.44" y="-36305.948" xNet="-25905.629" yNet="1486501" referenceNode="20061" releaseContact="true" arranged="true"/>
+		<node nodeID="20070" name="tc" description="release contact for track circuit" kilometre="20.392" x="277755.23" y="-36719.02" xNet="-25122.834" yNet="1486803.7" referenceNode="20069" releaseContact="true" arranged="true"/>
+		<node nodeID="20072" name="tc" description="release contact for track circuit" kilometre="20.393" x="277540.44" y="-36788.929" xNet="-25098.801" yNet="1486632.5" referenceNode="20071" releaseContact="true" arranged="true"/>
+		<node nodeID="585" name="tc" description="release contact for track circuit" kilometre="19.543" x="283714.38" y="-42623.909" xNet="-19788.294" yNet="1487971.9" referenceNode="586" releaseContact="true" arranged="true"/>
+		<node nodeID="253" name="tc" description="release contact for track circuit" kilometre="19.543" x="283647.99" y="-42698.056" xNet="-19253.276" yNet="1488005.2" referenceNode="576" releaseContact="true" arranged="true"/>
+		<track trackID="U-2" stationID="CLAYDON" type="shunting" interlockingMachine="Shunt" nodeID="586" kilometre="19.530" x="283786.32" y="-42738.309" xNet="-19562.956" yNet="1488019.7" referenceNode="585"/>
+		<node nodeID="38" name="SD" kilometre="20.297" x="278211.21" y="-37436.34" xNet="-24885.369" yNet="1486670.6" referenceNode="4" sightingDistance="true"/>
+		<node nodeID="20110" name="SD" kilometre="20.292" x="278405.17" y="-37345.326" xNet="-24957.301" yNet="1486838.5" referenceNode="7" sightingDistance="true"/>
+		<node nodeID="39" name="SD" kilometre="20.081" x="279908.57" y="-38797.029" xNet="-23094.412" yNet="1487247.3" referenceNode="29" sightingDistance="true"/>
+	</nodes>
+	<links>
+		<link source="1" target="32" length="198" gradient="5.682" vmax="24" vmaxr="24" bidirectional="true"/>
+		<link source="2" target="1" length="10" gradient="5.682" vmax="24" vmaxr="24" bidirectional="true"/>
+		<link source="4" target="20083" length="135" gradient="-2.89" vmax="24" vmaxr="24"/>
+		<link source="6" target="38" length="70" gradient="-2.89" vmax="24" vmaxr="24"/>
+		<link source="7" target="29" length="18" gradient="-2.89" vmax="24" vmaxr="24"/>
+		<link source="8" target="578" length="35" gradient="-2.89" vmax="24" vmaxr="24"/>
+		<link source="9" target="580" length="17" gradient="-2.89" vmax="24" vmaxr="24"/>
+		<link source="29" target="39" length="173" gradient="-2.89" vmax="24" vmaxr="24"/>
+		<link source="31" target="9" length="15" gradient="-2.89" vmax="24" vmaxr="24"/>
+		<link source="32" target="20079" length="24" gradient="5.682" vmax="24" vmaxr="24" bidirectional="true"/>
+		<link source="38" target="4" length="103" gradient="-2.89" vmax="24" vmaxr="24"/>
+		<link source="39" target="31" length="55" gradient="-2.89" vmax="24" vmaxr="24"/>
+		<link source="147" target="152" length="200" gradient="-2.89" vmax="24" vmaxr="24"/>
+		<link source="152" target="528" length="35" gradient="-2.89" vmax="24" vmaxr="24"/>
+		<link source="153" target="253" length="57" gradient="4.785" vmax="24" vmaxr="24"/>
+		<link source="253" target="576" length="40" gradient="4.785" vmax="24" vmaxr="24"/>
+		<link source="283" target="153" length="54" gradient="4.785" vmax="24" vmaxr="24"/>
+		<link source="284" target="320" length="37" gradient="-2.89" vmax="24" vmaxr="24"/>
+		<link source="320" target="283" length="23" gradient="-2.89" vmax="24" vmaxr="24"/>
+		<link source="321" target="284" length="36" gradient="-2.89" vmax="24" vmaxr="24"/>
+		<link source="524" target="20088" length="2" gradient="-2.89" vmax="48" vmaxr="48" bidirectional="true"/>
+		<link source="528" target="321" length="15" gradient="-2.89" vmax="24" vmaxr="24"/>
+		<link source="574" target="584" length="26" gradient="4.785" vmax="48" vmaxr="48" bidirectional="true"/>
+		<link source="575" target="585" length="44" gradient="4.785" vmax="24" vmaxr="24"/>
+		<link source="576" target="581" length="8" gradient="4.785" vmax="24" vmaxr="24" bidirectional="true"/>
+		<link source="577" target="582" length="60" gradient="-2.89" vmax="24" vmaxr="24"/>
+		<link source="578" target="577" length="51" gradient="-2.89" vmax="24" vmaxr="24"/>
+		<link source="579" target="574" length="24" gradient="4.785" vmax="48" vmaxr="48" bidirectional="true"/>
+		<link source="580" target="8" length="194" gradient="-2.89" vmax="24" vmaxr="24"/>
+		<link source="581" target="579" length="11" gradient="4.785" vmax="48" vmaxr="48" bidirectional="true"/>
+		<link source="582" target="575" length="67" gradient="4.785" vmax="24" vmaxr="24"/>
+		<link source="584" target="154" length="34" gradient="4.785" vmax="48" vmaxr="48" bidirectional="true"/>
+		<link source="585" target="586" length="13" gradient="4.785" vmax="24" vmaxr="24"/>
+		<link source="586" target="576" length="27" gradient="4.785" vmax="24" vmaxr="24"/>
+		<link source="20058" target="2" length="10" gradient="5.682" vmax="24" vmaxr="24" bidirectional="true"/>
+		<link source="20061" target="20064" length="10" gradient="-2.89" vmax="24" vmaxr="24"/>
+		<link source="20063" target="20068" length="4" gradient="-2.89" vmax="24" vmaxr="24" bidirectional="true"/>
+		<link source="20064" target="20067" length="10" gradient="-2.89" vmax="24" vmaxr="24"/>
+		<link source="20065" target="20063" length="5" gradient="5.682" vmax="24" vmaxr="24" bidirectional="true"/>
+		<link source="20067" target="20071" length="5" gradient="-2.89" vmax="24" vmaxr="24"/>
+		<link source="20067" target="20077" length="1" gradient="-2.89" vmax="24" vmaxr="24"/>
+		<link source="20068" target="20078" gradient="-2.89" vmax="24" vmaxr="24" bidirectional="true"/>
+		<link source="20069" target="20070" length="31" gradient="-2.89" vmax="24" vmaxr="24"/>
+		<link source="20070" target="20106" length="30" gradient="-2.89" vmax="24" vmaxr="24"/>
+		<link source="20071" target="20072" length="35" gradient="-2.89" vmax="24" vmaxr="24"/>
+		<link source="20072" target="6" length="26" gradient="-2.89" vmax="24" vmaxr="24"/>
+		<link source="20077" target="20069" length="9" gradient="-2.89" vmax="24" vmaxr="24"/>
+		<link source="20078" target="20061" length="7" gradient="-2.89" vmax="24" vmaxr="24" bidirectional="true"/>
+		<link source="20079" target="20065" gradient="5.682" vmax="24" vmaxr="24" bidirectional="true"/>
+		<link source="20083" target="20107" length="33" gradient="-2.89" vmax="24" vmaxr="24"/>
+		<link source="20088" target="20105" length="62" gradient="-2.89" vmax="48" vmaxr="48" bidirectional="true"/>
+		<link source="20105" target="20108" length="44" gradient="-2.89" vmax="24" vmaxr="24" bidirectional="true"/>
+		<link source="20106" target="20110" length="70" gradient="-2.89" vmax="24" vmaxr="24"/>
+		<link source="20107" target="147" length="26" gradient="-2.89" vmax="24" vmaxr="24"/>
+		<link source="20108" target="20061" length="40" gradient="-2.89" vmax="24" vmaxr="24" bidirectional="true"/>
+		<link source="20110" target="7" length="20" gradient="-2.89" vmax="24" vmaxr="24"/>
+	</links>
+	<dependentLinks/>
+	<blockSections>
+		<blocksection uuid="{18976dba-3080-4f80-a5af-7d12102a89e1}" lines="bltsfj cly md735">
+			<part nodes="9 580 8 578 577 582 575 585 586 576 581 579 574 584 154"/>
+		</blocksection>
+		<blocksection uuid="{2d7f1272-c5ee-4011-8868-9b5446c4d7f7}" lines="cly md725" speedIndicators="20065 20068 20077 20079">
+			<part nodes="20106 20070 20069 20077 20067 20064 20061 20078 20068 20063 20065 20079 32 1 2 20058"/>
+		</blocksection>
+		<blocksection uuid="{4122e5b1-b55a-49dc-a665-21c9dce7164c}" lines="cly" speedIndicators="20077 20105">
+			<part nodes="20088 20105 20108 20061 20064 20067 20077 20069 20070 20106 20110 7 29 39 31 9"/>
+		</blocksection>
+		<blocksection uuid="{481a76fa-7268-4a88-a178-aa7783d07331}" lines="cly" shuntingBlock="true">
+			<part nodes="586 585 575 582 577 578 8 580 9 31 39 29 7 20110 20106"/>
+		</blocksection>
+		<blocksection uuid="{61407b83-7922-45e4-aa1a-dab827e260a2}" lines="cly md725" shuntingBlock="true">
+			<part nodes="20058 2 1"/>
+		</blocksection>
+		<blocksection uuid="{740817c2-eb2f-43b0-a215-983c0f713267}" lines="cly md735" shuntingBlock="true">
+			<part nodes="154 584 574"/>
+		</blocksection>
+		<blocksection uuid="{8083067a-0fc6-4a50-b386-b20375e3955f}" lines="cly" shuntingBlock="true">
+			<part nodes="9 580 8 578 577 582 575 585 586"/>
+		</blocksection>
+		<blocksection uuid="{8c87fd65-064e-4360-a08f-d40c3bfd8735}" lines="cly md725">
+			<part nodes="20058 2 1"/>
+		</blocksection>
+		<blocksection uuid="{8d09510c-3959-456f-9767-025d556e0e6b}" lines="cly md725" shuntingBlock="true" speedIndicators="20065 20068 20077 20079">
+			<part nodes="20106 20070 20069 20077 20067 20064 20061 20078 20068 20063 20065 20079 32 1 2 20058"/>
+		</blocksection>
+		<blocksection uuid="{92b29997-6a1c-4ef3-b62a-f72d97453bac}" lines="cly md725" shuntingBlock="true" speedIndicators="20065 20068 20077 20079">
+			<part nodes="20106 20070 20069 20077 20067 20064 20061 20078 20068 20063 20065 20079 32 1 2 20058"/>
+		</blocksection>
+		<blocksection uuid="{96a24fbd-8030-45e0-91d8-0cf6619a2487}" lines="cly md725" shuntingBlock="true" speedIndicators="20065 20068 20079">
+			<part nodes="6 20072 20071 20067 20064 20061 20078 20068 20063 20065 20079 32 1 2 20058"/>
+		</blocksection>
+		<blocksection uuid="{98e0ce7c-e57a-49e7-8dee-130d36fbac45}" lines="cly" speedIndicators="147 581">
+			<part nodes="574 579 581 576 253 153 283 320 284 321 528 152 147 20107 20083 4 38 6"/>
+		</blocksection>
+		<blocksection uuid="{9bf74dac-164f-4145-add1-3ab654e3eafc}" lines="cly" speedIndicators="20065 20068 20077 20079">
+			<part nodes="1 32 20079 20065 20063 20068 20078 20061 20064 20067 20077 20069 20070 20106 20110 7 29 39 31 9"/>
+		</blocksection>
+		<blocksection uuid="{acb0b36b-2e8c-49fc-9b5c-d37eec1d132e}" lines="cly">
+			<part nodes="9 31 39 29 7 20110 20106"/>
+		</blocksection>
+		<blocksection uuid="{af881159-df49-41b5-a21f-4fb8d1aa8249}" lines="cly md735a">
+			<part nodes="20106 20070 20069 20077 20067 20064 20061 20108 20105 20088 524"/>
+		</blocksection>
+		<blocksection uuid="{b60516fc-1b7e-4d0b-a7b8-502674588114}" lines="cly" speedIndicators="581">
+			<part nodes="574 579 581 576 586 585 575 582 577 578 8 580 9 31 39 29 7 20110 20106"/>
+		</blocksection>
+		<blocksection uuid="{c04a7430-2961-4b43-98dc-117c8130a4c1}" lines="cly md725" shuntingBlock="true" speedIndicators="20065 20068 20079">
+			<part nodes="6 20072 20071 20067 20064 20061 20078 20068 20063 20065 20079 32 1 2 20058"/>
+		</blocksection>
+		<blocksection uuid="{c4b0aea1-084c-4d71-bc72-f1902477ba01}" lines="cly md735a" shuntingBlock="true">
+			<part nodes="524 20088"/>
+		</blocksection>
+		<blocksection uuid="{e0c8836b-4d50-453d-9e30-4755ba34d861}" lines="cly md725" speedIndicators="20065 20068 20079">
+			<part nodes="6 20072 20071 20067 20064 20061 20078 20068 20063 20065 20079 32 1 2 20058"/>
+		</blocksection>
+		<blocksection uuid="{f030d32a-5f61-487c-a8d2-7c0f02fecf66}" lines="cly md735a">
+			<part nodes="6 20072 20071 20067 20064 20061 20108 20105 20088 524"/>
+		</blocksection>
+	</blockSections>
+	<slipDistances>
+		<slipdistance uuid="{147315f8-974d-4e87-9856-dba691f35c28}" vmax="999" lines="cly" serialNumber="0">
+			<part nodes="6 20072 20071"/>
+		</slipdistance>
+		<slipdistance uuid="{a98711fd-e77b-446f-9f69-f5e5442f501e}" vmax="999" lines="cly" serialNumber="0">
+			<part nodes="1 32 20079 20065 20063"/>
+		</slipdistance>
+	</slipDistances>
+	<approachControlRoutes/>
+	<stationRoutes>
+		<stationRoute stationID="CLAYDON" name="GLUD U2 GLUD" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="31 9 580 8 578 577 582 575 585 586 585 575 582 577 578 8 580 9 31"/>
+		<stationRoute stationID="CLAYDON" name="[CYDNJN]-[md735/GLUD]-[2]-[CYDNJN]-[md735/GLUD] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="31 9 31"/>
+		<stationRoute stationID="CLAYDON" name="[CYDNJN]-[md735/GLUD]-[2]-[WINSLOW]-[md735/MLUD] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=95;NRz=95;S=95;Rz=95;FGz=95;NGz=95;Gz=95;Lz=95;Unbekannt=95" nodes="31 9 580 8 578 577 582 575 585 586 576 581 579 574 584"/>
+		<stationRoute stationID="CLAYDON" name="[WINSLOW]-[md735/MLUD]-[1-3]-[CYDNJN]-[md735/MLUD] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="584 574 579 581 576 253 153 283 320 284 321 528 152 147 20107"/>
+		<stationRoute stationID="CLAYDON" name="[WINSLOW]-[md735/MLUD]-[2-3]-[CYDNJN]-[md735/GLUD] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=95;NRz=95;S=95;Rz=95;FGz=95;NGz=95;Gz=95;Lz=95;Unbekannt=95" nodes="584 574 579 581 576 586 585 575 582 577 578 8 580 9 31"/>
+		<stationRoute stationID="CYDNJN" name="CLUD GLUD" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="20058 2 1 32 20079 20065 20063 20068 20078 20061 20064 20067 20077 20069 20070 20106 20110 7 29"/>
+		<stationRoute stationID="CYDNJN" name="[BCSTLRD]-[md735/MLUD]-[1]-[CLAYDON]-[md735/GLUD] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="524 20088 20105 20108 20061 20064 20067 20077 20069 20070 20106 20110 7 29"/>
+		<stationRoute stationID="CYDNJN" name="[CLAYDON]-[md735/GLUD]-[2]-[BCSTLRD]-[md735/MLUD] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="29 7 20110 20106 20070 20069 20077 20067 20064 20061 20108 20105 20088 524"/>
+		<stationRoute stationID="CYDNJN" name="[CLAYDON]-[md735/GLUD]-[2]-[CALVERT]-[md725/CLUD] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=95;NRz=95;S=95;Rz=95;FGz=95;NGz=95;Gz=95;Lz=95;Unbekannt=95" nodes="29 7 20110 20106 20070 20069 20077 20067 20064 20061 20078 20068 20063 20065 20079 32 1 2 20058"/>
+		<stationRoute stationID="CYDNJN" name="[CLAYDON]-[md735/MLUD]-[1]-[BCSTLRD]-[md735/MLUD] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=95;NRz=95;S=95;Rz=95;FGz=95;NGz=95;Gz=95;Lz=95;Unbekannt=95" nodes="4 38 6 20072 20071 20067 20064 20061 20108 20105 20088 524"/>
+		<stationRoute stationID="CYDNJN" name="[CLAYDON]-[md735/MLUD]-[1]-[CALVERT]-[md725/CLUD] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=90;NRz=90;S=90;Rz=90;FGz=90;NGz=90;Gz=90;Lz=90;Unbekannt=90" nodes="4 38 6 20072 20071 20067 20064 20061 20078 20068 20063 20065 20079 32 1 2 20058"/>
+	</stationRoutes>
+	<lineCatalog/>
+	<zugNummernFelder/>
+	<switchGears/>
+</line>

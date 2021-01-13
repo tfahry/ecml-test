@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<line lineID="ln778" name="Seymore Junction to Bolsover" trafficRouting="on_the_left" type="local" dependentLines="seymj">
+	<version major="1" minor="2" patchlevel="0" comment=""/>
+	<creator user="Ahowe4" timestamp="2016-11-01T12:54:22"/>
+	<lasteditor user="Ahowe4" timestamp="2016-11-01T12:54:22"/>
+	<stations>
+		<station stationID="BLSVFHH" name="BOLSOVER COALITE (FHH)" xNet="-402242.155" yNet="3923117.7" uicLocationCode="0" circleDiameter="0">
+			<textElement type="name">
+				<pos view="net" x="1357.89" y="1357.89" angle="0" system="source"/>
+				<pos view="wgs84" x="1357.89" y="1357.89" angle="0" system="source"/>
+				<pos view="line" x="1355.9" y="1355.9" angle="0" system="source"/>
+				<pos view="macro" x="28.2843" y="28.2843" angle="0" system="source"/>
+				<pos view="macroWgs84" x="0" y="0" angle="0" system="source"/>
+			</textElement>
+		</station>
+	</stations>
+	<nodes>
+		<node nodeID="7" kilometre="246.000" x="49900" y="0" xNet="-420700" yNet="3966400"/>
+		<node nodeID="8" kilometre="247.000" x="59876" y="0" xNet="-406000" yNet="3940600"/>
+		<node nodeID="9" kilometre="248.000" x="69862" y="0" xNet="-402400" yNet="3930000"/>
+		<speedIndicator nodeID="10" name="SPEED" kilometre="248.140" x="71259" y="0" xNet="-402398.94" yNet="3929198.6" referenceNode="152"/>
+		<signal interlockingMachine="2 Aspect Pannel (Below 75mph)" nodeID="11" name="SIG: SE18" kilometre="246.112" x="51000" y="0" xNet="-420099.38" yNet="3965400" referenceNode="148"/>
+		<node nodeID="54" name="POINTS:" kilometre="246.162" x="51500" y="0" xNet="-411600" yNet="3946400"/>
+		<signal interlockingMachine="3 Aspect Pannel (Below 75mph)" nodeID="147" name="SIG: SE24" kilometre="246.393" x="53800" y="0" xNet="-408300" yNet="3943000" referenceNode="151"/>
+		<node nodeID="149" name="OL: SE18" kilometre="246.160" x="51480" y="0" xNet="-413100" yNet="3950100"/>
+		<node nodeID="150" name="OL: SE24" kilometre="246.343" x="53300" y="0" xNet="-409600" yNet="3944100"/>
+		<signal interlockingMachine="Phone For Authorisation" nodeID="153" name="P.O.A" kilometre="247.930" x="69162" y="0" xNet="-402400" yNet="3931100" referenceNode="161"/>
+		<node nodeID="154" name="POINTS:" kilometre="248.200" x="71858" y="0" xNet="-402387.14" yNet="3928601.2"/>
+		<switch start="155" endOfMainTrack="157" endOfBranchTrack="158" nodeID="156" name="POINTS" kilometre="248.650" x="76353" y="0" xNet="-402367.06" yNet="3924705.3"/>
+		<switch start="5" endOfMainTrack="156" endOfBranchTrack="159" nodeID="157" name="POINTS" kilometre="248.800" x="77850" y="0" xNet="-402289.82" yNet="3923205.8"/>
+		<node nodeID="158" kilometre="248.670" x="76562" y="0" xNet="-402155.14" yNet="3924516.8"/>
+		<node nodeID="159" name="RUN ROUND" kilometre="248.780" x="77661" y="0" xNet="-402100" yNet="3923418"/>
+		<signal interlockingMachine="Phone For Authorisation" nodeID="152" name="P.O.A DIRECT TO SIGNAL MAN" kilometre="248.180" x="71659" y="0" xNet="-402391.71" yNet="3928799.6" referenceNode="154"/>
+		<node nodeID="162" name="OL" kilometre="247.980" x="69661" y="0" xNet="-402400" yNet="3930700"/>
+		<node nodeID="163" name="OL" kilometre="248.130" x="71160" y="0" xNet="-402400" yNet="3929300"/>
+		<node nodeID="161" name="SD" kilometre="247.880" x="68663" y="0" xNet="-402400" yNet="3932400" referenceNode="8" sightingDistance="true"/>
+		<node nodeID="151" name="SD: SE24" kilometre="246.471" x="54600" y="0" xNet="-407100" yNet="3942000" referenceNode="8" sightingDistance="true"/>
+		<node nodeID="148" name="SD SE18" kilometre="246.034" x="50200" y="0" xNet="-420400" yNet="3966000" referenceNode="7" sightingDistance="true"/>
+		<track trackID="U-1" stationID="BLSVFHH" interlockingMachine="Buffer Stop" nodeID="5" name="BOLSOVER CASTLE" kilometre="249.000" x="79848" y="0" xNet="-402182.97" yNet="3921209.9" referenceNode="157"/>
+		<stationBorder exitType="regular" stationID="BLSVFHH" lineID="ln778" trackNumber="D" nodeID="155" name="[SEYMORJ] - [ln778/D]" kilometre="248.617" x="76022.894" y="0" xNet="-402384.31" yNet="3925035.4" referenceNode="156"/>
+		<stationBorder exitType="locked" stationID="BLSVFHH" lineID="ln778" trackNumber="" nodeID="12" name="Buffer stop 122" kilometre="249.010" x="79857.969" y="-0.73117968" xNet="-402183.16" yNet="3921200" referenceNode="5"/>
+	</nodes>
+	<links>
+		<link source="5" target="12" length="10" vmax="8" vmaxr="8"/>
+		<link source="7" target="148" length="34" vmax="40" vmaxr="40" bidirectional="true"/>
+		<link source="8" target="161" length="880" vmax="40" vmaxr="40" bidirectional="true"/>
+		<link source="9" target="163" length="130" vmax="40" vmaxr="40" bidirectional="true"/>
+		<link source="10" target="152" length="40" vmax="8" vmaxr="8" bidirectional="true"/>
+		<link source="11" target="149" length="48" vmax="40" vmaxr="40" bidirectional="true"/>
+		<link source="54" target="150" length="181" vmax="40" vmaxr="40" bidirectional="true"/>
+		<link source="147" target="151" length="78" vmax="40" vmaxr="40" bidirectional="true"/>
+		<link source="148" target="11" length="78" vmax="40" vmaxr="40" bidirectional="true"/>
+		<link source="149" target="54" length="2" vmax="40" vmaxr="40" bidirectional="true"/>
+		<link source="150" target="147" length="50" vmax="40" vmaxr="40" bidirectional="true"/>
+		<link source="151" target="8" length="529" vmax="40" vmaxr="40" bidirectional="true"/>
+		<link source="152" target="154" length="20" vmax="8" vmaxr="8" bidirectional="true"/>
+		<link source="153" target="162" length="50" vmax="40" vmaxr="40" bidirectional="true"/>
+		<link source="154" target="155" length="417" vmax="8" vmaxr="8" bidirectional="true"/>
+		<link source="155" target="156" length="33" vmax="8" vmaxr="8" bidirectional="true"/>
+		<link source="156" target="157" length="150" vmax="8" vmaxr="8"/>
+		<link source="156" target="158" length="20" vmax="8" vmaxr="8"/>
+		<link source="157" target="5" length="200" vmax="8" vmaxr="8"/>
+		<link source="158" target="159" length="110" vmax="8" vmaxr="8"/>
+		<link source="159" target="157" length="20" vmax="8" vmaxr="8"/>
+		<link source="161" target="153" length="50" vmax="40" vmaxr="40" bidirectional="true"/>
+		<link source="162" target="9" length="20" vmax="40" vmaxr="40" bidirectional="true"/>
+		<link source="163" target="10" length="10" vmax="40" vmaxr="40" bidirectional="true"/>
+		<link source="165.seymj" target="7" length="400" vmax="40" vmaxr="40" bidirectional="true"/>
+	</links>
+	<dependentLinks/>
+	<blockSections>
+		<blocksection uuid="{063ee6b9-351f-4716-939e-cd83f2bd8f9e}" lines="ln778" speedIndicators="10">
+			<part nodes="153 162 9 163 10 152 154 155 156 158 159 157 5"/>
+		</blocksection>
+		<blocksection uuid="{1a7a5242-78fb-432e-9e68-deb8b6bf30fe}" lines="ln778" speedIndicators="10">
+			<part nodes="153 162 9 163 10 152 154 155 156 157 5"/>
+		</blocksection>
+		<blocksection uuid="{1fd335c7-0b54-4115-aa3c-58892a472b7f}" lines="ln778">
+			<part nodes="11 149 54 150 147 151 8 161 153"/>
+		</blocksection>
+		<blocksection uuid="{260f131e-2084-4d49-b2cc-490a7da4ff60}" lines="ln778 seymj">
+			<part nodes="165.seymj 7 148 11"/>
+		</blocksection>
+		<blocksection uuid="{5041cc02-b88b-4113-b6cd-7006c99a55aa}" lines="ln778">
+			<part nodes="5 157 156 155 154 152"/>
+		</blocksection>
+		<blocksection uuid="{9e07f9f7-5ba8-403b-9c68-345b22c12c78}" lines="ln778 seymj">
+			<part nodes="147 150 54 149 11 148 7 165.seymj"/>
+		</blocksection>
+		<blocksection uuid="{a1157194-7a98-4603-9b4c-4f9b6d6f3c99}" lines="ln778 seymj" shuntingBlock="true">
+			<part nodes="165.seymj 7 148 11"/>
+		</blocksection>
+		<blocksection uuid="{a57470dd-883d-4e5b-af1f-3049c3c39c02}" lines="ln778 seymj">
+			<part nodes="165.seymj 7 148 11"/>
+		</blocksection>
+		<blocksection uuid="{f4513681-766a-4e7b-9d76-7f10a3db2a5e}" lines="ln778" speedIndicators="10">
+			<part nodes="152 10 163 9 162 153 161 8 151 147"/>
+		</blocksection>
+	</blockSections>
+	<slipDistances>
+		<slipdistance uuid="{8e8b661e-2b06-48ae-aa67-cfa2cddcd075}" vmax="999" lines="ln778" serialNumber="0">
+			<part nodes="11 149"/>
+		</slipdistance>
+		<slipdistance uuid="{9f676f12-b152-4932-b2e0-33fc92208317}" vmax="999" lines="ln778" serialNumber="0">
+			<part nodes="152 10 163"/>
+		</slipdistance>
+		<slipdistance uuid="{b3b6bbf1-6a51-42ef-9e2b-88aa68aaf78b}" vmax="999" lines="ln778" serialNumber="0">
+			<part nodes="147 150"/>
+		</slipdistance>
+		<slipdistance uuid="{fae87abc-6a34-458d-a071-ed608de9c2bf}" vmax="999" lines="ln778" serialNumber="0">
+			<part nodes="153 162"/>
+		</slipdistance>
+	</slipDistances>
+	<approachControlRoutes/>
+	<stationRoutes>
+		<stationRoute stationID="BLSVFHH" name="[SEYMORJ]-[ln778/D]-[1]-[SEYMORJ]-[ln778/D] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="155 156 157 5 157 156 155"/>
+		<stationRoute stationID="BLSVFHH" name="[SEYMORJ]-[ln778/D]-[1]-[SEYMORJ]-[ln778/D] (3)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=90;NRz=90;S=90;Rz=90;FGz=90;NGz=90;Gz=90;Lz=90;Unbekannt=90" nodes="155 156 158 159 157 5 157 156 155"/>
+		<stationRoute stationID="BLSVFHH" name="[SEYMORJ]-[ln778/D]-[1]-[]-[ln778/] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="155 156 157 5 12"/>
+		<stationRoute stationID="BLSVFHH" name="[SEYMORJ]-[ln778/D]-[1]-[]-[ln778/] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=90;NRz=90;S=90;Rz=90;FGz=90;NGz=90;Gz=90;Lz=90;Unbekannt=90" nodes="155 156 158 159 157 5 12"/>
+	</stationRoutes>
+	<lineCatalog/>
+	<zugNummernFelder/>
+	<switchGears/>
+</line>

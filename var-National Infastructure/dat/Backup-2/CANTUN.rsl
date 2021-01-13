@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<line lineID="CANTUN" name="Canal Tunnel" trafficRouting="on_the_left" type="global" dependentLines="ST101a ln101a m213">
+	<transformations>
+		<transformation line="m213" m11="1" m12="0" m21="0" m22="1" dx="2.71765e+06" dy="-705050"/>
+	</transformations>
+	<version major="1" minor="2" patchlevel="0" comment=""/>
+	<creator user="JHeath7" timestamp="2020-02-21T13:47:14"/>
+	<lasteditor user="JHeath7" timestamp="2020-02-21T13:47:14"/>
+	<stations>
+		<station stationID="CANTUN" name="Canal Tunnel" xNet="996538.719499587" yNet="767365.774705953" uicLocationCode="0" circleDiameter="0"/>
+	</stations>
+	<nodes>
+		<signal interlockingMachine="3 Aspect IECC (1mph - 40mph)" nodeID="310" name="SIG:TWH1511" kilometre="0.727" x="-2680100" y="714700" xNet="996320.209118928" yNet="767123.926549829" referenceNode="320"/>
+		<signal interlockingMachine="3 Aspect IECC (1mph - 40mph)" nodeID="311" name="SIG: K253" kilometre="0.775" x="-2679700" y="714700" xNet="996798.703908397" yNet="767653.526480957" referenceNode="320"/>
+		<signal interlockingMachine="4 Aspect Pannel (1mph - 40mph)" nodeID="197" name="SIG:THW1110" kilometre="0.693" x="-2679600" y="714400" xNet="997140.08748617" yNet="767552.55731047" referenceNode="222"/>
+		<signal interlockingMachine="3 Aspect IECC (1mph - 40mph)" nodeID="198" name="SIG: K251" kilometre="0.683" x="-2680000" y="714400" xNet="997023.10266081" yNet="767427.582771008" referenceNode="223"/>
+		<node nodeID="212" name="TC" kilometre="0.687" x="-2679900" y="714400" xNet="997069.896590954" yNet="767477.572586793" referenceNode="197" releaseContact="true" arranged="true"/>
+		<node nodeID="315" name="TC" kilometre="0.722" x="-2680300" y="714700" xNet="996270.365911691" yNet="767068.759890336" referenceNode="310" releaseContact="true" arranged="true"/>
+		<stationBorder exitType="regular" stationID="CANTUN" lineID="m213" trackNumber="DCT" nodeID="318" name="Down Canal Tunnel (1)" kilometre="0.705" x="-2680400" y="714700" xNet="996099.050848173" yNet="766879.147698444" referenceNode="315"/>
+		<stationBorder exitType="regular" stationID="CANTUN" lineID="ST101a" trackNumber="DCT" nodeID="319" name="Down Canal Tunnel (2)" kilometre="0.785" x="-2679400" y="714700" xNet="996897.192516901" yNet="767762.534063545" referenceNode="311"/>
+		<stationBorder exitType="regular" stationID="CANTUN" lineID="m213" trackNumber="UCT" nodeID="4" name="Up Canal Tunnel (2)" kilometre="0.628" x="-2680400" y="714400" xNet="996374.39763197" yNet="766734.573126574" referenceNode="223"/>
+		<stationBorder exitType="regular" stationID="CANTUN" lineID="ST101a" trackNumber="UCT" nodeID="222" name="Up Canal Tunnel (1)" kilometre="0.698" x="-2679400" y="714300" xNet="997197.244307098" yNet="767613.617771523" referenceNode="197"/>
+		<track trackID="T-1" stationID="CANTUN" type="timingPoint" nodeID="320" kilometre="0.749" x="-2679900" y="714700" xNet="996538.719499587" yNet="767365.774705953" referenceNode="310"/>
+		<track trackID="T-2" stationID="CANTUN" type="timingPoint" nodeID="223" kilometre="0.663" x="-2680200" y="714400" xNet="996785.222907997" yNet="767173.456541695" referenceNode="4"/>
+		<node nodeID="3" name="GA" kilometre="0.626" x="-2680600" y="714400" xNet="996350.15930592" yNet="766708.679395262">
+			<netLimitInfo lineID="m213"/>
+		</node>
+		<node nodeID="1" name="GA" kilometre="0.703" x="-2680600" y="714700" xNet="996080.275206555" yNet="766858.36674382">
+			<netLimitInfo lineID="m213"/>
+		</node>
+		<node nodeID="2" name="GA" kilometre="0.700" x="-2679250" y="714200" xNet="997220.693648317" yNet="767638.668632697">
+			<netLimitInfo lineID="ST101a"/>
+		</node>
+		<node nodeID="5" name="GA" kilometre="0.787" x="-2678900" y="714700" xNet="996917.178689835" yNet="767784.654839031">
+			<netLimitInfo lineID="ST101a"/>
+		</node>
+	</nodes>
+	<links>
+		<link source="1" target="318" length="2" gradient="29.412" vmax="48" vmaxr="48" electrification="electrified"/>
+		<link source="3" target="4" length="2" gradient="29.412" vmax="48" vmaxr="48" electrification="electrified"/>
+		<link source="4" target="223" length="35" gradient="29.412" vmax="48" vmaxr="48" electrification="electrified"/>
+		<link source="197" target="222" length="5" gradient="29.412" vmax="48" vmaxr="48" electrification="electrified"/>
+		<link source="198" target="212" length="4" gradient="29.412" vmax="48" vmaxr="48" electrification="electrified"/>
+		<link source="212" target="197" length="6" gradient="29.412" vmax="48" vmaxr="48" electrification="electrified"/>
+		<link source="222" target="2" length="2" gradient="29.412" vmax="48" vmaxr="48" electrification="electrified"/>
+		<link source="223" target="198" length="20" gradient="29.412" vmax="48" vmaxr="48" electrification="electrified"/>
+		<link source="310" target="320" length="22" gradient="29.412" vmax="48" vmaxr="48" electrification="electrified"/>
+		<link source="311" target="319" length="10" gradient="29.412" vmax="48" vmaxr="48" electrification="electrified"/>
+		<link source="315" target="310" length="5" gradient="29.412" vmax="48" vmaxr="48" electrification="electrified"/>
+		<link source="318" target="315" length="17" gradient="29.412" vmax="48" vmaxr="48" electrification="electrified"/>
+		<link source="319" target="5" length="2" gradient="29.412" vmax="48" vmaxr="48" electrification="electrified"/>
+		<link source="320" target="311" length="26" gradient="29.412" vmax="48" vmaxr="48" electrification="electrified"/>
+	</links>
+	<dependentLinks/>
+	<blockSections>
+		<blocksection uuid="{1aeec0cc-c12c-4396-93b8-7b6fc662e2fb}" lines="CANTUN m213">
+			<part nodes="310 315 318 1"/>
+		</blocksection>
+		<blocksection uuid="{3d7cf8c0-e1b5-4a23-be85-6a0ee2a6f017}" lines="CANTUN m213">
+			<part nodes="197 212 198 223 4 3"/>
+		</blocksection>
+		<blocksection uuid="{48e10377-02b4-47da-bc08-39c3f9be22b4}" lines="CANTUN ST101a">
+			<part nodes="198 212 197 222 2"/>
+		</blocksection>
+		<blocksection uuid="{5a7e8d55-cea1-49e7-9c54-b0b2aab9cf07}" lines="CANTUN ST101a">
+			<part nodes="311 319 5"/>
+		</blocksection>
+		<blocksection uuid="{6713805e-c3e4-4c38-8c28-6a96bcfa0913}" lines="CANTUN ST101a">
+			<part nodes="2 222 197"/>
+		</blocksection>
+		<blocksection uuid="{71afc6a9-c347-4c59-b447-214b928cc989}" lines="CANTUN ST101a">
+			<part nodes="2 222 197"/>
+		</blocksection>
+		<blocksection uuid="{76d31c74-9dfe-4912-89b9-d6a2b4fa8a00}" lines="CANTUN ST101a">
+			<part nodes="198 212 197 222 2"/>
+		</blocksection>
+		<blocksection uuid="{b568b54b-e3e1-4c33-b40e-961e981fdc76}" lines="CANTUN ST101a">
+			<part nodes="5 319 311 320 310"/>
+		</blocksection>
+		<blocksection uuid="{ca93fcfb-ad27-4b60-b135-84785c1afe26}" lines="CANTUN m213">
+			<part nodes="3 4 223 198"/>
+		</blocksection>
+		<blocksection uuid="{e641c727-14aa-423c-a42b-17a480e26d93}" lines="CANTUN m213">
+			<part nodes="1 318 315 310 320 311"/>
+		</blocksection>
+	</blockSections>
+	<slipDistances>
+		<slipdistance uuid="{00ba044b-fbbe-41ce-a6f5-9e1b21ca7961}" publicName="TWH1110" vmax="999" lines="CANTUN m213" serialNumber="0">
+			<part nodes="197 212 198 223 4 3"/>
+		</slipdistance>
+		<slipdistance uuid="{6f8f3a4f-67a7-4ca6-a7df-5a4aacda6cf0}" vmax="999" lines="CANTUN ST101a" serialNumber="0">
+			<part nodes="311 319 5"/>
+		</slipdistance>
+		<slipdistance uuid="{8be6d469-d1b2-4326-8950-cbd634adf4c2}" vmax="999" lines="CANTUN ST101a" serialNumber="0">
+			<part nodes="198 212 197 222 2"/>
+		</slipdistance>
+		<slipdistance uuid="{a1e4ec6a-5ae1-4f22-8a23-50ee5bb40e1c}" publicName="TWH1511" vmax="999" lines="CANTUN m213" serialNumber="0">
+			<part nodes="310 315 318 1"/>
+		</slipdistance>
+		<slipdistance uuid="{f2f089dc-24da-4cba-8a8f-be2c8ca487ff}" vmax="999" lines="CANTUN ST101a" serialNumber="1">
+			<part nodes="198 212 197 222 2"/>
+		</slipdistance>
+	</slipDistances>
+	<approachControlRoutes/>
+	<stationRoutes>
+		<stationRoute stationID="CANTUN" name="Down Canal Tunnel" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="318 315 310 320 311 319"/>
+		<stationRoute stationID="CANTUN" name="Down Up Canal Tunnel" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="4 223 198 212 197 222"/>
+		<stationRoute stationID="CANTUN" name="Up Canal Tunnel" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="222 197 212 198 223 4"/>
+		<stationRoute stationID="CANTUN" name="Up Down Canal Tunnel" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="319 311 320 310 315 318"/>
+	</stationRoutes>
+	<lineCatalog/>
+	<zugNummernFelder/>
+	<switchGears/>
+</line>

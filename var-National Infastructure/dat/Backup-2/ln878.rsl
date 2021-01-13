@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<line lineID="ln878" name="SHERBURN JN - GASCOIGNE WOOD" trafficRouting="on_the_left" type="local" dependentLines="gscwj shrbj">
+	<version major="1" minor="2" patchlevel="0" comment=""/>
+	<creator user="Ahowe4" timestamp="2016-11-01T12:54:22"/>
+	<lasteditor user="Ahowe4" timestamp="2016-11-01T12:54:22"/>
+	<stations/>
+	<nodes>
+		<node nodeID="691" kilometre="22.600" x="-8141.119" y="71255.92" xNet="-305457.3" yNet="5027796.9"/>
+		<node nodeID="695" kilometre="22.400" x="-10141.119" y="71255.92" xNet="-306733.81" yNet="5030961.7"/>
+		<node nodeID="696" kilometre="22.400" x="-10141.119" y="71455.92" xNet="-306660.42" yNet="5031094.9"/>
+		<node nodeID="697" kilometre="22.200" x="-12141.119" y="71255.92" xNet="-307683.42" yNet="5033082.5"/>
+		<node nodeID="698" kilometre="22.200" x="-12141.119" y="71455.92" xNet="-307610.03" yNet="5033215.7"/>
+		<node nodeID="699" name="1000MM" kilometre="22.000" x="-14141.119" y="71255.92" xNet="-308712.89" yNet="5035432"/>
+		<node nodeID="700" name="1000MM" kilometre="22.000" x="-14141.119" y="71455.92" xNet="-308639.5" yNet="5035565.2"/>
+		<signal interlockingMachine="4 Aspect IECC (Below 75mph)" nodeID="711" name="SIG: 1829" kilometre="21.897" x="-15171.107" y="71455.92" xNet="-308971.94" yNet="5036341" referenceNode="718"/>
+		<signal interlockingMachine="4 Aspect Pannel (Below 75mph)" nodeID="713" name="SIG: 1830" kilometre="22.496" x="-9181.099" y="71255.92" xNet="-305985.47" yNet="5028986.7" referenceNode="694"/>
+		<node nodeID="715" name="OL" kilometre="22.080" x="-13341.103" y="71455.92" xNet="-308381.5" yNet="5034961.6"/>
+		<node nodeID="716" name="OL" kilometre="22.313" x="-11011.099" y="71255.92" xNet="-307014.6" yNet="5031617.6"/>
+		<node nodeID="717" name="SD" kilometre="21.848" x="-15661.107" y="71255.92" xNet="-309203.67" yNet="5036577.5" referenceNode="699" sightingDistance="true"/>
+		<node nodeID="718" name="SD" kilometre="21.803" x="-16111.103" y="71455.92" xNet="-309380.73" yNet="5037376.2" referenceNode="719.shrbj" sightingDistance="true"/>
+		<node nodeID="694" name="SD" kilometre="22.590" x="-8241.103" y="71255.92" xNet="-305489.19" yNet="5027872.2" referenceNode="691" sightingDistance="true"/>
+		<node nodeID="703" name="SD" kilometre="22.580" x="-8341.103" y="71455.92" xNet="-305448.22" yNet="5028080" referenceNode="696" sightingDistance="true"/>
+	</nodes>
+	<links>
+		<link source="689.gscwj" target="691" length="200" vmax="48" vmaxr="48"/>
+		<link source="691" target="694" length="10" vmax="48" vmaxr="48"/>
+		<link source="692.gscwj" target="703" length="20" vmax="48" vmaxr="48"/>
+		<link source="694" target="713" length="94" vmax="48" vmaxr="48"/>
+		<link source="695" target="716" length="87" vmax="48" vmaxr="48"/>
+		<link source="696" target="698" length="200" vmax="48" vmaxr="48"/>
+		<link source="697" target="699" length="200" vmax="48" vmaxr="48"/>
+		<link source="698" target="715" length="120" vmax="48" vmaxr="48"/>
+		<link source="699" target="717" length="152" vmax="48" vmaxr="48"/>
+		<link source="700" target="711" length="103" vmax="48" vmaxr="48"/>
+		<link source="703" target="696" length="180" vmax="48" vmaxr="48"/>
+		<link source="711" target="718" length="94" vmax="48" vmaxr="48"/>
+		<link source="713" target="695" length="96" vmax="48" vmaxr="48"/>
+		<link source="715" target="700" length="80" vmax="48" vmaxr="48"/>
+		<link source="716" target="697" length="113" vmax="48" vmaxr="48"/>
+		<link source="717" target="3.shrbj" length="48" vmax="48" vmaxr="48"/>
+		<link source="718" target="719.shrbj" length="3" vmax="48" vmaxr="48"/>
+	</links>
+	<dependentLinks/>
+	<blockSections>
+		<blocksection uuid="{0192ba93-0072-4de5-a8e2-02257996b417}" lines="ln878 shrbj">
+			<part nodes="719.shrbj 718 711"/>
+		</blocksection>
+		<blocksection uuid="{02646ff7-a47a-422a-8ed4-962985a19eac}" lines="gscwj ln878" shuntingBlock="true">
+			<part nodes="689.gscwj 691 694 713"/>
+		</blocksection>
+		<blocksection uuid="{0f558bff-27b2-4e37-b7cc-e29498e724b3}" lines="gscwj ln878">
+			<part nodes="689.gscwj 691 694 713"/>
+		</blocksection>
+		<blocksection uuid="{7f40dc3c-e2ce-44d1-ab6f-8508c727627d}" lines="gscwj ln878">
+			<part nodes="689.gscwj 691 694 713"/>
+		</blocksection>
+		<blocksection uuid="{dfffdd5a-7f85-4208-be2d-734cbdafb500}" lines="gscwj ln878">
+			<part nodes="711 700 715 698 696 703 692.gscwj"/>
+		</blocksection>
+		<blocksection uuid="{f54560c4-e9bb-4e1e-908f-dda057f99f28}" lines="ln878 shrbj">
+			<part nodes="713 695 716 697 699 717 3.shrbj"/>
+		</blocksection>
+	</blockSections>
+	<slipDistances>
+		<slipdistance uuid="{47716311-86d9-4572-b638-8ef7f58ae584}" vmax="250" lines="ln878" serialNumber="0">
+			<part nodes="711 700 715"/>
+		</slipdistance>
+		<slipdistance uuid="{fe113857-6110-4092-a979-b08e71119099}" vmax="250" lines="ln878" serialNumber="0">
+			<part nodes="713 695 716"/>
+		</slipdistance>
+	</slipDistances>
+	<approachControlRoutes/>
+	<stationRoutes/>
+	<lineCatalog/>
+	<zugNummernFelder/>
+	<switchGears/>
+</line>

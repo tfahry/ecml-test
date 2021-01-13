@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<line lineID="ln696" name="Hepscott Jn to Morpeth Jn" trafficRouting="on_the_left" type="local" dependentLines="hepsco morpet">
+	<version major="1" minor="2" patchlevel="0" comment=""/>
+	<creator user="Ahowe4" timestamp="2016-11-01T12:54:22"/>
+	<lasteditor user="Ahowe4" timestamp="2016-11-01T12:54:22"/>
+	<stations/>
+	<nodes>
+		<node nodeID="76" kilometre="32.247" x="2127974.3" y="2667.0153" xNet="-808082.06" yNet="7629863.1" referenceNode="80.morpet" sightingDistance="true"/>
+		<signal interlockingMachine="3 Aspect Pannel (Below 75mph)" nodeID="78" name="SIG: M137" kilometre="32.225" x="2126748.7" y="2667.0038" xNet="-807745.34" yNet="7629893.1" referenceNode="79"/>
+		<node nodeID="79" kilometre="32.203" x="2125518.8" y="2666.9922" xNet="-807407.45" yNet="7629923.3" referenceNode="80.hepsco" sightingDistance="true"/>
+	</nodes>
+	<links>
+		<link source="76" target="80.morpet" length="11" gradient="4.425" vmax="72" vmaxr="72" bidirectional="true"/>
+		<link source="78" target="76" length="22" gradient="4.425" vmax="72" vmaxr="72" bidirectional="true"/>
+		<link source="79" target="78" length="22" gradient="4.425" vmax="72" vmaxr="72" bidirectional="true"/>
+		<link source="80.hepsco" target="79" length="66" gradient="4.425" vmax="72" vmaxr="72" bidirectional="true"/>
+	</links>
+	<dependentLinks/>
+	<blockSections>
+		<blocksection uuid="{009397d6-45b5-457c-86d4-a7dcd64379c6}" lines="ln696 morpet" shuntingBlock="true">
+			<part nodes="78 76 80.morpet"/>
+		</blocksection>
+		<blocksection uuid="{0b2eb5ac-f226-4e31-b66b-96e79439f23e}" lines="ln696 morpet">
+			<part nodes="78 76 80.morpet"/>
+		</blocksection>
+		<blocksection uuid="{30036fad-34f1-4065-8a17-ae2fe5ceb834}" lines="hepsco ln696">
+			<part nodes="80.hepsco 79 78"/>
+		</blocksection>
+		<blocksection uuid="{51ec8288-4666-40bb-8a2b-08d9519ff656}" lines="hepsco ln696 morpet">
+			<part nodes="80.morpet 76 78 79 80.hepsco"/>
+		</blocksection>
+		<blocksection uuid="{6f0c4ab2-bb90-4c08-b5d8-f5aca083b083}" lines="ln696 morpet" shuntingBlock="true">
+			<part nodes="78 76 80.morpet"/>
+		</blocksection>
+		<blocksection uuid="{7a66682a-1e20-460f-9e32-8a2880fb869e}" lines="hepsco ln696 morpet">
+			<part nodes="80.morpet 76 78 79 80.hepsco"/>
+		</blocksection>
+		<blocksection uuid="{865c63f0-41cc-4988-8e4a-a754a87b05ef}" lines="hepsco ln696 morpet" shuntingBlock="true">
+			<part nodes="80.morpet 76 78 79 80.hepsco"/>
+		</blocksection>
+		<blocksection uuid="{87e275a6-b1f4-4445-9f70-ceca6efd631b}" lines="ln696 morpet" shuntingBlock="true">
+			<part nodes="78 76 80.morpet"/>
+		</blocksection>
+		<blocksection uuid="{91629407-dc53-4b6d-bff0-43e99d70bf95}" lines="ln696 morpet" shuntingBlock="true">
+			<part nodes="78 76 80.morpet"/>
+		</blocksection>
+		<blocksection uuid="{d1ba2601-ca0a-4fe7-80ee-7e8d47afd788}" lines="ln696 morpet">
+			<part nodes="78 76 80.morpet"/>
+		</blocksection>
+	</blockSections>
+	<slipDistances>
+		<slipdistance uuid="{285e193f-b5fb-4b6e-9a50-97bb5182b3f2}" vmax="999" lines="ln696 morpet" serialNumber="0">
+			<part nodes="78 76 80.morpet"/>
+		</slipdistance>
+	</slipDistances>
+	<approachControlRoutes>
+		<ACRoute controlTyp="mar" uuid="{572b99bd-0a04-4f0a-9116-4e1d450f89c7}" publicName="MAR" description="M123-M136" lines="hepsco ln696 morpet">
+			<part nodes="80.morpet 76 78 79 80.hepsco"/>
+		</ACRoute>
+	</approachControlRoutes>
+	<stationRoutes/>
+	<lineCatalog/>
+	<zugNummernFelder/>
+	<switchGears/>
+</line>

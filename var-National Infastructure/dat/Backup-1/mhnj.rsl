@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<line lineID="mhnj" name="Muirhouse North Jn" trafficRouting="on_the_left" type="global" dependentLines="sc031 sc051">
+	<transformations>
+		<transformation line="sc031" m11="1" m12="0" m21="0" m22="1" dx="-11548" dy="600.236"/>
+		<transformation line="sc051" m11="0.777146" m12="-0.62932" m21="0.62932" m22="0.777146" dx="388.305" dy="-703.374"/>
+	</transformations>
+	<version major="1" minor="2" patchlevel="0" comment=""/>
+	<creator user="VWaddelo" timestamp="2016-07-08T10:58:15"/>
+	<lasteditor user="VWaddelo" timestamp="2016-07-08T10:58:15"/>
+	<stations>
+		<station stationID="MRHSNJ" name="Muirhouse North Jn" xNet="-3223159.05" yNet="9060533.5" uicLocationCode="0" circleDiameter="0">
+			<textElement type="name">
+				<pos view="net" x="998.986" y="998.986" angle="0" system="source"/>
+				<pos view="wgs84" x="998.986" y="998.986" angle="0" system="source"/>
+				<pos view="line" x="799.781" y="799.781" angle="0" system="source"/>
+				<pos view="macro" x="28.2843" y="28.2843" angle="0" system="source"/>
+				<pos view="macroWgs84" x="0" y="0" angle="0" system="source"/>
+			</textElement>
+		</station>
+	</stations>
+	<nodes>
+		<node nodeID="19" name="GRAD" kilometre="0.779" x="-3292" y="-600.2359" xNet="-3221962.6" yNet="9061464.5">
+			<netLimitInfo lineID="sc031"/>
+		</node>
+		<node nodeID="20" name="GRAD" kilometre="0.779" x="-3289" y="-800.2359" xNet="-3222101.2" yNet="9061608.5">
+			<netLimitInfo lineID="sc031"/>
+		</node>
+		<switch start="109" endOfMainTrack="4" endOfBranchTrack="78" nodeID="21" name="POINTS: 673a" kilometre="0.639" x="-1892" y="-800.2359" xNet="-3223202.9" yNet="9060799.5"/>
+		<node nodeID="109" name="SD: G237" kilometre="0.671" x="-2212" y="-800.2359" xNet="-3222888.8" yNet="9060874.5" referenceNode="21" sightingDistance="true"/>
+		<switch start="76" endOfMainTrack="51" endOfBranchTrack="694" nodeID="60" name="POINTS:673c" kilometre="0.602" x="-1522" y="-600.2359" xNet="-3223186.9" yNet="9059582.5"/>
+		<node nodeID="78" kilometre="0.623" x="-1727" y="-700.2359" xNet="-3223446.9" yNet="9060631.5" referenceNode="79" releaseContact="true" arranged="true"/>
+		<node nodeID="79" kilometre="0.621" x="-1716.667" y="-693.97327" xNet="-3223601.9" yNet="9060400.5" referenceNode="78" releaseContact="true" arranged="true"/>
+		<node nodeID="43" name="GRAD" kilometre="0.618" x="-1682" y="-800.2359" xNet="-3224897.9" yNet="9060191.5">
+			<netLimitInfo lineID="sc031"/>
+		</node>
+		<node nodeID="138" name="GRAD" kilometre="0.618" x="-1687.411" y="-676.24278" xNet="-3223525.7" yNet="9060159.5"/>
+		<track trackID="U-2" stationID="MRHSNJ" interlockingMachine="4 Aspect Pannel (Below 75mph)" nodeID="12" name="SIG: G604" kilometre="0.729" x="-2792" y="-600.2359" xNet="-3222328.3" yNet="9061123.5" referenceNode="361"/>
+		<track trackID="D-1" stationID="MRHSNJ" interlockingMachine="4 Aspect Pannel (Below 75mph)" nodeID="11" name="SIG: G237" kilometre="0.765" x="-3152" y="-800.2359" xNet="-3222201.3" yNet="9061515.5" referenceNode="42"/>
+		<stationBorder exitType="alternative" stationID="MRHSNJ" lineID="sc031" trackNumber="1" nodeID="4" name="[MRHSCJ] - [sc031/1]" kilometre="0.619" x="-1692" y="-800.2359" xNet="-3223598.9" yNet="9060698.5" referenceNode="21"/>
+		<stationBorder exitType="regular" stationID="MRHSNJ" lineID="sc051" trackNumber="2" nodeID="50" name="[PLKLHDE] - [sc051/2]" x="-1382" y="-200.2359" xNet="-3222445.9" yNet="9059559.5" referenceNode="48">
+			<netLimitInfo lineID="sc051"/>
+		</stationBorder>
+		<stationBorder exitType="alternative" stationID="MRHSNJ" lineID="sc051" trackNumber="1" nodeID="76" name="[PLKLHDE] - [sc051/1]" x="-1012" y="-200.2359" xNet="-3222994.9" yNet="9059523.5" referenceNode="60">
+			<netLimitInfo lineID="sc051"/>
+		</stationBorder>
+		<stationBorder exitType="regular" stationID="MRHSNJ" lineID="sc031" trackNumber="2" nodeID="63" name="[MRHSCJ] - [sc031/2]" kilometre="0.591" x="-1415.209" y="-600.2359" xNet="-3224146.9" yNet="9059816.5" referenceNode="1255">
+			<netLimitInfo lineID="sc031"/>
+		</stationBorder>
+		<stationBorder exitType="alternative" stationID="MRHSNJ" lineID="sc031" trackNumber="2" nodeID="361" name="Prellbock 222" kilometre="0.744" x="-2942" y="-600.2359" xNet="-3222218.6" yNet="9061225.5" referenceNode="12"/>
+		<stationBorder exitType="regular" stationID="MRHSNJ" lineID="sc031" trackNumber="1" nodeID="362" name="[EGLNSTJ] - [sc031/1]" kilometre="0.769" x="-3193.1" y="-800.2359" xNet="-3222171.2" yNet="9061543.5" referenceNode="11"/>
+		<track trackID="T-1" stationID="MRHSNJ" type="timingPoint" nodeID="694" kilometre="0.599" x="-1493.747" y="-600.2359" xNet="-3223440.9" yNet="9059644.4" referenceNode="60"/>
+		<node nodeID="48" name="POINTS: 672" description="Joins sc051" kilometre="0.641" x="-1912" y="-600.2359" xNet="-3222745.9" yNet="9059659.5"/>
+		<node nodeID="42" name="POINTS:" kilometre="0.708" x="-2582" y="-800.2359" xNet="-3222618.2" yNet="9061126.5"/>
+		<crossing type="kr" startOfMainTrack="1255" startOfBranchTrack="60" endOfMainTrack="5" endOfBranchTrack="138" nodeID="51" name="POINTS:673b" kilometre="0.606" x="-1562" y="-600.2359" xNet="-3223340.9" yNet="9059888.5"/>
+		<switch start="12" endOfMainTrack="51" endOfBranchTrack="48" nodeID="5" name="POINTS:" kilometre="0.658" x="-2082" y="-600.2359" xNet="-3222900" yNet="9060600"/>
+		<switch start="63" endOfMainTrack="694" endOfBranchTrack="51" nodeID="1255" kilometre="0.594" x="-1441.5568" y="-600.2359" xNet="-3223910.1" yNet="9059758.8"/>
+	</nodes>
+	<links>
+		<link source="4" target="43" length="1" gradient="2.604" vmax="48" vmaxr="48" bidirectional="true"/>
+		<link source="5" target="48" length="17" gradient="2.604" vmax="48" vmaxr="48"/>
+		<link source="5" target="51" length="52" vmax="48" vmaxr="48"/>
+		<link source="11" target="42" length="57" gradient="2.604" vmax="48" vmaxr="48"/>
+		<link source="12" target="5" length="71" gradient="2.604" vmax="48" vmaxr="48"/>
+		<link source="19" target="361" length="35" gradient="2.604" vmax="48" vmaxr="48"/>
+		<link source="20" target="362" length="10" gradient="2.604" vmax="48" vmaxr="48"/>
+		<link source="21" target="4" length="20" gradient="2.604" vmax="48" vmaxr="48" bidirectional="true"/>
+		<link source="21" target="78" length="17" vmax="48" vmaxr="48"/>
+		<link source="42" target="109" length="37" gradient="2.604" vmax="48" vmaxr="48"/>
+		<link source="48" target="50" length="1" vmax="48" vmaxr="48"/>
+		<link source="51" target="60" length="4" gradient="3.599" vmax="48" vmaxr="48"/>
+		<link source="51" target="1255" length="12" vmax="48" vmaxr="48"/>
+		<link source="60" target="76" length="1" vmax="48" vmaxr="48"/>
+		<link source="60" target="694" length="3" gradient="3.599" vmax="48" vmaxr="48"/>
+		<link source="78" target="79" length="1" vmax="48" vmaxr="48"/>
+		<link source="79" target="138" length="3" vmax="48" vmaxr="48"/>
+		<link source="109" target="21" length="32" gradient="2.604" vmax="48" vmaxr="48"/>
+		<link source="138" target="51" length="12" gradient="3.599" vmax="48" vmaxr="48"/>
+		<link source="361" target="12" length="15" gradient="2.604" vmax="48" vmaxr="48"/>
+		<link source="362" target="11" length="4" gradient="2.604" vmax="48" vmaxr="48"/>
+		<link source="694" target="1255" length="5" gradient="3.599" vmax="48" vmaxr="48"/>
+		<link source="1255" target="63" length="3" gradient="3.599" vmax="48" vmaxr="48" bidirectional="true"/>
+	</links>
+	<dependentLinks/>
+	<blockSections>
+		<blocksection uuid="{33d3b873-cc20-4940-a6e3-2265d77686dd}" lines="mhnj sc051">
+			<part nodes="76 60 51 138 79 78 21 109 42 11"/>
+		</blocksection>
+		<blocksection uuid="{4432b6a0-8502-471b-bc4a-66f1640d858e}" lines="mhnj sc031">
+			<part nodes="11 362 20"/>
+		</blocksection>
+		<blocksection uuid="{4ae62b8b-66e4-4277-8b0c-6ad2c04daafe}" lines="mhcj mhnj sc031">
+			<part nodes="43 4 21 109 42 11"/>
+		</blocksection>
+		<blocksection uuid="{6ff75990-03ed-4ec5-80c5-f77e7e268ffe}" lines="mhnj sc031">
+			<part nodes="19 361 12"/>
+		</blocksection>
+		<blocksection uuid="{7daf8a6b-a055-4782-9613-54dd5b16e480}" lines="mhnj sc051">
+			<part nodes="12 5 48 50"/>
+		</blocksection>
+		<blocksection uuid="{87fba462-a32b-4aff-9492-767931b22be0}" lines="mhcj mhnj sc031">
+			<part nodes="12 5 51 1255 63"/>
+		</blocksection>
+		<blocksection uuid="{cd5c65b6-2089-446c-8862-1f715fba3ba6}" lines="mhcj mhnj sc031 sc051">
+			<part nodes="76 60 694 1255 63"/>
+		</blocksection>
+	</blockSections>
+	<slipDistances>
+		<slipdistance uuid="{5377bfe9-c202-4558-85b3-f775cc4c123f}" vmax="999" lines="mhnj sc031" serialNumber="1">
+			<part nodes="12 5 51 1255 63"/>
+		</slipdistance>
+		<slipdistance uuid="{6946999d-7192-4bb3-a3d1-08792e19fa17}" vmax="999" lines="mhnj sc051" serialNumber="0">
+			<part nodes="12 5 48 50"/>
+		</slipdistance>
+		<slipdistance uuid="{84db1d3e-aaa7-4195-ba5c-95b3b7d43f95}" vmax="999" lines="mhnj sc031" serialNumber="0">
+			<part nodes="11 362 20"/>
+		</slipdistance>
+		<slipdistance uuid="{bab4257c-c10d-41c0-98e9-8cea6febb8c3}" vmax="999" lines="mhcj mhnj sc031" serialNumber="0">
+			<part nodes="43 4"/>
+		</slipdistance>
+	</slipDistances>
+	<approachControlRoutes/>
+	<stationRoutes>
+		<stationRoute stationID="MRHSNJ" name="[EGLNSTJ]-[sc031/2]-[2]-[MRHSCJ]-[sc051/2] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=95;NRz=95;S=95;Rz=95;FGz=95;NGz=95;Gz=95;Lz=95;Unbekannt=95" nodes="361 12 5 51 1255 63"/>
+		<stationRoute stationID="MRHSNJ" name="[EGLNSTJ]-[sc031/2]-[2]-[PLKLHDE]-[sc051/2] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=95;NRz=95;S=95;Rz=95;FGz=95;NGz=95;Gz=95;Lz=95;Unbekannt=95" nodes="361 12 5 48 50"/>
+		<stationRoute stationID="MRHSNJ" name="[MRHSCJ]-[sc031/1]-[1]-[EGLNSTJ]-[sc031/1] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="4 21 109 42 11 362"/>
+		<stationRoute stationID="MRHSNJ" name="[PLKLHDE]-[sc051/1]-[1]-[EGLNSTJ]-[sc031/1] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=85;NRz=85;S=85;Rz=85;FGz=85;NGz=85;Gz=85;Lz=85;Unbekannt=85" nodes="76 60 51 138 79 78 21 109 42 11 362"/>
+		<stationRoute stationID="MRHSNJ" name="[PLKLHDE]-[sc051/1]-[1]-[MRHSCJ]-[sc051/2] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=95;NRz=95;S=95;Rz=95;FGz=95;NGz=95;Gz=95;Lz=95;Unbekannt=95" nodes="76 60 694 1255 63"/>
+	</stationRoutes>
+	<lineCatalog/>
+	<zugNummernFelder/>
+	<switchGears/>
+</line>

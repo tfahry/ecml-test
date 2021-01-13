@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<line lineID="so290b" name="SO290B Angerstein Branch" trafficRouting="on_the_left" type="local" dependentLines="crln">
+	<version major="1" minor="2" patchlevel="0" comment=""/>
+	<creator user="Ahowe4" timestamp="2016-11-01T12:54:22"/>
+	<lasteditor user="Ahowe4" timestamp="2016-11-01T12:54:22"/>
+	<stations>
+		<station stationID="ANGRFHH" name="Angerstein Wharf FLHH" xNet="1160844.4" yNet="680939.725" uicLocationCode="0" circleDiameter="0">
+			<textElement type="name">
+				<pos view="net" x="1978.29" y="1978.29" angle="0" system="source"/>
+				<pos view="wgs84" x="1978.29" y="1978.29" angle="0" system="source"/>
+				<pos view="line" x="1166.55" y="1166.55" angle="0" system="source"/>
+				<pos view="macro" x="28.2843" y="28.2843" angle="0" system="source"/>
+				<pos view="macroWgs84" x="0" y="0" angle="0" system="source"/>
+			</textElement>
+		</station>
+		<station stationID="ANGRSTW" name="Angerstein Wharf" xNet="1161269.2" yNet="674959.095" uicLocationCode="0" circleDiameter="0">
+			<textElement type="name">
+				<pos view="net" x="618.562" y="618.562" angle="0" system="source"/>
+				<pos view="wgs84" x="618.562" y="618.562" angle="0" system="source"/>
+				<pos view="line" x="368.904" y="368.904" angle="0" system="source"/>
+				<pos view="macro" x="28.2843" y="28.2843" angle="0" system="source"/>
+				<pos view="macroWgs84" x="0" y="0" angle="0" system="source"/>
+			</textElement>
+		</station>
+		<station stationID="ANGRTAR" name="Angerstein Wharf (Tarmac)" xNet="1160517.4" yNet="680885.645" uicLocationCode="0" circleDiameter="0">
+			<textElement type="name">
+				<pos view="net" x="1959.85" y="1959.85" angle="0" system="source"/>
+				<pos view="wgs84" x="1959.85" y="1959.85" angle="0" system="source"/>
+				<pos view="line" x="1166.55" y="1166.55" angle="0" system="source"/>
+				<pos view="macro" x="28.2843" y="28.2843" angle="0" system="source"/>
+				<pos view="macroWgs84" x="0" y="0" angle="0" system="source"/>
+			</textElement>
+		</station>
+	</stations>
+	<nodes>
+		<node nodeID="57" name="REP : L425R" description="repeater signal; SIG : L425R;" kilometre="0.326" x="113027.25" y="500" xNet="1161636.6" yNet="671173.56" referenceNode="59" presignal="true" with1000HzMagnet="true"/>
+		<node nodeID="58" name="GRAD" description="Gradient;" kilometre="0.200" x="114296.08" y="500" xNet="1161882.8" yNet="669055.45"/>
+		<node nodeID="59" name="GRAD" description="Gradient;" kilometre="0.400" x="112282.08" y="500" xNet="1161492.9" yNet="672417.53"/>
+		<track trackID="D-1" stationID="ANGRSTW" interlockingMachine="4 Aspect IECC (Below 75mph)" nodeID="60" name="SIG : ENTRY" description="Signal ENTRY" kilometre="0.543" x="110842.06" y="500" xNet="1161219.8" yNet="674821.42" referenceNode="61"/>
+		<track trackID="U-1" stationID="ANGRSTW" interlockingMachine="4 Aspect IECC (Below 75mph)" nodeID="61" name="SIG : EXIT" description="Signal EXIT" kilometre="0.555" x="110723.23" y="500" xNet="1161194.5" yNet="675018.1" referenceNode="60"/>
+		<stationBorder exitType="regular" stationID="ANGRSTW" lineID="so290b" trackNumber="1" nodeID="55" name="Buffer stop 129" description="Gradient;" kilometre="0.602" x="110250" y="500" xNet="1161103" yNet="675811.55" referenceNode="512"/>
+		<stationBorder exitType="regular" stationID="ANGRSTW" lineID="so290b" trackNumber="1" nodeID="696" name="[ANGRSTJ] - [s290/1]" kilometre="0.500" x="111274.07" y="500" xNet="1161301.7" yNet="674100.25" referenceNode="60"/>
+		<switch start="61" endOfMainTrack="55" endOfBranchTrack="538" nodeID="512" kilometre="0.578" x="110491.52" y="500" xNet="1161149.9" yNet="675404.91"/>
+		<track trackID="U-1" stationID="ANGRTAR" interlockingMachine="Shunt" nodeID="65" kilometre="0.995" x="105618.92" y="500" xNet="1160211" yNet="683540.69" referenceNode="70"/>
+		<track trackID="D-1" stationID="ANGRTAR" interlockingMachine="Shunt" nodeID="70" kilometre="0.750" x="108505.98" y="500" xNet="1160767" yNet="678722.27" referenceNode="65"/>
+		<track trackID="D-1" stationID="ANGRFHH" interlockingMachine="Shunt" nodeID="539" kilometre="0.750" x="108505.98" y="700" xNet="1161096.3" yNet="678756.01" referenceNode="541"/>
+		<track trackID="U-1" stationID="ANGRFHH" interlockingMachine="Shunt" nodeID="541" kilometre="0.995" x="105618.92" y="700" xNet="1160535.1" yNet="683619.73" referenceNode="539"/>
+		<stationBorder exitType="regular" stationID="ANGRFHH" lineID="so290b" trackNumber="1" nodeID="542" kilometre="0.720" x="108859.5" y="700" xNet="1161165.2" yNet="678160.45" referenceNode="539"/>
+		<stationBorder exitType="regular" stationID="ANGRTAR" lineID="so290b" trackNumber="1" nodeID="72" kilometre="0.720" x="108859.5" y="500" xNet="1160835.1" yNet="678132.26" referenceNode="70"/>
+		<stationBorder exitType="locked" stationID="ANGRFHH" lineID="so290b" trackNumber="" nodeID="540" kilometre="1.000" x="105560" y="700" xNet="1160523.6" yNet="683719" referenceNode="541"/>
+		<stationBorder exitType="locked" stationID="ANGRTAR" trackNumber="" nodeID="242" kilometre="1.000" x="105560" y="500" xNet="1160199.7" yNet="683639.03" referenceNode="65"/>
+		<stationBorder exitType="regular" stationID="ANGRSTW" lineID="so290b" trackNumber="1" nodeID="538" kilometre="0.602" x="110250" y="700" xNet="1161435.4" yNet="675817.94" referenceNode="512"/>
+	</nodes>
+	<links>
+		<link source="55" target="72" length="118" vmax="24" vmaxr="24" bidirectional="true"/>
+		<link source="55" target="512" length="20" gradient="-3.937" vmax="24" vmaxr="24" bidirectional="true">
+			<vzg index="9" vmax="24" vmaxr="24"/>
+		</link>
+		<link source="57" target="58" length="126" gradient="-4.739" vmax="24" vmaxr="24" bidirectional="true">
+			<vzg index="9" vmax="24" vmaxr="24"/>
+		</link>
+		<link source="58" target="691.crln" length="76" gradient="4.739" vmax="24" vmaxr="24" bidirectional="true">
+			<vzg index="9" vmax="24" vmaxr="24"/>
+		</link>
+		<link source="59" target="57" length="74" gradient="-4.739" vmax="24" vmaxr="24" bidirectional="true">
+			<vzg index="9" vmax="24" vmaxr="24"/>
+		</link>
+		<link source="60" target="696" length="46" gradient="-3.937" vmax="24" vmaxr="24" bidirectional="true">
+			<vzg index="9" vmax="24" vmaxr="24"/>
+		</link>
+		<link source="61" target="60" length="10" gradient="-3.937" vmax="24" vmaxr="24" bidirectional="true">
+			<vzg index="9" vmax="24" vmaxr="24"/>
+		</link>
+		<link source="65" target="242" length="5" vmax="24" vmaxr="24" bidirectional="true"/>
+		<link source="70" target="65" length="245" vmax="24" vmaxr="24" bidirectional="true"/>
+		<link source="72" target="70" length="30" vmax="24" vmaxr="24" bidirectional="true"/>
+		<link source="512" target="61" length="20" gradient="-3.937" vmax="24" vmaxr="24" bidirectional="true">
+			<vzg index="9" vmax="24" vmaxr="24"/>
+		</link>
+		<link source="512" target="538" length="20" vmax="24" vmaxr="24" bidirectional="true"/>
+		<link source="538" target="542" length="118" vmax="24" vmaxr="24" bidirectional="true"/>
+		<link source="539" target="541" length="245" vmax="24" vmaxr="24" bidirectional="true"/>
+		<link source="541" target="540" length="5" vmax="24" vmaxr="24" bidirectional="true"/>
+		<link source="542" target="539" length="30" vmax="24" vmaxr="24" bidirectional="true"/>
+		<link source="696" target="59" length="106" gradient="-3.937" vmax="24" vmaxr="24" bidirectional="true">
+			<vzg index="9" vmax="24" vmaxr="24"/>
+		</link>
+	</links>
+	<dependentLinks/>
+	<blockSections>
+		<blocksection uuid="{0b6ef71d-109f-41db-b93f-4dfffdaac5d1}" lines="so290b" shuntingBlock="true">
+			<part nodes="70 72 55 512 61 60"/>
+		</blocksection>
+		<blocksection uuid="{21b0c72c-f814-4aad-ad1a-9d4f220214c0}" lines="so290b">
+			<part nodes="61 60"/>
+		</blocksection>
+		<blocksection uuid="{4cd34e0a-0c92-4c60-a388-8004964dbac7}" lines="so290b" shuntingBlock="true">
+			<part nodes="541 539"/>
+		</blocksection>
+		<blocksection uuid="{66509845-76e5-41ac-9887-d9614cefa6c5}" lines="so290b" shuntingBlock="true">
+			<part nodes="61 512 538 542 539 541"/>
+		</blocksection>
+		<blocksection uuid="{6a2c283a-2eae-451a-9a0e-fcd40efe5b8f}" lines="crln so290b">
+			<part nodes="691.crln 58 57 59 696 60 61"/>
+		</blocksection>
+		<blocksection uuid="{b652012a-8df8-4563-97fe-feafde83d10c}" lines="crln so290b">
+			<part nodes="60 696 59 57 58 691.crln"/>
+		</blocksection>
+		<blocksection uuid="{c5eb241a-9006-4978-8423-68f97e8df97f}" lines="so290b" shuntingBlock="true">
+			<part nodes="539 542 538 512 61 60"/>
+		</blocksection>
+		<blocksection uuid="{dace85d1-e509-41b1-bb3b-076622ee95e4}" lines="so290b" shuntingBlock="true">
+			<part nodes="65 70"/>
+		</blocksection>
+		<blocksection uuid="{f33441ca-9579-4ae7-99a4-bc05eb401d56}" lines="so290b" shuntingBlock="true">
+			<part nodes="61 512 55 72 70 65"/>
+		</blocksection>
+	</blockSections>
+	<slipDistances/>
+	<approachControlRoutes/>
+	<stationRoutes>
+		<stationRoute stationID="ANGRFHH" name="[ANGRSTW]-[so290b/1]-[1]-[ANGRSTW]-[so290b/1] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="542 539 541 539 542"/>
+		<stationRoute stationID="ANGRFHH" name="[ANGRSTW]-[so290b/1]-[1]-[]-[so290b/] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="542 539 541 540"/>
+		<stationRoute stationID="ANGRFHH" name="[]-[so290b/]-[1]-[ANGRSTW]-[so290b/1] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="540 541 539 542"/>
+		<stationRoute stationID="ANGRSTW" name="[ANGRFHH]-[so290b/1]-[1]-[ANGRSTJ]-[so290/1] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=95;NRz=95;S=95;Rz=95;FGz=95;NGz=95;Gz=95;Lz=95;Unbekannt=95" nodes="538 512 61 60 696"/>
+		<stationRoute stationID="ANGRSTW" name="[ANGRSTJ]-[s290/1]-[1]-[ANGRSTJ]-[s290/1] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="696 60 61 60 696"/>
+		<stationRoute stationID="ANGRSTW" name="[ANGRSTJ]-[s290/1]-[1]-[]-[?/] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="696 60 61 512 55"/>
+		<stationRoute stationID="ANGRSTW" name="[ANGRSTJ]-[so290/1]-[1]-[ANGRFHH]-[so290b/1] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=95;NRz=95;S=95;Rz=95;FGz=95;NGz=95;Gz=95;Lz=95;Unbekannt=95" nodes="696 60 61 512 538"/>
+		<stationRoute stationID="ANGRSTW" name="[]-[?/]-[1]-[ANGRSTJ]-[s290/1] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="55 512 61 60 696"/>
+		<stationRoute stationID="ANGRTAR" name="[ANGRSTW]-[so290b/1]-[1]-[ANGRSTW]-[so290b/1] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="72 70 65 70 72"/>
+		<stationRoute stationID="ANGRTAR" name="[ANGRSTW]-[so290b/1]-[1]-[]-[?/] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="72 70 65 242"/>
+		<stationRoute stationID="ANGRTAR" name="[]-[?/]-[1]-[ANGRSTW]-[so290b/1] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="242 65 70 72"/>
+	</stationRoutes>
+	<lineCatalog/>
+	<zugNummernFelder/>
+	<switchGears/>
+</line>

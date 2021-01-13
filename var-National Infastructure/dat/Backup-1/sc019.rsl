@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<line lineID="sc019" name="Mossend Sooth Jn - Mossend West Jn" trafficRouting="on_the_left" type="local" dependentLines="belsh mosj">
+	<version major="1" minor="2" patchlevel="0" comment=""/>
+	<creator user="VWaddelo" timestamp="2016-07-08T10:58:15"/>
+	<lasteditor user="VWaddelo" timestamp="2016-07-08T10:58:15"/>
+	<stations/>
+	<nodes>
+		<node nodeID="703" name="GRAD" kilometre="147.415" x="-56016.8809736841" y="-479200.900921053" xNet="-3053814.20877193" yNet="9040209.4"/>
+		<node nodeID="704" name="GRAD" kilometre="147.383" x="-55762.3971842105" y="-479200.713552632" xNet="-3053734.40526316" yNet="9040123"/>
+		<node nodeID="705" name="GRAD" kilometre="147.141" x="-55193.4679230764" y="-479512.170769231" xNet="-3053129.27692308" yNet="9039213.49230769"/>
+		<node nodeID="706" name="GRAD" kilometre="147.141" x="-53837.8635263157" y="-479199.296578947" xNet="-3053130.89122807" yNet="9039469.6"/>
+		<node nodeID="813" name="GRAD" kilometre="146.819" x="-51897.2055150478" y="-479551.610248709" xNet="-3052151.6915493" yNet="9037094.55704225"/>
+		<node nodeID="814" name="GRAD" kilometre="146.723" x="-51212.6023743911" y="-479564.701574088" xNet="-3051856.20985915" yNet="9036389.85845071"/>
+		<node nodeID="699" name="SD: GMY364" kilometre="146.962" x="-52576.8998839445" y="-479200.696310734" xNet="-3052699.0276249" yNet="9038894.98274112" referenceNode="706" sightingDistance="true"/>
+		<node nodeID="815" name="SD: GMY335" kilometre="147.109" x="-54865.889050229" y="-479516.090220608" xNet="-3053032.12558159" yNet="9039002.91489001" referenceNode="813" sightingDistance="true"/>
+		<speedIndicator nodeID="816" name="SPEED" kilometre="146.706" x="-51091.8633686852" y="-479567.010406046" xNet="-3051804.09767422" yNet="9036265.57534096" referenceNode="813.mosj"/>
+	</nodes>
+	<links>
+		<link source="699.mosj" target="699" length="18" vmax="48" vmaxr="48" owner="2017 10-12" buildingActivityNetworkSegment="EGIP"/>
+		<link source="699" target="706" length="179" vmax="48" vmaxr="48" owner="2017 10-12" buildingActivityNetworkSegment="EGIP"/>
+		<link source="703" target="695.belsh" length="34" gradient="5" vmax="48" vmaxr="48" owner="2017 10-12" buildingActivityNetworkSegment="EGIP"/>
+		<link source="704" target="703" length="32" vmax="48" vmaxr="48" owner="2017 10-12" buildingActivityNetworkSegment="EGIP"/>
+		<link source="705" target="720.belsh" length="10" gradient="2.703" vmax="48" vmaxr="48" owner="2017 10-12" buildingActivityNetworkSegment="EGIP"/>
+		<link source="706" target="704" length="242" gradient="2.703" vmax="48" vmaxr="48" owner="2017 10-12" buildingActivityNetworkSegment="EGIP"/>
+		<link source="813" target="815" length="290" vmax="48" vmaxr="48" owner="2017 10-12" buildingActivityNetworkSegment="EGIP"/>
+		<link source="813.mosj" target="816" length="46" gradient="2.237" vmax="40" vmaxr="40" owner="2017 10-12" buildingActivityNetworkSegment="EGIP"/>
+		<link source="814" target="813" length="96" gradient="-2.5" vmax="48" vmaxr="48" owner="2017 10-12" buildingActivityNetworkSegment="EGIP"/>
+		<link source="815" target="705" length="32" vmax="48" vmaxr="48" owner="2017 10-12" buildingActivityNetworkSegment="EGIP"/>
+		<link source="816" target="814" length="17" gradient="2.237" vmax="48" vmaxr="48" owner="2017 10-12" buildingActivityNetworkSegment="EGIP"/>
+	</links>
+	<dependentLinks/>
+	<blockSections>
+		<blocksection uuid="{a0b5b8d7-969a-4a29-ac4b-9a3fc86afe8b}" lines="belsh mosj sc019">
+			<part nodes="695.belsh 703 704 706 699 699.mosj"/>
+		</blocksection>
+		<blocksection uuid="{b9c2a3b5-9499-40e7-b844-4968137faacd}" lines="belsh mosj sc019 sc093" speedIndicators="816">
+			<part nodes="813.mosj 816 814 813 815 705 720.belsh"/>
+		</blocksection>
+	</blockSections>
+	<slipDistances/>
+	<approachControlRoutes>
+		<ACRoute controlTyp="mar" uuid="{a3ce68f1-2cd1-4362-808f-6a5e219d21c8}" publicName="GMY332-GMY364" description="MAR" lines="belsh mosj sc019">
+			<part nodes="695.belsh 703 704 706 699 699.mosj"/>
+		</ACRoute>
+	</approachControlRoutes>
+	<stationRoutes/>
+	<lineCatalog/>
+	<zugNummernFelder/>
+	<switchGears/>
+</line>

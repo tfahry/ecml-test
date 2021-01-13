@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<line lineID="ln926" name="Esholt Jn to Dockfield Jn" trafficRouting="on_the_left" type="local" dependentLines="eshjn shpy">
+	<version major="1" minor="2" patchlevel="0" comment=""/>
+	<creator user="Ahowe4" timestamp="2016-11-01T12:54:22"/>
+	<lasteditor user="Ahowe4" timestamp="2016-11-01T12:54:22"/>
+	<stations>
+		<station stationID="BAILDON" name="Baildon" xNet="-893313.52" yNet="5157573.7" uicLocationCode="0" circleDiameter="0">
+			<textElement type="name">
+				<pos view="net" x="539.589" y="539.589" angle="0" system="source"/>
+				<pos view="wgs84" x="539.589" y="539.589" angle="0" system="source"/>
+				<pos view="line" x="739.704" y="739.704" angle="0" system="source"/>
+				<pos view="macro" x="28.2843" y="28.2843" angle="0" system="source"/>
+				<pos view="macroWgs84" x="0" y="0" angle="0" system="source"/>
+			</textElement>
+		</station>
+	</stations>
+	<nodes>
+		<node nodeID="349" name="SD : 3939" description="sighting distance for SIG : 3939" kilometre="0.529" x="34283" y="40200" xNet="-856900" yNet="5174800" referenceNode="303" sightingDistance="true"/>
+		<node nodeID="303" name="GRAD" kilometre="0.596" x="33620" y="40200" xNet="-857325" yNet="5174744"/>
+		<node nodeID="306" name="OL" description="OL for SIG : 3939R" kilometre="1.000" x="29576" y="40200" xNet="-857689" yNet="5174716"/>
+		<node nodeID="308" name="REP : 3939R" description="Repeater 3939R; " kilometre="1.252" x="27056" y="40200" xNet="-858528" yNet="5174615" referenceNode="312" presignal="true" with1000HzMagnet="true"/>
+		<node nodeID="312" name="1000MM" description="1000MM : 2" kilometre="2.000" x="19576" y="40200" xNet="-873600" yNet="5174000"/>
+		<node nodeID="313" name="GRAD" kilometre="2.012" x="19459" y="40200" xNet="-879100" yNet="5172600"/>
+		<node nodeID="316" name="GRAD" kilometre="2.583" x="13745" y="40200" xNet="-883264.34" yNet="5171038.6"/>
+		<node nodeID="319" name="GRAD" kilometre="2.890" x="10680" y="40200" xNet="-890326.27" yNet="5160450.6"/>
+		<node nodeID="320" name="1000MM" description="1000MM : 3" kilometre="3.000" x="9576" y="40200" xNet="-891122.27" yNet="5159683.2"/>
+		<speedIndicator nodeID="321" name="SPEED" description="Speed; " kilometre="3.018" x="9401" y="40200" xNet="-891246.77" yNet="5159562.5" referenceNode="320"/>
+		<node nodeID="324" name="GRAD" kilometre="3.407" x="5501" y="40200" xNet="-891702.52" yNet="5159133.5"/>
+		<speedIndicator nodeID="325" name="SPEED" description="Speed; " kilometre="3.541" x="4170" y="40200" xNet="-892659.18" yNet="5158208.6" referenceNode="324"/>
+		<node nodeID="328" name="1000MM" description="1000MM : 4" kilometre="4.000" x="-424" y="40200" xNet="-894603.33" yNet="5156329.5"/>
+		<node nodeID="330" name="REP : 3963R" description="Repeater 3963R; " kilometre="4.223" x="-2658" y="40200" xNet="-900683.04" yNet="5146239.9" referenceNode="328" presignal="true" with1000HzMagnet="true"/>
+		<node nodeID="334" name="1000MM" description="1000MM : 5" kilometre="5.000" x="-10424" y="40200" xNet="-907906.31" yNet="5133426.2"/>
+		<track trackID="U-1" stationID="BAILDON" type="stopBoard" nodeID="329" name="BAILDON" kilometre="3.751" x="2066" y="40200" xNet="-892810.62" yNet="5158059.6" referenceNode="332"/>
+		<track trackID="D-1" stationID="BAILDON" type="stopBoard" nodeID="332" name="BAILDON" kilometre="3.853" x="1046" y="40200" xNet="-893544.5" yNet="5157348.9" referenceNode="329">
+			<platform startPos="-1020" endPos="0" width="75" left="false" open="true"/>
+		</track>
+		<stationBorder exitType="regular" stationID="BAILDON" lineID="ln926" trackNumber="1" nodeID="32" name="[SHPYESJ] - [ln926/1]" kilometre="3.688" x="2697.2" y="40200" xNet="-892765.09" yNet="5158104.3" referenceNode="329"/>
+		<stationBorder exitType="regular" stationID="BAILDON" lineID="ln926" trackNumber="1" nodeID="50" name="[SHPYDJN] - [ln926/1]" kilometre="3.897" x="605" y="40200" xNet="-893861.95" yNet="5157043.1" referenceNode="332"/>
+	</nodes>
+	<links>
+		<link source="32" target="325" length="147" gradient="9.8039" vmax="80" vmaxr="80" bidirectional="true"/>
+		<link source="50" target="332" length="44" gradient="9.8039" vmax="80" vmaxr="80" bidirectional="true"/>
+		<link source="303" target="349" length="66" vmax="97" vmaxr="97" bidirectional="true"/>
+		<link source="306" target="303" length="404" gradient="9.8039" vmax="97" vmaxr="97" bidirectional="true"/>
+		<link source="308" target="306" length="252" gradient="9.8039" vmax="97" vmaxr="97" bidirectional="true"/>
+		<link source="312" target="308" length="748" gradient="9.8039" vmax="97" vmaxr="97" bidirectional="true"/>
+		<link source="313" target="312" length="12" gradient="9.8039" vmax="97" vmaxr="97" bidirectional="true"/>
+		<link source="316" target="313" length="571" gradient="5.1546" vmax="97" vmaxr="97" bidirectional="true"/>
+		<link source="319" target="316" length="307" gradient="2.7778" vmax="97" vmaxr="97" bidirectional="true"/>
+		<link source="320" target="319" length="110" vmax="97" vmaxr="97" bidirectional="true"/>
+		<link source="321" target="320" length="18" vmax="97" vmaxr="97" bidirectional="true"/>
+		<link source="324" target="321" length="389" vmax="80" vmaxr="97" bidirectional="true"/>
+		<link source="325" target="324" length="133" gradient="9.8039" vmax="80" vmaxr="97" bidirectional="true"/>
+		<link source="328" target="50" length="103" gradient="9.8039" vmax="80" vmaxr="80" bidirectional="true"/>
+		<link source="329" target="32" length="63" gradient="9.8039" vmax="80" vmaxr="80" bidirectional="true"/>
+		<link source="330" target="328" length="223" gradient="9.8039" vmax="80" vmaxr="80" bidirectional="true"/>
+		<link source="332" target="329" length="102" gradient="9.8039" vmax="80" vmaxr="80" bidirectional="true"/>
+		<link source="334" target="330" length="777" gradient="9.8039" vmax="80" vmaxr="80" bidirectional="true"/>
+		<link source="349" target="354.eshjn" length="141" vmax="97" vmaxr="97" bidirectional="true"/>
+		<link source="354.shpy" target="334" length="70" gradient="9.8039" vmax="80" vmaxr="80" bidirectional="true"/>
+	</links>
+	<dependentLinks/>
+	<blockSections>
+		<blocksection uuid="{4dec3d1c-ef03-4dcf-8b46-edc2e588a6b5}" lines="eshjn ln926 shpy" speedIndicators="321 325">
+			<part nodes="354.eshjn 349 303 306 308 312 313 316 319 320 321 324 325 32 329 332 50 328 330 334 354.shpy"/>
+		</blocksection>
+		<blocksection uuid="{505a2d93-bff2-48f9-b8bf-efc94681ff18}" lines="eshjn ln926 shpy" speedIndicators="321 325">
+			<part nodes="354.shpy 334 330 328 50 332 329 32 325 324 321 320 319 316 313 312 308 306 303 349 354.eshjn"/>
+		</blocksection>
+		<blocksection uuid="{c5d7626c-21ae-4b63-801e-8ef6c3e9690a}" lines="eshjn ln926 shpy" speedIndicators="321 325">
+			<part nodes="354.shpy 334 330 328 50 332 329 32 325 324 321 320 319 316 313 312 308 306 303 349 354.eshjn"/>
+		</blocksection>
+		<blocksection uuid="{e56c55e2-8849-49a7-a70c-3d5b6141ad7d}" lines="eshjn ln926 shpy" speedIndicators="321 325">
+			<part nodes="354.shpy 334 330 328 50 332 329 32 325 324 321 320 319 316 313 312 308 306 303 349 354.eshjn"/>
+		</blocksection>
+	</blockSections>
+	<slipDistances/>
+	<approachControlRoutes/>
+	<stationRoutes>
+		<stationRoute stationID="BAILDON" name="[SHPYDJN]-[ln926/1]-[1]-[SHPYESJ]-[ln926/1] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="50 332 329 32"/>
+		<stationRoute stationID="BAILDON" name="[SHPYESJ]-[ln926/1]-[1]-[SHPYDJN]-[ln926/1] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="32 329 332 50"/>
+	</stationRoutes>
+	<lineCatalog/>
+	<zugNummernFelder/>
+	<switchGears/>
+</line>

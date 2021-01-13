@@ -1,0 +1,582 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<line lineID="estjn" name="Earlestown Jn" trafficRouting="on_the_left" type="global" dependentLines="nw1021 nw2015">
+	<transformations>
+		<transformation line="nw1001" m11="1" m12="0" m21="0" m22="1" dx="57040.6" dy="387298"/>
+		<transformation line="nw1021" m11="1" m12="0" m21="0" m22="1" dx="-2179.97" dy="469.951"/>
+		<transformation line="nw2015" m11="1" m12="0" m21="0" m22="1" dx="-1287.39" dy="-3"/>
+	</transformations>
+	<version major="1" minor="2" patchlevel="0" comment=""/>
+	<creator user="VWaddelo" timestamp="2016-07-08T10:58:15"/>
+	<lasteditor user="VWaddelo" timestamp="2016-07-08T10:58:15"/>
+	<stations>
+		<station stationID="ERLSTEJ" name="Earlestown East Jn" xNet="-1872780.55" yNet="4405191.25" uicLocationCode="0" circleDiameter="0">
+			<textElement type="name">
+				<pos view="net" x="989.742" y="989.742" angle="0" system="source"/>
+				<pos view="wgs84" x="989.742" y="989.742" angle="0" system="source"/>
+				<pos view="line" x="1044.23" y="1044.23" angle="0" system="source"/>
+				<pos view="macro" x="28.2843" y="28.2843" angle="0" system="source"/>
+				<pos view="macroWgs84" x="0" y="0" angle="0" system="source"/>
+			</textElement>
+		</station>
+		<station stationID="ERLSTSJ" name="Earlestown South Junction" xNet="-1873221.65" yNet="4400219.9" uicLocationCode="0" circleDiameter="0">
+			<textElement type="name">
+				<pos view="net" x="2303.14" y="2303.14" angle="0" system="source"/>
+				<pos view="wgs84" x="2303.14" y="2303.14" angle="0" system="source"/>
+				<pos view="line" x="2244.24" y="2244.24" angle="0" system="source"/>
+				<pos view="macro" x="28.2843" y="28.2843" angle="0" system="source"/>
+				<pos view="macroWgs84" x="0" y="0" angle="0" system="source"/>
+			</textElement>
+		</station>
+		<station stationID="ERLSTWJ" name="Earlstown West Jn" xNet="-1881325.95" yNet="4401473.9" uicLocationCode="0" circleDiameter="0">
+			<textElement type="name">
+				<pos view="net" x="2889.49" y="2889.49" angle="0" system="source"/>
+				<pos view="wgs84" x="2889.49" y="2889.49" angle="0" system="source"/>
+				<pos view="line" x="2408.2" y="2408.2" angle="0" system="source"/>
+				<pos view="macro" x="28.2843" y="28.2843" angle="0" system="source"/>
+				<pos view="macroWgs84" x="0" y="0" angle="0" system="source"/>
+			</textElement>
+		</station>
+		<station stationID="ERLSTWN" name="Earlestown" xNet="-1875578.25" yNet="4403568.3" uicLocationCode="0" circleDiameter="0">
+			<textElement type="name">
+				<pos view="net" x="1666.28" y="1666.28" angle="0" system="source"/>
+				<pos view="wgs84" x="1666.28" y="1666.28" angle="0" system="source"/>
+				<pos view="line" x="1586.9" y="1586.9" angle="0" system="source"/>
+				<pos view="macro" x="28.2843" y="28.2843" angle="0" system="source"/>
+				<pos view="macroWgs84" x="0" y="0" angle="0" system="source"/>
+			</textElement>
+		</station>
+	</stations>
+	<nodes>
+		<node nodeID="3" kilometre="301.000" x="240241.4" y="-2125.1154" xNet="-1873751.7" yNet="4403786"/>
+		<node nodeID="5" kilometre="301.000" x="240123.03" y="-1963.8998" xNet="-1873932.1" yNet="4403870.9"/>
+		<switch start="470" endOfMainTrack="468" endOfBranchTrack="36" nodeID="13" name="POINTS: 755A" kilometre="300.784" x="238273.39" y="-2501.7637" xNet="-1874837" yNet="4401944"/>
+		<track trackID="D-4" stationID="ERLSTWN" interlockingMachine="4 Aspect Pannel (Below 75mph)" nodeID="1" name="SIG: WN543" description="Signal WN543; 4 Aspect" kilometre="301.072" x="240705.52" y="-1540.6944" xNet="-1873630.1" yNet="4404522.3" referenceNode="9">
+			<platform startPos="-1450" endPos="0" width="75" left="true" open="true"/>
+		</track>
+		<switch start="470" endOfMainTrack="40" endOfBranchTrack="34" nodeID="16" name="POINTS: 753B" kilometre="300.505" x="235484.39" y="-2501.7637" xNet="-1872975.9" yNet="4399607.3"/>
+		<switch start="18" endOfMainTrack="65" endOfBranchTrack="35" nodeID="17" name="POINTS: 753A" kilometre="300.440" x="234834.39" y="-2701.7637" xNet="-1872432.3" yNet="4399200.1"/>
+		<signal type="shunting" interlockingMachine="Shunt" nodeID="18" name="SIG: SHUNT" description="Signal Shunt;" kilometre="300.421" x="234644.39" y="-2701.7637" xNet="-1872319.7" yNet="4399045.7" referenceNode="43"/>
+		<node nodeID="9" name="SD: WN543" description="Sighting distance for SIG: 543" kilometre="301.002" x="240140.02" y="-1951.5563" xNet="-1873924.5" yNet="4403888.7" referenceNode="5" sightingDistance="true"/>
+		<node nodeID="38" name="OL: WN544" kilometre="300.695" x="237384.39" y="-2701.7637" xNet="-1874600" yNet="4401800"/>
+		<node nodeID="39" name="SD: WN544" description="Sighting distance for SIG: 544" kilometre="300.948" x="239820.71" y="-2430.7637" xNet="-1873970.6" yNet="4403315.2" referenceNode="517" sightingDistance="true"/>
+		<node nodeID="40" name="OL: WN545" kilometre="300.491" x="235345.39" y="-2501.7637" xNet="-1872893.7" yNet="4399494.7"/>
+		<node nodeID="43" name="SD: WN546" description="Sighting distance for SIG: 546" kilometre="300.296" x="233394.39" y="-2701.7637" xNet="-1871585.3" yNet="4398034.5" referenceNode="18" sightingDistance="true"/>
+		<node nodeID="144" kilometre="23.000" x="231164.89" y="-997" xNet="-1882785" yNet="4400993.3"/>
+		<node nodeID="193" kilometre="23.000" x="231164.89" y="-1197" xNet="-1882702.7" yNet="4400811.5"/>
+		<switch start="272" endOfMainTrack="310" endOfBranchTrack="343" nodeID="293" name="POINTS: 758B" kilometre="23.455" x="235714.89" y="-1197" xNet="-1878548" yNet="4402661.3"/>
+		<switch start="474" endOfMainTrack="316" endOfBranchTrack="466" nodeID="294" name="POINTS: 758A" kilometre="23.531" x="236454.89" y="-1397" xNet="-1877771.2" yNet="4402787.1"/>
+		<switch start="587" endOfMainTrack="328" endOfBranchTrack="327" nodeID="295" name="POINTS: 757B" kilometre="23.568" x="236824.89" y="-1397" xNet="-1877434.4" yNet="4402938.7"/>
+		<switch start="308" endOfMainTrack="485" endOfBranchTrack="342" nodeID="296" name="POINTS: 757A" kilometre="23.639" x="237524.89" y="-1197" xNet="-1876865.3" yNet="4403410.1"/>
+		<track trackID="U-1" stationID="ERLSTWN" interlockingMachine="4 Aspect Pannel (76mph - 100mph)" nodeID="297" name="SIG: WN539" description="Signal WN539; 4 Aspect" kilometre="23.788" x="239044.89" y="-997" xNet="-1875586.6" yNet="4404198.8" referenceNode="338">
+			<platform startPos="-1600" endPos="0" width="75" left="true" open="true"/>
+		</track>
+		<signal type="shunting" interlockingMachine="Shunt" nodeID="300" name="SIG: SHUNT" description="Signal Shunt;" kilometre="23.908" x="240433.39" y="-996.76374" xNet="-1874489.6" yNet="4404687.3" referenceNode="505"/>
+		<signal type="shunting" interlockingMachine="Shunt" nodeID="301" name="SIG: SHUNT" description="Signal Shunt;" kilometre="23.810" x="239534.89" y="-1197" xNet="-1875304.4" yNet="4404105.8" referenceNode="340"/>
+		<node nodeID="306" name="SD: WN563" description="Sighting distance for SIG: 563" kilometre="23.323" x="234394.89" y="-1197" xNet="-1879753.3" yNet="4402124.8" referenceNode="364" sightingDistance="true"/>
+		<node nodeID="307" name="SD: WN562" description="Sighting distance for SIG: 562" kilometre="23.158" x="232744.89" y="-1397" xNet="-1881178.6" yNet="4401270.2" referenceNode="312" sightingDistance="true"/>
+		<node nodeID="308" name="OL: WN559" kilometre="23.640" x="237564.89" y="-1197" xNet="-1876855.7" yNet="4403413.8"/>
+		<node nodeID="14" name="OL: WN561/559" kilometre="23.627" x="237565.89" y="-1397" xNet="-1876892.8" yNet="4403179"/>
+		<node nodeID="311" name="SD: WN559" description="Sighting distance for SIG: 559" kilometre="23.209" x="233254.89" y="-1197" xNet="-1880794.4" yNet="4401660.8" referenceNode="514" sightingDistance="true"/>
+		<node nodeID="312" name="SD: WN561" description="Sighting distance for SIG: 561" kilometre="23.374" x="234904.89" y="-1397" xNet="-1879207.2" yNet="4402149" referenceNode="307" sightingDistance="true"/>
+		<node nodeID="314" name="SD: WN539" description="Sighting distance for SIG: 539" kilometre="23.553" x="236694.89" y="-997" xNet="-1877733.3" yNet="4403242.8" referenceNode="618" sightingDistance="true"/>
+		<switch start="11" endOfMainTrack="30" endOfBranchTrack="29" nodeID="26" name="POINTS: 751" kilometre="24.028" x="241404.79" y="-997" xNet="-1873394.1" yNet="4405174.2"/>
+		<switch start="21" endOfMainTrack="8" endOfBranchTrack="28" nodeID="27" name="POINTS: 750" kilometre="24.036" x="241524.79" y="-1197" xNet="-1873238.8" yNet="4405025.1"/>
+		<crossing type="kr" startOfMainTrack="336" startOfBranchTrack="481" endOfMainTrack="27" endOfBranchTrack="25" nodeID="8" name="FD:" description="Fixed diamond" kilometre="23.999" x="241154.79" y="-1197" xNet="-1873550.4" yNet="4404886"/>
+		<node nodeID="336" name="TC" description="Release contact for track circuit" kilometre="23.986" x="241025.39" y="-1197" xNet="-1873696.6" yNet="4404821.2" referenceNode="8" releaseContact="true" arranged="true"/>
+		<track trackID="D-2" stationID="ERLSTWN" type="stopBoard" nodeID="339" name="D-2" description="Earlstown D-2, stopBoard; m ch" kilometre="23.673" x="237894.89" y="-1197" xNet="-1876556.4" yNet="4403547.9" referenceNode="340">
+			<platform startPos="-1150" endPos="0" width="75" left="true" open="true"/>
+		</track>
+		<track trackID="U-2" stationID="ERLSTWN" type="stopBoard" nodeID="340" name="U-2" description="Earlstown U-2, stopBoard; m ch" kilometre="23.788" x="239044.89" y="-1197" xNet="-1875504.7" yNet="4404016.1" referenceNode="339"/>
+		<node nodeID="472" kilometre="301.000" x="238763.39" y="-1396.7637" xNet="-1875662" yNet="4402680.8"/>
+		<track trackID="D-3" stationID="ERLSTWN" interlockingMachine="4 Aspect Pannel (Below 75mph)" nodeID="473" name="SIG: WN554" description="Signal WN554; 4 Aspect" kilometre="23.685" x="237893.39" y="-1396.7637" xNet="-1876423.8" yNet="4403148.8" referenceNode="469">
+			<platform startPos="-1160" endPos="0" width="75" left="false" open="true"/>
+		</track>
+		<kilometreInconsistency newKilometre="23.7" nodeID="469" name="CHANGE OF KM" description="Change of kilometrage" kilometre="301.106" x="238030.39" y="-1396.7637" xNet="-1876191.6" yNet="4403015.3" referenceNode="475"/>
+		<node nodeID="475" name="SD: WN554" description="Sighting distance for SIG: 554" kilometre="301.051" x="238387.39" y="-1396.7637" xNet="-1875988.2" yNet="4402862" referenceNode="478" sightingDistance="true"/>
+		<track trackID="U-3" stationID="ERLSTWN" interlockingMachine="4 Aspect Pannel (Below 75mph)" nodeID="476" name="SIG: WN551" description="Signal WN551; 4 Aspect" kilometre="300.962" x="239044.39" y="-1396.7637" xNet="-1875413" yNet="4402543" referenceNode="547"/>
+		<node nodeID="478" name="SD: WN551" description="Sighting distance for SIG: 551" kilometre="301.032" x="238561.39" y="-1396.7637" xNet="-1875841.7" yNet="4402781.3" referenceNode="475" sightingDistance="true"/>
+		<kilometreInconsistency newKilometre="24.02" nodeID="471" name="CHANGE OF KM" description="Change of kilometrage" kilometre="301.128" x="241348.39" y="-1316.7637" xNet="-1873335.8" yNet="4404847.5" referenceNode="518"/>
+		<kilometreInconsistency newKilometre="301.098" nodeID="481" name="CHANGE OF KM" description="Change of kilometrage" kilometre="23.990" x="241015.39" y="-1306" xNet="-1873620.1" yNet="4404751.2" referenceNode="8"/>
+		<node nodeID="483" name="TC" description="Release contact for track circuit" kilometre="300.936" x="239015.39" y="-2001.7637" xNet="-1875187.8" yNet="4402343.2" referenceNode="477" releaseContact="true" arranged="true"/>
+		<node nodeID="468" name="TC" description="Release contact for track circuit" kilometre="300.795" x="238349.39" y="-2501.7637" xNet="-1874726" yNet="4402168" referenceNode="13" releaseContact="true" arranged="true"/>
+		<node nodeID="503" name="TC" description="Release contact for track circuit" kilometre="300.798" x="238341.39" y="-2459.7637" xNet="-1874982" yNet="4402109" referenceNode="36" releaseContact="true" arranged="true"/>
+		<node nodeID="21" name="OL: WN538" kilometre="24.038" x="241544.89" y="-1197" xNet="-1873221.1" yNet="4405032.6"/>
+		<node nodeID="7" name="OL: WN543" kilometre="24.055" x="241714.89" y="-997" xNet="-1873148.4" yNet="4405284.5"/>
+		<track trackID="U-4" stationID="ERLSTWN" type="stopBoard" nodeID="515" name="U-4" description="Earlstown U-4, stopBoard; m ch" kilometre="300.927" x="239532.45" y="-2392.983" xNet="-1874241.5" yNet="4403209.2" referenceNode="5"/>
+		<track trackID="D-5" stationID="ERLSTWN" type="stopBoard" nodeID="516" name="D-5" description="Earlstown D-5, stopBoard; m ch" kilometre="301.072" x="240836.03" y="-1693.0933" xNet="-1873518.7" yNet="4404381.9" referenceNode="3"/>
+		<track trackID="U-5" stationID="ERLSTWN" type="stopBoard" nodeID="517" name="U-5" description="Earlstown U-5, stopBoard; m ch" kilometre="300.960" x="239917.79" y="-2360.2295" xNet="-1873921.9" yNet="4403423.7" referenceNode="3">
+			<platform startPos="-1120" endPos="0" width="75" left="true" open="true"/>
+		</track>
+		<switch start="6" endOfMainTrack="193" endOfBranchTrack="349" nodeID="325" name="POINTS: 760B" kilometre="22.971" x="230874.89" y="-1197" xNet="-1882967.7" yNet="4400692.8"/>
+		<node nodeID="4" kilometre="22.955" x="230714.49" y="-997" xNet="-1883196.8" yNet="4400810.4"/>
+		<node nodeID="6" name="OL: WN563/562" kilometre="22.963" x="230794.89" y="-1197" xNet="-1883041.1" yNet="4400660.3"/>
+		<node nodeID="338" name="D-1" description="Earlstown D-1, stopBoard; m ch" kilometre="23.628" x="237444.89" y="-997" xNet="-1877048.6" yNet="4403547.5"/>
+		<switch start="301" endOfMainTrack="550" endOfBranchTrack="321" nodeID="304" name="POINTS: 752B" kilometre="23.835" x="239652.49" y="-1197" xNet="-1875075.3" yNet="4404206.6"/>
+		<switch start="568" endOfMainTrack="551" endOfBranchTrack="323" nodeID="305" name="POINTS: 752A" kilometre="23.897" x="240134.89" y="-997" xNet="-1874590.3" yNet="4404642.3"/>
+		<track trackID="T-1" stationID="ERLSTEJ" type="timingPoint" nodeID="11" name="T-1" description="Earlstown East Jn T-1, timingPoint; 14m 75ch" kilometre="24.040" x="241542.59" y="-997" xNet="-1873285.4" yNet="4405223.4" referenceNode="26"/>
+		<track trackID="D-2" stationID="ERLSTEJ" interlockingMachine="4 Aspect Pannel (76mph - 100mph)" nodeID="12" name="SIG: WN538" description="Signal WN538; 4 Aspect" kilometre="24.218" x="243344.79" y="-1197" xNet="-1872009.9" yNet="4405574.8" referenceNode="280"/>
+		<track trackID="U-2" stationID="ERLSTWJ" interlockingMachine="4 Aspect Pannel (76mph - 100mph)" nodeID="272" name="SIG: WN559" description="Signal WN559; 4 Aspect" kilometre="23.444" x="235604.89" y="-1197" xNet="-1878647.7" yNet="4402616.6" referenceNode="364"/>
+		<track trackID="U-3" stationID="ERLSTWJ" interlockingMachine="3 Aspect Pannel (Below 75mph)" nodeID="292" name="SIG: WN561" description="Signal WN561; 3 Aspect" kilometre="23.444" x="235604.89" y="-1397" xNet="-1878566" yNet="4402433.8" referenceNode="484"/>
+		<node nodeID="2" name="POINTS: 760A" kilometre="23.052" x="231684.89" y="-1397" xNet="-1882147" yNet="4400840.7"/>
+		<node nodeID="352" name="TC" description="Release contact for track circuit" kilometre="23.866" x="239893.69" y="-1097.004" xNet="-1874833.9" yNet="4404424.4" referenceNode="321" releaseContact="true" arranged="true"/>
+		<node nodeID="376" name="TC" description="Release contact for track circuit" kilometre="23.867" x="239901.49" y="-1093.778" xNet="-1874825.3" yNet="4404431.1" referenceNode="323" releaseContact="true" arranged="true"/>
+		<node nodeID="391" name="TC" description="Release contact for track circuit" kilometre="23.012" x="231282.99" y="-1297.759" xNet="-1882553.6" yNet="4400767.2" referenceNode="349" releaseContact="true" arranged="true"/>
+		<node nodeID="459" name="OL: WN561" kilometre="23.626" x="237414.89" y="-1228.41" xNet="-1876971.6" yNet="4403329.6"/>
+		<node nodeID="303" name="TC" description="Release contact for track circuit" kilometre="23.011" x="231274.89" y="-1197" xNet="-1882602.9" yNet="4400856" referenceNode="193" releaseContact="true" arranged="true"/>
+		<node nodeID="466" name="TC" description="Release contact for track circuit" kilometre="23.493" x="236089.89" y="-1298.361" xNet="-1878153.9" yNet="4402724.8" referenceNode="479" releaseContact="true" arranged="true"/>
+		<node nodeID="479" name="TC" description="Release contact for track circuit" kilometre="23.493" x="236080.29" y="-1295.765" xNet="-1878163.7" yNet="4402723.3" referenceNode="466" releaseContact="true" arranged="true"/>
+		<node nodeID="310" name="TC" description="Release contact for track circuit" kilometre="23.495" x="236113.59" y="-1197" xNet="-1878182.4" yNet="4402823.7" referenceNode="293" releaseContact="true" arranged="true"/>
+		<node nodeID="316" name="TC" description="Release contact for track circuit" kilometre="23.491" x="236068.59" y="-1397" xNet="-1878132.9" yNet="4402626.2" referenceNode="294" releaseContact="true" arranged="true"/>
+		<node nodeID="326" name="TC" description="Release contact for track circuit" kilometre="23.604" x="237194.69" y="-1291.347" xNet="-1877144" yNet="4403184" referenceNode="327" releaseContact="true" arranged="true"/>
+		<node nodeID="327" name="TC" description="Release contact for track circuit" kilometre="23.603" x="237184.39" y="-1294.282" xNet="-1877152.5" yNet="4403176.8" referenceNode="326" releaseContact="true" arranged="true"/>
+		<node nodeID="328" name="TC" description="Release contact for track circuit" kilometre="23.608" x="237327.29" y="-1397" xNet="-1877066.8" yNet="4403101.9" referenceNode="295" releaseContact="true" arranged="true"/>
+		<node nodeID="485" name="TC" description="Release contact for track circuit" kilometre="23.599" x="237137.89" y="-1197" xNet="-1877231.6" yNet="4403247" referenceNode="296" releaseContact="true" arranged="true"/>
+		<node nodeID="56" name="TC" description="Release contact for track circuit" kilometre="300.473" x="235140.39" y="-2604.7637" xNet="-1872704.2" yNet="4399404.7" referenceNode="58" releaseContact="true" arranged="true"/>
+		<node nodeID="58" name="TC" description="Release contact for track circuit" kilometre="300.473" x="235150.39" y="-2601.7637" xNet="-1872712.2" yNet="4399410.1" referenceNode="56" releaseContact="true" arranged="true"/>
+		<node nodeID="65" name="TC" description="Release contact for track circuit" kilometre="300.480" x="235234.39" y="-2701.7637" xNet="-1872667.7" yNet="4399523.6" referenceNode="17" releaseContact="true" arranged="true"/>
+		<node nodeID="66" name="TC" description="Release contact for track circuit" kilometre="300.451" x="234945.39" y="-2501.7637" xNet="-1872658.6" yNet="4399171.3" referenceNode="40" releaseContact="true" arranged="true"/>
+		<node nodeID="24" name="TC" description="Release contact for track circuit" kilometre="24.013" x="241276.79" y="-1099.403" xNet="-1873473.8" yNet="4405027.1" referenceNode="25" releaseContact="true" arranged="true"/>
+		<node nodeID="25" name="TC" description="Release contact for track circuit" kilometre="24.012" x="241267.49" y="-1106.911" xNet="-1873479.7" yNet="4405016.2" referenceNode="24" releaseContact="true" arranged="true"/>
+		<node nodeID="518" name="TC" description="Release contact for track circuit" kilometre="301.104" x="241129.39" y="-1479.7637" xNet="-1873413.8" yNet="4404648.2" referenceNode="471" releaseContact="true" arranged="true"/>
+		<node nodeID="512" name="GRAD" kilometre="23.134" x="232504.89" y="-997" xNet="-1881561.3" yNet="4401538.1"/>
+		<node nodeID="514" name="GRAD" kilometre="23.134" x="232504.89" y="-1197" xNet="-1881481.7" yNet="4401355"/>
+		<node nodeID="528" name="GRAD" kilometre="23.134" x="232504.89" y="-1397" xNet="-1881402.6" yNet="4401170.6"/>
+		<node nodeID="546" kilometre="300.820" x="238630.39" y="-2274.7637" xNet="-1875035.6" yNet="4402174"/>
+		<node nodeID="547" kilometre="300.979" x="238951.39" y="-1396.7637" xNet="-1875523" yNet="4402621.1"/>
+		<node nodeID="548" kilometre="300.953" x="239215.39" y="-1601.7637" xNet="-1875290.2" yNet="4402418.2"/>
+		<node nodeID="550" name="TC" description="Release contact for track circuit" kilometre="23.875" x="240016.19" y="-1197" xNet="-1874710.1" yNet="4404369.4" referenceNode="304" releaseContact="true" arranged="true"/>
+		<node nodeID="551" name="TC" description="Release contact for track circuit" kilometre="23.857" x="239734.89" y="-997" xNet="-1874956.6" yNet="4404479" referenceNode="305" releaseContact="true" arranged="true"/>
+		<track trackID="T-2" stationID="ERLSTWJ" type="timingPoint" nodeID="364" kilometre="23.420" x="235361.29" y="-1197" xNet="-1878869.8" yNet="4402517.9" referenceNode="306"/>
+		<track trackID="T-3" stationID="ERLSTWJ" type="timingPoint" nodeID="484" kilometre="23.420" x="235362.39" y="-1397" xNet="-1878788.1" yNet="4402335.3" referenceNode="312"/>
+		<track trackID="U-1" stationID="ERLSTSJ" interlockingMachine="4 Aspect Pannel (Below 75mph)" nodeID="15" name="SIG: WN544" description="Signal WN544; 4 Aspect" kilometre="300.878" x="239164.39" y="-2701.7637" xNet="-1874268.3" yNet="4402679.2" referenceNode="611"/>
+		<track trackID="D-1" stationID="ERLSTSJ" interlockingMachine="4 Aspect Pannel (Below 75mph)" nodeID="19" name="SIG: WN545" description="Signal WN545; 4 Aspect" kilometre="300.345" x="233884.39" y="-2501.7637" xNet="-1872035.8" yNet="4398314.7" referenceNode="687"/>
+		<track trackID="T-1" stationID="ERLSTSJ" type="timingPoint" nodeID="69" kilometre="300.487" x="235297.69" y="-2556.3067" xNet="-1872828.3" yNet="4399497.3" referenceNode="34"/>
+		<speedIndicator nodeID="28" name="SPEED" kilometre="35.159" x="241518.39" y="-1201.941" xNet="-1873242.5" yNet="4405018.1" referenceNode="27"/>
+		<speedIndicator nodeID="323" name="SPEED" kilometre="23.896" x="240127.09" y="-1000.227" xNet="-1874598.6" yNet="4404634.9" referenceNode="376"/>
+		<speedIndicator nodeID="321" name="SPEED" kilometre="23.836" x="239660.29" y="-1193.777" xNet="-1875067.9" yNet="4404213.4" referenceNode="304"/>
+		<speedIndicator nodeID="349" name="SPEED" kilometre="22.972" x="230881.09" y="-1198.519" xNet="-1882958" yNet="4400694.1" referenceNode="391"/>
+		<speedIndicator nodeID="343" name="SPEED" kilometre="23.456" x="235724.99" y="-1199.722" xNet="-1878536.7" yNet="4402662.3" referenceNode="293"/>
+		<speedIndicator nodeID="342" name="SPEED" kilometre="23.638" x="237515.09" y="-1199.805" xNet="-1876873.2" yNet="4403404" referenceNode="459"/>
+		<speedIndicator nodeID="29" name="SPEED" kilometre="24.027" x="241394.79" y="-1005.022" xNet="-1873399.2" yNet="4405163.8" referenceNode="24"/>
+		<speedIndicator nodeID="36" name="SPEED" kilometre="300.785" x="238285.39" y="-2494.7637" xNet="-1874924" yNet="4402031" referenceNode="503"/>
+		<speedIndicator nodeID="35" name="SPEED" kilometre="300.441" x="234866.39" y="-2696.7637" xNet="-1872440.6" yNet="4399206.7" referenceNode="56"/>
+		<speedIndicator nodeID="34" name="SPEED" kilometre="300.504" x="235474.39" y="-2501.7637" xNet="-1872967.6" yNet="4399602.7" referenceNode="16"/>
+		<speedIndicator nodeID="33" name="SPEED" kilometre="300.827" x="238703.39" y="-2501.7637" xNet="-1874663.9" yNet="4402302.4" referenceNode="468"/>
+		<speedIndicator nodeID="32" name="SPEED" kilometre="300.827" x="238705.39" y="-2701.7637" xNet="-1874483.1" yNet="4402218.7" referenceNode="15"/>
+		<node nodeID="324" kilometre="22.955" x="230714.89" y="-1197" xNet="-1884195.3" yNet="4400146.5"/>
+		<switch start="324" endOfMainTrack="644" endOfBranchTrack="23" nodeID="322" name="POINTS: 761A" kilometre="22.947" x="230634.89" y="-1197" xNet="-1884268.6" yNet="4400114.2"/>
+		<switch start="621" endOfMainTrack="37" endOfBranchTrack="44" nodeID="42" name="POINTS: 761B" kilometre="22.891" x="230074.89" y="-997" xNet="-1884861.9" yNet="4400069.5"/>
+		<node nodeID="22" name="TC" description="Release contact for track circuit" kilometre="22.918" x="230344.89" y="-1093.411" xNet="-1884575.8" yNet="4400091.5" referenceNode="31" releaseContact="true" arranged="true"/>
+		<node nodeID="31" name="TC" description="Release contact for track circuit" kilometre="22.917" x="230334.89" y="-1089.84" xNet="-1884586.3" yNet="4400089.5" referenceNode="22" releaseContact="true" arranged="true"/>
+		<node nodeID="37" name="TC" description="Release contact for track circuit" kilometre="22.931" x="230474.59" y="-997" xNet="-1883821.4" yNet="4400532.6" referenceNode="42" releaseContact="true" arranged="true"/>
+		<speedIndicator nodeID="23" name="SPEED" kilometre="22.946" x="230624.89" y="-1193.394" xNet="-1884278.7" yNet="4400113.5" referenceNode="22"/>
+		<speedIndicator nodeID="44" name="SPEED" kilometre="22.892" x="230084.89" y="-1000.572" xNet="-1884851.2" yNet="4400069.4" referenceNode="42"/>
+		<track trackID="T-1" stationID="ERLSTWJ" type="timingPoint" nodeID="541" kilometre="23.420" x="235361.99" y="-997" xNet="-1878951.4" yNet="4402700.5" referenceNode="512"/>
+		<track trackID="T-2" stationID="ERLSTEJ" type="timingPoint" nodeID="20" kilometre="24.059" x="241754.09" y="-1197" xNet="-1873079.8" yNet="4405096.1" referenceNode="21"/>
+		<stationBorder exitType="alternative" stationID="ERLSTWN" lineID="nw2015" trackNumber="DN" nodeID="613" kilometre="301.082" x="240915.39" y="-1635.4315" xNet="-1873487.1" yNet="4404461.8" referenceNode="516"/>
+		<stationBorder exitType="regular" stationID="ERLSTWN" lineID="nw2015" trackNumber="UP" nodeID="615" kilometre="301.080" x="240816.44" y="-1460.1091" xNet="-1873627.2" yNet="4404591.1" referenceNode="1"/>
+		<stationBorder exitType="alternative" stationID="ERLSTSJ" lineID="nw1021" trackNumber="DE" nodeID="687" kilometre="300.253" x="232962.69" y="-2501.7637" xNet="-1871494.1" yNet="4397569.1" referenceNode="19">
+			<netLimitInfo lineID="nw1021"/>
+		</stationBorder>
+		<stationBorder exitType="regular" stationID="ERLSTSJ" lineID="nw1021" trackNumber="UE" nodeID="836" kilometre="300.252" x="232958.19" y="-2701.7637" xNet="-1871329" yNet="4397681.6" referenceNode="43">
+			<netLimitInfo lineID="nw1021"/>
+		</stationBorder>
+		<node nodeID="375" kilometre="24.300" x="244289.84" y="-1197" xNet="-1870692.5" yNet="4406152.5">
+			<netLimitInfo lineID="nw2015"/>
+		</node>
+		<node nodeID="566" kilometre="24.300" x="244279.39" y="-997" xNet="-1871544.2" yNet="4405998.6">
+			<netLimitInfo lineID="nw2015"/>
+		</node>
+		<stationBorder exitType="alternative" stationID="ERLSTEJ" lineID="nw2015" trackNumber="DM" nodeID="280" kilometre="24.250" x="243715.39" y="-1197" xNet="-1871547.1" yNet="4405777.8" referenceNode="12"/>
+		<stationBorder exitType="regular" stationID="ERLSTEJ" lineID="nw2015" trackNumber="UM" nodeID="499" kilometre="24.250" x="243715.39" y="-997" xNet="-1871871.6" yNet="4405852.9" referenceNode="7"/>
+		<stationBorder exitType="alternative" stationID="ERLSTEJ" lineID="nw2015" trackNumber="UM" nodeID="505" kilometre="23.960" x="240815.39" y="-997" xNet="-1874014" yNet="4404898.4" referenceNode="30"/>
+		<stationBorder exitType="regular" stationID="ERLSTEJ" lineID="nw2015" trackNumber="DM" nodeID="567" kilometre="23.960" x="240815.39" y="-1197" xNet="-1873934" yNet="4404715.4" referenceNode="336"/>
+		<node nodeID="30" name="OL: WN539" kilometre="23.984" x="241004.79" y="-997" xNet="-1873794.5" yNet="4404995.9"/>
+		<node nodeID="477" name="POINTS: 755B" kilometre="300.947" x="239215.39" y="-1801.7637" xNet="-1875213.6" yNet="4402379.3"/>
+		<stationBorder exitType="regular" stationID="ERLSTWN" lineID="nw2015" trackNumber="UM" nodeID="568" kilometre="23.900" x="240266.39" y="-996.76374" xNet="-1874562.8" yNet="4404654.6" referenceNode="305"/>
+		<stationBorder exitType="alternative" stationID="ERLSTWN" lineID="nw2015" trackNumber="DM" nodeID="569" kilometre="23.900" x="240270.39" y="-1196.7637" xNet="-1874481.8" yNet="4404471.2" referenceNode="550"/>
+		<stationBorder exitType="alternative" stationID="ERLSTEJ" lineID="nw2015" trackNumber="UP" nodeID="616" kilometre="301.090" x="240927.03" y="-1374.4419" xNet="-1873623.3" yNet="4404680.1" referenceNode="481"/>
+		<stationBorder exitType="regular" stationID="ERLSTEJ" lineID="nw2015" trackNumber="DN" nodeID="617" kilometre="301.090" x="241017.39" y="-1556.7637" xNet="-1873460.5" yNet="4404529.6" referenceNode="518"/>
+		<node nodeID="470" name="OL: WN551" kilometre="300.779" x="238225.39" y="-2501.7637" xNet="-1874750" yNet="4401729"/>
+		<node nodeID="474" name="OL: WN554" kilometre="23.539" x="236554.89" y="-1397" xNet="-1877698.5" yNet="4402820.3"/>
+		<stationBorder exitType="regular" stationID="ERLSTWN" lineID="nw2015" trackNumber="GL" nodeID="587" kilometre="23.560" x="236763.39" y="-1396.7637" xNet="-1877508.9" yNet="4402905.3" referenceNode="295"/>
+		<stationBorder exitType="regular" stationID="ERLSTWN" lineID="nw2015" trackNumber="DM" nodeID="596" kilometre="23.560" x="236768.39" y="-1196.7637" xNet="-1877588.2" yNet="4403088.3" referenceNode="485"/>
+		<stationBorder exitType="alternative" stationID="ERLSTWN" lineID="nw2015" trackNumber="UM" nodeID="599" kilometre="23.560" x="236767.39" y="-996.76374" xNet="-1877669.4" yNet="4403271.2" referenceNode="338"/>
+		<stationBorder exitType="regular" stationID="ERLSTWN" lineID="nw2015" trackNumber="LC" nodeID="603" kilometre="300.958" x="239127.95" y="-1496.9434" xNet="-1875353" yNet="4402482" referenceNode="476"/>
+		<stationBorder exitType="regular" stationID="ERLSTSJ" lineID="nw2015" trackNumber="LC" nodeID="609" kilometre="300.880" x="238829.51" y="-2133.5708" xNet="-1875114.3" yNet="4402261.5" referenceNode="546"/>
+		<stationBorder exitType="alternative" stationID="ERLSTSJ" lineID="nw2015" trackNumber="UP" nodeID="611" kilometre="300.890" x="239280.39" y="-2701.7637" xNet="-1874217" yNet="4402788.4" referenceNode="15"/>
+		<stationBorder exitType="regular" stationID="ERLSTSJ" lineID="nw2015" trackNumber="DN" nodeID="610" kilometre="300.890" x="239269.18" y="-2501.7637" xNet="-1874399.2" yNet="4402870.7" referenceNode="33"/>
+		<stationBorder exitType="alternative" stationID="ERLSTWN" lineID="nw2015" trackNumber="DN" nodeID="534" kilometre="300.900" x="239362.39" y="-2501.7637" xNet="-1874355.5" yNet="4402964.4" referenceNode="515"/>
+		<stationBorder exitType="regular" stationID="ERLSTWN" lineID="nw2015" trackNumber="UP" nodeID="502" kilometre="300.900" x="239411.39" y="-2701.7637" xNet="-1874174.4" yNet="4402879.3" referenceNode="39"/>
+		<stationBorder exitType="regular" stationID="ERLSTWJ" lineID="nw2015" trackNumber="GL" nodeID="612" kilometre="23.550" x="236665.06" y="-1396.8752" xNet="-1877598.3" yNet="4402865.2" referenceNode="474"/>
+		<stationBorder exitType="alternative" stationID="ERLSTWJ" lineID="nw2015" trackNumber="DM" nodeID="614" kilometre="23.530" x="236466.17" y="-1196.8728" xNet="-1877862.4" yNet="4402966.2" referenceNode="310"/>
+		<stationBorder exitType="regular" stationID="ERLSTWJ" lineID="nw2015" trackNumber="UM" nodeID="618" kilometre="23.530" x="236462.04" y="-997" xNet="-1877946.1" yNet="4403148.1" referenceNode="145"/>
+		<node nodeID="619" kilometre="22.850" x="229666.39" y="-996.76374" xNet="-1885236.3" yNet="4399902.8">
+			<netLimitInfo lineID="nw2015"/>
+		</node>
+		<node nodeID="620" kilometre="22.850" x="229669.39" y="-1196.7637" xNet="-1885156.4" yNet="4399718.4">
+			<netLimitInfo lineID="nw2015"/>
+		</node>
+		<stationBorder exitType="alternative" stationID="ERLSTWJ" lineID="nw2015" trackNumber="UM" nodeID="621" kilometre="22.870" x="229865.53" y="-996.89875" xNet="-1885053.6" yNet="4399984.2" referenceNode="42"/>
+		<stationBorder exitType="regular" stationID="ERLSTWJ" lineID="nw2015" trackNumber="DM" nodeID="644" kilometre="22.870" x="229865.39" y="-1196.8987" xNet="-1884974.1" yNet="4399799.7" referenceNode="322"/>
+		<track trackID="D-3" stationID="ERLSTWJ" interlockingMachine="3 Aspect Pannel (Below 75mph)" nodeID="279" name="SIG: WN562" description="Signal WN562; 3 Aspect" kilometre="23.088" x="232044.89" y="-1397" xNet="-1881818.2" yNet="4400986.2" referenceNode="528"/>
+		<track trackID="D-2" stationID="ERLSTWJ" interlockingMachine="4 Aspect Pannel (76mph - 100mph)" nodeID="278" name="SIG: WN563" description="Signal WN563; 4 Aspect" kilometre="23.088" x="232044.89" y="-1197" xNet="-1881900.8" yNet="4401168.6" referenceNode="514"/>
+		<node nodeID="145" name="R539" description="Banner Repeater" kilometre="23.444" x="235604.89" y="-997" xNet="-1878729.4" yNet="4402799.5"/>
+	</nodes>
+	<links>
+		<link source="1" target="9" length="70" vmax="32" vmaxr="32"/>
+		<link source="1" target="615" length="8" vmax="32" vmaxr="32"/>
+		<link source="2" target="279" length="36" vmax="32" vmaxr="32"/>
+		<link source="3" target="516" length="72" vmax="32" vmaxr="32"/>
+		<link source="3" target="517" length="40" vmax="32" vmaxr="32"/>
+		<link source="4" target="144" length="45" vmax="121" vmaxr="121"/>
+		<link source="5" target="515" length="73" vmax="32" vmaxr="32"/>
+		<link source="6" target="325" length="8" vmax="121" vmaxr="121"/>
+		<link source="7" target="499" length="195" gradient="-1.208" vmax="121" vmaxr="121"/>
+		<link source="8" target="25" length="12" vmax="32" vmaxr="32"/>
+		<link source="8" target="27" length="34" gradient="-1.208" vmax="121" vmaxr="121"/>
+		<link source="9" target="5" length="2" vmax="32" vmaxr="32"/>
+		<link source="11" target="7" length="15" gradient="-1.208" vmax="121" vmaxr="121"/>
+		<link source="12" target="280" length="32" gradient="-1.208" vmax="121" vmaxr="121"/>
+		<link source="13" target="470" length="5" vmax="113" vmaxr="113"/>
+		<link source="14" target="473" length="58" vmax="32" vmaxr="32"/>
+		<link source="15" target="32" length="51" vmax="32" vmaxr="32"/>
+		<link source="16" target="34" length="1" vmax="113" vmaxr="113"/>
+		<link source="16" target="40" length="14" vmax="113" vmaxr="113"/>
+		<link source="17" target="18" length="19" vmax="113" vmaxr="113"/>
+		<link source="18" target="43" length="125" vmax="113" vmaxr="113"/>
+		<link source="19" target="687" length="92" vmax="113" vmaxr="113"/>
+		<link source="20" target="12" length="159" gradient="-1.208" vmax="121" vmaxr="121"/>
+		<link source="21" target="20" length="21" gradient="-1.208" vmax="121" vmaxr="121"/>
+		<link source="22" target="23" length="28" vmax="32" vmaxr="32"/>
+		<link source="23" target="322" length="1" vmax="121" vmaxr="121"/>
+		<link source="24" target="29" length="12" vmax="32" vmaxr="32"/>
+		<link source="25" target="24" length="1" vmax="32" vmaxr="32"/>
+		<link source="26" target="11" length="12" gradient="-1.208" vmax="121" vmaxr="121"/>
+		<link source="27" target="21" length="2" gradient="-1.208" vmax="121" vmaxr="121"/>
+		<link source="28" target="27" length="1" vmax="121" vmaxr="121"/>
+		<link source="29" target="26" length="1" vmax="121" vmaxr="121"/>
+		<link source="30" target="26" length="44" gradient="-1.208" vmax="121" vmaxr="121"/>
+		<link source="31" target="22" length="1" vmax="32" vmaxr="32"/>
+		<link source="32" target="38" length="132" vmax="113" vmaxr="113"/>
+		<link source="33" target="468" length="32" vmax="113" vmaxr="113"/>
+		<link source="34" target="69" length="17" vmax="32" vmaxr="32"/>
+		<link source="35" target="17" length="1" vmax="113" vmaxr="113"/>
+		<link source="36" target="13" length="1" vmax="113" vmaxr="113"/>
+		<link source="37" target="4" length="24" vmax="121" vmaxr="121"/>
+		<link source="38" target="65" length="215" vmax="113" vmaxr="113"/>
+		<link source="39" target="502" length="48" vmax="32" vmaxr="32"/>
+		<link source="40" target="66" length="40" vmax="113" vmaxr="113"/>
+		<link source="42" target="37" length="40" vmax="121" vmaxr="121"/>
+		<link source="42" target="44" length="1" vmax="121" vmaxr="121"/>
+		<link source="43" target="836" length="44" vmax="113" vmaxr="113"/>
+		<link source="44" target="31" length="25" vmax="32" vmaxr="32"/>
+		<link source="56" target="35" length="31" vmax="32" vmaxr="32"/>
+		<link source="58" target="56" length="1" vmax="32" vmaxr="32"/>
+		<link source="65" target="17" length="40" vmax="113" vmaxr="113"/>
+		<link source="66" target="19" length="106" vmax="113" vmaxr="113"/>
+		<link source="69" target="58" length="14" vmax="32" vmaxr="32"/>
+		<link source="144" target="512" length="134" vmax="121" vmaxr="121"/>
+		<link source="145" target="618" length="86" gradient="-1.208" vmax="121" vmaxr="121"/>
+		<link source="193" target="303" length="11" vmax="121" vmaxr="121"/>
+		<link source="272" target="293" length="11" gradient="-1.208" vmax="121" vmaxr="121"/>
+		<link source="278" target="514" length="46" vmax="121" vmaxr="121"/>
+		<link source="279" target="528" length="46" vmax="32" vmaxr="32"/>
+		<link source="280" target="375" length="50" gradient="-1.208" vmax="121" vmaxr="121"/>
+		<link source="292" target="316" length="48" gradient="-1.208" vmax="32" vmaxr="32"/>
+		<link source="293" target="310" length="40" gradient="-1.208" vmax="121" vmaxr="121"/>
+		<link source="293" target="343" length="1" gradient="-1.208" vmax="121" vmaxr="121"/>
+		<link source="294" target="474" length="7" gradient="-1.208" vmax="32" vmaxr="32"/>
+		<link source="295" target="327" length="35" gradient="-1.208" vmax="32" vmaxr="32"/>
+		<link source="295" target="328" length="40" gradient="-1.208" vmax="32" vmaxr="32"/>
+		<link source="296" target="308" length="1" gradient="-1.208" vmax="121" vmaxr="121"/>
+		<link source="297" target="551" length="69" gradient="-1.208" vmax="121" vmaxr="121"/>
+		<link source="300" target="505" length="52" gradient="-1.208" vmax="121" vmaxr="121"/>
+		<link source="301" target="304" length="25" gradient="-1.208" vmax="121" vmaxr="121"/>
+		<link source="303" target="278" length="77" vmax="121" vmaxr="121"/>
+		<link source="304" target="321" length="1" vmax="121" vmaxr="121"/>
+		<link source="304" target="550" length="40" gradient="-1.208" vmax="121" vmaxr="121"/>
+		<link source="305" target="568" length="3" gradient="-1.208" vmax="121" vmaxr="121"/>
+		<link source="306" target="364" length="97" gradient="-1.208" vmax="121" vmaxr="121"/>
+		<link source="307" target="312" length="216" gradient="-1.208" vmax="32" vmaxr="32"/>
+		<link source="308" target="339" length="33" gradient="-1.208" vmax="121" vmaxr="121"/>
+		<link source="310" target="614" length="35" gradient="-1.208" vmax="121" vmaxr="121"/>
+		<link source="311" target="306" length="114" gradient="-1.208" vmax="121" vmaxr="121"/>
+		<link source="312" target="484" length="46" gradient="-1.208" vmax="32" vmaxr="32"/>
+		<link source="314" target="599" length="7" gradient="-1.208" vmax="121" vmaxr="121"/>
+		<link source="316" target="294" length="40" gradient="-1.208" vmax="32" vmaxr="32"/>
+		<link source="321" target="352" length="30" vmax="24" vmaxr="24"/>
+		<link source="322" target="324" length="8" vmax="121" vmaxr="121"/>
+		<link source="323" target="305" length="1" vmax="121" vmaxr="121"/>
+		<link source="324" target="6" length="8" vmax="121" vmaxr="121"/>
+		<link source="325" target="193" length="29" vmax="121" vmaxr="121"/>
+		<link source="325" target="349" length="1" vmax="121" vmaxr="121"/>
+		<link source="326" target="459" length="22" gradient="-1.208" vmax="32" vmaxr="32"/>
+		<link source="327" target="326" length="1" vmax="32" vmaxr="32"/>
+		<link source="328" target="14" length="19" gradient="-1.208" vmax="32" vmaxr="32"/>
+		<link source="336" target="8" length="16" gradient="-1.208" vmax="121" vmaxr="121"/>
+		<link source="338" target="297" length="160" gradient="-1.208" vmax="121" vmaxr="121"/>
+		<link source="339" target="340" length="115" gradient="-1.208" vmax="121" vmaxr="121"/>
+		<link source="340" target="301" length="22" gradient="-1.208" vmax="121" vmaxr="121"/>
+		<link source="342" target="296" length="1" vmax="121" vmaxr="121"/>
+		<link source="343" target="479" length="37" gradient="-1.208" vmax="32" vmaxr="32"/>
+		<link source="349" target="391" length="40" vmax="32" vmaxr="32"/>
+		<link source="352" target="376" length="1" vmax="24" vmaxr="24"/>
+		<link source="364" target="272" length="24" gradient="-1.208" vmax="121" vmaxr="121"/>
+		<link source="376" target="323" length="29" vmax="24" vmaxr="24"/>
+		<link source="391" target="2" length="40" vmax="32" vmaxr="32"/>
+		<link source="459" target="342" length="12" gradient="-1.208" vmax="32" vmaxr="32"/>
+		<link source="466" target="294" length="38" gradient="-1.208" vmax="32" vmaxr="32"/>
+		<link source="468" target="13" length="11" vmax="113" vmaxr="113"/>
+		<link source="469" target="475" length="55" vmax="32" vmaxr="32"/>
+		<link source="470" target="16" length="274" vmax="113" vmaxr="113"/>
+		<link source="471" target="28" length="15" vmax="32" vmaxr="32"/>
+		<link source="472" target="547" length="21" vmax="32" vmaxr="32"/>
+		<link source="473" target="469" length="15" vmax="32" vmaxr="32"/>
+		<link source="474" target="612" length="10" gradient="-1.208" vmax="32" vmaxr="32"/>
+		<link source="475" target="478" length="19" vmax="32" vmaxr="32"/>
+		<link source="476" target="603" length="4" vmax="32" vmaxr="32"/>
+		<link source="477" target="483" length="11" vmax="32" vmaxr="32"/>
+		<link source="478" target="472" length="32" vmax="32" vmaxr="32"/>
+		<link source="479" target="466" length="1" gradient="-1.208" vmax="32" vmaxr="32"/>
+		<link source="481" target="8" length="9" vmax="32" vmaxr="32"/>
+		<link source="483" target="609" length="56" vmax="32" vmaxr="32"/>
+		<link source="484" target="292" length="24" gradient="-1.208" vmax="32" vmaxr="32"/>
+		<link source="485" target="296" length="40" gradient="-1.208" vmax="121" vmaxr="121"/>
+		<link source="499" target="566" length="50" gradient="-1.208" vmax="121" vmaxr="121"/>
+		<link source="502" target="611" length="10" vmax="32" vmaxr="32"/>
+		<link source="503" target="36" length="13" vmax="32" vmaxr="32"/>
+		<link source="505" target="30" length="24" gradient="-1.208" vmax="121" vmaxr="121"/>
+		<link source="512" target="541" length="286" gradient="-1.208" vmax="121" vmaxr="121"/>
+		<link source="514" target="311" length="75" gradient="-1.208" vmax="121" vmaxr="121"/>
+		<link source="515" target="534" length="27" vmax="32" vmaxr="32"/>
+		<link source="516" target="613" length="10" vmax="32" vmaxr="32"/>
+		<link source="517" target="39" length="12" vmax="32" vmaxr="32"/>
+		<link source="518" target="471" length="24" vmax="32" vmaxr="32"/>
+		<link source="528" target="307" length="24" gradient="-1.208" vmax="32" vmaxr="32"/>
+		<link source="534" target="610" length="10" vmax="32" vmaxr="32"/>
+		<link source="541" target="145" length="24" gradient="-1.208" vmax="121" vmaxr="121"/>
+		<link source="546" target="503" length="22" vmax="32" vmaxr="32"/>
+		<link source="547" target="476" length="17" vmax="32" vmaxr="32"/>
+		<link source="548" target="477" length="6" vmax="32" vmaxr="32"/>
+		<link source="550" target="569" length="25" gradient="-1.208" vmax="121" vmaxr="121"/>
+		<link source="551" target="305" length="40" gradient="-1.208" vmax="121" vmaxr="121"/>
+		<link source="567" target="336" length="26" gradient="-1.208" vmax="121" vmaxr="121"/>
+		<link source="568" target="300" length="8" gradient="-1.208" vmax="121" vmaxr="121"/>
+		<link source="569" target="567" length="60" gradient="-1.208" vmax="121" vmaxr="121"/>
+		<link source="587" target="295" length="8" gradient="-1.208" vmax="32" vmaxr="32"/>
+		<link source="596" target="485" length="39" gradient="-1.208" vmax="121" vmaxr="121"/>
+		<link source="599" target="338" length="68" gradient="-1.208" vmax="121" vmaxr="121"/>
+		<link source="603" target="548" length="5" vmax="32" vmaxr="32"/>
+		<link source="609" target="546" length="60" vmax="32" vmaxr="32"/>
+		<link source="610" target="33" length="63" vmax="32" vmaxr="32"/>
+		<link source="611" target="15" length="12" vmax="32" vmaxr="32"/>
+		<link source="612" target="587" length="9" gradient="-1.208" vmax="32" vmaxr="32"/>
+		<link source="613" target="617" length="8" vmax="32" vmaxr="32"/>
+		<link source="614" target="596" length="30" gradient="-1.208" vmax="121" vmaxr="121"/>
+		<link source="615" target="616" length="10" vmax="32" vmaxr="32"/>
+		<link source="616" target="481" length="8" vmax="32" vmaxr="32"/>
+		<link source="617" target="518" length="14" vmax="32" vmaxr="32"/>
+		<link source="618" target="314" length="23" gradient="-1.208" vmax="121" vmaxr="121"/>
+		<link source="619" target="621" length="20" vmax="121" vmaxr="121"/>
+		<link source="620" target="644" length="12" vmax="121" vmaxr="121"/>
+		<link source="621" target="42" length="21" vmax="121" vmaxr="121"/>
+		<link source="644" target="322" length="64" vmax="121" vmaxr="121"/>
+	</links>
+	<dependentLinks/>
+	<blockSections>
+		<blocksection uuid="{02a0b6a2-b878-4ae4-b81e-2d61167967ae}" lines="estjn nw2015" shuntingBlock="true">
+			<part nodes="620 644 322 324 6 325 193 303 278 514 311 306 364 272"/>
+		</blocksection>
+		<blocksection uuid="{092d47e1-76d0-44ed-adb7-4e6f9059322e}" lines="estjn nw1021" speedIndicators="34 35 36">
+			<part nodes="476 603 548 477 483 609 546 503 36 13 470 16 34 69 58 56 35 17 18 43 836"/>
+		</blocksection>
+		<blocksection uuid="{0a3087ff-65d3-4f61-9b65-00bf4dc7d101}" lines="estjn nw1021" shuntingBlock="true">
+			<part nodes="836 43 18"/>
+		</blocksection>
+		<blocksection uuid="{1093a097-120e-4da1-9988-098ac5886a20}" lines="estjn" speedIndicators="343">
+			<part nodes="272 293 343 479 466 294 474 612 587 295 328 14 473 469 475 478 472 547 476"/>
+		</blocksection>
+		<blocksection uuid="{1a580b55-a711-4798-8cfb-1531335c436e}" lines="estjn nw2015" shuntingBlock="true" speedIndicators="349">
+			<part nodes="620 644 322 324 6 325 349 391 2 279 528 307 312 484 292"/>
+		</blocksection>
+		<blocksection uuid="{1ef41c6e-71f1-470d-b89d-9ba99771ec44}" lines="estjn nw2015" shuntingBlock="true">
+			<part nodes="375 280 12"/>
+		</blocksection>
+		<blocksection uuid="{1fb1f464-f98e-48cd-998c-d827c3396909}" lines="estjn">
+			<part nodes="12 20 21 27 8 336 567 569 550 304 301 340 339 308 296 485 596 614 310 293 272 364 306 311 514 278"/>
+		</blocksection>
+		<blocksection uuid="{22beec06-d6c2-41e6-9471-1e145f96ca35}" lines="estjn nw2015">
+			<part nodes="278 303 193 325 6 324 322 644 620"/>
+		</blocksection>
+		<blocksection uuid="{298f63a6-7da8-4574-b9dc-4e6f04899e92}" lines="estjn nw1021">
+			<part nodes="687 19"/>
+		</blocksection>
+		<blocksection uuid="{2ca46bf1-a7e3-42f3-b344-37051f20fe57}" lines="estjn" speedIndicators="342">
+			<part nodes="12 20 21 27 8 336 567 569 550 304 301 340 339 308 296 342 459 326 327 295 587 612 474 294 316 292 484 312 307 528 279"/>
+		</blocksection>
+		<blocksection uuid="{2e21f675-de62-4745-bd0d-cf6f42cfc338}" lines="estjn" speedIndicators="36">
+			<part nodes="19 66 40 16 470 13 36 503 546 609 483 477 548 603 476 547 472 478 475 469 473"/>
+		</blocksection>
+		<blocksection uuid="{3796e728-e969-4be1-8aa4-95b550f0fa38}" lines="estjn">
+			<part nodes="476 547 472 478 475 469 473"/>
+		</blocksection>
+		<blocksection uuid="{3a667a90-9ccc-4774-afc0-160803d72dc8}" lines="estjn nw2015" shuntingBlock="true">
+			<part nodes="301 304 550 569 567 336 8 27 21 20 12 280 375"/>
+		</blocksection>
+		<blocksection uuid="{41959fc0-4e4c-43d2-857b-9c10a98a33e5}" lines="estjn nw2015" speedIndicators="321 323">
+			<part nodes="272 293 310 614 596 485 296 308 339 340 301 304 321 352 376 323 305 568 300 505 30 26 11 7 499 566"/>
+		</blocksection>
+		<blocksection uuid="{4c3abdda-92d7-4f56-a3f7-7b6de4becc6c}" lines="estjn nw1021" shuntingBlock="true">
+			<part nodes="18 43 836"/>
+		</blocksection>
+		<blocksection uuid="{6054adb4-6dd4-44d5-9304-269fd2fd1411}" lines="estjn">
+			<part nodes="272 364 306 311 514 278"/>
+		</blocksection>
+		<blocksection uuid="{6904ad5a-bee8-474c-a0a4-d200ad06f2c7}" lines="estjn">
+			<part nodes="292 484 312 307 528 279"/>
+		</blocksection>
+		<blocksection uuid="{69d93a5d-2258-475c-aff2-c1e0becf2d3e}" lines="estjn nw2015 pscve">
+			<part nodes="375 280 12"/>
+		</blocksection>
+		<blocksection uuid="{7051ac61-8522-46e8-8a25-870dc6f308c4}" lines="estjn">
+			<part nodes="473 14 328 295 587 612 474 294 316 292 484 312 307 528 279"/>
+		</blocksection>
+		<blocksection uuid="{7be724b7-6ced-44d1-8f1a-d41e822408fc}" lines="estjn" shuntingBlock="true" speedIndicators="342">
+			<part nodes="292 316 294 474 612 587 295 327 326 459 342 296 308 339 340 301"/>
+		</blocksection>
+		<blocksection uuid="{7cd7d832-8adc-4af0-8257-a7211bef678f}" lines="estjn nw2015" speedIndicators="29">
+			<part nodes="1 615 616 481 8 25 24 29 26 11 7 499 566"/>
+		</blocksection>
+		<blocksection uuid="{7fb1f265-b886-4ce5-95ff-89bf260a1d77}" lines="estjn nw2015" speedIndicators="349">
+			<part nodes="279 2 391 349 325 6 324 322 644 620"/>
+		</blocksection>
+		<blocksection uuid="{854f4b36-a1db-4f4d-a92b-e0e333a1f623}" lines="estjn" shuntingBlock="true">
+			<part nodes="272 293 310 614 596 485 296 308 339 340 301"/>
+		</blocksection>
+		<blocksection uuid="{8bb011d5-b22a-4f34-9f2b-e3795ccb4738}" lines="estjn nw2015" shuntingBlock="true">
+			<part nodes="566 499 7 11 26 30 505 300"/>
+		</blocksection>
+		<blocksection uuid="{9090d4c6-2922-48a8-aa62-57420e0deaf3}" lines="estjn nw2015 pscve">
+			<part nodes="375 280 12"/>
+		</blocksection>
+		<blocksection uuid="{bf2b44af-175d-4a72-85fc-2c235fefa6b3}" lines="estjn nw2015">
+			<part nodes="297 551 305 568 300 505 30 26 11 7 499 566"/>
+		</blocksection>
+		<blocksection uuid="{c2abe415-689d-4a18-a86a-7d7bce2ce24e}" lines="estjn">
+			<part nodes="292 316 294 474 612 587 295 328 14 473 469 475 478 472 547 476"/>
+		</blocksection>
+		<blocksection uuid="{c8587f4b-709f-4f91-9204-c126847e9afa}" lines="estjn" speedIndicators="343">
+			<part nodes="473 14 328 295 587 612 474 294 466 479 343 293 272 364 306 311 514 278"/>
+		</blocksection>
+		<blocksection uuid="{c909c681-25e2-4bfa-a4f8-1564c6551fb5}" lines="estjn nw2015">
+			<part nodes="619 621 42 37 4 144 512 541 145 618 314 599 338 297"/>
+		</blocksection>
+		<blocksection uuid="{cd6247b5-53fc-45b0-bc55-e786644497cc}" lines="estjn" speedIndicators="28">
+			<part nodes="12 20 21 27 28 471 518 617 613 516 3 517 39 502 611 15"/>
+		</blocksection>
+		<blocksection uuid="{cedaa958-feca-4918-9a21-7b33568b64d1}" lines="estjn nw2015" speedIndicators="23 44">
+			<part nodes="619 621 42 44 31 22 23 322 324 6 325 193 303 278 514 311 306 364 272"/>
+		</blocksection>
+		<blocksection uuid="{d3116d6f-56ef-46ff-8a63-ed23d4124f29}" lines="estjn nw1021" speedIndicators="32">
+			<part nodes="15 32 38 65 17 18 43 836"/>
+		</blocksection>
+		<blocksection uuid="{f0424d34-1427-409c-99b4-ec01126b6b2a}" lines="estjn nw2015" speedIndicators="23 44 349">
+			<part nodes="619 621 42 44 31 22 23 322 324 6 325 349 391 2 279 528 307 312 484 292"/>
+		</blocksection>
+		<blocksection uuid="{f36bd633-7e2c-4cbc-a9fa-5fc93f75589b}" lines="estjn" speedIndicators="33">
+			<part nodes="19 66 40 16 470 13 468 33 610 534 515 5 9 1"/>
+		</blocksection>
+		<blocksection uuid="{fae86080-46ce-415b-ab0c-5c87d376818c}" lines="estjn nw2015" shuntingBlock="true" speedIndicators="28">
+			<part nodes="15 611 502 39 517 3 516 613 617 518 471 28 27 21 20 12 280 375"/>
+		</blocksection>
+		<blocksection uuid="{faea8e28-304d-40bb-8c4c-07e3358a30e7}" lines="estjn nw2015" shuntingBlock="true">
+			<part nodes="375 280 12"/>
+		</blocksection>
+	</blockSections>
+	<slipDistances>
+		<slipdistance uuid="{09b7ad0f-20b3-42c7-8eef-173344378a24}" vmax="999" lines="estjn" serialNumber="0">
+			<part nodes="19 66 40"/>
+		</slipdistance>
+		<slipdistance uuid="{0ab01bcd-3783-4176-b96c-1621ba196554}" vmax="999" lines="estjn" serialNumber="1">
+			<part nodes="272 293 343 479 466 294 474 612 587 295 328 14"/>
+		</slipdistance>
+		<slipdistance uuid="{14a29c1e-c03c-4a48-a4ae-dd8f3cfc42fd}" vmax="999" lines="estjn" serialNumber="0">
+			<part nodes="476 603 548 477 483 609 546 503 36 13 470"/>
+		</slipdistance>
+		<slipdistance uuid="{15be2737-e74e-447b-94f7-7bec8bcbcf33}" vmax="999" lines="estjn" serialNumber="0">
+			<part nodes="1 615 616 481 8 25 24 29 26 11 7"/>
+		</slipdistance>
+		<slipdistance uuid="{1d44dfc5-aa4b-4503-aa7c-f8aecaee23c6}" vmax="999" lines="estjn" serialNumber="0">
+			<part nodes="473 14 328 295 587 612 474"/>
+		</slipdistance>
+		<slipdistance uuid="{2399fccd-9491-4696-bbab-21a462bb30f7}" vmax="999" lines="estjn" serialNumber="0">
+			<part nodes="292 316 294 474 612 587 295 327 326 459"/>
+		</slipdistance>
+		<slipdistance uuid="{2bb46292-16aa-4a40-8c4a-e82626ac9e18}" vmax="999" lines="estjn" serialNumber="0">
+			<part nodes="297 551 305 568 300 505 30"/>
+		</slipdistance>
+		<slipdistance uuid="{4cd326a3-c81d-4612-937e-5198c609cf70}" vmax="999" lines="estjn" serialNumber="1">
+			<part nodes="292 316 294 474 612 587 295 328 14"/>
+		</slipdistance>
+		<slipdistance uuid="{566df8e4-a2a0-4d1b-a5d7-bdb554e0e955}" vmax="999" lines="estjn" serialNumber="0">
+			<part nodes="15 32 38"/>
+		</slipdistance>
+		<slipdistance uuid="{64d381b4-a234-46f5-9713-1fe50b6fda61}" vmax="999" lines="estjn" serialNumber="0">
+			<part nodes="272 293 310 614 596 485 296 308"/>
+		</slipdistance>
+		<slipdistance uuid="{81ea2184-d374-41b5-a22a-ea8ce44afe41}" vmax="999" lines="estjn" serialNumber="0">
+			<part nodes="279 2 391 349 325 6"/>
+		</slipdistance>
+		<slipdistance uuid="{8abb9284-1f72-43ee-90cf-ec6d57450de4}" vmax="999" lines="estjn" serialNumber="0">
+			<part nodes="278 303 193 325 6"/>
+		</slipdistance>
+		<slipdistance uuid="{f1b8cec9-582f-4f47-beb2-72a89dea7c2c}" vmax="999" lines="estjn" serialNumber="0">
+			<part nodes="12 20 21"/>
+		</slipdistance>
+	</slipDistances>
+	<approachControlRoutes/>
+	<stationRoutes>
+		<stationRoute stationID="ERLSTEJ" name="[ERLSTWN]-[nw2015/DM]-[2]-[NWTNLW]-[nw2015/DM] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="567 336 8 27 21 20 12 280"/>
+		<stationRoute stationID="ERLSTEJ" name="[ERLSTWN]-[nw2015/DN]-[2]-[NWTNLW]-[nw2015/DM] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=95;NRz=95;S=95;Rz=95;FGz=95;NGz=95;Gz=95;Lz=95;Unbekannt=95" nodes="617 518 471 28 27 21 20 12 280"/>
+		<stationRoute stationID="ERLSTEJ" name="[ERLSTWN]-[nw2015/UM]-[1]-[NWTNLW]-[nw2015/UM] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="505 30 26 11 7 499"/>
+		<stationRoute stationID="ERLSTEJ" name="[ERLSTWN]-[nw2015/UP]-[1]-[NWTNLW]-[nw2015/UM] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=95;NRz=95;S=95;Rz=95;FGz=95;NGz=95;Gz=95;Lz=95;Unbekannt=95" nodes="616 481 8 25 24 29 26 11 7 499"/>
+		<stationRoute stationID="ERLSTEJ" name="[NWTNLW]-[nw2015/DM]-[2]-[ERLSTWN]-[nw2015/DM] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="280 12 20 21 27 8 336 567"/>
+		<stationRoute stationID="ERLSTEJ" name="[NWTNLW]-[nw2015/DM]-[2]-[ERLSTWN]-[nw2015/DN] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=95;NRz=95;S=95;Rz=95;FGz=95;NGz=95;Gz=95;Lz=95;Unbekannt=95" nodes="280 12 20 21 27 28 471 518 617"/>
+		<stationRoute stationID="ERLSTEJ" name="[NWTNLW]-[nw2015/UM]-[1]-[ERLSTWN]-[nw2015/UM] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="499 7 11 26 30 505"/>
+		<stationRoute stationID="ERLSTSJ" name="[ERLSTWN]-[nw2015/LC]-[1]-[WINWCKJ]-[nw1021/UE] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=85;NRz=85;S=85;Rz=85;FGz=85;NGz=85;Gz=85;Lz=85;Unbekannt=85" nodes="609 546 503 36 13 470 16 34 69 58 56 35 17 18 43 836"/>
+		<stationRoute stationID="ERLSTSJ" name="[ERLSTWN]-[nw2015/UP]-[1]-[ERLSTWN]-[nw2015/UP] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="611 15 611"/>
+		<stationRoute stationID="ERLSTSJ" name="[ERLSTWN]-[nw2015/UP]-[1]-[]-[nw1021/UE] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="611 15 32 38 65 17 18 43 836"/>
+		<stationRoute stationID="ERLSTSJ" name="[]-[nw1021/DE]-[1]-[ERLSTWN]-[nw2015/DN] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="687 19 66 40 16 470 13 468 33 610"/>
+		<stationRoute stationID="ERLSTSJ" name="[]-[nw1021/DE]-[1]-[ERLSTWN]-[nw2015/LC] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=95;NRz=95;S=95;Rz=95;FGz=95;NGz=95;Gz=95;Lz=95;Unbekannt=95" nodes="687 19 66 40 16 470 13 36 503 546 609"/>
+		<stationRoute stationID="ERLSTWJ" name="[ERLSTWN]-[nw2015/DM]-[2]-[STHLNSJ]-[nw2015/DM] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="614 310 293 272 364 306 311 514 278 303 193 325 6 324 322 644"/>
+		<stationRoute stationID="ERLSTWJ" name="[ERLSTWN]-[nw2015/GL]-[2]-[STHLNSJ]-[nw2015/DM] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=90;NRz=90;S=90;Rz=90;FGz=90;NGz=90;Gz=90;Lz=90;Unbekannt=90" nodes="612 474 294 466 479 343 293 272 364 306 311 514 278 303 193 325 6 324 322 644"/>
+		<stationRoute stationID="ERLSTWJ" name="[ERLSTWN]-[nw2015/GL]-[3]-[STHLNSJ]-[nw2015/DM] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=95;NRz=95;S=95;Rz=95;FGz=95;NGz=95;Gz=95;Lz=95;Unbekannt=95" nodes="612 474 294 316 292 484 312 307 528 279 2 391 349 325 6 324 322 644"/>
+		<stationRoute stationID="ERLSTWJ" name="[STHLNSJ]-[nw2015/DM]-[2]-[ERLSTWN]-[nw2015/DM] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="644 322 324 6 325 193 303 278 514 311 306 364 272 293 310 614"/>
+		<stationRoute stationID="ERLSTWJ" name="[STHLNSJ]-[nw2015/DM]-[2]-[ERLSTWN]-[nw2015/GL] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=90;NRz=90;S=90;Rz=90;FGz=90;NGz=90;Gz=90;Lz=90;Unbekannt=90" nodes="644 322 324 6 325 193 303 278 514 311 306 364 272 293 343 479 466 294 474 612"/>
+		<stationRoute stationID="ERLSTWJ" name="[STHLNSJ]-[nw2015/DM]-[2]-[STHLNSJ]-[nw2015/DM] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="644 322 324 6 325 193 303 278 514 311 306 364 272 364 306 311 514 278 303 193 325 6 324 322 644"/>
+		<stationRoute stationID="ERLSTWJ" name="[STHLNSJ]-[nw2015/DM]-[3]-[ERLSTWN]-[nw2015/GL] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=95;NRz=95;S=95;Rz=95;FGz=95;NGz=95;Gz=95;Lz=95;Unbekannt=95" nodes="644 322 324 6 325 349 391 2 279 528 307 312 484 292 316 294 474 612"/>
+		<stationRoute stationID="ERLSTWJ" name="[STHLNSJ]-[nw2015/DM]-[3]-[STHLNSJ]-[nw2015/DM] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=90;NRz=90;S=90;Rz=90;FGz=90;NGz=90;Gz=90;Lz=90;Unbekannt=90" nodes="644 322 324 6 325 349 391 2 279 528 307 312 484 292 484 312 307 528 279 2 391 349 325 6 324 322 644"/>
+		<stationRoute stationID="ERLSTWJ" name="[STHLNSJ]-[nw2015/UM]-[1]-[ERLSTWN]-[nw2015/UM] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="621 42 37 4 144 512 541 145 618"/>
+		<stationRoute stationID="ERLSTWJ" name="[STHLNSJ]-[nw2015/UM]-[2]-[ERLSTWN]-[nw2015/DM] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=90;NRz=90;S=90;Rz=90;FGz=90;NGz=90;Gz=90;Lz=90;Unbekannt=90" nodes="621 42 44 31 22 23 322 324 6 325 193 303 278 514 311 306 364 272 293 310 614"/>
+		<stationRoute stationID="ERLSTWJ" name="[STHLNSJ]-[nw2015/UM]-[2]-[ERLSTWN]-[nw2015/GL] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=80;NRz=80;S=80;Rz=80;FGz=80;NGz=80;Gz=80;Lz=80;Unbekannt=80" nodes="621 42 44 31 22 23 322 324 6 325 193 303 278 514 311 306 364 272 293 343 479 466 294 474 612"/>
+		<stationRoute stationID="ERLSTWJ" name="[STHLNSJ]-[nw2015/UM]-[2]-[STHLNSJ]-[nw2015/DM] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=90;NRz=90;S=90;Rz=90;FGz=90;NGz=90;Gz=90;Lz=90;Unbekannt=90" nodes="621 42 44 31 22 23 322 324 6 325 193 303 278 514 311 306 364 272 364 306 311 514 278 303 193 325 6 324 322 644"/>
+		<stationRoute stationID="ERLSTWJ" name="[STHLNSJ]-[nw2015/UM]-[3]-[ERLSTWN]-[nw2015/GL] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=85;NRz=85;S=85;Rz=85;FGz=85;NGz=85;Gz=85;Lz=85;Unbekannt=85" nodes="621 42 44 31 22 23 322 324 6 325 349 391 2 279 528 307 312 484 292 316 294 474 612"/>
+		<stationRoute stationID="ERLSTWJ" name="[STHLNSJ]-[nw2015/UM]-[3]-[STHLNSJ]-[nw2015/DM] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=80;NRz=80;S=80;Rz=80;FGz=80;NGz=80;Gz=80;Lz=80;Unbekannt=80" nodes="621 42 44 31 22 23 322 324 6 325 349 391 2 279 528 307 312 484 292 484 312 307 528 279 2 391 349 325 6 324 322 644"/>
+		<stationRoute stationID="ERLSTWN" name="[ERLSTEJ]-[nw2015/DM]-[2]-[ERLSTWJ]-[nw2015/DM] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="569 550 304 301 340 339 308 296 485 596"/>
+		<stationRoute stationID="ERLSTWN" name="[ERLSTEJ]-[nw2015/DM]-[2]-[ERLSTWJ]-[nw2015/GL] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=90;NRz=90;S=90;Rz=90;FGz=90;NGz=90;Gz=90;Lz=90;Unbekannt=90" nodes="569 550 304 301 340 339 308 296 342 459 326 327 295 587"/>
+		<stationRoute stationID="ERLSTWN" name="[ERLSTEJ]-[nw2015/DN]-[5]-[ERLSTSJ]-[nw2015/UP] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="613 516 3 517 39 502"/>
+		<stationRoute stationID="ERLSTWN" name="[ERLSTSJ]-[nw2015/DN]-[4]-[ERLSTEJ]-[nw2015/UP] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="534 515 5 9 1 615"/>
+		<stationRoute stationID="ERLSTWN" name="[ERLSTSJ]-[nw2015/LC]-[3]-[ERLSTWJ]-[nw2015/GL] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="603 476 547 472 478 475 469 473 14 328 295 587"/>
+		<stationRoute stationID="ERLSTWN" name="[ERLSTSJ]-[nw2015/UP]-[5]-[ERLSTEJ]-[nw2015/DN] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="502 39 517 3 516 613"/>
+		<stationRoute stationID="ERLSTWN" name="[ERLSTWJ]-[nw2015/DM]-[2]-[ERLSTEJ]-[nw2015/DM] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="596 485 296 308 339 340 301 304 550 569"/>
+		<stationRoute stationID="ERLSTWN" name="[ERLSTWJ]-[nw2015/DM]-[2]-[ERLSTEJ]-[nw2015/UM] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=90;NRz=90;S=90;Rz=90;FGz=90;NGz=90;Gz=90;Lz=90;Unbekannt=90" nodes="596 485 296 308 339 340 301 304 321 352 376 323 305 568"/>
+		<stationRoute stationID="ERLSTWN" name="[ERLSTWJ]-[nw2015/GL]-[2]-[ERLSTEJ]-[nw2015/DM] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=90;NRz=90;S=90;Rz=90;FGz=90;NGz=90;Gz=90;Lz=90;Unbekannt=90" nodes="587 295 327 326 459 342 296 308 339 340 301 304 550 569"/>
+		<stationRoute stationID="ERLSTWN" name="[ERLSTWJ]-[nw2015/GL]-[3]-[ERLSTSJ]-[nw2015/LC] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="587 295 328 14 473 469 475 478 472 547 476 603"/>
+		<stationRoute stationID="ERLSTWN" name="[ERLSTWJ]-[nw2015/GL]-[3]-[ERLSTWJ]-[nw2015/GL] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="587 295 328 14 473 469 475 478 472 547 476 547 472 478 475 469 473 14 328 295 587"/>
+		<stationRoute stationID="ERLSTWN" name="[ERLSTWJ]-[nw2015/UM]-[1]-[ERLSTEJ]-[nw2015/UM] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="599 338 297 551 305 568"/>
+	</stationRoutes>
+	<lineCatalog/>
+	<zugNummernFelder/>
+	<switchGears/>
+</line>

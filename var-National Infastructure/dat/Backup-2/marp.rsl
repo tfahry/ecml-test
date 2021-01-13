@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<line lineID="marp" name="Marple" trafficRouting="on_the_left" type="global" dependentLines="n9007">
+	<transformations>
+		<transformation line="n9007" m11="1" m12="0" m21="0" m22="1" dx="0" dy="0"/>
+	</transformations>
+	<version major="1" minor="2" patchlevel="0" comment=""/>
+	<creator user="VWaddelo" timestamp="2016-07-08T10:58:15"/>
+	<lasteditor user="VWaddelo" timestamp="2016-07-08T10:58:15"/>
+	<stations>
+		<station stationID="MARPLWJ" name="Marple Wharf Junction" xNet="-1250898.15" yNet="4306291.45" uicLocationCode="0" circleDiameter="0">
+			<textElement type="name">
+				<pos view="net" x="7638.05" y="7638.05" angle="0" system="source"/>
+				<pos view="wgs84" x="7638.05" y="7638.05" angle="0" system="source"/>
+				<pos view="line" x="2992.47" y="2992.47" angle="0" system="source"/>
+				<pos view="macro" x="28.2843" y="28.2843" angle="0" system="source"/>
+				<pos view="macroWgs84" x="0" y="0" angle="0" system="source"/>
+			</textElement>
+		</station>
+		<station stationID="ROHL" name="Rose Hill" xNet="-1260184.15" yNet="4287379.45" uicLocationCode="0" circleDiameter="0">
+			<textElement type="name">
+				<pos view="net" x="752.414" y="752.414" angle="0" system="source"/>
+				<pos view="wgs84" x="752.414" y="752.414" angle="0" system="source"/>
+				<pos view="line" x="752.008" y="752.008" angle="0" system="source"/>
+				<pos view="macro" x="28.2843" y="28.2843" angle="0" system="source"/>
+				<pos view="macroWgs84" x="0" y="0" angle="0" system="source"/>
+			</textElement>
+		</station>
+	</stations>
+	<nodes>
+		<node nodeID="49" name="1000MM" description="1000MM : 285" kilometre="285.000" x="2850000" y="200" xNet="-1245371.2" yNet="4312617.1">
+			<netLimitInfo lineID="n9007"/>
+		</node>
+		<track trackID="U-1" stationID="MARPLWJ" interlockingMachine="3 Aspect Pannel (Below 75mph)" nodeID="50" name="SIG : RJ23" description="Signal RJ23; 177m 9.35ch" kilometre="285.042" x="2850420" y="200" xNet="-1245733.3" yNet="4312828.9" referenceNode="219"/>
+		<node nodeID="51" name="GRAD" description="Gradient; 177m 10.84ch" kilometre="285.072" x="2850720" y="200" xNet="-1245993.5" yNet="4312978"/>
+		<speedIndicator nodeID="52" name="SPEED" description="Speed; 177m 15.02ch" kilometre="285.156" x="2851560" y="200" xNet="-1246721" yNet="4313397.9" referenceNode="51"/>
+		<node nodeID="53" name="OL RJ23" description="OL for SIG : RJ23" kilometre="285.225" x="2852250" y="200" xNet="-1247318.9" yNet="4313743.2"/>
+		<switch start="220" endOfMainTrack="56" endOfBranchTrack="100" nodeID="55" name="POINTS : 107" description="POINTS : 107; 14.91 mph; 177m 22.42ch" kilometre="285.305" x="2853050" y="200" xNet="-1248012" yNet="4314143.3"/>
+		<speedIndicator nodeID="57" name="SPEED" description="Speed; 177m 26.99ch" kilometre="285.397" x="2853970" y="200" xNet="-1248807.5" yNet="4314604" referenceNode="220"/>
+		<node nodeID="308" name="1000MM" description="1000MM : 285" kilometre="285.000" x="2850000" y="0" xNet="-1245269.3" yNet="4312789.7">
+			<netLimitInfo lineID="n9007"/>
+		</node>
+		<node nodeID="309" name="SD : RJ9" description="sighting distance for SIG : RJ9" kilometre="285.062" x="2850620" y="0" xNet="-1245806.7" yNet="4313101.9" referenceNode="310" sightingDistance="true"/>
+		<node nodeID="310" name="GRAD" description="Gradient; 177m 10.84ch" kilometre="285.072" x="2850720" y="0" xNet="-1245892.8" yNet="4313151.4"/>
+		<speedIndicator nodeID="311" name="SPEED" description="Speed; 177m 15.02ch" kilometre="285.156" x="2851560" y="0" xNet="-1246621.2" yNet="4313571.1" referenceNode="313"/>
+		<speedIndicator nodeID="314" name="SPEED" description="Speed; 177m 26.99ch" kilometre="285.398" x="2853970" y="0" xNet="-1248707.9" yNet="4314778.2" referenceNode="316"/>
+		<track trackID="D-2" stationID="MARPLWJ" interlockingMachine="4 Aspect Pannel (Below 75mph)" nodeID="316" name="SIG : RJ8" description="Signal RJ8; 177m 36.09ch" kilometre="285.580" x="2855800" y="0" xNet="-1250292.5" yNet="4315692.6" referenceNode="218"/>
+		<switch start="315" endOfMainTrack="217" endOfBranchTrack="98" nodeID="312" name="POINTS : 108" description="POINTS : 108; 14.91 mph; 177m 22.42ch" kilometre="285.305" x="2853050" y="0" xNet="-1247910" yNet="4314315.9"/>
+		<node nodeID="315" name="OL RJ8" description="OL for SIG : RJ8" kilometre="285.397" x="2853961.5" y="0" xNet="-1248699.7" yNet="4314772.6"/>
+		<node nodeID="107" name="tc" description="release contact for track circuit" kilometre="285.279" x="2852791.3" y="118" xNet="-1247745" yNet="4314085.2" referenceNode="54" releaseContact="true" arranged="true"/>
+		<node nodeID="108" name="tc" description="release contact for track circuit" kilometre="285.280" x="2852801.3" y="114.06122" xNet="-1247751.8" yNet="4314094" referenceNode="98" releaseContact="true" arranged="true"/>
+		<track trackID="D-1" stationID="ROHL" interlockingMachine="2 Aspect Pannel (Below 75mph)" nodeID="97" name="SIG : Teminal" description="Signal Terminal ; 10m 2.46ch" kilometre="16.143" x="2836900" y="600" xNet="-1260275.4" yNet="4287164.7" referenceNode="115"/>
+		<track trackID="T-1" stationID="ROHL" type="timingPoint" nodeID="115" name="T-1" description="Rose Hill T-1, timingPoint, 10m 4.00ch" kilometre="16.174" x="2837210" y="600" xNet="-1260153" yNet="4287448.4" referenceNode="97"/>
+		<track trackID="U-1" stationID="ROHL" type="stopBoard" nodeID="116" name="U-1" description="Rose Hill U-1, stopBoard, 10m 7.58ch" kilometre="16.246" x="2837930" y="600" xNet="-1259872.6" yNet="4288112.6" referenceNode="115">
+			<platform startPos="-880" endPos="0" width="150" left="true" open="false"/>
+		</track>
+		<node nodeID="117" name="GRAD" description="Gradient; 10m 12.01ch" kilometre="16.335" x="2838820" y="600" xNet="-1259524.8" yNet="4288932.1"/>
+		<node nodeID="118" name="REP : RJ28R" description="Repeater RJ28R; 10m 24.73ch" kilometre="16.591" x="2841380" y="600" xNet="-1258524" yNet="4291288.7" referenceNode="117" presignal="true" with1000HzMagnet="true"/>
+		<node nodeID="119" name="1000MM" description="1000MM : 17" kilometre="17.000" x="2845470" y="600" xNet="-1256923.8" yNet="4295052.4"/>
+		<node nodeID="120" name="SD : RJ28" description="sighting distance for SIG : RJ28" kilometre="17.055" x="2846020" y="600" xNet="-1256709.6" yNet="4295558.4" referenceNode="119" sightingDistance="true"/>
+		<signal interlockingMachine="3 Aspect Pannel (Below 75mph)" nodeID="121" name="SIG : RJ28" description="Signal RJ28; 10m 51.27ch" kilometre="17.125" x="2846720" y="600" xNet="-1256436.3" yNet="4296202.4" referenceNode="120"/>
+		<switch start="215" endOfMainTrack="123" endOfBranchTrack="131" nodeID="122" name="POINTS : 109" description="POINTS : 109; 14.91 mph; 10m 56.34ch" kilometre="17.227" x="2847740" y="600" xNet="-1256038.6" yNet="4297143.4"/>
+		<node nodeID="123" name="OL RJ13" description="OL for SIG : RJ13" kilometre="17.306" x="2848530" y="600" xNet="-1255730.4" yNet="4297871.2"/>
+		<node nodeID="125" name="GRAD" description="Gradient; 10m 66.23ch" kilometre="17.426" x="2849730" y="600" xNet="-1255261.6" yNet="4298975.1"/>
+		<node nodeID="126" name="GRAD" description="Gradient; 10m 68.77ch" kilometre="17.477" x="2850240" y="600" xNet="-1255063.8" yNet="4299444.1"/>
+		<signal interlockingMachine="2 Aspect Pannel (Below 75mph)" nodeID="127" name="SIG : RJ13" description="Signal RJ13; 10m 69.36ch" kilometre="17.489" x="2850360" y="600" xNet="-1255015.3" yNet="4299553.5" referenceNode="128"/>
+		<node nodeID="128" name="SD : RJ13" description="sighting distance for SIG : RJ13" kilometre="17.614" x="2851610" y="600" xNet="-1254525.2" yNet="4300705.4" referenceNode="141" sightingDistance="true"/>
+		<speedIndicator nodeID="129" name="SPEED" description="Speed; 11m 0.01ch" kilometre="285.259" x="2852500" y="600" xNet="-1247500" yNet="4313400" referenceNode="132"/>
+		<node nodeID="135" name="OL RJ28" description="OL for SIG : RJ28" kilometre="17.308" x="2848550" y="800" xNet="-1255905.5" yNet="4297966.7"/>
+		<node nodeID="136" name="REP : RJ27R" description="Repeater RJ27R; 10m 67ch" kilometre="17.434" x="2849810" y="800" xNet="-1255414.8" yNet="4299126.2" referenceNode="137" presignal="true" with1000HzMagnet="true"/>
+		<node nodeID="137" name="GRAD" description="Gradient; 10m 66.23ch" kilometre="17.426" x="2849730" y="800" xNet="-1255444.7" yNet="4299053.3"/>
+		<node nodeID="138" name="GRAD" description="Gradient; 10m 68.77ch" kilometre="17.477" x="2850240" y="800" xNet="-1255243.6" yNet="4299521.4"/>
+		<track trackID="U-4" stationID="MARPLWJ" interlockingMachine="3 Aspect Pannel (Below 75mph)" nodeID="139" name="SIG : RJ27" description="Signal RJ27;10m 73.0ch" kilometre="17.562" x="2851090" y="800" xNet="-1254915.3" yNet="4300304.1" referenceNode="138"/>
+		<node nodeID="124" name="OL RJ27" description="OL for SIG : RJ27" kilometre="17.662" x="2852090" y="800" xNet="-1249114" yNet="4310811"/>
+		<node nodeID="140" name="SD : RJ27" description="sighting distance for SIG : RJ27" kilometre="17.437" x="2849840" y="800" xNet="-1255401.6" yNet="4299153.6" referenceNode="136" sightingDistance="true"/>
+		<speedIndicator nodeID="131" name="SPEED" description="Speed; 10m 56.39ch" kilometre="17.228" x="2847750" y="610" xNet="-1256045.1" yNet="4297153.9" referenceNode="122"/>
+		<speedIndicator nodeID="133" name="SPEED" description="Speed;" kilometre="17.240" x="2847870" y="800" xNet="-1256172.1" yNet="4297340.8" referenceNode="131"/>
+		<kilometreInconsistency newKilometre="285.303" nodeID="134" kilometre="17.747" x="2852950" y="800" xNet="-1247832" yNet="4313110" referenceNode="130"/>
+		<crossing type="kr" startOfMainTrack="56" startOfBranchTrack="107" endOfMainTrack="53" endOfBranchTrack="129" nodeID="54" name="FD : FD" description="FD : FD; 177m 19.89ch" kilometre="285.260" x="2852600" y="200" xNet="-1247620.9" yNet="4313918.8"/>
+		<kilometreInconsistency newKilometre="285.256" nodeID="132" kilometre="17.700" x="2852470" y="600" xNet="-1247685" yNet="4312983" referenceNode="141"/>
+		<speedIndicator nodeID="98" name="SPEED" description="Speed;" kilometre="285.304" x="2853042.5" y="3" xNet="-1247905" yNet="4314310.8" referenceNode="312"/>
+		<speedIndicator nodeID="100" name="SPEED" description="Speed; 177m 22.37ch" kilometre="285.304" x="2853040" y="210" xNet="-1248008.3" yNet="4314129.7" referenceNode="134"/>
+		<speedIndicator nodeID="130" name="SPEED" description="Speed; 11m 0.01ch" kilometre="17.703" x="2852504.8" y="800" xNet="-1248883.1" yNet="4311191.2" referenceNode="124"/>
+		<node nodeID="313" name="tc" description="release contact for track circuit" kilometre="285.265" x="2852650" y="0" xNet="-1247564.8" yNet="4314117.1" referenceNode="217" releaseContact="true" arranged="true"/>
+		<node nodeID="56" name="tc" description="release contact for track circuit" kilometre="285.300" x="2853000" y="200" xNet="-1247969.3" yNet="4314117.9" referenceNode="54" releaseContact="true" arranged="true"/>
+		<node nodeID="141" name="tc" description="release contact for track circuit" kilometre="17.664" x="2852109.8" y="600" xNet="-1248852.3" yNet="4310750.1" referenceNode="132" releaseContact="true" arranged="true"/>
+		<node nodeID="142" name="tc" description="release contact for track circuit" kilometre="17.268" x="2848150" y="800" xNet="-1256063" yNet="4297597" referenceNode="133" releaseContact="true" arranged="true"/>
+		<node nodeID="350" kilometre="285.600" x="2856000.3" y="0" xNet="-1250464.5" yNet="4315791.6">
+			<netLimitInfo lineID="n9007"/>
+		</node>
+		<node nodeID="101" kilometre="285.600" x="2856000" y="200" xNet="-1250568.1" yNet="4315616.6">
+			<netLimitInfo lineID="n9007"/>
+		</node>
+		<node nodeID="143" name="OL RJ28" description="OL for SIG : RJ28" kilometre="17.308" x="2848550" y="600" xNet="-1255722.7" yNet="4297889.4"/>
+		<stationBorder exitType="regular" stationID="MARPLWJ" lineID="n9007" trackNumber="1" nodeID="215" name="[ROHL] - [n9007/1]" kilometre="17.196" x="2847434" y="600" xNet="-1256157.7" yNet="4296860.6" referenceNode="122"/>
+		<stationBorder exitType="regular" stationID="MARPLWJ" lineID="n9007" trackNumber="2" nodeID="217" name="[MARPLE] - [n9007/2]" kilometre="285.293" x="2852930" y="0" xNet="-1247806.7" yNet="4314256.2" referenceNode="312"/>
+		<stationBorder exitType="alternative" stationID="MARPLWJ" lineID="n9007" trackNumber="1" nodeID="218" name="[ROMILEY] - [n9007/1]" kilometre="285.586" x="2855860.1" y="0" xNet="-1250344.1" yNet="4315722.3" referenceNode="316"/>
+		<stationBorder exitType="alternative" stationID="MARPLWJ" lineID="n9007" trackNumber="1" nodeID="219" name="[MARPLE] - [n9007/1]" kilometre="285.029" x="2850294" y="200" xNet="-1245624.2" yNet="4312765.5" referenceNode="50"/>
+		<stationBorder exitType="regular" stationID="MARPLWJ" lineID="n9007" trackNumber="2" nodeID="220" name="[ROMILEY] - [n9007/2]" kilometre="285.333" x="2853326" y="200" xNet="-1248250.7" yNet="4314281.5" referenceNode="55"/>
+		<stationBorder exitType="locked" stationID="ROHL" trackNumber="" nodeID="32" name="Buffer stop 339" description="Buffer Stop" kilometre="16.060" x="2836070" y="600" xNet="-1260600" yNet="4286400" referenceNode="97"/>
+		<stationBorder exitType="alternative" stationID="ROHL" lineID="n9007" trackNumber="1" nodeID="221" name="[MARPLWJ] - [n9007/1]" kilometre="16.273" x="2838197" y="600" xNet="-1259768.3" yNet="4288358.9" referenceNode="116"/>
+	</nodes>
+	<links>
+		<link source="32" target="97" length="83" gradient="-4.329" vmax="64" vmaxr="64" bidirectional="true"/>
+		<link source="49" target="219" length="29" gradient="-10" vmax="97"/>
+		<link source="50" target="51" length="30" gradient="-10" vmax="97"/>
+		<link source="51" target="52" length="84" gradient="6.66667" vmax="97"/>
+		<link source="52" target="53" length="69" gradient="6.66667" vmax="80"/>
+		<link source="53" target="54" length="35" gradient="6.66667" vmax="80"/>
+		<link source="54" target="56" length="40" gradient="6.66667" vmax="80"/>
+		<link source="54" target="107" length="19" gradient="6.667" vmax="24" vmaxr="24"/>
+		<link source="55" target="220" length="28" gradient="6.66667" vmax="80"/>
+		<link source="56" target="55" length="5" gradient="6.66667" vmax="80"/>
+		<link source="57" target="101" length="203" gradient="6.66667" vmax="97"/>
+		<link source="97" target="115" length="31" gradient="-4.329" vmax="64" vmaxr="64" bidirectional="true"/>
+		<link source="98" target="312" length="1" gradient="6.667" vmax="80" vmaxr="80"/>
+		<link source="100" target="55" length="1" vmax="80"/>
+		<link source="107" target="108" length="1" gradient="6.667" vmax="24" vmaxr="24"/>
+		<link source="108" target="98" length="24" gradient="6.667" vmax="24" vmaxr="24"/>
+		<link source="115" target="116" length="72" gradient="-4.329" vmax="64" vmaxr="64" bidirectional="true"/>
+		<link source="116" target="221" length="27" gradient="-4.329" vmax="64" vmaxr="64" bidirectional="true"/>
+		<link source="117" target="118" length="256" gradient="-8.19672" vmax="64" vmaxr="64" bidirectional="true"/>
+		<link source="118" target="119" length="409" gradient="-8.19672" vmax="64" vmaxr="64" bidirectional="true"/>
+		<link source="119" target="120" length="55" gradient="-8.19672" vmax="64" vmaxr="64" bidirectional="true"/>
+		<link source="120" target="121" length="70" gradient="-8.19672" vmax="64" vmaxr="64" bidirectional="true"/>
+		<link source="121" target="215" length="71" gradient="-8.19672" vmax="64" vmaxr="64" bidirectional="true"/>
+		<link source="122" target="123" length="79" gradient="-8.19672" vmaxr="64"/>
+		<link source="122" target="131" length="1" gradient="-8.19672" vmax="64" vmaxr="64"/>
+		<link source="123" target="143" length="2" gradient="-8.19672" vmaxr="64"/>
+		<link source="124" target="130" length="41" vmax="64"/>
+		<link source="125" target="126" length="51" gradient="-4.54545" vmaxr="64"/>
+		<link source="126" target="127" length="12" vmaxr="64"/>
+		<link source="127" target="128" length="125" vmaxr="64"/>
+		<link source="128" target="141" length="50" vmaxr="64"/>
+		<link source="129" target="54" length="1" vmax="24" vmaxr="24"/>
+		<link source="130" target="134" length="44" vmax="24" vmaxr="24"/>
+		<link source="131" target="133" length="12" gradient="-8.19672" vmax="24" vmaxr="24"/>
+		<link source="132" target="129" length="3" vmaxr="64"/>
+		<link source="133" target="142" length="28" gradient="-8.197" vmax="64"/>
+		<link source="134" target="100" length="1" vmax="24" vmaxr="24"/>
+		<link source="135" target="137" length="118" gradient="-8.197" vmax="64"/>
+		<link source="136" target="140" length="3" gradient="-4.545" vmax="64"/>
+		<link source="137" target="136" length="8" gradient="-4.545" vmax="64"/>
+		<link source="138" target="139" length="85" vmax="64"/>
+		<link source="139" target="124" length="100" vmax="64"/>
+		<link source="140" target="138" length="40" gradient="-4.545" vmax="64"/>
+		<link source="141" target="132" length="36" vmaxr="64"/>
+		<link source="142" target="135" length="40" gradient="-8.197" vmax="64"/>
+		<link source="143" target="125" length="118" gradient="-8.19672" vmaxr="64"/>
+		<link source="215" target="122" length="31" gradient="-8.19672" vmax="64" vmaxr="64" bidirectional="true"/>
+		<link source="217" target="312" length="12" gradient="6.66667" vmaxr="80"/>
+		<link source="218" target="350" length="14" gradient="6.66667" vmaxr="97"/>
+		<link source="219" target="50" length="13" gradient="-10" vmax="97"/>
+		<link source="220" target="57" length="64" gradient="6.66667" vmax="80"/>
+		<link source="221" target="117" length="62" gradient="-4.329" vmax="64" vmaxr="64" bidirectional="true"/>
+		<link source="308" target="309" length="62" gradient="-10" vmaxr="97"/>
+		<link source="309" target="310" length="10" gradient="-10" vmaxr="97"/>
+		<link source="310" target="311" length="84" gradient="6.66667" vmaxr="97"/>
+		<link source="311" target="313" length="109" gradient="6.66667" vmaxr="80"/>
+		<link source="312" target="315" length="92" gradient="6.66667" vmaxr="80"/>
+		<link source="313" target="217" length="28" gradient="6.66667" vmaxr="80"/>
+		<link source="314" target="316" length="183" gradient="6.66667" vmaxr="97"/>
+		<link source="315" target="314" length="1" gradient="6.66667" vmaxr="80"/>
+		<link source="316" target="218" length="6" gradient="6.66667" vmaxr="97"/>
+	</links>
+	<dependentLinks/>
+	<blockSections>
+		<blocksection uuid="{2688ec4a-d7fc-450d-b187-789eb7a765c6}" lines="marp n9007" speedIndicators="57 100 130">
+			<part nodes="139 124 130 134 100 55 220 57 101"/>
+		</blocksection>
+		<blocksection uuid="{2debb7da-f8b9-46ac-a004-4ebdcab77bfd}" lines="marp n9007" speedIndicators="311 314">
+			<part nodes="316 314 315 312 217 313 311 310 309 308"/>
+		</blocksection>
+		<blocksection uuid="{301788bb-f3fb-4f24-98d1-344247e64ab6}" lines="marp n9007">
+			<part nodes="49 219 50"/>
+		</blocksection>
+		<blocksection uuid="{5d728d7c-191b-48ce-810e-7f20c302fd47}" lines="marp" speedIndicators="98 129 314">
+			<part nodes="316 314 315 312 98 108 107 54 129 132 141 128 127"/>
+		</blocksection>
+		<blocksection uuid="{7c5ec876-244b-4777-ac37-77df08e240bd}" lines="marp">
+			<part nodes="97 115 116 221 117 118 119 120 121"/>
+		</blocksection>
+		<blocksection uuid="{a917c944-02e5-4b82-82c0-1962c63a461b}" lines="marp n9007">
+			<part nodes="350 218 316"/>
+		</blocksection>
+		<blocksection uuid="{dac78f75-b3e6-4381-83ee-91f3817f02f1}" lines="marp" speedIndicators="131 133">
+			<part nodes="121 215 122 131 133 142 135 137 136 140 138 139"/>
+		</blocksection>
+		<blocksection uuid="{e07ebb3b-90bd-48ae-9d2d-fa736bb1172e}" lines="marp n9007" speedIndicators="52 57">
+			<part nodes="50 51 52 53 54 56 55 220 57 101"/>
+		</blocksection>
+		<blocksection uuid="{f23a28dd-35e3-49fc-b8d8-1c39dcda0c5e}" lines="marp">
+			<part nodes="127 126 125 143 123 122 215 121 120 119 118 117 221 116 115 97"/>
+		</blocksection>
+	</blockSections>
+	<slipDistances>
+		<slipdistance uuid="{14e6e0c3-2d84-4e1f-946f-1691137985b9}" vmax="999" lines="marp" serialNumber="1">
+			<part nodes="121 215 122 123 143"/>
+		</slipdistance>
+		<slipdistance uuid="{3a8a7339-37b3-4098-b659-838d523a2dcc}" vmax="999" lines="marp" serialNumber="0">
+			<part nodes="139 124"/>
+		</slipdistance>
+		<slipdistance uuid="{3aca8c83-a042-44e6-ae5f-c95c4b08dbb6}" vmax="999" lines="marp" serialNumber="0">
+			<part nodes="316 314 315"/>
+		</slipdistance>
+		<slipdistance uuid="{838b284a-dee3-4777-8515-f489410797ec}" vmax="999" lines="marp" serialNumber="0">
+			<part nodes="127 126 125 143 123"/>
+		</slipdistance>
+		<slipdistance uuid="{8828fa72-d51b-43e6-b5db-435e2a507f52}" vmax="999" lines="marp" serialNumber="0">
+			<part nodes="121 215 122 131 133 142 135"/>
+		</slipdistance>
+		<slipdistance uuid="{ccefcbc0-cb10-4c4f-aaa8-a1584865a48e}" vmax="999" lines="marp" serialNumber="0">
+			<part nodes="50 51 52 53"/>
+		</slipdistance>
+	</slipDistances>
+	<approachControlRoutes/>
+	<stationRoutes>
+		<stationRoute stationID="MARPLWJ" name="[MARPLE]-[n9007/1]-[1]-[ROMILEY]-[n9007/2] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="219 50 51 52 53 54 56 55 220"/>
+		<stationRoute stationID="MARPLWJ" name="[ROHL]-[n9007/1]-[4]-[ROMILEY]-[n9007/2] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=90;NRz=90;S=90;Rz=90;FGz=90;NGz=90;Gz=90;Lz=90;Unbekannt=90" nodes="215 122 131 133 142 135 137 136 140 138 139 124 130 134 100 55 220"/>
+		<stationRoute stationID="MARPLWJ" name="[ROMILEY]-[n9007/1]-[2]-[MARPLE]-[n9007/2] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="218 316 314 315 312 217"/>
+		<stationRoute stationID="MARPLWJ" name="[ROMILEY]-[n9007/1]-[2]-[ROHL]-[n9007/1] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=95;NRz=95;S=95;Rz=95;FGz=95;NGz=95;Gz=95;Lz=95;Unbekannt=95" nodes="218 316 314 315 312 98 108 107 54 129 132 141 128 127 126 125 143 123 122 215"/>
+		<stationRoute stationID="ROHL" name="[MARPLWJ]-[n9007/1]-[1]-[MARPLWJ]-[n9007/1] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="221 116 115 97 115 116 221"/>
+		<stationRoute stationID="ROHL" name="[MARPLWJ]-[n9007/1]-[1]-[]-[?/] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="221 116 115 97 32"/>
+		<stationRoute stationID="ROHL" name="[]-[?/]-[1]-[MARPLWJ]-[n9007/1] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="32 97 115 116 221"/>
+	</stationRoutes>
+	<lineCatalog/>
+	<zugNummernFelder/>
+	<switchGears/>
+</line>

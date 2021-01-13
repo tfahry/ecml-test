@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<line lineID="bord1" name="borderregion 1" trafficRouting="on_the_left" type="global" dependentLines="ln854 nw7001">
+	<transformations>
+		<transformation line="ln854" m11="-1" m12="-1.22465e-16" m21="1.22465e-16" m22="-1" dx="988557" dy="69783.5"/>
+		<transformation line="nw7001" m11="1" m12="0" m21="0" m22="1" dx="0" dy="0"/>
+	</transformations>
+	<version major="1" minor="2" patchlevel="0" comment=""/>
+	<creator user="VWaddelo" timestamp="2016-07-08T10:58:15"/>
+	<lasteditor user="VWaddelo" timestamp="2016-07-08T10:58:15"/>
+	<stations>
+		<station stationID="BORDA1" name="Border Area 1" xNet="-1208967.65" yNet="4941139.3" uicLocationCode="0" circleDiameter="0">
+			<textElement type="name">
+				<pos view="net" x="408.931" y="408.931" angle="0" system="source"/>
+				<pos view="wgs84" x="408.931" y="408.931" angle="0" system="source"/>
+				<pos view="line" x="409.08" y="409.08" angle="0" system="source"/>
+				<pos view="macro" x="28.2843" y="28.2843" angle="0" system="source"/>
+				<pos view="macroWgs84" x="0" y="0" angle="0" system="source"/>
+			</textElement>
+		</station>
+	</stations>
+	<nodes>
+		<node nodeID="223" name="GRAD" description="Gradient; 22m 19.01ch" kilometre="35.788" x="357495.32" y="1.2324889" xNet="-1209583.1" yNet="4941260.9">
+			<netLimitInfo lineID="nw7001"/>
+		</node>
+		<node nodeID="226" kilometre="36.000" x="359615.34" y="1.2268692" xNet="-1207465" yNet="4941187.1">
+			<netLimitInfo lineID="ln854"/>
+		</node>
+		<node nodeID="367" name="GRAD" description="Gradient; 22m 19.01ch" kilometre="35.788" x="357495.3" y="-198.74892" xNet="-1209590.2" yNet="4941060.5">
+			<netLimitInfo lineID="nw7001"/>
+		</node>
+		<node nodeID="370" name="SD: 306" description="Sighting distance for SIG: 306" kilometre="35.981" x="359425.36" y="-198.78755" xNet="-1207661.8" yNet="4940993.4" referenceNode="371" sightingDistance="true"/>
+		<node nodeID="371" kilometre="36.000" x="359615.4" y="-198.809" xNet="-1207472.2" yNet="4940986.6">
+			<netLimitInfo lineID="ln854"/>
+		</node>
+		<speedIndicator nodeID="224" name="SPEED" description="Speed; 22m 20.00ch" kilometre="35.808" x="357695.38" y="1.1984438" xNet="-1209383.6" yNet="4941254.2" referenceNode="945"/>
+		<speedIndicator nodeID="368" name="SPEED" description="Speed; 22m 20.00ch" kilometre="35.808" x="357695.36" y="-198.78296" xNet="-1209390.7" yNet="4941053.8" referenceNode="369"/>
+		<track trackID="U-1" stationID="BORDA1" interlockingMachine="4 Aspect Pannel (Below 75mph)" nodeID="369" name="SIG: 306" description="Signal 306; 22m 20.05ch" kilometre="35.809" x="357705.37" y="-198.78717" xNet="-1209380.9" yNet="4941053.8" referenceNode="1333"/>
+		<track trackID="D-2" stationID="BORDA1" interlockingMachine="4 Aspect Pannel (Below 75mph)" nodeID="225" name="SIG: 332" description="Signal 332; 22m 24.52ch" kilometre="35.899" x="358605.3" y="1.246303" xNet="-1208473.9" yNet="4941222.4" referenceNode="224"/>
+		<stationBorder exitType="alternative" stationID="BORDA1" lineID="nw7001" trackNumber="2" netBorder="true" nodeID="945" kilometre="35.793" x="357545.16" y="1.2197097" xNet="-1209533.4" yNet="4941259.2" referenceNode="224"/>
+		<stationBorder exitType="regular" stationID="BORDA1" lineID="nw7001" trackNumber="1" netBorder="true" nodeID="1081" kilometre="35.794" x="357556.71" y="-198.7443" xNet="-1209528.9" yNet="4941058.4" referenceNode="368"/>
+		<stationBorder exitType="alternative" stationID="BORDA1" lineID="ln854" trackNumber="1" nodeID="1333" kilometre="35.907" x="358684.79" y="-198.76486" xNet="-1208401.9" yNet="4941019.4" referenceNode="369"/>
+		<stationBorder exitType="regular" stationID="BORDA1" lineID="ln854" trackNumber="2" nodeID="1334" kilometre="35.905" x="358661.8" y="1.2195327" xNet="-1208417.5" yNet="4941220.4" referenceNode="225"/>
+	</nodes>
+	<links>
+		<link source="223" target="945" length="5" gradient="5.58659" vmax="113"/>
+		<link source="224" target="225" length="91" gradient="5.58659" vmax="89"/>
+		<link source="225" target="1334" length="6" gradient="5.58659" vmax="89"/>
+		<link source="367" target="1081" length="6" gradient="5.58659" vmaxr="113"/>
+		<link source="368" target="369" length="1" gradient="5.58659" vmaxr="89"/>
+		<link source="369" target="1333" length="98" gradient="5.58659" vmaxr="89"/>
+		<link source="370" target="371" length="19" gradient="5.58659" vmaxr="89"/>
+		<link source="945" target="224" length="15" gradient="5.58659" vmax="113"/>
+		<link source="1081" target="368" length="14" gradient="5.58659" vmaxr="113"/>
+		<link source="1333" target="370" length="74" gradient="5.58659" vmaxr="89"/>
+		<link source="1334" target="226" length="95" gradient="5.58659" vmax="89"/>
+	</links>
+	<dependentLinks/>
+	<blockSections>
+		<blocksection uuid="{18736c02-451b-4cdb-bb30-b09c1fa2ac98}" lines="bord1 nw7001" speedIndicators="224">
+			<part nodes="223 945 224 225"/>
+		</blocksection>
+		<blocksection uuid="{355c34ba-0ed4-4e2d-8b24-4c9f6ecafd49}" lines="bord1 nw7001" speedIndicators="368">
+			<part nodes="369 368 1081 367"/>
+		</blocksection>
+		<blocksection uuid="{958f2c57-d9bc-4a36-8329-9d5f4cf12ec4}" lines="bord1 ln854">
+			<part nodes="371 370 1333 369"/>
+		</blocksection>
+		<blocksection uuid="{e1b87b8b-6b84-4a55-8eea-a62c1d93f56e}" lines="bord1 ln854">
+			<part nodes="225 1334 226"/>
+		</blocksection>
+	</blockSections>
+	<slipDistances>
+		<slipdistance uuid="{2de7b7c3-4df6-4359-9799-61f7f7965ff9}" vmax="999" lines="bord1 nw7001" serialNumber="0">
+			<part nodes="369 368 1081 367"/>
+		</slipdistance>
+	</slipDistances>
+	<approachControlRoutes/>
+	<stationRoutes>
+		<stationRoute stationID="BORDA1" name="[HALRYDJ]-[n7001/2]-[2]-[HBDNBDG_]-[854a/2] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="945 224 225 1334"/>
+		<stationRoute stationID="BORDA1" name="[HBDNBDG_]-[854a/1]-[1]-[HALRYDJ]-[n7001/1] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="1333 369 368 1081"/>
+	</stationRoutes>
+	<lineCatalog/>
+	<zugNummernFelder/>
+	<switchGears/>
+</line>

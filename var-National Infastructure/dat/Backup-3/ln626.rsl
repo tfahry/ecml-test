@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<line lineID="ln626" name="NEWCASTLE EAST JN - NORTHALLERTON HIGH JN" trafficRouting="on_the_left" type="local" dependentLines="ntltn ntltnj">
+	<version major="1" minor="2" patchlevel="0" comment=""/>
+	<creator user="Ahowe4" timestamp="2016-11-01T12:54:22"/>
+	<lasteditor user="Ahowe4" timestamp="2016-11-01T12:54:22"/>
+	<stations/>
+	<nodes>
+		<node nodeID="2" name="SD" kilometre="68.895" x="978750" y="217.06" xNet="-551600.72" yNet="6103778.5" referenceNode="7" sightingDistance="true"/>
+		<node nodeID="7" kilometre="68.864" x="978440.6" y="217.06" xNet="-551627.33" yNet="6103470.8"/>
+		<node nodeID="13" kilometre="68.865" x="978448.2" y="17.06" xNet="-551428.91" yNet="6103462.2"/>
+	</nodes>
+	<links>
+		<link source="2" target="7" length="31" gradient="-5.263" vmax="64" vmaxr="64"/>
+		<link source="7" target="2375.ntltn" length="30" gradient="-5.263" vmax="64" vmaxr="64"/>
+		<link source="13" target="2377.ntltn" length="30" gradient="-5.263" vmax="64" vmaxr="64"/>
+		<link source="1560.ntltnj" target="13" length="135" gradient="-5.263" vmax="64" vmaxr="64"/>
+		<link source="1561.ntltnj" target="2" length="105" gradient="-5.263" vmax="64" vmaxr="64"/>
+	</links>
+	<dependentLinks/>
+	<blockSections>
+		<blocksection uuid="{021ee6d9-85ce-4ced-a122-9654bd39b5f1}" lines="ln626 ntltn ntltnj">
+			<part nodes="2375.ntltn 7 2 1561.ntltnj"/>
+		</blocksection>
+		<blocksection uuid="{1ee3ad0c-5636-4421-bf77-0f102c33a842}" lines="ln626 ntltn ntltnj" shuntingBlock="true">
+			<part nodes="1560.ntltnj 13 2377.ntltn"/>
+		</blocksection>
+		<blocksection uuid="{56dfe55e-e689-4f8a-8001-581ad49f7c04}" lines="ln626 ntltn ntltnj">
+			<part nodes="2375.ntltn 7 2 1561.ntltnj"/>
+		</blocksection>
+		<blocksection uuid="{a2bfe22d-6aff-4496-9512-e831b9c0d257}" lines="ln626 ntltn ntltnj">
+			<part nodes="1560.ntltnj 13 2377.ntltn"/>
+		</blocksection>
+		<blocksection uuid="{d446acc6-cce2-45c0-9294-5d36cff535c7}" lines="ln626 ntltn ntltnj" shuntingBlock="true">
+			<part nodes="1560.ntltnj 13 2377.ntltn"/>
+		</blocksection>
+		<blocksection uuid="{e50c864c-4404-4c99-a2da-d479397fbb3e}" lines="ln626 ntltn ntltnj" shuntingBlock="true">
+			<part nodes="2375.ntltn 7 2 1561.ntltnj"/>
+		</blocksection>
+	</blockSections>
+	<slipDistances/>
+	<approachControlRoutes/>
+	<stationRoutes/>
+	<lineCatalog/>
+	<zugNummernFelder/>
+	<switchGears/>
+</line>

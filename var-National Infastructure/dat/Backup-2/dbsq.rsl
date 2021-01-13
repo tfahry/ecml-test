@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<line lineID="dbsq" name="Derby Square" trafficRouting="on_the_left" type="global" dependentLines="nw8001 nw8011">
+	<transformations>
+		<transformation line="nw8001" m11="1" m12="0" m21="0" m22="1" dx="0" dy="0"/>
+		<transformation line="nw8011" m11="-0.829038" m12="0.559193" m21="-0.559193" m22="-0.829038" dx="498533" dy="-332074"/>
+	</transformations>
+	<version major="1" minor="2" patchlevel="0" comment=""/>
+	<creator user="VWaddelo" timestamp="2016-07-08T10:58:15"/>
+	<lasteditor user="VWaddelo" timestamp="2016-07-08T10:58:15"/>
+	<stations>
+		<station stationID="DSQJ" name="Derby Square Jn" xNet="-2264217.5" yNet="4324768.25" uicLocationCode="0" circleDiameter="0">
+			<textElement type="name">
+				<pos view="net" x="142.844" y="142.844" angle="0" system="source"/>
+				<pos view="wgs84" x="142.844" y="142.844" angle="0" system="source"/>
+				<pos view="line" x="156.888" y="156.888" angle="0" system="source"/>
+				<pos view="macro" x="28.2843" y="28.2843" angle="0" system="source"/>
+				<pos view="macroWgs84" x="0" y="0" angle="0" system="source"/>
+			</textElement>
+		</station>
+		<station stationID="PARADSJ" name="Paradise Jn" xNet="-2261519.35" yNet="4325514.15" uicLocationCode="0" circleDiameter="0">
+			<textElement type="name">
+				<pos view="net" x="849.351" y="849.351" angle="0" system="source"/>
+				<pos view="wgs84" x="849.351" y="849.351" angle="0" system="source"/>
+				<pos view="line" x="955.167" y="955.167" angle="0" system="source"/>
+				<pos view="macro" x="28.2843" y="28.2843" angle="0" system="source"/>
+				<pos view="macroWgs84" x="0" y="0" angle="0" system="source"/>
+			</textElement>
+		</station>
+	</stations>
+	<nodes>
+		<node nodeID="12" name="2030A" description="Flag Protection" kilometre="0.664" x="593404.06" y="-263.73792" xNet="-2262066.1" yNet="4324928.5"/>
+		<track trackID="D-1" stationID="PARADSJ" interlockingMachine="3 Aspect Pannel (Below 75mph)" nodeID="5" name="SIG : 44" description="Signal 44; 0m 33.25ch" kilometre="0.669" x="593329.06" y="-349.23309" xNet="-2262115.8" yNet="4324922.6" referenceNode="970"/>
+		<node nodeID="6" name="SD : 44" description="sighting distance for SIG : 44" kilometre="0.739" x="592803.06" y="-706.73468" xNet="-2262809.9" yNet="4324837" referenceNode="7" sightingDistance="true"/>
+		<node nodeID="7" name="SD : 519" description="sighting distance for SIG : 519" kilometre="0.773" x="592521.19" y="-896.86029" xNet="-2263147.6" yNet="4324795.7" referenceNode="6" sightingDistance="true"/>
+		<signal interlockingMachine="3 Aspect Pannel (Below 75mph)" nodeID="8" name="SIG : 519" description="Signal 519; 0m 41.90ch" kilometre="0.843" x="591940.88" y="-1288.2953" xNet="-2263841.8" yNet="4324710" referenceNode="9"/>
+		<node nodeID="495" name="GRAD" description="Gradient; 0m 44.33ch" kilometre="0.892" x="591457.31" y="-1369.1768" xNet="-2263966" yNet="4324899.9"/>
+		<switch start="2" endOfMainTrack="3" endOfBranchTrack="4" nodeID="1" name="POINTS : 2519A" description="POINTS : 2519A; 4.97 mph; 0m 45.53ch" kilometre="0.916" x="591335.69" y="-1696.5061" xNet="-2264179.9" yNet="4324671.6"/>
+		<node nodeID="681" name="GRAD" description="Gradient" kilometre="0.914" x="591352.25" y="-1685.3223" xNet="-2264160.2" yNet="4324674.8"/>
+		<track trackID="T-1" stationID="DSQJ" type="timingPoint" nodeID="527" name="T-1" description="DSQJ T-1, timingPoint" kilometre="0.930" x="591218.69" y="-1775.3928" xNet="-2264320.1" yNet="4324655.1" referenceNode="2"/>
+		<speedIndicator nodeID="528" name="SPEED" description="Speed" kilometre="0.950" x="591054.44" y="-1886.2036" xNet="-2264516.7" yNet="4324631" referenceNode="965">
+			<netLimitInfo lineID="nw8011"/>
+		</speedIndicator>
+		<node nodeID="9" kilometre="0.833" x="592020.06" y="-1234.8738" xNet="-2263747.4" yNet="4324721.7"/>
+		<node nodeID="534" kilometre="0.873" x="591613.38" y="-1263.9211" xNet="-2263779.3" yNet="4324923">
+			<netLimitInfo lineID="nw8011"/>
+		</node>
+		<node nodeID="11" kilometre="0.655" x="593452.5" y="-197.2061" xNet="-2261976.7" yNet="4324939.5"/>
+		<node nodeID="539" name="tc" description="release contact for track circuit" kilometre="0.877" x="591581.69" y="-1285.2979" xNet="-2263817" yNet="4324918.4" referenceNode="495" releaseContact="true" arranged="true"/>
+		<node nodeID="79" name="tc" description="release contact for track circuit" kilometre="0.881" x="591625.81" y="-1500.7886" xNet="-2264012.9" yNet="4324691.1" referenceNode="681" releaseContact="true" arranged="true"/>
+		<node nodeID="637" name="GRAD" description="Gradient; 36m 66.58ch" kilometre="59.276" x="592760" y="0" xNet="-2261900" yNet="4325700"/>
+		<switch start="754" endOfMainTrack="840" endOfBranchTrack="662" nodeID="187" name="POINTS : 2030B" description="POINTS : 2030B; 4.97 mph; 36m 70.76ch" kilometre="59.360" x="593600" y="0" xNet="-2261191.1" yNet="4325227.6"/>
+		<node nodeID="641" name="OL ML32" description="OL for SIG : ML32" kilometre="59.438" x="594380" y="0" xNet="-2252300" yNet="4318000">
+			<netLimitInfo lineID="nw8001"/>
+		</node>
+		<node nodeID="663" name="GRAD" description="Gradient" kilometre="59.358" x="593580" y="-20" xNet="-2261218.1" yNet="4325219.3"/>
+		<track trackID="U-1" stationID="PARADSJ" interlockingMachine="3 Aspect Pannel (Below 75mph)" nodeID="211" name="SIG : ML32" description="Signal ML32; 36m 61.46ch" kilometre="59.173" x="591730" y="0" xNet="-2262500" yNet="4326148" referenceNode="969"/>
+		<track trackID="E-1" stationID="PARADSJ" interlockingMachine="3 Aspect Pannel (Below 75mph)" nodeID="216" name="SIG : ML31" description="Signal ML31; 36m 74.58ch" kilometre="59.437" x="594370" y="0" xNet="-2260511.2" yNet="4324866.2" referenceNode="966"/>
+		<node nodeID="788" name="tc" description="release contact for track circuit" kilometre="59.320" x="593200" y="0" xNet="-2261543.8" yNet="4325415.5" referenceNode="840" releaseContact="true" arranged="true"/>
+		<node nodeID="840" kilometre="59.337" x="593370.19" y="0" xNet="-2261393.5" yNet="4325335.6"/>
+		<node nodeID="841" kilometre="59.162" x="591619.06" y="0" xNet="-2262598.3" yNet="4326200">
+			<netLimitInfo lineID="nw8001"/>
+		</node>
+		<kilometreInconsistency newKilometre="0.645" nodeID="957" name="Change of kilometrage" description="Change of kilometrage" kilometre="54.717" x="593526" y="-85.919258" xNet="-2261278.4" yNet="4325197.2" referenceNode="663"/>
+		<node nodeID="958" name="tc" description="release contact for track circuit" kilometre="0.682" x="593231.38" y="-415.62625" xNet="-2262244.9" yNet="4324906.8" referenceNode="970" releaseContact="true" arranged="true"/>
+		<speedIndicator nodeID="754" name="SPEED" description="Speed" kilometre="59.366" x="593660" y="0" xNet="-2261138" yNet="4325199.5" referenceNode="216"/>
+		<speedIndicator nodeID="2" name="SPEED" description="Speed; 0m 45.58ch" kilometre="0.917" x="591327.38" y="-1702.0981" xNet="-2264190" yNet="4324671.1" referenceNode="527"/>
+		<stationBorder exitType="regular" stationID="DSQJ" lineID="nw8001" trackNumber="1" nodeID="4" name="[PARADSJ] - [n8001/1]" description="Speed; 0m 45.48ch" kilometre="0.915" x="591343.94" y="-1690.9142" xNet="-2264170" yNet="4324673.2" referenceNode="1"/>
+		<stationBorder exitType="regular" stationID="DSQJ" lineID="nw8011" trackNumber="1" nodeID="3" name="[JAMSTS] - [n8011/1]" description="OL for SIG : 524" kilometre="0.901" x="591382.69" y="-1419.5042" xNet="-2264055.4" yNet="4324888.8" referenceNode="1"/>
+		<stationBorder exitType="regular" stationID="DSQJ" lineID="nw8011" trackNumber="1" nodeID="965" name="[JAMESST] - [n8011/1]" kilometre="0.936" x="591169.41" y="-1808.636" xNet="-2264379.6" yNet="4324647.7" referenceNode="527"/>
+		<stationBorder exitType="regular" stationID="PARADSJ" lineID="nw8001" trackNumber="1" nodeID="966" name="[LVRPLCL] - [n8001/1]" kilometre="59.437" x="594373" y="0" xNet="-2260508.9" yNet="4324864.7" referenceNode="216"/>
+		<stationBorder exitType="regular" stationID="PARADSJ" lineID="nw8001" trackNumber="1" nodeID="969" name="[MORFNL] - [n8001/1]" kilometre="59.170" x="591696.72" y="0" xNet="-2262529.8" yNet="4326163.6" referenceNode="211"/>
+		<stationBorder exitType="regular" stationID="PARADSJ" lineID="nw8001" trackNumber="1" nodeID="970" name="[DSQJ] - [n8001/1]" kilometre="0.673" x="593299.76" y="-369.15104" xNet="-2262154.5" yNet="4324917.9" referenceNode="5"/>
+		<speedIndicator nodeID="662" name="SPEED" description="Speed; 36m 70.71ch" kilometre="59.359" x="593590" y="-10" xNet="-2261204.6" yNet="4325223.5" referenceNode="663"/>
+	</nodes>
+	<links>
+		<link source="1" target="2" length="1" gradient="-32.2581" vmax="8" vmaxr="8" bidirectional="true"/>
+		<link source="2" target="527" length="13" gradient="-32.2581" vmax="32" vmaxr="32" bidirectional="true"/>
+		<link source="3" target="1" length="15" gradient="-32.2581" vmax="8" vmaxr="8" bidirectional="true"/>
+		<link source="4" target="1" length="1" gradient="-32.2581" vmax="8" vmaxr="8" bidirectional="true"/>
+		<link source="5" target="970" length="4" gradient="-76.9231" vmax="8" vmaxr="8" bidirectional="true"/>
+		<link source="6" target="7" length="34" gradient="-76.9231" vmax="8" vmaxr="8" bidirectional="true"/>
+		<link source="7" target="9" length="60" gradient="-76.9231" vmax="8" vmaxr="8" bidirectional="true"/>
+		<link source="8" target="79" length="38" gradient="-76.9231" vmax="8" vmaxr="8" bidirectional="true"/>
+		<link source="9" target="8" length="10" gradient="-76.9231" vmax="8" vmaxr="8" bidirectional="true"/>
+		<link source="11" target="12" length="9" gradient="-76.9231" vmax="8" vmaxr="8" bidirectional="true"/>
+		<link source="11" target="957" length="10" gradient="76.9231" vmax="8" vmaxr="8" bidirectional="true"/>
+		<link source="12" target="5" length="5" gradient="-76.9231" vmax="8" vmaxr="8" bidirectional="true"/>
+		<link source="79" target="681" length="33" gradient="-76.9231" vmax="8" vmaxr="8" bidirectional="true"/>
+		<link source="187" target="754" length="6" gradient="32.2581" vmax="48" vmaxr="48" bidirectional="true">
+			<vzg index="1" vmax="32" vmaxr="32"/>
+		</link>
+		<link source="211" target="637" length="103" gradient="-23.1803" vmax="48" vmaxr="48" bidirectional="true">
+			<vzg index="1" vmax="32" vmaxr="32"/>
+		</link>
+		<link source="216" target="966" gradient="32.2581" vmax="24" vmaxr="24" bidirectional="true">
+			<vzg index="1" vmax="32" vmaxr="32"/>
+		</link>
+		<link source="495" target="3" length="9" gradient="-32.258" vmax="8" vmaxr="8" bidirectional="true"/>
+		<link source="527" target="965" length="6" gradient="-32.2581" vmax="32" vmaxr="32" bidirectional="true"/>
+		<link source="534" target="539" length="4" gradient="-3.802" vmax="8" vmaxr="8" bidirectional="true"/>
+		<link source="539" target="495" length="15" gradient="-3.802" vmax="8" vmaxr="8" bidirectional="true"/>
+		<link source="637" target="788" length="44" gradient="32.2581" vmax="48" vmaxr="48" bidirectional="true">
+			<vzg index="1" vmax="32" vmaxr="32"/>
+		</link>
+		<link source="662" target="187" length="1" gradient="32.2581" vmax="48" vmaxr="48" bidirectional="true">
+			<vzg index="1" vmax="32" vmaxr="32"/>
+		</link>
+		<link source="663" target="662" length="1" gradient="32.2581" vmax="8" vmaxr="8" bidirectional="true"/>
+		<link source="681" target="4" length="1" gradient="-32.2581" vmax="8" vmaxr="8" bidirectional="true"/>
+		<link source="754" target="216" length="71" gradient="32.2581" vmax="24" vmaxr="24" bidirectional="true">
+			<vzg index="1" vmax="32" vmaxr="32"/>
+		</link>
+		<link source="788" target="840" length="17" gradient="32.2581" vmax="48" vmaxr="48" bidirectional="true">
+			<vzg index="1" vmax="32" vmaxr="32"/>
+		</link>
+		<link source="840" target="187" length="23" gradient="32.2581" vmax="48" vmaxr="48" bidirectional="true">
+			<vzg index="1" vmax="32" vmaxr="32"/>
+		</link>
+		<link source="841" target="969" length="8" gradient="-23.1803" vmax="48" vmaxr="48" bidirectional="true">
+			<vzg index="1" vmax="32" vmaxr="32"/>
+		</link>
+		<link source="957" target="663" length="1" gradient="76.9231" vmax="8" vmaxr="8" bidirectional="true"/>
+		<link source="958" target="6" length="57" gradient="-76.9231" vmax="8" vmaxr="8" bidirectional="true"/>
+		<link source="965" target="528" length="14" gradient="-32.2581" vmax="32" vmaxr="32" bidirectional="true"/>
+		<link source="966" target="641" length="1" gradient="32.2581" vmax="24" vmaxr="24" bidirectional="true">
+			<vzg index="1" vmax="32" vmaxr="32"/>
+		</link>
+		<link source="969" target="211" length="3" gradient="-23.1803" vmax="48" vmaxr="48" bidirectional="true">
+			<vzg index="1" vmax="32" vmaxr="32"/>
+		</link>
+		<link source="970" target="958" length="9" gradient="-76.9231" vmax="8" vmaxr="8" bidirectional="true"/>
+	</links>
+	<dependentLinks/>
+	<blockSections>
+		<blocksection uuid="{3b634d97-da21-4658-b718-4effef07f916}" lines="dbsq lvr nw8001" speedIndicators="662 754">
+			<part nodes="5 12 11 957 663 662 187 754 216 966 641"/>
+		</blocksection>
+		<blocksection uuid="{3bc6a222-30b8-475c-ac60-7a8d8139aea1}" lines="dbsq lvr nw8001" speedIndicators="662">
+			<part nodes="5 12 11 957 663 662 187 754 216 966 641"/>
+		</blocksection>
+		<blocksection uuid="{77de247d-1714-4e98-a3e9-38d9e625477d}" lines="dbsq nw8011" speedIndicators="2">
+			<part nodes="8 79 681 4 1 2 527 965 528"/>
+		</blocksection>
+		<blocksection uuid="{8818d86d-c9fb-4c8e-9d11-03977f508de6}" lines="dbsq nw8011" speedIndicators="2 528">
+			<part nodes="528 965 527 2 1 4 681 79 8 9 7 6 958 970 5"/>
+		</blocksection>
+		<blocksection uuid="{91357f77-2156-46b5-ab30-57f1a9ca9861}" lines="dbsq lvr nw8001">
+			<part nodes="641 966 216"/>
+		</blocksection>
+		<blocksection uuid="{9cc48d49-8a15-451b-b2e5-d8ad021e1f1a}" lines="dbsq lvr nw8001" speedIndicators="754">
+			<part nodes="211 637 788 840 187 754 216 966 641"/>
+		</blocksection>
+		<blocksection uuid="{9dc4a32c-5b7d-4652-a0bc-1eeac84bf9b5}" lines="dbsq nw8001" speedIndicators="754">
+			<part nodes="216 754 187 840 788 637 211 969 841"/>
+		</blocksection>
+		<blocksection uuid="{af4b53d7-f9f0-40c8-96e5-efa2f2a0b706}" lines="dbsq" speedIndicators="662 754">
+			<part nodes="216 754 187 662 663 957 11 12 5 970 958 6 7 9 8"/>
+		</blocksection>
+		<blocksection uuid="{b03c63c0-7f02-432b-93af-bb86dda4800b}" lines="dbsq nw8011" speedIndicators="2 528">
+			<part nodes="528 965 527 2 1 3 495 539 534"/>
+		</blocksection>
+		<blocksection uuid="{b5944aff-21b2-4d01-9e0e-6f72c9809f5e}" lines="dbsq lvr nw8001" speedIndicators="754">
+			<part nodes="211 637 788 840 187 754 216 966 641"/>
+		</blocksection>
+		<blocksection uuid="{b8c2d5e8-4653-4e3b-9b06-d055c938d6a7}" lines="dbsq nw8001">
+			<part nodes="841 969 211"/>
+		</blocksection>
+		<blocksection uuid="{cb658bc1-60e3-4a9e-964d-6c10e4c6159e}" lines="dbsq lvr nw8001">
+			<part nodes="216 966 641"/>
+		</blocksection>
+		<blocksection uuid="{cc831cef-0b83-48c9-8a05-5ec717ca8c73}" lines="dbsq lvr nw8001">
+			<part nodes="641 966 216"/>
+		</blocksection>
+		<blocksection uuid="{cfe171a7-f2d8-4774-adf2-c6731d31abbc}" lines="dbsq nw8011" shuntingBlock="true" speedIndicators="2">
+			<part nodes="534 539 495 3 1 2 527 965 528"/>
+		</blocksection>
+	</blockSections>
+	<slipDistances>
+		<slipdistance uuid="{89561636-6e47-44da-b628-2d70a2ffe8ef}" vmax="999" lines="dbsq nw8011" serialNumber="0">
+			<part nodes="528 965 527 2 1 3"/>
+		</slipdistance>
+		<slipdistance uuid="{c4362aad-0b54-4a3d-9d55-7fb50d43ad2a}" vmax="999" lines="dbsq" serialNumber="0">
+			<part nodes="211 637 788 840 187 754 216 966 641"/>
+		</slipdistance>
+		<slipdistance uuid="{c7c4967c-a0f8-421d-82e7-fe3ca31d19d0}" vmax="999" lines="dbsq nw8011" serialNumber="0">
+			<part nodes="8 79 681 4 1 2 527 965 528"/>
+		</slipdistance>
+	</slipDistances>
+	<approachControlRoutes/>
+	<stationRoutes>
+		<stationRoute stationID="DSQJ" name="[JAMESST]-[n8011/1]-[1]-[JAMSTS]-[n8011/1] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="965 527 2 1 3"/>
+		<stationRoute stationID="DSQJ" name="[JAMESST]-[n8011/1]-[1]-[PARADSJ]-[n8001/1] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=95;NRz=95;S=95;Rz=95;FGz=95;NGz=95;Gz=95;Lz=95;Unbekannt=95" nodes="965 527 2 1 4"/>
+		<stationRoute stationID="DSQJ" name="[JAMSTS]-[n8011/1]-[1]-[JAMESST]-[n8011/1] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="3 1 2 527 965"/>
+		<stationRoute stationID="DSQJ" name="[PARADSJ]-[n8001/1]-[1]-[JAMESST]-[n8011/1] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=95;NRz=95;S=95;Rz=95;FGz=95;NGz=95;Gz=95;Lz=95;Unbekannt=95" nodes="4 1 2 527 965"/>
+		<stationRoute stationID="PARADSJ" name="[DSQJ]-[n8001/1]-[1]-[LVRPLCL]-[n8001/1] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=95;NRz=95;S=95;Rz=95;FGz=95;NGz=95;Gz=95;Lz=95;Unbekannt=95" nodes="970 5 12 11 957 663 662 187 754 216 966"/>
+		<stationRoute stationID="PARADSJ" name="[LVRPLCL]-[n8001/1]-[1]-[DSQJ]-[n8001/1] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=95;NRz=95;S=95;Rz=95;FGz=95;NGz=95;Gz=95;Lz=95;Unbekannt=95" nodes="966 216 754 187 662 663 957 11 12 5 970"/>
+		<stationRoute stationID="PARADSJ" name="[LVRPLCL]-[n8001/1]-[1]-[LVRPLCL]-[n8001/1] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="966 216 966"/>
+		<stationRoute stationID="PARADSJ" name="[LVRPLCL]-[n8001/1]-[1]-[MORFNL]-[n8001/1] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="966 216 754 187 840 788 637 211 969"/>
+		<stationRoute stationID="PARADSJ" name="[MORFNL]-[n8001/1]-[1]-[LVRPLCL]-[n8001/1] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="969 211 637 788 840 187 754 216 966"/>
+	</stationRoutes>
+	<lineCatalog/>
+	<zugNummernFelder/>
+	<switchGears/>
+</line>

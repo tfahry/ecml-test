@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<line lineID="1a" name="Moorgate - Finsbury Park" trafficRouting="on_the_left" type="local" dependentLines="cnnby fnpkj">
+	<version major="1" minor="2" patchlevel="0" comment=""/>
+	<creator user="Ahowe4" timestamp="2016-11-01T12:54:22"/>
+	<lasteditor user="Ahowe4" timestamp="2016-11-01T12:54:22"/>
+	<stations/>
+	<nodes>
+		<node nodeID="285" kilometre="6.085" x="14764" y="1522" xNet="1009178.8" yNet="796067.59"/>
+		<node nodeID="304" name="OL" kilometre="6.185" x="13766" y="1322" xNet="1008991.6" yNet="795407.27"/>
+		<node nodeID="286" kilometre="6.285" x="12766" y="1322" xNet="1008742.1" yNet="795672.18"/>
+		<node nodeID="289" kilometre="6.370" x="11914" y="1522" xNet="1009059.4" yNet="796441.74"/>
+		<node nodeID="290" kilometre="6.370" x="11919.565" y="1322" xNet="1008270.2" yNet="796183.11"/>
+		<signal interlockingMachine="3 Aspect Pannel (Below 75mph)" nodeID="291" name="SIG: 372" kilometre="6.300" x="12615.999" y="1322" xNet="1008536.7" yNet="796030.38" referenceNode="290"/>
+	</nodes>
+	<links>
+		<link source="285" target="287.cnnby" length="19" gradient="6.452" vmax="64" vmaxr="64" electrification="electrified">
+			<vzg index="1" vmax="64" vmaxr="64"/>
+		</link>
+		<link source="286" target="304" length="100" vmax="64" vmaxr="64" electrification="electrified"/>
+		<link source="289" target="285" length="285" vmax="64" vmaxr="64" electrification="electrified"/>
+		<link source="290" target="291" length="70" vmax="64" vmaxr="64" electrification="electrified"/>
+		<link source="291" target="286" length="15" vmax="64" vmaxr="64" electrification="electrified"/>
+		<link source="304" target="303.cnnby" length="100" vmax="64" vmaxr="64" electrification="electrified"/>
+		<link source="7202.fnpkj" target="289" length="8" vmax="64" vmaxr="64" electrification="electrified"/>
+		<link source="7203.fnpkj" target="290" length="8" vmax="64" vmaxr="64" electrification="electrified"/>
+	</links>
+	<dependentLinks/>
+	<blockSections>
+		<blocksection uuid="{2b204032-1fef-433a-a5c5-adc1b5d69cd8}" lines="1a cnnby fnpkj">
+			<part nodes="303.cnnby 304 286 291 290 7203.fnpkj"/>
+		</blocksection>
+		<blocksection uuid="{532f180f-f50b-4577-9f26-b70fdf2afe62}" lines="1a cnnby fnpkj">
+			<part nodes="7202.fnpkj 289 285 287.cnnby"/>
+		</blocksection>
+		<blocksection uuid="{73dfa4d0-a0b8-4bbc-a36c-c51e09e809b4}" lines="1a fnpkj">
+			<part nodes="7203.fnpkj 290 291"/>
+		</blocksection>
+		<blocksection uuid="{d8ddb83f-0a45-4cf2-8007-bc40af5571a4}" lines="1a cnnby">
+			<part nodes="291 286 304 303.cnnby"/>
+		</blocksection>
+		<blocksection uuid="{ee9679eb-1b40-4963-9e9a-b1dcb8ec709b}" lines="1a fnpkj">
+			<part nodes="7203.fnpkj 290 291"/>
+		</blocksection>
+	</blockSections>
+	<slipDistances>
+		<slipdistance uuid="{448a9767-4ec2-40f3-a18c-92ee11880442}" vmax="250" lines="1a" serialNumber="0">
+			<part nodes="291 286 304"/>
+		</slipdistance>
+	</slipDistances>
+	<approachControlRoutes/>
+	<stationRoutes/>
+	<lineCatalog/>
+	<zugNummernFelder/>
+	<switchGears/>
+</line>

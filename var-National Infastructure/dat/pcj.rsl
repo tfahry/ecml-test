@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<line lineID="pcj" name="Doncaster Potteric Carr Jn" trafficRouting="on_the_left" type="global" dependentLines="ln1001 ln758">
+	<transformations>
+		<transformation line="ln758" m11="0" m12="-1" m21="1" m22="0" dx="-93115.4" dy="1.96113e+06"/>
+	</transformations>
+	<version major="1" minor="2" patchlevel="0" comment=""/>
+	<creator user="Ahowe4" timestamp="2016-11-01T12:54:22"/>
+	<lasteditor user="Ahowe4" timestamp="2016-11-01T12:54:22"/>
+	<stations>
+		<station stationID="DONCPCJ" name="Donc Potteric Carr Jn" xNet="-196052.775" yNet="4515427.5" uicLocationCode="0" circleDiameter="0">
+			<textElement type="name">
+				<pos view="net" x="4572.46" y="4572.46" angle="0" system="source"/>
+				<pos view="wgs84" x="4572.46" y="4572.46" angle="0" system="source"/>
+				<pos view="line" x="3414.59" y="3414.59" angle="0" system="source"/>
+				<pos view="macro" x="28.2843" y="28.2843" angle="0" system="source"/>
+				<pos view="macroWgs84" x="0" y="0" angle="0" system="source"/>
+			</textElement>
+		</station>
+	</stations>
+	<nodes>
+		<node nodeID="111" kilometre="247.600" x="1962049.3" y="169215.42" xNet="-195564.51" yNet="4512546.8">
+			<netLimitInfo lineID="ln1001"/>
+		</node>
+		<signal type="shunting" interlockingMachine="Shunt" nodeID="15" name="SIG: D231" description="FIXED RED" kilometre="247.616" x="1962209.3" y="169215.42" xNet="-195662.88" yNet="4512672.8" referenceNode="111"/>
+		<node nodeID="1" name="GRAD" kilometre="247.651" x="1963159.3" y="169215.42" xNet="-195879.2" yNet="4512948.9"/>
+		<signal interlockingMachine="Buffer Stop" nodeID="168" name="SHUNT NECK" kilometre="247.533" x="1961979.3" y="169015.42" xNet="-191137.87" yNet="4511378.4" referenceNode="169"/>
+		<node nodeID="169" kilometre="247.600" x="1962649.4" y="169015.42" xNet="-195406.77" yNet="4512670"/>
+		<switch start="314" endOfMainTrack="1" endOfBranchTrack="16" nodeID="37" name="POINTS: 2513A" description="POINTS : " kilometre="247.621" x="1962859.3" y="169215.42" xNet="-195694.03" yNet="4512711.2"/>
+		<switch start="181" endOfMainTrack="200" endOfBranchTrack="182" nodeID="172" name="POINTS: 2513B" description="POINTS : " kilometre="247.693" x="1963579.3" y="169015.42" xNet="-195979.3" yNet="4513402.8"/>
+		<signal type="shunting" interlockingMachine="Shunt" nodeID="173" name="SIG: D1401" kilometre="247.616" x="1962809.1" y="169015.42" xNet="-195505.03" yNet="4512796.9" referenceNode="169"/>
+		<node nodeID="174" name="GRAD" kilometre="247.651" x="1963159.3" y="169132.1" xNet="-195812.58" yNet="4512999.2"/>
+		<node nodeID="175" name="GRAD" kilometre="247.651" x="1963159.3" y="169015.42" xNet="-195721.46" yNet="4513072.1"/>
+		<speedIndicator nodeID="16" name="SPEED" description="Speed; " kilometre="247.622" x="1962869.3" y="169212.64" xNet="-195697.85" yNet="4512722.7" referenceNode="177"/>
+		<node nodeID="177" name="TC" description="release contact for track circuit" kilometre="247.642" x="1963069.3" y="169157.1" xNet="-195777.39" yNet="4512913" referenceNode="16" releaseContact="true" arranged="true"/>
+		<track trackID="D-1" stationID="DONCPCJ" type="shunting" interlockingMachine="Shunt" nodeID="181" name="SIG: D1405" kilometre="247.786" x="1964509.3" y="169015.42" xNet="-196552.82" yNet="4514135.8" referenceNode="172"/>
+		<switch start="181" endOfMainTrack="274" endOfBranchTrack="351" nodeID="232" name="POINTS: 2322A" description="POINTS : " kilometre="247.792" x="1964569.3" y="169015.42" xNet="-196589.21" yNet="4514181.9"/>
+		<switch start="349" endOfMainTrack="638" endOfBranchTrack="351" nodeID="260" name="POINTS: 2322B" description="POINTS : " kilometre="247.860" x="1965249.3" y="168215.42" xNet="-196377.54" yNet="4515210.4"/>
+		<node nodeID="182" name="TC" description="release contact for track circuit" kilometre="247.673" x="1963379.3" y="169070.98" xNet="-195901.96" yNet="4513210.7" referenceNode="172" releaseContact="true" arranged="true"/>
+		<node nodeID="200" name="TC" description="release contact for track circuit" kilometre="247.673" x="1963376.3" y="169015.42" xNet="-195854.33" yNet="4513242.9" referenceNode="172" releaseContact="true" arranged="true"/>
+		<track trackID="U-1" stationID="DONCPCJ" type="shunting" interlockingMachine="Shunt" nodeID="349" name="SIG: D1418" kilometre="247.866" x="1965309.3" y="168215.48" xNet="-196414.71" yNet="4515258.5" referenceNode="1236"/>
+		<node nodeID="350" kilometre="247.800" x="1964649.3" y="168215.42" xNet="-196007.88" yNet="4514738.1"/>
+		<node nodeID="351" name="TC" description="release contact for track circuit" kilometre="247.840" x="1965049.3" y="168450.72" xNet="-196438.47" yNet="4514908.1" referenceNode="260" releaseContact="true" arranged="true"/>
+		<node nodeID="352" name="TC" description="release contact for track circuit" kilometre="247.840" x="1965049.3" y="168215.42" xNet="-196254.25" yNet="4515053.6" referenceNode="638" releaseContact="true" arranged="true"/>
+		<signal type="shunting" interlockingMachine="Shunt" nodeID="611" name="SIG: D1403" kilometre="26.831" x="1964179.3" y="168215.42" xNet="-195718" yNet="4514367.8" referenceNode="610"/>
+		<speedIndicator nodeID="638" name="SPEED" description="Speed; " kilometre="247.859" x="1965239.3" y="168215.42" xNet="-196371.21" yNet="4515203.7" referenceNode="260"/>
+		<track trackID="T-12" stationID="DONCPCJ" type="timingPoint" nodeID="176" kilometre="247.668" x="1963326" y="169085.78" xNet="-195880.2" yNet="4513159.4" referenceNode="174"/>
+		<stationBorder exitType="regular" stationID="DONCPCJ" lineID="ln1001" trackNumber="1" nodeID="314" name="[BLCKCJ] - [ln101/1]" kilometre="247.620" x="1962249.3" y="169215.42" xNet="-195687.69" yNet="4512704.5" referenceNode="37"/>
+		<stationBorder exitType="regular" stationID="DONCPCJ" lineID="ln758" trackNumber="UDF" nodeID="610" name="Prellbock 316" kilometre="26.678" x="1962649.3" y="168215.42" xNet="-194776.9" yNet="4513161.8" referenceNode="611">
+			<netLimitInfo lineID="ln758"/>
+		</stationBorder>
+		<stationBorder exitType="alternative" stationID="DONCPCJ" lineID="ln1001" trackNumber="1" nodeID="202" name="[DONCUDY] - [ln101/1]" kilometre="247.901" x="1965663.3" y="168215.46" xNet="-196632.74" yNet="4515537.5" referenceNode="1236">
+			<netLimitInfo lineID="ln1001"/>
+		</stationBorder>
+		<stationBorder exitType="alternative" stationID="DONCPCJ" lineID="ln1001" trackNumber="2" nodeID="274" name="[DONCUDY] - [ln101/2]" kilometre="247.794" x="1964593.3" y="169015.42" xNet="-196603.27" yNet="4514201.1" referenceNode="232">
+			<netLimitInfo lineID="ln1001"/>
+		</stationBorder>
+		<stationBorder exitType="locked" stationID="DONCPCJ" lineID="ln1001" trackNumber="" nodeID="1130" name="Prellbock 317" kilometre="247.533" x="1961929.3" y="169015.42" xNet="-191070" yNet="4511306" referenceNode="168"/>
+		<node nodeID="105" kilometre="248.000" x="1966649.3" y="169215.42" xNet="-198027.45" yNet="4515699.5"/>
+		<node nodeID="58" kilometre="247.800" x="1964649.3" y="169215.42" xNet="-196795.48" yNet="4514123.1"/>
+		<node nodeID="188" name="UP EAST SLOW" kilometre="248.200" x="1968649.3" y="169215.42" xNet="-199259.52" yNet="4517274.9"/>
+		<node nodeID="189" kilometre="248.400" x="1970649.3" y="169215.42" xNet="-200490.5" yNet="4518851.2"/>
+		<node nodeID="107" name="GRAD" kilometre="248.061" x="1967259.3" y="169215.42" xNet="-198403.34" yNet="4516179.4"/>
+		<node nodeID="277" name="OL: D240" kilometre="248.301" x="1969659.3" y="169215.42" xNet="-199880.8" yNet="4518070.2"/>
+		<track trackID="U-11" stationID="DONCPCJ" interlockingMachine="4 Aspect Pannel (Below 75mph)" nodeID="112" name="SIG: D240" kilometre="248.484" x="1971489.3" y="169215.42" xNet="-201007.17" yNet="4519512.9" referenceNode="1129"/>
+		<stationBorder exitType="alternative" stationID="DONCPCJ" lineID="ln1001" trackNumber="3" nodeID="1129" name="[DONCUDY] - [ln101/3]" kilometre="248.488" x="1971535.3" y="169215.42" xNet="-201035.55" yNet="4519549" referenceNode="112">
+			<netLimitInfo lineID="ln1001"/>
+		</stationBorder>
+		<kilometreInconsistency newKilometre="26.876" nodeID="1199" kilometre="247.798" x="1964493.4" y="168215.42" xNet="-195911.71" yNet="4514615.2" referenceNode="350"/>
+		<track trackID="T-99" stationID="DONCPCJ" type="timingPoint" nodeID="1236" kilometre="247.886" x="1965510.7" y="168215.47" xNet="-196538.77" yNet="4515417.3" referenceNode="349"/>
+		<track trackID="T-13" stationID="DONCPCJ" type="timingPoint" nodeID="8" kilometre="247.668" x="1963357.37330466" y="169215.42" xNet="-196001.00577691" yNet="4513104.99239888" referenceNode="1"/>
+		<track trackID="T-6" stationID="DONCPCJ" type="timingPoint" nodeID="228" kilometre="247.668" x="1963326.98181818" y="169015.42" xNet="-195824.132272727" yNet="4513204.08181818" referenceNode="175"/>
+		<node nodeID="32" name="OL:D231/D231R" kilometre="247.619" x="1962237.79131174" y="169215.42" xNet="-195680.551736107" yNet="4512695.37936455"/>
+	</nodes>
+	<links>
+		<link source="1" target="8" length="17" gradient="1.41" vmax="113" vmaxr="113" bidirectional="true" electrification="electrified"/>
+		<link source="8" target="58" length="132" gradient="1.41" vmax="113" vmaxr="113" bidirectional="true" electrification="electrified"/>
+		<link source="15" target="32" length="3" gradient="1.55" vmax="113" vmaxr="113" bidirectional="true" electrification="electrified"/>
+		<link source="16" target="177" length="20" gradient="1.55" vmax="40" vmaxr="40" electrification="electrified"/>
+		<link source="32" target="314" length="1" gradient="1.55" vmax="113" vmaxr="113" bidirectional="true" electrification="electrified"/>
+		<link source="37" target="1" length="30" gradient="1.55" vmax="113" vmaxr="113" bidirectional="true" electrification="electrified"/>
+		<link source="37" target="16" length="1" gradient="1.55" vmax="113" vmaxr="113" electrification="electrified"/>
+		<link source="58" target="105" length="200" gradient="1.41" vmax="113" vmaxr="113" bidirectional="true" electrification="electrified"/>
+		<link source="105" target="107" length="61" gradient="1.41" vmax="113" vmaxr="113" bidirectional="true" electrification="electrified"/>
+		<link source="107" target="188" length="139" vmax="113" vmaxr="113" bidirectional="true" electrification="electrified"/>
+		<link source="111" target="15" length="16" gradient="1.55" vmax="113" vmaxr="113" bidirectional="true" electrification="electrified"/>
+		<link source="112" target="1129" length="5" vmax="113" vmaxr="113" bidirectional="true" electrification="electrified"/>
+		<link source="168" target="169" length="67" gradient="1.55" vmax="40" vmaxr="40" electrification="electrified"/>
+		<link source="169" target="173" length="16" gradient="1.55" vmax="40" vmaxr="40" electrification="electrified"/>
+		<link source="172" target="181" length="93" gradient="1.41" vmax="40" vmaxr="40" electrification="electrified"/>
+		<link source="173" target="175" length="35" gradient="1.55" vmax="40" vmaxr="40" electrification="electrified"/>
+		<link source="174" target="176" length="17" gradient="1.41" vmax="40" vmaxr="40" electrification="electrified"/>
+		<link source="175" target="228" length="17" gradient="1.41" vmax="40" vmaxr="40" electrification="electrified"/>
+		<link source="176" target="182" length="5" gradient="1.41" vmax="40" vmaxr="40" electrification="electrified"/>
+		<link source="177" target="174" length="9" gradient="1.55" vmax="40" vmaxr="40" electrification="electrified"/>
+		<link source="181" target="232" length="6" gradient="1.41" vmax="40" vmaxr="40" electrification="electrified"/>
+		<link source="182" target="172" length="20" gradient="1.41" vmax="40" vmaxr="40" electrification="electrified"/>
+		<link source="188" target="277" length="101" vmax="113" vmaxr="113" bidirectional="true" electrification="electrified"/>
+		<link source="189" target="112" length="84" vmax="113" vmaxr="113" bidirectional="true" electrification="electrified"/>
+		<link source="200" target="172" length="20" gradient="1.41" vmax="40" vmaxr="40" electrification="electrified"/>
+		<link source="228" target="200" length="5" gradient="1.41" vmax="40" vmaxr="40" electrification="electrified"/>
+		<link source="232" target="274" length="2" gradient="1.41" vmax="40" vmaxr="40" electrification="electrified"/>
+		<link source="232" target="351" length="48" gradient="1.41" vmax="40" vmaxr="40" electrification="electrified"/>
+		<link source="260" target="349" length="6" gradient="1.41" vmax="40" vmaxr="40" electrification="electrified"/>
+		<link source="277" target="189" length="99" vmax="113" vmaxr="113" bidirectional="true" electrification="electrified"/>
+		<link source="314" target="37" length="1" gradient="1.55" vmax="113" vmaxr="113" bidirectional="true" electrification="electrified"/>
+		<link source="349" target="1236" length="20" gradient="1.41" vmax="40" vmaxr="40" electrification="electrified"/>
+		<link source="350" target="352" length="40" vmax="24" vmaxr="24" bidirectional="true" electrification="electrified"/>
+		<link source="351" target="260" length="20" gradient="1.41" vmax="40" vmaxr="40" electrification="electrified"/>
+		<link source="352" target="638" length="19" vmax="24" vmaxr="24" bidirectional="true" electrification="electrified"/>
+		<link source="610" target="611" length="153" vmax="24" vmaxr="24" bidirectional="true" electrification="electrified"/>
+		<link source="611" target="1199" length="31" vmax="24" vmaxr="24" bidirectional="true" electrification="electrified"/>
+		<link source="638" target="260" length="1" vmax="40" vmaxr="40" bidirectional="true" electrification="electrified"/>
+		<link source="1130" target="168" gradient="1.55" vmax="40" vmaxr="40" electrification="electrified"/>
+		<link source="1199" target="350" length="16" vmax="24" vmaxr="24" bidirectional="true" electrification="electrified"/>
+		<link source="1236" target="202" length="15" gradient="1.41" vmax="40" vmaxr="40" electrification="electrified"/>
+	</links>
+	<dependentLinks/>
+	<blockSections>
+		<blocksection uuid="{0fdb8681-39c1-4f9b-a28b-3755bc820062}" lines="ln1001 pcj" shuntingBlock="true">
+			<part nodes="202 1236 349"/>
+		</blocksection>
+		<blocksection uuid="{1931df8d-309f-4af7-a8e2-df155a5c5528}" lines="ln1001 pcj" shuntingBlock="true">
+			<part nodes="181 232 351 260 349 1236 202"/>
+		</blocksection>
+		<blocksection uuid="{21859837-2cd9-436f-9835-4404643f31a4}" lines="ln1001 pcj" shuntingBlock="true">
+			<part nodes="181 232 351 260 349 1236 202"/>
+		</blocksection>
+		<blocksection uuid="{21da68ed-68f0-4668-bfd2-cc03c9840e6e}" lines="pcj" shuntingBlock="true">
+			<part nodes="168 169 173"/>
+		</blocksection>
+		<blocksection uuid="{263ec63f-0c96-4ef6-9e39-69749521cab4}" lines="ln1001 pcj">
+			<part nodes="1129 112"/>
+		</blocksection>
+		<blocksection uuid="{26e87b28-abc3-432a-83de-acaeac9d5f69}" lines="ln758 pcj" shuntingBlock="true">
+			<part nodes="349 260 638 352 350 1199 611 610"/>
+		</blocksection>
+		<blocksection uuid="{2d7ba8d5-271c-4bec-a15b-2c161a27a6e1}" lines="ln1001 pcj" shuntingBlock="true" speedIndicators="638">
+			<part nodes="611 1199 350 352 638 260 349 1236 202"/>
+		</blocksection>
+		<blocksection uuid="{2e1be399-bda0-4e19-940e-cfb908021afb}" lines="ln1001 pcj" shuntingBlock="true" speedIndicators="16">
+			<part nodes="349 260 351 232 181 172 182 176 174 177 16 37 314 32 15 111"/>
+		</blocksection>
+		<blocksection uuid="{36d62077-d412-47ee-af20-6d9a1574b102}" lines="ln1001 pcj" shuntingBlock="true" speedIndicators="638">
+			<part nodes="611 1199 350 352 638 260 349 1236 202"/>
+		</blocksection>
+		<blocksection uuid="{39c4d6fa-e161-4220-8021-5a259c08190a}" lines="pcj" shuntingBlock="true">
+			<part nodes="173 175 228 200 172 181"/>
+		</blocksection>
+		<blocksection uuid="{3d7cbb85-a9f6-4674-b716-516ec7772c42}" lines="ln758 pcj" shuntingBlock="true">
+			<part nodes="610 611"/>
+		</blocksection>
+		<blocksection uuid="{3e33e8a3-e1a2-4497-9cd9-283116ef0c95}" lines="ln1001 pcj" shuntingBlock="true">
+			<part nodes="202 1236 349"/>
+		</blocksection>
+		<blocksection uuid="{4e8a9f5e-6662-4fb9-9b1a-9695ce824be6}" lines="ln1001 pcj" shuntingBlock="true" speedIndicators="16">
+			<part nodes="274 232 181 172 182 176 174 177 16 37 314 32 15 111"/>
+		</blocksection>
+		<blocksection uuid="{58d36da3-1312-49ff-9ab9-00ca8f817ac4}" lines="pcj" shuntingBlock="true" speedIndicators="16">
+			<part nodes="15 32 314 37 16 177 174 176 182 172 181"/>
+		</blocksection>
+		<blocksection uuid="{627b5172-f994-47ec-9b53-dc8943c43ac3}" lines="ln1001 pcj" shuntingBlock="true" speedIndicators="16">
+			<part nodes="274 232 181 172 182 176 174 177 16 37 314 32 15 111"/>
+		</blocksection>
+		<blocksection uuid="{6c67aa15-06da-4462-a1cb-37a6952d5c93}" lines="ln1001 pcj" shuntingBlock="true">
+			<part nodes="274 232 181 172 200 228 175 173 169 168"/>
+		</blocksection>
+		<blocksection uuid="{70735207-dd41-4134-b69d-8a131cce8181}" lines="ln1001 pcj" shuntingBlock="true">
+			<part nodes="111 15"/>
+		</blocksection>
+		<blocksection uuid="{7cd4c484-6e31-4b50-a6c3-d0c78869122a}" lines="ln1001 pcj" shuntingBlock="true">
+			<part nodes="202 1236 349"/>
+		</blocksection>
+		<blocksection uuid="{84dfbb82-cb93-467b-8783-04d3d7d3ccad}" lines="ln1001 pcj">
+			<part nodes="112 1129"/>
+		</blocksection>
+		<blocksection uuid="{95f85355-07fb-417d-bcf9-7db7ef3eda83}" lines="ln1001 pcj" shuntingBlock="true">
+			<part nodes="181 232 274"/>
+		</blocksection>
+		<blocksection uuid="{9c8a391c-ce60-4494-870a-609aa9467e6f}" lines="ln1001 pcj" shuntingBlock="true">
+			<part nodes="202 1236 349"/>
+		</blocksection>
+		<blocksection uuid="{a4949765-ae7b-4d62-8f0b-c37839ea0b11}" lines="ln1001 pcj" shuntingBlock="true">
+			<part nodes="181 232 351 260 349 1236 202"/>
+		</blocksection>
+		<blocksection uuid="{a5ca34f3-4ac7-492d-9ad6-9c7fc9a22241}" lines="ln1001 pcj" shuntingBlock="true">
+			<part nodes="181 232 351 260 349 1236 202"/>
+		</blocksection>
+		<blocksection uuid="{a697e091-9e38-4668-b96f-80b36fbffeba}" lines="ln1001 pcj" shuntingBlock="true" speedIndicators="638">
+			<part nodes="611 1199 350 352 638 260 349 1236 202"/>
+		</blocksection>
+		<blocksection uuid="{a97be414-30d7-420e-9e8d-811614284c53}" lines="ln1001 pcj" shuntingBlock="true" speedIndicators="638">
+			<part nodes="611 1199 350 352 638 260 349 1236 202"/>
+		</blocksection>
+		<blocksection uuid="{aa5e5919-817c-424d-8e4b-b29529cc17e8}" lines="ln1001 pcj">
+			<part nodes="111 15 32 314 37 1 8 58 105 107 188 277 189 112 1129"/>
+		</blocksection>
+		<blocksection uuid="{aadff3e5-ec71-42f9-b913-c692eb3ebf1b}" lines="ln1001 pcj">
+			<part nodes="274 232 181 172 200 228 175 173 169 168"/>
+		</blocksection>
+		<blocksection uuid="{ae612c62-de1b-4427-9246-778a66e272ad}" lines="ln1001 pcj">
+			<part nodes="112 189 277 188 107 105 58 8 1 37 314 32 15 111"/>
+		</blocksection>
+		<blocksection uuid="{cb57ad10-9591-42dc-8ef5-0d17b6f7da7c}" lines="ln1001 pcj" shuntingBlock="true">
+			<part nodes="274 232 181 172 200 228 175 173 169 168"/>
+		</blocksection>
+		<blocksection uuid="{cbfac49f-c454-4cd7-a773-b3cf01a2ede7}" lines="ln1001 pcj" shuntingBlock="true" speedIndicators="16">
+			<part nodes="274 232 181 172 182 176 174 177 16 37 314 32 15 111"/>
+		</blocksection>
+		<blocksection uuid="{d6e664bd-d1a7-4122-8213-677cf1ca1b83}" lines="ln1001 pcj" shuntingBlock="true">
+			<part nodes="181 232 274"/>
+		</blocksection>
+		<blocksection uuid="{dfb72f27-ad21-43bd-9271-38ba71cab7c6}" lines="ln1001 pcj" shuntingBlock="true">
+			<part nodes="274 232 181 172 200 228 175 173 169 168"/>
+		</blocksection>
+		<blocksection uuid="{f9908ad5-904a-4a4c-9c2e-b61bf4e90c86}" lines="ln1001 pcj" shuntingBlock="true">
+			<part nodes="202 1236 349"/>
+		</blocksection>
+		<blocksection uuid="{fc3a691a-ea39-4b1e-bd15-61db41144d85}" lines="ln1001 pcj" speedIndicators="16">
+			<part nodes="274 232 181 172 182 176 174 177 16 37 314 32 15 111"/>
+		</blocksection>
+		<blocksection uuid="{fcf4cc4c-ea6c-4abc-9c16-5ac63526dd78}" lines="pcj" shuntingBlock="true">
+			<part nodes="349 260 351 232 181 172 200 228 175 173 169 168"/>
+		</blocksection>
+	</blockSections>
+	<slipDistances>
+		<slipdistance uuid="{70d69863-05e0-42fb-bda1-822fbe07ae56}" vmax="999" lines="ln1001 pcj" serialNumber="0">
+			<part nodes="111 15 32"/>
+		</slipdistance>
+		<slipdistance uuid="{c2813b24-a68c-462e-9c0c-d4d7894e718a}" vmax="999" lines="ln1001 pcj" serialNumber="0">
+			<part nodes="111 15 32"/>
+		</slipdistance>
+		<slipdistance uuid="{e0c56753-7624-454a-a5c6-c5dcfd6a8251}" vmax="999" lines="pcj" serialNumber="0">
+			<part nodes="112 189 277"/>
+		</slipdistance>
+	</slipDistances>
+	<approachControlRoutes/>
+	<stationRoutes>
+		<stationRoute stationID="DONCPCJ" name="[BLCKCJ]-[ln1001/1]-[13]-[DONC254]-[ln1001/3] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="314 37 1 8 58 105 107 188 277 189 112 1129"/>
+		<stationRoute stationID="DONCPCJ" name="[BLCKCJ]-[ln101/1]-[1-12]-[DONCUDY]-[ln101/1] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=80;NRz=80;S=80;Rz=80;FGz=80;NGz=80;Gz=80;Lz=80;Unbekannt=80" nodes="314 37 16 177 174 176 182 172 181 232 351 260 349 1236 202"/>
+		<stationRoute stationID="DONCPCJ" name="[BLCKCJ]-[ln101/1]-[1-12]-[DONCUDY]-[ln101/2] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=90;NRz=90;S=90;Rz=90;FGz=90;NGz=90;Gz=90;Lz=90;Unbekannt=90" nodes="314 37 16 177 174 176 182 172 181 232 274"/>
+		<stationRoute stationID="DONCPCJ" name="[DONC254]-[ln1001/3]-[11]-[BLCKCJ]-[ln1001/1] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="1129 112 189 277 188 107 105 58 8 1 37 314"/>
+		<stationRoute stationID="DONCPCJ" name="[DONCUDY]-[ln1001/1]-[1-99]-[LWELRSJ]-[ln758/UDF] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="202 1236 349 260 638 352 350 1199 611 610"/>
+		<stationRoute stationID="DONCPCJ" name="[DONCUDY]-[ln1001/2]-[6]-[]-[ln1001/] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="274 232 181 172 200 228 175 173 169 168 1130"/>
+		<stationRoute stationID="DONCPCJ" name="[DONCUDY]-[ln101/1]-[1-12]-[BLCKCJ]-[ln101/1] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=80;NRz=80;S=80;Rz=80;FGz=80;NGz=80;Gz=80;Lz=80;Unbekannt=80" nodes="202 1236 349 260 351 232 181 172 182 176 174 177 16 37 314"/>
+		<stationRoute stationID="DONCPCJ" name="[DONCUDY]-[ln101/1]-[1]-[]-[?/] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=90;NRz=90;S=90;Rz=90;FGz=90;NGz=90;Gz=90;Lz=90;Unbekannt=90" nodes="202 1236 349 260 351 232 181 172 200 228 175 173 169 168 1130"/>
+		<stationRoute stationID="DONCPCJ" name="[DONCUDY]-[ln101/2]-[12]-[BLCKCJ]-[ln101/1] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=90;NRz=90;S=90;Rz=90;FGz=90;NGz=90;Gz=90;Lz=90;Unbekannt=90" nodes="274 232 181 172 182 176 174 177 16 37 314"/>
+		<stationRoute stationID="DONCPCJ" name="[LWELRSJ]-[ln758/UDF]-[99]-[DONCUDY]-[ln1001/1] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="610 611 1199 350 352 638 260 349 1236 202"/>
+		<stationRoute stationID="DONCPCJ" name="[]-[?/]-[1]-[DONCUDY]-[ln101/1] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=90;NRz=90;S=90;Rz=90;FGz=90;NGz=90;Gz=90;Lz=90;Unbekannt=90" nodes="1130 168 169 173 175 228 200 172 181 232 351 260 349 1236 202"/>
+		<stationRoute stationID="DONCPCJ" name="[]-[?/]-[1]-[DONCUDY]-[ln101/2] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="1130 168 169 173 175 228 200 172 181 232 274"/>
+	</stationRoutes>
+	<lineCatalog/>
+	<zugNummernFelder/>
+	<switchGears/>
+</line>

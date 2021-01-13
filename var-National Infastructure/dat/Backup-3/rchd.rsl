@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<line lineID="rchd" name="Rochdale" trafficRouting="on_the_left" type="global" dependentLines="nw7001 nw7019">
+	<transformations>
+		<transformation line="nw7001" m11="1" m12="0" m21="0" m22="1" dx="0" dy="0"/>
+		<transformation line="nw7019" m11="-1" m12="-1.22461e-16" m21="1.22461e-16" m22="-1" dx="403227" dy="-608.608"/>
+	</transformations>
+	<version major="1" minor="2" patchlevel="0" comment=""/>
+	<creator user="VWaddelo" timestamp="2016-07-08T10:58:15"/>
+	<lasteditor user="VWaddelo" timestamp="2016-07-08T10:58:15"/>
+	<stations>
+		<station stationID="RCHDALE" name="Rochdale" xNet="-1337027.3" yNet="4701430.1" uicLocationCode="0" circleDiameter="0">
+			<textElement type="name">
+				<pos view="net" x="704.616" y="704.616" angle="0" system="source"/>
+				<pos view="wgs84" x="704.616" y="704.616" angle="0" system="source"/>
+				<pos view="line" x="664.085" y="664.085" angle="0" system="source"/>
+				<pos view="macro" x="28.2843" y="28.2843" angle="0" system="source"/>
+				<pos view="macroWgs84" x="0" y="0" angle="0" system="source"/>
+			</textElement>
+		</station>
+		<station stationID="RCHDLEJ" name="Rochdale East Jn" xNet="-1332772.7" yNet="4705447.2" uicLocationCode="0" circleDiameter="0">
+			<textElement type="name">
+				<pos view="net" x="2644.8" y="2644.8" angle="0" system="source"/>
+				<pos view="wgs84" x="2644.8" y="2644.8" angle="0" system="source"/>
+				<pos view="line" x="2527.56" y="2527.56" angle="0" system="source"/>
+				<pos view="macro" x="28.2843" y="28.2843" angle="0" system="source"/>
+				<pos view="macroWgs84" x="0" y="0" angle="0" system="source"/>
+			</textElement>
+		</station>
+	</stations>
+	<nodes>
+		<node nodeID="126" name="SD: 3" description="Sighting distance for SIG: 3" kilometre="16.905" x="169050" y="200" xNet="-1337548.8" yNet="4701332" referenceNode="125" sightingDistance="true"/>
+		<track trackID="D-1" stationID="RCHDALE" interlockingMachine="3 Aspect Pannel (Below 75mph)" nodeID="127" name="SIG: 3" description="Signal 3; 10m 45.01ch" kilometre="16.999" x="169990" y="200" xNet="-1336872.8" yNet="4701985.1" referenceNode="1220">
+			<platform startPos="-1060" endPos="0" width="75" left="false" open="true"/>
+		</track>
+		<node nodeID="128" kilometre="17.000" x="170000" y="200" xNet="-1336865.1" yNet="4701991.3"/>
+		<switch start="130" endOfMainTrack="259" endOfBranchTrack="1235" nodeID="129" name="POINTS: 10" description="Points: 10; 15 mph; 10m 54.10ch" kilometre="17.182" x="171820" y="0" xNet="-1335416.7" yNet="4703111.4"/>
+		<node nodeID="17" name="GRAD" description="Gradient; 10m 60.96ch" kilometre="17.320" x="173200" y="0" xNet="-1334425.2" yNet="4704070.7"/>
+		<speedIndicator nodeID="9" name="SPEED" description="Speed; 10m 62.01ch" kilometre="17.341" x="173410" y="0" xNet="-1334273.9" yNet="4704216.9" referenceNode="17"/>
+		<node nodeID="136" kilometre="18.000" x="180000" y="0" xNet="-1329533.2" yNet="4708794.8">
+			<netLimitInfo lineID="nw7001"/>
+		</node>
+		<speedIndicator nodeID="8" name="SPEED" description="Speed; 10m 57.98ch" kilometre="17.260" x="172600" y="-200" xNet="-1334716.3" yNet="4703511.3" referenceNode="19"/>
+		<switch start="4" endOfMainTrack="16" endOfBranchTrack="7" nodeID="3" name="POINTS: 15B" description="Points: 15B; 20 mph; 10m 61.56ch" kilometre="17.332" x="173320" y="-200" xNet="-1334199.6" yNet="4704009"/>
+		<switch start="4" endOfMainTrack="15" endOfBranchTrack="20" nodeID="2" name="POINTS: 16" description="Points: 16; 20 mph; 10m 62.40ch" kilometre="17.349" x="173490" y="-200" xNet="-1334077.4" yNet="4704128.7"/>
+		<track trackID="U-1" stationID="RCHDLEJ" interlockingMachine="3 Aspect Pannel (Below 75mph)" nodeID="433" name="SIG: 25" description="Signal 25; 11m 6.27ch" kilometre="17.829" x="178290" y="-200" xNet="-1330624.7" yNet="4707463" referenceNode="458"/>
+		<node nodeID="434" kilometre="18.000" x="180000" y="-200" xNet="-1329394.2" yNet="4708650.9">
+			<netLimitInfo lineID="nw7001"/>
+		</node>
+		<speedIndicator nodeID="7" name="SPEED" description="Speed; 10m 61.51ch" kilometre="17.331" x="173310.02" y="-190" xNet="-1334213.2" yNet="4704009.5" referenceNode="3"/>
+		<speedIndicator nodeID="20" name="SPEED" description="Speed; 10m 62.45ch" kilometre="17.350" x="173549" y="-266" xNet="-1334062.6" yNet="4704127.5" referenceNode="209"/>
+		<node nodeID="130" name="OL: 3" kilometre="17.184" x="171830" y="0" xNet="-1335410.2" yNet="4703118.3"/>
+		<track trackID="U-2" stationID="RCHDALE" interlockingMachine="2 Aspect Pannel (Below 75mph)" nodeID="261" name="SIG: Terminal" description="Signal Terminal;" kilometre="16.866" x="168660" y="0" xNet="-1337690.9" yNet="4700916" referenceNode="273"/>
+		<switch start="18" endOfMainTrack="13" endOfBranchTrack="6" nodeID="1" name="POINTS: 15A" kilometre="17.269" x="172688.75" y="0" xNet="-1334792.8" yNet="4703715.5"/>
+		<node nodeID="14" name="GRAD" description="Gradient; 10m 60.96ch" kilometre="17.320" x="173195.16" y="-149.12125" xNet="-1334325.4" yNet="4703960.8"/>
+		<speedIndicator nodeID="267" name="SPEED" kilometre="17.181" x="171810" y="0" xNet="-1335424.4" yNet="4703105.1" referenceNode="955"/>
+		<speedIndicator nodeID="6" name="SPEED" kilometre="17.270" x="172698.67" y="-2.9239459" xNet="-1334782.9" yNet="4703721.2" referenceNode="11"/>
+		<signal type="shunting" interlockingMachine="Shunt" nodeID="19" name="SIG: SHUNT" description="Signal Shunt;" kilometre="17.274" x="172742.11" y="-200" xNet="-1334615.4" yNet="4703609.7" referenceNode="8"/>
+		<signal type="shunting" interlockingMachine="Shunt" nodeID="18" name="SIG: SHUNT" description="Signal Shunt;" kilometre="17.187" x="171862.89" y="0" xNet="-1335386.7" yNet="4703142.2" referenceNode="1"/>
+		<track trackID="D-2" stationID="RCHDALE" interlockingMachine="3 Aspect Pannel (Below 75mph)" nodeID="711" name="SIG: 4" description="Signal 4;" kilometre="16.999" x="169990" y="0" xNet="-1336733.8" yNet="4701841.2" referenceNode="273">
+			<platform startPos="-1330" endPos="0" width="75" left="true" open="true"/>
+		</track>
+		<track trackID="U-4" stationID="RCHDALE" type="stopBoard" nodeID="712" name="U-4" description="Rochdale U-4, stopBoard," kilometre="16.866" x="168662" y="-200" xNet="-1337550.8" yNet="4700775.4" referenceNode="1219">
+			<platform startPos="-1330" endPos="0" width="75" left="false" open="true"/>
+		</track>
+		<track trackID="T-2" stationID="RCHDLEJ" type="timingPoint" nodeID="5" name="T-2" description="Rochdale East Jn T-2, timingPoint, 10m 63.00ch" kilometre="17.361" x="173610" y="0" xNet="-1334129.7" yNet="4704354.9" referenceNode="9"/>
+		<track trackID="T-11" stationID="RCHDLEJ" type="timingPoint" nodeID="4" name="T-1" description="Rochdale East Jn T-1, timingPoint" kilometre="17.341" x="173412.45" y="-200" xNet="-1334133.2" yNet="4704074.4" referenceNode="3"/>
+		<node nodeID="273" name="SD: 4" description="Sighting distance for SIG: 4" kilometre="16.929" x="169290" y="0" xNet="-1337237.9" yNet="4701354.1" referenceNode="261" sightingDistance="true"/>
+		<node nodeID="926" name="TC" description="Release contact for track circuit" kilometre="17.142" x="171420" y="0" xNet="-1335705.1" yNet="4702835.3" referenceNode="955" releaseContact="true" arranged="true"/>
+		<node nodeID="13" name="TC" description="Release contact for track circuit" kilometre="17.309" x="173089.73" y="0" xNet="-1334504.2" yNet="4703994.7" referenceNode="1" releaseContact="true" arranged="true"/>
+		<node nodeID="12" name="TC" description="Release contact for track circuit" kilometre="17.301" x="173008.52" y="-94.162277" xNet="-1334496.7" yNet="4703870.4" referenceNode="11" releaseContact="true" arranged="true"/>
+		<node nodeID="11" name="TC" description="Release contact for track circuit" kilometre="17.300" x="172998.52" y="-91.219109" xNet="-1334506.9" yNet="4703865.6" referenceNode="12" releaseContact="true" arranged="true"/>
+		<node nodeID="10" name="TC" description="Release contact for track circuit" kilometre="17.291" x="172911.33" y="-200" xNet="-1334493.4" yNet="4703726.3" referenceNode="16" releaseContact="true" arranged="true"/>
+		<node nodeID="955" name="OL: 4" kilometre="17.179" x="171790" y="0" xNet="-1335439.2" yNet="4703090.9"/>
+		<node nodeID="424" kilometre="16.840" x="168401.22" y="-200" xNet="-1337738" yNet="4700592.7">
+			<netLimitInfo lineID="nw7001"/>
+		</node>
+		<node nodeID="125" kilometre="16.840" x="168400" y="200" xNet="-1338015.6" yNet="4700879.7">
+			<netLimitInfo lineID="nw7001"/>
+		</node>
+		<node nodeID="206" name="OL: 28" kilometre="22.860" x="175816" y="-419" xNet="-1331736.5" yNet="4704082"/>
+		<node nodeID="207" kilometre="23.000" x="175140" y="-419" xNet="-1333130.7" yNet="4704177.3"/>
+		<node nodeID="208" name="GRAD" description="Gradient; 14m 26,95ch" kilometre="23.073" x="173704" y="-420" xNet="-1334039.5" yNet="4704126.4"/>
+		<kilometreInconsistency newKilometre="17.351" nodeID="209" name="CHANGE OF KM" description="Change of kilometrage" kilometre="23.074" x="173612" y="-329" xNet="-1334049.9" yNet="4704126.7" referenceNode="208"/>
+		<node nodeID="244" kilometre="22.661" x="176810" y="-419" xNet="-1329747.5" yNet="4703941.9">
+			<netLimitInfo lineID="nw7019"/>
+		</node>
+		<stationBorder exitType="alternative" stationID="RCHDALE" lineID="nw7001" trackNumber="1" nodeID="1219" name="[RCHDLEJ] - [n7001/1]" kilometre="17.036" x="170361.14" y="-200" xNet="-1336327.4" yNet="4701954.9" referenceNode="712"/>
+		<stationBorder exitType="alternative" stationID="RCHDALE" lineID="nw7001" trackNumber="1" nodeID="1220" name="[CSTL] - [n7001/1]" kilometre="16.930" x="169295" y="200" xNet="-1337372.9" yNet="4701502.2" referenceNode="127"/>
+		<stationBorder exitType="regular" stationID="RCHDALE" lineID="nw7001" trackNumber="2" nodeID="1227" name="[CSTL] - [n7001/2]" kilometre="16.858" x="168583.77" y="-200" xNet="-1337606.5" yNet="4700720.8" referenceNode="712"/>
+		<stationBorder exitType="regular" stationID="RCHDALE" lineID="nw7001" trackNumber="2" nodeID="1228" name="[RCHDLEJ] - [n7001/2]" kilometre="17.042" x="170419" y="0" xNet="-1336425.5" yNet="4702139.4" referenceNode="711"/>
+		<stationBorder exitType="locked" stationID="RCHDALE" trackNumber="" nodeID="1232" kilometre="16.866" x="168610" y="0" xNet="-1337727.2" yNet="4700881.1" referenceNode="261"/>
+		<stationBorder exitType="regular" stationID="RCHDALE" lineID="nw7001" trackNumber="3" nodeID="1233" name="[RCHDLEJ] - [n7001/3]" kilometre="16.999" x="169993" y="200" xNet="-1336870.3" yNet="4701987.1" referenceNode="127"/>
+		<stationBorder exitType="regular" stationID="RCHDLEJ" lineID="nw7001" trackNumber="2" nodeID="1234" name="[SMBG] - [n7001/1]" kilometre="17.553" x="175527" y="0" xNet="-1332750.5" yNet="4705686.9" referenceNode="5"/>
+		<stationBorder exitType="alternative" stationID="RCHDLEJ" lineID="nw7001" trackNumber="2" nodeID="1235" name="[RCHDALE] - [n7001/2]" kilometre="17.182" x="171817" y="0" xNet="-1335419.3" yNet="4703109.4" referenceNode="129"/>
+		<stationBorder exitType="regular" stationID="RCHDLEJ" lineID="nw7001" trackNumber="1" nodeID="16" name="[RCHDALE] - [n7001/1]" description="Gradient; 10m 60.96ch" kilometre="17.320" x="173200" y="-200" xNet="-1334286.2" yNet="4703926.7" referenceNode="3"/>
+		<stationBorder exitType="alternative" stationID="RCHDLEJ" lineID="nw7001" trackNumber="3" nodeID="259" name="[RCHDALE] - [n7001/3]" kilometre="17.163" x="171631.25" y="200" xNet="-1335692.4" yNet="4703124.4" referenceNode="129"/>
+		<track trackID="U-2" stationID="RCHDLEJ" interlockingMachine="3 Aspect Pannel (Below 75mph)" nodeID="205" name="SIG: 28" description="Signal 28; 14m 7,41ch" kilometre="22.680" x="176623" y="-419" xNet="-1329938.4" yNet="4703955" referenceNode="311"/>
+		<stationBorder exitType="alternative" stationID="RCHDLEJ" lineID="nw7001" trackNumber="1" nodeID="458" kilometre="17.875" x="178753.43" y="-200" xNet="-1330291.2" yNet="4707785" referenceNode="433"/>
+		<node nodeID="15" name="[RCHD25] - [n7001/1]" description="OL: for SIG : 25" kilometre="17.646" x="176460" y="-200" xNet="-1331940.3" yNet="4706191"/>
+		<stationBorder exitType="regular" stationID="RCHDLEJ" lineID="nw7019" trackNumber="1" nodeID="311" kilometre="22.672" x="176706.58" y="-419" xNet="-1329853" yNet="4703949.2" referenceNode="205"/>
+	</nodes>
+	<links>
+		<link source="1" target="6" length="1" gradient="3.03" vmax="48" vmaxr="48"/>
+		<link source="1" target="13" length="40" gradient="3.03" vmax="48"/>
+		<link source="2" target="15" length="297" vmaxr="113"/>
+		<link source="2" target="20" length="1" vmax="113" vmaxr="113" bidirectional="true"/>
+		<link source="3" target="4" length="9" vmax="113" vmaxr="113"/>
+		<link source="4" target="2" length="8" vmax="113" vmaxr="113"/>
+		<link source="5" target="1234" length="192" vmax="113"/>
+		<link source="6" target="11" length="30" gradient="3.03" vmax="32" vmaxr="32"/>
+		<link source="7" target="3" length="1" vmax="113" vmaxr="113"/>
+		<link source="8" target="19" length="14" gradient="3.0303" vmaxr="113"/>
+		<link source="9" target="5" length="20" vmax="113"/>
+		<link source="10" target="16" length="29" gradient="3.0303" vmax="113" vmaxr="113"/>
+		<link source="11" target="12" length="1" gradient="3.03" vmax="32" vmaxr="32"/>
+		<link source="12" target="14" length="19" gradient="3.03" vmax="32" vmaxr="32"/>
+		<link source="13" target="17" length="11" gradient="3.03" vmax="48"/>
+		<link source="14" target="7" length="11" vmax="32" vmaxr="32"/>
+		<link source="15" target="433" length="183" vmaxr="113"/>
+		<link source="16" target="3" length="12" vmax="113" vmaxr="113"/>
+		<link source="17" target="9" length="21" vmax="48"/>
+		<link source="18" target="1" length="82" gradient="3.03" vmax="48" vmaxr="48"/>
+		<link source="19" target="10" length="17" gradient="3.0303" vmax="113" vmaxr="113"/>
+		<link source="20" target="209" length="1" vmax="32" vmaxr="32" bidirectional="true"/>
+		<link source="125" target="126" length="65" gradient="3.03" vmax="48"/>
+		<link source="126" target="1220" length="25" gradient="3.03" vmax="48"/>
+		<link source="127" target="1233" gradient="3.03" vmax="48"/>
+		<link source="128" target="259" length="163" gradient="3.03" vmax="48" vmaxr="48"/>
+		<link source="129" target="130" length="2" gradient="3.03" vmax="48" vmaxr="48"/>
+		<link source="130" target="18" length="3" gradient="3.03" vmax="48" vmaxr="48"/>
+		<link source="205" target="206" length="180" gradient="-1.61812" vmax="32" vmaxr="32" bidirectional="true"/>
+		<link source="206" target="207" length="140" gradient="-1.61812" vmax="32" vmaxr="32" bidirectional="true"/>
+		<link source="207" target="208" length="73" gradient="-1.61812" vmax="32" vmaxr="32" bidirectional="true"/>
+		<link source="208" target="209" length="1" vmax="32" vmaxr="32" bidirectional="true"/>
+		<link source="244" target="311" length="11" gradient="-1.61812" vmax="32" vmaxr="32" bidirectional="true"/>
+		<link source="259" target="129" length="19" gradient="3.03" vmax="48" vmaxr="48"/>
+		<link source="261" target="273" length="63" gradient="3.03" vmax="24" vmaxr="24"/>
+		<link source="267" target="1235" length="1" gradient="3.03" vmax="48" vmaxr="48"/>
+		<link source="273" target="711" length="70" gradient="3.03" vmax="24" vmaxr="24"/>
+		<link source="311" target="205" length="8" gradient="-1.61812" vmax="32" vmaxr="32" bidirectional="true"/>
+		<link source="424" target="1227" length="18" gradient="3.0303" vmaxr="64"/>
+		<link source="433" target="458" length="46" vmaxr="113"/>
+		<link source="458" target="434" length="125" vmaxr="113"/>
+		<link source="711" target="1228" length="43" gradient="3.03" vmax="24" vmaxr="24"/>
+		<link source="712" target="1219" length="170" gradient="3.0303" vmaxr="64"/>
+		<link source="926" target="955" length="37" gradient="3.03" vmax="24" vmaxr="24"/>
+		<link source="955" target="267" length="2" gradient="3.03" vmax="24" vmaxr="24"/>
+		<link source="1219" target="8" length="224" gradient="3.0303" vmaxr="64"/>
+		<link source="1220" target="127" length="69" gradient="3.03" vmax="48"/>
+		<link source="1227" target="712" length="8" gradient="3.0303" vmaxr="64"/>
+		<link source="1228" target="926" length="100" gradient="3.03" vmax="24" vmaxr="24"/>
+		<link source="1232" target="261" gradient="3.03" vmax="24" vmaxr="24"/>
+		<link source="1233" target="128" length="1" gradient="3.03" vmax="48"/>
+		<link source="1234" target="136" length="447" vmax="113"/>
+		<link source="1235" target="129" gradient="3.03" vmax="48" vmaxr="48"/>
+	</links>
+	<dependentLinks/>
+	<blockSections>
+		<blocksection uuid="{03bc99bf-c610-40b0-a3af-197b42219f53}" lines="nw7001 rchd" speedIndicators="8">
+			<part nodes="433 15 2 4 3 16 10 19 8 1219 712 1227 424"/>
+		</blocksection>
+		<blocksection uuid="{13530132-44e8-4c5e-a8c8-265da471bb49}" lines="nw7019 rchd">
+			<part nodes="244 311 205"/>
+		</blocksection>
+		<blocksection uuid="{1b0e29a2-328b-42c3-9525-a87aee523edd}" lines="nw7001 rchd">
+			<part nodes="434 458 433"/>
+		</blocksection>
+		<blocksection uuid="{236b11f7-6596-49f5-be2b-9e3939b2dbcb}" lines="rchd" shuntingBlock="true" speedIndicators="267">
+			<part nodes="18 130 129 1235 267 955 926 1228 711 273 261"/>
+		</blocksection>
+		<blocksection uuid="{250864ba-1c09-4677-abf0-8b6fde772e93}" lines="rchd">
+			<part nodes="261 273 711"/>
+		</blocksection>
+		<blocksection uuid="{314a7a97-fd5c-480d-b90e-ce03852250c8}" lines="nw7001 rchd">
+			<part nodes="125 126 1220 127"/>
+		</blocksection>
+		<blocksection uuid="{37d1f791-1afd-4a15-b3d4-ddf073822a31}" lines="nw7019 rchd" speedIndicators="6 7 20 267">
+			<part nodes="711 1228 926 955 267 1235 129 130 18 1 6 11 12 14 7 3 4 2 20 209 208 207 206 205 311 244"/>
+		</blocksection>
+		<blocksection uuid="{75ad07a1-af27-49f0-8ed4-0e38f9b3114d}" lines="rchd" speedIndicators="6 7 267">
+			<part nodes="433 15 2 4 3 7 14 12 11 6 1 18 130 129 1235 267 955 926 1228 711 273 261"/>
+		</blocksection>
+		<blocksection uuid="{97193e96-c2bb-42cd-bda8-4072927f4160}" lines="nw7001 rchd" speedIndicators="9 267">
+			<part nodes="711 1228 926 955 267 1235 129 130 18 1 13 17 9 5 1234 136"/>
+		</blocksection>
+		<blocksection uuid="{d43408c3-028c-46ca-b23a-cf49683654d3}" lines="nw7001 rchd" speedIndicators="8 20">
+			<part nodes="205 206 207 208 209 20 2 4 3 16 10 19 8 1219 712 1227 424"/>
+		</blocksection>
+		<blocksection uuid="{d4e451fc-2bb4-4892-a2f9-8da86fc846a1}" lines="rchd" speedIndicators="6 7 20 267">
+			<part nodes="205 206 207 208 209 20 2 4 3 7 14 12 11 6 1 18 130 129 1235 267 955 926 1228 711 273 261"/>
+		</blocksection>
+		<blocksection uuid="{d85439c1-15e4-469f-854b-e385b00854ef}" lines="nw7019 rchd" speedIndicators="6 7 20">
+			<part nodes="127 1233 128 259 129 130 18 1 6 11 12 14 7 3 4 2 20 209 208 207 206 205 311 244"/>
+		</blocksection>
+		<blocksection uuid="{f00f250f-323a-4c7d-bccc-d1df81a21e7a}" lines="nw7001 rchd" speedIndicators="9">
+			<part nodes="127 1233 128 259 129 130 18 1 13 17 9 5 1234 136"/>
+		</blocksection>
+	</blockSections>
+	<slipDistances>
+		<slipdistance uuid="{41f7234e-a635-40ce-988d-2fa8e29366ed}" vmax="999" lines="rchd" serialNumber="0">
+			<part nodes="711 1228 926 955"/>
+		</slipdistance>
+		<slipdistance uuid="{886a571a-54a2-4554-9a3a-7878b84d90ca}" vmax="999" lines="rchd" serialNumber="0">
+			<part nodes="127 1233 128 259 129 130"/>
+		</slipdistance>
+		<slipdistance uuid="{d992dff0-cc4a-48e2-aa43-d898350a3b4c}" vmax="999" lines="rchd" serialNumber="0">
+			<part nodes="433 15"/>
+		</slipdistance>
+		<slipdistance uuid="{f7c00e4c-bac4-46bc-a9fa-9074051bc1a6}" vmax="999" lines="rchd" serialNumber="0">
+			<part nodes="205 206"/>
+		</slipdistance>
+	</slipDistances>
+	<approachControlRoutes/>
+	<stationRoutes>
+		<stationRoute stationID="RCHDALE" name="[CSTL]-[n7001/1]-[1]-[RCHDLEJ]-[n7001/3] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="1220 127 1233"/>
+		<stationRoute stationID="RCHDALE" name="[RCHDLEJ]-[n7001/1]-[4]-[CSTL]-[n7001/2] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="1219 712 1227"/>
+		<stationRoute stationID="RCHDALE" name="[RCHDLEJ]-[n7001/2]-[2]-[RCHDLEJ]-[n7001/2] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="1228 711 273 261 273 711 1228"/>
+		<stationRoute stationID="RCHDALE" name="[RCHDLEJ]-[n7001/2]-[2]-[]-[?/] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="1228 711 273 261 1232"/>
+		<stationRoute stationID="RCHDALE" name="[]-[?/]-[2]-[RCHDLEJ]-[n7001/2] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="1232 261 273 711 1228"/>
+		<stationRoute stationID="RCHDLEJ" name="[MILNROW]-[n7019/1]-[11]-[RCHDALE]-[n7001/1] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=95;NRz=95;S=95;Rz=95;FGz=95;NGz=95;Gz=95;Lz=95;Unbekannt=95" nodes="311 205 206 207 208 209 20 2 4 3 16"/>
+		<stationRoute stationID="RCHDLEJ" name="[MILNROW]-[n7019/1]-[11]-[RCHDALE]-[n7001/2] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=80;NRz=80;S=80;Rz=80;FGz=80;NGz=80;Gz=80;Lz=80;Unbekannt=80" nodes="311 205 206 207 208 209 20 2 4 3 7 14 12 11 6 1 18 130 129 1235"/>
+		<stationRoute stationID="RCHDLEJ" name="[RCHD25]-[n7001/1]-[11]-[RCHDALE]-[n7001/1] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="458 433 15 2 4 3 16"/>
+		<stationRoute stationID="RCHDLEJ" name="[RCHD25]-[n7001/1]-[11]-[RCHDALE]-[n7001/2] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=85;NRz=85;S=85;Rz=85;FGz=85;NGz=85;Gz=85;Lz=85;Unbekannt=85" nodes="458 433 15 2 4 3 7 14 12 11 6 1 18 130 129 1235"/>
+		<stationRoute stationID="RCHDLEJ" name="[RCHDALE]-[n7001/2]-[11]-[MILNROW]-[n7019/1] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=80;NRz=80;S=80;Rz=80;FGz=80;NGz=80;Gz=80;Lz=80;Unbekannt=80" nodes="1235 129 130 18 1 6 11 12 14 7 3 4 2 20 209 208 207 206 205 311"/>
+		<stationRoute stationID="RCHDLEJ" name="[RCHDALE]-[n7001/2]-[2]-[SMBG]-[n7001/1] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=95;NRz=95;S=95;Rz=95;FGz=95;NGz=95;Gz=95;Lz=95;Unbekannt=95" nodes="1235 129 130 18 1 13 17 9 5 1234"/>
+		<stationRoute stationID="RCHDLEJ" name="[RCHDALE]-[n7001/3]-[11]-[MILNROW]-[n7019/1] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=85;NRz=85;S=85;Rz=85;FGz=85;NGz=85;Gz=85;Lz=85;Unbekannt=85" nodes="259 129 130 18 1 6 11 12 14 7 3 4 2 20 209 208 207 206 205 311"/>
+		<stationRoute stationID="RCHDLEJ" name="[RCHDALE]-[n7001/3]-[2]-[SMBG]-[n7001/1] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="259 129 130 18 1 13 17 9 5 1234"/>
+	</stationRoutes>
+	<lineCatalog/>
+	<zugNummernFelder/>
+	<switchGears/>
+</line>

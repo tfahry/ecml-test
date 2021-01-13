@@ -1,0 +1,1433 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<line lineID="guild" name="Guildford" trafficRouting="on_the_left" type="global" dependentLines="sw110 sw200 sw265">
+	<transformations>
+		<transformation line="sw200" m11="1" m12="0" m21="0" m22="1" dx="-1.46406e+06" dy="-12.5961"/>
+		<transformation line="sw265" m11="-1" m12="-1.22461e-16" m21="1.22461e-16" m22="-1" dx="1.9802e+06" dy="4093.13"/>
+	</transformations>
+	<version major="1" minor="2" patchlevel="0" comment=""/>
+	<creator user="Ahowe4" timestamp="2016-11-01T12:54:22"/>
+	<lasteditor user="Ahowe4" timestamp="2016-11-01T12:54:22"/>
+	<stations>
+		<station stationID="GUIL305" name="Guildford Signal GD1305" xNet="478795.035" yNet="200779.35" uicLocationCode="0" circleDiameter="0">
+			<textElement type="name">
+				<pos view="net" x="810.484" y="810.484" angle="0" system="source"/>
+				<pos view="wgs84" x="810.484" y="810.484" angle="0" system="source"/>
+				<pos view="line" x="1076.3" y="1076.3" angle="0" system="source"/>
+				<pos view="macro" x="28.2843" y="28.2843" angle="0" system="source"/>
+				<pos view="macroWgs84" x="0" y="0" angle="0" system="source"/>
+			</textElement>
+		</station>
+		<station stationID="GUILDCS" name="Guildford U.C.H.S" xNet="480342.305" yNet="196843.425" uicLocationCode="0" circleDiameter="0">
+			<textElement type="name">
+				<pos view="net" x="1446.51" y="1446.51" angle="0" system="source"/>
+				<pos view="wgs84" x="1446.51" y="1446.51" angle="0" system="source"/>
+				<pos view="line" x="1215.18" y="1215.18" angle="0" system="source"/>
+				<pos view="macro" x="28.2843" y="28.2843" angle="0" system="source"/>
+				<pos view="macroWgs84" x="0" y="0" angle="0" system="source"/>
+			</textElement>
+		</station>
+		<station stationID="GUILDFD" name="Guildford" xNet="482780.635" yNet="197658.165" uicLocationCode="0" circleDiameter="0">
+			<textElement type="name">
+				<pos view="net" x="5630.69" y="5630.69" angle="0" system="source"/>
+				<pos view="wgs84" x="5630.69" y="5630.69" angle="0" system="source"/>
+				<pos view="line" x="4457.58" y="4457.58" angle="0" system="source"/>
+				<pos view="macro" x="28.2843" y="28.2843" angle="0" system="source"/>
+				<pos view="macroWgs84" x="0" y="0" angle="0" system="source"/>
+			</textElement>
+		</station>
+	</stations>
+	<nodes>
+		<node nodeID="1" name="GRAD" description="Gradient; 29m 75ch" kilometre="48.180" x="983013" y="1329" xNet="482043.87" yNet="202395.15"/>
+		<node nodeID="2" description="Km" kilometre="48.200" x="982813" y="1329" xNet="482088.82" yNet="202162.18"/>
+		<track trackID="D-1" stationID="GUILDCS" type="shunting" interlockingMachine="Shunt" nodeID="796" name="SIG: DUMMY" kilometre="48.666" x="977609.14" y="3195.7118" xNet="480626.22" yNet="195007.74" referenceNode="797"/>
+		<track trackID="U-1" stationID="GUILDCS" interlockingMachine="3 Aspect Pannel (Below 75mph)" nodeID="795" name="SIG: GD935" kilometre="48.416" x="980791.02" y="3196.3443" xNet="480023.3" yNet="198412.43" referenceNode="797"/>
+		<track trackID="D-1" stationID="GUIL305" type="shunting" interlockingMachine="Limit Of Shunt" nodeID="3" name="LOS" kilometre="49.233" x="984757.99" y="2796.4211" xNet="477954.84" yNet="200973.73" referenceNode="173"/>
+		<signal interlockingMachine="3 Aspect Pannel (Below 75mph)" nodeID="21" name="SIG: GD745" kilometre="47.633" x="983138.02" y="303" xNet="483738.35" yNet="200889.37" referenceNode="20"/>
+		<kilometreInconsistency newKilometre="48.142" nodeID="15" kilometre="47.634" x="983091.02" y="303" xNet="483763.69" yNet="200587.2" referenceNode="21"/>
+		<kilometreInconsistency newKilometre="48.142" nodeID="16" kilometre="47.634" x="983091.02" y="803" xNet="483058.01" yNet="200937.18" referenceNode="17"/>
+		<node nodeID="8038" kilometre="49.451" x="986260.02" y="2791.3443" xNet="476251.54" yNet="200756.49">
+			<netLimitInfo lineID="sw265"/>
+		</node>
+		<node nodeID="94" name="pOL SIG: GD821" description="OL for SIG : SIG: GD821" kilometre="48.245" x="982372.27" y="1327.4182" xNet="482192.94" yNet="201621.84"/>
+		<node nodeID="91" name="pOL SIG: GD748" description="OL for SIG : SIG: GD748" kilometre="48.475" x="980216.89" y="803" xNet="483458.52" yNet="198262.56"/>
+		<node nodeID="92" name="pOL SIG: GD745" description="OL for SIG : SIG: GD745" kilometre="48.338" x="981400.91" y="303.89294" xNet="483952.27" yNet="199127.2"/>
+		<switch start="246" endOfMainTrack="92" endOfBranchTrack="93" nodeID="101" name="POINTS: 3104a" kilometre="48.275" x="981944.16" y="303.60592" xNet="483813.3" yNet="200109.24"/>
+		<switch start="200" endOfMainTrack="101" endOfBranchTrack="16" nodeID="93" name="POINTS: 3104b" kilometre="48.325" x="981511.53" y="803" xNet="483173.78" yNet="199602.9"/>
+		<node nodeID="123" name="pOL: SIG GD745" kilometre="48.338" x="981399.33" y="803" xNet="483198.48" yNet="199486.75"/>
+		<crossing type="kr" startOfMainTrack="202" startOfBranchTrack="254" endOfMainTrack="175" endOfBranchTrack="255" nodeID="153" name="FD: 3106b/3107" kilometre="48.402" x="980834.61" y="1321.8994" xNet="482550.74" yNet="199636.49"/>
+		<switch start="298" endOfMainTrack="90" endOfBranchTrack="255" nodeID="5" name="POINTS: 3107" kilometre="48.333" x="981490.97" y="1824.8587" xNet="481715.57" yNet="200707.5"/>
+		<switch start="91" endOfMainTrack="177" endOfBranchTrack="254" nodeID="147" name="POINTS: 3106b" kilometre="48.472" x="980242.79" y="803" xNet="483378.51" yNet="198548.74"/>
+		<crossing type="kr" startOfMainTrack="147" startOfBranchTrack="154" endOfMainTrack="178" endOfBranchTrack="252" nodeID="177" name="FD: 3106a/3113" kilometre="48.402" x="980846.96" y="803" xNet="483242.86" yNet="199204"/>
+		<switch start="297" endOfMainTrack="153" endOfBranchTrack="252" nodeID="175" name="POINTS: 3106a" kilometre="48.333" x="981510.39" y="1324.3248" xNet="482396.55" yNet="200565.16"/>
+		<switch start="235" endOfMainTrack="180" endOfBranchTrack="177" nodeID="154" name="POINTS: 3113" kilometre="48.472" x="980245.44" y="304.50341" xNet="484094.55" yNet="198074.83"/>
+		<signal interlockingMachine="4 Aspect Pannel (76mph - 100mph)" nodeID="5330" name="SIG: GD821" description="Km" kilometre="48.000" x="984813" y="1329" xNet="481618.13" yNet="204604.51" referenceNode="5375"/>
+		<node nodeID="1196" kilometre="48.176" x="983056.55" y="1829" xNet="481406.1" yNet="202325.68"/>
+		<switch start="123" endOfMainTrack="177" endOfBranchTrack="251" nodeID="178" name="POINTS: 3108a" kilometre="48.351" x="981287.13" y="803" xNet="483198.49" yNet="199462.3"/>
+		<switch start="180" endOfMainTrack="92" endOfBranchTrack="250" nodeID="179" name="POINTS: 3108b" kilometre="48.421" x="980685.21" y="304.27107" xNet="483995.77" yNet="198730.93"/>
+		<track trackID="U-3" stationID="GUILDFD" interlockingMachine="4 Aspect Pannel (Below 75mph)" nodeID="82" name="SIG: GD748" kilometre="48.581" x="979302" y="803" xNet="483700.24" yNet="197326.68" referenceNode="300"/>
+		<switch start="179" endOfMainTrack="154" endOfBranchTrack="253" nodeID="180" name="POINTS: 3111" kilometre="48.424" x="980659.35" y="304.28473" xNet="484058.26" yNet="198320.44"/>
+		<node nodeID="181" kilometre="48.475" x="980237.02" y="-199.65571" xNet="484851.98" yNet="197808.52"/>
+		<stationBorder exitType="locked" stationID="GUILDFD" trackNumber="" nodeID="8158" kilometre="48.655" x="978674.02" y="-198.65571" xNet="485192.31" yNet="195952.82" referenceNode="183"/>
+		<node nodeID="90" name="pOL SIG: GD822" description="OL for SIG : SIG: GD822" kilometre="48.399" x="980880.42" y="1825.7609" xNet="481933.68" yNet="199585.99"/>
+		<switch start="194" endOfMainTrack="861" endOfBranchTrack="267" nodeID="186" name="POINTS: 3115a" kilometre="48.519" x="979770.34" y="1827.4011" xNet="482217.19" yNet="198114.14"/>
+		<switch start="184" endOfMainTrack="202" endOfBranchTrack="268" nodeID="185" name="POINTS: 3115b" kilometre="48.585" x="979220.14" y="1315.5186" xNet="482979.56" yNet="197539.31"/>
+		<kilometreInconsistency newKilometre="48.027" nodeID="173" kilometre="49.223" x="984737.55" y="2796.6245" xNet="478368.33" yNet="200942.32" referenceNode="3"/>
+		<node nodeID="189" name="pOL SIG: GD933" description="OL for SIG : SIG: GD933" kilometre="48.510" x="979975.26" y="2295.8328" xNet="481637.85" yNet="197448.87"/>
+		<node nodeID="191" name="pOL SIG: GD931" description="OL for SIG : SIG: GD931" kilometre="48.450" x="980574.77" y="2799.6875" xNet="481026.85" yNet="196854.68"/>
+		<switch start="196" endOfMainTrack="266" endOfBranchTrack="189" nodeID="193" name="POINTS: 3112a" kilometre="48.458" x="980486.37" y="2295.89" xNet="481396.56" yNet="198719.31"/>
+		<switch start="186" endOfMainTrack="265" endOfBranchTrack="90" nodeID="194" name="POINTS: 3112b" kilometre="48.509" x="979862.87" y="1827.2644" xNet="482193.55" yNet="198236.81"/>
+		<node nodeID="195" name="pOL: SIG GD822" kilometre="48.470" x="980339.67" y="2185.6268" xNet="481675.69" yNet="198532"/>
+		<switch start="193" endOfMainTrack="307" endOfBranchTrack="263" nodeID="196" name="POINTS: 3110b" kilometre="48.442" x="980643.63" y="2295.9076" xNet="481368.49" yNet="198893.29"/>
+		<switch start="199" endOfMainTrack="191" endOfBranchTrack="264" nodeID="197" name="POINTS: 3110a" kilometre="48.402" x="981047.15" y="2799.3399" xNet="480629.71" yNet="199321.61"/>
+		<switch start="198" endOfMainTrack="262" endOfBranchTrack="197" nodeID="199" name="POINTS: 3109a" kilometre="48.375" x="981312.86" y="2799.1444" xNet="480567.03" yNet="199576.81"/>
+		<stationBorder exitType="locked" stationID="GUILDCS" trackNumber="" nodeID="8074" kilometre="48.667" x="977495" y="3195.6547" xNet="480661.31" yNet="194822.77" referenceNode="796"/>
+		<switch start="6" endOfMainTrack="307" endOfBranchTrack="261" nodeID="201" name="POINTS: 3105a" kilometre="48.310" x="981941.13" y="2296.0528" xNet="481120.05" yNet="200358.12"/>
+		<switch start="199" endOfMainTrack="281" endOfBranchTrack="260" nodeID="198" name="POINTS: 3105b" kilometre="48.370" x="981362.07" y="2799.1082" xNet="480515.54" yNet="199875.47"/>
+		<node nodeID="9" name="pOL SIG: GD635" description="OL for SIG : SIG: GD635" kilometre="48.204" x="982773.24" y="1828.8754" xNet="481472.99" yNet="201977.78"/>
+		<switch start="201" endOfMainTrack="327" endOfBranchTrack="259" nodeID="6" name="POINTS: 3102b" kilometre="48.275" x="982285.14" y="2296.0913" xNet="481058.1" yNet="200738.39"/>
+		<switch start="9" endOfMainTrack="298" endOfBranchTrack="258" nodeID="7" name="POINTS: 3102a" kilometre="48.215" x="982663.92" y="1828.533" xNet="481498.96" yNet="201842.89"/>
+		<switch start="9" endOfMainTrack="1196" endOfBranchTrack="5332" nodeID="4" name="POINTS:3101b" description="Km" kilometre="48.200" x="982813" y="1829" xNet="481463.54" yNet="202026.85"/>
+		<switch start="5335" endOfMainTrack="1" endOfBranchTrack="5333" nodeID="5331" name="POINTS: 3101a" kilometre="48.130" x="983513" y="1329" xNet="481925.61" yNet="203008.85"/>
+		<node nodeID="200" name="SPEED: 30 Up" kilometre="48.337" x="981407.96" y="803" xNet="483196.57" yNet="199495.67"/>
+		<signal interlockingMachine="4 Aspect Pannel (Below 75mph)" nodeID="896" name="SIG: GD826" kilometre="48.969" x="975232.14" y="1809.6625" xNet="483280.72" yNet="192592.27" referenceNode="904"/>
+		<node nodeID="208" name="MARK" kilometre="48.969" x="975255.25" y="1304.3117" xNet="483886.1" yNet="192832.29"/>
+		<node nodeID="209" name="pOL SIG: GD825" description="OL for SIG : SIG: GD825" kilometre="48.965" x="975297.64" y="1304.3809" xNet="483876.28" yNet="192883.28"/>
+		<node nodeID="210" name="pOL SIG: GD639" description="OL for SIG : SIG: GD639" kilometre="48.967" x="975252.97" y="1809.7258" xNet="483275.99" yNet="192616.85"/>
+		<switch start="209" endOfMainTrack="215" endOfBranchTrack="214" nodeID="211" name="POINTS: 3133" kilometre="48.962" x="975329.43" y="1304.4328" xNet="483868.92" yNet="192921.52"/>
+		<node nodeID="212" kilometre="48.850" x="976956.02" y="303.34429" xNet="484698.63" yNet="193653.89"/>
+		<node nodeID="214" name="pOL SIG: GD763" description="OL for SIG : SIG: GD763" kilometre="48.902" x="976200.82" y="768.1354" xNet="484351.07" yNet="193348.75"/>
+		<crossing type="kr" startOfMainTrack="897" startOfBranchTrack="211" endOfMainTrack="218" endOfBranchTrack="219" nodeID="215" name="FD: 3132" kilometre="48.902" x="975965.22" y="1305.471" xNet="483721.75" yNet="193686.35"/>
+		<switch start="210" endOfMainTrack="899" endOfBranchTrack="215" nodeID="897" name="POINTS: 3132" kilometre="48.965" x="975273.8" y="1809.7892" xNet="483271.26" yNet="192641.41"/>
+		<node nodeID="217" kilometre="48.850" x="976916.02" y="804.34429" xNet="484188.85" yNet="194273.55"/>
+		<node nodeID="218" name="pOL SIG: GD767" description="OL for SIG : SIG: GD767" kilometre="48.885" x="976276.06" y="1141.6411" xNet="483936.2" yNet="193939.33"/>
+		<node nodeID="219" name="pOL SIG: GD825" description="OL for SIG : SIG: GD825" kilometre="48.884" x="976155.95" y="1305.7824" xNet="483677.6" yNet="193915.8"/>
+		<switch start="897" endOfMainTrack="900" endOfBranchTrack="244" nodeID="899" name="POINTS: 3131" kilometre="48.922" x="975722.83" y="1811.1549" xNet="483169.28" yNet="193170.98"/>
+		<node nodeID="220" kilometre="48.827" x="976781.02" y="2803.3443" xNet="481918.79" yNet="193437.32"/>
+		<switch start="899" endOfMainTrack="907" endOfBranchTrack="242" nodeID="900" name="POINTS: 3130" kilometre="48.912" x="975826.84" y="1811.4712" xNet="483145.66" yNet="193293.66"/>
+		<node nodeID="221" kilometre="48.840" x="976481.02" y="2292.3443" xNet="482435.52" yNet="193662.84"/>
+		<node nodeID="222" name="pOL SIG: GD924" description="OL for SIG : SIG: GD924" kilometre="48.874" x="976257.5" y="2312.4716" xNet="482537.45" yNet="193305.56"/>
+		<node nodeID="223" name="pOL SIG: GD922" description="OL for SIG : SIG: GD922" kilometre="48.875" x="976213.02" y="2085.3443" xNet="482725.57" yNet="193506.56"/>
+		<switch start="238" endOfMainTrack="208" endOfBranchTrack="909" nodeID="224" name="POINTS: 3134b" kilometre="49.040" x="974501.61" y="1303.0811" xNet="484060.54" yNet="191925.67"/>
+		<switch start="904" endOfMainTrack="906" endOfBranchTrack="908" nodeID="901" name="POINTS: 3134a" kilometre="48.980" x="975117.54" y="1809.3139" xNet="483306.75" yNet="192457.13"/>
+		<track trackID="U-1" stationID="GUILDFD" interlockingMachine="4 Aspect Pannel (Below 75mph)" nodeID="182" name="SIG: GD754" kilometre="48.481" x="980154.02" y="-199.65571" xNet="484958.82" yNet="197617.37" referenceNode="302"/>
+		<track trackID="D-1" stationID="GUILDFD" interlockingMachine="Buffer Stop" nodeID="183" name="SIG: DUMMY" kilometre="48.654" x="978682.53" y="-198.66146" xNet="485164.42" yNet="196179.34" referenceNode="302"/>
+		<track trackID="D-2" stationID="GUILDFD" interlockingMachine="4 Aspect Pannel (Below 75mph)" nodeID="203" name="SIG: GD763" kilometre="48.840" x="977072.17" y="306.17995" xNet="484712.47" yNet="193820.48" referenceNode="337">
+			<platform startPos="-3075" endPos="0" width="450" left="true" open="false"/>
+		</track>
+		<track trackID="U-2" stationID="GUILDFD" interlockingMachine="4 Aspect Pannel (Below 75mph)" nodeID="59" name="SIG: GD750" kilometre="48.575" x="979357.26" y="304.97267" xNet="484308.07" yNet="196724.66" referenceNode="301"/>
+		<track trackID="E-2" stationID="GUILDFD" type="permissive" interlockingMachine="4 Aspect Pannel (Below 75mph)" nodeID="225" name="SIG: DUMMY" kilometre="48.707" x="978217.47" y="305.57485" xNet="484437.86" yNet="195672.07" referenceNode="336"/>
+		<track trackID="V-2" stationID="GUILDFD" type="permissive" interlockingMachine="4 Aspect Pannel (Below 75mph)" nodeID="226" name="SIG: DUMMY" kilometre="48.708" x="978208.86" y="305.5794" xNet="484439.09" yNet="195662.68" referenceNode="296"/>
+		<track trackID="D-3" stationID="GUILDFD" interlockingMachine="4 Aspect Pannel (Below 75mph)" nodeID="204" name="SIG: GD767" kilometre="48.840" x="977066.59" y="803" xNet="484226.91" yNet="194669.12" referenceNode="275">
+			<platform startPos="-2480" endPos="0" width="450" left="false" open="false"/>
+		</track>
+		<track trackID="U-4" stationID="GUILDFD" interlockingMachine="4 Aspect Pannel (Below 75mph)" nodeID="184" name="SIG: GD636" kilometre="48.590" x="979176.02" y="1315.3443" xNet="482991.13" yNet="197479.26" referenceNode="299"/>
+		<track trackID="D-4" stationID="GUILDFD" interlockingMachine="4 Aspect Pannel (Below 75mph)" nodeID="205" name="SIG: GD825" kilometre="48.839" x="976632.78" y="1306.561" xNet="483567.22" yNet="194489.41" referenceNode="237"/>
+		<track trackID="U-5" stationID="GUILDFD" interlockingMachine="4 Aspect Pannel (Below 75mph)" nodeID="861" name="SIG: GD822" kilometre="48.588" x="979132.02" y="1828.3443" xNet="482380.21" yNet="197267.78" referenceNode="913"/>
+		<track trackID="D-5" stationID="GUILDFD" interlockingMachine="4 Aspect Pannel (Below 75mph)" nodeID="895" name="SIG: GD639" kilometre="48.847" x="976502.92" y="1813.5274" xNet="482992.11" yNet="194090.99" referenceNode="274">
+			<platform startPos="-2630" endPos="0" width="425" left="false" open="false"/>
+		</track>
+		<track trackID="U-8" stationID="GUILDFD" interlockingMachine="4 Aspect Pannel (Below 75mph)" nodeID="190" name="SIG: GD931" kilometre="48.572" x="979374.16" y="2800.5709" xNet="481084.72" yNet="196567.78" referenceNode="304"/>
+		<track trackID="D-8" stationID="GUILDFD" interlockingMachine="4 Aspect Pannel (Below 75mph)" nodeID="207" name="SIG: GD924" kilometre="48.795" x="977179.62" y="2802.1857" xNet="481612.09" yNet="193802.88" referenceNode="270"/>
+		<track trackID="U-6" stationID="GUILDFD" interlockingMachine="4 Aspect Pannel (Below 75mph)" nodeID="187" name="SIG: GD933" kilometre="48.569" x="979395.33" y="2295.7678" xNet="481747.5" yNet="196969.29" referenceNode="303">
+			<platform startPos="-2620" endPos="0" width="450" left="true" open="false"/>
+		</track>
+		<track trackID="D-6" stationID="GUILDFD" interlockingMachine="4 Aspect Pannel (Below 75mph)" nodeID="206" name="SIG: GD922" kilometre="48.830" x="976829.86" y="2295.4807" xNet="482303.75" yNet="194032.16" referenceNode="272"/>
+		<track trackID="V-3" stationID="GUILDFD" type="permissive" interlockingMachine="4 Aspect Pannel (Below 75mph)" nodeID="228" name="SIG: DUMMY" kilometre="48.711" x="978179.98" y="803" xNet="483936.59" yNet="196141.2" referenceNode="295"/>
+		<track trackID="E-3" stationID="GUILDFD" type="permissive" interlockingMachine="4 Aspect Pannel (Below 75mph)" nodeID="227" name="SIG: DUMMY" kilometre="48.710" x="978188.61" y="803" xNet="483896.68" yNet="196268.84" referenceNode="325"/>
+		<track trackID="V-4" stationID="GUILDFD" type="permissive" interlockingMachine="4 Aspect Pannel (Below 75mph)" nodeID="230" name="SIG: DUMMY" kilometre="48.715" x="977899.29" y="1310.935" xNet="483280.32" yNet="195978.33" referenceNode="324"/>
+		<track trackID="E-4" stationID="GUILDFD" type="permissive" interlockingMachine="4 Aspect Pannel (Below 75mph)" nodeID="229" name="SIG: DUMMY" kilometre="48.714" x="977909.51" y="1310.9703" xNet="483278.02" yNet="195990.34" referenceNode="294"/>
+		<track trackID="E-5" stationID="GUILDFD" type="permissive" interlockingMachine="4 Aspect Pannel (Below 75mph)" nodeID="902" name="SIG: DUMMY" kilometre="48.717" x="977822.55" y="1820.9645" xNet="482684.98" yNet="195685.52" referenceNode="911"/>
+		<track trackID="V-5" stationID="GUILDFD" type="permissive" interlockingMachine="4 Aspect Pannel (Below 75mph)" nodeID="903" name="SIG: DUMMY" kilometre="48.718" x="977812.39" y="1820.9072" xNet="482687.33" yNet="195673.26" referenceNode="915"/>
+		<track trackID="V-6" stationID="GUILDFD" type="permissive" interlockingMachine="4 Aspect Pannel (Below 75mph)" nodeID="232" name="SIG: DUMMY" kilometre="48.700" x="978107.68" y="2295.6237" xNet="482021.31" yNet="195496.15" referenceNode="293"/>
+		<track trackID="E-6" stationID="GUILDFD" type="permissive" interlockingMachine="4 Aspect Pannel (Below 75mph)" nodeID="231" name="SIG: DUMMY" kilometre="48.699" x="978117.51" y="2295.6248" xNet="481990.89" yNet="195666.94" referenceNode="315"/>
+		<track trackID="E-8" stationID="GUILDFD" type="permissive" interlockingMachine="4 Aspect Pannel (Below 75mph)" nodeID="233" name="SIG: DUMMY" kilometre="48.683" x="978281.81" y="2801.3747" xNet="481309.53" yNet="195331.28" referenceNode="314"/>
+		<track trackID="V-8" stationID="GUILDFD" type="permissive" interlockingMachine="4 Aspect Pannel (Below 75mph)" nodeID="234" name="SIG: DUMMY" kilometre="48.684" x="978271.97" y="2801.3819" xNet="481354.61" yNet="195184.35" referenceNode="319"/>
+		<switch start="59" endOfMainTrack="154" endOfBranchTrack="257" nodeID="235" name="POINTS: 3114b" kilometre="48.565" x="979443.49" y="304.92711" xNet="484289.56" yNet="196835.88"/>
+		<switch start="91" endOfMainTrack="249" endOfBranchTrack="256" nodeID="236" name="POINTS: 3114a" kilometre="48.505" x="979957.95" y="803" xNet="483541.75" yNet="198001.68"/>
+		<speedIndicator nodeID="202" name="SPEED: 50 Down" kilometre="48.443" x="980469.79" y="1320.4575" xNet="482651.84" yNet="199240.13" referenceNode="153"/>
+		<speedIndicator nodeID="237" kilometre="48.838" x="976642.99" y="1306.5963" xNet="483564.9" yNet="194501.42" referenceNode="324"/>
+		<speedIndicator nodeID="238" name="SPEED" kilometre="49.045" x="974448.61" y="1302.9946" xNet="484072.81" yNet="191861.91" referenceNode="224"/>
+		<speedIndicator nodeID="906" name="SPEED" kilometre="49.045" x="974440.48" y="1807.2547" xNet="483460.51" yNet="191658.63" referenceNode="901"/>
+		<speedIndicator nodeID="904" name="SPEED" kilometre="48.974" x="975180.5" y="1809.5054" xNet="483292.44" yNet="192531.37" referenceNode="901"/>
+		<speedIndicator nodeID="863" name="SPEED: 85 Up, 50 Down" kilometre="48.141" x="983410.47" y="1829" xNet="481322.36" yNet="202759.72" referenceNode="914"/>
+		<speedIndicator nodeID="5332" name="SPEED" kilometre="48.199" x="982823" y="1821.8571" xNet="481470.14" yNet="202040.88" referenceNode="4"/>
+		<speedIndicator nodeID="5333" name="SPEED" kilometre="48.131" x="983503" y="1336.1429" xNet="481919.01" yNet="202994.83" referenceNode="5331"/>
+		<speedIndicator nodeID="240" name="SPEED" kilometre="48.568" x="979405.16" y="2295.7689" xNet="481746.59" yNet="196973.84" referenceNode="187"/>
+		<speedIndicator nodeID="241" name="SPEED" kilometre="48.831" x="976794.98" y="2295.1671" xNet="482315.1" yNet="193980.64" referenceNode="206"/>
+		<speedIndicator nodeID="907" name="SPEED" kilometre="48.866" x="976303.27" y="1812.9202" xNet="483037.45" yNet="193855.54" referenceNode="895"/>
+		<speedIndicator nodeID="242" name="SPEED" kilometre="48.911" x="975837.28" y="1818.8732" xNet="483133.5" yNet="193298.53" referenceNode="223"/>
+		<speedIndicator nodeID="243" name="SPEED" kilometre="48.796" x="977167.16" y="2802.2219" xNet="481686.35" yNet="193605.59" referenceNode="207"/>
+		<speedIndicator nodeID="244" name="SPEED" kilometre="48.921" x="975733.97" y="1821.599" xNet="483156.13" yNet="193173.79" referenceNode="222"/>
+		<speedIndicator nodeID="245" name="SPEED" kilometre="48.571" x="979384" y="2800.5637" xNet="481084.53" yNet="196570.21" referenceNode="190"/>
+		<speedIndicator nodeID="246" name="SPEED" kilometre="48.143" x="983082.4" y="303.00456" xNet="483778.29" yNet="200404.94" referenceNode="15"/>
+		<speedIndicator nodeID="247" name="SPEED" kilometre="48.841" x="977060.56" y="305.89638" xNet="484711.09" yNet="193803.82" referenceNode="203"/>
+		<speedIndicator nodeID="248" name="SPEED" kilometre="48.841" x="977051.53" y="803.13443" xNet="484238.45" yNet="194598.39" referenceNode="204"/>
+		<speedIndicator nodeID="249" name="SPEED" kilometre="48.545" x="979616.5" y="803" xNet="483628.02" yNet="197665.42" referenceNode="82"/>
+		<speedIndicator nodeID="250" name="SPEED" kilometre="48.420" x="980693.81" y="311.39577" xNet="483901.41" yNet="198811.65" referenceNode="179"/>
+		<speedIndicator nodeID="251" name="SPEED" kilometre="48.352" x="981278.53" y="795.8753" xNet="483210.37" yNet="199447.7" referenceNode="178"/>
+		<speedIndicator nodeID="252" name="SPEED" kilometre="48.334" x="981500.78" y="1316.7694" xNet="482409.92" yNet="200541.25" referenceNode="175"/>
+		<speedIndicator nodeID="253" name="SPEED" kilometre="48.425" x="980651.07" y="294.40354" xNet="484073.83" yNet="198310.4" referenceNode="180"/>
+		<speedIndicator nodeID="254" name="SPEED" kilometre="48.471" x="980251.24" y="810.41285" xNet="483284.88" yNet="198685.24" referenceNode="147"/>
+		<speedIndicator nodeID="255" name="SPEED" kilometre="48.334" x="981481.46" y="1817.5694" xNet="481726.86" yNet="200697.95" referenceNode="5"/>
+		<speedIndicator nodeID="256" name="SPEED" kilometre="48.506" x="979949.37" y="794.69879" xNet="483549.24" yNet="197980.76" referenceNode="236"/>
+		<speedIndicator nodeID="257" name="SPEED" kilometre="48.564" x="979452.07" y="313.22833" xNet="484276.65" yNet="196855.19" referenceNode="256"/>
+		<speedIndicator nodeID="259" name="SPEED" kilometre="48.274" x="982291.45" y="2288.2987" xNet="481067.75" yNet="200752.93" referenceNode="258"/>
+		<speedIndicator nodeID="258" name="SPEED" kilometre="48.216" x="982657.61" y="1836.3256" xNet="481489.32" yNet="201828.35" referenceNode="7"/>
+		<speedIndicator nodeID="260" name="SPEED" kilometre="48.369" x="981371.72" y="2790.7239" xNet="480525.2" yNet="199884.4" referenceNode="198"/>
+		<speedIndicator nodeID="261" name="SPEED" kilometre="48.311" x="981931.48" y="2304.4371" xNet="481110.39" yNet="200349.19" referenceNode="201"/>
+		<speedIndicator nodeID="262" name="SPEED" kilometre="48.376" x="981300.13" y="2808.8322" xNet="480525.19" yNet="199530.7" referenceNode="199"/>
+		<speedIndicator nodeID="264" name="SPEED" kilometre="48.403" x="981037.06" y="2786.7541" xNet="480647.66" yNet="199315.3" referenceNode="197"/>
+		<speedIndicator nodeID="263" name="SPEED" kilometre="48.441" x="980653.72" y="2308.4934" xNet="481350.54" yNet="198899.61" referenceNode="196"/>
+		<speedIndicator nodeID="265" name="SPEED" kilometre="48.508" x="979875.1" y="1836.4532" xNet="482180.76" yNet="198244.64" referenceNode="195"/>
+		<speedIndicator nodeID="266" name="SPEED" kilometre="48.459" x="980474.15" y="2286.7014" xNet="481434.41" yNet="198703.18" referenceNode="193"/>
+		<speedIndicator nodeID="267" name="SPEED" kilometre="48.520" x="979762" y="1819.6453" xNet="482228.74" yNet="198105.43" referenceNode="186"/>
+		<speedIndicator nodeID="268" name="SPEED" kilometre="48.584" x="979228.48" y="1323.2744" xNet="482968.02" yNet="197548.01" referenceNode="267"/>
+		<speedIndicator nodeID="909" name="SPEED" kilometre="49.039" x="974511.88" y="1311.5183" xNet="484047.99" yNet="191934.54" referenceNode="908"/>
+		<speedIndicator nodeID="908" name="SPEED" kilometre="48.981" x="975107.27" y="1800.8767" xNet="483319.31" yNet="192448.27" referenceNode="901"/>
+		<stationBorder exitType="regular" stationID="GUILDFD" lineID="sw110" trackNumber="2" nodeID="269" kilometre="49.173" x="973096.23" y="1300.7863" xNet="484385.87" yNet="190235.04" referenceNode="238">
+			<netLimitInfo lineID="sw110"/>
+		</stationBorder>
+		<stationBorder exitType="regular" stationID="GUILDFD" lineID="sw110" trackNumber="1" nodeID="910" kilometre="49.173" x="973105.39" y="1803.1941" xNet="483763.73" yNet="190084.08" referenceNode="906">
+			<netLimitInfo lineID="sw110"/>
+		</stationBorder>
+		<stationBorder exitType="alternative" stationID="GUILDFD" lineID="sw200" trackNumber="2" nodeID="11" kilometre="47.501" x="984099.13" y="304.08185" xNet="485238.81" yNet="201836.96" referenceNode="20">
+			<netLimitInfo lineID="sw200"/>
+		</stationBorder>
+		<stationBorder exitType="regular" stationID="GUILDFD" lineID="sw200" trackNumber="1" nodeID="17" kilometre="47.566" x="983591.02" y="803" xNet="483612.57" yNet="201774.81" referenceNode="16">
+			<netLimitInfo lineID="sw200"/>
+		</stationBorder>
+		<stationBorder exitType="alternative" stationID="GUILDFD" lineID="sw110" trackNumber="1" nodeID="5375" kilometre="47.949" x="985324.82" y="1329" xNet="481497.1" yNet="205232.25" referenceNode="5330">
+			<netLimitInfo lineID="sw110"/>
+		</stationBorder>
+		<stationBorder exitType="regular" stationID="GUILDFD" lineID="sw110" trackNumber="2" nodeID="862" kilometre="48.065" x="984162.17" y="1829" xNet="481144.52" yNet="203681.61" referenceNode="912">
+			<netLimitInfo lineID="sw110"/>
+		</stationBorder>
+		<stationBorder exitType="regular" stationID="GUILDFD" lineID="sw265" trackNumber="2" nodeID="281" kilometre="48.347" x="981588.33" y="2798.9417" xNet="480475.84" yNet="200135.4" referenceNode="198"/>
+		<stationBorder exitType="regular" stationID="GUIL305" lineID="sw265" trackNumber="2" nodeID="283" kilometre="48.309" x="981966.98" y="2798.6631" xNet="479924.63" yNet="200584.97" referenceNode="280"/>
+		<stationBorder exitType="regular" stationID="GUIL305" lineID="sw265" trackNumber="2" nodeID="284" kilometre="49.270" x="985011.21" y="2795.5652" xNet="477665.44" yNet="200946.59" referenceNode="3"/>
+		<track trackID="U-1" stationID="GUIL305" type="shunting" interlockingMachine="Shunt" nodeID="280" name="SIG: GD1305" kilometre="48.275" x="982296.97" y="2798.4203" xNet="479541.46" yNet="200721.46" referenceNode="306"/>
+		<track trackID="T-1" stationID="GUIL305" type="timingPoint" nodeID="285" kilometre="48.147" x="983558.8" y="2797.4918" xNet="478804.52" yNet="200927.33" referenceNode="173"/>
+		<stationBorder exitType="regular" stationID="GUILDFD" lineID="sw110" trackNumber="UCHS" nodeID="286" kilometre="48.382" x="981220.07" y="2869.7719" xNet="480322.46" yNet="199233.34" referenceNode="288"/>
+		<stationBorder exitType="regular" stationID="GUILDCS" lineID="sw110" trackNumber="UCHS" nodeID="287" kilometre="48.405" x="980930.42" y="3090.2384" xNet="480174.65" yNet="198864.08" referenceNode="795"/>
+		<track trackID="T-11" stationID="GUILDFD" type="timingPoint" nodeID="288" kilometre="48.379" x="981264.73" y="2835.7754" xNet="480470.38" yNet="199457.91" referenceNode="262"/>
+		<track trackID="T-8" stationID="GUILDFD" type="timingPoint" nodeID="290" kilometre="48.709" x="978028.14" y="2801.5613" xNet="481393.94" yNet="194979.01" referenceNode="319"/>
+		<track trackID="T-6" stationID="GUILDFD" type="timingPoint" nodeID="293" kilometre="48.709" x="978019.22" y="2295.6138" xNet="482040.78" yNet="195403.56" referenceNode="232"/>
+		<track trackID="T-5" stationID="GUILDFD" type="timingPoint" nodeID="911" kilometre="48.709" x="977903.77" y="1821.4222" xNet="482666.07" yNet="195783.64" referenceNode="916"/>
+		<track trackID="T-4" stationID="GUILDFD" type="timingPoint" nodeID="294" kilometre="48.709" x="977960.58" y="1311.1467" xNet="483266.45" yNet="196050.38" referenceNode="323"/>
+		<track trackID="T-2" stationID="GUILDFD" type="timingPoint" nodeID="296" kilometre="48.709" x="978200.25" y="305.58395" xNet="484441.16" yNet="195648.74" referenceNode="226"/>
+		<node nodeID="5335" name="GRAD" kilometre="48.075" x="984063" y="1329" xNet="481795.53" yNet="203683.94"/>
+		<node nodeID="912" name="GRAD" kilometre="48.075" x="984061.8" y="1829" xNet="481168.27" yNet="203558.52"/>
+		<node nodeID="297" name="GRAD" kilometre="48.320" x="981637.7" y="1324.7817" xNet="482366.47" yNet="200721.25"/>
+		<node nodeID="298" name="GRAD" kilometre="48.320" x="981618.91" y="1825.2595" xNet="481685.17" yNet="200865.37"/>
+		<node nodeID="913" name="GRAD" kilometre="48.600" x="979010.22" y="1827.6579" xNet="482408.56" yNet="197120.6"/>
+		<node nodeID="299" name="GRAD" kilometre="48.600" x="979073.88" y="1314.9916" xNet="483014.26" yNet="197359.19"/>
+		<node nodeID="300" name="GRAD" kilometre="48.600" x="979138.02" y="803" xNet="483735.85" yNet="197156.53"/>
+		<node nodeID="301" name="GRAD" kilometre="48.600" x="979141.4" y="305.08672" xNet="484332.66" yNet="196525.31"/>
+		<node nodeID="302" name="GRAD" kilometre="48.600" x="979144.21" y="-198.97341" xNet="485099.91" yNet="196630.52"/>
+		<node nodeID="303" name="GRAD" kilometre="48.600" x="979090.62" y="2295.7337" xNet="481805.54" yNet="196658.73"/>
+		<node nodeID="304" name="GRAD" kilometre="48.600" x="979098.6" y="2800.7737" xNet="481145.1" yNet="196227.06"/>
+		<node nodeID="797" name="GRAD" kilometre="48.600" x="978449.16" y="3195.8788" xNet="480479.95" yNet="195898.87"/>
+		<node nodeID="306" name="GRAD" kilometre="48.261" x="982432.79" y="2798.3204" xNet="479221.01" yNet="200852.78"/>
+		<node nodeID="307" name="GRAD" kilometre="48.320" x="981842.85" y="2296.0418" xNet="481137.57" yNet="200256.47"/>
+		<node nodeID="308" name="GRAD" kilometre="48.320" x="981852.68" y="2798.7472" xNet="480422.64" yNet="200397.81"/>
+		<node nodeID="309" name="GRAD" kilometre="48.320" x="981844.63" y="2379.8885" xNet="481023.45" yNet="200268.9"/>
+		<track trackID="T-3" stationID="GUILDFD" type="timingPoint" nodeID="295" kilometre="48.712" x="978171.35" y="803" xNet="483954.18" yNet="196048.96" referenceNode="228"/>
+		<node nodeID="310" name="xSD: SIG GD937 " kilometre="49.422" x="986059.93" y="2792.0206" xNet="476478.09" yNet="200786.95" referenceNode="284" sightingDistance="true"/>
+		<node nodeID="914" name="xSD: SIG GD820" kilometre="48.103" x="983781.23" y="1829" xNet="481234.65" yNet="203214.42" referenceNode="863" sightingDistance="true"/>
+		<node nodeID="20" name="xSD: SIG GD745" kilometre="47.539" x="983778.02" y="302" xNet="484775" yNet="201689.08" referenceNode="11" sightingDistance="true"/>
+		<node nodeID="314" name="xSD: SIG GD931" kilometre="48.642" x="978685.28" y="2801.0778" xNet="481228.3" yNet="195773.78" referenceNode="233" sightingDistance="true"/>
+		<node nodeID="315" name="xSD: SIG GD933" kilometre="48.663" x="978471.37" y="2295.6644" xNet="481923.49" yNet="196027.59" referenceNode="231" sightingDistance="true"/>
+		<node nodeID="319" name="xSD: SIG GD924" kilometre="48.701" x="978109.66" y="2801.5013" xNet="481380.79" yNet="195047.65" referenceNode="234" sightingDistance="true"/>
+		<node nodeID="320" name="xSD: SIG GD922" kilometre="48.736" x="977753.83" y="2295.5841" xNet="482099.46" yNet="195097.54" referenceNode="293" sightingDistance="true"/>
+		<node nodeID="915" name="xSD: SIG GD822" kilometre="48.744" x="977548.47" y="1819.4198" xNet="482748.77" yNet="195354.35" referenceNode="274" sightingDistance="true"/>
+		<node nodeID="916" name="xSD: SIG GD639" kilometre="48.691" x="978086.49" y="1822.4519" xNet="482623.55" yNet="196004.43" referenceNode="913" sightingDistance="true"/>
+		<node nodeID="323" name="xSD: SIG GD825" kilometre="48.683" x="978226.14" y="1312.0638" xNet="483206.29" yNet="196362.57" referenceNode="299" sightingDistance="true"/>
+		<node nodeID="324" name="xSD: SIG GD636" kilometre="48.741" x="977633.73" y="1310.0179" xNet="483340.47" yNet="195666.14" referenceNode="237" sightingDistance="true"/>
+		<node nodeID="325" name="xSD: SIG GD748" kilometre="48.659" x="978628.79" y="803" xNet="483822.12" yNet="196680.41" referenceNode="227" sightingDistance="true"/>
+		<node nodeID="331" name="xSD: SIG GD767" kilometre="48.770" x="977670.76" y="803" xNet="484077.77" yNet="195423.72" referenceNode="295" sightingDistance="true"/>
+		<node nodeID="336" name="xSD: SIG GD750" kilometre="48.645" x="978752.83" y="305.29201" xNet="484376.9" yNet="196166.48" referenceNode="225" sightingDistance="true"/>
+		<node nodeID="337" name="xSD: SIG GD763" kilometre="48.770" x="977674.96" y="305.86148" xNet="484567.49" yNet="194797.41" referenceNode="296" sightingDistance="true"/>
+		<node nodeID="270" name="OL SIG: GD826" description="OL for SIG : SIG: GD826" kilometre="48.786" x="977268.42" y="2802.1204" xNet="481589.27" yNet="193925.96"/>
+		<node nodeID="272" name="OL SIG: GD826" description="OL for SIG : SIG: GD826" kilometre="48.786" x="977262.36" y="2295.5291" xNet="482208.12" yNet="194530.85"/>
+		<node nodeID="274" name="OL SIG: GD826" description="OL for SIG : SIG: GD826" kilometre="48.786" x="977122.13" y="1817.0171" xNet="482847.99" yNet="194839.2"/>
+		<node nodeID="275" name="OL SIG: GD826" description="OL for SIG : SIG: GD826" kilometre="48.786" x="977532.66" y="803" xNet="484111.86" yNet="195251.24"/>
+		<stationBorder exitType="alternative" stationID="GUILDFD" lineID="sw265" trackNumber="1" nodeID="327" kilometre="48.269" x="982343.41" y="2296.0978" xNet="480841.85" yNet="200804.03" referenceNode="6">
+			<netLimitInfo lineID="sw265"/>
+		</stationBorder>
+	</nodes>
+	<links>
+		<link source="1" target="2" length="20" gradient="-1.818" vmax="145" vmaxr="145" electrification="electrified">
+			<vzg index="9" vmax="97" vmaxr="97"/>
+		</link>
+		<link source="2" target="94" length="45" gradient="-1.818" vmax="145" vmaxr="145" electrification="electrified">
+			<vzg index="9" vmax="97" vmaxr="97"/>
+		</link>
+		<link source="3" target="173" length="10" gradient="3.205" vmax="64" vmaxr="64" bidirectional="true" electrification="electrified">
+			<vzg index="9" vmax="40" vmaxr="40"/>
+		</link>
+		<link source="3" target="284" length="37" gradient="3.205" vmax="64" vmaxr="64" bidirectional="true" electrification="electrified">
+			<vzg index="9" vmax="40" vmaxr="40"/>
+		</link>
+		<link source="4" target="9" length="4" gradient="-1.818" vmax="80" vmaxr="80" electrification="electrified">
+			<vzg index="9" vmax="48" vmaxr="48"/>
+		</link>
+		<link source="5" target="90" length="66" gradient="0.294" vmax="80" vmaxr="80" electrification="electrified">
+			<vzg index="9" vmax="48" vmaxr="48"/>
+		</link>
+		<link source="5" target="255" length="1" gradient="0.294" vmax="80" vmaxr="80" electrification="electrified">
+			<vzg index="9" vmax="48" vmaxr="48"/>
+		</link>
+		<link source="6" target="201" length="35" gradient="-1.818" vmax="48" vmaxr="64" electrification="electrified">
+			<vzg index="9" vmaxr="40"/>
+		</link>
+		<link source="7" target="258" length="1" gradient="-1.818" vmax="80" vmaxr="80" electrification="electrified">
+			<vzg index="9" vmax="48" vmaxr="48"/>
+		</link>
+		<link source="7" target="298" length="105" gradient="-1.818" vmax="80" vmaxr="80" electrification="electrified">
+			<vzg index="9" vmax="48" vmaxr="48"/>
+		</link>
+		<link source="9" target="7" length="11" gradient="-1.818" vmax="80" vmaxr="80" electrification="electrified">
+			<vzg index="9" vmax="48" vmaxr="48"/>
+		</link>
+		<link source="11" target="20" length="38" gradient="0.294" vmax="48" vmaxr="48" electrification="electrified"/>
+		<link source="15" target="246" length="1" gradient="0.294" vmax="48" vmaxr="48" electrification="electrified"/>
+		<link source="16" target="93" length="183" gradient="0.294" vmax="32" vmaxr="48" electrification="electrified"/>
+		<link source="17" target="16" length="68" gradient="0.294" vmax="32" vmaxr="48" electrification="electrified"/>
+		<link source="20" target="21" length="94" gradient="0.294" vmax="48" vmaxr="48" electrification="electrified"/>
+		<link source="21" target="15" length="1" gradient="0.294" vmax="48" vmaxr="48" electrification="electrified"/>
+		<link source="59" target="301" length="25" gradient="0.294" vmax="32" vmaxr="32" electrification="electrified"/>
+		<link source="82" target="300" length="19" gradient="0.294" vmax="32" vmaxr="40" electrification="electrified"/>
+		<link source="90" target="194" length="110" gradient="0.294" vmax="80" vmaxr="80" electrification="electrified">
+			<vzg index="9" vmax="48" vmaxr="48"/>
+		</link>
+		<link source="91" target="236" length="30" gradient="0.294" vmax="32" vmaxr="48" electrification="electrified"/>
+		<link source="92" target="179" length="83" gradient="0.294" vmax="32" vmaxr="32" electrification="electrified"/>
+		<link source="93" target="200" length="12" gradient="0.294" vmax="32" vmaxr="48" electrification="electrified"/>
+		<link source="94" target="297" length="75" gradient="-1.818" vmax="145" vmaxr="145" electrification="electrified">
+			<vzg index="9" vmax="97" vmaxr="97"/>
+		</link>
+		<link source="101" target="92" length="63" gradient="0.294" vmax="32" vmaxr="32" electrification="electrified"/>
+		<link source="101" target="93" length="50" gradient="0.294" vmax="32" vmaxr="32" electrification="electrified"/>
+		<link source="123" target="178" length="13" gradient="0.294" vmax="32" vmaxr="48" electrification="electrified"/>
+		<link source="147" target="91" length="3" gradient="0.294" vmax="32" vmaxr="48" electrification="electrified"/>
+		<link source="153" target="202" length="41" gradient="0.294" vmax="145" vmaxr="145" electrification="electrified">
+			<vzg index="9" vmax="97" vmaxr="97"/>
+		</link>
+		<link source="153" target="254" length="69" gradient="0.294" vmax="32" vmaxr="32" electrification="electrified"/>
+		<link source="154" target="235" length="93" gradient="0.294" vmax="32" vmaxr="32" electrification="electrified"/>
+		<link source="173" target="285" length="120" gradient="3.205" vmax="48" vmaxr="64" bidirectional="true" electrification="electrified">
+			<vzg index="9" vmaxr="40"/>
+		</link>
+		<link source="175" target="153" length="69" gradient="0.294" vmax="145" vmaxr="145" electrification="electrified">
+			<vzg index="9" vmax="97" vmaxr="97"/>
+		</link>
+		<link source="175" target="252" length="1" gradient="0.294" vmax="145" vmaxr="145" electrification="electrified">
+			<vzg index="9" vmax="97" vmaxr="97"/>
+		</link>
+		<link source="177" target="147" length="70" gradient="0.294" vmax="32" vmaxr="48" electrification="electrified"/>
+		<link source="177" target="154" length="70" gradient="0.294" vmax="32" vmaxr="32" electrification="electrified"/>
+		<link source="178" target="177" length="51" gradient="0.294" vmax="32" vmaxr="48" electrification="electrified"/>
+		<link source="178" target="251" length="1" gradient="0.294" vmax="32" vmaxr="48" electrification="electrified"/>
+		<link source="179" target="180" length="3" gradient="0.294" vmax="32" vmaxr="32" electrification="electrified"/>
+		<link source="180" target="154" length="48" gradient="0.294" vmax="32" vmaxr="32" electrification="electrified"/>
+		<link source="180" target="253" length="1" gradient="0.294" vmax="32" vmaxr="32" electrification="electrified"/>
+		<link source="181" target="182" length="6" gradient="0.294" vmax="24" vmaxr="24" electrification="electrified"/>
+		<link source="182" target="302" length="119" gradient="0.294" vmax="24" vmaxr="24" electrification="electrified"/>
+		<link source="183" target="8158" length="1" gradient="0.76" vmax="24" vmaxr="24" electrification="electrified"/>
+		<link source="184" target="299" length="10" gradient="0.294" vmax="80" vmaxr="80" electrification="electrified">
+			<vzg index="9" vmax="48" vmaxr="48"/>
+		</link>
+		<link source="185" target="184" length="5" gradient="0.294" vmax="80" vmaxr="80" electrification="electrified">
+			<vzg index="9" vmax="48" vmaxr="48"/>
+		</link>
+		<link source="186" target="267" length="1" gradient="0.294" vmax="80" vmaxr="80" electrification="electrified">
+			<vzg index="9" vmax="48" vmaxr="48"/>
+		</link>
+		<link source="186" target="861" length="69" gradient="0.294" vmax="80" vmaxr="80" electrification="electrified">
+			<vzg index="9" vmax="48" vmaxr="48"/>
+		</link>
+		<link source="187" target="303" length="31" gradient="0.294" vmax="48" vmaxr="48" electrification="electrified"/>
+		<link source="189" target="240" length="58" gradient="0.294" vmax="48" vmaxr="64" electrification="electrified">
+			<vzg index="9" vmaxr="40"/>
+		</link>
+		<link source="190" target="304" length="28" gradient="0.294" vmax="48" vmaxr="32" electrification="electrified"/>
+		<link source="191" target="245" length="121" gradient="0.294" vmax="48" vmaxr="64" electrification="electrified"/>
+		<link source="193" target="189" length="52" gradient="0.294" vmax="48" vmaxr="64" electrification="electrified">
+			<vzg index="9" vmaxr="40"/>
+		</link>
+		<link source="193" target="266" length="1" gradient="0.294" vmax="48" vmaxr="64" electrification="electrified">
+			<vzg index="9" vmaxr="40"/>
+		</link>
+		<link source="194" target="186" length="10" gradient="0.294" vmax="80" vmaxr="80" electrification="electrified">
+			<vzg index="9" vmax="48" vmaxr="48"/>
+		</link>
+		<link source="195" target="265" length="38" gradient="0.294" vmax="32" vmaxr="32" electrification="electrified"/>
+		<link source="196" target="193" length="16" gradient="0.294" vmax="48" vmaxr="64" electrification="electrified">
+			<vzg index="9" vmaxr="40"/>
+		</link>
+		<link source="197" target="191" length="48" gradient="0.294" vmax="48" vmaxr="64" electrification="electrified">
+			<vzg index="9" vmaxr="40"/>
+		</link>
+		<link source="197" target="264" length="1" gradient="0.294" vmax="48" vmaxr="64" electrification="electrified">
+			<vzg index="9" vmaxr="40"/>
+		</link>
+		<link source="198" target="199" length="5" gradient="0.294" vmax="48" vmaxr="64" electrification="electrified">
+			<vzg index="9" vmaxr="40"/>
+		</link>
+		<link source="199" target="197" length="27" gradient="0.294" vmax="48" vmaxr="64" electrification="electrified">
+			<vzg index="9" vmaxr="40"/>
+		</link>
+		<link source="199" target="262" length="1" gradient="0.294" vmax="48" vmaxr="64" bidirectional="true" electrification="electrified">
+			<vzg index="9" vmaxr="40"/>
+		</link>
+		<link source="200" target="123" length="1" gradient="0.294" vmax="32" vmaxr="48" electrification="electrified"/>
+		<link source="201" target="261" length="1" gradient="-1.818" vmax="48" vmaxr="64" electrification="electrified">
+			<vzg index="9" vmaxr="40"/>
+		</link>
+		<link source="201" target="307" length="10" gradient="-1.818" vmax="48" vmaxr="64" electrification="electrified">
+			<vzg index="9" vmaxr="40"/>
+		</link>
+		<link source="202" target="185" length="142" gradient="0.294" vmax="80" vmaxr="80" electrification="electrified">
+			<vzg index="9" vmax="48" vmaxr="48"/>
+		</link>
+		<link source="203" target="247" length="1" gradient="0.76" vmax="32" vmaxr="32" electrification="electrified"/>
+		<link source="204" target="248" length="1" gradient="0.76" vmax="32" vmaxr="40" electrification="electrified"/>
+		<link source="205" target="219" length="45" gradient="0.76" vmax="40" vmaxr="40" electrification="electrified"/>
+		<link source="206" target="241" length="1" gradient="0.76" vmax="48" vmaxr="48" electrification="electrified"/>
+		<link source="207" target="243" length="1" gradient="0.76" vmax="48" vmaxr="32" electrification="electrified"/>
+		<link source="208" target="224" length="71" gradient="0.76" vmax="40" vmaxr="40" electrification="electrified"/>
+		<link source="209" target="208" length="4" gradient="0.76" vmax="40" vmaxr="40" electrification="electrified"/>
+		<link source="210" target="896" length="2" gradient="0.76" vmax="40" vmaxr="40" electrification="electrified"/>
+		<link source="211" target="209" length="3" gradient="0.76" vmax="40" vmaxr="40" electrification="electrified"/>
+		<link source="212" target="214" length="52" gradient="0.76" vmax="40" vmaxr="40" electrification="electrified"/>
+		<link source="214" target="211" length="60" gradient="0.76" vmax="40" vmaxr="40" electrification="electrified"/>
+		<link source="215" target="211" length="60" gradient="0.76" vmax="40" vmaxr="40" electrification="electrified"/>
+		<link source="215" target="897" length="63" gradient="0.76" vmax="40" vmaxr="40" electrification="electrified"/>
+		<link source="217" target="218" length="35" gradient="0.76" vmax="40" vmaxr="40" electrification="electrified"/>
+		<link source="218" target="215" length="17" gradient="0.76" vmax="40" vmaxr="40" electrification="electrified"/>
+		<link source="219" target="215" length="18" gradient="0.76" vmax="40" vmaxr="40" electrification="electrified"/>
+		<link source="220" target="222" length="47" gradient="0.76" vmax="24" vmaxr="32" electrification="electrified"/>
+		<link source="221" target="223" length="35" gradient="0.76" vmax="24" vmaxr="32" electrification="electrified"/>
+		<link source="222" target="244" length="47" gradient="0.76" vmax="24" vmaxr="32" electrification="electrified"/>
+		<link source="223" target="242" length="36" gradient="0.76" vmax="24" vmaxr="32" electrification="electrified"/>
+		<link source="224" target="238" length="5" gradient="0.76" vmax="40" vmaxr="40" bidirectional="true" electrification="electrified"/>
+		<link source="225" target="226" length="1" gradient="0.76" vmax="32" vmaxr="32" electrification="electrified"/>
+		<link source="226" target="296" length="1" gradient="0.76" vmax="32" vmaxr="32" electrification="electrified"/>
+		<link source="227" target="228" length="1" gradient="0.76" vmax="32" vmaxr="40" electrification="electrified"/>
+		<link source="228" target="295" length="1" gradient="0.76" vmax="32" vmaxr="40" electrification="electrified"/>
+		<link source="229" target="230" length="1" gradient="0.76" vmax="80" vmaxr="80" electrification="electrified">
+			<vzg index="9" vmax="48" vmaxr="48"/>
+		</link>
+		<link source="230" target="324" length="26" gradient="0.76" vmax="80" vmaxr="80" electrification="electrified">
+			<vzg index="9" vmax="48" vmaxr="48"/>
+		</link>
+		<link source="231" target="232" length="1" gradient="0.76" vmax="48" vmaxr="48" electrification="electrified"/>
+		<link source="232" target="293" length="9" gradient="0.76" vmax="48" vmaxr="48" electrification="electrified"/>
+		<link source="233" target="234" length="1" gradient="0.76" vmax="48" vmaxr="32" electrification="electrified"/>
+		<link source="234" target="319" length="17" gradient="0.76" vmax="48" vmaxr="32" electrification="electrified"/>
+		<link source="235" target="59" length="10" gradient="0.294" vmax="32" vmaxr="32" electrification="electrified"/>
+		<link source="236" target="249" length="40" gradient="0.294" vmax="32" vmaxr="48" electrification="electrified"/>
+		<link source="236" target="256" length="1" gradient="0.294" vmax="32" vmaxr="48" electrification="electrified"/>
+		<link source="237" target="205" length="1" gradient="0.76" vmax="40" vmaxr="40" electrification="electrified"/>
+		<link source="238" target="269" length="128" gradient="0.76" vmax="97" vmaxr="97" bidirectional="true" electrification="electrified">
+			<vzg index="9" vmax="64" vmaxr="64"/>
+		</link>
+		<link source="240" target="187" length="1" gradient="0.294" vmax="48" vmaxr="48" electrification="electrified"/>
+		<link source="241" target="221" length="9" gradient="0.76" vmax="24" vmaxr="32" electrification="electrified"/>
+		<link source="242" target="900" length="1" gradient="0.76" vmax="40" vmaxr="40" electrification="electrified"/>
+		<link source="243" target="220" length="31" gradient="0.76" vmax="24" vmaxr="32" electrification="electrified"/>
+		<link source="244" target="899" length="1" gradient="0.76" vmax="40" vmaxr="40" electrification="electrified"/>
+		<link source="245" target="190" length="1" gradient="0.294" vmax="48" vmaxr="32" electrification="electrified"/>
+		<link source="246" target="101" length="132" gradient="0.294" vmax="32" vmaxr="32" electrification="electrified"/>
+		<link source="247" target="212" length="9" gradient="0.76" vmax="40" vmaxr="40" electrification="electrified"/>
+		<link source="248" target="217" length="9" gradient="0.76" vmax="40" vmaxr="40" electrification="electrified"/>
+		<link source="249" target="82" length="36" gradient="0.294" vmax="32" vmaxr="40" electrification="electrified"/>
+		<link source="250" target="179" length="1" gradient="0.294" vmax="32" vmaxr="32" electrification="electrified"/>
+		<link source="251" target="250" length="68" gradient="0.294" vmax="24" vmaxr="24" electrification="electrified"/>
+		<link source="252" target="177" length="68" gradient="0.294" vmax="32" vmaxr="32" electrification="electrified"/>
+		<link source="253" target="181" length="50" gradient="0.294" vmax="24" vmaxr="24" electrification="electrified"/>
+		<link source="254" target="147" length="1" gradient="0.294" vmax="32" vmaxr="48" electrification="electrified"/>
+		<link source="255" target="153" length="68" gradient="0.294" vmax="32" vmaxr="32" electrification="electrified"/>
+		<link source="256" target="257" length="58" gradient="0.294" vmax="24" vmaxr="24" electrification="electrified"/>
+		<link source="257" target="235" length="1" gradient="0.294" vmax="32" vmaxr="32" electrification="electrified"/>
+		<link source="258" target="259" length="58" gradient="-1.818" vmax="40" vmaxr="40" electrification="electrified"/>
+		<link source="259" target="6" length="1" gradient="-1.818" vmax="48" vmaxr="64" electrification="electrified">
+			<vzg index="9" vmaxr="40"/>
+		</link>
+		<link source="260" target="198" length="1" gradient="0.294" vmax="48" vmaxr="64" electrification="electrified">
+			<vzg index="9" vmaxr="40"/>
+		</link>
+		<link source="261" target="309" length="9" gradient="-1.818" vmax="40" vmaxr="40" electrification="electrified"/>
+		<link source="262" target="288" length="3" gradient="0.294" vmax="24" vmaxr="24" bidirectional="true" electrification="electrified"/>
+		<link source="263" target="196" length="1" gradient="0.294" vmax="48" vmaxr="64" electrification="electrified">
+			<vzg index="9" vmaxr="40"/>
+		</link>
+		<link source="264" target="263" length="38" gradient="0.294" vmax="32" vmaxr="32" electrification="electrified"/>
+		<link source="265" target="194" length="1" gradient="0.294" vmax="80" vmaxr="80" electrification="electrified">
+			<vzg index="9" vmax="48" vmaxr="48"/>
+		</link>
+		<link source="266" target="195" length="11" gradient="0.294" vmax="32" vmaxr="32" electrification="electrified"/>
+		<link source="267" target="268" length="64" gradient="0.294" vmax="32" vmaxr="32" electrification="electrified"/>
+		<link source="268" target="185" length="1" gradient="0.294" vmax="80" vmaxr="80" electrification="electrified">
+			<vzg index="9" vmax="48" vmaxr="48"/>
+		</link>
+		<link source="270" target="207" length="9" gradient="0.76" vmax="48" vmaxr="32" electrification="electrified"/>
+		<link source="272" target="206" length="44" gradient="0.76" vmax="48" vmaxr="48" electrification="electrified"/>
+		<link source="274" target="895" length="61" gradient="0.76" vmax="80" vmaxr="80" electrification="electrified">
+			<vzg index="9" vmax="48" vmaxr="48"/>
+		</link>
+		<link source="275" target="204" length="54" gradient="0.76" vmax="32" vmaxr="40" electrification="electrified"/>
+		<link source="280" target="283" length="34" gradient="-1.818" vmax="48" vmaxr="64" bidirectional="true" electrification="electrified">
+			<vzg index="9" vmaxr="40"/>
+		</link>
+		<link source="281" target="198" length="23" gradient="0.294" vmax="48" vmaxr="64" bidirectional="true" electrification="electrified">
+			<vzg index="9" vmaxr="40"/>
+		</link>
+		<link source="283" target="308" length="11" gradient="-1.818" vmax="48" vmaxr="64" bidirectional="true" electrification="electrified">
+			<vzg index="9" vmaxr="40"/>
+		</link>
+		<link source="284" target="310" length="152" gradient="3.205" vmax="64" vmaxr="64" bidirectional="true" electrification="electrified">
+			<vzg index="9" vmax="40" vmaxr="40"/>
+		</link>
+		<link source="285" target="306" length="114" gradient="3.205" vmax="48" vmaxr="64" bidirectional="true" electrification="electrified">
+			<vzg index="9" vmaxr="40"/>
+		</link>
+		<link source="286" target="287" length="23" gradient="0.294" vmax="24" vmaxr="24" bidirectional="true" electrification="electrified"/>
+		<link source="287" target="795" length="11" gradient="0.294" vmax="24" vmaxr="24" bidirectional="true" electrification="electrified"/>
+		<link source="288" target="286" length="3" gradient="0.294" vmax="24" vmaxr="24" bidirectional="true" electrification="electrified"/>
+		<link source="290" target="270" length="77" gradient="0.76" vmax="48" vmaxr="32" electrification="electrified"/>
+		<link source="293" target="320" length="27" gradient="0.76" vmax="48" vmaxr="48" electrification="electrified"/>
+		<link source="294" target="229" length="5" gradient="0.76" vmax="80" vmaxr="80" electrification="electrified">
+			<vzg index="9" vmax="48" vmaxr="48"/>
+		</link>
+		<link source="295" target="331" length="58" gradient="0.76" vmax="32" vmaxr="40" electrification="electrified"/>
+		<link source="296" target="337" length="61" gradient="0.76" vmax="32" vmaxr="32" electrification="electrified"/>
+		<link source="297" target="175" length="13" gradient="0.294" vmax="145" vmaxr="145" electrification="electrified">
+			<vzg index="9" vmax="97" vmaxr="97"/>
+		</link>
+		<link source="298" target="5" length="13" gradient="0.294" vmax="80" vmaxr="80" electrification="electrified">
+			<vzg index="9" vmax="48" vmaxr="48"/>
+		</link>
+		<link source="299" target="323" length="83" gradient="0.294" vmax="80" vmaxr="80" electrification="electrified">
+			<vzg index="9" vmax="48" vmaxr="48"/>
+		</link>
+		<link source="300" target="325" length="59" gradient="0.76" vmax="32" vmaxr="40" electrification="electrified"/>
+		<link source="301" target="336" length="45" gradient="0.76" vmax="32" vmaxr="32" electrification="electrified"/>
+		<link source="302" target="183" length="54" gradient="0.76" vmax="24" vmaxr="24" electrification="electrified"/>
+		<link source="303" target="315" length="63" gradient="0.76" vmax="48" vmaxr="48" electrification="electrified"/>
+		<link source="304" target="314" length="42" gradient="0.76" vmax="48" vmaxr="32" electrification="electrified"/>
+		<link source="306" target="280" length="14" gradient="-1.818" vmax="48" vmaxr="64" bidirectional="true" electrification="electrified">
+			<vzg index="9" vmaxr="40"/>
+		</link>
+		<link source="307" target="196" length="122" gradient="0.294" vmax="48" vmaxr="64" electrification="electrified">
+			<vzg index="9" vmaxr="40"/>
+		</link>
+		<link source="308" target="281" length="27" gradient="0.294" vmax="48" vmaxr="64" bidirectional="true" electrification="electrified">
+			<vzg index="9" vmaxr="40"/>
+		</link>
+		<link source="309" target="260" length="49" gradient="0.294" vmax="40" vmaxr="40" electrification="electrified"/>
+		<link source="310" target="8038" length="29" gradient="3.205" vmax="64" vmaxr="64" bidirectional="true" electrification="electrified">
+			<vzg index="9" vmax="40" vmaxr="40"/>
+		</link>
+		<link source="314" target="233" length="41" gradient="0.76" vmax="48" vmaxr="32" electrification="electrified"/>
+		<link source="315" target="231" length="36" gradient="0.76" vmax="48" vmaxr="48" electrification="electrified"/>
+		<link source="319" target="290" length="8" gradient="0.76" vmax="48" vmaxr="32" electrification="electrified"/>
+		<link source="320" target="272" length="50" gradient="0.76" vmax="48" vmaxr="48" electrification="electrified"/>
+		<link source="323" target="294" length="26" gradient="0.294" vmax="80" vmaxr="80" electrification="electrified">
+			<vzg index="9" vmax="48" vmaxr="48"/>
+		</link>
+		<link source="324" target="237" length="97" gradient="0.76" vmax="80" vmaxr="80" electrification="electrified">
+			<vzg index="9" vmax="48" vmaxr="48"/>
+		</link>
+		<link source="325" target="227" length="51" gradient="0.76" vmax="32" vmaxr="40" electrification="electrified"/>
+		<link source="327" target="6" length="6" gradient="-1.818" vmax="48" vmaxr="64" bidirectional="true" electrification="electrified">
+			<vzg index="9" vmaxr="40"/>
+		</link>
+		<link source="331" target="275" length="16" gradient="0.76" vmax="32" vmaxr="40" electrification="electrified"/>
+		<link source="336" target="225" length="62" gradient="0.76" vmax="32" vmaxr="32" electrification="electrified"/>
+		<link source="337" target="203" length="70" gradient="0.76" vmax="32" vmaxr="32" electrification="electrified"/>
+		<link source="795" target="797" length="184" gradient="0.294" vmax="24" vmaxr="24" bidirectional="true" electrification="electrified"/>
+		<link source="796" target="8074" length="12" gradient="0.76" vmax="24" vmaxr="24" bidirectional="true" electrification="electrified"/>
+		<link source="797" target="796" length="66" gradient="0.76" vmax="24" vmaxr="24" bidirectional="true" electrification="electrified"/>
+		<link source="861" target="913" length="12" gradient="0.294" vmax="80" vmaxr="80" electrification="electrified">
+			<vzg index="9" vmax="48" vmaxr="48"/>
+		</link>
+		<link source="862" target="912" length="10" vmax="137" vmaxr="137" bidirectional="true" electrification="electrified">
+			<vzg index="9" vmax="89" vmaxr="89"/>
+		</link>
+		<link source="863" target="1196" length="35" gradient="-1.818" vmax="80" vmaxr="80" bidirectional="true" electrification="electrified">
+			<vzg index="9" vmax="48" vmaxr="48"/>
+		</link>
+		<link source="895" target="907" length="19" gradient="0.76" vmax="80" vmaxr="80" electrification="electrified">
+			<vzg index="9" vmax="48" vmaxr="48"/>
+		</link>
+		<link source="896" target="904" length="5" gradient="0.76" vmax="40" vmaxr="40" electrification="electrified"/>
+		<link source="897" target="210" length="2" gradient="0.76" vmax="40" vmaxr="40" electrification="electrified"/>
+		<link source="899" target="897" length="43" gradient="0.76" vmax="40" vmaxr="40" electrification="electrified"/>
+		<link source="900" target="899" length="10" gradient="0.76" vmax="40" vmaxr="40" electrification="electrified"/>
+		<link source="901" target="906" length="65" gradient="0.76" vmax="40" vmaxr="121" bidirectional="true" electrification="electrified">
+			<vzg index="9" vmaxr="80"/>
+		</link>
+		<link source="901" target="908" length="1" gradient="0.76" vmax="40" vmaxr="121" electrification="electrified">
+			<vzg index="9" vmaxr="80"/>
+		</link>
+		<link source="902" target="903" length="1" gradient="0.76" vmax="80" vmaxr="80" electrification="electrified">
+			<vzg index="9" vmax="48" vmaxr="48"/>
+		</link>
+		<link source="903" target="915" length="26" gradient="0.76" vmax="80" vmaxr="80" electrification="electrified">
+			<vzg index="9" vmax="48" vmaxr="48"/>
+		</link>
+		<link source="904" target="901" length="6" gradient="0.76" vmax="40" vmaxr="121" electrification="electrified">
+			<vzg index="9" vmaxr="80"/>
+		</link>
+		<link source="906" target="910" length="128" gradient="0.76" vmax="121" vmaxr="121" bidirectional="true" electrification="electrified">
+			<vzg index="9" vmax="80" vmaxr="80"/>
+		</link>
+		<link source="907" target="900" length="46" gradient="0.76" vmax="40" vmaxr="40" electrification="electrified"/>
+		<link source="908" target="909" length="58" gradient="0.76" vmax="24" vmaxr="24" electrification="electrified"/>
+		<link source="909" target="224" length="1" gradient="0.76" vmax="40" vmaxr="40" electrification="electrified"/>
+		<link source="911" target="902" length="8" gradient="0.76" vmax="80" vmaxr="80" electrification="electrified">
+			<vzg index="9" vmax="48" vmaxr="48"/>
+		</link>
+		<link source="912" target="914" length="28" gradient="-1.818" vmax="137" vmaxr="137" bidirectional="true" electrification="electrified">
+			<vzg index="9" vmax="89" vmaxr="89"/>
+		</link>
+		<link source="913" target="916" length="91" gradient="0.76" vmax="80" vmaxr="80" electrification="electrified">
+			<vzg index="9" vmax="48" vmaxr="48"/>
+		</link>
+		<link source="914" target="863" length="37" gradient="-1.818" vmax="137" vmaxr="137" bidirectional="true" electrification="electrified">
+			<vzg index="9" vmax="89" vmaxr="89"/>
+		</link>
+		<link source="915" target="274" length="42" gradient="0.76" vmax="80" vmaxr="80" electrification="electrified">
+			<vzg index="9" vmax="48" vmaxr="48"/>
+		</link>
+		<link source="916" target="911" length="18" gradient="0.76" vmax="80" vmaxr="80" electrification="electrified">
+			<vzg index="9" vmax="48" vmaxr="48"/>
+		</link>
+		<link source="1196" target="4" length="25" gradient="-1.818" vmax="80" vmaxr="80" bidirectional="true" electrification="electrified">
+			<vzg index="9" vmax="48" vmaxr="48"/>
+		</link>
+		<link source="5330" target="5335" length="75" vmax="145" vmaxr="145" bidirectional="true" electrification="electrified">
+			<vzg index="9" vmax="97" vmaxr="97"/>
+		</link>
+		<link source="5331" target="1" length="50" gradient="-1.818" vmax="145" vmaxr="145" electrification="electrified">
+			<vzg index="9" vmax="97" vmaxr="97"/>
+		</link>
+		<link source="5331" target="5333" length="1" gradient="-1.818" vmax="145" vmaxr="145" electrification="electrified">
+			<vzg index="9" vmax="97" vmaxr="97"/>
+		</link>
+		<link source="5332" target="4" length="1" gradient="-1.818" vmax="80" vmaxr="80" electrification="electrified">
+			<vzg index="9" vmax="48" vmaxr="48"/>
+		</link>
+		<link source="5333" target="5332" length="68" gradient="-1.818" vmax="64" vmaxr="64" electrification="electrified">
+			<vzg index="9" vmax="40" vmaxr="40"/>
+		</link>
+		<link source="5335" target="5331" length="55" gradient="-1.818" vmax="145" vmaxr="145" bidirectional="true" electrification="electrified">
+			<vzg index="9" vmax="97" vmaxr="97"/>
+		</link>
+		<link source="5375" target="5330" length="51" vmax="145" vmaxr="145" bidirectional="true" electrification="electrified">
+			<vzg index="9" vmax="97" vmaxr="97"/>
+		</link>
+	</links>
+	<dependentLinks/>
+	<blockSections>
+		<blocksection uuid="{025241f3-ade8-485f-99ad-ed39057acdc6}" lines="guild" speedIndicators="907">
+			<part nodes="896 210 897 899 900 907 895 274 915 903 902 911 916 913 861"/>
+		</blocksection>
+		<blocksection uuid="{02efe13d-3e0a-4e9f-ad25-43924169c03e}" lines="guild sw265" speedIndicators="263 264 265 266 267 268">
+			<part nodes="184 185 268 267 186 194 265 195 266 193 196 263 264 197 199 198 281 308 283 280 306 285 173 3 284 310 8038"/>
+		</blocksection>
+		<blocksection uuid="{05d8db6a-af7c-4e71-9150-0d65b9a76ca7}" lines="guild sw265" speedIndicators="265 266 267 268">
+			<part nodes="327 6 201 307 196 193 266 195 265 194 186 267 268 185 184 299 323 294 229"/>
+		</blocksection>
+		<blocksection uuid="{060eba52-f5da-4666-8998-cd35b4c6ec26}" lines="guild sw110" speedIndicators="238 241 242 904 908 909">
+			<part nodes="206 241 221 223 242 900 899 897 210 896 904 901 908 909 224 238 269"/>
+		</blocksection>
+		<blocksection uuid="{06889bca-5151-48c7-adf7-acc5acb7d20d}" lines="guild sw110" speedIndicators="238 904 907 908 909">
+			<part nodes="895 907 900 899 897 210 896 904 901 908 909 224 238 269"/>
+		</blocksection>
+		<blocksection uuid="{080c61b9-e266-468c-8897-f91945dcdf9b}" lines="guild" shuntingBlock="true" speedIndicators="240 263 264">
+			<part nodes="232 231 315 303 187 240 189 193 196 263 264 197 199 198 281 308 283 280 306 285 173 3"/>
+		</blocksection>
+		<blocksection uuid="{08a44d18-cec5-4672-88d5-459d451cccd6}" lines="guild sw265" speedIndicators="265 266">
+			<part nodes="327 6 201 307 196 193 266 195 265 194 186 861 913 916 911 902"/>
+		</blocksection>
+		<blocksection uuid="{0d968472-9e6c-4455-9a8e-8e63b914566a}" lines="guild sw110" speedIndicators="863">
+			<part nodes="862 912 914 863 1196 4 9 7 298 5 90 194 186 861 913 916 911 902 903 915 274 895"/>
+		</blocksection>
+		<blocksection uuid="{0e4f4146-9187-4488-8771-5135ada81ecf}" lines="guild sw110" speedIndicators="243 244 904 906">
+			<part nodes="207 243 220 222 244 899 897 210 896 904 901 906 910"/>
+		</blocksection>
+		<blocksection uuid="{0e56eec1-4637-4145-a380-79eb2326af3a}" lines="guild sw110" speedIndicators="240 258 259 863">
+			<part nodes="187 240 189 193 196 307 201 6 259 258 7 9 4 1196 863 914 912 862"/>
+		</blocksection>
+		<blocksection uuid="{1020d4ed-8f00-4132-876e-4e9532cd2ac5}" lines="guild">
+			<part nodes="225 336 301 59"/>
+		</blocksection>
+		<blocksection uuid="{12772f23-6df1-4b4b-9d34-1a65fb18367c}" lines="guild sw110" shuntingBlock="true" speedIndicators="238 241 904 908 909">
+			<part nodes="269 238 224 909 908 901 904 896 210 897 899 900 242 223 221 241 206 272 320 293 232"/>
+		</blocksection>
+		<blocksection uuid="{13b11f2e-94d8-42ba-9e94-8dd712f647d7}" lines="guild" speedIndicators="202">
+			<part nodes="5330 5335 5331 1 2 94 297 175 153 202 185 184 299 323 294 229"/>
+		</blocksection>
+		<blocksection uuid="{15e43017-fe49-4d4e-a898-1457a8676181}" lines="guild" shuntingBlock="true" speedIndicators="263 264">
+			<part nodes="280 283 308 281 198 199 197 264 263 196 193 189 240 187 303 315 231 232 293 320 272 206"/>
+		</blocksection>
+		<blocksection uuid="{16b19cbe-16ba-4e4a-b18c-485c6544efca}" lines="guild sw110" speedIndicators="258 259 863">
+			<part nodes="862 912 914 863 1196 4 9 7 258 259 6 201 307 196 193 189 240 187 303 315 231 232 293 320 272 206"/>
+		</blocksection>
+		<blocksection uuid="{172820ae-af16-4782-ac42-9992559d287e}" lines="guild sw200" speedIndicators="250 251">
+			<part nodes="59 235 154 180 179 250 251 178 123 200 93 16 17"/>
+		</blocksection>
+		<blocksection uuid="{17d7936b-4cd2-4942-8493-697741ab8ba1}" lines="guild sw110" speedIndicators="238 904 907 908 909">
+			<part nodes="902 903 915 274 895 907 900 899 897 210 896 904 901 908 909 224 238 269"/>
+		</blocksection>
+		<blocksection uuid="{1b4a733d-efdb-48a5-b3f9-0a4cf16a5f58}" lines="guild">
+			<part nodes="233 314 304 190"/>
+		</blocksection>
+		<blocksection uuid="{1b549acb-1a66-4edf-9d6c-3f1bb07cfba2}" lines="guild sw265" speedIndicators="245">
+			<part nodes="190 245 191 197 199 198 281 308 283 280 306 285 173 3 284 310 8038"/>
+		</blocksection>
+		<blocksection uuid="{1b8d055a-1acf-4228-b0b4-4914f244fe6c}" lines="guild">
+			<part nodes="206 272 320 293 232 231 315 303 187"/>
+		</blocksection>
+		<blocksection uuid="{1daccaf3-e131-4acf-8da7-518b8bee8cdb}" lines="guild" speedIndicators="907">
+			<part nodes="896 210 897 899 900 907 895 274 915 903"/>
+		</blocksection>
+		<blocksection uuid="{1e7af2ca-6d32-4fbd-8a17-c9b333e1e70c}" lines="guild" speedIndicators="246">
+			<part nodes="21 15 246 101 93 200 123 178 177 147 91 236 249 82 300 325 227"/>
+		</blocksection>
+		<blocksection uuid="{214a01a0-58c6-4a59-b95f-bbbc01c19e50}" lines="guild sw110" speedIndicators="863">
+			<part nodes="903 902 911 916 913 861 186 194 90 5 298 7 9 4 1196 863 914 912 862"/>
+		</blocksection>
+		<blocksection uuid="{22cd3b2c-0ed3-4b1a-84c4-4bac348ef46e}" lines="guild sw110" shuntingBlock="true" speedIndicators="238">
+			<part nodes="269 238 224 208 209 211 214 212 247 203 337 296 226 225 336 301 59"/>
+		</blocksection>
+		<blocksection uuid="{278160bc-f8b0-40ad-8140-ff9e8ec55ffe}" lines="guild sw110" speedIndicators="904 906 907">
+			<part nodes="902 903 915 274 895 907 900 899 897 210 896 904 901 906 910"/>
+		</blocksection>
+		<blocksection uuid="{280270f0-1a2b-49e7-bd3e-8f25c585f5ea}" lines="guild">
+			<part nodes="232 293 320 272 206"/>
+		</blocksection>
+		<blocksection uuid="{2815f5e7-a01d-4895-b7da-36523ce2c433}" lines="guild sw110" speedIndicators="904 906 907">
+			<part nodes="895 907 900 899 897 210 896 904 901 906 910"/>
+		</blocksection>
+		<blocksection uuid="{2841860c-5e00-4782-b074-d4d1f1fbf2a5}" lines="guild sw265" speedIndicators="263 264 265 266">
+			<part nodes="903 902 911 916 913 861 186 194 265 195 266 193 196 263 264 197 199 198 281 308 283 280 306 285 173 3 284 310 8038"/>
+		</blocksection>
+		<blocksection uuid="{2a109a90-0686-4227-bd59-a0d0f6a8a324}" lines="guild" shuntingBlock="true" speedIndicators="263 264 265 266 267 268">
+			<part nodes="280 283 308 281 198 199 197 264 263 196 193 266 195 265 194 186 267 268 185 184 299 323 294 229"/>
+		</blocksection>
+		<blocksection uuid="{2b0e59c3-f966-4fb4-8d8d-b7f949e2849b}" lines="guild" shuntingBlock="true">
+			<part nodes="796 797 795"/>
+		</blocksection>
+		<blocksection uuid="{2ba2bc7e-7b33-4384-8500-52d88001af4e}" lines="guild">
+			<part nodes="203 337 296 226"/>
+		</blocksection>
+		<blocksection uuid="{2db12c75-a020-464d-bbe1-39ae768a728d}" lines="guild sw200" speedIndicators="250 251 253">
+			<part nodes="182 181 253 180 179 250 251 178 123 200 93 16 17"/>
+		</blocksection>
+		<blocksection uuid="{310db574-19c5-4fc0-bbc1-46d9781b849d}" lines="guild sw110" speedIndicators="237 267 268 863">
+			<part nodes="862 912 914 863 1196 4 9 7 298 5 90 194 186 267 268 185 184 299 323 294 229 230 324 237 205"/>
+		</blocksection>
+		<blocksection uuid="{317cda05-f5c6-4536-bcb3-e043987c0f71}" lines="guild" shuntingBlock="true" speedIndicators="263 264 265 266">
+			<part nodes="280 283 308 281 198 199 197 264 263 196 193 266 195 265 194 186 861 913 916 911 902 903 915 274 895"/>
+		</blocksection>
+		<blocksection uuid="{34ea53f7-e04f-4850-87d6-bb4942d4ecaf}" lines="guild sw110" shuntingBlock="true" speedIndicators="238">
+			<part nodes="269 238 224 208 209 211 214 212 247 203 337 296 226"/>
+		</blocksection>
+		<blocksection uuid="{36eab517-6f9a-41c8-ba2d-75074f53b2ee}" lines="guild" speedIndicators="5332 5333">
+			<part nodes="5330 5335 5331 5333 5332 4 9 7 298 5 90 194 186 861 913 916 911 902 903 915 274 895"/>
+		</blocksection>
+		<blocksection uuid="{3719b169-f2c3-46dd-85f3-56b9327dba3d}" lines="guild sw200" speedIndicators="256 257">
+			<part nodes="59 235 257 256 236 91 147 177 178 123 200 93 16 17"/>
+		</blocksection>
+		<blocksection uuid="{39523eb1-5894-411b-a4ff-a6080756b0fe}" lines="guild sw110" speedIndicators="267 268 863">
+			<part nodes="862 912 914 863 1196 4 9 7 298 5 90 194 186 267 268 185 184 299 323 294 229"/>
+		</blocksection>
+		<blocksection uuid="{3a27a9d5-8c11-401d-a0a4-197eacbb2577}" lines="guild sw265" speedIndicators="240 263 264">
+			<part nodes="187 240 189 193 196 263 264 197 199 198 281 308 283 280 306 285 173 3 284 310 8038"/>
+		</blocksection>
+		<blocksection uuid="{3b018970-3189-4803-bf86-47b3fe1675a8}" lines="guild" shuntingBlock="true" speedIndicators="263 264 265 266">
+			<part nodes="861 186 194 265 195 266 193 196 263 264 197 199 198 281 308 283 280 306 285 173 3"/>
+		</blocksection>
+		<blocksection uuid="{3bda1257-4258-4939-8e29-58b40c566b8e}" lines="guild" shuntingBlock="true">
+			<part nodes="3 173 285 306 280"/>
+		</blocksection>
+		<blocksection uuid="{3c636418-71a9-4073-b0ba-36424d6c990b}" lines="guild sw110" shuntingBlock="true" speedIndicators="238 243 904 908 909">
+			<part nodes="269 238 224 909 908 901 904 896 210 897 899 244 222 220 243 207 270 290 319 234 233 314 304 190"/>
+		</blocksection>
+		<blocksection uuid="{3d74a7ce-2d3b-4af7-bec6-2bbc62726178}" lines="guild" speedIndicators="246">
+			<part nodes="21 15 246 101 93 200 123 178 177 147 91 236 249 82 300 325 227 228 295 331 275 204"/>
+		</blocksection>
+		<blocksection uuid="{3ecb7cd9-c67d-47a6-81cd-3e63114014c5}" lines="guild sw200" speedIndicators="249">
+			<part nodes="82 249 236 91 147 177 178 123 200 93 16 17"/>
+		</blocksection>
+		<blocksection uuid="{3f2e17b3-81b8-4f35-bdfd-99abee333d76}" lines="guild sw265">
+			<part nodes="327 6 201 307 196 193 189 240 187 303 315 231"/>
+		</blocksection>
+		<blocksection uuid="{3fe5386d-b374-42b2-9dd4-bc47cff720cb}" lines="guild sw110" speedIndicators="249 254 255 863">
+			<part nodes="228 227 325 300 82 249 236 91 147 254 153 255 5 298 7 9 4 1196 863 914 912 862"/>
+		</blocksection>
+		<blocksection uuid="{404a65fd-bb14-4b84-bc25-d63fed5250cd}" lines="guild sw110" speedIndicators="248 904 906">
+			<part nodes="204 248 217 218 215 897 210 896 904 901 906 910"/>
+		</blocksection>
+		<blocksection uuid="{43fc6024-4c5d-4ca9-8309-6b15bce91518}" lines="guild">
+			<part nodes="234 319 290 270 207"/>
+		</blocksection>
+		<blocksection uuid="{44e56684-ca12-4d4f-bd9a-36d2d015bdd2}" lines="guild sw110" speedIndicators="255 863">
+			<part nodes="862 912 914 863 1196 4 9 7 298 5 255 153 254 147 91 236 249 82 300 325 227"/>
+		</blocksection>
+		<blocksection uuid="{460a8a96-7708-470a-895b-9b8de09985e8}" lines="guild" speedIndicators="241 242">
+			<part nodes="896 210 897 899 900 242 223 221 241 206 272 320 293 232"/>
+		</blocksection>
+		<blocksection uuid="{485e07e1-5e27-47bd-85a9-19eead033f77}" lines="guild sw110" speedIndicators="240 258 259 863">
+			<part nodes="232 231 315 303 187 240 189 193 196 307 201 6 259 258 7 9 4 1196 863 914 912 862"/>
+		</blocksection>
+		<blocksection uuid="{49fad92f-9756-4595-82cf-4617d5774610}" lines="guild">
+			<part nodes="895 274 915 903 902 911 916 913 861"/>
+		</blocksection>
+		<blocksection uuid="{4b06eea5-db4f-4608-b5eb-de5386c6d6d9}" lines="guild">
+			<part nodes="190 304 314 233"/>
+		</blocksection>
+		<blocksection uuid="{4b5d396a-edae-4c06-81f4-49f274eecf8d}" lines="guild">
+			<part nodes="82 300 325 227"/>
+		</blocksection>
+		<blocksection uuid="{4c23794d-fe3b-42a1-9df1-8897d8ccdc91}" lines="guild sw110" shuntingBlock="true" speedIndicators="238 904 907 908 909">
+			<part nodes="902 903 915 274 895 907 900 899 897 210 896 904 901 908 909 224 238 269"/>
+		</blocksection>
+		<blocksection uuid="{4e79a0e7-d5d6-4f49-900e-f107dc1a6e27}" lines="guild">
+			<part nodes="228 295 331 275 204"/>
+		</blocksection>
+		<blocksection uuid="{4e7b683c-d76c-40b3-a8d7-c6cdb114ba7a}" lines="guild sw110" speedIndicators="248 904 906">
+			<part nodes="227 228 295 331 275 204 248 217 218 215 897 210 896 904 901 906 910"/>
+		</blocksection>
+		<blocksection uuid="{550a1753-6a6a-4438-92ba-d2cd17805902}" lines="guild sw110" speedIndicators="255 256 257 863">
+			<part nodes="862 912 914 863 1196 4 9 7 298 5 255 153 254 147 91 236 256 257 235 59 301 336 225"/>
+		</blocksection>
+		<blocksection uuid="{554d882f-fe9b-43f7-8337-8be09355f29d}" lines="guild sw265">
+			<part nodes="327 6 201 307 196 193 189 240 187 303 315 231 232 293 320 272 206"/>
+		</blocksection>
+		<blocksection uuid="{556a2740-2c68-470e-a024-cf695b6e243a}" lines="guild sw110" speedIndicators="249 254 255 863">
+			<part nodes="82 249 236 91 147 254 153 255 5 298 7 9 4 1196 863 914 912 862"/>
+		</blocksection>
+		<blocksection uuid="{563f43b2-22ab-45e4-9526-dcc7c084f149}" lines="guild sw110" speedIndicators="238 248 904 908 909">
+			<part nodes="227 228 295 331 275 204 248 217 218 215 897 210 896 904 901 908 909 224 238 269"/>
+		</blocksection>
+		<blocksection uuid="{58b2ee12-4d31-4ca0-aa45-53578ac2c527}" lines="guild">
+			<part nodes="187 303 315 231"/>
+		</blocksection>
+		<blocksection uuid="{5926b34b-96ea-4d68-adff-5d785a2a7278}" lines="guild">
+			<part nodes="896 210 897 215 218 217 248 204 275 331 295 228"/>
+		</blocksection>
+		<blocksection uuid="{5a00e381-6a12-49d2-8683-3138e315d9f8}" lines="guild">
+			<part nodes="82 300 325 227 228 295 331 275 204"/>
+		</blocksection>
+		<blocksection uuid="{5d294cc4-fd03-41c6-af49-a344439e43e0}" lines="guild" speedIndicators="246">
+			<part nodes="21 15 246 101 92 179 180 154 235 59 301 336 225"/>
+		</blocksection>
+		<blocksection uuid="{5d62ce89-4b5a-4df6-bae5-b0e017cdc18c}" lines="guild">
+			<part nodes="207 270 290 319 234 233 314 304 190"/>
+		</blocksection>
+		<blocksection uuid="{5e1b72fd-07d4-4622-9f20-66683c26de8e}" lines="guild" shuntingBlock="true" speedIndicators="258 259 260 261 262 5332 5333">
+			<part nodes="5330 5335 5331 5333 5332 4 9 7 258 259 6 201 261 309 260 198 199 262 288 286 287 795 797 796"/>
+		</blocksection>
+		<blocksection uuid="{5ece677e-f714-460b-8320-1e4493dee87d}" lines="guild">
+			<part nodes="895 274 915 903"/>
+		</blocksection>
+		<blocksection uuid="{5edb86ba-05f6-457f-8f82-5376b4f46746}" lines="guild sw110" speedIndicators="255 863">
+			<part nodes="862 912 914 863 1196 4 9 7 298 5 255 153 254 147 91 236 249 82 300 325 227 228 295 331 275 204"/>
+		</blocksection>
+		<blocksection uuid="{60b87a1d-f257-42c7-948d-df25c9f1b738}" lines="guild sw110" speedIndicators="254 255 256 257 863">
+			<part nodes="59 235 257 256 236 91 147 254 153 255 5 298 7 9 4 1196 863 914 912 862"/>
+		</blocksection>
+		<blocksection uuid="{6220831d-fa8a-4c46-87f5-530066b520a0}" lines="guild">
+			<part nodes="231 315 303 187"/>
+		</blocksection>
+		<blocksection uuid="{638976b4-32ac-4c7f-8a5c-c92e518ecb34}" lines="guild sw110" speedIndicators="243 244 904 906">
+			<part nodes="233 234 319 290 270 207 243 220 222 244 899 897 210 896 904 901 906 910"/>
+		</blocksection>
+		<blocksection uuid="{638bab11-09da-442b-acc8-a90d327abd81}" lines="guild" speedIndicators="252">
+			<part nodes="5330 5335 5331 1 2 94 297 175 252 177 154 235 59 301 336 225 226 296 337 203"/>
+		</blocksection>
+		<blocksection uuid="{64b08c1c-000b-4dfd-93ce-42ad456e61e5}" lines="guild" speedIndicators="246 253">
+			<part nodes="21 15 246 101 92 179 180 253 181 182 302 183"/>
+		</blocksection>
+		<blocksection uuid="{6732d18a-7415-4d7d-ae8f-e1e6e970e6eb}" lines="guild" speedIndicators="237">
+			<part nodes="205 237 324 230 229 294 323 299 184"/>
+		</blocksection>
+		<blocksection uuid="{6a7acb2d-3c8a-466f-b85a-10ecfe0db72e}" lines="guild sw265" speedIndicators="245">
+			<part nodes="234 233 314 304 190 245 191 197 199 198 281 308 283 280 306 285 173 3 284 310 8038"/>
+		</blocksection>
+		<blocksection uuid="{6ae2a4a2-0896-4cc4-8420-6c6bfe803d28}" lines="guild" speedIndicators="243 244">
+			<part nodes="896 210 897 899 244 222 220 243 207 270 290 319 234 233 314 304 190"/>
+		</blocksection>
+		<blocksection uuid="{6c28cd6e-7532-4506-a789-a92e115b603e}" lines="guild" speedIndicators="255 5332 5333">
+			<part nodes="5330 5335 5331 5333 5332 4 9 7 298 5 255 153 254 147 91 236 249 82 300 325 227 228 295 331 275 204"/>
+		</blocksection>
+		<blocksection uuid="{6e01d1f4-f1f4-4d66-8001-657ddc9911e3}" lines="guild sw265" speedIndicators="260 261">
+			<part nodes="327 6 201 261 309 260 198 199 197 191 245 190 304 314 233 234 319 290 270 207"/>
+		</blocksection>
+		<blocksection uuid="{7022d969-f8f8-4eb3-89f7-1143cecfbc0b}" lines="guild sw265" shuntingBlock="true" speedIndicators="260 261 262">
+			<part nodes="327 6 201 261 309 260 198 199 262 288 286 287 795 797 796"/>
+		</blocksection>
+		<blocksection uuid="{70654841-b8e4-4a56-a597-b5ae944ccdfa}" lines="guild sw110" shuntingBlock="true" speedIndicators="237 238">
+			<part nodes="269 238 224 208 209 211 215 219 205 237 324 230"/>
+		</blocksection>
+		<blocksection uuid="{73b48360-ba8c-41f6-86d1-49077485929e}" lines="guild" speedIndicators="246 256 257">
+			<part nodes="21 15 246 101 93 200 123 178 177 147 91 236 256 257 235 59 301 336 225 226 296 337 203"/>
+		</blocksection>
+		<blocksection uuid="{74bb0cd1-2c5d-4746-b130-c50e4ed71cde}" lines="guild sw110" shuntingBlock="true" speedIndicators="258 259 260 261 262 863">
+			<part nodes="862 912 914 863 1196 4 9 7 258 259 6 201 261 309 260 198 199 262 288 286 287 795 797 796"/>
+		</blocksection>
+		<blocksection uuid="{76e8db0a-f2c0-40e5-b628-b422b2f4f564}" lines="guild" speedIndicators="246">
+			<part nodes="21 15 246 101 92 179 180 154 235 59 301 336 225 226 296 337 203"/>
+		</blocksection>
+		<blocksection uuid="{76fb9afb-23c4-45d4-80a9-d168ae8c5a05}" lines="guild">
+			<part nodes="204 275 331 295 228 227 325 300 82"/>
+		</blocksection>
+		<blocksection uuid="{7793ce03-4144-4562-b811-152e1377da8c}" lines="guild" speedIndicators="258 259 5332 5333">
+			<part nodes="5330 5335 5331 5333 5332 4 9 7 258 259 6 201 307 196 193 189 240 187 303 315 231 232 293 320 272 206"/>
+		</blocksection>
+		<blocksection uuid="{77d0adce-a543-4e1b-88d7-7f89fb6b829a}" lines="guild">
+			<part nodes="896 210 897 215 218 217 248 204 275 331 295 228 227 325 300 82"/>
+		</blocksection>
+		<blocksection uuid="{7d4a4ed7-5804-4b1f-8227-0d5535c73f76}" lines="guild sw110" speedIndicators="238 247">
+			<part nodes="203 247 212 214 211 209 208 224 238 269"/>
+		</blocksection>
+		<blocksection uuid="{8121217b-2386-4d18-ac11-6c3c9e277ae8}" lines="guild sw110" shuntingBlock="true" speedIndicators="238 243 904 908 909">
+			<part nodes="233 234 319 290 270 207 243 220 222 244 899 897 210 896 904 901 908 909 224 238 269"/>
+		</blocksection>
+		<blocksection uuid="{8221a952-5761-4727-b8ef-dfb546d10ed3}" lines="guild sw110" shuntingBlock="true" speedIndicators="237 238">
+			<part nodes="269 238 224 208 209 211 215 219 205 237 324 230 229 294 323 299 184"/>
+		</blocksection>
+		<blocksection uuid="{87bcfde0-b9b5-4b8b-844c-73ce9bb0e1f8}" lines="guild" shuntingBlock="true" speedIndicators="245">
+			<part nodes="190 245 191 197 199 198 281 308 283 280 306 285 173 3"/>
+		</blocksection>
+		<blocksection uuid="{897e127c-df4c-4d5d-9237-8df82cae88e4}" lines="guild sw110" speedIndicators="245 258 259 260 261 863">
+			<part nodes="190 245 191 197 199 198 260 309 261 201 6 259 258 7 9 4 1196 863 914 912 862"/>
+		</blocksection>
+		<blocksection uuid="{8be2aed5-7f34-424e-8c51-6f124f9b0acb}" lines="guild sw110" speedIndicators="258 259 260 261 262 863">
+			<part nodes="795 287 286 288 262 199 198 260 309 261 201 6 259 258 7 9 4 1196 863 914 912 862"/>
+		</blocksection>
+		<blocksection uuid="{8c196c14-514b-4bff-9783-63781c97107c}" lines="guild sw110" shuntingBlock="true" speedIndicators="238 904 907 908 909">
+			<part nodes="895 907 900 899 897 210 896 904 901 908 909 224 238 269"/>
+		</blocksection>
+		<blocksection uuid="{8c8970f2-6b74-4a77-9cdd-a1629e9cc35e}" lines="guild">
+			<part nodes="183 302 182"/>
+		</blocksection>
+		<blocksection uuid="{8f1461b0-cd69-4c3f-889c-c64ef18963f1}" lines="guild sw110" shuntingBlock="true" speedIndicators="237 238">
+			<part nodes="229 230 324 237 205 219 215 211 209 208 224 238 269"/>
+		</blocksection>
+		<blocksection uuid="{8fa42595-fb97-4c3e-a015-08aebfbb9a6f}" lines="guild sw110" shuntingBlock="true" speedIndicators="238 241 904 908 909">
+			<part nodes="231 232 293 320 272 206 241 221 223 242 900 899 897 210 896 904 901 908 909 224 238 269"/>
+		</blocksection>
+		<blocksection uuid="{908289f9-b674-4321-9d17-c0cc5d792099}" lines="guild" speedIndicators="202 237">
+			<part nodes="5330 5335 5331 1 2 94 297 175 153 202 185 184 299 323 294 229 230 324 237 205"/>
+		</blocksection>
+		<blocksection uuid="{918ee984-55ed-44dc-bf9d-af957e1644de}" lines="guild sw110" speedIndicators="258 259 260 261 863">
+			<part nodes="862 912 914 863 1196 4 9 7 258 259 6 201 261 309 260 198 199 197 191 245 190 304 314 233"/>
+		</blocksection>
+		<blocksection uuid="{91bc7bf8-04d7-4e33-b0b2-2e5ed4a0dab7}" lines="guild sw110" speedIndicators="241 242 904 906">
+			<part nodes="206 241 221 223 242 900 899 897 210 896 904 901 906 910"/>
+		</blocksection>
+		<blocksection uuid="{93f18475-0a9f-4db9-a709-594fddfa7a69}" lines="guild" speedIndicators="255 5332 5333">
+			<part nodes="5330 5335 5331 5333 5332 4 9 7 298 5 255 153 254 147 91 236 249 82 300 325 227"/>
+		</blocksection>
+		<blocksection uuid="{95b5faf5-6941-417e-9ffe-e2d4fb4a5aed}" lines="guild sw265" speedIndicators="263 264 265 266 267 268">
+			<part nodes="230 229 294 323 299 184 185 268 267 186 194 265 195 266 193 196 263 264 197 199 198 281 308 283 280 306 285 173 3 284 310 8038"/>
+		</blocksection>
+		<blocksection uuid="{95e5f14f-0f2e-4a31-adfb-9753aa5037fb}" lines="guild" speedIndicators="241 242">
+			<part nodes="896 210 897 899 900 242 223 221 241 206 272 320 293 232 231 315 303 187"/>
+		</blocksection>
+		<blocksection uuid="{98c11f3d-1187-4f0c-bfb8-de2412ff50ea}" lines="guild sw265" speedIndicators="260 261">
+			<part nodes="327 6 201 261 309 260 198 199 197 191 245 190 304 314 233"/>
+		</blocksection>
+		<blocksection uuid="{9a4e77c8-341b-482f-837b-c82e11b9ef33}" lines="guild">
+			<part nodes="190 304 314 233 234 319 290 270 207"/>
+		</blocksection>
+		<blocksection uuid="{9e2bcefe-bdae-403a-998c-610b1ca23afe}" lines="guild">
+			<part nodes="207 270 290 319 234"/>
+		</blocksection>
+		<blocksection uuid="{9f478c70-320f-419a-a7f1-b75968e4466a}" lines="guild" shuntingBlock="true" speedIndicators="240 263 264">
+			<part nodes="187 240 189 193 196 263 264 197 199 198 281 308 283 280 306 285 173 3"/>
+		</blocksection>
+		<blocksection uuid="{a0ff8806-7862-403c-be54-9286eb62ba54}" lines="guild sw110" speedIndicators="267 268 863">
+			<part nodes="230 229 294 323 299 184 185 268 267 186 194 90 5 298 7 9 4 1196 863 914 912 862"/>
+		</blocksection>
+		<blocksection uuid="{a7a167f3-25a1-402a-9591-8e05e67db90c}" lines="guild sw110" speedIndicators="258 259 260 261 863">
+			<part nodes="862 912 914 863 1196 4 9 7 258 259 6 201 261 309 260 198 199 197 191 245 190 304 314 233 234 319 290 270 207"/>
+		</blocksection>
+		<blocksection uuid="{a7cd5e96-bd90-4aca-9ab8-6129edc7a4b4}" lines="guild" speedIndicators="237">
+			<part nodes="205 237 324 230"/>
+		</blocksection>
+		<blocksection uuid="{a8a1ceaf-7e61-4c53-831e-fa7b2d780f3a}" lines="guild">
+			<part nodes="229 294 323 299 184"/>
+		</blocksection>
+		<blocksection uuid="{a8e10e11-4c17-4214-87d2-647afe062698}" lines="guild">
+			<part nodes="203 337 296 226 225 336 301 59"/>
+		</blocksection>
+		<blocksection uuid="{abe61267-d82d-4b0f-a31e-0cf57cb5a0df}" lines="guild sw110" speedIndicators="267 268 863">
+			<part nodes="184 185 268 267 186 194 90 5 298 7 9 4 1196 863 914 912 862"/>
+		</blocksection>
+		<blocksection uuid="{ac3b6615-25de-48d0-bc2f-563ebf83ae5a}" lines="guild" speedIndicators="258 259 260 261 5332 5333">
+			<part nodes="5330 5335 5331 5333 5332 4 9 7 258 259 6 201 261 309 260 198 199 197 191 245 190 304 314 233"/>
+		</blocksection>
+		<blocksection uuid="{afc43c74-f2cd-409c-abb0-cf999d5e91d5}" lines="guild" speedIndicators="5332 5333">
+			<part nodes="5330 5335 5331 5333 5332 4 9 7 298 5 90 194 186 861 913 916 911 902"/>
+		</blocksection>
+		<blocksection uuid="{b05706f1-0f4b-4ae0-8662-e108da24fe53}" lines="guild" speedIndicators="258 259 5332 5333">
+			<part nodes="5330 5335 5331 5333 5332 4 9 7 258 259 6 201 307 196 193 189 240 187 303 315 231"/>
+		</blocksection>
+		<blocksection uuid="{b0bd318c-6f94-45ef-93c4-12b71f328701}" lines="guild sw110" shuntingBlock="true" speedIndicators="238 241 904 908 909">
+			<part nodes="206 241 221 223 242 900 899 897 210 896 904 901 908 909 224 238 269"/>
+		</blocksection>
+		<blocksection uuid="{b177075c-0e94-4c72-92b8-70a8b39ea206}" lines="guild">
+			<part nodes="187 303 315 231 232 293 320 272 206"/>
+		</blocksection>
+		<blocksection uuid="{b5bac0bf-e47b-41b4-8cd8-a7f529721046}" lines="guild sw110" speedIndicators="238">
+			<part nodes="205 219 215 211 209 208 224 238 269"/>
+		</blocksection>
+		<blocksection uuid="{b5dd713c-6d6f-4674-b99e-811b81a29fa9}" lines="guild sw110" speedIndicators="238 243 244 904 908 909">
+			<part nodes="207 243 220 222 244 899 897 210 896 904 901 908 909 224 238 269"/>
+		</blocksection>
+		<blocksection uuid="{b6b72c58-1afb-4e6a-979a-1d483c920040}" lines="guild sw265" speedIndicators="240 263 264">
+			<part nodes="232 231 315 303 187 240 189 193 196 263 264 197 199 198 281 308 283 280 306 285 173 3 284 310 8038"/>
+		</blocksection>
+		<blocksection uuid="{b7268c32-7b61-4310-b1a3-1065fe81c956}" lines="guild sw110" speedIndicators="237 238">
+			<part nodes="229 230 324 237 205 219 215 211 209 208 224 238 269"/>
+		</blocksection>
+		<blocksection uuid="{b9c88c61-2833-4f27-b09a-a57670801eec}" lines="guild sw200" speedIndicators="250 251">
+			<part nodes="226 225 336 301 59 235 154 180 179 250 251 178 123 200 93 16 17"/>
+		</blocksection>
+		<blocksection uuid="{ba0a0217-0323-45aa-a6ff-325f2398f0d8}" lines="guild sw265" speedIndicators="237 265 266 267 268">
+			<part nodes="327 6 201 307 196 193 266 195 265 194 186 267 268 185 184 299 323 294 229 230 324 237 205"/>
+		</blocksection>
+		<blocksection uuid="{bbe49d4a-4f0f-4074-b06c-b10d6f699ef2}" lines="guild">
+			<part nodes="227 325 300 82"/>
+		</blocksection>
+		<blocksection uuid="{c077edfe-687e-4c93-a7fe-e21239ade49e}" lines="guild" shuntingBlock="true" speedIndicators="262">
+			<part nodes="795 287 286 288 262 199 198 281 308 283 280 306 285 173 3"/>
+		</blocksection>
+		<blocksection uuid="{c0b0e420-3435-4cdf-9b47-e337a79d2fb2}" lines="guild" shuntingBlock="true" speedIndicators="262">
+			<part nodes="280 283 308 281 198 199 262 288 286 287 795 797 796"/>
+		</blocksection>
+		<blocksection uuid="{c0d9b530-2f52-4f52-a6f0-dec43872f827}" lines="guild sw110" speedIndicators="238 243 244 904 908 909">
+			<part nodes="233 234 319 290 270 207 243 220 222 244 899 897 210 896 904 901 908 909 224 238 269"/>
+		</blocksection>
+		<blocksection uuid="{c1b37c07-1421-4101-bf34-b67e1bc3a6a4}" lines="guild" speedIndicators="252">
+			<part nodes="5330 5335 5331 1 2 94 297 175 252 177 154 235 59 301 336 225"/>
+		</blocksection>
+		<blocksection uuid="{c2197b30-f7f7-46a6-8295-a221f3b231d4}" lines="guild">
+			<part nodes="903 915 274 895"/>
+		</blocksection>
+		<blocksection uuid="{c2268c51-d780-4fa1-9b29-dd9f9515e901}" lines="guild">
+			<part nodes="861 913 916 911 902"/>
+		</blocksection>
+		<blocksection uuid="{c420d774-411c-4104-9fde-9700178d6570}" lines="guild" speedIndicators="243 244">
+			<part nodes="896 210 897 899 244 222 220 243 207 270 290 319 234"/>
+		</blocksection>
+		<blocksection uuid="{c61b7f06-7131-4dbd-9a27-5025fd924e6e}" lines="guild sw110">
+			<part nodes="862 912 914 863 1196 4 9 7 298 5 255 153 254 147 91 236 256 257 235 59 301 336 225 226 296 337 203"/>
+		</blocksection>
+		<blocksection uuid="{c7f5f0e0-3154-4735-9a01-3b75937c59d1}" lines="guild sw110" shuntingBlock="true" speedIndicators="238 247">
+			<part nodes="225 226 296 337 203 247 212 214 211 209 208 224 238 269"/>
+		</blocksection>
+		<blocksection uuid="{ca5ace7a-210b-404b-920e-d454bc2bdd51}" lines="guild sw110" speedIndicators="904 906">
+			<part nodes="910 906 901 904 896"/>
+		</blocksection>
+		<blocksection uuid="{cb110acc-b06a-413c-ae4c-5226a1c6fb79}" lines="guild sw110" shuntingBlock="true" speedIndicators="238 904 907 908 909">
+			<part nodes="269 238 224 909 908 901 904 896 210 897 899 900 907 895 274 915 903"/>
+		</blocksection>
+		<blocksection uuid="{ccd1f367-5016-4519-9fc8-654ebd2d7f0b}" lines="guild sw110">
+			<part nodes="5375 5330"/>
+		</blocksection>
+		<blocksection uuid="{cd4d3234-bed2-4926-877f-78230c5b4550}" lines="guild sw110" shuntingBlock="true" speedIndicators="238 247">
+			<part nodes="203 247 212 214 211 209 208 224 238 269"/>
+		</blocksection>
+		<blocksection uuid="{cd5e1bcc-e415-43c5-8608-d8c5b23777bd}" lines="guild sw110" shuntingBlock="true" speedIndicators="238">
+			<part nodes="205 219 215 211 209 208 224 238 269"/>
+		</blocksection>
+		<blocksection uuid="{cd6a632b-c182-49e1-be0c-39a64cc0bc53}" lines="guild sw110" speedIndicators="863">
+			<part nodes="861 186 194 90 5 298 7 9 4 1196 863 914 912 862"/>
+		</blocksection>
+		<blocksection uuid="{d11901a5-18b5-4b1a-aa5e-d0f0e8ba8915}" lines="guild" speedIndicators="246 256 257">
+			<part nodes="21 15 246 101 93 200 123 178 177 147 91 236 256 257 235 59 301 336 225"/>
+		</blocksection>
+		<blocksection uuid="{d4ab6176-6aea-4278-b7e0-c7d97d7e0648}" lines="guild sw110" speedIndicators="245 258 259 260 261 863">
+			<part nodes="234 233 314 304 190 245 191 197 199 198 260 309 261 201 6 259 258 7 9 4 1196 863 914 912 862"/>
+		</blocksection>
+		<blocksection uuid="{d4d62347-aa2b-4fb2-b7fa-9fc4575f7805}" lines="guild sw110" shuntingBlock="true" speedIndicators="238 243 904 908 909">
+			<part nodes="269 238 224 909 908 901 904 896 210 897 899 244 222 220 243 207 270 290 319 234"/>
+		</blocksection>
+		<blocksection uuid="{d563bde5-ac62-41cb-8af2-a68d0d0c72e1}" lines="guild" shuntingBlock="true" speedIndicators="263 264 265 266">
+			<part nodes="280 283 308 281 198 199 197 264 263 196 193 266 195 265 194 186 861 913 916 911 902"/>
+		</blocksection>
+		<blocksection uuid="{d62ca3ee-7742-4bff-901d-bdbbed8f1a03}" lines="guild sw110" shuntingBlock="true" speedIndicators="238 241 904 908 909">
+			<part nodes="269 238 224 909 908 901 904 896 210 897 899 900 242 223 221 241 206 272 320 293 232 231 315 303 187"/>
+		</blocksection>
+		<blocksection uuid="{d62deb1d-4ab1-453c-8bbd-b261a76b0d23}" lines="guild sw200" speedIndicators="256 257">
+			<part nodes="226 225 336 301 59 235 257 256 236 91 147 177 178 123 200 93 16 17"/>
+		</blocksection>
+		<blocksection uuid="{d9138312-c9aa-4a98-9f8a-fc444f2fdcff}" lines="guild sw110" speedIndicators="238 248 904 908 909">
+			<part nodes="204 248 217 218 215 897 210 896 904 901 908 909 224 238 269"/>
+		</blocksection>
+		<blocksection uuid="{dd0bfc09-4d9f-4ad4-b387-05a95a7b4cfb}" lines="guild sw110" speedIndicators="238 247">
+			<part nodes="225 226 296 337 203 247 212 214 211 209 208 224 238 269"/>
+		</blocksection>
+		<blocksection uuid="{dd3c84bf-e0b0-474e-afd0-a501a5e0c1a8}" lines="guild" shuntingBlock="true" speedIndicators="263 264">
+			<part nodes="280 283 308 281 198 199 197 264 263 196 193 189 240 187 303 315 231"/>
+		</blocksection>
+		<blocksection uuid="{dfc76da0-a3d7-46f5-b41e-fb7901e97b7d}" lines="guild sw110" speedIndicators="241 242 904 906">
+			<part nodes="231 232 293 320 272 206 241 221 223 242 900 899 897 210 896 904 901 906 910"/>
+		</blocksection>
+		<blocksection uuid="{e08f6b67-c4e7-4220-848f-d4b21f1678c0}" lines="guild sw110" shuntingBlock="true" speedIndicators="238 243 904 908 909">
+			<part nodes="207 243 220 222 244 899 897 210 896 904 901 908 909 224 238 269"/>
+		</blocksection>
+		<blocksection uuid="{e0b28f64-4d7e-4749-bdc8-dba680f9e3f8}" lines="guild sw200">
+			<part nodes="11 20 21"/>
+		</blocksection>
+		<blocksection uuid="{e367b095-2d6b-49f7-be9b-47cc735137d5}" lines="guild">
+			<part nodes="204 275 331 295 228"/>
+		</blocksection>
+		<blocksection uuid="{e78a699a-f3d5-4cdf-8d28-c88c4911037b}" lines="guild sw265" speedIndicators="262">
+			<part nodes="795 287 286 288 262 199 198 281 308 283 280 306 285 173 3 284 310 8038"/>
+		</blocksection>
+		<blocksection uuid="{e7b0b1a1-2af7-4830-9469-6ecb1cfd4e33}" lines="guild sw110" speedIndicators="238 241 242 904 908 909">
+			<part nodes="231 232 293 320 272 206 241 221 223 242 900 899 897 210 896 904 901 908 909 224 238 269"/>
+		</blocksection>
+		<blocksection uuid="{e898dbc4-0c31-4773-a309-ac32533dccc9}" lines="guild sw265" speedIndicators="265 266">
+			<part nodes="327 6 201 307 196 193 266 195 265 194 186 861 913 916 911 902 903 915 274 895"/>
+		</blocksection>
+		<blocksection uuid="{e8a9b1f9-5f94-493d-b7c6-d9b84c902657}" lines="guild">
+			<part nodes="206 272 320 293 232"/>
+		</blocksection>
+		<blocksection uuid="{e8d33c85-f5ad-4e84-84c5-7288c91086af}" lines="guild">
+			<part nodes="902 911 916 913 861"/>
+		</blocksection>
+		<blocksection uuid="{e9560cb3-499d-4ca5-a55c-b8c8199da879}" lines="guild" shuntingBlock="true" speedIndicators="263 264 265 266 267 268">
+			<part nodes="184 185 268 267 186 194 265 195 266 193 196 263 264 197 199 198 281 308 283 280 306 285 173 3"/>
+		</blocksection>
+		<blocksection uuid="{ea53d411-ee1c-442c-9f91-e9d7ee41a1f3}" lines="guild" speedIndicators="258 259 260 261 5332 5333">
+			<part nodes="5330 5335 5331 5333 5332 4 9 7 258 259 6 201 261 309 260 198 199 197 191 245 190 304 314 233 234 319 290 270 207"/>
+		</blocksection>
+		<blocksection uuid="{ea993f0e-13cc-4c63-a6a3-a09ccf997e76}" lines="guild sw110" speedIndicators="863">
+			<part nodes="862 912 914 863 1196 4 9 7 298 5 90 194 186 861 913 916 911 902"/>
+		</blocksection>
+		<blocksection uuid="{ecfc6ba4-68f0-43f7-adb7-49f045441788}" lines="guild" shuntingBlock="true" speedIndicators="237 263 264 265 266 267 268">
+			<part nodes="280 283 308 281 198 199 197 264 263 196 193 266 195 265 194 186 267 268 185 184 299 323 294 229 230 324 237 205"/>
+		</blocksection>
+		<blocksection uuid="{eedbdd0a-9ac2-4de5-83a2-51034f06236e}" lines="guild" shuntingBlock="true">
+			<part nodes="280 283 308 281 198 199 197 191 245 190 304 314 233"/>
+		</blocksection>
+		<blocksection uuid="{f12f21f3-141c-43ca-ae47-ce7b3cc36a6c}" lines="guild sw110" shuntingBlock="true" speedIndicators="238 248 904 908 909">
+			<part nodes="204 248 217 218 215 897 210 896 904 901 908 909 224 238 269"/>
+		</blocksection>
+		<blocksection uuid="{f1f726af-0370-4d9c-bfb9-c4ae0f9096d2}" lines="guild" shuntingBlock="true">
+			<part nodes="280 283 308 281 198 199 197 191 245 190 304 314 233 234 319 290 270 207"/>
+		</blocksection>
+		<blocksection uuid="{f4dc1e47-17ba-4072-94a9-7d5a6db82d4e}" lines="guild sw200" speedIndicators="249">
+			<part nodes="228 227 325 300 82 249 236 91 147 177 178 123 200 93 16 17"/>
+		</blocksection>
+		<blocksection uuid="{f4e6a711-5f57-4c6a-a299-cd73bfc32a4c}" lines="guild sw110" speedIndicators="258 259 863">
+			<part nodes="862 912 914 863 1196 4 9 7 258 259 6 201 307 196 193 189 240 187 303 315 231"/>
+		</blocksection>
+		<blocksection uuid="{f84656fa-eafc-4653-a5e3-7734cc287227}" lines="guild sw110" shuntingBlock="true" speedIndicators="238 248 904 908 909">
+			<part nodes="227 228 295 331 275 204 248 217 218 215 897 210 896 904 901 908 909 224 238 269"/>
+		</blocksection>
+		<blocksection uuid="{f946eb1d-d3ee-4971-a68d-0eece8a20a29}" lines="guild sw110" speedIndicators="254 255 256 257 863">
+			<part nodes="226 225 336 301 59 235 257 256 236 91 147 254 153 255 5 298 7 9 4 1196 863 914 912 862"/>
+		</blocksection>
+		<blocksection uuid="{f9728716-7011-46f8-9b2c-ba1ee8e8fda2}" lines="guild">
+			<part nodes="861 913 916 911 902 903 915 274 895"/>
+		</blocksection>
+		<blocksection uuid="{fa1029a0-c0f8-4b93-8ba1-65735f9c0d6a}" lines="guild sw265" speedIndicators="263 264 265 266">
+			<part nodes="861 186 194 265 195 266 193 196 263 264 197 199 198 281 308 283 280 306 285 173 3 284 310 8038"/>
+		</blocksection>
+		<blocksection uuid="{fb1eb98e-c06f-4c1a-8a24-84a6a32376af}" lines="guild" shuntingBlock="true" speedIndicators="245">
+			<part nodes="234 233 314 304 190 245 191 197 199 198 281 308 283 280 306 285 173 3"/>
+		</blocksection>
+		<blocksection uuid="{fcd49c42-9d88-43aa-af9c-c91dd37b05a1}" lines="guild" shuntingBlock="true" speedIndicators="263 264 265 266">
+			<part nodes="903 902 911 916 913 861 186 194 265 195 266 193 196 263 264 197 199 198 281 308 283 280 306 285 173 3"/>
+		</blocksection>
+		<blocksection uuid="{fe037164-ebfe-4d90-afdd-45407620752c}" lines="guild" shuntingBlock="true" speedIndicators="263 264 265 266 267 268">
+			<part nodes="230 229 294 323 299 184 185 268 267 186 194 265 195 266 193 196 263 264 197 199 198 281 308 283 280 306 285 173 3"/>
+		</blocksection>
+		<blocksection uuid="{fea772fe-8ea5-45e5-a024-132cbc166e21}" lines="guild sw110" shuntingBlock="true" speedIndicators="238 904 907 908 909">
+			<part nodes="269 238 224 909 908 901 904 896 210 897 899 900 907 895 274 915 903 902 911 916 913 861"/>
+		</blocksection>
+	</blockSections>
+	<slipDistances>
+		<slipdistance uuid="{03c3d654-7925-48bd-b30b-a14ddf14d9c7}" publicName="P6" vmax="999" lines="guild" serialNumber="2">
+			<part nodes="896 210 897 899 900 242 223 221 241 206 272"/>
+		</slipdistance>
+		<slipdistance uuid="{0b72ea7f-68d1-4f0c-8fd7-8c997c70f37d}" vmax="999" lines="guild" serialNumber="0">
+			<part nodes="82 249 236 91"/>
+		</slipdistance>
+		<slipdistance uuid="{0d5ae3ad-3d47-445e-9bce-4b57fc526878}" publicName="ROL" vmax="48" lines="guild" serialNumber="1">
+			<part nodes="205 219"/>
+		</slipdistance>
+		<slipdistance uuid="{1e7a7c47-a3d5-46c4-af61-11b6f386e991}" publicName="Up Ash" vmax="999" lines="guild" serialNumber="1">
+			<part nodes="861 186 194 265 195"/>
+		</slipdistance>
+		<slipdistance uuid="{2d39e6e2-d8f2-4903-82f3-f41b73ed74c2}" publicName="P5" vmax="999" lines="guild" serialNumber="0">
+			<part nodes="896 210 897 899 900 907 895 274"/>
+		</slipdistance>
+		<slipdistance uuid="{3830fa60-3f46-4755-9ff1-f3261f22187e}" vmax="999" lines="guild" serialNumber="0">
+			<part nodes="895 907 900 899 897 210"/>
+		</slipdistance>
+		<slipdistance uuid="{38d8b579-5e8d-4bf3-838a-925d1d9e465b}" publicName="Dn Cobham" vmax="999" lines="guild" serialNumber="1">
+			<part nodes="21 15 246 101 93 200 123"/>
+		</slipdistance>
+		<slipdistance uuid="{3e6931ba-102c-4c00-88ff-b6848955f9d6}" vmax="999" lines="guild" serialNumber="0">
+			<part nodes="207 243 220 222"/>
+		</slipdistance>
+		<slipdistance uuid="{49981e92-a60c-422a-a364-f1fd0ae2fb7e}" publicName="Up Main" vmax="999" lines="guild" serialNumber="0">
+			<part nodes="861 186 194 90"/>
+		</slipdistance>
+		<slipdistance uuid="{58caf495-6b78-4482-923d-6b6d12108d3f}" vmax="999" lines="guild" serialNumber="0">
+			<part nodes="203 247 212 214"/>
+		</slipdistance>
+		<slipdistance uuid="{5cb34a8c-f30f-4e46-afd3-20d0cdd313f6}" vmax="999" lines="guild" serialNumber="0">
+			<part nodes="5330 5335 5331 1 2 94"/>
+		</slipdistance>
+		<slipdistance uuid="{74799fc9-29cf-4170-99e6-e45ca456f094}" publicName="ROL" vmax="48" lines="guild" serialNumber="1">
+			<part nodes="206 241 221 223"/>
+		</slipdistance>
+		<slipdistance uuid="{81d776fd-099b-4c10-8ba6-cf1ecf50fc93}" publicName="OL" vmax="999" lines="guild" serialNumber="0">
+			<part nodes="206 241 221 223 242 900 899 897 210"/>
+		</slipdistance>
+		<slipdistance uuid="{89cc4b35-f8c2-46c3-9edd-eecf05850b11}" publicName="OL" vmax="999" lines="guild" serialNumber="0">
+			<part nodes="204 248 217 218 215 897 210"/>
+		</slipdistance>
+		<slipdistance uuid="{93980ffb-4ba3-404b-b366-98626ea84c28}" publicName="OL" vmax="999" lines="guild" serialNumber="0">
+			<part nodes="205 219 215 211 209"/>
+		</slipdistance>
+		<slipdistance uuid="{a0836750-f33f-4e50-bf53-cb92296efebf}" publicName="Up Cobham" vmax="999" lines="guild" serialNumber="0">
+			<part nodes="21 15 246 101 92"/>
+		</slipdistance>
+		<slipdistance uuid="{a44253f4-827e-4a42-a0ac-f635b5c029c8}" publicName="ROL" vmax="48" lines="guild" serialNumber="1">
+			<part nodes="204 248 217 218"/>
+		</slipdistance>
+		<slipdistance uuid="{c6644525-8764-4985-b743-0022c3af752d}" publicName="P8" vmax="999" lines="guild" serialNumber="1">
+			<part nodes="896 210 897 899 244 222 220 243 207 270"/>
+		</slipdistance>
+		<slipdistance uuid="{c9328adb-d054-4916-bb06-af77beee85ab}" publicName="P3" vmax="999" lines="guild" serialNumber="3">
+			<part nodes="896 210 897 215 218 217 248 204 275"/>
+		</slipdistance>
+		<slipdistance uuid="{dccc91be-85a2-4ace-a315-d1703ae3923b}" vmax="999" lines="guild" serialNumber="0">
+			<part nodes="190 245 191"/>
+		</slipdistance>
+		<slipdistance uuid="{e82e53de-d3b4-4ef3-a8d8-b17eab193852}" vmax="999" lines="guild sw110" serialNumber="0">
+			<part nodes="862 912 914 863 1196 4 9"/>
+		</slipdistance>
+		<slipdistance uuid="{ea2dac13-078e-4976-858c-cb111f54616d}" vmax="999" lines="guild" serialNumber="0">
+			<part nodes="187 240 189"/>
+		</slipdistance>
+	</slipDistances>
+	<approachControlRoutes/>
+	<stationRoutes>
+		<stationRoute stationID="GUIL305" name="[GUILDFD]-[sw265/2]-[1]-[GUILDFD]-[sw265/2] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="283 280 306 285 173 3 173 285 306 280 283"/>
+		<stationRoute stationID="GUIL305" name="[GUILDFD]-[sw265/2]-[1]-[WANBRO]-[sw265/2] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="283 280 306 285 173 3 284"/>
+		<stationRoute stationID="GUILDCS" name="[GUILDFD]-[sw110/UCHS]-[1]-[GUILDFD]-[sw110/UCHS] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="287 795 797 796 797 795 287"/>
+		<stationRoute stationID="GUILDCS" name="[GUILDFD]-[sw110/UCHS]-[1]-[]-[?/] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="287 795 797 796 8074"/>
+		<stationRoute stationID="GUILDCS" name="[]-[?/]-[1]-[GUILDFD]-[sw110/UCHS] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="8074 796 797 795 287"/>
+		<stationRoute stationID="GUILDFD" name="[GUIL305]-[sw265/2]-[11]-[GUILDCS]-[sw110/UCHS] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="281 198 199 262 288 286"/>
+		<stationRoute stationID="GUILDFD" name="[GUIL305]-[sw265/2]-[4]-[GUIL305]-[sw265/2] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=50;NRz=50;S=50;Rz=50;FGz=50;NGz=50;Gz=50;Lz=50;Unbekannt=50" nodes="281 198 199 197 264 263 196 193 266 195 265 194 186 267 268 185 184 299 323 294 229 294 323 299 184 185 268 267 186 194 265 195 266 193 196 263 264 197 199 198 281"/>
+		<stationRoute stationID="GUILDFD" name="[GUIL305]-[sw265/2]-[4]-[GUIL305]-[sw265/2] (3)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=50;NRz=50;S=50;Rz=50;FGz=50;NGz=50;Gz=50;Lz=50;Unbekannt=50" nodes="281 198 199 197 264 263 196 193 266 195 265 194 186 267 268 185 184 299 323 294 229 230 324 237 205 237 324 230 229 294 323 299 184 185 268 267 186 194 265 195 266 193 196 263 264 197 199 198 281"/>
+		<stationRoute stationID="GUILDFD" name="[GUIL305]-[sw265/2]-[4]-[GUIL308]-[sw110/2] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=75;NRz=75;S=75;Rz=75;FGz=75;NGz=75;Gz=75;Lz=75;Unbekannt=75" nodes="281 198 199 197 264 263 196 193 266 195 265 194 186 267 268 185 184 299 323 294 229 230 324 237 205 219 215 211 209 208 224 238 269"/>
+		<stationRoute stationID="GUILDFD" name="[GUIL305]-[sw265/2]-[4]-[GUIL635]-[sw110/2] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=60;NRz=60;S=60;Rz=60;FGz=60;NGz=60;Gz=60;Lz=60;Unbekannt=60" nodes="281 198 199 197 264 263 196 193 266 195 265 194 186 267 268 185 184 299 323 294 229 294 323 299 184 185 268 267 186 194 90 5 298 7 9 4 1196 863 914 912 862"/>
+		<stationRoute stationID="GUILDFD" name="[GUIL305]-[sw265/2]-[4]-[GUIL635]-[sw110/2] (3)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=60;NRz=60;S=60;Rz=60;FGz=60;NGz=60;Gz=60;Lz=60;Unbekannt=60" nodes="281 198 199 197 264 263 196 193 266 195 265 194 186 267 268 185 184 299 323 294 229 230 324 237 205 237 324 230 229 294 323 299 184 185 268 267 186 194 90 5 298 7 9 4 1196 863 914 912 862"/>
+		<stationRoute stationID="GUILDFD" name="[GUIL305]-[sw265/2]-[5]-[GUIL305]-[sw265/2] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=70;NRz=70;S=70;Rz=70;FGz=70;NGz=70;Gz=70;Lz=70;Unbekannt=70" nodes="281 198 199 197 264 263 196 193 266 195 265 194 186 861 913 916 911 902 911 916 913 861 186 194 265 195 266 193 196 263 264 197 199 198 281"/>
+		<stationRoute stationID="GUILDFD" name="[GUIL305]-[sw265/2]-[5]-[GUIL305]-[sw265/2] (3)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=70;NRz=70;S=70;Rz=70;FGz=70;NGz=70;Gz=70;Lz=70;Unbekannt=70" nodes="281 198 199 197 264 263 196 193 266 195 265 194 186 861 913 916 911 902 903 915 274 895 274 915 903 902 911 916 913 861 186 194 265 195 266 193 196 263 264 197 199 198 281"/>
+		<stationRoute stationID="GUILDFD" name="[GUIL305]-[sw265/2]-[5]-[GUIL308]-[sw110/2] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=75;NRz=75;S=75;Rz=75;FGz=75;NGz=75;Gz=75;Lz=75;Unbekannt=75" nodes="281 198 199 197 264 263 196 193 266 195 265 194 186 861 913 916 911 902 903 915 274 895 907 900 899 897 210 896 904 901 908 909 224 238 269"/>
+		<stationRoute stationID="GUILDFD" name="[GUIL305]-[sw265/2]-[5]-[GUIL635]-[sw110/2] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=80;NRz=80;S=80;Rz=80;FGz=80;NGz=80;Gz=80;Lz=80;Unbekannt=80" nodes="281 198 199 197 264 263 196 193 266 195 265 194 186 861 913 916 911 902 911 916 913 861 186 194 90 5 298 7 9 4 1196 863 914 912 862"/>
+		<stationRoute stationID="GUILDFD" name="[GUIL305]-[sw265/2]-[5]-[GUIL635]-[sw110/2] (3)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=80;NRz=80;S=80;Rz=80;FGz=80;NGz=80;Gz=80;Lz=80;Unbekannt=80" nodes="281 198 199 197 264 263 196 193 266 195 265 194 186 861 913 916 911 902 903 915 274 895 274 915 903 902 911 916 913 861 186 194 90 5 298 7 9 4 1196 863 914 912 862"/>
+		<stationRoute stationID="GUILDFD" name="[GUIL305]-[sw265/2]-[5]-[SHALFDJ]-[sw110/1] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=85;NRz=85;S=85;Rz=85;FGz=85;NGz=85;Gz=85;Lz=85;Unbekannt=85" nodes="281 198 199 197 264 263 196 193 266 195 265 194 186 861 913 916 911 902 903 915 274 895 907 900 899 897 210 896 904 901 906 910"/>
+		<stationRoute stationID="GUILDFD" name="[GUIL305]-[sw265/2]-[6]-[GUIL305]-[sw265/2] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=60;NRz=60;S=60;Rz=60;FGz=60;NGz=60;Gz=60;Lz=60;Unbekannt=60" nodes="281 198 199 197 264 263 196 193 189 240 187 303 315 231 315 303 187 240 189 193 196 263 264 197 199 198 281"/>
+		<stationRoute stationID="GUILDFD" name="[GUIL305]-[sw265/2]-[6]-[GUIL305]-[sw265/2] (3)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=60;NRz=60;S=60;Rz=60;FGz=60;NGz=60;Gz=60;Lz=60;Unbekannt=60" nodes="281 198 199 197 264 263 196 193 189 240 187 303 315 231 232 293 320 272 206 272 320 293 232 231 315 303 187 240 189 193 196 263 264 197 199 198 281"/>
+		<stationRoute stationID="GUILDFD" name="[GUIL305]-[sw265/2]-[6]-[GUIL308]-[sw110/2] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=65;NRz=65;S=65;Rz=65;FGz=65;NGz=65;Gz=65;Lz=65;Unbekannt=65" nodes="281 198 199 197 264 263 196 193 189 240 187 303 315 231 232 293 320 272 206 241 221 223 242 900 899 897 210 896 904 901 908 909 224 238 269"/>
+		<stationRoute stationID="GUILDFD" name="[GUIL305]-[sw265/2]-[6]-[GUIL635]-[sw110/2] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=65;NRz=65;S=65;Rz=65;FGz=65;NGz=65;Gz=65;Lz=65;Unbekannt=65" nodes="281 198 199 197 264 263 196 193 189 240 187 303 315 231 315 303 187 240 189 193 196 307 201 6 259 258 7 9 4 1196 863 914 912 862"/>
+		<stationRoute stationID="GUILDFD" name="[GUIL305]-[sw265/2]-[6]-[GUIL635]-[sw110/2] (3)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=65;NRz=65;S=65;Rz=65;FGz=65;NGz=65;Gz=65;Lz=65;Unbekannt=65" nodes="281 198 199 197 264 263 196 193 189 240 187 303 315 231 232 293 320 272 206 272 320 293 232 231 315 303 187 240 189 193 196 307 201 6 259 258 7 9 4 1196 863 914 912 862"/>
+		<stationRoute stationID="GUILDFD" name="[GUIL305]-[sw265/2]-[6]-[SHALFDJ]-[sw110/1] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=75;NRz=75;S=75;Rz=75;FGz=75;NGz=75;Gz=75;Lz=75;Unbekannt=75" nodes="281 198 199 197 264 263 196 193 189 240 187 303 315 231 232 293 320 272 206 241 221 223 242 900 899 897 210 896 904 901 906 910"/>
+		<stationRoute stationID="GUILDFD" name="[GUIL305]-[sw265/2]-[8]-[GUIL305]-[sw265/2] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=90;NRz=90;S=90;Rz=90;FGz=90;NGz=90;Gz=90;Lz=90;Unbekannt=90" nodes="281 198 199 197 191 245 190 304 314 233 314 304 190 245 191 197 199 198 281"/>
+		<stationRoute stationID="GUILDFD" name="[GUIL305]-[sw265/2]-[8]-[GUIL305]-[sw265/2] (3)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=90;NRz=90;S=90;Rz=90;FGz=90;NGz=90;Gz=90;Lz=90;Unbekannt=90" nodes="281 198 199 197 191 245 190 304 314 233 234 319 290 270 207 270 290 319 234 233 314 304 190 245 191 197 199 198 281"/>
+		<stationRoute stationID="GUILDFD" name="[GUIL305]-[sw265/2]-[8]-[GUIL308]-[sw110/2] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=80;NRz=80;S=80;Rz=80;FGz=80;NGz=80;Gz=80;Lz=80;Unbekannt=80" nodes="281 198 199 197 191 245 190 304 314 233 234 319 290 270 207 243 220 222 244 899 897 210 896 904 901 908 909 224 238 269"/>
+		<stationRoute stationID="GUILDFD" name="[GUIL305]-[sw265/2]-[8]-[GUIL635]-[sw110/2] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=70;NRz=70;S=70;Rz=70;FGz=70;NGz=70;Gz=70;Lz=70;Unbekannt=70" nodes="281 198 199 197 191 245 190 304 314 233 314 304 190 245 191 197 199 198 260 309 261 201 6 259 258 7 9 4 1196 863 914 912 862"/>
+		<stationRoute stationID="GUILDFD" name="[GUIL305]-[sw265/2]-[8]-[GUIL635]-[sw110/2] (3)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=70;NRz=70;S=70;Rz=70;FGz=70;NGz=70;Gz=70;Lz=70;Unbekannt=70" nodes="281 198 199 197 191 245 190 304 314 233 234 319 290 270 207 270 290 319 234 233 314 304 190 245 191 197 199 198 260 309 261 201 6 259 258 7 9 4 1196 863 914 912 862"/>
+		<stationRoute stationID="GUILDFD" name="[GUIL305]-[sw265/2]-[8]-[SHALFDJ]-[sw110/1] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=90;NRz=90;S=90;Rz=90;FGz=90;NGz=90;Gz=90;Lz=90;Unbekannt=90" nodes="281 198 199 197 191 245 190 304 314 233 234 319 290 270 207 243 220 222 244 899 897 210 896 904 901 906 910"/>
+		<stationRoute stationID="GUILDFD" name="[GUIL308]-[sw110/2]-[2]-[GUIL635]-[sw110/2] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=75;NRz=75;S=75;Rz=75;FGz=75;NGz=75;Gz=75;Lz=75;Unbekannt=75" nodes="269 238 224 208 209 211 214 212 247 203 337 296 226 225 336 301 59 235 257 256 236 91 147 254 153 255 5 298 7 9 4 1196 863 914 912 862"/>
+		<stationRoute stationID="GUILDFD" name="[GUIL308]-[sw110/2]-[2]-[LRDGFD]-[sw200/1] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=80;NRz=80;S=80;Rz=80;FGz=80;NGz=80;Gz=80;Lz=80;Unbekannt=80" nodes="269 238 224 208 209 211 214 212 247 203 337 296 226 225 336 301 59 235 257 256 236 91 147 177 178 123 200 93 16 17"/>
+		<stationRoute stationID="GUILDFD" name="[GUIL308]-[sw110/2]-[2]-[LRDGFD]-[sw200/1] (3)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=80;NRz=80;S=80;Rz=80;FGz=80;NGz=80;Gz=80;Lz=80;Unbekannt=80" nodes="269 238 224 208 209 211 214 212 247 203 337 296 226 225 336 301 59 235 154 180 179 250 251 178 123 200 93 16 17"/>
+		<stationRoute stationID="GUILDFD" name="[GUIL308]-[sw110/2]-[4]-[GUIL305]-[sw265/2] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=75;NRz=75;S=75;Rz=75;FGz=75;NGz=75;Gz=75;Lz=75;Unbekannt=75" nodes="269 238 224 208 209 211 215 219 205 237 324 230 229 294 323 299 184 185 268 267 186 194 265 195 266 193 196 263 264 197 199 198 281"/>
+		<stationRoute stationID="GUILDFD" name="[GUIL308]-[sw110/2]-[4]-[GUIL635]-[sw110/2] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=85;NRz=85;S=85;Rz=85;FGz=85;NGz=85;Gz=85;Lz=85;Unbekannt=85" nodes="269 238 224 208 209 211 215 219 205 237 324 230 229 294 323 299 184 185 268 267 186 194 90 5 298 7 9 4 1196 863 914 912 862"/>
+		<stationRoute stationID="GUILDFD" name="[GUIL308]-[sw110/2]-[5]-[GUIL305]-[sw265/2] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=75;NRz=75;S=75;Rz=75;FGz=75;NGz=75;Gz=75;Lz=75;Unbekannt=75" nodes="269 238 224 909 908 901 904 896 210 897 899 900 907 895 274 915 903 902 911 916 913 861 186 194 265 195 266 193 196 263 264 197 199 198 281"/>
+		<stationRoute stationID="GUILDFD" name="[GUIL308]-[sw110/2]-[5]-[GUIL308]-[sw110/2] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=80;NRz=80;S=80;Rz=80;FGz=80;NGz=80;Gz=80;Lz=80;Unbekannt=80" nodes="269 238 224 909 908 901 904 896 210 897 899 900 907 895 274 915 903 915 274 895 907 900 899 897 210 896 904 901 908 909 224 238 269"/>
+		<stationRoute stationID="GUILDFD" name="[GUIL308]-[sw110/2]-[5]-[GUIL308]-[sw110/2] (3)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=80;NRz=80;S=80;Rz=80;FGz=80;NGz=80;Gz=80;Lz=80;Unbekannt=80" nodes="269 238 224 909 908 901 904 896 210 897 899 900 907 895 274 915 903 902 911 916 913 861 913 916 911 902 903 915 274 895 907 900 899 897 210 896 904 901 908 909 224 238 269"/>
+		<stationRoute stationID="GUILDFD" name="[GUIL308]-[sw110/2]-[5]-[GUIL635]-[sw110/2] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=85;NRz=85;S=85;Rz=85;FGz=85;NGz=85;Gz=85;Lz=85;Unbekannt=85" nodes="269 238 224 909 908 901 904 896 210 897 899 900 907 895 274 915 903 902 911 916 913 861 186 194 90 5 298 7 9 4 1196 863 914 912 862"/>
+		<stationRoute stationID="GUILDFD" name="[GUIL308]-[sw110/2]-[5]-[SHALFDJ]-[sw110/1] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=90;NRz=90;S=90;Rz=90;FGz=90;NGz=90;Gz=90;Lz=90;Unbekannt=90" nodes="269 238 224 909 908 901 904 896 210 897 899 900 907 895 274 915 903 915 274 895 907 900 899 897 210 896 904 901 906 910"/>
+		<stationRoute stationID="GUILDFD" name="[GUIL308]-[sw110/2]-[5]-[SHALFDJ]-[sw110/1] (3)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=90;NRz=90;S=90;Rz=90;FGz=90;NGz=90;Gz=90;Lz=90;Unbekannt=90" nodes="269 238 224 909 908 901 904 896 210 897 899 900 907 895 274 915 903 902 911 916 913 861 913 916 911 902 903 915 274 895 907 900 899 897 210 896 904 901 906 910"/>
+		<stationRoute stationID="GUILDFD" name="[GUIL308]-[sw110/2]-[6]-[GUIL305]-[sw265/2] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=65;NRz=65;S=65;Rz=65;FGz=65;NGz=65;Gz=65;Lz=65;Unbekannt=65" nodes="269 238 224 909 908 901 904 896 210 897 899 900 242 223 221 241 206 272 320 293 232 231 315 303 187 240 189 193 196 263 264 197 199 198 281"/>
+		<stationRoute stationID="GUILDFD" name="[GUIL308]-[sw110/2]-[6]-[GUIL308]-[sw110/2] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=70;NRz=70;S=70;Rz=70;FGz=70;NGz=70;Gz=70;Lz=70;Unbekannt=70" nodes="269 238 224 909 908 901 904 896 210 897 899 900 242 223 221 241 206 272 320 293 232 231 315 303 187 303 315 231 232 293 320 272 206 241 221 223 242 900 899 897 210 896 904 901 908 909 224 238 269"/>
+		<stationRoute stationID="GUILDFD" name="[GUIL308]-[sw110/2]-[6]-[GUIL308]-[sw110/2] (3)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=70;NRz=70;S=70;Rz=70;FGz=70;NGz=70;Gz=70;Lz=70;Unbekannt=70" nodes="269 238 224 909 908 901 904 896 210 897 899 900 242 223 221 241 206 272 320 293 232 293 320 272 206 241 221 223 242 900 899 897 210 896 904 901 908 909 224 238 269"/>
+		<stationRoute stationID="GUILDFD" name="[GUIL308]-[sw110/2]-[6]-[GUIL635]-[sw110/2] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=70;NRz=70;S=70;Rz=70;FGz=70;NGz=70;Gz=70;Lz=70;Unbekannt=70" nodes="269 238 224 909 908 901 904 896 210 897 899 900 242 223 221 241 206 272 320 293 232 231 315 303 187 240 189 193 196 307 201 6 259 258 7 9 4 1196 863 914 912 862"/>
+		<stationRoute stationID="GUILDFD" name="[GUIL308]-[sw110/2]-[6]-[SHALFDJ]-[sw110/1] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=80;NRz=80;S=80;Rz=80;FGz=80;NGz=80;Gz=80;Lz=80;Unbekannt=80" nodes="269 238 224 909 908 901 904 896 210 897 899 900 242 223 221 241 206 272 320 293 232 231 315 303 187 303 315 231 232 293 320 272 206 241 221 223 242 900 899 897 210 896 904 901 906 910"/>
+		<stationRoute stationID="GUILDFD" name="[GUIL308]-[sw110/2]-[6]-[SHALFDJ]-[sw110/1] (3)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=80;NRz=80;S=80;Rz=80;FGz=80;NGz=80;Gz=80;Lz=80;Unbekannt=80" nodes="269 238 224 909 908 901 904 896 210 897 899 900 242 223 221 241 206 272 320 293 232 293 320 272 206 241 221 223 242 900 899 897 210 896 904 901 906 910"/>
+		<stationRoute stationID="GUILDFD" name="[GUIL308]-[sw110/2]-[8]-[GUIL305]-[sw265/2] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=80;NRz=80;S=80;Rz=80;FGz=80;NGz=80;Gz=80;Lz=80;Unbekannt=80" nodes="269 238 224 909 908 901 904 896 210 897 899 244 222 220 243 207 270 290 319 234 233 314 304 190 245 191 197 199 198 281"/>
+		<stationRoute stationID="GUILDFD" name="[GUIL308]-[sw110/2]-[8]-[GUIL308]-[sw110/2] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=70;NRz=70;S=70;Rz=70;FGz=70;NGz=70;Gz=70;Lz=70;Unbekannt=70" nodes="269 238 224 909 908 901 904 896 210 897 899 244 222 220 243 207 270 290 319 234 233 314 304 190 304 314 233 234 319 290 270 207 243 220 222 244 899 897 210 896 904 901 908 909 224 238 269"/>
+		<stationRoute stationID="GUILDFD" name="[GUIL308]-[sw110/2]-[8]-[GUIL308]-[sw110/2] (3)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=70;NRz=70;S=70;Rz=70;FGz=70;NGz=70;Gz=70;Lz=70;Unbekannt=70" nodes="269 238 224 909 908 901 904 896 210 897 899 244 222 220 243 207 270 290 319 234 319 290 270 207 243 220 222 244 899 897 210 896 904 901 908 909 224 238 269"/>
+		<stationRoute stationID="GUILDFD" name="[GUIL308]-[sw110/2]-[8]-[GUIL635]-[sw110/2] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=60;NRz=60;S=60;Rz=60;FGz=60;NGz=60;Gz=60;Lz=60;Unbekannt=60" nodes="269 238 224 909 908 901 904 896 210 897 899 244 222 220 243 207 270 290 319 234 233 314 304 190 245 191 197 199 198 260 309 261 201 6 259 258 7 9 4 1196 863 914 912 862"/>
+		<stationRoute stationID="GUILDFD" name="[GUIL308]-[sw110/2]-[8]-[SHALFDJ]-[sw110/1] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=80;NRz=80;S=80;Rz=80;FGz=80;NGz=80;Gz=80;Lz=80;Unbekannt=80" nodes="269 238 224 909 908 901 904 896 210 897 899 244 222 220 243 207 270 290 319 234 233 314 304 190 304 314 233 234 319 290 270 207 243 220 222 244 899 897 210 896 904 901 906 910"/>
+		<stationRoute stationID="GUILDFD" name="[GUIL308]-[sw110/2]-[8]-[SHALFDJ]-[sw110/1] (3)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=80;NRz=80;S=80;Rz=80;FGz=80;NGz=80;Gz=80;Lz=80;Unbekannt=80" nodes="269 238 224 909 908 901 904 896 210 897 899 244 222 220 243 207 270 290 319 234 319 290 270 207 243 220 222 244 899 897 210 896 904 901 906 910"/>
+		<stationRoute stationID="GUILDFD" name="[GUIL635]-[sw110/2]-[11]-[GUILDCS]-[sw110/UCHS] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=80;NRz=80;S=80;Rz=80;FGz=80;NGz=80;Gz=80;Lz=80;Unbekannt=80" nodes="862 912 914 863 1196 4 9 7 258 259 6 201 261 309 260 198 199 262 288 286"/>
+		<stationRoute stationID="GUILDFD" name="[GUIL635]-[sw110/2]-[2]-[GUIL308]-[sw110/2] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=75;NRz=75;S=75;Rz=75;FGz=75;NGz=75;Gz=75;Lz=75;Unbekannt=75" nodes="862 912 914 863 1196 4 9 7 298 5 255 153 254 147 91 236 256 257 235 59 301 336 225 226 296 337 203 247 212 214 211 209 208 224 238 269"/>
+		<stationRoute stationID="GUILDFD" name="[GUIL635]-[sw110/2]-[2]-[GUIL635]-[sw110/2] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=60;NRz=60;S=60;Rz=60;FGz=60;NGz=60;Gz=60;Lz=60;Unbekannt=60" nodes="862 912 914 863 1196 4 9 7 298 5 255 153 254 147 91 236 256 257 235 59 301 336 225 336 301 59 235 257 256 236 91 147 254 153 255 5 298 7 9 4 1196 863 914 912 862"/>
+		<stationRoute stationID="GUILDFD" name="[GUIL635]-[sw110/2]-[2]-[GUIL635]-[sw110/2] (3)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=60;NRz=60;S=60;Rz=60;FGz=60;NGz=60;Gz=60;Lz=60;Unbekannt=60" nodes="862 912 914 863 1196 4 9 7 298 5 255 153 254 147 91 236 256 257 235 59 301 336 225 226 296 337 203 337 296 226 225 336 301 59 235 257 256 236 91 147 254 153 255 5 298 7 9 4 1196 863 914 912 862"/>
+		<stationRoute stationID="GUILDFD" name="[GUIL635]-[sw110/2]-[2]-[LRDGFD]-[sw200/1] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=65;NRz=65;S=65;Rz=65;FGz=65;NGz=65;Gz=65;Lz=65;Unbekannt=65" nodes="862 912 914 863 1196 4 9 7 298 5 255 153 254 147 91 236 256 257 235 59 301 336 225 336 301 59 235 257 256 236 91 147 177 178 123 200 93 16 17"/>
+		<stationRoute stationID="GUILDFD" name="[GUIL635]-[sw110/2]-[2]-[LRDGFD]-[sw200/1] (3)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=65;NRz=65;S=65;Rz=65;FGz=65;NGz=65;Gz=65;Lz=65;Unbekannt=65" nodes="862 912 914 863 1196 4 9 7 298 5 255 153 254 147 91 236 256 257 235 59 301 336 225 336 301 59 235 154 180 179 250 251 178 123 200 93 16 17"/>
+		<stationRoute stationID="GUILDFD" name="[GUIL635]-[sw110/2]-[2]-[LRDGFD]-[sw200/1] (4)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=65;NRz=65;S=65;Rz=65;FGz=65;NGz=65;Gz=65;Lz=65;Unbekannt=65" nodes="862 912 914 863 1196 4 9 7 298 5 255 153 254 147 91 236 256 257 235 59 301 336 225 226 296 337 203 337 296 226 225 336 301 59 235 257 256 236 91 147 177 178 123 200 93 16 17"/>
+		<stationRoute stationID="GUILDFD" name="[GUIL635]-[sw110/2]-[2]-[LRDGFD]-[sw200/1] (5)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=65;NRz=65;S=65;Rz=65;FGz=65;NGz=65;Gz=65;Lz=65;Unbekannt=65" nodes="862 912 914 863 1196 4 9 7 298 5 255 153 254 147 91 236 256 257 235 59 301 336 225 226 296 337 203 337 296 226 225 336 301 59 235 154 180 179 250 251 178 123 200 93 16 17"/>
+		<stationRoute stationID="GUILDFD" name="[GUIL635]-[sw110/2]-[3]-[GUIL308]-[sw110/2] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=75;NRz=75;S=75;Rz=75;FGz=75;NGz=75;Gz=75;Lz=75;Unbekannt=75" nodes="862 912 914 863 1196 4 9 7 298 5 255 153 254 147 91 236 249 82 300 325 227 228 295 331 275 204 248 217 218 215 897 210 896 904 901 908 909 224 238 269"/>
+		<stationRoute stationID="GUILDFD" name="[GUIL635]-[sw110/2]-[3]-[GUIL635]-[sw110/2] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=80;NRz=80;S=80;Rz=80;FGz=80;NGz=80;Gz=80;Lz=80;Unbekannt=80" nodes="862 912 914 863 1196 4 9 7 298 5 255 153 254 147 91 236 249 82 300 325 227 228 295 331 275 204 275 331 295 228 227 325 300 82 249 236 91 147 254 153 255 5 298 7 9 4 1196 863 914 912 862"/>
+		<stationRoute stationID="GUILDFD" name="[GUIL635]-[sw110/2]-[3]-[GUIL635]-[sw110/2] (3)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=80;NRz=80;S=80;Rz=80;FGz=80;NGz=80;Gz=80;Lz=80;Unbekannt=80" nodes="862 912 914 863 1196 4 9 7 298 5 255 153 254 147 91 236 249 82 300 325 227 325 300 82 249 236 91 147 254 153 255 5 298 7 9 4 1196 863 914 912 862"/>
+		<stationRoute stationID="GUILDFD" name="[GUIL635]-[sw110/2]-[3]-[LRDGFD]-[sw200/1] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=85;NRz=85;S=85;Rz=85;FGz=85;NGz=85;Gz=85;Lz=85;Unbekannt=85" nodes="862 912 914 863 1196 4 9 7 298 5 255 153 254 147 91 236 249 82 300 325 227 228 295 331 275 204 275 331 295 228 227 325 300 82 249 236 91 147 177 178 123 200 93 16 17"/>
+		<stationRoute stationID="GUILDFD" name="[GUIL635]-[sw110/2]-[3]-[LRDGFD]-[sw200/1] (3)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=85;NRz=85;S=85;Rz=85;FGz=85;NGz=85;Gz=85;Lz=85;Unbekannt=85" nodes="862 912 914 863 1196 4 9 7 298 5 255 153 254 147 91 236 249 82 300 325 227 325 300 82 249 236 91 147 177 178 123 200 93 16 17"/>
+		<stationRoute stationID="GUILDFD" name="[GUIL635]-[sw110/2]-[3]-[SHALFDJ]-[sw110/1] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=85;NRz=85;S=85;Rz=85;FGz=85;NGz=85;Gz=85;Lz=85;Unbekannt=85" nodes="862 912 914 863 1196 4 9 7 298 5 255 153 254 147 91 236 249 82 300 325 227 228 295 331 275 204 248 217 218 215 897 210 896 904 901 906 910"/>
+		<stationRoute stationID="GUILDFD" name="[GUIL635]-[sw110/2]-[4]-[GUIL305]-[sw265/2] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=60;NRz=60;S=60;Rz=60;FGz=60;NGz=60;Gz=60;Lz=60;Unbekannt=60" nodes="862 912 914 863 1196 4 9 7 298 5 90 194 186 267 268 185 184 299 323 294 229 230 324 237 205 237 324 230 229 294 323 299 184 185 268 267 186 194 265 195 266 193 196 263 264 197 199 198 281"/>
+		<stationRoute stationID="GUILDFD" name="[GUIL635]-[sw110/2]-[4]-[GUIL305]-[sw265/2] (3)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=60;NRz=60;S=60;Rz=60;FGz=60;NGz=60;Gz=60;Lz=60;Unbekannt=60" nodes="862 912 914 863 1196 4 9 7 298 5 90 194 186 267 268 185 184 299 323 294 229 294 323 299 184 185 268 267 186 194 265 195 266 193 196 263 264 197 199 198 281"/>
+		<stationRoute stationID="GUILDFD" name="[GUIL635]-[sw110/2]-[4]-[GUIL308]-[sw110/2] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=85;NRz=85;S=85;Rz=85;FGz=85;NGz=85;Gz=85;Lz=85;Unbekannt=85" nodes="862 912 914 863 1196 4 9 7 298 5 90 194 186 267 268 185 184 299 323 294 229 230 324 237 205 219 215 211 209 208 224 238 269"/>
+		<stationRoute stationID="GUILDFD" name="[GUIL635]-[sw110/2]-[4]-[GUIL635]-[sw110/2] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=70;NRz=70;S=70;Rz=70;FGz=70;NGz=70;Gz=70;Lz=70;Unbekannt=70" nodes="862 912 914 863 1196 4 9 7 298 5 90 194 186 267 268 185 184 299 323 294 229 230 324 237 205 237 324 230 229 294 323 299 184 185 268 267 186 194 90 5 298 7 9 4 1196 863 914 912 862"/>
+		<stationRoute stationID="GUILDFD" name="[GUIL635]-[sw110/2]-[4]-[GUIL635]-[sw110/2] (3)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=70;NRz=70;S=70;Rz=70;FGz=70;NGz=70;Gz=70;Lz=70;Unbekannt=70" nodes="862 912 914 863 1196 4 9 7 298 5 90 194 186 267 268 185 184 299 323 294 229 294 323 299 184 185 268 267 186 194 90 5 298 7 9 4 1196 863 914 912 862"/>
+		<stationRoute stationID="GUILDFD" name="[GUIL635]-[sw110/2]-[5]-[GUIL305]-[sw265/2] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=80;NRz=80;S=80;Rz=80;FGz=80;NGz=80;Gz=80;Lz=80;Unbekannt=80" nodes="862 912 914 863 1196 4 9 7 298 5 90 194 186 861 913 916 911 902 903 915 274 895 274 915 903 902 911 916 913 861 186 194 265 195 266 193 196 263 264 197 199 198 281"/>
+		<stationRoute stationID="GUILDFD" name="[GUIL635]-[sw110/2]-[5]-[GUIL305]-[sw265/2] (3)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=80;NRz=80;S=80;Rz=80;FGz=80;NGz=80;Gz=80;Lz=80;Unbekannt=80" nodes="862 912 914 863 1196 4 9 7 298 5 90 194 186 861 913 916 911 902 911 916 913 861 186 194 265 195 266 193 196 263 264 197 199 198 281"/>
+		<stationRoute stationID="GUILDFD" name="[GUIL635]-[sw110/2]-[5]-[GUIL308]-[sw110/2] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=85;NRz=85;S=85;Rz=85;FGz=85;NGz=85;Gz=85;Lz=85;Unbekannt=85" nodes="862 912 914 863 1196 4 9 7 298 5 90 194 186 861 913 916 911 902 903 915 274 895 907 900 899 897 210 896 904 901 908 909 224 238 269"/>
+		<stationRoute stationID="GUILDFD" name="[GUIL635]-[sw110/2]-[5]-[GUIL635]-[sw110/2] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=90;NRz=90;S=90;Rz=90;FGz=90;NGz=90;Gz=90;Lz=90;Unbekannt=90" nodes="862 912 914 863 1196 4 9 7 298 5 90 194 186 861 913 916 911 902 903 915 274 895 274 915 903 902 911 916 913 861 186 194 90 5 298 7 9 4 1196 863 914 912 862"/>
+		<stationRoute stationID="GUILDFD" name="[GUIL635]-[sw110/2]-[5]-[GUIL635]-[sw110/2] (3)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=90;NRz=90;S=90;Rz=90;FGz=90;NGz=90;Gz=90;Lz=90;Unbekannt=90" nodes="862 912 914 863 1196 4 9 7 298 5 90 194 186 861 913 916 911 902 911 916 913 861 186 194 90 5 298 7 9 4 1196 863 914 912 862"/>
+		<stationRoute stationID="GUILDFD" name="[GUIL635]-[sw110/2]-[5]-[SHALFDJ]-[sw110/1] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=95;NRz=95;S=95;Rz=95;FGz=95;NGz=95;Gz=95;Lz=95;Unbekannt=95" nodes="862 912 914 863 1196 4 9 7 298 5 90 194 186 861 913 916 911 902 903 915 274 895 907 900 899 897 210 896 904 901 906 910"/>
+		<stationRoute stationID="GUILDFD" name="[GUIL635]-[sw110/2]-[6]-[GUIL305]-[sw265/2] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=65;NRz=65;S=65;Rz=65;FGz=65;NGz=65;Gz=65;Lz=65;Unbekannt=65" nodes="862 912 914 863 1196 4 9 7 258 259 6 201 307 196 193 189 240 187 303 315 231 232 293 320 272 206 272 320 293 232 231 315 303 187 240 189 193 196 263 264 197 199 198 281"/>
+		<stationRoute stationID="GUILDFD" name="[GUIL635]-[sw110/2]-[6]-[GUIL305]-[sw265/2] (3)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=65;NRz=65;S=65;Rz=65;FGz=65;NGz=65;Gz=65;Lz=65;Unbekannt=65" nodes="862 912 914 863 1196 4 9 7 258 259 6 201 307 196 193 189 240 187 303 315 231 315 303 187 240 189 193 196 263 264 197 199 198 281"/>
+		<stationRoute stationID="GUILDFD" name="[GUIL635]-[sw110/2]-[6]-[GUIL308]-[sw110/2] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=70;NRz=70;S=70;Rz=70;FGz=70;NGz=70;Gz=70;Lz=70;Unbekannt=70" nodes="862 912 914 863 1196 4 9 7 258 259 6 201 307 196 193 189 240 187 303 315 231 232 293 320 272 206 241 221 223 242 900 899 897 210 896 904 901 908 909 224 238 269"/>
+		<stationRoute stationID="GUILDFD" name="[GUIL635]-[sw110/2]-[6]-[GUIL635]-[sw110/2] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=70;NRz=70;S=70;Rz=70;FGz=70;NGz=70;Gz=70;Lz=70;Unbekannt=70" nodes="862 912 914 863 1196 4 9 7 258 259 6 201 307 196 193 189 240 187 303 315 231 232 293 320 272 206 272 320 293 232 231 315 303 187 240 189 193 196 307 201 6 259 258 7 9 4 1196 863 914 912 862"/>
+		<stationRoute stationID="GUILDFD" name="[GUIL635]-[sw110/2]-[6]-[GUIL635]-[sw110/2] (3)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=70;NRz=70;S=70;Rz=70;FGz=70;NGz=70;Gz=70;Lz=70;Unbekannt=70" nodes="862 912 914 863 1196 4 9 7 258 259 6 201 307 196 193 189 240 187 303 315 231 315 303 187 240 189 193 196 307 201 6 259 258 7 9 4 1196 863 914 912 862"/>
+		<stationRoute stationID="GUILDFD" name="[GUIL635]-[sw110/2]-[6]-[SHALFDJ]-[sw110/1] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=80;NRz=80;S=80;Rz=80;FGz=80;NGz=80;Gz=80;Lz=80;Unbekannt=80" nodes="862 912 914 863 1196 4 9 7 258 259 6 201 307 196 193 189 240 187 303 315 231 232 293 320 272 206 241 221 223 242 900 899 897 210 896 904 901 906 910"/>
+		<stationRoute stationID="GUILDFD" name="[GUIL635]-[sw110/2]-[8]-[GUIL305]-[sw265/2] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=70;NRz=70;S=70;Rz=70;FGz=70;NGz=70;Gz=70;Lz=70;Unbekannt=70" nodes="862 912 914 863 1196 4 9 7 258 259 6 201 261 309 260 198 199 197 191 245 190 304 314 233 234 319 290 270 207 270 290 319 234 233 314 304 190 245 191 197 199 198 281"/>
+		<stationRoute stationID="GUILDFD" name="[GUIL635]-[sw110/2]-[8]-[GUIL305]-[sw265/2] (3)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=70;NRz=70;S=70;Rz=70;FGz=70;NGz=70;Gz=70;Lz=70;Unbekannt=70" nodes="862 912 914 863 1196 4 9 7 258 259 6 201 261 309 260 198 199 197 191 245 190 304 314 233 314 304 190 245 191 197 199 198 281"/>
+		<stationRoute stationID="GUILDFD" name="[GUIL635]-[sw110/2]-[8]-[GUIL308]-[sw110/2] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=60;NRz=60;S=60;Rz=60;FGz=60;NGz=60;Gz=60;Lz=60;Unbekannt=60" nodes="862 912 914 863 1196 4 9 7 258 259 6 201 261 309 260 198 199 197 191 245 190 304 314 233 234 319 290 270 207 243 220 222 244 899 897 210 896 904 901 908 909 224 238 269"/>
+		<stationRoute stationID="GUILDFD" name="[GUIL635]-[sw110/2]-[8]-[GUIL635]-[sw110/2] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=50;NRz=50;S=50;Rz=50;FGz=50;NGz=50;Gz=50;Lz=50;Unbekannt=50" nodes="862 912 914 863 1196 4 9 7 258 259 6 201 261 309 260 198 199 197 191 245 190 304 314 233 234 319 290 270 207 270 290 319 234 233 314 304 190 245 191 197 199 198 260 309 261 201 6 259 258 7 9 4 1196 863 914 912 862"/>
+		<stationRoute stationID="GUILDFD" name="[GUIL635]-[sw110/2]-[8]-[GUIL635]-[sw110/2] (3)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=50;NRz=50;S=50;Rz=50;FGz=50;NGz=50;Gz=50;Lz=50;Unbekannt=50" nodes="862 912 914 863 1196 4 9 7 258 259 6 201 261 309 260 198 199 197 191 245 190 304 314 233 314 304 190 245 191 197 199 198 260 309 261 201 6 259 258 7 9 4 1196 863 914 912 862"/>
+		<stationRoute stationID="GUILDFD" name="[GUIL635]-[sw110/2]-[8]-[SHALFDJ]-[sw110/1] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=70;NRz=70;S=70;Rz=70;FGz=70;NGz=70;Gz=70;Lz=70;Unbekannt=70" nodes="862 912 914 863 1196 4 9 7 258 259 6 201 261 309 260 198 199 197 191 245 190 304 314 233 234 319 290 270 207 243 220 222 244 899 897 210 896 904 901 906 910"/>
+		<stationRoute stationID="GUILDFD" name="[GUILDCS]-[sw110/UCHS]-[11]-[GUIL305]-[sw265/2] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="286 288 262 199 198 281"/>
+		<stationRoute stationID="GUILDFD" name="[GUILDCS]-[sw110/UCHS]-[11]-[GUIL635]-[sw110/2] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=80;NRz=80;S=80;Rz=80;FGz=80;NGz=80;Gz=80;Lz=80;Unbekannt=80" nodes="286 288 262 199 198 260 309 261 201 6 259 258 7 9 4 1196 863 914 912 862"/>
+		<stationRoute stationID="GUILDFD" name="[LRDGFD]-[sw200/2]-[1]-[LRDGFD]-[sw200/1] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=75;NRz=75;S=75;Rz=75;FGz=75;NGz=75;Gz=75;Lz=75;Unbekannt=75" nodes="11 20 21 15 246 101 92 179 180 253 181 182 302 183 302 182 181 253 180 179 250 251 178 123 200 93 16 17"/>
+		<stationRoute stationID="GUILDFD" name="[LRDGFD]-[sw200/2]-[1]-[]-[?/] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=95;NRz=95;S=95;Rz=95;FGz=95;NGz=95;Gz=95;Lz=95;Unbekannt=95" nodes="11 20 21 15 246 101 92 179 180 253 181 182 302 183 8158"/>
+		<stationRoute stationID="GUILDFD" name="[LRDGFD]-[sw200/2]-[2]-[GUIL308]-[sw110/2] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=95;NRz=95;S=95;Rz=95;FGz=95;NGz=95;Gz=95;Lz=95;Unbekannt=95" nodes="11 20 21 15 246 101 92 179 180 154 235 59 301 336 225 226 296 337 203 247 212 214 211 209 208 224 238 269"/>
+		<stationRoute stationID="GUILDFD" name="[LRDGFD]-[sw200/2]-[2]-[GUIL308]-[sw110/2] (3)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=80;NRz=80;S=80;Rz=80;FGz=80;NGz=80;Gz=80;Lz=80;Unbekannt=80" nodes="11 20 21 15 246 101 93 200 123 178 177 147 91 236 256 257 235 59 301 336 225 226 296 337 203 247 212 214 211 209 208 224 238 269"/>
+		<stationRoute stationID="GUILDFD" name="[LRDGFD]-[sw200/2]-[2]-[GUIL635]-[sw110/2] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=80;NRz=80;S=80;Rz=80;FGz=80;NGz=80;Gz=80;Lz=80;Unbekannt=80" nodes="11 20 21 15 246 101 92 179 180 154 235 59 301 336 225 336 301 59 235 257 256 236 91 147 254 153 255 5 298 7 9 4 1196 863 914 912 862"/>
+		<stationRoute stationID="GUILDFD" name="[LRDGFD]-[sw200/2]-[2]-[GUIL635]-[sw110/2] (3)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=80;NRz=80;S=80;Rz=80;FGz=80;NGz=80;Gz=80;Lz=80;Unbekannt=80" nodes="11 20 21 15 246 101 92 179 180 154 235 59 301 336 225 226 296 337 203 337 296 226 225 336 301 59 235 257 256 236 91 147 254 153 255 5 298 7 9 4 1196 863 914 912 862"/>
+		<stationRoute stationID="GUILDFD" name="[LRDGFD]-[sw200/2]-[2]-[GUIL635]-[sw110/2] (4)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=65;NRz=65;S=65;Rz=65;FGz=65;NGz=65;Gz=65;Lz=65;Unbekannt=65" nodes="11 20 21 15 246 101 93 200 123 178 177 147 91 236 256 257 235 59 301 336 225 336 301 59 235 257 256 236 91 147 254 153 255 5 298 7 9 4 1196 863 914 912 862"/>
+		<stationRoute stationID="GUILDFD" name="[LRDGFD]-[sw200/2]-[2]-[GUIL635]-[sw110/2] (5)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=65;NRz=65;S=65;Rz=65;FGz=65;NGz=65;Gz=65;Lz=65;Unbekannt=65" nodes="11 20 21 15 246 101 93 200 123 178 177 147 91 236 256 257 235 59 301 336 225 226 296 337 203 337 296 226 225 336 301 59 235 257 256 236 91 147 254 153 255 5 298 7 9 4 1196 863 914 912 862"/>
+		<stationRoute stationID="GUILDFD" name="[LRDGFD]-[sw200/2]-[2]-[LRDGFD]-[sw200/1] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=85;NRz=85;S=85;Rz=85;FGz=85;NGz=85;Gz=85;Lz=85;Unbekannt=85" nodes="11 20 21 15 246 101 92 179 180 154 235 59 301 336 225 336 301 59 235 257 256 236 91 147 177 178 123 200 93 16 17"/>
+		<stationRoute stationID="GUILDFD" name="[LRDGFD]-[sw200/2]-[2]-[LRDGFD]-[sw200/1] (3)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=85;NRz=85;S=85;Rz=85;FGz=85;NGz=85;Gz=85;Lz=85;Unbekannt=85" nodes="11 20 21 15 246 101 92 179 180 154 235 59 301 336 225 336 301 59 235 154 180 179 250 251 178 123 200 93 16 17"/>
+		<stationRoute stationID="GUILDFD" name="[LRDGFD]-[sw200/2]-[2]-[LRDGFD]-[sw200/1] (4)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=85;NRz=85;S=85;Rz=85;FGz=85;NGz=85;Gz=85;Lz=85;Unbekannt=85" nodes="11 20 21 15 246 101 92 179 180 154 235 59 301 336 225 226 296 337 203 337 296 226 225 336 301 59 235 257 256 236 91 147 177 178 123 200 93 16 17"/>
+		<stationRoute stationID="GUILDFD" name="[LRDGFD]-[sw200/2]-[2]-[LRDGFD]-[sw200/1] (5)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=85;NRz=85;S=85;Rz=85;FGz=85;NGz=85;Gz=85;Lz=85;Unbekannt=85" nodes="11 20 21 15 246 101 92 179 180 154 235 59 301 336 225 226 296 337 203 337 296 226 225 336 301 59 235 154 180 179 250 251 178 123 200 93 16 17"/>
+		<stationRoute stationID="GUILDFD" name="[LRDGFD]-[sw200/2]-[2]-[LRDGFD]-[sw200/1] (6)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=70;NRz=70;S=70;Rz=70;FGz=70;NGz=70;Gz=70;Lz=70;Unbekannt=70" nodes="11 20 21 15 246 101 93 200 123 178 177 147 91 236 256 257 235 59 301 336 225 336 301 59 235 257 256 236 91 147 177 178 123 200 93 16 17"/>
+		<stationRoute stationID="GUILDFD" name="[LRDGFD]-[sw200/2]-[2]-[LRDGFD]-[sw200/1] (7)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=70;NRz=70;S=70;Rz=70;FGz=70;NGz=70;Gz=70;Lz=70;Unbekannt=70" nodes="11 20 21 15 246 101 93 200 123 178 177 147 91 236 256 257 235 59 301 336 225 336 301 59 235 154 180 179 250 251 178 123 200 93 16 17"/>
+		<stationRoute stationID="GUILDFD" name="[LRDGFD]-[sw200/2]-[2]-[LRDGFD]-[sw200/1] (8)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=70;NRz=70;S=70;Rz=70;FGz=70;NGz=70;Gz=70;Lz=70;Unbekannt=70" nodes="11 20 21 15 246 101 93 200 123 178 177 147 91 236 256 257 235 59 301 336 225 226 296 337 203 337 296 226 225 336 301 59 235 257 256 236 91 147 177 178 123 200 93 16 17"/>
+		<stationRoute stationID="GUILDFD" name="[LRDGFD]-[sw200/2]-[2]-[LRDGFD]-[sw200/1] (9)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=70;NRz=70;S=70;Rz=70;FGz=70;NGz=70;Gz=70;Lz=70;Unbekannt=70" nodes="11 20 21 15 246 101 93 200 123 178 177 147 91 236 256 257 235 59 301 336 225 226 296 337 203 337 296 226 225 336 301 59 235 154 180 179 250 251 178 123 200 93 16 17"/>
+		<stationRoute stationID="GUILDFD" name="[LRDGFD]-[sw200/2]-[3]-[GUIL308]-[sw110/2] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=80;NRz=80;S=80;Rz=80;FGz=80;NGz=80;Gz=80;Lz=80;Unbekannt=80" nodes="11 20 21 15 246 101 93 200 123 178 177 147 91 236 249 82 300 325 227 228 295 331 275 204 248 217 218 215 897 210 896 904 901 908 909 224 238 269"/>
+		<stationRoute stationID="GUILDFD" name="[LRDGFD]-[sw200/2]-[3]-[GUIL635]-[sw110/2] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=85;NRz=85;S=85;Rz=85;FGz=85;NGz=85;Gz=85;Lz=85;Unbekannt=85" nodes="11 20 21 15 246 101 93 200 123 178 177 147 91 236 249 82 300 325 227 228 295 331 275 204 275 331 295 228 227 325 300 82 249 236 91 147 254 153 255 5 298 7 9 4 1196 863 914 912 862"/>
+		<stationRoute stationID="GUILDFD" name="[LRDGFD]-[sw200/2]-[3]-[GUIL635]-[sw110/2] (3)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=85;NRz=85;S=85;Rz=85;FGz=85;NGz=85;Gz=85;Lz=85;Unbekannt=85" nodes="11 20 21 15 246 101 93 200 123 178 177 147 91 236 249 82 300 325 227 325 300 82 249 236 91 147 254 153 255 5 298 7 9 4 1196 863 914 912 862"/>
+		<stationRoute stationID="GUILDFD" name="[LRDGFD]-[sw200/2]-[3]-[LRDGFD]-[sw200/1] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=90;NRz=90;S=90;Rz=90;FGz=90;NGz=90;Gz=90;Lz=90;Unbekannt=90" nodes="11 20 21 15 246 101 93 200 123 178 177 147 91 236 249 82 300 325 227 228 295 331 275 204 275 331 295 228 227 325 300 82 249 236 91 147 177 178 123 200 93 16 17"/>
+		<stationRoute stationID="GUILDFD" name="[LRDGFD]-[sw200/2]-[3]-[LRDGFD]-[sw200/1] (3)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=90;NRz=90;S=90;Rz=90;FGz=90;NGz=90;Gz=90;Lz=90;Unbekannt=90" nodes="11 20 21 15 246 101 93 200 123 178 177 147 91 236 249 82 300 325 227 325 300 82 249 236 91 147 177 178 123 200 93 16 17"/>
+		<stationRoute stationID="GUILDFD" name="[LRDGFD]-[sw200/2]-[3]-[SHALFDJ]-[sw110/1] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=90;NRz=90;S=90;Rz=90;FGz=90;NGz=90;Gz=90;Lz=90;Unbekannt=90" nodes="11 20 21 15 246 101 93 200 123 178 177 147 91 236 249 82 300 325 227 228 295 331 275 204 248 217 218 215 897 210 896 904 901 906 910"/>
+		<stationRoute stationID="GUILDFD" name="[SHALFDJ]-[sw110/1]-[3]-[GUIL308]-[sw110/2] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=80;NRz=80;S=80;Rz=80;FGz=80;NGz=80;Gz=80;Lz=80;Unbekannt=80" nodes="910 906 901 904 896 210 897 215 218 217 248 204 275 331 295 228 227 325 300 82 300 325 227 228 295 331 275 204 248 217 218 215 897 210 896 904 901 908 909 224 238 269"/>
+		<stationRoute stationID="GUILDFD" name="[SHALFDJ]-[sw110/1]-[3]-[GUIL308]-[sw110/2] (3)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=80;NRz=80;S=80;Rz=80;FGz=80;NGz=80;Gz=80;Lz=80;Unbekannt=80" nodes="910 906 901 904 896 210 897 215 218 217 248 204 275 331 295 228 295 331 275 204 248 217 218 215 897 210 896 904 901 908 909 224 238 269"/>
+		<stationRoute stationID="GUILDFD" name="[SHALFDJ]-[sw110/1]-[3]-[GUIL635]-[sw110/2] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=85;NRz=85;S=85;Rz=85;FGz=85;NGz=85;Gz=85;Lz=85;Unbekannt=85" nodes="910 906 901 904 896 210 897 215 218 217 248 204 275 331 295 228 227 325 300 82 249 236 91 147 254 153 255 5 298 7 9 4 1196 863 914 912 862"/>
+		<stationRoute stationID="GUILDFD" name="[SHALFDJ]-[sw110/1]-[3]-[LRDGFD]-[sw200/1] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=90;NRz=90;S=90;Rz=90;FGz=90;NGz=90;Gz=90;Lz=90;Unbekannt=90" nodes="910 906 901 904 896 210 897 215 218 217 248 204 275 331 295 228 227 325 300 82 249 236 91 147 177 178 123 200 93 16 17"/>
+		<stationRoute stationID="GUILDFD" name="[SHALFDJ]-[sw110/1]-[3]-[SHALFDJ]-[sw110/1] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=90;NRz=90;S=90;Rz=90;FGz=90;NGz=90;Gz=90;Lz=90;Unbekannt=90" nodes="910 906 901 904 896 210 897 215 218 217 248 204 275 331 295 228 227 325 300 82 300 325 227 228 295 331 275 204 248 217 218 215 897 210 896 904 901 906 910"/>
+		<stationRoute stationID="GUILDFD" name="[SHALFDJ]-[sw110/1]-[3]-[SHALFDJ]-[sw110/1] (3)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=90;NRz=90;S=90;Rz=90;FGz=90;NGz=90;Gz=90;Lz=90;Unbekannt=90" nodes="910 906 901 904 896 210 897 215 218 217 248 204 275 331 295 228 295 331 275 204 248 217 218 215 897 210 896 904 901 906 910"/>
+		<stationRoute stationID="GUILDFD" name="[SHALFDJ]-[sw110/1]-[5]-[GUIL305]-[sw265/2] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=85;NRz=85;S=85;Rz=85;FGz=85;NGz=85;Gz=85;Lz=85;Unbekannt=85" nodes="910 906 901 904 896 210 897 899 900 907 895 274 915 903 902 911 916 913 861 186 194 265 195 266 193 196 263 264 197 199 198 281"/>
+		<stationRoute stationID="GUILDFD" name="[SHALFDJ]-[sw110/1]-[5]-[GUIL308]-[sw110/2] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=90;NRz=90;S=90;Rz=90;FGz=90;NGz=90;Gz=90;Lz=90;Unbekannt=90" nodes="910 906 901 904 896 210 897 899 900 907 895 274 915 903 902 911 916 913 861 913 916 911 902 903 915 274 895 907 900 899 897 210 896 904 901 908 909 224 238 269"/>
+		<stationRoute stationID="GUILDFD" name="[SHALFDJ]-[sw110/1]-[5]-[GUIL308]-[sw110/2] (3)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=90;NRz=90;S=90;Rz=90;FGz=90;NGz=90;Gz=90;Lz=90;Unbekannt=90" nodes="910 906 901 904 896 210 897 899 900 907 895 274 915 903 915 274 895 907 900 899 897 210 896 904 901 908 909 224 238 269"/>
+		<stationRoute stationID="GUILDFD" name="[SHALFDJ]-[sw110/1]-[5]-[GUIL635]-[sw110/2] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=95;NRz=95;S=95;Rz=95;FGz=95;NGz=95;Gz=95;Lz=95;Unbekannt=95" nodes="910 906 901 904 896 210 897 899 900 907 895 274 915 903 902 911 916 913 861 186 194 90 5 298 7 9 4 1196 863 914 912 862"/>
+		<stationRoute stationID="GUILDFD" name="[SHALFDJ]-[sw110/1]-[5]-[SHALFDJ]-[sw110/1] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="910 906 901 904 896 210 897 899 900 907 895 274 915 903 902 911 916 913 861 913 916 911 902 903 915 274 895 907 900 899 897 210 896 904 901 906 910"/>
+		<stationRoute stationID="GUILDFD" name="[SHALFDJ]-[sw110/1]-[5]-[SHALFDJ]-[sw110/1] (3)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="910 906 901 904 896 210 897 899 900 907 895 274 915 903 915 274 895 907 900 899 897 210 896 904 901 906 910"/>
+		<stationRoute stationID="GUILDFD" name="[SHALFDJ]-[sw110/1]-[6]-[GUIL305]-[sw265/2] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=75;NRz=75;S=75;Rz=75;FGz=75;NGz=75;Gz=75;Lz=75;Unbekannt=75" nodes="910 906 901 904 896 210 897 899 900 242 223 221 241 206 272 320 293 232 231 315 303 187 240 189 193 196 263 264 197 199 198 281"/>
+		<stationRoute stationID="GUILDFD" name="[SHALFDJ]-[sw110/1]-[6]-[GUIL308]-[sw110/2] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=80;NRz=80;S=80;Rz=80;FGz=80;NGz=80;Gz=80;Lz=80;Unbekannt=80" nodes="910 906 901 904 896 210 897 899 900 242 223 221 241 206 272 320 293 232 231 315 303 187 303 315 231 232 293 320 272 206 241 221 223 242 900 899 897 210 896 904 901 908 909 224 238 269"/>
+		<stationRoute stationID="GUILDFD" name="[SHALFDJ]-[sw110/1]-[6]-[GUIL308]-[sw110/2] (3)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=80;NRz=80;S=80;Rz=80;FGz=80;NGz=80;Gz=80;Lz=80;Unbekannt=80" nodes="910 906 901 904 896 210 897 899 900 242 223 221 241 206 272 320 293 232 293 320 272 206 241 221 223 242 900 899 897 210 896 904 901 908 909 224 238 269"/>
+		<stationRoute stationID="GUILDFD" name="[SHALFDJ]-[sw110/1]-[6]-[GUIL635]-[sw110/2] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=80;NRz=80;S=80;Rz=80;FGz=80;NGz=80;Gz=80;Lz=80;Unbekannt=80" nodes="910 906 901 904 896 210 897 899 900 242 223 221 241 206 272 320 293 232 231 315 303 187 240 189 193 196 307 201 6 259 258 7 9 4 1196 863 914 912 862"/>
+		<stationRoute stationID="GUILDFD" name="[SHALFDJ]-[sw110/1]-[6]-[SHALFDJ]-[sw110/1] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=90;NRz=90;S=90;Rz=90;FGz=90;NGz=90;Gz=90;Lz=90;Unbekannt=90" nodes="910 906 901 904 896 210 897 899 900 242 223 221 241 206 272 320 293 232 231 315 303 187 303 315 231 232 293 320 272 206 241 221 223 242 900 899 897 210 896 904 901 906 910"/>
+		<stationRoute stationID="GUILDFD" name="[SHALFDJ]-[sw110/1]-[6]-[SHALFDJ]-[sw110/1] (3)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=90;NRz=90;S=90;Rz=90;FGz=90;NGz=90;Gz=90;Lz=90;Unbekannt=90" nodes="910 906 901 904 896 210 897 899 900 242 223 221 241 206 272 320 293 232 293 320 272 206 241 221 223 242 900 899 897 210 896 904 901 906 910"/>
+		<stationRoute stationID="GUILDFD" name="[SHALFDJ]-[sw110/1]-[8]-[GUIL305]-[sw265/2] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=90;NRz=90;S=90;Rz=90;FGz=90;NGz=90;Gz=90;Lz=90;Unbekannt=90" nodes="910 906 901 904 896 210 897 899 244 222 220 243 207 270 290 319 234 233 314 304 190 245 191 197 199 198 281"/>
+		<stationRoute stationID="GUILDFD" name="[SHALFDJ]-[sw110/1]-[8]-[GUIL308]-[sw110/2] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=80;NRz=80;S=80;Rz=80;FGz=80;NGz=80;Gz=80;Lz=80;Unbekannt=80" nodes="910 906 901 904 896 210 897 899 244 222 220 243 207 270 290 319 234 233 314 304 190 304 314 233 234 319 290 270 207 243 220 222 244 899 897 210 896 904 901 908 909 224 238 269"/>
+		<stationRoute stationID="GUILDFD" name="[SHALFDJ]-[sw110/1]-[8]-[GUIL308]-[sw110/2] (3)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=80;NRz=80;S=80;Rz=80;FGz=80;NGz=80;Gz=80;Lz=80;Unbekannt=80" nodes="910 906 901 904 896 210 897 899 244 222 220 243 207 270 290 319 234 319 290 270 207 243 220 222 244 899 897 210 896 904 901 908 909 224 238 269"/>
+		<stationRoute stationID="GUILDFD" name="[SHALFDJ]-[sw110/1]-[8]-[GUIL635]-[sw110/2] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=70;NRz=70;S=70;Rz=70;FGz=70;NGz=70;Gz=70;Lz=70;Unbekannt=70" nodes="910 906 901 904 896 210 897 899 244 222 220 243 207 270 290 319 234 233 314 304 190 245 191 197 199 198 260 309 261 201 6 259 258 7 9 4 1196 863 914 912 862"/>
+		<stationRoute stationID="GUILDFD" name="[SHALFDJ]-[sw110/1]-[8]-[SHALFDJ]-[sw110/1] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=90;NRz=90;S=90;Rz=90;FGz=90;NGz=90;Gz=90;Lz=90;Unbekannt=90" nodes="910 906 901 904 896 210 897 899 244 222 220 243 207 270 290 319 234 233 314 304 190 304 314 233 234 319 290 270 207 243 220 222 244 899 897 210 896 904 901 906 910"/>
+		<stationRoute stationID="GUILDFD" name="[SHALFDJ]-[sw110/1]-[8]-[SHALFDJ]-[sw110/1] (3)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=90;NRz=90;S=90;Rz=90;FGz=90;NGz=90;Gz=90;Lz=90;Unbekannt=90" nodes="910 906 901 904 896 210 897 899 244 222 220 243 207 270 290 319 234 319 290 270 207 243 220 222 244 899 897 210 896 904 901 906 910"/>
+		<stationRoute stationID="GUILDFD" name="[WANBRO]-[sw265/1]-[11]-[GUILDCS]-[sw110/UCHS] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=90;NRz=90;S=90;Rz=90;FGz=90;NGz=90;Gz=90;Lz=90;Unbekannt=90" nodes="327 6 201 261 309 260 198 199 262 288 286"/>
+		<stationRoute stationID="GUILDFD" name="[WANBRO]-[sw265/1]-[4]-[GUIL305]-[sw265/2] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=65;NRz=65;S=65;Rz=65;FGz=65;NGz=65;Gz=65;Lz=65;Unbekannt=65" nodes="327 6 201 307 196 193 266 195 265 194 186 267 268 185 184 299 323 294 229 230 324 237 205 237 324 230 229 294 323 299 184 185 268 267 186 194 265 195 266 193 196 263 264 197 199 198 281"/>
+		<stationRoute stationID="GUILDFD" name="[WANBRO]-[sw265/1]-[4]-[GUIL305]-[sw265/2] (3)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=65;NRz=65;S=65;Rz=65;FGz=65;NGz=65;Gz=65;Lz=65;Unbekannt=65" nodes="327 6 201 307 196 193 266 195 265 194 186 267 268 185 184 299 323 294 229 294 323 299 184 185 268 267 186 194 265 195 266 193 196 263 264 197 199 198 281"/>
+		<stationRoute stationID="GUILDFD" name="[WANBRO]-[sw265/1]-[4]-[GUIL308]-[sw110/2] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=90;NRz=90;S=90;Rz=90;FGz=90;NGz=90;Gz=90;Lz=90;Unbekannt=90" nodes="327 6 201 307 196 193 266 195 265 194 186 267 268 185 184 299 323 294 229 230 324 237 205 219 215 211 209 208 224 238 269"/>
+		<stationRoute stationID="GUILDFD" name="[WANBRO]-[sw265/1]-[4]-[GUIL635]-[sw110/2] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=75;NRz=75;S=75;Rz=75;FGz=75;NGz=75;Gz=75;Lz=75;Unbekannt=75" nodes="327 6 201 307 196 193 266 195 265 194 186 267 268 185 184 299 323 294 229 230 324 237 205 237 324 230 229 294 323 299 184 185 268 267 186 194 90 5 298 7 9 4 1196 863 914 912 862"/>
+		<stationRoute stationID="GUILDFD" name="[WANBRO]-[sw265/1]-[4]-[GUIL635]-[sw110/2] (3)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=75;NRz=75;S=75;Rz=75;FGz=75;NGz=75;Gz=75;Lz=75;Unbekannt=75" nodes="327 6 201 307 196 193 266 195 265 194 186 267 268 185 184 299 323 294 229 294 323 299 184 185 268 267 186 194 90 5 298 7 9 4 1196 863 914 912 862"/>
+		<stationRoute stationID="GUILDFD" name="[WANBRO]-[sw265/1]-[5]-[GUIL305]-[sw265/2] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=85;NRz=85;S=85;Rz=85;FGz=85;NGz=85;Gz=85;Lz=85;Unbekannt=85" nodes="327 6 201 307 196 193 266 195 265 194 186 861 913 916 911 902 903 915 274 895 274 915 903 902 911 916 913 861 186 194 265 195 266 193 196 263 264 197 199 198 281"/>
+		<stationRoute stationID="GUILDFD" name="[WANBRO]-[sw265/1]-[5]-[GUIL305]-[sw265/2] (3)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=85;NRz=85;S=85;Rz=85;FGz=85;NGz=85;Gz=85;Lz=85;Unbekannt=85" nodes="327 6 201 307 196 193 266 195 265 194 186 861 913 916 911 902 911 916 913 861 186 194 265 195 266 193 196 263 264 197 199 198 281"/>
+		<stationRoute stationID="GUILDFD" name="[WANBRO]-[sw265/1]-[5]-[GUIL308]-[sw110/2] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=90;NRz=90;S=90;Rz=90;FGz=90;NGz=90;Gz=90;Lz=90;Unbekannt=90" nodes="327 6 201 307 196 193 266 195 265 194 186 861 913 916 911 902 903 915 274 895 907 900 899 897 210 896 904 901 908 909 224 238 269"/>
+		<stationRoute stationID="GUILDFD" name="[WANBRO]-[sw265/1]-[5]-[GUIL635]-[sw110/2] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=95;NRz=95;S=95;Rz=95;FGz=95;NGz=95;Gz=95;Lz=95;Unbekannt=95" nodes="327 6 201 307 196 193 266 195 265 194 186 861 913 916 911 902 903 915 274 895 274 915 903 902 911 916 913 861 186 194 90 5 298 7 9 4 1196 863 914 912 862"/>
+		<stationRoute stationID="GUILDFD" name="[WANBRO]-[sw265/1]-[5]-[GUIL635]-[sw110/2] (3)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=95;NRz=95;S=95;Rz=95;FGz=95;NGz=95;Gz=95;Lz=95;Unbekannt=95" nodes="327 6 201 307 196 193 266 195 265 194 186 861 913 916 911 902 911 916 913 861 186 194 90 5 298 7 9 4 1196 863 914 912 862"/>
+		<stationRoute stationID="GUILDFD" name="[WANBRO]-[sw265/1]-[5]-[SHALFDJ]-[sw110/1] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="327 6 201 307 196 193 266 195 265 194 186 861 913 916 911 902 903 915 274 895 907 900 899 897 210 896 904 901 906 910"/>
+		<stationRoute stationID="GUILDFD" name="[WANBRO]-[sw265/1]-[6]-[GUIL305]-[sw265/2] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=75;NRz=75;S=75;Rz=75;FGz=75;NGz=75;Gz=75;Lz=75;Unbekannt=75" nodes="327 6 201 307 196 193 189 240 187 303 315 231 232 293 320 272 206 272 320 293 232 231 315 303 187 240 189 193 196 263 264 197 199 198 281"/>
+		<stationRoute stationID="GUILDFD" name="[WANBRO]-[sw265/1]-[6]-[GUIL305]-[sw265/2] (3)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=75;NRz=75;S=75;Rz=75;FGz=75;NGz=75;Gz=75;Lz=75;Unbekannt=75" nodes="327 6 201 307 196 193 189 240 187 303 315 231 315 303 187 240 189 193 196 263 264 197 199 198 281"/>
+		<stationRoute stationID="GUILDFD" name="[WANBRO]-[sw265/1]-[6]-[GUIL308]-[sw110/2] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=80;NRz=80;S=80;Rz=80;FGz=80;NGz=80;Gz=80;Lz=80;Unbekannt=80" nodes="327 6 201 307 196 193 189 240 187 303 315 231 232 293 320 272 206 241 221 223 242 900 899 897 210 896 904 901 908 909 224 238 269"/>
+		<stationRoute stationID="GUILDFD" name="[WANBRO]-[sw265/1]-[6]-[GUIL635]-[sw110/2] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=80;NRz=80;S=80;Rz=80;FGz=80;NGz=80;Gz=80;Lz=80;Unbekannt=80" nodes="327 6 201 307 196 193 189 240 187 303 315 231 232 293 320 272 206 272 320 293 232 231 315 303 187 240 189 193 196 307 201 6 259 258 7 9 4 1196 863 914 912 862"/>
+		<stationRoute stationID="GUILDFD" name="[WANBRO]-[sw265/1]-[6]-[GUIL635]-[sw110/2] (3)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=80;NRz=80;S=80;Rz=80;FGz=80;NGz=80;Gz=80;Lz=80;Unbekannt=80" nodes="327 6 201 307 196 193 189 240 187 303 315 231 315 303 187 240 189 193 196 307 201 6 259 258 7 9 4 1196 863 914 912 862"/>
+		<stationRoute stationID="GUILDFD" name="[WANBRO]-[sw265/1]-[6]-[SHALFDJ]-[sw110/1] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=90;NRz=90;S=90;Rz=90;FGz=90;NGz=90;Gz=90;Lz=90;Unbekannt=90" nodes="327 6 201 307 196 193 189 240 187 303 315 231 232 293 320 272 206 241 221 223 242 900 899 897 210 896 904 901 906 910"/>
+		<stationRoute stationID="GUILDFD" name="[WANBRO]-[sw265/1]-[8]-[GUIL305]-[sw265/2] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=80;NRz=80;S=80;Rz=80;FGz=80;NGz=80;Gz=80;Lz=80;Unbekannt=80" nodes="327 6 201 261 309 260 198 199 197 191 245 190 304 314 233 234 319 290 270 207 270 290 319 234 233 314 304 190 245 191 197 199 198 281"/>
+		<stationRoute stationID="GUILDFD" name="[WANBRO]-[sw265/1]-[8]-[GUIL305]-[sw265/2] (3)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=80;NRz=80;S=80;Rz=80;FGz=80;NGz=80;Gz=80;Lz=80;Unbekannt=80" nodes="327 6 201 261 309 260 198 199 197 191 245 190 304 314 233 314 304 190 245 191 197 199 198 281"/>
+		<stationRoute stationID="GUILDFD" name="[WANBRO]-[sw265/1]-[8]-[GUIL308]-[sw110/2] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=70;NRz=70;S=70;Rz=70;FGz=70;NGz=70;Gz=70;Lz=70;Unbekannt=70" nodes="327 6 201 261 309 260 198 199 197 191 245 190 304 314 233 234 319 290 270 207 243 220 222 244 899 897 210 896 904 901 908 909 224 238 269"/>
+		<stationRoute stationID="GUILDFD" name="[WANBRO]-[sw265/1]-[8]-[GUIL635]-[sw110/2] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=60;NRz=60;S=60;Rz=60;FGz=60;NGz=60;Gz=60;Lz=60;Unbekannt=60" nodes="327 6 201 261 309 260 198 199 197 191 245 190 304 314 233 234 319 290 270 207 270 290 319 234 233 314 304 190 245 191 197 199 198 260 309 261 201 6 259 258 7 9 4 1196 863 914 912 862"/>
+		<stationRoute stationID="GUILDFD" name="[WANBRO]-[sw265/1]-[8]-[GUIL635]-[sw110/2] (3)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=60;NRz=60;S=60;Rz=60;FGz=60;NGz=60;Gz=60;Lz=60;Unbekannt=60" nodes="327 6 201 261 309 260 198 199 197 191 245 190 304 314 233 314 304 190 245 191 197 199 198 260 309 261 201 6 259 258 7 9 4 1196 863 914 912 862"/>
+		<stationRoute stationID="GUILDFD" name="[WANBRO]-[sw265/1]-[8]-[SHALFDJ]-[sw110/1] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=80;NRz=80;S=80;Rz=80;FGz=80;NGz=80;Gz=80;Lz=80;Unbekannt=80" nodes="327 6 201 261 309 260 198 199 197 191 245 190 304 314 233 234 319 290 270 207 243 220 222 244 899 897 210 896 904 901 906 910"/>
+		<stationRoute stationID="GUILDFD" name="[WRPLSDN]-[sw110/1]-[11]-[GUILDCS]-[sw110/UCHS] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=70;NRz=70;S=70;Rz=70;FGz=70;NGz=70;Gz=70;Lz=70;Unbekannt=70" nodes="5375 5330 5335 5331 5333 5332 4 9 7 258 259 6 201 261 309 260 198 199 262 288 286"/>
+		<stationRoute stationID="GUILDFD" name="[WRPLSDN]-[sw110/1]-[2]-[GUIL308]-[sw110/2] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=85;NRz=85;S=85;Rz=85;FGz=85;NGz=85;Gz=85;Lz=85;Unbekannt=85" nodes="5375 5330 5335 5331 1 2 94 297 175 252 177 154 235 59 301 336 225 226 296 337 203 247 212 214 211 209 208 224 238 269"/>
+		<stationRoute stationID="GUILDFD" name="[WRPLSDN]-[sw110/1]-[2]-[GUIL635]-[sw110/2] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=70;NRz=70;S=70;Rz=70;FGz=70;NGz=70;Gz=70;Lz=70;Unbekannt=70" nodes="5375 5330 5335 5331 1 2 94 297 175 252 177 154 235 59 301 336 225 226 296 337 203 337 296 226 225 336 301 59 235 257 256 236 91 147 254 153 255 5 298 7 9 4 1196 863 914 912 862"/>
+		<stationRoute stationID="GUILDFD" name="[WRPLSDN]-[sw110/1]-[2]-[GUIL635]-[sw110/2] (3)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=70;NRz=70;S=70;Rz=70;FGz=70;NGz=70;Gz=70;Lz=70;Unbekannt=70" nodes="5375 5330 5335 5331 1 2 94 297 175 252 177 154 235 59 301 336 225 336 301 59 235 257 256 236 91 147 254 153 255 5 298 7 9 4 1196 863 914 912 862"/>
+		<stationRoute stationID="GUILDFD" name="[WRPLSDN]-[sw110/1]-[2]-[LRDGFD]-[sw200/1] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=75;NRz=75;S=75;Rz=75;FGz=75;NGz=75;Gz=75;Lz=75;Unbekannt=75" nodes="5375 5330 5335 5331 1 2 94 297 175 252 177 154 235 59 301 336 225 226 296 337 203 337 296 226 225 336 301 59 235 257 256 236 91 147 177 178 123 200 93 16 17"/>
+		<stationRoute stationID="GUILDFD" name="[WRPLSDN]-[sw110/1]-[2]-[LRDGFD]-[sw200/1] (3)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=75;NRz=75;S=75;Rz=75;FGz=75;NGz=75;Gz=75;Lz=75;Unbekannt=75" nodes="5375 5330 5335 5331 1 2 94 297 175 252 177 154 235 59 301 336 225 226 296 337 203 337 296 226 225 336 301 59 235 154 180 179 250 251 178 123 200 93 16 17"/>
+		<stationRoute stationID="GUILDFD" name="[WRPLSDN]-[sw110/1]-[2]-[LRDGFD]-[sw200/1] (4)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=75;NRz=75;S=75;Rz=75;FGz=75;NGz=75;Gz=75;Lz=75;Unbekannt=75" nodes="5375 5330 5335 5331 1 2 94 297 175 252 177 154 235 59 301 336 225 336 301 59 235 257 256 236 91 147 177 178 123 200 93 16 17"/>
+		<stationRoute stationID="GUILDFD" name="[WRPLSDN]-[sw110/1]-[2]-[LRDGFD]-[sw200/1] (5)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=75;NRz=75;S=75;Rz=75;FGz=75;NGz=75;Gz=75;Lz=75;Unbekannt=75" nodes="5375 5330 5335 5331 1 2 94 297 175 252 177 154 235 59 301 336 225 336 301 59 235 154 180 179 250 251 178 123 200 93 16 17"/>
+		<stationRoute stationID="GUILDFD" name="[WRPLSDN]-[sw110/1]-[3]-[GUIL308]-[sw110/2] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=65;NRz=65;S=65;Rz=65;FGz=65;NGz=65;Gz=65;Lz=65;Unbekannt=65" nodes="5375 5330 5335 5331 5333 5332 4 9 7 298 5 255 153 254 147 91 236 249 82 300 325 227 228 295 331 275 204 248 217 218 215 897 210 896 904 901 908 909 224 238 269"/>
+		<stationRoute stationID="GUILDFD" name="[WRPLSDN]-[sw110/1]-[3]-[GUIL635]-[sw110/2] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=70;NRz=70;S=70;Rz=70;FGz=70;NGz=70;Gz=70;Lz=70;Unbekannt=70" nodes="5375 5330 5335 5331 5333 5332 4 9 7 298 5 255 153 254 147 91 236 249 82 300 325 227 228 295 331 275 204 275 331 295 228 227 325 300 82 249 236 91 147 254 153 255 5 298 7 9 4 1196 863 914 912 862"/>
+		<stationRoute stationID="GUILDFD" name="[WRPLSDN]-[sw110/1]-[3]-[GUIL635]-[sw110/2] (3)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=70;NRz=70;S=70;Rz=70;FGz=70;NGz=70;Gz=70;Lz=70;Unbekannt=70" nodes="5375 5330 5335 5331 5333 5332 4 9 7 298 5 255 153 254 147 91 236 249 82 300 325 227 325 300 82 249 236 91 147 254 153 255 5 298 7 9 4 1196 863 914 912 862"/>
+		<stationRoute stationID="GUILDFD" name="[WRPLSDN]-[sw110/1]-[3]-[LRDGFD]-[sw200/1] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=75;NRz=75;S=75;Rz=75;FGz=75;NGz=75;Gz=75;Lz=75;Unbekannt=75" nodes="5375 5330 5335 5331 5333 5332 4 9 7 298 5 255 153 254 147 91 236 249 82 300 325 227 228 295 331 275 204 275 331 295 228 227 325 300 82 249 236 91 147 177 178 123 200 93 16 17"/>
+		<stationRoute stationID="GUILDFD" name="[WRPLSDN]-[sw110/1]-[3]-[LRDGFD]-[sw200/1] (3)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=75;NRz=75;S=75;Rz=75;FGz=75;NGz=75;Gz=75;Lz=75;Unbekannt=75" nodes="5375 5330 5335 5331 5333 5332 4 9 7 298 5 255 153 254 147 91 236 249 82 300 325 227 325 300 82 249 236 91 147 177 178 123 200 93 16 17"/>
+		<stationRoute stationID="GUILDFD" name="[WRPLSDN]-[sw110/1]-[3]-[SHALFDJ]-[sw110/1] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=75;NRz=75;S=75;Rz=75;FGz=75;NGz=75;Gz=75;Lz=75;Unbekannt=75" nodes="5375 5330 5335 5331 5333 5332 4 9 7 298 5 255 153 254 147 91 236 249 82 300 325 227 228 295 331 275 204 248 217 218 215 897 210 896 904 901 906 910"/>
+		<stationRoute stationID="GUILDFD" name="[WRPLSDN]-[sw110/1]-[4]-[GUIL305]-[sw265/2] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=75;NRz=75;S=75;Rz=75;FGz=75;NGz=75;Gz=75;Lz=75;Unbekannt=75" nodes="5375 5330 5335 5331 1 2 94 297 175 153 202 185 184 299 323 294 229 230 324 237 205 237 324 230 229 294 323 299 184 185 268 267 186 194 265 195 266 193 196 263 264 197 199 198 281"/>
+		<stationRoute stationID="GUILDFD" name="[WRPLSDN]-[sw110/1]-[4]-[GUIL305]-[sw265/2] (3)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=75;NRz=75;S=75;Rz=75;FGz=75;NGz=75;Gz=75;Lz=75;Unbekannt=75" nodes="5375 5330 5335 5331 1 2 94 297 175 153 202 185 184 299 323 294 229 294 323 299 184 185 268 267 186 194 265 195 266 193 196 263 264 197 199 198 281"/>
+		<stationRoute stationID="GUILDFD" name="[WRPLSDN]-[sw110/1]-[4]-[GUIL308]-[sw110/2] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="5375 5330 5335 5331 1 2 94 297 175 153 202 185 184 299 323 294 229 230 324 237 205 219 215 211 209 208 224 238 269"/>
+		<stationRoute stationID="GUILDFD" name="[WRPLSDN]-[sw110/1]-[4]-[GUIL635]-[sw110/2] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=85;NRz=85;S=85;Rz=85;FGz=85;NGz=85;Gz=85;Lz=85;Unbekannt=85" nodes="5375 5330 5335 5331 1 2 94 297 175 153 202 185 184 299 323 294 229 230 324 237 205 237 324 230 229 294 323 299 184 185 268 267 186 194 90 5 298 7 9 4 1196 863 914 912 862"/>
+		<stationRoute stationID="GUILDFD" name="[WRPLSDN]-[sw110/1]-[4]-[GUIL635]-[sw110/2] (3)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=85;NRz=85;S=85;Rz=85;FGz=85;NGz=85;Gz=85;Lz=85;Unbekannt=85" nodes="5375 5330 5335 5331 1 2 94 297 175 153 202 185 184 299 323 294 229 294 323 299 184 185 268 267 186 194 90 5 298 7 9 4 1196 863 914 912 862"/>
+		<stationRoute stationID="GUILDFD" name="[WRPLSDN]-[sw110/1]-[5]-[GUIL305]-[sw265/2] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=70;NRz=70;S=70;Rz=70;FGz=70;NGz=70;Gz=70;Lz=70;Unbekannt=70" nodes="5375 5330 5335 5331 5333 5332 4 9 7 298 5 90 194 186 861 913 916 911 902 903 915 274 895 274 915 903 902 911 916 913 861 186 194 265 195 266 193 196 263 264 197 199 198 281"/>
+		<stationRoute stationID="GUILDFD" name="[WRPLSDN]-[sw110/1]-[5]-[GUIL305]-[sw265/2] (3)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=70;NRz=70;S=70;Rz=70;FGz=70;NGz=70;Gz=70;Lz=70;Unbekannt=70" nodes="5375 5330 5335 5331 5333 5332 4 9 7 298 5 90 194 186 861 913 916 911 902 911 916 913 861 186 194 265 195 266 193 196 263 264 197 199 198 281"/>
+		<stationRoute stationID="GUILDFD" name="[WRPLSDN]-[sw110/1]-[5]-[GUIL308]-[sw110/2] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=75;NRz=75;S=75;Rz=75;FGz=75;NGz=75;Gz=75;Lz=75;Unbekannt=75" nodes="5375 5330 5335 5331 5333 5332 4 9 7 298 5 90 194 186 861 913 916 911 902 903 915 274 895 907 900 899 897 210 896 904 901 908 909 224 238 269"/>
+		<stationRoute stationID="GUILDFD" name="[WRPLSDN]-[sw110/1]-[5]-[GUIL635]-[sw110/2] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=80;NRz=80;S=80;Rz=80;FGz=80;NGz=80;Gz=80;Lz=80;Unbekannt=80" nodes="5375 5330 5335 5331 5333 5332 4 9 7 298 5 90 194 186 861 913 916 911 902 903 915 274 895 274 915 903 902 911 916 913 861 186 194 90 5 298 7 9 4 1196 863 914 912 862"/>
+		<stationRoute stationID="GUILDFD" name="[WRPLSDN]-[sw110/1]-[5]-[GUIL635]-[sw110/2] (3)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=80;NRz=80;S=80;Rz=80;FGz=80;NGz=80;Gz=80;Lz=80;Unbekannt=80" nodes="5375 5330 5335 5331 5333 5332 4 9 7 298 5 90 194 186 861 913 916 911 902 911 916 913 861 186 194 90 5 298 7 9 4 1196 863 914 912 862"/>
+		<stationRoute stationID="GUILDFD" name="[WRPLSDN]-[sw110/1]-[5]-[SHALFDJ]-[sw110/1] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=85;NRz=85;S=85;Rz=85;FGz=85;NGz=85;Gz=85;Lz=85;Unbekannt=85" nodes="5375 5330 5335 5331 5333 5332 4 9 7 298 5 90 194 186 861 913 916 911 902 903 915 274 895 907 900 899 897 210 896 904 901 906 910"/>
+		<stationRoute stationID="GUILDFD" name="[WRPLSDN]-[sw110/1]-[6]-[GUIL305]-[sw265/2] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=55;NRz=55;S=55;Rz=55;FGz=55;NGz=55;Gz=55;Lz=55;Unbekannt=55" nodes="5375 5330 5335 5331 5333 5332 4 9 7 258 259 6 201 307 196 193 189 240 187 303 315 231 232 293 320 272 206 272 320 293 232 231 315 303 187 240 189 193 196 263 264 197 199 198 281"/>
+		<stationRoute stationID="GUILDFD" name="[WRPLSDN]-[sw110/1]-[6]-[GUIL305]-[sw265/2] (3)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=55;NRz=55;S=55;Rz=55;FGz=55;NGz=55;Gz=55;Lz=55;Unbekannt=55" nodes="5375 5330 5335 5331 5333 5332 4 9 7 258 259 6 201 307 196 193 189 240 187 303 315 231 315 303 187 240 189 193 196 263 264 197 199 198 281"/>
+		<stationRoute stationID="GUILDFD" name="[WRPLSDN]-[sw110/1]-[6]-[GUIL308]-[sw110/2] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=60;NRz=60;S=60;Rz=60;FGz=60;NGz=60;Gz=60;Lz=60;Unbekannt=60" nodes="5375 5330 5335 5331 5333 5332 4 9 7 258 259 6 201 307 196 193 189 240 187 303 315 231 232 293 320 272 206 241 221 223 242 900 899 897 210 896 904 901 908 909 224 238 269"/>
+		<stationRoute stationID="GUILDFD" name="[WRPLSDN]-[sw110/1]-[6]-[GUIL635]-[sw110/2] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=60;NRz=60;S=60;Rz=60;FGz=60;NGz=60;Gz=60;Lz=60;Unbekannt=60" nodes="5375 5330 5335 5331 5333 5332 4 9 7 258 259 6 201 307 196 193 189 240 187 303 315 231 232 293 320 272 206 272 320 293 232 231 315 303 187 240 189 193 196 307 201 6 259 258 7 9 4 1196 863 914 912 862"/>
+		<stationRoute stationID="GUILDFD" name="[WRPLSDN]-[sw110/1]-[6]-[GUIL635]-[sw110/2] (3)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=60;NRz=60;S=60;Rz=60;FGz=60;NGz=60;Gz=60;Lz=60;Unbekannt=60" nodes="5375 5330 5335 5331 5333 5332 4 9 7 258 259 6 201 307 196 193 189 240 187 303 315 231 315 303 187 240 189 193 196 307 201 6 259 258 7 9 4 1196 863 914 912 862"/>
+		<stationRoute stationID="GUILDFD" name="[WRPLSDN]-[sw110/1]-[6]-[SHALFDJ]-[sw110/1] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=70;NRz=70;S=70;Rz=70;FGz=70;NGz=70;Gz=70;Lz=70;Unbekannt=70" nodes="5375 5330 5335 5331 5333 5332 4 9 7 258 259 6 201 307 196 193 189 240 187 303 315 231 232 293 320 272 206 241 221 223 242 900 899 897 210 896 904 901 906 910"/>
+		<stationRoute stationID="GUILDFD" name="[WRPLSDN]-[sw110/1]-[8]-[GUIL305]-[sw265/2] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=60;NRz=60;S=60;Rz=60;FGz=60;NGz=60;Gz=60;Lz=60;Unbekannt=60" nodes="5375 5330 5335 5331 5333 5332 4 9 7 258 259 6 201 261 309 260 198 199 197 191 245 190 304 314 233 234 319 290 270 207 270 290 319 234 233 314 304 190 245 191 197 199 198 281"/>
+		<stationRoute stationID="GUILDFD" name="[WRPLSDN]-[sw110/1]-[8]-[GUIL305]-[sw265/2] (3)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=60;NRz=60;S=60;Rz=60;FGz=60;NGz=60;Gz=60;Lz=60;Unbekannt=60" nodes="5375 5330 5335 5331 5333 5332 4 9 7 258 259 6 201 261 309 260 198 199 197 191 245 190 304 314 233 314 304 190 245 191 197 199 198 281"/>
+		<stationRoute stationID="GUILDFD" name="[WRPLSDN]-[sw110/1]-[8]-[GUIL308]-[sw110/2] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=50;NRz=50;S=50;Rz=50;FGz=50;NGz=50;Gz=50;Lz=50;Unbekannt=50" nodes="5375 5330 5335 5331 5333 5332 4 9 7 258 259 6 201 261 309 260 198 199 197 191 245 190 304 314 233 234 319 290 270 207 243 220 222 244 899 897 210 896 904 901 908 909 224 238 269"/>
+		<stationRoute stationID="GUILDFD" name="[WRPLSDN]-[sw110/1]-[8]-[GUIL635]-[sw110/2] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=40;NRz=40;S=40;Rz=40;FGz=40;NGz=40;Gz=40;Lz=40;Unbekannt=40" nodes="5375 5330 5335 5331 5333 5332 4 9 7 258 259 6 201 261 309 260 198 199 197 191 245 190 304 314 233 234 319 290 270 207 270 290 319 234 233 314 304 190 245 191 197 199 198 260 309 261 201 6 259 258 7 9 4 1196 863 914 912 862"/>
+		<stationRoute stationID="GUILDFD" name="[WRPLSDN]-[sw110/1]-[8]-[GUIL635]-[sw110/2] (3)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=40;NRz=40;S=40;Rz=40;FGz=40;NGz=40;Gz=40;Lz=40;Unbekannt=40" nodes="5375 5330 5335 5331 5333 5332 4 9 7 258 259 6 201 261 309 260 198 199 197 191 245 190 304 314 233 314 304 190 245 191 197 199 198 260 309 261 201 6 259 258 7 9 4 1196 863 914 912 862"/>
+		<stationRoute stationID="GUILDFD" name="[WRPLSDN]-[sw110/1]-[8]-[SHALFDJ]-[sw110/1] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=60;NRz=60;S=60;Rz=60;FGz=60;NGz=60;Gz=60;Lz=60;Unbekannt=60" nodes="5375 5330 5335 5331 5333 5332 4 9 7 258 259 6 201 261 309 260 198 199 197 191 245 190 304 314 233 234 319 290 270 207 243 220 222 244 899 897 210 896 904 901 906 910"/>
+		<stationRoute stationID="GUILDFD" name="[]-[?/]-[1]-[LRDGFD]-[sw200/1] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=80;NRz=80;S=80;Rz=80;FGz=80;NGz=80;Gz=80;Lz=80;Unbekannt=80" nodes="8158 183 302 182 181 253 180 179 250 251 178 123 200 93 16 17"/>
+	</stationRoutes>
+	<lineCatalog/>
+	<zugNummernFelder/>
+	<switchGears/>
+</line>

@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<line lineID="ln700" name="Butterwell North Branch" trafficRouting="on_the_left" type="local" dependentLines="butter">
+	<version major="1" minor="2" patchlevel="0" comment=""/>
+	<creator user="Ahowe4" timestamp="2016-11-01T12:54:22"/>
+	<lasteditor user="Ahowe4" timestamp="2016-11-01T12:54:22"/>
+	<stations>
+		<station stationID="BUTRFHH" name="Butterwell Opencast FLHH" xNet="-729892.79" yNet="7726200.6" uicLocationCode="0" circleDiameter="0">
+			<textElement type="name">
+				<pos view="net" x="5532.28" y="5532.28" angle="0" system="source"/>
+				<pos view="wgs84" x="5532.28" y="5532.28" angle="0" system="source"/>
+				<pos view="line" x="7128.4" y="7128.4" angle="0" system="source"/>
+				<pos view="macro" x="28.2843" y="28.2843" angle="0" system="source"/>
+				<pos view="macroWgs84" x="0" y="0" angle="0" system="source"/>
+			</textElement>
+		</station>
+		<station stationID="BUTROCT" name="Butterwell Opencast" xNet="-730442.31" yNet="7725719.25" uicLocationCode="0" circleDiameter="0">
+			<textElement type="name">
+				<pos view="net" x="5972.14" y="5972.14" angle="0" system="source"/>
+				<pos view="wgs84" x="5972.14" y="5972.14" angle="0" system="source"/>
+				<pos view="line" x="7695.74" y="7695.74" angle="0" system="source"/>
+				<pos view="macro" x="28.2843" y="28.2843" angle="0" system="source"/>
+				<pos view="macroWgs84" x="0" y="0" angle="0" system="source"/>
+			</textElement>
+		</station>
+		<station stationID="PTBNDBS" name="Portland Burn DBS" xNet="-710647.04" yNet="7729757.75" uicLocationCode="0" circleDiameter="0">
+			<textElement type="name">
+				<pos view="net" x="4152.91" y="4152.91" angle="0" system="source"/>
+				<pos view="wgs84" x="4152.91" y="4152.91" angle="0" system="source"/>
+				<pos view="line" x="5351.08" y="5351.08" angle="0" system="source"/>
+				<pos view="macro" x="28.2843" y="28.2843" angle="0" system="source"/>
+				<pos view="macroWgs84" x="0" y="0" angle="0" system="source"/>
+			</textElement>
+		</station>
+		<station stationID="PTBNFHH" name="Potland Burn FHH" xNet="-710879.685" yNet="7729471.85" uicLocationCode="0" circleDiameter="0">
+			<textElement type="name">
+				<pos view="net" x="4385.83" y="4385.83" angle="0" system="source"/>
+				<pos view="wgs84" x="4385.83" y="4385.83" angle="0" system="source"/>
+				<pos view="line" x="5651.35" y="5651.35" angle="0" system="source"/>
+				<pos view="macro" x="28.2843" y="28.2843" angle="0" system="source"/>
+				<pos view="macroWgs84" x="0" y="0" angle="0" system="source"/>
+			</textElement>
+		</station>
+	</stations>
+	<nodes>
+		<signal interlockingMachine="2 Aspect Pannel (Below 75mph)" nodeID="6007" kilometre="11.125" x="2114844.8" y="5284.15" xNet="-759766.19" yNet="7719596.1" referenceNode="6008"/>
+		<node nodeID="1" name="OL " description="OL for SIG : " kilometre="10.942" x="2118595.9" y="5283.7353" xNet="-756912.63" yNet="7720172.6"/>
+		<node nodeID="6008" kilometre="11.195" x="2113409.9" y="5284.3087" xNet="-760857.72" yNet="7719375.6" referenceNode="6005.butter" sightingDistance="true"/>
+		<signal interlockingMachine="2 Aspect Pannel (Below 75mph)" nodeID="2" kilometre="10.625" x="2125093.8" y="5283.0168" xNet="-751969.56" yNet="7721171.2" referenceNode="4"/>
+		<node nodeID="3" name="OL " description="OL for SIG : " kilometre="10.808" x="2121342.6" y="5283.4315" xNet="-754823.13" yNet="7720594.7"/>
+		<node nodeID="4" kilometre="10.555" x="2126528.6" y="5282.8581" xNet="-750878.03" yNet="7721391.7" referenceNode="5" sightingDistance="true"/>
+		<signal type="shunting" interlockingMachine="Shunt" nodeID="5" kilometre="10.050" x="2136880.1" y="5281.7135" xNet="-743003.44" yNet="7722982.4" referenceNode="4"/>
+		<node nodeID="10" kilometre="9.825" x="2144482.8" y="6076.1603" xNet="-737342.18" yNet="7724755.8"/>
+		<switch start="6" endOfMainTrack="14" endOfBranchTrack="18" nodeID="7" kilometre="9.800" x="2143882.8" y="5776.1603" xNet="-737752.48" yNet="7724435.3"/>
+		<switch start="19" endOfMainTrack="16" endOfBranchTrack="7" nodeID="6" kilometre="9.750" x="2143029.5" y="5281.0335" xNet="-738325.47" yNet="7723927.4"/>
+		<stationBorder exitType="locked" stationID="BUTRFHH" lineID="ln700" trackNumber="" nodeID="11" kilometre="10.500" x="2164340.8" y="6074.1603" xNet="-722235.78" yNet="7727807.6" referenceNode="13"/>
+		<stationBorder exitType="regular" stationID="BUTRFHH" lineID="ln700" trackNumber="FHH" nodeID="8" kilometre="9.812" x="2144179.2" y="5924.3545" xNet="-737549.8" yNet="7724593.6" referenceNode="10"/>
+		<track trackID="D-1" stationID="BUTRFHH" type="shunting" interlockingMachine="Shunt" nodeID="13" kilometre="10.495" x="2164193.7" y="6074.1751" xNet="-722347.68" yNet="7727785" referenceNode="12"/>
+		<track trackID="U-1" stationID="BUTRFHH" type="shunting" interlockingMachine="Shunt" nodeID="12" kilometre="9.830" x="2144629.9" y="6076.1455" xNet="-737230.28" yNet="7724778.4" referenceNode="13"/>
+		<stationBorder exitType="locked" stationID="BUTROCT" lineID="ln700" trackNumber="" nodeID="9" kilometre="10.500" x="2164322.8" y="5782.1603" xNet="-722204.57" yNet="7727582.7" referenceNode="17"/>
+		<stationBorder exitType="regular" stationID="BUTROCT" lineID="ln700" trackNumber="FHH" nodeID="14" kilometre="9.806" x="2144023" y="5846.2868" xNet="-737656.57" yNet="7724510.2" referenceNode="7"/>
+		<stationBorder exitType="regular" stationID="BUTROCT" lineID="ln700" trackNumber="DB" nodeID="15" kilometre="9.773" x="2142563.3" y="5281.085" xNet="-738680.05" yNet="7723855.8" referenceNode="19"/>
+		<stationBorder exitType="regular" stationID="BUTROCT" lineID="ln700" trackNumber="DB" nodeID="16" kilometre="9.729" x="2143455.9" y="5280.9863" xNet="-738001.06" yNet="7723993" referenceNode="6"/>
+		<track trackID="D-1" stationID="BUTROCT" type="shunting" interlockingMachine="Shunt" nodeID="17" kilometre="10.495" x="2164176.8" y="5782.1175" xNet="-722315.63" yNet="7727560.2" referenceNode="18"/>
+		<track trackID="U-1" stationID="BUTROCT" type="shunting" interlockingMachine="Shunt" nodeID="18" kilometre="9.823" x="2144552.8" y="5776.357" xNet="-737242.83" yNet="7724538.5" referenceNode="17"/>
+		<track trackID="T-2" stationID="BUTROCT" type="timingPoint" nodeID="19" kilometre="9.760" x="2142815.2" y="5281.0572" xNet="-738488.43" yNet="7723894.5" referenceNode="15"/>
+		<node nodeID="22" kilometre="8.325" x="2172082.8" y="5676.1603" xNet="-716285.2" yNet="7728695.2"/>
+		<switch start="28" endOfMainTrack="27" endOfBranchTrack="30" nodeID="20" kilometre="8.350" x="2171725.1" y="5277.8604" xNet="-716496.01" yNet="7728337.3"/>
+		<stationBorder exitType="locked" stationID="PTBNDBS" lineID="ln700" trackNumber="" nodeID="23" kilometre="7.600" x="2187041.8" y="5676.1603" xNet="-704905.8" yNet="7730995.3" referenceNode="25"/>
+		<stationBorder exitType="regular" stationID="PTBNDBS" lineID="ln700" trackNumber="DBS" nodeID="21" kilometre="8.337" x="2171907.9" y="5481.3996" xNet="-716388.28" yNet="7728520.2" referenceNode="22"/>
+		<track trackID="D-1" stationID="PTBNDBS" type="shunting" interlockingMachine="Shunt" nodeID="25" kilometre="7.605" x="2186938.6" y="5676.1603" xNet="-704984.27" yNet="7730979.5" referenceNode="24"/>
+		<track trackID="U-1" stationID="PTBNDBS" type="shunting" interlockingMachine="Shunt" nodeID="24" kilometre="8.320" x="2172187.1" y="5676.1603" xNet="-716205.86" yNet="7728711.3" referenceNode="25"/>
+		<track trackID="D-1" stationID="PTBNFHH" interlockingMachine="Shunt" nodeID="26" kilometre="7.605" x="2186997.5" y="5276.1717" xNet="-704877.97" yNet="7730684.2" referenceNode="27"/>
+		<track trackID="U-1" stationID="PTBNFHH" interlockingMachine="Shunt" nodeID="27" kilometre="8.327" x="2172190.9" y="5277.8089" xNet="-716141.66" yNet="7728408.8" referenceNode="26"/>
+		<track trackID="T-2" stationID="PTBNFHH" type="timingPoint" nodeID="28" kilometre="8.369" x="2171334.4" y="5277.9036" xNet="-716793.22" yNet="7728277.2" referenceNode="29"/>
+		<stationBorder exitType="regular" stationID="PTBNFHH" lineID="ln700" trackNumber="DB" nodeID="29" kilometre="8.380" x="2171116" y="5277.9278" xNet="-716959.37" yNet="7728243.7" referenceNode="28"/>
+		<stationBorder exitType="locked" stationID="PTBNFHH" lineID="ln700" trackNumber="" nodeID="1660" name="Prellbock 192" kilometre="7.600" x="2187100" y="5276.1603" xNet="-704800" yNet="7730700" referenceNode="26"/>
+		<stationBorder exitType="regular" stationID="PTBNFHH" lineID="ln700" trackNumber="DBS" nodeID="30" kilometre="8.343" x="2171830.4" y="5395.043" xNet="-716433.98" yNet="7728442.6" referenceNode="20"/>
+	</nodes>
+	<links>
+		<link source="1" target="3" length="134" gradient="2.611" vmax="24" vmaxr="24" bidirectional="true"/>
+		<link source="2" target="4" length="70" gradient="2.611" vmax="24" vmaxr="24" bidirectional="true"/>
+		<link source="3" target="2" length="183" gradient="2.611" vmax="24" vmaxr="24" bidirectional="true"/>
+		<link source="4" target="5" length="505" gradient="2.611" vmax="24" vmaxr="24" bidirectional="true"/>
+		<link source="5" target="15" length="277" gradient="2.611" vmax="24" vmaxr="24" bidirectional="true"/>
+		<link source="6" target="7" length="50" vmax="24" vmaxr="24"/>
+		<link source="6" target="16" length="21" gradient="2.611" vmax="24" vmaxr="24" bidirectional="true"/>
+		<link source="7" target="14" length="6" vmax="24" vmaxr="24" bidirectional="true"/>
+		<link source="7" target="18" length="23" vmax="24" vmaxr="24"/>
+		<link source="8" target="10" length="13" vmax="24" vmaxr="24" bidirectional="true"/>
+		<link source="10" target="12" length="5" vmax="24" vmaxr="24" bidirectional="true"/>
+		<link source="12" target="13" length="665" vmax="24" vmaxr="24" bidirectional="true"/>
+		<link source="13" target="11" length="5" vmax="24" vmaxr="24" bidirectional="true"/>
+		<link source="14" target="8" length="6" vmax="24" vmaxr="24" bidirectional="true"/>
+		<link source="15" target="19" length="12" gradient="2.611" vmax="24" vmaxr="24" bidirectional="true"/>
+		<link source="16" target="29" length="1349" gradient="2.611" vmax="24" vmaxr="24" bidirectional="true"/>
+		<link source="17" target="9" length="5" vmax="24" vmaxr="24"/>
+		<link source="18" target="17" length="672" vmax="24" vmaxr="24"/>
+		<link source="19" target="6" length="11" gradient="2.611" vmax="24" vmaxr="24" bidirectional="true"/>
+		<link source="20" target="27" length="23" gradient="2.611" vmax="24" vmaxr="24"/>
+		<link source="20" target="30" length="7" vmax="24" vmaxr="24" bidirectional="true"/>
+		<link source="21" target="22" length="12" vmax="24" vmaxr="24" bidirectional="true"/>
+		<link source="22" target="24" length="5" vmax="24" vmaxr="24" bidirectional="true"/>
+		<link source="24" target="25" length="715" vmax="24" vmaxr="24" bidirectional="true"/>
+		<link source="25" target="23" length="5" vmax="24" vmaxr="24" bidirectional="true"/>
+		<link source="26" target="1660" length="5" gradient="2.611" vmax="24" vmaxr="24"/>
+		<link source="27" target="26" length="722" gradient="2.611" vmax="24" vmaxr="24"/>
+		<link source="28" target="20" length="19" gradient="2.611" vmax="24" vmaxr="24" bidirectional="true"/>
+		<link source="29" target="28" length="11" gradient="2.611" vmax="24" vmaxr="24" bidirectional="true"/>
+		<link source="30" target="21" length="6" vmax="24" vmaxr="24" bidirectional="true"/>
+		<link source="6005.butter" target="6008" length="90" gradient="2.611" vmax="24" vmaxr="24" bidirectional="true"/>
+		<link source="6007" target="1" length="183" gradient="2.611" vmax="24" vmaxr="24" bidirectional="true"/>
+		<link source="6008" target="6007" length="70" gradient="2.611" vmax="24" vmaxr="24" bidirectional="true"/>
+	</links>
+	<dependentLinks/>
+	<blockSections>
+		<blocksection uuid="{087d6ddf-fd9e-439f-9986-e337926cc55a}" lines="butter ln700">
+			<part nodes="2 3 1 6007 6008 6005.butter"/>
+		</blocksection>
+		<blocksection uuid="{1c45434d-f2f6-4053-9e53-854d53fe607d}" lines="ln700" shuntingBlock="true">
+			<part nodes="13 12"/>
+		</blocksection>
+		<blocksection uuid="{26585605-5f2e-419d-9b63-a05f950cdf69}" lines="ln700" shuntingBlock="true">
+			<part nodes="27 20 28 29 16 6 19 15 5 4 2"/>
+		</blocksection>
+		<blocksection uuid="{2e984b89-36fc-4c9a-99ca-50bd961f10f2}" lines="ln700" shuntingBlock="true">
+			<part nodes="26 27"/>
+		</blocksection>
+		<blocksection uuid="{3e799226-66c8-4576-ab61-5563e35e145b}" lines="ln700" shuntingBlock="true">
+			<part nodes="5 15 19 6 7 14 8 10 12 13"/>
+		</blocksection>
+		<blocksection uuid="{46b6a5c1-5d57-487d-9000-fb85b48b7a62}" lines="ln700" shuntingBlock="true">
+			<part nodes="6007 1 3 2 4 5"/>
+		</blocksection>
+		<blocksection uuid="{5095faa9-0acc-40d8-ac1c-9abda1a03819}" lines="ln700" shuntingBlock="true">
+			<part nodes="5 15 19 6 16 29 28 20 30 21 22 24 25"/>
+		</blocksection>
+		<blocksection uuid="{838614b3-f958-4e17-8416-1f60f40a323b}" lines="butter ln700">
+			<part nodes="6005.butter 6008 6007"/>
+		</blocksection>
+		<blocksection uuid="{85ceec67-795b-4561-a064-a21c205277b9}" lines="ln700" shuntingBlock="true">
+			<part nodes="5 15 19 6 16 29 28 20 27 26"/>
+		</blocksection>
+		<blocksection uuid="{a6a30052-7a9e-496a-bf26-4a286d1536f9}" lines="ln700" shuntingBlock="true">
+			<part nodes="18 7 6 19 15 5 4 2"/>
+		</blocksection>
+		<blocksection uuid="{af0d0435-dd71-4bb5-9752-7e85adc09d2e}" lines="ln700" shuntingBlock="true">
+			<part nodes="24 22 21 30 20 28 29 16 6 19 15 5 4 2"/>
+		</blocksection>
+		<blocksection uuid="{b32ee8e6-def0-4fdc-9a47-33147de6f447}" lines="ln700" shuntingBlock="true">
+			<part nodes="25 24"/>
+		</blocksection>
+		<blocksection uuid="{cfc484b5-0464-4cdd-8b69-45fc8574fd24}" lines="ln700" shuntingBlock="true">
+			<part nodes="12 10 8 14 7 6 19 15 5 4 2"/>
+		</blocksection>
+		<blocksection uuid="{da68cea6-6cbf-4472-8770-106c0b837322}" lines="butter ln700">
+			<part nodes="6005.butter 6008 6007"/>
+		</blocksection>
+		<blocksection uuid="{fb370dc3-fa0f-4484-9cb4-62ecaead7f99}" lines="ln700" shuntingBlock="true">
+			<part nodes="5 15 19 6 7 18 17"/>
+		</blocksection>
+		<blocksection uuid="{fb835e7c-5b1b-4774-bc7c-ef083f1ac4ea}" lines="ln700" shuntingBlock="true">
+			<part nodes="17 18"/>
+		</blocksection>
+	</blockSections>
+	<slipDistances>
+		<slipdistance uuid="{5d00557e-d273-4b43-8119-8557d1cac292}" vmax="999" lines="ln700" serialNumber="0">
+			<part nodes="6007 1"/>
+		</slipdistance>
+		<slipdistance uuid="{ff6bd054-2542-474f-8168-80eef1725555}" vmax="999" lines="ln700" serialNumber="0">
+			<part nodes="2 3"/>
+		</slipdistance>
+	</slipDistances>
+	<approachControlRoutes/>
+	<stationRoutes>
+		<stationRoute stationID="BUTRFHH" name="[BUTROCT]-[ln700/FHH]-[1]-[BUTROCT]-[ln700/FHH] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="8 10 12 13 12 10 8"/>
+		<stationRoute stationID="BUTRFHH" name="[BUTROCT]-[ln700/FHH]-[1]-[]-[ln700/] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="8 10 12 13 11"/>
+		<stationRoute stationID="BUTRFHH" name="[]-[ln700/]-[1]-[BUTROCT]-[ln700/FHH] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="11 13 12 10 8"/>
+		<stationRoute stationID="BUTROCT" name="[BUTRFHH]-[ln700/FHH]-[2]-[BUTRWLJ]-[ln700/DB] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=95;NRz=95;S=95;Rz=95;FGz=95;NGz=95;Gz=95;Lz=95;Unbekannt=95" nodes="14 7 6 19 15"/>
+		<stationRoute stationID="BUTROCT" name="[BUTRWLJ]-[ln700/DB]-[1-2]-[BUTRWLJ]-[ln700/DB] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=80;NRz=80;S=80;Rz=80;FGz=80;NGz=80;Gz=80;Lz=80;Unbekannt=80" nodes="15 19 6 7 18 17 18 7 6 19 15"/>
+		<stationRoute stationID="BUTROCT" name="[BUTRWLJ]-[ln700/DB]-[1-2]-[]-[ln700/] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=90;NRz=90;S=90;Rz=90;FGz=90;NGz=90;Gz=90;Lz=90;Unbekannt=90" nodes="15 19 6 7 18 17 9"/>
+		<stationRoute stationID="BUTROCT" name="[BUTRWLJ]-[ln700/DB]-[2]-[BUTRFHH]-[ln700/FHH] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=95;NRz=95;S=95;Rz=95;FGz=95;NGz=95;Gz=95;Lz=95;Unbekannt=95" nodes="15 19 6 7 14"/>
+		<stationRoute stationID="BUTROCT" name="[BUTRWLJ]-[ln700/DB]-[2]-[PTBNFHH]-[ln700/DB] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="15 19 6 16"/>
+		<stationRoute stationID="BUTROCT" name="[PTBNFHH]-[ln700/DB]-[2]-[BUTRWLJ]-[ln700/DB] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="16 6 19 15"/>
+		<stationRoute stationID="BUTROCT" name="[]-[ln700/]-[1-2]-[BUTRWLJ]-[ln700/DB] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=90;NRz=90;S=90;Rz=90;FGz=90;NGz=90;Gz=90;Lz=90;Unbekannt=90" nodes="9 17 18 7 6 19 15"/>
+		<stationRoute stationID="PTBNDBS" name="[PTBNFHH]-[ln700/DBS]-[1]-[PTBNFHH]-[ln700/DBS] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="21 22 24 25 24 22 21"/>
+		<stationRoute stationID="PTBNDBS" name="[PTBNFHH]-[ln700/DBS]-[1]-[]-[ln700/] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="21 22 24 25 23"/>
+		<stationRoute stationID="PTBNDBS" name="[]-[ln700/]-[1]-[PTBNFHH]-[ln700/DBS] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="23 25 24 22 21"/>
+		<stationRoute stationID="PTBNFHH" name="[BUTROCT]-[ln700/DB]-[1-2]-[BUTROCT]-[ln700/DB] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="29 28 20 27 26 27 20 28 29"/>
+		<stationRoute stationID="PTBNFHH" name="[BUTROCT]-[ln700/DB]-[1-2]-[]-[ln700/] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="29 28 20 27 26 1660"/>
+		<stationRoute stationID="PTBNFHH" name="[BUTROCT]-[ln700/DB]-[2]-[PTBNDBS]-[ln700/DBS] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=95;NRz=95;S=95;Rz=95;FGz=95;NGz=95;Gz=95;Lz=95;Unbekannt=95" nodes="29 28 20 30"/>
+		<stationRoute stationID="PTBNFHH" name="[PTBNDBS]-[ln700/DBS]-[2]-[BUTROCT]-[ln700/DB] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=95;NRz=95;S=95;Rz=95;FGz=95;NGz=95;Gz=95;Lz=95;Unbekannt=95" nodes="30 20 28 29"/>
+		<stationRoute stationID="PTBNFHH" name="[]-[ln700/]-[1-2]-[BUTROCT]-[ln700/DB] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="1660 26 27 20 28 29"/>
+	</stationRoutes>
+	<lineCatalog/>
+	<zugNummernFelder/>
+	<switchGears/>
+</line>

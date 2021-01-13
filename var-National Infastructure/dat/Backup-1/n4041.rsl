@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<line lineID="n4041" name="Dalton Loop" trafficRouting="on_the_left" type="local" dependentLines="dalt psth">
+	<version major="1" minor="2" patchlevel="0" comment=""/>
+	<creator user="VWaddelo" timestamp="2016-07-08T10:58:15"/>
+	<lasteditor user="VWaddelo" timestamp="2016-07-08T10:58:15"/>
+	<stations/>
+	<nodes>
+		<speedIndicator nodeID="75274" name="SPEED" kilometre="0.624" x="400797" y="-5349" xNet="-2472029.2" yNet="5712240.7" referenceNode="75285"/>
+		<node nodeID="68870" name="GRAD" kilometre="0.643" x="400990" y="-5149" xNet="-2472142.3" yNet="5712003.9"/>
+		<node nodeID="75285" name="GRAD" kilometre="0.643" x="400987" y="-5349" xNet="-2472212.8" yNet="5712191.8"/>
+	</nodes>
+	<links>
+		<link source="8.dalt" target="68870" length="48" gradient="-13.7" vmax="64" vmaxr="64" radius="2100"/>
+		<link source="68870" target="68871.psth" length="168" gradient="-6.29" vmax="64" vmaxr="64" radius="2100"/>
+		<link source="75274" target="75285" length="19" gradient="-13.7" vmax="64" vmaxr="64" radius="1100"/>
+		<link source="75284.dalt" target="75274" length="35" gradient="-13.7" vmax="32" vmaxr="32" radius="1100"/>
+		<link source="75285" target="75286.psth" length="168" gradient="-6.29" vmax="64" vmaxr="64" radius="1100"/>
+	</links>
+	<dependentLinks/>
+	<blockSections>
+		<blocksection uuid="{143d5258-e02f-4cce-8508-4bddbee314ed}" lines="dalt n4041 psth" speedIndicators="75274">
+			<part nodes="75286.psth 75285 75274 75284.dalt"/>
+		</blocksection>
+		<blocksection uuid="{27dcb2f3-32fc-4f03-97e2-75bb40459416}" lines="dalt n4041 psth">
+			<part nodes="8.dalt 68870 68871.psth"/>
+		</blocksection>
+	</blockSections>
+	<slipDistances/>
+	<approachControlRoutes/>
+	<stationRoutes/>
+	<lineCatalog/>
+	<zugNummernFelder/>
+	<switchGears/>
+</line>

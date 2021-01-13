@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<line lineID="md160" name="Willesden High Level Jn - Mitre Bridge Jn" trafficRouting="on_the_left" type="local" dependentLines="mtrga wljhl">
+	<version major="1" minor="2" patchlevel="0" comment=""/>
+	<creator user="Ahowe4" timestamp="2016-11-01T12:54:22"/>
+	<lasteditor user="Ahowe4" timestamp="2016-11-01T12:54:22"/>
+	<stations/>
+	<nodes>
+		<node nodeID="14266" kilometre="0.246" x="-2211900" y="-238400" xNet="869366.78" yNet="744611.46" referenceNode="453" sightingDistance="true"/>
+		<node nodeID="453" name="Gradient" kilometre="0.338" x="-2211200" y="-238400" xNet="868700" yNet="744300"/>
+		<node nodeID="4" name="Gradient" kilometre="0.338" x="-2211200" y="-238100" xNet="868800" yNet="744000"/>
+		<node nodeID="5" name="Gradient" kilometre="0.580" x="-2209200" y="-238100" xNet="868200" yNet="743900"/>
+		<node nodeID="457" name="Gradient" kilometre="0.580" x="-2209200" y="-238500" xNet="868200" yNet="744400"/>
+		<node nodeID="18" name="SD:NL1048" kilometre="0.623" x="-2208700" y="-238100" xNet="867793.94" yNet="743999.22" referenceNode="5" sightingDistance="true"/>
+	</nodes>
+	<links>
+		<link source="1.mtrga" target="14266" length="68" gradient="-1.6667" vmax="32" vmaxr="32"/>
+		<link source="4" target="5" length="242" gradient="8.929" vmax="32" vmaxr="32"/>
+		<link source="5" target="18" length="43" gradient="8.929" vmax="32" vmaxr="32"/>
+		<link source="18" target="57222.wljhl" length="33" gradient="13.333" vmax="32" vmaxr="32"/>
+		<link source="36.mtrga" target="4" length="160" gradient="-1.6667" vmax="32" vmaxr="32"/>
+		<link source="453" target="457" length="242" gradient="8.929" vmax="32" vmaxr="32"/>
+		<link source="457" target="10.wljhl" length="215" gradient="13.333" vmax="32" vmaxr="32"/>
+		<link source="14266" target="453" length="92" gradient="-1.6667" vmax="32" vmaxr="32"/>
+	</links>
+	<dependentLinks/>
+	<blockSections>
+		<blocksection uuid="{68b71c57-9d4b-47d4-8750-bbfb53fc5f24}" lines="md160 mtrga wljhl">
+			<part nodes="36.mtrga 4 5 18 57222.wljhl"/>
+		</blocksection>
+		<blocksection uuid="{e1226faf-f485-40d3-a089-9ad195dcbf45}" lines="md160 mtrga wljhl">
+			<part nodes="10.wljhl 457 453 14266 1.mtrga"/>
+		</blocksection>
+	</blockSections>
+	<slipDistances/>
+	<approachControlRoutes/>
+	<stationRoutes/>
+	<lineCatalog/>
+	<zugNummernFelder/>
+	<switchGears/>
+</line>

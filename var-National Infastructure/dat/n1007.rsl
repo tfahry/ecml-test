@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<line lineID="n1007" name="Gresty Lane - Crewe South Jn" trafficRouting="on_the_left" type="local" dependentLines="crega grega">
+	<version major="1" minor="2" patchlevel="0" comment=""/>
+	<creator user="VWaddelo" timestamp="2016-07-08T10:58:15"/>
+	<lasteditor user="VWaddelo" timestamp="2016-07-08T10:58:15"/>
+	<stations>
+		<station stationID="CREWL37" name="Gresty Lane Sig GL37" xNet="-1656609.05" yNet="3688999.2" uicLocationCode="0" circleDiameter="0">
+			<textElement type="name">
+				<pos view="net" x="1774.32" y="1774.32" angle="0" system="source"/>
+				<pos view="wgs84" x="1774.32" y="1774.32" angle="0" system="source"/>
+				<pos view="line" x="522.158" y="522.158" angle="0" system="source"/>
+				<pos view="macro" x="28.2843" y="28.2843" angle="0" system="source"/>
+				<pos view="macroWgs84" x="0" y="0" angle="0" system="source"/>
+			</textElement>
+		</station>
+	</stations>
+	<nodes>
+		<speedIndicator nodeID="4724" name="SPEED" kilometre="0.261" x="2524840" y="31779.774" xNet="-1656067.6" yNet="3687816.6" referenceNode="4732"/>
+		<node nodeID="4725" name="GRAD" kilometre="0.377" x="2524483.9" y="31779.999" xNet="-1656766.9" yNet="3686322.2"/>
+		<speedIndicator nodeID="4746" name="SPEED" kilometre="0.261" x="2524866" y="31668.828" xNet="-1655907.7" yNet="3687622" referenceNode="4751"/>
+		<node nodeID="4747" name="GRAD" kilometre="0.377" x="2524721.1" y="31668.828" xNet="-1656606" yNet="3686127.6"/>
+		<signal type="exit" interlockingMachine="4 Aspect Pannel (Below 75mph)" nodeID="7058" name="SIG:37" x="2524890.4" y="33122.738" xNet="-1656785.8" yNet="3691483.8" referenceNode="7061"/>
+		<track trackID="U-1" stationID="CREWL37" type="entry" interlockingMachine="4 Aspect Pannel (Below 75mph)" nodeID="7127" name="SIG: GL37" kilometre="0.235" x="2524578.9" y="32570.981" xNet="-1656289.2" yNet="3688410.7" referenceNode="7061"/>
+		<node nodeID="7248" name="GRAD" kilometre="0.301" x="2524441.4" y="32313.344" xNet="-1656627.1" yNet="3687689"/>
+		<switch start="17125" endOfMainTrack="11" endOfBranchTrack="7248" nodeID="17124" name="POINTS:" kilometre="0.338" x="2524204.5" y="31909.991" xNet="-1656708.8" yNet="3686981"/>
+		<node nodeID="7061" name="SD: GL37" kilometre="0.165" x="2524713.7" y="32818.482" xNet="-1656606.7" yNet="3690790" referenceNode="7058" sightingDistance="true"/>
+		<node nodeID="7252" name="SD: GL31" kilometre="0.424" x="2523541.3" y="31909.296" xNet="-1657177.1" yNet="3686018.9" referenceNode="7243" sightingDistance="true"/>
+		<node nodeID="4753" name="SD: GL2" kilometre="0.417" x="2524084.5" y="31669.291" xNet="-1656857.9" yNet="3685651.7" referenceNode="4747" sightingDistance="true"/>
+		<node nodeID="4732" name="SD: CRE115" kilometre="0.294" x="2524667.6" y="31779.774" xNet="-1656266.6" yNet="3687391.5" referenceNode="4725" sightingDistance="true"/>
+		<node nodeID="4754" name="SD: GL38" kilometre="0.474" x="2522752.5" y="31667.388" xNet="-1657205" yNet="3684958.9" referenceNode="4755" sightingDistance="true"/>
+		<stationBorder exitType="regular" stationID="CREWL37" lineID="n1007" trackNumber="DGL" nodeID="7243" name="[CREWEGL] - [n1007/1]" kilometre="0.377" x="2524051.3" y="31909.991" xNet="-1656928.9" yNet="3686510.4" referenceNode="17125"/>
+		<stationBorder exitType="locked" stationID="CREWL37" trackNumber="" nodeID="1" name="Buffer stop 103" x="2524891.5" y="33124.593" xNet="-1656786.9" yNet="3691488" referenceNode="7058"/>
+		<stationBorder exitType="alternative" stationID="CREWL37" lineID="n1007" trackNumber="DGL" nodeID="11" name="[CREWESJ] - [n1007/1]" kilometre="0.315" x="2524504.3" y="31909.991" xNet="-1656564.4" yNet="3687289.5" referenceNode="17124"/>
+		<track trackID="A-1" stationID="CREWL37" type="timingPoint" nodeID="17125" kilometre="0.349" x="2524155.9" y="31909.991" xNet="-1656769" yNet="3686852.2" referenceNode="17124"/>
+		<node nodeID="4751" name="SD: CRE117" kilometre="0.294" x="2524824.8" y="31668.828" xNet="-1656106.4" yNet="3687196.9" referenceNode="4747" sightingDistance="true"/>
+		<node nodeID="4755" kilometre="0.473" x="2522775.9" y="31667.421" xNet="-1657198.9" yNet="3684971" referenceNode="4753" aspectTrigger="true"/>
+	</nodes>
+	<links>
+		<link source="1" target="7058" length="1" vmax="24" vmaxr="24" electrification="electrified"/>
+		<link source="11" target="17124" length="23" gradient="9.0909" vmax="24" vmaxr="24" bidirectional="true" electrification="electrified"/>
+		<link source="4646.crega" target="4746" length="31" gradient="9.0909" vmax="32" vmaxr="32" electrification="electrified"/>
+		<link source="4647.crega" target="4724" length="31" gradient="9.0909" vmax="32" vmaxr="32" electrification="electrified"/>
+		<link source="4724" target="4732" length="33" gradient="9.0909" vmax="48" vmaxr="48" electrification="electrified"/>
+		<link source="4725" target="4742.grega" length="113" vmax="48" vmaxr="48" electrification="electrified"/>
+		<link source="4732" target="4725" length="83" gradient="9.0909" vmax="48" vmaxr="48" electrification="electrified"/>
+		<link source="4746" target="4751" length="33" gradient="9.0909" vmax="48" vmaxr="48" electrification="electrified"/>
+		<link source="4747" target="4753" length="40" vmax="48" vmaxr="48" electrification="electrified"/>
+		<link source="4751" target="4747" length="83" gradient="9.0909" vmax="48" vmaxr="48" electrification="electrified"/>
+		<link source="4753" target="4755" length="56" vmax="48" vmaxr="48" electrification="electrified"/>
+		<link source="4754" target="4756.grega" length="16" vmax="48" vmaxr="48" electrification="electrified"/>
+		<link source="4755" target="4754" length="1" vmax="48" vmaxr="48" electrification="electrified"/>
+		<link source="7058" target="7061" length="164" vmax="24" vmaxr="24" electrification="electrified"/>
+		<link source="7061" target="7127" length="70" vmax="24" vmaxr="24" electrification="electrified"/>
+		<link source="7078.crega" target="11" length="85" gradient="9.0909" vmax="24" vmaxr="24" bidirectional="true" electrification="electrified"/>
+		<link source="7127" target="7248" length="66" vmax="24" vmaxr="24" electrification="electrified"/>
+		<link source="7243" target="7252" length="47" vmax="24" vmaxr="24" bidirectional="true" electrification="electrified"/>
+		<link source="7248" target="17124" length="37" vmax="24" vmaxr="24" electrification="electrified"/>
+		<link source="7252" target="7251.grega" length="66" vmax="24" vmaxr="24" bidirectional="true" electrification="electrified"/>
+		<link source="17124" target="17125" length="11" gradient="9.0909" vmax="24" vmaxr="24" bidirectional="true" electrification="electrified"/>
+		<link source="17125" target="7243" length="28" gradient="9.0909" vmax="24" vmaxr="24" bidirectional="true" electrification="electrified"/>
+	</links>
+	<dependentLinks/>
+	<blockSections>
+		<blocksection uuid="{1ee86447-fcbc-4368-8ff3-1254596e62cf}" lines="crega grega n1007" shuntingBlock="true">
+			<part nodes="4646.crega 4746 4751 4747 4753 4755 4754 4756.grega"/>
+		</blocksection>
+		<blocksection uuid="{3b63acf1-baa5-4b21-ad5b-11f6c72e7d61}" lines="grega n1007">
+			<part nodes="7127 7248 17124 17125 7243 7252 7251.grega"/>
+		</blocksection>
+		<blocksection uuid="{47ba44a5-e8c5-4508-abb7-d5f228dc7298}" lines="n1007">
+			<part nodes="7058 7061 7127"/>
+		</blocksection>
+		<blocksection uuid="{5c032838-cbdd-4deb-85cc-5089b60177bb}" lines="crega grega n1007" shuntingBlock="true">
+			<part nodes="4646.crega 4746 4751 4747 4753 4755 4754 4756.grega"/>
+		</blocksection>
+		<blocksection uuid="{5e293aaa-a215-4f98-9b5b-05753efb9eb8}" lines="crega grega n1007" shuntingBlock="true">
+			<part nodes="4646.crega 4746 4751 4747 4753 4755 4754 4756.grega"/>
+		</blocksection>
+		<blocksection uuid="{60c60047-ca54-4160-b102-7ef8becee213}" lines="crega grega n1007" shuntingBlock="true">
+			<part nodes="7078.crega 11 17124 17125 7243 7252 7251.grega"/>
+		</blocksection>
+		<blocksection uuid="{809c882e-f56e-47ee-9e9d-8a7bfb16f5aa}" lines="crega grega n1007" shuntingBlock="true">
+			<part nodes="4646.crega 4746 4751 4747 4753 4755 4754 4756.grega"/>
+		</blocksection>
+		<blocksection uuid="{90cfa589-4f25-4fb9-a08b-7d46e07396fa}" lines="crega grega n1007" shuntingBlock="true">
+			<part nodes="4646.crega 4746 4751 4747 4753 4755 4754 4756.grega"/>
+		</blocksection>
+		<blocksection uuid="{a64b019e-b6e9-4e3a-b739-fb331586eb10}" lines="crega grega n1007" shuntingBlock="true">
+			<part nodes="4646.crega 4746 4751 4747 4753 4755 4754 4756.grega"/>
+		</blocksection>
+		<blocksection uuid="{b8686e07-40d4-417c-9dcc-59f5e82b0ba8}" lines="crega grega n1007" shuntingBlock="true">
+			<part nodes="4646.crega 4746 4751 4747 4753 4755 4754 4756.grega"/>
+		</blocksection>
+		<blocksection uuid="{bb2b0f14-fb21-4b64-b7e7-f47582cc546e}" lines="crega grega n1007" shuntingBlock="true" speedIndicators="4724">
+			<part nodes="4742.grega 4725 4732 4724 4647.crega"/>
+		</blocksection>
+		<blocksection uuid="{c9afc524-3e3b-4b18-8be9-937e3c4d05ca}" lines="crega grega n1007" speedIndicators="4746">
+			<part nodes="4756.grega 4754 4755 4753 4747 4751 4746 4646.crega"/>
+		</blocksection>
+		<blocksection uuid="{d1617ac9-229b-4134-87ca-99a5c2a5417e}" lines="crega grega n1007" shuntingBlock="true">
+			<part nodes="4646.crega 4746 4751 4747 4753 4755 4754 4756.grega"/>
+		</blocksection>
+		<blocksection uuid="{d219ae9b-a44a-4be6-985a-72f492c70834}" lines="crega grega n1007" shuntingBlock="true">
+			<part nodes="4646.crega 4746 4751 4747 4753 4755 4754 4756.grega"/>
+		</blocksection>
+		<blocksection uuid="{dd8a5d8d-d1ad-42e4-acad-657c990813c5}" lines="grega n1007">
+			<part nodes="7251.grega 7252 7243 17125 17124 7248 7127 7061 7058"/>
+		</blocksection>
+	</blockSections>
+	<slipDistances/>
+	<approachControlRoutes/>
+	<stationRoutes>
+		<stationRoute stationID="CREWL37" name="DGL" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="11 17124 17125 7243"/>
+		<stationRoute stationID="CREWL37" name="DGL [1]" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=95;NRz=95;S=95;Rz=95;FGz=95;NGz=95;Gz=95;Lz=95;Unbekannt=95" nodes="1 7058 7061 7127 7248 17124 17125 7243"/>
+		<stationRoute stationID="CREWL37" name="DMD" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="7243 17125 17124 7248 7127 7061 7058 1"/>
+	</stationRoutes>
+	<lineCatalog/>
+	<zugNummernFelder/>
+	<switchGears/>
+</line>

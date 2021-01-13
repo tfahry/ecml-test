@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<line lineID="oldkew" name="Old Kew Junction" trafficRouting="on_the_left" type="global" dependentLines="sw230 sw240">
+	<transformations>
+		<transformation line="sw240a" m11="0.48481" m12="-0.87462" m21="0.87462" m22="0.48481" dx="84413.8" dy="138685"/>
+	</transformations>
+	<version major="1" minor="2" patchlevel="0" comment=""/>
+	<creator user="Ahowe4" timestamp="2016-11-01T12:54:22"/>
+	<lasteditor user="Ahowe4" timestamp="2016-11-01T12:54:22"/>
+	<stations>
+		<station stationID="OKEWJN" name="Old Kew Jn" xNet="804848.13" yNet="679142.12" uicLocationCode="0" circleDiameter="0">
+			<textElement type="name">
+				<pos view="net" x="4994.62" y="4994.62" angle="0" system="source"/>
+				<pos view="wgs84" x="4994.62" y="4994.62" angle="0" system="source"/>
+				<pos view="line" x="1656.59" y="1656.59" angle="0" system="source"/>
+				<pos view="macro" x="28.2843" y="28.2843" angle="0" system="source"/>
+				<pos view="macroWgs84" x="0" y="0" angle="0" system="source"/>
+			</textElement>
+		</station>
+	</stations>
+	<nodes>
+		<switch start="8" endOfMainTrack="4" endOfBranchTrack="5096" nodeID="1" name="TO" description="TO : 647dn; 20 mph; 10m 2ch" kilometre="16.134" x="161340" y="500" xNet="806044.4" yNet="677754.44"/>
+		<node nodeID="5084" kilometre="16.088" x="160875.8" y="213.45341" xNet="806973.33" yNet="677829.75" referenceNode="5085" releaseContact="true" arranged="true"/>
+		<node nodeID="5085" kilometre="16.100" x="161003.58" y="292.33331" xNet="806717.66" yNet="677809.04" referenceNode="5084" releaseContact="true" arranged="true"/>
+		<crossing type="dkw" startOfMainTrack="636" startOfBranchTrack="616" endOfMainTrack="533" endOfBranchTrack="60" nodeID="532" name="TO" description="TO : 647up; 15 mph; 9m 78ch" kilometre="16.053" x="160530" y="0" xNet="807665.36" yNet="677885.86"/>
+		<node nodeID="588" kilometre="15.941" x="160502.81" y="-1192.9743" xNet="810217.24" yNet="679726.86"/>
+		<switch start="636" endOfMainTrack="624" endOfBranchTrack="590" nodeID="583" kilometre="15.973" x="160971.84" y="-1008.4839" xNet="809372.21" yNet="679553.3"/>
+		<stationBorder exitType="alternative" stationID="OKEWJN" lineID="sw230" trackNumber="2" nodeID="4" kilometre="16.008" x="160084.3" y="500" xNet="807908.37" yNet="676891.81" referenceNode="1">
+			<netLimitInfo lineID="sw230"/>
+		</stationBorder>
+		<stationBorder exitType="regular" stationID="OKEWJN" lineID="sw230" trackNumber="1" nodeID="616" kilometre="16.006" x="160061.05" y="0" xNet="808361.37" yNet="677564.34" referenceNode="532">
+			<netLimitInfo lineID="sw230"/>
+		</stationBorder>
+		<signal interlockingMachine="3 Aspect Pannel (Below 75mph)" nodeID="5036" name="SIG : F137" description="Signal F137; 10m 21ch" kilometre="16.516" x="165160" y="500" xNet="799507.7" yNet="678665.75" referenceNode="5092"/>
+		<node nodeID="535" name="GRAD" description="Gradient; 10m 23ch" kilometre="16.556" x="165560" y="0" xNet="793755.05" yNet="675743.75">
+			<netLimitInfo lineID="sw230"/>
+		</node>
+		<node nodeID="5037" name="GRAD" description="Gradient; 10m 23ch" kilometre="16.556" x="165560" y="500" xNet="794319.58" yNet="675195.45">
+			<netLimitInfo lineID="sw230"/>
+		</node>
+		<node nodeID="5079" kilometre="16.220" x="162206.14" y="500" xNet="804591.72" yNet="678020.05" referenceNode="8" releaseContact="true" arranged="true"/>
+		<kilometreInconsistency newKilometre="6.035" nodeID="591" kilometre="15.812" x="159864.26" y="-2214.8662" xNet="811626.03" yNet="681135.23" referenceNode="639">
+			<netLimitInfo lineID="sw240"/>
+		</kilometreInconsistency>
+		<kilometreInconsistency newKilometre="6.035" nodeID="589" kilometre="15.812" x="160118.67" y="-2373.8435" xNet="811254.48" yNet="681435.03" referenceNode="640">
+			<netLimitInfo lineID="sw240"/>
+		</kilometreInconsistency>
+		<speedIndicator nodeID="590" kilometre="15.942" x="160517.47" y="-1187.209" xNet="810190.83" yNet="679721.43" referenceNode="588"/>
+		<speedIndicator nodeID="624" kilometre="15.968" x="160945.51" y="-1050.6146" xNet="809430.29" yNet="679611.37" referenceNode="583"/>
+		<stationBorder exitType="alternative" stationID="OKEWJN" lineID="sw240" trackNumber="1" nodeID="639" kilometre="15.817" x="159889.31" y="-2174.7842" xNet="811543.55" yNet="681047.51" referenceNode="592"/>
+		<stationBorder exitType="regular" stationID="OKEWJN" lineID="sw240" trackNumber="2" nodeID="640" kilometre="15.816" x="160137.99" y="-2342.9283" xNet="811211.86" yNet="681392.43" referenceNode="624"/>
+		<track trackID="D-1" stationID="OKEWJN" interlockingMachine="3 Aspect Pannel (Below 75mph)" nodeID="592" name="SIG: F135" kilometre="15.826" x="159931.8" y="-2106.7782" xNet="811403.59" yNet="680898.68" referenceNode="639"/>
+		<track trackID="U-1" stationID="OKEWJN" interlockingMachine="4 Aspect Pannel (Below 75mph)" nodeID="534" name="SIG : F136" description="Signal F136; 10m 11ch" kilometre="16.315" x="163150" y="0" xNet="799200.78" yNet="679095.41" referenceNode="602"/>
+		<stationBorder exitType="alternative" stationID="OKEWJN" lineID="sw230" trackNumber="1" nodeID="602" kilometre="16.361" x="163613.82" y="0" xNet="798152.71" yNet="678450.36" referenceNode="534"/>
+		<stationBorder exitType="regular" stationID="OKEWJN" lineID="sw230" trackNumber="2" nodeID="5092" kilometre="16.349" x="163489.01" y="500" xNet="802383.72" yNet="678300.48" referenceNode="5102"/>
+		<track trackID="T-1" stationID="OKEWJN" type="timingPoint" nodeID="8" kilometre="16.144" x="161438.36" y="500" xNet="805898.18" yNet="677822.12" referenceNode="1"/>
+		<speedIndicator nodeID="5096" name="SPEED" kilometre="16.133" x="161329.81" y="493.70707" xNet="806064.8" yNet="677756.09" referenceNode="5085"/>
+		<speedIndicator nodeID="533" name="SPEED" kilometre="16.054" x="160539.88" y="6.0986689" xNet="807645.59" yNet="677884.26" referenceNode="532"/>
+		<speedIndicator nodeID="636" name="SPEED" kilometre="16.052" x="160535.52" y="-12.606049" xNet="807686.7" yNet="677906.71" referenceNode="583"/>
+		<node nodeID="645" name="xSD: SIG F136" kilometre="16.500" x="165001.1" y="0" xNet="795017.97" yNet="676521.03" referenceNode="535" sightingDistance="true"/>
+		<node nodeID="5102" name="xSD: SIG F137" kilometre="16.328" x="163280.17" y="500" xNet="802743.16" yNet="678254.83" referenceNode="5079" sightingDistance="true"/>
+		<node nodeID="60" name="pOL F136" description="OL for SIG : F136" kilometre="16.132" x="161320" y="0" xNet="805113.06" yNet="678250.57"/>
+		<node nodeID="61" name="pOL SIG: F135" description="OL for SIG : SIG: F135" kilometre="15.917" x="160383.64" y="-1383.6812" xNet="810464.83" yNet="679971.42"/>
+	</nodes>
+	<links>
+		<link source="1" target="8" length="10" gradient="5.348" vmax="97" vmaxr="97" electrification="electrified">
+			<vzg index="9" vmax="64" vmaxr="64"/>
+		</link>
+		<link source="4" target="1" length="126" gradient="5.348" vmax="97" vmaxr="97" electrification="electrified">
+			<vzg index="9" vmax="64" vmaxr="64"/>
+		</link>
+		<link source="8" target="5079" length="76" gradient="5.348" vmax="97" vmaxr="97" electrification="electrified">
+			<vzg index="9" vmax="64" vmaxr="64"/>
+		</link>
+		<link source="60" target="534" length="183" gradient="5.348" vmax="97" vmaxr="97" electrification="electrified">
+			<vzg index="9" vmax="64" vmaxr="64"/>
+		</link>
+		<link source="61" target="588" length="24" vmax="72" vmaxr="72" electrification="electrified">
+			<vzg index="9" vmax="48" vmaxr="48"/>
+		</link>
+		<link source="532" target="60" length="79" gradient="5.348" vmax="97" vmaxr="97" electrification="electrified">
+			<vzg index="9" vmax="64" vmaxr="64"/>
+		</link>
+		<link source="532" target="533" length="1" gradient="5.348" vmax="97" vmaxr="97" electrification="electrified">
+			<vzg index="9" vmax="64" vmaxr="64"/>
+		</link>
+		<link source="533" target="5084" length="34" gradient="5.348" vmax="32" vmaxr="32" electrification="electrified">
+			<vzg index="9" vmax="32" vmaxr="32"/>
+		</link>
+		<link source="534" target="602" length="46" gradient="5.348" vmaxr="97" electrification="electrified">
+			<vzg index="9" vmax="48" vmaxr="64"/>
+		</link>
+		<link source="583" target="636" length="79" vmax="32" vmaxr="32" electrification="electrified">
+			<vzg index="9" vmax="32" vmaxr="32"/>
+		</link>
+		<link source="588" target="590" length="1" vmax="72" vmaxr="72" electrification="electrified">
+			<vzg index="9" vmax="48" vmaxr="48"/>
+		</link>
+		<link source="589" target="640" length="4" vmax="72" vmaxr="72" electrification="electrified">
+			<vzg index="9" vmax="48" vmaxr="48"/>
+		</link>
+		<link source="590" target="583" length="31" vmax="32" vmaxr="32" electrification="electrified">
+			<vzg index="9" vmax="32" vmaxr="32"/>
+		</link>
+		<link source="591" target="639" length="5" vmax="72" vmaxr="72" electrification="electrified">
+			<vzg index="9" vmax="48" vmaxr="48"/>
+		</link>
+		<link source="592" target="61" length="91" vmax="72" vmaxr="72" electrification="electrified">
+			<vzg index="9" vmax="48" vmaxr="48"/>
+		</link>
+		<link source="602" target="645" length="139" gradient="5.348" vmaxr="97" electrification="electrified">
+			<vzg index="9" vmax="32" vmaxr="64"/>
+		</link>
+		<link source="616" target="532" length="47" gradient="5.348" vmax="97" vmaxr="97" electrification="electrified">
+			<vzg index="9" vmax="64" vmaxr="64"/>
+		</link>
+		<link source="624" target="583" length="5" vmax="32" vmaxr="32" electrification="electrified">
+			<vzg index="9" vmax="32" vmaxr="32"/>
+		</link>
+		<link source="636" target="532" length="1" vmax="97" vmaxr="97" electrification="electrified">
+			<vzg index="9" vmax="64" vmaxr="64"/>
+		</link>
+		<link source="639" target="592" length="9" vmax="72" vmaxr="72" electrification="electrified">
+			<vzg index="9" vmax="48" vmaxr="48"/>
+		</link>
+		<link source="640" target="624" length="152" vmax="72" vmaxr="72" electrification="electrified">
+			<vzg index="9" vmax="48" vmaxr="48"/>
+		</link>
+		<link source="645" target="535" length="56" gradient="5.348" vmaxr="97" electrification="electrified">
+			<vzg index="9" vmax="32" vmaxr="64"/>
+		</link>
+		<link source="5036" target="5037" length="40" gradient="5.348" vmax="97" electrification="electrified">
+			<vzg index="9" vmax="64" vmaxr="64"/>
+		</link>
+		<link source="5079" target="5102" length="108" gradient="5.348" vmax="97" vmaxr="97" electrification="electrified">
+			<vzg index="9" vmax="64" vmaxr="64"/>
+		</link>
+		<link source="5084" target="5085" length="13" gradient="5.348" vmax="32" vmaxr="32" electrification="electrified">
+			<vzg index="9" vmax="32" vmaxr="32"/>
+		</link>
+		<link source="5085" target="5096" length="32" gradient="5.348" vmax="32" vmaxr="32" electrification="electrified">
+			<vzg index="9" vmax="32" vmaxr="32"/>
+		</link>
+		<link source="5092" target="5036" length="167" gradient="5.348" vmax="97" vmaxr="97" electrification="electrified">
+			<vzg index="9" vmax="64" vmaxr="64"/>
+		</link>
+		<link source="5096" target="1" length="1" gradient="5.348" vmax="97" vmaxr="97" electrification="electrified">
+			<vzg index="9" vmax="64" vmaxr="64"/>
+		</link>
+		<link source="5102" target="5092" length="21" gradient="5.348" vmax="97" vmaxr="97" electrification="electrified">
+			<vzg index="9" vmax="64" vmaxr="64"/>
+		</link>
+	</links>
+	<dependentLinks/>
+	<blockSections>
+		<blocksection uuid="{0029350f-297d-47ab-a466-96b7face9743}" lines="oldkew sw230">
+			<part nodes="535 645 602 534"/>
+		</blocksection>
+		<blocksection uuid="{00aef839-952c-41d2-98a9-edb71ffb7929}" lines="oldkew sw230" speedIndicators="533 5096">
+			<part nodes="5036 5092 5102 5079 8 1 5096 5085 5084 533 532 616"/>
+		</blocksection>
+		<blocksection uuid="{2f0e5235-0d6c-4a46-9621-55dcf04ed4e6}" lines="oldkew sw230">
+			<part nodes="4 1 8 5079 5102 5092 5036"/>
+		</blocksection>
+		<blocksection uuid="{8cfd622c-3c38-4758-a3be-b4950e5e5539}" lines="oldkew" speedIndicators="533 590 636 5096">
+			<part nodes="592 61 588 590 583 636 532 533 5084 5085 5096 1 8 5079 5102 5092 5036"/>
+		</blocksection>
+		<blocksection uuid="{bcb48ace-cfd6-4ab1-b979-5c46451524c7}" lines="oldkew sw230">
+			<part nodes="534 60 532 616"/>
+		</blocksection>
+		<blocksection uuid="{bd56bff3-f72d-485a-9401-25a821460835}" lines="oldkew sw230">
+			<part nodes="5036 5037"/>
+		</blocksection>
+		<blocksection uuid="{c11ad963-76d0-48c0-9444-45093094752b}" lines="kewej oldkew sw240">
+			<part nodes="534 60 532 636 583 624 640 589"/>
+		</blocksection>
+		<blocksection uuid="{f97fc6f1-17a4-4c72-847b-d4fe710d0e7b}" lines="kewej oldkew sw240">
+			<part nodes="591 639 592"/>
+		</blocksection>
+		<blocksection uuid="{fcc9443e-dc8f-46c8-81ba-2b1993eb7b71}" lines="oldkew sw230" speedIndicators="533 5096">
+			<part nodes="616 532 533 5084 5085 5096 1 8 5079 5102 5092 5036"/>
+		</blocksection>
+	</blockSections>
+	<slipDistances>
+		<slipdistance uuid="{0e5a7a03-e913-4386-a474-4149e1bb7833}" vmax="999" lines="oldkew sw230" serialNumber="0">
+			<part nodes="5036 5037"/>
+		</slipdistance>
+		<slipdistance uuid="{81a3807b-ceef-451f-9dfe-98e4f1c484ec}" vmax="999" lines="oldkew" serialNumber="0">
+			<part nodes="534 60"/>
+		</slipdistance>
+		<slipdistance uuid="{a8a8e0ff-1fe7-4d5a-b2b9-eb2b0dbb0889}" vmax="999" lines="oldkew" serialNumber="0">
+			<part nodes="592 61"/>
+		</slipdistance>
+	</slipDistances>
+	<approachControlRoutes/>
+	<stationRoutes>
+		<stationRoute stationID="OKEWJN" name="[BNTFORD]-[sw230/1]-[1]-[KEWBDGE]-[sw230/1] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="602 534 60 532 616"/>
+		<stationRoute stationID="OKEWJN" name="[BNTFORD]-[sw230/1]-[1]-[KEWEJ]-[sw240/2] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=95;NRz=95;S=95;Rz=95;FGz=95;NGz=95;Gz=95;Lz=95;Unbekannt=95" nodes="602 534 60 532 636 583 624 640"/>
+		<stationRoute stationID="OKEWJN" name="[BNTFORD]-[sw230/2]-[1]-[KEWBDGE]-[sw230/1] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=90;NRz=90;S=90;Rz=90;FGz=90;NGz=90;Gz=90;Lz=90;Unbekannt=90" nodes="5092 5102 5079 8 1 5096 5085 5084 533 532 616"/>
+		<stationRoute stationID="OKEWJN" name="[BNTFORD]-[sw230/2]-[1]-[KEWEJ]-[sw240/2] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=95;NRz=95;S=95;Rz=95;FGz=95;NGz=95;Gz=95;Lz=95;Unbekannt=95" nodes="5092 5102 5079 8 1 5096 5085 5084 533 532 636 583 624 640"/>
+		<stationRoute stationID="OKEWJN" name="[KEWBDGE]-[sw230/1]-[1]-[BNTFORD]-[sw230/2] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=90;NRz=90;S=90;Rz=90;FGz=90;NGz=90;Gz=90;Lz=90;Unbekannt=90" nodes="616 532 533 5084 5085 5096 1 8 5079 5102 5092"/>
+		<stationRoute stationID="OKEWJN" name="[KEWBDGE]-[sw230/2]-[1]-[BNTFORD]-[sw230/2] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="4 1 8 5079 5102 5092"/>
+		<stationRoute stationID="OKEWJN" name="[KEWEJ]-[sw240/1]-[1]-[BNTFORD]-[sw230/2] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=90;NRz=90;S=90;Rz=90;FGz=90;NGz=90;Gz=90;Lz=90;Unbekannt=90" nodes="639 592 61 588 590 583 636 532 533 5084 5085 5096 1 8 5079 5102 5092"/>
+	</stationRoutes>
+	<lineCatalog/>
+	<zugNummernFelder/>
+	<switchGears/>
+</line>

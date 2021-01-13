@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<line lineID="sc029" name="Shields Jn - Larkfield Jn" trafficRouting="on_the_left" type="local" dependentLines="larkfj shldj termj">
+	<version major="1" minor="2" patchlevel="0" comment=""/>
+	<creator user="VWaddelo" timestamp="2016-07-08T10:58:15"/>
+	<lasteditor user="VWaddelo" timestamp="2016-07-08T10:58:15"/>
+	<stations/>
+	<nodes>
+		<node nodeID="1035" name="SD:SIG:G704" kilometre="164.094" x="-83020" y="-9589" xNet="-3243553.6" yNet="9074158.5" referenceNode="3195.shldj" sightingDistance="true"/>
+		<node nodeID="2" name="SD:G512" kilometre="164.040" x="-83960" y="-8109" xNet="-3234276.6" yNet="9068434" referenceNode="3" sightingDistance="true"/>
+		<node nodeID="3" name="GRAD" kilometre="164.034" x="-84020" y="-8109" xNet="-3234198.7" yNet="9068391.8"/>
+		<node nodeID="19" kilometre="164.000" x="-84360" y="-8109" xNet="-3233928" yNet="9068252"/>
+		<node nodeID="390" name="LIMIT OF SHUNT" kilometre="162.938" x="-94980" y="-8107" xNet="-3219615.3" yNet="9063278.5"/>
+		<node nodeID="391" name="OL:G718" kilometre="162.876" x="-95600" y="-8310" xNet="-3218949.5" yNet="9063342.5"/>
+		<node nodeID="392" name="OL:G721" kilometre="162.876" x="-95600" y="-8108" xNet="-3218991.5" yNet="9063144.5"/>
+		<node nodeID="624" name="GRAD" kilometre="162.916" x="-95200" y="-8310" xNet="-3219388.3" yNet="9063436.5"/>
+		<node nodeID="625" name="GRAD" kilometre="162.916" x="-95200" y="-8107" xNet="-3219424.8" yNet="9063236.5"/>
+		<node nodeID="74" kilometre="164.075" x="-83026.239" y="-8313.6683" xNet="-3236327.2" yNet="9069579.9" referenceNode="1.shldj" sightingDistance="true"/>
+		<node nodeID="622" name="Q" kilometre="162.867" x="-95994.5171050754" y="-8311.15224581317" xNet="-3218862.48849631" yNet="9063323.86072949"/>
+		<node nodeID="623" name="Q" kilometre="162.861" x="-96244.8608235212" y="-8109.8834118329" xNet="-3218849.27470938" yNet="9063114.7254747"/>
+	</nodes>
+	<links>
+		<link source="2" target="1275.shldj" length="85" gradient="9.259" vmax="48" vmaxr="48" radius="2100"/>
+		<link source="3" target="2" length="6" gradient="9.259" vmax="48" vmaxr="48" radius="2100"/>
+		<link source="19" target="3" length="34" gradient="11.765" vmax="48" vmaxr="48" radius="2100"/>
+		<link source="42.termj" target="1035" length="60" gradient="9.259" vmax="8" vmaxr="8"/>
+		<link source="44.termj" target="19" length="146" gradient="11.765" vmax="48" vmaxr="48" radius="2100"/>
+		<link source="45.termj" target="74" length="41" gradient="9.259" vmax="48" vmaxr="48" radius="1100"/>
+		<link source="74" target="1.shldj" length="161" gradient="9.259" vmax="48" vmaxr="48" radius="1100"/>
+		<link source="390" target="1.termj" length="62" gradient="-2.375" vmax="48" vmaxr="48" radius="2100"/>
+		<link source="391" target="624" length="40" vmax="48" vmaxr="48" radius="1100"/>
+		<link source="392" target="625" length="40" vmax="48" vmaxr="48" radius="2100"/>
+		<link source="622" target="391" length="9" vmax="48" vmaxr="48" radius="1100"/>
+		<link source="622.larkfj" target="622" length="12" vmax="48" vmaxr="48" electrification="electrified"/>
+		<link source="623" target="392" length="15" vmax="48" vmaxr="48" radius="2100"/>
+		<link source="623.larkfj" target="623" length="6" vmax="48" vmaxr="48" electrification="electrified"/>
+		<link source="624" target="20.termj" length="84" gradient="-2.375" vmax="48" vmaxr="48" radius="1100"/>
+		<link source="625" target="390" length="22" gradient="-2.375" vmax="48" vmaxr="48" radius="2100"/>
+		<link source="1035" target="3195.shldj" length="10" gradient="-0.93" vmax="8" vmaxr="8"/>
+	</links>
+	<dependentLinks/>
+	<blockSections>
+		<blocksection uuid="{08103046-6e7f-4384-8068-52744a6ffedc}" lines="sc029 shldj termj">
+			<part nodes="44.termj 19 3 2 1275.shldj"/>
+		</blocksection>
+		<blocksection uuid="{18f8f92d-2649-433d-ab87-a9b1aa1023ef}" lines="larkfj sc029 termj">
+			<part nodes="20.termj 624 391 622 622.larkfj"/>
+		</blocksection>
+		<blocksection uuid="{1fae4314-0e36-40dc-b563-acc09191eebe}" lines="sc029 shldj termj">
+			<part nodes="42.termj 1035 3195.shldj"/>
+		</blocksection>
+		<blocksection uuid="{234e52dc-0435-4fd4-8444-97a280ca6521}" lines="larkfj sc029 termj">
+			<part nodes="623.larkfj 623 392 625 390 1.termj"/>
+		</blocksection>
+		<blocksection uuid="{4314bfea-6861-4c11-a945-3fbb6b6cf380}" lines="sc029 shldj termj">
+			<part nodes="1.shldj 74 45.termj"/>
+		</blocksection>
+		<blocksection uuid="{4587a425-c3bd-40db-a081-9535ae0bed42}" lines="sc029 shldj termj">
+			<part nodes="44.termj 19 3 2 1275.shldj"/>
+		</blocksection>
+		<blocksection uuid="{767fc68c-b35b-4a91-8b23-41a8cee20d65}" lines="sc029 shldj termj">
+			<part nodes="1.shldj 74 45.termj"/>
+		</blocksection>
+		<blocksection uuid="{a41bd3e3-4bef-4bc9-8350-ac1d87f9e51b}" lines="sc029 shldj termj">
+			<part nodes="42.termj 1035 3195.shldj"/>
+		</blocksection>
+		<blocksection uuid="{b1c4b883-d99c-4910-892e-7ffea35be41e}" lines="sc029 shldj termj">
+			<part nodes="3195.shldj 1035 42.termj"/>
+		</blocksection>
+		<blocksection uuid="{ef3a8486-cd4c-4f78-96d8-40e6178670a1}" lines="sc029 shldj termj">
+			<part nodes="1.shldj 74 45.termj"/>
+		</blocksection>
+	</blockSections>
+	<slipDistances/>
+	<approachControlRoutes/>
+	<stationRoutes/>
+	<lineCatalog/>
+	<zugNummernFelder/>
+	<switchGears/>
+</line>

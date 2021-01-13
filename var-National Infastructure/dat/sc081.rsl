@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<line lineID="sc081" name="Byrehill Jn - Dubbs Jn" trafficRouting="on_the_left" type="local" dependentLines="byrj dubbsj">
+	<version major="1" minor="2" patchlevel="0" comment=""/>
+	<creator user="VWaddelo" timestamp="2016-07-08T10:58:15"/>
+	<lasteditor user="VWaddelo" timestamp="2016-07-08T10:58:15"/>
+	<stations/>
+	<nodes>
+		<node nodeID="781" name="TC" kilometre="0.552" x="14774.509" y="4903.23" xNet="-3613616.8" yNet="8837689.1"/>
+		<node nodeID="783" name="GRAD" kilometre="0.579" x="15042.051" y="4903.23" xNet="-3613363.9" yNet="8837592"/>
+		<node nodeID="908" name="SD:PK457" kilometre="0.313" x="12406.269" y="4903.23" xNet="-3613931.4" yNet="8837768.4" referenceNode="781" sightingDistance="true"/>
+		<node nodeID="4" name="SD:PK239" kilometre="0.784" x="17078.255" y="4903.23" xNet="-3611445.5" yNet="8836855.7" referenceNode="783" sightingDistance="true"/>
+	</nodes>
+	<links>
+		<link source="2.byrj" target="4" length="53" gradient="-7.407" vmax="40" vmaxr="40" bidirectional="true"/>
+		<link source="4" target="783" length="205" gradient="-7.407" vmax="40" vmaxr="40" bidirectional="true"/>
+		<link source="781" target="908" length="239" vmax="40" vmaxr="40" bidirectional="true"/>
+		<link source="783" target="781" length="27" vmax="40" vmaxr="40" bidirectional="true"/>
+		<link source="908" target="915.dubbsj" length="62" vmax="40" vmaxr="40" bidirectional="true"/>
+	</links>
+	<dependentLinks/>
+	<blockSections>
+		<blocksection uuid="{992d779c-23ae-49d0-abd3-b554cd8b04c6}" lines="byrj dubbsj sc081">
+			<part nodes="915.dubbsj 908 781 783 4 2.byrj"/>
+		</blocksection>
+		<blocksection uuid="{da674077-613d-48bc-b968-504867494569}" lines="byrj dubbsj sc081">
+			<part nodes="2.byrj 4 783 781 908 915.dubbsj"/>
+		</blocksection>
+	</blockSections>
+	<slipDistances/>
+	<approachControlRoutes/>
+	<stationRoutes/>
+	<lineCatalog/>
+	<zugNummernFelder/>
+	<switchGears/>
+</line>

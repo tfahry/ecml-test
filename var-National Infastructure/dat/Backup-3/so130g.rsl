@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<line lineID="so130g" name="SO130G Chislehurst - St Mary Cary" trafficRouting="on_the_left" type="local" dependentLines="chsl hwkwd stmryc">
+	<version major="1" minor="2" patchlevel="0" comment=""/>
+	<creator user="Ahowe4" timestamp="2016-11-01T12:54:22"/>
+	<lasteditor user="Ahowe4" timestamp="2016-11-01T12:54:22"/>
+	<stations/>
+	<nodes>
+		<node nodeID="456" kilometre="18.593" x="185930" y="1000" xNet="1210075" yNet="531825.3"/>
+		<node nodeID="453" name="tc" description="release contact for track circuit; " kilometre="18.988" x="189880" y="1000" xNet="1210847.7" yNet="530882.83" referenceNode="463" releaseContact="true" arranged="true"/>
+		<node nodeID="454" name="tc" description="release contact for track circuit; " kilometre="18.990" x="189900" y="1000" xNet="1210874.3" yNet="530831.62" referenceNode="798.hwkwd" releaseContact="true" arranged="true"/>
+		<node nodeID="6720" kilometre="18.775" x="187750" y="2000" xNet="1212245.2" yNet="531953.99"/>
+		<node nodeID="462" name="200MM" description="200MM : 18.6" kilometre="18.600" x="186000" y="1000" xNet="1210088.6" yNet="531808.6"/>
+		<node nodeID="463" name="200MM" description="200MM : 18.8" kilometre="18.800" x="188000" y="1000" xNet="1210479.9" yNet="531331.4"/>
+		<node nodeID="486" kilometre="19.088" x="191698.56" y="1008.5662" xNet="1215603.2" yNet="528459.18"/>
+	</nodes>
+	<links>
+		<link source="453" target="463" length="188" vmax="64" vmaxr="64" bidirectional="true">
+			<vzg index="9" vmax="40" vmaxr="40"/>
+		</link>
+		<link source="454" target="453" length="2" vmax="64" vmaxr="64" bidirectional="true">
+			<vzg index="9" vmax="40" vmaxr="40"/>
+		</link>
+		<link source="456" target="1512.chsl" length="43" vmax="64" vmaxr="64" bidirectional="true">
+			<vzg index="9" vmax="40" vmaxr="40"/>
+		</link>
+		<link source="462" target="456" length="7" vmax="64" vmaxr="64" bidirectional="true">
+			<vzg index="9" vmax="40" vmaxr="40"/>
+		</link>
+		<link source="463" target="462" length="200" vmax="64" vmaxr="64" bidirectional="true">
+			<vzg index="9" vmax="40" vmaxr="40"/>
+		</link>
+		<link source="478.hwkwd" target="486" length="9" vmax="64" vmaxr="64" bidirectional="true">
+			<vzg index="9" vmax="40" vmaxr="40"/>
+		</link>
+		<link source="486" target="494.stmryc" length="9" vmax="64" vmaxr="64" bidirectional="true">
+			<vzg index="9" vmax="40" vmaxr="40"/>
+		</link>
+		<link source="798.hwkwd" target="454" length="14" vmax="64" vmaxr="64" bidirectional="true">
+			<vzg index="9" vmax="40" vmaxr="40"/>
+		</link>
+		<link source="6719.chsl" target="6720" length="46" vmax="64" vmaxr="64" bidirectional="true">
+			<vzg index="9" vmax="40" vmaxr="40"/>
+		</link>
+		<link source="6720" target="792.stmryc" length="34" vmax="64" vmaxr="64" bidirectional="true">
+			<vzg index="9" vmax="40" vmaxr="40"/>
+		</link>
+	</links>
+	<dependentLinks>
+		<dependentLink source="3145.stmryc" target="2100.stmryc" direction="opposite" mode="and" active="true" waitingPeriod="0">
+			<link source="6716.chsl" target="6709.chsl" direction="in"/>
+			<link source="6720" target="792.stmryc" direction="in"/>
+		</dependentLink>
+	</dependentLinks>
+	<blockSections>
+		<blocksection uuid="{1beb999b-dbc0-4705-9910-43877713006a}" lines="chsl hwkwd so130g stmryc">
+			<part nodes="494.stmryc 486 478.hwkwd"/>
+			<part nodes="798.hwkwd 454 453 463 462 456 1512.chsl"/>
+		</blocksection>
+		<blocksection uuid="{44d081ae-5b77-4f43-84e6-78485673e292}" lines="chsl so130g stmryc">
+			<part nodes="6719.chsl 6720 792.stmryc"/>
+		</blocksection>
+		<blocksection uuid="{8526e670-6afc-412d-9a6a-7e6a48ca01d3}" lines="chsl so130g stmryc">
+			<part nodes="6719.chsl 6720 792.stmryc"/>
+		</blocksection>
+		<blocksection uuid="{936971ef-2444-4337-9962-368ff381f644}" lines="chsl so130g stmryc">
+			<part nodes="792.stmryc 6720 6719.chsl"/>
+		</blocksection>
+	</blockSections>
+	<slipDistances/>
+	<approachControlRoutes/>
+	<stationRoutes/>
+	<lineCatalog/>
+	<zugNummernFelder/>
+	<switchGears/>
+</line>

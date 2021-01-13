@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<line lineID="sc077" name="Holm Jn - Ardrossan Harbour" trafficRouting="on_the_left" type="local" dependentLines="asb">
+	<version major="1" minor="2" patchlevel="0" comment=""/>
+	<creator user="VWaddelo" timestamp="2016-07-08T10:58:15"/>
+	<lasteditor user="VWaddelo" timestamp="2016-07-08T10:58:15"/>
+	<stations>
+		<station stationID="ARDRSHB" name="Ardrossan Harbour" xNet="-3705501.1" yNet="8835947.6" uicLocationCode="0" circleDiameter="0">
+			<textElement type="name">
+				<pos view="net" x="518.263" y="518.263" angle="0" system="source"/>
+				<pos view="wgs84" x="518.263" y="518.263" angle="0" system="source"/>
+				<pos view="line" x="882.964" y="882.964" angle="0" system="source"/>
+				<pos view="macro" x="28.2843" y="28.2843" angle="0" system="source"/>
+				<pos view="macroWgs84" x="0" y="0" angle="0" system="source"/>
+			</textElement>
+		</station>
+		<station stationID="ARDRSTN" name="Ardossan Town" xNet="-3700184.15" yNet="8834868.6" uicLocationCode="0" circleDiameter="0">
+			<textElement type="name">
+				<pos view="net" x="2510.17" y="2510.17" angle="0" system="source"/>
+				<pos view="wgs84" x="2510.17" y="2510.17" angle="0" system="source"/>
+				<pos view="line" x="2609.04" y="2609.04" angle="0" system="source"/>
+				<pos view="macro" x="28.2843" y="28.2843" angle="0" system="source"/>
+				<pos view="macroWgs84" x="0" y="0" angle="0" system="source"/>
+			</textElement>
+		</station>
+	</stations>
+	<nodes>
+		<switch start="84" endOfMainTrack="94" endOfBranchTrack="93" nodeID="86" name="POINTS:195A" kilometre="49.231" x="154583" y="87" xNet="-3696829.4" yNet="8834303.6"/>
+		<node nodeID="87" kilometre="49.310" x="154943" y="287" xNet="-3697223.2" yNet="8834182.6"/>
+		<signal type="shunting" interlockingMachine="Shunt" nodeID="89" name="sig:pk892" kilometre="49.307" x="154925" y="87" xNet="-3697164" yNet="8834374.6" referenceNode="92"/>
+		<node nodeID="90" name="TC" kilometre="49.375" x="155232" y="287" xNet="-3697505.8" yNet="8834242.6"/>
+		<signal interlockingMachine="3 Aspect Pannel (Below 75mph)" nodeID="91" name="SIG:PK478" kilometre="49.377" x="155241" y="287" xNet="-3697514.6" yNet="8834244.6" referenceNode="630"/>
+		<node nodeID="92" name="TC" kilometre="49.377" x="155240" y="87" xNet="-3697472.1" yNet="8834439.6"/>
+		<node nodeID="93" name="OL:SIG:PK478" kilometre="49.302" x="154907" y="267" xNet="-3697183.8" yNet="8834194.6"/>
+		<node nodeID="621" kilometre="50.000" x="160454" y="287" xNet="-3702613.7" yNet="8835328.6"/>
+		<signal type="exit" interlockingMachine="2 Aspect Pannel (Below 75mph)" nodeID="629" kilometre="49.450" x="155843" y="87" xNet="-3698061.9" yNet="8834565.6" referenceNode="92"/>
+		<track trackID="U-1" stationID="ARDRSTN" type="stopBoard" nodeID="630" name="PLT:ADROSSAN TOWN STATION" kilometre="49.854" x="158989" y="287" xNet="-3701180.7" yNet="8835023.6" referenceNode="621"/>
+		<track trackID="D-1" stationID="ARDRSTN" type="stopBoard" nodeID="631" name="PLT:ADROSSAN TOWN STATION" kilometre="50.014" x="160598" y="287" xNet="-3703200.7" yNet="8835451.6" referenceNode="621"/>
+		<track trackID="U-1" stationID="ARDRSHB" type="stopBoard" nodeID="632" name="ADROSSAN HARBOUR STATION" kilometre="50.595" x="166416" y="287" xNet="-3705490" yNet="8835944.6" referenceNode="635"/>
+		<track trackID="D-1" stationID="ARDRSHB" interlockingMachine="Buffer Stop" nodeID="633" name="ARDROSSAN HARBOUR STATION" kilometre="50.666" x="167127" y="287" xNet="-3706168.4" yNet="8836088.6" referenceNode="635"/>
+		<node nodeID="635" description="GEOGIS S&amp;C|ARH|148056420|[500][55382]|" kilometre="50.641" x="166876" y="287" xNet="-3705927.2" yNet="8836037.6"/>
+		<node nodeID="94" description="GEOGIS S&amp;C|ARH|148060031|[500][53849]|" kilometre="49.240" x="154623" y="87" xNet="-3696868.6" yNet="8834311.6"/>
+		<stationBorder exitType="locked" stationID="ARDRSHB" trackNumber="" nodeID="634" name="Prellbock 135" kilometre="50.670" x="167168" y="287" xNet="-3706218.1" yNet="8836099.6" referenceNode="633"/>
+		<stationBorder exitType="regular" stationID="ARDRSHB" lineID="sc077" trackNumber="1" nodeID="2" name="[ARDRSTN] - [sc077/1]" kilometre="50.421" x="164670.6" y="287" xNet="-3704784.1" yNet="8835795.6" referenceNode="632"/>
+		<stationBorder exitType="regular" stationID="ARDRSTN" lineID="sc077" trackNumber="1" nodeID="84" name="[ARDRSSB] - [sc077/1]" kilometre="49.200" x="154443" y="87" xNet="-3696692.5" yNet="8834273.6" referenceNode="86"/>
+		<stationBorder exitType="regular" stationID="ARDRSTN" lineID="sc077" trackNumber="1" nodeID="5" name="[ARDRSHB] - [sc077/1]" kilometre="50.136" x="161819.78" y="287" xNet="-3703675.8" yNet="8835554.6" referenceNode="631"/>
+		<stationBorder exitType="locked" stationID="ARDRSTN" trackNumber="" nodeID="6" name="Prellbock 136" kilometre="49.450" x="155893" y="87" xNet="-3698110.8" yNet="8834575.6" referenceNode="629"/>
+	</nodes>
+	<links>
+		<link source="1.asb" target="84" length="25" gradient="-1.666" vmax="24" vmaxr="24" bidirectional="true"/>
+		<link source="2" target="632" length="174" gradient="-1.666" vmax="24" vmaxr="24" bidirectional="true"/>
+		<link source="5" target="2" length="285" gradient="-1.666" vmax="24" vmaxr="24" bidirectional="true"/>
+		<link source="84" target="86" length="31" gradient="-1.666" vmax="24" vmaxr="24" bidirectional="true"/>
+		<link source="86" target="93" length="71" gradient="-1.666" vmax="24" vmaxr="24" bidirectional="true"/>
+		<link source="86" target="94" length="9" gradient="-1.666" vmax="24" vmaxr="24"/>
+		<link source="87" target="90" length="65" gradient="-1.666" vmax="24" vmaxr="24" bidirectional="true"/>
+		<link source="89" target="92" length="70" gradient="-1.666" vmax="24" vmaxr="24"/>
+		<link source="90" target="91" length="2" gradient="-1.666" vmax="24" vmaxr="24" bidirectional="true"/>
+		<link source="91" target="630" length="477" gradient="-1.666" vmax="24" vmaxr="24" bidirectional="true"/>
+		<link source="92" target="629" length="73" gradient="-1.666" vmax="24" vmaxr="24"/>
+		<link source="93" target="87" length="8" gradient="-1.666" vmax="24" vmaxr="24" bidirectional="true"/>
+		<link source="94" target="89" length="67" gradient="-1.666" vmax="24" vmaxr="24"/>
+		<link source="621" target="631" length="14" gradient="-1.666" vmax="24" vmaxr="24" bidirectional="true"/>
+		<link source="629" target="6" gradient="-1.666" vmax="24" vmaxr="24"/>
+		<link source="630" target="621" length="146" gradient="-1.666" vmax="24" vmaxr="24" bidirectional="true"/>
+		<link source="631" target="5" length="122" gradient="-1.666" vmax="24" vmaxr="24" bidirectional="true"/>
+		<link source="632" target="635" length="46" gradient="-1.666" vmax="24" vmaxr="24" bidirectional="true"/>
+		<link source="633" target="634" length="4" gradient="-1.666" vmax="24" vmaxr="24" bidirectional="true" radius="3400"/>
+		<link source="635" target="633" length="25" gradient="-1.666" vmax="24" vmaxr="24" bidirectional="true"/>
+	</links>
+	<dependentLinks/>
+	<blockSections>
+		<blocksection uuid="{01a01c7d-0dae-4def-b800-9fdf55497192}" lines="asb sc077">
+			<part nodes="1.asb 84 86 93 87 90 91 630 621 631 5 2 632 635 633"/>
+		</blocksection>
+		<blocksection uuid="{11335a25-2878-4864-b00c-0b380e36515d}" lines="asb sc077">
+			<part nodes="91 90 87 93 86 84 1.asb"/>
+		</blocksection>
+		<blocksection uuid="{2d29fe61-1afc-4b85-b280-c8ac63576b0a}" lines="sc077" shuntingBlock="true">
+			<part nodes="629 92 89"/>
+		</blocksection>
+		<blocksection uuid="{91179d9a-8c98-4bbe-816b-cc24cf794214}" lines="sc077">
+			<part nodes="633 635 632 2 5 631 621 630 91"/>
+		</blocksection>
+	</blockSections>
+	<slipDistances>
+		<slipdistance uuid="{65ae697d-1b61-4585-acb3-9b7f9322532a}" vmax="999" lines="sc077" serialNumber="0">
+			<part nodes="91 90 87 93"/>
+		</slipdistance>
+	</slipDistances>
+	<approachControlRoutes/>
+	<stationRoutes>
+		<stationRoute stationID="ARDRSHB" name="[ARDRSTN]-[sc077/1]-[1]-[ARDRSTN]-[sc077/1] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="2 632 635 633 635 632 2"/>
+		<stationRoute stationID="ARDRSHB" name="[ARDRSTN]-[sc077/1]-[1]-[]-[?/] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="2 632 635 633 634"/>
+		<stationRoute stationID="ARDRSHB" name="[]-[?/]-[1]-[ARDRSTN]-[sc077/1] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="634 633 635 632 2"/>
+		<stationRoute stationID="ARDRSTN" name="[ARDRSHB]-[sc077/1]-[1]-[ARDRSSB]-[sc077/1] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=95;NRz=95;S=95;Rz=95;FGz=95;NGz=95;Gz=95;Lz=95;Unbekannt=95" nodes="5 631 621 630 91 90 87 93 86 84"/>
+		<stationRoute stationID="ARDRSTN" name="[ARDRSSB]-[sc077/1]-[1]-[ARDRSHB]-[sc077/1] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=95;NRz=95;S=95;Rz=95;FGz=95;NGz=95;Gz=95;Lz=95;Unbekannt=95" nodes="84 86 93 87 90 91 630 621 631 5"/>
+	</stationRoutes>
+	<lineCatalog/>
+	<zugNummernFelder/>
+	<switchGears/>
+</line>

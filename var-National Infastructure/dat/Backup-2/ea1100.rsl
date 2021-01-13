@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<line lineID="ea1100" name="East Gate Jn and Hythe Jn - Colchester Town" trafficRouting="on_the_left" type="local" dependentLines="eghj tlsj">
+	<version major="1" minor="2" patchlevel="0" comment=""/>
+	<creator user="Ahowe4" timestamp="2016-11-01T12:54:22"/>
+	<lasteditor user="Ahowe4" timestamp="2016-11-01T12:54:22"/>
+	<stations>
+		<station stationID="CLCHRTN" name="Colchester Town" xNet="2148540.35" yNet="1508016.55" uicLocationCode="0" circleDiameter="0">
+			<textElement type="name">
+				<pos view="net" x="1156.64" y="1156.64" angle="0" system="source"/>
+				<pos view="wgs84" x="1156.64" y="1156.64" angle="0" system="source"/>
+				<pos view="line" x="1137.11" y="1137.11" angle="0" system="source"/>
+				<pos view="macro" x="28.2843" y="28.2843" angle="0" system="source"/>
+				<pos view="macroWgs84" x="0" y="0" angle="0" system="source"/>
+			</textElement>
+		</station>
+	</stations>
+	<nodes>
+		<node nodeID="7" kilometre="86.600" x="12000" y="39800" xNet="2149014.7" yNet="1508347.7"/>
+		<node nodeID="8" kilometre="86.800" x="14000" y="39800" xNet="2147281.8" yNet="1507348.1"/>
+		<switch start="5" endOfMainTrack="22" endOfBranchTrack="13" nodeID="3" name="POINTS: 200" kilometre="86.518" x="11180.003" y="39800" xNet="2149723.7" yNet="1508757"/>
+		<track trackID="U-1" stationID="CLCHRTN" interlockingMachine="4 Aspect Pannel (Below 75mph)" nodeID="5" name="SIG: 102 COLCHESTER TOWN P1" kilometre="86.571" x="11710.019" y="39800" xNet="2149266.3" yNet="1508492" referenceNode="7">
+			<platform startPos="-2450" endPos="0" width="75" left="true" open="true"/>
+		</track>
+		<track trackID="D-1" stationID="CLCHRTN" interlockingMachine="Buffer Stop" nodeID="6" name="COLCHESTER TOWN P1" kilometre="86.816" x="14159.996" y="39800" xNet="2147143.1" yNet="1507266.6" referenceNode="8"/>
+		<speedIndicator nodeID="17" name="SPEED" kilometre="86.482" x="10819.997" y="40000" xNet="2150135.7" yNet="1508764.7" referenceNode="13"/>
+		<speedIndicator nodeID="4" name="SPEED" kilometre="86.482" x="10820.013" y="39800" xNet="2150036.9" yNet="1508938.2" referenceNode="44"/>
+		<node nodeID="23" name="GRAD" kilometre="86.645" x="12450.005" y="39800" xNet="2148625.6" yNet="1508121.6"/>
+		<node nodeID="44" name="TC" kilometre="86.495" x="10948.662" y="39800" xNet="2149924.7" yNet="1508873.2" referenceNode="22" releaseContact="true" arranged="true"/>
+		<stationBorder exitType="alternative" stationID="CLCHRTN" lineID="ea1100" trackNumber="1" nodeID="13" name="[COLNEJN] - [e1100/1]" kilometre="86.500" x="11000" y="40000" xNet="2149980.7" yNet="1508674.4" referenceNode="3"/>
+		<stationBorder exitType="regular" stationID="CLCHRTN" lineID="ea1100" trackNumber="2" nodeID="22" name="[COLNEJN] - [e1100/2]" kilometre="86.511" x="11110.601" y="39800" xNet="2149784" yNet="1508791.8" referenceNode="3"/>
+		<stationBorder exitType="locked" stationID="CLCHRTN" trackNumber="" nodeID="50" name="Buffer stop 343" kilometre="86.816" x="14209.996" y="39800" xNet="2147100" yNet="1507241.3" referenceNode="6"/>
+	</nodes>
+	<links>
+		<link source="3" target="5" length="53" gradient="12.5" vmax="24" vmaxr="24"/>
+		<link source="4" target="44" length="13" gradient="12.5" vmax="24" vmaxr="24"/>
+		<link source="5" target="7" length="29" gradient="12.5" vmax="24" vmaxr="24"/>
+		<link source="6" target="50" vmax="24" vmaxr="24"/>
+		<link source="7" target="23" length="45" gradient="12.5" vmax="24" vmaxr="24"/>
+		<link source="8" target="6" length="16" vmax="24" vmaxr="24"/>
+		<link source="13" target="3" length="18" gradient="12.5" vmax="24" vmaxr="24"/>
+		<link source="17" target="13" length="18" gradient="12.5" vmax="24" vmaxr="24"/>
+		<link source="22" target="3" length="7" gradient="12.5" vmax="24" vmaxr="24"/>
+		<link source="23" target="8" length="155" vmax="24" vmaxr="24"/>
+		<link source="44" target="22" length="16" gradient="12.5" vmax="24" vmaxr="24"/>
+		<link source="62.eghj" target="17" length="82" gradient="12.5" vmax="48" vmaxr="48"/>
+		<link source="64.eghj" target="4" length="82" gradient="12.5" vmax="48" vmaxr="48"/>
+	</links>
+	<dependentLinks/>
+	<blockSections>
+		<blocksection uuid="{2139b19c-7d1d-447b-abdf-03a3a92dde71}" lines="ea1100 eghj" speedIndicators="17">
+			<part nodes="62.eghj 17 13 3 5 7 23 8 6"/>
+		</blocksection>
+		<blocksection uuid="{986afc56-114b-4833-b2f6-f3ddbd51067d}" lines="ea1100 eghj" speedIndicators="4">
+			<part nodes="5 3 22 44 4 64.eghj"/>
+		</blocksection>
+		<blocksection uuid="{f68718bd-b980-4907-8d77-8d2d2bb3e97d}" lines="ea1100">
+			<part nodes="6 8 23 7 5"/>
+		</blocksection>
+	</blockSections>
+	<slipDistances/>
+	<approachControlRoutes/>
+	<stationRoutes>
+		<stationRoute stationID="CLCHRTN" name="[COLNEJN]-[e1100/1]-[1]-[COLNEJN]-[e1100/2] (1)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=95;NRz=95;S=95;Rz=95;FGz=95;NGz=95;Gz=95;Lz=95;Unbekannt=95" nodes="13 3 5 7 23 8 6 8 23 7 5 3 22"/>
+		<stationRoute stationID="CLCHRTN" name="[COLNEJN]-[e1100/1]-[1]-[]-[?/] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=95;NRz=95;S=95;Rz=95;FGz=95;NGz=95;Gz=95;Lz=95;Unbekannt=95" nodes="13 3 5 7 23 8 6 50"/>
+		<stationRoute stationID="CLCHRTN" name="[]-[?/]-[1]-[COLNEJN]-[e1100/2] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="50 6 8 23 7 5 3 22"/>
+	</stationRoutes>
+	<lineCatalog/>
+	<zugNummernFelder/>
+	<switchGears/>
+</line>

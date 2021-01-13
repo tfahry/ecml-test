@@ -1,0 +1,615 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<line lineID="gaerj" name="Gaer Jn" trafficRouting="on_the_left" type="global" dependentLines="gw770 gw900">
+	<transformations>
+		<transformation line="gw770" m11="0.469472" m12="0.882948" m21="-0.882948" m22="0.469472" dx="-1.21305e+06" dy="2.6588e+06"/>
+		<transformation line="gw900" m11="1" m12="0" m21="0" m22="1" dx="0" dy="0"/>
+		<transformation line="gw900a" m11="1" m12="0" m21="0" m22="1" dx="0" dy="0"/>
+	</transformations>
+	<version major="1" minor="2" patchlevel="0" comment=""/>
+	<creator user="Ahowe4" timestamp="2016-11-01T12:54:22"/>
+	<lasteditor user="Ahowe4" timestamp="2016-11-01T12:54:22"/>
+	<stations>
+		<station stationID="GAERJ" name="Gaer Jn" xNet="-2332259.1" yNet="822251.83" uicLocationCode="0" circleDiameter="0">
+			<textElement type="name">
+				<pos view="net" x="2442.26" y="2442.26" angle="0" system="source"/>
+				<pos view="wgs84" x="2442.26" y="2442.26" angle="0" system="source"/>
+				<pos view="line" x="2148.43" y="2148.43" angle="0" system="source"/>
+				<pos view="macro" x="28.2843" y="28.2843" angle="0" system="source"/>
+				<pos view="macroWgs84" x="0" y="0" angle="0" system="source"/>
+			</textElement>
+		</station>
+	</stations>
+	<nodes>
+		<node nodeID="1" kilometre="256.901" x="-2972224.5" y="-6607.3432" xNet="-2331422.6" yNet="823061.76"/>
+		<node nodeID="2" kilometre="256.899" x="-2972224.5" y="-6407.3432" xNet="-2331225.1" yNet="823030.51"/>
+		<node nodeID="3" kilometre="256.899" x="-2972224.5" y="-6207.3432" xNet="-2331027.6" yNet="822999.18"/>
+		<node nodeID="2996" kilometre="256.627" x="-2974960.2" y="-6607.3432" xNet="-2330994.7" yNet="825763.79">
+			<netLimitInfo lineID="gw900"/>
+		</node>
+		<node nodeID="2997" kilometre="256.626" x="-2974965.2" y="-6807.3432" xNet="-2331191.5" yNet="825800">
+			<netLimitInfo lineID="gw900"/>
+		</node>
+		<node nodeID="2998" kilometre="256.626" x="-2974957.5" y="-6207.3432" xNet="-2330600" yNet="825698.57">
+			<netLimitInfo lineID="gw900"/>
+		</node>
+		<stationBorder exitType="regular" stationID="GAERJ" lineID="gw770" trackNumber="1" nodeID="3232" name="[PRKJT] - [gw770/1]" kilometre="257.939" x="-2968898.2" y="-7200.159" xNet="-2333841" yNet="821191" referenceNode="24">
+			<netLimitInfo lineID="gw770"/>
+		</stationBorder>
+		<node nodeID="8" kilometre="256.933" x="-2971395.2" y="-7200.159" xNet="-2332293.6" yNet="822062.72"/>
+		<switch start="22" endOfMainTrack="1701" endOfBranchTrack="1552" nodeID="29" name="PNT: 8103" kilometre="256.843" x="-2972806.2" y="-6807.159" xNet="-2331389.2" yNet="824551.75"/>
+		<node nodeID="3892" name="GRAD" description="L/241" kilometre="256.645" x="-2974775" y="-6807.3432" xNet="-2331221.2" yNet="825612.17"/>
+		<node nodeID="1859" name="GRAD" description="L/241" kilometre="256.645" x="-2974781.5" y="-6607.3432" xNet="-2331022.7" yNet="825587.31"/>
+		<node nodeID="3894" name="GRAD" description="L/241" kilometre="256.645" x="-2974765.8" y="-6207.3432" xNet="-2330630" yNet="825509.18"/>
+		<switch start="47" endOfMainTrack="9" endOfBranchTrack="32" nodeID="30" name="PNT: 8101A" kilometre="256.711" x="-2974083.2" y="-6607.159" xNet="-2331125.4" yNet="824938.36"/>
+		<switch start="22" endOfMainTrack="40" endOfBranchTrack="1551" nodeID="31" name="PNT: 8101B" kilometre="256.778" x="-2973315.2" y="-6807.159" xNet="-2331351.9" yNet="824786.6"/>
+		<signal interlockingMachine="4 Aspect Pannel (Below 75mph)" nodeID="41" name="SIG: NT1648" kilometre="256.702" x="-2974239.2" y="-6607.159" xNet="-2331111.4" yNet="825027.24" referenceNode="47"/>
+		<node nodeID="9" name="SD: NT1648" kilometre="256.827" x="-2972948.4" y="-6607.2715" xNet="-2331306.9" yNet="823792.65" referenceNode="10" sightingDistance="true"/>
+		<node nodeID="10" name="OL: NT1071" kilometre="256.877" x="-2972459.3" y="-6607.3199" xNet="-2331385.1" yNet="823298.8"/>
+		<speedIndicator nodeID="32" kilometre="256.712" x="-2973887.2" y="-6671.159" xNet="-2331128.8" yNet="824936.09" referenceNode="30"/>
+		<signal interlockingMachine="4 Aspect Pannel (Below 75mph)" nodeID="42" name="SIG: NT1270" kilometre="256.702" x="-2974247.2" y="-6407.159" xNet="-2330916.4" yNet="824979.31" referenceNode="49"/>
+		<node nodeID="11" name="SD: NT1270" kilometre="256.827" x="-2972940.9" y="-6407.3432" xNet="-2331113.1" yNet="823738.03" referenceNode="12" sightingDistance="true"/>
+		<node nodeID="12" name="OL: NT1269/NT1745" kilometre="256.853" x="-2972681.5" y="-6407.3432" xNet="-2331153.7" yNet="823481.88"/>
+		<switch start="50" endOfMainTrack="13" endOfBranchTrack="18" nodeID="33" name="PNT: 8102A" kilometre="256.733" x="-2973883.9" y="-6207.3432" xNet="-2330768" yNet="824638.19"/>
+		<switch start="11" endOfMainTrack="49" endOfBranchTrack="17" nodeID="34" name="PNT: 8102B" kilometre="256.821" x="-2973000.9" y="-6407.3344" xNet="-2331103.7" yNet="823797.45"/>
+		<signal interlockingMachine="4 Aspect Pannel (Below 75mph)" nodeID="43" name="SIG: NT1744" kilometre="256.702" x="-2974253.2" y="-6207.159" xNet="-2330719.6" yNet="824943.52" referenceNode="50"/>
+		<node nodeID="13" name="SD: NT1744" kilometre="256.827" x="-2972944.5" y="-6207.3432" xNet="-2330915" yNet="823710.28" referenceNode="14" sightingDistance="true"/>
+		<node nodeID="14" name="OL: NT1269" kilometre="256.829" x="-2972924.4" y="-6207.3432" xNet="-2330918.1" yNet="823690.49"/>
+		<switch start="12" endOfMainTrack="2" endOfBranchTrack="3994" nodeID="36" name="PNT: 8104A" kilometre="256.885" x="-2972363.5" y="-6407.3432" xNet="-2331203.4" yNet="823167.78"/>
+		<node nodeID="15" kilometre="256.744" x="-2973687.2" y="-6721.159" xNet="-2331237" yNet="824863.64" referenceNode="1551" releaseContact="true" arranged="true"/>
+		<node nodeID="16" kilometre="256.743" x="-2973699.2" y="-6716.159" xNet="-2331233.6" yNet="824865.87" referenceNode="32" releaseContact="true" arranged="true"/>
+		<node nodeID="17" kilometre="256.777" x="-2973442.5" y="-6307.3205" xNet="-2330935.8" yNet="824217.9" referenceNode="34" releaseContact="true" arranged="true"/>
+		<node nodeID="18" kilometre="256.776" x="-2973452.6" y="-6305.0303" xNet="-2330932" yNet="824227.53" referenceNode="33" releaseContact="true" arranged="true"/>
+		<switch start="10" endOfMainTrack="1" endOfBranchTrack="3931" nodeID="37" name="PNT: 8105A" kilometre="256.888" x="-2972356.3" y="-6607.3301" xNet="-2331401.5" yNet="823194.87"/>
+		<node nodeID="19" name="SD: NT1747" kilometre="256.970" x="-2971513.2" y="-6407.3432" xNet="-2331336.3" yNet="822327.98" referenceNode="2" sightingDistance="true"/>
+		<node nodeID="20" name="SD: NT1271" kilometre="256.970" x="-2971513.2" y="-6207.3432" xNet="-2331138.8" yNet="822296.65" referenceNode="3" sightingDistance="true"/>
+		<node nodeID="21" name="SD: NT1073" kilometre="256.980" x="-2971434.1" y="-6607.3432" xNet="-2331546.3" yNet="822281.1" referenceNode="1" sightingDistance="true"/>
+		<node nodeID="22" name="SD: NT1072" kilometre="256.796" x="-2973174.3" y="-6807.159" xNet="-2331362.2" yNet="824721.59" referenceNode="29" sightingDistance="true"/>
+		<speedIndicator nodeID="38" name="SPEED" kilometre="256.915" x="-2971853.2" y="-7093.159" xNet="-2332111.8" yNet="822563.16" referenceNode="23"/>
+		<speedIndicator nodeID="39" name="SPEED" kilometre="257.024" x="-2971128.2" y="-7199.159" xNet="-2332618.3" yNet="821837.75" referenceNode="44"/>
+		<signal interlockingMachine="3 Aspect Pannel (Below 75mph)" nodeID="44" name="SIG: NT1967" kilometre="257.053" x="-2970871.2" y="-7199.159" xNet="-2332925.9" yNet="821689.83" referenceNode="28"/>
+		<node nodeID="23" name="OL: NT1647/NT1071/NT1967" kilometre="256.907" x="-2972081.2" y="-7029.159" xNet="-2332031" yNet="822785.6"/>
+		<signal interlockingMachine="2 Aspect IECC (Below 75mph)" nodeID="45" name="SIG: PJ1966" kilometre="257.130" x="-2970575.2" y="-7199.159" xNet="-2333818" yNet="821203.56" referenceNode="28"/>
+		<signal interlockingMachine="2 Aspect IECC (Below 75mph)" nodeID="46" name="SIG: NT1965" kilometre="257.506" x="-2970108.2" y="-7201.159" xNet="-2333828.7" yNet="821197.72" referenceNode="26"/>
+		<node nodeID="24" name="GRAD" description="-178/-383" kilometre="257.877" x="-2969071.4" y="-7200.3022" xNet="-2333839.2" yNet="821191.96"/>
+		<node nodeID="25" name="GRAD" description="-208/-178" kilometre="257.717" x="-2969518.6" y="-7200.6717" xNet="-2333834.7" yNet="821194.45"/>
+		<node nodeID="26" name="GRAD" description="-213/-208" kilometre="257.517" x="-2969946.2" y="-7201.159" xNet="-2333829" yNet="821197.55"/>
+		<node nodeID="27" name="GRAD" description="-129/-213" kilometre="257.277" x="-2970392.6" y="-7199.9409" xNet="-2333822.1" yNet="821201.28"/>
+		<node nodeID="28" name="GRAD" description="-286/-129" kilometre="257.117" x="-2970697.2" y="-7201.159" xNet="-2333667.3" yNet="821285.69"/>
+		<stationBorder exitType="regular" stationID="GAERJ" lineID="gw900" trackNumber="DM" nodeID="4076" kilometre="256.675" x="-2974471.4" y="-6607.2915" xNet="-2331069.4" yNet="825292.43" referenceNode="41"/>
+		<stationBorder exitType="regular" stationID="GAERJ" lineID="gw900" trackNumber="UM" nodeID="1507" kilometre="256.675" x="-2974473.2" y="-6808.159" xNet="-2331267.1" yNet="825322.15" referenceNode="48"/>
+		<node nodeID="1885" kilometre="257.099" x="-2970224.5" y="-6207.3432" xNet="-2331262.4" yNet="821069.51"/>
+		<node nodeID="1637" kilometre="257.015" x="-2971074.5" y="-6807.3432" xNet="-2331786.1" yNet="821968.53"/>
+		<node nodeID="1741" kilometre="257.075" x="-2970464.5" y="-6407.3432" xNet="-2331440.8" yNet="821325.98"/>
+		<switch start="4005" endOfMainTrack="3977" endOfBranchTrack="3927" nodeID="1876" name="PNT: 8104B" kilometre="257.094" x="-2970294.6" y="-6607.3432" xNet="-2331654.4" yNet="821172.54"/>
+		<switch start="1608" endOfMainTrack="1741" endOfBranchTrack="3996" nodeID="2962" name="PNT: 8105B" kilometre="257.079" x="-2970424.6" y="-6407.3432" xNet="-2331444.3" yNet="821286.24"/>
+		<crossing type="kr" startOfMainTrack="1876" startOfBranchTrack="3972" endOfMainTrack="4002" endOfBranchTrack="3991" nodeID="3927" kilometre="256.990" x="-2971329" y="-6507.3432" xNet="-2331428.9" yNet="822170.16"/>
+		<speedIndicator nodeID="3931" name="SPEED" kilometre="256.889" x="-2972264.2" y="-6599.159" xNet="-2331401.9" yNet="823180.22" referenceNode="37"/>
+		<node nodeID="3932" name="GRAD" kilometre="256.998" x="-2971233.2" y="-6207.3432" xNet="-2331172.5" yNet="822025.98"/>
+		<node nodeID="1788" name="GRAD" description="241/150" kilometre="256.998" x="-2971236.6" y="-6407.3432" xNet="-2331370.1" yNet="822060.2"/>
+		<node nodeID="3972" name="GRAD" description="241/150" kilometre="256.998" x="-2971246.7" y="-6498.2418" xNet="-2331430.3" yNet="822089.71"/>
+		<node nodeID="3977" name="GRAD" description="241/150" kilometre="256.998" x="-2971254.1" y="-6607.3432" xNet="-2331566.1" yNet="822105.37"/>
+		<node nodeID="1668" name="GRAD" description="241/150" kilometre="256.998" x="-2971244.5" y="-6807.3432" xNet="-2331767.2" yNet="822130.16"/>
+		<node nodeID="3992" kilometre="256.970" x="-2971526" y="-6488.3013" xNet="-2331386" yNet="822360.13" referenceNode="4002" releaseContact="true" arranged="true"/>
+		<node nodeID="3994" kilometre="256.969" x="-2971535.9" y="-6487.3476" xNet="-2331383.8" yNet="822369.64" referenceNode="36" releaseContact="true" arranged="true"/>
+		<node nodeID="3995" kilometre="257.008" x="-2971145.9" y="-6487.0973" xNet="-2331432" yNet="821991.2" referenceNode="3996" releaseContact="true" arranged="true"/>
+		<node nodeID="3996" kilometre="257.009" x="-2971135.7" y="-6485.9693" xNet="-2331432.2" yNet="821981.23" referenceNode="3995" releaseContact="true" arranged="true"/>
+		<signal interlockingMachine="4 Aspect Pannel (Below 75mph)" nodeID="3997" name="SIG: NT1271" kilometre="257.095" x="-2970264.4" y="-6207.3432" xNet="-2331258.8" yNet="821107.38" referenceNode="3932"/>
+		<signal interlockingMachine="4 Aspect Pannel (Below 75mph)" nodeID="1608" name="SIG: NT1747" kilometre="257.095" x="-2970264.8" y="-6407.3432" xNet="-2331458.2" yNet="821127.08" referenceNode="2962"/>
+		<switch start="1608" endOfMainTrack="2964" endOfBranchTrack="1686" nodeID="1621" name="PNT: 8107A" kilometre="257.097" x="-2970244.9" y="-6407.3432" xNet="-2331460" yNet="821107.18"/>
+		<switch start="1670" endOfMainTrack="1885" endOfBranchTrack="1676" nodeID="1669" name="PNT: 8107B" kilometre="257.199" x="-2969223.6" y="-6207.3432" xNet="-2331349.7" yNet="820072.38"/>
+		<node nodeID="1670" name="OL: NT1271/NT1747" kilometre="257.286" x="-2968621.2" y="-6207.159" xNet="-2331425.4" yNet="819206.71"/>
+		<switch start="4001" endOfMainTrack="1866" endOfBranchTrack="4003" nodeID="1884" name="PNT: 8108A" kilometre="257.112" x="-2970114.6" y="-6607.3432" xNet="-2331670.5" yNet="820994.93"/>
+		<switch start="1646" endOfMainTrack="4006" endOfBranchTrack="4033" nodeID="4000" name="PNT: 8108B" kilometre="257.222" x="-2968867.2" y="-6807.159" xNet="-2331966.5" yNet="819906.4"/>
+		<signal interlockingMachine="4 Aspect Pannel (Below 75mph)" nodeID="4001" name="SIG: NT1073" kilometre="257.105" x="-2970184.6" y="-6607.3432" xNet="-2331664.4" yNet="821064.67" referenceNode="4005"/>
+		<node nodeID="1676" kilometre="257.149" x="-2969724.1" y="-6305.373" xNet="-2331403.7" yNet="820579.59" referenceNode="1669" releaseContact="true" arranged="true"/>
+		<node nodeID="1686" kilometre="257.148" x="-2969734" y="-6307.308" xNet="-2331404.8" yNet="820589.6" referenceNode="1621" releaseContact="true" arranged="true"/>
+		<node nodeID="4003" kilometre="257.167" x="-2969562.2" y="-6686.159" xNet="-2331818.5" yNet="820450.59" referenceNode="1884" releaseContact="true" arranged="true"/>
+		<node nodeID="4004" kilometre="257.168" x="-2969546.2" y="-6693.159" xNet="-2331821.2" yNet="820440.61" referenceNode="4033" releaseContact="true" arranged="true"/>
+		<node nodeID="4005" name="OL: NT1074" kilometre="257.102" x="-2970218.9" y="-6607.3432" xNet="-2331661.3" yNet="821098.32"/>
+		<node nodeID="4006" name="OL: NT1074" kilometre="257.108" x="-2970144.5" y="-6807.3432" xNet="-2331867.2" yNet="821042.08"/>
+		<speedIndicator nodeID="1866" name="SPEED" kilometre="257.143" x="-2969804.6" y="-6607.3432" xNet="-2331697.5" yNet="820686.07" referenceNode="1884"/>
+		<node nodeID="2964" name="OL: NT1272" kilometre="257.098" x="-2970101.2" y="-6407.159" xNet="-2331460.9" yNet="821097.07"/>
+		<speedIndicator nodeID="4033" name="SPEED" kilometre="257.221" x="-2969327.2" y="-6724.159" xNet="-2331963.8" yNet="819916.15" referenceNode="4000"/>
+		<track trackID="T-3" stationID="GAERJ" interlockingMachine="4 Aspect Pannel (Below 75mph)" nodeID="47" name="SIG: NT1071" kilometre="256.702" x="-2974190.8" y="-6607.2379" xNet="-2331111.4" yNet="825027.2" referenceNode="41"/>
+		<track trackID="T-4" stationID="GAERJ" interlockingMachine="4 Aspect Pannel (Below 75mph)" nodeID="48" name="SIG: NT1072" kilometre="256.702" x="-2974246.2" y="-6808.159" xNet="-2331308.4" yNet="825061.27" referenceNode="40"/>
+		<stationBorder exitType="regular" stationID="GAERJ" lineID="gw900" trackNumber="DR" nodeID="1578" kilometre="256.675" x="-2974464.3" y="-6207.3432" xNet="-2330677.2" yNet="825211.39" referenceNode="43"/>
+		<track trackID="T-1" stationID="GAERJ" interlockingMachine="4 Aspect Pannel (Below 75mph)" nodeID="50" name="SIG: NT1269" kilometre="256.702" x="-2974183" y="-6207.3432" xNet="-2330721.2" yNet="824933.63" referenceNode="43"/>
+		<track trackID="T-2" stationID="GAERJ" interlockingMachine="4 Aspect Pannel (Below 75mph)" nodeID="49" name="SIG: NT1745" kilometre="256.702" x="-2974192.2" y="-6407.159" xNet="-2330916.8" yNet="824976.85" referenceNode="42"/>
+		<stationBorder exitType="regular" stationID="GAERJ" lineID="gw900" trackNumber="DR" nodeID="1700" kilometre="257.289" x="-2968482.9" y="-6207.159" xNet="-2331427.6" yNet="819181.51" referenceNode="1670">
+			<netLimitInfo lineID="gw900"/>
+		</stationBorder>
+		<stationBorder exitType="regular" stationID="GAERJ" lineID="gw900" trackNumber="UR" nodeID="1652" kilometre="257.289" x="-2968487.2" y="-6407.159" xNet="-2331627.2" yNet="819194.14" referenceNode="2964">
+			<netLimitInfo lineID="gw900"/>
+		</stationBorder>
+		<stationBorder exitType="regular" stationID="GAERJ" lineID="gw900" trackNumber="DM" nodeID="1625" kilometre="257.289" x="-2968482.2" y="-6607.159" xNet="-2331824.7" yNet="819231.81" referenceNode="1866">
+			<netLimitInfo lineID="gw900"/>
+		</stationBorder>
+		<stationBorder exitType="regular" stationID="GAERJ" lineID="gw900" trackNumber="UM" nodeID="1646" kilometre="257.289" x="-2968478.2" y="-6807.159" xNet="-2332024.9" yNet="819239.09" referenceNode="4000">
+			<netLimitInfo lineID="gw900"/>
+		</stationBorder>
+		<node nodeID="3898" kilometre="256.626" x="-2974956.1" y="-6407.3432" xNet="-2330824.7" yNet="825685.57">
+			<netLimitInfo lineID="gw900"/>
+		</node>
+		<node nodeID="598" name="GRAD" description="L/241" kilometre="256.645" x="-2974781.8" y="-6407.2979" xNet="-2330847.2" yNet="825511.9"/>
+		<stationBorder exitType="regular" stationID="GAERJ" lineID="gw900" trackNumber="UR" nodeID="708" kilometre="256.675" x="-2974461.2" y="-6407.159" xNet="-2330883.8" yNet="825230.18" referenceNode="42"/>
+		<track trackID="T-11" stationID="GAERJ" type="timingPoint" nodeID="3998" kilometre="256.990" x="-2971313" y="-6207.3432" xNet="-2331165.4" yNet="822101.68" referenceNode="3932"/>
+		<track trackID="T-12" stationID="GAERJ" type="timingPoint" nodeID="1790" kilometre="256.990" x="-2971315.5" y="-6407.3432" xNet="-2331360.5" yNet="822136.62" referenceNode="1788"/>
+		<track trackID="T-13" stationID="GAERJ" type="timingPoint" nodeID="3991" kilometre="256.989" x="-2971338.9" y="-6508.3097" xNet="-2331428.6" yNet="822180.06" referenceNode="3927"/>
+		<track trackID="T-14" stationID="GAERJ" type="timingPoint" nodeID="3999" kilometre="256.990" x="-2971334" y="-6607.3432" xNet="-2331558.7" yNet="822183.06" referenceNode="3977"/>
+		<track trackID="T-15" stationID="GAERJ" type="timingPoint" nodeID="1701" kilometre="256.990" x="-2971328.1" y="-6807.3432" xNet="-2331757.9" yNet="822209.65" referenceNode="1668"/>
+		<speedIndicator nodeID="1551" description="SPEED" kilometre="256.777" x="-2973515.2" y="-6763.653" xNet="-2331348.5" yNet="824788.9" referenceNode="31"/>
+		<speedIndicator nodeID="1552" description="SPEED" kilometre="256.844" x="-2972720.2" y="-6833.653" xNet="-2331399.4" yNet="824523.81" referenceNode="23"/>
+		<track trackID="T-5" stationID="GAERJ" type="timingPoint" nodeID="4002" kilometre="256.989" x="-2971338.8" y="-6506.3999" xNet="-2331426.8" yNet="822179.57" referenceNode="3927"/>
+		<track trackID="G-2" stationID="GAERJ" interlockingMachine="2 Aspect Pannel (Below 75mph)" nodeID="40" name="SIG: NT1647" kilometre="256.702" x="-2974213.6" y="-6807.3432" xNet="-2331309" yNet="825057.64" referenceNode="48"/>
+		<node nodeID="1553" name="OL: NT1965" kilometre="257.326" x="-2970331.8" y="-7200.2015" xNet="-2333823.5" yNet="821200.52"/>
+	</nodes>
+	<links>
+		<link source="1" target="37" length="13" gradient="4.15" vmax="64" vmaxr="64">
+			<vzg index="2" vmaxr="80"/>
+		</link>
+		<link source="2" target="36" length="14" gradient="4.15" vmax="64" vmaxr="64"/>
+		<link source="3" target="14" length="70" gradient="4.15" vmax="64" vmaxr="64"/>
+		<link source="8" target="38" length="18" gradient="-3.496" vmax="48" vmaxr="32" bidirectional="true"/>
+		<link source="9" target="30" length="116" gradient="4.15" vmax="64" vmaxr="64">
+			<vzg index="2" vmaxr="80"/>
+		</link>
+		<link source="10" target="9" length="50" gradient="4.15" vmax="64" vmaxr="64">
+			<vzg index="2" vmaxr="80"/>
+		</link>
+		<link source="11" target="34" length="6" gradient="4.15" vmax="64" vmaxr="64"/>
+		<link source="12" target="11" length="26" gradient="4.15" vmax="64" vmaxr="64"/>
+		<link source="13" target="33" length="94" gradient="4.15" vmax="64" vmaxr="64"/>
+		<link source="14" target="13" length="2" gradient="4.15" vmax="64" vmaxr="64"/>
+		<link source="15" target="16" length="1" gradient="4.15" vmax="48" vmaxr="48"/>
+		<link source="16" target="32" length="31" gradient="4.15" vmax="48" vmaxr="48"/>
+		<link source="17" target="18" length="1" gradient="4.15" vmax="64" vmaxr="64"/>
+		<link source="18" target="33" length="43" gradient="4.15" vmax="64" vmaxr="64"/>
+		<link source="19" target="2" length="71" gradient="4.15" vmax="64" vmaxr="64"/>
+		<link source="20" target="3" length="71" gradient="4.15" vmax="64" vmaxr="64"/>
+		<link source="21" target="1" length="79" gradient="4.15" vmax="64" vmaxr="64">
+			<vzg index="2" vmaxr="80"/>
+		</link>
+		<link source="22" target="31" length="7" gradient="4.15" vmax="97" vmaxr="48"/>
+		<link source="23" target="1552" length="63" gradient="-3.496" vmax="48" vmaxr="48" bidirectional="true"/>
+		<link source="24" target="25" length="160" gradient="-5.618" vmax="32" vmaxr="32" bidirectional="true"/>
+		<link source="25" target="26" length="200" gradient="-4.807" vmax="32" vmaxr="32" bidirectional="true"/>
+		<link source="26" target="46" length="11" gradient="-4.694" vmax="32" vmaxr="32" bidirectional="true"/>
+		<link source="27" target="45" length="147" gradient="-7.752" vmax="32" vmaxr="32" bidirectional="true"/>
+		<link source="28" target="44" length="64" gradient="-5" vmax="32" vmaxr="32" bidirectional="true"/>
+		<link source="29" target="22" length="17" gradient="4.15" vmax="97" vmaxr="48"/>
+		<link source="30" target="47" length="9" gradient="4.15" vmax="64" vmaxr="64">
+			<vzg index="2" vmaxr="80"/>
+		</link>
+		<link source="31" target="40" length="28" gradient="4.15" vmax="97" vmaxr="48"/>
+		<link source="31" target="1551" length="1" gradient="4.15" vmax="97" vmaxr="48"/>
+		<link source="32" target="30" length="1" gradient="4.15" vmax="64" vmaxr="64">
+			<vzg index="2" vmaxr="80"/>
+		</link>
+		<link source="33" target="50" length="30" gradient="4.15" vmax="64" vmaxr="64"/>
+		<link source="34" target="17" length="44" gradient="4.15" vmax="64" vmaxr="64"/>
+		<link source="34" target="49" length="119" gradient="4.15" vmax="64" vmaxr="64"/>
+		<link source="36" target="12" length="32" gradient="4.15" vmax="64" vmaxr="64"/>
+		<link source="37" target="10" length="11" gradient="4.15" vmax="64" vmaxr="64">
+			<vzg index="2" vmaxr="80"/>
+		</link>
+		<link source="38" target="23" length="8" gradient="-3.496" vmax="48" vmaxr="48" bidirectional="true"/>
+		<link source="39" target="8" length="91" gradient="-3.496" vmax="48" vmaxr="32" bidirectional="true"/>
+		<link source="40" target="48" gradient="4.15" vmax="97" vmaxr="48"/>
+		<link source="41" target="4076" length="27" gradient="4.15" vmax="64" vmaxr="64">
+			<vzg index="2" vmaxr="80"/>
+		</link>
+		<link source="42" target="708" length="27" gradient="4.15" vmax="64" vmaxr="64"/>
+		<link source="43" target="1578" length="27" gradient="4.15" vmax="64" vmaxr="64"/>
+		<link source="44" target="39" length="29" gradient="-3.496" vmax="32" vmaxr="32" bidirectional="true"/>
+		<link source="45" target="28" length="13" gradient="-7.752" vmax="32" vmaxr="32" bidirectional="true"/>
+		<link source="46" target="1553" length="180" gradient="-4.694" vmax="32" vmaxr="32" bidirectional="true"/>
+		<link source="47" target="41" gradient="4.15" vmax="64" vmaxr="64">
+			<vzg index="2" vmaxr="80"/>
+		</link>
+		<link source="48" target="1507" length="27" gradient="4.15" vmax="97" vmaxr="48"/>
+		<link source="49" target="42" gradient="4.15" vmax="64" vmaxr="64"/>
+		<link source="50" target="43" length="1" gradient="4.15" vmax="64" vmaxr="64"/>
+		<link source="598" target="3898" length="19" vmax="64" vmaxr="64"/>
+		<link source="708" target="598" length="30" gradient="4.15" vmax="64" vmaxr="64"/>
+		<link source="1507" target="3892" length="29" gradient="4.15" vmax="97" vmaxr="48"/>
+		<link source="1551" target="15" length="33" gradient="4.15" vmax="48" vmaxr="48"/>
+		<link source="1552" target="29" length="1" gradient="-3.496" vmax="97" vmaxr="48" bidirectional="true"/>
+		<link source="1553" target="27" length="49" gradient="-4.694" vmax="32" vmaxr="32" bidirectional="true"/>
+		<link source="1578" target="3894" length="30" gradient="4.15" vmax="64" vmaxr="64"/>
+		<link source="1608" target="2962" length="16" gradient="6.666" vmax="64" vmaxr="64"/>
+		<link source="1621" target="1608" length="2" gradient="6.666" vmax="64" vmaxr="64"/>
+		<link source="1625" target="1866" length="146" gradient="6.666" vmaxr="96"/>
+		<link source="1637" target="1668" length="17" gradient="6.666" vmax="97"/>
+		<link source="1646" target="4000" length="67" gradient="6.666" vmax="97"/>
+		<link source="1652" target="2964" length="191" gradient="6.666" vmax="64"/>
+		<link source="1668" target="1701" length="8" gradient="4.15" vmax="97"/>
+		<link source="1669" target="1676" length="50" gradient="6.666" vmax="64" vmaxr="64"/>
+		<link source="1669" target="1885" length="100" gradient="6.666" vmax="64" vmaxr="64"/>
+		<link source="1670" target="1669" length="87" gradient="6.666" vmax="64" vmaxr="64" bidirectional="true"/>
+		<link source="1676" target="1686" length="1" gradient="6.666" vmax="64" vmaxr="64"/>
+		<link source="1686" target="1621" length="51" gradient="6.666" vmax="64" vmaxr="64"/>
+		<link source="1700" target="1670" length="3" gradient="6.666" vmax="64" vmaxr="64" bidirectional="true"/>
+		<link source="1701" target="29" length="238" gradient="4.15" vmax="97"/>
+		<link source="1741" target="1788" length="77" gradient="6.666" vmax="64" vmaxr="64"/>
+		<link source="1788" target="1790" length="8" gradient="4.15" vmax="64" vmaxr="64"/>
+		<link source="1790" target="19" length="20" gradient="4.15" vmax="64" vmaxr="64"/>
+		<link source="1859" target="2996" length="18" vmax="64" vmaxr="64">
+			<vzg index="2" vmaxr="80"/>
+		</link>
+		<link source="1866" target="1884" length="31" gradient="6.666" vmax="64" vmaxr="64">
+			<vzg index="2" vmaxr="80"/>
+		</link>
+		<link source="1876" target="3927" length="104" gradient="6.666" vmax="64" vmaxr="64"/>
+		<link source="1876" target="3977" length="96" gradient="6.666" vmax="64" vmaxr="64">
+			<vzg index="2" vmaxr="80"/>
+		</link>
+		<link source="1884" target="4001" length="7" gradient="6.666" vmax="64" vmaxr="64">
+			<vzg index="2" vmaxr="80"/>
+		</link>
+		<link source="1885" target="3997" length="4" gradient="6.666" vmax="64" vmaxr="64"/>
+		<link source="2962" target="1741" length="4" gradient="6.666" vmax="64" vmaxr="64"/>
+		<link source="2962" target="3996" length="70" gradient="6.666" vmax="64" vmaxr="64"/>
+		<link source="2964" target="1621" length="1" gradient="6.666" vmax="64"/>
+		<link source="3232" target="24" length="62" gradient="-5" vmax="32" vmaxr="32" bidirectional="true"/>
+		<link source="3892" target="2997" length="19" vmax="97" vmaxr="48"/>
+		<link source="3894" target="2998" length="19" vmax="64" vmaxr="64"/>
+		<link source="3927" target="3991" length="1" gradient="4.15" vmax="64" vmaxr="64"/>
+		<link source="3927" target="4002" length="1" gradient="4.15" vmax="64" vmaxr="64"/>
+		<link source="3931" target="37" length="1" gradient="4.15" vmax="64" vmaxr="64">
+			<vzg index="2" vmaxr="80"/>
+		</link>
+		<link source="3932" target="3998" length="8" gradient="4.15" vmax="64" vmaxr="64"/>
+		<link source="3972" target="3927" length="8" gradient="4.15" vmax="64" vmaxr="64"/>
+		<link source="3977" target="3999" length="8" gradient="4.15" vmax="64" vmaxr="64">
+			<vzg index="2" vmaxr="80"/>
+		</link>
+		<link source="3991" target="3931" length="100" gradient="4.15" vmax="64" vmaxr="64"/>
+		<link source="3992" target="3994" length="1" gradient="4.15" vmax="64" vmaxr="64"/>
+		<link source="3994" target="36" length="84" gradient="4.15" vmax="64" vmaxr="64"/>
+		<link source="3995" target="3972" length="10" gradient="6.666" vmax="64" vmaxr="64"/>
+		<link source="3996" target="3995" length="1" gradient="6.666" vmax="64" vmaxr="64"/>
+		<link source="3997" target="3932" length="97" gradient="6.666" vmax="64" vmaxr="64"/>
+		<link source="3998" target="20" length="20" gradient="4.15" vmax="64" vmaxr="64"/>
+		<link source="3999" target="21" length="10" gradient="4.15" vmax="64" vmaxr="64">
+			<vzg index="2" vmaxr="80"/>
+		</link>
+		<link source="4000" target="4006" length="114" gradient="6.666" vmax="97"/>
+		<link source="4000" target="4033" length="1" gradient="6.666" vmax="97"/>
+		<link source="4001" target="4005" length="3" gradient="6.666" vmax="64" vmaxr="64">
+			<vzg index="2" vmaxr="80"/>
+		</link>
+		<link source="4002" target="3992" length="19" gradient="4.15" vmax="64" vmaxr="64"/>
+		<link source="4003" target="1884" length="55" gradient="6.666" vmax="64" vmaxr="64"/>
+		<link source="4004" target="4003" length="1" gradient="6.666" vmax="64" vmaxr="64"/>
+		<link source="4005" target="1876" length="8" gradient="6.666" vmax="64" vmaxr="64">
+			<vzg index="2" vmaxr="80"/>
+		</link>
+		<link source="4006" target="1637" length="93" gradient="6.666" vmax="97"/>
+		<link source="4033" target="4004" length="53" gradient="6.666" vmax="64" vmaxr="64"/>
+		<link source="4076" target="1859" length="30" gradient="4.15" vmax="64" vmaxr="64">
+			<vzg index="2" vmaxr="80"/>
+		</link>
+	</links>
+	<dependentLinks/>
+	<blockSections>
+		<blocksection uuid="{006b69e1-df15-4c36-a4f3-a6a43b7bfa58}" lines="gaerj">
+			<part nodes="4001 4005 1876 3927 4002 3992 3994 36 12 11 34 17 18 33 50 43"/>
+		</blocksection>
+		<blocksection uuid="{01a86a45-b978-4179-a60f-d453933d580a}" lines="gaerj gw900" shuntingBlock="true">
+			<part nodes="1608 1621 1686 1676 1669 1670 1700"/>
+		</blocksection>
+		<blocksection uuid="{02e2bce9-d464-4fed-b223-d3a0f2859c7e}" lines="gaerj gw900">
+			<part nodes="1652 2964 1621 1608 2962 1741 1788 1790 19 2 36 12 11 34 17 18 33 50 43"/>
+		</blocksection>
+		<blocksection uuid="{03bb6019-5399-40f9-89fc-9216c3f36e69}" lines="gaerj gw900 made">
+			<part nodes="2996 1859 4076 41 47"/>
+		</blocksection>
+		<blocksection uuid="{03f96904-8414-4ac4-8e0a-a163f277adec}" lines="gaerj gw900">
+			<part nodes="1700 1670 1669 1676 1686 1621 1608 2962 3996 3995 3972 3927 3991 3931 37 10 9 30 47 41"/>
+		</blocksection>
+		<blocksection uuid="{055fa12b-9fe0-4ae6-b46b-a95b0131d211}" lines="gaerj" speedIndicators="39 1552">
+			<part nodes="44 39 8 38 23 1552 29 22 31 40 48"/>
+		</blocksection>
+		<blocksection uuid="{09020b77-6a9b-4743-8902-e930aac91a37}" lines="gaerj gw900" speedIndicators="4033">
+			<part nodes="1646 4000 4033 4004 4003 1884 4001 4005 1876 3927 4002 3992 3994 36 12 11 34 17 18 33 50 43"/>
+		</blocksection>
+		<blocksection uuid="{094da7bb-df80-4a6b-9b8d-eef5d185be99}" lines="gaerj gw900">
+			<part nodes="1700 1670 1669 1885 3997 3932 3998 20 3 14 13 33 50 43"/>
+		</blocksection>
+		<blocksection uuid="{0f099e6e-e823-428e-979f-341a081ad4b7}" lines="gaerj">
+			<part nodes="50 33 18 17 34 11 12 36 3994 3992 4002 3927 1876 4005 4001"/>
+		</blocksection>
+		<blocksection uuid="{12bd56e7-cc89-4f68-b346-7e48bc50b705}" lines="gaerj gw900 made">
+			<part nodes="2996 1859 4076 41 47"/>
+		</blocksection>
+		<blocksection uuid="{16aef0bf-ab7b-4e85-b556-fd3129f8c024}" lines="gaerj">
+			<part nodes="49 34 11 12 36 3994 3992 4002 3927 1876 4005 4001"/>
+		</blocksection>
+		<blocksection uuid="{1a0b232e-5cb8-4ff0-a066-1f4cb24f29ba}" lines="gaerj">
+			<part nodes="46 1553 27 45 28 44"/>
+		</blocksection>
+		<blocksection uuid="{1aada3c6-d904-4995-b32f-ae32b834fa40}" lines="gaerj gw900" shuntingBlock="true">
+			<part nodes="1700 1670 1669 1885 3997 3932 3998 20 3 14 13 33 50 43"/>
+		</blocksection>
+		<blocksection uuid="{1d651950-4870-48b7-919d-2aebc8ea0746}" lines="gaerj" speedIndicators="3931">
+			<part nodes="1608 2962 3996 3995 3972 3927 3991 3931 37 10 9 30 47 41"/>
+		</blocksection>
+		<blocksection uuid="{2aca6b63-bb3c-4849-acdc-9eaf58e9c690}" lines="gaerj gw900">
+			<part nodes="3997 1885 1669 1670 1700"/>
+		</blocksection>
+		<blocksection uuid="{2bce12bb-fa1f-4630-b729-b409fd9362d6}" lines="gaerj gw900">
+			<part nodes="1700 1670 1669 1885 3997 3932 3998 20 3 14 13 33 50 43"/>
+		</blocksection>
+		<blocksection uuid="{304fdd74-f743-4402-a653-ab32d10bfb68}" lines="gaerj">
+			<part nodes="4001 4005 1876 3927 4002 3992 3994 36 12 11 34 49 42"/>
+		</blocksection>
+		<blocksection uuid="{30b815de-2cdd-4ad9-93d4-886a195e75e9}" lines="gaerj gw900">
+			<part nodes="1608 1621 1686 1676 1669 1670 1700"/>
+		</blocksection>
+		<blocksection uuid="{32c5c0a0-208c-4cfa-b76f-ed8b3648b297}" lines="gaerj gw770 parkj">
+			<part nodes="3232 24 25 26 46"/>
+		</blocksection>
+		<blocksection uuid="{361c4dcd-ee8e-4fc3-8a4d-8609865baeb0}" lines="gaerj gw900 made">
+			<part nodes="48 1507 3892 2997"/>
+		</blocksection>
+		<blocksection uuid="{36e77199-b0d1-4ab3-916d-57d13a7f193e}" lines="gaerj" speedIndicators="32 39 1551 1552">
+			<part nodes="44 39 8 38 23 1552 29 22 31 1551 15 16 32 30 47 41"/>
+		</blocksection>
+		<blocksection uuid="{4c173651-4796-47db-919f-95625e4db41f}" lines="gaerj gw900">
+			<part nodes="1652 2964 1621 1608 2962 3996 3995 3972 3927 3991 3931 37 10 9 30 47 41"/>
+		</blocksection>
+		<blocksection uuid="{520851a8-39e1-462c-b445-89da27a530d9}" lines="gaerj gw900 made">
+			<part nodes="41 4076 1859 2996"/>
+		</blocksection>
+		<blocksection uuid="{54c8abec-cb1a-4fb8-822e-9db5d4956e52}" lines="gaerj gw900">
+			<part nodes="1700 1670 1669 1676 1686 1621 1608 2962 1741 1788 1790 19 2 36 12 11 34 17 18 33 50 43"/>
+		</blocksection>
+		<blocksection uuid="{559cbf44-f596-4995-ab96-d8a23f8fc0c0}" lines="gaerj gw900">
+			<part nodes="3997 1885 1669 1670 1700"/>
+		</blocksection>
+		<blocksection uuid="{5c6bfe03-ba1c-43b4-93a4-ee7275df6934}" lines="gaerj gw900">
+			<part nodes="1700 1670 1669 1676 1686 1621 1608 2962 1741 1788 1790 19 2 36 12 11 34 17 18 33 50 43"/>
+		</blocksection>
+		<blocksection uuid="{5e234085-e62b-49f4-bf45-4dfe1941fe88}" lines="gaerj">
+			<part nodes="47 30 9 10 37 1 21 3999 3977 1876 4005 4001"/>
+		</blocksection>
+		<blocksection uuid="{5e6c658b-f03e-42ea-8ee9-87814b05dcb6}" lines="gaerj gw900">
+			<part nodes="1608 1621 1686 1676 1669 1670 1700"/>
+		</blocksection>
+		<blocksection uuid="{6062bc23-bdda-42a0-9125-3a6e2531aebc}" lines="gaerj gw900" shuntingBlock="true" speedIndicators="3931">
+			<part nodes="1700 1670 1669 1676 1686 1621 1608 2962 3996 3995 3972 3927 3991 3931 37 10 9 30 47 41"/>
+		</blocksection>
+		<blocksection uuid="{628c7d27-8c91-4968-a4f0-f01343114512}" lines="gaerj gw770 parkj">
+			<part nodes="45 27 1553 46 26 25 24 3232"/>
+		</blocksection>
+		<blocksection uuid="{6517212f-6274-4586-962c-b1928e0b791e}" lines="gaerj gw900" shuntingBlock="true">
+			<part nodes="1700 1670 1669 1676 1686 1621 1608 2962 1741 1788 1790 19 2 36 12 11 34 17 18 33 50 43"/>
+		</blocksection>
+		<blocksection uuid="{68c51ccb-022e-4ffa-b955-5b2e75e12d86}" lines="gaerj">
+			<part nodes="45 28 44"/>
+		</blocksection>
+		<blocksection uuid="{6c8a69ab-6fe6-4e99-8726-4074e45b76a8}" lines="gaerj gw900">
+			<part nodes="1700 1670 1669 1676 1686 1621 1608 2962 3996 3995 3972 3927 3991 3931 37 10 9 30 47 41"/>
+		</blocksection>
+		<blocksection uuid="{6d341ba6-b889-49eb-9cea-60b92f06188d}" lines="gaerj gw900">
+			<part nodes="1608 1621 1686 1676 1669 1670 1700"/>
+		</blocksection>
+		<blocksection uuid="{709f0fab-06e5-4076-8e99-c216e3d4e506}" lines="gaerj gw900" speedIndicators="4033">
+			<part nodes="1646 4000 4033 4004 4003 1884 4001 4005 1876 3977 3999 21 1 37 10 9 30 47 41"/>
+		</blocksection>
+		<blocksection uuid="{71be3b55-c508-401c-8953-ee6b698aeed4}" lines="gaerj">
+			<part nodes="44 28 45"/>
+		</blocksection>
+		<blocksection uuid="{7571d4a5-c5bd-4b42-87c0-ae3650a2372d}" lines="gaerj gw900 made">
+			<part nodes="2998 3894 1578 43 50"/>
+		</blocksection>
+		<blocksection uuid="{761910fd-6a79-4387-971c-f2a923b9f15a}" lines="gaerj">
+			<part nodes="43 50"/>
+		</blocksection>
+		<blocksection uuid="{77080146-a5f6-4406-949a-6153970834e1}" lines="gaerj gw900">
+			<part nodes="3997 1885 1669 1670 1700"/>
+		</blocksection>
+		<blocksection uuid="{7938956d-2e19-43f9-908a-10b664ef191b}" lines="gaerj gw900">
+			<part nodes="1700 1670 1669 1676 1686 1621 1608 2962 3996 3995 3972 3927 3991 3931 37 10 9 30 47 41"/>
+		</blocksection>
+		<blocksection uuid="{7957edf3-e868-4ad6-b310-9cb72a8774db}" lines="gaerj" speedIndicators="32 38">
+			<part nodes="47 30 32 16 15 1551 31 22 29 1552 23 38 8 39 44 28 45"/>
+		</blocksection>
+		<blocksection uuid="{7f52005c-ab7e-46e4-92f2-965a7ce9cd5d}" lines="gaerj gw900">
+			<part nodes="3997 1885 1669 1670 1700"/>
+		</blocksection>
+		<blocksection uuid="{81bb1a51-0d16-4eed-80cb-56fd8d3f18be}" lines="gaerj gw900">
+			<part nodes="1608 1621 1686 1676 1669 1670 1700"/>
+		</blocksection>
+		<blocksection uuid="{82e6e0de-49f5-4fe9-8dba-48095713d043}" lines="gaerj gw900">
+			<part nodes="1652 2964 1621 1608 2962 1741 1788 1790 19 2 36 12 11 34 49 42"/>
+		</blocksection>
+		<blocksection uuid="{83f16955-235f-415b-9c38-3afce86010ff}" lines="gaerj gw900">
+			<part nodes="1700 1670 1669 1676 1686 1621 1608 2962 1741 1788 1790 19 2 36 12 11 34 49 42"/>
+		</blocksection>
+		<blocksection uuid="{84d68545-17c8-4a73-ae08-e000f575ec3f}" lines="gaerj">
+			<part nodes="49 34 11 12 36 2 19 1790 1788 1741 2962 1608"/>
+		</blocksection>
+		<blocksection uuid="{85883145-2011-443e-85a4-9317e3d53b76}" lines="gaerj">
+			<part nodes="1608 2962 1741 1788 1790 19 2 36 12 11 34 49 42"/>
+		</blocksection>
+		<blocksection uuid="{989215eb-2de5-4f7b-acf3-c85053a6ac36}" lines="gaerj">
+			<part nodes="50 43"/>
+		</blocksection>
+		<blocksection uuid="{9972a475-944b-412d-8dc3-99204748132b}" lines="gaerj gw900">
+			<part nodes="1608 1621 1686 1676 1669 1670 1700"/>
+		</blocksection>
+		<blocksection uuid="{99f7c640-bc89-4ce1-b746-f6bcdbf61bd7}" lines="gaerj gw900">
+			<part nodes="1700 1670 1669 1676 1686 1621 1608 2962 1741 1788 1790 19 2 36 12 11 34 49 42"/>
+		</blocksection>
+		<blocksection uuid="{9b13ea2c-f343-4e20-89db-2b547a428b0c}" lines="gaerj gw900">
+			<part nodes="3997 1885 1669 1670 1700"/>
+		</blocksection>
+		<blocksection uuid="{9c9de83a-ca48-48d5-9675-d10a7ba13368}" lines="gaerj">
+			<part nodes="3997 3932 3998 20 3 14 13 33 50 43"/>
+		</blocksection>
+		<blocksection uuid="{a17edee0-98eb-41d6-93cc-dc9a827b9710}" lines="gaerj gw900">
+			<part nodes="3997 1885 1669 1670 1700"/>
+		</blocksection>
+		<blocksection uuid="{a645ce8b-9679-4ff6-90b1-e224be1d2d2f}" lines="gaerj gw770 parkj">
+			<part nodes="46 26 25 24 3232"/>
+		</blocksection>
+		<blocksection uuid="{a7490961-2404-4a27-a178-44250db1f2c6}" lines="gaerj">
+			<part nodes="50 33 18 17 34 11 12 36 2 19 1790 1788 1741 2962 1608"/>
+		</blocksection>
+		<blocksection uuid="{aadf5ddb-c127-41d0-af6a-d9b122dec9a5}" lines="gaerj">
+			<part nodes="1608 2962 1741 1788 1790 19 2 36 12 11 34 17 18 33 50 43"/>
+		</blocksection>
+		<blocksection uuid="{aae9218a-5b6f-4a35-a8ce-a6a5852050c6}" lines="gaerj gw900" speedIndicators="4033">
+			<part nodes="1646 4000 4033 4004 4003 1884 4001 4005 1876 3927 4002 3992 3994 36 12 11 34 49 42"/>
+		</blocksection>
+		<blocksection uuid="{ad2a5502-9030-4ea0-beb2-88edbb248e4b}" lines="gaerj gw900">
+			<part nodes="1608 1621 1686 1676 1669 1670 1700"/>
+		</blocksection>
+		<blocksection uuid="{ad95f48e-b3f7-4f59-aae9-07a7776219fc}" lines="ebbwj gaerj gw900">
+			<part nodes="1608 1621 1686 1676 1669 1670 1700"/>
+		</blocksection>
+		<blocksection uuid="{b362b173-eb86-47dd-9a32-84f9df64490b}" lines="gaerj gw900 made">
+			<part nodes="42 708 598 3898"/>
+		</blocksection>
+		<blocksection uuid="{ba34ef47-f1fa-4afe-bac2-6178b3bc7018}" lines="gaerj" speedIndicators="3931">
+			<part nodes="47 30 9 10 37 3931 3991 3927 3972 3995 3996 2962 1608"/>
+		</blocksection>
+		<blocksection uuid="{c2f2bf37-7569-4273-b711-59c9f8b7aee3}" lines="gaerj gw900 made">
+			<part nodes="2996 1859 4076 41 47"/>
+		</blocksection>
+		<blocksection uuid="{c5d47299-fd54-462f-b0c8-f72ca2c78a8e}" lines="gaerj gw900 made">
+			<part nodes="3898 598 708 42 49"/>
+		</blocksection>
+		<blocksection uuid="{c972708d-5361-44bb-9979-e57d7dfea89d}" lines="ebbwj gaerj gw900">
+			<part nodes="3997 1885 1669 1670 1700"/>
+		</blocksection>
+		<blocksection uuid="{ca06c8c6-6bc2-4fe1-9f2d-4315a09088ae}" lines="gaerj gw900" shuntingBlock="true">
+			<part nodes="1700 1670 1669 1676 1686 1621 1608 2962 1741 1788 1790 19 2 36 12 11 34 49 42"/>
+		</blocksection>
+		<blocksection uuid="{cac55ea9-6d2d-4626-af64-9ed81eedf5a2}" lines="gaerj">
+			<part nodes="4001 4005 1876 3977 3999 21 1 37 10 9 30 47 41"/>
+		</blocksection>
+		<blocksection uuid="{df2ddb4b-1354-482b-8629-d667df0bd8f3}" lines="gaerj gw900 made">
+			<part nodes="2996 1859 4076 41 47"/>
+		</blocksection>
+		<blocksection uuid="{e3033235-7293-4be1-9711-f8570d85cc9e}" lines="gaerj gw900">
+			<part nodes="1700 1670 1669 1676 1686 1621 1608 2962 1741 1788 1790 19 2 36 12 11 34 49 42"/>
+		</blocksection>
+		<blocksection uuid="{e42fec60-7bad-4683-899c-834a250d9667}" lines="gaerj" speedIndicators="38">
+			<part nodes="40 31 22 29 1552 23 38 8 39 44 28 45"/>
+		</blocksection>
+		<blocksection uuid="{e4dc820f-1dcd-4f39-93fe-2a387bfc8672}" lines="gaerj gw900 made">
+			<part nodes="2997 3892 1507 48 40"/>
+		</blocksection>
+		<blocksection uuid="{e5e62293-cacb-4d55-977f-f7e98c2927ef}" lines="gaerj gw900">
+			<part nodes="1700 1670 1669 1885 3997 3932 3998 20 3 14 13 33 50 43"/>
+		</blocksection>
+		<blocksection uuid="{e94f5fe6-cb53-4a71-8be7-47c5ac01432a}" lines="gaerj gw900" speedIndicators="32 1551">
+			<part nodes="1646 4000 4006 1637 1668 1701 29 22 31 1551 15 16 32 30 47 41"/>
+		</blocksection>
+		<blocksection uuid="{eacd7cb4-2ef4-4743-ad8c-aba21e454003}" lines="gaerj gw900">
+			<part nodes="1700 1670 1669 1676 1686 1621 1608 2962 1741 1788 1790 19 2 36 12 11 34 17 18 33 50 43"/>
+		</blocksection>
+		<blocksection uuid="{f01a853b-395a-4fb9-9c58-a6f0c80e807b}" lines="ebbwj gaerj gw900" speedIndicators="1866">
+			<part nodes="4001 1884 1866 1625"/>
+		</blocksection>
+		<blocksection uuid="{f16ea099-053b-4e56-aaeb-43f954149a28}" lines="gaerj gw900" shuntingBlock="true">
+			<part nodes="3997 1885 1669 1670 1700"/>
+		</blocksection>
+		<blocksection uuid="{f71d51f3-c3db-42c4-b30a-5aff0b3e4488}" lines="gaerj">
+			<part nodes="50 33 13 14 3 20 3998 3932 3997"/>
+		</blocksection>
+		<blocksection uuid="{fbe458d7-e101-4e7e-a4df-bc691a85de25}" lines="gaerj gw900 made">
+			<part nodes="43 1578 3894 2998"/>
+		</blocksection>
+		<blocksection uuid="{fd0656f5-b942-427c-8f2f-b7c2242acffa}" lines="gaerj gw900">
+			<part nodes="1646 4000 4006 1637 1668 1701 29 22 31 40 48"/>
+		</blocksection>
+	</blockSections>
+	<slipDistances>
+		<slipdistance uuid="{0227c8b0-48f5-4ba5-9d40-53c0aa3e7ede}" vmax="999" lines="gaerj" serialNumber="0">
+			<part nodes="40 31 22 29 1552 23"/>
+		</slipdistance>
+		<slipdistance uuid="{13d24378-8306-49df-8d73-4ac0bdc77f09}" publicName="Up Main" vmax="999" lines="gaerj gw900" serialNumber="0">
+			<part nodes="1646 4000 4006"/>
+		</slipdistance>
+		<slipdistance uuid="{14f21c29-ed19-4270-b12d-c085e9283acf}" vmax="999" lines="gaerj gw900" serialNumber="0">
+			<part nodes="41 4076 1859 2996"/>
+		</slipdistance>
+		<slipdistance uuid="{19dce7ca-abe2-4b3a-a2fe-ef4cb0df2d3f}" vmax="999" lines="gaerj gw900" serialNumber="0">
+			<part nodes="1652 2964"/>
+		</slipdistance>
+		<slipdistance uuid="{2e774923-8ed4-4eda-a0a0-039a2ade1a53}" vmax="999" lines="gaerj" serialNumber="0">
+			<part nodes="46 1553"/>
+		</slipdistance>
+		<slipdistance uuid="{2f4a12c8-1717-4828-8d0a-9416c077c9ef}" vmax="999" lines="gaerj" serialNumber="0">
+			<part nodes="49 34 11 12"/>
+		</slipdistance>
+		<slipdistance uuid="{390954c0-587c-4487-b33e-018ce8c3c729}" vmax="999" lines="gaerj" serialNumber="0">
+			<part nodes="44 39 8 38 23"/>
+		</slipdistance>
+		<slipdistance uuid="{3b4ff086-9a0e-421e-a333-94ccaaaffa3e}" vmax="999" lines="gaerj gw900" serialNumber="0">
+			<part nodes="42 708 598 3898"/>
+		</slipdistance>
+		<slipdistance uuid="{3cfe5b9a-baed-4e33-b278-bb9cd4997660}" publicName="Up Relief" vmax="999" lines="gaerj gw900" serialNumber="0">
+			<part nodes="1608 1621 2964 1652"/>
+		</slipdistance>
+		<slipdistance uuid="{4095d23d-0f06-4052-9fd1-4d2e6ee06106}" publicName="Up Relief" vmax="999" lines="gaerj" serialNumber="1">
+			<part nodes="50 33 18 17 34 11 12"/>
+		</slipdistance>
+		<slipdistance uuid="{4e745794-d0f7-43b7-b50a-c39049033143}" vmax="999" lines="gaerj" serialNumber="0">
+			<part nodes="3997 1885 1669 1670"/>
+		</slipdistance>
+		<slipdistance uuid="{5d888d81-aecf-4051-bd62-eb5f442271ac}" publicName="Down Relief" vmax="999" lines="gaerj" serialNumber="1">
+			<part nodes="1608 1621 1686 1676 1669 1670"/>
+		</slipdistance>
+		<slipdistance uuid="{70a9d423-f284-49d6-8dda-43694a4927f4}" vmax="999" lines="gaerj gw900" serialNumber="0">
+			<part nodes="4001 1884 1866 1625"/>
+		</slipdistance>
+		<slipdistance uuid="{756be53d-aa8d-469a-954b-aaff943953c4}" publicName="Down Main" vmax="999" lines="gaerj" serialNumber="0">
+			<part nodes="47 30 9 10"/>
+		</slipdistance>
+		<slipdistance uuid="{79a65934-3bae-4aed-a476-0a8c8718d246}" publicName="Down Main" vmax="999" lines="gaerj gw900" serialNumber="1">
+			<part nodes="1646 4000 4033 4004 4003 1884 4001 4005"/>
+		</slipdistance>
+		<slipdistance uuid="{7dce0693-9e96-4bb7-849f-87155b1b9b2b}" vmax="999" lines="gaerj gw900" serialNumber="0">
+			<part nodes="48 1507 3892 2997"/>
+		</slipdistance>
+		<slipdistance uuid="{a5414be2-ded9-4249-884e-7086529bcb53}" publicName="Down Relief" vmax="999" lines="gaerj" serialNumber="0">
+			<part nodes="50 33 13"/>
+		</slipdistance>
+		<slipdistance uuid="{a96ea451-cf4b-45b5-bb00-68861c157505}" vmax="999" lines="gaerj gw900" serialNumber="0">
+			<part nodes="43 1578 3894 2998"/>
+		</slipdistance>
+		<slipdistance uuid="{b896570d-e311-435b-bfe2-9cf2119377df}" publicName="Gaer Branch" vmax="999" lines="gaerj" serialNumber="1">
+			<part nodes="47 30 32 16 15 1551 31 22 29 1552 23"/>
+		</slipdistance>
+	</slipDistances>
+	<approachControlRoutes/>
+	<stationRoutes>
+		<stationRoute stationID="GAERJ" name="1" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="1578 43 50 33 13 14 3 20 3998 3932 3997 1885 1669 1670 1700"/>
+		<stationRoute stationID="GAERJ" name="1B" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="1700 1670 1669 1676 1686 1621 1608 2962 1741 1788 1790 19 2 36 12 11 34 17 18 33 50 43 1578"/>
+		<stationRoute stationID="GAERJ" name="1C" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="1652 2964 1621 1608 2962 1741 1788 1790 19 2 36 12 11 34 17 18 33 50 43 1578"/>
+		<stationRoute stationID="GAERJ" name="1D" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="1578 43 50 33 18 17 34 11 12 36 3994 3992 4002 3927 1876 4005 4001 1884 1866 1625"/>
+		<stationRoute stationID="GAERJ" name="1E" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="1700 1670 1669 1885 3997 3932 3998 20 3 14 13 33 50 43 1578"/>
+		<stationRoute stationID="GAERJ" name="1F" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="1700 1670 1669 1676 1686 1621 1608 2962 1741 1788 1790 19 2 36 12 11 34 49 42 708"/>
+		<stationRoute stationID="GAERJ" name="1G" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="1700 1670 1669 1676 1686 1621 1608 2962 3996 3995 3972 3927 3991 3931 37 10 9 30 47 41 4076"/>
+		<stationRoute stationID="GAERJ" name="2A" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="708 42 49 34 11 12 36 3994 3992 4002 3927 1876 4005 4001 1884 1866 1625"/>
+		<stationRoute stationID="GAERJ" name="2B" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="1652 2964 1621 1608 2962 1741 1788 1790 19 2 36 12 11 34 49 42 708"/>
+		<stationRoute stationID="GAERJ" name="2C" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="1652 2964 1621 1608 2962 3996 3995 3972 3927 3991 3931 37 10 9 30 47 41 4076"/>
+		<stationRoute stationID="GAERJ" name="3" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="4076 41 47 30 9 10 37 3931 3991 3927 3972 3995 3996 2962 1608 1621 1686 1676 1669 1670 1700"/>
+		<stationRoute stationID="GAERJ" name="3A" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="4076 41 47 30 9 10 37 1 21 3999 3977 1876 4005 4001 1884 1866 1625"/>
+		<stationRoute stationID="GAERJ" name="3B" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="4076 41 47 30 32 16 15 1551 31 22 29 1552 23 38 8 39 44 28 45 27 1553 46 26 25 24 3232"/>
+		<stationRoute stationID="GAERJ" name="4" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="1507 48 40 31 22 29 1552 23 38 8 39 44 28 45 27 1553 46 26 25 24 3232"/>
+		<stationRoute stationID="GAERJ" name="4A" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="1646 4000 4033 4004 4003 1884 4001 4005 1876 3927 4002 3992 3994 36 12 11 34 17 18 33 50 43 1578"/>
+		<stationRoute stationID="GAERJ" name="4B" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="1646 4000 4033 4004 4003 1884 4001 4005 1876 3927 4002 3992 3994 36 12 11 34 49 42 708"/>
+		<stationRoute stationID="GAERJ" name="4C" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="1646 4000 4033 4004 4003 1884 4001 4005 1876 3977 3999 21 1 37 10 9 30 47 41 4076"/>
+		<stationRoute stationID="GAERJ" name="4D" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="1646 4000 4006 1637 1668 1701 29 22 31 40 48 1507"/>
+		<stationRoute stationID="GAERJ" name="[NWPTRTG]-[gw900/DR]-[1-12]-[ALXNJTC]-[gw900/DR] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=80;NRz=80;S=80;Rz=80;FGz=80;NGz=80;Gz=80;Lz=80;Unbekannt=80" nodes="1578 43 50 33 18 17 34 11 12 36 2 19 1790 1788 1741 2962 1608 1621 1686 1676 1669 1670 1700"/>
+		<stationRoute stationID="GAERJ" name="[NWPTRTG]-[gw900/UR]-[2-12]-[ALXNJTC]-[gw900/DR] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=90;NRz=90;S=90;Rz=90;FGz=90;NGz=90;Gz=90;Lz=90;Unbekannt=90" nodes="708 42 49 34 11 12 36 2 19 1790 1788 1741 2962 1608 1621 1686 1676 1669 1670 1700"/>
+	</stationRoutes>
+	<lineCatalog/>
+	<zugNummernFelder/>
+	<switchGears/>
+</line>

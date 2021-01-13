@@ -1,0 +1,550 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<line lineID="haton" name="Hatton" trafficRouting="on_the_left" type="global" dependentLines="md401 md415">
+	<transformations>
+		<transformation line="MD415" m11="1.38778e-17" m12="1" m21="-1" m22="1.38778e-17" dx="2.49517e+06" dy="-2.89767e+06"/>
+		<transformation line="md401" m11="1" m12="0" m21="0" m22="1" dx="889821" dy="20615"/>
+		<transformation line="md415" m11="6.12303e-17" m12="1" m21="-1" m22="6.12303e-17" dx="81904" dy="-1.11913e+06"/>
+		<transformation line="md435" m11="-0.858049" m12="0" m21="0" m22="1" dx="3.39507e+06" dy="20559"/>
+	</transformations>
+	<version major="1" minor="2" patchlevel="0" comment=""/>
+	<creator user="VWaddelo" timestamp="2016-07-08T10:58:15"/>
+	<lasteditor user="VWaddelo" timestamp="2016-07-08T10:58:15"/>
+	<stations>
+		<station stationID="HATTNNJ" name="Hatton North Jn" xNet="-795500.64" yNet="2183500.05" uicLocationCode="0" circleDiameter="0">
+			<textElement type="name">
+				<pos view="net" x="1279.27" y="1279.27" angle="0" system="source"/>
+				<pos view="wgs84" x="1279.27" y="1279.27" angle="0" system="source"/>
+				<pos view="line" x="1930.62" y="1930.62" angle="0" system="source"/>
+				<pos view="macro" x="28.2843" y="28.2843" angle="0" system="source"/>
+				<pos view="macroWgs84" x="0" y="0" angle="0" system="source"/>
+			</textElement>
+		</station>
+		<station stationID="HATTNWJ" name="Hatton West Jn" xNet="-794631.555" yNet="2178552.7" uicLocationCode="0" circleDiameter="0">
+			<textElement type="name">
+				<pos view="net" x="1396.6" y="1396.6" angle="0" system="source"/>
+				<pos view="wgs84" x="1396.6" y="1396.6" angle="0" system="source"/>
+				<pos view="line" x="2196.45" y="2196.45" angle="0" system="source"/>
+				<pos view="macro" x="28.2843" y="28.2843" angle="0" system="source"/>
+				<pos view="macroWgs84" x="0" y="0" angle="0" system="source"/>
+			</textElement>
+		</station>
+		<station stationID="HATTON" name="Hatton" xNet="-791448.17" yNet="2180156.8" uicLocationCode="0" circleDiameter="0">
+			<textElement type="name">
+				<pos view="net" x="905.122" y="905.122" angle="0" system="source"/>
+				<pos view="wgs84" x="905.122" y="905.122" angle="0" system="source"/>
+				<pos view="line" x="1463.5" y="1463.5" angle="0" system="source"/>
+				<pos view="macro" x="28.2843" y="28.2843" angle="0" system="source"/>
+				<pos view="macroWgs84" x="0" y="0" angle="0" system="source"/>
+			</textElement>
+		</station>
+	</stations>
+	<nodes>
+		<track trackID="D-2" stationID="HATTON" length="132" type="stopBoard" nodeID="1856" kilometre="180.600" x="923546" y="-211834" xNet="-791650.91" yNet="2180292.4" referenceNode="2194"/>
+		<node nodeID="1855" kilometre="180.800" x="925546" y="-211834" xNet="-792878.56" yNet="2180798.1"/>
+		<node nodeID="3" kilometre="181.600" x="933546" y="-211834" xNet="-795477.38" yNet="2184207.7"/>
+		<node nodeID="1716" kilometre="180.400" x="921546" y="-212030" xNet="-790353.03" yNet="2179884">
+			<netLimitInfo lineID="md401"/>
+		</node>
+		<node nodeID="2" kilometre="181.600" x="933546" y="-212030" xNet="-795399.9" yNet="2184352.3"/>
+		<node nodeID="2231" kilometre="180.400" x="921546" y="-211635" xNet="-790469.96" yNet="2179683.1"/>
+		<switch start="2198" endOfMainTrack="1857" endOfBranchTrack="2836" nodeID="1928" name="POINTS:" kilometre="180.464" x="922191" y="-211834" xNet="-790822.06" yNet="2179947.6"/>
+		<node nodeID="2198" name="TC" kilometre="180.468" x="922231" y="-211834" xNet="-790847.71" yNet="2179958.9"/>
+		<signal type="shunting" interlockingMachine="Shunt" nodeID="2197" name="SIG:SHUNT" kilometre="180.472" x="922270" y="-211834" xNet="-790870.79" yNet="2179971.4" referenceNode="2198"/>
+		<node nodeID="2196" name="TC" kilometre="180.422" x="921825" y="-211742" xNet="-790596.01" yNet="2179791.7" referenceNode="2837" releaseContact="true" arranged="true"/>
+		<node nodeID="2195" name="GRAD" kilometre="180.549" x="923034" y="-211636" xNet="-791401.66" yNet="2180064.6"/>
+		<node nodeID="2194" name="GRAD" kilometre="180.549" x="923036" y="-211834" xNet="-791339.3" yNet="2180164.4"/>
+		<node nodeID="2193" name="GRAD" kilometre="180.549" x="923038" y="-212030" xNet="-791279.49" yNet="2180262.6"/>
+		<node nodeID="2192" kilometre="29.024" x="925533" y="-211437" xNet="-793096.71" yNet="2180520.5"/>
+		<kilometreInconsistency newKilometre="29.21" nodeID="765" kilometre="180.614" x="923690" y="-211636" xNet="-791802.2" yNet="2180228.6" referenceNode="2534"/>
+		<node nodeID="2191" kilometre="29.000" x="925764" y="-211437" xNet="-793425.31" yNet="2180294.8"/>
+		<switch start="3231" endOfMainTrack="1927" endOfBranchTrack="3289" nodeID="2190" name="POINTS:" kilometre="29.200" x="923789" y="-211635" xNet="-791862.9" yNet="2180254.3"/>
+		<switch start="2190" endOfMainTrack="2169" endOfBranchTrack="2189" nodeID="1927" name="POINTS:648" kilometre="29.147" x="924319" y="-211637" xNet="-792186.48" yNet="2180389.6"/>
+		<switch start="1929" endOfMainTrack="1853" endOfBranchTrack="3250" nodeID="1926" name="POINTS:650" kilometre="181.386" x="931404" y="-211834" xNet="-794792.36" yNet="2183596.3"/>
+		<node nodeID="2188" kilometre="0.695" x="930886" y="-211636" xNet="-794765.93" yNet="2183286.1"/>
+		<node nodeID="2187" kilometre="0.217" x="926357" y="-211339" xNet="-793798.24" yNet="2180890.2"/>
+		<node nodeID="2186" kilometre="0.227" x="926635" y="-211636" xNet="-793793.59" yNet="2180977.3"/>
+		<speedIndicator nodeID="2185" name="SPEED" kilometre="0.117" x="926240" y="-209468" xNet="-793893.72" yNet="2180369.1" referenceNode="124"/>
+		<switch start="763" endOfMainTrack="2160" endOfBranchTrack="2177" nodeID="1925" name="POINTS:640" x="926241" y="-207421" xNet="-794243.78" yNet="2179765.9"/>
+		<node nodeID="2183" kilometre="0.400" x="927917" y="-211636" xNet="-793903.15" yNet="2181790"/>
+		<node nodeID="2182" kilometre="0.200" x="926240" y="-210906" xNet="-793805.97" yNet="2180779.2"/>
+		<node nodeID="2181" name="GRAD" kilometre="0.637" x="930303" y="-211636" xNet="-794595.2" yNet="2182992.6"/>
+		<node nodeID="2180" kilometre="0.639" x="930323" y="-211636" xNet="-794604.11" yNet="2183002.6"/>
+		<track trackID="D-3" stationID="HATTNNJ" interlockingMachine="3 Aspect Pannel (Below 75mph)" nodeID="2178" name="SIG:128" kilometre="0.517" x="929096" y="-211636" xNet="-794246.15" yNet="2182384" referenceNode="122"/>
+		<node nodeID="2177" kilometre="28.702" x="926146" y="-207651" xNet="-794146.39" yNet="2179792.7"/>
+		<node nodeID="2176" kilometre="28.985" x="926033" y="-211445" xNet="-793177.63" yNet="2180638.4"/>
+		<node nodeID="2175" kilometre="28.995" x="925854" y="-211635" xNet="-792993.07" yNet="2180674.8"/>
+		<node nodeID="2174" kilometre="28.990" x="925838" y="-211224" xNet="-793551.94" yNet="2180104.2"/>
+		<track trackID="T-3" stationID="HATTNWJ" type="timingPoint" nodeID="2173" kilometre="28.770" x="925842" y="-208404" xNet="-794063.91" yNet="2179289.6" referenceNode="2488"/>
+		<node nodeID="9" kilometre="28.670" x="925842" y="-207025" xNet="-794285.99" yNet="2178892.7"/>
+		<speedIndicator nodeID="8" name="SPEED" kilometre="28.596" x="925846" y="-205707" xNet="-794521.2" yNet="2178522.1" referenceNode="775"/>
+		<node nodeID="2170" name="TC" kilometre="29.079" x="924983" y="-211437" xNet="-792770.36" yNet="2180571.3"/>
+		<node nodeID="2167" name="TC" kilometre="180.720" x="924747" y="-211834" xNet="-792386.51" yNet="2180594.9"/>
+		<track trackID="D-1" stationID="HATTON" type="shunting" interlockingMachine="Shunt" nodeID="2166" name="SIG:SHUNT" kilometre="180.738" x="924927" y="-211834" xNet="-792498.86" yNet="2180640.8" referenceNode="3288"/>
+		<node nodeID="2164" name="TC" kilometre="29.070" x="925050" y="-211635" xNet="-792614.64" yNet="2180628.1"/>
+		<signal interlockingMachine="3 Aspect Pannel (Below 75mph)" nodeID="2163" name="SIG:119" kilometre="29.052" x="925243" y="-211635" xNet="-792732.69" yNet="2180675.2" referenceNode="2175"/>
+		<track trackID="T-2" stationID="HATTNWJ" type="timingPoint" nodeID="2162" description="Hatton West Jn" kilometre="28.785" x="926033" y="-208466" xNet="-793776.74" yNet="2180069.4" referenceNode="2161"/>
+		<node nodeID="2161" name="TC" kilometre="28.738" x="926033" y="-207992" xNet="-794040.89" yNet="2179831.3"/>
+		<node nodeID="2160" name="TC" kilometre="0.046" x="926239" y="-208002" xNet="-794116.26" yNet="2179943.6"/>
+		<node nodeID="7" kilometre="28.597" x="925842" y="-205747" xNet="-794514.89" yNet="2178526.6"/>
+		<switch start="7" endOfMainTrack="9" endOfBranchTrack="6" nodeID="5" name="POINTS:639B" kilometre="28.598" x="925842" y="-205762" xNet="-794512.06" yNet="2178531.2"/>
+		<switch start="767" endOfMainTrack="3365" endOfBranchTrack="2156" nodeID="1923" name="POINTS:639A" kilometre="28.670" x="926241" y="-207017" xNet="-794319.23" yNet="2179649.7"/>
+		<kilometreInconsistency newKilometre="-0.001" nodeID="763" kilometre="28.691" x="926241" y="-207401" xNet="-794246.62" yNet="2179761.1" referenceNode="767"/>
+		<node nodeID="6" name="TC" kilometre="28.633" x="925985" y="-206390" xNet="-794361.85" yNet="2179371.2" referenceNode="5" releaseContact="true" arranged="true"/>
+		<node nodeID="2156" kilometre="28.648" x="926241" y="-206635" xNet="-794384.77" yNet="2179542.2"/>
+		<switch start="1929" endOfMainTrack="123" endOfBranchTrack="2840" nodeID="1" name="POINTS:649B" kilometre="181.418" x="931726" y="-211834" xNet="-794885.76" yNet="2183757.4"/>
+		<node nodeID="2153" name="TC" kilometre="181.412" x="931666" y="-212030" xNet="-794744.75" yNet="2183772.8"/>
+		<switch start="2149" endOfMainTrack="2153" endOfBranchTrack="3389" nodeID="1921" name="POINTS:649A" kilometre="181.459" x="932136" y="-212030" xNet="-794880.11" yNet="2184012.2"/>
+		<speedIndicator nodeID="4" name="SPEED" kilometre="181.476" x="932305" y="-211834" xNet="-795054.89" yNet="2184049.3" referenceNode="123"/>
+		<node nodeID="2149" name="LC" kilometre="181.471" x="932255" y="-212030" xNet="-794916.42" yNet="2184074"/>
+		<speedIndicator nodeID="2148" name="SPEED" kilometre="181.501" x="932558" y="-212030" xNet="-795003.75" yNet="2184225" referenceNode="2"/>
+		<node nodeID="2310" kilometre="180.863" x="926178" y="-211834" xNet="-793235.39" yNet="2180987.9"/>
+		<node nodeID="2311" kilometre="180.864" x="926182" y="-212030" xNet="-793172.52" yNet="2181078.4"/>
+		<node nodeID="2313" kilometre="180.380" x="921350" y="-211834" xNet="-790284.57" yNet="2179755.4">
+			<netLimitInfo lineID="md401"/>
+		</node>
+		<node nodeID="2488" name="GRAD" kilometre="28.691" x="925842" y="-207386" xNet="-794238.88" yNet="2178976.8"/>
+		<node nodeID="767" name="GRAD" kilometre="28.690" x="926241" y="-207387" xNet="-794250.32" yNet="2179757.5"/>
+		<track trackID="D-3" stationID="HATTON" length="134" interlockingMachine="3 Aspect Pannel (Below 75mph)" nodeID="2534" name="SIG:116" kilometre="180.592" x="923468" y="-211635" xNet="-791667.9" yNet="2180172.8" referenceNode="2195"/>
+		<track trackID="U-1" stationID="HATTON" length="130" type="stopBoard" nodeID="2535" description="Stop board" kilometre="180.449" x="922039" y="-212030" xNet="-790667.78" yNet="2180009.4" referenceNode="2550">
+			<platform startPos="-1300" endPos="0" width="150" left="true" open="true"/>
+		</track>
+		<track trackID="U-3" stationID="HATTON" length="134" type="stopBoard" nodeID="2536" kilometre="180.477" x="922314" y="-211635" xNet="-790960.74" yNet="2179882.1" referenceNode="2546">
+			<platform startPos="-1050" endPos="0" width="80" left="true" open="false"/>
+		</track>
+		<track trackID="D-3" stationID="HATTNWJ" interlockingMachine="2 Aspect Pannel (Below 75mph)" nodeID="2539" name="SIG:118" kilometre="0.056" x="926239" y="-208208" xNet="-794086.14" yNet="2180004.5" referenceNode="2319"/>
+		<node nodeID="2837" kilometre="180.426" x="921869" y="-211762" xNet="-790618.92" yNet="2179808.6" referenceNode="2196" releaseContact="true" arranged="true"/>
+		<speedIndicator nodeID="2839" name="SPEED" kilometre="181.455" x="932093" y="-211993" xNet="-794879.41" yNet="2183985.3" referenceNode="3389"/>
+		<speedIndicator nodeID="2840" name="SPEED" kilometre="181.422" x="931764" y="-211867" xNet="-794886.1" yNet="2183781.5" referenceNode="2839"/>
+		<speedIndicator nodeID="2842" name="SPEED" kilometre="171.128" x="931310" y="-211792" xNet="-794789.47" yNet="2183574.1" referenceNode="2188"/>
+		<node nodeID="2316" name="SD:" kilometre="0.134" x="926240" y="-209762" xNet="-793876.17" yNet="2180452.3" referenceNode="2182" sightingDistance="true"/>
+		<node nodeID="2318" name="SD:" kilometre="0.439" x="928310" y="-211636" xNet="-794018.04" yNet="2181988.6" referenceNode="2183" sightingDistance="true"/>
+		<node nodeID="2317" name="SD:" kilometre="28.982" x="926033" y="-211401" xNet="-793190.39" yNet="2180630.1" referenceNode="127" sightingDistance="true"/>
+		<node nodeID="173" kilometre="28.200" x="925847" y="-201350" xNet="-795943.59" yNet="2176358.3">
+			<netLimitInfo lineID="md415"/>
+		</node>
+		<node nodeID="174" kilometre="28.400" x="925846" y="-204817" xNet="-795381.62" yNet="2177373.7"/>
+		<track trackID="U-1" stationID="HATTNWJ" interlockingMachine="3 Aspect Pannel (Below 75mph)" nodeID="289" name="SIG:117" kilometre="28.343" x="925846" y="-203917" xNet="-795541.22" yNet="2177086.3" referenceNode="125"/>
+		<track trackID="T-1" stationID="HATTNWJ" type="timingPoint" nodeID="2319" description="Hatton West Jn" kilometre="0.069" x="926239" y="-208482" xNet="-794042.4" yNet="2180082.6" referenceNode="124"/>
+		<node nodeID="774" name="OL" kilometre="28.523" x="925846" y="-205377" xNet="-794841.64" yNet="2178095"/>
+		<node nodeID="775" name="OL" kilometre="28.566" x="925846" y="-205571" xNet="-794651.69" yNet="2178345.8"/>
+		<node nodeID="2171" name="OL" kilometre="29.052" x="925253" y="-211437" xNet="-792931.43" yNet="2180545.7"/>
+		<node nodeID="2333" name="OL" kilometre="180.408" x="921626" y="-211635" xNet="-790519.48" yNet="2179702.4"/>
+		<node nodeID="2546" name="SD:" kilometre="180.517" x="922714" y="-211636" xNet="-791204.61" yNet="2179983.3" referenceNode="2547" sightingDistance="true"/>
+		<node nodeID="2547" name="SD:" kilometre="180.522" x="922764" y="-211636" xNet="-791235.95" yNet="2179995.8" referenceNode="2546" sightingDistance="true"/>
+		<kilometreInconsistency newKilometre="0.75" nodeID="3250" kilometre="181.385" x="931361" y="-211813" xNet="-794791.69" yNet="2183591.3" referenceNode="1926"/>
+		<switch start="2166" endOfMainTrack="2167" endOfBranchTrack="3292" nodeID="3288" name="POINTS:" kilometre="180.734" x="924887" y="-211834" xNet="-792472.02" yNet="2180630.8"/>
+		<speedIndicator nodeID="3289" name="SPEED" kilometre="44.849" x="923902" y="-211670" xNet="-791925.37" yNet="2180293.7" referenceNode="2190"/>
+		<node nodeID="3290" kilometre="105.300" x="924187" y="-211704" xNet="-792170.19" yNet="2180444.8" referenceNode="3289" releaseContact="true" arranged="true"/>
+		<node nodeID="3291" kilometre="112.905" x="924242" y="-211721" xNet="-792200.84" yNet="2180462.9" referenceNode="3292" releaseContact="true" arranged="true"/>
+		<node nodeID="3365" kilometre="28.639" x="926008" y="-206445" xNet="-794354.76" yNet="2179417.6" referenceNode="1923" releaseContact="true" arranged="true"/>
+		<node nodeID="3389" kilometre="181.458" x="932120" y="-212016" xNet="-794880.03" yNet="2184000.9"/>
+		<switch start="11" endOfMainTrack="2196" endOfBranchTrack="2231" nodeID="63" name="POINTS:" kilometre="180.393" x="921357" y="-211636" xNet="-790403.74" yNet="2179662.4"/>
+		<node nodeID="1850" kilometre="181.800" x="934925" y="-211832" xNet="-797472.18" yNet="2184696.8">
+			<netLimitInfo lineID="md401"/>
+		</node>
+		<node nodeID="1709" kilometre="181.800" x="934919" y="-212032" xNet="-797393.27" yNet="2184927.3">
+			<netLimitInfo lineID="md401"/>
+		</node>
+		<node nodeID="2147" name="LC" kilometre="181.676" x="933743" y="-212032" xNet="-795726.28" yNet="2184436.3"/>
+		<track trackID="U-2" stationID="HATTNNJ" interlockingMachine="3 Aspect Pannel (76mph - 100mph)" nodeID="2146" name="SIG:129" kilometre="181.709" x="934044" y="-212031" xNet="-796008.9" yNet="2184515.1" referenceNode="121"/>
+		<track trackID="T-1" stationID="HATTNNJ" type="timingPoint" nodeID="1929" description="Hatton North Jn" kilometre="181.393" x="931477.44" y="-211834" xNet="-794813.66" yNet="2183633.1" referenceNode="1"/>
+		<track trackID="T-2" stationID="HATTNNJ" type="timingPoint" nodeID="2335" description="Hatton North Jn" kilometre="181.393" x="931474.13" y="-212030" xNet="-794690.4" yNet="2183678.5" referenceNode="2153"/>
+		<track trackID="U-4" stationID="HATTON" interlockingMachine="3 Aspect Pannel (Below 75mph)" nodeID="2199" name="SIG:115" kilometre="180.447" x="922019" y="-211635" xNet="-790778.97" yNet="2179806.8" referenceNode="2536"/>
+		<stationBorder exitType="alternative" stationID="HATTNNJ" lineID="md415" trackNumber="1" nodeID="1853" name="[HATTON] - [md415/1]" kilometre="181.200" x="929546" y="-211834" xNet="-794252.61" yNet="2182657.3" referenceNode="1926"/>
+		<stationBorder exitType="regular" stationID="HATTNNJ" lineID="md415" trackNumber="2" nodeID="118" name="[HATTON] - [md415/2]" kilometre="181.234" x="929886.49" y="-212030" xNet="-794234.79" yNet="2182898.5" referenceNode="2335"/>
+		<stationBorder exitType="alternative" stationID="HATTNNJ" lineID="md401" trackNumber="ULL" nodeID="121" name="[LAPWRTH] - [md401/2]" kilometre="181.736" x="934306.5" y="-212031.3" xNet="-796823.02" yNet="2184734.7" referenceNode="2146"/>
+		<stationBorder exitType="alternative" stationID="HATTNNJ" lineID="md415" trackNumber="1" nodeID="122" name="[HATTNWJ] - [md415/1]" kilometre="0.494" x="928860.2" y="-211636" xNet="-794178.26" yNet="2182265.4" referenceNode="2178"/>
+		<stationBorder exitType="regular" stationID="HATTNNJ" lineID="md401" trackNumber="UPL" nodeID="123" name="[LAPWRTH] - [md401/1]" kilometre="181.435" x="931899.7" y="-211834" xNet="-794936.49" yNet="2183845" referenceNode="1"/>
+		<stationBorder exitType="locked" stationID="HATTNWJ" trackNumber="" nodeID="2155" name="Buffer stop 379" kilometre="28.513" x="926241" y="-204600" xNet="-794753.04" yNet="2178956.4" referenceNode="2156"/>
+		<stationBorder exitType="regular" stationID="HATTNWJ" lineID="md415" trackNumber="1" nodeID="124" name="[HATTNNJ] - [md415/1]" kilometre="0.083" x="926239.3" y="-208777.8" xNet="-793998.23" yNet="2180168.4" referenceNode="2319"/>
+		<stationBorder exitType="regular" stationID="HATTNWJ" lineID="md415" trackNumber="1" nodeID="125" name="[CLAVRDN] - [md415/1]" kilometre="28.300" x="925846.3" y="-203146.9" xNet="-795662.14" yNet="2176867.8" referenceNode="289"/>
+		<stationBorder exitType="regular" stationID="HATTNWJ" lineID="md415" trackNumber="1" nodeID="127" name="[HATTON] - [md415/1]" kilometre="28.844" x="926033" y="-209346.5" xNet="-793600.97" yNet="2180237.6" referenceNode="2162"/>
+		<stationBorder exitType="alternative" stationID="HATTNWJ" lineID="md415" trackNumber="2" nodeID="128" name="[HATTON] - [md415/2]" kilometre="28.836" x="925840.8" y="-209250" xNet="-793910.45" yNet="2179533.9" referenceNode="2173"/>
+		<stationBorder exitType="alternative" stationID="HATTON" lineID="md415" trackNumber="1" nodeID="2189" name="[HATTNWJ] - [md415/1]" kilometre="29.115" x="924750" y="-211635" xNet="-792319.91" yNet="2180507.6" referenceNode="1927"/>
+		<stationBorder exitType="alternative" stationID="HATTON" lineID="md401" trackNumber="UPL" nodeID="1857" name="[HATTDGL] - [md401/3]" kilometre="180.400" x="921546" y="-211834" xNet="-790413.08" yNet="2179782.6" referenceNode="1928"/>
+		<stationBorder exitType="regular" stationID="HATTON" lineID="md415" trackNumber="2" nodeID="2169" name="[HATTNWJ] - [md415/2]" kilometre="29.085" x="924923" y="-211437" xNet="-792566.57" yNet="2180544.8" referenceNode="1927"/>
+		<stationBorder exitType="alternative" stationID="HATTON" lineID="md401" trackNumber="DGL" nodeID="11" name="[HATTDGL] - [md401/2]" kilometre="180.380" x="921016" y="-211631" xNet="-790283.56" yNet="2179625.6" referenceNode="63">
+			<netLimitInfo lineID="md401"/>
+		</stationBorder>
+		<stationBorder exitType="regular" stationID="HATTON" lineID="md401" trackNumber="ULL" nodeID="18" name="[HATTDGL] - [md401/1]" kilometre="180.434" x="921891.1" y="-212030" xNet="-790573.71" yNet="2179971.7" referenceNode="2535"/>
+		<stationBorder exitType="alternative" stationID="HATTON" lineID="md415" trackNumber="2" nodeID="19" name="[HATTNNJ] - [md415/2]" kilometre="180.479" x="922338.7" y="-212030" xNet="-790851.67" yNet="2180085.4" referenceNode="2550"/>
+		<stationBorder exitType="regular" stationID="HATTON" lineID="md415" trackNumber="1" nodeID="129" name="[HATTNNJ] - [md415/1]" kilometre="180.757" x="925112.7" y="-211834" xNet="-792612.78" yNet="2180688" referenceNode="2166"/>
+		<speedIndicator nodeID="3231" name="SPEED" kilometre="180.614" x="923695" y="-211636" xNet="-791805.3" yNet="2180230.1" referenceNode="2190"/>
+		<track trackID="T-1" stationID="HATTON" type="timingPoint" nodeID="2550" kilometre="180.471" x="922254.33" y="-212030" xNet="-790799.9" yNet="2180064" referenceNode="2535"/>
+		<track trackID="T-2" stationID="HATTON" type="timingPoint" nodeID="2203" kilometre="180.540" x="922942.48" y="-211834" xNet="-791282.1" yNet="2180140.9" referenceNode="2197"/>
+		<track trackID="T-3" stationID="HATTON" type="timingPoint" nodeID="2553" kilometre="180.534" x="922882.25" y="-211636" xNet="-791308.53" yNet="2180025.9" referenceNode="2547"/>
+		<speedIndicator nodeID="2836" name="SPEED" kilometre="180.458" x="922127" y="-211808" xNet="-790786.62" yNet="2179924.3" referenceNode="1928"/>
+		<speedIndicator nodeID="3292" name="SPEED" kilometre="171.964" x="924823" y="-211813" xNet="-792437.42" yNet="2180609" referenceNode="3291"/>
+	</nodes>
+	<links>
+		<link source="1" target="123" length="17" gradient="4.762" vmax="113" vmaxr="113">
+			<vzg index="2" vmax="137" vmaxr="137"/>
+			<vzg index="4" vmax="137" vmaxr="137"/>
+		</link>
+		<link source="1" target="2840" length="4" gradient="4.762" vmax="113" vmaxr="113">
+			<vzg index="2" vmax="137" vmaxr="137"/>
+			<vzg index="4" vmax="137" vmaxr="137"/>
+		</link>
+		<link source="2" target="2147" length="76" gradient="4.762" vmax="121" vmaxr="121">
+			<vzg index="2" vmax="161" vmaxr="161"/>
+			<vzg index="4" vmax="161" vmaxr="161"/>
+		</link>
+		<link source="3" target="1850" length="200" gradient="4.762" vmax="121" vmaxr="121">
+			<vzg index="2" vmax="161" vmaxr="161"/>
+			<vzg index="4" vmax="161" vmaxr="161"/>
+		</link>
+		<link source="4" target="3" length="124" gradient="4.762" vmax="121" vmaxr="121">
+			<vzg index="2" vmax="161" vmaxr="161"/>
+			<vzg index="4" vmax="161" vmaxr="161"/>
+		</link>
+		<link source="5" target="6" length="35" gradient="-6.25" vmax="24" vmaxr="24"/>
+		<link source="5" target="9" length="72" gradient="-6.25" vmax="24" vmaxr="24"/>
+		<link source="6" target="3365" length="6" gradient="-6.25" vmax="24" vmaxr="24"/>
+		<link source="7" target="5" length="1" gradient="-6.25" vmax="24" vmaxr="24" bidirectional="true"/>
+		<link source="8" target="7" length="1" gradient="-6.25" vmax="24" vmaxr="24" bidirectional="true"/>
+		<link source="9" target="2488" length="21" gradient="-6.25" vmax="24" vmaxr="24"/>
+		<link source="11" target="63" length="12" vmax="16" vmaxr="16"/>
+		<link source="18" target="2535" length="15" vmax="113" vmaxr="113">
+			<vzg index="2" vmax="137" vmaxr="137"/>
+			<vzg index="4" vmax="137" vmaxr="137"/>
+		</link>
+		<link source="19" target="2193" length="70" vmax="113" vmaxr="113">
+			<vzg index="2" vmax="137" vmaxr="137"/>
+			<vzg index="4" vmax="137" vmaxr="137"/>
+		</link>
+		<link source="63" target="2231" length="8" vmax="16" vmaxr="16"/>
+		<link source="118" target="2335" length="159" gradient="4.762" vmax="113" vmaxr="113">
+			<vzg index="2" vmax="137" vmaxr="137"/>
+			<vzg index="4" vmax="137" vmaxr="137"/>
+		</link>
+		<link source="121" target="1709" length="64" gradient="4.762" vmax="121" vmaxr="121">
+			<vzg index="2" vmax="161" vmaxr="161"/>
+			<vzg index="4" vmax="161" vmaxr="161"/>
+		</link>
+		<link source="122" target="2178" length="23" gradient="7.692" vmax="40" vmaxr="40" bidirectional="true"/>
+		<link source="123" target="4" length="41" gradient="4.762" vmax="113" vmaxr="113">
+			<vzg index="2" vmax="137" vmaxr="137"/>
+			<vzg index="4" vmax="137" vmaxr="137"/>
+		</link>
+		<link source="124" target="2185" length="34" gradient="7.692" vmax="24" vmaxr="24" bidirectional="true"/>
+		<link source="125" target="289" length="43" gradient="6.25" vmax="97" vmaxr="97" bidirectional="true"/>
+		<link source="127" target="2317" length="138" gradient="7.692" vmax="24" vmaxr="24"/>
+		<link source="128" target="2174" length="154" gradient="7.692" vmax="24" vmaxr="24"/>
+		<link source="129" target="1855" length="43" gradient="4.762" vmax="113" vmaxr="113">
+			<vzg index="2" vmax="137" vmaxr="137"/>
+			<vzg index="4" vmax="137" vmaxr="137"/>
+		</link>
+		<link source="173" target="125" length="100" gradient="6.25" vmax="97" vmaxr="97" bidirectional="true"/>
+		<link source="174" target="774" length="123" gradient="6.25" vmax="97" vmaxr="97" bidirectional="true"/>
+		<link source="289" target="174" length="57" gradient="6.25" vmax="97" vmaxr="97" bidirectional="true"/>
+		<link source="763" target="1925" length="1" gradient="-7.692" vmax="24" vmaxr="24"/>
+		<link source="765" target="3231" gradient="4.762" vmax="16" vmaxr="16"/>
+		<link source="767" target="763" length="1" gradient="-7.692" vmax="24" vmaxr="24"/>
+		<link source="774" target="775" length="43" gradient="6.25" vmax="97" vmaxr="97" bidirectional="true"/>
+		<link source="775" target="8" length="30" gradient="6.25" vmax="97" vmaxr="97" bidirectional="true"/>
+		<link source="1716" target="18" length="34" vmax="113" vmaxr="113">
+			<vzg index="2" vmax="137" vmaxr="137"/>
+			<vzg index="4" vmax="137" vmaxr="137"/>
+		</link>
+		<link source="1853" target="1926" length="186" gradient="4.762" vmax="113" vmaxr="113">
+			<vzg index="2" vmax="137" vmaxr="137"/>
+			<vzg index="4" vmax="137" vmaxr="137"/>
+		</link>
+		<link source="1855" target="2310" length="63" gradient="4.762" vmax="113" vmaxr="113">
+			<vzg index="2" vmax="137" vmaxr="137"/>
+			<vzg index="4" vmax="137" vmaxr="137"/>
+		</link>
+		<link source="1856" target="2167" length="120" gradient="4.762" vmax="113" vmaxr="113">
+			<vzg index="2" vmax="137" vmaxr="137"/>
+			<vzg index="4" vmax="137" vmaxr="137"/>
+		</link>
+		<link source="1857" target="1928" length="64" vmax="113" vmaxr="113">
+			<vzg index="2" vmax="137" vmaxr="137"/>
+			<vzg index="4" vmax="137" vmaxr="137"/>
+		</link>
+		<link source="1921" target="2149" length="12" gradient="4.762" vmax="113" vmaxr="113">
+			<vzg index="2" vmax="137" vmaxr="137"/>
+			<vzg index="4" vmax="137" vmaxr="137"/>
+		</link>
+		<link source="1923" target="767" length="20" gradient="7.692" vmax="24" vmaxr="24"/>
+		<link source="1925" target="2160" length="46" gradient="7.692" vmax="24" vmaxr="24" bidirectional="true"/>
+		<link source="1925" target="2177" length="10" gradient="-7.692" vmax="24" vmaxr="24"/>
+		<link source="1926" target="1929" length="7" gradient="4.762" vmax="113" vmaxr="113">
+			<vzg index="2" vmax="137" vmaxr="137"/>
+			<vzg index="4" vmax="137" vmaxr="137"/>
+		</link>
+		<link source="1927" target="2169" length="62" gradient="7.692" vmax="24" vmaxr="24"/>
+		<link source="1927" target="2189" length="32" gradient="7.692" vmax="24" vmaxr="24"/>
+		<link source="1928" target="2198" length="4" vmax="113" vmaxr="113">
+			<vzg index="2" vmax="137" vmaxr="137"/>
+			<vzg index="4" vmax="137" vmaxr="137"/>
+		</link>
+		<link source="1929" target="1" length="25" gradient="4.762" vmax="113" vmaxr="113">
+			<vzg index="2" vmax="137" vmaxr="137"/>
+			<vzg index="4" vmax="137" vmaxr="137"/>
+		</link>
+		<link source="2146" target="121" length="27" gradient="4.762" vmax="121" vmaxr="121">
+			<vzg index="2" vmax="161" vmaxr="161"/>
+			<vzg index="4" vmax="161" vmaxr="161"/>
+		</link>
+		<link source="2147" target="2146" length="33" gradient="4.762" vmax="121" vmaxr="121">
+			<vzg index="2" vmax="161" vmaxr="161"/>
+			<vzg index="4" vmax="161" vmaxr="161"/>
+		</link>
+		<link source="2148" target="2" length="99" gradient="4.762" vmax="121" vmaxr="121">
+			<vzg index="2" vmax="161" vmaxr="161"/>
+			<vzg index="4" vmax="161" vmaxr="161"/>
+		</link>
+		<link source="2149" target="2148" length="30" gradient="4.762" vmax="113" vmaxr="113">
+			<vzg index="2" vmax="137" vmaxr="137"/>
+			<vzg index="4" vmax="137" vmaxr="137"/>
+		</link>
+		<link source="2153" target="1921" length="47" gradient="4.762" vmax="113" vmaxr="113">
+			<vzg index="2" vmax="137" vmaxr="137"/>
+			<vzg index="4" vmax="137" vmaxr="137"/>
+		</link>
+		<link source="2155" target="2156" length="135" gradient="-6.25" vmax="24" vmaxr="24"/>
+		<link source="2156" target="1923" length="22" gradient="-6.25" vmax="24" vmaxr="24"/>
+		<link source="2160" target="2539" length="10" gradient="7.692" vmax="24" vmaxr="24" bidirectional="true"/>
+		<link source="2161" target="2162" length="47" gradient="7.692" vmax="24" vmaxr="24"/>
+		<link source="2162" target="127" length="59" gradient="7.692" vmax="24" vmaxr="24"/>
+		<link source="2163" target="2175" length="57" gradient="7.692" vmax="24" vmaxr="24"/>
+		<link source="2164" target="2163" length="18" gradient="7.692" vmax="24" vmaxr="24"/>
+		<link source="2166" target="129" length="19" gradient="4.762" vmax="113" vmaxr="113">
+			<vzg index="2" vmax="137" vmaxr="137"/>
+			<vzg index="4" vmax="137" vmaxr="137"/>
+		</link>
+		<link source="2167" target="3288" length="14" gradient="4.762" vmax="113" vmaxr="113">
+			<vzg index="2" vmax="137" vmaxr="137"/>
+			<vzg index="4" vmax="137" vmaxr="137"/>
+		</link>
+		<link source="2169" target="2170" length="6" gradient="7.692" vmax="24" vmaxr="24"/>
+		<link source="2170" target="2171" length="27" gradient="7.692" vmax="24" vmaxr="24"/>
+		<link source="2171" target="2192" length="28" gradient="7.692" vmax="24" vmaxr="24"/>
+		<link source="2173" target="128" length="66" gradient="7.692" vmax="24" vmaxr="24"/>
+		<link source="2174" target="2191" length="10" gradient="7.692" vmax="24" vmaxr="24"/>
+		<link source="2176" target="2175" length="10" gradient="7.692" vmax="24" vmaxr="24"/>
+		<link source="2177" target="2161" length="36" gradient="7.692" vmax="24" vmaxr="24"/>
+		<link source="2178" target="2181" length="120" gradient="7.692" vmax="40" vmaxr="40" bidirectional="true"/>
+		<link source="2180" target="2188" length="56" gradient="4.762" vmax="40" vmaxr="40" bidirectional="true"/>
+		<link source="2181" target="2180" length="2" gradient="4.762" vmax="40" vmaxr="40" bidirectional="true"/>
+		<link source="2182" target="2187" length="17" gradient="7.692" vmax="40" vmaxr="40" bidirectional="true"/>
+		<link source="2183" target="2318" length="39" gradient="7.692" vmax="40" vmaxr="40" bidirectional="true"/>
+		<link source="2185" target="2316" length="17" gradient="7.692" vmax="40" vmaxr="40" bidirectional="true"/>
+		<link source="2186" target="2183" length="173" gradient="7.692" vmax="40" vmaxr="40" bidirectional="true"/>
+		<link source="2187" target="2186" length="10" gradient="7.692" vmax="40" vmaxr="40" bidirectional="true"/>
+		<link source="2188" target="2842" length="52" gradient="4.762" vmax="40" vmaxr="40" bidirectional="true"/>
+		<link source="2189" target="2164" length="45" gradient="7.692" vmax="24" vmaxr="24"/>
+		<link source="2190" target="1927" length="53" gradient="4.762" vmax="24" vmaxr="24"/>
+		<link source="2190" target="3289" length="13" vmax="24" vmaxr="24"/>
+		<link source="2192" target="2191" length="24" gradient="7.692" vmax="24" vmaxr="24"/>
+		<link source="2193" target="2311" length="315" gradient="4.762" vmax="113" vmaxr="113">
+			<vzg index="2" vmax="137" vmaxr="137"/>
+			<vzg index="4" vmax="137" vmaxr="137"/>
+		</link>
+		<link source="2194" target="1856" length="51" gradient="4.762" vmax="113" vmaxr="113">
+			<vzg index="2" vmax="137" vmaxr="137"/>
+			<vzg index="4" vmax="137" vmaxr="137"/>
+		</link>
+		<link source="2195" target="2534" length="43" gradient="4.762" vmax="16" vmaxr="16"/>
+		<link source="2196" target="63" length="29" vmax="16" vmaxr="16"/>
+		<link source="2196" target="2837" length="4" vmax="16" vmaxr="16"/>
+		<link source="2197" target="2203" length="68" vmax="113" vmaxr="113">
+			<vzg index="2" vmax="137" vmaxr="137"/>
+			<vzg index="4" vmax="137" vmaxr="137"/>
+		</link>
+		<link source="2198" target="2197" length="4" vmax="113" vmaxr="113">
+			<vzg index="2" vmax="137" vmaxr="137"/>
+			<vzg index="4" vmax="137" vmaxr="137"/>
+		</link>
+		<link source="2199" target="2536" length="30" vmax="16" vmaxr="16"/>
+		<link source="2203" target="2194" length="9" vmax="113" vmaxr="113">
+			<vzg index="2" vmax="137" vmaxr="137"/>
+			<vzg index="4" vmax="137" vmaxr="137"/>
+		</link>
+		<link source="2231" target="2333" length="8" vmax="16" vmaxr="16"/>
+		<link source="2310" target="1853" length="337" gradient="4.762" vmax="113" vmaxr="113">
+			<vzg index="2" vmax="137" vmaxr="137"/>
+			<vzg index="4" vmax="137" vmaxr="137"/>
+		</link>
+		<link source="2311" target="118" length="370" gradient="4.762" vmax="113" vmaxr="113">
+			<vzg index="2" vmax="137" vmaxr="137"/>
+			<vzg index="4" vmax="137" vmaxr="137"/>
+		</link>
+		<link source="2313" target="1857" length="20" vmax="113" vmaxr="113">
+			<vzg index="2" vmax="137" vmaxr="137"/>
+			<vzg index="4" vmax="137" vmaxr="137"/>
+		</link>
+		<link source="2316" target="2182" length="66" gradient="7.692" vmax="40" vmaxr="40" bidirectional="true"/>
+		<link source="2317" target="2176" length="3" gradient="7.692" vmax="24" vmaxr="24"/>
+		<link source="2318" target="122" length="55" gradient="7.692" vmax="40" vmaxr="40" bidirectional="true"/>
+		<link source="2319" target="124" length="14" gradient="7.692" vmax="24" vmaxr="24" bidirectional="true"/>
+		<link source="2333" target="2199" length="39" vmax="16" vmaxr="16"/>
+		<link source="2335" target="2153" length="19" gradient="4.762" vmax="113" vmaxr="113">
+			<vzg index="2" vmax="137" vmaxr="137"/>
+			<vzg index="4" vmax="137" vmaxr="137"/>
+		</link>
+		<link source="2488" target="2173" length="79" gradient="7.692" vmax="24" vmaxr="24"/>
+		<link source="2534" target="765" length="22" gradient="4.762" vmax="16" vmaxr="16"/>
+		<link source="2535" target="2550" length="22" vmax="113" vmaxr="113">
+			<vzg index="2" vmax="137" vmaxr="137"/>
+			<vzg index="4" vmax="137" vmaxr="137"/>
+		</link>
+		<link source="2536" target="2546" length="40" vmax="16" vmaxr="16"/>
+		<link source="2539" target="2319" length="13" gradient="7.692" vmax="24" vmaxr="24" bidirectional="true"/>
+		<link source="2546" target="2547" length="5" vmax="16" vmaxr="16"/>
+		<link source="2547" target="2553" length="12" vmax="16" vmaxr="16"/>
+		<link source="2550" target="19" length="8" vmax="113" vmaxr="113">
+			<vzg index="2" vmax="137" vmaxr="137"/>
+			<vzg index="4" vmax="137" vmaxr="137"/>
+		</link>
+		<link source="2553" target="2195" length="15" vmax="16" vmaxr="16"/>
+		<link source="2836" target="1928" length="6" vmax="113" vmaxr="113">
+			<vzg index="2" vmax="137" vmaxr="137"/>
+			<vzg index="4" vmax="137" vmaxr="137"/>
+		</link>
+		<link source="2837" target="2836" length="32" vmax="16" vmaxr="16"/>
+		<link source="2839" target="3389" length="3" gradient="4.762" vmax="113" vmaxr="113">
+			<vzg index="2" vmax="137" vmaxr="137"/>
+			<vzg index="4" vmax="137" vmaxr="137"/>
+		</link>
+		<link source="2840" target="2839" length="33" gradient="4.762" vmax="40" vmaxr="40"/>
+		<link source="2842" target="3250" length="3" vmax="113" vmaxr="113" bidirectional="true">
+			<vzg index="2" vmax="137" vmaxr="137"/>
+			<vzg index="4" vmax="137" vmaxr="137"/>
+		</link>
+		<link source="3231" target="2190" length="10" gradient="4.762" vmax="24" vmaxr="24"/>
+		<link source="3250" target="1926" length="1" vmax="113" vmaxr="113" bidirectional="true">
+			<vzg index="2" vmax="137" vmaxr="137"/>
+			<vzg index="4" vmax="137" vmaxr="137"/>
+		</link>
+		<link source="3288" target="2166" length="4" gradient="4.762" vmax="113" vmaxr="113">
+			<vzg index="2" vmax="137" vmaxr="137"/>
+			<vzg index="4" vmax="137" vmaxr="137"/>
+		</link>
+		<link source="3289" target="3290" length="52" vmax="16"/>
+		<link source="3290" target="3291" length="7" vmax="16"/>
+		<link source="3291" target="3292" length="51" vmax="16"/>
+		<link source="3292" target="3288" length="7" vmax="113" vmaxr="113">
+			<vzg index="2" vmax="137" vmaxr="137"/>
+			<vzg index="4" vmax="137" vmaxr="137"/>
+		</link>
+		<link source="3365" target="1923" length="31" gradient="-6.25" vmax="24" vmaxr="24"/>
+		<link source="3389" target="1921" length="1" gradient="4.762" vmax="113" vmaxr="113">
+			<vzg index="2" vmax="137" vmaxr="137"/>
+			<vzg index="4" vmax="137" vmaxr="137"/>
+		</link>
+	</links>
+	<dependentLinks/>
+	<blockSections>
+		<blocksection uuid="{05e7b8e4-24e8-4c82-9fd0-0bb4b892cbe6}" lines="haton md401">
+			<part nodes="2199 2333 2231 63 11"/>
+		</blocksection>
+		<blocksection uuid="{125e1ecc-4928-456f-b3f8-6127707a4b5b}" lines="haton md401">
+			<part nodes="2534 2195 2553 2547 2546 2536 2199 2333 2231 63 11"/>
+		</blocksection>
+		<blocksection uuid="{1c871a9f-aefa-4557-8000-2cd3e14305b9}" lines="haton md415">
+			<part nodes="173 125 289"/>
+		</blocksection>
+		<blocksection uuid="{3a0d0ce1-fe16-431f-b6d7-59a0b850f6ce}" lines="haton md401">
+			<part nodes="11 63 2231 2333 2199 2536 2546 2547 2553 2195 2534"/>
+		</blocksection>
+		<blocksection uuid="{4408a111-ea6f-4ee6-9e9a-815b218e2b9b}" lines="haton md415" speedIndicators="8">
+			<part nodes="2539 2160 1925 763 767 1923 3365 6 5 7 8 775 774 174 289 125 173"/>
+		</blocksection>
+		<blocksection uuid="{51bff6c5-cc90-4d0d-8edc-f67da6f777ac}" lines="haton md401">
+			<part nodes="1709 121 2146"/>
+		</blocksection>
+		<blocksection uuid="{5ae6fc5c-c46e-42da-b28d-a627ad8f9524}" lines="haton md401" speedIndicators="2148">
+			<part nodes="2146 2147 2 2148 2149 1921 2153 2335 118 2311 2193 19 2550 2535 18 1716"/>
+		</blocksection>
+		<blocksection uuid="{60921e01-4ee9-44bc-9e87-2150a4c3e7e9}" lines="haton" speedIndicators="2148 2185 2839 2840 2842">
+			<part nodes="2146 2147 2 2148 2149 1921 3389 2839 2840 1 1929 1926 3250 2842 2188 2180 2181 2178 122 2318 2183 2186 2187 2182 2316 2185 124 2319 2539"/>
+		</blocksection>
+		<blocksection uuid="{89c637bc-c75c-4f09-94f9-2c7d5ee51d1e}" lines="haton md401" speedIndicators="4 2836">
+			<part nodes="11 63 2196 2837 2836 1928 2198 2197 2203 2194 1856 2167 3288 2166 129 1855 2310 1853 1926 1929 1 123 4 3 1850"/>
+		</blocksection>
+		<blocksection uuid="{92f9b832-3f89-4aaf-953f-1af3b63f4edd}" lines="haton" speedIndicators="8">
+			<part nodes="289 174 774 775 8 7 5 6 3365 1923 767 763 1925 2177 2161 2162 127 2317 2176 2175 2163"/>
+		</blocksection>
+		<blocksection uuid="{98da6cab-a112-43e1-a7f4-f4e78bbc6851}" lines="haton md401" speedIndicators="4 2842">
+			<part nodes="2178 2181 2180 2188 2842 3250 1926 1929 1 123 4 3 1850"/>
+		</blocksection>
+		<blocksection uuid="{af63d0c4-fd0b-4dd3-bcb7-392cdead4903}" lines="haton md401">
+			<part nodes="11 63 2231 2333 2199 2536 2546 2547 2553 2195 2534"/>
+		</blocksection>
+		<blocksection uuid="{b7794b77-084f-4939-a268-2b3bfea3d453}" lines="haton" speedIndicators="8 2185">
+			<part nodes="289 174 774 775 8 7 5 6 3365 1923 767 763 1925 2160 2539 2319 124 2185 2316 2182 2187 2186 2183 2318 122 2178"/>
+		</blocksection>
+		<blocksection uuid="{bb0549ca-9479-4a12-aceb-bf5f0e36f036}" lines="haton md401" speedIndicators="4 3231 3289 3292">
+			<part nodes="2534 765 3231 2190 3289 3290 3291 3292 3288 2166 129 1855 2310 1853 1926 1929 1 123 4 3 1850"/>
+		</blocksection>
+		<blocksection uuid="{bbf849c3-6e2a-46d0-95cf-2b8e481a74d9}" lines="haton" speedIndicators="3231">
+			<part nodes="2163 2164 2189 1927 2190 3231 765 2534 2195 2553 2547 2546 2536 2199"/>
+		</blocksection>
+		<blocksection uuid="{caa95f98-1537-4655-bfcb-f2eae6c378db}" lines="haton md401" speedIndicators="4">
+			<part nodes="2313 1857 1928 2198 2197 2203 2194 1856 2167 3288 2166 129 1855 2310 1853 1926 1929 1 123 4 3 1850"/>
+		</blocksection>
+		<blocksection uuid="{fc7b844d-e9d5-4de8-99d2-acd12f60bb70}" lines="haton md415" speedIndicators="8 3231">
+			<part nodes="2534 765 3231 2190 1927 2189 2164 2163 2175 2176 2317 127 2162 2161 2177 1925 763 767 1923 3365 6 5 7 8 775 774 174 289 125 173"/>
+		</blocksection>
+		<blocksection uuid="{fd00ef1c-be11-4a31-983f-f60f762b5425}" lines="haton md415" speedIndicators="8 3231">
+			<part nodes="2534 765 3231 2190 1927 2169 2170 2171 2192 2191 2174 128 2173 2488 9 5 7 8 775 774 174 289 125 173"/>
+		</blocksection>
+	</blockSections>
+	<slipDistances>
+		<slipdistance uuid="{48b48914-26c1-4841-989e-d9e3173bb8f9}" vmax="999" lines="haton" serialNumber="0">
+			<part nodes="289 174 774"/>
+		</slipdistance>
+		<slipdistance uuid="{5c8ea799-2979-440a-afcd-3e3621a3ebf9}" vmax="999" lines="haton" serialNumber="1">
+			<part nodes="2146 2147 2 2148 2149 1921 2153"/>
+		</slipdistance>
+		<slipdistance uuid="{89e73a56-3827-47ed-9870-b56e7ecbe629}" vmax="999" lines="haton" serialNumber="0">
+			<part nodes="2199 2333"/>
+		</slipdistance>
+		<slipdistance uuid="{b5869c96-6f5c-4a05-989c-a3a7d34fa95d}" vmax="999" lines="haton" serialNumber="0">
+			<part nodes="2534 765 3231 2190 1927 2169 2170 2171"/>
+		</slipdistance>
+		<slipdistance uuid="{b7147b43-55fb-4231-b968-5b4f9ace22dd}" vmax="999" lines="haton md401" serialNumber="0">
+			<part nodes="11 63 2231 2333"/>
+		</slipdistance>
+		<slipdistance uuid="{bfd86b32-1b07-4d9b-8405-7eb88717d00d}" vmax="999" lines="haton" serialNumber="0">
+			<part nodes="2163 2164"/>
+		</slipdistance>
+		<slipdistance uuid="{d663de75-ec6e-4f19-a254-6bb630ce22de}" vmax="999" lines="haton" serialNumber="0">
+			<part nodes="2539 2160 1925 763 767 1923 3365 6 5 7 8 775"/>
+		</slipdistance>
+		<slipdistance uuid="{ebd9a046-f214-407d-8007-a6f759043b97}" vmax="999" lines="haton" serialNumber="0">
+			<part nodes="2146 2147 2 2148 2149 1921 3389"/>
+		</slipdistance>
+		<slipdistance uuid="{f7f784d5-e210-45cf-8a65-77c7425315ab}" vmax="999" lines="haton" serialNumber="0">
+			<part nodes="2178 2181 2180 2188"/>
+		</slipdistance>
+	</slipDistances>
+	<approachControlRoutes/>
+	<stationRoutes>
+		<stationRoute stationID="HATTNNJ" name="[HATTNWJ]-[md415/1]-[1-3]-[LAPWRTH]-[md401/1] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=95;NRz=95;S=95;Rz=95;FGz=95;NGz=95;Gz=95;Lz=95;Unbekannt=95" nodes="122 2178 2181 2180 2188 2842 3250 1926 1929 1 123"/>
+		<stationRoute stationID="HATTNNJ" name="[HATTON]-[md415/1]-[1]-[LAPWRTH]-[md401/1] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="1853 1926 1929 1 123"/>
+		<stationRoute stationID="HATTNNJ" name="[LAPWRTH]-[md401/2]-[1-2]-[HATTNWJ]-[md415/1] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=85;NRz=85;S=85;Rz=85;FGz=85;NGz=85;Gz=85;Lz=85;Unbekannt=85" nodes="121 2146 2147 2 2148 2149 1921 3389 2839 2840 1 1929 1926 3250 2842 2188 2180 2181 2178 122"/>
+		<stationRoute stationID="HATTNNJ" name="[LAPWRTH]-[md401/2]-[2]-[HATTON]-[md415/2] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="121 2146 2147 2 2148 2149 1921 2153 2335 118"/>
+		<stationRoute stationID="HATTNWJ" name="[CLAVRDN]-[md415/1]-[1-2]-[HATTON]-[md415/1] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=90;NRz=90;S=90;Rz=90;FGz=90;NGz=90;Gz=90;Lz=90;Unbekannt=90" nodes="125 289 174 774 775 8 7 5 6 3365 1923 767 763 1925 2177 2161 2162 127"/>
+		<stationRoute stationID="HATTNWJ" name="[CLAVRDN]-[md415/1]-[1]-[HATTNNJ]-[md415/1] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=95;NRz=95;S=95;Rz=95;FGz=95;NGz=95;Gz=95;Lz=95;Unbekannt=95" nodes="125 289 174 774 775 8 7 5 6 3365 1923 767 763 1925 2160 2539 2319 124"/>
+		<stationRoute stationID="HATTNWJ" name="[HATTNNJ]-[md415/1]-[1-3]-[CLAVRDN]-[md415/1] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=95;NRz=95;S=95;Rz=95;FGz=95;NGz=95;Gz=95;Lz=95;Unbekannt=95" nodes="124 2319 2539 2160 1925 763 767 1923 3365 6 5 7 8 775 774 174 289 125"/>
+		<stationRoute stationID="HATTNWJ" name="[HATTON]-[md415/1]-[2]-[CLAVRDN]-[md415/1] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=90;NRz=90;S=90;Rz=90;FGz=90;NGz=90;Gz=90;Lz=90;Unbekannt=90" nodes="127 2162 2161 2177 1925 763 767 1923 3365 6 5 7 8 775 774 174 289 125"/>
+		<stationRoute stationID="HATTNWJ" name="[HATTON]-[md415/1]-[2]-[]-[?/] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=90;NRz=90;S=90;Rz=90;FGz=90;NGz=90;Gz=90;Lz=90;Unbekannt=90" nodes="127 2162 2161 2177 1925 763 767 1923 2156 2155"/>
+		<stationRoute stationID="HATTNWJ" name="[HATTON]-[md415/2]-[3]-[CLAVRDN]-[md415/1] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="128 2173 2488 9 5 7 8 775 774 174 289 125"/>
+		<stationRoute stationID="HATTNWJ" name="[]-[?/]-[1]-[HATTNNJ]-[md415/1] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=95;NRz=95;S=95;Rz=95;FGz=95;NGz=95;Gz=95;Lz=95;Unbekannt=95" nodes="2155 2156 1923 767 763 1925 2160 2539 2319 124"/>
+		<stationRoute stationID="HATTNWJ" name="[]-[?/]-[2]-[HATTON]-[md415/1] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=90;NRz=90;S=90;Rz=90;FGz=90;NGz=90;Gz=90;Lz=90;Unbekannt=90" nodes="2155 2156 1923 767 763 1925 2177 2161 2162 127"/>
+		<stationRoute stationID="HATTON" name="[HATTDGL]-[md401/2]-[1-2]-[HATTNNJ]-[md415/1] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=95;NRz=95;S=95;Rz=95;FGz=95;NGz=95;Gz=95;Lz=95;Unbekannt=95" nodes="11 63 2196 2837 2836 1928 2198 2197 2203 2194 1856 2167 3288 2166 129"/>
+		<stationRoute stationID="HATTON" name="[HATTDGL]-[md401/2]-[1-3]-[HATTNNJ]-[md415/1] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=85;NRz=85;S=85;Rz=85;FGz=85;NGz=85;Gz=85;Lz=85;Unbekannt=85" nodes="11 63 2231 2333 2199 2536 2546 2547 2553 2195 2534 765 3231 2190 3289 3290 3291 3292 3288 2166 129"/>
+		<stationRoute stationID="HATTON" name="[HATTDGL]-[md401/2]-[3]-[HATTNWJ]-[md415/1] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=90;NRz=90;S=90;Rz=90;FGz=90;NGz=90;Gz=90;Lz=90;Unbekannt=90" nodes="11 63 2231 2333 2199 2536 2546 2547 2553 2195 2534 765 3231 2190 1927 2189"/>
+		<stationRoute stationID="HATTON" name="[HATTDGL]-[md401/2]-[3]-[HATTNWJ]-[md415/2] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=95;NRz=95;S=95;Rz=95;FGz=95;NGz=95;Gz=95;Lz=95;Unbekannt=95" nodes="11 63 2231 2333 2199 2536 2546 2547 2553 2195 2534 765 3231 2190 1927 2169"/>
+		<stationRoute stationID="HATTON" name="[HATTDGL]-[md401/3]-[1-2]-[HATTNNJ]-[md415/1] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="1857 1928 2198 2197 2203 2194 1856 2167 3288 2166 129"/>
+		<stationRoute stationID="HATTON" name="[HATTDGL]-[md401/DGL]-[3-4]-[HATTDGL]-[md401/DGL] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=90;NRz=90;S=90;Rz=90;FGz=90;NGz=90;Gz=90;Lz=90;Unbekannt=90" nodes="11 63 2231 2333 2199 2536 2546 2547 2553 2195 2534 2195 2553 2547 2546 2536 2199 2333 2231 63 11"/>
+		<stationRoute stationID="HATTON" name="[HATTNNJ]-[md415/2]-[1]-[HATTDGL]-[md401/1] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="19 2550 2535 18"/>
+		<stationRoute stationID="HATTON" name="[HATTNWJ]-[md415/1]-[3-4]-[HATTDGL]-[md401/2] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=90;NRz=90;S=90;Rz=90;FGz=90;NGz=90;Gz=90;Lz=90;Unbekannt=90" nodes="2189 1927 2190 3231 765 2534 2195 2553 2547 2546 2536 2199 2333 2231 63 11"/>
+	</stationRoutes>
+	<lineCatalog/>
+	<zugNummernFelder/>
+	<switchGears/>
+</line>

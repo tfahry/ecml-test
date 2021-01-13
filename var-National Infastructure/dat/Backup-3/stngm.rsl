@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<line lineID="stngm" name="Sittingbourne Middle Jn" trafficRouting="on_the_left" type="global" dependentLines="so150 so150a">
+	<version major="1" minor="2" patchlevel="0" comment=""/>
+	<creator user="Ahowe4" timestamp="2016-11-01T12:54:22"/>
+	<lasteditor user="Ahowe4" timestamp="2016-11-01T12:54:22"/>
+	<stations>
+		<station stationID="STNGMJN" name="Sittingbourne Middle Jn" xNet="1970316.55" yNet="453830.18" uicLocationCode="0" circleDiameter="0">
+			<textElement type="name">
+				<pos view="net" x="639.881" y="639.881" angle="0" system="source"/>
+				<pos view="wgs84" x="639.881" y="639.881" angle="0" system="source"/>
+				<pos view="line" x="617.555" y="617.555" angle="0" system="source"/>
+				<pos view="macro" x="28.2843" y="28.2843" angle="0" system="source"/>
+				<pos view="macroWgs84" x="0" y="0" angle="0" system="source"/>
+			</textElement>
+		</station>
+	</stations>
+	<nodes>
+		<speedIndicator nodeID="126" name="SPEED" description="Speed; 44m 13ch" kilometre="71.074" x="710740" y="400" xNet="1970203.4" yNet="454009.62" referenceNode="200"/>
+		<signal interlockingMachine="3 Aspect IECC (Below 75mph)" nodeID="111" name="SIG : 6" description="Signal 6; 44m 11.8ch" kilometre="71.049" x="710490" y="400" xNet="1970160.1" yNet="453763.04" referenceNode="250"/>
+		<node nodeID="11" name="1000MM" description="1000MM : 71" kilometre="71.000" x="710000" y="200" xNet="1970272.3" yNet="453245.95"/>
+		<speedIndicator nodeID="14" name="SPEED" description="Speed; 44m 13ch" kilometre="71.074" x="710740" y="200" xNet="1970400.4" yNet="453974.79" referenceNode="249"/>
+		<node nodeID="12" name="OL 8A" description="OL for SIG : 8A" kilometre="71.025" x="710250" y="200" xNet="1970315.5" yNet="453491.54"/>
+		<signal interlockingMachine="4 Aspect IECC (76mph - 100mph)" nodeID="15" name="SIG : 8A" description="Signal 8A; 44m 22ch" kilometre="71.254" x="712540" y="200" xNet="1970712.8" yNet="455747.32" referenceNode="277"/>
+		<switch start="126" endOfMainTrack="111" endOfBranchTrack="239" nodeID="200" name="POINTS : 67" description="POINTS : 67" kilometre="71.056" x="710560" y="400" xNet="1970172.1" yNet="453832.07"/>
+		<crossing type="kr" startOfMainTrack="256" startOfBranchTrack="255" endOfMainTrack="11" endOfBranchTrack="99" nodeID="10" name="FD" description="FD" kilometre="70.996" x="709960" y="200" xNet="1970265.3" yNet="453206.54"/>
+		<node nodeID="168" name="OL 9" description="OL for SIG : 9" kilometre="71.095" x="710950" y="400" xNet="1970239.8" yNet="454216.38"/>
+		<switch start="14" endOfMainTrack="241" endOfBranchTrack="254" nodeID="13" name="POINTS : 63" description="POINTS : 63" kilometre="71.056" x="710560" y="200" xNet="1970369.2" yNet="453797.24"/>
+		<node nodeID="99" name="1000MM" description="1000MM : 71" kilometre="71.000" x="710000" y="213.32655" xNet="1970259.1" yNet="453248.18"/>
+		<node nodeID="239" name="TC" kilometre="71.028" x="710280" y="306.6637" xNet="1970215.6" yNet="453540.13" referenceNode="240" releaseContact="true" arranged="true"/>
+		<node nodeID="240" name="TC" kilometre="71.027" x="710270" y="303.33063" xNet="1970217.1" yNet="453529.69" referenceNode="239" releaseContact="true" arranged="true"/>
+		<node nodeID="241" name="TC" kilometre="71.031" x="710310" y="200" xNet="1970325.9" yNet="453550.66" referenceNode="242" releaseContact="true" arranged="true"/>
+		<node nodeID="242" name="TC" kilometre="71.030" x="710300" y="200" xNet="1970324.2" yNet="453540.85" referenceNode="241" releaseContact="true" arranged="true"/>
+		<track trackID="T-1" stationID="STNGMJN" type="timingPoint" nodeID="247" kilometre="71.117" x="711165.71" y="400" xNet="1970277.3" yNet="454428.69" referenceNode="168"/>
+		<track trackID="T-2" stationID="STNGMJN" type="timingPoint" nodeID="249" kilometre="71.113" x="711125.25" y="200" xNet="1970467.3" yNet="454354.15" referenceNode="14"/>
+		<stationBorder exitType="alternative" stationID="STNGMJN" lineID="so150a" trackNumber="1" nodeID="250" name="[STNGWJN] - [s150/1]" kilometre="71.016" x="710164.13" y="400" xNet="1970103.7" yNet="453442.29" referenceNode="111">
+			<netLimitInfo lineID="so150a"/>
+		</stationBorder>
+		<stationBorder exitType="regular" stationID="STNGMJN" lineID="so150" trackNumber="1" nodeID="252" name="[KMSLY] - [s150/1]" kilometre="71.145" x="711451.15" y="400" xNet="1970326.8" yNet="454709.72" referenceNode="247">
+			<netLimitInfo lineID="so150"/>
+		</stationBorder>
+		<stationBorder exitType="alternative" stationID="STNGMJN" lineID="so150" trackNumber="2" nodeID="253" name="[KMSLY] - [s150/2]" kilometre="71.135" x="711347.48" y="200" xNet="1970505.8" yNet="454573" referenceNode="249"/>
+		<stationBorder exitType="regular" stationID="STNGMJN" lineID="so150" trackNumber="2" nodeID="254" name="[STNGEJN] - [s150/2]" kilometre="71.053" x="710493.01" y="98.95462" xNet="1970529.4" yNet="453511.66" referenceNode="13">
+			<netLimitInfo lineID="so150"/>
+		</stationBorder>
+		<stationBorder exitType="alternative" stationID="STNGMJN" lineID="so150" trackNumber="1" nodeID="255" name="[STNGEJN] - [s150/1]" kilometre="70.992" x="709911.66" y="139.57032" xNet="1970373.9" yNet="452950.64" referenceNode="10">
+			<netLimitInfo lineID="so150"/>
+		</stationBorder>
+		<stationBorder exitType="regular" stationID="STNGMJN" lineID="so150a" trackNumber="2" nodeID="256" name="[STNGWJN] - [s150/2]" kilometre="70.973" x="709730.58" y="200" xNet="1970225.5" yNet="452980.67" referenceNode="10">
+			<netLimitInfo lineID="so150a"/>
+		</stationBorder>
+		<node nodeID="277" kilometre="71.264" x="712640" y="200" xNet="1970730.1" yNet="455845.78">
+			<netLimitInfo lineID="so150"/>
+		</node>
+	</nodes>
+	<links>
+		<link source="10" target="11" length="4" gradient="-20" vmaxr="32"/>
+		<link source="10" target="99" length="4" gradient="-20" vmax="32" vmaxr="32"/>
+		<link source="11" target="12" length="25" gradient="-20" vmaxr="32"/>
+		<link source="12" target="242" length="5" gradient="-20" vmaxr="32"/>
+		<link source="13" target="14" length="18" gradient="-20" vmaxr="32"/>
+		<link source="14" target="249" length="39" gradient="-20" vmaxr="113">
+			<vzg index="1" vmaxr="72"/>
+		</link>
+		<link source="15" target="277" length="10" gradient="-20" vmaxr="113">
+			<vzg index="1" vmaxr="72"/>
+		</link>
+		<link source="99" target="240" length="27" gradient="-20" vmax="32" vmaxr="32"/>
+		<link source="111" target="200" length="7" gradient="-20" vmax="32"/>
+		<link source="126" target="168" length="21" gradient="-20" vmax="113">
+			<vzg index="1" vmax="72"/>
+		</link>
+		<link source="168" target="247" length="22" gradient="-20" vmax="113">
+			<vzg index="1" vmax="72"/>
+		</link>
+		<link source="200" target="126" length="18" gradient="-20" vmax="32"/>
+		<link source="239" target="200" length="28" gradient="-20" vmax="32" vmaxr="32"/>
+		<link source="240" target="239" length="1" gradient="-20" vmax="32" vmaxr="32"/>
+		<link source="241" target="13" length="25" gradient="-20" vmaxr="32"/>
+		<link source="242" target="241" length="1" gradient="-20" vmaxr="32"/>
+		<link source="247" target="252" length="28" gradient="-20" vmax="113">
+			<vzg index="1" vmax="72"/>
+		</link>
+		<link source="249" target="253" length="22" gradient="-20" vmaxr="113">
+			<vzg index="1" vmaxr="72"/>
+		</link>
+		<link source="250" target="111" length="33" gradient="-20" vmax="32"/>
+		<link source="253" target="15" length="119" gradient="-20" vmaxr="113">
+			<vzg index="1" vmaxr="72"/>
+		</link>
+		<link source="254" target="13" length="3" gradient="-20" vmax="32" vmaxr="32"/>
+		<link source="255" target="10" length="4" gradient="-20" vmax="32" vmaxr="32"/>
+		<link source="256" target="10" length="23" gradient="-20" vmaxr="32"/>
+	</links>
+	<dependentLinks/>
+	<blockSections>
+		<blocksection uuid="{0a584610-915b-4be3-b2cc-15b8030db197}" lines="so150 stngm" speedIndicators="126">
+			<part nodes="111 200 126 168 247 252"/>
+		</blocksection>
+		<blocksection uuid="{44a165ae-37ce-4860-a7ef-b12fd506047f}" lines="so150 stngm">
+			<part nodes="277 15"/>
+		</blocksection>
+		<blocksection uuid="{4b7dceae-6f0e-4778-9a39-88cf81f6dce2}" lines="so150a stngm stngw">
+			<part nodes="250 111"/>
+		</blocksection>
+		<blocksection uuid="{5f2eea7b-0681-4b63-b961-f35117911b48}" lines="so150 stngm" speedIndicators="126">
+			<part nodes="255 10 99 240 239 200 126 168 247 252"/>
+		</blocksection>
+		<blocksection uuid="{bc13a63a-3620-4e8f-af88-00109eda71ac}" lines="so150a stngm stngw" speedIndicators="14">
+			<part nodes="15 253 249 14 13 241 242 12 11 10 256"/>
+		</blocksection>
+		<blocksection uuid="{e20b2707-c383-4ef5-bcdf-3514fb7063e9}" lines="so150 stng stngm" speedIndicators="14">
+			<part nodes="15 253 249 14 13 254"/>
+		</blocksection>
+		<blocksection uuid="{fd00cc6b-90b3-4bf9-b793-f8e2988169b5}" lines="so150 stngm">
+			<part nodes="277 15"/>
+		</blocksection>
+	</blockSections>
+	<slipDistances>
+		<slipdistance uuid="{7193f3ec-e0ec-4e6e-b8a0-7c57fe157f8f}" vmax="999" lines="so150 stngm" serialNumber="0">
+			<part nodes="255 10 99 240 239 200 126 168"/>
+		</slipdistance>
+		<slipdistance uuid="{720e7acb-4ea7-4f92-9b75-320a1c5e7e93}" vmax="999" lines="so150 stngm" serialNumber="0">
+			<part nodes="111 200 126 168 247 252"/>
+		</slipdistance>
+		<slipdistance uuid="{eea0e89a-46df-416d-a6d7-dce1ec8b9d5a}" vmax="999" lines="stngm" serialNumber="0">
+			<part nodes="15 253 249 14 13 241 242 12"/>
+		</slipdistance>
+	</slipDistances>
+	<approachControlRoutes/>
+	<stationRoutes>
+		<stationRoute stationID="STNGMJN" name="[KMSLY]-[s150/2]-[2]-[STNGEJN]-[s150/2] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=95;NRz=95;S=95;Rz=95;FGz=95;NGz=95;Gz=95;Lz=95;Unbekannt=95" nodes="253 249 14 13 254"/>
+		<stationRoute stationID="STNGMJN" name="[KMSLY]-[s150/2]-[2]-[STNGWJN]-[s150/2] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="253 249 14 13 241 242 12 11 10 256"/>
+		<stationRoute stationID="STNGMJN" name="[STNGEJN]-[s150/1]-[1]-[KMSLY]-[s150/1] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=95;NRz=95;S=95;Rz=95;FGz=95;NGz=95;Gz=95;Lz=95;Unbekannt=95" nodes="255 10 99 240 239 200 126 168 247 252"/>
+		<stationRoute stationID="STNGMJN" name="[STNGWJN]-[s150/1]-[1]-[KMSLY]-[s150/1] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="250 111 200 126 168 247 252"/>
+	</stationRoutes>
+	<lineCatalog/>
+	<zugNummernFelder/>
+	<switchGears/>
+</line>

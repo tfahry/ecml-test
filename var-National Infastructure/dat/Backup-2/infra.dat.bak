@@ -1,0 +1,65 @@
+# ---------------------------------------------------------------------
+# RailSys\Sted Version 6.9.3:  Input file  Infrastrukturvariantendatei
+# Filename            V:/SAP-Project/CAWEST00 - 10 - 2016 - Wider Bristol Area/03 - Technical/RailSys/New Model 1116/var-National Infastructure/dat/infra.dat
+# created              01/11/2016 12:27:25
+# ---------------------------------------------------------------------
+
+
+# ---------------------------------------------------------------------
+# Beschreibung der Infrastrukturvariante
+# ---------------------------------------------------------------------
+
+variante 
+
+# ---------------------------------------------------------------------
+# Parameter für H/V-Signalsystem
+# ---------------------------------------------------------------------
+
+# Abstand eines Vorsignales, wenn nicht speziell im Block überschrieben [m]
+vorsignalabstand   1000
+vorsignalabstandblolaenge 1300
+
+# Abstand des Indusi-500Hz Magneten vor dem Hauptsignal [m]
+# (entspricht meistens dem Abstand500HzMagnetZumSignal des Hauptsignales)
+indusiabstand      250
+ignoreindusivmax
+# Abstand des Aufloesekontaktes hinter einem Hauptsignal [m]
+aufloeseabstand       40
+# Abstand des Aufloesekontaktes hinter einer Weiche [m]
+aufloeseabstandweiche 40
+
+# ---------------------------------------------------------------------
+# Parameter für Moving-Block-Simulation
+# ---------------------------------------------------------------------
+
+weichenumlaufzeit  30
+# Sicherheitsabstand fuer Moving-Block-Fahrt [m]
+sicherheitsabstand 150
+# Flag, ob automatische Moving-Block Teilung vorgenommen werden soll
+# mbloauto
+# Max. Kantenlaenge der Teilung [m]
+mblolaenge         50
+
+# ---------------------------------------------------------------------
+# Dweg-Parameter
+# ---------------------------------------------------------------------
+
+# Flag, ob die Dwege bei LZB berücksichtigt werden sollen
+dwegbeilzb         1
+# Flag, ob die Vmax bei D-Wegen bei der Fahrzeitberechnung berücksichtigt werden soll
+dwegusevmax        1
+# Flag, ob die englischen Standards für die Dwege berücksichtigt werden sollen
+dweguseenglischestandards 0
+# Flag, ob gegen die DB-Regel getestet werden soll
+dwegregeldb        0
+# Flag, ob bei Kanten die Radsatzlast getestet werden soll
+verifykantenradsatzlast 0
+# Flag, ob die Koordinaten der Knoten auf Eindeutigkeit getestet werden sollen
+verifyknotenkoordinaten 1
+
+# ---------------------------------------------------------------------
+# Sonstige Parameter
+# ---------------------------------------------------------------------
+
+# Flag, ob eingleisige Streckenabschnitte automatisch bestimmt werden sollen
+autoeingleisig            0

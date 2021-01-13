@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<line lineID="bord7" name="borderregion 7" trafficRouting="on_the_left" type="global" dependentLines="gw610 sw115a">
+	<transformations>
+		<transformation line="sw115a" m11="1" m12="0" m21="0" m22="1" dx="11560.7" dy="-2725.24"/>
+	</transformations>
+	<version major="1" minor="2" patchlevel="0" comment=""/>
+	<creator user="lclarke9" timestamp="2016-07-29T10:04:14"/>
+	<lasteditor user="lclarke9" timestamp="2016-07-29T10:04:14"/>
+	<stations>
+		<station stationID="BORDA7" name="Border Area 7" xNet="-2789680" yNet="-685236" uicLocationCode="0" circleDiameter="0">
+			<textElement type="name">
+				<pos view="net" x="352.737" y="352.737" angle="0" system="source"/>
+				<pos view="wgs84" x="352.737" y="352.737" angle="0" system="source"/>
+				<pos view="line" x="787.719" y="787.719" angle="0" system="source"/>
+				<pos view="macro" x="28.2843" y="28.2843" angle="0" system="source"/>
+			</textElement>
+		</station>
+	</stations>
+	<nodes>
+		<stationBorder exitType="regular" stationID="BORDA7" lineID="gw610" trackNumber="1" nodeID="134" kilometre="264.540" x="796293" y="3104" xNet="-2798892.9" yNet="-693417.8" referenceNode="8538">
+			<netLimitInfo lineID="gw610"/>
+		</stationBorder>
+		<stationBorder exitType="regular" stationID="BORDA7" lineID="sw115a" trackNumber="1" nodeID="8477" kilometre="264.530" x="798521" y="3105.9917" xNet="-2798000" yNet="-692972.7" referenceNode="8492">
+			<netLimitInfo lineID="sw115a"/>
+		</stationBorder>
+		<track trackID="U-1" stationID="BORDA7" interlockingMachine="2 Aspect Pannel (Below 75mph)" nodeID="8492" name="dummy for borderregion because of changing of line numbers" kilometre="264.532" x="798109.71" y="3109.1263" xNet="-2798193.3" yNet="-693069.1" referenceNode="8538"/>
+		<track trackID="D-1" stationID="BORDA7" interlockingMachine="2 Aspect Pannel (Below 75mph)" nodeID="8538" name="dummy for borderregion because of changing of line numbers" kilometre="264.537" x="796694" y="3103.5126" xNet="-2798665.2" yNet="-693304.3" referenceNode="8492"/>
+	</nodes>
+	<links>
+		<link source="8477" target="8492" length="2" gradient="-7.407" vmax="137" vmaxr="137" bidirectional="true"/>
+		<link source="8492" target="8538" length="5" gradient="-7.407" vmax="137" vmaxr="137" bidirectional="true"/>
+		<link source="8538" target="134" length="3" gradient="-7.407" vmax="137" vmaxr="137" bidirectional="true"/>
+	</links>
+	<dependentLinks/>
+	<blockSections>
+		<blocksection uuid="{34d9b5a3-728f-4545-8379-f9e8e52763b3}" lines="bord7 gw610">
+			<part nodes="8538 134"/>
+		</blocksection>
+		<blocksection uuid="{4b7d4f9e-7dd4-4527-82c0-d5429c6e1b75}" lines="bord7 gw610">
+			<part nodes="134 8538 8492"/>
+		</blocksection>
+		<blocksection uuid="{8f08bfb2-d288-43f2-8112-92b51ac82fef}" lines="bord7 sw115a">
+			<part nodes="8492 8477"/>
+		</blocksection>
+		<blocksection uuid="{e4541988-120b-4e80-9102-a76ff21d39e4}" lines="bord7 sw115a">
+			<part nodes="8477 8492 8538"/>
+		</blocksection>
+	</blockSections>
+	<slipDistances>
+		<slipdistance uuid="{ebb22d78-66f6-475d-aa6d-d6ed017d999c}" publicName="Dummy Overlap" vmax="999" lines="bord7 gw610" serialNumber="0">
+			<part nodes="8538 134"/>
+		</slipdistance>
+	</slipDistances>
+	<approachControlRoutes/>
+	<stationRoutes>
+		<stationRoute stationID="BORDA7" name="[PINHOE]-[gw610/1]-[1]-[WHIMPLE]-[sw115/1] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="134 8538 8492 8477"/>
+		<stationRoute stationID="BORDA7" name="[WHIMPLE]-[sw115/1]-[1]-[PINHOE]-[gw610/1] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="8477 8492 8538 134"/>
+	</stationRoutes>
+	<lineCatalog/>
+	<zugNummernFelder/>
+	<switchGears/>
+</line>

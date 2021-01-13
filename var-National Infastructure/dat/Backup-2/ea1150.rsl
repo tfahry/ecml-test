@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<line lineID="ea1150" name="Channelsea South Jn - Stratford Central Jn West" trafficRouting="on_the_left" type="local" dependentLines="chnel stfd">
+	<version major="1" minor="2" patchlevel="0" comment=""/>
+	<creator user="AHowe4" timestamp="2016-06-15T10:30:31"/>
+	<lasteditor user="AHowe4" timestamp="2016-06-15T10:30:31"/>
+	<stations/>
+	<nodes>
+		<node nodeID="59289" name="CURVE" kilometre="0.343" x="17763.5986579" y="55091.67723939" xNet="1129500" yNet="781600"/>
+		<kilometreInconsistency newKilometre="6.226" nodeID="59298" name="COM" kilometre="27.630" x="16974.675846944" y="55134.087577456" xNet="1129340" yNet="781207" referenceNode="31.chnel"/>
+		<kilometreInconsistency newKilometre="0.177" nodeID="1231" name="COM" kilometre="6.115" x="18571.5" y="54506" xNet="1131049" yNet="781135" referenceNode="922.stfd"/>
+		<node nodeID="144" name="CNR" kilometre="0.197" x="18450.5" y="54651" xNet="1130206.7" yNet="781475.18"/>
+		<node nodeID="263" name="CNR" kilometre="0.176" x="18192.5" y="54541" xNet="1130123.8" yNet="781312.76"/>
+		<kilometreInconsistency newKilometre="0.172" nodeID="2" name="COM" kilometre="6.115" x="18284.5" y="54426" xNet="1130982.3" yNet="780968.25" referenceNode="1111.stfd"/>
+		<node nodeID="251" kilometre="0.331" x="17836.5" y="55048" xNet="1129624" yNet="781561"/>
+		<node nodeID="252" kilometre="0.224" x="17978.5" y="55176" xNet="1129927.4" yNet="781667.69"/>
+		<node nodeID="1" name="SD: NL1294" kilometre="0.296" x="17916.887" y="54933.516" xNet="1129736.9" yNet="781504.95" referenceNode="263" sightingDistance="true"/>
+		<node nodeID="253" name="SD:L269" kilometre="0.206" x="18293.1666666667" y="54826" xNet="1130113.6" yNet="781539.35" referenceNode="252" sightingDistance="true">
+			<textElement type="name">
+				<pos view="net" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="wgs84" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="line" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="macro" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="macroWgs84" x="0" y="0" angle="0" system="source"/>
+			</textElement>
+			<textElement type="kilo">
+				<pos view="net" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="wgs84" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="line" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="macro" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="macroWgs84" x="0" y="0" angle="0" system="source"/>
+			</textElement>
+		</node>
+	</nodes>
+	<links>
+		<link source="1" target="263" length="120" gradient="5" vmax="32" vmaxr="32">
+			<vzg index="1" vmaxr="32"/>
+		</link>
+		<link source="2" target="1111.stfd" length="25" gradient="5" vmax="32" vmaxr="32"/>
+		<link source="29.chnel" target="252" length="192" gradient="5" vmax="32" vmaxr="32"/>
+		<link source="144" target="1231" length="20" gradient="5" vmax="32" vmaxr="32"/>
+		<link source="195.stfd" target="59298" length="1" gradient="-11.494" vmax="24" vmaxr="24" bidirectional="true"/>
+		<link source="251" target="1" length="35" gradient="5" vmax="32" vmaxr="32">
+			<vzg index="1" vmaxr="32"/>
+		</link>
+		<link source="252" target="253" length="18" gradient="5" vmax="32" vmaxr="32"/>
+		<link source="253" target="144" length="9" gradient="5" vmax="32" vmaxr="32"/>
+		<link source="263" target="2" length="4" gradient="5" vmax="32" vmaxr="32">
+			<vzg index="1" vmaxr="32"/>
+		</link>
+		<link source="1231" target="922.stfd" length="1" gradient="5" vmax="32" vmaxr="32"/>
+		<link source="59289" target="32.chnel" length="16" gradient="-5" vmax="32" vmaxr="32"/>
+		<link source="59289" target="251" length="12" gradient="5" vmax="32" vmaxr="32"/>
+		<link source="59298" target="31.chnel" length="1" gradient="-11.494" vmax="24" vmaxr="24" bidirectional="true"/>
+	</links>
+	<dependentLinks/>
+	<blockSections>
+		<blocksection uuid="{0d3822c9-8a1a-4ca4-bac9-c8632e504a1d}" lines="chnel ea1150 stfd">
+			<part nodes="1111.stfd 2 263 1 251 59289 32.chnel"/>
+		</blocksection>
+		<blocksection uuid="{453c72df-798c-42b1-89e6-3b71e9548f0d}" lines="chnel ea1150 stfd">
+			<part nodes="1111.stfd 2 263 1 251 59289 32.chnel"/>
+		</blocksection>
+		<blocksection uuid="{7cc53eff-f9ac-430d-b3d8-f9755e46fe60}" lines="chnel ea1150 stfd">
+			<part nodes="29.chnel 252 253 144 1231 922.stfd"/>
+		</blocksection>
+		<blocksection uuid="{835de57b-b009-42a6-a172-19255eb7ed57}" lines="chnel ea1150 stfd">
+			<part nodes="29.chnel 252 253 144 1231 922.stfd"/>
+		</blocksection>
+		<blocksection uuid="{9aab185a-9994-4fa3-8658-0a4fcce63386}" lines="chnel ea1150 stfd">
+			<part nodes="31.chnel 59298 195.stfd"/>
+		</blocksection>
+		<blocksection uuid="{a30cb512-5313-41c8-961a-a31fc9338cf8}" lines="chnel ea1150 stfd">
+			<part nodes="195.stfd 59298 31.chnel"/>
+		</blocksection>
+		<blocksection uuid="{b1c1912f-b847-4f45-aa1c-6433e999bf7d}" lines="chnel ea1150 stfd">
+			<part nodes="1111.stfd 2 263 1 251 59289 32.chnel"/>
+		</blocksection>
+		<blocksection uuid="{bfc0ba1c-e829-40b9-982a-d8f4ce0eb99d}" lines="chnel ea1150 stfd">
+			<part nodes="195.stfd 59298 31.chnel"/>
+		</blocksection>
+		<blocksection uuid="{cdbb46b0-f13c-4467-830b-7e0315bb6b1e}" lines="chnel ea1150 stfd">
+			<part nodes="195.stfd 59298 31.chnel"/>
+		</blocksection>
+		<blocksection uuid="{d2a17f2c-0637-4b1b-82db-6dd0b5eadb11}" lines="chnel ea1150 stfd">
+			<part nodes="31.chnel 59298 195.stfd"/>
+		</blocksection>
+		<blocksection uuid="{d7af4cc0-598c-4a18-aa5a-8af738b02f96}" lines="chnel ea1150 stfd">
+			<part nodes="195.stfd 59298 31.chnel"/>
+		</blocksection>
+	</blockSections>
+	<slipDistances/>
+	<approachControlRoutes/>
+	<stationRoutes/>
+	<lineCatalog/>
+	<zugNummernFelder/>
+	<switchGears/>
+</line>

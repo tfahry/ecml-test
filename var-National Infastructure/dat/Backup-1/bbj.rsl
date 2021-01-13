@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<line lineID="bbj" name="Bo-Peep Jn" trafficRouting="on_the_left" type="global" dependentLines="so170 so600">
+	<transformations>
+		<transformation line="so600" m11="1" m12="0" m21="0" m22="1" dx="550563" dy="-460188"/>
+	</transformations>
+	<version major="1" minor="2" patchlevel="0" comment=""/>
+	<creator user="Ahowe4" timestamp="2016-11-01T12:54:22"/>
+	<lasteditor user="Ahowe4" timestamp="2016-11-01T12:54:22"/>
+	<stations>
+		<station stationID="BOPEEPJ" name="Bo Peep Jn" xNet="1790241.25" yNet="-445417.825" uicLocationCode="0" circleDiameter="0">
+			<textElement type="name">
+				<pos view="net" x="2479.17" y="2479.17" angle="0" system="source"/>
+				<pos view="wgs84" x="2479.17" y="2479.17" angle="0" system="source"/>
+				<pos view="line" x="2170.95" y="2170.95" angle="0" system="source"/>
+				<pos view="macro" x="28.2843" y="28.2843" angle="0" system="source"/>
+				<pos view="macroWgs84" x="0" y="0" angle="0" system="source"/>
+			</textElement>
+		</station>
+		<station stationID="WSLE" name="West St. Leonards" xNet="1791810" yNet="-441896" uicLocationCode="0" circleDiameter="0">
+			<textElement type="name">
+				<pos view="net" x="929.609" y="929.609" angle="0" system="source"/>
+				<pos view="wgs84" x="929.609" y="929.609" angle="0" system="source"/>
+				<pos view="line" x="929.636" y="929.636" angle="0" system="source"/>
+				<pos view="macro" x="28.2843" y="28.2843" angle="0" system="source"/>
+				<pos view="macroWgs84" x="0" y="0" angle="0" system="source"/>
+			</textElement>
+		</station>
+	</stations>
+	<nodes>
+		<node nodeID="5483" name="200MM" description="200MM : 97.6" kilometre="97.600" x="975496.73" y="200" xNet="1790925" yNet="-440308.02">
+			<netLimitInfo lineID="so170"/>
+		</node>
+		<node nodeID="5488" name="200MM" description="200MM : 97.8" kilometre="97.800" x="977496.77" y="200" xNet="1791801" yNet="-442106.02"/>
+		<switch start="5507" endOfMainTrack="5700" endOfBranchTrack="688" nodeID="5493" name="POINTS : 13" description="POINTS : 13;  mph; 60m 71.5ch" kilometre="97.999" x="979801.13" y="200" xNet="1792913.6" yNet="-444056.57"/>
+		<node nodeID="5494" name="TC" description="Track circuit; 60m 71.75ch" kilometre="98.004" x="979850.72" y="200" xNet="1792947.2" yNet="-444093.12"/>
+		<node nodeID="5485" name="GRAD" description="Gradient; 60m 56ch" kilometre="97.687" x="976366.16" y="200" xNet="1791305" yNet="-441090.02"/>
+		<node nodeID="5498" name="GRAD" description="Gradient; 60m 79ch" kilometre="98.150" x="981714.59" y="200" xNet="1794045" yNet="-444223.02">
+			<netLimitInfo lineID="so170"/>
+		</node>
+		<speedIndicator nodeID="5492" name="SPEED" description="Speed; 60m 69ch" kilometre="97.949" x="979246.69" y="200" xNet="1792585.6" yNet="-443678.59" referenceNode="46"/>
+		<speedIndicator nodeID="5495" name="SPEED" description="Speed; 60m 71.9ch" kilometre="98.007" x="980747.99" y="200" xNet="1793135" yNet="-444210.52" referenceNode="5496"/>
+		<track trackID="U-1" stationID="WSLE" length="184" interlockingMachine="3 Aspect Pannel (Below 75mph)" nodeID="5484" name="SIG : BJ448" description="Signal BJ448; 60m 55.25ch" kilometre="97.672" x="976216.33" y="200" xNet="1791240" yNet="-440955.02" referenceNode="5485">
+			<platform startPos="-2220" endPos="0" width="150" left="true" open="true"/>
+		</track>
+		<node nodeID="5486" name="SD : BJ448" description="sighting distance for SIG : BJ448" kilometre="97.750" x="976996.31" y="200" xNet="1791582" yNet="-441656.02" referenceNode="5487" sightingDistance="true"/>
+		<track trackID="T-1" stationID="WSLE" type="timingPoint" nodeID="5487" name="T-1" description="STLNRWM T-1, timingPoint, 60m 60ch" kilometre="97.768" x="977176.55" y="200" xNet="1791661" yNet="-441818.02" referenceNode="51"/>
+		<node nodeID="5489" name="tc 2" description="release contact for track circuit; 60m 67.9ch" kilometre="97.926" x="978761.56" y="200" xNet="1792355" yNet="-443243.02" referenceNode="672" releaseContact="true" arranged="true"/>
+		<node nodeID="5490" name="OL BJ18/21" description="OL for SIG : BJ18/21" kilometre="97.927" x="978766.47" y="200" xNet="1792358" yNet="-443247.02"/>
+		<node nodeID="5491" name="tc 1" description="release contact for track circuit; 60m 67.95ch" kilometre="97.927" x="978771.84" y="200" xNet="1792360" yNet="-443252.02" referenceNode="5492" releaseContact="true" arranged="true"/>
+		<track trackID="U-1" stationID="BOPEEPJ" interlockingMachine="3 Aspect IECC (Below 75mph)" nodeID="5496" name="SIG : BJ18/21" description="Signal BJ18/21; 60m 72ch" kilometre="98.009" x="980824.01" y="200" xNet="1793154.6" yNet="-444206.31" referenceNode="48"/>
+		<node nodeID="5497" name="SD : BJ18/21" description="sighting distance for SIG : BJ18/21" kilometre="98.087" x="981269.52" y="200" xNet="1793600" yNet="-444216" referenceNode="686" sightingDistance="true"/>
+		<node nodeID="473" name="200MM" description="200MM : 97.6" kilometre="97.600" x="975496.1" y="400" xNet="1791104" yNet="-440220.02">
+			<netLimitInfo lineID="so170"/>
+		</node>
+		<node nodeID="476" name="200MM" description="200MM : 97.8" kilometre="97.800" x="977496.58" y="400" xNet="1791981" yNet="-442018.02"/>
+		<switch start="504" endOfMainTrack="47" endOfBranchTrack="5698" nodeID="483" name="POINTS : 12" description="POINTS : 12;  mph; 60m 71.5ch" kilometre="97.999" x="979793.46" y="400" xNet="1793065.4" yNet="-443923.76"/>
+		<node nodeID="484" name="TC" description="Track circuit; 60m 71.75ch" kilometre="98.004" x="979844.03" y="400" xNet="1793097.6" yNet="-443962.76"/>
+		<node nodeID="474" name="GRAD" description="Gradient; 60m 56ch" kilometre="97.687" x="976366.41" y="400" xNet="1791486" yNet="-441002.02"/>
+		<node nodeID="486" name="GRAD" description="Gradient; 60m 79ch" kilometre="98.150" x="981722.12" y="400" xNet="1794056" yNet="-444024.02">
+			<netLimitInfo lineID="so170"/>
+		</node>
+		<speedIndicator nodeID="479" name="SPEED" description="Speed; 60m 69ch" kilometre="97.949" x="979297.32" y="400" xNet="1792736.7" yNet="-443547" referenceNode="480"/>
+		<speedIndicator nodeID="485" name="SPEED" description="Speed; 60m 72ch" kilometre="98.009" x="979894.1" y="400" xNet="1793130.5" yNet="-444000.53" referenceNode="484"/>
+		<track trackID="T-2" stationID="WSLE" type="timingPoint" nodeID="475" name="T-2" description="STLNRWM T-2, timingPoint, 60m 60ch" kilometre="97.768" x="977176.36" y="400" xNet="1791841" yNet="-441730.02" referenceNode="52"/>
+		<node nodeID="477" name="SD : BJ6" description="sighting distance for SIG : BJ6" kilometre="97.819" x="977686.66" y="400" xNet="1792064" yNet="-442189.02" referenceNode="476" sightingDistance="true"/>
+		<track trackID="D-2" stationID="WSLE" length="221" interlockingMachine="3 Aspect IECC (Below 75mph)" nodeID="478" name="SIG : BJ6" description="Signal BJ6; 60m 66.43ch" kilometre="97.897" x="978466.2" y="400" xNet="1792405" yNet="-442890.02" referenceNode="477">
+			<platform startPos="-2220" endPos="0" width="150" left="true" open="true"/>
+		</track>
+		<node nodeID="480" name="tc 2" description="release contact for track circuit; 60m 69.34ch" kilometre="97.955" x="979363.04" y="400" xNet="1792780" yNet="-443596.48" referenceNode="479" releaseContact="true" arranged="true"/>
+		<node nodeID="481" name="OL BJ6" description="OL for SIG : BJ6" kilometre="97.956" x="979367.5" y="400" xNet="1792783" yNet="-443599.83"/>
+		<node nodeID="482" name="tc 1" description="release contact for track circuit; 60m 69.39ch" kilometre="97.956" x="979371.95" y="400" xNet="1792785.9" yNet="-443603.18" referenceNode="47" releaseContact="true" arranged="true"/>
+		<crossing type="kr" startOfMainTrack="5699" startOfBranchTrack="5697" endOfMainTrack="46" endOfBranchTrack="243" nodeID="5694" name="FD" description="FD" kilometre="97.967" x="979477.97" y="200" xNet="1792702.1" yNet="-443811.98"/>
+		<speedIndicator nodeID="5" name="SPEED" description="Speed; 32m 73.5ch" kilometre="52.978" x="979292.45" y="-563.65095" xNet="1792030.5" yNet="-444000" referenceNode="10"/>
+		<speedIndicator nodeID="7" name="SPEED" description="Speed; 32m 73.5ch" kilometre="52.978" x="979290.23" y="-763.65095" xNet="1792100" yNet="-444195.24" referenceNode="688"/>
+		<kilometreInconsistency newKilometre="97.967" nodeID="243" name="Change of kilometrage" kilometre="52.979" x="979453.84" y="128.88824" xNet="1792639.1" yNet="-443831.96" referenceNode="5"/>
+		<kilometreInconsistency newKilometre="97.999" nodeID="688" name="Change of kilometrage" kilometre="52.987" x="979682.27" y="72.437003" xNet="1792739" yNet="-444045" referenceNode="7"/>
+		<track trackID="T-2" stationID="BOPEEPJ" type="timingPoint" nodeID="504" name="T-2" description="BOPEEPJ T-2" kilometre="98.000" x="979803.62" y="400" xNet="1793071.9" yNet="-443931.56" referenceNode="49"/>
+		<track trackID="T-1" stationID="BOPEEPJ" type="timingPoint" nodeID="5507" name="T-1" description="BOPEEPJ T-1" kilometre="98.000" x="979811.1" y="200" xNet="1792920.4" yNet="-444063.88" referenceNode="5494"/>
+		<node nodeID="5697" name="tc" description="release contact for track circuit;" kilometre="97.983" x="979635.77" y="296.49945" xNet="1792883.8" yNet="-443867.87" referenceNode="5694" releaseContact="true" arranged="true"/>
+		<node nodeID="5698" name="tc" description="release contact for track circuit;" kilometre="97.984" x="979645.59" y="303.05884" xNet="1792895.1" yNet="-443871.37" referenceNode="483" releaseContact="true" arranged="true"/>
+		<node nodeID="5699" name="tc" kilometre="97.983" x="979639.61" y="200" xNet="1792807.9" yNet="-443934.28" referenceNode="5694" releaseContact="true" arranged="true"/>
+		<node nodeID="5700" name="tc" description="release contact for track circuit;" kilometre="97.984" x="979649.7" y="200" xNet="1792814.5" yNet="-443941.93" referenceNode="5493" releaseContact="true" arranged="true"/>
+		<stationBorder exitType="regular" stationID="BOPEEPJ" lineID="so170" trackNumber="1" nodeID="46" name="[WSLE] - [so170/1]" kilometre="97.962" x="979424.91" y="200" xNet="1792667.2" yNet="-443771.96" referenceNode="5694"/>
+		<stationBorder exitType="alternative" stationID="BOPEEPJ" lineID="so170" trackNumber="2" nodeID="47" name="[WSLE] - [so170/2]" kilometre="97.986" x="979665.99" y="400" xNet="1792981.6" yNet="-443827.59" referenceNode="483"/>
+		<stationBorder exitType="alternative" stationID="BOPEEPJ" lineID="so170" trackNumber="1" nodeID="48" name="[STLNRWS] - [so170/1]" kilometre="98.032" x="981017.73" y="200" xNet="1793337" yNet="-444204.57" referenceNode="5496"/>
+		<stationBorder exitType="regular" stationID="BOPEEPJ" lineID="so170" trackNumber="2" nodeID="49" name="[STLNRWS] - [so170/2]" kilometre="98.001" x="979815.65" y="400" xNet="1793079.5" yNet="-443940.89" referenceNode="504"/>
+		<stationBorder exitType="regular" stationID="WSLE" lineID="so170" trackNumber="1" nodeID="50" name="[CRWHRST] - [so170/1]" kilometre="97.650" x="976000.45" y="200" xNet="1791145.5" yNet="-440760.92" referenceNode="5484"/>
+		<stationBorder exitType="alternative" stationID="WSLE" lineID="so170" trackNumber="1" nodeID="51" name="[BOPEEPJ] - [so170/1]" kilometre="97.778" x="977272.61" y="200" xNet="1791703" yNet="-441904.42" referenceNode="5487"/>
+		<stationBorder exitType="alternative" stationID="WSLE" lineID="so170" trackNumber="2" nodeID="52" name="[CRWHRST] - [so170/2]" kilometre="97.744" x="976933.38" y="400" xNet="1791734.5" yNet="-441511.62" referenceNode="475"/>
+		<stationBorder exitType="regular" stationID="WSLE" lineID="so170" trackNumber="2" nodeID="53" name="[BOPEEPJ] - [so170/2]" kilometre="97.913" x="978622.24" y="400" xNet="1792473.7" yNet="-443030.12" referenceNode="478"/>
+		<node nodeID="186" kilometre="52.976" x="979248.65" y="-563.65095" xNet="1790796.9" yNet="-444700"/>
+		<node nodeID="178" kilometre="52.976" x="979248.65" y="-763.65095" xNet="1790900" yNet="-444871.43"/>
+		<node nodeID="22" kilometre="52.940" x="978794.05" y="-367.72851" xNet="1790306.1" yNet="-444765.85"/>
+		<crossing type="ekw" startOfMainTrack="16" startOfBranchTrack="666" endOfMainTrack="19" endOfBranchTrack="670" nodeID="14" kilometre="52.960" x="978995.75" y="-563.65095" xNet="1790580.5" yNet="-444834.29"/>
+		<switch start="677" endOfMainTrack="223" endOfBranchTrack="667" nodeID="17" kilometre="52.970" x="979188.66" y="-763.65095" xNet="1790848.5" yNet="-444902.34"/>
+		<track trackID="D-3" stationID="BOPEEPJ" interlockingMachine="3 Aspect Pannel (Below 75mph)" nodeID="18" name="SIG:BJ1" kilometre="52.925" x="978731.94" y="-364.13707" xNet="1790251" yNet="-444794.7" referenceNode="669"/>
+		<stationBorder exitType="regular" stationID="BOPEEPJ" lineID="so600" trackNumber="SDG" nodeID="15" kilometre="52.919" x="978669.51" y="-364.1714" xNet="1790197.5" yNet="-444826.9" referenceNode="669">
+			<netLimitInfo lineID="so600"/>
+		</stationBorder>
+		<node nodeID="163" name="OL BJ10" description="OL for SIG : BJ10" kilometre="52.815" x="977634.54" y="-564.21659" xNet="1789413.4" yNet="-445531.34"/>
+		<node nodeID="223" name="GRAD" description="Gradient; 32m 73ch" kilometre="52.968" x="979101.87" y="-763.65095" xNet="1790784.7" yNet="-444944.99"/>
+		<node nodeID="165" name="GRAD" description="Gradient; 32m 68ch" kilometre="52.867" x="978158.03" y="-563.65095" xNet="1789862.1" yNet="-445261.72"/>
+		<node nodeID="191" name="GRAD" description="Gradient; 32m 68ch" kilometre="52.867" x="978162.83" y="-763.65095" xNet="1789969.2" yNet="-445430.68"/>
+		<node nodeID="240" name="GRAD" description="Gradient; 32m 64ch" kilometre="52.786" x="977348.25" y="-564.21358" xNet="1789168" yNet="-445678.79"/>
+		<node nodeID="192" name="GRAD" description="Gradient; 32m 64ch" kilometre="52.786" x="977352.22" y="-764.1959" xNet="1789274.4" yNet="-445848.16"/>
+		<node nodeID="193" name="GRAD" description="Gradient; 32m 55ch" kilometre="52.605" x="975538.72" y="-564.1658" xNet="1787616.9" yNet="-446610.78"/>
+		<node nodeID="194" name="GRAD" description="Gradient; 32m 55ch" kilometre="52.605" x="975540.97" y="-764.08465" xNet="1787721.8" yNet="-446781.06"/>
+		<node nodeID="258" kilometre="52.969" x="979176.89" y="-563.65095" xNet="1790735.4" yNet="-444736.97"/>
+		<node nodeID="259" kilometre="52.973" x="979220.3" y="-763.65095" xNet="1790875.6" yNet="-444886.04"/>
+		<track trackID="D-2" stationID="BOPEEPJ" interlockingMachine="3 Aspect Pannel (Below 75mph)" nodeID="238" name="SIG:BJ10" description="Signal BJ10; 32m 54ch" kilometre="52.634" x="975828.77" y="-564.1094" xNet="1787865.5" yNet="-446461.43" referenceNode="193"/>
+		<node nodeID="666" name="tc" description="release contact for track circuit" kilometre="52.964" x="979065.25" y="-639.63397" xNet="1790678.6" yNet="-444859.19" referenceNode="14" releaseContact="true" arranged="true"/>
+		<node nodeID="667" name="tc" description="release contact for track circuit" kilometre="52.965" x="979088.89" y="-663.39954" xNet="1790711.1" yNet="-444867.46" referenceNode="17" releaseContact="true" arranged="true"/>
+		<node nodeID="668" name="tc" description="release contact for track circuit" kilometre="52.930" x="978782.26" y="-763.65095" xNet="1790496.1" yNet="-445115.15" referenceNode="223" releaseContact="true" arranged="true"/>
+		<node nodeID="669" name="tc" description="release contact for track circuit" kilometre="52.920" x="978679.9" y="-364.12257" xNet="1790206.4" yNet="-444821.53" referenceNode="18" releaseContact="true" arranged="true"/>
+		<speedIndicator nodeID="16" name="GRAD" description="Gradient; 32m 73ch" kilometre="52.968" x="979093" y="-563.65095" xNet="1790666.3" yNet="-444784.91" referenceNode="14"/>
+		<speedIndicator nodeID="670" kilometre="52.959" x="978983.49" y="-552.02198" xNet="1790566.8" yNet="-444830.86" referenceNode="22"/>
+		<node nodeID="672" kilometre="97.895" x="978452.84" y="200" xNet="1792219.8" yNet="-442965.48"/>
+		<node nodeID="673" name="OL BJ18/21" description="OL for SIG : BJ18/21" kilometre="52.884" x="978332.94" y="-763.65095" xNet="1790115" yNet="-445343.06"/>
+		<node nodeID="685" name="OL BJ1" description="OL for SIG : BJ1" kilometre="98.091" x="981334.69" y="400" xNet="1793668.7" yNet="-444014.19"/>
+		<node nodeID="686" name="OL BJ1" description="OL for SIG : BJ1" kilometre="98.106" x="981403.72" y="200" xNet="1793734.2" yNet="-444218.12"/>
+		<node nodeID="10" kilometre="52.977" x="979268.04" y="-563.65095" xNet="1792017.2" yNet="-444006.55"/>
+		<node nodeID="9" kilometre="52.977" x="979268.04" y="-763.65095" xNet="1792089.5" yNet="-444199.63"/>
+		<speedIndicator nodeID="677" kilometre="52.970" x="979190.24" y="-763.65095" xNet="1790849.9" yNet="-444901.53" referenceNode="259"/>
+		<node nodeID="19" kilometre="52.918" x="978667.85" y="-563.65095" xNet="1790299.1" yNet="-444999.12"/>
+		<node nodeID="20" kilometre="52.917" x="978663.18" y="-763.65095" xNet="1790398.1" yNet="-445172.97"/>
+		<stationBorder exitType="regular" stationID="BOPEEPJ" lineID="so600" trackNumber="DH" nodeID="656" kilometre="52.550" x="974988.72" y="-564.16065" xNet="1787145.5" yNet="-446894.05" referenceNode="193">
+			<netLimitInfo lineID="so600"/>
+		</stationBorder>
+		<stationBorder exitType="regular" stationID="BOPEEPJ" lineID="so600" trackNumber="UH" nodeID="684" kilometre="52.550" x="974992.19" y="-764.1167" xNet="1787251.4" yNet="-447063.69" referenceNode="194">
+			<netLimitInfo lineID="so600"/>
+		</stationBorder>
+	</nodes>
+	<links>
+		<link source="5" target="243" length="1" gradient="1.748" vmax="32" vmaxr="32"/>
+		<link source="7" target="688" length="9" gradient="1.748" vmax="32" vmaxr="32"/>
+		<link source="9" target="7" length="1" gradient="1.748" vmax="97" vmaxr="97"/>
+		<link source="10" target="5" length="1" gradient="1.748" vmax="97" vmaxr="97"/>
+		<link source="14" target="16" length="8" gradient="9.524" vmax="97" vmaxr="97"/>
+		<link source="14" target="666" length="7" gradient="9.524" vmax="25" vmaxr="25"/>
+		<link source="15" target="669" length="1" gradient="9.524" vmax="25" vmaxr="25"/>
+		<link source="16" target="258" length="1" gradient="1.748" vmax="97" vmaxr="97"/>
+		<link source="17" target="677" gradient="1.748" vmax="97" vmaxr="97"/>
+		<link source="18" target="22" length="15" vmax="25" vmaxr="25"/>
+		<link source="19" target="14" length="42" gradient="9.524" vmax="97" vmaxr="97"/>
+		<link source="20" target="668" length="13" gradient="9.524" vmax="97" vmaxr="97"/>
+		<link source="22" target="670" length="19" gradient="9.524" vmax="25" vmaxr="25"/>
+		<link source="46" target="5694" length="5" gradient="10" vmax="32" vmaxr="32"/>
+		<link source="47" target="483" length="13" gradient="10" vmax="32" vmaxr="32"/>
+		<link source="48" target="5497" length="55" gradient="10" vmax="48" vmaxr="48"/>
+		<link source="49" target="484" length="3" gradient="10" vmax="32" vmaxr="32"/>
+		<link source="50" target="5484" length="22" gradient="-7.576" vmax="40" vmaxr="40"/>
+		<link source="51" target="5488" length="22" gradient="10" vmax="40" vmaxr="40"/>
+		<link source="52" target="475" length="24" gradient="10" vmax="40" vmaxr="40"/>
+		<link source="53" target="479" length="36" gradient="10" vmax="40" vmaxr="40"/>
+		<link source="163" target="165" length="52" gradient="17.544" vmax="97" vmaxr="97"/>
+		<link source="165" target="19" length="51" gradient="9.524" vmax="97" vmaxr="97"/>
+		<link source="178" target="9" length="1" gradient="1.748" vmax="97" vmaxr="97"/>
+		<link source="186" target="10" length="1" gradient="1.748" vmax="97" vmaxr="97"/>
+		<link source="191" target="673" length="17" gradient="9.524" vmax="97" vmaxr="97"/>
+		<link source="192" target="191" length="81" gradient="17.544" vmax="97" vmaxr="97"/>
+		<link source="193" target="238" length="29" gradient="2.584" vmax="97" vmaxr="97"/>
+		<link source="194" target="192" length="181" gradient="2.584" vmax="97" vmaxr="97"/>
+		<link source="223" target="17" length="2" vmax="97" vmaxr="97"/>
+		<link source="238" target="240" length="152" gradient="2.584" vmax="97" vmaxr="97"/>
+		<link source="240" target="163" length="29" gradient="17.544" vmax="97" vmaxr="97"/>
+		<link source="243" target="5694" gradient="1.75" vmax="32" vmaxr="32"/>
+		<link source="258" target="186" length="8" gradient="1.748" vmax="97" vmaxr="97"/>
+		<link source="259" target="178" length="3" gradient="1.748" vmax="97" vmaxr="97"/>
+		<link source="473" target="474" length="87" gradient="-7.576" vmax="40" vmaxr="40"/>
+		<link source="474" target="52" length="57" gradient="10" vmax="40" vmaxr="40"/>
+		<link source="475" target="476" length="32" gradient="10" vmax="40" vmaxr="40"/>
+		<link source="476" target="477" length="19" gradient="10" vmax="40" vmaxr="40"/>
+		<link source="477" target="478" length="78" gradient="10" vmax="40" vmaxr="40"/>
+		<link source="478" target="53" length="16" gradient="10" vmax="40" vmaxr="40"/>
+		<link source="479" target="480" length="7" gradient="10" vmax="32" vmaxr="32"/>
+		<link source="480" target="481" length="1" gradient="10" vmax="32" vmaxr="32"/>
+		<link source="481" target="482" length="1" gradient="10" vmax="32" vmaxr="32"/>
+		<link source="482" target="47" length="29" gradient="10" vmax="32" vmaxr="32"/>
+		<link source="483" target="504" length="1" gradient="10" vmax="32" vmaxr="32"/>
+		<link source="484" target="485" length="5" gradient="10" vmax="32" vmaxr="32"/>
+		<link source="485" target="685" length="82" gradient="10" vmax="48" vmaxr="48"/>
+		<link source="504" target="49" length="1" gradient="10" vmax="32" vmaxr="32"/>
+		<link source="656" target="193" length="55" gradient="1.894" vmax="97" vmaxr="97"/>
+		<link source="666" target="667" length="2" gradient="9.524" vmax="25" vmaxr="25"/>
+		<link source="667" target="17" length="11" gradient="9.524" vmax="25" vmaxr="25"/>
+		<link source="668" target="223" length="38" gradient="9.524" vmax="97" vmaxr="97"/>
+		<link source="669" target="18" length="5" gradient="9.524" vmax="25" vmaxr="25"/>
+		<link source="670" target="14" length="1" gradient="9.524" vmax="97" vmaxr="97"/>
+		<link source="672" target="5489" length="31" gradient="10" vmax="40" vmaxr="40"/>
+		<link source="673" target="20" length="33" gradient="9.524" vmax="97" vmaxr="97"/>
+		<link source="677" target="259" length="4" gradient="1.748" vmax="97" vmaxr="97"/>
+		<link source="684" target="194" length="55" gradient="1.894" vmax="97" vmaxr="97"/>
+		<link source="685" target="486" length="59" gradient="10" vmax="48" vmaxr="48"/>
+		<link source="686" target="5498" length="44" gradient="10" vmax="48" vmaxr="48"/>
+		<link source="688" target="5493" gradient="1.75" vmax="32" vmaxr="32"/>
+		<link source="5483" target="50" length="50" gradient="-7.576" vmax="40" vmaxr="40"/>
+		<link source="5484" target="5485" length="15" gradient="-7.576" vmax="40" vmaxr="40"/>
+		<link source="5485" target="5486" length="63" gradient="10" vmax="40" vmaxr="40"/>
+		<link source="5486" target="5487" length="18" gradient="10" vmax="40" vmaxr="40"/>
+		<link source="5487" target="51" length="10" gradient="10" vmax="40" vmaxr="40"/>
+		<link source="5488" target="672" length="96" gradient="10" vmax="40" vmaxr="40"/>
+		<link source="5489" target="5490" length="1" gradient="10" vmax="40" vmaxr="40"/>
+		<link source="5490" target="5491" gradient="10" vmax="40" vmaxr="40"/>
+		<link source="5491" target="5492" length="22" gradient="10" vmax="40" vmaxr="40"/>
+		<link source="5492" target="46" length="12" gradient="10" vmax="32" vmaxr="32"/>
+		<link source="5493" target="5507" length="1" gradient="10" vmax="32" vmaxr="32"/>
+		<link source="5494" target="5495" length="3" gradient="10" vmax="32" vmaxr="32"/>
+		<link source="5495" target="5496" length="2" gradient="10" vmax="48" vmaxr="48"/>
+		<link source="5496" target="48" length="23" gradient="10" vmax="48" vmaxr="48"/>
+		<link source="5497" target="686" length="19" gradient="10" vmax="48" vmaxr="48"/>
+		<link source="5507" target="5494" length="4" gradient="10" vmax="32" vmaxr="32"/>
+		<link source="5694" target="5697" length="16" gradient="10" vmax="32" vmaxr="32"/>
+		<link source="5694" target="5699" length="16" gradient="10" vmax="32" vmaxr="32"/>
+		<link source="5697" target="5698" length="1" gradient="10" vmax="32" vmaxr="32"/>
+		<link source="5698" target="483" length="16" gradient="10" vmax="32" vmaxr="32"/>
+		<link source="5699" target="5700" length="1" gradient="10" vmax="32" vmaxr="32"/>
+		<link source="5700" target="5493" length="16" gradient="10" vmax="32" vmaxr="32"/>
+	</links>
+	<dependentLinks/>
+	<blockSections>
+		<blocksection uuid="{3b3b5023-4130-4f71-a2f0-05a9a409f14f}" lines="bbj" speedIndicators="5492 5495">
+			<part nodes="5496 5495 5494 5507 5493 5700 5699 5694 46 5492 5491 5490 5489 672 5488 51 5487 5486 5485 5484"/>
+		</blocksection>
+		<blocksection uuid="{3b407dec-0911-4b58-9465-d7316c30e4ac}" lines="bbj so170">
+			<part nodes="5484 50 5483"/>
+		</blocksection>
+		<blocksection uuid="{3e3d9516-39e2-4988-8f76-b17a1af9ac2e}" lines="bbj so170">
+			<part nodes="473 474 52 475 476 477 478"/>
+		</blocksection>
+		<blocksection uuid="{52171e48-3dbe-4f46-b2ab-b9e7da696c15}" lines="bbj so170" speedIndicators="5 485">
+			<part nodes="238 240 163 165 19 14 16 258 186 10 5 243 5694 5697 5698 483 504 49 484 485 685 486"/>
+		</blocksection>
+		<blocksection uuid="{6ad1b21d-cf6c-4b7e-991f-3e8a391cb898}" lines="bbj so170" speedIndicators="479 485">
+			<part nodes="478 53 479 480 481 482 47 483 504 49 484 485 685 486"/>
+		</blocksection>
+		<blocksection uuid="{6c4f7097-2777-4434-a608-325c6ac3b80f}" lines="bbj so600" shuntingBlock="true">
+			<part nodes="15 669 18"/>
+		</blocksection>
+		<blocksection uuid="{774596fb-5841-4c1c-a731-6f3d558f4b52}" lines="bbj so600">
+			<part nodes="656 193 238"/>
+		</blocksection>
+		<blocksection uuid="{979e61c4-792b-41d9-8232-8fc4f0c321bd}" lines="bbj so600" shuntingBlock="true">
+			<part nodes="656 193 238"/>
+		</blocksection>
+		<blocksection uuid="{c850e3aa-a22a-4d9d-8d99-3fbd6591154f}" lines="bbj so600" shuntingBlock="true" speedIndicators="7 670 677 5495">
+			<part nodes="5496 5495 5494 5507 5493 688 7 9 178 259 677 17 667 666 14 670 22 18 669 15"/>
+		</blocksection>
+		<blocksection uuid="{c9fb0ece-e268-4caa-a4e2-35788e1389e6}" lines="bbj so170">
+			<part nodes="5498 686 5497 48 5496"/>
+		</blocksection>
+		<blocksection uuid="{cdfd5ba8-0d71-46cf-b9fb-5dfc079785c7}" lines="bbj so170" speedIndicators="5 485 670">
+			<part nodes="18 22 670 14 16 258 186 10 5 243 5694 5697 5698 483 504 49 484 485 685 486"/>
+		</blocksection>
+		<blocksection uuid="{ffbefee0-1f1a-4bd4-ad13-64b9e1b04178}" lines="bbj so600" speedIndicators="7 5495">
+			<part nodes="5496 5495 5494 5507 5493 688 7 9 178 259 677 17 223 668 20 673 191 192 194 684"/>
+		</blocksection>
+	</blockSections>
+	<slipDistances>
+		<slipdistance uuid="{3d58ac2f-d7ea-4a95-989d-f871db8e0b40}" vmax="999" lines="bbj" serialNumber="0">
+			<part nodes="478 53 479 480 481"/>
+		</slipdistance>
+		<slipdistance uuid="{4f3d9ad9-4da1-41de-8cc4-72c873d4b65b}" vmax="999" lines="bbj so600" serialNumber="2">
+			<part nodes="5496 5495 5494 5507 5493 688 7 9 178 259 677 17 667 666 14 670 22 18 669 15"/>
+		</slipdistance>
+		<slipdistance uuid="{53766651-4f7e-4464-8708-206e34348bc9}" vmax="999" lines="bbj" serialNumber="0">
+			<part nodes="5496 5495 5494 5507 5493 5700 5699 5694 46 5492 5491 5490"/>
+		</slipdistance>
+		<slipdistance uuid="{7d9a92a2-49af-4ece-a40b-48c3ed19207a}" vmax="999" lines="bbj" serialNumber="0">
+			<part nodes="18 22 670 14 16 258 186 10 5 243 5694 5697 5698 483 504 49 484 485 685"/>
+		</slipdistance>
+		<slipdistance uuid="{8ccd6d6d-0720-4197-b324-40b4dac0c6b7}" vmax="999" lines="bbj so170" serialNumber="0">
+			<part nodes="5484 50 5483"/>
+		</slipdistance>
+		<slipdistance uuid="{c039624e-e8d4-4b27-a984-72cb7a7d1e38}" vmax="999" lines="bbj" serialNumber="1">
+			<part nodes="18 22 670 14 666 667 17 677 259 178 9 7 688 5493 5507 5494 5495 5496 48 5497 686"/>
+		</slipdistance>
+		<slipdistance uuid="{c25b739f-a3c9-49dd-ae3e-8546a1a38d43}" vmax="999" lines="bbj" serialNumber="1">
+			<part nodes="5496 5495 5494 5507 5493 688 7 9 178 259 677 17 223 668 20 673"/>
+		</slipdistance>
+		<slipdistance uuid="{da9c9f8c-e011-4852-bc22-d9285f3be5b3}" vmax="999" lines="bbj so600" serialNumber="0">
+			<part nodes="656 193 238 240 163"/>
+		</slipdistance>
+		<slipdistance uuid="{e68a9d97-a19f-4b95-a525-f3e2ac6bc3b0}" vmax="999" lines="bbj" serialNumber="0">
+			<part nodes="238 240 163"/>
+		</slipdistance>
+	</slipDistances>
+	<approachControlRoutes/>
+	<stationRoutes>
+		<stationRoute stationID="BOPEEPJ" name="[STLNRWM]-[so600/DH]-[2]-[]-[so170/2] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=95;NRz=95;S=95;Rz=95;FGz=95;NGz=95;Gz=95;Lz=95;Unbekannt=95" nodes="656 193 238 240 163 165 19 14 16 258 186 10 5 243 5694 5697 5698 483 504 49"/>
+		<stationRoute stationID="BOPEEPJ" name="[STLNRWM]-[so600/SDG]-[2]-[STLNRWS]-[so170/2] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=90;NRz=90;S=90;Rz=90;FGz=90;NGz=90;Gz=90;Lz=90;Unbekannt=90" nodes="15 669 18 22 670 14 16 258 186 10 5 243 5694 5697 5698 483 504 49"/>
+		<stationRoute stationID="BOPEEPJ" name="[STLNRWS]-[so170/1]-[1]-[STLNRWM]-[so600/SDG] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=90;NRz=90;S=90;Rz=90;FGz=90;NGz=90;Gz=90;Lz=90;Unbekannt=90" nodes="48 5496 5495 5494 5507 5493 688 7 9 178 259 677 17 667 666 14 670 22 18 669 15"/>
+		<stationRoute stationID="BOPEEPJ" name="[STLNRWS]-[so170/1]-[1]-[WSLE]-[so170/1] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="48 5496 5495 5494 5507 5493 5700 5699 5694 46"/>
+		<stationRoute stationID="BOPEEPJ" name="[WSLE]-[so170/2]-[2]-[STLNRWS]-[so170/2] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="47 483 504 49"/>
+		<stationRoute stationID="BOPEEPJ" name="[]-[so170/1]-[1]-[STLNRWM]-[so600/UH] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=95;NRz=95;S=95;Rz=95;FGz=95;NGz=95;Gz=95;Lz=95;Unbekannt=95" nodes="48 5496 5495 5494 5507 5493 688 7 9 178 259 677 17 223 668 20 673 191 192 194 684"/>
+		<stationRoute stationID="WSLE" name="[BOPEEPJ]-[so170/1]-[1]-[CRWHRST]-[so170/1] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="51 5487 5486 5485 5484 50"/>
+		<stationRoute stationID="WSLE" name="[CRWHRST]-[so170/2]-[2]-[BOPEEPJ]-[so170/2] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="52 475 476 477 478 53"/>
+	</stationRoutes>
+	<lineCatalog/>
+	<zugNummernFelder/>
+	<switchGears/>
+</line>

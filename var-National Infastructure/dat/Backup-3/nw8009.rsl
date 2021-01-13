@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<line lineID="nw8009" name="Walton Jn - Kirkby" trafficRouting="on_the_left" type="local" dependentLines="waltj">
+	<version major="1" minor="2" patchlevel="0" comment=""/>
+	<creator user="VWaddelo" timestamp="2016-07-08T10:58:15"/>
+	<lasteditor user="VWaddelo" timestamp="2016-07-08T10:58:15"/>
+	<stations>
+		<station stationID="FAZKRLY" name="Fazakerley" xNet="-2193381.85" yNet="4450325.9" uicLocationCode="0" circleDiameter="0">
+			<textElement type="name">
+				<pos view="net" x="3087.31" y="3087.31" angle="0" system="source"/>
+				<pos view="wgs84" x="3087.31" y="3087.31" angle="0" system="source"/>
+				<pos view="line" x="3472.26" y="3472.26" angle="0" system="source"/>
+				<pos view="macro" x="28.2843" y="28.2843" angle="0" system="source"/>
+				<pos view="macroWgs84" x="0" y="0" angle="0" system="source"/>
+			</textElement>
+		</station>
+		<station stationID="KKBYL" name="Kirkby Liverpool Line" xNet="-2177757.85" yNet="4465419.5" uicLocationCode="0" circleDiameter="0">
+			<textElement type="name">
+				<pos view="net" x="443.718" y="443.718" angle="0" system="source"/>
+				<pos view="wgs84" x="443.718" y="443.718" angle="0" system="source"/>
+				<pos view="line" x="499.571" y="499.571" angle="0" system="source"/>
+				<pos view="macro" x="28.2843" y="28.2843" angle="0" system="source"/>
+				<pos view="macroWgs84" x="0" y="0" angle="0" system="source"/>
+			</textElement>
+		</station>
+		<station stationID="RICELA" name="Rice Lane" xNet="-2229908" yNet="4420331.5" uicLocationCode="0" circleDiameter="0">
+			<textElement type="name">
+				<pos view="net" x="652.446" y="652.446" angle="0" system="source"/>
+				<pos view="wgs84" x="652.446" y="652.446" angle="0" system="source"/>
+				<pos view="line" x="622.043" y="622.043" angle="0" system="source"/>
+				<pos view="macro" x="28.2843" y="28.2843" angle="0" system="source"/>
+				<pos view="macroWgs84" x="0" y="0" angle="0" system="source"/>
+			</textElement>
+		</station>
+	</stations>
+	<nodes>
+		<track trackID="D-1" stationID="KKBYL" interlockingMachine="2 Aspect Pannel (Below 75mph)" nodeID="86" name="SIG : Terminal" description="Signal Terminal" kilometre="47.496" x="474960" y="0" xNet="-2177314.2" yNet="4465850.9" referenceNode="87"/>
+		<track trackID="U-1" stationID="KKBYL" type="stopBoard" nodeID="88" name="U-1" description="Kirkby U-1; stopBoard; 29m 47.96ch" kilometre="47.636" x="476360" y="0" xNet="-2178206.3" yNet="4464983.6" referenceNode="87">
+			<platform startPos="-1400" endPos="0" width="150" left="true" open="true"/>
+		</track>
+		<node nodeID="91" name="GRAD" description="Gradient; 29m 63.82ch" kilometre="47.955" x="479550" y="0" xNet="-2178930.8" yNet="4464250.6"/>
+		<node nodeID="92" name="1000MM" description="1000MM : 48" kilometre="48.000" x="480000" y="0" xNet="-2179217.5" yNet="4463971.9"/>
+		<node nodeID="93" name="GRAD" description="Gradient; 29m 71.67ch" kilometre="48.113" x="481130" y="0" xNet="-2179937.3" yNet="4463272.1"/>
+		<node nodeID="94" name="OL KY" description="OL for SIG : KY" kilometre="48.363" x="483630" y="0" xNet="-2181531.2" yNet="4461723"/>
+		<node nodeID="95" name="REP : 308R" description="Balise 308R; 30m 10.32ch" kilometre="48.488" x="484880" y="0" xNet="-2182326.9" yNet="4460948.7" referenceNode="94" presignal="true" with1000HzMagnet="true"/>
+		<signal interlockingMachine="Semaphore (Inner Home)" nodeID="96" name="SIG : KY" description="Signal KY; 30m 13.06ch" kilometre="48.543" x="485430" y="0" xNet="-2182676.9" yNet="4460608.1" referenceNode="97"/>
+		<node nodeID="97" name="GRAD" description="Gradient; 30m 19.62ch" kilometre="48.675" x="486750" y="0" xNet="-2183519.1" yNet="4459790.6"/>
+		<node nodeID="98" name="SD : KY" description="sighting distance for SIG : KY" kilometre="48.731" x="487310" y="0" xNet="-2183875.5" yNet="4459443.9" referenceNode="99" sightingDistance="true"/>
+		<node nodeID="99" name="GRAD" description="Gradient; 30m 31.54ch" kilometre="48.915" x="489150" y="0" xNet="-2185048.1" yNet="4458304.2"/>
+		<node nodeID="100" name="1000MM" description="1000MM : 49" kilometre="49.000" x="490000" y="0" xNet="-2185590.1" yNet="4457777.5"/>
+		<node nodeID="101" name="SD : 308" description="sighting distance for SIG : 308" kilometre="49.397" x="493970" y="0" xNet="-2188119.3" yNet="4455318.8" referenceNode="100" sightingDistance="true"/>
+		<signal interlockingMachine="3 Aspect Pannel (Below 75mph)" nodeID="102" name="SIG : 308" description="Signal 308; 30m 64.84ch" kilometre="49.585" x="495850" y="0" xNet="-2189316.6" yNet="4454153.8" referenceNode="101"/>
+		<switch start="130" endOfMainTrack="104" endOfBranchTrack="131" nodeID="103" name="POINTS : 2305" description="POINTS : 2305; 49.71 mph; 30m 71.80ch" kilometre="49.725" x="497250" y="0" xNet="-2190208.7" yNet="4453286.5"/>
+		<node nodeID="106" name="1000MM" description="1000MM : 50" kilometre="50.000" x="500000" y="0" xNet="-2191961.9" yNet="4451583.5"/>
+		<node nodeID="107" name="GRAD" description="Gradient; 31m 27.85ch" kilometre="50.450" x="504500" y="0" xNet="-2194829.3" yNet="4448795.9"/>
+		<track trackID="T-1" stationID="FAZKRLY" type="timingPoint" nodeID="108" name="T-1" description="Fazakerley T-1; timingPoint; 31m 30.98ch" kilometre="50.513" x="505130" y="0" xNet="-2195230.2" yNet="4448405.3" referenceNode="107"/>
+		<node nodeID="109" name="SD : 306" description="sighting distance for SIG : 306" kilometre="50.522" x="505220" y="0" xNet="-2195287.5" yNet="4448350.2" referenceNode="108" sightingDistance="true"/>
+		<track trackID="U-1" stationID="FAZKRLY" type="stopBoard" nodeID="110" name="U-1" description="Fazakerley U-1; stopBoard; 31m 34.16ch" kilometre="50.577" x="505770" y="0" xNet="-2195638.4" yNet="4448009.4" referenceNode="109">
+			<platform startPos="-1250" endPos="0" width="100" left="true" open="true"/>
+		</track>
+		<signal interlockingMachine="2 Aspect Pannel (Below 75mph)" nodeID="111" name="SIG : 306" description="Signal 306; 31m 40.77ch" kilometre="50.710" x="507100" y="0" xNet="-2196485.8" yNet="4447185" referenceNode="10"/>
+		<node nodeID="114" name="GRAD" description="Gradient; 31m 64.23ch" kilometre="51.182" x="511820" y="0" xNet="-2216521.3" yNet="4428870.8"/>
+		<node nodeID="115" name="REP : 302R" description="Balise 302R; 32m 7.16ch" kilometre="51.643" x="516430" y="0" xNet="-2220388.1" yNet="4426359.7" referenceNode="114" presignal="true" with1000HzMagnet="true"/>
+		<node nodeID="116" name="GRAD" description="Gradient; 32m 13.82ch" kilometre="51.777" x="517770" y="0" xNet="-2221511.7" yNet="4425629.4"/>
+		<node nodeID="117" name="1000MM" description="1000MM : 52" kilometre="52.000" x="520000" y="0" xNet="-2223381.9" yNet="4424415.7"/>
+		<node nodeID="118" name="GRAD" description="Gradient; 32m 46.47ch" kilometre="52.434" x="524340" y="0" xNet="-2227021.9" yNet="4422051.9"/>
+		<node nodeID="120" name="SD : 302" description="sighting distance for SIG : 302" kilometre="52.659" x="526590" y="0" xNet="-2228908.4" yNet="4420826.5" referenceNode="119" sightingDistance="true"/>
+		<track trackID="T-1" stationID="RICELA" type="timingPoint" nodeID="121" name="T-1" description="Rice Lane T-1; timingPoint; 32m 59.99ch" kilometre="52.706" x="527060" y="0" xNet="-2229302.1" yNet="4420569.8" referenceNode="1"/>
+		<node nodeID="122" name="GRAD" description="Gradient; 32m 62.38ch" kilometre="52.754" x="527540" y="0" xNet="-2229705.3" yNet="4420308.9"/>
+		<track trackID="U-1" stationID="RICELA" interlockingMachine="3 Aspect Pannel (Below 75mph)" nodeID="124" name="SIG : 302" description="Signal 302; 32m 66.20ch" kilometre="52.831" x="528310" y="0" xNet="-2230350.5" yNet="4419888.9" referenceNode="122">
+			<platform startPos="-1500" endPos="0" width="150" left="true" open="true"/>
+		</track>
+		<node nodeID="125" name="GRAD" description="Gradient; 32m 69.78ch" kilometre="52.903" x="529030" y="0" xNet="-2230954.6" yNet="4419496.8"/>
+		<node nodeID="126" name="1000MM" description="1000MM : 53" kilometre="53.000" x="530000" y="0" xNet="-2231768" yNet="4418968.4"/>
+		<node nodeID="137" name="1000MM" description="1000MM : 50" kilometre="50.000" x="500000" y="-200" xNet="-2192088.9" yNet="4451706.9"/>
+		<signal interlockingMachine="2 Aspect Pannel (Below 75mph)" nodeID="138" name="SIG : 305" description="Signal 305; 31m 6.88ch" kilometre="50.028" x="500280" y="-200" xNet="-2192267.4" yNet="4451533.4" referenceNode="139"/>
+		<node nodeID="139" name="SD : 305" description="sighting distance for SIG : 305" kilometre="50.216" x="502160" y="-200" xNet="-2193466" yNet="4450369.1" referenceNode="140" sightingDistance="true"/>
+		<node nodeID="140" name="GRAD" description="Gradient; 31m 27.85ch" kilometre="50.450" x="504500" y="-200" xNet="-2194956.3" yNet="4448919.5"/>
+		<track trackID="D-2" stationID="FAZKRLY" type="stopBoard" nodeID="141" name="D-2" description="Fazakerley D-2; stopBoard; 31m 28.10ch" kilometre="50.455" x="504550" y="-200" xNet="-2194988.7" yNet="4448888.8" referenceNode="142">
+			<platform startPos="-1200" endPos="0" width="150" left="true" open="true"/>
+		</track>
+		<track trackID="T-2" stationID="FAZKRLY" type="timingPoint" nodeID="142" name="T-2" description="Fazakerley T-2; timingPoint; 31m 30.98ch" kilometre="50.513" x="505130" y="-200" xNet="-2195358.3" yNet="4448529.6" referenceNode="141"/>
+		<node nodeID="144" name="1000MM" description="1000MM : 51" kilometre="51.000" x="510000" y="-200" xNet="-2215103.1" yNet="4430029.4"/>
+		<signal interlockingMachine="3 Aspect Pannel (Below 75mph)" nodeID="145" name="SIG : 303" description="Signal 303; 31m 62.19ch" kilometre="51.141" x="511410" y="-200" xNet="-2216285.6" yNet="4429261.5" referenceNode="146"/>
+		<node nodeID="146" name="GRAD" description="Gradient; 31m 64.23ch" kilometre="51.182" x="511820" y="-200" xNet="-2216629.8" yNet="4429038.1"/>
+		<node nodeID="147" name="SD : 303" description="sighting distance for SIG : 303" kilometre="51.329" x="513290" y="-200" xNet="-2217862.9" yNet="4428238" referenceNode="148" sightingDistance="true"/>
+		<node nodeID="148" name="GRAD" description="Gradient; 32m 13.82ch" kilometre="51.777" x="517770" y="-200" xNet="-2221620.4" yNet="4425797.9"/>
+		<node nodeID="149" name="1000MM" description="1000MM : 52" kilometre="52.000" x="520000" y="-200" xNet="-2223490.4" yNet="4424583"/>
+		<signal interlockingMachine="3 Aspect Pannel (Below 75mph)" nodeID="151" name="SIG : 301" description="Signal 301; 32m 36.78ch" kilometre="52.239" x="522390" y="-200" xNet="-2225494.4" yNet="4423281.3" referenceNode="152"/>
+		<node nodeID="152" name="SD : 301" description="sighting distance for SIG : 301" kilometre="52.427" x="524270" y="-200" xNet="-2227071.8" yNet="4422257.9" referenceNode="153" sightingDistance="true"/>
+		<node nodeID="153" name="GRAD" description="Gradient; 32m 46.47ch" kilometre="52.434" x="524340" y="-200" xNet="-2227130.4" yNet="4422219"/>
+		<node nodeID="156" name="SD : 304" description="sighting distance for SIG : 304" kilometre="52.675" x="526750" y="-200" xNet="-2229151" yNet="4420906.7" referenceNode="155" sightingDistance="true"/>
+		<track trackID="T-2" stationID="RICELA" type="timingPoint" nodeID="157" name="T-2" description="Rice Lane T-2; timingPoint; 32m 59.99ch" kilometre="52.706" x="527060" y="-200" xNet="-2229411.8" yNet="4420738.2" referenceNode="169"/>
+		<node nodeID="159" name="GRAD" description="Gradient; 32m 62.38ch" kilometre="52.754" x="527540" y="-200" xNet="-2229813.8" yNet="4420476.1"/>
+		<track trackID="U-2" stationID="RICELA" interlockingMachine="2 Aspect Pannel (Below 75mph)" nodeID="160" name="SIG : 304" description="Signal 304; 32m 66.20ch" kilometre="52.831" x="528310" y="-200" xNet="-2230460.2" yNet="4420057.3" referenceNode="159">
+			<platform startPos="-1500" endPos="0" width="150" left="false" open="true"/>
+		</track>
+		<node nodeID="161" name="GRAD" description="Gradient; 32m 69.78ch" kilometre="52.903" x="529030" y="-200" xNet="-2231064.3" yNet="4419665.2"/>
+		<node nodeID="162" name="1000MM" description="1000MM : 53" kilometre="53.000" x="530000" y="-200" xNet="-2231877.7" yNet="4419136.9"/>
+		<node nodeID="163" name="OL 304" description="OL for SIG : SIG : 304" kilometre="53.011" x="530110" y="-200" xNet="-2231969.4" yNet="4419076.6"/>
+		<node nodeID="87" name="SD : Terminal" description="sighting distance for SIG : Terminal" kilometre="47.566" x="475660.03" y="0" xNet="-2177759.8" yNet="4465417.3" referenceNode="88" sightingDistance="true"/>
+		<node nodeID="105" name="tc" description="release contact for track circuit" kilometre="49.766" x="497660" y="0" xNet="-2190470.3" yNet="4453032.4" referenceNode="104" releaseContact="true" arranged="true"/>
+		<node nodeID="132" kilometre="49.765" x="497650.03" y="-200" xNet="-2190592.3" yNet="4453162.8"/>
+		<node nodeID="166" name="OL 305" description="OL for SIG : 305" kilometre="49.891" x="498910" y="-200" xNet="-2191395.1" yNet="4452382.3"/>
+		<node nodeID="167" name="OL 303" description="OL for SIG : 303" kilometre="51.004" x="510040" y="-200" xNet="-2215137.2" yNet="4430008"/>
+		<node nodeID="168" name="OL 301" description="OL for SIG : 301" kilometre="52.102" x="521020" y="-200" xNet="-2224346.1" yNet="4424027.9"/>
+		<track trackID="D-2" stationID="RICELA" type="stopBoard" nodeID="169" name="D-2" description="RICELA D-2, stopBoard; 32m 58.7ch" kilometre="52.679" x="526790" y="-200" xNet="-2229185.1" yNet="4420885.3" referenceNode="157"/>
+		<node nodeID="136" name="OL 302" description="OL for SIG : 302" kilometre="52.968" x="529680" y="0" xNet="-2231500.1" yNet="4419143.5"/>
+		<track trackID="U-2" stationID="FAZKRLY" type="stopBoard" nodeID="143" name="U-2" description="Fazakerley U-2; stopBoard; 31m 34.16ch" kilometre="50.577" x="505770" y="-200" xNet="-2195765.4" yNet="4448133" referenceNode="142"/>
+		<node nodeID="104" name="SPEED" description="Speed; 30m 71.85ch" kilometre="49.726" x="497260" y="0" xNet="-2190214.9" yNet="4453280.5"/>
+		<speedIndicator nodeID="128" name="SPEED" description="Speed; 32m 79.97ch" kilometre="53.108" x="531080" y="0" xNet="-2232674.2" yNet="4418380.9" referenceNode="126"/>
+		<speedIndicator nodeID="154" name="SPEED" description="Speed; 32m 53.98ch" kilometre="52.585" x="525850" y="-200" xNet="-2228397.3" yNet="4421396.4" referenceNode="155"/>
+		<node nodeID="158" name="SPEED" description="Speed; 32m 60.04ch" kilometre="52.707" x="527070" y="-200" xNet="-2229420.1" yNet="4420732.8"/>
+		<node nodeID="164" name="SPEED" description="Speed; 32m 79.97ch" kilometre="53.108" x="531080" y="-200" xNet="-2232782.7" yNet="4418548.2"/>
+		<node nodeID="89" name="SPEED" description="Speed; 29m 48.01ch" kilometre="47.637" x="476370" y="0" xNet="-2178212.7" yNet="4464977.5"/>
+		<node nodeID="170" name="tc" description="release contact for track circuit" kilometre="53.160" x="531600" y="-200" xNet="-2233765.9" yNet="4418043.7" referenceNode="165.waltj" releaseContact="true" arranged="true"/>
+		<speedIndicator nodeID="155" name="SPEED" description="Speed; 32m 54.03ch" kilometre="52.586" x="525860" y="-200" xNet="-2228405.6" yNet="4421391.1" referenceNode="154"/>
+		<speedIndicator nodeID="135" name="SPEED" description="Speed; 30m 77.07ch" kilometre="49.831" x="498310" y="-200" xNet="-2191011.8" yNet="4452753.8" referenceNode="166"/>
+		<speedIndicator nodeID="134" name="SPEED" description="Speed; 30m 77.02ch" kilometre="49.830" x="498300" y="-200" xNet="-2191005.5" yNet="4452759.9" referenceNode="132"/>
+		<speedIndicator nodeID="119" name="SPEED" description="Speed; 32m 53.98ch" kilometre="52.585" x="525850" y="0" xNet="-2228287.8" yNet="4421229.3" referenceNode="118"/>
+		<speedIndicator nodeID="90" name="SPEED" description="Speed; 29m 48.06ch" kilometre="47.638" x="476380" y="0" xNet="-2178218.9" yNet="4464971.4" referenceNode="89"/>
+		<node nodeID="133" name="OL 306" description="OL for SIG : 306" kilometre="50.847" x="508470" y="0" xNet="-2197458" yNet="4446411"/>
+		<speedIndicator nodeID="131" name="SPEED" description="Speed; 30m 71.85ch" kilometre="49.726" x="497259.97" y="-10" xNet="-2190222.2" yNet="4453286.6" referenceNode="132"/>
+		<node nodeID="113" name="1000MM" description="1000MM : 51" kilometre="51.000" x="510000" y="0" xNet="-2214994.6" yNet="4429862.1"/>
+		<stationBorder exitType="alternative" stationID="RICELA" lineID="nw8009" trackNumber="1" nodeID="1" name="[FAZKRLY] - [n8009/1]" kilometre="52.692" x="526919" y="0" xNet="-2229184.7" yNet="4420646.7" referenceNode="121"/>
+		<stationBorder exitType="alternative" stationID="RICELA" lineID="nw8009" trackNumber="1" nodeID="6" name="[WALTONJ] - [n8009/1]" kilometre="52.853" x="528526" y="0" xNet="-2230532.4" yNet="4419771.2" referenceNode="124"/>
+		<stationBorder exitType="alternative" stationID="RICELA" lineID="nw8009" trackNumber="2" nodeID="7" name="[WALTONJ] - [n8009/2]" kilometre="52.853" x="528526" y="-200" xNet="-2230641.1" yNet="4419939.7" referenceNode="160"/>
+		<stationBorder exitType="alternative" stationID="RICELA" lineID="nw8009" trackNumber="2" nodeID="8" name="[FAZKRLY] - [n8009/2]" kilometre="52.678" x="526778" y="-200" xNet="-2229174.9" yNet="4420891.8" referenceNode="169"/>
+		<stationBorder exitType="locked" stationID="KKBYL" trackNumber="" nodeID="85" name="Buffer stop 138" description="Buffer Stop" kilometre="47.495" x="474950" y="0" xNet="-2177308" yNet="4465857" referenceNode="86"/>
+		<stationBorder exitType="alternative" stationID="KKBYL" lineID="nw8009" trackNumber="1" nodeID="9" name="[FAZKRLY] - [n8009/1]" kilometre="47.636" x="476363" y="0" xNet="-2178207.7" yNet="4464982" referenceNode="88"/>
+		<stationBorder exitType="regular" stationID="FAZKRLY" lineID="nw8009" trackNumber="1" nodeID="130" name="[KKBY] - [n8009/1]" description="OL for SIG : 308" kilometre="49.722" x="497220" y="0" xNet="-2190189.9" yNet="4453304.9" referenceNode="103"/>
+		<stationBorder exitType="regular" stationID="FAZKRLY" lineID="nw8009" trackNumber="1" nodeID="10" name="[RICELA] - [n8009/1]" kilometre="50.617" x="506169" y="0" xNet="-2195892.2" yNet="4447762.2" referenceNode="110"/>
+		<stationBorder exitType="alternative" stationID="FAZKRLY" lineID="nw8009" trackNumber="2" nodeID="11" name="[RICELA] - [n8009/2]" kilometre="50.704" x="507039" y="-200" xNet="-2196573.8" yNet="4447346.9" referenceNode="143"/>
+	</nodes>
+	<links>
+		<link source="1" target="121" length="14" gradient="-1.46843" vmax="89"/>
+		<link source="6" target="125" length="50" gradient="4.08163" vmax="89"/>
+		<link source="7" target="161" length="50" gradient="4.08163" vmax="80" vmaxr="89"/>
+		<link source="8" target="169" length="1" gradient="-1.46843" vmax="89" vmaxr="89"/>
+		<link source="9" target="89" length="1" vmax="24" vmaxr="24" bidirectional="true"/>
+		<link source="10" target="111" length="93" gradient="2.94118" vmax="97"/>
+		<link source="11" target="144" length="296" gradient="2.94118" vmax="97" vmaxr="97"/>
+		<link source="85" target="86" length="1" vmax="24" vmaxr="24" bidirectional="true"/>
+		<link source="86" target="87" length="70" vmax="24" vmaxr="24" bidirectional="true"/>
+		<link source="87" target="88" length="70" vmax="24" vmaxr="24" bidirectional="true"/>
+		<link source="88" target="9" vmax="24" vmaxr="24" bidirectional="true"/>
+		<link source="89" target="90" length="1" vmax="24" vmaxr="97" bidirectional="true"/>
+		<link source="90" target="91" length="317" vmax="97" vmaxr="97" bidirectional="true"/>
+		<link source="91" target="92" length="45" gradient="3.33333" vmax="97" vmaxr="97" bidirectional="true"/>
+		<link source="92" target="93" length="113" gradient="3.33333" vmax="97" vmaxr="97" bidirectional="true"/>
+		<link source="93" target="94" length="250" gradient="-4.56621" vmax="97" vmaxr="97" bidirectional="true"/>
+		<link source="94" target="95" length="125" gradient="-4.56621" vmax="97" vmaxr="97" bidirectional="true"/>
+		<link source="95" target="96" length="55" gradient="-4.56621" vmax="97" vmaxr="97" bidirectional="true"/>
+		<link source="96" target="97" length="132" gradient="-4.56621" vmax="97" vmaxr="97" bidirectional="true"/>
+		<link source="97" target="98" length="56" gradient="-2.0202" vmax="97" vmaxr="97" bidirectional="true"/>
+		<link source="98" target="99" length="184" gradient="-2.0202" vmax="97" vmaxr="97" bidirectional="true"/>
+		<link source="99" target="100" length="85" gradient="0.512821" vmax="97" vmaxr="97" bidirectional="true"/>
+		<link source="100" target="101" length="397" gradient="0.512821" vmax="97" vmaxr="97" bidirectional="true"/>
+		<link source="101" target="102" length="188" gradient="0.512821" vmax="97" vmaxr="97" bidirectional="true"/>
+		<link source="102" target="130" length="137" gradient="0.512821" vmax="97" vmaxr="97" bidirectional="true"/>
+		<link source="103" target="104" length="1" gradient="0.512821" vmax="97" vmaxr="97"/>
+		<link source="103" target="131" length="1" gradient="0.512821" vmax="97" vmaxr="97"/>
+		<link source="104" target="105" length="40" gradient="0.512821" vmax="97"/>
+		<link source="105" target="106" length="234" gradient="0.512821" vmax="97"/>
+		<link source="106" target="107" length="450" gradient="0.512821" vmax="97"/>
+		<link source="107" target="108" length="63" gradient="2.94118" vmax="97"/>
+		<link source="108" target="109" length="9" gradient="2.94118" vmax="97"/>
+		<link source="109" target="110" length="55" gradient="2.94118" vmax="97"/>
+		<link source="110" target="10" length="40" gradient="2.94118" vmax="97"/>
+		<link source="111" target="133" length="137" gradient="2.94118" vmax="97"/>
+		<link source="113" target="114" length="182" gradient="2.94118" vmax="97"/>
+		<link source="114" target="115" length="461" gradient="-1" vmax="97"/>
+		<link source="115" target="116" length="134" gradient="-1" vmax="97"/>
+		<link source="116" target="117" length="223" gradient="2.94118" vmax="97"/>
+		<link source="117" target="118" length="434" gradient="2.94118" vmax="97"/>
+		<link source="118" target="119" length="151" gradient="-1.46843" vmax="97"/>
+		<link source="119" target="120" length="74" gradient="-1.46843" vmax="89"/>
+		<link source="120" target="1" length="33" gradient="-1.46843" vmax="89"/>
+		<link source="121" target="122" length="48" gradient="-1.46843" vmax="89"/>
+		<link source="122" target="124" length="77" gradient="4.08163" vmax="89"/>
+		<link source="124" target="6" length="22" gradient="4.08163" vmax="89"/>
+		<link source="125" target="136" length="65" gradient="2.5" vmax="89"/>
+		<link source="126" target="128" length="108" gradient="2.5" vmax="89"/>
+		<link source="128" target="150.waltj" length="157" gradient="2.5" vmax="80"/>
+		<link source="130" target="103" length="3" gradient="0.512821" vmax="97" vmaxr="97" bidirectional="true"/>
+		<link source="131" target="132" length="39" gradient="0.513" vmax="80" vmaxr="80"/>
+		<link source="132" target="134" length="65" gradient="0.513" vmax="80" vmaxr="80"/>
+		<link source="133" target="113" length="153" gradient="2.94118" vmax="97"/>
+		<link source="134" target="135" length="1" gradient="0.512821" vmax="97" vmaxr="80"/>
+		<link source="135" target="166" length="60" gradient="0.512821" vmax="97" vmaxr="97"/>
+		<link source="136" target="126" length="32" gradient="2.5" vmax="89"/>
+		<link source="137" target="138" length="28" gradient="0.512821" vmax="97" vmaxr="97"/>
+		<link source="138" target="139" length="188" gradient="0.512821" vmax="97" vmaxr="97"/>
+		<link source="139" target="140" length="234" gradient="0.512821" vmax="97" vmaxr="97"/>
+		<link source="140" target="141" length="5" gradient="2.941" vmax="97" vmaxr="97"/>
+		<link source="141" target="142" length="58" gradient="2.94118" vmax="97" vmaxr="97"/>
+		<link source="142" target="143" length="64" gradient="2.94118" vmax="97" vmaxr="97"/>
+		<link source="143" target="11" length="127" gradient="2.94118" vmax="97" vmaxr="97"/>
+		<link source="144" target="167" length="4" gradient="2.94118" vmax="97" vmaxr="97"/>
+		<link source="145" target="146" length="41" gradient="2.94118" vmax="97" vmaxr="97"/>
+		<link source="146" target="147" length="147" gradient="-1" vmax="97" vmaxr="97"/>
+		<link source="147" target="148" length="448" gradient="-1" vmax="97" vmaxr="97"/>
+		<link source="148" target="149" length="223" gradient="2.941" vmax="97" vmaxr="97"/>
+		<link source="149" target="168" length="102" gradient="2.941" vmax="97" vmaxr="97"/>
+		<link source="151" target="152" length="188" gradient="2.94118" vmax="97" vmaxr="97"/>
+		<link source="152" target="153" length="7" gradient="2.94118" vmax="97" vmaxr="97"/>
+		<link source="153" target="154" length="151" gradient="-1.468" vmax="97" vmaxr="97"/>
+		<link source="154" target="155" length="1" gradient="-1.46843" vmax="97" vmaxr="89"/>
+		<link source="155" target="156" length="89" gradient="-1.46843" vmax="89" vmaxr="89"/>
+		<link source="156" target="8" length="3" gradient="-1.46843" vmax="89" vmaxr="89"/>
+		<link source="157" target="158" length="1" gradient="-1.46843" vmax="89" vmaxr="89"/>
+		<link source="158" target="159" length="47" gradient="-1.46843" vmax="80" vmaxr="89"/>
+		<link source="159" target="160" length="77" gradient="4.082" vmax="80" vmaxr="89"/>
+		<link source="160" target="7" length="22" gradient="4.08163" vmax="80" vmaxr="89"/>
+		<link source="161" target="162" length="97" gradient="2.5" vmax="80" vmaxr="89"/>
+		<link source="162" target="163" length="11" gradient="2.5" vmax="80" vmaxr="89"/>
+		<link source="163" target="164" length="97" gradient="2.5" vmax="80" vmaxr="89"/>
+		<link source="164" target="170" length="52" gradient="2.5" vmax="80" vmaxr="89"/>
+		<link source="166" target="137" length="109" gradient="0.512821" vmax="97" vmaxr="97"/>
+		<link source="167" target="145" length="137" gradient="2.94118" vmax="97" vmaxr="97"/>
+		<link source="168" target="151" length="137" gradient="2.941" vmax="97" vmaxr="97"/>
+		<link source="169" target="157" length="27" gradient="-1.46843" vmax="89" vmaxr="89"/>
+		<link source="170" target="165.waltj" length="15" gradient="2.5" vmax="80" vmaxr="89"/>
+	</links>
+	<dependentLinks/>
+	<blockSections>
+		<blocksection uuid="{2c5ed5c3-876d-4862-a4a1-e263aa36c218}" lines="nw8009" speedIndicators="131 135">
+			<part nodes="138 137 166 135 134 132 131 103 130 102 101 100 99 98 97 96"/>
+		</blocksection>
+		<blocksection uuid="{37c18c5d-17af-4e3f-b070-6a335ae5615e}" lines="nw8009">
+			<part nodes="151 168 149 148 147 146 145"/>
+		</blocksection>
+		<blocksection uuid="{3c1b97f4-79e4-4a2c-992f-7439480489a3}" lines="nw8009 waltj">
+			<part nodes="160 7 161 162 163 164 170 165.waltj"/>
+		</blocksection>
+		<blocksection uuid="{615b92ca-5dc5-408a-8515-89bb8ad61dfc}" lines="nw8009">
+			<part nodes="145 167 144 11 143 142 141 140 139 138"/>
+		</blocksection>
+		<blocksection uuid="{857aa2cd-be33-4fea-be39-ce8f54492cc3}" lines="nw8009" speedIndicators="119">
+			<part nodes="111 133 113 114 115 116 117 118 119 120 1 121 122 124"/>
+		</blocksection>
+		<blocksection uuid="{9ef65602-f9d4-4ab6-99db-8c15ba7c3636}" lines="nw8009 waltj" speedIndicators="154">
+			<part nodes="165.waltj 170 164 163 162 161 7 160 159 158 157 169 8 156 155 154 153 152 151"/>
+		</blocksection>
+		<blocksection uuid="{a0f54531-2d3b-4a20-b9bf-9bc6a8aab109}" lines="nw8009">
+			<part nodes="102 130 103 104 105 106 107 108 109 110 10 111"/>
+		</blocksection>
+		<blocksection uuid="{a3aa5f16-271d-43e4-a1b7-1b4aa9a58bc6}" lines="nw8009" speedIndicators="131 134 155">
+			<part nodes="102 130 103 131 132 134 135 166 137 138 139 140 141 142 143 11 144 167 145 146 147 148 149 168 151 152 153 154 155 156 8 169 157 158 159 160"/>
+		</blocksection>
+		<blocksection uuid="{ac59633b-2733-4056-8dff-eab98721eb42}" lines="nw8009 waltj" speedIndicators="128">
+			<part nodes="124 6 125 136 126 128 150.waltj"/>
+		</blocksection>
+		<blocksection uuid="{e194e758-d2f7-47c7-8d13-c84469aad271}" lines="nw8009" speedIndicators="90">
+			<part nodes="86 87 88 9 89 90 91 92 93 94 95 96 97 98 99 100 101 102"/>
+		</blocksection>
+		<blocksection uuid="{e3140a3f-8bb4-47d3-8c19-7533194613e9}" lines="nw8009">
+			<part nodes="96 95 94 93 92 91 90 89 9 88 87 86"/>
+		</blocksection>
+	</blockSections>
+	<slipDistances>
+		<slipdistance uuid="{2266d421-1c0d-465f-9ffb-3fe57b9273d5}" vmax="999" lines="nw8009" serialNumber="0">
+			<part nodes="160 7 161 162 163"/>
+		</slipdistance>
+		<slipdistance uuid="{3a33f0fb-65f8-41a8-a657-dcdd0123b57f}" vmax="999" lines="nw8009" serialNumber="0">
+			<part nodes="111 133"/>
+		</slipdistance>
+		<slipdistance uuid="{5050b690-5302-4a62-b0b9-304965d5530c}" vmax="999" lines="nw8009" serialNumber="0">
+			<part nodes="138 137 166"/>
+		</slipdistance>
+		<slipdistance uuid="{80f5835d-f108-4c6d-9a82-22cc403d236d}" vmax="999" lines="nw8009" serialNumber="0">
+			<part nodes="102 130"/>
+		</slipdistance>
+		<slipdistance uuid="{81ad847f-41d8-4e0d-8b36-38391a599be4}" vmax="999" lines="nw8009" serialNumber="0">
+			<part nodes="124 6 125 136"/>
+		</slipdistance>
+		<slipdistance uuid="{8403fbdb-577b-44d9-9fde-7885df8d3caa}" vmax="999" lines="nw8009" serialNumber="0">
+			<part nodes="151 168"/>
+		</slipdistance>
+		<slipdistance uuid="{9962ed81-32c9-4103-a727-0d3138032999}" vmax="999" lines="nw8009" serialNumber="0">
+			<part nodes="96 95 94"/>
+		</slipdistance>
+		<slipdistance uuid="{db4dea0a-943c-4369-abc3-325532bd3a9e}" vmax="999" lines="nw8009" serialNumber="0">
+			<part nodes="145 167"/>
+		</slipdistance>
+	</slipDistances>
+	<approachControlRoutes/>
+	<stationRoutes>
+		<stationRoute stationID="FAZKRLY" name="[KKBY]-[n8009/1]-[1]-[RICELA]-[n8009/1] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="130 103 104 105 106 107 108 109 110 10"/>
+		<stationRoute stationID="FAZKRLY" name="[KKBY]-[n8009/1]-[2]-[RICELA]-[n8009/2] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=95;NRz=95;S=95;Rz=95;FGz=95;NGz=95;Gz=95;Lz=95;Unbekannt=95" nodes="130 103 131 132 134 135 166 137 138 139 140 141 142 143 11"/>
+		<stationRoute stationID="FAZKRLY" name="[RICELA]-[n8009/2]-[2]-[KKBY]-[n8009/1] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=95;NRz=95;S=95;Rz=95;FGz=95;NGz=95;Gz=95;Lz=95;Unbekannt=95" nodes="11 143 142 141 140 139 138 137 166 135 134 132 131 103 130"/>
+		<stationRoute stationID="KKBYL" name="[FAZKRLY]-[n8009/1]-[1]-[FAZKRLY]-[n8009/1] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="9 88 87 86 87 88 9"/>
+		<stationRoute stationID="KKBYL" name="[FAZKRLY]-[n8009/1]-[1]-[]-[?/] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="9 88 87 86 85"/>
+		<stationRoute stationID="KKBYL" name="[]-[?/]-[1]-[FAZKRLY]-[n8009/1] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="85 86 87 88 9"/>
+		<stationRoute stationID="RICELA" name="[FAZKRLY]-[n8009/1]-[1]-[WALTONJ]-[n8009/1] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="1 121 122 124 6"/>
+		<stationRoute stationID="RICELA" name="[FAZKRLY]-[n8009/2]-[2]-[WALTONJ]-[n8009/2] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="8 169 157 158 159 160 7"/>
+		<stationRoute stationID="RICELA" name="[WALTONJ]-[n8009/2]-[2]-[FAZKRLY]-[n8009/2] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="7 160 159 158 157 169 8"/>
+	</stationRoutes>
+	<lineCatalog/>
+	<zugNummernFelder/>
+	<switchGears/>
+</line>

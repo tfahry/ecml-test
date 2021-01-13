@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<line lineID="hepsco" name="Hepscott" trafficRouting="on_the_left" type="global" dependentLines="ln694 ln696">
+	<transformations>
+		<transformation line="ln696" m11="0.809017" m12="-0.587785" m21="0.587785" m22="0.809017" dx="334371" dy="1.26903e+06"/>
+	</transformations>
+	<version major="1" minor="2" patchlevel="0" comment=""/>
+	<creator user="Ahowe4" timestamp="2016-11-01T12:54:22"/>
+	<lasteditor user="Ahowe4" timestamp="2016-11-01T12:54:22"/>
+	<stations>
+		<station stationID="MRPTHEP" name="Hepscott Jn" xNet="-797109.43" yNet="7631266.3" uicLocationCode="0" circleDiameter="0">
+			<textElement type="name">
+				<pos view="net" x="6624.73" y="6624.73" angle="0" system="source"/>
+				<pos view="wgs84" x="6624.73" y="6624.73" angle="0" system="source"/>
+				<pos view="line" x="14775" y="14775" angle="0" system="source"/>
+				<pos view="macro" x="28.2843" y="28.2843" angle="0" system="source"/>
+				<pos view="macroWgs84" x="0" y="0" angle="0" system="source"/>
+			</textElement>
+		</station>
+	</stations>
+	<nodes>
+		<node nodeID="4" name="OL SIG: M139" description="OL for SIG : SIG: M139" kilometre="31.227" x="2157361" y="3834.295" xNet="-790810.61" yNet="7631885.2"/>
+		<node nodeID="1821" name="GRAD" kilometre="31.140" x="2156491" y="3834.295" xNet="-789666.24" yNet="7631742.5"/>
+		<node nodeID="5" kilometre="31.480" x="2160733.9" y="4555.2953" xNet="-796308.3" yNet="7630914.4"/>
+		<switch start="5382" endOfMainTrack="2" endOfBranchTrack="5" nodeID="1" name="POINTS: 551" kilometre="31.463" x="2159721" y="3834.295" xNet="-793914.84" yNet="7632272.1"/>
+		<speedIndicator nodeID="2" kilometre="31.464" x="2159731" y="3834.295" xNet="-793927.99" yNet="7632273.7" referenceNode="1"/>
+		<node nodeID="63" kilometre="32.000" x="2184239.4" y="21633.395" xNet="-804290.51" yNet="7630201.6"/>
+		<node nodeID="21" name="OL SIG: M139" description="OL for SIG : SIG: M139" kilometre="31.653" x="2168554" y="10237.048" xNet="-798963.92" yNet="7630677.3"/>
+		<node nodeID="22" name="OL SIG: 41" description="OL for SIG : SIG: 41" kilometre="32.015" x="2184917.5" y="22126.032" xNet="-804520.77" yNet="7630181.1"/>
+		<stationBorder exitType="regular" stationID="MRPTHEP" lineID="ln696" trackNumber="BT" nodeID="80" kilometre="32.137" x="2190434" y="26134.082" xNet="-806394.11" yNet="7630013.8" referenceNode="67">
+			<netLimitInfo lineID="ln696"/>
+		</stationBorder>
+		<stationBorder exitType="regular" stationID="MRPTHEP" lineID="ln694" trackNumber="BTS" nodeID="1753" kilometre="31.000" x="2155091" y="3834.295" xNet="-787824.75" yNet="7631513" referenceNode="1819">
+			<netLimitInfo lineID="ln694"/>
+		</stationBorder>
+		<stationBorder exitType="regular" stationID="MRPTHEP" lineID="ln694" trackNumber="BTS" nodeID="3" kilometre="31.613" x="2161225.8" y="3834.295" xNet="-795894.26" yNet="7632518.8" referenceNode="2">
+			<netLimitInfo lineID="ln694"/>
+		</stationBorder>
+		<track trackID="U-3" stationID="MRPTHEP" interlockingMachine="2 Aspect Pannel (Below 75mph)" nodeID="67" name="SIG: M136" kilometre="32.106" x="2189030.9" y="25114.697" xNet="-805917.65" yNet="7630056.3" referenceNode="80"/>
+		<track trackID="D-1" stationID="MRPTHEP" interlockingMachine="3 Aspect Pannel (Below 75mph)" nodeID="1819" name="SIG: M139" kilometre="31.044" x="2155531" y="3834.295" xNet="-788403.51" yNet="7631585.2" referenceNode="1753"/>
+		<track trackID="T-1" stationID="MRPTHEP" type="timingPoint" nodeID="5382" kilometre="31.462" x="2159711" y="3834.295" xNet="-793901.69" yNet="7632270.4" referenceNode="4"/>
+	</nodes>
+	<links>
+		<link source="1" target="2" length="1" vmax="72" vmaxr="72" bidirectional="true"/>
+		<link source="1" target="5" length="17" gradient="6.211" vmax="72" vmaxr="72" bidirectional="true"/>
+		<link source="2" target="3" length="149" gradient="0.957" vmax="64" vmaxr="64" bidirectional="true"/>
+		<link source="4" target="5382" length="235" gradient="6.211" vmax="72" vmaxr="72" bidirectional="true"/>
+		<link source="5" target="21" length="173" gradient="6.211" vmax="72" vmaxr="72" bidirectional="true"/>
+		<link source="21" target="63" length="347" gradient="6.211" vmax="72" vmaxr="72" bidirectional="true"/>
+		<link source="22" target="67" length="91" gradient="6.211" vmax="72" vmaxr="72" bidirectional="true"/>
+		<link source="63" target="22" length="15" gradient="6.211" vmax="72" vmaxr="72" bidirectional="true"/>
+		<link source="67" target="80" length="31" gradient="4.425" vmax="72" vmaxr="72" bidirectional="true"/>
+		<link source="1753" target="1819" length="44" gradient="6.289" vmax="72" vmaxr="72" bidirectional="true"/>
+		<link source="1819" target="1821" length="96" gradient="6.289" vmax="72" vmaxr="72" bidirectional="true"/>
+		<link source="1821" target="4" length="87" gradient="6.211" vmax="72" vmaxr="72" bidirectional="true"/>
+		<link source="5382" target="1" length="1" gradient="6.211" vmax="72" vmaxr="72" bidirectional="true"/>
+	</links>
+	<dependentLinks/>
+	<blockSections>
+		<blocksection uuid="{04a8adf8-57f3-4f96-a8f8-fcf558716e25}" lines="bdlntn hepsco ln694 morpet" speedIndicators="2">
+			<part nodes="3 2 1 5382 4 1821 1819 1753"/>
+		</blocksection>
+		<blocksection uuid="{30036fad-34f1-4065-8a17-ae2fe5ceb834}" lines="hepsco ln696">
+			<part nodes="1819 1821 4 5382 1 5 21 63 22 67 80"/>
+		</blocksection>
+		<blocksection uuid="{37588e9e-7baf-4b25-8966-125858c5cb10}" lines="hepsco ln694" speedIndicators="2">
+			<part nodes="1819 1821 4 5382 1 2 3"/>
+		</blocksection>
+		<blocksection uuid="{4ffc0b3f-9514-4975-9c00-b6dcc8745633}" lines="bdlntn hepsco ln694">
+			<part nodes="67 22 63 21 5 1 5382 4 1821 1819 1753"/>
+		</blocksection>
+		<blocksection uuid="{51ec8288-4666-40bb-8a2b-08d9519ff656}" lines="hepsco ln696 morpet">
+			<part nodes="80 67"/>
+		</blocksection>
+		<blocksection uuid="{7a66682a-1e20-460f-9e32-8a2880fb869e}" lines="hepsco ln696 morpet">
+			<part nodes="80 67"/>
+		</blocksection>
+		<blocksection uuid="{865c63f0-41cc-4988-8e4a-a754a87b05ef}" lines="hepsco ln696 morpet" shuntingBlock="true">
+			<part nodes="80 67"/>
+		</blocksection>
+		<blocksection uuid="{874976a0-80e7-462c-a5a7-6667fa0dd717}" lines="bdlntn hepsco ln694">
+			<part nodes="1753 1819"/>
+		</blocksection>
+	</blockSections>
+	<slipDistances>
+		<slipdistance uuid="{392a7008-7b7e-43b4-a652-0d46caa75c12}" publicName="Southbound" vmax="999" lines="hepsco" serialNumber="1">
+			<part nodes="1819 1821 4 5382 1 5 21"/>
+		</slipdistance>
+		<slipdistance uuid="{6f2c1a1b-e1cf-4870-bdc0-809012d28102}" vmax="999" lines="hepsco" serialNumber="0">
+			<part nodes="67 22"/>
+		</slipdistance>
+		<slipdistance uuid="{ac8dc481-7dc0-41d8-a797-1f03a9dd4bc1}" publicName="Northbound" vmax="999" lines="hepsco ln694" serialNumber="0">
+			<part nodes="1819 1821 4 5382 1 2 3"/>
+		</slipdistance>
+	</slipDistances>
+	<approachControlRoutes>
+		<ACRoute controlTyp="mar" uuid="{572b99bd-0a04-4f0a-9116-4e1d450f89c7}" publicName="MAR" description="M123-M136" lines="hepsco ln696 morpet">
+			<part nodes="80 67"/>
+		</ACRoute>
+	</approachControlRoutes>
+	<stationRoutes>
+		<stationRoute stationID="MRPTHEP" name="[BDLNTNX]-[ln600/BTS]-[1]-[MRPTNJN]-[ln600/BTS] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="1753 1819 1821 4 5382 1 2 3"/>
+		<stationRoute stationID="MRPTHEP" name="[BDLNTNX]-[ln694/BTS]-[1]-[MRPTHRP]-[ln696/BT] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=95;NRz=95;S=95;Rz=95;FGz=95;NGz=95;Gz=95;Lz=95;Unbekannt=95" nodes="1753 1819 1821 4 5382 1 5 21 63 22 67 80"/>
+		<stationRoute stationID="MRPTHEP" name="[MRPTNJN]-[ln600/BTS]-[1]-[BDLNTNX]-[ln600/BTS] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="3 2 1 5382 4 1821 1819 1753"/>
+		<stationRoute stationID="MRPTHEP" name="[]-[ln600/BT]-[1-3]-[BDLNTNX]-[ln600/BTS] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=95;NRz=95;S=95;Rz=95;FGz=95;NGz=95;Gz=95;Lz=95;Unbekannt=95" nodes="80 67 22 63 21 5 1 5382 4 1821 1819 1753"/>
+	</stationRoutes>
+	<lineCatalog/>
+	<zugNummernFelder/>
+	<switchGears/>
+</line>

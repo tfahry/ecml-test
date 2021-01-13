@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<line lineID="gw570" name="Clink Road Jn to Blatchbridge Jn via Frome" trafficRouting="on_the_left" type="local" dependentLines="blatch clink from">
+	<version major="1" minor="2" patchlevel="0" comment=""/>
+	<creator user="Ahowe4" timestamp="2016-11-01T12:54:22"/>
+	<lasteditor user="Ahowe4" timestamp="2016-11-01T12:54:22"/>
+	<stations/>
+	<nodes>
+		<node nodeID="4" kilometre="184.700" x="-12000" y="1800" xNet="-1462695.4" yNet="197376.12"/>
+		<node nodeID="5" kilometre="184.800" x="-11000" y="1800" xNet="-1463695.2" yNet="197376.32"/>
+		<node nodeID="39" kilometre="184.700" x="-12000" y="1600" xNet="-1462695.4" yNet="197576.42"/>
+		<node nodeID="40" kilometre="184.800" x="-11000" y="1600" xNet="-1463695.3" yNet="197576.52"/>
+		<node nodeID="80" kilometre="186.500" x="6000" y="1600" xNet="-1478672.4" yNet="191983.42"/>
+		<node nodeID="81" kilometre="186.600" x="7000" y="1600" xNet="-1479461.2" yNet="191368.42"/>
+		<node nodeID="82" kilometre="186.700" x="8000" y="1600" xNet="-1480244" yNet="190740.82"/>
+		<node nodeID="83" kilometre="186.800" x="9000" y="1600" xNet="-1480746.3" yNet="189904.82"/>
+		<node nodeID="84" kilometre="186.900" x="10000" y="1600" xNet="-1481246.4" yNet="189038.32"/>
+		<node nodeID="85" kilometre="187.000" x="11000" y="1600" xNet="-1481746.1" yNet="188174.02"/>
+		<node nodeID="86" kilometre="187.100" x="12000" y="1600" xNet="-1482246.2" yNet="187307.42"/>
+		<node nodeID="87" kilometre="187.200" x="13000" y="1600" xNet="-1482746.2" yNet="186440.92"/>
+		<node nodeID="88" kilometre="187.300" x="14000" y="1600" xNet="-1483247.7" yNet="185574.12"/>
+		<node nodeID="128" name="GRAD" kilometre="186.683" x="7834.2798" y="1600" xNet="-1480136.8" yNet="190863.92"/>
+		<node nodeID="139" name="SD:W216" kilometre="187.316" x="14160.137" y="1600" xNet="-1483326.1" yNet="185436.42" referenceNode="88" sightingDistance="true"/>
+		<node nodeID="133" name="SD: W199" kilometre="184.733" x="-11670.475" y="1600" xNet="-1463024.6" yNet="197576.52" referenceNode="40" sightingDistance="true"/>
+	</nodes>
+	<links>
+		<link source="4" target="5" length="100" gradient="-7.246" vmax="64" vmaxr="64" bidirectional="true" radius="2100"/>
+		<link source="5" target="6.from" length="100" gradient="-7.246" vmax="64" vmaxr="64" bidirectional="true" radius="2100"/>
+		<link source="39" target="133" length="33" gradient="-7.246" vmax="64" vmaxr="64" bidirectional="true" radius="1100"/>
+		<link source="40" target="43.from" length="100" gradient="-7.246" vmax="64" vmaxr="64" bidirectional="true" radius="1100"/>
+		<link source="44.clink" target="39" length="56" gradient="-7.246" vmax="64" vmaxr="64" bidirectional="true" radius="1100"/>
+		<link source="67.clink" target="4" length="58" gradient="-7.246" vmax="64" vmaxr="64" bidirectional="true" radius="2100"/>
+		<link source="79.from" target="80" length="100" gradient="-2.747" vmax="64" vmaxr="64" bidirectional="true" radius="3100"/>
+		<link source="80" target="81" length="100" gradient="-2.747" vmax="64" vmaxr="64" bidirectional="true" radius="3100"/>
+		<link source="81" target="128" length="83" gradient="-2.747" vmax="64" vmaxr="64" bidirectional="true" radius="3100"/>
+		<link source="82" target="83" length="100" gradient="-1.019" vmax="64" vmaxr="64" bidirectional="true" radius="3100"/>
+		<link source="83" target="84" length="100" gradient="-1.019" vmax="64" vmaxr="64" bidirectional="true" radius="3100"/>
+		<link source="84" target="85" length="100" gradient="-1.019" vmax="64" vmaxr="64" bidirectional="true" radius="3100"/>
+		<link source="85" target="86" length="100" gradient="-1.019" vmax="64" vmaxr="64" bidirectional="true" radius="3100"/>
+		<link source="86" target="87" length="100" gradient="-1.019" vmax="64" vmaxr="64" bidirectional="true" radius="3100"/>
+		<link source="87" target="88" length="100" gradient="-1.019" vmax="64" vmaxr="64" bidirectional="true" radius="3100"/>
+		<link source="88" target="139" length="16" gradient="-1.019" vmax="64" vmaxr="64" bidirectional="true" radius="3100"/>
+		<link source="128" target="82" length="17" gradient="-1.019" vmax="64" vmaxr="64" bidirectional="true" radius="3100"/>
+		<link source="133" target="40" length="67" gradient="-7.246" vmax="64" vmaxr="64" bidirectional="true" radius="1100"/>
+		<link source="139" target="89.blatch" length="84" gradient="-1.019" vmax="64" vmaxr="64" bidirectional="true" radius="3100"/>
+	</links>
+	<dependentLinks/>
+	<blockSections>
+		<blocksection uuid="{0b59584a-d34d-466c-a550-db13f11efb0c}" lines="clink from gw570">
+			<part nodes="67.clink 4 5 6.from"/>
+		</blocksection>
+		<blocksection uuid="{46ddc388-96a6-44e6-a311-e4e8b1a8c0c9}" lines="clink from gw570">
+			<part nodes="43.from 40 133 39 44.clink"/>
+		</blocksection>
+		<blocksection uuid="{48cb5090-98ac-4b04-b005-0eda74a1621b}" lines="clink from gw570" shuntingBlock="true">
+			<part nodes="67.clink 4 5 6.from"/>
+		</blocksection>
+		<blocksection uuid="{87a749e6-cd5c-4308-9e35-aca221e98771}" lines="clink from gw570">
+			<part nodes="43.from 40 133 39 44.clink"/>
+		</blocksection>
+		<blocksection uuid="{981220be-5c92-401c-9f87-f965f437fd96}" lines="clink from gw570" shuntingBlock="true">
+			<part nodes="6.from 5 4 67.clink"/>
+		</blocksection>
+		<blocksection uuid="{9b66e171-11a5-4584-b678-f8c040112f51}" lines="blatch from gw570">
+			<part nodes="89.blatch 139 88 87 86 85 84 83 82 128 81 80 79.from"/>
+		</blocksection>
+		<blocksection uuid="{b62afb76-c251-4e92-b8f8-111cb717b941}" lines="blatch from gw570">
+			<part nodes="89.blatch 139 88 87 86 85 84 83 82 128 81 80 79.from"/>
+		</blocksection>
+		<blocksection uuid="{d64faafe-7233-4272-900a-4e1a649e582d}" lines="clink from gw570" shuntingBlock="true">
+			<part nodes="6.from 5 4 67.clink"/>
+		</blocksection>
+		<blocksection uuid="{d7a0a8e4-16da-4250-8f10-ef38ab219b48}" lines="blatch from gw570">
+			<part nodes="79.from 80 81 128 82 83 84 85 86 87 88 139 89.blatch"/>
+		</blocksection>
+	</blockSections>
+	<slipDistances/>
+	<approachControlRoutes/>
+	<stationRoutes/>
+	<lineCatalog/>
+	<zugNummernFelder/>
+	<switchGears/>
+</line>

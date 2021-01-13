@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<line lineID="so140a" name="SO140A Otford Jn - Seven Oaks" trafficRouting="on_the_left" type="local" dependentLines="otfo svno">
+	<version major="1" minor="2" patchlevel="0" comment=""/>
+	<creator user="Ahowe4" timestamp="2016-11-01T12:54:22"/>
+	<lasteditor user="Ahowe4" timestamp="2016-11-01T12:54:22"/>
+	<stations>
+		<station stationID="BATABAL" name="Bat and Ball" xNet="1370236.55" yNet="319302.05" uicLocationCode="0" circleDiameter="0">
+			<textElement type="name">
+				<pos view="net" x="863.048" y="863.048" angle="0" system="source"/>
+				<pos view="wgs84" x="863.048" y="863.048" angle="0" system="source"/>
+				<pos view="line" x="863.097" y="863.097" angle="0" system="source"/>
+				<pos view="macro" x="28.2843" y="28.2843" angle="0" system="source"/>
+				<pos view="macroWgs84" x="0" y="0" angle="0" system="source"/>
+			</textElement>
+		</station>
+		<station stationID="ZSVNOAKH" name="Sevenoaks Help  (RailSys)" xNet="1363471.5" yNet="310161.36" uicLocationCode="0" circleDiameter="0">
+			<textElement type="name">
+				<pos view="net" x="338.154" y="338.154" angle="0" system="source"/>
+				<pos view="wgs84" x="338.154" y="338.154" angle="0" system="source"/>
+				<pos view="line" x="345.959" y="345.959" angle="0" system="source"/>
+				<pos view="macro" x="28.2843" y="28.2843" angle="0" system="source"/>
+				<pos view="macroWgs84" x="0" y="0" angle="0" system="source"/>
+			</textElement>
+		</station>
+	</stations>
+	<nodes>
+		<node nodeID="38" name="1000MM" description="1000MM : 40" kilometre="40.000" x="400236" y="700" xNet="1374612" yNet="328152.03"/>
+		<node nodeID="39" name="GRAD" description="Gradient; 24m 74ch" kilometre="40.113" x="401136" y="700" xNet="1374029.7" yNet="327183.47"/>
+		<node nodeID="40" name="GRAD" description="Gradient; 25m 2ch" kilometre="40.274" x="402740" y="700" xNet="1373200.9" yNet="325803.86"/>
+		<node nodeID="41" name="GRAD" description="Gradient; 25m 21ch" kilometre="40.656" x="406560" y="700" xNet="1372981" yNet="323073"/>
+		<node nodeID="42" name="GRAD" description="Gradient; 25m 31ch" kilometre="40.857" x="408570" y="700" xNet="1372903" yNet="322192"/>
+		<node nodeID="43" name="1000MM" description="1000MM : 41" kilometre="41.000" x="410000" y="700" xNet="1372053" yNet="321103"/>
+		<speedIndicator nodeID="44" name="SPEED" description="Speed; 25m 40ch" kilometre="41.038" x="410380" y="700" xNet="1371794" yNet="320824" referenceNode="43"/>
+		<node nodeID="45" name="GRAD" description="Gradient; 25m 51.5ch" kilometre="41.270" x="412700" y="700" xNet="1370211" yNet="319128"/>
+		<node nodeID="46" name="GRAD" description="Gradient; 25m 62ch" kilometre="41.481" x="414810" y="700" xNet="1368772" yNet="317585"/>
+		<node nodeID="47" name="1000MM" description="1000MM : 42" kilometre="42.000" x="420000" y="700" xNet="1365240" yNet="313801"/>
+		<node nodeID="53" name="SD : AD325" description="sighting distance for SIG : AD325" kilometre="40.346" x="403460" y="700" xNet="1373124" yNet="325138" referenceNode="40" sightingDistance="true"/>
+		<signal interlockingMachine="3 Aspect IECC (Below 75mph)" nodeID="32" name="SIG : AD325" description="Signal AD325; 25m 15ch" kilometre="40.534" x="405340" y="700" xNet="1372981" yNet="324078" referenceNode="53"/>
+		<node nodeID="54" name="OL AD325" description="OL for SIG : AD325" kilometre="40.717" x="407170" y="700" xNet="1372979" yNet="322616"/>
+		<node nodeID="55" name="SD : AD327" description="sighting distance for SIG : AD327" kilometre="41.195" x="411950" y="700" xNet="1370723" yNet="319677" referenceNode="44" sightingDistance="true"/>
+		<track trackID="T-2" stationID="BATABAL" type="timingPoint" nodeID="30" name="T-2" description="BATABAL T-2, timingPoint, 25m 51ch" kilometre="41.260" x="412600" y="700" xNet="1370280" yNet="319201" referenceNode="95"/>
+		<track trackID="E-2" stationID="BATABAL" interlockingMachine="3 Aspect IECC (Below 75mph)" nodeID="33" name="SIG : AD327" description="Signal AD327; 25m 54ch" kilometre="41.320" x="413200" y="700" xNet="1369870" yNet="318763" referenceNode="45"/>
+		<track trackID="D-2" stationID="BATABAL" type="stopBoard" nodeID="31" name="D-2" description="BATABAL D-2, stopBoard, 25m 55.15ch" kilometre="41.343" x="413430" y="700" xNet="1369714" yNet="318594" referenceNode="33">
+			<platform startPos="-1770" endPos="0" width="150" left="true" open="true"/>
+		</track>
+		<node nodeID="56" name="OL AD327" description="OL for SIG : AD327" kilometre="41.457" x="414570" y="700" xNet="1368936" yNet="317760"/>
+		<node nodeID="57" name="SD : AD329" description="sighting distance for SIG : AD329" kilometre="42.271" x="422710" y="700" xNet="1364010" yNet="311386" referenceNode="47" sightingDistance="true"/>
+		<track trackID="D-1" stationID="ZSVNOAKH" interlockingMachine="3 Aspect IECC (Below 75mph)" nodeID="34" name="SIG : AD329" description="Signal AD329; 26m 27ch" kilometre="42.396" x="423960" y="700" xNet="1363494" yNet="310271" referenceNode="93"/>
+		<node nodeID="9" name="GRAD" description="Gradient; 25m 2ch" kilometre="40.274" x="402740" y="500" xNet="1373029.2" yNet="325907.17"/>
+		<node nodeID="11" name="GRAD" description="Gradient; 25m 21ch" kilometre="40.656" x="406560" y="500" xNet="1372636" yNet="322955"/>
+		<node nodeID="12" name="GRAD" description="Gradient; 25m 31ch" kilometre="40.857" x="408570" y="500" xNet="1372621" yNet="322285"/>
+		<node nodeID="13" name="1000MM" description="1000MM : 41" kilometre="41.000" x="410000" y="500" xNet="1371907" yNet="321239"/>
+		<speedIndicator nodeID="14" name="SPEED" description="Speed; 25m 40ch" kilometre="41.038" x="410380" y="500" xNet="1371647" yNet="320961" referenceNode="97"/>
+		<node nodeID="17" name="GRAD" description="Gradient; 25m 51.5ch" kilometre="41.270" x="412700" y="500" xNet="1370065" yNet="319264"/>
+		<node nodeID="19" name="GRAD" description="Gradient; 25m 62ch" kilometre="41.481" x="414810" y="500" xNet="1368626" yNet="317721"/>
+		<node nodeID="22" name="1000MM" description="1000MM : 42" kilometre="42.000" x="420000" y="500" xNet="1365061" yNet="313892"/>
+		<node nodeID="10" name="SD : VS324" description="sighting distance for SIG : VS324" kilometre="40.288" x="402880" y="500" xNet="1372957.2" yNet="325786.87" referenceNode="11" sightingDistance="true"/>
+		<track trackID="U-1" stationID="BATABAL" type="stopBoard" nodeID="15" name="U-1" description="BATABAL U-1, stopBoard, 25m 46.8ch" kilometre="41.175" x="411750" y="500" xNet="1370712" yNet="319960" referenceNode="16">
+			<platform startPos="-1800" endPos="0" width="150" left="true" open="true"/>
+		</track>
+		<track trackID="T-1" stationID="BATABAL" type="timingPoint" nodeID="16" name="T-1" description="BATABAL T-1, timingPoint, 25m 51ch" kilometre="41.260" x="412600" y="500" xNet="1370133" yNet="319337" referenceNode="98"/>
+		<node nodeID="18" name="OL AD328" description="OL for SIG : AD328" kilometre="41.401" x="414010" y="500" xNet="1369171" yNet="318307"/>
+		<signal interlockingMachine="3 Aspect IECC (Below 75mph)" nodeID="20" name="SIG : AD328" description="Signal AD328; 25m 67ch" kilometre="41.584" x="415840" y="500" xNet="1367924" yNet="316968" referenceNode="21"/>
+		<node nodeID="21" name="SD : AD328" description="sighting distance for SIG : AD328" kilometre="41.709" x="417090" y="500" xNet="1367071" yNet="316054" referenceNode="22" sightingDistance="true"/>
+		<node nodeID="23" name="OL AD330" description="OL for SIG : AD330" kilometre="42.357" x="423570" y="500" xNet="1363441" yNet="310711"/>
+		<signal interlockingMachine="3 Aspect IECC (Below 75mph)" nodeID="24" name="SIG : AD330" description="Signal AD330; 26m 34ch" kilometre="42.537" x="425370" y="500" xNet="1362735" yNet="309604" referenceNode="99.svno"/>
+		<node nodeID="49" kilometre="40.078" x="400736" y="700" xNet="1374210.7" yNet="327484.54"/>
+		<node nodeID="51" name="OL VS321" description="OL for SIG : VS321" kilometre="39.878" x="399736" y="700" xNet="1375214.9" yNet="329162.56"/>
+		<stationBorder exitType="alternative" stationID="ZSVNOAKH" lineID="so140a" trackNumber="1" nodeID="93" name="[BATABAL] - [s140a/1]" kilometre="42.359" x="423585" y="700" xNet="1363648.8" yNet="310605.5" referenceNode="34"/>
+		<stationBorder exitType="alternative" stationID="BATABAL" lineID="so140a" trackNumber="1" nodeID="95" name="[OTFORDJ] - [s140a/1]" kilometre="41.240" x="412405" y="700" xNet="1370412.9" yNet="319343.8" referenceNode="30"/>
+		<stationBorder exitType="regular" stationID="BATABAL" lineID="so140a" trackNumber="1" nodeID="96" name="[SVNOAKH] - [s140a/1]" kilometre="41.377" x="413772" y="700" xNet="1369480.6" yNet="318343.8" referenceNode="31"/>
+		<stationBorder exitType="regular" stationID="BATABAL" lineID="so140a" trackNumber="2" nodeID="97" name="[OTFORDJ] - [s140a/2]" kilometre="41.134" x="411339" y="500" xNet="1370992.5" yNet="320260.3" referenceNode="15"/>
+		<stationBorder exitType="alternative" stationID="BATABAL" lineID="so140a" trackNumber="2" nodeID="98" name="[SVNOAKH] - [s140a/2]" kilometre="41.263" x="412630" y="500" xNet="1370112.6" yNet="319315.1" referenceNode="16"/>
+		<stationBorder exitType="regular" stationID="ZSVNOAKH" lineID="so140a" trackNumber="1" nodeID="100" kilometre="42.456" x="424563.52" y="700" xNet="1363294.2" yNet="309717.22" referenceNode="34"/>
+		<node nodeID="86" name="AT: AD329" kilometre="42.276" x="422759.72" y="700" xNet="1363989.5" yNet="311341.65" referenceNode="57" aspectTrigger="true"/>
+	</nodes>
+	<links>
+		<link source="8.otfo" target="9" length="161" vmax="97" vmaxr="97" bidirectional="true">
+			<vzg index="9" vmax="64" vmaxr="64"/>
+		</link>
+		<link source="9" target="10" length="14" gradient="-3.788" vmax="97" vmaxr="97" bidirectional="true">
+			<vzg index="9" vmax="64" vmaxr="64"/>
+		</link>
+		<link source="10" target="11" length="368" gradient="-3.788" vmax="97" vmaxr="97" bidirectional="true">
+			<vzg index="9" vmax="64" vmaxr="64"/>
+		</link>
+		<link source="11" target="12" length="201" vmax="97" vmaxr="97" bidirectional="true">
+			<vzg index="9" vmax="64" vmaxr="64"/>
+		</link>
+		<link source="12" target="13" length="143" gradient="7.576" vmax="97" vmaxr="97" bidirectional="true">
+			<vzg index="9" vmax="64" vmaxr="64"/>
+		</link>
+		<link source="13" target="14" length="38" gradient="7.576" vmax="97" vmaxr="97" bidirectional="true">
+			<vzg index="9" vmax="64" vmaxr="64"/>
+		</link>
+		<link source="14" target="97" length="96" gradient="7.576" vmax="64" vmaxr="64" bidirectional="true">
+			<vzg index="9" vmax="40" vmaxr="40"/>
+		</link>
+		<link source="15" target="16" length="85" gradient="7.576" vmax="64" vmaxr="64" bidirectional="true">
+			<vzg index="9" vmax="40" vmaxr="40"/>
+		</link>
+		<link source="16" target="98" length="3" gradient="7.576" vmax="64" vmaxr="64" bidirectional="true">
+			<vzg index="9" vmax="40" vmaxr="40"/>
+		</link>
+		<link source="17" target="18" length="131" vmax="64" vmaxr="64" bidirectional="true">
+			<vzg index="9" vmax="40" vmaxr="40"/>
+		</link>
+		<link source="18" target="19" length="80" vmax="64" vmaxr="64" bidirectional="true">
+			<vzg index="9" vmax="40" vmaxr="40"/>
+		</link>
+		<link source="19" target="20" length="103" gradient="13.333" vmax="64" vmaxr="64" bidirectional="true">
+			<vzg index="9" vmax="40" vmaxr="40"/>
+		</link>
+		<link source="20" target="21" length="125" gradient="13.333" vmax="64" vmaxr="64" bidirectional="true">
+			<vzg index="9" vmax="40" vmaxr="40"/>
+		</link>
+		<link source="21" target="22" length="291" gradient="13.333" vmax="64" vmaxr="64" bidirectional="true">
+			<vzg index="9" vmax="40" vmaxr="40"/>
+		</link>
+		<link source="22" target="23" length="357" gradient="13.333" vmax="64" vmaxr="64" bidirectional="true">
+			<vzg index="9" vmax="40" vmaxr="40"/>
+		</link>
+		<link source="23" target="24" length="180" gradient="13.333" vmax="64" vmaxr="64" bidirectional="true">
+			<vzg index="9" vmax="40" vmaxr="40"/>
+		</link>
+		<link source="24" target="99.svno" length="102" gradient="13.333" vmax="64" vmaxr="64" bidirectional="true">
+			<vzg index="9" vmax="40" vmaxr="40"/>
+		</link>
+		<link source="30" target="45" length="10" gradient="7.576" vmax="64" vmaxr="64" bidirectional="true">
+			<vzg index="9" vmax="40" vmaxr="40"/>
+		</link>
+		<link source="31" target="96" length="34" vmax="64" vmaxr="64" bidirectional="true">
+			<vzg index="9" vmax="40" vmaxr="40"/>
+		</link>
+		<link source="32" target="41" length="122" gradient="-3.788" vmax="97" vmaxr="97" bidirectional="true">
+			<vzg index="9" vmax="64" vmaxr="64"/>
+		</link>
+		<link source="33" target="31" length="23" vmax="64" vmaxr="64" bidirectional="true">
+			<vzg index="9" vmax="40" vmaxr="40"/>
+		</link>
+		<link source="34" target="100" length="60" gradient="13.333" vmax="64" vmaxr="64" bidirectional="true">
+			<vzg index="9" vmax="40" vmaxr="40"/>
+		</link>
+		<link source="37.otfo" target="51" length="27" gradient="3.788" vmax="97" vmaxr="97" bidirectional="true">
+			<vzg index="9" vmax="64" vmaxr="64"/>
+		</link>
+		<link source="38" target="49" length="78" gradient="3.788" vmax="97" vmaxr="97" bidirectional="true">
+			<vzg index="9" vmax="64" vmaxr="64"/>
+		</link>
+		<link source="39" target="40" length="161" vmax="97" vmaxr="97" bidirectional="true">
+			<vzg index="9" vmax="64" vmaxr="64"/>
+		</link>
+		<link source="40" target="53" length="72" gradient="-3.788" vmax="97" vmaxr="97" bidirectional="true">
+			<vzg index="9" vmax="64" vmaxr="64"/>
+		</link>
+		<link source="41" target="54" length="61" vmax="97" vmaxr="97" bidirectional="true">
+			<vzg index="9" vmax="64" vmaxr="64"/>
+		</link>
+		<link source="42" target="43" length="143" gradient="7.576" vmax="97" vmaxr="97" bidirectional="true">
+			<vzg index="9" vmax="64" vmaxr="64"/>
+		</link>
+		<link source="43" target="44" length="38" gradient="7.576" vmax="97" vmaxr="97" bidirectional="true">
+			<vzg index="9" vmax="64" vmaxr="64"/>
+		</link>
+		<link source="44" target="55" length="157" gradient="7.576" vmax="64" vmaxr="64" bidirectional="true">
+			<vzg index="9" vmax="40" vmaxr="40"/>
+		</link>
+		<link source="45" target="33" length="50" vmax="64" vmaxr="64" bidirectional="true">
+			<vzg index="9" vmax="40" vmaxr="40"/>
+		</link>
+		<link source="46" target="47" length="519" gradient="13.333" vmax="64" vmaxr="64" bidirectional="true">
+			<vzg index="9" vmax="40" vmaxr="40"/>
+		</link>
+		<link source="47" target="57" length="271" gradient="13.333" vmax="64" vmaxr="64" bidirectional="true">
+			<vzg index="9" vmax="40" vmaxr="40"/>
+		</link>
+		<link source="49" target="39" length="35" gradient="3.788" vmax="97" vmaxr="97" bidirectional="true">
+			<vzg index="9" vmax="64" vmaxr="64"/>
+		</link>
+		<link source="51" target="38" length="122" gradient="3.788" vmax="97" vmaxr="97" bidirectional="true">
+			<vzg index="9" vmax="64" vmaxr="64"/>
+		</link>
+		<link source="53" target="32" length="188" gradient="-3.788" vmax="97" vmaxr="97" bidirectional="true">
+			<vzg index="9" vmax="64" vmaxr="64"/>
+		</link>
+		<link source="54" target="42" length="140" vmax="97" vmaxr="97" bidirectional="true">
+			<vzg index="9" vmax="64" vmaxr="64"/>
+		</link>
+		<link source="55" target="95" length="46" gradient="7.576" vmax="64" vmaxr="64" bidirectional="true">
+			<vzg index="9" vmax="40" vmaxr="40"/>
+		</link>
+		<link source="56" target="46" length="24" vmax="64" vmaxr="64" bidirectional="true">
+			<vzg index="9" vmax="40" vmaxr="40"/>
+		</link>
+		<link source="57" target="86" length="5" gradient="13.333" vmax="64" vmaxr="64" bidirectional="true">
+			<vzg index="9" vmax="40" vmaxr="40"/>
+		</link>
+		<link source="86" target="93" length="83" gradient="13.333" vmax="64" vmaxr="64" bidirectional="true">
+			<vzg index="9" vmax="40" vmaxr="40"/>
+		</link>
+		<link source="93" target="34" length="37" gradient="13.333" vmax="64" vmaxr="64" bidirectional="true">
+			<vzg index="9" vmax="40" vmaxr="40"/>
+		</link>
+		<link source="95" target="30" length="19" gradient="7.576" vmax="64" vmaxr="64" bidirectional="true">
+			<vzg index="9" vmax="40" vmaxr="40"/>
+		</link>
+		<link source="96" target="56" length="80" vmax="64" vmaxr="64" bidirectional="true">
+			<vzg index="9" vmax="40" vmaxr="40"/>
+		</link>
+		<link source="97" target="15" length="41" gradient="7.576" vmax="64" vmaxr="64" bidirectional="true">
+			<vzg index="9" vmax="40" vmaxr="40"/>
+		</link>
+		<link source="98" target="17" length="7" gradient="7.576" vmax="64" vmaxr="64" bidirectional="true">
+			<vzg index="9" vmax="40" vmaxr="40"/>
+		</link>
+		<link source="100" target="101.svno" length="188" gradient="13.333" vmax="64" vmaxr="64" bidirectional="true">
+			<vzg index="9" vmax="40" vmaxr="40"/>
+		</link>
+	</links>
+	<dependentLinks/>
+	<blockSections>
+		<blocksection uuid="{0192bb46-af75-4c45-855d-732a4d6602f0}" lines="so140a svno">
+			<part nodes="99.svno 24"/>
+		</blocksection>
+		<blocksection uuid="{0dfaf2b0-e715-4735-9fb1-f175a744852d}" lines="so140a svno">
+			<part nodes="99.svno 24"/>
+		</blocksection>
+		<blocksection uuid="{13e83f6f-fef8-4c5e-b84e-a8db1a391ac0}" lines="so140a svno">
+			<part nodes="34 100 101.svno"/>
+		</blocksection>
+		<blocksection uuid="{2fb438c0-5340-4994-9c1f-059b86ee465d}" lines="so140a svno">
+			<part nodes="99.svno 24"/>
+		</blocksection>
+		<blocksection uuid="{40209a0e-5b38-47ba-8240-c61aa6f8703f}" lines="so140a svno">
+			<part nodes="34 100 101.svno"/>
+		</blocksection>
+		<blocksection uuid="{4edbd4f8-7f5b-4c39-b992-bae546a0b26f}" lines="so140a svno">
+			<part nodes="99.svno 24"/>
+		</blocksection>
+		<blocksection uuid="{8439b622-2f2b-49b4-a21c-4c6f360a33ba}" lines="otfo so140a" speedIndicators="14">
+			<part nodes="20 19 18 17 98 16 15 97 14 13 12 11 10 9 8.otfo"/>
+		</blocksection>
+		<blocksection uuid="{99092cac-9280-4682-b677-e46e53efe47a}" lines="so140a svno">
+			<part nodes="34 100 101.svno"/>
+		</blocksection>
+		<blocksection uuid="{9a2edd6b-7c7a-4fa6-bfcf-80ec71d432a5}" lines="so140a">
+			<part nodes="24 23 22 21 20"/>
+		</blocksection>
+		<blocksection uuid="{9f12e4c7-f6e2-4f48-bd0e-d52bf129be64}" lines="so140a svno">
+			<part nodes="34 100 101.svno"/>
+		</blocksection>
+		<blocksection uuid="{a801d3f9-d9db-43c2-9267-e932263a8b32}" lines="otfo so140a">
+			<part nodes="37.otfo 51 38 49 39 40 53 32"/>
+		</blocksection>
+		<blocksection uuid="{cf0979a8-0116-4918-9f22-180772cbcbbe}" lines="so140a">
+			<part nodes="33 31 96 56 46 47 57 86 93 34"/>
+		</blocksection>
+		<blocksection uuid="{db499709-4e5e-4889-add7-bc3b8c23736d}" lines="so140a" speedIndicators="44">
+			<part nodes="32 41 54 42 43 44 55 95 30 45 33"/>
+		</blocksection>
+	</blockSections>
+	<slipDistances>
+		<slipdistance uuid="{1d7b8fb6-f9aa-4a55-b0cf-7d9154d49a18}" vmax="999" lines="otfo so140a" serialNumber="1">
+			<part nodes="37.otfo 51"/>
+		</slipdistance>
+		<slipdistance uuid="{289737fd-9e3b-46a7-9bfe-9e52ba3f5bed}" vmax="999" lines="so140a svno" serialNumber="0">
+			<part nodes="34 100 101.svno"/>
+		</slipdistance>
+		<slipdistance uuid="{471a7197-749e-44ad-9b3c-147e1779cd67}" vmax="999" lines="so140a" serialNumber="0">
+			<part nodes="33 31 96 56"/>
+		</slipdistance>
+		<slipdistance uuid="{79dbddb9-907c-4555-ac19-1a018965db8f}" vmax="999" lines="so140a" serialNumber="0">
+			<part nodes="20 19 18"/>
+		</slipdistance>
+		<slipdistance uuid="{9b0a8fb4-577e-40dc-bd45-fa561590838f}" vmax="999" lines="so140a" serialNumber="0">
+			<part nodes="24 23"/>
+		</slipdistance>
+		<slipdistance uuid="{cb74c598-fd9e-4724-8e38-2d197ba3eb3b}" vmax="999" lines="so140a" serialNumber="0">
+			<part nodes="32 41 54"/>
+		</slipdistance>
+	</slipDistances>
+	<approachControlRoutes>
+		<ACRoute controlTyp="mar" uuid="{c4e2a4ec-62c9-40cb-989f-1ab61b61245d}" publicName="AD329 - AD109" lines="so140a svno">
+			<part nodes="34 100 101.svno"/>
+		</ACRoute>
+	</approachControlRoutes>
+	<stationRoutes>
+		<stationRoute stationID="BATABAL" name="[OTFORDJ]-[s140a/1]-[2]-[SVNOAKH]-[s140a/1] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="95 30 45 33 31 96"/>
+		<stationRoute stationID="BATABAL" name="[SVNOAKS]-[s140a/2]-[1]-[OTFORDJ]-[s140a/2] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="98 16 15 97"/>
+		<stationRoute stationID="ZSVNOAKH" name="[BATABAL]-[s140a/1]-[1]-[SVNOAKS]-[s140a/1] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="93 34 100"/>
+	</stationRoutes>
+	<lineCatalog/>
+	<zugNummernFelder/>
+	<switchGears/>
+</line>

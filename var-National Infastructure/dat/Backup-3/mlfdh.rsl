@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<line lineID="mlfdh" name="Milford Haven" trafficRouting="on_the_left" type="global" dependentLines="gw960 gw980">
+	<transformations>
+		<transformation line="gw980" m11="1" m12="0" m21="0" m22="1" dx="-194073" dy="0"/>
+	</transformations>
+	<version major="1" minor="2" patchlevel="0" comment=""/>
+	<creator user="Ahowe4" timestamp="2016-11-01T12:54:22"/>
+	<lasteditor user="Ahowe4" timestamp="2016-11-01T12:54:22"/>
+	<stations>
+		<station stationID="HRBRNSJ" name="Herbranston Jn" xNet="-4647041.45" yNet="1184856.45" uicLocationCode="0" circleDiameter="0">
+			<textElement type="name">
+				<pos view="net" x="1371.61" y="1371.61" angle="0" system="source"/>
+				<pos view="wgs84" x="1371.61" y="1371.61" angle="0" system="source"/>
+				<pos view="line" x="1378.63" y="1378.63" angle="0" system="source"/>
+				<pos view="macro" x="28.2843" y="28.2843" angle="0" system="source"/>
+				<pos view="macroWgs84" x="0" y="0" angle="0" system="source"/>
+			</textElement>
+		</station>
+		<station stationID="MLFDHVN" name="Milford Haven" xNet="-4664761.9" yNet="1143186.85" uicLocationCode="0" circleDiameter="0">
+			<textElement type="name">
+				<pos view="net" x="2058.39" y="2058.39" angle="0" system="source"/>
+				<pos view="wgs84" x="2058.39" y="2058.39" angle="0" system="source"/>
+				<pos view="line" x="2059.88" y="2059.88" angle="0" system="source"/>
+				<pos view="macro" x="28.2843" y="28.2843" angle="0" system="source"/>
+				<pos view="macroWgs84" x="0" y="0" angle="0" system="source"/>
+			</textElement>
+		</station>
+	</stations>
+	<nodes>
+		<node nodeID="121" name="TC" kilometre="455.406" x="191091.39" y="400" xNet="-4644153.4" yNet="1186805.6">
+			<netLimitInfo lineID="gw960"/>
+		</node>
+		<track trackID="D-1" stationID="HRBRNSJ" interlockingMachine="2 Aspect Pannel (Below 75mph)" nodeID="122" name="SIG:29" kilometre="455.598" x="193011.84" y="400" xNet="-4645744.7" yNet="1185731.4" referenceNode="63"/>
+		<node nodeID="123" name="TC" kilometre="455.601" x="193041.84" y="400" xNet="-4645770.1" yNet="1185714.6"/>
+		<switch start="123" endOfMainTrack="132" endOfBranchTrack="125" nodeID="124" name="POINTS:315A" description="Joins to Line GW980" kilometre="455.685" x="193881.84" y="400" xNet="-4646466" yNet="1185245.1"/>
+		<node nodeID="125" name="OL:29/32" kilometre="455.742" x="194451.84" y="400" xNet="-4646938.8" yNet="1184926.3"/>
+		<node nodeID="126" name="TC" kilometre="455.924" x="196271.84" y="400" xNet="-4648447.6" yNet="1183908.1"/>
+		<track trackID="U-1" stationID="HRBRNSJ" interlockingMachine="3 Aspect Pannel (Below 75mph)" nodeID="127" name="SIG:32" kilometre="455.926" x="196294.25" y="400" xNet="-4648466.8" yNet="1183896" referenceNode="64"/>
+		<node nodeID="128" kilometre="456.000" x="197031.84" y="400" xNet="-4649077.5" yNet="1183483.3"/>
+		<node nodeID="129" name="TC" kilometre="456.599" x="203018.72" y="400" xNet="-4659582.7" yNet="1158227.6"/>
+		<node nodeID="130" name="REP:32R" kilometre="456.608" x="203115.67" y="400" xNet="-4659614.2" yNet="1158135.3" referenceNode="131" presignal="true" with1000HzMagnet="true"/>
+		<node nodeID="131" kilometre="457.000" x="207031.84" y="400" xNet="-4660889.3" yNet="1154432.8"/>
+		<speedIndicator nodeID="133" name="SPEED" kilometre="457.054" x="207568.8" y="400" xNet="-4661064.4" yNet="1153925.5" referenceNode="134"/>
+		<node nodeID="134" name="TC" kilometre="457.255" x="209586.55" y="400" xNet="-4661721.3" yNet="1152017.5"/>
+		<switch start="135" endOfMainTrack="138" endOfBranchTrack="20137" nodeID="136" name="POINTS:2A" kilometre="457.912" x="216151.31" y="400" xNet="-4663859.1" yNet="1145809.6"/>
+		<node nodeID="138" kilometre="458.000" x="217031.84" y="400" xNet="-4664145.1" yNet="1144977.6"/>
+		<node nodeID="139" name="TC" kilometre="458.112" x="218148.39" y="400" xNet="-4664508.7" yNet="1143921.8"/>
+		<node nodeID="141" name="GRAD" kilometre="458.132" x="218351.41" y="400" xNet="-4664574.6" yNet="1143729.8"/>
+		<track trackID="U-1" stationID="MLFDHVN" type="stopBoard" nodeID="144" kilometre="458.289" x="219921.39" y="400" xNet="-4665086" yNet="1142245.1" referenceNode="145">
+			<platform startPos="-1290" endPos="-10" width="150" left="false" open="true"/>
+		</track>
+		<node nodeID="145" name="TC" kilometre="458.406" x="221090.41" y="400" xNet="-4665466.9" yNet="1141140.3"/>
+		<track trackID="D-1" stationID="MLFDHVN" type="stopBoard" nodeID="146" kilometre="458.408" x="221109.89" y="400" xNet="-4665472.4" yNet="1141122.4" referenceNode="145"/>
+		<switch start="149" endOfMainTrack="146" endOfBranchTrack="20145" nodeID="148" name="POINTS:1" kilometre="458.446" x="221489.83" y="400" xNet="-4665596.6" yNet="1140762.6"/>
+		<node nodeID="149" name="TC" kilometre="458.451" x="221538.53" y="400" xNet="-4665612.2" yNet="1140716"/>
+		<node nodeID="150" name="TC" kilometre="458.474" x="221772.33" y="400" xNet="-4665688.3" yNet="1140495.3"/>
+		<signal interlockingMachine="Buffer Stop" nodeID="151" name="SIG:" kilometre="458.476" x="221787.72" y="400" xNet="-4665693.4" yNet="1140481.4" referenceNode="150"/>
+		<track trackID="U-2" stationID="MLFDHVN" type="stopBoard" nodeID="20137" kilometre="457.982" x="216853" y="200" xNet="-4664276" yNet="1145211.7" referenceNode="20141"/>
+		<node nodeID="20141" name="GRAD" kilometre="458.132" x="218351" y="200" xNet="-4664763.5" yNet="1143795"/>
+		<node nodeID="20142" name="TC" kilometre="458.205" x="219084" y="200" xNet="-4665002.6" yNet="1143103.1"/>
+		<node nodeID="20143" name="POINTS:" description="Joins to Line Docks" kilometre="458.215" x="219181" y="200" xNet="-4665033.9" yNet="1143009.9"/>
+		<node nodeID="20145" name="TC" kilometre="458.406" x="221090" y="200" xNet="-4665655.7" yNet="1141204.7"/>
+		<node nodeID="157" name="SD:32" kilometre="456.051" x="197541.58" y="400" xNet="-4649500.5" yNet="1183198.7" referenceNode="129" sightingDistance="true"/>
+		<node nodeID="158" name="POINTS:2A" description="To Line Points" kilometre="458.120" x="218225.73" y="400" xNet="-4664533.7" yNet="1143848.6"/>
+		<kilometreInconsistency newKilometre="0.002" nodeID="1" name="POINTS:315A" description="To Line GW960" kilometre="455.687" x="194073.03" y="0" xNet="-4647683.9" yNet="1185275.4" referenceNode="132"/>
+		<node nodeID="4" name="TC" kilometre="0.066" x="194733.03" y="0" xNet="-4648342.9" yNet="1185251.9"/>
+		<track trackID="U-2" stationID="HRBRNSJ" interlockingMachine="3 Aspect Pannel (Below 75mph)" nodeID="5" name="SIG:30" kilometre="0.068" x="194753.03" y="0" xNet="-4648362.7" yNet="1185251.4" referenceNode="66"/>
+		<node nodeID="6" name="TC" kilometre="0.191" x="195983.03" y="0" xNet="-4649592.2" yNet="1185209.2">
+			<netLimitInfo lineID="gw980"/>
+		</node>
+		<node nodeID="10" name="SD:30" kilometre="0.138" x="195453.03" y="0" xNet="-4649062.4" yNet="1185226.5" referenceNode="6" sightingDistance="true"/>
+		<node nodeID="159" name="SD:29" kilometre="455.473" x="191761.55" y="400" xNet="-4644708.7" yNet="1186430.8" referenceNode="121" sightingDistance="true"/>
+		<speedIndicator nodeID="132" name="SPEED" kilometre="455.686" x="193911" y="343" xNet="-4646790.3" yNet="1185237.4" referenceNode="124"/>
+		<node nodeID="59" name="GRAD" kilometre="448.677" x="194083.19" y="0" xNet="-4647693.3" yNet="1185274.9"/>
+		<stationBorder exitType="locked" stationID="MLFDHVN" trackNumber="" nodeID="62" name="Buffer stop 286" kilometre="458.476" x="221837.72" y="400" xNet="-4665710.1" yNet="1140434.6" referenceNode="151"/>
+		<stationBorder exitType="regular" stationID="MLFDHVN" lineID="gw980" trackNumber="1" nodeID="135" name="[HRBRNSJ] - [gw980/1]" kilometre="457.898" x="216014.94" y="400" xNet="-4663813.7" yNet="1145939.1" referenceNode="136"/>
+		<stationBorder exitType="regular" stationID="HRBRNSJ" lineID="gw960" trackNumber="1" nodeID="63" name="[GLFOBJ] - [gw960/1]" kilometre="455.560" x="192636.75" y="400" xNet="-4645433.1" yNet="1185940.8" referenceNode="122"/>
+		<stationBorder exitType="regular" stationID="HRBRNSJ" lineID="gw980" trackNumber="1" nodeID="64" name="[MLFDHVN] - [gw980/1]" kilometre="455.948" x="196515.53" y="400" xNet="-4648649.8" yNet="1183772.1" referenceNode="127"/>
+		<stationBorder exitType="alternative" stationID="HRBRNSJ" lineID="gw980" trackNumber="1" nodeID="66" name="[ROBSTNS] - [gw980/1]" kilometre="0.089" x="194963.03" y="0" xNet="-4648572.6" yNet="1185244" referenceNode="5"/>
+	</nodes>
+	<links>
+		<link source="1" target="59" length="1" gradient="-12.195" vmax="32" vmaxr="32" bidirectional="true"/>
+		<link source="4" target="5" length="2" gradient="-6.53" vmax="32" vmaxr="32" bidirectional="true"/>
+		<link source="5" target="66" length="21" gradient="-6.53" vmax="32" vmaxr="32" bidirectional="true"/>
+		<link source="10" target="6" length="53" gradient="-6.53" vmax="32" vmaxr="32" bidirectional="true"/>
+		<link source="59" target="4" length="64" gradient="-6.53" vmax="32" vmaxr="32" bidirectional="true"/>
+		<link source="63" target="122" length="37" gradient="-12.195" vmax="64" vmaxr="64" bidirectional="true"/>
+		<link source="64" target="128" length="52" gradient="-12.195" vmax="64" vmaxr="64" bidirectional="true"/>
+		<link source="66" target="10" length="49" gradient="-6.53" vmax="32" vmaxr="32" bidirectional="true"/>
+		<link source="121" target="159" length="67" gradient="-12.195" vmax="64" vmaxr="64" bidirectional="true"/>
+		<link source="122" target="123" length="3" gradient="-12.195" vmax="64" vmaxr="64" bidirectional="true"/>
+		<link source="123" target="124" length="84" gradient="-12.195" vmax="64" vmaxr="64" bidirectional="true"/>
+		<link source="124" target="125" length="57" gradient="-12.195" vmax="64" vmaxr="64" bidirectional="true"/>
+		<link source="124" target="132" length="1" gradient="-12.195" vmax="64" vmaxr="64" bidirectional="true"/>
+		<link source="125" target="126" length="182" gradient="-12.195" vmax="64" vmaxr="64" bidirectional="true"/>
+		<link source="126" target="127" length="2" gradient="-12.195" vmax="64" vmaxr="64" bidirectional="true"/>
+		<link source="127" target="64" length="22" gradient="-12.195" vmax="64" vmaxr="64" bidirectional="true"/>
+		<link source="128" target="157" length="51" gradient="-12.195" vmax="64" vmaxr="64" bidirectional="true"/>
+		<link source="129" target="130" length="10" gradient="-12.195" vmax="64" vmaxr="64" bidirectional="true"/>
+		<link source="130" target="131" length="392" gradient="-12.195" vmax="64" vmaxr="64" bidirectional="true"/>
+		<link source="131" target="133" length="53" gradient="-12.195" vmax="64" vmaxr="64" bidirectional="true"/>
+		<link source="132" target="1" length="1" gradient="-12.195" vmax="32" vmaxr="32" bidirectional="true"/>
+		<link source="133" target="134" length="202" gradient="-12.195" vmax="40" vmaxr="40" bidirectional="true"/>
+		<link source="134" target="135" length="643" gradient="-12.195" vmax="40" vmaxr="40" bidirectional="true"/>
+		<link source="135" target="136" length="14" gradient="-12.195" vmax="40" vmaxr="40" bidirectional="true"/>
+		<link source="136" target="138" length="88" gradient="-12.195" vmax="40" vmaxr="40"/>
+		<link source="136" target="20137" length="70" gradient="-12.195" vmax="40" vmaxr="40"/>
+		<link source="138" target="139" length="112" gradient="-12.195" vmax="40" vmaxr="40"/>
+		<link source="139" target="158" length="8" gradient="-12.195" vmax="40" vmaxr="40"/>
+		<link source="141" target="144" length="157" vmax="40" vmaxr="40"/>
+		<link source="144" target="145" length="117" vmax="40" vmaxr="40"/>
+		<link source="145" target="146" length="2" vmax="40" vmaxr="40"/>
+		<link source="146" target="148" length="38" vmax="40" vmaxr="40"/>
+		<link source="148" target="149" length="5" vmax="40" vmaxr="40"/>
+		<link source="149" target="150" length="23" vmax="40" vmaxr="40"/>
+		<link source="150" target="151" length="2" vmax="40" vmaxr="40"/>
+		<link source="151" target="62" vmax="40" vmaxr="40"/>
+		<link source="157" target="129" length="548" gradient="-12.195" vmax="64" vmaxr="64" bidirectional="true"/>
+		<link source="158" target="141" length="13" gradient="-12.195" vmax="40" vmaxr="40"/>
+		<link source="159" target="63" length="88" gradient="-12.195" vmax="64" vmaxr="64" bidirectional="true"/>
+		<link source="20137" target="20141" length="150" gradient="-12.195" vmax="40" vmaxr="40"/>
+		<link source="20141" target="20142" length="73" vmax="40" vmaxr="40"/>
+		<link source="20142" target="20143" length="10" vmax="40" vmaxr="40"/>
+		<link source="20143" target="20145" length="191" vmax="40" vmaxr="40"/>
+		<link source="20145" target="148" length="40" vmax="40" vmaxr="40"/>
+	</links>
+	<dependentLinks/>
+	<blockSections>
+		<blocksection uuid="{14e8ede2-0aed-4c10-b348-3d9d5ed7832b}" lines="mlfdh" speedIndicators="133">
+			<part nodes="151 150 149 148 146 145 144 141 158 139 138 136 135 134 133 131 130 129 157 128 64 127"/>
+		</blocksection>
+		<blocksection uuid="{2272e2ae-57c6-475e-8323-63c499181189}" lines="gulf gw960 mlfdh">
+			<part nodes="122 63 159 121"/>
+		</blocksection>
+		<blocksection uuid="{253deb49-4c82-4134-a83a-99156fe2348d}" lines="mlfdh" speedIndicators="133">
+			<part nodes="122 123 124 125 126 127 64 128 157 129 130 131 133 134 135 136 20137 20141 20142 20143 20145 148 149 150 151"/>
+		</blocksection>
+		<blocksection uuid="{2984b562-6cbd-4f19-adbb-4326a72056db}" lines="mlfdh" speedIndicators="133">
+			<part nodes="122 123 124 125 126 127 64 128 157 129 130 131 133 134 135 136 138 139 158 141 144 145 146 148 149 150 151"/>
+		</blocksection>
+		<blocksection uuid="{2cc8d03a-3965-42bf-b98f-a29a7b220b70}" lines="gw980 mlfdh" speedIndicators="132">
+			<part nodes="122 123 124 132 1 59 4 5 66 10 6"/>
+		</blocksection>
+		<blocksection uuid="{322ab79e-8a72-4252-9fef-d8d8eb94fedd}" lines="gulf gw960 mlfdh">
+			<part nodes="127 126 125 124 123 122 63 159 121"/>
+		</blocksection>
+		<blocksection uuid="{3ba80b26-0be5-43f4-badb-8ce5f0c32bca}" lines="gulf gw960 mlfdh">
+			<part nodes="121 159 63 122"/>
+		</blocksection>
+		<blocksection uuid="{54cc9421-5ddb-4a14-baec-7b0629fb89ff}" lines="gulf gw960 mlfdh">
+			<part nodes="121 159 63 122"/>
+		</blocksection>
+		<blocksection uuid="{57316fdf-94ec-43ea-a447-0dd008796a5d}" lines="gw980 mlfdh">
+			<part nodes="6 10 66 5"/>
+		</blocksection>
+		<blocksection uuid="{8dcfd148-e9bf-4013-be90-cb407e561e29}" lines="mlfdh" speedIndicators="133">
+			<part nodes="151 150 149 148 20145 20143 20142 20141 20137 136 135 134 133 131 130 129 157 128 64 127"/>
+		</blocksection>
+		<blocksection uuid="{94ad2e83-ec8f-4c51-a400-09479d770761}" lines="mlfdh" speedIndicators="133">
+			<part nodes="127 64 128 157 129 130 131 133 134 135 136 20137 20141 20142 20143 20145 148 149 150 151"/>
+		</blocksection>
+		<blocksection uuid="{d23da4b5-d1f5-48e0-b0eb-699cc7aefb66}" lines="gulf gw960 mlfdh" speedIndicators="132">
+			<part nodes="5 4 59 1 132 124 123 122 63 159 121"/>
+		</blocksection>
+		<blocksection uuid="{feba0c32-8fe6-4716-9402-40d3dfb55899}" lines="mlfdh" speedIndicators="133">
+			<part nodes="127 64 128 157 129 130 131 133 134 135 136 138 139 158 141 144 145 146 148 149 150 151"/>
+		</blocksection>
+	</blockSections>
+	<slipDistances>
+		<slipdistance uuid="{68fd5276-2415-4a46-8124-4e46a65aa634}" vmax="999" lines="mlfdh" serialNumber="0">
+			<part nodes="122 123 124 125"/>
+		</slipdistance>
+		<slipdistance uuid="{94813014-89e5-475a-a5f6-bdf7d34b00a3}" vmax="999" lines="mlfdh" serialNumber="0">
+			<part nodes="127 126 125"/>
+		</slipdistance>
+	</slipDistances>
+	<approachControlRoutes/>
+	<stationRoutes>
+		<stationRoute stationID="HRBRNSJ" name="[GLFOBJ]-[gw960/1]-[1]-[MLFDHVN]-[gw980/1] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=95;NRz=95;S=95;Rz=95;FGz=95;NGz=95;Gz=95;Lz=95;Unbekannt=95" nodes="63 122 123 124 125 126 127 64"/>
+		<stationRoute stationID="HRBRNSJ" name="[GLFOBJ]-[gw960/1]-[1]-[ROBSTNS]-[gw980/1] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="63 122 123 124 132 1 59 4 5 66"/>
+		<stationRoute stationID="HRBRNSJ" name="[MLFDHVN]-[gw980/1]-[1]-[GLFOBJ]-[gw960/1] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=95;NRz=95;S=95;Rz=95;FGz=95;NGz=95;Gz=95;Lz=95;Unbekannt=95" nodes="64 127 126 125 124 123 122 63"/>
+		<stationRoute stationID="HRBRNSJ" name="[ROBSTNS]-[gw980/1]-[2]-[GLFOBJ]-[gw960/1] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="66 5 4 59 1 132 124 123 122 63"/>
+		<stationRoute stationID="MLFDHVN" name="[HRBRNSJ]-[gw980/1]-[1]-[]-[?/] (2)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="135 136 138 139 158 141 144 145 146 148 149 150 151 62"/>
+		<stationRoute stationID="MLFDHVN" name="[]-[?/]-[1]-[HRBRNSJ]-[gw980/1] (2)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="62 151 150 149 148 146 145 144 141 158 139 138 136 135"/>
+		<stationRoute stationID="MLFDHVN" name="[]-[?/]-[2]-[HRBRNSJ]-[gw980/1] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=90;NRz=90;S=90;Rz=90;FGz=90;NGz=90;Gz=90;Lz=90;Unbekannt=90" nodes="62 151 150 149 148 20145 20143 20142 20141 20137 136 135"/>
+	</stationRoutes>
+	<lineCatalog/>
+	<zugNummernFelder/>
+	<switchGears/>
+</line>

@@ -1,0 +1,424 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<line lineID="kirk" name="Kirkham" trafficRouting="on_the_left" type="global" dependentLines="nw4005 nw4007">
+	<transformations>
+		<transformation line="nw4005" m11="1" m12="0" m21="0" m22="1" dx="0" dy="0"/>
+		<transformation line="nw4007" m11="1" m12="0" m21="0" m22="1" dx="4.72081" dy="-403.987"/>
+	</transformations>
+	<version major="1" minor="2" patchlevel="0" comment=""/>
+	<creator user="VWaddelo" timestamp="2016-07-08T10:58:15"/>
+	<lasteditor user="VWaddelo" timestamp="2016-07-08T10:58:15"/>
+	<stations>
+		<station stationID="KIRKHAM" name="Kirkham and Wesham" xNet="-2129941.75" yNet="5037563.2" uicLocationCode="0" circleDiameter="0">
+			<textElement type="name">
+				<pos view="net" x="850.006" y="850.006" angle="0" system="source"/>
+				<pos view="wgs84" x="850.006" y="850.006" angle="0" system="source"/>
+				<pos view="line" x="845.684" y="845.684" angle="0" system="source"/>
+				<pos view="macro" x="28.2843" y="28.2843" angle="0" system="source"/>
+				<pos view="macroWgs84" x="0" y="0" angle="0" system="source"/>
+			</textElement>
+		</station>
+		<station stationID="KIRKMNJ" name="Kirkham North Jn" xNet="-2139746.3" yNet="5037963.4" uicLocationCode="0" circleDiameter="0">
+			<textElement type="name">
+				<pos view="net" x="5595.37" y="5595.37" angle="0" system="source"/>
+				<pos view="wgs84" x="5595.37" y="5595.37" angle="0" system="source"/>
+				<pos view="line" x="5591.94" y="5591.94" angle="0" system="source"/>
+				<pos view="macro" x="28.2843" y="28.2843" angle="0" system="source"/>
+				<pos view="macroWgs84" x="0" y="0" angle="0" system="source"/>
+			</textElement>
+		</station>
+		<station stationID="KIRKTS" name="Kirkham Tip Siding" xNet="-2141921.8" yNet="5037894" uicLocationCode="0" circleDiameter="0">
+			<textElement type="name">
+				<pos view="net" x="839.001" y="839.001" angle="0" system="source"/>
+				<pos view="wgs84" x="839.001" y="839.001" angle="0" system="source"/>
+				<pos view="line" x="839" y="839" angle="0" system="source"/>
+				<pos view="macro" x="28.2843" y="28.2843" angle="0" system="source"/>
+				<pos view="macroWgs84" x="0" y="0" angle="0" system="source"/>
+			</textElement>
+		</station>
+	</stations>
+	<nodes>
+		<track trackID="U-1" stationID="KIRKHAM" interlockingMachine="3 Aspect Pannel (Below 75mph)" nodeID="63" name="SIG : KM65" description="Signal KM65; 7m 62,16ch" kilometre="12.516" x="125160" y="0" xNet="-2129025.5" yNet="5037418.5" referenceNode="62">
+			<platform startPos="-2030" endPos="0" width="150" left="false" open="false"/>
+		</track>
+		<track trackID="T-1" stationID="KIRKHAM" type="timingPoint" nodeID="62" name="T-1" description="Kirkham and Wesham T-1; timingPoint; 7m 67,03ch" kilometre="12.614" x="126140" y="0" xNet="-2130004.2" yNet="5037469.7" referenceNode="63"/>
+		<node nodeID="8" name="SD : KM65" description="sighting distance for SIG : KM65" kilometre="12.641" x="126410" y="0" xNet="-2130273.8" yNet="5037483.9" referenceNode="9" sightingDistance="true"/>
+		<node nodeID="9" name="SD : KM32" description="sighting distance for SIG : KM32" kilometre="12.746" x="127460" y="0" xNet="-2131322.4" yNet="5037538.8" referenceNode="8" sightingDistance="true"/>
+		<node nodeID="10" name="1000MM" description="1000MM : 13" kilometre="13.000" x="130000" y="0" xNet="-2133858.9" yNet="5037671.8"/>
+		<node nodeID="11" name="OL KM32" description="OL for SIG : KM32" kilometre="13.051" x="130510" y="0" xNet="-2134368.2" yNet="5037698.5"/>
+		<signal type="shunting" interlockingMachine="Shunt" nodeID="77" name="SIG : KM33" description="Signal KM33; 8m 22,43ch" kilometre="13.326" x="133260" y="0" xNet="-2137114.4" yNet="5037842.4" referenceNode="11"/>
+		<switch start="77" endOfMainTrack="6" endOfBranchTrack="65" nodeID="64" name="POINTS : KM56b" description="POINTS : KM56b; 29,83 mph; 8m 23,07ch" kilometre="13.339" x="133390" y="0" xNet="-2137244.2" yNet="5037849.2"/>
+		<speedIndicator nodeID="6" name="SPEED" description="Speed; 8m 23,02ch" kilometre="13.338" x="133411" y="9" xNet="-2137265.7" yNet="5037841.3" referenceNode="64"/>
+		<track trackID="T-2" stationID="KIRKHAM" type="timingPoint" nodeID="61" name="T-2" description="Kirkham and Wesham T-2; timingPoint; 7m 67,03ch" kilometre="12.614" x="126140" y="200" xNet="-2130014.6" yNet="5037270" referenceNode="655"/>
+		<track trackID="D-2" stationID="KIRKHAM" type="stopBoard" nodeID="54" name="D-2" description="Kirkham and Wesham D-2; stopBoard; 7m 72,30ch" kilometre="12.720" x="127200" y="200" xNet="-2131073.2" yNet="5037325.5" referenceNode="61"/>
+		<node nodeID="12" name="SD : KM31" description="sighting distance for SIG : KM31" kilometre="12.730" x="127300" y="200" xNet="-2131173.1" yNet="5037330.7" referenceNode="654" sightingDistance="true"/>
+		<node nodeID="13" name="1000MM" description="1000MM : 13" kilometre="13.000" x="130000" y="200" xNet="-2133869.4" yNet="5037472"/>
+		<node nodeID="14" name="OL KM31" description="OL for SIG : KM31" kilometre="13.051" x="130510" y="200" xNet="-2134378.7" yNet="5037498.7"/>
+		<switch start="22" endOfMainTrack="48" endOfBranchTrack="15" nodeID="67" name="POINTS : KM53a" description="POINTS : KM53a; 14,91 mph; 8m 24,27ch" kilometre="13.363" x="133630" y="200" xNet="-2137494.4" yNet="5037662"/>
+		<signal type="shunting" interlockingMachine="Shunt" nodeID="78" name="SIG : KM54" description="Signal KM54; 8m 24,76ch" kilometre="13.373" x="133730" y="200" xNet="-2137594.2" yNet="5037667.3" referenceNode="68"/>
+		<switch start="69" endOfMainTrack="78" endOfBranchTrack="16" nodeID="68" name="POINTS : KM56a" description="POINTS : KM56a; 29,83 mph; 8m 26,45ch" kilometre="13.407" x="134070" y="200" xNet="-2137933.8" yNet="5037685"/>
+		<switch start="68" endOfMainTrack="70" endOfBranchTrack="17" nodeID="69" name="POINTS : KM60" description="POINTS : KM60; 29,83 mph; 8m 28,04ch" kilometre="13.439" x="134390" y="200" xNet="-2138253.3" yNet="5037701.8"/>
+		<switch start="44" endOfMainTrack="49" endOfBranchTrack="18" nodeID="71" name="POINTS : KM73a" description="POINTS : KM73a; 0,00 mph; 8m 36,49ch" kilometre="13.609" x="136090" y="200" xNet="-2139951" yNet="5037790.8"/>
+		<speedIndicator nodeID="15" name="SPEED" description="Speed; 8m 24,22ch" kilometre="13.362" x="133620" y="210" xNet="-2137484.9" yNet="5037651.5" referenceNode="67"/>
+		<speedIndicator nodeID="16" name="SPEED" description="Speed; 8m 26,40ch" kilometre="13.406" x="134060" y="190" xNet="-2137923.3" yNet="5037694.5" referenceNode="19"/>
+		<speedIndicator nodeID="17" name="SPEED" description="Speed; 8m 28,09ch" kilometre="13.440" x="134400" y="210" xNet="-2138263.8" yNet="5037692.3" referenceNode="123"/>
+		<speedIndicator nodeID="18" name="SPEED" description="Speed; 8m 36,54ch" kilometre="13.610" x="136100" y="200" xNet="-2139961" yNet="5037791.3" referenceNode="71"/>
+		<node nodeID="19" name="tc" description="release contact for track cercuit" kilometre="13.372" x="133735.5" y="99.5" xNet="-2137594.5" yNet="5037767.9" referenceNode="16" releaseContact="true" arranged="true"/>
+		<node nodeID="20" name="tc" description="release contact for track cercuit" kilometre="13.371" x="133726.23" y="96.914284" xNet="-2137585.1" yNet="5037770" referenceNode="6" releaseContact="true" arranged="true"/>
+		<node nodeID="21" name="tc" description="release contact for track cercuit" kilometre="13.379" x="133790" y="0" xNet="-2137643.7" yNet="5037870.1" referenceNode="65" releaseContact="true" arranged="true"/>
+		<node nodeID="22" name="tc" description="release contact for track cercuit" kilometre="13.367" x="133670" y="200" xNet="-2137534.3" yNet="5037664.1" referenceNode="78" releaseContact="true" arranged="true"/>
+		<node nodeID="23" name="tc" description="release contact for track cercuit" kilometre="13.323" x="133230" y="200" xNet="-2137094.9" yNet="5037641.1" referenceNode="48" releaseContact="true" arranged="true"/>
+		<node nodeID="24" name="tc" description="release contact for track cercuit" kilometre="13.479" x="134790" y="200" xNet="-2138652.8" yNet="5037722.7" referenceNode="70" releaseContact="true" arranged="true"/>
+		<node nodeID="25" name="tc" description="release contact for track cercuit" kilometre="13.649" x="136490" y="100" xNet="-2140345.2" yNet="5037911.6" referenceNode="49" releaseContact="true" arranged="true"/>
+		<node nodeID="26" name="tc" description="release contact for track cercuit" kilometre="13.617" x="136170" y="-50" xNet="-2140017.8" yNet="5038044.6" referenceNode="45" releaseContact="true" arranged="true"/>
+		<node nodeID="27" name="SD : KM79" description="sighting distance for SIG : KM79" kilometre="12.641" x="126410" y="-400" xNet="-2130252.9" yNet="5037883.3" referenceNode="28" sightingDistance="true"/>
+		<node nodeID="28" name="1000MM" description="1000MM : 13" kilometre="13.000" x="130000" y="-400" xNet="-2133838" yNet="5038071.2"/>
+		<node nodeID="29" name="GRAD" description="Gradient; 8m 36.29ch" kilometre="13.605" x="136050" y="-400" xNet="-2139879.7" yNet="5038387.8"/>
+		<switch start="30" endOfMainTrack="664" endOfBranchTrack="32" nodeID="73" name="POINTS : KM77" description="POINTS : KM77; 29.83 mph; 8m 41.56ch" kilometre="13.711" x="137110" y="-400" xNet="-2140938.2" yNet="5038443.3"/>
+		<node nodeID="30" name="OL KM80" description="OL for SIG : KM80" kilometre="13.741" x="137410" y="-400" xNet="-2141237.8" yNet="5038459"/>
+		<node nodeID="31" name="1000MM" description="1000MM : 14" kilometre="14.000" x="140000" y="-400" xNet="-2143824.2" yNet="5038594.6">
+			<netLimitInfo lineID="nw4005"/>
+		</node>
+		<speedIndicator nodeID="32" name="SPEED" description="Speed; 8m 41.51ch" kilometre="13.710" x="137100" y="-390" xNet="-2140928.7" yNet="5038432.8" referenceNode="73"/>
+		<node nodeID="33" name="SD : KM38" description="sighting distance for SIG : KM38" kilometre="12.636" x="126360" y="-200" xNet="-2130213.4" yNet="5037681" referenceNode="508" sightingDistance="true"/>
+		<node nodeID="34" name="1000MM" description="1000MM : 13" kilometre="13.000" x="130000" y="-200" xNet="-2133848.4" yNet="5037871.5"/>
+		<node nodeID="35" name="OL KM38" description="OL for SIG : KM38" kilometre="13.051" x="130510" y="-200" xNet="-2134357.7" yNet="5037898.2"/>
+		<node nodeID="36" name="GRAD" description="Gradient; 8m 36.29ch" kilometre="13.605" x="136050" y="-200" xNet="-2139890.1" yNet="5038188.1"/>
+		<crossing type="kr" startOfMainTrack="42" startOfBranchTrack="39" endOfMainTrack="36" endOfBranchTrack="45" nodeID="75" name="FD : KM76" description="FD : KM76; 8m 38.88ch" kilometre="13.657" x="136570" y="-200" xNet="-2140409.4" yNet="5038215.3"/>
+		<switch start="37" endOfMainTrack="42" endOfBranchTrack="38" nodeID="76" name="POINTS : KM72" description="POINTS : KM72; 29.83 mph; 8m 44.20ch" kilometre="13.764" x="137640" y="-200" xNet="-2141477.9" yNet="5038271.3"/>
+		<speedIndicator nodeID="38" name="SPEED" description="Speed; 8m 44.15ch" kilometre="13.763" x="137630" y="-190" xNet="-2141468.5" yNet="5038260.8" referenceNode="46"/>
+		<node nodeID="39" name="tc" description="release contact for track cercuit" kilometre="13.684" x="136835" y="-295" xNet="-2140669.1" yNet="5038324.1" referenceNode="75" releaseContact="true" arranged="true"/>
+		<node nodeID="40" name="tc" description="release contact for track cercuit" kilometre="13.685" x="136845.19" y="-298.65384" xNet="-2140679.1" yNet="5038328.3" referenceNode="32" releaseContact="true" arranged="true"/>
+		<node nodeID="41" description="release contact for track cercuit" kilometre="13.641" x="136410" y="-400" xNet="-2140239.2" yNet="5038406.7" referenceNode="664" releaseContact="true" arranged="true"/>
+		<node nodeID="42" name="tc" description="release contact for track cercuit" kilometre="13.697" x="136970" y="-200" xNet="-2140808.9" yNet="5038236.3" referenceNode="75" releaseContact="true" arranged="true"/>
+		<node nodeID="43" name="GRAD" description="Gradient; 8m 36.29ch" kilometre="13.605" x="136050" y="0" xNet="-2139900.6" yNet="5037988.4"/>
+		<node nodeID="44" name="GRAD" description="Gradient; 8m 36.29ch" kilometre="13.605" x="136050" y="200" xNet="-2139911.1" yNet="5037788.7"/>
+		<node nodeID="45" kilometre="13.632" x="136322.89" y="-100" xNet="-2140167.9" yNet="5038102.5"/>
+		<node nodeID="46" kilometre="13.715" x="137154.55" y="-50" xNet="-2141001" yNet="5038096.1"/>
+		<track trackID="T-3" stationID="KIRKHAM" type="timingPoint" nodeID="55" kilometre="12.614" x="126144.45" y="-200" xNet="-2129998.2" yNet="5037669.7" referenceNode="511"/>
+		<track trackID="T-4" stationID="KIRKHAM" type="timingPoint" nodeID="56" kilometre="12.614" x="126140.78" y="-400" xNet="-2129984" yNet="5037869.2" referenceNode="507"/>
+		<track trackID="D-1" stationID="KIRKTS" type="exit" interlockingMachine="2 Aspect Pannel (Below 75mph)" nodeID="412" name="SIG : EXIT" description="Signal Exit" kilometre="13.908" x="139076.95" y="200" xNet="-2142933.9" yNet="5037947.1" referenceNode="57"/>
+		<track trackID="U-1" stationID="KIRKTS" type="shunting" interlockingMachine="Shunt" nodeID="57" name="SIG : KM75" description="Signal KM75" kilometre="13.696" x="136957.17" y="200" xNet="-2140817" yNet="5037836.1" referenceNode="412"/>
+		<node nodeID="47" description="release contact for track cercuit" kilometre="13.649" x="136488.72" y="200" xNet="-2140349.2" yNet="5037811.6" referenceNode="18" releaseContact="true" arranged="true"/>
+		<node nodeID="49" name="SPEED" description="Speed; 8m 36,54ch" kilometre="13.610" x="136102.14" y="196.96587" xNet="-2139963" yNet="5037794.4"/>
+		<track trackID="D-2" stationID="KIRKMNJ" interlockingMachine="3 Aspect Pannel (Below 75mph)" nodeID="58" name="SIG : KM31" description="Signal KM31; 7m 79,80ch" kilometre="12.871" x="128710" y="200" xNet="-2132581.1" yNet="5037404.5" referenceNode="663"/>
+		<track trackID="D-1" stationID="KIRKMNJ" interlockingMachine="3 Aspect Pannel (Below 75mph)" nodeID="59" name="SIG : KM32" description="Signal KM32; 7m 79,80ch" kilometre="12.871" x="128710" y="0" xNet="-2132570.7" yNet="5037604.3" referenceNode="662"/>
+		<track trackID="U-1" stationID="KIRKMNJ" interlockingMachine="3 Aspect Pannel (Below 75mph)" nodeID="60" name="SIG : KM80" description="Signal KM80; 8m 52.00ch" kilometre="13.921" x="139210" y="-400" xNet="-2143035.3" yNet="5038553.2" referenceNode="661"/>
+		<signal type="shunting" interlockingMachine="Shunt" nodeID="2" name="SIG : KM71" description="Signal Shunt : KM71; 8m 35.20ch" kilometre="13.583" x="135822.42" y="399.98822" xNet="-2139701.8" yNet="5037577.4" referenceNode="3"/>
+		<node nodeID="3" name="GRAD" description="Gradient; 8m 36.29ch" kilometre="13.605" x="136042.42" y="399.98822" xNet="-2139921.5" yNet="5037588.9"/>
+		<node nodeID="4" name="SD : KM36" description="sighting distance for SIG : KM36" kilometre="13.803" x="138022.42" y="399.98822" xNet="-2141898.8" yNet="5037692.6" referenceNode="3" sightingDistance="true"/>
+		<signal interlockingMachine="2 Aspect Pannel (Below 75mph)" nodeID="79" name="SIG : KM36" description="Signal KM36; 8m 50.81ch" kilometre="13.897" x="138962.42" y="399.98822" xNet="-2142837.5" yNet="5037741.8" referenceNode="4"/>
+		<node nodeID="101" name="GRAD" description="Gradient; 8m 53.49ch" kilometre="13.951" x="139502.42" y="399.98822" xNet="-2143376.8" yNet="5037770"/>
+		<node nodeID="100" name="1000MM" description="1000MM : 14" kilometre="14.000" x="139992.42" y="399.98822" xNet="-2143866.1" yNet="5037795.7"/>
+		<node nodeID="99" name="OL KM36" description="OL for SIG : KM36" kilometre="14.077" x="140762.42" y="399.98822" xNet="-2144635.1" yNet="5037836"/>
+		<node nodeID="97" name="OL KM67" description="OL for SIG : KM67" kilometre="14.187" x="141862.42" y="399.98822" xNet="-2145721.5" yNet="5037664.5"/>
+		<node nodeID="98" name="GRAD" description="Gradient; 8m 69.45ch" kilometre="14.272" x="142712.42" y="399.98822" xNet="-2146561" yNet="5037531.5"/>
+		<node nodeID="102" name="SPEED" description="Speed; 8m 58.01ch" kilometre="14.042" x="140412.42" y="399.98822" xNet="-2144285.5" yNet="5037817.7"/>
+		<node nodeID="103" name="SPEED" description="Speed; 8m 58.06ch" kilometre="14.043" x="140422.42" y="399.98822" xNet="-2144295.5" yNet="5037818.2"/>
+		<node nodeID="1" kilometre="13.489" x="134889.2" y="400" xNet="-2138762.3" yNet="5037528.2"/>
+		<node nodeID="123" kilometre="13.468" x="134684.34" y="400" xNet="-2138557.7" yNet="5037517.5"/>
+		<node nodeID="131" name="tc" description="release contact for track cercuit" kilometre="13.479" x="134789.94" y="400" xNet="-2138663.2" yNet="5037523" referenceNode="94" releaseContact="true" arranged="true"/>
+		<node nodeID="50" kilometre="12.505" x="125052.2" y="200" xNet="-2128928.3" yNet="5037213.1">
+			<netLimitInfo lineID="nw4005"/>
+		</node>
+		<node nodeID="81" kilometre="12.505" x="125049.9" y="0" xNet="-2128915.6" yNet="5037412.7"/>
+		<node nodeID="52" kilometre="12.505" x="125054.51" y="-200" xNet="-2128909.7" yNet="5037612.7">
+			<netLimitInfo lineID="nw4005"/>
+		</node>
+		<node nodeID="53" kilometre="13.356" x="133559.73" y="231.2049" xNet="-2137425.8" yNet="5037627.2">
+			<netLimitInfo lineID="nw4005"/>
+		</node>
+		<node nodeID="96" kilometre="14.413" x="144124.84" y="399.98822" xNet="-2147956.1" yNet="5037310.6">
+			<netLimitInfo lineID="nw4007"/>
+		</node>
+		<track trackID="U-2" stationID="KIRKMNJ" interlockingMachine="3 Aspect Pannel (Below 75mph)" nodeID="104" name="SIG : KM67" description="Signal KM67; 8m 74.17ch" kilometre="14.367" x="143662.42" y="399.98822" xNet="-2147499.3" yNet="5037382.9" referenceNode="660"/>
+		<node nodeID="65" name="SPEED" description="Speed; 8m 23,12ch" kilometre="13.340" x="133400" y="0" xNet="-2137254.2" yNet="5037849.7"/>
+		<speedIndicator nodeID="66" name="SPEED" description="Speed; 8m 28,99ch" kilometre="13.458" x="134580" y="0" xNet="-2138432.6" yNet="5037911.5" referenceNode="43"/>
+		<speedIndicator nodeID="70" name="SPEED" description="Speed; 8m 28,99ch" kilometre="13.458" x="134580" y="200" xNet="-2138443.1" yNet="5037711.7" referenceNode="69"/>
+		<speedIndicator nodeID="72" name="SPEED" description="Speed; 8m 19.99ch" kilometre="13.277" x="132770" y="-400" xNet="-2136604.2" yNet="5038216.2" referenceNode="29"/>
+		<speedIndicator nodeID="74" name="SPEED" description="Speed; 8m 19.99ch" kilometre="13.277" x="132770" y="-200" xNet="-2136614.6" yNet="5038016.5" referenceNode="35"/>
+		<speedIndicator nodeID="95" name="SPEED" description="Speed; 8m 30ch" kilometre="13.477" x="134770" y="400" xNet="-2138643.3" yNet="5037522" referenceNode="94"/>
+		<speedIndicator nodeID="94" name="SPEED" description="Speed; 8m 30ch" kilometre="13.478" x="134780" y="400" xNet="-2138653.3" yNet="5037522.5" referenceNode="95"/>
+		<node nodeID="48" name="SPEED" description="Speed; 8m 24,22ch" kilometre="13.362" x="133620" y="200" xNet="-2137484.4" yNet="5037661.5"/>
+		<switch start="81" endOfMainTrack="303" endOfBranchTrack="653" nodeID="112" name="POINTS : KM48a" description="POINTS : KM48a; 14,91 mph; 7m 61,36ch" kilometre="12.500" x="125000" y="0" xNet="-2128865.7" yNet="5037410.1"/>
+		<speedIndicator nodeID="134" name="SPEED" description="Speed; 7m 61,31ch" kilometre="12.499" x="124990" y="10" xNet="-2128856.3" yNet="5037399.6" referenceNode="226"/>
+		<track trackID="T-4" stationID="KIRKMNJ" type="timingPoint" nodeID="181" name="T-4" description="Kirkham North Junction T-4; timingPoint" kilometre="13.358" x="133581.2" y="223.65234" xNet="-2137446.9" yNet="5037635.8" referenceNode="659"/>
+		<track trackID="T-3" stationID="KIRKMNJ" type="timingPoint" nodeID="182" name="T-3" description="Kirkham North Junction T-3; timingPoint" kilometre="13.658" x="136575.15" y="200" xNet="-2140435.5" yNet="5037816.2" referenceNode="47"/>
+		<node nodeID="226" kilometre="12.481" x="124809.47" y="56.420774" xNet="-2128678.4" yNet="5037343.8">
+			<netLimitInfo lineID="nw4005"/>
+		</node>
+		<node nodeID="408" kilometre="12.558" x="125577.24" y="-400" xNet="-2129421.3" yNet="5037839.7">
+			<netLimitInfo lineID="nw4005"/>
+		</node>
+		<track trackID="D-3" stationID="KIRKMNJ" interlockingMachine="3 Aspect Pannel (76mph - 100mph)" nodeID="80" name="SIG : KM38" description="Signal KM38; 7m 79.80ch" kilometre="12.871" x="128710" y="-200" xNet="-2132560.2" yNet="5037804" referenceNode="657"/>
+		<stationBorder exitType="alternative" stationID="KIRKHAM" lineID="nw4005" trackNumber="3" nodeID="511" name="[KIRKMSJ] - [n4005/4]" kilometre="12.581" x="125817.47" y="-200" xNet="-2129671.6" yNet="5037652.6" referenceNode="55"/>
+		<stationBorder exitType="regular" stationID="KIRKHAM" lineID="nw4005" trackNumber="3" nodeID="508" name="[KIRKMNJ] - [n4005/1]" kilometre="12.621" x="126209.11" y="-200" xNet="-2130062.7" yNet="5037673.1" referenceNode="55"/>
+		<stationBorder exitType="regular" stationID="KIRKHAM" lineID="nw4005" trackNumber="4" nodeID="507" name="[KIRKMSJ] - [n4005/1]" kilometre="12.597" x="125971.72" y="-400" xNet="-2129815.2" yNet="5037860.4" referenceNode="56"/>
+		<stationBorder exitType="alternative" stationID="KIRKHAM" lineID="nw4005" trackNumber="4" nodeID="506" name="[KIRKMNJ] - [n4005/2]" kilometre="12.622" x="126221.55" y="-400" xNet="-2130064.7" yNet="5037873.5" referenceNode="56"/>
+		<stationBorder exitType="regular" stationID="KIRKHAM" lineID="nw4005" trackNumber="1" nodeID="303" name="[KIRKMSJ] - [n4005/3]" kilometre="12.491" x="124914.52" y="0" xNet="-2128780.4" yNet="5037405.6" referenceNode="112">
+			<netLimitInfo lineID="nw4005"/>
+		</stationBorder>
+		<stationBorder exitType="regular" stationID="KIRKHAM" lineID="nw4005" trackNumber="1" nodeID="656" name="[KIRKMNJ] - [n4005/3]" kilometre="12.622" x="126221" y="0" xNet="-2130085.1" yNet="5037474" referenceNode="62"/>
+		<stationBorder exitType="alternative" stationID="KIRKHAM" lineID="nw4005" trackNumber="2" nodeID="655" name="[KIRKMSJ] - [n4005/2]" kilometre="12.581" x="125813.66" y="200" xNet="-2129688.8" yNet="5037252.9" referenceNode="61"/>
+		<stationBorder exitType="regular" stationID="KIRKHAM" lineID="nw4005" trackNumber="2" nodeID="654" name="[KIRKMNJ] - [n4005/4]" kilometre="12.723" x="127230" y="200" xNet="-2131103.1" yNet="5037327.1" referenceNode="54"/>
+		<stationBorder exitType="regular" stationID="KIRKHAM" lineID="nw4005" trackNumber="11" nodeID="653" name="[KIRKMS] - [n4005/1]" kilometre="12.500" x="124997" y="3" xNet="-2128862.9" yNet="5037406.9" referenceNode="112"/>
+		<stationBorder exitType="alternative" stationID="KIRKMNJ" lineID="nw4005" trackNumber="1" nodeID="661" name="[PLTNT67] - [n4005/1]" kilometre="13.945" x="139447" y="-400" xNet="-2143272" yNet="5038565.6" referenceNode="60"/>
+		<stationBorder exitType="regular" stationID="KIRKMNJ" lineID="nw4005" trackNumber="2" nodeID="37" name="[KIRKM51] - [n4005/1]" description="1000MM : 14" kilometre="14.000" x="140000" y="-200" xNet="-2143834.7" yNet="5038394.8" referenceNode="76">
+			<netLimitInfo lineID="nw4005"/>
+		</stationBorder>
+		<stationBorder exitType="regular" stationID="KIRKMNJ" lineID="nw4007" trackNumber="1" nodeID="660" name="[MSSD] - [n4007/1]" kilometre="14.381" x="143801.15" y="399.98822" xNet="-2147636.4" yNet="5037361.2" referenceNode="104"/>
+		<stationBorder exitType="regular" stationID="KIRKMNJ" lineID="nw4005" trackNumber="1" nodeID="659" name="[KIRKCES] - [n4005/1]" kilometre="13.357" x="133574.76" y="225.91811" xNet="-2137440.6" yNet="5037633.2" referenceNode="181"/>
+		<stationBorder exitType="regular" stationID="KIRKMNJ" lineID="nw4005" trackNumber="1" nodeID="658" name="[KIRKTS] - [n4005/1]" kilometre="13.669" x="136689.76" y="200" xNet="-2140549.9" yNet="5037822.2" referenceNode="182"/>
+		<stationBorder exitType="alternative" stationID="KIRKMNJ" lineID="nw4005" trackNumber="3" nodeID="657" name="[KIRKHAM] - [n4005/1]" kilometre="12.800" x="128005" y="-200" xNet="-2131856.2" yNet="5037767.1" referenceNode="80"/>
+		<stationBorder exitType="regular" stationID="KIRKMNJ" lineID="nw4005" trackNumber="4" nodeID="664" name="[KIRKHAM] - [n4005/2]" kilometre="13.690" x="136900" y="-400" xNet="-2140728.5" yNet="5038432.3" referenceNode="73"/>
+		<stationBorder exitType="alternative" stationID="KIRKMNJ" lineID="nw4005" trackNumber="2" nodeID="663" name="[KIRKHAM] - [n4005/4]" kilometre="12.829" x="128287" y="200" xNet="-2132158.7" yNet="5037382.4" referenceNode="58"/>
+		<stationBorder exitType="regular" stationID="KIRKMNJ" lineID="nw4005" trackNumber="1" nodeID="662" name="[KIRKHAM] - [n4005/3]" kilometre="12.833" x="128335" y="0" xNet="-2132196.2" yNet="5037584.6" referenceNode="59"/>
+		<stationBorder exitType="locked" stationID="KIRKTS" trackNumber="" nodeID="409" name="Buffer stop 131" kilometre="13.925" x="139250" y="200" xNet="-2143106.7" yNet="5037956.1" referenceNode="412"/>
+		<stationBorder exitType="regular" stationID="KIRKTS" lineID="nw4005" trackNumber="1" nodeID="665" name="[KIRKMNJ] - [n4005/1]" kilometre="13.688" x="136876.95" y="200" xNet="-2140736.9" yNet="5037831.9" referenceNode="57"/>
+	</nodes>
+	<links>
+		<link source="1" target="2" length="94" gradient="2.80112" vmax="113" vmaxr="113" bidirectional="true"/>
+		<link source="2" target="3" length="22" gradient="2.80112" vmax="113" vmaxr="113" bidirectional="true"/>
+		<link source="3" target="4" length="198" gradient="7.19424" vmax="113" vmaxr="113" bidirectional="true"/>
+		<link source="4" target="79" length="94" gradient="7.19424" vmax="113" vmaxr="113" bidirectional="true"/>
+		<link source="6" target="20" length="34" gradient="2.80112" vmax="48" vmaxr="48"/>
+		<link source="8" target="9" length="105" gradient="2.80112" vmax="64" vmaxr="64"/>
+		<link source="9" target="662" length="88" gradient="2.80112" vmax="64" vmaxr="64"/>
+		<link source="10" target="11" length="51" gradient="2.80112" vmax="64" vmaxr="64"/>
+		<link source="11" target="77" length="275" gradient="2.80112" vmax="64" vmaxr="64"/>
+		<link source="12" target="663" length="99" gradient="2.80112" vmax="72"/>
+		<link source="13" target="14" length="51" gradient="2.80112" vmax="72"/>
+		<link source="14" target="23" length="272" gradient="2.80112" vmax="72"/>
+		<link source="15" target="67" length="1" gradient="2.80112" vmax="72" vmaxr="72" bidirectional="true"/>
+		<link source="16" target="68" length="1" gradient="2.80112" vmax="72" vmaxr="72"/>
+		<link source="17" target="123" length="28" gradient="2.80112" vmax="48" vmaxr="48" bidirectional="true"/>
+		<link source="18" target="47" length="39" vmax="24" vmaxr="24" bidirectional="true"/>
+		<link source="19" target="16" length="35" gradient="2.80112" vmax="48" vmaxr="48"/>
+		<link source="20" target="19" length="1" gradient="2.80112" vmax="48" vmaxr="48"/>
+		<link source="21" target="66" length="79" gradient="2.80112" vmaxr="64"/>
+		<link source="22" target="78" length="6" gradient="2.80112" vmax="72" vmaxr="72"/>
+		<link source="23" target="48" length="39" gradient="2.80112" vmax="72"/>
+		<link source="24" target="44" length="126" gradient="2.80112" vmax="48" vmaxr="48"/>
+		<link source="25" target="46" length="66" vmax="48"/>
+		<link source="26" target="45" length="15" vmaxr="48"/>
+		<link source="27" target="28" length="359" gradient="2.80112" vmaxr="64"/>
+		<link source="28" target="72" length="277" gradient="2.80112" vmaxr="64"/>
+		<link source="29" target="41" length="36" vmaxr="97"/>
+		<link source="30" target="60" length="180" vmaxr="97" bidirectional="true"/>
+		<link source="32" target="73" length="1" vmaxr="97"/>
+		<link source="33" target="657" length="165" gradient="2.801" vmax="121"/>
+		<link source="34" target="35" length="51" gradient="2.801" vmax="121"/>
+		<link source="35" target="74" length="226" gradient="2.801" vmax="121"/>
+		<link source="36" target="75" length="52" vmax="97"/>
+		<link source="38" target="76" length="1" vmax="97"/>
+		<link source="39" target="40" length="1" vmax="48" vmaxr="48"/>
+		<link source="40" target="32" length="25" vmax="48" vmaxr="48"/>
+		<link source="41" target="664" length="49" vmaxr="97"/>
+		<link source="42" target="76" length="67" vmax="97"/>
+		<link source="43" target="26" length="12" vmaxr="48"/>
+		<link source="44" target="71" length="4" vmax="48" vmaxr="48"/>
+		<link source="45" target="75" length="25" vmaxr="48"/>
+		<link source="46" target="38" length="48" vmax="48"/>
+		<link source="47" target="182" length="9" vmax="24" vmaxr="24" bidirectional="true"/>
+		<link source="48" target="67" length="1" gradient="2.80112" vmax="72" vmaxr="72"/>
+		<link source="49" target="25" length="39" vmax="48"/>
+		<link source="50" target="655" length="76" gradient="2.80112" vmax="72"/>
+		<link source="52" target="511" length="76" gradient="2.801" vmax="121"/>
+		<link source="53" target="659" length="1" gradient="2.80112" vmax="24" vmaxr="24" bidirectional="true"/>
+		<link source="54" target="654" length="3" gradient="2.80112" vmax="72"/>
+		<link source="55" target="508" length="7" gradient="2.801" vmax="121"/>
+		<link source="56" target="506" length="8" gradient="2.80112" vmaxr="64"/>
+		<link source="57" target="412" length="212" vmax="24" vmaxr="24" bidirectional="true"/>
+		<link source="58" target="13" length="129" gradient="2.80112" vmax="72"/>
+		<link source="59" target="10" length="129" gradient="2.80112" vmax="64" vmaxr="64"/>
+		<link source="60" target="661" length="24" vmaxr="97" bidirectional="true"/>
+		<link source="61" target="54" length="106" gradient="2.80112" vmax="72"/>
+		<link source="62" target="656" length="8" gradient="2.80112" vmax="64" vmaxr="64"/>
+		<link source="63" target="62" length="98" gradient="2.80112" vmax="64" vmaxr="64"/>
+		<link source="64" target="6" length="1" gradient="2.801" vmax="64" vmaxr="64"/>
+		<link source="64" target="65" length="1" gradient="2.80112" vmax="64" vmaxr="64"/>
+		<link source="65" target="21" length="39" gradient="2.80112" vmaxr="64"/>
+		<link source="66" target="43" length="147" gradient="2.80112" vmaxr="48"/>
+		<link source="67" target="22" length="4" gradient="2.80112" vmax="72" vmaxr="72"/>
+		<link source="68" target="69" length="32" gradient="2.80112" vmax="72" vmaxr="72"/>
+		<link source="69" target="17" length="1" gradient="2.80112" vmax="72" vmaxr="72" bidirectional="true"/>
+		<link source="69" target="70" length="19" gradient="2.80112" vmax="72" vmaxr="72"/>
+		<link source="70" target="24" length="21" gradient="2.80112" vmax="48" vmaxr="48"/>
+		<link source="71" target="18" length="1" vmax="48" vmaxr="48" bidirectional="true"/>
+		<link source="71" target="49" length="1" vmax="48"/>
+		<link source="72" target="29" length="328" gradient="2.80112" vmaxr="97"/>
+		<link source="73" target="30" length="30" vmaxr="97" bidirectional="true"/>
+		<link source="74" target="36" length="328" gradient="2.801" vmax="97"/>
+		<link source="75" target="39" length="27" vmax="48" vmaxr="48"/>
+		<link source="75" target="42" length="40" vmax="97"/>
+		<link source="76" target="37" length="236" vmax="97" bidirectional="true"/>
+		<link source="77" target="64" length="13" gradient="2.80112" vmax="64" vmaxr="64"/>
+		<link source="78" target="68" length="34" gradient="2.80112" vmax="72" vmaxr="72"/>
+		<link source="79" target="101" length="54" gradient="7.19424" vmax="113" vmaxr="113" bidirectional="true"/>
+		<link source="80" target="34" length="129" gradient="2.801" vmax="121"/>
+		<link source="81" target="63" length="11" gradient="2.80112" vmax="64" vmaxr="64"/>
+		<link source="94" target="131" length="1" gradient="2.80112" vmax="113" vmaxr="113" bidirectional="true"/>
+		<link source="95" target="94" length="1" gradient="2.80112" vmax="48" vmaxr="113" bidirectional="true"/>
+		<link source="97" target="98" length="85" vmax="113" vmaxr="113" bidirectional="true"/>
+		<link source="98" target="104" length="95" gradient="9.34579" vmax="113" vmaxr="113" bidirectional="true"/>
+		<link source="99" target="97" length="110" vmax="113" vmaxr="113" bidirectional="true"/>
+		<link source="100" target="102" length="42" vmax="113" vmaxr="113" bidirectional="true"/>
+		<link source="101" target="100" length="49" vmax="113" vmaxr="113" bidirectional="true"/>
+		<link source="102" target="103" length="1" vmax="113" vmaxr="113" bidirectional="true"/>
+		<link source="103" target="99" length="34" vmax="113" vmaxr="113" bidirectional="true"/>
+		<link source="104" target="660" length="14" gradient="9.34579" vmax="113" vmaxr="113" bidirectional="true"/>
+		<link source="112" target="81" length="5" gradient="2.80112" vmax="64" vmaxr="64"/>
+		<link source="123" target="95" length="9" gradient="2.80112" vmax="48" vmaxr="48" bidirectional="true"/>
+		<link source="131" target="1" length="10" gradient="2.80112" vmax="113" vmaxr="113" bidirectional="true"/>
+		<link source="134" target="653" length="1" gradient="2.80112" vmax="64" vmaxr="64" bidirectional="true"/>
+		<link source="181" target="15" length="4" gradient="2.80112" vmax="24" vmaxr="24" bidirectional="true"/>
+		<link source="182" target="658" length="11" vmax="24" vmaxr="24" bidirectional="true"/>
+		<link source="226" target="134" length="18" gradient="2.80112" vmax="24" vmaxr="24" bidirectional="true"/>
+		<link source="303" target="112" length="8" gradient="2.80112" vmax="64" vmaxr="64"/>
+		<link source="408" target="507" length="39" gradient="2.80112" vmaxr="64"/>
+		<link source="412" target="409" length="17" vmax="24" vmaxr="24" bidirectional="true"/>
+		<link source="506" target="27" length="19" gradient="2.80112" vmaxr="64"/>
+		<link source="507" target="56" length="17" gradient="2.80112" vmaxr="64"/>
+		<link source="508" target="33" length="15" gradient="2.801" vmax="121"/>
+		<link source="511" target="55" length="33" gradient="2.801" vmax="121"/>
+		<link source="653" target="112" gradient="2.80112" vmax="64" vmaxr="64" bidirectional="true"/>
+		<link source="654" target="12" length="7" gradient="2.80112" vmax="72"/>
+		<link source="655" target="61" length="33" gradient="2.80112" vmax="72"/>
+		<link source="656" target="8" length="19" gradient="2.80112" vmax="64" vmaxr="64"/>
+		<link source="657" target="80" length="70" gradient="2.801" vmax="121"/>
+		<link source="658" target="665" length="19" vmax="24" vmaxr="24" bidirectional="true"/>
+		<link source="659" target="181" length="1" gradient="2.80112" vmax="24" vmaxr="24" bidirectional="true"/>
+		<link source="660" target="96" length="32" gradient="9.34579" vmax="113" vmaxr="113" bidirectional="true"/>
+		<link source="661" target="31" length="55" vmaxr="97" bidirectional="true"/>
+		<link source="662" target="59" length="37" gradient="2.80112" vmax="64" vmaxr="64"/>
+		<link source="663" target="58" length="42" gradient="2.80112" vmax="72"/>
+		<link source="664" target="73" length="21" vmaxr="97"/>
+		<link source="665" target="57" length="8" vmax="24" vmaxr="24" bidirectional="true"/>
+	</links>
+	<dependentLinks/>
+	<blockSections>
+		<blocksection uuid="{0416656a-5ea9-4b94-97bd-6021bc157138}" lines="kirk nw4005" speedIndicators="72">
+			<part nodes="60 30 73 664 41 29 72 28 27 506 56 507 408"/>
+		</blocksection>
+		<blocksection uuid="{373cae7c-d516-452c-ad63-d947bab54442}" lines="kirk" shuntingBlock="true" speedIndicators="6 16 18 70">
+			<part nodes="57 665 658 182 47 18 71 44 24 70 69 68 16 19 20 6 64 77 11 10 59 662 9 8 656 62 63"/>
+		</blocksection>
+		<blocksection uuid="{383b5857-152a-4013-b166-dee05f637795}" lines="kirk" speedIndicators="32 66">
+			<part nodes="60 30 73 32 40 39 75 45 26 43 66 21 65 64 77 11 10 59 662 9 8 656 62 63"/>
+		</blocksection>
+		<blocksection uuid="{436e0180-fdf3-43bb-a3ed-b2777a4d3fd2}" lines="kirk nw4005" speedIndicators="74">
+			<part nodes="80 34 35 74 36 75 42 76 37"/>
+		</blocksection>
+		<blocksection uuid="{49f7c501-6ee0-44bf-a0f2-d135ade3bca7}" lines="kirk" speedIndicators="17 94">
+			<part nodes="58 13 14 23 48 67 22 78 68 69 17 123 95 94 131 1 2 3 4 79"/>
+		</blocksection>
+		<blocksection uuid="{4d534894-82bb-47f4-ad2c-0f2d2448eb4b}" lines="kirk" speedIndicators="6 16 18 70">
+			<part nodes="59 10 11 77 64 6 20 19 16 68 69 70 24 44 71 18 47 182 658 665 57 412"/>
+		</blocksection>
+		<blocksection uuid="{4e243e36-5b0b-4322-8cb5-c4e7dc5f470e}" lines="kirk nw4005" shuntingBlock="true" speedIndicators="134">
+			<part nodes="226 134 653 112 81 63 62 656 8 9 662 59"/>
+		</blocksection>
+		<blocksection uuid="{5011071f-e288-4c0a-802d-fc9a40d8983f}" lines="kirk nw4005" shuntingBlock="true" speedIndicators="15">
+			<part nodes="78 22 67 15 181 659 53"/>
+		</blocksection>
+		<blocksection uuid="{537293e4-9227-4ecf-87c4-f8a47a89d568}" lines="kirk nw4005">
+			<part nodes="63 81 112 303"/>
+		</blocksection>
+		<blocksection uuid="{67837e7d-c045-49c8-bfad-d2c8720324e3}" lines="kirk nw4005">
+			<part nodes="52 511 55 508 33 657 80"/>
+		</blocksection>
+		<blocksection uuid="{89155aba-87ff-4efe-8a4d-cd24ce5f786e}" lines="kirk nw4005" speedIndicators="134">
+			<part nodes="63 81 112 653 134 226"/>
+		</blocksection>
+		<blocksection uuid="{93256467-1a21-41bd-bad5-a573c32b823f}" lines="kirk nw4005">
+			<part nodes="31 661 60"/>
+		</blocksection>
+		<blocksection uuid="{abdbb15e-72f9-4628-a52a-315d61e06ddb}" lines="kirk" shuntingBlock="true" speedIndicators="17 95">
+			<part nodes="2 1 131 94 95 123 17 69 68 78"/>
+		</blocksection>
+		<blocksection uuid="{b19f1358-2d41-48f6-8452-b67b7b05c2e0}" lines="kirk" speedIndicators="6 16 17 94">
+			<part nodes="59 10 11 77 64 6 20 19 16 68 69 17 123 95 94 131 1 2 3 4 79"/>
+		</blocksection>
+		<blocksection uuid="{bcdd9015-1e5d-473a-adef-fe3377d06951}" lines="kirk" speedIndicators="6 16 17 95">
+			<part nodes="104 98 97 99 103 102 100 101 79 4 3 2 1 131 94 95 123 17 69 68 16 19 20 6 64 77 11 10 59 662 9 8 656 62 63"/>
+		</blocksection>
+		<blocksection uuid="{beab300d-adbd-441c-9bb8-324525c46afa}" lines="kirk nw4007">
+			<part nodes="79 101 100 102 103 99 97 98 104 660 96"/>
+		</blocksection>
+		<blocksection uuid="{bf8cd88f-d8a0-43f3-9279-304233179c1a}" lines="kirk nw4005" speedIndicators="38 70">
+			<part nodes="58 13 14 23 48 67 22 78 68 69 70 24 44 71 49 25 46 38 76 37"/>
+		</blocksection>
+		<blocksection uuid="{d51a3907-6a2b-43b2-b3d0-629267f3a401}" lines="kirk" shuntingBlock="true" speedIndicators="18 70">
+			<part nodes="57 665 658 182 47 18 71 44 24 70 69 68 78"/>
+		</blocksection>
+		<blocksection uuid="{e24ce27e-1625-412d-b521-de29f7331dd6}" lines="kirk nw4005" speedIndicators="6 16 38 70">
+			<part nodes="59 10 11 77 64 6 20 19 16 68 69 70 24 44 71 49 25 46 38 76 37"/>
+		</blocksection>
+		<blocksection uuid="{e6e56fdc-094d-4606-b5ed-8df59fc6ea82}" lines="kirk" speedIndicators="18 70">
+			<part nodes="58 13 14 23 48 67 22 78 68 69 70 24 44 71 18 47 182 658 665 57 412"/>
+		</blocksection>
+		<blocksection uuid="{e78700e0-96df-48e8-b250-57c9e3396569}" lines="kirk nw4005" shuntingBlock="true" speedIndicators="15 38 70">
+			<part nodes="53 659 181 15 67 22 78 68 69 70 24 44 71 49 25 46 38 76 37"/>
+		</blocksection>
+		<blocksection uuid="{ee05b3eb-c7db-4ddb-a9c0-03fd8efacf8b}" lines="kirk nw4005">
+			<part nodes="50 655 61 54 654 12 663 58"/>
+		</blocksection>
+		<blocksection uuid="{fe8ec3db-db35-4e7e-b246-b0fc1d64f25f}" lines="kirk nw4007">
+			<part nodes="96 660 104"/>
+		</blocksection>
+	</blockSections>
+	<slipDistances>
+		<slipdistance uuid="{03ff3556-747d-41e8-80a9-5690c391970a}" vmax="999" lines="kirk" serialNumber="0">
+			<part nodes="59 10 11"/>
+		</slipdistance>
+		<slipdistance uuid="{19e17b75-fad7-45d1-bf5d-4f64afeec90b}" vmax="999" lines="kirk" serialNumber="0">
+			<part nodes="79 101 100 102 103 99"/>
+		</slipdistance>
+		<slipdistance uuid="{4f68a508-d530-4e23-8a7c-a10c28d81361}" vmax="999" lines="kirk" serialNumber="0">
+			<part nodes="80 34 35"/>
+		</slipdistance>
+		<slipdistance uuid="{5a24b3d1-724b-4716-ab7b-76ddc5babeff}" vmax="999" lines="kirk nw4005" serialNumber="1">
+			<part nodes="63 81 112 653 134 226"/>
+		</slipdistance>
+		<slipdistance uuid="{6b584377-1c6a-42e2-8cba-464addead124}" vmax="999" lines="kirk" serialNumber="0">
+			<part nodes="104 98 97"/>
+		</slipdistance>
+		<slipdistance uuid="{720f0444-b011-4d23-bd27-5deed2f67762}" vmax="999" lines="kirk" serialNumber="0">
+			<part nodes="58 13 14"/>
+		</slipdistance>
+		<slipdistance uuid="{8cde4132-4934-4bdd-81b0-c7fc1c3ba566}" vmax="999" lines="kirk nw4005" serialNumber="0">
+			<part nodes="63 81 112 303"/>
+		</slipdistance>
+		<slipdistance uuid="{98634f88-9be3-4bc1-8d75-40f458f9b161}" vmax="999" lines="kirk" serialNumber="0">
+			<part nodes="60 30"/>
+		</slipdistance>
+	</slipDistances>
+	<approachControlRoutes/>
+	<stationRoutes>
+		<stationRoute stationID="KIRKHAM" name="[KIRKMNJ]-[n4005/2]-[4]-[KIRKMSJ]-[n4005/1] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="506 56 507"/>
+		<stationRoute stationID="KIRKHAM" name="[KIRKMNJ]-[n4005/3]-[1]-[KIRKMSJ]-[n4005/3] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="656 62 63 81 112 303"/>
+		<stationRoute stationID="KIRKHAM" name="[KIRKMNJ]-[n4005/3]-[1]-[KIRKMS]-[n4005/1] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=95;NRz=95;S=95;Rz=95;FGz=95;NGz=95;Gz=95;Lz=95;Unbekannt=95" nodes="656 62 63 81 112 653"/>
+		<stationRoute stationID="KIRKHAM" name="[KIRKMSJ]-[n4005/2]-[2]-[KIRKMNJ]-[n4005/4] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="655 61 54 654"/>
+		<stationRoute stationID="KIRKHAM" name="[KIRKMSJ]-[n4005/4]-[3]-[KIRKMNJ]-[n4005/1] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="511 55 508"/>
+		<stationRoute stationID="KIRKHAM" name="[KIRKMS]-[n4005/1]-[1]-[KIRKMNJ]-[n4005/3] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=95;NRz=95;S=95;Rz=95;FGz=95;NGz=95;Gz=95;Lz=95;Unbekannt=95" nodes="653 112 81 63 62 656"/>
+		<stationRoute stationID="KIRKMNJ" name="[KIRKCES]-[n4005/1]-[3-4]-[KIRKTS]-[n4005/1] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=90;NRz=90;S=90;Rz=90;FGz=90;NGz=90;Gz=90;Lz=90;Unbekannt=90" nodes="659 181 15 67 22 78 68 69 70 24 44 71 18 47 182 658"/>
+		<stationRoute stationID="KIRKMNJ" name="[KIRKCES]-[n4005/1]-[4]-[KIRKM51]-[n4005/1] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=90;NRz=90;S=90;Rz=90;FGz=90;NGz=90;Gz=90;Lz=90;Unbekannt=90" nodes="659 181 15 67 22 78 68 69 70 24 44 71 49 25 46 38 76 37"/>
+		<stationRoute stationID="KIRKMNJ" name="[KIRKCES]-[n4005/1]-[4]-[MSSD]-[n4007/1] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=90;NRz=90;S=90;Rz=90;FGz=90;NGz=90;Gz=90;Lz=90;Unbekannt=90" nodes="659 181 15 67 22 78 68 69 17 123 95 94 131 1 2 3 4 79 101 100 102 103 99 97 98 104 660"/>
+		<stationRoute stationID="KIRKMNJ" name="[KIRKHAM]-[n4005/1]-[3]-[KIRKM51]-[n4005/1] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="657 80 34 35 74 36 75 42 76 37"/>
+		<stationRoute stationID="KIRKMNJ" name="[KIRKHAM]-[n4005/3]-[1-3]-[KIRKTS]-[n4005/1] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=90;NRz=90;S=90;Rz=90;FGz=90;NGz=90;Gz=90;Lz=90;Unbekannt=90" nodes="662 59 10 11 77 64 6 20 19 16 68 69 70 24 44 71 18 47 182 658"/>
+		<stationRoute stationID="KIRKMNJ" name="[KIRKHAM]-[n4005/3]-[1]-[KIRKM51]-[n4005/1] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=90;NRz=90;S=90;Rz=90;FGz=90;NGz=90;Gz=90;Lz=90;Unbekannt=90" nodes="662 59 10 11 77 64 6 20 19 16 68 69 70 24 44 71 49 25 46 38 76 37"/>
+		<stationRoute stationID="KIRKMNJ" name="[KIRKHAM]-[n4005/3]-[1]-[MSSD]-[n4007/1] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=90;NRz=90;S=90;Rz=90;FGz=90;NGz=90;Gz=90;Lz=90;Unbekannt=90" nodes="662 59 10 11 77 64 6 20 19 16 68 69 17 123 95 94 131 1 2 3 4 79 101 100 102 103 99 97 98 104 660"/>
+		<stationRoute stationID="KIRKMNJ" name="[KIRKHAM]-[n4005/4]-[2-3]-[KIRKTS]-[n4005/1] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=95;NRz=95;S=95;Rz=95;FGz=95;NGz=95;Gz=95;Lz=95;Unbekannt=95" nodes="663 58 13 14 23 48 67 22 78 68 69 70 24 44 71 18 47 182 658"/>
+		<stationRoute stationID="KIRKMNJ" name="[KIRKHAM]-[n4005/4]-[2]-[KIRKM51]-[n4005/1] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=95;NRz=95;S=95;Rz=95;FGz=95;NGz=95;Gz=95;Lz=95;Unbekannt=95" nodes="663 58 13 14 23 48 67 22 78 68 69 70 24 44 71 49 25 46 38 76 37"/>
+		<stationRoute stationID="KIRKMNJ" name="[KIRKHAM]-[n4005/4]-[2]-[MSSD]-[n4007/1] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=95;NRz=95;S=95;Rz=95;FGz=95;NGz=95;Gz=95;Lz=95;Unbekannt=95" nodes="663 58 13 14 23 48 67 22 78 68 69 17 123 95 94 131 1 2 3 4 79 101 100 102 103 99 97 98 104 660"/>
+		<stationRoute stationID="KIRKMNJ" name="[KIRKTS]-[n4005/1]-[3-4]-[KIRKCES]-[n4005/1] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=90;NRz=90;S=90;Rz=90;FGz=90;NGz=90;Gz=90;Lz=90;Unbekannt=90" nodes="658 182 47 18 71 44 24 70 69 68 78 22 67 15 181 659"/>
+		<stationRoute stationID="KIRKMNJ" name="[KIRKTS]-[n4005/1]-[3]-[KIRKHAM]-[n4005/3] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=90;NRz=90;S=90;Rz=90;FGz=90;NGz=90;Gz=90;Lz=90;Unbekannt=90" nodes="658 182 47 18 71 44 24 70 69 68 16 19 20 6 64 77 11 10 59 662"/>
+		<stationRoute stationID="KIRKMNJ" name="[MSSD]-[n4007/1]-[2]-[KIRKHAM]-[n4005/3] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=90;NRz=90;S=90;Rz=90;FGz=90;NGz=90;Gz=90;Lz=90;Unbekannt=90" nodes="660 104 98 97 99 103 102 100 101 79 4 3 2 1 131 94 95 123 17 69 68 16 19 20 6 64 77 11 10 59 662"/>
+		<stationRoute stationID="KIRKMNJ" name="[PLTNT67]-[n4005/1]-[1]-[KIRKHAM]-[n4005/2] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="661 60 30 73 664"/>
+		<stationRoute stationID="KIRKMNJ" name="[PLTNT67]-[n4005/1]-[1]-[KIRKHAM]-[n4005/3] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=90;NRz=90;S=90;Rz=90;FGz=90;NGz=90;Gz=90;Lz=90;Unbekannt=90" nodes="661 60 30 73 32 40 39 75 45 26 43 66 21 65 64 77 11 10 59 662"/>
+		<stationRoute stationID="KIRKTS" name="[KIRKMNJ]-[n4005/1]-[1]-[]-[?/] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="665 57 412 409"/>
+		<stationRoute stationID="KIRKTS" name="[]-[?/]-[1]-[KIRKMNJ]-[n4005/1] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="409 412 57 665"/>
+	</stationRoutes>
+	<lineCatalog/>
+	<zugNummernFelder/>
+	<switchGears/>
+</line>

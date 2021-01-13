@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<line lineID="ln824" name="MOORTHORPE JN - SOUTH KIRKBY JN" trafficRouting="on_the_left" type="local" dependentLines="moort skbyj">
+	<version major="1" minor="2" patchlevel="0" comment=""/>
+	<creator user="Ahowe4" timestamp="2016-11-01T12:54:22"/>
+	<lasteditor user="Ahowe4" timestamp="2016-11-01T12:54:22"/>
+	<stations/>
+	<nodes>
+		<node nodeID="15" kilometre="0.799" x="-38000" y="200" xNet="-398181.42" yNet="4682788.7"/>
+		<node nodeID="16" kilometre="0.799" x="-37998.961" y="0" xNet="-397981.91" yNet="4682793.2"/>
+		<node nodeID="18" kilometre="0.599" x="-35999.219" y="0" xNet="-398438" yNet="4683348"/>
+		<node nodeID="20" kilometre="0.399" x="-33998.82" y="0" xNet="-399120" yNet="4683865"/>
+		<node nodeID="31" name="SD" kilometre="0.755" x="-37559" y="0" xNet="-398034" yNet="4683008" referenceNode="18" sightingDistance="true"/>
+		<node nodeID="34" kilometre="0.343" x="-33438.898" y="0" xNet="-400234" yNet="4684793"/>
+	</nodes>
+	<links>
+		<link source="15" target="21.skbyj" length="156" gradient="12.048" vmax="80" vmaxr="80"/>
+		<link source="16" target="31" length="44" gradient="12.048" vmax="80" vmaxr="80"/>
+		<link source="18" target="20" length="200" gradient="12.048" vmax="80" vmaxr="80"/>
+		<link source="20" target="34" length="56" gradient="12.048" vmax="80" vmaxr="80"/>
+		<link source="22.moort" target="15" length="180" gradient="12.048" vmax="80" vmaxr="80"/>
+		<link source="31" target="18" length="156" gradient="12.048" vmax="80" vmaxr="80"/>
+		<link source="34" target="944.skbyj" length="40" vmax="80" vmaxr="80"/>
+		<link source="88.moort" target="16" length="75" gradient="12.048" vmax="80" vmaxr="80"/>
+	</links>
+	<dependentLinks/>
+	<blockSections>
+		<blocksection uuid="{81f61a99-ad9b-460c-ac01-8ebb0794d11c}" lines="ln824 moort skbyj">
+			<part nodes="22.moort 15 21.skbyj"/>
+		</blocksection>
+		<blocksection uuid="{bc43e9fd-26c4-410f-bd7e-2cf6146da003}" lines="ln824 moort skbyj">
+			<part nodes="944.skbyj 34 20 18 31 16 88.moort"/>
+		</blocksection>
+	</blockSections>
+	<slipDistances/>
+	<approachControlRoutes/>
+	<stationRoutes/>
+	<lineCatalog/>
+	<zugNummernFelder/>
+	<switchGears/>
+</line>

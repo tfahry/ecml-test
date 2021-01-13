@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<line lineID="sc057" name="Cathcart East Jn - Cathcart North Jn" trafficRouting="on_the_left" type="local" dependentLines="catej catnj">
+	<version major="1" minor="2" patchlevel="0" comment=""/>
+	<creator user="VWaddelo" timestamp="2016-07-08T10:58:15"/>
+	<lasteditor user="VWaddelo" timestamp="2016-07-08T10:58:15"/>
+	<stations/>
+	<nodes>
+		<signal interlockingMachine="3 Aspect IECC (Below 75mph)" nodeID="313" name="SIG:C28" kilometre="0.483" x="35062" y="-722.09177" xNet="-3214627.6" yNet="9027214.7" referenceNode="308"/>
+		<node nodeID="316" name="SD:C57" kilometre="0.233" x="32558.362" y="-1386.2918" xNet="-3215528.9" yNet="9027544.4" referenceNode="322" sightingDistance="true"/>
+		<node nodeID="322" name="OL: C27" kilometre="0.442" x="35185.497" y="-1376.6555" xNet="-3213689.7" yNet="9025691.4"/>
+		<node nodeID="325" name="GRAD" kilometre="0.122" x="31300.491" y="-1389.4264" xNet="-3216504.5" yNet="9028529.2"/>
+		<speedIndicator nodeID="308" name="SPEED" kilometre="0.382" x="33908.796" y="-723.62102" xNet="-3215749.9" yNet="9028782.7" referenceNode="305.catnj"/>
+	</nodes>
+	<links>
+		<link source="305.catnj" target="308" length="3" vmax="56" vmaxr="56"/>
+		<link source="308" target="313" length="101" vmax="40" vmaxr="40"/>
+		<link source="313" target="373.catej" length="27" vmax="40" vmaxr="40"/>
+		<link source="316" target="322" length="209" vmax="40" vmaxr="40"/>
+		<link source="321.catnj" target="325" length="6" gradient="-10" vmax="40" vmaxr="40"/>
+		<link source="322" target="324.catej" length="85" vmax="40" vmaxr="40"/>
+		<link source="325" target="316" length="110" vmax="40" vmaxr="40"/>
+	</links>
+	<dependentLinks/>
+	<blockSections>
+		<blocksection uuid="{186eb4ff-08fc-48b7-9049-85fc66ff7fdb}" lines="catej sc057">
+			<part nodes="313 373.catej"/>
+		</blocksection>
+		<blocksection uuid="{87fd69a4-33b5-47e8-abdf-e0d5bed83762}" lines="catnj sc057" speedIndicators="308">
+			<part nodes="305.catnj 308 313"/>
+		</blocksection>
+		<blocksection uuid="{de77ebab-fe5f-4117-9b04-2b87f3f40d85}" lines="catej catnj sc057">
+			<part nodes="324.catej 322 316 325 321.catnj"/>
+		</blocksection>
+	</blockSections>
+	<slipDistances>
+		<slipdistance uuid="{580975a0-52f8-4c29-af8d-821199e9bc07}" vmax="999" lines="catej sc057" serialNumber="0">
+			<part nodes="313 373.catej"/>
+		</slipdistance>
+		<slipdistance uuid="{8b8e8029-b8c6-4d19-b808-002c796b8dd7}" vmax="999" lines="catej sc057" serialNumber="0">
+			<part nodes="324.catej 322"/>
+		</slipdistance>
+	</slipDistances>
+	<approachControlRoutes/>
+	<stationRoutes/>
+	<lineCatalog/>
+	<zugNummernFelder/>
+	<switchGears/>
+</line>

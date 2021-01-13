@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<line lineID="hmsqj" name="Halilton Square Jn" trafficRouting="on_the_left" type="global" dependentLines="nw8011 nw8013">
+	<transformations>
+		<transformation line="nw8011" m11="-1" m12="-1.22461e-16" m21="1.22461e-16" m22="-1" dx="275026" dy="692.32"/>
+		<transformation line="nw8013" m11="1" m12="0" m21="0" m22="1" dx="0" dy="0"/>
+	</transformations>
+	<version major="1" minor="2" patchlevel="0" comment=""/>
+	<creator user="VWaddelo" timestamp="2016-07-08T10:58:15"/>
+	<lasteditor user="VWaddelo" timestamp="2016-07-08T10:58:15"/>
+	<stations>
+		<station stationID="CANSTJ" name="Canning Street Jn" xNet="-2290318.85" yNet="4305760.45" uicLocationCode="0" circleDiameter="0">
+			<textElement type="name">
+				<pos view="net" x="589.577" y="589.577" angle="0" system="source"/>
+				<pos view="wgs84" x="589.577" y="589.577" angle="0" system="source"/>
+				<pos view="line" x="580.219" y="580.219" angle="0" system="source"/>
+				<pos view="macro" x="28.2843" y="28.2843" angle="0" system="source"/>
+				<pos view="macroWgs84" x="0" y="0" angle="0" system="source"/>
+			</textElement>
+		</station>
+		<station stationID="HAMTSQ" name="Hamilton Square" xNet="-2292874.35" yNet="4305618.25" uicLocationCode="0" circleDiameter="0">
+			<textElement type="name">
+				<pos view="net" x="621.629" y="621.629" angle="0" system="source"/>
+				<pos view="wgs84" x="621.629" y="621.629" angle="0" system="source"/>
+				<pos view="line" x="698.313" y="698.313" angle="0" system="source"/>
+				<pos view="macro" x="28.2843" y="28.2843" angle="0" system="source"/>
+				<pos view="macroWgs84" x="0" y="0" angle="0" system="source"/>
+			</textElement>
+		</station>
+		<station stationID="HAMTSQJ" name="Hamilton Square Jn" xNet="-2294431.5" yNet="4305332.15" uicLocationCode="0" circleDiameter="0">
+			<textElement type="name">
+				<pos view="net" x="644.19" y="644.19" angle="0" system="source"/>
+				<pos view="wgs84" x="644.19" y="644.19" angle="0" system="source"/>
+				<pos view="line" x="738.471" y="738.471" angle="0" system="source"/>
+				<pos view="macro" x="28.2843" y="28.2843" angle="0" system="source"/>
+				<pos view="macroWgs84" x="0" y="0" angle="0" system="source"/>
+			</textElement>
+		</station>
+	</stations>
+	<nodes>
+		<signal type="shunting" interlockingMachine="Shunt" nodeID="10" name="SIG : 1511" description="Signal 1511; 1m 54.51ch" kilometre="2.706" x="247966.2" y="692.31976" xNet="-2290064.9" yNet="4305912.9" referenceNode="8"/>
+		<node nodeID="522" name="OL 536" description="OL for SIG : 536" kilometre="2.715" x="247876.2" y="692.31976" xNet="-2290154.9" yNet="4305909.7"/>
+		<switch start="526" endOfMainTrack="449" endOfBranchTrack="688" nodeID="523" name="POINTS : 2539A" description="POINTS : 2539A; 14.91 mph; 1m 55.95ch" kilometre="2.735" x="247676.2" y="692.31976" xNet="-2290354.9" yNet="4305902.7"/>
+		<node nodeID="1" name="OL 552" description="OL for SIG : 552" kilometre="2.895" x="246076.2" y="692.31976" xNet="-2291953.9" yNet="4305847"/>
+		<node nodeID="27" name="GRAD" description="Gradient; 1m 64.15ch" kilometre="2.900" x="246026.2" y="692.31976" xNet="-2292003.9" yNet="4305845.5"/>
+		<track trackID="U-1" stationID="HAMTSQ" interlockingMachine="2 Aspect Pannel (Below 75mph)" nodeID="28" name="SIG : 536" description="Signal 536; 1m 64.30ch" kilometre="2.903" x="245996.2" y="692.31976" xNet="-2292033.9" yNet="4305844.4" referenceNode="529">
+			<platform startPos="-1300" endPos="0" width="150" left="true" open="true"/>
+		</track>
+		<track trackID="T-1" stationID="HAMTSQ" type="timingPoint" nodeID="529" name="T-1" description="Hamilton Square T-1; timingPoint; 1m 66.98ch" kilometre="2.957" x="245456.2" y="692.31976" xNet="-2292573" yNet="4305825.8" referenceNode="28"/>
+		<node nodeID="530" name="SD : 536" description="sighting distance for SIG : 536" kilometre="2.973" x="245296.2" y="692.31976" xNet="-2292732.9" yNet="4305819.6" referenceNode="531" sightingDistance="true"/>
+		<node nodeID="531" name="1000MM" description="1000MM : 3" kilometre="3.000" x="245026.2" y="692.31976" xNet="-2293002.9" yNet="4305810.7"/>
+		<node nodeID="532" name="OL 554" description="OL for SIG : 554" kilometre="3.006" x="244966.2" y="692.31976" xNet="-2293062.9" yNet="4305808.5"/>
+		<signal interlockingMachine="2 Aspect Pannel (Below 75mph)" nodeID="9" name="SIG : 552" description="Signal 552; 1m 71.60ch" kilometre="3.050" x="244526.2" y="692.31976" xNet="-2293502.9" yNet="4305792.8" referenceNode="453"/>
+		<node nodeID="535" name="SD : 552" description="sighting distance for SIG : 552" kilometre="3.128" x="243746.2" y="692.31976" xNet="-2294281.9" yNet="4305765.4" referenceNode="536" sightingDistance="true"/>
+		<node nodeID="536" name="GRAD" description="Gradient; 1m 75.63ch" kilometre="3.131" x="243716.2" y="692.31976" xNet="-2294311.8" yNet="4305764.3"/>
+		<node nodeID="6" name="GRAD" description="Gradient; 1m 76.92ch" kilometre="3.157" x="243456.2" y="692.31976" xNet="-2294571.9" yNet="4305756.2"/>
+		<track trackID="U-1" stationID="HAMTSQJ" interlockingMachine="2 Aspect Pannel (Below 75mph)" nodeID="16" name="SIG : 554" description="Signal 554; 1m 78.36ch" kilometre="3.186" x="243166.2" y="692.31976" xNet="-2294861.9" yNet="4305745.9" referenceNode="407"/>
+		<node nodeID="14" name="REP : 552R" description="Repeater 552R; 1m 78.41ch" kilometre="3.187" x="243156.2" y="692.31976" xNet="-2294871.9" yNet="4305745.3" referenceNode="15" presignal="true" with1000HzMagnet="true"/>
+		<node nodeID="15" name="OL 556" description="OL for SIG : 556" kilometre="3.196" x="243066.2" y="692.31976" xNet="-2294961.9" yNet="4305741.9"/>
+		<node nodeID="541" name="REP : 554R" description="Repeater 554R; 2m 1.95ch" kilometre="3.258" x="242446.2" y="692.31976" xNet="-2295581.9" yNet="4305720.6" referenceNode="542" presignal="true" with1000HzMagnet="true"/>
+		<node nodeID="542" name="SD : 554" description="sighting distance for SIG : 554" kilometre="3.264" x="242386.2" y="692.31976" xNet="-2295641.9" yNet="4305718.5" referenceNode="543" sightingDistance="true"/>
+		<node nodeID="543" name="GRAD" description="Gradient; 2m 6.48ch" kilometre="3.349" x="241536.2" y="692.31976" xNet="-2296491" yNet="4305689.2"/>
+		<signal interlockingMachine="2 Aspect Pannel (Below 75mph)" nodeID="544" name="SIG : 556" description="Signal 556; 2m 7.82ch" kilometre="3.376" x="241266.2" y="692.31976" xNet="-2296760.9" yNet="4305679.2" referenceNode="597"/>
+		<node nodeID="746" name="OL 540" description="OL for SIG : 540" kilometre="2.742" x="247606.2" y="492.31979" xNet="-2290418" yNet="4305700.8"/>
+		<switch start="749" endOfMainTrack="955" endOfBranchTrack="900" nodeID="747" name="POINTS : 2539B" description="POINTS : 2539B; 14.91 mph; 1m 58.63ch" kilometre="2.789" x="247136.2" y="492.31979" xNet="-2290886.9" yNet="4305684"/>
+		<switch start="747" endOfMainTrack="450" endOfBranchTrack="451" nodeID="749" name="POINTS : 2540" description="POINTS : 2540; 14.91 mph; 1m 59.67ch" kilometre="2.810" x="246926.2" y="492.31979" xNet="-2291119.9" yNet="4305674.8"/>
+		<node nodeID="752" name="GRAD" description="Gradient; 1m 61.41ch" kilometre="2.845" x="246576.2" y="292.31979" xNet="-2291440" yNet="4305464.9"/>
+		<node nodeID="753" name="OL 539" description="OL for SIG : 539" kilometre="2.892" x="246106.2" y="292.31979" xNet="-2291910" yNet="4305448.1"/>
+		<track trackID="U-3" stationID="HAMTSQ" interlockingMachine="2 Aspect Pannel (Below 75mph)" nodeID="29" name="SIG : 540" description="Signal 540; 1m 65.24ch" kilometre="2.922" x="245806.2" y="292.31979" xNet="-2292210" yNet="4305438.2" referenceNode="755"/>
+		<track trackID="T-3" stationID="HAMTSQ" type="timingPoint" nodeID="755" name="T-3" description="Hamilton Square T-3; timingPoint; 1m 66.98ch" kilometre="2.957" x="245456.2" y="292.31979" xNet="-2292559" yNet="4305425.8" referenceNode="29"/>
+		<node nodeID="756" name="SD : 553" description="sighting distance for SIG : 553" kilometre="2.982" x="245206.2" y="292.31979" xNet="-2292809" yNet="4305417.3" referenceNode="755" sightingDistance="true"/>
+		<node nodeID="757" name="SD : 540" description="sighting distance for SIG : 540" kilometre="2.992" x="245106.2" y="292.31979" xNet="-2292909" yNet="4305413.3" referenceNode="758" sightingDistance="true"/>
+		<node nodeID="758" name="1000MM" description="1000MM : 3" kilometre="3.000" x="245026.2" y="292.31979" xNet="-2292989" yNet="4305410.8"/>
+		<node nodeID="759" name="GRAD" description="Gradient; 1m 69.91ch" kilometre="3.016" x="244866.2" y="292.31979" xNet="-2293149" yNet="4305405.6"/>
+		<track trackID="D-3" stationID="HAMTSQ" interlockingMachine="2 Aspect Pannel (Below 75mph)" nodeID="30" name="SIG : 553" description="Signal 553; 1m 71.70ch" kilometre="3.052" x="244506.2" y="292.31979" xNet="-2293509" yNet="4305392.4" referenceNode="759">
+			<platform startPos="-1300" endPos="0" width="50" left="false" open="true"/>
+		</track>
+		<node nodeID="764" name="GRAD" description="Gradient; 1m 77.17ch" kilometre="3.162" x="243406.2" y="292.31979" xNet="-2294608.1" yNet="4305354.7"/>
+		<node nodeID="765" name="OL 553" description="OL for SIG : 553" kilometre="3.190" x="243126.2" y="292.31979" xNet="-2294888" yNet="4305344.1"/>
+		<node nodeID="766" name="GRAD" description="Gradient; 2m 6.48ch" kilometre="3.349" x="241536.2" y="492.31979" xNet="-2296484" yNet="4305489.2"/>
+		<speedIndicator nodeID="3" name="SPEED" description="Speed; 1m 59.72ch" kilometre="2.811" x="246916.2" y="492.31979" xNet="-2291185.7" yNet="4305670.2" referenceNode="451"/>
+		<node nodeID="689" name="tc" description="release contact for track circuit" kilometre="2.762" x="247406.2" y="592.31976" xNet="-2290620.9" yNet="4305793.8" referenceNode="901" releaseContact="true" arranged="true"/>
+		<node nodeID="901" name="tc" description="release contact for track circuit" kilometre="2.761" x="247416.2" y="595.78131" xNet="-2290611.1" yNet="4305796.6" referenceNode="689" releaseContact="true" arranged="true"/>
+		<node nodeID="923" kilometre="3.295" x="242074.89" y="292.31979" xNet="-2295938" yNet="4305307.8"/>
+		<switch start="452" endOfMainTrack="4" endOfBranchTrack="12" nodeID="7" name="POINTS : 2551" description="POINTS : 2551; 24.85 mph" kilometre="3.066" x="244366.2" y="692.31976" xNet="-2293662.9" yNet="4305787.7"/>
+		<node nodeID="955" name="tc" description="release contact for track circuit" kilometre="2.749" x="247536.2" y="492.31979" xNet="-2290488" yNet="4305697.9" referenceNode="746" releaseContact="true" arranged="true"/>
+		<node nodeID="78" name="OL 540" description="OL for SIG : 540" kilometre="2.742" x="247606.2" y="661.55054" xNet="-2290423.8" yNet="4305869.8"/>
+		<node nodeID="762" name="SPEED" description="Speed; 1m 72.00ch" kilometre="3.058" x="244446.2" y="292.31979" xNet="-2293569" yNet="4305390.3"/>
+		<node nodeID="751" name="SPEED" description="Speed; 1m 60.07ch" kilometre="2.818" x="246846.2" y="292.31979" xNet="-2291170" yNet="4305473.8"/>
+		<track trackID="U-2" stationID="HAMTSQJ" interlockingMachine="2 Aspect Pannel (Below 75mph)" nodeID="17" name="SIG : 712" description="Signal 712; 1m 78.91ch" kilometre="3.197" x="242440" y="600" xNet="-2295114.1" yNet="4305137.9" referenceNode="393"/>
+		<node nodeID="18" name="OL 714" description="OL for SIG : 714" kilometre="3.244" x="241970" y="600" xNet="-2295468.1" yNet="4304265"/>
+		<node nodeID="19" name="SD : 712" description="sighting distance for SIG : 712" kilometre="3.275" x="241660" y="600" xNet="-2295241.2" yNet="4303944.7" referenceNode="20" sightingDistance="true"/>
+		<node nodeID="20" name="GRAD" description="Gradient; 2m 3.40ch" kilometre="3.287" x="241540" y="600" xNet="-2295353.9" yNet="4303838.4"/>
+		<node nodeID="306" name="GRAD" description="Gradient; 1m 64.10ch" kilometre="2.899" x="245420" y="400" xNet="-2292363" yNet="4305618.9"/>
+		<node nodeID="308" name="SD : 711" description="sighting distance for SIG : 711" kilometre="2.954" x="244870" y="400" xNet="-2292913.9" yNet="4305597.4" referenceNode="307" sightingDistance="true"/>
+		<node nodeID="309" kilometre="2.957" x="244840" y="400" xNet="-2292943.9" yNet="4305596.4"/>
+		<node nodeID="310" name="SD : 538" description="sighting distance for SIG : 538" kilometre="2.977" x="244640" y="400" xNet="-2293144.9" yNet="4305589.3" referenceNode="311" sightingDistance="true"/>
+		<node nodeID="311" name="1000MM" description="1000MM : 3" kilometre="3.000" x="244410" y="400" xNet="-2293383.8" yNet="4305581.6"/>
+		<track trackID="D-2" stationID="HAMTSQ" interlockingMachine="2 Aspect Pannel (Below 75mph)" nodeID="312" name="SIG : 711" description="Signal 711; 1m 70.31ch" kilometre="3.024" x="244170" y="400" xNet="-2293630.9" yNet="4305572.3" referenceNode="311">
+			<platform startPos="-1150" endPos="0" width="50" left="true" open="true"/>
+		</track>
+		<node nodeID="315" name="GRAD" description="Gradient; 1m 72.15ch" kilometre="3.061" x="243800" y="400" xNet="-2293981.9" yNet="4305560.9"/>
+		<node nodeID="21" name="OL 711" description="OL for SIG : 711" kilometre="3.100" x="243410" y="400" xNet="-2294284.5" yNet="4305400.3"/>
+		<node nodeID="22" name="GRAD" description="Gradient; 2m 3.40ch" kilometre="3.287" x="241540" y="400" xNet="-2294927.2" yNet="4304000"/>
+		<node nodeID="2" name="SPEED" description="Speed; 1m 60.02ch" kilometre="2.817" x="246240" y="400" xNet="-2291542.9" yNet="4305646.2"/>
+		<node nodeID="313" name="SPEED" description="Speed; 1m 71.95ch" kilometre="3.057" x="243840" y="400" xNet="-2293940.9" yNet="4305561.7"/>
+		<node nodeID="24" name="end of global area" description="end of global area" kilometre="3.324" x="241168.28" y="600" xNet="-2295659.9" yNet="4303716.6">
+			<netLimitInfo lineID="nw8013"/>
+		</node>
+		<node nodeID="23" name="end of global area" description="end of global area" kilometre="3.324" x="241170" y="400" xNet="-2295522.1" yNet="4303516.6">
+			<netLimitInfo lineID="nw8013"/>
+		</node>
+		<node nodeID="13" kilometre="3.190" x="242510" y="400" xNet="-2295013.5" yNet="4305089.7"/>
+		<node nodeID="813" name="end of global area" description="end of global area" kilometre="3.385" x="241171.31" y="492.31979" xNet="-2296848.9" yNet="4305475.8">
+			<netLimitInfo lineID="nw8011"/>
+		</node>
+		<node nodeID="597" name="end of global area" description="end of global area" kilometre="3.385" x="241176.2" y="692.31976" xNet="-2296850.9" yNet="4305676">
+			<netLimitInfo lineID="nw8011"/>
+		</node>
+		<node nodeID="5" name="end of global area" description="end of global area" kilometre="2.700" x="248026.2" y="492.31979" xNet="-2289998" yNet="4305715.6"/>
+		<node nodeID="8" name="end of global area" description="end of global area" kilometre="2.700" x="248026.2" y="692.31976" xNet="-2290004.9" yNet="4305915"/>
+		<node nodeID="538" name="OL 712" description="OL for SIG : 712" kilometre="3.019" x="244836.2" y="692.31976" xNet="-2293192.9" yNet="4305803.8"/>
+		<node nodeID="903" name="OL 538" description="OL for SIG : 538" kilometre="2.729" x="247736.2" y="492.31979" xNet="-2290288" yNet="4305705.4"/>
+		<node nodeID="181" name="tc" description="release contact for track circuit" kilometre="3.107" x="243764.16" y="650.23737" xNet="-2294119.2" yNet="4305575.1" referenceNode="12" releaseContact="true" arranged="true"/>
+		<node nodeID="187" name="tc" description="release contact for track circuit" kilometre="3.116" x="243864.52" y="692.31976" xNet="-2294163.9" yNet="4305769.6" referenceNode="4" releaseContact="true" arranged="true"/>
+		<node nodeID="316" name="tc" description="release contact for track circuit" kilometre="2.850" x="245910" y="400" xNet="-2291872.9" yNet="4305635.2" referenceNode="2" releaseContact="true" arranged="true"/>
+		<node nodeID="754" name="tc" description="release contact for track circuit" kilometre="2.850" x="246526.2" y="292.31979" xNet="-2291490" yNet="4305463.1" referenceNode="752" releaseContact="true" arranged="true"/>
+		<node nodeID="84" name="SD : 552" description="sighting distance for SIG : 552" kilometre="3.128" x="243454.97" y="638.5072" xNet="-2294351.7" yNet="4305473" referenceNode="402" sightingDistance="true"/>
+		<node nodeID="317" name="OL 539" description="OL for SIG : 539" kilometre="2.892" x="245487.56" y="400" xNet="-2292294.9" yNet="4305621.2"/>
+		<node nodeID="745" name="REP : 541R" description="Repeater 541R; 1m 52.02ch" kilometre="2.656" x="248466" y="492.32001" xNet="-2289558" yNet="4305730.9" referenceNode="744" presignal="true" with1000HzMagnet="true"/>
+		<node nodeID="761" kilometre="2.638" x="248641.28" y="492.32001" xNet="-2289382.9" yNet="4305736.4">
+			<netLimitInfo lineID="nw8011"/>
+		</node>
+		<node nodeID="596" kilometre="2.639" x="248638.11" y="692.31976" xNet="-2289392.9" yNet="4305936.5">
+			<netLimitInfo lineID="nw8011"/>
+		</node>
+		<track trackID="D-1" stationID="CANSTJ" interlockingMachine="2 Aspect Pannel (Below 75mph)" nodeID="744" name="SIG : 539" description="Signal 539; 1m 51.97ch" kilometre="2.655" x="248476" y="492.32001" xNet="-2289548" yNet="4305730.6" referenceNode="448"/>
+		<track trackID="T-1" stationID="CANSTJ" type="timingPoint" nodeID="526" name="OL 538" description="OL for SIG : 538" kilometre="2.729" x="247736.2" y="692.31976" xNet="-2290294.9" yNet="4305904.8" referenceNode="447"/>
+		<speedIndicator nodeID="314" name="SPEED" description="Speed; 1m 72.00ch" kilometre="3.058" x="243830" y="400" xNet="-2293951.9" yNet="4305562" referenceNode="313"/>
+		<speedIndicator nodeID="763" name="SPEED" description="Speed; 1m 72.05ch" kilometre="3.059" x="244436.2" y="292.31979" xNet="-2293579" yNet="4305390.5" referenceNode="762"/>
+		<speedIndicator nodeID="750" name="SPEED" description="Speed; 1m 60.02ch" kilometre="2.817" x="246856.2" y="292.31979" xNet="-2291160" yNet="4305474.5" referenceNode="450"/>
+		<speedIndicator nodeID="525" name="SPEED" description="Speed; 1m 60.02ch" kilometre="2.817" x="246856.2" y="692.31976" xNet="-2291173.9" yNet="4305874.4" referenceNode="1"/>
+		<speedIndicator nodeID="900" name="SPEED" description="Speed; 1m 58.58ch" kilometre="2.788" x="247146.2" y="502.31979" xNet="-2290877.6" yNet="4305694.7" referenceNode="689"/>
+		<speedIndicator nodeID="688" name="SPEED" description="Speed; 1m 56.00ch" kilometre="2.736" x="247666.2" y="682.31976" xNet="-2290364.2" yNet="4305893" referenceNode="523"/>
+		<track trackID="T-2" stationID="CANSTJ" type="timingPoint" nodeID="228" name="T-2" description="Canning Street JnT-2; timingPoint" kilometre="2.728" x="247746.2" y="492.31979" xNet="-2290278" yNet="4305705.7" referenceNode="5"/>
+		<stationBorder exitType="alternative" stationID="HAMTSQJ" lineID="nw8013" trackNumber="1" nodeID="393" name="[BRKNHDC] - [n8013/1]" kilometre="3.211" x="242299" y="600" xNet="-2295220.1" yNet="4304876" referenceNode="17"/>
+		<stationBorder exitType="alternative" stationID="HAMTSQJ" lineID="nw8011" trackNumber="1" nodeID="407" name="[BRKNCPK] - [n8011/1]" kilometre="3.186" x="243163.2" y="692.31976" xNet="-2294865" yNet="4305745.7" referenceNode="16"/>
+		<stationBorder exitType="regular" stationID="HAMTSQ" lineID="nw8013" trackNumber="1" nodeID="305" name="[BRKNHDC] - [n8013/1]" kilometre="3.034" x="244071" y="400" xNet="-2293723.8" yNet="4305569.1" referenceNode="312"/>
+		<stationBorder exitType="regular" stationID="HAMTSQ" lineID="nw8011" trackNumber="1" nodeID="444" name="[BRKNCPK] - [n8011/1]" kilometre="3.054" x="244488.2" y="292.31979" xNet="-2293527" yNet="4305391.8" referenceNode="30"/>
+		<stationBorder exitType="alternative" stationID="HAMTSQ" lineID="nw8011" trackNumber="2" nodeID="445" name="[CANSTJ] - [n8011/2]" kilometre="2.913" x="245896.2" y="292.31979" xNet="-2292120" yNet="4305441.2" referenceNode="29"/>
+		<stationBorder exitType="regular" stationID="HAMTSQ" lineID="nw8011" trackNumber="3" nodeID="446" name="[CANSTJ] - [n8011/3]" kilometre="2.902" x="246005.2" y="692.31976" xNet="-2292024.9" yNet="4305844.7" referenceNode="28"/>
+		<stationBorder exitType="regular" stationID="CANSTJ" lineID="nw8011" trackNumber="1" nodeID="447" name="[MANILJ] - [n8011/1]" kilometre="2.725" x="247778.2" y="692.31976" xNet="-2290252.9" yNet="4305906.2" referenceNode="526"/>
+		<stationBorder exitType="alternative" stationID="CANSTJ" lineID="nw8011" trackNumber="2" nodeID="448" name="[MANILJ] - [n8011/2]" kilometre="2.650" x="248525.58" y="492.32001" xNet="-2289497.9" yNet="4305732.3" referenceNode="744"/>
+		<stationBorder exitType="alternative" stationID="CANSTJ" lineID="nw8011" trackNumber="3" nodeID="449" name="[HAMTSQ] - [n8011/3]" kilometre="2.760" x="247430.2" y="692.31976" xNet="-2290600.9" yNet="4305894.2" referenceNode="523"/>
+		<stationBorder exitType="regular" stationID="CANSTJ" lineID="nw8011" trackNumber="2" nodeID="450" name="[HAMTSQ] - [n8011/2]" kilometre="2.812" x="246905.2" y="432.31979" xNet="-2291131.7" yNet="4305614.7" referenceNode="749"/>
+		<stationBorder exitType="regular" stationID="CANSTJ" lineID="nw8011" trackNumber="1" nodeID="451" name="[HAMTSQ] - [n8011/1]" kilometre="2.810" x="246923.2" y="492.31979" xNet="-2291139.8" yNet="4305673.4" referenceNode="749"/>
+		<node nodeID="406" name="[HAMTSQ] - [n8011/2]" kilometre="3.177" x="243253.2" y="692.31976" xNet="-2294774.9" yNet="4305749"/>
+		<node nodeID="402" name="[HAMTSQ] - [n8011/1]" kilometre="3.176" x="242744.49" y="611.55216" xNet="-2294885.6" yNet="4305238.4"/>
+		<node nodeID="4" name="[HAMTSQJ] - [n8011/2]" description="Gradient; 1m 73.14ch" kilometre="3.081" x="244216.2" y="692.31976" xNet="-2293812.9" yNet="4305782.2"/>
+		<node nodeID="12" name="[HAMTSQJ] - [n8011/1]" description="Gradient" kilometre="3.068" x="244346.2" y="672.31976" xNet="-2293681.6" yNet="4305767.3"/>
+		<stationBorder exitType="regular" stationID="HAMTSQJ" lineID="nw8011" trackNumber="2" nodeID="452" kilometre="3.064" x="244385.67" y="692.31976" xNet="-2293642.9" yNet="4305788.3" referenceNode="7"/>
+		<stationBorder exitType="regular" stationID="HAMTSQ" lineID="nw8011" trackNumber="2" nodeID="453" kilometre="3.059" x="244432.22" y="692.31976" xNet="-2293596.9" yNet="4305789.8" referenceNode="9"/>
+		<track trackID="U-2" stationID="HAMTSQ" interlockingMachine="2 Aspect Pannel (Below 75mph)" nodeID="307" name="SIG : 538" description="Signal 538; 1m 64.50ch" kilometre="2.907" x="245340" y="400" xNet="-2292441.9" yNet="4305614.4" referenceNode="308"/>
+		<stationBorder exitType="alternative" stationID="HAMTSQ" lineID="nw8011" trackNumber="1" nodeID="353" kilometre="2.884" x="245565.9" y="400" xNet="-2292216.9" yNet="4305623.7" referenceNode="317"/>
+	</nodes>
+	<links>
+		<link source="1" target="27" length="5" gradient="33.3333" vmaxr="24" bidirectional="true"/>
+		<link source="2" target="3" length="6" gradient="-33.333" vmax="24" vmaxr="24" bidirectional="true"/>
+		<link source="4" target="187" length="35" gradient="0.274725" vmaxr="40" bidirectional="true"/>
+		<link source="5" target="228" length="28" gradient="33.333" vmax="72" vmaxr="72"/>
+		<link source="6" target="406" length="20" gradient="3.57143" vmaxr="40" bidirectional="true"/>
+		<link source="7" target="4" length="15" gradient="10" vmaxr="40" bidirectional="true"/>
+		<link source="7" target="12" length="2" gradient="10" vmaxr="40" bidirectional="true"/>
+		<link source="8" target="10" length="6" gradient="33.333" vmaxr="72"/>
+		<link source="9" target="453" length="9" gradient="10" vmaxr="40" bidirectional="true"/>
+		<link source="10" target="522" length="9" gradient="33.3333" vmax="72" vmaxr="72"/>
+		<link source="13" target="21" length="90" gradient="-27.4725" vmaxr="48" bidirectional="true"/>
+		<link source="14" target="15" length="9" gradient="3.57143" vmaxr="40" bidirectional="true"/>
+		<link source="15" target="541" length="62" gradient="3.57143" vmaxr="40" bidirectional="true"/>
+		<link source="16" target="407" gradient="3.57143" vmaxr="40" bidirectional="true"/>
+		<link source="17" target="402" length="21" gradient="27.4725" vmax="40" vmaxr="40" bidirectional="true"/>
+		<link source="18" target="393" length="33" gradient="-27.4725" vmax="40" bidirectional="true"/>
+		<link source="19" target="18" length="31" gradient="-27.4725" vmax="40" bidirectional="true"/>
+		<link source="20" target="19" length="12" gradient="-27.4725" vmax="40" bidirectional="true"/>
+		<link source="21" target="315" length="39" gradient="-27.4725" vmaxr="48" bidirectional="true"/>
+		<link source="22" target="13" length="97" gradient="-27.4725" vmaxr="48" bidirectional="true"/>
+		<link source="23" target="22" length="37" gradient="-28.5714" vmaxr="48" bidirectional="true"/>
+		<link source="24" target="20" length="37" gradient="-28.5714" vmax="40" bidirectional="true"/>
+		<link source="27" target="446" length="2" gradient="10" vmaxr="24" bidirectional="true"/>
+		<link source="28" target="529" length="54" gradient="10" vmaxr="24" bidirectional="true"/>
+		<link source="29" target="755" length="35" gradient="2.50627" vmax="24" vmaxr="24" bidirectional="true"/>
+		<link source="30" target="444" length="2" gradient="-3.47222" vmax="24" vmaxr="24" bidirectional="true"/>
+		<link source="78" target="901" length="19" gradient="33.3333" vmax="24" vmaxr="24"/>
+		<link source="84" target="181" length="21" gradient="27.4725" vmax="40" vmaxr="40" bidirectional="true"/>
+		<link source="181" target="12" length="40" gradient="27.4725" vmax="40" vmaxr="40" bidirectional="true"/>
+		<link source="187" target="535" length="12" gradient="0.274725" vmaxr="40" bidirectional="true"/>
+		<link source="228" target="903" length="1" gradient="33.333" vmax="72" vmaxr="72"/>
+		<link source="305" target="312" length="10" gradient="-10" vmax="24" vmaxr="24" bidirectional="true"/>
+		<link source="306" target="317" length="7" gradient="-33.3333" vmax="24" vmaxr="24" bidirectional="true"/>
+		<link source="307" target="306" length="8" gradient="-10" vmax="24" vmaxr="24" bidirectional="true"/>
+		<link source="308" target="307" length="47" gradient="-10" vmax="24" vmaxr="24" bidirectional="true"/>
+		<link source="309" target="308" length="3" gradient="-10" vmax="24" vmaxr="24" bidirectional="true"/>
+		<link source="310" target="309" length="20" gradient="-10" vmax="24" vmaxr="24" bidirectional="true"/>
+		<link source="311" target="310" length="23" gradient="-10" vmax="24" vmaxr="24" bidirectional="true"/>
+		<link source="312" target="311" length="24" gradient="-10" vmax="24" vmaxr="24" bidirectional="true"/>
+		<link source="313" target="305" length="23" gradient="-10" vmax="24" vmaxr="24" bidirectional="true"/>
+		<link source="314" target="313" length="1" gradient="-10" vmaxr="24" bidirectional="true"/>
+		<link source="315" target="314" length="3" gradient="-10" vmaxr="48" bidirectional="true"/>
+		<link source="316" target="2" length="33" gradient="-33.3333" vmax="24" vmaxr="24" bidirectional="true"/>
+		<link source="317" target="353" length="8" gradient="-33.3333" vmax="24" vmaxr="24" bidirectional="true"/>
+		<link source="353" target="316" length="34" gradient="-33.3333" vmax="24" vmaxr="24" bidirectional="true"/>
+		<link source="393" target="17" length="14" gradient="-27.4725" vmax="40" bidirectional="true"/>
+		<link source="402" target="84" length="49" gradient="27.4725" vmax="40" vmaxr="40" bidirectional="true"/>
+		<link source="406" target="16" length="9" gradient="3.57143" vmaxr="40" bidirectional="true"/>
+		<link source="407" target="14" length="1" gradient="3.57143" vmaxr="40" bidirectional="true"/>
+		<link source="444" target="762" length="4" gradient="-3.47222" vmax="24" vmaxr="24" bidirectional="true"/>
+		<link source="445" target="29" length="9" gradient="2.50627" vmax="24" vmaxr="24" bidirectional="true"/>
+		<link source="446" target="28" length="1" gradient="10" vmaxr="24" bidirectional="true"/>
+		<link source="447" target="526" length="4" gradient="33.3333" vmax="72" vmaxr="72"/>
+		<link source="448" target="744" length="5" gradient="33.333" vmax="72" vmaxr="72"/>
+		<link source="449" target="525" length="57" gradient="33.3333" vmaxr="72" bidirectional="true"/>
+		<link source="450" target="750" length="5" gradient="33.3333" vmax="72" vmaxr="72" bidirectional="true"/>
+		<link source="451" target="3" length="1" gradient="33.3333" vmax="72" vmaxr="72" bidirectional="true"/>
+		<link source="452" target="7" length="2" gradient="10" vmaxr="40" bidirectional="true"/>
+		<link source="453" target="452" length="5" gradient="10" vmaxr="40" bidirectional="true"/>
+		<link source="522" target="447" length="10" gradient="33.3333" vmax="72" vmaxr="72"/>
+		<link source="523" target="449" length="25" gradient="33.3333" vmaxr="72" bidirectional="true"/>
+		<link source="523" target="688" length="1" gradient="33.3333" vmax="72" vmaxr="72"/>
+		<link source="525" target="1" length="78" gradient="33.3333" vmaxr="24" bidirectional="true"/>
+		<link source="526" target="523" length="6" gradient="33.3333" vmax="72" vmaxr="72"/>
+		<link source="529" target="530" length="16" gradient="10" vmaxr="24" bidirectional="true"/>
+		<link source="530" target="531" length="27" gradient="10" vmaxr="24" bidirectional="true"/>
+		<link source="531" target="532" length="6" gradient="10" vmaxr="24" bidirectional="true"/>
+		<link source="532" target="538" length="13" gradient="10" vmaxr="24" bidirectional="true"/>
+		<link source="535" target="536" length="3" gradient="0.274725" vmaxr="40" bidirectional="true"/>
+		<link source="536" target="6" length="26" gradient="8.62069" vmaxr="40" bidirectional="true"/>
+		<link source="538" target="9" length="31" gradient="10" vmaxr="24" bidirectional="true"/>
+		<link source="541" target="542" length="6" gradient="3.57143" vmaxr="40" bidirectional="true"/>
+		<link source="542" target="543" length="85" gradient="3.57143" vmaxr="40" bidirectional="true"/>
+		<link source="543" target="544" length="27" gradient="8.621" vmaxr="40" bidirectional="true"/>
+		<link source="544" target="597" length="9" gradient="8.62069" vmaxr="40" bidirectional="true"/>
+		<link source="596" target="8" length="61" gradient="33.333" vmaxr="72"/>
+		<link source="688" target="78" length="6" gradient="33.3333" vmax="24" vmaxr="24"/>
+		<link source="689" target="900" length="26" gradient="33.3333" vmax="24" vmaxr="24"/>
+		<link source="744" target="745" length="1" gradient="33.333" vmax="72" vmaxr="72"/>
+		<link source="745" target="5" length="44" gradient="33.333" vmax="72" vmaxr="72"/>
+		<link source="746" target="955" length="7" gradient="33.3333" vmax="72" vmaxr="72"/>
+		<link source="747" target="749" length="21" gradient="33.3333" vmax="72" vmaxr="72"/>
+		<link source="749" target="450" length="2" gradient="33.3333" vmax="72" vmaxr="72" bidirectional="true"/>
+		<link source="749" target="451" gradient="33.3333" vmax="72" vmaxr="72" bidirectional="true"/>
+		<link source="750" target="751" length="1" gradient="33.3333" vmax="24" vmaxr="24" bidirectional="true"/>
+		<link source="751" target="752" length="27" gradient="33.3333" vmax="24" vmaxr="24" bidirectional="true"/>
+		<link source="752" target="754" length="5" gradient="2.50627" vmax="24" vmaxr="24" bidirectional="true"/>
+		<link source="753" target="445" length="21" gradient="2.50627" vmax="24" vmaxr="24" bidirectional="true"/>
+		<link source="754" target="753" length="42" gradient="2.50627" vmax="24" vmaxr="24" bidirectional="true"/>
+		<link source="755" target="756" length="25" gradient="2.50627" vmax="24" vmaxr="24" bidirectional="true"/>
+		<link source="756" target="757" length="10" gradient="2.50627" vmax="24" vmaxr="24" bidirectional="true"/>
+		<link source="757" target="758" length="8" gradient="2.50627" vmax="24" vmaxr="24" bidirectional="true"/>
+		<link source="758" target="759" length="16" gradient="2.50627" vmax="24" vmaxr="24" bidirectional="true"/>
+		<link source="759" target="30" length="36" gradient="-3.47222" vmax="24" vmaxr="24" bidirectional="true"/>
+		<link source="761" target="448" length="12" gradient="33.333" vmax="72" vmaxr="72"/>
+		<link source="762" target="763" length="1" gradient="-3.47222" vmax="24" bidirectional="true"/>
+		<link source="763" target="764" length="103" gradient="-3.47222" vmax="48" bidirectional="true"/>
+		<link source="764" target="765" length="28" gradient="28.5714" vmax="48" bidirectional="true"/>
+		<link source="765" target="923" length="105" gradient="28.5714" vmax="48" bidirectional="true"/>
+		<link source="766" target="813" length="36" gradient="8.621" vmax="48" bidirectional="true"/>
+		<link source="900" target="747" length="1" gradient="33.3333" vmax="72" vmaxr="72"/>
+		<link source="901" target="689" length="1" gradient="33.3333" vmax="24" vmaxr="24"/>
+		<link source="903" target="746" length="13" gradient="33.333" vmax="72" vmaxr="72"/>
+		<link source="923" target="766" length="54" gradient="28.5714" vmax="48" bidirectional="true"/>
+		<link source="955" target="747" length="40" gradient="33.3333" vmax="72" vmaxr="72"/>
+	</links>
+	<dependentLinks/>
+	<blockSections>
+		<blocksection uuid="{034737ce-08fe-4a6b-88f1-350f5f198148}" lines="hmsqj" speedIndicators="3">
+			<part nodes="744 745 5 228 903 746 955 747 749 451 3 2 316 353 317 306 307 308 309 310 311 312"/>
+		</blocksection>
+		<blocksection uuid="{0a78d71f-93e1-4b8e-a673-8505f7f8c404}" lines="hmsqj">
+			<part nodes="17 402 84 181 12 7 452 453 9"/>
+		</blocksection>
+		<blocksection uuid="{1cde6f3f-708b-4126-be8a-e7879bd43509}" lines="hmsqj">
+			<part nodes="9 538 532 531 530 529 28"/>
+		</blocksection>
+		<blocksection uuid="{2832f6c3-ff31-47c6-becf-854576ecad3b}" lines="hmsqj">
+			<part nodes="16 406 6 536 535 187 4 7 452 453 9"/>
+		</blocksection>
+		<blocksection uuid="{29933c67-9736-4433-8d5c-95892e9a9cca}" lines="hmsqj nw8013" speedIndicators="314">
+			<part nodes="312 305 313 314 315 21 13 22 23"/>
+		</blocksection>
+		<blocksection uuid="{3b00b0ae-f966-41d0-b1ae-0fb6b06a0db4}" lines="hmsqj nw8011" speedIndicators="688 750 900">
+			<part nodes="29 445 753 754 752 751 750 450 749 747 900 689 901 78 688 523 526 447 522 10 8 596"/>
+		</blocksection>
+		<blocksection uuid="{4f87e51a-f29d-4c00-a6b7-4077f5e5d52f}" lines="hmsqj nw8011">
+			<part nodes="761 448 744"/>
+		</blocksection>
+		<blocksection uuid="{5a8d01df-27eb-4449-ba9a-b975610e4adb}" lines="hmsqj nw8011" speedIndicators="525">
+			<part nodes="28 446 27 1 525 449 523 526 447 522 10 8 596"/>
+		</blocksection>
+		<blocksection uuid="{7942be22-b964-44dc-9fa5-bea5e25eea7c}" lines="hmsqj" speedIndicators="750">
+			<part nodes="744 745 5 228 903 746 955 747 749 450 750 751 752 754 753 445 29 755 756 757 758 759 30"/>
+		</blocksection>
+		<blocksection uuid="{828d444a-3465-4be8-a59e-80dcb0b7eaf3}" lines="hmsqj nw8011" speedIndicators="750">
+			<part nodes="29 445 753 754 752 751 750 450 749 747 955 746 903 228 5 745 744 448 761"/>
+		</blocksection>
+		<blocksection uuid="{841160e7-dba6-4120-9b7d-1394cb42ccd4}" lines="hmsqj" shuntingBlock="true" speedIndicators="688 750 900">
+			<part nodes="10 522 447 526 523 688 78 901 689 900 747 749 450 750 751 752 754 753 445 29 755 756 757 758 759 30"/>
+		</blocksection>
+		<blocksection uuid="{b4ae7096-27eb-481a-83cf-ad6efcdcb953}" lines="hmsqj nw8011" speedIndicators="3 688 900">
+			<part nodes="307 306 317 353 316 2 3 451 749 747 900 689 901 78 688 523 526 447 522 10 8 596"/>
+		</blocksection>
+		<blocksection uuid="{b555bc90-4f2e-47f6-872e-4b3c9ca9ce9f}" lines="hmsqj nw8011" speedIndicators="763">
+			<part nodes="30 444 762 763 764 765 923 766 813"/>
+		</blocksection>
+		<blocksection uuid="{b8b527c7-1486-4b3a-bd47-f1dd2e64fd3f}" lines="hmsqj nw8011">
+			<part nodes="597 544"/>
+		</blocksection>
+		<blocksection uuid="{bccffc5b-dba0-4a37-b5ee-d3203494ac31}" lines="hmsqj nw8011">
+			<part nodes="761 448 744"/>
+		</blocksection>
+		<blocksection uuid="{c10d8800-ee0e-4b64-a03a-3100f7745677}" lines="hmsqj nw8013">
+			<part nodes="24 20 19 18 393 17"/>
+		</blocksection>
+		<blocksection uuid="{cdc616ef-52cf-43aa-b37d-82510b25f584}" lines="hmsqj">
+			<part nodes="312 311 310 309 308 307"/>
+		</blocksection>
+		<blocksection uuid="{d3ce64cf-baa7-4f5c-ab67-a7dfa085008a}" lines="hmsqj" presignalMode="specified" presignal="541">
+			<part nodes="544 543 542 541 15 14 407 16"/>
+		</blocksection>
+		<blocksection uuid="{f857c8c1-26c2-4d5d-9ebe-ea51769dd256}" lines="hmsqj nw8011">
+			<part nodes="761 448 744"/>
+		</blocksection>
+	</blockSections>
+	<slipDistances>
+		<slipdistance uuid="{0da490df-5592-4203-a500-af82758da831}" vmax="999" lines="hmsqj" serialNumber="1">
+			<part nodes="29 445 753 754 752 751 750 450 749 747 900 689 901 78"/>
+		</slipdistance>
+		<slipdistance uuid="{365e2838-54da-4ac3-8cdb-31b0bde91b87}" vmax="999" lines="hmsqj" serialNumber="0">
+			<part nodes="9 538 532 531 530 529 28 446 27 1"/>
+		</slipdistance>
+		<slipdistance uuid="{37f8a31a-f33a-486e-90d8-85761e617d69}" vmax="999" lines="hmsqj" serialNumber="1">
+			<part nodes="744 745 5 228 903 746 955 747 749 451 3 2 316 353 317"/>
+		</slipdistance>
+		<slipdistance uuid="{3898cd0e-95b1-4d85-b9a9-cfb41e958c7f}" vmax="999" lines="hmsqj" serialNumber="0">
+			<part nodes="744 745 5 228 903 746 955 747 749 450 750 751 752 754 753"/>
+		</slipdistance>
+		<slipdistance uuid="{43e6708b-ca79-408f-989f-ec35011602e1}" vmax="999" lines="hmsqj" serialNumber="0">
+			<part nodes="30 444 762 763 764 765"/>
+		</slipdistance>
+		<slipdistance uuid="{853177ed-ce10-40c2-904e-91053b783263}" vmax="999" lines="hmsqj" serialNumber="0">
+			<part nodes="17 402 84 181 12 7 452 453 9 538"/>
+		</slipdistance>
+		<slipdistance uuid="{944a5bf1-bd2a-4b9e-a519-cde65e511ef0}" vmax="999" lines="hmsqj" serialNumber="0">
+			<part nodes="16 406 6 536 535 187 4 7 452 453 9 538 532"/>
+		</slipdistance>
+		<slipdistance uuid="{a0de532a-d3dd-4559-8229-6baf5869f887}" vmax="999" lines="hmsqj" serialNumber="0">
+			<part nodes="544 543 542 541 15"/>
+		</slipdistance>
+		<slipdistance uuid="{ab50f3d2-689f-464c-b8ba-77d1f2fbd339}" vmax="999" lines="hmsqj" serialNumber="0">
+			<part nodes="28 446 27 1 525 449 523 526 447 522"/>
+		</slipdistance>
+		<slipdistance uuid="{ad4b0fad-ae99-4c3b-bebe-9839efb8f972}" vmax="999" lines="hmsqj" serialNumber="1">
+			<part nodes="307 306 317 353 316 2 3 451 749 747 900 689 901 78 688 523 526"/>
+		</slipdistance>
+		<slipdistance uuid="{adef3299-38a0-47b0-8513-30689671f15e}" vmax="999" lines="hmsqj nw8013" serialNumber="0">
+			<part nodes="24 20 19 18"/>
+		</slipdistance>
+		<slipdistance uuid="{ca5a836c-7a2f-4d6d-bda8-e2d8dc4dd539}" vmax="999" lines="hmsqj" serialNumber="0">
+			<part nodes="307 306 317 353 316 2 3 451 749 747 955 746 903"/>
+		</slipdistance>
+		<slipdistance uuid="{ceafa32f-9313-452b-85a0-cd38bd00aa7a}" vmax="999" lines="hmsqj" serialNumber="0">
+			<part nodes="312 305 313 314 315 21"/>
+		</slipdistance>
+		<slipdistance uuid="{ea657004-ca69-420e-95a7-0ec24fe97634}" vmax="999" lines="hmsqj" serialNumber="0">
+			<part nodes="29 445 753 754 752 751 750 450 749 747 955 746"/>
+		</slipdistance>
+	</slipDistances>
+	<approachControlRoutes/>
+	<stationRoutes>
+		<stationRoute stationID="CANSTJ" name="[HAMTSQ]-[n8011/1]-[1]-[MANILJ]-[n8011/1] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=85;NRz=85;S=85;Rz=85;FGz=85;NGz=85;Gz=85;Lz=85;Unbekannt=85" nodes="451 749 747 900 689 901 78 688 523 526 447"/>
+		<stationRoute stationID="CANSTJ" name="[HAMTSQ]-[n8011/1]-[2]-[MANILJ]-[n8011/2] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=95;NRz=95;S=95;Rz=95;FGz=95;NGz=95;Gz=95;Lz=95;Unbekannt=95" nodes="451 749 747 955 746 903 228 5 745 744 448"/>
+		<stationRoute stationID="CANSTJ" name="[HAMTSQ]-[n8011/2]-[1]-[MANILJ]-[n8011/1] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=90;NRz=90;S=90;Rz=90;FGz=90;NGz=90;Gz=90;Lz=90;Unbekannt=90" nodes="450 749 747 900 689 901 78 688 523 526 447"/>
+		<stationRoute stationID="CANSTJ" name="[HAMTSQ]-[n8011/2]-[2]-[MANILJ]-[n8011/2] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="450 749 747 955 746 903 228 5 745 744 448"/>
+		<stationRoute stationID="CANSTJ" name="[HAMTSQ]-[n8011/3]-[1]-[MANILJ]-[n8011/1] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="449 523 526 447"/>
+		<stationRoute stationID="CANSTJ" name="[MANILJ]-[n8011/1]-[1]-[HAMTSQ]-[n8011/1] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=85;NRz=85;S=85;Rz=85;FGz=85;NGz=85;Gz=85;Lz=85;Unbekannt=85" nodes="447 526 523 688 78 901 689 900 747 749 451"/>
+		<stationRoute stationID="CANSTJ" name="[MANILJ]-[n8011/1]-[1]-[HAMTSQ]-[n8011/2] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=90;NRz=90;S=90;Rz=90;FGz=90;NGz=90;Gz=90;Lz=90;Unbekannt=90" nodes="447 526 523 688 78 901 689 900 747 749 450"/>
+		<stationRoute stationID="CANSTJ" name="[MANILJ]-[n8011/2]-[1-2]-[HAMTSQ]-[n8011/1] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=95;NRz=95;S=95;Rz=95;FGz=95;NGz=95;Gz=95;Lz=95;Unbekannt=95" nodes="448 744 745 5 228 903 746 955 747 749 451"/>
+		<stationRoute stationID="CANSTJ" name="[MANILJ]-[n8011/2]-[1-2]-[HAMTSQ]-[n8011/2] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="448 744 745 5 228 903 746 955 747 749 450"/>
+		<stationRoute stationID="HAMTSQ" name="[CANSTJ]-[n8011/1]-[2]-[BRKNHDC]-[n8013/1] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="353 317 306 307 308 309 310 311 312 305"/>
+		<stationRoute stationID="HAMTSQ" name="[CANSTJ]-[n8011/1]-[2]-[CANSTJ]-[n8011/1] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="353 317 306 307 308 309 310 311 312 311 310 309 308 307 306 317 353"/>
+		<stationRoute stationID="HAMTSQ" name="[CANSTJ]-[n8011/2]-[3]-[BRKNCPK]-[n8011/1] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="445 29 755 756 757 758 759 30 444"/>
+		<stationRoute stationID="HAMTSQ" name="[HAMTSQJ]-[n8011/2]-[1]-[CANSTJ]-[n8011/3] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="453 9 538 532 531 530 529 28 446"/>
+		<stationRoute stationID="HAMTSQJ" name="[BRKNCPK]-[n8011/1]-[1]-[HAMTSQ]-[n8011/2] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="407 16 406 6 536 535 187 4 7 452"/>
+		<stationRoute stationID="HAMTSQJ" name="[BRKNHDC]-[n8013/1]-[2]-[HAMTSQ]-[n8011/2] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=95;NRz=95;S=95;Rz=95;FGz=95;NGz=95;Gz=95;Lz=95;Unbekannt=95" nodes="393 17 402 84 181 12 7 452"/>
+	</stationRoutes>
+	<lineCatalog/>
+	<zugNummernFelder/>
+	<switchGears/>
+</line>

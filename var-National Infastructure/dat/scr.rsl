@@ -1,0 +1,771 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<line lineID="scr" name="South Croydon Jn" trafficRouting="on_the_left" type="global" dependentLines="so500 so530">
+	<transformations>
+		<transformation line="so530" m11="1" m12="0" m21="0" m22="1" dx="-405.016" dy="-120"/>
+	</transformations>
+	<version major="1" minor="2" patchlevel="0" comment=""/>
+	<creator user="Ahowe4" timestamp="2016-11-01T12:54:22"/>
+	<lasteditor user="Ahowe4" timestamp="2016-11-01T12:54:22"/>
+	<stations>
+		<station stationID="SCROYDN" name="South Croydon" xNet="1041378.45" yNet="451510.81" uicLocationCode="0" circleDiameter="0">
+			<textElement type="name">
+				<pos view="net" x="1919.24" y="1919.24" angle="0" system="source"/>
+				<pos view="wgs84" x="1919.24" y="1919.24" angle="0" system="source"/>
+				<pos view="line" x="1810.23" y="1810.23" angle="0" system="source"/>
+				<pos view="macro" x="28.2843" y="28.2843" angle="0" system="source"/>
+				<pos view="macroWgs84" x="0" y="0" angle="0" system="source"/>
+			</textElement>
+		</station>
+		<station stationID="SCRYDNJ" name="South Croydon Jn" xNet="1042535" yNet="447966.175" uicLocationCode="0" circleDiameter="0">
+			<textElement type="name">
+				<pos view="net" x="229.366" y="229.366" angle="0" system="source"/>
+				<pos view="wgs84" x="229.366" y="229.366" angle="0" system="source"/>
+				<pos view="line" x="214.305" y="214.305" angle="0" system="source"/>
+				<pos view="macro" x="28.2843" y="28.2843" angle="0" system="source"/>
+				<pos view="macroWgs84" x="0" y="0" angle="0" system="source"/>
+			</textElement>
+		</station>
+	</stations>
+	<nodes>
+		<speedIndicator nodeID="14063" name="SPEED" description="Speed;" kilometre="17.800" x="178000" y="-180" xNet="1041068.4" yNet="455801.99" referenceNode="14064">
+			<netLimitInfo lineID="so500"/>
+		</speedIndicator>
+		<node nodeID="14065" name="200MM" description="200MM : 18.0" kilometre="18.000" x="180000" y="-180" xNet="1040998.6" yNet="453803.62"/>
+		<node nodeID="14068" description="Speed; 11m 21.05ch" kilometre="18.126" x="181260" y="-180" xNet="1040954.7" yNet="452544.64"/>
+		<node nodeID="14069" name="200MM" description="200MM : 18.2" kilometre="18.200" x="182000" y="-180" xNet="1040929" yNet="451805.27"/>
+		<node nodeID="14064" name="SD : T132" description="sighting distance for SIG : T132" kilometre="17.835" x="178350" y="-180" xNet="1041056.1" yNet="455452.73" referenceNode="14065" sightingDistance="true"/>
+		<track trackID="U-1" stationID="SCROYDN" type="stopBoard" nodeID="14066" name="U-1" description="SCROYDN U-1, stopBoard, 11m 17ch" kilometre="18.045" x="180450" y="-180" xNet="1040982.4" yNet="453353.97" referenceNode="14067">
+			<platform startPos="-1400" endPos="0" width="150" left="true" open="true"/>
+		</track>
+		<track trackID="T-1" stationID="SCROYDN" type="timingPoint" nodeID="14067" name="T-1" description="SCROYDN T-1, timingPoint, 11m 21ch" kilometre="18.125" x="181250" y="-180" xNet="1040955.3" yNet="452554.46" referenceNode="724"/>
+		<node nodeID="14071" name="tc 2" description="release contact for track circuit; 11m 34.29ch" kilometre="18.392" x="183925" y="-180" xNet="1040861" yNet="449880.97" referenceNode="14070" releaseContact="true" arranged="true"/>
+		<node nodeID="14070" name="T-1" description="SCRYDNJ T-1, timingPoint, 11m 29ch" kilometre="18.286" x="182860" y="-180" xNet="1040899.3" yNet="450945.26"/>
+		<node nodeID="14072" name="OL T146" description="OL for SIG : T146" kilometre="18.393" x="183930" y="-180" xNet="1040861.8" yNet="449875.93"/>
+		<node nodeID="14073" name="tc 1" description="release contact for track circuit; 11m 34.34ch" kilometre="18.393" x="183935" y="-180" xNet="1040861.3" yNet="449871.5" referenceNode="14309" releaseContact="true" arranged="true"/>
+		<speedIndicator nodeID="12069" name="SPEED" description="Speed;" kilometre="17.800" x="178000" y="20" xNet="1041267.6" yNet="455795.73" referenceNode="12070">
+			<netLimitInfo lineID="so500"/>
+		</speedIndicator>
+		<node nodeID="12071" name="200MM" description="200MM : 18.0" kilometre="18.000" x="180000" y="20" xNet="1041198.2" yNet="453796.42"/>
+		<node nodeID="12073" description="Speed; 11m 21.05ch" kilometre="18.126" x="181260" y="20" xNet="1041155" yNet="452537.77"/>
+		<node nodeID="12080" name="200MM" description="200MM : 18.4" kilometre="18.400" x="184000" y="20" xNet="1041059" yNet="449798.75"/>
+		<node nodeID="12070" name="SD : T133" description="sighting distance for SIG : T133" kilometre="17.904" x="179040" y="20" xNet="1041232" yNet="454755.87" referenceNode="12069" sightingDistance="true"/>
+		<track trackID="T-2" stationID="SCROYDN" type="timingPoint" nodeID="12072" name="T-2" description="SCROYDN T-2, timingPoint, 11m 21ch" kilometre="18.125" x="181250" y="20" xNet="1041154.8" yNet="452547.26" referenceNode="725"/>
+		<track trackID="D-2" stationID="SCROYDN" interlockingMachine="4 Aspect Pannel (Below 75mph)" nodeID="12074" name="SIG : T133" description="Signal T133; 11m 24.02ch" kilometre="18.186" x="181860" y="20" xNet="1041133.8" yNet="451938.36" referenceNode="12314">
+			<platform startPos="-1780" endPos="0" width="150" left="true" open="false"/>
+		</track>
+		<node nodeID="12075" name="D-2" description="SCROYDN D-2, stopBoard, 11m 25ch" kilometre="18.206" x="182060" y="20" xNet="1041126.6" yNet="451738.85"/>
+		<node nodeID="12076" name="T-2" description="SCRYDNJ T-2, timingPoint, 11m 29ch" kilometre="18.286" x="182860" y="20" xNet="1041098.5" yNet="450939"/>
+		<node nodeID="12077" name="tc 2" description="release contact for track circuit; 11m 32.94ch" kilometre="18.365" x="183655" y="20" xNet="1041070.8" yNet="450143.58" referenceNode="12076" releaseContact="true" arranged="true"/>
+		<node nodeID="12078" name="OL T133" description="OL for SIG : T133" kilometre="18.366" x="183660" y="20" xNet="1041070.4" yNet="450139.15"/>
+		<node nodeID="12079" name="tc 1" description="release contact for track circuit; 11m 32.99ch" kilometre="18.367" x="183665" y="20" xNet="1041071" yNet="450134.09" referenceNode="12080" releaseContact="true" arranged="true"/>
+		<switch start="10178" endOfMainTrack="10074" endOfBranchTrack="10206" nodeID="10073" name="POINTS : 1627" description="POINTS : 1627;  mph; 11m 27.75ch" kilometre="18.261" x="182610" y="220" xNet="1041307.2" yNet="451181.01"/>
+		<switch start="721" endOfMainTrack="10074" endOfBranchTrack="8299" nodeID="10075" name="POINTS : 1631" description="POINTS : 1631; 25 mph; 11m 34.06ch" kilometre="18.388" x="183880" y="220" xNet="1041263.5" yNet="449912.53"/>
+		<node nodeID="10066" name="tc 2" description="release contact for track circuit; 11m 8.29ch" kilometre="17.869" x="178695" y="220" xNet="1041443.3" yNet="455093.49" referenceNode="10065" releaseContact="true" arranged="true"/>
+		<node nodeID="10065" name="SD : T134" description="sighting distance for SIG : T134" kilometre="17.804" x="178040" y="220" xNet="1041466.9" yNet="455748.04" referenceNode="10066" sightingDistance="true"/>
+		<node nodeID="10067" name="OL T140" description="OL for SIG : T140" kilometre="17.870" x="178700" y="220" xNet="1041444.1" yNet="455088.45"/>
+		<node nodeID="10068" name="tc 1" description="release contact for track circuit; 11m 8.34ch" kilometre="17.871" x="178705" y="220" xNet="1041443.6" yNet="455084.02" referenceNode="727" releaseContact="true" arranged="true"/>
+		<track trackID="U-3" stationID="SCROYDN" interlockingMachine="4 Aspect Pannel (Below 75mph)" nodeID="10069" name="SIG : T140" description="Signal T140; 11m 15.12ch" kilometre="18.007" x="180070" y="220" xNet="1041395.4" yNet="453719.24" referenceNode="10070"/>
+		<node nodeID="10070" name="U-3" description="SCROYDN U-3, stopBoard, 11m 18ch" kilometre="18.065" x="180650" y="220" xNet="1041376.5" yNet="453139.82"/>
+		<track trackID="T-3" stationID="SCROYDN" type="timingPoint" nodeID="10071" name="T-3" description="SCROYDN T-3, timingPoint, 11m 21ch" kilometre="18.125" x="181250" y="220" xNet="1041354" yNet="452541" referenceNode="10202"/>
+		<node nodeID="10072" name="SD : T140" description="sighting distance for SIG : T140" kilometre="18.195" x="181950" y="220" xNet="1041331" yNet="451840.94" referenceNode="3" sightingDistance="true"/>
+		<node nodeID="10074" name="T-3" description="SCRYDNJ T-3, timingPoint, 11m 29ch" kilometre="18.286" x="182860" y="220" xNet="1041297.9" yNet="450931.78"/>
+		<node nodeID="10076" name="tc 2" description="release contact for track circuit; 11m 34.29ch" kilometre="18.392" x="183925" y="220" xNet="1041260.9" yNet="449866.91" referenceNode="721" releaseContact="true" arranged="true"/>
+		<node nodeID="10077" name="OL T148" description="OL for SIG : T148" kilometre="18.393" x="183930" y="220" xNet="1041261.7" yNet="449861.87"/>
+		<node nodeID="10078" name="tc 1" description="release contact for track circuit; 11m 34.34ch" kilometre="18.393" x="183935" y="220" xNet="1041261.2" yNet="449857.43" referenceNode="10201" releaseContact="true" arranged="true"/>
+		<node nodeID="8064" name="200MM" description="200MM : 17.8" kilometre="17.800" x="178000" y="420" xNet="1041667.8" yNet="455780.71">
+			<netLimitInfo lineID="so500"/>
+		</node>
+		<switch start="8300" endOfMainTrack="8078" endOfBranchTrack="8252" nodeID="8077" name="POINTS : 1628" description="POINTS : 1628; 20 mph; 11m 27.7ch" kilometre="18.260" x="182600" y="420" xNet="1041507.1" yNet="451184.57"/>
+		<switch start="8184" endOfMainTrack="8258" endOfBranchTrack="8207" nodeID="8079" name="POINTS : 1631" description="POINTS : 1631; 25 mph; 11m 31.03ch" kilometre="18.327" x="183270" y="420" xNet="1041483.6" yNet="450515.17"/>
+		<switch start="720" endOfMainTrack="8257" endOfBranchTrack="8185" nodeID="8080" name="POINTS : 1630" description="POINTS : 1630; 40 mph; 11m 34.41ch" kilometre="18.395" x="183950" y="420" xNet="1041460.8" yNet="449835.37"/>
+		<node nodeID="8082" name="OL T135" description="OL for SIG : T135" kilometre="18.401" x="184010" y="420" xNet="1041458.3" yNet="449774.87"/>
+		<node nodeID="8065" name="tc 2" description="release contact for track circuit; 11m 7.94ch" kilometre="17.862" x="178625" y="420" xNet="1041645.6" yNet="455157.54" referenceNode="8064" releaseContact="true" arranged="true"/>
+		<node nodeID="8066" name="OL T142" description="OL for SIG : T142" kilometre="17.863" x="178630" y="420" xNet="1041646.4" yNet="455152.5"/>
+		<node nodeID="8067" name="tc 1" description="release contact for track circuit; 11m 7.99ch" kilometre="17.864" x="178635" y="420" xNet="1041646.2" yNet="455147.12" referenceNode="728" releaseContact="true" arranged="true"/>
+		<node nodeID="8069" name="SD : T135" description="sighting distance for SIG : T135" kilometre="18.015" x="180150" y="420" xNet="1041592.7" yNet="453633.54" referenceNode="8068" sightingDistance="true"/>
+		<track trackID="U-4" stationID="SCROYDN" interlockingMachine="4 Aspect Pannel (Below 75mph)" nodeID="8068" name="SIG : T142" description="Signal T142; 11m 14.77ch" kilometre="18.000" x="180000" y="420" xNet="1041598.1" yNet="453782.36" referenceNode="8069"/>
+		<track trackID="T-4" stationID="SCROYDN" type="timingPoint" nodeID="8070" name="T-4" description="SCROYDN T-4, timingPoint, 11m 21ch" kilometre="18.125" x="181250" y="420" xNet="1041554.8" yNet="452533.2" referenceNode="8069"/>
+		<track trackID="D-4" stationID="SCROYDN" interlockingMachine="4 Aspect Pannel (Below 75mph)" nodeID="8072" name="SIG : T135" description="Signal T135; 11m 24.87ch" kilometre="18.203" x="182030" y="420" xNet="1041526.7" yNet="451753.58" referenceNode="8071">
+			<platform startPos="-1950" endPos="0" width="75" left="true" open="true"/>
+		</track>
+		<node nodeID="8071" name="SD : T142" description="sighting distance for SIG : T142" kilometre="18.188" x="181880" y="420" xNet="1041532.7" yNet="451903.69" referenceNode="8072" sightingDistance="true"/>
+		<node nodeID="8073" name="D-4" description="SCROYDN D-4, stopBoard, 11m 25ch" kilometre="18.206" x="182060" y="420" xNet="1041526.9" yNet="451723.85"/>
+		<node nodeID="8074" name="tc 2" description="release contact for track circuit; 11m 27.13ch" kilometre="18.249" x="182485" y="420" xNet="1041512.2" yNet="451299.24" referenceNode="4" releaseContact="true" arranged="true"/>
+		<node nodeID="8075" name="OL T135" description="OL for SIG : T135" kilometre="18.249" x="182490" y="420" xNet="1041511.7" yNet="451294.79"/>
+		<node nodeID="8076" name="tc 1" description="release contact for track circuit; 11m 27.18ch" kilometre="18.250" x="182495" y="420" xNet="1041510.5" yNet="451289.06" referenceNode="8300" releaseContact="true" arranged="true"/>
+		<node nodeID="8078" name="T-4" description="SCRYDNJ T-4, timingPoint, 11m 29ch" kilometre="18.286" x="182860" y="420" xNet="1041498.7" yNet="450923.99"/>
+		<node nodeID="8081" name="tc 2" description="release contact for track circuit; 11m 34.68ch" kilometre="18.400" x="184005" y="420" xNet="1041458.5" yNet="449780.25" referenceNode="8164" releaseContact="true" arranged="true"/>
+		<node nodeID="8083" name="tc 1" description="release contact for track circuit; 11m 34.73ch" kilometre="18.402" x="184015" y="420" xNet="1041457.8" yNet="449770.43" referenceNode="8293" releaseContact="true" arranged="true"/>
+		<switch start="424" endOfMainTrack="8245" endOfBranchTrack="8249" nodeID="8167" name="POINTS : 1629" description="POINTS : 1629; 20 mph; 11m 27.7ch" kilometre="18.260" x="182600" y="620" xNet="1041707.9" yNet="451176.77"/>
+		<switch start="8327" endOfMainTrack="8325" endOfBranchTrack="8307" nodeID="8168" name="POINTS : 1634" description="POINTS : 1634;  mph; 11m 36.25ch" kilometre="18.432" x="184309" y="820" xNet="1041647.9" yNet="449458.65"/>
+		<crossing type="kr" startOfMainTrack="8325" startOfBranchTrack="8320" endOfMainTrack="8251" endOfBranchTrack="8248" nodeID="8169" name="FD" description="FD" kilometre="18.335" x="183354" y="620" xNet="1041568.2" yNet="450428.91"/>
+		<speedIndicator nodeID="8177" name="SPEED" description="Speed;" kilometre="17.800" x="178000" y="620" xNet="1041867.9" yNet="455774.8" referenceNode="8186">
+			<netLimitInfo lineID="so500"/>
+		</speedIndicator>
+		<track trackID="D-5" stationID="SCROYDN" interlockingMachine="4 Aspect Pannel (Below 75mph)" nodeID="8183" name="SIG : T137" description="Signal T137; 11m 24.02ch" kilometre="18.186" x="181860" y="620" xNet="1041733.2" yNet="451917.08" referenceNode="8295">
+			<platform startPos="-1940" endPos="0" width="75" left="false" open="true"/>
+		</track>
+		<crossing type="kr" startOfMainTrack="8254" startOfBranchTrack="10210" endOfMainTrack="8079" endOfBranchTrack="8256" nodeID="8184" name="FD" description="FD" kilometre="18.316" x="183160" y="420" xNet="1041488.2" yNet="450625.38"/>
+		<crossing type="kr" startOfMainTrack="8290" startOfBranchTrack="8080" endOfMainTrack="8255" endOfBranchTrack="8321" nodeID="8185" name="FD" description="FD" kilometre="18.365" x="183652" y="520" xNet="1041514.7" yNet="450131.66"/>
+		<node nodeID="6" name="200MM" description="200MM : 18.4" kilometre="18.400" x="184482" y="620" xNet="1041582.2" yNet="449200.6"/>
+		<speedIndicator nodeID="7" name="SPEED" description="Speed;" kilometre="18.469" x="184920" y="820" xNet="1042067.6" yNet="448744.09" referenceNode="719"/>
+		<node nodeID="8220" name="SD : T137" description="sighting distance for SIG : T137" kilometre="18.045" x="180450" y="620" xNet="1041782.3" yNet="453325.83" referenceNode="8186" sightingDistance="true"/>
+		<node nodeID="8221" name="OL T137" description="OL for SIG : T137" kilometre="18.323" x="183233" y="620" xNet="1041590" yNet="450547.5"/>
+		<node nodeID="8222" name="OL T137" description="OL for SIG : T137" kilometre="18.323" x="183230" y="820" xNet="1041685.5" yNet="450548.21"/>
+		<node nodeID="8245" name="tc" kilometre="18.322" x="183220" y="820" xNet="1041686.2" yNet="450558.03" referenceNode="8222" releaseContact="true" arranged="true"/>
+		<node nodeID="8246" name="tc" kilometre="18.324" x="183240" y="820" xNet="1041685.2" yNet="450537.45" referenceNode="8222" releaseContact="true" arranged="true"/>
+		<node nodeID="8247" name="tc" kilometre="18.322" x="183223" y="620" xNet="1041592.5" yNet="450558.01" referenceNode="8250" releaseContact="true" arranged="true"/>
+		<node nodeID="8248" name="tc" kilometre="18.324" x="183243" y="620" xNet="1041589.4" yNet="450537.69" referenceNode="8169" releaseContact="true" arranged="true"/>
+		<node nodeID="8249" name="tc" kilometre="18.297" x="182972" y="620" xNet="1041639.2" yNet="450806.98" referenceNode="8167" releaseContact="true" arranged="true"/>
+		<node nodeID="8250" name="tc" kilometre="18.298" x="182982" y="620" xNet="1041637.2" yNet="450797.75" referenceNode="8247" releaseContact="true" arranged="true"/>
+		<node nodeID="8251" name="tc" kilometre="18.298" x="182983.59" y="515" xNet="1041537.5" yNet="450799.77" referenceNode="8252" releaseContact="true" arranged="true"/>
+		<node nodeID="8252" name="tc" kilometre="18.297" x="182971.81" y="513.63049" xNet="1041537.6" yNet="450811.49" referenceNode="8251" releaseContact="true" arranged="true"/>
+		<node nodeID="10176" name="tc" kilometre="18.289" x="182887.38" y="320.86646" xNet="1041397.1" yNet="450901.91" referenceNode="10177" releaseContact="true" arranged="true"/>
+		<node nodeID="10177" name="tc" kilometre="18.288" x="182880" y="318.18195" xNet="1041396.1" yNet="450907.9" referenceNode="10176" releaseContact="true" arranged="true"/>
+		<node nodeID="8253" name="tc" kilometre="18.288" x="182880" y="420" xNet="1041498.3" yNet="450904.67" referenceNode="8078" releaseContact="true" arranged="true"/>
+		<node nodeID="8254" name="tc" kilometre="18.289" x="182890" y="420" xNet="1041496.7" yNet="450894.51" referenceNode="8184" releaseContact="true" arranged="true"/>
+		<node nodeID="10178" name="tc" kilometre="18.255" x="182550" y="220" xNet="1041308.8" yNet="451241.16" referenceNode="10179" releaseContact="true" arranged="true"/>
+		<node nodeID="10179" name="tc" kilometre="18.254" x="182540.02" y="220" xNet="1041310.4" yNet="451251.32" referenceNode="10178" releaseContact="true" arranged="true"/>
+		<node nodeID="8255" name="tc" kilometre="18.341" x="183410.94" y="442.35654" xNet="1041501.4" yNet="450372.67" referenceNode="8256" releaseContact="true" arranged="true"/>
+		<node nodeID="8256" name="tc" kilometre="18.340" x="183400.91" y="441.46262" xNet="1041500.8" yNet="450383.1" referenceNode="8255" releaseContact="true" arranged="true"/>
+		<node nodeID="8257" name="tc" kilometre="18.361" x="183610" y="420" xNet="1041472.3" yNet="450174.8" referenceNode="8258" releaseContact="true" arranged="true"/>
+		<node nodeID="8258" name="tc" kilometre="18.360" x="183600" y="420" xNet="1041471.7" yNet="450185.21" referenceNode="8257" releaseContact="true" arranged="true"/>
+		<node nodeID="8259" name="tc" kilometre="18.357" x="183573.8" y="320.39401" xNet="1041373.9" yNet="450214.49" referenceNode="8207" releaseContact="true" arranged="true"/>
+		<node nodeID="8260" name="tc" kilometre="18.358" x="183580" y="318.36096" xNet="1041370.8" yNet="450208.08" referenceNode="8299" releaseContact="true" arranged="true"/>
+		<node nodeID="8288" name="OL T150" description="OL for SIG : T150" kilometre="18.388" x="184360" y="620" xNet="1041592.6" yNet="449420.43"/>
+		<node nodeID="8289" name="tc 1" description="release contact for track circuit; 11m 34.09ch" kilometre="18.389" x="184391" y="620" xNet="1041595.4" yNet="449389.5" referenceNode="8288" releaseContact="true" arranged="true"/>
+		<node nodeID="8290" name="tc 2" description="release contact for track circuit; 11m 34.04ch" kilometre="18.387" x="184252" y="620" xNet="1041588.9" yNet="449451.01" referenceNode="8288" releaseContact="true" arranged="true"/>
+		<node nodeID="1" kilometre="18.223" x="182234.31" y="-180" xNet="1040920.8" yNet="451570.31"/>
+		<node nodeID="2" kilometre="18.225" x="182251.89" y="20" xNet="1041119.8" yNet="451546.95"/>
+		<node nodeID="3" kilometre="18.224" x="182242.58" y="220" xNet="1041320.3" yNet="451548.65"/>
+		<node nodeID="4" kilometre="18.227" x="182262.92" y="420" xNet="1041519.7" yNet="451521.19"/>
+		<node nodeID="5" kilometre="18.228" x="182281" y="620" xNet="1041719" yNet="451496.89"/>
+		<node nodeID="14309" kilometre="18.426" x="184268.94" y="-180" xNet="1040849.8" yNet="449537.43">
+			<netLimitInfo lineID="so500"/>
+		</node>
+		<node nodeID="12313" kilometre="18.428" x="184275.06" y="20" xNet="1041049.1" yNet="449524.83">
+			<netLimitInfo lineID="so500"/>
+		</node>
+		<node nodeID="10201" kilometre="18.429" x="184290.08" y="220" xNet="1041249.1" yNet="449501.84">
+			<netLimitInfo lineID="so500"/>
+		</node>
+		<node nodeID="8293" kilometre="18.431" x="184301.28" y="420" xNet="1041447.9" yNet="449484.81">
+			<netLimitInfo lineID="so500"/>
+		</node>
+		<node nodeID="14310" kilometre="18.159" x="181587.59" y="-180" xNet="1040942.7" yNet="452217.84"/>
+		<node nodeID="12314" kilometre="18.160" x="181603.06" y="20" xNet="1041142.3" yNet="452195.77"/>
+		<node nodeID="10202" kilometre="18.159" x="181593.64" y="220" xNet="1041342.7" yNet="452197.45"/>
+		<node nodeID="8294" kilometre="18.162" x="181615.17" y="420" xNet="1041542.5" yNet="452169.06"/>
+		<node nodeID="8295" kilometre="18.163" x="181630.78" y="620" xNet="1041741.5" yNet="452145.71"/>
+		<node nodeID="10203" name="200MM" description="200MM : 17.8" kilometre="17.800" x="177999.98" y="220" xNet="1041468.3" yNet="455787.93">
+			<netLimitInfo lineID="so500"/>
+		</node>
+		<track trackID="T-5" stationID="SCROYDN" type="timingPoint" nodeID="8304" name="T-5" description="SCROYDN T-5, timingPoint" kilometre="18.126" x="181256.38" y="620" xNet="1041754" yNet="452520.6" referenceNode="729"/>
+		<switch start="754" endOfMainTrack="6" endOfBranchTrack="8327" nodeID="8" name="POINTS" description="POINTS : 1633; 20 mph; 11m 35.06ch" kilometre="18.408" x="184588" y="620" xNet="1041729.1" yNet="448846.51"/>
+		<speedIndicator nodeID="10" name="SPEED" description="Speed; 11m 44ch" kilometre="18.588" x="186388" y="620" xNet="1042758.2" yNet="447574.77" referenceNode="589">
+			<netLimitInfo lineID="so530"/>
+		</speedIndicator>
+		<track trackID="U-1" stationID="SCRYDNJ" interlockingMachine="4 Aspect Pannel (Below 75mph)" nodeID="9" name="SIG : T150" description="Signal T150; 11m 43ch" kilometre="18.568" x="186188" y="620" xNet="1042632.1" yNet="447731.09" referenceNode="589"/>
+		<speedIndicator nodeID="509" name="SPEED" description="Speed; 11m 44ch" kilometre="18.588" x="186380" y="820" xNet="1042913.2" yNet="447701.42" referenceNode="595">
+			<netLimitInfo lineID="so530"/>
+		</speedIndicator>
+		<node nodeID="508" name="SD : T535" description="sighting distance for SIG : T535" kilometre="18.469" x="185190" y="820" xNet="1042164.8" yNet="448626.22" referenceNode="8188" sightingDistance="true"/>
+		<node nodeID="8188" kilometre="18.469" x="185069" y="820" xNet="1042121.3" yNet="448678.5"/>
+		<track trackID="T-2" stationID="SCRYDNJ" type="timingPoint" nodeID="582" name="T-2" description="SCRYDNJ T-2, timingPoint" kilometre="18.538" x="185884" y="820" xNet="1042601.8" yNet="448086.14" referenceNode="594"/>
+		<node nodeID="8186" name="200MM" description="200MM : 18.0" kilometre="18.000" x="180000" y="620" xNet="1041798.5" yNet="453775.49"/>
+		<speedIndicator nodeID="8307" name="SPEED" description="Speed;" kilometre="18.432" x="184277" y="820" xNet="1041648.9" yNet="449490.93" referenceNode="8246"/>
+		<speedIndicator nodeID="424" name="SPEED" description="Speed;" kilometre="18.260" x="182584.03" y="620" xNet="1041708.4" yNet="451192.93" referenceNode="5"/>
+		<speedIndicator nodeID="8164" name="SPEED" description="Speed;" kilometre="18.395" x="183952.75" y="420" xNet="1041460.5" yNet="449833.14" referenceNode="720"/>
+		<speedIndicator nodeID="8300" name="SPEED" description="Speed;" kilometre="18.260" x="182594.75" y="420" xNet="1041507.3" yNet="451189.96" referenceNode="8076"/>
+		<speedIndicator nodeID="10206" name="SPEED" description="Speed;" kilometre="18.261" x="182623.5" y="224.9091" xNet="1041312" yNet="451167.85" referenceNode="10177"/>
+		<speedIndicator nodeID="10210" name="SPEED" description="Speed;" kilometre="18.316" x="183146.38" y="415.04333" xNet="1041483.5" yNet="450638.55" referenceNode="8184"/>
+		<speedIndicator nodeID="444" name="SPEED" description="Speed; 11m 28ch" kilometre="18.266" x="182661.38" y="-180" xNet="1040905.9" yNet="451143.47" referenceNode="14070"/>
+		<speedIndicator nodeID="445" name="SPEED" description="Speed; 11m 28ch" kilometre="18.266" x="182660.63" y="20" xNet="1041105.6" yNet="451138.49" referenceNode="2"/>
+		<speedIndicator nodeID="8320" name="SPEED" description="Speed;" kilometre="18.335" x="183369" y="615" xNet="1041565.1" yNet="450413.95" referenceNode="8169"/>
+		<speedIndicator nodeID="8321" name="SPEED" description="Speed;" kilometre="18.365" x="183638" y="525" xNet="1041517.2" yNet="450145.34" referenceNode="8320"/>
+		<node nodeID="8325" name="OL T135" description="OL for SIG : T135" kilometre="18.340" x="183443.61" y="639.41174" xNet="1041575.6" yNet="450338.92"/>
+		<switch start="8168" endOfMainTrack="719" endOfBranchTrack="8" nodeID="8327" name="points" kilometre="18.436" x="184367.44" y="820" xNet="1041688" yNet="449390.33"/>
+		<stationBorder exitType="regular" stationID="SCROYDN" lineID="so500" trackNumber="1" nodeID="719" name="[SCRYDNJ] - [so500/1]" kilometre="18.446" x="184533.21" y="820" xNet="1041801.9" yNet="449196.49" referenceNode="8327"/>
+		<stationBorder exitType="alternative" stationID="SCROYDN" lineID="so500" trackNumber="1" nodeID="720" name="[PURLEYO] - [so500/1]" kilometre="18.395" x="183950.83" y="420" xNet="1041460.7" yNet="449834.7" referenceNode="8080"/>
+		<stationBorder exitType="alternative" stationID="SCROYDN" lineID="so500" trackNumber="2" nodeID="721" name="[PURLEYO] - [so500/2]" kilometre="18.388" x="183880.67" y="220" xNet="1041263.4" yNet="449911.86" referenceNode="10075"/>
+		<stationBorder exitType="alternative" stationID="SCROYDN" lineID="so500" trackNumber="2" nodeID="722" name="[SCRYDNJ] - [so500/2]" kilometre="18.408" x="184612" y="620" xNet="1041742.6" yNet="448829.83" referenceNode="754"/>
+		<stationBorder exitType="regular" stationID="SCROYDN" lineID="so500" trackNumber="1" nodeID="723" name="[ECROYDN] - [so500/1]" kilometre="18.031" x="180315" y="-180" xNet="1040987.4" yNet="453488.88" referenceNode="14066"/>
+		<stationBorder exitType="alternative" stationID="SCROYDN" lineID="so500" trackNumber="3" nodeID="724" name="[PURLEYO] - [so500/3]" kilometre="18.125" x="181253" y="-180" xNet="1040955" yNet="452551.5" referenceNode="14067"/>
+		<stationBorder exitType="alternative" stationID="SCROYDN" lineID="so500" trackNumber="2" nodeID="725" name="[SCROYNAP] - [so500/1]" kilometre="18.087" x="180875" y="20" xNet="1041167.8" yNet="452921.99" referenceNode="12072"/>
+		<stationBorder exitType="regular" stationID="SCROYDN" lineID="so500" trackNumber="4" nodeID="726" name="[PURLEYO] - [so500/4]" kilometre="18.192" x="181920" y="20" xNet="1041131.6" yNet="451878.49" referenceNode="12074"/>
+		<stationBorder exitType="alternative" stationID="SCROYDN" lineID="so500" trackNumber="3" nodeID="727" name="[ECROYDN] - [so500/2]" kilometre="17.966" x="179660.5" y="220" xNet="1041409.9" yNet="454128.67" referenceNode="10069"/>
+		<stationBorder exitType="alternative" stationID="SCROYDN" lineID="so500" trackNumber="4" nodeID="728" name="[SCROYNAP] - [so500/2]" kilometre="17.959" x="179590.5" y="420" xNet="1041612.5" yNet="454191.79" referenceNode="8068"/>
+		<stationBorder exitType="alternative" stationID="SCROYDN" lineID="so500" trackNumber="5" nodeID="729" name="[SCROYNAP] - [so500/3]" kilometre="18.102" x="181014.47" y="620" xNet="1041762.5" yNet="452762.17" referenceNode="8304"/>
+		<stationBorder exitType="alternative" stationID="SCRYDNJ" lineID="so530" trackNumber="1" nodeID="589" name="[SDSD] - [so530/1]" kilometre="18.574" x="186248" y="620" xNet="1042669.9" yNet="447684.18" referenceNode="9"/>
+		<stationBorder exitType="regular" stationID="SCRYDNJ" lineID="so500" trackNumber="2" nodeID="593" name="[SCROYDN] - [so500/2]" kilometre="18.520" x="185732" y="620" xNet="1042374.7" yNet="448049.03" referenceNode="9"/>
+		<stationBorder exitType="alternative" stationID="SCRYDNJ" lineID="so500" trackNumber="1" nodeID="594" name="[SCROYDN] - [so500/1]" kilometre="18.517" x="185675.8" y="820" xNet="1042470.7" yNet="448248.17" referenceNode="582"/>
+		<stationBorder exitType="regular" stationID="SCRYDNJ" lineID="so530" trackNumber="2" nodeID="595" name="[SDSD] - [so530/2]" kilometre="18.553" x="186032.8" y="820" xNet="1042695.3" yNet="447970.73" referenceNode="582"/>
+		<speedIndicator nodeID="8207" kilometre="18.328" x="183280.13" y="416.6798" xNet="1041466.7" yNet="450472.83" referenceNode="8079"/>
+		<speedIndicator nodeID="8299" kilometre="18.387" x="183868" y="223.93444" xNet="1041286.5" yNet="449976.78" referenceNode="8260"/>
+		<speedIndicator nodeID="754" kilometre="18.408" x="184589.2" y="620" xNet="1041729.8" yNet="448845.68" referenceNode="722"/>
+	</nodes>
+	<links>
+		<link source="1" target="444" length="43" gradient="3.802" vmax="97" vmaxr="97" lineCategory="uic-B2">
+			<vzg index="9" vmax="64" vmaxr="64"/>
+		</link>
+		<link source="2" target="445" length="41" gradient="3.802" vmax="97" vmaxr="97" lineCategory="uic-B2">
+			<vzg index="9" vmax="64" vmaxr="64"/>
+		</link>
+		<link source="3" target="10179" length="30" gradient="3.802" vmax="97" vmaxr="97" lineCategory="uic-B2">
+			<vzg index="9" vmax="64" vmaxr="64"/>
+		</link>
+		<link source="4" target="8074" length="22" gradient="3.802" vmax="97" vmaxr="97" lineCategory="uic-B2">
+			<vzg index="9" vmax="64" vmaxr="64"/>
+		</link>
+		<link source="5" target="424" length="32" gradient="3.802" vmax="97" vmaxr="97" lineCategory="uic-B2">
+			<vzg index="9" vmax="64" vmaxr="64"/>
+		</link>
+		<link source="6" target="8" length="8" gradient="12.05" vmax="72" vmaxr="72" lineCategory="uic-B2">
+			<vzg index="9" vmax="48" vmaxr="48"/>
+		</link>
+		<link source="7" target="8188" gradient="12.05" vmax="72" vmaxr="72" lineCategory="uic-B2">
+			<vzg index="9" vmax="48" vmaxr="48"/>
+		</link>
+		<link source="8" target="754" gradient="12.048" vmax="72" vmaxr="72" lineCategory="uic-B2">
+			<vzg index="9" vmax="48" vmaxr="48"/>
+		</link>
+		<link source="8" target="8327" length="60" gradient="12" vmax="32" vmaxr="32">
+			<vzg index="9" vmax="32" vmaxr="32"/>
+		</link>
+		<link source="9" target="589" length="6" gradient="12.048" vmax="72" vmaxr="72" lineCategory="uic-B2">
+			<vzg index="9" vmax="48" vmaxr="48"/>
+		</link>
+		<link source="424" target="8167" gradient="3.802" vmax="72" vmaxr="72" lineCategory="uic-B2">
+			<vzg index="9" vmax="48" vmaxr="48"/>
+		</link>
+		<link source="444" target="14070" length="20" gradient="3.802" vmax="145" vmaxr="145" lineCategory="uic-B2">
+			<vzg index="9" vmax="97" vmaxr="97"/>
+		</link>
+		<link source="445" target="12076" length="20" gradient="3.802" vmax="145" vmaxr="145" lineCategory="uic-B2">
+			<vzg index="9" vmax="97" vmaxr="97"/>
+		</link>
+		<link source="508" target="594" length="48" gradient="12.048" vmax="72" vmaxr="72" lineCategory="uic-B2">
+			<vzg index="9" vmax="48" vmaxr="48"/>
+		</link>
+		<link source="582" target="595" length="15" gradient="12.048" vmax="72" vmaxr="72" lineCategory="uic-B2">
+			<vzg index="9" vmax="48" vmaxr="48"/>
+		</link>
+		<link source="589" target="10" length="14" gradient="12.048" vmax="72" vmaxr="72" lineCategory="uic-B2">
+			<vzg index="9" vmax="48" vmaxr="48"/>
+		</link>
+		<link source="593" target="9" length="48" gradient="12.048" vmax="72" vmaxr="72" lineCategory="uic-B2">
+			<vzg index="9" vmax="48" vmaxr="48"/>
+		</link>
+		<link source="594" target="582" length="21" gradient="12.048" vmax="72" vmaxr="72" lineCategory="uic-B2">
+			<vzg index="9" vmax="48" vmaxr="48"/>
+		</link>
+		<link source="595" target="509" length="35" gradient="12.048" vmax="72" vmaxr="72" lineCategory="uic-B2">
+			<vzg index="9" vmax="48" vmaxr="48"/>
+		</link>
+		<link source="719" target="7" length="24" gradient="12" vmax="32" vmaxr="32" lineCategory="uic-B2">
+			<vzg index="9" vmax="32" vmaxr="32"/>
+		</link>
+		<link source="720" target="8164" gradient="3.802" vmax="97" vmaxr="97" lineCategory="uic-B2">
+			<vzg index="9" vmax="64" vmaxr="64"/>
+		</link>
+		<link source="721" target="10076" length="4" gradient="3.802" vmax="97" vmaxr="97" lineCategory="uic-B2">
+			<vzg index="9" vmax="64" vmaxr="64"/>
+		</link>
+		<link source="722" target="593" length="112" gradient="12.048" vmax="72" vmaxr="72" lineCategory="uic-B2">
+			<vzg index="9" vmax="48" vmaxr="48"/>
+		</link>
+		<link source="723" target="14066" length="14" gradient="3.802" vmax="97" vmaxr="97" lineCategory="uic-B2">
+			<vzg index="9" vmax="64" vmaxr="64"/>
+		</link>
+		<link source="724" target="14068" length="1" gradient="3.802" vmax="97" vmaxr="97" lineCategory="uic-B2">
+			<vzg index="9" vmax="64" vmaxr="64"/>
+		</link>
+		<link source="725" target="12072" length="37" gradient="3.802" vmax="97" vmaxr="97" lineCategory="uic-B2">
+			<vzg index="9" vmax="64" vmaxr="64"/>
+		</link>
+		<link source="726" target="12075" length="14" gradient="3.802" vmax="97" vmaxr="97" lineCategory="uic-B2">
+			<vzg index="9" vmax="64" vmaxr="64"/>
+		</link>
+		<link source="727" target="10069" length="41" gradient="3.802" vmax="97" vmaxr="97" lineCategory="uic-B2">
+			<vzg index="9" vmax="64" vmaxr="64"/>
+		</link>
+		<link source="728" target="8068" length="41" gradient="3.802" vmax="97" vmaxr="97" lineCategory="uic-B2">
+			<vzg index="9" vmax="64" vmaxr="64"/>
+		</link>
+		<link source="729" target="8304" length="24" gradient="3.802" vmax="97" vmaxr="97" lineCategory="uic-B2">
+			<vzg index="9" vmax="64" vmaxr="64"/>
+		</link>
+		<link source="754" target="722" gradient="12.048" vmax="72" vmaxr="72" lineCategory="uic-B2">
+			<vzg index="9" vmax="48" vmaxr="48"/>
+		</link>
+		<link source="8064" target="8065" length="63" gradient="3.802" vmax="97" vmaxr="97" lineCategory="uic-B2">
+			<vzg index="9" vmax="64" vmaxr="64"/>
+		</link>
+		<link source="8065" target="8066" gradient="3.802" vmax="97" vmaxr="97" lineCategory="uic-B2">
+			<vzg index="9" vmax="64" vmaxr="64"/>
+		</link>
+		<link source="8066" target="8067" gradient="3.802" vmax="97" vmaxr="97" lineCategory="uic-B2">
+			<vzg index="9" vmax="64" vmaxr="64"/>
+		</link>
+		<link source="8067" target="728" length="96" gradient="3.802" vmax="97" vmaxr="97" lineCategory="uic-B2">
+			<vzg index="9" vmax="64" vmaxr="64"/>
+		</link>
+		<link source="8068" target="8069" length="15" gradient="3.802" vmax="97" vmaxr="97" lineCategory="uic-B2">
+			<vzg index="9" vmax="64" vmaxr="64"/>
+		</link>
+		<link source="8069" target="8070" length="110" gradient="3.802" vmax="97" vmaxr="97" lineCategory="uic-B2">
+			<vzg index="9" vmax="64" vmaxr="64"/>
+		</link>
+		<link source="8070" target="8294" length="37" gradient="3.802" vmax="97" vmaxr="97" lineCategory="uic-B2">
+			<vzg index="9" vmax="64" vmaxr="64"/>
+		</link>
+		<link source="8071" target="8072" length="15" gradient="3.802" vmax="97" vmaxr="97" lineCategory="uic-B2">
+			<vzg index="9" vmax="64" vmaxr="64"/>
+		</link>
+		<link source="8072" target="8073" length="3" gradient="3.802" vmax="97" vmaxr="97" lineCategory="uic-B2">
+			<vzg index="9" vmax="64" vmaxr="64"/>
+		</link>
+		<link source="8073" target="4" length="21" gradient="3.802" vmax="97" vmaxr="97" lineCategory="uic-B2">
+			<vzg index="9" vmax="64" vmaxr="64"/>
+		</link>
+		<link source="8074" target="8075" gradient="3.802" vmax="97" vmaxr="97" lineCategory="uic-B2">
+			<vzg index="9" vmax="64" vmaxr="64"/>
+		</link>
+		<link source="8075" target="8076" gradient="3.802" vmax="97" vmaxr="97" lineCategory="uic-B2">
+			<vzg index="9" vmax="64" vmaxr="64"/>
+		</link>
+		<link source="8076" target="8300" length="11" gradient="3.802" vmax="97" vmaxr="97" lineCategory="uic-B2">
+			<vzg index="9" vmax="64" vmaxr="64"/>
+		</link>
+		<link source="8077" target="8078" length="26" gradient="3.802" vmax="97" vmaxr="97" lineCategory="uic-B2">
+			<vzg index="9" vmax="64" vmaxr="64"/>
+		</link>
+		<link source="8077" target="8252" length="37" gradient="3.802" vmax="32" vmaxr="32" lineCategory="uic-B2">
+			<vzg index="9" vmax="32" vmaxr="32"/>
+		</link>
+		<link source="8078" target="8253" length="2" gradient="3.802" vmax="97" vmaxr="97" lineCategory="uic-B2">
+			<vzg index="9" vmax="64" vmaxr="64"/>
+		</link>
+		<link source="8079" target="8207" length="1" gradient="3.802" vmax="40" vmaxr="40" lineCategory="uic-B2">
+			<vzg index="9" vmax="40" vmaxr="40"/>
+		</link>
+		<link source="8079" target="8258" length="33" gradient="3.802" vmax="97" vmaxr="97" lineCategory="uic-B2">
+			<vzg index="9" vmax="64" vmaxr="64"/>
+		</link>
+		<link source="8080" target="720" gradient="3.802" vmax="97" vmaxr="97" lineCategory="uic-B2">
+			<vzg index="9" vmax="64" vmaxr="64"/>
+		</link>
+		<link source="8081" target="8082" gradient="3.802" vmax="97" vmaxr="97" lineCategory="uic-B2">
+			<vzg index="9" vmax="64" vmaxr="64"/>
+		</link>
+		<link source="8082" target="8083" gradient="3.802" vmax="97" vmaxr="97" lineCategory="uic-B2">
+			<vzg index="9" vmax="64" vmaxr="64"/>
+		</link>
+		<link source="8083" target="8293" length="29" gradient="3.802" vmax="97" vmaxr="97" lineCategory="uic-B2">
+			<vzg index="9" vmax="64" vmaxr="64"/>
+		</link>
+		<link source="8164" target="8081" length="6" gradient="3.802" vmax="97" vmaxr="97" lineCategory="uic-B2">
+			<vzg index="9" vmax="64" vmaxr="64"/>
+		</link>
+		<link source="8167" target="8245" length="62" gradient="3.802" vmax="64" vmaxr="64">
+			<vzg index="9" vmax="40" vmaxr="40"/>
+		</link>
+		<link source="8167" target="8249" length="37" gradient="3.802" vmax="32" vmaxr="32" lineCategory="uic-B2">
+			<vzg index="9" vmax="32" vmaxr="32"/>
+		</link>
+		<link source="8168" target="8327" length="3" gradient="12" vmax="32" vmaxr="32" lineCategory="uic-B2">
+			<vzg index="9" vmax="32" vmaxr="32"/>
+		</link>
+		<link source="8169" target="8320" gradient="3.802" vmax="97" vmaxr="97" lineCategory="uic-B2">
+			<vzg index="9" vmax="64" vmaxr="64"/>
+		</link>
+		<link source="8169" target="8325" length="5" gradient="3.802" vmax="32" vmaxr="32" lineCategory="uic-B2">
+			<vzg index="9" vmax="32" vmaxr="32"/>
+		</link>
+		<link source="8177" target="8186" length="200" gradient="3.802" vmax="97" vmaxr="97" lineCategory="uic-B2">
+			<vzg index="9" vmax="64" vmaxr="64"/>
+		</link>
+		<link source="8183" target="5" length="42" gradient="3.802" vmax="97" vmaxr="97" lineCategory="uic-B2">
+			<vzg index="9" vmax="64" vmaxr="64"/>
+		</link>
+		<link source="8184" target="8079" length="11" gradient="3.802" vmax="97" vmaxr="97" lineCategory="uic-B2">
+			<vzg index="9" vmax="64" vmaxr="64"/>
+		</link>
+		<link source="8184" target="8256" length="22" gradient="3.802" vmax="72" vmaxr="72" lineCategory="uic-B2">
+			<vzg index="9" vmax="48" vmaxr="48"/>
+		</link>
+		<link source="8185" target="8080" length="30" gradient="3.802" vmax="32" vmaxr="32" lineCategory="uic-B2">
+			<vzg index="9" vmax="32" vmaxr="32"/>
+		</link>
+		<link source="8185" target="8290" length="22" vmax="72" vmaxr="72" lineCategory="uic-B2">
+			<vzg index="9" vmax="48" vmaxr="48"/>
+		</link>
+		<link source="8186" target="8220" length="45" gradient="3.802" vmax="97" vmaxr="97" lineCategory="uic-B2">
+			<vzg index="9" vmax="64" vmaxr="64"/>
+		</link>
+		<link source="8188" target="508" gradient="12.05" vmax="72" vmaxr="72" lineCategory="uic-B2">
+			<vzg index="9" vmax="48" vmaxr="48"/>
+		</link>
+		<link source="8207" target="8259" length="29" gradient="3.802" vmax="40" vmaxr="40" lineCategory="uic-B2">
+			<vzg index="9" vmax="40" vmaxr="40"/>
+		</link>
+		<link source="8220" target="729" length="57" gradient="3.802" vmax="97" vmaxr="97" lineCategory="uic-B2">
+			<vzg index="9" vmax="64" vmaxr="64"/>
+		</link>
+		<link source="8221" target="8248" length="1" gradient="3.802" vmax="32" vmaxr="32" lineCategory="uic-B2">
+			<vzg index="9" vmax="32" vmaxr="32"/>
+		</link>
+		<link source="8222" target="8246" length="1" gradient="3.802" vmax="64" vmaxr="64" lineCategory="uic-B2">
+			<vzg index="9" vmax="40" vmaxr="40"/>
+		</link>
+		<link source="8245" target="8222" length="1" gradient="3.802" vmax="64" vmaxr="64" lineCategory="uic-B2">
+			<vzg index="9" vmax="40" vmaxr="40"/>
+		</link>
+		<link source="8246" target="8307" length="108" gradient="3.802" vmax="64" vmaxr="64">
+			<vzg index="9" vmax="40" vmaxr="40"/>
+		</link>
+		<link source="8247" target="8221" length="1" gradient="3.802" vmax="32" vmaxr="32" lineCategory="uic-B2">
+			<vzg index="9" vmax="32" vmaxr="32"/>
+		</link>
+		<link source="8248" target="8169" length="11" gradient="3.802" vmax="32" vmaxr="32" lineCategory="uic-B2">
+			<vzg index="9" vmax="32" vmaxr="32"/>
+		</link>
+		<link source="8249" target="8250" length="1" gradient="3.802" vmax="32" vmaxr="32" lineCategory="uic-B2">
+			<vzg index="9" vmax="32" vmaxr="32"/>
+		</link>
+		<link source="8250" target="8247" length="24" gradient="3.802" vmax="32" vmaxr="32" lineCategory="uic-B2">
+			<vzg index="9" vmax="32" vmaxr="32"/>
+		</link>
+		<link source="8251" target="8169" length="37" gradient="3.802" vmax="32" vmaxr="32" lineCategory="uic-B2">
+			<vzg index="9" vmax="32" vmaxr="32"/>
+		</link>
+		<link source="8252" target="8251" length="1" gradient="3.802" vmax="32" vmaxr="32" lineCategory="uic-B2">
+			<vzg index="9" vmax="32" vmaxr="32"/>
+		</link>
+		<link source="8253" target="8254" length="1" gradient="3.802" vmax="97" vmaxr="97" lineCategory="uic-B2">
+			<vzg index="9" vmax="64" vmaxr="64"/>
+		</link>
+		<link source="8254" target="8184" length="27" gradient="3.802" vmax="97" vmaxr="97" lineCategory="uic-B2">
+			<vzg index="9" vmax="64" vmaxr="64"/>
+		</link>
+		<link source="8255" target="8185" length="22" gradient="3.802" vmax="72" vmaxr="72" lineCategory="uic-B2">
+			<vzg index="9" vmax="48" vmaxr="48"/>
+		</link>
+		<link source="8256" target="8255" length="1" gradient="3.802" vmax="72" vmaxr="72" lineCategory="uic-B2">
+			<vzg index="9" vmax="48" vmaxr="48"/>
+		</link>
+		<link source="8257" target="8080" length="34" gradient="3.802" vmax="97" vmaxr="97" lineCategory="uic-B2">
+			<vzg index="9" vmax="64" vmaxr="64"/>
+		</link>
+		<link source="8258" target="8257" length="1" gradient="3.802" vmax="97" vmaxr="97" lineCategory="uic-B2">
+			<vzg index="9" vmax="64" vmaxr="64"/>
+		</link>
+		<link source="8259" target="8260" length="1" gradient="3.802" vmax="40" vmaxr="40" lineCategory="uic-B2">
+			<vzg index="9" vmax="40" vmaxr="40"/>
+		</link>
+		<link source="8260" target="8299" length="29" gradient="3.802" vmax="40" vmaxr="40" lineCategory="uic-B2">
+			<vzg index="9" vmax="40" vmaxr="40"/>
+		</link>
+		<link source="8288" target="8289" length="1" vmax="72" vmaxr="72" lineCategory="uic-B2">
+			<vzg index="9" vmax="48" vmaxr="48"/>
+		</link>
+		<link source="8289" target="6" length="11" vmax="72" vmaxr="72" lineCategory="uic-B2">
+			<vzg index="9" vmax="48" vmaxr="48"/>
+		</link>
+		<link source="8290" target="8288" length="1" vmax="72" vmaxr="72" lineCategory="uic-B2">
+			<vzg index="9" vmax="48" vmaxr="48"/>
+		</link>
+		<link source="8294" target="8071" length="26" gradient="3.802" vmax="97" vmaxr="97" lineCategory="uic-B2">
+			<vzg index="9" vmax="64" vmaxr="64"/>
+		</link>
+		<link source="8295" target="8183" length="23" gradient="3.802" vmax="97" vmaxr="97" lineCategory="uic-B2">
+			<vzg index="9" vmax="64" vmaxr="64"/>
+		</link>
+		<link source="8299" target="10075" length="1" gradient="3.802" vmax="40" vmaxr="40" lineCategory="uic-B2">
+			<vzg index="9" vmax="40" vmaxr="40"/>
+		</link>
+		<link source="8300" target="8077" gradient="3.802" vmax="97" vmaxr="97" lineCategory="uic-B2">
+			<vzg index="9" vmax="64" vmaxr="64"/>
+		</link>
+		<link source="8304" target="8295" length="37" gradient="3.802" vmax="97" vmaxr="97" lineCategory="uic-B2">
+			<vzg index="9" vmax="64" vmaxr="64"/>
+		</link>
+		<link source="8307" target="8168" gradient="3.802" vmax="64" vmaxr="64" lineCategory="uic-B2">
+			<vzg index="9" vmax="40" vmaxr="40"/>
+		</link>
+		<link source="8320" target="8321" length="30" gradient="3.802" vmax="97" vmaxr="97" lineCategory="uic-B2">
+			<vzg index="9" vmax="64" vmaxr="64"/>
+		</link>
+		<link source="8321" target="8185" gradient="3.802" vmax="97" vmaxr="97" lineCategory="uic-B2">
+			<vzg index="9" vmax="64" vmaxr="64"/>
+		</link>
+		<link source="8325" target="8168" length="92" gradient="3.802" vmax="32" vmaxr="32">
+			<vzg index="9" vmax="32" vmaxr="32"/>
+		</link>
+		<link source="8327" target="719" length="10" gradient="12" vmax="32" vmaxr="32" lineCategory="uic-B2">
+			<vzg index="9" vmax="32" vmaxr="32"/>
+		</link>
+		<link source="10065" target="10066" length="66" gradient="3.802" vmax="97" vmaxr="97" lineCategory="uic-B2">
+			<vzg index="9" vmax="64" vmaxr="64"/>
+		</link>
+		<link source="10066" target="10067" gradient="3.802" vmax="97" vmaxr="97" lineCategory="uic-B2">
+			<vzg index="9" vmax="64" vmaxr="64"/>
+		</link>
+		<link source="10067" target="10068" gradient="3.802" vmax="97" vmaxr="97" lineCategory="uic-B2">
+			<vzg index="9" vmax="64" vmaxr="64"/>
+		</link>
+		<link source="10068" target="727" length="96" gradient="3.802" vmax="97" vmaxr="97" lineCategory="uic-B2">
+			<vzg index="9" vmax="64" vmaxr="64"/>
+		</link>
+		<link source="10069" target="10070" length="58" gradient="3.802" vmax="97" vmaxr="97" lineCategory="uic-B2">
+			<vzg index="9" vmax="64" vmaxr="64"/>
+		</link>
+		<link source="10070" target="10071" length="60" gradient="3.802" vmax="97" vmaxr="97" lineCategory="uic-B2">
+			<vzg index="9" vmax="64" vmaxr="64"/>
+		</link>
+		<link source="10071" target="10202" length="34" gradient="3.802" vmax="97" vmaxr="97" lineCategory="uic-B2">
+			<vzg index="9" vmax="64" vmaxr="64"/>
+		</link>
+		<link source="10072" target="3" length="29" gradient="3.802" vmax="97" vmaxr="97" lineCategory="uic-B2">
+			<vzg index="9" vmax="64" vmaxr="64"/>
+		</link>
+		<link source="10073" target="10074" length="25" gradient="3.802" vmax="97" vmaxr="97" lineCategory="uic-B2">
+			<vzg index="9" vmax="64" vmaxr="64"/>
+		</link>
+		<link source="10073" target="10206" gradient="3.802" vmax="97" vmaxr="97" lineCategory="uic-B2">
+			<vzg index="9" vmax="64" vmaxr="64"/>
+		</link>
+		<link source="10074" target="10075" length="102" gradient="3.802" vmax="97" vmaxr="97" lineCategory="uic-B2">
+			<vzg index="9" vmax="64" vmaxr="64"/>
+		</link>
+		<link source="10075" target="721" gradient="3.802" vmax="97" vmaxr="97" lineCategory="uic-B2">
+			<vzg index="9" vmax="64" vmaxr="64"/>
+		</link>
+		<link source="10076" target="10077" length="1" gradient="3.802" vmax="97" vmaxr="97" lineCategory="uic-B2">
+			<vzg index="9" vmax="64" vmaxr="64"/>
+		</link>
+		<link source="10077" target="10078" gradient="3.802" vmax="97" vmaxr="97" lineCategory="uic-B2">
+			<vzg index="9" vmax="64" vmaxr="64"/>
+		</link>
+		<link source="10078" target="10201" length="36" gradient="3.802" vmax="97" vmaxr="97" lineCategory="uic-B2">
+			<vzg index="9" vmax="64" vmaxr="64"/>
+		</link>
+		<link source="10176" target="10210" length="27" gradient="3.802" vmax="32" vmaxr="32" lineCategory="uic-B2">
+			<vzg index="9" vmax="32" vmaxr="32"/>
+		</link>
+		<link source="10177" target="10176" length="1" gradient="3.802" vmax="32" vmaxr="32" lineCategory="uic-B2">
+			<vzg index="9" vmax="32" vmaxr="32"/>
+		</link>
+		<link source="10178" target="10073" length="6" gradient="3.802" vmax="97" vmaxr="97" lineCategory="uic-B2">
+			<vzg index="9" vmax="64" vmaxr="64"/>
+		</link>
+		<link source="10179" target="10178" length="1" gradient="3.802" vmax="97" vmaxr="97" lineCategory="uic-B2">
+			<vzg index="9" vmax="64" vmaxr="64"/>
+		</link>
+		<link source="10202" target="10072" length="36" gradient="3.802" vmax="97" vmaxr="97" lineCategory="uic-B2">
+			<vzg index="9" vmax="64" vmaxr="64"/>
+		</link>
+		<link source="10203" target="10065" length="4" gradient="3.802" vmax="97" vmaxr="97" lineCategory="uic-B2">
+			<vzg index="9" vmax="64" vmaxr="64"/>
+		</link>
+		<link source="10206" target="10177" length="27" gradient="3.802" vmax="32" vmaxr="32" lineCategory="uic-B2">
+			<vzg index="9" vmax="32" vmaxr="32"/>
+		</link>
+		<link source="10210" target="8184" gradient="3.802" vmax="97" vmaxr="97" lineCategory="uic-B2">
+			<vzg index="9" vmax="64" vmaxr="64"/>
+		</link>
+		<link source="12069" target="12070" length="104" gradient="3.802" vmax="97" vmaxr="97" lineCategory="uic-B2">
+			<vzg index="9" vmax="64" vmaxr="64"/>
+		</link>
+		<link source="12070" target="12071" length="96" gradient="3.802" vmax="97" vmaxr="97" lineCategory="uic-B2">
+			<vzg index="9" vmax="64" vmaxr="64"/>
+		</link>
+		<link source="12071" target="725" length="88" gradient="3.802" vmax="97" vmaxr="97" lineCategory="uic-B2">
+			<vzg index="9" vmax="64" vmaxr="64"/>
+		</link>
+		<link source="12072" target="12073" length="1" gradient="3.802" vmax="97" vmaxr="97" lineCategory="uic-B2">
+			<vzg index="9" vmax="64" vmaxr="64"/>
+		</link>
+		<link source="12073" target="12314" length="34" gradient="3.802" vmax="97" vmaxr="97" lineCategory="uic-B2">
+			<vzg index="9" vmax="64" vmaxr="64"/>
+		</link>
+		<link source="12074" target="726" length="6" gradient="3.802" vmax="97" vmaxr="97" lineCategory="uic-B2">
+			<vzg index="9" vmax="64" vmaxr="64"/>
+		</link>
+		<link source="12075" target="2" length="19" gradient="3.802" vmax="97" vmaxr="97" lineCategory="uic-B2">
+			<vzg index="9" vmax="64" vmaxr="64"/>
+		</link>
+		<link source="12076" target="12077" length="79" gradient="3.802" vmax="145" vmaxr="145" lineCategory="uic-B2">
+			<vzg index="9" vmax="97" vmaxr="97"/>
+		</link>
+		<link source="12077" target="12078" gradient="3.802" vmax="145" vmaxr="145" lineCategory="uic-B2">
+			<vzg index="9" vmax="97" vmaxr="97"/>
+		</link>
+		<link source="12078" target="12079" gradient="3.802" vmax="145" vmaxr="145" lineCategory="uic-B2">
+			<vzg index="9" vmax="97" vmaxr="97"/>
+		</link>
+		<link source="12079" target="12080" length="34" gradient="3.802" vmax="145" vmaxr="145" lineCategory="uic-B2">
+			<vzg index="9" vmax="97" vmaxr="97"/>
+		</link>
+		<link source="12080" target="12313" length="28" gradient="3.802" vmax="145" vmaxr="145" lineCategory="uic-B2">
+			<vzg index="9" vmax="97" vmaxr="97"/>
+		</link>
+		<link source="12314" target="12074" length="26" gradient="3.802" vmax="97" vmaxr="97" lineCategory="uic-B2">
+			<vzg index="9" vmax="64" vmaxr="64"/>
+		</link>
+		<link source="14063" target="14064" length="35" gradient="3.802" vmax="97" vmaxr="97" lineCategory="uic-B2">
+			<vzg index="9" vmax="64" vmaxr="64"/>
+		</link>
+		<link source="14064" target="14065" length="165" gradient="3.802" vmax="97" vmaxr="97" lineCategory="uic-B2">
+			<vzg index="9" vmax="64" vmaxr="64"/>
+		</link>
+		<link source="14065" target="723" length="31" gradient="3.802" vmax="97" vmaxr="97" lineCategory="uic-B2">
+			<vzg index="9" vmax="64" vmaxr="64"/>
+		</link>
+		<link source="14066" target="14067" length="80" gradient="3.802" vmax="97" vmaxr="97" lineCategory="uic-B2">
+			<vzg index="9" vmax="64" vmaxr="64"/>
+		</link>
+		<link source="14067" target="724" gradient="3.802" vmax="97" vmaxr="97" lineCategory="uic-B2">
+			<vzg index="9" vmax="64" vmaxr="64"/>
+		</link>
+		<link source="14068" target="14310" length="33" gradient="3.802" vmax="97" vmaxr="97" lineCategory="uic-B2">
+			<vzg index="9" vmax="64" vmaxr="64"/>
+		</link>
+		<link source="14069" target="1" length="23" gradient="3.802" vmax="97" vmaxr="97" lineCategory="uic-B2">
+			<vzg index="9" vmax="64" vmaxr="64"/>
+		</link>
+		<link source="14070" target="14071" length="106" gradient="3.802" vmax="145" vmaxr="145" lineCategory="uic-B2">
+			<vzg index="9" vmax="97" vmaxr="97"/>
+		</link>
+		<link source="14071" target="14072" length="1" gradient="3.802" vmax="145" vmaxr="145" lineCategory="uic-B2">
+			<vzg index="9" vmax="97" vmaxr="97"/>
+		</link>
+		<link source="14072" target="14073" gradient="3.802" vmax="145" vmaxr="145" lineCategory="uic-B2">
+			<vzg index="9" vmax="97" vmaxr="97"/>
+		</link>
+		<link source="14073" target="14309" length="33" gradient="3.802" vmax="145" vmaxr="145" lineCategory="uic-B2">
+			<vzg index="9" vmax="97" vmaxr="97"/>
+		</link>
+		<link source="14310" target="14069" length="41" gradient="3.802" vmax="97" vmaxr="97" lineCategory="uic-B2">
+			<vzg index="9" vmax="64" vmaxr="64"/>
+		</link>
+	</links>
+	<dependentLinks/>
+	<blockSections>
+		<blocksection uuid="{039933a7-bc79-41cb-854f-b0ed5e9c9498}" lines="scr so500" speedIndicators="444 14063">
+			<part nodes="14309 14073 14072 14071 14070 444 1 14069 14310 14068 724 14067 14066 723 14065 14064 14063"/>
+		</blocksection>
+		<blocksection uuid="{08de556f-d255-486b-9bee-0cd0b7f189c7}" lines="scr so500" speedIndicators="424 8164 8320 8321">
+			<part nodes="8183 5 424 8167 8249 8250 8247 8221 8248 8169 8320 8321 8185 8080 720 8164 8081 8082 8083 8293"/>
+		</blocksection>
+		<blocksection uuid="{165881e6-5fcc-4898-919f-ec44950ed191}" lines="scr" speedIndicators="754 10206 10210">
+			<part nodes="9 593 722 754 8 6 8289 8288 8290 8185 8255 8256 8184 10210 10176 10177 10206 10073 10178 10179 3 10072 10202 10071 10070 10069"/>
+		</blocksection>
+		<blocksection uuid="{24b4f555-e915-48a4-b23f-dfab971f1ae4}" lines="scr so500">
+			<part nodes="10201 10078 10077 10076 721 10075 10074 10073 10178 10179 3 10072 10202 10071 10070 10069"/>
+		</blocksection>
+		<blocksection uuid="{5d000cf8-54b8-42c7-a569-978dc1122ae9}" lines="scr so530">
+			<part nodes="10 589 9"/>
+		</blocksection>
+		<blocksection uuid="{7c2c6175-1346-4f72-a52c-cca6c13d06a1}" lines="scr">
+			<part nodes="8068 8069 8070 8294 8071 8072"/>
+		</blocksection>
+		<blocksection uuid="{7f4e586a-44dd-439e-9eca-d2f7aad6dd84}" lines="scr so500" speedIndicators="8164 8300">
+			<part nodes="8072 8073 4 8074 8075 8076 8300 8077 8078 8253 8254 8184 8079 8258 8257 8080 720 8164 8081 8082 8083 8293"/>
+		</blocksection>
+		<blocksection uuid="{8c7dad63-27cf-4476-858a-2791f6b3ca06}" lines="scr">
+			<part nodes="8072 8071 8294 8070 8069 8068"/>
+		</blocksection>
+		<blocksection uuid="{9589d42a-c5c4-4e48-bf5a-3e368db5ca33}" lines="scr so530" speedIndicators="7 509 8300">
+			<part nodes="8072 8073 4 8074 8075 8076 8300 8077 8252 8251 8169 8325 8168 8327 719 7 8188 508 594 582 595 509"/>
+		</blocksection>
+		<blocksection uuid="{a1eafb24-842d-4ed6-9797-44f70ccf18e9}" lines="scr so500">
+			<part nodes="8064 8065 8066 8067 728 8068 8069 8070 8294 8071 8072"/>
+		</blocksection>
+		<blocksection uuid="{a297945f-2790-46c2-bfd1-55714332fcff}" lines="scr" speedIndicators="754 8300">
+			<part nodes="9 593 722 754 8 8327 8168 8325 8169 8251 8252 8077 8300 8076 8075 8074 4 8073 8072 8071 8294 8070 8069 8068"/>
+		</blocksection>
+		<blocksection uuid="{a9455fab-9da6-400b-adec-2f98f45e14be}" lines="scr so500" speedIndicators="8177">
+			<part nodes="8177 8186 8220 729 8304 8295 8183"/>
+		</blocksection>
+		<blocksection uuid="{afe04261-3e1e-4a9d-a5d7-63bc6e0e0404}" lines="scr so500" speedIndicators="445">
+			<part nodes="12074 726 12075 2 445 12076 12077 12078 12079 12080 12313"/>
+		</blocksection>
+		<blocksection uuid="{b8f4dff0-057a-4c59-a4c3-f961c8f43504}" lines="scr so530" speedIndicators="10">
+			<part nodes="10 589 9"/>
+		</blocksection>
+		<blocksection uuid="{bc003fed-76fa-417e-8b8f-f2c485242908}" lines="scr so500">
+			<part nodes="10069 727 10068 10067 10066 10065 10203"/>
+		</blocksection>
+		<blocksection uuid="{c295720f-ee99-48db-8c71-46a50d11f3e8}" lines="scr so500" speedIndicators="12069">
+			<part nodes="12069 12070 12071 725 12072 12073 12314 12074"/>
+		</blocksection>
+		<blocksection uuid="{c85cea92-d40a-4db5-93bb-0ad4200a1a74}" lines="scr so500" speedIndicators="8207 8299 8300">
+			<part nodes="10201 10078 10077 10076 721 10075 8299 8260 8259 8207 8079 8184 8254 8253 8078 8077 8300 8076 8075 8074 4 8073 8072 8071 8294 8070 8069 8068"/>
+		</blocksection>
+		<blocksection uuid="{f08e1b3e-5e8d-4f66-a445-67350cd9d9b0}" lines="scr so530" speedIndicators="7 424 509 8307">
+			<part nodes="8183 5 424 8167 8245 8222 8246 8307 8168 8327 719 7 8188 508 594 582 595 509"/>
+		</blocksection>
+		<blocksection uuid="{f9d40494-ace3-4c1d-9330-60bad6cc5c1f}" lines="scr so500">
+			<part nodes="8068 728 8067 8066 8065 8064"/>
+		</blocksection>
+	</blockSections>
+	<slipDistances>
+		<slipdistance uuid="{5877c343-fc46-4a23-87f1-3f502798ad3b}" publicName="OL3" vmax="16" lines="scr" serialNumber="2">
+			<part nodes="8072 8073 4 8074 8075"/>
+		</slipdistance>
+		<slipdistance uuid="{6e518d1b-36ff-4cb1-ba22-ee508b968326}" vmax="999" lines="scr" serialNumber="0">
+			<part nodes="8068 728 8067 8066"/>
+		</slipdistance>
+		<slipdistance uuid="{7e04d1bd-c007-4d06-af46-921e66db1ad0}" vmax="999" lines="scr" serialNumber="0">
+			<part nodes="9 593 722 754 8 6 8289"/>
+		</slipdistance>
+		<slipdistance uuid="{7fbf6e9c-e6e0-4148-9bcb-5f8f6cf1e281}" publicName="OL2" vmax="999" lines="scr" serialNumber="1">
+			<part nodes="8183 5 424 8167 8249 8250 8247 8221"/>
+		</slipdistance>
+		<slipdistance uuid="{7fc912c2-55f6-4dca-a56c-0cc14f232494}" vmax="999" lines="scr so500" serialNumber="0">
+			<part nodes="14309 14073 14072"/>
+		</slipdistance>
+		<slipdistance uuid="{82671aef-6b57-45dc-8e07-5e5605a94946}" vmax="999" lines="scr" serialNumber="0">
+			<part nodes="12074 726 12075 2 445 12076 12077 12078"/>
+		</slipdistance>
+		<slipdistance uuid="{90f3de80-2177-4c34-9240-b16382eca761}" vmax="999" lines="scr" serialNumber="0">
+			<part nodes="10069 727 10068 10067"/>
+		</slipdistance>
+		<slipdistance uuid="{969847e2-c39d-4668-a78a-5fc6fd676986}" publicName="OL1" vmax="999" lines="scr" serialNumber="0">
+			<part nodes="8072 8073 4 8074 8075 8076 8300 8077 8078 8253 8254 8184 8079 8258 8257 8080 720 8164 8081 8082"/>
+		</slipdistance>
+		<slipdistance uuid="{a56bf9f8-0ca9-4982-854b-a71181b82bf8}" vmax="999" lines="scr so500" serialNumber="0">
+			<part nodes="10201 10078 10077"/>
+		</slipdistance>
+		<slipdistance uuid="{ab022fef-b921-4c9c-9089-f645c6bc0fba}" publicName="OL1" vmax="999" lines="scr" serialNumber="0">
+			<part nodes="8183 5 424 8167 8245 8222"/>
+		</slipdistance>
+		<slipdistance uuid="{c8beda8e-c86a-4bcc-8b72-dd0dc0eda7c7}" publicName="OL2" vmax="999" lines="scr" serialNumber="1">
+			<part nodes="8072 8073 4 8074 8075 8076 8300 8077 8252 8251 8169 8325"/>
+		</slipdistance>
+	</slipDistances>
+	<approachControlRoutes/>
+	<stationRoutes>
+		<stationRoute stationID="SCROYDN" name="1" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="728 8068 8069 8070 8294 8071 8072 8073 4 8074 8075 8076 8300 8077 8252 8251 8169 8325 8168 8327 719"/>
+		<stationRoute stationID="SCROYDN" name="[ECROYDN]-[so500/4]-[4]-[ECROYDN]-[so500/4] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="728 8068 8069 8070 8294 8071 8072 8071 8294 8070 8069 8068 728"/>
+		<stationRoute stationID="SCROYDN" name="[PURLEYO]-[so500/2]-[3]-[ECROYDN]-[so500/2] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="721 10075 10074 10073 10178 10179 3 10072 10202 10071 10070 10069 727"/>
+		<stationRoute stationID="SCROYDN" name="[PURLEYO]-[so500/2]-[4]-[PURLEYO]-[so500/1] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=90;NRz=90;S=90;Rz=90;FGz=90;NGz=90;Gz=90;Lz=90;Unbekannt=90" nodes="721 10075 8299 8260 8259 8207 8079 8184 8254 8253 8078 8077 8300 8076 8075 8074 4 8073 8072 8071 8294 8070 8069 8068 8069 8070 8294 8071 8072 8073 4 8074 8075 8076 8300 8077 8078 8253 8254 8184 8079 8258 8257 8080 720"/>
+		<stationRoute stationID="SCROYDN" name="[PURLEYO]-[so500/2]-[4]-[SCROYNAP]-[so500/2] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=90;NRz=90;S=90;Rz=90;FGz=90;NGz=90;Gz=90;Lz=90;Unbekannt=90" nodes="721 10075 8299 8260 8259 8207 8079 8184 8254 8253 8078 8077 8300 8076 8075 8074 4 8073 8072 8071 8294 8070 8069 8068 728"/>
+		<stationRoute stationID="SCROYDN" name="[PURLEYO]-[so500/2]-[4]-[SCRYDNJ]-[so500/1] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=85;NRz=85;S=85;Rz=85;FGz=85;NGz=85;Gz=85;Lz=85;Unbekannt=85" nodes="721 10075 8299 8260 8259 8207 8079 8184 8254 8253 8078 8077 8300 8076 8075 8074 4 8073 8072 8071 8294 8070 8069 8068 8069 8070 8294 8071 8072 8073 4 8074 8075 8076 8300 8077 8252 8251 8169 8325 8168 8327 719"/>
+		<stationRoute stationID="SCROYDN" name="[PURLEYO]-[so500/3]-[1]-[ECROYDN]-[so500/1] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="724 14067 14066 723"/>
+		<stationRoute stationID="SCROYDN" name="[SCROYNAP]-[so500/1]-[2]-[PURLEYO]-[so500/4] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="725 12072 12073 12314 12074 726"/>
+		<stationRoute stationID="SCROYDN" name="[SCROYNAP]-[so500/2]-[4]-[PURLEYO]-[so500/1] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="728 8068 8069 8070 8294 8071 8072 8073 4 8074 8075 8076 8300 8077 8078 8253 8254 8184 8079 8258 8257 8080 720"/>
+		<stationRoute stationID="SCROYDN" name="[SCROYNAP]-[so500/3]-[5]-[PURLEYO]-[so500/1] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=90;NRz=90;S=90;Rz=90;FGz=90;NGz=90;Gz=90;Lz=90;Unbekannt=90" nodes="729 8304 8295 8183 5 424 8167 8249 8250 8247 8221 8248 8169 8320 8321 8185 8080 720"/>
+		<stationRoute stationID="SCROYDN" name="[SCROYNAP]-[so500/3]-[5]-[SCRYDNJ]-[so500/1] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=95;NRz=95;S=95;Rz=95;FGz=95;NGz=95;Gz=95;Lz=95;Unbekannt=95" nodes="729 8304 8295 8183 5 424 8167 8245 8222 8246 8307 8168 8327 719"/>
+		<stationRoute stationID="SCROYDN" name="[SCRYDNJ]-[so500/2]-[3]-[ECROYDN]-[so500/2] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=95;NRz=95;S=95;Rz=95;FGz=95;NGz=95;Gz=95;Lz=95;Unbekannt=95" nodes="722 754 8 6 8289 8288 8290 8185 8255 8256 8184 10210 10176 10177 10206 10073 10178 10179 3 10072 10202 10071 10070 10069 727"/>
+		<stationRoute stationID="SCROYDN" name="[SCRYDNJ]-[so500/2]-[4]-[PURLEYO]-[so500/1] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=85;NRz=85;S=85;Rz=85;FGz=85;NGz=85;Gz=85;Lz=85;Unbekannt=85" nodes="722 754 8 8327 8168 8325 8169 8251 8252 8077 8300 8076 8075 8074 4 8073 8072 8071 8294 8070 8069 8068 8069 8070 8294 8071 8072 8073 4 8074 8075 8076 8300 8077 8078 8253 8254 8184 8079 8258 8257 8080 720"/>
+		<stationRoute stationID="SCROYDN" name="[SCRYDNJ]-[so500/2]-[4]-[SCROYNAP]-[so500/2] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=85;NRz=85;S=85;Rz=85;FGz=85;NGz=85;Gz=85;Lz=85;Unbekannt=85" nodes="722 754 8 8327 8168 8325 8169 8251 8252 8077 8300 8076 8075 8074 4 8073 8072 8071 8294 8070 8069 8068 728"/>
+		<stationRoute stationID="SCROYDN" name="[SCRYDNJ]-[so500/2]-[4]-[SCRYDNJ]-[so500/1] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=80;NRz=80;S=80;Rz=80;FGz=80;NGz=80;Gz=80;Lz=80;Unbekannt=80" nodes="722 754 8 8327 8168 8325 8169 8251 8252 8077 8300 8076 8075 8074 4 8073 8072 8071 8294 8070 8069 8068 8069 8070 8294 8071 8072 8073 4 8074 8075 8076 8300 8077 8252 8251 8169 8325 8168 8327 719"/>
+		<stationRoute stationID="SCRYDNJ" name="[SCROYDN]-[so500/1]-[2]-[SDSD]-[so530/2] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="594 582 595"/>
+		<stationRoute stationID="SCRYDNJ" name="[SDSD]-[so530/1]-[1]-[SCROYDN]-[so500/2] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="589 9 593"/>
+	</stationRoutes>
+	<lineCatalog/>
+	<zugNummernFelder/>
+	<switchGears/>
+</line>

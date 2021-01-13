@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<line lineID="apdr" name="Appledore" trafficRouting="on_the_left" type="global" dependentLines="so200 so210">
+	<transformations>
+		<transformation line="so200" m11="1" m12="0" m21="0" m22="1" dx="0" dy="0"/>
+		<transformation line="so210" m11="1" m12="0" m21="0" m22="1" dx="-70.5216" dy="-499.261"/>
+	</transformations>
+	<version major="1" minor="2" patchlevel="0" comment=""/>
+	<creator user="Ahowe4" timestamp="2016-11-01T12:54:22"/>
+	<lasteditor user="Ahowe4" timestamp="2016-11-01T12:54:22"/>
+	<stations>
+		<station stationID="APDR" name="Appledore" xNet="2096842.25" yNet="-114259.56" uicLocationCode="0" circleDiameter="0">
+			<textElement type="name">
+				<pos view="net" x="1232.45" y="1232.45" angle="0" system="source"/>
+				<pos view="wgs84" x="1232.45" y="1232.45" angle="0" system="source"/>
+				<pos view="line" x="1232.51" y="1232.51" angle="0" system="source"/>
+				<pos view="macro" x="28.2843" y="28.2843" angle="0" system="source"/>
+				<pos view="macroWgs84" x="0" y="0" angle="0" system="source"/>
+			</textElement>
+		</station>
+	</stations>
+	<nodes>
+		<node nodeID="532" name="GRAD" description="Gradient; 64m 35ch" kilometre="103.702" x="1037020" y="0" xNet="2097648.4" yNet="-110862.47">
+			<netLimitInfo lineID="so200"/>
+		</node>
+		<speedIndicator nodeID="536" name="SPEED" description="Speed; 64m 53ch" kilometre="104.064" x="1040640" y="0" xNet="2096711.2" yNet="-114358.61" referenceNode="558"/>
+		<speedIndicator nodeID="538" name="SPEED" kilometre="104.157" x="1041557" y="190" xNet="2096657.3" yNet="-115258.04" referenceNode="1"/>
+		<node nodeID="533" name="OL 894" description="OL for SIG : 894" kilometre="103.751" x="1037510" y="0" xNet="2097522.1" yNet="-111335.81"/>
+		<track trackID="T-1" stationID="APDR" type="timingPoint" nodeID="535" name="T-1" description="APDR T-1. timingPoint. 64m 50ch" kilometre="104.004" x="1040040" y="0" xNet="2096867" yNet="-113780.07" referenceNode="534"/>
+		<track trackID="U-1" stationID="APDR" length="97" interlockingMachine="Token Block" nodeID="534" name="SIG : 894" description="Signal 894; 64m 46ch" kilometre="103.931" x="1039310" y="0" xNet="2097056.6" yNet="-113074.58" referenceNode="535">
+			<platform startPos="-1550" endPos="0" width="150" left="true" open="true"/>
+		</track>
+		<node nodeID="537" name="SD : 894" description="sighting distance for SIG : 894" kilometre="104.119" x="1041190" y="0" xNet="2096568.7" yNet="-114890.97" referenceNode="570" sightingDistance="true"/>
+		<node nodeID="41" name="GRAD" description="Gradient; 64m 35ch" kilometre="103.702" x="1037020" y="200" xNet="2097841.2" yNet="-110915.05">
+			<netLimitInfo lineID="so200"/>
+		</node>
+		<switch start="3" endOfMainTrack="538" endOfBranchTrack="45" nodeID="1" name="POINTS : 1282" description="POINTS : 1282; 20 mph; 64m 58ch" kilometre="104.157" x="1041570" y="200" xNet="2096663.8" yNet="-115308.62"/>
+		<switch start="1" endOfMainTrack="76" endOfBranchTrack="186" nodeID="3" name="POINTS : 1283A" description="POINTS : 1283A; 20 mph; 64m 58ch" kilometre="104.167" x="1041670" y="200" xNet="2096638" yNet="-115406.05"/>
+		<node nodeID="42" name="SD : 897" description="sighting distance for SIG : 897" kilometre="103.900" x="1039000" y="200" xNet="2097329.6" yNet="-112826.02" referenceNode="41" sightingDistance="true"/>
+		<node nodeID="43" name="OL 895" description="OL for SIG : 895" kilometre="103.925" x="1039250" y="200" xNet="2097265.6" yNet="-113068.14"/>
+		<track trackID="T-2" stationID="APDR" type="timingPoint" nodeID="44" name="T-2" description="APDR T-2. timingPoint. 64m 50ch" kilometre="104.004" x="1040040" y="200" xNet="2097059.9" yNet="-113830.65" referenceNode="188"/>
+		<track trackID="D-2" stationID="APDR" length="90" interlockingMachine="Token Block" nodeID="45" name="SIG : 897" description="Signal 897; 64m 54ch" kilometre="104.088" x="1040880" y="200" xNet="2096842.8" yNet="-114641.48" referenceNode="44">
+			<platform startPos="-1550" endPos="0" width="150" left="true" open="true"/>
+		</track>
+		<speedIndicator nodeID="5" name="SPEED" kilometre="104.167" x="1041697.5" y="219.26128" xNet="2096650.6" yNet="-115455.05" referenceNode="81"/>
+		<node nodeID="71" kilometre="104.180" x="1041840.1" y="297.11383" xNet="2096795.7" yNet="-115831.09">
+			<netLimitInfo lineID="so210"/>
+		</node>
+		<node nodeID="558" name="OL 896" description="OL for SIG : 896" kilometre="104.069" x="1040690" y="0" xNet="2096698.2" yNet="-114407.02"/>
+		<node nodeID="570" name="tc" description="release contact for track circuit;" kilometre="104.137" x="1041362.8" y="89.432686" xNet="2096610.5" yNet="-115063.8" referenceNode="537" releaseContact="true" arranged="true"/>
+		<node nodeID="571" name="tc" description="release contact for track circuit;" kilometre="104.138" x="1041372.4" y="94.461052" xNet="2096612.8" yNet="-115073.49" referenceNode="538" releaseContact="true" arranged="true"/>
+		<node nodeID="81" name="tc" description="release contact for track circuit;" kilometre="104.172" x="1041753.3" y="249.69302" xNet="2096707.3" yNet="-115602.06" referenceNode="5" releaseContact="true" arranged="true"/>
+		<node nodeID="168" name="tc" description="release contact for track circuit;" kilometre="104.173" x="1041764.1" y="255.62062" xNet="2096718.3" yNet="-115630.7" referenceNode="71" releaseContact="true" arranged="true"/>
+		<stationBorder exitType="regular" stationID="APDR" lineID="so200" trackNumber="1" nodeID="76" name="[RYEE] - [s200/1]" description="OL for SIG : 897" kilometre="104.225" x="1042250" y="200" xNet="2096488.2" yNet="-115966.17" referenceNode="3">
+			<netLimitInfo lineID="so200"/>
+		</stationBorder>
+		<stationBorder exitType="regular" stationID="APDR" lineID="so210" trackNumber="1" nodeID="186" name="[LYDDTWN] - [s210/1]" kilometre="104.167" x="1041678.3" y="205.77838" xNet="2096641.8" yNet="-115420.75" referenceNode="3"/>
+		<stationBorder exitType="regular" stationID="APDR" lineID="so200" trackNumber="1" nodeID="187" name="[HMST] - [s200/1]" kilometre="103.877" x="1038770" y="0" xNet="2097196.3" yNet="-112552.95" referenceNode="534"/>
+		<stationBorder exitType="alternative" stationID="APDR" lineID="so200" trackNumber="2" nodeID="188" name="[HMST] - [s200/2]" kilometre="103.980" x="1039803" y="200" xNet="2097121.6" yNet="-113601.89" referenceNode="44"/>
+	</nodes>
+	<links>
+		<link source="1" target="3" length="10" vmax="97" vmaxr="97"/>
+		<link source="3" target="76" length="58" vmax="97" vmaxr="97" bidirectional="true"/>
+		<link source="3" target="186" vmax="97" vmaxr="97" bidirectional="true"/>
+		<link source="5" target="81" length="5" vmax="32" vmaxr="32" bidirectional="true"/>
+		<link source="41" target="42" length="198" vmax="97" vmaxr="97"/>
+		<link source="42" target="43" length="25" vmax="97" vmaxr="97"/>
+		<link source="43" target="188" length="55" vmax="97" vmaxr="97"/>
+		<link source="44" target="45" length="84" vmax="97" vmaxr="97"/>
+		<link source="45" target="1" length="69" vmax="97" vmaxr="97"/>
+		<link source="81" target="168" length="1" vmax="32" vmaxr="32" bidirectional="true"/>
+		<link source="168" target="71" length="7" vmax="32" vmaxr="32" bidirectional="true"/>
+		<link source="186" target="5" vmax="97" vmaxr="97" bidirectional="true"/>
+		<link source="187" target="534" length="54" vmaxr="97"/>
+		<link source="188" target="44" length="24" vmax="97" vmaxr="97"/>
+		<link source="532" target="533" length="49" vmaxr="97"/>
+		<link source="533" target="187" length="126" vmaxr="97"/>
+		<link source="534" target="535" length="73" vmaxr="97"/>
+		<link source="535" target="536" length="60" vmaxr="97"/>
+		<link source="536" target="558" length="5" vmaxr="32"/>
+		<link source="537" target="570" length="18" vmaxr="32"/>
+		<link source="538" target="1" vmax="97" vmaxr="97"/>
+		<link source="558" target="537" length="50" vmaxr="32"/>
+		<link source="570" target="571" length="1" vmaxr="32"/>
+		<link source="571" target="538" length="19" vmaxr="32"/>
+	</links>
+	<dependentLinks/>
+	<blockSections>
+		<blocksection uuid="{c2844091-0d9e-42b6-9a3e-c496ff6e8faa}" lines="apdr so200">
+			<part nodes="41 42 43 188 44 45"/>
+		</blocksection>
+		<blocksection uuid="{c9792f0a-6e52-4177-9e39-1a66dd2236f1}" lines="apdr so210" speedIndicators="5 536 538">
+			<part nodes="71 168 81 5 186 3 1 538 571 570 537 558 536 535 534"/>
+		</blocksection>
+		<blocksection uuid="{dd620890-a3db-48cb-a568-233e013c21cf}" lines="apdr so200">
+			<part nodes="45 1 3 76"/>
+		</blocksection>
+		<blocksection uuid="{ed7b7732-18c2-4495-8616-bab434cfd19b}" lines="apdr so210" speedIndicators="5">
+			<part nodes="45 1 3 186 5 81 168 71"/>
+		</blocksection>
+		<blocksection uuid="{f20a2746-43a8-48e2-b223-d60a7ffd42af}" lines="apdr so200">
+			<part nodes="534 187 533 532"/>
+		</blocksection>
+		<blocksection uuid="{ffa81d07-739a-4ec6-a459-96fb3559c5c5}" lines="apdr so200" speedIndicators="536 538">
+			<part nodes="76 3 1 538 571 570 537 558 536 535 534"/>
+		</blocksection>
+	</blockSections>
+	<slipDistances>
+		<slipdistance uuid="{3f1fbe44-65b5-47cb-8e77-c8608ad88a64}" vmax="999" lines="apdr so210" serialNumber="0">
+			<part nodes="71 168 81 5 186 3 1 538 571 570 537 558"/>
+		</slipdistance>
+		<slipdistance uuid="{44b9f713-c030-4548-92d9-7594a73b3faa}" vmax="999" lines="apdr" serialNumber="0">
+			<part nodes="534 187 533"/>
+		</slipdistance>
+		<slipdistance uuid="{79e65dd7-e8bd-4e3d-b7d9-f3d0b595f24a}" vmax="999" lines="apdr so210" serialNumber="1">
+			<part nodes="45 1 3 186 5 81 168 71"/>
+		</slipdistance>
+		<slipdistance uuid="{885a4f6f-ded8-4f3d-a9b5-30f55a6f6698}" vmax="999" lines="apdr so200" serialNumber="0">
+			<part nodes="41 42 43"/>
+		</slipdistance>
+		<slipdistance uuid="{b46da865-0c5b-4317-a330-696c57330216}" vmax="999" lines="apdr" serialNumber="0">
+			<part nodes="45 1 3 76"/>
+		</slipdistance>
+	</slipDistances>
+	<approachControlRoutes/>
+	<stationRoutes>
+		<stationRoute stationID="APDR" name="[HMST]-[s200/2]-[2]-[LYDDTWN]-[s210/1] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=90;NRz=90;S=90;Rz=90;FGz=90;NGz=90;Gz=90;Lz=90;Unbekannt=90" nodes="188 44 45 1 3 186"/>
+		<stationRoute stationID="APDR" name="[HMST]-[s200/2]-[2]-[RYEE]-[s200/1] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=95;NRz=95;S=95;Rz=95;FGz=95;NGz=95;Gz=95;Lz=95;Unbekannt=95" nodes="188 44 45 1 3 76"/>
+		<stationRoute stationID="APDR" name="[LYDDTWN]-[s210/1]-[1]-[HMST]-[s200/1] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=95;NRz=95;S=95;Rz=95;FGz=95;NGz=95;Gz=95;Lz=95;Unbekannt=95" nodes="186 3 1 538 571 570 537 558 536 535 534 187"/>
+		<stationRoute stationID="APDR" name="[RYEE]-[s200/1]-[1]-[HMST]-[s200/1] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="76 3 1 538 571 570 537 558 536 535 534 187"/>
+	</stationRoutes>
+	<lineCatalog/>
+	<zugNummernFelder/>
+	<switchGears/>
+</line>

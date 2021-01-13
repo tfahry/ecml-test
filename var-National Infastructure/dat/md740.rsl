@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<line lineID="md740" name="Summit of Flyover Jn - Fenny Stratford Bletchley Flyover Jn" trafficRouting="on_the_left" type="local" dependentLines="bfo bltsfj">
+	<version major="1" minor="2" patchlevel="0" comment=""/>
+	<creator user="VWaddelo" timestamp="2016-07-08T10:58:15"/>
+	<lasteditor user="VWaddelo" timestamp="2016-07-08T10:58:15"/>
+	<stations/>
+	<nodes>
+		<node nodeID="20" name="GRAD" kilometre="1.690" x="-3723834.5" y="52709.627" xNet="284458.01" yNet="1627049"/>
+		<node nodeID="359" name="GRAD" kilometre="1.690" x="-3723821.5" y="52550.71" xNet="284585" yNet="1626958.1"/>
+		<node nodeID="557" name="SD:MV5" kilometre="1.639" x="-3724195.5" y="52706.67" xNet="282338" yNet="1624495" referenceNode="7" sightingDistance="true"/>
+		<node nodeID="7" name="OL BY22" description="OL for SIG : BY22" kilometre="1.577" x="-3724761.4" y="52727.799" xNet="281906.94" yNet="1623962.3"/>
+	</nodes>
+	<links>
+		<link source="7" target="557" length="62" gradient="-8.13" vmax="40" vmaxr="40"/>
+		<link source="20" target="558.bfo" length="70" gradient="-5.952" vmax="40" vmaxr="40"/>
+		<link source="359" target="559.bfo" length="70" gradient="-5.952" vmax="40" vmaxr="40"/>
+		<link source="507.bltsfj" target="7" length="36" gradient="-8.13" vmax="40" vmaxr="40"/>
+		<link source="509.bltsfj" target="359" length="149" gradient="-8.13" vmax="40" vmaxr="40"/>
+		<link source="557" target="20" length="51" gradient="-8.13" vmax="40" vmaxr="40"/>
+	</links>
+	<dependentLinks/>
+	<blockSections>
+		<blocksection uuid="{ddbe86e4-a53e-4e4a-a5a3-8ec041861c49}" lines="bfo bltsfj md740">
+			<part nodes="559.bfo 359 509.bltsfj"/>
+		</blocksection>
+		<blocksection uuid="{f89d676a-41ac-45dd-9305-5b5bec53733f}" lines="bfo bltsfj md740">
+			<part nodes="507.bltsfj 7 557 20 558.bfo"/>
+		</blocksection>
+	</blockSections>
+	<slipDistances>
+		<slipdistance uuid="{25f39232-c3dd-480c-b9a1-8d708cf77dc9}" vmax="999" lines="bltsfj md740" serialNumber="0">
+			<part nodes="507.bltsfj 7"/>
+		</slipdistance>
+	</slipDistances>
+	<approachControlRoutes/>
+	<stationRoutes/>
+	<lineCatalog/>
+	<zugNummernFelder/>
+	<switchGears/>
+</line>

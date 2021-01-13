@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<line lineID="uphill" name="Uphill Junction" trafficRouting="on_the_left" type="global" dependentLines="gw105 gw107">
+	<transformations>
+		<transformation line="gw107" m11="-1.83691e-16" m12="-1" m21="1" m22="-1.83691e-16" dx="1.28545e+06" dy="1.3879e+06"/>
+	</transformations>
+	<version major="1" minor="2" patchlevel="0" comment=""/>
+	<creator user="Ahowe4" timestamp="2016-11-01T12:54:22"/>
+	<lasteditor user="Ahowe4" timestamp="2016-11-01T12:54:22"/>
+	<stations>
+		<station stationID="UPHILLJ" name="Uphill Jn" xNet="-2285016.35" yNet="329023.5" uicLocationCode="0" circleDiameter="0">
+			<textElement type="name">
+				<pos view="net" x="5311.74" y="5311.74" angle="0" system="source"/>
+				<pos view="wgs84" x="5311.74" y="5311.74" angle="0" system="source"/>
+				<pos view="line" x="10216.6" y="10216.6" angle="0" system="source"/>
+				<pos view="macro" x="28.2843" y="28.2843" angle="0" system="source"/>
+				<pos view="macroWgs84" x="0" y="0" angle="0" system="source"/>
+			</textElement>
+		</station>
+	</stations>
+	<nodes>
+		<node nodeID="30" kilometre="222.000" x="1332869.4" y="30641.318" xNet="-2283416" yNet="327810"/>
+		<switch start="1384" endOfMainTrack="2715" endOfBranchTrack="1389" nodeID="1383" name="POINTS: 716" description="GEOGIS S&amp;C|MLN1|148090648|[496][242983]|" kilometre="222.178" x="1329698.2" y="31243.721" xNet="-2283585" yNet="326027"/>
+		<switch start="1383" endOfMainTrack="2234" endOfBranchTrack="1388" nodeID="1384" name="POINTS: 715A" kilometre="222.190" x="1329483.3" y="31243.721" xNet="-2283582" yNet="325907"/>
+		<switch start="1575" endOfMainTrack="30" endOfBranchTrack="1388" nodeID="1385" name="POINTS: 715B" kilometre="222.288" x="1327737.9" y="30641.318" xNet="-2283366" yNet="324931"/>
+		<speedIndicator nodeID="1388" name="SPEED" kilometre="222.287" x="1327755.6" y="30650.177" xNet="-2283368" yNet="324941" referenceNode="1384"/>
+		<speedIndicator nodeID="1389" name="SPEED" kilometre="222.177" x="1329715.9" y="31249.627" xNet="-2283587" yNet="326037" referenceNode="1383"/>
+		<node nodeID="2037" name="GRAD" kilometre="222.347" x="1326686.7" y="31243.721" xNet="-2283555" yNet="324337"/>
+		<node nodeID="2038" name="GRAD" kilometre="222.724" x="1319967.7" y="30641.318" xNet="-2283290" yNet="320571">
+			<netLimitInfo lineID="gw105"/>
+		</node>
+		<node nodeID="2039" name="GRAD" kilometre="222.724" x="1319967.7" y="31243.721" xNet="-2283490" yNet="320567">
+			<netLimitInfo lineID="gw105"/>
+		</node>
+		<track trackID="D-1" stationID="UPHILLJ" interlockingMachine="3 Aspect Pannel (76mph - 100mph)" nodeID="2345" name="SIG: B72" kilometre="221.210" x="1346948.4" y="30641.318" xNet="-2283553" yNet="335709" referenceNode="1579"/>
+		<node nodeID="2139" name="OL: B72" kilometre="221.484" x="1342065.4" y="30641.318" xNet="-2283506" yNet="332969"/>
+		<node nodeID="2140" name="OL: B390" kilometre="223.731" x="1331070.7" y="31707.335" xNet="-2283752" yNet="326794"/>
+		<node nodeID="2141" name="OL: B9" kilometre="222.286" x="1327773.4" y="31243.721" xNet="-2283566" yNet="324947"/>
+		<track trackID="U-2" stationID="UPHILLJ" interlockingMachine="3 Aspect Pannel (76mph - 100mph)" nodeID="2346" name="SIG: B9" kilometre="222.561" x="1322872.7" y="31243.721" xNet="-2283518" yNet="322197" referenceNode="1578"/>
+		<node nodeID="2195" kilometre="223.699" x="1331622.9" y="31919.948" xNet="-2283827" yNet="327103"/>
+		<speedIndicator nodeID="1445" name="SPEED" kilometre="223.598" x="1331622.9" y="34964.446" xNet="-2284633" yNet="327524" referenceNode="2361"/>
+		<track trackID="D-2" stationID="UPHILLJ" interlockingMachine="3 Aspect Pannel (Below 75mph)" nodeID="2361" name="SIG: B390" kilometre="223.469" x="1331622.9" y="38856.442" xNet="-2285733" yNet="328224" referenceNode="1577"/>
+		<kilometreInconsistency newKilometre="222.169" nodeID="948" description="GEOGIS S&amp;C|WSM|148090647|[480][244764]|" kilometre="223.799" x="1329859.7" y="31296.874" xNet="-2283604" yNet="326117" referenceNode="2140"/>
+		<node nodeID="2234" name="GEOGIS Node" description="GEOGIS S&amp;C|MLN1|148056721|[496][243065]|" kilometre="222.259" x="1328254.6" y="31243.721" xNet="-2283570.5" yNet="325217"/>
+		<node nodeID="2235" name="GEOGIS Node" description="GEOGIS S&amp;C|MLN1|148063996|[492][243192]|" kilometre="222.375" x="1326187.8" y="30641.318" xNet="-2283350.2" yNet="324060"/>
+		<stationBorder exitType="regular" stationID="UPHILLJ" lineID="gw107" trackNumber="1" nodeID="1577" name="[WSMARE] - [gw105/1]" kilometre="223.328" x="1331622.9" y="43104.27" xNet="-2286723" yNet="328614" referenceNode="2361">
+			<netLimitInfo lineID="gw107"/>
+		</stationBorder>
+		<stationBorder exitType="alternative" stationID="UPHILLJ" lineID="gw105" trackNumber="2" nodeID="1578" name="[HGHBRDG] - [gw105/2]" kilometre="222.610" x="1322001.2" y="31243.721" xNet="-2283509.6" yNet="321708" referenceNode="2346"/>
+		<stationBorder exitType="alternative" stationID="UPHILLJ" lineID="gw105" trackNumber="1" nodeID="1579" name="[WORLEJ] - [gw105/1]" kilometre="221.147" x="1348070.8" y="30641.318" xNet="-2283564.1" yNet="336339" referenceNode="2345">
+			<netLimitInfo lineID="gw105"/>
+		</stationBorder>
+		<stationBorder exitType="regular" stationID="UPHILLJ" lineID="gw105" trackNumber="2" nodeID="2715" kilometre="221.147" x="1348070" y="31243.721" xNet="-2283764.4" yNet="336335.29" referenceNode="1383">
+			<netLimitInfo lineID="gw105"/>
+		</stationBorder>
+		<stationBorder exitType="regular" stationID="UPHILLJ" lineID="gw105" trackNumber="1" nodeID="2714" kilometre="222.610" x="1321999.5" y="30641.318" xNet="-2283309.7" yNet="321710.67" referenceNode="2235"/>
+		<node nodeID="1575" name="GRAD" kilometre="222.347" x="1326686.7" y="30641.318" xNet="-2283355" yNet="324340"/>
+	</nodes>
+	<links>
+		<link source="30" target="1385" length="288" vmax="161">
+			<vzg index="1" vmax="161"/>
+			<vzg index="2" vmax="161"/>
+			<vzg index="3" vmax="161"/>
+			<vzg index="4" vmax="161"/>
+			<vzg index="5" vmax="161"/>
+		</link>
+		<link source="948" target="1389" length="8" vmax="80" vmaxr="80" bidirectional="true" radius="3100">
+			<vzg index="1" vmax="64" vmaxr="64"/>
+			<vzg index="2" vmax="80" vmaxr="80"/>
+			<vzg index="3" vmax="80" vmaxr="80"/>
+			<vzg index="4" vmax="80" vmaxr="80"/>
+			<vzg index="5" vmax="80" vmaxr="80"/>
+		</link>
+		<link source="1383" target="1384" length="12" vmax="80" vmaxr="161">
+			<vzg index="1" vmax="64" vmaxr="64"/>
+			<vzg index="2" vmax="80" vmaxr="161"/>
+			<vzg index="3" vmax="80" vmaxr="161"/>
+			<vzg index="4" vmax="80" vmaxr="161"/>
+			<vzg index="5" vmax="80" vmaxr="161"/>
+		</link>
+		<link source="1384" target="1388" length="97" vmax="80">
+			<vzg index="1" vmax="64"/>
+			<vzg index="2" vmax="80"/>
+			<vzg index="3" vmax="80"/>
+			<vzg index="4" vmax="80"/>
+			<vzg index="5" vmax="80"/>
+		</link>
+		<link source="1384" target="2234" length="69" vmaxr="161">
+			<vzg index="1" vmaxr="161"/>
+			<vzg index="2" vmaxr="161"/>
+			<vzg index="3" vmaxr="161"/>
+			<vzg index="4" vmaxr="161"/>
+			<vzg index="5" vmaxr="161"/>
+		</link>
+		<link source="1385" target="1575" length="59" vmax="161">
+			<vzg index="1" vmax="161"/>
+			<vzg index="2" vmax="161"/>
+			<vzg index="3" vmax="161"/>
+			<vzg index="4" vmax="161"/>
+			<vzg index="5" vmax="161"/>
+		</link>
+		<link source="1388" target="1385" length="1" vmax="161">
+			<vzg index="1" vmax="64"/>
+			<vzg index="2" vmax="161"/>
+			<vzg index="3" vmax="161"/>
+			<vzg index="4" vmax="161"/>
+			<vzg index="5" vmax="161"/>
+		</link>
+		<link source="1389" target="1383" length="1" vmax="80" vmaxr="161" bidirectional="true">
+			<vzg index="1" vmax="64" vmaxr="64"/>
+			<vzg index="2" vmax="80" vmaxr="161"/>
+			<vzg index="3" vmax="80" vmaxr="161"/>
+			<vzg index="4" vmax="80" vmaxr="161"/>
+			<vzg index="5" vmax="80" vmaxr="161"/>
+		</link>
+		<link source="1445" target="2195" length="101" vmax="80" vmaxr="80" bidirectional="true" radius="3100">
+			<vzg index="1" vmax="64" vmaxr="64"/>
+			<vzg index="2" vmax="80" vmaxr="80"/>
+			<vzg index="3" vmax="80" vmaxr="80"/>
+			<vzg index="4" vmax="80" vmaxr="80"/>
+			<vzg index="5" vmax="80" vmaxr="80"/>
+		</link>
+		<link source="1575" target="2235" length="28" gradient="1.143" vmax="161">
+			<vzg index="1" vmax="161"/>
+			<vzg index="2" vmax="161"/>
+			<vzg index="3" vmax="161"/>
+			<vzg index="4" vmax="161"/>
+			<vzg index="5" vmax="161"/>
+		</link>
+		<link source="1577" target="2361" length="141" vmax="97" vmaxr="97" bidirectional="true" radius="3100">
+			<vzg index="1" vmax="64" vmaxr="64"/>
+			<vzg index="2" vmax="97" vmaxr="97"/>
+			<vzg index="3" vmax="97" vmaxr="97"/>
+			<vzg index="4" vmax="97" vmaxr="97"/>
+			<vzg index="5" vmax="97" vmaxr="97"/>
+		</link>
+		<link source="1578" target="2039" length="114" gradient="1.143" vmaxr="161">
+			<vzg index="1" vmaxr="161"/>
+			<vzg index="2" vmaxr="161"/>
+			<vzg index="3" vmaxr="161"/>
+			<vzg index="4" vmaxr="161"/>
+			<vzg index="5" vmaxr="161"/>
+		</link>
+		<link source="1579" target="2345" length="63" vmax="161">
+			<vzg index="1" vmax="161"/>
+			<vzg index="2" vmax="161"/>
+			<vzg index="3" vmax="161"/>
+			<vzg index="4" vmax="161"/>
+			<vzg index="5" vmax="161"/>
+		</link>
+		<link source="2037" target="2346" length="214" gradient="1.143" vmaxr="161">
+			<vzg index="1" vmaxr="161"/>
+			<vzg index="2" vmaxr="161"/>
+			<vzg index="3" vmaxr="161"/>
+			<vzg index="4" vmaxr="161"/>
+			<vzg index="5" vmaxr="161"/>
+		</link>
+		<link source="2139" target="30" length="516" vmax="161">
+			<vzg index="1" vmax="161"/>
+			<vzg index="2" vmax="161"/>
+			<vzg index="3" vmax="161"/>
+			<vzg index="4" vmax="161"/>
+			<vzg index="5" vmax="161"/>
+		</link>
+		<link source="2140" target="948" length="68" vmax="80" vmaxr="80" bidirectional="true" radius="3100">
+			<vzg index="1" vmax="64" vmaxr="64"/>
+			<vzg index="2" vmax="80" vmaxr="80"/>
+			<vzg index="3" vmax="80" vmaxr="80"/>
+			<vzg index="4" vmax="80" vmaxr="80"/>
+			<vzg index="5" vmax="80" vmaxr="80"/>
+		</link>
+		<link source="2141" target="2037" length="61" vmaxr="161">
+			<vzg index="1" vmaxr="161"/>
+			<vzg index="2" vmaxr="161"/>
+			<vzg index="3" vmaxr="161"/>
+			<vzg index="4" vmaxr="161"/>
+			<vzg index="5" vmaxr="161"/>
+		</link>
+		<link source="2195" target="2140" length="32" vmax="80" vmaxr="80" bidirectional="true" radius="3100">
+			<vzg index="1" vmax="64" vmaxr="64"/>
+			<vzg index="2" vmax="80" vmaxr="80"/>
+			<vzg index="3" vmax="80" vmaxr="80"/>
+			<vzg index="4" vmax="80" vmaxr="80"/>
+			<vzg index="5" vmax="80" vmaxr="80"/>
+		</link>
+		<link source="2234" target="2141" length="27" vmaxr="161">
+			<vzg index="1" vmaxr="161"/>
+			<vzg index="2" vmaxr="161"/>
+			<vzg index="3" vmaxr="161"/>
+			<vzg index="4" vmaxr="161"/>
+			<vzg index="5" vmaxr="161"/>
+		</link>
+		<link source="2235" target="2714" length="235" gradient="1.143" vmax="161">
+			<vzg index="1" vmax="161"/>
+			<vzg index="2" vmax="161"/>
+			<vzg index="3" vmax="161"/>
+			<vzg index="4" vmax="161"/>
+			<vzg index="5" vmax="161"/>
+		</link>
+		<link source="2345" target="2139" length="274" vmax="161">
+			<vzg index="1" vmax="161"/>
+			<vzg index="2" vmax="161"/>
+			<vzg index="3" vmax="161"/>
+			<vzg index="4" vmax="161"/>
+			<vzg index="5" vmax="161"/>
+		</link>
+		<link source="2346" target="1578" length="49" gradient="1.143" vmaxr="161">
+			<vzg index="1" vmaxr="161"/>
+			<vzg index="2" vmaxr="161"/>
+			<vzg index="3" vmaxr="161"/>
+			<vzg index="4" vmaxr="161"/>
+			<vzg index="5" vmaxr="161"/>
+		</link>
+		<link source="2361" target="1445" length="129" vmax="97" vmaxr="97" bidirectional="true" radius="3100">
+			<vzg index="1" vmax="64" vmaxr="64"/>
+			<vzg index="2" vmax="97" vmaxr="97"/>
+			<vzg index="3" vmax="97" vmaxr="97"/>
+			<vzg index="4" vmax="97" vmaxr="97"/>
+			<vzg index="5" vmax="97" vmaxr="97"/>
+		</link>
+		<link source="2714" target="2038" length="114" gradient="1.143" vmax="161">
+			<vzg index="1" vmax="161"/>
+			<vzg index="2" vmax="161"/>
+			<vzg index="3" vmax="161"/>
+			<vzg index="4" vmax="161"/>
+			<vzg index="5" vmax="161"/>
+		</link>
+		<link source="2715" target="1383" length="1031" vmaxr="161">
+			<vzg index="1" vmaxr="161"/>
+			<vzg index="2" vmaxr="161"/>
+			<vzg index="3" vmaxr="161"/>
+			<vzg index="4" vmaxr="161"/>
+			<vzg index="5" vmaxr="161"/>
+		</link>
+	</links>
+	<dependentLinks/>
+	<blockSections>
+		<blocksection uuid="{106c0b11-83ce-4cfd-953c-63dbbce1d9dc}" lines="gw105 uphill">
+			<part nodes="2039 1578 2346"/>
+		</blocksection>
+		<blocksection uuid="{16c6b08d-5b98-429e-bf0f-e4efffea399e}" lines="gw105 uphill">
+			<part nodes="2346 2037 2141 2234 1384 1383 2715"/>
+		</blocksection>
+		<blocksection uuid="{29f137e0-fa25-4518-b61c-0420c9ec3af4}" lines="gw105 uphill">
+			<part nodes="1579 2345"/>
+		</blocksection>
+		<blocksection uuid="{43cc16be-0b48-47db-a6f3-1fefe7f4f0d8}" lines="gw107 uphill">
+			<part nodes="1577 2361"/>
+		</blocksection>
+		<blocksection uuid="{639786de-18f7-4771-a52e-ebc6abe0520a}" lines="gw107 uphill">
+			<part nodes="1577 2361"/>
+		</blocksection>
+		<blocksection uuid="{85047bb2-a29a-4777-bf0f-ae1ad99e9104}" lines="gw107 uphill" speedIndicators="1389 1445">
+			<part nodes="2346 2037 2141 2234 1384 1383 1389 948 2140 2195 1445 2361 1577"/>
+		</blocksection>
+		<blocksection uuid="{86e8c8d9-3304-4a42-be3c-703fd9266c82}" lines="gw107 uphill">
+			<part nodes="2361 1577"/>
+		</blocksection>
+		<blocksection uuid="{c6af9dfe-790f-4c62-ab0c-eae9f0e1368a}" lines="gw105 uphill" speedIndicators="1388 1389 1445">
+			<part nodes="2361 1445 2195 2140 948 1389 1383 1384 1388 1385 1575 2235 2714 2038"/>
+		</blocksection>
+		<blocksection uuid="{e2d5a318-3f96-42e7-8fd6-2fc43974c6e5}" lines="gw105 uphill">
+			<part nodes="2345 2139 30 1385 1575 2235 2714 2038"/>
+		</blocksection>
+	</blockSections>
+	<slipDistances>
+		<slipdistance uuid="{77fb655e-38bb-4492-93e7-b058c3c26b96}" vmax="999" lines="uphill" serialNumber="0">
+			<part nodes="2345 2139"/>
+		</slipdistance>
+		<slipdistance uuid="{9f36954e-8ccc-41cc-9b4f-d27dbd288183}" vmax="999" lines="uphill" serialNumber="0">
+			<part nodes="2346 2037 2141"/>
+		</slipdistance>
+		<slipdistance uuid="{a89803a3-1cc4-4fa3-93f0-8becebe36ce3}" vmax="999" lines="uphill" serialNumber="0">
+			<part nodes="2361 1445 2195 2140"/>
+		</slipdistance>
+	</slipDistances>
+	<approachControlRoutes/>
+	<stationRoutes>
+		<stationRoute stationID="UPHILLJ" name="[HGHBRDG]-[gw105/2]-[2]-[WORLEJ]-[gw105/2] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="1578 2346 2037 2141 2234 1384 1383 2715"/>
+		<stationRoute stationID="UPHILLJ" name="[HGHBRDG]-[gw105/2]-[2]-[WSMARE]-[gw105/1] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=95;NRz=95;S=95;Rz=95;FGz=95;NGz=95;Gz=95;Lz=95;Unbekannt=95" nodes="1578 2346 2037 2141 2234 1384 1383 1389 948 2140 2195 1445 2361 1577"/>
+		<stationRoute stationID="UPHILLJ" name="[WORLEJ]-[gw105/1]-[1]-[HGHBRDG]-[gw105/1] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="1579 2345 2139 30 1385 1575 2235 2714"/>
+		<stationRoute stationID="UPHILLJ" name="[WSMARE]-[gw105/1]-[2]-[HGHBRDG]-[gw105/1] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=85;NRz=85;S=85;Rz=85;FGz=85;NGz=85;Gz=85;Lz=85;Unbekannt=85" nodes="1577 2361 1445 2195 2140 948 1389 1383 1384 1388 1385 1575 2235 2714"/>
+	</stationRoutes>
+	<lineCatalog/>
+	<zugNummernFelder/>
+	<switchGears/>
+</line>

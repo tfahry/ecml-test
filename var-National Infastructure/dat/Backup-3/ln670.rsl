@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<line lineID="ln670" name="Jarrow Branch" trafficRouting="on_the_left" type="local" dependentLines="pelaw">
+	<version major="1" minor="2" patchlevel="0" comment=""/>
+	<creator user="Ahowe4" timestamp="2016-11-01T12:54:22"/>
+	<lasteditor user="Ahowe4" timestamp="2016-11-01T12:54:22"/>
+	<stations>
+		<station stationID="JARROWS" name="Jarrow Shell Mex Depot" xNet="-644446.85" yNet="7266449.55" uicLocationCode="0" circleDiameter="0">
+			<textElement type="name">
+				<pos view="net" x="2377.72" y="2377.72" angle="0" system="source"/>
+				<pos view="wgs84" x="2377.72" y="2377.72" angle="0" system="source"/>
+				<pos view="line" x="3739.19" y="3739.19" angle="0" system="source"/>
+				<pos view="macro" x="28.2843" y="28.2843" angle="0" system="source"/>
+				<pos view="macroWgs84" x="0" y="0" angle="0" system="source"/>
+			</textElement>
+		</station>
+	</stations>
+	<nodes>
+		<node nodeID="2457" name="GRAD" kilometre="0.350" x="162392.82" y="-2200.7335" xNet="-669099" yNet="7235387"/>
+		<node nodeID="2458" name="GRAD" kilometre="0.650" x="165694.85" y="-2202.5372" xNet="-666637.22" yNet="7236106.2"/>
+		<node nodeID="2459" name="GRAD" kilometre="1.014" x="169701.31" y="-2204.7256" xNet="-665137.27" yNet="7238158.1"/>
+		<node nodeID="2460" name="GRAD" kilometre="1.250" x="172298.9" y="-2206.1445" xNet="-664164.78" yNet="7239488.4"/>
+		<stationBorder exitType="regular" stationID="JARROWS" lineID="ln670" trackNumber="50" nodeID="2730" kilometre="5.552" x="219649.94" y="-2208.0092" xNet="-646437.37" yNet="7263739.4" referenceNode="2736"/>
+		<stationBorder exitType="locked" stationID="JARROWS" lineID="ln670" trackNumber="" nodeID="2734" kilometre="6.252" x="230225.94" y="-2185.0092" xNet="-642456.33" yNet="7269159.7" referenceNode="2735"/>
+		<track trackID="D-1" stationID="JARROWS" type="shunting" interlockingMachine="Shunt" nodeID="2735" kilometre="6.247" x="230150.4" y="-2185.1735" xNet="-642484.77" yNet="7269121" referenceNode="2736"/>
+		<track trackID="U-1" stationID="JARROWS" type="shunting" interlockingMachine="Shunt" nodeID="2736" kilometre="5.557" x="219725.48" y="-2207.8449" xNet="-646408.94" yNet="7263778.1" referenceNode="2735"/>
+		<speedIndicator nodeID="2461" kilometre="0.543" x="164517.13" y="-2201.8939" xNet="-667454.33" yNet="7235747" referenceNode="2457"/>
+		<speedIndicator nodeID="2462" kilometre="2.313" x="183999.08" y="-2206.6053" xNet="-659784.44" yNet="7245480.7" referenceNode="2460"/>
+		<speedIndicator nodeID="2463" kilometre="2.917" x="190647.15" y="-2206.8671" xNet="-657295.51" yNet="7248885.5" referenceNode="2462"/>
+		<speedIndicator nodeID="2464" kilometre="4.225" x="205043.98" y="-2207.434" xNet="-651905.59" yNet="7256258.9" referenceNode="2463"/>
+		<speedIndicator nodeID="2465" kilometre="5.549" x="219612.57" y="-2208.0077" xNet="-646451.36" yNet="7263720.2" referenceNode="2464"/>
+	</nodes>
+	<links>
+		<link source="2453.pelaw" target="2457" length="122" gradient="-2.336" vmax="40" vmaxr="40" bidirectional="true"/>
+		<link source="2457" target="2461" length="193" gradient="3.257" vmax="40" vmaxr="40" bidirectional="true"/>
+		<link source="2458" target="2459" length="364" gradient="1.014" vmax="64" vmaxr="64" bidirectional="true"/>
+		<link source="2459" target="2460" length="236" vmax="64" vmaxr="64" bidirectional="true"/>
+		<link source="2460" target="2462" length="1063" gradient="-7.042" vmax="64" vmaxr="64" bidirectional="true"/>
+		<link source="2461" target="2458" length="107" gradient="3.257" vmax="64" vmaxr="64" bidirectional="true"/>
+		<link source="2462" target="2463" length="604" gradient="-7.042" vmax="24" vmaxr="24" bidirectional="true"/>
+		<link source="2463" target="2464" length="1308" gradient="-7.042" vmax="64" vmaxr="64" bidirectional="true"/>
+		<link source="2464" target="2465" length="1324" gradient="-7.042" vmax="32" vmaxr="32" bidirectional="true"/>
+		<link source="2465" target="2730" length="3" gradient="-7.042" vmax="16" vmaxr="16" bidirectional="true"/>
+		<link source="2730" target="2736" length="5" gradient="-7.042" vmax="16" vmaxr="16" bidirectional="true"/>
+		<link source="2735" target="2734" length="5" gradient="-7.042" bidirectional="true"/>
+		<link source="2736" target="2735" length="690" gradient="-7.042" vmax="16" vmaxr="16" bidirectional="true"/>
+	</links>
+	<dependentLinks/>
+	<blockSections>
+		<blocksection uuid="{0888bc9e-dcba-41e5-a72f-b801f897f6f7}" lines="ln670 pelaw" shuntingBlock="true" speedIndicators="2461 2462 2463 2464 2465">
+			<part nodes="2453.pelaw 2457 2461 2458 2459 2460 2462 2463 2464 2465 2730 2736 2735"/>
+		</blocksection>
+		<blocksection uuid="{22b4b70a-e08a-4978-85e4-0f35322d18a1}" lines="ln670 pelaw" shuntingBlock="true" speedIndicators="2461 2462 2463 2464 2465">
+			<part nodes="2453.pelaw 2457 2461 2458 2459 2460 2462 2463 2464 2465 2730 2736 2735"/>
+		</blocksection>
+		<blocksection uuid="{563ce633-c07f-4032-8bb3-97d144f88b86}" lines="ln670" shuntingBlock="true">
+			<part nodes="2735 2736"/>
+		</blocksection>
+		<blocksection uuid="{7744e0be-a78b-4ab8-be4c-b23d2a4d2533}" lines="ln670 pelaw" shuntingBlock="true" speedIndicators="2461 2462 2463 2464 2465">
+			<part nodes="2736 2730 2465 2464 2463 2462 2460 2459 2458 2461 2457 2453.pelaw"/>
+		</blocksection>
+		<blocksection uuid="{a861e7ab-45ea-4acb-b6fc-e242c1233bf9}" lines="ln670 pelaw" shuntingBlock="true" speedIndicators="2461 2462 2463 2464 2465">
+			<part nodes="2453.pelaw 2457 2461 2458 2459 2460 2462 2463 2464 2465 2730 2736 2735"/>
+		</blocksection>
+		<blocksection uuid="{d2d007dd-5f66-4505-8588-dd0bdbbb491d}" lines="ln670 pelaw" shuntingBlock="true" speedIndicators="2461 2462 2463 2464 2465">
+			<part nodes="2453.pelaw 2457 2461 2458 2459 2460 2462 2463 2464 2465 2730 2736 2735"/>
+		</blocksection>
+	</blockSections>
+	<slipDistances/>
+	<approachControlRoutes/>
+	<stationRoutes>
+		<stationRoute stationID="JARROWS" name="[PELAW]-[ln670/50]-[1]-[PELAW]-[ln670/50] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="2730 2736 2735 2736 2730"/>
+		<stationRoute stationID="JARROWS" name="[PELAW]-[ln670/50]-[1]-[]-[ln670/] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="2730 2736 2735 2734"/>
+		<stationRoute stationID="JARROWS" name="[]-[ln670/]-[1]-[PELAW]-[ln670/50] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="2734 2735 2736 2730"/>
+	</stationRoutes>
+	<lineCatalog/>
+	<zugNummernFelder/>
+	<switchGears/>
+</line>

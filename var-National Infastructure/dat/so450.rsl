@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<line lineID="so450" name="Ebbsfleet W Jn - Springhead Rd Jn" trafficRouting="on_the_left" type="local" dependentLines="ebsflt sphe">
+	<version major="1" minor="2" patchlevel="0" comment=""/>
+	<creator user="Ahowe4" timestamp="2016-11-01T12:54:22"/>
+	<lasteditor user="Ahowe4" timestamp="2016-11-01T12:54:22"/>
+	<stations/>
+	<nodes>
+		<signal interlockingMachine="CTRL Dummy" nodeID="2208" name="SIG: AF182" description="Approx position" kilometre="36.970" x="367799.99" y="1506" xNet="1508706.1" yNet="604988.93" referenceNode="2221"/>
+		<node nodeID="2221" kilometre="37.075" x="368849.98" y="1506" xNet="1514400" yNet="607300"/>
+		<node nodeID="2226" kilometre="37.247" x="370569.99" y="1506" xNet="1518700" yNet="607700"/>
+		<node nodeID="2230" kilometre="37.200" x="370099.74" y="2056" xNet="1511100" yNet="606300"/>
+	</nodes>
+	<links>
+		<link source="2205.ebsflt" target="2208" length="7" vmax="100" vmaxr="100"/>
+		<link source="2208" target="2221" length="105" vmax="100" vmaxr="100"/>
+		<link source="2216.ebsflt" target="2230" length="40" vmax="80" vmaxr="80"/>
+		<link source="2221" target="2226" length="172" vmax="100" vmaxr="100"/>
+		<link source="2226" target="2227.sphe" length="35" vmax="100" vmaxr="100"/>
+		<link source="2230" target="2229.sphe" length="100" vmax="80" vmaxr="80"/>
+	</links>
+	<dependentLinks/>
+	<blockSections>
+		<blocksection uuid="{3d76bf7b-61fd-4afc-a27c-776ef70f8e94}" lines="ebsflt so450 sphe">
+			<part nodes="2216.ebsflt 2230 2229.sphe"/>
+		</blocksection>
+		<blocksection uuid="{40c77b9e-f384-4190-a210-53a68102e7b4}" lines="ebsflt so450 sphe">
+			<part nodes="2216.ebsflt 2230 2229.sphe"/>
+		</blocksection>
+		<blocksection uuid="{48cb60a8-d087-4c1f-b5e3-e198973740ed}" lines="ebsflt so450">
+			<part nodes="2208 2205.ebsflt"/>
+		</blocksection>
+		<blocksection uuid="{7caedb26-7fd6-4941-9d45-3b54983952f1}" lines="ebsflt so450">
+			<part nodes="2208 2205.ebsflt"/>
+		</blocksection>
+		<blocksection uuid="{9739f30b-3869-4aa8-9a78-4321f1659e3e}" lines="so450 sphe">
+			<part nodes="2227.sphe 2226 2221 2208"/>
+		</blocksection>
+	</blockSections>
+	<slipDistances/>
+	<approachControlRoutes/>
+	<stationRoutes/>
+	<lineCatalog/>
+	<zugNummernFelder/>
+	<switchGears/>
+</line>

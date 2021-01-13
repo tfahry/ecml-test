@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<line lineID="sc017" name="Mossend South Jn - Mossend East Jn" trafficRouting="on_the_left" type="local" dependentLines="holtw mosj">
+	<version major="1" minor="2" patchlevel="0" comment=""/>
+	<creator user="VWaddelo" timestamp="2016-07-08T10:58:15"/>
+	<lasteditor user="VWaddelo" timestamp="2016-07-08T10:58:15"/>
+	<stations/>
+	<nodes>
+		<kilometreInconsistency nodeID="700" kilometre="146.801" x="1464517.5" y="-1891.0162" xNet="-3050228.4" yNet="9038094.8" referenceNode="828.mosj"/>
+		<speedIndicator nodeID="703" name="SPEED" description="Speed" kilometre="0.090" x="1464981.1" y="-1890.8435" xNet="-3049681.4" yNet="9038598.1" referenceNode="701"/>
+		<node nodeID="706" name="SD : M342" description="sighting distance for SIG : M342" kilometre="0.341" x="1465226" y="-1890.8435" xNet="-3048442.6" yNet="9039770.6" referenceNode="703" sightingDistance="true"/>
+		<node nodeID="708" name="SD : M354" description="sighting distance for SIG : M354" kilometre="0.284" x="1471906.6" y="-2074.3247" xNet="-3048338.3" yNet="9039551.4" referenceNode="709" sightingDistance="true"/>
+		<node nodeID="701" name="tc" kilometre="0.010" x="1464580.2" y="-1890.8435" xNet="-3050167.6" yNet="9038150.7" referenceNode="700" releaseContact="true" arranged="true"/>
+		<node nodeID="707" kilometre="0.434" x="1474673.60988501" y="-1868.97325054944" xNet="-3047461.89297003" yNet="9040130.1121306"/>
+		<node nodeID="709" kilometre="0.418" x="1476791.21821147" y="-2067.6282556231" xNet="-3047446.26297984" yNet="9039892.15033258"/>
+	</nodes>
+	<links>
+		<link source="700" target="701" length="10" gradient="11.628" vmax="24" vmaxr="24"/>
+		<link source="701" target="703" length="80" gradient="11.628" vmax="24" vmaxr="24"/>
+		<link source="703" target="706" length="251" gradient="11.628" vmax="40" vmaxr="40"/>
+		<link source="706" target="707" length="93" gradient="11.628" vmax="40" vmaxr="40"/>
+		<link source="707" target="719.holtw" length="15" gradient="11.628" vmax="40" vmaxr="40" electrification="electrified" owner="2018 01-03" buildingActivityNetworkSegment="Shotts"/>
+		<link source="708" target="709" length="134" gradient="11.628" vmax="40" vmaxr="40"/>
+		<link source="709" target="8.holtw" length="82" gradient="11.628" vmax="40" vmaxr="40" electrification="electrified" owner="2018 01-03" buildingActivityNetworkSegment="Shotts"/>
+		<link source="721.mosj" target="708" length="83" gradient="11.628" vmax="40" vmaxr="40"/>
+		<link source="828.mosj" target="700" length="11" gradient="0.496" vmax="24" vmaxr="24"/>
+	</links>
+	<dependentLinks/>
+	<blockSections>
+		<blocksection uuid="{03e6a0c7-80a8-4a85-9f5c-66641e14dbe5}" lines="holtw mosj sc017">
+			<part nodes="8.holtw 709 708 721.mosj"/>
+		</blocksection>
+		<blocksection uuid="{2971da68-3d89-4a54-a33f-f8e3f98a7198}" lines="holtw mosj sc017" speedIndicators="703">
+			<part nodes="828.mosj 700 701 703 706 707 719.holtw"/>
+		</blocksection>
+		<blocksection uuid="{53ea1882-680e-4d19-8505-1c57db738b69}" lines="holtw mosj sc017" speedIndicators="703">
+			<part nodes="828.mosj 700 701 703 706 707 719.holtw"/>
+		</blocksection>
+		<blocksection uuid="{d10421de-3a5e-49d2-92e3-5ee6ea10bbd0}" lines="holtw mosj sc017" speedIndicators="703">
+			<part nodes="828.mosj 700 701 703 706 707 719.holtw"/>
+		</blocksection>
+		<blocksection uuid="{e110e4d4-df6f-4dfd-816b-ab94deb4cb50}" lines="holtw mosj sc017" shuntingBlock="true" speedIndicators="703">
+			<part nodes="828.mosj 700 701 703 706 707 719.holtw"/>
+		</blocksection>
+		<blocksection uuid="{e16309a8-04a5-417a-8fce-73893671178f}" lines="holtw mosj sc017 sc093" speedIndicators="703">
+			<part nodes="828.mosj 700 701 703 706 707 719.holtw"/>
+		</blocksection>
+	</blockSections>
+	<slipDistances/>
+	<approachControlRoutes/>
+	<stationRoutes/>
+	<lineCatalog/>
+	<zugNummernFelder/>
+	<switchGears/>
+</line>

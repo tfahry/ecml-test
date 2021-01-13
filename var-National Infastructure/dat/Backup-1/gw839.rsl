@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<line lineID="gw839" name="GW830 Cardiff Bay - Cardiff Queen Street" trafficRouting="on_the_left" type="local" dependentLines="cardq2">
+	<version major="1" minor="2" patchlevel="0" comment=""/>
+	<creator user="JCowe" timestamp="2017-06-19T10:30:19"/>
+	<lasteditor user="JCowe" timestamp="2017-06-19T10:30:19"/>
+	<stations>
+		<station stationID="CARDFBR" name="Cardiff Bay" xNet="-2735000" yNet="-10400" uicLocationCode="0" circleDiameter="0"/>
+	</stations>
+	<nodes>
+		<node nodeID="12" kilometre="0.400" x="-4000" y="-500" xNet="-2584439.15" yNet="693265.495"/>
+		<track trackID="U-1" stationID="CARDFBR" interlockingMachine="2 Aspect Pannel (Below 75mph)" nodeID="18" name="DUMMY" description="CARDIFF BAY START" kilometre="0.120" x="-1200" y="-500" xNet="-2584439.15" yNet="690465.495" referenceNode="19">
+			<platform startPos="-1000" endPos="0" width="75" left="false" open="true"/>
+		</track>
+		<track trackID="D-1" stationID="CARDFBR" interlockingMachine="Buffer Stop" nodeID="19" name="DUMMY: D1" description="BUFFER STOP" kilometre="0.020" x="-200" y="-500" xNet="-2584439.15" yNet="689465.495" referenceNode="18"/>
+		<node nodeID="40" name="GRAD" kilometre="0.190" x="-1900" y="-500" xNet="-2584439.15" yNet="690865.495"/>
+		<node nodeID="42" name="GRAD" kilometre="0.644" x="-6440" y="-500" xNet="-2584439.15" yNet="695709.495"/>
+		<node nodeID="43" name="GRAD" kilometre="0.810" x="-8100" y="-500" xNet="-2584439.15" yNet="696887.495"/>
+		<node nodeID="44" name="GRAD" kilometre="0.835" x="-8350" y="-500" xNet="-2584439.15" yNet="697765.495"/>
+		<stationBorder exitType="regular" stationID="CARDFBR" lineID="gw839" trackNumber="1" nodeID="34" kilometre="0.141" x="-1410" y="-500" xNet="-2584439.15" yNet="690585.495" referenceNode="18"/>
+		<stationBorder exitType="locked" stationID="CARDFBR" trackNumber="" nodeID="35" kilometre="0.020" x="-150" y="-500" xNet="-2584439.15" yNet="689415.495" referenceNode="19"/>
+		<node nodeID="45" name="SIG: CF2872" kilometre="0.635" x="-6350.0001" y="-500" xNet="-2584439.15" yNet="695619.345" referenceNode="12" presignal="true" with1000HzMagnet="true"/>
+	</nodes>
+	<links>
+		<link source="12" target="40" length="210" gradient="-4.505" vmax="48" vmaxr="48" bidirectional="true"/>
+		<link source="18" target="19" length="100" gradient="-1.433" vmax="48" vmaxr="48" bidirectional="true"/>
+		<link source="19" target="35" gradient="-1.433" vmax="48" vmaxr="48" bidirectional="true"/>
+		<link source="34" target="18" length="21" gradient="-1.433" vmax="48" vmaxr="48" bidirectional="true"/>
+		<link source="36.cardq2" target="44" length="85" vmax="48" vmaxr="48" bidirectional="true"/>
+		<link source="40" target="34" length="49" gradient="-1.433" vmax="48" vmaxr="48" bidirectional="true"/>
+		<link source="42" target="45" length="9" gradient="-4.505" vmax="48" vmaxr="48" bidirectional="true"/>
+		<link source="43" target="42" length="166" gradient="-5.587" vmax="48" vmaxr="48" bidirectional="true"/>
+		<link source="44" target="43" length="25" gradient="-7.634" vmax="48" vmaxr="48" bidirectional="true"/>
+		<link source="45" target="12" length="235" gradient="-4.505" vmax="48" vmaxr="48" bidirectional="true"/>
+	</links>
+	<dependentLinks/>
+	<blockSections>
+		<blocksection uuid="{6b17f70c-acea-4f0c-8461-98c7e4db4ef1}" lines="cardq2 gw839">
+			<part nodes="36.cardq2 44 43 42 45 12 40 34 18 19"/>
+		</blocksection>
+		<blocksection uuid="{83670e48-5de0-4c34-9caa-84bbb8e7dd9b}" lines="gw839">
+			<part nodes="18 19"/>
+		</blocksection>
+		<blocksection uuid="{a6f968fa-78fc-4155-b5d7-eaf28d865779}" lines="cardq2 gw839">
+			<part nodes="18 34 40 12 45 42 43 44 36.cardq2"/>
+		</blocksection>
+		<blocksection uuid="{e166a753-219b-4f29-9de1-ab6e43b0d935}" lines="gw839">
+			<part nodes="19 18"/>
+		</blocksection>
+		<blocksection uuid="{ff58b25e-9452-48ee-a1ea-ccbce55df7e5}" lines="cardq2 gw839">
+			<part nodes="36.cardq2 44 43 42 45 12 40 34 18 19"/>
+		</blocksection>
+	</blockSections>
+	<slipDistances/>
+	<approachControlRoutes/>
+	<stationRoutes>
+		<stationRoute stationID="CARDFBR" name="[CARDFQS]-[gw839/1]-[1]-[CARDFQS]-[gw839/1] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="34 18 19 18 34"/>
+		<stationRoute stationID="CARDFBR" name="[CARDFQS]-[gw839/1]-[1]-[]-[?/] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="34 18 19 35"/>
+		<stationRoute stationID="CARDFBR" name="[]-[?/]-[1]-[CARDFQS]-[gw839/1] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="35 19 18 34"/>
+	</stationRoutes>
+	<lineCatalog/>
+	<zugNummernFelder/>
+	<switchGears/>
+</line>

@@ -1,0 +1,859 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<line lineID="uddjn" name="Uddingston Jn" trafficRouting="on_the_left" type="global" dependentLines="sc001 sc011">
+	<transformations>
+		<transformation line="sc011" m11="-1" m12="-1.52656e-16" m21="1.52656e-16" m22="-1" dx="1.48046e+06" dy="-168495"/>
+	</transformations>
+	<version major="1" minor="2" patchlevel="0" comment=""/>
+	<creator user="VWaddelo" timestamp="2016-07-08T10:58:15"/>
+	<lasteditor user="VWaddelo" timestamp="2016-07-08T10:58:15"/>
+	<stations>
+		<station stationID="UDNGSTN" name="Uddingston" xNet="-3104620" yNet="9043950" uicLocationCode="0" circleDiameter="0">
+			<textElement type="name">
+				<pos view="net" x="787.967" y="787.967" angle="0" system="source"/>
+				<pos view="wgs84" x="787.967" y="787.967" angle="0" system="source"/>
+				<pos view="line" x="859.563" y="859.563" angle="0" system="source"/>
+				<pos view="macro" x="28.2843" y="28.2843" angle="0" system="source"/>
+			</textElement>
+		</station>
+		<station stationID="UDNGTNJ" name="Uddingston Jn" xNet="-3099310" yNet="9043940" uicLocationCode="0" circleDiameter="0">
+			<textElement type="name">
+				<pos view="net" x="2864.88" y="2864.88" angle="0" system="source"/>
+				<pos view="wgs84" x="2864.88" y="2864.88" angle="0" system="source"/>
+				<pos view="line" x="3413.96" y="3413.96" angle="0" system="source"/>
+				<pos view="macro" x="28.2843" y="28.2843" angle="0" system="source"/>
+			</textElement>
+		</station>
+	</stations>
+	<nodes>
+		<track trackID="U-2" stationID="UDNGSTN" interlockingMachine="4 Aspect IECC (76mph - 100mph)" nodeID="1269" name="SIG:GMN182" kilometre="150.968" x="1499367.4" y="-167997.88" xNet="-3103897.2" yNet="9044034.9" referenceNode="1785">
+			<platform startPos="-1800" endPos="0" width="100" left="true" open="false"/>
+		</track>
+		<speedIndicator nodeID="10646" name="SPEED" kilometre="150.845" x="1498187.4" y="-168000.88" xNet="-3102818.7" yNet="9043974.8" referenceNode="16243"/>
+		<crossing type="kr" startOfMainTrack="69" startOfBranchTrack="16003" endOfMainTrack="16243" endOfBranchTrack="16002" nodeID="16000" name="POINTS: 43A/B" kilometre="150.703" x="1496767.4" y="-167997.88" xNet="-3101537.8" yNet="9043923.7"/>
+		<switch start="16244" endOfMainTrack="16000" endOfBranchTrack="10646" nodeID="16243" name="POINTS:41" kilometre="150.844" x="1498227.4" y="-167997.88" xNet="-3102857.6" yNet="9043974"/>
+		<switch start="17431" endOfMainTrack="70" endOfBranchTrack="16002" nodeID="17429" name="POINTS:42" kilometre="150.846" x="1498227.4" y="-167841.88" xNet="-3102861.5" yNet="9043817.4"/>
+		<node nodeID="17748" kilometre="151.000" x="1499427.4" y="-167841.88" xNet="-3103957.1" yNet="9043880.3"/>
+		<node nodeID="1785" kilometre="151.000" x="1499427.4" y="-167997.88" xNet="-3103951.7" yNet="9044037.6"/>
+		<speedIndicator nodeID="16002" name="SPEED" kilometre="150.844" x="1498177.4" y="-167847.22" xNet="-3102818.8" yNet="9043820" referenceNode="17429"/>
+		<stationBorder exitType="regular" stationID="UDNGTNJ" lineID="sc001" trackNumber="1" nodeID="1" name="[MOTHRWL] - [sc001/2]" kilometre="150.116" x="1490586.3" y="-167997.88" xNet="-3095926.3" yNet="9043868.8" referenceNode="91">
+			<netLimitInfo lineID="sc001"/>
+		</stationBorder>
+		<stationBorder exitType="regular" stationID="UDNGSTN" lineID="sc001" trackNumber="1" nodeID="224" name="[NEWTON] - [sc001/1]" kilometre="151.194" x="1501366.4" y="-167841.88" xNet="-3105728.2" yNet="9043984" referenceNode="17749"/>
+		<stationBorder exitType="alternative" stationID="UDNGSTN" lineID="sc001" trackNumber="1" nodeID="17442" kilometre="150.960" x="1499022.5" y="-167841.88" xNet="-3103587.4" yNet="9043859.1" referenceNode="17748"/>
+		<stationBorder exitType="regular" stationID="UDNGSTN" lineID="sc001" trackNumber="2" nodeID="1806" kilometre="150.951" x="1498940.2" y="-167997.88" xNet="-3103506.5" yNet="9044012.3" referenceNode="1269"/>
+		<stationBorder exitType="alternative" stationID="UDNGTNJ" lineID="sc001" trackNumber="2" nodeID="1869" kilometre="150.920" x="1498622.8" y="-167997.88" xNet="-3103216.3" yNet="9043995.5" referenceNode="16244"/>
+		<stationBorder exitType="regular" stationID="UDNGTNJ" lineID="sc001" trackNumber="1" nodeID="17443" kilometre="150.934" x="1498765.8" y="-167841.88" xNet="-3103353" yNet="9043845.6" referenceNode="17430"/>
+		<stationBorder exitType="alternative" stationID="UDNGTNJ" lineID="sc001" trackNumber="2" nodeID="2" kilometre="149.998" x="1489407" y="-167841.88" xNet="-3095276.9" yNet="9043577.9" referenceNode="67">
+			<netLimitInfo lineID="sc001"/>
+		</stationBorder>
+		<stationBorder exitType="regular" stationID="UDNGTNJ" lineID="sc011" trackNumber="1" nodeID="14086" kilometre="0.613" x="1489133.2" y="-168515.72" xNet="-3095571.5" yNet="9044239" referenceNode="10725">
+			<netLimitInfo lineID="sc011"/>
+		</stationBorder>
+		<node nodeID="10647" x="1496046" y="-168330" xNet="-3101357.3" yNet="9044138"/>
+		<node nodeID="7" name="GRAD" kilometre="151.568" x="1505107.4" y="-167997.88" xNet="-3107909.3" yNet="9044211.7"/>
+		<node nodeID="1591" name="GRAD" kilometre="152.083" x="1510257.4" y="-167997.88" xNet="-3110731.9" yNet="9044174.3"/>
+		<signal interlockingMachine="4 Aspect IECC (76mph - 100mph)" nodeID="1649" name="SIG:GMN178" kilometre="152.208" x="1511747.4" y="-167997.88" xNet="-3111795.4" yNet="9044105.7" referenceNode="1650"/>
+		<node nodeID="10874" name="GRAD" kilometre="151.568" x="1505107.4" y="-167841.88" xNet="-3107892.3" yNet="9043980.7"/>
+		<node nodeID="10875" name="GRAD" kilometre="152.083" x="1510257.4" y="-167841.88" xNet="-3110601.7" yNet="9043975.9"/>
+		<signal interlockingMachine="4 Aspect IECC (76mph - 100mph)" nodeID="10829" name="SIG:GMN175" kilometre="152.131" x="1511197.4" y="-167841.88" xNet="-3111289" yNet="9043948.3" referenceNode="10875">
+			<netLimitInfo lineID="sc001"/>
+		</signal>
+		<node nodeID="13239" kilometre="152.000" x="1509427.4" y="-167841.88" xNet="-3108989" yNet="9044003.2"/>
+		<node nodeID="1786" kilometre="152.000" x="1509427.4" y="-167997.88" xNet="-3108824.5" yNet="9044246.3"/>
+		<node nodeID="1783" kilometre="152.368" x="1513108.4" y="-168000.68" xNet="-3112970.6" yNet="9044051.1">
+			<netLimitInfo lineID="sc001"/>
+		</node>
+		<signal interlockingMachine="4 Aspect IECC (76mph - 100mph)" nodeID="67" name="SIG:GMN193" kilometre="150.085" x="1490277.14745763" y="-167841.88" xNet="-3095913.73262712" yNet="9043631.2059322" referenceNode="2">
+			<textElement type="name">
+				<pos view="net" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="wgs84" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="line" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="macro" x="55.47" y="83.205" angle="0" system="source"/>
+			</textElement>
+			<textElement type="kilo">
+				<pos view="net" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="wgs84" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="line" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="macro" x="49.9756" y="-62.4695" angle="0" system="source"/>
+			</textElement>
+		</signal>
+		<node nodeID="68" name="OL SIG:GMM193" description="OL for SIG : SIG:GMM193" kilometre="150.265" x="1492077.26461646" y="-167841.88" xNet="-3097393.89274856" yNet="9043708.49183995"/>
+		<kilometreInconsistency newKilometre="-0.135" nodeID="10648" kilometre="150.844" x="1498033.26690647" y="-168014.325683453" xNet="-3102713.56330935" yNet="9043986.54100719" referenceNode="10646">
+			<textElement type="name">
+				<pos view="net" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="wgs84" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="line" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="macro" x="55.47" y="83.205" angle="0" system="source"/>
+			</textElement>
+			<textElement type="kilo">
+				<pos view="net" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="wgs84" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="line" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="macro" x="49.9756" y="-62.4695" angle="0" system="source"/>
+			</textElement>
+		</kilometreInconsistency>
+		<track trackID="T-2" stationID="UDNGTNJ" type="timingPoint" nodeID="69" kilometre="150.663" x="1496342.76123263" y="-167997.88" xNet="-3101152.29249436" yNet="9043919.92839489" referenceNode="77">
+			<textElement type="name">
+				<pos view="net" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="wgs84" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="line" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="macro" x="55.47" y="83.205" angle="0" system="source"/>
+			</textElement>
+			<textElement type="kilo">
+				<pos view="net" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="wgs84" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="line" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="macro" x="49.9756" y="-62.4695" angle="0" system="source"/>
+			</textElement>
+		</track>
+		<node nodeID="16001" kilometre="0.010" x="1496011" y="-168129" xNet="-3100835.07535704" yNet="9043948.87107978">
+			<textElement type="name">
+				<pos view="net" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="wgs84" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="line" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="macro" x="55.47" y="83.205" angle="0" system="source"/>
+			</textElement>
+			<textElement type="kilo">
+				<pos view="net" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="wgs84" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="line" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="macro" x="49.9756" y="-62.4695" angle="0" system="source"/>
+			</textElement>
+		</node>
+		<kilometreInconsistency newKilometre="0.007" nodeID="16003" kilometre="150.702" x="1496669.06995054" y="-168014.925261879" xNet="-3101446.44760854" yNet="9043926.97217546" referenceNode="16000">
+			<textElement type="name">
+				<pos view="net" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="wgs84" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="line" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="macro" x="55.47" y="83.205" angle="0" system="source"/>
+			</textElement>
+			<textElement type="kilo">
+				<pos view="net" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="wgs84" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="line" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="macro" x="49.9756" y="-62.4695" angle="0" system="source"/>
+			</textElement>
+		</kilometreInconsistency>
+		<node nodeID="1870" name="GRAD" kilometre="150.940" x="1498827.57419355" y="-167997.88" xNet="-3103403.52580645" yNet="9044006.33870968">
+			<textElement type="name">
+				<pos view="net" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="wgs84" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="line" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="macro" x="55.47" y="83.205" angle="0" system="source"/>
+			</textElement>
+			<textElement type="kilo">
+				<pos view="net" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="wgs84" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="line" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="macro" x="49.9756" y="-62.4695" angle="0" system="source"/>
+			</textElement>
+		</node>
+		<node nodeID="17449" name="GRAD" kilometre="150.940" x="1498825.03846154" y="-167841.88" xNet="-3103407.09230769" yNet="9043848.71538462">
+			<textElement type="name">
+				<pos view="net" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="wgs84" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="line" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="macro" x="55.47" y="83.205" angle="0" system="source"/>
+			</textElement>
+			<textElement type="kilo">
+				<pos view="net" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="wgs84" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="line" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="macro" x="49.9756" y="-62.4695" angle="0" system="source"/>
+			</textElement>
+		</node>
+		<node nodeID="16004" name="GRAD" kilometre="0.038" x="1495810.87098592" y="-168135.232169014" xNet="-3100653.49041338" yNet="9043955.37531889">
+			<textElement type="name">
+				<pos view="net" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="wgs84" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="line" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="macro" x="55.47" y="83.205" angle="0" system="source"/>
+			</textElement>
+			<textElement type="kilo">
+				<pos view="net" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="wgs84" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="line" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="macro" x="49.9756" y="-62.4695" angle="0" system="source"/>
+			</textElement>
+		</node>
+		<node nodeID="10653" name="GRAD" kilometre="0.038" x="1495817" y="-168339" xNet="-3100998.63703099" yNet="9044144.26101142">
+			<textElement type="name">
+				<pos view="net" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="wgs84" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="line" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="macro" x="55.47" y="83.205" angle="0" system="source"/>
+			</textElement>
+			<textElement type="kilo">
+				<pos view="net" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="wgs84" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="line" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="macro" x="49.9756" y="-62.4695" angle="0" system="source"/>
+			</textElement>
+		</node>
+		<node nodeID="70" name="GRAD" kilometre="150.473" x="1494279.03840246" y="-167841.88" xNet="-3099351.31865345" yNet="9043747.48140959">
+			<textElement type="name">
+				<pos view="net" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="wgs84" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="line" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="macro" x="55.47" y="83.205" angle="0" system="source"/>
+			</textElement>
+			<textElement type="kilo">
+				<pos view="net" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="wgs84" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="line" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="macro" x="49.9756" y="-62.4695" angle="0" system="source"/>
+			</textElement>
+		</node>
+		<node nodeID="74" name="GRAD" kilometre="150.473" x="1494278" y="-167992" xNet="-3099339.08620102" yNet="9043902.18892675">
+			<textElement type="name">
+				<pos view="net" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="wgs84" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="line" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="macro" x="55.47" y="83.205" angle="0" system="source"/>
+			</textElement>
+			<textElement type="kilo">
+				<pos view="net" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="wgs84" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="line" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="macro" x="49.9756" y="-62.4695" angle="0" system="source"/>
+			</textElement>
+		</node>
+		<node nodeID="16005" name="GRAD" kilometre="0.095" x="1495403.46549296" y="-168147.919084507" xNet="-3100283.83534951" yNet="9043968.61609136">
+			<textElement type="name">
+				<pos view="net" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="wgs84" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="line" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="macro" x="55.47" y="83.205" angle="0" system="source"/>
+			</textElement>
+			<textElement type="kilo">
+				<pos view="net" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="wgs84" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="line" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="macro" x="49.9756" y="-62.4695" angle="0" system="source"/>
+			</textElement>
+		</node>
+		<node nodeID="10721" name="GRAD" kilometre="0.095" x="1495154.432" y="-168356.518330435" xNet="-3100460.64257749" yNet="9044153.65252855">
+			<textElement type="name">
+				<pos view="net" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="wgs84" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="line" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="macro" x="55.47" y="83.205" angle="0" system="source"/>
+			</textElement>
+			<textElement type="kilo">
+				<pos view="net" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="wgs84" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="line" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="macro" x="49.9756" y="-62.4695" angle="0" system="source"/>
+			</textElement>
+		</node>
+		<node nodeID="77" name="OL SIG:GMN182" description="OL for SIG : SIG:GMN182" kilometre="150.626" x="1495940.67615049" y="-167996.734947368" xNet="-3100799.19442671" yNet="9043916.47386688"/>
+		<node nodeID="80" name="SD" kilometre="151.250" x="1501927.4" y="-167997.88" xNet="-3106187.37818182" yNet="9044166.89090909" referenceNode="7" sightingDistance="true">
+			<textElement type="name">
+				<pos view="net" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="wgs84" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="line" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="macro" x="55.47" y="83.205" angle="0" system="source"/>
+			</textElement>
+			<textElement type="kilo">
+				<pos view="net" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="wgs84" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="line" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="macro" x="49.9756" y="-62.4695" angle="0" system="source"/>
+			</textElement>
+		</node>
+		<node nodeID="81" kilometre="151.249" x="1501917.4" y="-167997.88" xNet="-3106181.96333333" yNet="9044166.75" referenceNode="80" aspectTrigger="true">
+			<textElement type="name">
+				<pos view="net" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="wgs84" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="line" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="macro" x="55.47" y="83.205" angle="0" system="source"/>
+			</textElement>
+			<textElement type="kilo">
+				<pos view="net" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="wgs84" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="line" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="macro" x="49.9756" y="-62.4695" angle="0" system="source"/>
+			</textElement>
+		</node>
+		<node nodeID="17430" name="SD" kilometre="150.864" x="1498577.08783959" y="-167841.88" xNet="-3103180.72654747" yNet="9043835.71574494" referenceNode="17431" sightingDistance="true">
+			<textElement type="name">
+				<pos view="net" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="wgs84" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="line" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="macro" x="55.47" y="83.205" angle="0" system="source"/>
+			</textElement>
+			<textElement type="kilo">
+				<pos view="net" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="wgs84" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="line" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="macro" x="49.9756" y="-62.4695" angle="0" system="source"/>
+			</textElement>
+		</node>
+		<node nodeID="82" name="OL SIG:GMN178" description="OL for SIG : SIG:GMN178" kilometre="151.992" x="1509347.4" y="-167997.88" xNet="-3108807.55185185" yNet="9044245.65925926"/>
+		<node nodeID="91" kilometre="150.167" x="1491113.68571429" y="-167997.04" xNet="-3096413.84088586" yNet="9043873.56984668" referenceNode="74" sightingDistance="true">
+			<textElement type="name">
+				<pos view="net" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="wgs84" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="line" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="macro" x="55.47" y="83.205" angle="0" system="source"/>
+			</textElement>
+			<textElement type="kilo">
+				<pos view="net" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="wgs84" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="line" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="macro" x="49.9756" y="-62.4695" angle="0" system="source"/>
+			</textElement>
+		</node>
+		<node nodeID="10876" name="SD" kilometre="151.849" x="1507917.4" y="-167841.88" xNet="-3108605.66273148" yNet="9043995.33541667" referenceNode="10874" sightingDistance="true">
+			<textElement type="name">
+				<pos view="net" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="wgs84" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="line" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="macro" x="55.47" y="83.205" angle="0" system="source"/>
+			</textElement>
+			<textElement type="kilo">
+				<pos view="net" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="wgs84" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="line" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="macro" x="49.9756" y="-62.4695" angle="0" system="source"/>
+			</textElement>
+		</node>
+		<track trackID="T-1" stationID="UDNGTNJ" type="timingPoint" nodeID="16244" kilometre="150.857" x="1498294.74748529" y="-167997.88" xNet="-3102918.69646681" yNet="9043977.6620408" referenceNode="16243">
+			<textElement type="name">
+				<pos view="net" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="wgs84" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="line" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="macro" x="55.47" y="83.205" angle="0" system="source"/>
+			</textElement>
+			<textElement type="kilo">
+				<pos view="net" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="wgs84" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="line" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="macro" x="49.9756" y="-62.4695" angle="0" system="source"/>
+			</textElement>
+		</track>
+		<track trackID="T-3" stationID="UDNGTNJ" type="timingPoint" nodeID="17431" kilometre="150.853" x="1498370.88365843" y="-167841.88" xNet="-3102992.48480334" yNet="9043824.91530306" referenceNode="17429">
+			<textElement type="name">
+				<pos view="net" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="wgs84" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="line" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="macro" x="55.47" y="83.205" angle="0" system="source"/>
+			</textElement>
+			<textElement type="kilo">
+				<pos view="net" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="wgs84" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="line" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="macro" x="49.9756" y="-62.4695" angle="0" system="source"/>
+			</textElement>
+		</track>
+		<track trackID="D-1" stationID="UDNGSTN" interlockingMachine="4 Aspect IECC (76mph - 100mph)" nodeID="17749" name="SIG:GMN181" kilometre="151.146" x="1501122.98175938" y="-167841.88" xNet="-3105505.02081073" yNet="9043969.92360728" referenceNode="17750">
+			<textElement type="name">
+				<pos view="net" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="wgs84" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="line" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="macro" x="55.47" y="83.205" angle="0" system="source"/>
+			</textElement>
+			<textElement type="kilo">
+				<pos view="net" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="wgs84" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="line" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="macro" x="49.9756" y="-62.4695" angle="0" system="source"/>
+			</textElement>
+		</track>
+		<stationBorder exitType="regular" stationID="UDNGSTN" lineID="sc001" trackNumber="2" nodeID="1805" kilometre="151.102" x="1500448.45958269" y="-167997.88" xNet="-3104866.25090298" yNet="9044090.55977715" referenceNode="1865"/>
+		<track trackID="T-2" stationID="UDNGSTN" type="timingPoint" nodeID="1865" kilometre="151.097" x="1500397.4" y="-167997.88" xNet="-3104820.5174431" yNet="9044087.91144578" referenceNode="1785"/>
+		<track trackID="T-1" stationID="UDNGSTN" type="timingPoint" nodeID="17750" kilometre="151.097" x="1500553.91664836" y="-167841.88" xNet="-3104985.51314138" yNet="9043939.84445141" referenceNode="17748"/>
+		<node nodeID="10723" name="GRAD" kilometre="0.257" x="1493271.344" y="-168406.307269565" xNet="-3098931.60570963" yNet="9044180.34420881"/>
+		<node nodeID="16006" name="GRAD" kilometre="0.257" x="1494245.57619719" y="-168183.976633803" xNet="-3099233.23674691" yNet="9044006.24776048"/>
+		<node nodeID="10724" name="GRAD" kilometre="0.112" x="1494956.824" y="-168361.743095652" xNet="-3100300.18809136" yNet="9044156.45350734"/>
+		<node nodeID="16007" name="GRAD" kilometre="0.112" x="1495281.95859155" y="-168151.702901408" xNet="-3100173.587348" yNet="9043972.56509368"/>
+		<node nodeID="10725" name="SD: M186" kilometre="0.557" x="1489784.144" y="-168498.509008696" xNet="-3096100.05595432" yNet="9044229.77324633" referenceNode="10723" sightingDistance="true"/>
+		<stationBorder exitType="regular" stationID="UDNGTNJ" lineID="sc011" trackNumber="2" nodeID="143" name="OL:M183" kilometre="0.540" x="1492222.84366197" y="-168246.966056338" xNet="-3097397.93178066" yNet="9044071.98703431" referenceNode="16006">
+			<netLimitInfo lineID="sc011"/>
+		</stationBorder>
+		<node nodeID="1650" kilometre="152.209" x="1511759.46063548" y="-167997.904812476" xNet="-3111805.81415049" yNet="9044105.21615672" referenceNode="1783" aspectTrigger="true"/>
+	</nodes>
+	<links>
+		<link source="1" target="91" length="51" gradient="-7.407" vmax="145" vmaxr="145" owner="2017 10-12" buildingActivityNetworkSegment="EGIP">
+			<vzg index="1" vmax="145" vmaxr="145"/>
+			<vzg index="2" vmax="145" vmaxr="145"/>
+			<vzg index="3" vmax="145" vmaxr="145"/>
+			<vzg index="4" vmax="145" vmaxr="145"/>
+			<vzg index="5" vmax="145" vmaxr="145"/>
+		</link>
+		<link source="2" target="67" length="87" gradient="-7.4074" vmax="145" vmaxr="145" owner="2017 10-12" buildingActivityNetworkSegment="EGIP">
+			<vzg index="1" vmax="145" vmaxr="145"/>
+			<vzg index="2" vmax="145" vmaxr="145"/>
+			<vzg index="3" vmax="145" vmaxr="145"/>
+			<vzg index="4" vmax="145" vmaxr="145"/>
+			<vzg index="5" vmax="145" vmaxr="145"/>
+		</link>
+		<link source="7" target="82" length="424" gradient="-1.1792" vmax="145" vmaxr="145" owner="2017 10-12" buildingActivityNetworkSegment="EGIP">
+			<vzg index="1" vmax="145" vmaxr="145"/>
+			<vzg index="2" vmax="145" vmaxr="145"/>
+			<vzg index="3" vmax="145" vmaxr="145"/>
+			<vzg index="4" vmax="145" vmaxr="145"/>
+			<vzg index="5" vmax="145" vmaxr="145"/>
+		</link>
+		<link source="67" target="68" length="180" gradient="-7.407" vmax="145" vmaxr="145" owner="2017 10-12" buildingActivityNetworkSegment="EGIP">
+			<vzg index="1" vmax="145" vmaxr="145"/>
+			<vzg index="2" vmax="145" vmaxr="145"/>
+			<vzg index="3" vmax="145" vmaxr="145"/>
+			<vzg index="4" vmax="145" vmaxr="145"/>
+			<vzg index="5" vmax="145" vmaxr="145"/>
+		</link>
+		<link source="68" target="70" length="208" gradient="-7.407" vmax="145" vmaxr="145" owner="2017 10-12" buildingActivityNetworkSegment="EGIP">
+			<vzg index="1" vmax="145" vmaxr="145"/>
+			<vzg index="2" vmax="145" vmaxr="145"/>
+			<vzg index="3" vmax="145" vmaxr="145"/>
+			<vzg index="4" vmax="145" vmaxr="145"/>
+			<vzg index="5" vmax="145" vmaxr="145"/>
+		</link>
+		<link source="69" target="16000" length="40" gradient="-9.346" vmax="145" vmaxr="145" owner="2017 10-12" buildingActivityNetworkSegment="EGIP">
+			<vzg index="1" vmax="145" vmaxr="145"/>
+			<vzg index="2" vmax="145" vmaxr="145"/>
+			<vzg index="3" vmax="145" vmaxr="145"/>
+			<vzg index="4" vmax="145" vmaxr="145"/>
+			<vzg index="5" vmax="145" vmaxr="145"/>
+		</link>
+		<link source="70" target="17429" length="373" gradient="-9.346" vmax="145" vmaxr="145" owner="2017 10-12" buildingActivityNetworkSegment="EGIP">
+			<vzg index="1" vmax="145" vmaxr="145"/>
+			<vzg index="2" vmax="145" vmaxr="145"/>
+			<vzg index="3" vmax="145" vmaxr="145"/>
+			<vzg index="4" vmax="145" vmaxr="145"/>
+			<vzg index="5" vmax="145" vmaxr="145"/>
+		</link>
+		<link source="74" target="77" length="153" gradient="-9.346" vmax="145" vmaxr="145" owner="2017 10-12" buildingActivityNetworkSegment="EGIP">
+			<vzg index="1" vmax="145" vmaxr="145"/>
+			<vzg index="2" vmax="145" vmaxr="145"/>
+			<vzg index="3" vmax="145" vmaxr="145"/>
+			<vzg index="4" vmax="145" vmaxr="145"/>
+			<vzg index="5" vmax="145" vmaxr="145"/>
+		</link>
+		<link source="77" target="69" length="37" gradient="-9.346" vmax="145" vmaxr="145" owner="2017 10-12" buildingActivityNetworkSegment="EGIP">
+			<vzg index="1" vmax="145" vmaxr="145"/>
+			<vzg index="2" vmax="145" vmaxr="145"/>
+			<vzg index="3" vmax="145" vmaxr="145"/>
+			<vzg index="4" vmax="145" vmaxr="145"/>
+			<vzg index="5" vmax="145" vmaxr="145"/>
+		</link>
+		<link source="80" target="7" length="318" gradient="-2.558" vmax="145" vmaxr="145" owner="2017 10-12" buildingActivityNetworkSegment="EGIP">
+			<vzg index="1" vmax="145" vmaxr="145"/>
+			<vzg index="2" vmax="145" vmaxr="145"/>
+			<vzg index="3" vmax="145" vmaxr="145"/>
+			<vzg index="4" vmax="145" vmaxr="145"/>
+			<vzg index="5" vmax="145" vmaxr="145"/>
+		</link>
+		<link source="81" target="80" length="1" gradient="-2.558" vmax="145" vmaxr="145" owner="2017 10-12" buildingActivityNetworkSegment="EGIP">
+			<vzg index="1" vmax="145" vmaxr="145"/>
+			<vzg index="2" vmax="145" vmaxr="145"/>
+			<vzg index="3" vmax="145" vmaxr="145"/>
+			<vzg index="4" vmax="145" vmaxr="145"/>
+			<vzg index="5" vmax="145" vmaxr="145"/>
+		</link>
+		<link source="82" target="1786" length="8" gradient="-1.1792" vmax="145" vmaxr="145" owner="2017 10-12" buildingActivityNetworkSegment="EGIP">
+			<vzg index="1" vmax="145" vmaxr="145"/>
+			<vzg index="2" vmax="145" vmaxr="145"/>
+			<vzg index="3" vmax="145" vmaxr="145"/>
+			<vzg index="4" vmax="145" vmaxr="145"/>
+			<vzg index="5" vmax="145" vmaxr="145"/>
+		</link>
+		<link source="91" target="74" length="306" gradient="-7.407" vmax="145" vmaxr="145" owner="2017 10-12" buildingActivityNetworkSegment="EGIP">
+			<vzg index="1" vmax="145" vmaxr="145"/>
+			<vzg index="2" vmax="145" vmaxr="145"/>
+			<vzg index="3" vmax="145" vmaxr="145"/>
+			<vzg index="4" vmax="145" vmaxr="145"/>
+			<vzg index="5" vmax="145" vmaxr="145"/>
+		</link>
+		<link source="224" target="10874" length="374" gradient="-2.558" vmax="145" vmaxr="145" owner="2017 10-12" buildingActivityNetworkSegment="EGIP">
+			<vzg index="1" vmax="145" vmaxr="145"/>
+			<vzg index="2" vmax="145" vmaxr="145"/>
+			<vzg index="3" vmax="145" vmaxr="145"/>
+			<vzg index="4" vmax="145" vmaxr="145"/>
+			<vzg index="5" vmax="145" vmaxr="145"/>
+		</link>
+		<link source="1269" target="1785" length="32" gradient="-2.558" vmax="145" vmaxr="145" owner="2017 10-12" buildingActivityNetworkSegment="EGIP">
+			<vzg index="1" vmax="145" vmaxr="145"/>
+			<vzg index="2" vmax="145" vmaxr="145"/>
+			<vzg index="3" vmax="145" vmaxr="145"/>
+			<vzg index="4" vmax="145" vmaxr="145"/>
+			<vzg index="5" vmax="145" vmaxr="145"/>
+		</link>
+		<link source="1591" target="1649" length="125" gradient="5.0505" vmax="145" vmaxr="145" owner="2017 10-12" buildingActivityNetworkSegment="EGIP">
+			<vzg index="1" vmax="145" vmaxr="145"/>
+			<vzg index="2" vmax="145" vmaxr="145"/>
+			<vzg index="3" vmax="145" vmaxr="145"/>
+			<vzg index="4" vmax="145" vmaxr="145"/>
+			<vzg index="5" vmax="145" vmaxr="145"/>
+		</link>
+		<link source="1649" target="1650" length="1" gradient="5.0505" vmax="145" vmaxr="145" owner="2017 10-12" buildingActivityNetworkSegment="EGIP">
+			<vzg index="1" vmax="145" vmaxr="145"/>
+			<vzg index="2" vmax="145" vmaxr="145"/>
+			<vzg index="3" vmax="145" vmaxr="145"/>
+			<vzg index="4" vmax="145" vmaxr="145"/>
+			<vzg index="5" vmax="145" vmaxr="145"/>
+		</link>
+		<link source="1650" target="1783" length="159" gradient="5.0505" vmax="145" vmaxr="145" owner="2017 10-12" buildingActivityNetworkSegment="EGIP">
+			<vzg index="1" vmax="145" vmaxr="145"/>
+			<vzg index="2" vmax="145" vmaxr="145"/>
+			<vzg index="3" vmax="145" vmaxr="145"/>
+			<vzg index="4" vmax="145" vmaxr="145"/>
+			<vzg index="5" vmax="145" vmaxr="145"/>
+		</link>
+		<link source="1785" target="1865" length="97" gradient="-2.558" vmax="145" vmaxr="145" owner="2017 10-12" buildingActivityNetworkSegment="EGIP">
+			<vzg index="1" vmax="145" vmaxr="145"/>
+			<vzg index="2" vmax="145" vmaxr="145"/>
+			<vzg index="3" vmax="145" vmaxr="145"/>
+			<vzg index="4" vmax="145" vmaxr="145"/>
+			<vzg index="5" vmax="145" vmaxr="145"/>
+		</link>
+		<link source="1786" target="1591" length="83" gradient="-1.1792" vmax="145" vmaxr="145" owner="2017 10-12" buildingActivityNetworkSegment="EGIP">
+			<vzg index="1" vmax="145" vmaxr="145"/>
+			<vzg index="2" vmax="145" vmaxr="145"/>
+			<vzg index="3" vmax="145" vmaxr="145"/>
+			<vzg index="4" vmax="145" vmaxr="145"/>
+			<vzg index="5" vmax="145" vmaxr="145"/>
+		</link>
+		<link source="1805" target="81" length="147" gradient="-2.558" vmax="145" vmaxr="145" owner="2017 10-12" buildingActivityNetworkSegment="EGIP">
+			<vzg index="1" vmax="145" vmaxr="145"/>
+			<vzg index="2" vmax="145" vmaxr="145"/>
+			<vzg index="3" vmax="145" vmaxr="145"/>
+			<vzg index="4" vmax="145" vmaxr="145"/>
+			<vzg index="5" vmax="145" vmaxr="145"/>
+		</link>
+		<link source="1806" target="1269" length="17" gradient="-2.558" vmax="145" vmaxr="145" owner="2017 10-12" buildingActivityNetworkSegment="EGIP">
+			<vzg index="1" vmax="145" vmaxr="145"/>
+			<vzg index="2" vmax="145" vmaxr="145"/>
+			<vzg index="3" vmax="145" vmaxr="145"/>
+			<vzg index="4" vmax="145" vmaxr="145"/>
+			<vzg index="5" vmax="145" vmaxr="145"/>
+		</link>
+		<link source="1865" target="1805" length="5" gradient="-2.558" vmax="145" vmaxr="145" owner="2017 10-12" buildingActivityNetworkSegment="EGIP">
+			<vzg index="1" vmax="145" vmaxr="145"/>
+			<vzg index="2" vmax="145" vmaxr="145"/>
+			<vzg index="3" vmax="145" vmaxr="145"/>
+			<vzg index="4" vmax="145" vmaxr="145"/>
+			<vzg index="5" vmax="145" vmaxr="145"/>
+		</link>
+		<link source="1869" target="1870" length="20" gradient="-9.346" vmax="145" vmaxr="145" owner="2017 10-12" buildingActivityNetworkSegment="EGIP">
+			<vzg index="1" vmax="145" vmaxr="145"/>
+			<vzg index="2" vmax="145" vmaxr="145"/>
+			<vzg index="3" vmax="145" vmaxr="145"/>
+			<vzg index="4" vmax="145" vmaxr="145"/>
+			<vzg index="5" vmax="145" vmaxr="145"/>
+		</link>
+		<link source="1870" target="1806" length="11" gradient="-2.558" vmax="145" vmaxr="145" owner="2017 10-12" buildingActivityNetworkSegment="EGIP">
+			<vzg index="1" vmax="145" vmaxr="145"/>
+			<vzg index="2" vmax="145" vmaxr="145"/>
+			<vzg index="3" vmax="145" vmaxr="145"/>
+			<vzg index="4" vmax="145" vmaxr="145"/>
+			<vzg index="5" vmax="145" vmaxr="145"/>
+		</link>
+		<link source="10646" target="10648" length="1" gradient="-9.346" vmax="105" vmaxr="105" owner="2017 10-12" buildingActivityNetworkSegment="EGIP">
+			<vzg index="1" vmax="105" vmaxr="105"/>
+			<vzg index="2" vmax="105" vmaxr="105"/>
+			<vzg index="3" vmax="105" vmaxr="105"/>
+			<vzg index="4" vmax="105" vmaxr="105"/>
+			<vzg index="5" vmax="105" vmaxr="105"/>
+		</link>
+		<link source="10647" target="10653" length="38" gradient="9.346" vmax="105" vmaxr="105" owner="2017 10-12" buildingActivityNetworkSegment="EGIP">
+			<vzg index="1" vmax="105" vmaxr="105"/>
+			<vzg index="2" vmax="105" vmaxr="105"/>
+			<vzg index="3" vmax="105" vmaxr="105"/>
+			<vzg index="4" vmax="105" vmaxr="105"/>
+			<vzg index="5" vmax="105" vmaxr="105"/>
+		</link>
+		<link source="10648" target="10647" length="135" gradient="9.346" vmax="105" vmaxr="105" owner="2017 10-12" buildingActivityNetworkSegment="EGIP">
+			<vzg index="1" vmax="105" vmaxr="105"/>
+			<vzg index="2" vmax="105" vmaxr="105"/>
+			<vzg index="3" vmax="105" vmaxr="105"/>
+			<vzg index="4" vmax="105" vmaxr="105"/>
+			<vzg index="5" vmax="105" vmaxr="105"/>
+		</link>
+		<link source="10653" target="10721" length="57" gradient="9.346" vmax="105" vmaxr="105" owner="2017 10-12" buildingActivityNetworkSegment="EGIP">
+			<vzg index="1" vmax="105" vmaxr="105"/>
+			<vzg index="2" vmax="105" vmaxr="105"/>
+			<vzg index="3" vmax="105" vmaxr="105"/>
+			<vzg index="4" vmax="105" vmaxr="105"/>
+			<vzg index="5" vmax="105" vmaxr="105"/>
+		</link>
+		<link source="10721" target="10724" length="17" gradient="9.346" vmax="105" vmaxr="105" owner="2017 10-12" buildingActivityNetworkSegment="EGIP">
+			<vzg index="1" vmax="105" vmaxr="105"/>
+			<vzg index="2" vmax="105" vmaxr="105"/>
+			<vzg index="3" vmax="105" vmaxr="105"/>
+			<vzg index="4" vmax="105" vmaxr="105"/>
+			<vzg index="5" vmax="105" vmaxr="105"/>
+		</link>
+		<link source="10723" target="10725" length="300" gradient="14.286" vmax="105" vmaxr="105" owner="2017 10-12" buildingActivityNetworkSegment="EGIP">
+			<vzg index="1" vmax="105" vmaxr="105"/>
+			<vzg index="2" vmax="105" vmaxr="105"/>
+			<vzg index="3" vmax="105" vmaxr="105"/>
+			<vzg index="4" vmax="105" vmaxr="105"/>
+			<vzg index="5" vmax="105" vmaxr="105"/>
+		</link>
+		<link source="10724" target="10723" length="145" gradient="5.05" vmax="105" vmaxr="105" owner="2017 10-12" buildingActivityNetworkSegment="EGIP">
+			<vzg index="1" vmax="105" vmaxr="105"/>
+			<vzg index="2" vmax="105" vmaxr="105"/>
+			<vzg index="3" vmax="105" vmaxr="105"/>
+			<vzg index="4" vmax="105" vmaxr="105"/>
+			<vzg index="5" vmax="105" vmaxr="105"/>
+		</link>
+		<link source="10725" target="14086" length="56" gradient="14.286" vmax="105" vmaxr="105" owner="2017 10-12" buildingActivityNetworkSegment="EGIP">
+			<vzg index="1" vmax="105" vmaxr="105"/>
+			<vzg index="2" vmax="105" vmaxr="105"/>
+			<vzg index="3" vmax="105" vmaxr="105"/>
+			<vzg index="4" vmax="105" vmaxr="105"/>
+			<vzg index="5" vmax="105" vmaxr="105"/>
+		</link>
+		<link source="10874" target="10876" length="281" gradient="-1.1792" vmax="145" vmaxr="145" owner="2017 10-12" buildingActivityNetworkSegment="EGIP">
+			<vzg index="1" vmax="145" vmaxr="145"/>
+			<vzg index="2" vmax="145" vmaxr="145"/>
+			<vzg index="3" vmax="145" vmaxr="145"/>
+			<vzg index="4" vmax="145" vmaxr="145"/>
+			<vzg index="5" vmax="145" vmaxr="145"/>
+		</link>
+		<link source="10875" target="10829" length="48" gradient="5.0505" vmax="145" vmaxr="145" owner="2017 10-12" buildingActivityNetworkSegment="EGIP">
+			<vzg index="1" vmax="145" vmaxr="145"/>
+			<vzg index="2" vmax="145" vmaxr="145"/>
+			<vzg index="3" vmax="145" vmaxr="145"/>
+			<vzg index="4" vmax="145" vmaxr="145"/>
+			<vzg index="5" vmax="145" vmaxr="145"/>
+		</link>
+		<link source="10876" target="13239" length="151" gradient="-1.1792" vmax="145" vmaxr="145" owner="2017 10-12" buildingActivityNetworkSegment="EGIP">
+			<vzg index="1" vmax="145" vmaxr="145"/>
+			<vzg index="2" vmax="145" vmaxr="145"/>
+			<vzg index="3" vmax="145" vmaxr="145"/>
+			<vzg index="4" vmax="145" vmaxr="145"/>
+			<vzg index="5" vmax="145" vmaxr="145"/>
+		</link>
+		<link source="13239" target="10875" length="83" gradient="-1.1792" vmax="145" vmaxr="145" owner="2017 10-12" buildingActivityNetworkSegment="EGIP">
+			<vzg index="1" vmax="145" vmaxr="145"/>
+			<vzg index="2" vmax="145" vmaxr="145"/>
+			<vzg index="3" vmax="145" vmaxr="145"/>
+			<vzg index="4" vmax="145" vmaxr="145"/>
+			<vzg index="5" vmax="145" vmaxr="145"/>
+		</link>
+		<link source="16000" target="16002" length="141" gradient="-9.346" vmax="105" vmaxr="105" owner="2017 10-12" buildingActivityNetworkSegment="EGIP">
+			<vzg index="1" vmax="105" vmaxr="105"/>
+			<vzg index="2" vmax="105" vmaxr="105"/>
+			<vzg index="3" vmax="105" vmaxr="105"/>
+			<vzg index="4" vmax="105" vmaxr="105"/>
+			<vzg index="5" vmax="105" vmaxr="105"/>
+		</link>
+		<link source="16000" target="16003" length="20" gradient="-9.346" vmax="105" vmaxr="105" owner="2017 10-12" buildingActivityNetworkSegment="EGIP">
+			<vzg index="1" vmax="105" vmaxr="105"/>
+			<vzg index="2" vmax="105" vmaxr="105"/>
+			<vzg index="3" vmax="105" vmaxr="105"/>
+			<vzg index="4" vmax="105" vmaxr="105"/>
+			<vzg index="5" vmax="105" vmaxr="105"/>
+		</link>
+		<link source="16000" target="16243" length="141" gradient="-9.346" vmax="145" vmaxr="145" owner="2017 10-12" buildingActivityNetworkSegment="EGIP">
+			<vzg index="1" vmax="145" vmaxr="145"/>
+			<vzg index="2" vmax="145" vmaxr="145"/>
+			<vzg index="3" vmax="145" vmaxr="145"/>
+			<vzg index="4" vmax="145" vmaxr="145"/>
+			<vzg index="5" vmax="145" vmaxr="145"/>
+		</link>
+		<link source="16001" target="16004" length="28" gradient="9.346" vmax="105" vmaxr="105" owner="2017 10-12" buildingActivityNetworkSegment="EGIP">
+			<vzg index="1" vmax="105" vmaxr="105"/>
+			<vzg index="2" vmax="105" vmaxr="105"/>
+			<vzg index="3" vmax="105" vmaxr="105"/>
+			<vzg index="4" vmax="105" vmaxr="105"/>
+			<vzg index="5" vmax="105" vmaxr="105"/>
+		</link>
+		<link source="16002" target="17429" length="5" gradient="-9.346" vmax="145" vmaxr="145" owner="2017 10-12" buildingActivityNetworkSegment="EGIP">
+			<vzg index="1" vmax="145" vmaxr="145"/>
+			<vzg index="2" vmax="145" vmaxr="145"/>
+			<vzg index="3" vmax="145" vmaxr="145"/>
+			<vzg index="4" vmax="145" vmaxr="145"/>
+			<vzg index="5" vmax="145" vmaxr="145"/>
+		</link>
+		<link source="16003" target="16001" length="3" gradient="9.346" vmax="105" vmaxr="105" owner="2017 10-12" buildingActivityNetworkSegment="EGIP">
+			<vzg index="1" vmax="105" vmaxr="105"/>
+			<vzg index="2" vmax="105" vmaxr="105"/>
+			<vzg index="3" vmax="105" vmaxr="105"/>
+			<vzg index="4" vmax="105" vmaxr="105"/>
+			<vzg index="5" vmax="105" vmaxr="105"/>
+		</link>
+		<link source="16004" target="16005" length="57" gradient="9.346" vmax="105" vmaxr="105" owner="2017 10-12" buildingActivityNetworkSegment="EGIP">
+			<vzg index="1" vmax="105" vmaxr="105"/>
+			<vzg index="2" vmax="105" vmaxr="105"/>
+			<vzg index="3" vmax="105" vmaxr="105"/>
+			<vzg index="4" vmax="105" vmaxr="105"/>
+			<vzg index="5" vmax="105" vmaxr="105"/>
+		</link>
+		<link source="16005" target="16007" length="17" gradient="9.346" vmax="105" vmaxr="105" owner="2017 10-12" buildingActivityNetworkSegment="EGIP">
+			<vzg index="1" vmax="105" vmaxr="105"/>
+			<vzg index="2" vmax="105" vmaxr="105"/>
+			<vzg index="3" vmax="105" vmaxr="105"/>
+			<vzg index="4" vmax="105" vmaxr="105"/>
+			<vzg index="5" vmax="105" vmaxr="105"/>
+		</link>
+		<link source="16006" target="143" length="283" gradient="14.286" vmax="105" vmaxr="105" owner="2017 10-12" buildingActivityNetworkSegment="EGIP">
+			<vzg index="1" vmax="105" vmaxr="105"/>
+			<vzg index="2" vmax="105" vmaxr="105"/>
+			<vzg index="3" vmax="105" vmaxr="105"/>
+			<vzg index="4" vmax="105" vmaxr="105"/>
+			<vzg index="5" vmax="105" vmaxr="105"/>
+		</link>
+		<link source="16007" target="16006" length="145" gradient="5.05" vmax="105" vmaxr="105" owner="2017 10-12" buildingActivityNetworkSegment="EGIP">
+			<vzg index="1" vmax="105" vmaxr="105"/>
+			<vzg index="2" vmax="105" vmaxr="105"/>
+			<vzg index="3" vmax="105" vmaxr="105"/>
+			<vzg index="4" vmax="105" vmaxr="105"/>
+			<vzg index="5" vmax="105" vmaxr="105"/>
+		</link>
+		<link source="16243" target="10646" length="1" gradient="-9.346" vmax="145" vmaxr="145" owner="2017 10-12" buildingActivityNetworkSegment="EGIP">
+			<vzg index="1" vmax="145" vmaxr="145"/>
+			<vzg index="2" vmax="145" vmaxr="145"/>
+			<vzg index="3" vmax="145" vmaxr="145"/>
+			<vzg index="4" vmax="145" vmaxr="145"/>
+			<vzg index="5" vmax="145" vmaxr="145"/>
+		</link>
+		<link source="16243" target="16244" length="13" gradient="-9.346" vmax="145" vmaxr="145" owner="2017 10-12" buildingActivityNetworkSegment="EGIP">
+			<vzg index="1" vmax="145" vmaxr="145"/>
+			<vzg index="2" vmax="145" vmaxr="145"/>
+			<vzg index="3" vmax="145" vmaxr="145"/>
+			<vzg index="4" vmax="145" vmaxr="145"/>
+			<vzg index="5" vmax="145" vmaxr="145"/>
+		</link>
+		<link source="16244" target="1869" length="63" gradient="-9.346" vmax="145" vmaxr="145" owner="2017 10-12" buildingActivityNetworkSegment="EGIP">
+			<vzg index="1" vmax="145" vmaxr="145"/>
+			<vzg index="2" vmax="145" vmaxr="145"/>
+			<vzg index="3" vmax="145" vmaxr="145"/>
+			<vzg index="4" vmax="145" vmaxr="145"/>
+			<vzg index="5" vmax="145" vmaxr="145"/>
+		</link>
+		<link source="17429" target="17431" length="7" gradient="-9.346" vmax="145" vmaxr="145" owner="2017 10-12" buildingActivityNetworkSegment="EGIP">
+			<vzg index="1" vmax="145" vmaxr="145"/>
+			<vzg index="2" vmax="145" vmaxr="145"/>
+			<vzg index="3" vmax="145" vmaxr="145"/>
+			<vzg index="4" vmax="145" vmaxr="145"/>
+			<vzg index="5" vmax="145" vmaxr="145"/>
+		</link>
+		<link source="17430" target="17443" length="70" gradient="-9.346" vmax="145" vmaxr="145" owner="2017 10-12" buildingActivityNetworkSegment="EGIP">
+			<vzg index="1" vmax="145" vmaxr="145"/>
+			<vzg index="2" vmax="145" vmaxr="145"/>
+			<vzg index="3" vmax="145" vmaxr="145"/>
+			<vzg index="4" vmax="145" vmaxr="145"/>
+			<vzg index="5" vmax="145" vmaxr="145"/>
+		</link>
+		<link source="17431" target="17430" length="11" gradient="-9.346" vmax="145" vmaxr="145" owner="2017 10-12" buildingActivityNetworkSegment="EGIP">
+			<vzg index="1" vmax="145" vmaxr="145"/>
+			<vzg index="2" vmax="145" vmaxr="145"/>
+			<vzg index="3" vmax="145" vmaxr="145"/>
+			<vzg index="4" vmax="145" vmaxr="145"/>
+			<vzg index="5" vmax="145" vmaxr="145"/>
+		</link>
+		<link source="17442" target="17748" length="40" gradient="-2.558" vmax="145" vmaxr="145" owner="2017 10-12" buildingActivityNetworkSegment="EGIP">
+			<vzg index="1" vmax="145" vmaxr="145"/>
+			<vzg index="2" vmax="145" vmaxr="145"/>
+			<vzg index="3" vmax="145" vmaxr="145"/>
+			<vzg index="4" vmax="145" vmaxr="145"/>
+			<vzg index="5" vmax="145" vmaxr="145"/>
+		</link>
+		<link source="17443" target="17449" length="6" gradient="-9.346" vmax="145" vmaxr="145" owner="2017 10-12" buildingActivityNetworkSegment="EGIP">
+			<vzg index="1" vmax="145" vmaxr="145"/>
+			<vzg index="2" vmax="145" vmaxr="145"/>
+			<vzg index="3" vmax="145" vmaxr="145"/>
+			<vzg index="4" vmax="145" vmaxr="145"/>
+			<vzg index="5" vmax="145" vmaxr="145"/>
+		</link>
+		<link source="17449" target="17442" length="20" gradient="-2.558" vmax="145" vmaxr="145" owner="2017 10-12" buildingActivityNetworkSegment="EGIP">
+			<vzg index="1" vmax="145" vmaxr="145"/>
+			<vzg index="2" vmax="145" vmaxr="145"/>
+			<vzg index="3" vmax="145" vmaxr="145"/>
+			<vzg index="4" vmax="145" vmaxr="145"/>
+			<vzg index="5" vmax="145" vmaxr="145"/>
+		</link>
+		<link source="17748" target="17750" length="97" gradient="-2.558" vmax="145" vmaxr="145" owner="2017 10-12" buildingActivityNetworkSegment="EGIP">
+			<vzg index="1" vmax="145" vmaxr="145"/>
+			<vzg index="2" vmax="145" vmaxr="145"/>
+			<vzg index="3" vmax="145" vmaxr="145"/>
+			<vzg index="4" vmax="145" vmaxr="145"/>
+			<vzg index="5" vmax="145" vmaxr="145"/>
+		</link>
+		<link source="17749" target="224" length="48" gradient="-2.558" vmax="145" vmaxr="145" owner="2017 10-12" buildingActivityNetworkSegment="EGIP">
+			<vzg index="1" vmax="145" vmaxr="145"/>
+			<vzg index="2" vmax="145" vmaxr="145"/>
+			<vzg index="3" vmax="145" vmaxr="145"/>
+			<vzg index="4" vmax="145" vmaxr="145"/>
+			<vzg index="5" vmax="145" vmaxr="145"/>
+		</link>
+		<link source="17750" target="17749" length="49" gradient="-2.558" vmax="145" vmaxr="145" owner="2017 10-12" buildingActivityNetworkSegment="EGIP">
+			<vzg index="1" vmax="145" vmaxr="145"/>
+			<vzg index="2" vmax="145" vmaxr="145"/>
+			<vzg index="3" vmax="145" vmaxr="145"/>
+			<vzg index="4" vmax="145" vmaxr="145"/>
+			<vzg index="5" vmax="145" vmaxr="145"/>
+		</link>
+	</links>
+	<dependentLinks>
+		<dependentLink source="16000" target="16003" direction="opposite" mode="and" active="true" waitingPeriod="0">
+			<link source="1649" target="1650" direction="opposite" trainclasses="FRz"/>
+			<link source="1650" target="1783" direction="opposite" trainclasses="FRz"/>
+		</dependentLink>
+	</dependentLinks>
+	<blockSections>
+		<blocksection uuid="{53e27bc7-b915-4653-b42b-fab6ab16c8e8}" lines="uddjn">
+			<part nodes="17749 224 10874 10876 13239 10875 10829"/>
+		</blocksection>
+		<blocksection uuid="{5da18320-0199-4fdc-b797-317b95ede81f}" lines="uddjn">
+			<part nodes="1649 1591 1786 82 7 80 81 1805 1865 1785 1269"/>
+		</blocksection>
+		<blocksection uuid="{6376224e-0ffb-4f60-bfef-bf635b614491}" lines="sc001 uddjn">
+			<part nodes="2 67"/>
+		</blocksection>
+		<blocksection uuid="{6bca656c-9707-4001-8bfb-93ab5d71d030}" lines="newts sc001 uddjn">
+			<part nodes="1783 1650 1649"/>
+		</blocksection>
+		<blocksection uuid="{842b1f9d-dc6c-467c-a449-1214cd52b492}" lines="sc011 uddjn" speedIndicators="10646">
+			<part nodes="1269 1806 1870 1869 16244 16243 10646 10648 10647 10653 10721 10724 10723 10725 14086"/>
+		</blocksection>
+		<blocksection uuid="{8a1a2256-4519-45e1-9fd8-28e1e9048b92}" lines="newts sc001 uddjn">
+			<part nodes="1783 1650 1649"/>
+		</blocksection>
+		<blocksection uuid="{ab3b8fcc-6bbc-471a-b381-6911d6467c40}" lines="sc011 uddjn" speedIndicators="16002">
+			<part nodes="143 16006 16007 16005 16004 16001 16003 16000 16002 17429 17431 17430 17443 17449 17442 17748 17750 17749"/>
+		</blocksection>
+		<blocksection uuid="{c99192cc-8671-4df0-83e5-9dc056a4e060}" lines="sc001 uddjn">
+			<part nodes="1269 1806 1870 1869 16244 16243 16000 69 77 74 91 1"/>
+		</blocksection>
+		<blocksection uuid="{d5d948fb-ecdc-4f8b-b271-406a33a48d15}" lines="uddjn">
+			<part nodes="67 68 70 17429 17431 17430 17443 17449 17442 17748 17750 17749"/>
+		</blocksection>
+	</blockSections>
+	<slipDistances>
+		<slipdistance uuid="{0dcb6d81-57e3-4d6b-b22f-0576f59db84f}" publicName="CROSSOVER" vmax="999" lines="uddjn" serialNumber="1">
+			<part nodes="1269 1806 1870 1869 16244 16243 10646 10648 10647"/>
+		</slipdistance>
+		<slipdistance uuid="{10b15b2f-ec9e-49f0-bacc-bd8fbd1dbfb1}" vmax="999" lines="uddjn" serialNumber="0">
+			<part nodes="67 68"/>
+		</slipdistance>
+		<slipdistance uuid="{151d8610-1b72-49f7-aa1b-eee157c6598b}" vmax="999" lines="uddjn" serialNumber="0">
+			<part nodes="1649 1591 1786 82"/>
+		</slipdistance>
+		<slipdistance uuid="{5b01da23-040f-4e31-b0ee-d16509b4a165}" publicName="STRAIGHTAHEAD" vmax="999" lines="uddjn" serialNumber="0">
+			<part nodes="1269 1806 1870 1869 16244 16243 16000 69 77"/>
+		</slipdistance>
+	</slipDistances>
+	<approachControlRoutes>
+		<ACRoute controlTyp="may" uuid="{0b07daed-8dbf-4f8e-829a-3e0b1b82e7b0}" publicName="MAY-FA" lines="uddjn">
+			<part nodes="1649 1591 1786 82 7 80 81 1805 1865 1785 1269 1806 1870 1869 16244 16243 10646 10648 10647 10653 10721 10724 10723 10725 14086"/>
+		</ACRoute>
+		<ACRoute controlTyp="may" uuid="{32a81012-0128-4b83-a252-47c52b5c3daf}" publicName="MAY-FA" lines="uddjn">
+			<part nodes="1269 1806 1870 1869 16244 16243 10646 10648 10647 10653 10721 10724 10723 10725 14086"/>
+		</ACRoute>
+	</approachControlRoutes>
+	<stationRoutes>
+		<stationRoute stationID="UDNGSTN" name="[NWTLEJN]-[sc001/2]-[2]-[UDNGTNJ]-[sc001/2] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="1805 1865 1785 1269 1806"/>
+		<stationRoute stationID="UDNGSTN" name="[UDNGTNJ]-[sc001/1]-[1]-[NWTLEJN]-[sc001/1] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="17442 17748 17750 17749 224"/>
+		<stationRoute stationID="UDNGTNJ" name="[BLSHL]-[sc011/2]-[3]-[UDNGSTN]-[sc001/1] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=95;NRz=95;S=95;Rz=95;FGz=95;NGz=95;Gz=95;Lz=95;Unbekannt=95" nodes="143 16006 16007 16005 16004 16001 16003 16000 16002 17429 17431 17430 17443"/>
+		<stationRoute stationID="UDNGTNJ" name="[MOTHRWL]-[sc001/2]-[1]-[UDNGSTN]-[sc001/1] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="2 67 68 70 17429 17431 17430 17443"/>
+		<stationRoute stationID="UDNGTNJ" name="[UDNGSTN]-[sc001/2]-[2]-[MOTHRWL]-[sc001/1] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="1869 16244 16243 16000 69 77 74 91 1"/>
+		<stationRoute stationID="UDNGTNJ" name="[UDNGSTN]-[sc001/2]-[4]-[UDNGVPK]-[sc011/1] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=95;NRz=95;S=95;Rz=95;FGz=95;NGz=95;Gz=95;Lz=95;Unbekannt=95" nodes="1869 16244 16243 10646 10648 10647 10653 10721 10724 10723 10725 14086"/>
+	</stationRoutes>
+	<lineCatalog/>
+	<zugNummernFelder/>
+	<switchGears/>
+</line>

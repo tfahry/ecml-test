@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<line lineID="ketrn" name="Kettering North Junction" trafficRouting="on_the_left" type="global" dependentLines="md201a md201b md601">
+	<transformations>
+		<transformation line="md201a" m11="1" m12="0" m21="0" m22="1" dx="972306" dy="-35224.3"/>
+		<transformation line="md201b" m11="1" m12="0" m21="0" m22="1" dx="986968" dy="-34785.3"/>
+		<transformation line="md601" m11="1" m12="0" m21="0" m22="1" dx="928419" dy="35997"/>
+	</transformations>
+	<version major="1" minor="2" patchlevel="0" comment=""/>
+	<creator user="Ahowe4" timestamp="2016-11-01T12:54:22"/>
+	<lasteditor user="Ahowe4" timestamp="2016-11-01T12:54:22"/>
+	<stations>
+		<station stationID="KETRGNJ" name="Kettering North Jn" xNet="251861.67" yNet="2455867.3" uicLocationCode="0" circleDiameter="0">
+			<textElement type="name">
+				<pos view="net" x="3848.33" y="3848.33" angle="0" system="source"/>
+				<pos view="wgs84" x="3848.33" y="3848.33" angle="0" system="source"/>
+				<pos view="line" x="2691.56" y="2691.56" angle="0" system="source"/>
+				<pos view="macro" x="28.2843" y="28.2843" angle="0" system="source"/>
+				<pos view="macroWgs84" x="0" y="0" angle="0" system="source"/>
+			</textElement>
+		</station>
+	</stations>
+	<nodes>
+		<track trackID="U-1" stationID="KETRGNJ" interlockingMachine="3 Aspect Pannel (76mph - 100mph)" nodeID="11" name="SIG: LR67" description="3A" kilometre="118.757" x="258628" y="-35800" xNet="255141.06" yNet="2452935.8" referenceNode="2634"/>
+		<track trackID="U-3" stationID="KETRGNJ" interlockingMachine="3 Aspect Pannel (Below 75mph)" nodeID="10" name="SIG: LR71" description="3A" kilometre="118.757" x="258628" y="-36200" xNet="255358.77" yNet="2453270.7" referenceNode="1079"/>
+		<switch start="28" endOfMainTrack="1419" endOfBranchTrack="1913" nodeID="1418" name="POINTS: 720B" description="GEOGIS" kilometre="118.951" x="260568" y="-36200" xNet="253978.43" yNet="2454418.6"/>
+		<switch start="966" endOfMainTrack="2392" endOfBranchTrack="969" nodeID="965" name="POINTS: 720A" description="GEOGIS" kilometre="119.129" x="262348" y="-36000" xNet="252519.68" yNet="2455460.1"/>
+		<speedIndicator nodeID="1913" name="SPEED" kilometre="118.956" x="260618" y="-36194" xNet="253936.47" yNet="2454447.5" referenceNode="1418"/>
+		<speedIndicator nodeID="969" name="SPEED" kilometre="119.124" x="262298" y="-36005" xNet="252561.06" yNet="2455432.1" referenceNode="1913"/>
+		<track trackID="U-2" stationID="KETRGNJ" interlockingMachine="3 Aspect Pannel (76mph - 100mph)" nodeID="9" name="SIG: LR69" description="3A" kilometre="118.757" x="258628" y="-36000" xNet="255250.02" yNet="2453104" referenceNode="2635"/>
+		<node nodeID="2391" kilometre="119.000" x="261058" y="-35800" xNet="253346.02" yNet="2454448.6"/>
+		<node nodeID="2392" kilometre="119.000" x="261058" y="-36000" xNet="253479.31" yNet="2454598.6"/>
+		<node nodeID="1419" kilometre="119.000" x="261058" y="-36200" xNet="253612.16" yNet="2454745.8"/>
+		<switch start="965" endOfMainTrack="967" endOfBranchTrack="970" nodeID="966" name="POINTS: 721B" kilometre="119.167" x="262717" y="-36000" xNet="252356.31" yNet="2455608.4"/>
+		<switch start="6150" endOfMainTrack="2391" endOfBranchTrack="971" nodeID="6149" name="POINTS: 721A" kilometre="119.240" x="263457" y="-35800.348" xNet="251777.08" yNet="2455861.2"/>
+		<speedIndicator nodeID="970" name="SPEED" kilometre="119.170" x="262767" y="-35982.348" xNet="252308.02" yNet="2455628.9" referenceNode="966"/>
+		<speedIndicator nodeID="971" name="SPEED" kilometre="119.235" x="263407" y="-35816.348" xNet="251825.16" yNet="2455839.3" referenceNode="970"/>
+		<track trackID="D-3" stationID="KETRGNJ" interlockingMachine="3 Aspect Pannel (Below 75mph)" nodeID="5" name="SIG: LR78" description="3A" kilometre="119.460" x="265654" y="-36200.348" xNet="253041.97" yNet="2459453.8" referenceNode="3029"/>
+		<node nodeID="14" kilometre="119.470" x="265805" y="-36200" xNet="253042.16" yNet="2459531.8">
+			<netLimitInfo lineID="md601"/>
+		</node>
+		<stationBorder exitType="regular" stationID="KETRGNJ" lineID="md601" trackNumber="UDC" nodeID="3029" kilometre="119.465" x="265720.57" y="-36200" xNet="253042.03" yNet="2459477.2" referenceNode="5"/>
+		<node nodeID="2632" kilometre="118.700" x="258057.99" y="-35800" xNet="256033.34" yNet="2451876.4">
+			<netLimitInfo lineID="md201a"/>
+		</node>
+		<node nodeID="2633" kilometre="118.700" x="258056.57" y="-36000" xNet="256156.17" yNet="2452032.4">
+			<netLimitInfo lineID="md201a"/>
+		</node>
+		<node nodeID="1077" kilometre="118.700" x="258058.72" y="-36200" xNet="256253.52" yNet="2452217.9">
+			<netLimitInfo lineID="md201a"/>
+		</node>
+		<stationBorder exitType="regular" stationID="KETRGNJ" lineID="md201a" trackNumber="FLD" nodeID="2634" kilometre="118.720" x="258257.66" y="-35800" xNet="255715.26" yNet="2452257.4" referenceNode="11"/>
+		<stationBorder exitType="regular" stationID="KETRGNJ" lineID="md201a" trackNumber="FLU" nodeID="2635" kilometre="118.720" x="258256.54" y="-36000" xNet="255833.14" yNet="2452418" referenceNode="9"/>
+		<stationBorder exitType="regular" stationID="KETRGNJ" lineID="md201a" trackNumber="SLUD" nodeID="1079" kilometre="118.720" x="258258.23" y="-36200" xNet="255934.5" yNet="2452596.8" referenceNode="10"/>
+		<node nodeID="26" name="OL: LR67" description="185" kilometre="118.942" x="260478" y="-35800" xNet="253774.47" yNet="2454087.5"/>
+		<node nodeID="27" name="OL: LR69" description="185" kilometre="118.942" x="260478" y="-36000" xNet="253901.95" yNet="2454241.9"/>
+		<node nodeID="28" name="OL: LR71" description="185" kilometre="118.942" x="260478" y="-36200" xNet="254042.47" yNet="2454365.3"/>
+		<node nodeID="1099" kilometre="119.500" x="266057.03" y="-35800" xNet="247640.17" yNet="2459075">
+			<netLimitInfo lineID="md201b"/>
+		</node>
+		<node nodeID="2690" kilometre="119.500" x="266058.38" y="-36000" xNet="247772.76" yNet="2459224.3">
+			<netLimitInfo lineID="md201b"/>
+		</node>
+		<stationBorder exitType="regular" stationID="KETRGNJ" lineID="md201b" trackNumber="DM" nodeID="1101" kilometre="119.480" x="265856.82" y="-35800" xNet="247788.84" yNet="2458941.1" referenceNode="1092"/>
+		<stationBorder exitType="alternative" stationID="KETRGNJ" lineID="md201b" trackNumber="UM" nodeID="2691" kilometre="119.480" x="265858.9" y="-36000" xNet="247920.9" yNet="2459090.8" referenceNode="2689"/>
+		<node nodeID="29" name="OL: LR74" description="190" kilometre="119.270" x="263757.99" y="-35800" xNet="251318.05" yNet="2456270"/>
+		<node nodeID="30" name="OL: LR76" description="185" kilometre="119.285" x="263897.78" y="-36000" xNet="250635.85" yNet="2456952.3"/>
+		<node nodeID="31" name="OL: LR78" description="185" kilometre="119.285" x="263917.73" y="-36200" xNet="253008.98" yNet="2457601.1"/>
+		<track trackID="D-1" stationID="KETRGNJ" interlockingMachine="3 Aspect Pannel (76mph - 100mph)" nodeID="1092" name="SIG: LR74" description="3A" kilometre="119.460" x="265656.61" y="-35800" xNet="247937.52" yNet="2458807.1" referenceNode="1101"/>
+		<track trackID="D-2" stationID="KETRGNJ" interlockingMachine="3 Aspect Pannel (76mph - 100mph)" nodeID="2689" name="SIG: LR76" description="3A" kilometre="119.460" x="265659.42" y="-36000" xNet="248069.04" yNet="2458957.3" referenceNode="2691"/>
+		<track trackID="T-1" stationID="KETRGNJ" type="timingPoint" nodeID="6150" name="KETTERING N JN" description="DOWN MAIN" kilometre="119.250" x="263557.36" y="-35800.232" xNet="251624.03" yNet="2455997.5" referenceNode="6149"/>
+		<track trackID="T-2" stationID="KETRGNJ" type="timingPoint" nodeID="967" name="KETTERING N JN" description="UP MAIN" kilometre="119.250" x="263547.52" y="-36000" xNet="251146.19" yNet="2456553.7" referenceNode="966"/>
+		<track trackID="T-3" stationID="KETRGNJ" type="timingPoint" nodeID="114" name="KETTERING N JN" description="UP/DOWN CORBY" kilometre="119.250" x="263557.66" y="-36200" xNet="253002.41" yNet="2457232.4" referenceNode="1419"/>
+		<signal interlockingMachine="2 Aspect Pannel (Below 75mph)" nodeID="112" name="DUMMY: LR71" description="2A SINGLE LINE" kilometre="118.758" x="258638" y="-36200" xNet="255351.65" yNet="2453276.6" referenceNode="10"/>
+	</nodes>
+	<links>
+		<link source="5" target="3029" length="5" gradient="6.25" vmax="97" vmaxr="97" bidirectional="true"/>
+		<link source="9" target="27" length="185" gradient="8.475" vmax="161" vmaxr="161" radius="1100"/>
+		<link source="10" target="112" length="1" gradient="6.25" vmax="97" vmaxr="97" radius="3200"/>
+		<link source="11" target="26" length="185" gradient="8.475" vmax="161" vmaxr="161" radius="2100"/>
+		<link source="26" target="2391" length="58" gradient="8.475" vmax="161" vmaxr="161" radius="2100"/>
+		<link source="27" target="2392" length="58" gradient="8.475" vmax="161" vmaxr="161" radius="1100"/>
+		<link source="28" target="1418" length="9" gradient="6.25" vmax="97" vmaxr="97" radius="3200"/>
+		<link source="29" target="1092" length="190" gradient="8.475" vmax="161" vmaxr="161" radius="2100"/>
+		<link source="30" target="2689" length="175" gradient="8.475" vmax="161" vmaxr="161" radius="1100"/>
+		<link source="31" target="5" length="177" gradient="6.25" vmax="97" vmaxr="97" bidirectional="true"/>
+		<link source="112" target="28" length="184" gradient="6.25" vmax="97" vmaxr="97" radius="3200"/>
+		<link source="114" target="31" length="35" gradient="6.25" vmax="97" vmaxr="97" bidirectional="true"/>
+		<link source="965" target="966" length="38" gradient="8.475" vmax="161" vmaxr="161" radius="1100"/>
+		<link source="966" target="967" length="83" gradient="8.475" vmax="161" vmaxr="161" radius="1100"/>
+		<link source="966" target="970" length="3" gradient="8.475" vmax="161" vmaxr="161" radius="3700"/>
+		<link source="967" target="30" length="35" gradient="8.475" vmax="161" vmaxr="161" radius="1100"/>
+		<link source="969" target="965" length="5" gradient="8.475" vmax="161" vmaxr="161" radius="3200"/>
+		<link source="970" target="971" length="65" gradient="8.475" vmax="64" vmaxr="64" radius="3700"/>
+		<link source="971" target="6149" length="5" gradient="8.475" vmax="161" vmaxr="161" radius="3700"/>
+		<link source="1077" target="1079" length="20" gradient="6.25" vmax="97" vmaxr="97" radius="3200"/>
+		<link source="1079" target="10" length="37" gradient="6.25" vmax="97" vmaxr="97" radius="3200"/>
+		<link source="1092" target="1101" length="20" gradient="8.475" vmax="161" vmaxr="161" radius="2100"/>
+		<link source="1101" target="1099" length="20" gradient="8.475" vmax="161" vmaxr="161" radius="2100"/>
+		<link source="1418" target="1419" length="49" gradient="6.25" vmax="97" vmaxr="97" bidirectional="true"/>
+		<link source="1418" target="1913" length="5" gradient="6.25" vmax="97" vmaxr="97" radius="3200"/>
+		<link source="1419" target="114" length="250" gradient="6.25" vmax="97" vmaxr="97" bidirectional="true"/>
+		<link source="1913" target="969" length="168" gradient="6.25" vmax="64" vmaxr="64" radius="3200"/>
+		<link source="2391" target="6149" length="240" gradient="8.475" vmax="161" vmaxr="161" radius="2100"/>
+		<link source="2392" target="965" length="129" gradient="8.475" vmax="161" vmaxr="161" radius="1100"/>
+		<link source="2632" target="2634" length="20" gradient="8.475" vmax="161" vmaxr="161" radius="2100"/>
+		<link source="2633" target="2635" length="20" gradient="8.475" vmax="161" vmaxr="161" radius="1100"/>
+		<link source="2634" target="11" length="37" gradient="8.475" vmax="161" vmaxr="161" radius="2100"/>
+		<link source="2635" target="9" length="37" gradient="8.475" vmax="161" vmaxr="161" radius="1100"/>
+		<link source="2689" target="2691" length="20" gradient="8.475" vmax="161" vmaxr="161" radius="1100"/>
+		<link source="2691" target="2690" length="20" gradient="8.475" vmax="161" vmaxr="161" radius="1100"/>
+		<link source="3029" target="14" length="5" gradient="6.25" vmax="97" vmaxr="97" bidirectional="true"/>
+		<link source="6149" target="6150" length="10" gradient="8.475" vmax="161" vmaxr="161" radius="2100"/>
+		<link source="6150" target="29" length="20" gradient="8.475" vmax="161" vmaxr="161" radius="2100"/>
+	</links>
+	<dependentLinks/>
+	<blockSections>
+		<blocksection uuid="{02d671cb-b23d-42ae-8fa2-47a9bc123100}" lines="ketrn md201b">
+			<part nodes="1099 1101 1092"/>
+		</blocksection>
+		<blocksection uuid="{160dad9a-086e-4d29-ace2-d666f3e481e4}" lines="ketrn md201b">
+			<part nodes="2690 2691 2689"/>
+		</blocksection>
+		<blocksection uuid="{2274eeea-63a8-4eba-a28c-57dd7fd56eb2}" lines="ketrn md601">
+			<part nodes="112 28 1418 1419 114 31 5 3029 14"/>
+		</blocksection>
+		<blocksection uuid="{2bba9a26-1dcc-4318-a2f9-0d3fccd461df}" lines="ketrn md601">
+			<part nodes="14 3029 5"/>
+		</blocksection>
+		<blocksection uuid="{40e6e62f-42f0-4f2c-8cdd-e3905d00f3fd}" lines="ketrn md201a">
+			<part nodes="5 31 114 1419 1418 28 112 10 1079 1077"/>
+		</blocksection>
+		<blocksection uuid="{60d90f4e-2437-4c97-ad16-3c0c8b296131}" lines="ketrn md201a">
+			<part nodes="1077 1079 10"/>
+		</blocksection>
+		<blocksection uuid="{6ef9052e-ab76-495b-bd7c-889589bf1fa5}" lines="ketrn md201b" speedIndicators="970 971">
+			<part nodes="9 27 2392 965 966 970 971 6149 6150 29 1092 1101 1099"/>
+		</blocksection>
+		<blocksection uuid="{7266b45f-a4a2-48be-adcd-3ec8d0ebfda3}" lines="ketrn md201a">
+			<part nodes="1077 1079 10"/>
+		</blocksection>
+		<blocksection uuid="{734c557d-9fec-4958-9144-61d477018fe7}" lines="ketrn md201a" speedIndicators="970 971">
+			<part nodes="1092 29 6150 6149 971 970 966 965 2392 27 9 2635 2633"/>
+		</blocksection>
+		<blocksection uuid="{7d88424a-b39c-425f-9c21-e5d4a37284ac}" lines="ketrn md201a">
+			<part nodes="2632 2634 11"/>
+		</blocksection>
+		<blocksection uuid="{8c056840-48e9-424f-adf5-4b2a499d6cf6}" lines="ketrn md201a">
+			<part nodes="2689 30 967 966 965 2392 27 9 2635 2633"/>
+		</blocksection>
+		<blocksection uuid="{9243486f-3054-4196-8f5e-32e7658b7541}" lines="ketrn md201b" speedIndicators="971 1913">
+			<part nodes="10 112 28 1418 1913 969 965 966 970 971 6149 6150 29 1092 1101 1099"/>
+		</blocksection>
+		<blocksection uuid="{a8715096-ccb9-4198-96f4-22de4a5a471a}" lines="ketrn md201a" speedIndicators="971 1913">
+			<part nodes="1092 29 6150 6149 971 970 966 965 969 1913 1418 28 112 10 1079 1077"/>
+		</blocksection>
+		<blocksection uuid="{a88f36e8-b13c-48eb-986c-dcddf054a5ec}" lines="ketrn md201b">
+			<part nodes="11 26 2391 6149 6150 29 1092 1101 1099"/>
+		</blocksection>
+		<blocksection uuid="{b3103fa2-0c47-46f0-97fb-4548acd016bc}" lines="ketrn md201a">
+			<part nodes="2633 2635 9"/>
+		</blocksection>
+		<blocksection uuid="{b554bfea-f51a-4bf1-bf19-2a1f0dac450e}" lines="ketrn">
+			<part nodes="10 112"/>
+		</blocksection>
+		<blocksection uuid="{d359c5b0-18e9-4282-abe0-924272f9e831}" lines="ketrn md201a">
+			<part nodes="1092 29 6150 6149 2391 26 11 2634 2632"/>
+		</blocksection>
+		<blocksection uuid="{d94234dc-77ac-4211-a40b-5cc247101e09}" lines="ketrn md201a" speedIndicators="969 1913">
+			<part nodes="2689 30 967 966 965 969 1913 1418 28 112 10 1079 1077"/>
+		</blocksection>
+	</blockSections>
+	<slipDistances>
+		<slipdistance uuid="{04bc0652-33bf-48ab-bd12-0facb1c1c528}" vmax="999" lines="ketrn" serialNumber="0">
+			<part nodes="2689 30"/>
+		</slipdistance>
+		<slipdistance uuid="{3a44d4c0-e877-411b-93a3-9c21aa3758d7}" vmax="999" lines="ketrn" serialNumber="0">
+			<part nodes="10 112 28"/>
+		</slipdistance>
+		<slipdistance uuid="{3c7fba89-6845-4569-9f55-8915108627d1}" vmax="999" lines="ketrn" serialNumber="0">
+			<part nodes="11 26"/>
+		</slipdistance>
+		<slipdistance uuid="{4da38c72-007e-4e41-ba0a-a69acce21fe0}" vmax="999" lines="ketrn" serialNumber="0">
+			<part nodes="1092 29"/>
+		</slipdistance>
+		<slipdistance uuid="{4ef94e9d-0e65-45a5-9b0f-39377db021d4}" vmax="999" lines="ketrn" serialNumber="0">
+			<part nodes="5 31"/>
+		</slipdistance>
+		<slipdistance uuid="{fef1061c-4c94-4015-b3cc-229475ddaff7}" vmax="999" lines="ketrn" serialNumber="0">
+			<part nodes="9 27"/>
+		</slipdistance>
+	</slipDistances>
+	<approachControlRoutes>
+		<ACRoute controlTyp="mar" uuid="{28c856c0-2637-40e4-86f0-c730d6df7751}" publicName="LR76" lines="ketrn">
+			<part nodes="2689 30 967 966 965 969 1913 1418"/>
+		</ACRoute>
+		<ACRoute controlTyp="mar" uuid="{63153a1d-a5f5-4ad7-bf1e-3373d402f8ec}" publicName="LR74" lines="ketrn">
+			<part nodes="1092 29 6150 6149 971 970 966"/>
+		</ACRoute>
+		<ACRoute controlTyp="mar" uuid="{6717b0d4-aa28-407d-8cce-bb0ab76ce7d5}" publicName="LR69" lines="ketrn">
+			<part nodes="9 27 2392 965 966 970 971 6149"/>
+		</ACRoute>
+		<ACRoute controlTyp="mar" uuid="{67a7160c-441d-4570-b8ed-b0245c53ebbc}" publicName="LR71" lines="ketrn">
+			<part nodes="10 112 28 1418 1913 969 965"/>
+		</ACRoute>
+	</approachControlRoutes>
+	<stationRoutes>
+		<stationRoute stationID="KETRGNJ" name="[CORBYNJ]-[md601/UDC]-[3]-[KETR]-[md201/SLUD] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="3029 5 31 114 1419 1418 28 112 10 1079"/>
+		<stationRoute stationID="KETRGNJ" name="[KETR]-[md201/FLD]-[1]-[MRKTHRB]-[md201/DM] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="2634 11 26 2391 6149 6150 29 1092 1101"/>
+		<stationRoute stationID="KETRGNJ" name="[KETR]-[md201/FLU]-[1-2]-[MRKTHRB]-[md201/DM] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=90;NRz=90;S=90;Rz=90;FGz=90;NGz=90;Gz=90;Lz=90;Unbekannt=90" nodes="2635 9 27 2392 965 966 970 971 6149 6150 29 1092 1101"/>
+		<stationRoute stationID="KETRGNJ" name="[KETR]-[md201/SLUD]-[1-3]-[MRKTHRB]-[md201/DM] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=80;NRz=80;S=80;Rz=80;FGz=80;NGz=80;Gz=80;Lz=80;Unbekannt=80" nodes="1079 10 112 28 1418 1913 969 965 966 970 971 6149 6150 29 1092 1101"/>
+		<stationRoute stationID="KETRGNJ" name="[KETR]-[md201/SLUD]-[3]-[CORBYNJ]-[md601/UDC] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="1079 10 112 28 1418 1419 114 31 5 3029"/>
+		<stationRoute stationID="KETRGNJ" name="[MRKTHRB]-[md201/DM]-[1]-[KETR]-[md201/FLD] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="1101 1092 29 6150 6149 2391 26 11 2634"/>
+		<stationRoute stationID="KETRGNJ" name="[MRKTHRB]-[md201/DM]-[1]-[KETR]-[md201/FLU] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=90;NRz=90;S=90;Rz=90;FGz=90;NGz=90;Gz=90;Lz=90;Unbekannt=90" nodes="1101 1092 29 6150 6149 971 970 966 965 2392 27 9 2635"/>
+		<stationRoute stationID="KETRGNJ" name="[MRKTHRB]-[md201/DM]-[1]-[KETR]-[md201/SLUD] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=80;NRz=80;S=80;Rz=80;FGz=80;NGz=80;Gz=80;Lz=80;Unbekannt=80" nodes="1101 1092 29 6150 6149 971 970 966 965 969 1913 1418 28 112 10 1079"/>
+		<stationRoute stationID="KETRGNJ" name="[MRKTHRB]-[md201/UM]-[2]-[KETR]-[md201/FLU] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="2691 2689 30 967 966 965 2392 27 9 2635"/>
+		<stationRoute stationID="KETRGNJ" name="[MRKTHRB]-[md201/UM]-[2]-[KETR]-[md201/SLUD] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=90;NRz=90;S=90;Rz=90;FGz=90;NGz=90;Gz=90;Lz=90;Unbekannt=90" nodes="2691 2689 30 967 966 965 969 1913 1418 28 112 10 1079"/>
+	</stationRoutes>
+	<lineCatalog/>
+	<zugNummernFelder/>
+	<switchGears/>
+</line>

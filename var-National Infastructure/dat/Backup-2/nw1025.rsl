@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<line lineID="nw1025" name="Ince Moss Jn - Bamfurlong Sidings Jn" trafficRouting="on_the_left" type="local" dependentLines="bmflsj incemj">
+	<version major="1" minor="2" patchlevel="0" comment=""/>
+	<creator user="VWaddelo" timestamp="2016-07-08T10:58:15"/>
+	<lasteditor user="VWaddelo" timestamp="2016-07-08T10:58:15"/>
+	<stations/>
+	<nodes>
+		<node nodeID="305" name="SD : 103" description="sighting distance for SIG : 103" kilometre="1.193" x="198890.86" y="-2349.1168" xNet="-1847569.8" yNet="4544438.8" referenceNode="331" sightingDistance="true"/>
+		<node nodeID="307" name="SD : 105" description="sighting distance for SIG : 105" kilometre="0.705" x="196990.86" y="-2549.1168" xNet="-1846496.7" yNet="4543626" referenceNode="286" sightingDistance="true"/>
+		<node nodeID="286" name="1000MM" description="1000MM : 20" kilometre="1.082" x="197590.86" y="-2549.1168" xNet="-1847324.9" yNet="4544600"/>
+		<node nodeID="331" name="1000MM" description="1000MM : 20" kilometre="1.082" x="197290.86" y="-2349.1168" xNet="-1847387" yNet="4544383.6"/>
+	</nodes>
+	<links>
+		<link source="2.incemj" target="305" length="49" vmax="32" vmaxr="32"/>
+		<link source="286" target="307" length="377" vmax="32" vmaxr="32"/>
+		<link source="305" target="331" length="111" vmax="32" vmaxr="32"/>
+		<link source="307" target="495.bmflsj" length="38" vmax="32" vmaxr="32"/>
+		<link source="331" target="498.bmflsj" length="295" vmax="32" vmaxr="32"/>
+		<link source="501.incemj" target="286" length="118" vmax="32" vmaxr="32"/>
+	</links>
+	<dependentLinks/>
+	<blockSections>
+		<blocksection uuid="{79c18f6c-ae6e-4ee2-bf0b-46abbd0fdac2}" lines="bmflsj incemj nw1025" shuntingBlock="true">
+			<part nodes="501.incemj 286 307 495.bmflsj"/>
+		</blocksection>
+		<blocksection uuid="{d9a28140-f4e9-44db-ba7d-6107cc605268}" lines="bmflsj incemj nw1025">
+			<part nodes="498.bmflsj 331 305 2.incemj"/>
+		</blocksection>
+		<blocksection uuid="{eb217d76-93dd-4e72-9a98-b273ae66a90a}" lines="bmflsj incemj nw1025" shuntingBlock="true">
+			<part nodes="498.bmflsj 331 305 2.incemj"/>
+		</blocksection>
+		<blocksection uuid="{f3012d51-fdd8-4911-b5e1-acbdf4e775a9}" lines="bmflsj incemj nw1025">
+			<part nodes="501.incemj 286 307 495.bmflsj"/>
+		</blocksection>
+	</blockSections>
+	<slipDistances/>
+	<approachControlRoutes/>
+	<stationRoutes/>
+	<lineCatalog/>
+	<zugNummernFelder/>
+	<switchGears/>
+</line>

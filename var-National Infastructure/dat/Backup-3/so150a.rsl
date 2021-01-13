@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<line lineID="so150a" name="SO150A Sittingbourne West - Middle Jn" trafficRouting="on_the_left" type="local" dependentLines="stngm stngw">
+	<version major="1" minor="2" patchlevel="0" comment=""/>
+	<creator user="Ahowe4" timestamp="2016-11-01T12:54:22"/>
+	<lasteditor user="Ahowe4" timestamp="2016-11-01T12:54:22"/>
+	<stations/>
+	<nodes>
+		<speedIndicator nodeID="123" name="SPEED" description="Speed; 44m 5ch" kilometre="70.912" x="709120" y="400" xNet="1969922.4" yNet="452414.33" referenceNode="167.stngw"/>
+		<node nodeID="124" name="1000MM" description="1000MM : 71" kilometre="71.000" x="710000" y="400" xNet="1970075.2" yNet="453280.78"/>
+		<node nodeID="180" name="SD : 6" description="sighting distance for SIG : 6" kilometre="70.979" x="709790" y="400" xNet="1970038.7" yNet="453073.83" referenceNode="123" sightingDistance="true"/>
+		<speedIndicator nodeID="9" name="SPEED" description="Speed; 44m 5ch" kilometre="70.912" x="709120" y="200" xNet="1970119.5" yNet="452379.5" referenceNode="243"/>
+		<node nodeID="243" name="TC" kilometre="70.967" x="709670" y="200" xNet="1970215" yNet="452920.96" referenceNode="9" releaseContact="true" arranged="true"/>
+		<node nodeID="244" name="TC" kilometre="70.968" x="709680" y="200" xNet="1970216.7" yNet="452930.77" referenceNode="256.stngm" releaseContact="true" arranged="true"/>
+	</nodes>
+	<links>
+		<link source="9" target="243" length="55" gradient="-20" vmaxr="32"/>
+		<link source="120.stngw" target="9" length="73" gradient="-20" vmaxr="48"/>
+		<link source="123" target="180" length="67" gradient="-20" vmax="32"/>
+		<link source="124" target="250.stngm" length="16" gradient="-20" vmax="32"/>
+		<link source="167.stngw" target="123" length="68" gradient="-20" vmax="48"/>
+		<link source="180" target="124" length="21" gradient="-20" vmax="32"/>
+		<link source="243" target="244" length="1" gradient="-20" vmaxr="32"/>
+		<link source="244" target="256.stngm" length="5" gradient="-20" vmaxr="32"/>
+	</links>
+	<dependentLinks/>
+	<blockSections>
+		<blocksection uuid="{4b7dceae-6f0e-4778-9a39-88cf81f6dce2}" lines="so150a stngm stngw" speedIndicators="123">
+			<part nodes="167.stngw 123 180 124 250.stngm"/>
+		</blocksection>
+		<blocksection uuid="{bc13a63a-3620-4e8f-af88-00109eda71ac}" lines="so150a stngm stngw" speedIndicators="9">
+			<part nodes="256.stngm 244 243 9 120.stngw"/>
+		</blocksection>
+	</blockSections>
+	<slipDistances/>
+	<approachControlRoutes/>
+	<stationRoutes/>
+	<lineCatalog/>
+	<zugNummernFelder/>
+	<switchGears/>
+</line>

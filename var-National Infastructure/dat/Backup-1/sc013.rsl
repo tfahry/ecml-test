@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<line lineID="sc013" name="Shiledmuir - Wishaw Central Station" trafficRouting="on_the_left" type="local" dependentLines="shiel wishc">
+	<version major="1" minor="2" patchlevel="0" comment=""/>
+	<creator user="VWaddelo" timestamp="2016-07-08T10:58:15"/>
+	<lasteditor user="VWaddelo" timestamp="2016-07-08T10:58:15"/>
+	<stations/>
+	<nodes>
+		<node nodeID="132" kilometre="140.128" x="1387374.28916013" y="-169771.369581149" xNet="-3009891.13409718" yNet="8983184.98256241" referenceNode="134" sightingDistance="true">
+			<textElement type="name">
+				<pos view="net" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="wgs84" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="line" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="macro" x="55.47" y="83.205" angle="0" system="source"/>
+			</textElement>
+			<textElement type="kilo">
+				<pos view="net" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="wgs84" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="line" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="macro" x="49.9756" y="-62.4695" angle="0" system="source"/>
+			</textElement>
+		</node>
+		<node nodeID="133" name="GRAD" kilometre="140.112" x="1387132.31865285" y="-169770.68238342" xNet="-3009580.14611399" yNet="8983168.02176166">
+			<textElement type="name">
+				<pos view="net" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="wgs84" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="line" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="macro" x="55.47" y="83.205" angle="0" system="source"/>
+			</textElement>
+			<textElement type="kilo">
+				<pos view="net" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="wgs84" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="line" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="macro" x="49.9756" y="-62.4695" angle="0" system="source"/>
+			</textElement>
+		</node>
+		<node nodeID="134" kilometre="140.331" x="1390452.42288297" y="-169780.111499857" xNet="-3013847.24680366" yNet="8983400.74279431" referenceNode="132" sightingDistance="true">
+			<textElement type="name">
+				<pos view="net" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="wgs84" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="line" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="macro" x="55.47" y="83.205" angle="0" system="source"/>
+			</textElement>
+			<textElement type="kilo">
+				<pos view="net" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="wgs84" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="line" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="macro" x="49.9756" y="-62.4695" angle="0" system="source"/>
+			</textElement>
+		</node>
+	</nodes>
+	<links>
+		<link source="132" target="134" length="203" gradient="-20" vmax="56" vmaxr="56" owner="2017 10-12" buildingActivityNetworkSegment="EGIP"/>
+		<link source="133" target="132" length="16" gradient="-20" vmax="56" vmaxr="56" owner="2017 10-12" buildingActivityNetworkSegment="EGIP"/>
+		<link source="133.wishc" target="133" length="75" gradient="-20" vmax="56" vmaxr="56" owner="2017 10-12" buildingActivityNetworkSegment="EGIP"/>
+		<link source="134" target="194.shiel" length="55" gradient="-20" vmax="56" vmaxr="56" owner="2017 10-12" buildingActivityNetworkSegment="EGIP"/>
+	</links>
+	<dependentLinks/>
+	<blockSections>
+		<blocksection uuid="{60e69eeb-c1a2-4be3-84fb-41023c5c2198}" lines="sc011 sc013 shiel wishc">
+			<part nodes="133.wishc 133 132 134 194.shiel"/>
+		</blocksection>
+		<blocksection uuid="{beae4b43-ecb1-44fe-9228-4ebe65f95316}" lines="sc013 shiel wishc">
+			<part nodes="194.shiel 134 132 133 133.wishc"/>
+		</blocksection>
+		<blocksection uuid="{cad3b8b2-f383-418d-a7f4-9428f68973e3}" lines="sc013 shiel wishc">
+			<part nodes="194.shiel 134 132 133 133.wishc"/>
+		</blocksection>
+		<blocksection uuid="{f0d913dd-fbd5-4559-8e9c-7a3de6125a7d}" lines="sc011 sc013 shiel wishc">
+			<part nodes="133.wishc 133 132 134 194.shiel"/>
+		</blocksection>
+	</blockSections>
+	<slipDistances/>
+	<approachControlRoutes/>
+	<stationRoutes/>
+	<lineCatalog/>
+	<zugNummernFelder/>
+	<switchGears/>
+</line>

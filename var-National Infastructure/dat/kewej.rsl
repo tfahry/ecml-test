@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<line lineID="kewej" name="Kew East Jn" trafficRouting="on_the_left" type="global" dependentLines="sw240 sw240a">
+	<transformations>
+		<transformation line="ea1310" m11="1" m12="0" m21="0" m22="1" dx="-672976" dy="-568857"/>
+		<transformation line="sw240" m11="-1.20803" m12="-0.210714" m21="1.10213" m22="-0.855761" dx="394908" dy="750794"/>
+		<transformation line="sw240a" m11="-3.5401" m12="0.84044" m21="-2.29897" m22="-1.29416" dx="4.6167e+06" dy="193234"/>
+		<transformation line="sw242" m11="0.829038" m12="-0.559193" m21="0.559193" m22="0.829038" dx="-897522" dy="-107224"/>
+	</transformations>
+	<version major="1" minor="2" patchlevel="0" comment=""/>
+	<creator user="Ahowe4" timestamp="2016-11-01T12:54:22"/>
+	<lasteditor user="Ahowe4" timestamp="2016-11-01T12:54:22"/>
+	<stations>
+		<station stationID="KEWEJ" name="Kew East Junction" xNet="827027.005" yNet="696898.39" uicLocationCode="0" circleDiameter="0">
+			<textElement type="name">
+				<pos view="net" x="3783.07" y="3783.07" angle="0" system="source"/>
+				<pos view="wgs84" x="3783.07" y="3783.07" angle="0" system="source"/>
+				<pos view="line" x="1706.32" y="1706.32" angle="0" system="source"/>
+				<pos view="macro" x="28.2843" y="28.2843" angle="0" system="source"/>
+				<pos view="macroWgs84" x="0" y="0" angle="0" system="source"/>
+			</textElement>
+		</station>
+	</stations>
+	<nodes>
+		<track trackID="S-1" stationID="KEWEJ" interlockingMachine="3 Aspect Pannel (Below 75mph)" nodeID="60075" kilometre="5.254" x="821844" y="684457.36" xNet="830173.15" yNet="700149.99" referenceNode="60077"/>
+		<track trackID="S-2" stationID="KEWEJ" interlockingMachine="3 Aspect Pannel (Below 75mph)" nodeID="60084" kilometre="5.254" x="821936" y="684308.5" xNet="830385.24" yNet="699970.58" referenceNode="6"/>
+		<stationBorder exitType="regular" stationID="KEWEJ" lineID="sw240a" trackNumber="1" nodeID="3" name="[SATONJ] - [e1310/1]" kilometre="5.194" x="822168.42" y="684667.62" xNet="830625.56" yNet="700601.49" referenceNode="60075">
+			<netLimitInfo lineID="sw240a"/>
+		</stationBorder>
+		<stationBorder exitType="alternative" stationID="KEWEJ" lineID="sw240a" trackNumber="2" nodeID="6" name="[SATONJ] - [e1310/2]" kilometre="5.194" x="822294.49" y="684532.84" xNet="830888.38" yNet="700457.7" referenceNode="60084">
+			<netLimitInfo lineID="sw240a"/>
+		</stationBorder>
+		<switch start="597" endOfMainTrack="618" endOfBranchTrack="653" nodeID="599" name="Points: 21A" description="Points: 3m 33ch" kilometre="5.492" x="819804.84" y="683130.72" xNet="827331.51" yNet="697304.68"/>
+		<signal type="shunting" interlockingMachine="Shunt" nodeID="597" name="SIG: KE19" description="SIGNAL: 3m 32ch" kilometre="5.472" x="819972.57" y="683239.64" xNet="827565.33" yNet="697538.41" referenceNode="218"/>
+		<signal type="shunting" interlockingMachine="Shunt" nodeID="600" name="SIG: KE22" description="SIGNAL: 3m 38ch" kilometre="5.592" x="819085.01" y="682464.4" xNet="826407.98" yNet="696008.27" referenceNode="637"/>
+		<speedIndicator nodeID="1" kilometre="5.366" x="821035" y="683710" xNet="829134.62" yNet="698695.21" referenceNode="17"/>
+		<speedIndicator nodeID="2" kilometre="5.366" x="820864.05" y="683818.58" xNet="828808.05" yNet="698780.8" referenceNode="5"/>
+		<node nodeID="14" name="GRAD" description="GRADIENT: 3m 29ch" kilometre="5.411" x="820430.45" y="683327.93" xNet="828287.64" yNet="697868.23"/>
+		<node nodeID="15" name="GRAD" description="GRADIENT: 3m 29ch" kilometre="5.411" x="820484.16" y="683571.87" xNet="828278.49" yNet="698251.37"/>
+		<switch start="2" endOfMainTrack="215" endOfBranchTrack="16" nodeID="5" name="Kew East Jn" description="Points: 3m 27ch" kilometre="5.371" x="820819.63" y="683789.73" xNet="828746.13" yNet="698718.89"/>
+		<switch start="1" endOfMainTrack="14" endOfBranchTrack="13" nodeID="8" name="Kew East Jn" description="Points: 3m 27ch" kilometre="5.371" x="821010.11" y="683681.1" xNet="829105.05" yNet="698641.75"/>
+		<speedIndicator nodeID="617" kilometre="5.535" x="819566.38" y="682777.01" xNet="827079.02" yNet="696679.13" referenceNode="598"/>
+		<speedIndicator nodeID="618" kilometre="5.535" x="819485.98" y="682923.17" xNet="826887.21" yNet="696859.61" referenceNode="613"/>
+		<crossing type="ekw" startOfMainTrack="617" startOfBranchTrack="601" endOfMainTrack="216" endOfBranchTrack="654" nodeID="598" name="Points: 21B" description="Points: 3m 35ch" kilometre="5.532" x="819588.21" y="682791.19" xNet="827109.45" yNet="696709.54"/>
+		<switch start="634" endOfMainTrack="619" endOfBranchTrack="598" nodeID="601" name="Points: 23B" kilometre="15.565" x="819233" y="682328.9" xNet="827113.98" yNet="695939.89"/>
+		<track trackID="U-1" stationID="KEWEJ" interlockingMachine="3 Aspect Pannel (Below 75mph)" nodeID="613" name="SIG: KE46" description="SIGNAL" kilometre="5.613" x="819239.06" y="682758.21" xNet="826544.85" yNet="696508.7" referenceNode="642"/>
+		<stationBorder exitType="regular" stationID="KEWEJ" lineID="sw240" trackNumber="1" nodeID="637" kilometre="5.634" x="818729.2" y="682233.34" xNet="825911.98" yNet="695512.43" referenceNode="600"/>
+		<stationBorder exitType="locked" stationID="KEWEJ" trackNumber="" nodeID="634" x="818744.36" y="682005.07" xNet="826435.42" yNet="695249.32" referenceNode="601"/>
+		<stationBorder exitType="locked" stationID="KEWEJ" trackNumber="" nodeID="619" kilometre="2.705" x="820071.63" y="682899.61" xNet="828272.54" yNet="697147.09" referenceNode="601"/>
+		<stationBorder exitType="alternative" stationID="KEWEJ" lineID="sw240" trackNumber="4" nodeID="628" kilometre="5.461" x="819963.3" y="681526.46" xNet="828228.88" yNet="694730.18" referenceNode="16">
+			<netLimitInfo lineID="sw240"/>
+		</stationBorder>
+		<stationBorder exitType="regular" stationID="KEWEJ" lineID="sw240" trackNumber="5" nodeID="643" kilometre="5.454" x="820192.52" y="681414.78" xNet="828870.66" yNet="694674.45" referenceNode="217">
+			<netLimitInfo lineID="sw240"/>
+		</stationBorder>
+		<track trackID="U-2" stationID="KEWEJ" interlockingMachine="3 Aspect Pannel (Below 75mph)" nodeID="16" name="SIG: KE49" description="SIGNAL" kilometre="5.446" x="820061.35" y="681746.3" xNet="828312.48" yNet="695374.97" referenceNode="628"/>
+		<track trackID="T-1" stationID="KEWEJ" type="timingPoint" nodeID="17" kilometre="5.334" x="821250.76" y="683870.86" xNet="829427.06" yNet="699026.49" referenceNode="9"/>
+		<node nodeID="653" name="tc" description="release contact for track circuit" kilometre="5.509" x="819735" y="683018" xNet="827261.23" yNet="697108.01" referenceNode="599" releaseContact="true" arranged="true"/>
+		<node nodeID="654" name="tc" description="release contact for track circuit" kilometre="5.517" x="819668" y="682915" xNet="827191.74" yNet="696926.92" referenceNode="598" releaseContact="true" arranged="true"/>
+		<node nodeID="13" name="tc" description="release contact for track circuit" kilometre="5.396" x="820751" y="682843" xNet="829013.08" yNet="697292.88" referenceNode="217" releaseContact="true" arranged="true"/>
+		<node nodeID="656" name="tc" description="release contact for track circuit" kilometre="5.572" x="819253.91" y="682574.09" xNet="826643.43" yNet="696243.66" referenceNode="617" releaseContact="true" arranged="true"/>
+		<node nodeID="657" name="tc" description="release contact for track circuit" kilometre="5.412" x="820423.49" y="683323.5" xNet="828277.9" yNet="697858.67" referenceNode="14" releaseContact="true" arranged="true"/>
+		<node nodeID="10" kilometre="5.298" x="821432.11" y="684187.48" xNet="829599.94" yNet="699572.45"/>
+		<node nodeID="9" kilometre="5.300" x="821533.82" y="684054.68" xNet="829821.64" yNet="699420.96"/>
+		<node nodeID="215" name="SD:S-1" description="sightig disatnce for SIG:S-1" kilometre="5.395" x="820618.34" y="683659.01" xNet="828465.53" yNet="698438.37" referenceNode="15" sightingDistance="true"/>
+		<node nodeID="60077" name="grad_con; speed_profile_con" description="grad_con; speed_profile_con" kilometre="5.270" x="821746.03" y="684393.41" xNet="830036.71" yNet="700012.98"/>
+		<node nodeID="60087" name="grad_con; speed_profile_con" description="grad_con; speed_profile_con" kilometre="5.270" x="821847.22" y="684249" xNet="830262.23" yNet="699844.14"/>
+		<node nodeID="605" name="GRAD" description="GRADIENT: 3m 22ch" kilometre="5.271" x="821777.89" y="684213.18" xNet="830161.88" yNet="699761.1"/>
+		<node nodeID="606" name="GRAD" description="GRADIENT: 3m 22ch" kilometre="5.271" x="821659.05" y="684334.86" xNet="829916.28" yNet="699888.72"/>
+		<node nodeID="216" name="OL" description="DWE for SIG : " kilometre="5.434" x="820270.36" y="683225.91" xNet="828063.69" yNet="697648"/>
+		<node nodeID="217" name="OL" description="DWE for SIG : " kilometre="5.410" x="820632.91" y="682443.45" xNet="828978.22" yNet="696652.2"/>
+		<node nodeID="218" name="OL KE46" description="OL for SIG : KE46" kilometre="5.433" x="820299.65" y="683452.05" xNet="828021.27" yNet="697994.24"/>
+		<node nodeID="219" name="OL KE49" description="OL for SIG : KE49" kilometre="5.300" x="821415.4" y="684176.63" xNet="829576.63" yNet="699549.17"/>
+		<node nodeID="610" name="GRAD" description="GRADIENT: 3m 41ch" kilometre="5.653" x="818565.47" y="682348.26" xNet="815723.87" yNet="685903.13">
+			<netLimitInfo lineID="sw240"/>
+		</node>
+		<node nodeID="642" kilometre="5.620" x="819041.72" y="682635.53" xNet="826351.92" yNet="696317.51"/>
+		<stationBorder exitType="alternative" stationID="KEWEJ" lineID="sw240" trackNumber="2" nodeID="644" kilometre="5.630" x="818898.94" y="682549.4" xNet="823165.63" yNet="693195.29" referenceNode="642"/>
+		<node nodeID="609" name="GRAD" description="GRADIENT; 3M 41ch" kilometre="5.653" x="818605.18" y="682158.29" xNet="825694.83" yNet="695295.31">
+			<netLimitInfo lineID="sw240"/>
+		</node>
+	</nodes>
+	<links>
+		<link source="1" target="8" length="5" gradient="1" vmax="32" vmaxr="32" electrification="electrified">
+			<vzg index="9" vmax="32" vmaxr="32"/>
+		</link>
+		<link source="2" target="5" length="5" gradient="1" vmax="32" vmaxr="32" electrification="electrified">
+			<vzg index="9" vmax="32" vmaxr="32"/>
+		</link>
+		<link source="3" target="60075" length="60" vmax="72" vmaxr="72"/>
+		<link source="5" target="215" length="24" gradient="1" vmax="32" vmaxr="32" electrification="electrified">
+			<vzg index="9" vmax="32" vmaxr="32"/>
+		</link>
+		<link source="6" target="60084" length="60" vmax="72" vmaxr="72"/>
+		<link source="8" target="14" length="40" gradient="1" vmax="32" vmaxr="32" electrification="electrified">
+			<vzg index="9" vmax="32" vmaxr="32"/>
+		</link>
+		<link source="9" target="17" length="34" gradient="1" vmax="72" vmaxr="72" electrification="electrified">
+			<vzg index="9" vmax="48" vmaxr="48"/>
+		</link>
+		<link source="10" target="219" length="2" gradient="1" vmax="72" vmaxr="72" electrification="electrified">
+			<vzg index="9" vmax="48" vmaxr="48"/>
+		</link>
+		<link source="13" target="8" length="40" gradient="5.99" vmax="32" vmaxr="32" electrification="electrified">
+			<vzg index="9" vmax="32" vmaxr="32"/>
+		</link>
+		<link source="14" target="657" length="1" gradient="-5.988" vmax="32" vmaxr="32" electrification="electrified">
+			<vzg index="9" vmax="32" vmaxr="32"/>
+		</link>
+		<link source="15" target="218" length="22" gradient="-5.988" vmax="32" vmaxr="32" electrification="electrified">
+			<vzg index="9" vmax="32" vmaxr="32"/>
+		</link>
+		<link source="16" target="5" length="109" gradient="5.99" vmax="32" vmaxr="32" electrification="electrified">
+			<vzg index="9" vmax="32" vmaxr="32"/>
+		</link>
+		<link source="17" target="1" length="32" gradient="1" vmax="72" vmaxr="72" electrification="electrified">
+			<vzg index="9" vmax="48" vmaxr="48"/>
+		</link>
+		<link source="215" target="15" length="16" gradient="1" vmax="32" vmaxr="32" electrification="electrified">
+			<vzg index="9" vmax="32" vmaxr="32"/>
+		</link>
+		<link source="216" target="598" length="98" gradient="-5.988" vmax="32" vmaxr="32" electrification="electrified">
+			<vzg index="9" vmax="32" vmaxr="32"/>
+		</link>
+		<link source="217" target="13" length="23" gradient="5.99" vmax="32" vmaxr="32" electrification="electrified">
+			<vzg index="9" vmax="32" vmaxr="32"/>
+		</link>
+		<link source="218" target="597" length="39" gradient="-5.988" vmax="32" vmaxr="32" electrification="electrified">
+			<vzg index="9" vmax="32" vmaxr="32"/>
+		</link>
+		<link source="219" target="2" length="66" gradient="1" vmax="72" vmaxr="72" electrification="electrified">
+			<vzg index="9" vmax="48" vmaxr="48"/>
+		</link>
+		<link source="597" target="599" length="20" gradient="-5.988" vmax="32" vmaxr="32" electrification="electrified">
+			<vzg index="9" vmax="32" vmaxr="32"/>
+		</link>
+		<link source="598" target="601" electrification="electrified">
+			<vzg index="9" vmax="32" vmaxr="32"/>
+		</link>
+		<link source="598" target="617" length="3" gradient="-5.988" vmax="32" vmaxr="32" electrification="electrified">
+			<vzg index="9" vmax="32" vmaxr="32"/>
+		</link>
+		<link source="599" target="618" length="43" gradient="-5.988" vmax="32" vmaxr="32" electrification="electrified">
+			<vzg index="9" vmax="32" vmaxr="32"/>
+		</link>
+		<link source="599" target="653" length="17" gradient="-5.988" vmax="24" vmaxr="24" electrification="electrified">
+			<vzg index="9" vmax="24" vmaxr="24"/>
+		</link>
+		<link source="600" target="637" length="42" gradient="-5.988" vmax="72" vmaxr="72" electrification="electrified">
+			<vzg index="9" vmax="48" vmaxr="48"/>
+		</link>
+		<link source="601" target="634" electrification="electrified">
+			<vzg index="9" vmax="32" vmaxr="32"/>
+		</link>
+		<link source="605" target="9" length="29" gradient="1" vmax="72" vmaxr="72" electrification="electrified">
+			<vzg index="9" vmax="48" vmaxr="48"/>
+		</link>
+		<link source="606" target="10" length="27" gradient="1" vmax="72" vmaxr="72" electrification="electrified">
+			<vzg index="9" vmax="48" vmaxr="48"/>
+		</link>
+		<link source="613" target="642" length="7" gradient="-5.988" vmax="72" vmaxr="72" electrification="electrified">
+			<vzg index="9" vmax="48" vmaxr="48"/>
+		</link>
+		<link source="617" target="656" length="37" gradient="-5.988" vmax="72" vmaxr="72" electrification="electrified">
+			<vzg index="9" vmax="48" vmaxr="48"/>
+		</link>
+		<link source="618" target="613" length="78" gradient="-5.988" vmax="72" vmaxr="72" electrification="electrified">
+			<vzg index="9" vmax="48" vmaxr="48"/>
+		</link>
+		<link source="619" target="601" electrification="electrified">
+			<vzg index="9" vmax="48" vmaxr="48"/>
+		</link>
+		<link source="628" target="16" length="21" gradient="5.99" vmax="32" vmaxr="32" electrification="electrified">
+			<vzg index="9" vmax="32" vmaxr="32"/>
+		</link>
+		<link source="637" target="609" length="19" gradient="-5.988" vmax="72" vmaxr="72" electrification="electrified">
+			<vzg index="9" vmax="48" vmaxr="48"/>
+		</link>
+		<link source="642" target="644" length="10" gradient="-5.988" vmax="72" vmaxr="72"/>
+		<link source="643" target="217" length="71" gradient="5.99" vmax="32" vmaxr="32" electrification="electrified">
+			<vzg index="9" vmax="32" vmaxr="32"/>
+		</link>
+		<link source="644" target="610" length="23" gradient="-5.988" vmax="72" vmaxr="72"/>
+		<link source="653" target="654" length="8" gradient="-5.988" vmax="24" vmaxr="24" electrification="electrified">
+			<vzg index="9" vmax="24" vmaxr="24"/>
+		</link>
+		<link source="654" target="598" length="15" gradient="-5.988" vmax="24" vmaxr="24" electrification="electrified">
+			<vzg index="9" vmax="24" vmaxr="24"/>
+		</link>
+		<link source="656" target="600" length="20" gradient="-5.988" vmax="72" vmaxr="72" electrification="electrified">
+			<vzg index="9" vmax="48" vmaxr="48"/>
+		</link>
+		<link source="657" target="216" length="22" gradient="-5.988" vmax="32" vmaxr="32" electrification="electrified">
+			<vzg index="9" vmax="32" vmaxr="32"/>
+		</link>
+		<link source="60075" target="60077" length="16" vmax="72" vmaxr="72"/>
+		<link source="60077" target="606" length="1" gradient="-1.299" vmax="72" vmaxr="72">
+			<vzg index="9" vmax="48" vmaxr="48"/>
+		</link>
+		<link source="60084" target="60087" length="16" vmax="72" vmaxr="72"/>
+		<link source="60087" target="605" length="1" gradient="-1.299" vmax="72" vmaxr="72">
+			<vzg index="9" vmax="48" vmaxr="48"/>
+		</link>
+	</links>
+	<dependentLinks/>
+	<blockSections>
+		<blocksection uuid="{2f4b3d56-511e-4a1d-93c5-c0c3dab16c4a}" lines="kewej stha sw240a">
+			<part nodes="6 60084"/>
+		</blocksection>
+		<blocksection uuid="{3a1b5363-98f3-4967-9718-94f43f5ff617}" lines="kewej" speedIndicators="2 618">
+			<part nodes="613 618 599 597 218 15 215 5 2 219 10 606 60077 60075"/>
+		</blocksection>
+		<blocksection uuid="{505ba7b3-d2a0-494f-b11b-8356f6f8df42}" lines="kewej stha sw240a">
+			<part nodes="60075 3"/>
+		</blocksection>
+		<blocksection uuid="{8fe995a9-266a-4133-a028-830b36bebd16}" lines="kewej sw240">
+			<part nodes="60084 60087 605 9 17 1 8 13 217 643"/>
+		</blocksection>
+		<blocksection uuid="{c11ad963-76d0-48c0-9444-45093094752b}" lines="kewej oldkew sw240">
+			<part nodes="610 644 642 613"/>
+		</blocksection>
+		<blocksection uuid="{da81e835-7a19-416f-8c43-577e8a6a876b}" lines="kewej" speedIndicators="2">
+			<part nodes="16 5 2 219 10 606 60077 60075"/>
+		</blocksection>
+		<blocksection uuid="{e94f4a93-c345-4737-8f42-d78d8899bb71}" lines="kewej newkew sw240">
+			<part nodes="628 16"/>
+		</blocksection>
+		<blocksection uuid="{f97fc6f1-17a4-4c72-847b-d4fe710d0e7b}" lines="kewej oldkew sw240">
+			<part nodes="60084 60087 605 9 17 1 8 14 657 216 598 617 656 600 637 609"/>
+		</blocksection>
+	</blockSections>
+	<slipDistances>
+		<slipdistance uuid="{06514dcc-87b3-4372-a1cb-0203b901b234}" vmax="999" lines="kewej" serialNumber="0">
+			<part nodes="16 5 2 219"/>
+		</slipdistance>
+		<slipdistance uuid="{3bd48a59-860d-4be7-b650-f20407fb1471}" vmax="999" lines="kewej" serialNumber="1">
+			<part nodes="60084 60087 605 9 17 1 8 13 217"/>
+		</slipdistance>
+		<slipdistance uuid="{9e1f9fbf-be16-4f69-bd46-1e1c2269e580}" vmax="999" lines="kewej" serialNumber="0">
+			<part nodes="613 618 599 597 218"/>
+		</slipdistance>
+		<slipdistance uuid="{a2ae45a0-b33d-4b21-8279-6c3db72c2787}" vmax="999" lines="kewej" serialNumber="0">
+			<part nodes="60084 60087 605 9 17 1 8 14 657 216"/>
+		</slipdistance>
+		<slipdistance uuid="{d9944d52-c931-4715-8ce8-4f6138eefa47}" vmax="999" lines="kewej" serialNumber="0">
+			<part nodes="60075 3"/>
+		</slipdistance>
+	</slipDistances>
+	<approachControlRoutes/>
+	<stationRoutes>
+		<stationRoute stationID="KEWEJ" name="[NEWKEWJ]-[sw240/4]-[1-2]-[SATONJ]-[ea1310/1] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=95;NRz=95;S=95;Rz=95;FGz=95;NGz=95;Gz=95;Lz=95;Unbekannt=95" nodes="628 16 5 2 219 10 606 60077 60075 3"/>
+		<stationRoute stationID="KEWEJ" name="[SATONJ]-[ea1310/2]-[1-2]-[NEWKEWJ]-[sw240/5] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=95;NRz=95;S=95;Rz=95;FGz=95;NGz=95;Gz=95;Lz=95;Unbekannt=95" nodes="6 60084 60087 605 9 17 1 8 13 217 643"/>
+		<stationRoute stationID="KEWEJ" name="[SATONJ]-[ea1310/2]-[1-2]-[OKEWJN]-[sw240/1] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="6 60084 60087 605 9 17 1 8 14 657 216 598 617 656 600 637"/>
+		<stationRoute stationID="KEWEJ" name="[]-[?/]-[1]-[SATONJ]-[ea1310/1] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=90;NRz=90;S=90;Rz=90;FGz=90;NGz=90;Gz=90;Lz=90;Unbekannt=90" nodes="634 601 598 654 653 599 597 218 15 215 5 2 219 10 606 60077 60075 3"/>
+		<stationRoute stationID="KEWEJ" name="up" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="644 642 613 618 599 597 218 15 215 5 2 219 10 606 60077 60075 3"/>
+	</stationRoutes>
+	<lineCatalog/>
+	<zugNummernFelder/>
+	<switchGears/>
+</line>

@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<line lineID="harr" name="Harringay Junction" trafficRouting="on_the_left" type="global" dependentLines="ea1370 ln101 ln101a">
+	<transformations>
+		<transformation line="e1370" m11="6.12303e-17" m12="1" m21="-1" m22="6.12303e-17" dx="13978.4" dy="2.37812e+06"/>
+		<transformation line="ln101" m11="0.5" m12="-0.866025" m21="0.866025" m22="0.5" dx="-2.29265e+06" dy="-6723.19"/>
+		<transformation line="ln101a" m11="1" m12="0" m21="0" m22="1" dx="-2.5852e+06" dy="783695"/>
+	</transformations>
+	<version major="1" minor="2" patchlevel="0" comment=""/>
+	<creator user="Ahowe4" timestamp="2016-11-01T12:54:22"/>
+	<lasteditor user="Ahowe4" timestamp="2016-11-01T12:54:22"/>
+	<stations>
+		<station stationID="CROUCHH" name="Crouch Hill" xNet="995462.38" yNet="817900.59" uicLocationCode="0" circleDiameter="0">
+			<textElement type="name">
+				<pos view="net" x="1016.53" y="1016.53" angle="0" system="source"/>
+				<pos view="wgs84" x="1016.53" y="1016.53" angle="0" system="source"/>
+				<pos view="line" x="360.044" y="360.044" angle="0" system="source"/>
+				<pos view="macro" x="28.2843" y="28.2843" angle="0" system="source"/>
+				<pos view="macroWgs84" x="0" y="0" angle="0" system="source"/>
+			</textElement>
+		</station>
+		<station stationID="HRGYPJN" name="Harringay Park Junction" xNet="997287.915" yNet="828153.485" uicLocationCode="0" circleDiameter="0">
+			<textElement type="name">
+				<pos view="net" x="4354.65" y="4354.65" angle="0" system="source"/>
+				<pos view="wgs84" x="4354.65" y="4354.65" angle="0" system="source"/>
+				<pos view="line" x="822703" y="822703" angle="0" system="source"/>
+				<pos view="macro" x="28.2843" y="28.2843" angle="0" system="source"/>
+				<pos view="macroWgs84" x="0" y="0" angle="0" system="source"/>
+			</textElement>
+		</station>
+	</stations>
+	<nodes>
+		<node nodeID="8010" name="GRAD" kilometre="5.255" x="-49888.9357130994" y="-68907.644156729" xNet="997506.44" yNet="833543.76"/>
+		<node nodeID="56" kilometre="20.020" x="-52008.377" y="-69679.045" xNet="997132.52" yNet="823182.8"/>
+		<signal interlockingMachine="3 Aspect Pannel (Below 75mph)" nodeID="4" name="SIG:K409" kilometre="19.516" x="-53863.201" y="-69498.479" xNet="995601.24" yNet="818796.9" referenceNode="3"/>
+		<node nodeID="88" name="OL:S7" description="OL for SIG : SIG: SJ1317" kilometre="19.699" x="-53235.966" y="-69495.784" xNet="996127.54" yNet="820541.75"/>
+		<switch start="170" endOfMainTrack="206" endOfBranchTrack="194" nodeID="61" name="POINTS: SJ71A" kilometre="20.025" x="-51938.377" y="-69491.045" xNet="997065.11" yNet="823650.1"/>
+		<switch start="170" endOfMainTrack="1" endOfBranchTrack="195" nodeID="60" name="POINTS: SJ70B" kilometre="20.020" x="-52009.377" y="-69491.045" xNet="997050.74" yNet="823602.44"/>
+		<switch start="2" endOfMainTrack="171" endOfBranchTrack="197" nodeID="55" name="POINTS: SJ70A" kilometre="19.953" x="-52365.358" y="-69677.678" xNet="996937.03" yNet="822553.45"/>
+		<node nodeID="155" name="OL:S30" description="OL for SIG : SIG: SJ1322" kilometre="20.065" x="-51751.43" y="-69416.182" xNet="997200" yNet="826400"/>
+		<stationBorder exitType="alternative" stationID="HRGYPJN" lineID="ln101a" trackNumber="DTH" nodeID="1" name="HRGYPJN" kilometre="19.875" x="-52563.309" y="-69493.185" xNet="996633.82" yNet="822220.22" referenceNode="60"/>
+		<stationBorder exitType="alternative" stationID="HRGYPJN" lineID="ln101a" trackNumber="UTH" nodeID="2" name="HRGYPJN" kilometre="19.897" x="-52557.703" y="-69678.008" xNet="996774.86" yNet="822029.92" referenceNode="55"/>
+		<node nodeID="164" name="OL:S6" description="OL for SIG : SIG: SJ1326" kilometre="20.018" x="-52019.033" y="-69679.004" xNet="997126.7" yNet="823164.03"/>
+		<stationBorder exitType="regular" stationID="HRGYPJN" lineID="ea1370" trackNumber="DTH" nodeID="166" name="HRGYPJN" kilometre="20.329" x="-51085.811" y="-69487.711" xNet="997800" yNet="826300" referenceNode="206">
+			<netLimitInfo lineID="ea1370"/>
+		</stationBorder>
+		<stationBorder exitType="alternative" stationID="HRGYPJN" lineID="ea1370" trackNumber="UTH" nodeID="169" name="HRGYPJN" kilometre="20.297" x="-51102.796" y="-69677.384" xNet="997942.01" yNet="825788.86" referenceNode="388">
+			<netLimitInfo lineID="ea1370"/>
+		</stationBorder>
+		<track trackID="U-2" stationID="HRGYPJN" interlockingMachine="3 Aspect Pannel (Below 75mph)" nodeID="65" name="SIG: S30" kilometre="20.168" x="-51270.039" y="-69223.409" xNet="997500" yNet="828900" referenceNode="387"/>
+		<track trackID="U-99" stationID="HRGYPJN" interlockingMachine="3 Aspect Pannel (Below 75mph)" nodeID="163" name="SIG: S6" kilometre="20.201" x="-51417.596" y="-69677.961" xNet="997660.62" yNet="824882.95" referenceNode="388"/>
+		<track trackID="T-1" stationID="HRGYPJN" type="timingPoint" nodeID="170" kilometre="20.022" x="-51975.718" y="-69491.045" xNet="997057.56" yNet="823625.04" referenceNode="60"/>
+		<track trackID="T-2" stationID="HRGYPJN" type="timingPoint" nodeID="171" kilometre="19.964" x="-52304.318" y="-69677.912" xNet="996970.47" yNet="822661.08" referenceNode="55"/>
+		<speedIndicator nodeID="194" name="SPEED" kilometre="20.026" x="-51933.704" y="-69489.173" xNet="997065.35" yNet="823653.9" referenceNode="61"/>
+		<speedIndicator nodeID="195" name="SPEED" kilometre="20.019" x="-52014.69" y="-69493.83" xNet="997049.02" yNet="823586.75" referenceNode="197"/>
+		<speedIndicator nodeID="197" name="SPEED" kilometre="19.954" x="-52360.045" y="-69674.892" xNet="996938.75" yNet="822569.13" referenceNode="55"/>
+		<node nodeID="204" name="GRAD" kilometre="19.787" x="-52899.702" y="-69494.485" xNet="996380.63" yNet="821380.82"/>
+		<node nodeID="206" name="GRAD" kilometre="20.081" x="-51781.097" y="-69490.43" xNet="997226.17" yNet="824184.05"/>
+		<node nodeID="207" name="GRAD" kilometre="20.081" x="-51809.275" y="-69678.68" xNet="997310.5" yNet="823755.78"/>
+		<node nodeID="387" name="SD: S30" kilometre="20.238" x="-50943.151" y="-69092.506" xNet="997500" yNet="830500" referenceNode="10805" sightingDistance="true"/>
+		<node nodeID="388" name="SD: S6" kilometre="20.295" x="-51109.355" y="-69677.396" xNet="997936.15" yNet="825770" referenceNode="169" sightingDistance="true"/>
+		<node nodeID="3" kilometre="19.506" x="-53899.004" y="-69498.633" xNet="995571.2" yNet="818697.3"/>
+		<track trackID="U-2" stationID="CROUCHH" interlockingMachine="3 Aspect Pannel (Below 75mph)" nodeID="87" name="SIG: S4" kilometre="19.370" x="-54360.967" y="-69681.1" xNet="995254.43" yNet="817121.68" referenceNode="202">
+			<platform startPos="-300" endPos="0" width="150" left="true" open="true"/>
+		</track>
+		<stationBorder exitType="regular" stationID="CROUCHH" lineID="ea1370" trackNumber="UTH" nodeID="95" name="CROUCHH" kilometre="19.307" x="-54575.726" y="-69681.469" xNet="995073.36" yNet="816537.13" referenceNode="87">
+			<netLimitInfo lineID="ea1370"/>
+		</stationBorder>
+		<stationBorder exitType="alternative" stationID="CROUCHH" lineID="ea1370" trackNumber="DTH" nodeID="96" name="CROUCHH" kilometre="19.309" x="-54571.793" y="-69501.522" xNet="995006.68" yNet="816825.72" referenceNode="201">
+			<netLimitInfo lineID="ea1370"/>
+		</stationBorder>
+		<stationBorder exitType="alternative" stationID="CROUCHH" lineID="ln101a" trackNumber="UTH" nodeID="151" name="CROUCHH" kilometre="19.600" x="-53573.877" y="-69679.75" xNet="995918.08" yNet="819264.05" referenceNode="381"/>
+		<track trackID="D-1" stationID="CROUCHH" type="stopBoard" nodeID="152" kilometre="19.444" x="-54109.985" y="-69499.539" xNet="995394.17" yNet="818110.38" referenceNode="384">
+			<platform startPos="-300" endPos="0" width="150" left="true" open="true"/>
+		</track>
+		<node nodeID="201" name="GRAD" kilometre="19.377" x="-54339.63" y="-69500.525" xNet="995201.46" yNet="817471.54"/>
+		<node nodeID="202" name="GRAD" kilometre="19.377" x="-54337.008" y="-69681.059" xNet="995274.65" yNet="817186.91"/>
+		<node nodeID="205" name="GRAD" kilometre="19.787" x="-52933.573" y="-69678.652" xNet="996457.95" yNet="821006.86"/>
+		<node nodeID="381" name="SD: S4" kilometre="19.464" x="-54039.284" y="-69680.549" xNet="995525.67" yNet="817997.27" referenceNode="151" sightingDistance="true"/>
+		<node nodeID="384" name="SD: S7" kilometre="19.422" x="-54185.391" y="-69499.863" xNet="995330.91" yNet="817900.63" referenceNode="201" sightingDistance="true"/>
+		<stationBorder exitType="regular" stationID="CROUCHH" lineID="ln101a" trackNumber="DTH" nodeID="154" kilometre="19.491" x="-53948.626" y="-69498.846" xNet="995529.56" yNet="818559.26" referenceNode="152"/>
+		<kilometreInconsistency newKilometre="20.239" nodeID="10805" kilometre="5.199" x="-50448.9357130994" y="-68907.644156729" xNet="997500" yNet="831100" referenceNode="10869"/>
+		<node nodeID="653" kilometre="20.061" x="-51770.125" y="-69423.668" xNet="997200" yNet="825400"/>
+		<node nodeID="10869" name="SIG:K411BR" kilometre="5.233" x="-50108.9357130994" y="-68907.644156729" xNet="997503.91" yNet="832583.711428571"/>
+		<node nodeID="196" name="SD:K411BR" kilometre="20.026" x="-51933.2836885817" y="-69489.0046868335" xNet="997065.695979206" yNet="823658.386552476" referenceNode="194" sightingDistance="true"/>
+		<stationBorder exitType="alternative" stationID="HRGYPJN" lineID="ln101a" trackNumber="1" nodeID="8221" kilometre="5.362" x="-47154.8994532912" y="-70823.6969067" xNet="997448.942664846" yNet="835149.451084734" referenceNode="8217">
+			<netLimitInfo lineID="ln101a"/>
+		</stationBorder>
+		<track trackID="D-2" stationID="HRGYPJN" interlockingMachine="3 Aspect IECC (1mph - 40mph)" nodeID="8217" name="SIG:K411" kilometre="5.354" x="-47232.6096565099" y="-70823.6969067" xNet="997453.138" yNet="835032.322" referenceNode="8010"/>
+	</nodes>
+	<links>
+		<link source="1" target="60" length="145" vmax="48" vmaxr="48" electrification="electrified"/>
+		<link source="2" target="55" length="56" vmax="48" vmaxr="48" electrification="electrified"/>
+		<link source="3" target="4" length="10" gradient="3.788" vmax="48" vmaxr="48" electrification="electrified"/>
+		<link source="4" target="88" length="183" gradient="3.788" vmax="48" vmaxr="48" electrification="electrified"/>
+		<link source="55" target="171" length="11" vmax="48" vmaxr="48" electrification="electrified"/>
+		<link source="55" target="197" length="1" vmax="48" vmaxr="48" electrification="electrified"/>
+		<link source="56" target="207" length="61" vmax="48" vmaxr="48" electrification="electrified"/>
+		<link source="60" target="170" length="2" vmax="48" vmaxr="48" electrification="electrified"/>
+		<link source="61" target="194" length="1" vmax="48" vmaxr="48" bidirectional="true" electrification="electrified"/>
+		<link source="61" target="206" length="56" vmax="48" vmaxr="48" electrification="electrified"/>
+		<link source="65" target="387" length="70" gradient="3.597" vmax="24" vmaxr="24" bidirectional="true" electrification="electrified"/>
+		<link source="87" target="202" length="7" gradient="-4.785" vmax="48" vmaxr="48"/>
+		<link source="88" target="204" length="88" gradient="3.788" vmax="48" vmaxr="48" electrification="electrified"/>
+		<link source="95" target="87" length="63" gradient="-4.785" vmax="48" vmaxr="48"/>
+		<link source="96" target="201" length="68" gradient="-4.785" vmax="48" vmaxr="48"/>
+		<link source="151" target="205" length="187" gradient="3.788" vmax="48" vmaxr="48"/>
+		<link source="152" target="154" length="47" gradient="3.788" vmax="48" vmaxr="48"/>
+		<link source="154" target="3" length="15" gradient="3.788" vmax="48" vmaxr="48"/>
+		<link source="155" target="65" length="103" gradient="3.597" vmax="24" vmaxr="24" bidirectional="true" electrification="electrified"/>
+		<link source="163" target="388" length="94" gradient="-10.204" vmax="48" vmaxr="48" electrification="electrified"/>
+		<link source="164" target="56" length="2" vmax="48" vmaxr="48" electrification="electrified"/>
+		<link source="170" target="61" length="3" vmax="48" vmaxr="48" electrification="electrified"/>
+		<link source="171" target="164" length="54" vmax="48" vmaxr="48" electrification="electrified"/>
+		<link source="194" target="196" gradient="3.597" vmax="24" vmaxr="24" bidirectional="true" electrification="electrified"/>
+		<link source="195" target="60" length="1" vmax="48" vmaxr="48" electrification="electrified"/>
+		<link source="196" target="653" length="35" gradient="3.597" vmax="24" vmaxr="24" bidirectional="true" electrification="electrified"/>
+		<link source="197" target="195" length="65" vmax="24" vmaxr="24" electrification="electrified"/>
+		<link source="201" target="384" length="45" gradient="3.788" vmax="48" vmaxr="48"/>
+		<link source="202" target="381" length="87" gradient="3.788" vmax="48" vmaxr="48"/>
+		<link source="204" target="1" length="88" vmax="48" vmaxr="48" electrification="electrified"/>
+		<link source="205" target="2" length="110" vmax="48" vmaxr="48"/>
+		<link source="206" target="166" length="248" gradient="-10.204" vmax="48" vmaxr="48" electrification="electrified"/>
+		<link source="207" target="163" length="120" gradient="-10.204" vmax="48" vmaxr="48" electrification="electrified"/>
+		<link source="381" target="151" length="136" gradient="3.788" vmax="48" vmaxr="48"/>
+		<link source="384" target="152" length="22" gradient="3.788" vmax="48" vmaxr="48"/>
+		<link source="387" target="10805" length="1" gradient="3.597" vmax="24" vmaxr="24" bidirectional="true" electrification="electrified"/>
+		<link source="388" target="169" length="2" gradient="-10.204" vmax="48" vmaxr="48" electrification="electrified"/>
+		<link source="653" target="155" length="4" gradient="3.597" vmax="24" vmaxr="24" bidirectional="true" electrification="electrified"/>
+		<link source="8010" target="8217" length="99" gradient="1.6" vmax="24" vmaxr="24" bidirectional="true" electrification="electrified"/>
+		<link source="8217" target="8221" length="8" gradient="1.6" vmax="24" vmaxr="24" bidirectional="true" electrification="electrified"/>
+		<link source="10805" target="10869" length="34" gradient="1.6" vmax="24" vmaxr="24" bidirectional="true" electrification="electrified"/>
+		<link source="10869" target="8010" length="22" gradient="1.6" vmax="24" vmaxr="24" bidirectional="true" electrification="electrified"/>
+	</links>
+	<dependentLinks/>
+	<blockSections>
+		<blocksection uuid="{143686da-84af-4b1e-9e92-522f398f4a94}" lines="harr ln101a" shuntingBlock="true">
+			<part nodes="8221 8217 8010 10869 10805 387 65"/>
+		</blocksection>
+		<blocksection uuid="{26e892e2-a831-4c38-bee3-5c0dad63bae4}" lines="harr" speedIndicators="194 195 197">
+			<part nodes="65 155 653 196 194 61 170 60 195 197 55 2 205 151 381 202 87"/>
+		</blocksection>
+		<blocksection uuid="{3849f678-66ae-411a-a982-8447060e0786}" lines="harr ln101a" shuntingBlock="true">
+			<part nodes="8221 8217 8010 10869 10805 387 65"/>
+		</blocksection>
+		<blocksection uuid="{3db0504b-6eed-499f-b268-58c8fe8a76b7}" lines="harr">
+			<part nodes="163 207 56 164 171 55 2 205 151 381 202 87"/>
+		</blocksection>
+		<blocksection uuid="{49fba19f-da6e-4007-9589-08a01a6e12a0}" lines="harr ln101a">
+			<part nodes="8217 8221"/>
+		</blocksection>
+		<blocksection uuid="{4d62cc88-5e86-4f9e-ab16-73eacf506130}" lines="harr ln101a" shuntingBlock="true">
+			<part nodes="8217 8221"/>
+		</blocksection>
+		<blocksection uuid="{7f7a3ff9-1b7b-4280-b1aa-9fedd9791863}" lines="harr ln101a" shuntingBlock="true">
+			<part nodes="8221 8217 8010 10869 10805 387 65"/>
+		</blocksection>
+		<blocksection uuid="{88c40322-93d0-4a02-a97e-02f8d878d535}" lines="harr ln101a" shuntingBlock="true">
+			<part nodes="8217 8221"/>
+		</blocksection>
+		<blocksection uuid="{9bf091bd-5f9f-4427-8c6b-ccd15d7027ef}" lines="ea1370 harr">
+			<part nodes="96 201 384 152 154 3 4"/>
+		</blocksection>
+		<blocksection uuid="{bd898232-d832-47b3-a1d3-f8bb69eee33b}" lines="ea1370 harr">
+			<part nodes="4 88 204 1 60 170 61 206 166"/>
+		</blocksection>
+		<blocksection uuid="{cee988b9-cef9-497d-aba2-d00ec55f4247}" lines="harr ln101a">
+			<part nodes="8221 8217 8010 10869 10805 387 65"/>
+		</blocksection>
+		<blocksection uuid="{d309aefc-9b5c-4dc1-9d16-a8ff06a4d2d3}" lines="harr" speedIndicators="194">
+			<part nodes="4 88 204 1 60 170 61 194 196 653 155 65 387 10805 10869 8010 8217"/>
+		</blocksection>
+		<blocksection uuid="{dd0c2777-a24a-47bc-ab25-2d0a1e024685}" lines="harr ln101a">
+			<part nodes="8221 8217 8010 10869 10805 387 65"/>
+		</blocksection>
+		<blocksection uuid="{e5d4192e-12e4-4c05-8862-13b9ef1b8ab8}" lines="ea1370 harr">
+			<part nodes="169 388 163"/>
+		</blocksection>
+		<blocksection uuid="{f7c0e4be-34bd-4610-aa76-c1598c8fb481}" lines="ea1370 harr">
+			<part nodes="87 95"/>
+		</blocksection>
+		<blocksection uuid="{f90b516d-f586-4042-ab0f-3cc746d99742}" lines="harr ln101a" shuntingBlock="true">
+			<part nodes="8217 8221"/>
+		</blocksection>
+	</blockSections>
+	<slipDistances>
+		<slipdistance uuid="{1aec2800-bcd7-45a7-a21b-279da9fb309a}" publicName="K411" vmax="999" lines="harr ln101a" serialNumber="0">
+			<part nodes="8217 8221"/>
+		</slipdistance>
+		<slipdistance uuid="{56d3eda8-fd17-4f3a-8f9f-b79b160932f1}" vmax="999" lines="harr" serialNumber="0">
+			<part nodes="65 155"/>
+		</slipdistance>
+		<slipdistance uuid="{7b29fe68-d6b7-4775-9c76-ef915f32fada}" vmax="999" lines="harr" serialNumber="0">
+			<part nodes="4 88"/>
+		</slipdistance>
+		<slipdistance uuid="{a9c50841-6136-4d3a-833f-e09d5ccd16d7}" vmax="999" lines="harr" serialNumber="0">
+			<part nodes="163 207 56 164"/>
+		</slipdistance>
+		<slipdistance uuid="{b77759ea-4843-47b6-b899-b902d60515a2}" vmax="999" lines="ea1370 harr" serialNumber="0">
+			<part nodes="87 95"/>
+		</slipdistance>
+	</slipDistances>
+	<approachControlRoutes/>
+	<stationRoutes>
+		<stationRoute stationID="CROUCHH" name="[HRGYPJN]-[ea1370/UTH]-[2]-[UPRHLWY]-[ea1370/UTH] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="151 381 202 87 95"/>
+		<stationRoute stationID="CROUCHH" name="[UPRHLWY]-[ea1370/DTH]-[1]-[HRGYPJN]-[ea1370/DTH] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="96 201 384 152 154"/>
+		<stationRoute stationID="HRGYPJN" name="[CROUCHH]-[ea1370/DTH]-[1]-[HRGYGL]-[ea1370/DTH] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="1 60 170 61 206 166"/>
+		<stationRoute stationID="HRGYPJN" name="[CROUCHH]-[ea1370/DTH]-[1]-[HRGY]-[ln101/1] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=95;NRz=95;S=95;Rz=95;FGz=95;NGz=95;Gz=95;Lz=95;Unbekannt=95" nodes="1 60 170 61 194 196 653 155 65 387 10805 10869 8010 8217 8221"/>
+		<stationRoute stationID="HRGYPJN" name="[HRGYGL]-[ea1370/UTH]-[1-2]-[CROUCHH]-[ea1370/UTH] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="169 388 163 207 56 164 171 55 2"/>
+		<stationRoute stationID="HRGYPJN" name="[HRGY]-[ln101/1]-[1-2]-[CROUCHH]-[ea1370/UTH] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=85;NRz=85;S=85;Rz=85;FGz=85;NGz=85;Gz=85;Lz=85;Unbekannt=85" nodes="8221 8217 8010 10869 10805 387 65 155 653 196 194 61 170 60 195 197 55 2"/>
+	</stationRoutes>
+	<lineCatalog/>
+	<zugNummernFelder/>
+	<switchGears/>
+</line>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<line lineID="so240a" name="Minster South Jn - Minster (West Jn)" trafficRouting="on_the_left" type="local" dependentLines="minst minsts">
+	<version major="1" minor="2" patchlevel="0" comment=""/>
+	<creator user="Ahowe4" timestamp="2016-11-01T12:54:22"/>
+	<lasteditor user="Ahowe4" timestamp="2016-11-01T12:54:22"/>
+	<stations/>
+	<nodes>
+		<speedIndicator nodeID="6" name="SPEED" kilometre="131.706" x="1318958.9" y="-1939.8377" xNet="2651026.3" yNet="442394.46" referenceNode="406"/>
+		<speedIndicator nodeID="3" name="SPEED" description="Speed; 82m 11ch" kilometre="132.187" x="1321955.1" y="-1939.8377" xNet="2654102.9" yNet="437713.63" referenceNode="2"/>
+		<speedIndicator nodeID="4" name="SPEED" description="Speed; 81m 79ch" kilometre="131.946" x="1320810.6" y="-1939.8377" xNet="2652561.4" yNet="440058.89" referenceNode="407"/>
+		<signal interlockingMachine="3 Aspect Pannel (Below 75mph)" nodeID="405" name="SIG : 68" description="Signal 68; 81m 71.89ch" kilometre="131.803" x="1319658.9" y="-1939.8377" xNet="2651646.8" yNet="441450.4" referenceNode="407"/>
+		<node nodeID="406" name="OL 68" description="OL for SIG : 68" kilometre="131.730" x="1319258.9" y="-1939.8377" xNet="2651179.9" yNet="442160.83"/>
+		<node nodeID="407" name="SD : 68" description="sighting distance for SIG : 68" kilometre="131.873" x="1320258.9" y="-1939.8377" xNet="2652094.5" yNet="440769.25" referenceNode="4" sightingDistance="true"/>
+		<node nodeID="2" name="SD : 15" description="sighting distance for SIG : 15" kilometre="132.065" x="1321403.6" y="-1939.8377" xNet="2653322.5" yNet="438900.86" referenceNode="4" sightingDistance="true"/>
+		<node nodeID="417" name="OL 13/27" description="OL for SIG : 13/27" kilometre="131.802" x="1319653.4" y="-1939.8377" xNet="2651640.4" yNet="441460.16"/>
+	</nodes>
+	<links>
+		<link source="2" target="3" length="122" vmax="64" vmaxr="64" bidirectional="true"/>
+		<link source="3" target="104.minsts" length="1" vmax="24" vmaxr="24" bidirectional="true"/>
+		<link source="4" target="2" length="119" vmax="64" vmaxr="64" bidirectional="true"/>
+		<link source="6" target="406" length="24" vmax="24" vmaxr="24" bidirectional="true"/>
+		<link source="405" target="407" length="70" vmax="24" vmaxr="24" bidirectional="true"/>
+		<link source="406" target="417" length="72" vmax="24" vmaxr="24" bidirectional="true"/>
+		<link source="407" target="4" length="73" vmax="24" vmaxr="24" bidirectional="true"/>
+		<link source="417" target="405" length="1" vmax="24" vmaxr="24" bidirectional="true"/>
+		<link source="654.minst" target="6" vmax="113" vmaxr="113" bidirectional="true"/>
+	</links>
+	<dependentLinks/>
+	<blockSections>
+		<blocksection uuid="{4370b826-7302-43dd-9c16-bab7e888a133}" lines="minst minsts so240a" speedIndicators="3 4 6">
+			<part nodes="654.minst 6 406 417 405 407 4 2 3 104.minsts"/>
+		</blocksection>
+		<blocksection uuid="{bb015782-f5cc-4d53-b9c7-6cde8a563c06}" lines="minst so240a" speedIndicators="6">
+			<part nodes="405 417 406 6 654.minst"/>
+		</blocksection>
+		<blocksection uuid="{d654917f-c086-4637-bfdf-a4eb91f9484c}" lines="minsts so240a" speedIndicators="3 4">
+			<part nodes="104.minsts 3 2 4 407 405"/>
+		</blocksection>
+	</blockSections>
+	<slipDistances>
+		<slipdistance uuid="{5cb0ad8d-3a5d-4e2d-aad9-733f5f94c71e}" vmax="999" lines="minst so240a" serialNumber="1">
+			<part nodes="654.minst 6 406 417"/>
+		</slipdistance>
+		<slipdistance uuid="{db1a2a7f-b8c3-4215-bfac-9850fed350c6}" vmax="16" lines="so240a" serialNumber="1">
+			<part nodes="405 417 406"/>
+		</slipdistance>
+		<slipdistance uuid="{ea15ed3f-957c-49e7-afc4-082c87cc0417}" vmax="999" lines="minst so240a" serialNumber="0">
+			<part nodes="405 417 406 6 654.minst"/>
+		</slipdistance>
+	</slipDistances>
+	<approachControlRoutes/>
+	<stationRoutes/>
+	<lineCatalog/>
+	<zugNummernFelder/>
+	<switchGears/>
+</line>

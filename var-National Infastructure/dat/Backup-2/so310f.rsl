@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<line lineID="so310f" name="SO310B Crayford Spur " trafficRouting="on_the_left" type="local" dependentLines="crfda crfdb">
+	<version major="1" minor="2" patchlevel="0" comment=""/>
+	<creator user="Ahowe4" timestamp="2016-11-01T12:54:22"/>
+	<lasteditor user="Ahowe4" timestamp="2016-11-01T12:54:22"/>
+	<stations>
+		<station stationID="CRFDSPR" name="Crayford Spur" xNet="1366439.35" yNet="622096.025" uicLocationCode="0" circleDiameter="0">
+			<textElement type="name">
+				<pos view="net" x="1355.49" y="1355.49" angle="0" system="source"/>
+				<pos view="wgs84" x="1355.49" y="1355.49" angle="0" system="source"/>
+				<pos view="line" x="893.77" y="893.77" angle="0" system="source"/>
+				<pos view="macro" x="28.2843" y="28.2843" angle="0" system="source"/>
+				<pos view="macroWgs84" x="0" y="0" angle="0" system="source"/>
+			</textElement>
+		</station>
+	</stations>
+	<nodes>
+		<stationBorder exitType="regular" stationID="CRFDSPR" lineID="so310f" trackNumber="4" nodeID="804" kilometre="26.377" x="263261" y="-300" xNet="1366924.3" yNet="623950.62" referenceNode="619"/>
+		<node nodeID="810" kilometre="26.440" x="263891" y="-300" xNet="1367191.4" yNet="624757.28"/>
+		<stationBorder exitType="regular" stationID="CRFDSPR" lineID="so310f" trackNumber="4" nodeID="623" kilometre="26.330" x="262791" y="-299.49246" xNet="1366721" yNet="623336.28" referenceNode="619"/>
+		<track trackID="U-1" stationID="CRFDSPR" interlockingMachine="4 Aspect IECC (Below 75mph)" nodeID="611" name="SIG : NK396" description="Signal NK396; 16m 20.41ch" kilometre="26.160" x="261091" y="-500" xNet="1366100.9" yNet="620658.31" referenceNode="716"/>
+		<node nodeID="612" name="OL NK396" description="OL for SIG : NK396" kilometre="26.043" x="259831" y="-500" xNet="1365606.4" yNet="619252.35"/>
+		<node nodeID="614" name="GRAD" description="Gradient" kilometre="26.159" x="261081" y="-500" xNet="1366096.7" yNet="620646.3"/>
+		<node nodeID="1" name="OL NK343" description="OL for SIG : NK343" kilometre="26.134" x="260838.74" y="-300" xNet="1365843.9" yNet="620685.83"/>
+		<node nodeID="625" kilometre="26.167" x="261160.99" y="-500" xNet="1366129" yNet="620738.26"/>
+		<node nodeID="3" name="SD : NK396" description="sighting distance for SIG : NK396" kilometre="26.230" x="261791" y="-500" xNet="1366396.7" yNet="621499.49" referenceNode="622" sightingDistance="true"/>
+		<node nodeID="2" name="GRAD" description="Gradient" kilometre="26.159" x="261081" y="-300" xNet="1365994.9" yNet="621143.23"/>
+		<node nodeID="620" name="SD : NK397" description="sighting distance for SIG : NK397" kilometre="26.265" x="262141" y="-300" xNet="1366446" yNet="622505.47" referenceNode="2" sightingDistance="true"/>
+		<node nodeID="622" name="OL NK398" description="OL for SIG : NK398" kilometre="26.247" x="261961.01" y="-500" xNet="1366468.5" yNet="621703.77"/>
+		<node nodeID="624" kilometre="26.171" x="261201" y="-500" xNet="1366147.2" yNet="620790.12"/>
+		<stationBorder exitType="alternative" stationID="CRFDSPR" lineID="so310f" trackNumber="3" nodeID="716" name="[CRFDSPA] - [s290/1]" kilometre="26.162" x="261110" y="-500" xNet="1366109.3" yNet="620682.3" referenceNode="611"/>
+		<stationBorder exitType="regular" stationID="CRFDSPR" lineID="so310f" trackNumber="3" nodeID="729" kilometre="26.125" x="260741" y="-500" xNet="1365954.4" yNet="620241.43" referenceNode="614"/>
+		<track trackID="R-2" stationID="CRFDSPR" interlockingMachine="4 Aspect IECC (Below 75mph)" nodeID="619" name="SIG : NK397" description="Signal NK397; 16m 29.1ch" kilometre="26.335" x="262841" y="-299.57084" xNet="1366743.7" yNet="623405.07" referenceNode="623"/>
+		<node nodeID="11" kilometre="26.000" x="259488.43" y="-300" xNet="1365313.3" yNet="619084.54"/>
+	</nodes>
+	<links>
+		<link source="1" target="11" length="134" gradient="-3.03" vmax="32" vmaxr="32">
+			<vzg index="9" vmax="32" vmaxr="32"/>
+		</link>
+		<link source="2" target="1" length="25" gradient="-3.03" vmax="32" vmaxr="32">
+			<vzg index="9" vmax="32" vmaxr="32"/>
+		</link>
+		<link source="3" target="624" length="59" vmax="32" vmaxr="32">
+			<vzg index="9" vmax="32" vmaxr="32"/>
+		</link>
+		<link source="11" target="3.crfdb" length="17" gradient="-3.03" vmax="32" vmaxr="32">
+			<vzg index="9" vmax="32" vmaxr="32"/>
+		</link>
+		<link source="611" target="614" length="1" vmax="32" vmaxr="32">
+			<vzg index="9" vmax="32" vmaxr="32"/>
+		</link>
+		<link source="612" target="47.crfdb" length="38" gradient="-3.03" vmax="32" vmaxr="32">
+			<vzg index="9" vmax="32" vmaxr="32"/>
+		</link>
+		<link source="614" target="729" length="34" gradient="-3.03" vmax="32" vmaxr="32">
+			<vzg index="9" vmax="32" vmaxr="32"/>
+		</link>
+		<link source="616.crfda" target="622" length="180" vmax="32" vmaxr="32">
+			<vzg index="9" vmax="32" vmaxr="32"/>
+		</link>
+		<link source="619" target="623" length="5" vmax="32" vmaxr="32">
+			<vzg index="9" vmax="32" vmaxr="32"/>
+		</link>
+		<link source="620" target="2" length="106" vmax="32" vmaxr="32">
+			<vzg index="9" vmax="32" vmaxr="32"/>
+		</link>
+		<link source="622" target="3" length="17" vmax="32" vmaxr="32">
+			<vzg index="9" vmax="32" vmaxr="32"/>
+		</link>
+		<link source="623" target="620" length="65" vmax="32" vmaxr="32">
+			<vzg index="9" vmax="32" vmaxr="32"/>
+		</link>
+		<link source="624" target="625" length="4" vmax="32" vmaxr="32">
+			<vzg index="9" vmax="32" vmaxr="32"/>
+		</link>
+		<link source="625" target="716" length="5" vmax="32" vmaxr="32">
+			<vzg index="9" vmax="32" vmaxr="32"/>
+		</link>
+		<link source="716" target="611" length="2" vmax="32" vmaxr="32">
+			<vzg index="9" vmax="32" vmaxr="32"/>
+		</link>
+		<link source="729" target="612" length="82" gradient="-3.03" vmax="32" vmaxr="32">
+			<vzg index="9" vmax="32" vmaxr="32"/>
+		</link>
+		<link source="802.crfda" target="810" length="60" vmax="32" vmaxr="32">
+			<vzg index="9" vmax="32" vmaxr="32"/>
+		</link>
+		<link source="804" target="619" length="42" vmax="32" vmaxr="32">
+			<vzg index="9" vmax="32" vmaxr="32"/>
+		</link>
+		<link source="810" target="804" length="63" vmax="32" vmaxr="32">
+			<vzg index="9" vmax="32" vmaxr="32"/>
+		</link>
+	</links>
+	<dependentLinks/>
+	<blockSections>
+		<blocksection uuid="{1ab28ef4-0bff-4df3-b65f-81b1002fb905}" lines="crfdb so310f">
+			<part nodes="611 614 729 612 47.crfdb"/>
+		</blocksection>
+		<blocksection uuid="{7c52c91f-c4cb-460c-aa12-2b8f8de33a50}" lines="crfdb so310f">
+			<part nodes="3.crfdb 11 1 2 620 623 619"/>
+		</blocksection>
+		<blocksection uuid="{86d08cf2-e65e-45db-8522-97cb6cec1a62}" lines="crfda so310f">
+			<part nodes="619 804 810 802.crfda"/>
+		</blocksection>
+		<blocksection uuid="{af04ef17-8a7b-4f3d-825d-b651850568df}" lines="so310f">
+			<part nodes="616.crfda 622 3 624 625 716 611"/>
+		</blocksection>
+	</blockSections>
+	<slipDistances>
+		<slipdistance uuid="{422a01e1-3bfc-464b-b0e5-4e74ba0664b0}" vmax="999" lines="so310f" serialNumber="0">
+			<part nodes="611 614 729 612"/>
+		</slipdistance>
+		<slipdistance uuid="{65e125b4-fa4b-4cd2-af07-f315c5f644c8}" vmax="999" lines="so310f" serialNumber="0">
+			<part nodes="616.crfda 622"/>
+		</slipdistance>
+		<slipdistance uuid="{77a26268-6c3b-402c-bad0-94a63f00852b}" vmax="999" lines="crfdb so310f" serialNumber="1">
+			<part nodes="3.crfdb 11 1"/>
+		</slipdistance>
+		<slipdistance uuid="{e187b2d5-d094-4853-ade4-e380fcd3e244}" vmax="999" lines="crfda so310f" serialNumber="0">
+			<part nodes="619 804 810 802.crfda"/>
+		</slipdistance>
+	</slipDistances>
+	<approachControlRoutes/>
+	<stationRoutes>
+		<stationRoute stationID="CRFDSPR" name="[CRFDSPA]-[s290/3]-[1]-[CRFDSPB]-[s290/3] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="716 611 614 729"/>
+		<stationRoute stationID="CRFDSPR" name="[CRFDSPB]-[s290/4]-[2]-[CRFDSPA]-[s290/4] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="623 619 804"/>
+	</stationRoutes>
+	<lineCatalog/>
+	<zugNummernFelder/>
+	<switchGears/>
+</line>

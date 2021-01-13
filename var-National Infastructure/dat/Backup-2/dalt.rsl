@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<line lineID="dalt" name="Dalton Junction" trafficRouting="on_the_left" type="global" dependentLines="n4041 nw4033">
+	<transformations>
+		<transformation line="nw4033" m11="1" m12="0" m21="0" m22="1" dx="0" dy="0"/>
+	</transformations>
+	<version major="1" minor="2" patchlevel="0" comment=""/>
+	<creator user="VWaddelo" timestamp="2016-07-08T10:58:15"/>
+	<lasteditor user="VWaddelo" timestamp="2016-07-08T10:58:15"/>
+	<stations>
+		<station stationID="DALTONJ" name="Dalton Junction" xNet="-2465470" yNet="5714200" kilometre="39.388" uicLocationCode="0" circleDiameter="0">
+			<textElement type="name">
+				<pos view="net" x="3358.42" y="3358.42" angle="0" system="source"/>
+				<pos view="wgs84" x="3358.42" y="3358.42" angle="0" system="source"/>
+				<pos view="line" x="3117.96" y="3117.96" angle="0" system="source"/>
+				<pos view="macro" x="28.2843" y="28.2843" angle="0" system="source"/>
+				<pos view="macroWgs84" x="0" y="0" angle="0" system="source"/>
+			</textElement>
+		</station>
+	</stations>
+	<nodes>
+		<switch start="79347" endOfMainTrack="5" endOfBranchTrack="10" nodeID="2" name="POINTS:10" description="GEOGIS S&amp;C|CBC1|148075274|[520][43067]|" kilometre="39.380" x="393805" y="-4845" xNet="-2464336.4" yNet="5714127.1"/>
+		<crossing type="kr" startOfMainTrack="68866" startOfBranchTrack="4" endOfMainTrack="5" endOfBranchTrack="81161" nodeID="68856" name="FD:??" description="GEOGIS S&amp;C|CBC1|148068856|[520][43122]|" kilometre="39.431" x="394308" y="-4845" xNet="-2464750.8" yNet="5713847.8"/>
+		<switch start="89032" endOfMainTrack="12" endOfBranchTrack="102" nodeID="1" name="POINTS:9" description="GEOGIS S&amp;C|CBC1|148081161|[516][43067]|" kilometre="39.380" x="393805" y="-4645" xNet="-2464224.4" yNet="5713961.3"/>
+		<switch start="89032" endOfMainTrack="92131" endOfBranchTrack="79345" nodeID="89031" name="POINTS:11a" description="GEOGIS S&amp;C|CBC1|148089031|[516][43051]|" kilometre="39.366" x="393658" y="-4645" xNet="-2464066.9" yNet="5714067.7"/>
+		<switch start="64305" endOfMainTrack="79347" endOfBranchTrack="79344" nodeID="79343" name="POINTS:11a" description="GEOGIS S&amp;C|CBC1|148079343|[520][42991]|" kilometre="39.311" x="393110" y="-4845" xNet="-2463756.1" yNet="5714518.4"/>
+		<node nodeID="92126" name="39.000km" kilometre="39.000" x="389998.06" y="-4645" xNet="-2461074.1" yNet="5716085.9">
+			<netLimitInfo lineID="nw4033"/>
+		</node>
+		<node nodeID="92131" name="OL:2/3R" kilometre="39.311" x="393112.59" y="-4645" xNet="-2463644.1" yNet="5714352.5"/>
+		<speedIndicator nodeID="79344" name="SPEED" kilometre="39.312" x="393119.97" y="-4841.3638" xNet="-2463764" yNet="5714511.8" referenceNode="79343"/>
+		<speedIndicator nodeID="79345" name="SPEED" kilometre="39.365" x="393648.03" y="-4648.6362" xNet="-2464059" yNet="5714074.1" referenceNode="89031"/>
+		<node nodeID="79346" name="TC" kilometre="39.338" x="393383.56" y="-4745.1626" xNet="-2463948.9" yNet="5714267.4" referenceNode="79344" releaseContact="true" arranged="true"/>
+		<node nodeID="68857" name="GRAD" kilometre="39.725" x="397251.44" y="-4845" xNet="-2466227.1" yNet="5712779.8"/>
+		<node nodeID="68860" name="GRAD" kilometre="39.900" x="399001.78" y="-4845" xNet="-2467889.3" yNet="5709200"/>
+		<node nodeID="13" name="40.000km" kilometre="40.000" x="400002.44" y="-4845" xNet="-2468199.1" yNet="5708248.7"/>
+		<node nodeID="68866" name="OL:DJ18" kilometre="39.689" x="396887.88" y="-4845" xNet="-2465978.6" yNet="5712947.1"/>
+		<track trackID="D-1" stationID="DALTONJ" interlockingMachine="3 Aspect Pannel (Below 75mph)" nodeID="92134" name="SIG:2/3R" kilometre="39.131" x="391314.81" y="-4645" xNet="-2462152" yNet="5715358.8" referenceNode="100"/>
+		<node nodeID="92135" name="SD:2/3R" kilometre="39.006" x="390068.75" y="-4645" xNet="-2461156.9" yNet="5716030.6" referenceNode="92126" sightingDistance="true"/>
+		<node nodeID="68865" name="SD:DJ18" kilometre="39.994" x="399939.78" y="-4845" xNet="-2468167.5" yNet="5708344.1" referenceNode="13" sightingDistance="true"/>
+		<track trackID="U-2" stationID="DALTONJ" interlockingMachine="2 Aspect Pannel (Below 75mph)" nodeID="68864" name="SIG:DJ18" kilometre="39.869" x="398695.72" y="-4845" xNet="-2466500" yNet="5712200" referenceNode="99"/>
+		<track trackID="T-1" stationID="DALTONJ" type="timingPoint" nodeID="89032" name="Dalton Junction" kilometre="39.379" x="393794.5" y="-4645" xNet="-2464212.5" yNet="5713968.7" referenceNode="89031"/>
+		<track trackID="T-2" stationID="DALTONJ" type="timingPoint" nodeID="79347" name="Dalton Junction" kilometre="39.379" x="393794.94" y="-4845" xNet="-2464328" yNet="5714132.7" referenceNode="79343"/>
+		<node nodeID="5" name="TC" kilometre="39.404" x="394040.06" y="-4845" xNet="-2464537.8" yNet="5713990.6" referenceNode="68856" releaseContact="true" arranged="true"/>
+		<speedIndicator nodeID="9" name="SPEED" kilometre="39.381" x="393817" y="-4650" xNet="-2464300" yNet="5713943.8" referenceNode="102"/>
+		<speedIndicator nodeID="10" name="SPEED" kilometre="39.381" x="393816" y="-4849" xNet="-2464398.2" yNet="5714113.5" referenceNode="75273"/>
+		<kilometreInconsistency newKilometre="0.002" nodeID="81160" name="POINTS:9" description="GEOGIS S&amp;C|DAP|148081160|[500][0]|" kilometre="39.382" x="393886" y="-4684" xNet="-2464376.7" yNet="5713932.4" referenceNode="9"/>
+		<kilometreInconsistency newKilometre="0.002" nodeID="75273" name="COM 39:382/0.002" description="GEOGIS S&amp;C|DAP|148075273|[504][0]|" kilometre="39.382" x="393886" y="-4884" xNet="-2464443.6" yNet="5714105.1" referenceNode="10"/>
+		<node nodeID="81161" name="TC" kilometre="0.024" x="394046" y="-4746" xNet="-2464494.7" yNet="5713909.4" referenceNode="81162" releaseContact="true" arranged="true"/>
+		<node nodeID="3" kilometre="0.003" x="394506" y="-5348" xNet="-2465696.7" yNet="5713997.3"/>
+		<node nodeID="81162" kilometre="24.623" x="393946" y="-4707.25" xNet="-2464420.9" yNet="5713923.7" referenceNode="81161" releaseContact="true" arranged="true"/>
+		<node nodeID="79348" kilometre="39.347" x="393471.72" y="-4712.9873" xNet="-2463985.7" yNet="5714203" referenceNode="79345" releaseContact="true" arranged="true"/>
+		<track trackID="P-3" stationID="DALTONJ" interlockingMachine="2 Aspect Pannel (Below 75mph)" nodeID="75276" name="SIG:DJ16" kilometre="0.397" x="398527" y="-5349" xNet="-2469736" yNet="5712984.4" referenceNode="98"/>
+		<node nodeID="75278" name="OL:DJ16" kilometre="0.217" x="396728" y="-5349" xNet="-2467806.4" yNet="5713549.5"/>
+		<node nodeID="75281" name="GRAD" kilometre="0.228" x="396839" y="-5349" xNet="-2467916.2" yNet="5713521.6"/>
+		<node nodeID="75282" name="GRAD" kilometre="0.343" x="397983" y="-5349" xNet="-2469209.9" yNet="5713126"/>
+		<node nodeID="6" name="GRAD" kilometre="0.403" x="398589" y="-5349" xNet="-2469795.1" yNet="5712969.9"/>
+		<node nodeID="81169" name="GRAD" kilometre="39.900" x="399004.19" y="-4645" xNet="-2467700" yNet="5709138.6"/>
+		<node nodeID="81172" name="40.000km" kilometre="40.000" x="400004.03" y="-4645" xNet="-2468008.7" yNet="5708186.9"/>
+		<node nodeID="81173" name="GRAD" kilometre="40.050" x="400503.97" y="-4645" xNet="-2468163.4" yNet="5707711.7">
+			<netLimitInfo lineID="nw4033"/>
+		</node>
+		<node nodeID="68862" name="GRAD" kilometre="40.050" x="400498.41" y="-4845" xNet="-2468353.7" yNet="5707773.5">
+			<netLimitInfo lineID="nw4033"/>
+		</node>
+		<speedIndicator nodeID="7" name="SPEED" description="Estimated coordinate" kilometre="0.076" x="395319" y="-5149" xNet="-2466346.5" yNet="5713615.5" referenceNode="4"/>
+		<signal interlockingMachine="3 Aspect Pannel (Below 75mph)" nodeID="68858" name="SIG:DJ3/5" kilometre="0.415" x="398710" y="-5149" xNet="-2469838.4" yNet="5712751" referenceNode="68868"/>
+		<node nodeID="68859" name="SD:DJ3/5" kilometre="0.290" x="397461" y="-5149" xNet="-2468419.3" yNet="5713179.3" referenceNode="11" sightingDistance="true"/>
+		<node nodeID="75277" name="SD:DJ16" kilometre="0.467" x="399227" y="-5349" xNet="-2470411" yNet="5712803.3" referenceNode="75284" sightingDistance="true"/>
+		<node nodeID="8" name="OL:DJ3/5" kilometre="0.595" x="400510" y="-5149" xNet="-2471678.3" yNet="5712128.3">
+			<netLimitInfo lineID="n4041"/>
+		</node>
+		<node nodeID="11" name="GRAD" kilometre="0.228" x="396841" y="-5149" xNet="-2467842.5" yNet="5713332"/>
+		<node nodeID="68867" name="GRAD" kilometre="0.343" x="397990" y="-5149" xNet="-2469141.5" yNet="5712938"/>
+		<node nodeID="68868" name="GRAD" kilometre="0.403" x="398590" y="-5149" xNet="-2469722.4" yNet="5712782.1"/>
+		<node nodeID="68869" name="GRAD" kilometre="0.589" x="400450" y="-5149" xNet="-2471620.6" yNet="5712143.2"/>
+		<node nodeID="75284" name="GRAD" kilometre="0.589" x="400445" y="-5349" xNet="-2471689.3" yNet="5712332">
+			<netLimitInfo lineID="n4041"/>
+		</node>
+		<stationBorder exitType="regular" stationID="DALTONJ" lineID="nw4033" trackNumber="2" nodeID="64305" name="[DALTON] - [n4033/2]" kilometre="39.000" x="389996.75" y="-4845" xNet="-2461186.1" yNet="5716251.8" referenceNode="79343">
+			<netLimitInfo lineID="nw4033"/>
+		</stationBorder>
+		<stationBorder exitType="regular" stationID="DALTONJ" lineID="nw4033" trackNumber="2" nodeID="12" name="[ROOSE] - [n4033/2]" kilometre="39.725" x="397254.44" y="-4645" xNet="-2466115.2" yNet="5712613.9" referenceNode="1"/>
+		<stationBorder exitType="alternative" stationID="DALTONJ" lineID="n4041" trackNumber="1" nodeID="4" name="[PSTH] - [n4041/1]" kilometre="0.051" x="394993" y="-5149" xNet="-2466107.4" yNet="5713679.3" referenceNode="68856"/>
+		<stationBorder exitType="alternative" stationID="DALTONJ" lineID="n4041" trackNumber="2" nodeID="98" name="[PSTH] - [n4041/2]" kilometre="0.399" x="398545.6" y="-5349" xNet="-2469753.7" yNet="5712980.1" referenceNode="75276"/>
+		<stationBorder exitType="alternative" stationID="DALTONJ" lineID="nw4033" trackNumber="1" nodeID="99" name="[ROOSE] - [n4033/1]" kilometre="39.878" x="398787.54" y="-4845" xNet="-2466574.4" yNet="5712149.6" referenceNode="68864"/>
+		<stationBorder exitType="alternative" stationID="DALTONJ" lineID="nw4033" trackNumber="1" nodeID="100" name="[DALTON] - [n4033/1]" kilometre="39.094" x="390940.99" y="-4645" xNet="-2461853.4" yNet="5715560.4" referenceNode="92134"/>
+		<speedIndicator nodeID="102" kilometre="39.380" x="393805.6" y="-4645.25" xNet="-2464228.2" yNet="5713960.4" referenceNode="1"/>
+	</nodes>
+	<links>
+		<link source="1" target="12" length="345" gradient="-9.9" vmax="64" vmaxr="64" radius="2100">
+			<vzg index="1" vmax="56" vmaxr="56"/>
+		</link>
+		<link source="1" target="102" gradient="-9.9" vmax="64" vmaxr="64"/>
+		<link source="2" target="5" length="24" gradient="-9.9" vmax="64" vmaxr="64" radius="1100"/>
+		<link source="2" target="10" length="1" gradient="-9.9" vmax="64" vmaxr="64"/>
+		<link source="3" target="75278" length="216" gradient="-9.9" vmax="32" vmaxr="32" radius="1100"/>
+		<link source="4" target="7" length="25" gradient="-9.9" vmax="32" vmaxr="32" radius="2100"/>
+		<link source="5" target="68856" length="27" gradient="-9.9" vmax="64" vmaxr="64" radius="1100"/>
+		<link source="6" target="75277" length="64" gradient="-11.49" vmax="32" vmaxr="32" radius="1100"/>
+		<link source="7" target="11" length="152" gradient="-9.9" vmax="64" vmaxr="64" radius="2100"/>
+		<link source="9" target="81160" length="1" gradient="-9.9" vmax="32" vmaxr="32"/>
+		<link source="10" target="75273" length="1" gradient="-9.9" vmax="32" vmaxr="32"/>
+		<link source="11" target="68859" length="62" gradient="-12.05" vmax="64" vmaxr="64" radius="2100"/>
+		<link source="12" target="81169" length="175" gradient="-15.87" vmax="64" vmaxr="64" radius="2100">
+			<vzg index="1" vmax="56" vmaxr="56"/>
+		</link>
+		<link source="13" target="68862" length="50" gradient="19.61" vmax="64" vmaxr="64" radius="1100"/>
+		<link source="98" target="6" length="4" gradient="-3.79" vmax="32" vmaxr="32" radius="1100"/>
+		<link source="99" target="68860" length="22" gradient="-15.87" vmax="64" vmaxr="64" radius="1100"/>
+		<link source="100" target="92134" length="37" gradient="-9.9" vmax="64" vmaxr="64" radius="2100">
+			<vzg index="1" vmax="56" vmaxr="56"/>
+		</link>
+		<link source="102" target="9" length="1" gradient="-9.9" vmax="64" vmaxr="64"/>
+		<link source="64305" target="79343" length="311" gradient="-9.9" vmax="64" vmaxr="64" radius="1100"/>
+		<link source="68856" target="4" length="1" gradient="-9.9" vmax="32" vmaxr="32" radius="2100"/>
+		<link source="68856" target="68866" length="258" gradient="-9.9" vmax="64" vmaxr="64" radius="1100"/>
+		<link source="68857" target="68864" length="144" gradient="-15.87" vmax="64" vmaxr="64" radius="1100"/>
+		<link source="68858" target="68869" length="174" gradient="-11.49" vmax="64" vmaxr="64" radius="2100"/>
+		<link source="68859" target="68867" length="53" gradient="-12.05" vmax="64" vmaxr="64" radius="2100"/>
+		<link source="68860" target="68865" length="94" gradient="19.61" vmax="64" vmaxr="64" radius="1100"/>
+		<link source="68864" target="99" length="9" gradient="-15.87" vmax="64" vmaxr="64" radius="1100"/>
+		<link source="68865" target="13" length="6" gradient="19.61" vmax="64" vmaxr="64" radius="1100"/>
+		<link source="68866" target="68857" length="36" gradient="-9.9" vmax="64" vmaxr="64" radius="1100"/>
+		<link source="68867" target="68868" length="60" gradient="-3.79" vmax="64" vmaxr="64" radius="2100"/>
+		<link source="68868" target="68858" length="12" gradient="-11.49" vmax="64" vmaxr="64" radius="2100"/>
+		<link source="68869" target="8" length="6" gradient="-13.7" vmax="64" vmaxr="64" radius="2100"/>
+		<link source="75273" target="3" length="1" gradient="-9.9" vmax="32" vmaxr="32" radius="1100"/>
+		<link source="75276" target="98" length="2" gradient="-3.79" vmax="32" vmaxr="32" radius="1100"/>
+		<link source="75277" target="75284" length="122" gradient="-11.49" vmax="32" vmaxr="32" radius="1100"/>
+		<link source="75278" target="75281" length="11" gradient="-9.9" vmax="32" vmaxr="32" radius="1100"/>
+		<link source="75281" target="75282" length="115" gradient="-12.05" vmax="32" vmaxr="32" radius="1100"/>
+		<link source="75282" target="75276" length="54" gradient="-3.79" vmax="32" vmaxr="32" radius="1100"/>
+		<link source="79343" target="79344" length="1" gradient="-9.9" vmax="64" vmaxr="64" radius="3700"/>
+		<link source="79343" target="79347" length="68" gradient="-9.9" vmax="64" vmaxr="64" radius="1100"/>
+		<link source="79344" target="79346" length="26" gradient="-9.9" vmax="24" vmaxr="24" radius="3700"/>
+		<link source="79345" target="89031" length="1" gradient="-9.9" vmax="64" vmaxr="64" radius="3700">
+			<vzg index="1" vmax="56" vmaxr="56"/>
+		</link>
+		<link source="79346" target="79348" length="9" gradient="-9.9" vmax="24" vmaxr="24" radius="3700"/>
+		<link source="79347" target="2" length="1" gradient="-9.9" vmax="64" vmaxr="64" radius="1100"/>
+		<link source="79348" target="79345" length="18" gradient="-9.9" vmax="24" vmaxr="24" radius="3700"/>
+		<link source="81160" target="81162" length="9" gradient="-9.9" vmax="32" vmaxr="32" radius="2100"/>
+		<link source="81161" target="68856" length="26" gradient="-9.9" vmax="32" vmaxr="32" radius="2100"/>
+		<link source="81162" target="81161" length="15" gradient="-9.9" vmax="32" vmaxr="32" radius="2100"/>
+		<link source="81169" target="81172" length="100" gradient="19.61" vmax="64" vmaxr="64" radius="2100">
+			<vzg index="1" vmax="56" vmaxr="56"/>
+		</link>
+		<link source="81172" target="81173" length="50" gradient="19.61" vmax="64" vmaxr="64" radius="2100">
+			<vzg index="1" vmax="56" vmaxr="56"/>
+		</link>
+		<link source="89031" target="89032" length="13" gradient="-9.9" vmax="64" vmaxr="64" radius="2100">
+			<vzg index="1" vmax="56" vmaxr="56"/>
+		</link>
+		<link source="89032" target="1" length="1" gradient="-9.9" vmax="64" vmaxr="64" radius="2100">
+			<vzg index="1" vmax="56" vmaxr="56"/>
+		</link>
+		<link source="92126" target="92135" length="7" gradient="-9.9" vmax="64" vmaxr="64" radius="2100">
+			<vzg index="1" vmax="56" vmaxr="56"/>
+		</link>
+		<link source="92131" target="89031" length="54" gradient="-9.9" vmax="64" vmaxr="64" radius="2100">
+			<vzg index="1" vmax="56" vmaxr="56"/>
+		</link>
+		<link source="92134" target="92131" length="180" gradient="-9.9" vmax="64" vmaxr="64" radius="2100">
+			<vzg index="1" vmax="56" vmaxr="56"/>
+		</link>
+		<link source="92135" target="100" length="88" gradient="-9.9" vmax="64" vmaxr="64" radius="2100">
+			<vzg index="1" vmax="56" vmaxr="56"/>
+		</link>
+	</links>
+	<dependentLinks/>
+	<blockSections>
+		<blocksection uuid="{143d5258-e02f-4cce-8508-4bddbee314ed}" lines="dalt n4041 psth">
+			<part nodes="75284 75277 6 98 75276"/>
+		</blocksection>
+		<blocksection uuid="{2597a668-1a12-430a-b8be-4f0885d60c17}" lines="dalt nw4033" shuntingBlock="true">
+			<part nodes="92134 92131 89031 89032 1 12 81169 81172 81173"/>
+		</blocksection>
+		<blocksection uuid="{269f5c35-49de-4ee0-bbf6-1fc120d3ac87}" lines="dalt nw4033">
+			<part nodes="68864 68857 68866 68856 5 2 79347 79343 64305"/>
+		</blocksection>
+		<blocksection uuid="{27dcb2f3-32fc-4f03-97e2-75bb40459416}" lines="dalt n4041 psth">
+			<part nodes="68858 68869 8"/>
+		</blocksection>
+		<blocksection uuid="{5784c65c-8b6d-4e11-a0c9-c245448c589d}" lines="dalt nw4033">
+			<part nodes="92134 92131 89031 89032 1 12 81169 81172 81173"/>
+		</blocksection>
+		<blocksection uuid="{792a0f43-7d72-4d5a-a9be-ce9fc9dfbb69}" lines="dalt nw4033" shuntingBlock="true">
+			<part nodes="92134 92131 89031 89032 1 12 81169 81172 81173"/>
+		</blocksection>
+		<blocksection uuid="{a67df20f-43d6-4ebb-86d5-75c483472044}" lines="dalt nw4033">
+			<part nodes="68862 13 68865 68860 99 68864"/>
+		</blocksection>
+		<blocksection uuid="{b9895550-f1e6-4bf9-a35f-1ea9d9d4b453}" lines="dalt nw4033">
+			<part nodes="92126 92135 100 92134"/>
+		</blocksection>
+		<blocksection uuid="{c0056627-7b98-4e56-8101-183261a4f15e}" lines="dalt nw4033" speedIndicators="10">
+			<part nodes="75276 75282 75281 75278 3 75273 10 2 79347 79343 64305"/>
+		</blocksection>
+		<blocksection uuid="{c28c35c4-02c7-45e2-84dc-5fed31cfcee1}" lines="dalt nw4033" shuntingBlock="true">
+			<part nodes="68862 13 68865 68860 99 68864"/>
+		</blocksection>
+		<blocksection uuid="{d32c9cf8-c9a9-4756-992d-f9895e1f1091}" lines="dalt nw4033" shuntingBlock="true">
+			<part nodes="68862 13 68865 68860 99 68864"/>
+		</blocksection>
+		<blocksection uuid="{e687b3d6-d5a2-4b08-a3d3-a5edb14ad2a8}" lines="dalt" speedIndicators="7 9 102">
+			<part nodes="92134 92131 89031 89032 1 102 9 81160 81162 81161 68856 4 7 11 68859 68867 68868 68858"/>
+		</blocksection>
+	</blockSections>
+	<slipDistances>
+		<slipdistance uuid="{328ba9d5-f264-4b2a-9cae-f9f8720a21de}" vmax="999" lines="dalt" serialNumber="0">
+			<part nodes="92134 92131"/>
+		</slipdistance>
+		<slipdistance uuid="{7153d603-f65a-4c18-b846-e1bf1b78c297}" vmax="999" lines="dalt" serialNumber="0">
+			<part nodes="68858 68869 8"/>
+		</slipdistance>
+		<slipdistance uuid="{ae819bc4-a8d6-4a8e-ab82-4d974ca0f309}" vmax="999" lines="dalt" serialNumber="0">
+			<part nodes="68864 68857 68866"/>
+		</slipdistance>
+		<slipdistance uuid="{f889122b-8704-4015-b54b-ec7bbbc1a279}" vmax="999" lines="dalt" serialNumber="0">
+			<part nodes="75276 75282 75281 75278"/>
+		</slipdistance>
+	</slipDistances>
+	<approachControlRoutes/>
+	<stationRoutes>
+		<stationRoute stationID="DALTONJ" name="[DALTON]-[n4033/1]-[1]-[PSTH]-[n4041/1] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=95;NRz=95;S=95;Rz=95;FGz=95;NGz=95;Gz=95;Lz=95;Unbekannt=95" nodes="100 92134 92131 89031 89032 1 102 9 81160 81162 81161 68856 4"/>
+		<stationRoute stationID="DALTONJ" name="[DALTON]-[n4033/1]-[1]-[ROOSE]-[n4033/2] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="100 92134 92131 89031 89032 1 12"/>
+		<stationRoute stationID="DALTONJ" name="[PSTH]-[n4041/2]-[2-3]-[DALTON]-[n4033/2] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=95;NRz=95;S=95;Rz=95;FGz=95;NGz=95;Gz=95;Lz=95;Unbekannt=95" nodes="98 75276 75282 75281 75278 3 75273 10 2 79347 79343 64305"/>
+		<stationRoute stationID="DALTONJ" name="[ROOSE]-[n4033/1]-[2]-[DALTON]-[n4033/2] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="99 68864 68857 68866 68856 5 2 79347 79343 64305"/>
+	</stationRoutes>
+	<lineCatalog/>
+	<zugNummernFelder/>
+	<switchGears/>
+</line>

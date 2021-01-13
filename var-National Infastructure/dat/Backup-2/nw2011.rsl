@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<line lineID="nw2011" name="NW2011" trafficRouting="on_the_left" type="local" dependentLines="arply waoj">
+	<version major="1" minor="2" patchlevel="0" comment=""/>
+	<creator user="VWaddelo" timestamp="2016-07-08T10:58:15"/>
+	<lasteditor user="VWaddelo" timestamp="2016-07-08T10:58:15"/>
+	<stations/>
+	<nodes>
+		<node nodeID="3350" name="SD:FA" kilometre="28.213" x="-14349.189417389" y="0" xNet="-1836721.4" yNet="4253966.5" referenceNode="7506.waoj" sightingDistance="true"/>
+		<node nodeID="3298" name="SD:WN221" kilometre="28.239" x="-14157.7894173888" y="-500" xNet="-1833200" yNet="4259237" referenceNode="7492" sightingDistance="true"/>
+		<signal interlockingMachine="4 Aspect Pannel (Below 75mph)" nodeID="3357" name="SIG: WN229 (approx)" kilometre="28.279" x="-13611.489417389" y="0" xNet="-1835606.2" yNet="4254438.9" referenceNode="3350"/>
+		<node nodeID="1" kilometre="0.466" x="3307.5918" y="-500" xNet="-1831187.3" yNet="4265350.8"/>
+		<node nodeID="3" kilometre="0.466" x="3307.5918" y="0" xNet="-1831299.9" yNet="4265516.5"/>
+		<node nodeID="8" name="SD : 50" description="sighting distance for SIG : 50" kilometre="0.520" x="3242.98731462161" y="0" xNet="-1831582.1" yNet="4264940.5" referenceNode="20" sightingDistance="true"/>
+		<node nodeID="3285" name="SIG:FA" kilometre="28.284" x="-13553.5894173889" y="0" xNet="-1835518.7" yNet="4254476"/>
+		<kilometreInconsistency newKilometre="0.949" nodeID="7492" name="Buffer stop 105" kilometre="28.284" x="-13563.189417389" y="-500" xNet="-1832760" yNet="4260456" referenceNode="3298"/>
+		<kilometreInconsistency newKilometre="1.25" nodeID="20" kilometre="27.983" x="-4318.80508104206" y="0" xNet="-1835370" yNet="4254663" referenceNode="21"/>
+		<node nodeID="21" name="OL " description="OL for SIG : " kilometre="28.106" x="-11400" y="0" xNet="-1835430.8" yNet="4254586.6"/>
+	</nodes>
+	<links>
+		<link source="1" target="7492" length="483" vmax="32" vmaxr="32"/>
+		<link source="3" target="8" length="54" vmaxr="32"/>
+		<link source="8" target="20" length="730" vmax="32" vmaxr="32"/>
+		<link source="21" target="20" length="123" vmax="32" vmaxr="32"/>
+		<link source="313.arply" target="1" length="1" vmax="32" vmaxr="32"/>
+		<link source="314.arply" target="3" length="1" vmaxr="32"/>
+		<link source="3285" target="21" length="178" vmax="32" vmaxr="32"/>
+		<link source="3289.waoj" target="3298" length="59" vmax="32" vmaxr="32"/>
+		<link source="3298" target="7492" length="45" vmax="32" vmaxr="32"/>
+		<link source="3350" target="3357" length="66" vmax="32" vmaxr="32"/>
+		<link source="3357" target="3285" length="5" vmax="32" vmaxr="32"/>
+		<link source="7506.waoj" target="3350" length="261" vmax="32" vmaxr="32"/>
+	</links>
+	<dependentLinks/>
+	<blockSections>
+		<blocksection uuid="{0208cf82-74d8-4909-bacb-100ed6580e22}" lines="arply nw2011 waoj" shuntingBlock="true">
+			<part nodes="313.arply 1 7492 3298 3289.waoj"/>
+		</blocksection>
+		<blocksection uuid="{132eada1-3dbe-49cc-8d98-55cefbb3f443}" lines="arply nw2011 waoj">
+			<part nodes="313.arply 1 7492 3298 3289.waoj"/>
+		</blocksection>
+		<blocksection uuid="{239bc1df-e4db-40e4-926a-9418430c9358}" lines="arply nw2011">
+			<part nodes="3357 3285 21 20 8 3 314.arply"/>
+		</blocksection>
+		<blocksection uuid="{b0842598-39f8-4b7e-bc69-d9e5e125484d}" lines="nw2011 waoj">
+			<part nodes="7506.waoj 3350 3357"/>
+		</blocksection>
+		<blocksection uuid="{c0b11de7-79bf-4e86-b51f-62f1b7c02032}" lines="arply nw2011 waoj" shuntingBlock="true">
+			<part nodes="313.arply 1 7492 3298 3289.waoj"/>
+		</blocksection>
+	</blockSections>
+	<slipDistances>
+		<slipdistance uuid="{f0908d6b-a344-4e48-8eca-5b96a4b34f44}" vmax="999" lines="nw2011" serialNumber="0">
+			<part nodes="3357 3285 21"/>
+		</slipdistance>
+	</slipDistances>
+	<approachControlRoutes/>
+	<stationRoutes/>
+	<lineCatalog/>
+	<zugNummernFelder/>
+	<switchGears/>
+</line>

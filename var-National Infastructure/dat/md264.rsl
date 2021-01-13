@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<line lineID="md264" name="Attenborough Jn to Toton Jn" trafficRouting="on_the_left" type="local" dependentLines="attnb tothi">
+	<version major="1" minor="2" patchlevel="0" comment=""/>
+	<creator user="Ahowe4" timestamp="2016-11-01T12:54:22"/>
+	<lasteditor user="Ahowe4" timestamp="2016-11-01T12:54:22"/>
+	<stations/>
+	<nodes>
+		<node nodeID="1168" kilometre="0.400" x="75575" y="-34788" xNet="-343252.75" yNet="3268873.8"/>
+		<node nodeID="1180" kilometre="0.400" x="75575" y="-34988" xNet="-343052.97" yNet="3268881.1"/>
+		<signal interlockingMachine="4 Aspect Pannel (Below 75mph)" nodeID="1181" kilometre="0.507" x="76689.879" y="-34986.716" xNet="-343090.32" yNet="3269950.5" referenceNode="1178.attnb"/>
+	</nodes>
+	<links>
+		<link source="1166.attnb" target="1168" length="200" gradient="5.405" vmax="48" vmaxr="48"/>
+		<link source="1168" target="2864.tothi" length="20" gradient="5.405" vmax="48" vmaxr="48"/>
+		<link source="1178.attnb" target="1181" length="93" gradient="5.405" vmax="48" vmaxr="48"/>
+		<link source="1180" target="2870.tothi" length="20" gradient="5.405" vmax="48" vmaxr="48"/>
+		<link source="1181" target="1180" length="107" gradient="5.405" vmax="48" vmaxr="48"/>
+	</links>
+	<dependentLinks/>
+	<blockSections>
+		<blocksection uuid="{2f01a37a-99b4-4ae5-90f6-966747d5a3c5}" lines="md264 tothi">
+			<part nodes="1181 1180 2870.tothi"/>
+		</blocksection>
+		<blocksection uuid="{6ad51075-93a1-40d0-94c2-c72141949446}" lines="attnb md264 tothi">
+			<part nodes="2864.tothi 1168 1166.attnb"/>
+		</blocksection>
+		<blocksection uuid="{b05c9e3a-ebe7-4836-bbea-71adafca30eb}" lines="attnb md264">
+			<part nodes="1178.attnb 1181"/>
+		</blocksection>
+	</blockSections>
+	<slipDistances>
+		<slipdistance uuid="{48091f40-586b-4e08-b9d1-150b6cc4ae21}" vmax="999" lines="md264 tothi" serialNumber="0">
+			<part nodes="1181 1180 2870.tothi"/>
+		</slipdistance>
+	</slipDistances>
+	<approachControlRoutes/>
+	<stationRoutes/>
+	<lineCatalog/>
+	<zugNummernFelder/>
+	<switchGears/>
+</line>

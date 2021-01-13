@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<line lineID="sw135a" name="Eastleigh - Fareham" trafficRouting="on_the_left" type="local" dependentLines="elghj fare">
+	<version major="1" minor="2" patchlevel="0" comment=""/>
+	<creator user="Ahowe4" timestamp="2016-11-01T12:54:22"/>
+	<lasteditor user="Ahowe4" timestamp="2016-11-01T12:54:22"/>
+	<stations>
+		<station stationID="BOTLEY" name="Botley" xNet="-302109.9" yNet="-417692.84" uicLocationCode="0" circleDiameter="0">
+			<textElement type="name">
+				<pos view="net" x="3521.77" y="3521.77" angle="0" system="source"/>
+				<pos view="wgs84" x="3521.77" y="3521.77" angle="0" system="source"/>
+				<pos view="line" x="1752.1" y="1752.1" angle="0" system="source"/>
+				<pos view="macro" x="28.2843" y="28.2843" angle="0" system="source"/>
+				<pos view="macroWgs84" x="0" y="0" angle="0" system="source"/>
+			</textElement>
+		</station>
+		<station stationID="ELGHSJN" name="Eastleigh South Jn" xNet="-393096.65" yNet="-340877.435" uicLocationCode="0" circleDiameter="0">
+			<textElement type="name">
+				<pos view="net" x="5905.01" y="5905.01" angle="0" system="source"/>
+				<pos view="wgs84" x="5905.01" y="5905.01" angle="0" system="source"/>
+				<pos view="line" x="2385.44" y="2385.44" angle="0" system="source"/>
+				<pos view="macro" x="28.2843" y="28.2843" angle="0" system="source"/>
+				<pos view="macroWgs84" x="0" y="0" angle="0" system="source"/>
+			</textElement>
+		</station>
+		<station stationID="HEDGEND" name="Hedge End" xNet="-343784.2" yNet="-389037.11" uicLocationCode="0" circleDiameter="0">
+			<textElement type="name">
+				<pos view="net" x="2400.38" y="2400.38" angle="0" system="source"/>
+				<pos view="wgs84" x="2400.38" y="2400.38" angle="0" system="source"/>
+				<pos view="line" x="2183.64" y="2183.64" angle="0" system="source"/>
+				<pos view="macro" x="28.2843" y="28.2843" angle="0" system="source"/>
+				<pos view="macroWgs84" x="0" y="0" angle="0" system="source"/>
+			</textElement>
+		</station>
+	</stations>
+	<nodes>
+		<switch start="538" endOfMainTrack="49" endOfBranchTrack="5065" nodeID="512" name="TO" description="TO : 476; 15 mph; 74m 0ch" kilometre="119.091" x="-1190910" y="0" xNet="-398176.5" yNet="-335031.74"/>
+		<switch start="56" endOfMainTrack="5064" endOfBranchTrack="548" nodeID="5029" name="TO" description="TO : 480; 15 mph; 79m 12.5ch" kilometre="127.390" x="-1273900" y="500" xNet="-298420.3" yNet="-420837.49"/>
+		<switch start="536" endOfMainTrack="537" endOfBranchTrack="5029" nodeID="548" name="TO" description="79m8ch" kilometre="127.299" x="-1273050.4" y="0" xNet="-299089.3" yNet="-418924.62"/>
+		<track trackID="T-2" stationID="HEDGEND" type="timingPoint" nodeID="521" name="T-2" description="HEDGEND T-2, timingPoint" kilometre="123.839" x="-1238390" y="0" xNet="-344144.2" yNet="-387888.07" referenceNode="50"/>
+		<track trackID="D-2" stationID="HEDGEND" type="stopBoard" nodeID="522" name="D-2" description="HEDGEND D-2, stopBoard" kilometre="123.899" x="-1238990" y="0" xNet="-343296.2" yNet="-388707.55" referenceNode="521">
+			<platform startPos="-1200" endPos="0" width="150" left="true" open="true"/>
+		</track>
+		<track trackID="T-2" stationID="BOTLEY" type="timingPoint" nodeID="533" name="T-2" description="BOTLEY T-2, timingPoint" kilometre="126.977" x="-1269770" y="0" xNet="-304017.9" yNet="-414778.29" referenceNode="54"/>
+		<track trackID="D-2" stationID="BOTLEY" type="stopBoard" nodeID="534" name="D-2" description="BOTLEY D-2, stopBoard" kilometre="127.048" x="-1270480" y="0" xNet="-302951.2" yNet="-415675.69" referenceNode="533">
+			<platform startPos="-1400" endPos="0" width="150" left="true" open="true"/>
+		</track>
+		<track trackID="U-1" stationID="ELGHSJN" interlockingMachine="3 Aspect Pannel (Below 75mph)" nodeID="5007" name="SIG : E81" description="Signal E81; 74m 26.3ch" kilometre="119.621" x="-1196210" y="500" xNet="-388942.1" yNet="-345472.74" referenceNode="28"/>
+		<track trackID="U-1" stationID="HEDGEND" type="stopBoard" nodeID="5015" name="U-1" description="HEDGEND U-1, stopBoard" kilometre="123.779" x="-1237790" y="500" xNet="-345656.2" yNet="-387864.38" referenceNode="5016">
+			<platform startPos="-1200" endPos="0" width="150" left="true" open="true"/>
+		</track>
+		<track trackID="T-1" stationID="HEDGEND" type="timingPoint" nodeID="5016" name="T-1" description="HEDGEND T-1, timingPoint" kilometre="123.839" x="-1238390" y="500" xNet="-344809.5" yNet="-388684.54" referenceNode="53"/>
+		<track trackID="U-1" stationID="BOTLEY" type="stopBoard" nodeID="5026" name="U-1" description="BOTLEY U-1, stopBoard" kilometre="126.907" x="-1269070" y="500" xNet="-305680" yNet="-414733.75" referenceNode="5027">
+			<platform startPos="-1400" endPos="0" width="150" left="true" open="true"/>
+		</track>
+		<track trackID="T-1" stationID="BOTLEY" type="timingPoint" nodeID="5027" name="T-1" description="BOTLEY T-1, timingPoint" kilometre="126.977" x="-1269770" y="500" xNet="-304628.6" yNet="-415616.65" referenceNode="5028">
+			<platform startPos="-1500" endPos="0" width="300" left="true" open="true"/>
+		</track>
+		<track trackID="T-1" stationID="ELGHSJN" type="timingPoint" nodeID="540" kilometre="119.070" x="-1190699.9" y="0" xNet="-398539" yNet="-334840.44" referenceNode="48"/>
+		<node nodeID="511" name="TO" description="TO : 475; 15 mph; 73m 79ch" kilometre="119.071" x="-1190710" y="0" xNet="-398521.5" yNet="-334849.74"/>
+		<node nodeID="513" name="GRAD" description="Gradient; 74m 47ch" kilometre="120.037" x="-1200370" y="0" xNet="-378202.6" yNet="-354769.74"/>
+		<node nodeID="517" name="GRAD" description="Gradient; 75m 47ch" kilometre="121.646" x="-1216460" y="0" xNet="-358124.5" yNet="-372772.74"/>
+		<node nodeID="518" name="GRAD" description="Gradient; 76m 4ch" kilometre="122.391" x="-1223910" y="0" xNet="-352670.8" yNet="-379472.74"/>
+		<node nodeID="519" name="GRAD" description="Gradient; 76m 22ch" kilometre="122.753" x="-1227530" y="0" xNet="-349870" yNet="-382489.83"/>
+		<node nodeID="520" name="GRAD" description="Gradient; 76m 64ch" kilometre="123.598" x="-1235980" y="0" xNet="-347544.5" yNet="-384599.44"/>
+		<node nodeID="527" name="GRAD" description="Gradient; 78m 38ch" kilometre="126.293" x="-1262930" y="0" xNet="-314297.3" yNet="-406134.19"/>
+		<node nodeID="528" name="GRAD" description="Gradient; 78m 50ch" kilometre="126.535" x="-1265350" y="0" xNet="-310661.4" yNet="-409190.92"/>
+		<node nodeID="529" name="GRAD" description="Gradient; 78m 54ch" kilometre="126.615" x="-1266150" y="0" xNet="-309457.6" yNet="-410203.34"/>
+		<node nodeID="530" name="TO" description="TO : 483; 15 mph; 78m 65ch" kilometre="126.836" x="-1268360" y="0" xNet="-306134.9" yNet="-412997.23"/>
+		<node nodeID="531" name="TO" description="TO : 482; 15 mph; 78m 67ch" kilometre="126.877" x="-1268770" y="0" xNet="-305520.5" yNet="-413512.21"/>
+		<node nodeID="535" name="S" description="Speed; 79m 7ch" kilometre="127.279" x="-1272790" y="0" xNet="-299479.5" yNet="-418596.3"/>
+		<node nodeID="508" name="SD : E83" description="sighting distance for SIG : E83" kilometre="118.753" x="-1187530" y="0" xNet="-404033.5" yNet="-331908.74" referenceNode="509" sightingDistance="true"/>
+		<node nodeID="510" name="OL" description="OL for SIG : E40" kilometre="118.970" x="-1189700" y="0" xNet="-400272.5" yNet="-333915.74"/>
+		<node nodeID="514" name="SD : E831" description="sighting distance for SIG : E831" kilometre="120.395" x="-1203950" y="0" xNet="-374445.5" yNet="-358372.74" referenceNode="513" sightingDistance="true"/>
+		<node nodeID="516" name="OL" description="OL for SIG : E831" kilometre="120.941" x="-1209410" y="0" xNet="-366716.6" yNet="-365734.74"/>
+		<node nodeID="523" name="Rep : E829R" description="repeater signal; SIG : E829R" kilometre="124.624" x="-1246240" y="0" xNet="-335745.5" yNet="-392572.74" referenceNode="51" presignal="true" with1000HzMagnet="true"/>
+		<node nodeID="524" name="SD : E829" description="sighting distance for SIG : E829" kilometre="125.686" x="-1256860" y="0" xNet="-325645.5" yNet="-396572.74" referenceNode="523" sightingDistance="true"/>
+		<node nodeID="526" name="OL" description="OL for SIG : E829" kilometre="126.232" x="-1262320" y="0" xNet="-315214.5" yNet="-405360.58"/>
+		<node nodeID="532" name="SD : E827" description="sighting distance for SIG : E827" kilometre="126.913" x="-1269130" y="0" xNet="-304979.4" yNet="-413967.67" referenceNode="531" sightingDistance="true"/>
+		<node nodeID="5009" name="GRAD" description="Gradient; 74m 47ch" kilometre="120.037" x="-1200370" y="500" xNet="-378625.6" yNet="-355716.74"/>
+		<node nodeID="5011" name="GRAD" description="Gradient; 75m 47ch" kilometre="121.646" x="-1216460" y="500" xNet="-358545.5" yNet="-373719.74"/>
+		<node nodeID="5012" name="GRAD" description="Gradient; 76m 4ch" kilometre="122.391" x="-1223910" y="500" xNet="-353339.1" yNet="-380265.22"/>
+		<node nodeID="5013" name="GRAD" description="Gradient; 76m 22ch" kilometre="122.753" x="-1227530" y="500" xNet="-350538.3" yNet="-383282.32"/>
+		<node nodeID="5014" name="GRAD" description="Gradient; 76m 64ch" kilometre="123.598" x="-1235980" y="500" xNet="-348211.8" yNet="-385392.19"/>
+		<node nodeID="5020" name="GRAD" description="Gradient; 78m 38ch" kilometre="126.293" x="-1262930" y="500" xNet="-314905.8" yNet="-406971.98"/>
+		<node nodeID="5021" name="GRAD" description="Gradient; 78m 50ch" kilometre="126.535" x="-1265350" y="500" xNet="-311270.3" yNet="-410030.69"/>
+		<node nodeID="5022" name="GRAD" description="Gradient; 78m 54ch" kilometre="126.615" x="-1266150" y="500" xNet="-310066.8" yNet="-411039.95"/>
+		<node nodeID="5024" name="TO" description="TO : 483; 15 mph; 78m 62ch" kilometre="126.776" x="-1267760" y="500" xNet="-307649.1" yNet="-413075.09"/>
+		<node nodeID="5005" name="A" description="Start of plan : SW135 ; 74m 2.9ch" kilometre="119.150" x="-1191600" y="500" xNet="-397403.5" yNet="-336617.74"/>
+		<node nodeID="5030" name="GRAD" description="Gradient; 79m 28ch" kilometre="127.701" x="-1277010" y="500" xNet="-293745.5" yNet="-424768.35"/>
+		<node nodeID="5032" name="GRAD" description="Gradient; 79m 52ch" kilometre="128.184" x="-1281840" y="500" xNet="-269745.5" yNet="-446772.7"/>
+		<node nodeID="5036" name="GRAD" description="Gradient; 81m 20ch" kilometre="130.759" x="-1307590" y="500" xNet="-255065.5" yNet="-463797.7"/>
+		<node nodeID="5037" name="GRAD" description="Gradient; 82m 5ch" kilometre="132.067" x="-1320670" y="500" xNet="-252672.5" yNet="-466828.7"/>
+		<node nodeID="5038" name="GRAD" description="Gradient; 82m 26ch" kilometre="132.489" x="-1324890" y="500" xNet="-249945.5" yNet="-474372.7"/>
+		<node nodeID="5006" name="OL" description="OL for SIG : E81" kilometre="119.441" x="-1194410" y="500" xNet="-395845.5" yNet="-338472.74"/>
+		<node nodeID="5008" name="SD : E81" description="sighting distance for SIG : E81" kilometre="119.987" x="-1199870" y="500" xNet="-379490.6" yNet="-355254.74" referenceNode="5009" sightingDistance="true"/>
+		<node nodeID="5010" name="Rep : E81R" description="repeater signal; SIG : E81R" kilometre="121.063" x="-1210630" y="500" xNet="-365045.5" yNet="-367822.74" referenceNode="5011" presignal="true" with1000HzMagnet="true"/>
+		<node nodeID="5017" name="OL" description="OL for SIG : E830" kilometre="125.510" x="-1255100" y="500" xNet="-326145.5" yNet="-397472.74"/>
+		<node nodeID="5019" name="SD : E830" description="sighting distance for SIG : E830" kilometre="126.056" x="-1260560" y="500" xNet="-318469.5" yNet="-403974.55" referenceNode="5020" sightingDistance="true"/>
+		<node nodeID="5023" name="OL" description="OL for SIG : E828" kilometre="126.697" x="-1266970" y="500" xNet="-308836.9" yNet="-412078.37"/>
+		<node nodeID="5028" name="SD : E828" description="sighting distance for SIG : E828" kilometre="127.243" x="-1272430" y="500" xNet="-300630.8" yNet="-418981.36" referenceNode="5064" sightingDistance="true"/>
+		<node nodeID="5031" name="OL" description="OL for SIG : E826" kilometre="128.125" x="-1281250" y="500" xNet="-271145.5" yNet="-444672.7"/>
+		<node nodeID="5034" name="SD : E826" description="sighting distance for SIG : E826" kilometre="128.671" x="-1286710" y="500" xNet="-265345.5" yNet="-450672.7" referenceNode="5035" sightingDistance="true"/>
+		<node nodeID="5035" name="Rep : E826R" description="repeater signal; SIG : E826R" kilometre="129.431" x="-1294310" y="500" xNet="-262573.5" yNet="-453723.7" referenceNode="5036" presignal="true" with1000HzMagnet="true"/>
+		<node nodeID="5039" name="Rep : E821R" description="repeater signal; SIG : E821R" kilometre="133.173" x="-1331730" y="500" xNet="-246091.5" yNet="-484640.7" referenceNode="5038" presignal="true" with1000HzMagnet="true"/>
+		<node nodeID="5040" name="SD : E821" description="sighting distance for SIG : E821" kilometre="134.356" x="-1343560" y="500" xNet="-244608.4" yNet="-492025.7" referenceNode="5039" sightingDistance="true"/>
+		<node nodeID="5050" name="OL" description="OL for SIG : E827" kilometre="127.459" x="-1274590" y="500" xNet="-297382.9" yNet="-421709.23"/>
+		<speedIndicator nodeID="5004" name="S" description="TO : 477A; 15 mph; 74m 3ch" kilometre="119.150" x="-1191520" y="500" xNet="-397541.5" yNet="-336542.74" referenceNode="5005"/>
+		<speedIndicator nodeID="538" name="S" kilometre="119.091" x="-1190900" y="0" xNet="-398193.5" yNet="-335020.74" referenceNode="512"/>
+		<speedIndicator nodeID="5058" name="S" kilometre="127.390" x="-1273934.5" y="500" xNet="-298369.3" yNet="-420881.05" referenceNode="56"/>
+		<signal interlockingMachine="3 Aspect Pannel (Below 75mph)" nodeID="509" name="SIG : E40" description="Signal E40; 73m 65ch" kilometre="118.790" x="-1187900" y="0" xNet="-403392.5" yNet="-332249.74" referenceNode="508"/>
+		<signal interlockingMachine="3 Aspect Pannel (Below 75mph)" nodeID="515" name="SIG : E831" description="Signal E831; 75m 3ch" kilometre="120.761" x="-1207610" y="0" xNet="-369545.5" yNet="-362972.74" referenceNode="514"/>
+		<signal interlockingMachine="3 Aspect Pannel (Below 75mph)" nodeID="525" name="SIG : E829" description="Signal E829; 78m 26ch" kilometre="126.052" x="-1260520" y="0" xNet="-317918.6" yNet="-403085.65" referenceNode="524"/>
+		<signal interlockingMachine="2 Aspect Pannel (Below 75mph)" nodeID="536" name="SIG : E827" description="Signal E827; 79m 7ch" kilometre="127.279" x="-1272890" y="0" xNet="-299327.5" yNet="-418722.68" referenceNode="535"/>
+		<signal interlockingMachine="2 Aspect Pannel (Below 75mph)" nodeID="5018" name="SIG : E830" description="Signal E830; 78m 8ch" kilometre="125.690" x="-1256900" y="500" xNet="-323971.1" yNet="-399349.62" referenceNode="5019"/>
+		<signal interlockingMachine="3 Aspect Pannel (Below 75mph)" nodeID="5025" name="SIG : E828" description="Signal E828; 78m 67ch" kilometre="126.877" x="-1268770" y="500" xNet="-306129.6" yNet="-414352.94" referenceNode="55"/>
+		<signal interlockingMachine="3 Aspect Pannel (Below 75mph)" nodeID="5033" name="SIG : E826" description="Signal E826; 79m 58ch" kilometre="128.305" x="-1283050" y="500" xNet="-267945.5" yNet="-448572.7" referenceNode="5034"/>
+		<node nodeID="5062" kilometre="134.683" x="-1346834.9" y="500" xNet="-241597.6" yNet="-497706.8" referenceNode="5041.fare" releaseContact="true" arranged="true"/>
+		<node nodeID="5063" kilometre="127.472" x="-1274715" y="500" xNet="-297195" yNet="-421867.27" referenceNode="5050" releaseContact="true" arranged="true"/>
+		<node nodeID="5064" kilometre="127.281" x="-1272807.6" y="500" xNet="-300062.8" yNet="-419458.27" referenceNode="5029" releaseContact="true" arranged="true"/>
+		<node nodeID="5065" kilometre="119.136" x="-1191378.3" y="383.85968" xNet="-397689" yNet="-336191.74" referenceNode="512" releaseContact="true" arranged="true"/>
+		<node nodeID="541" kilometre="119.168" x="-1191682" y="0" xNet="-396838.6" yNet="-335745.24" referenceNode="49" releaseContact="true" arranged="true"/>
+		<node nodeID="542" kilometre="119.030" x="-1190298.4" y="0" xNet="-399235" yNet="-334469.14" referenceNode="48" releaseContact="true" arranged="true"/>
+		<stationBorder exitType="alternative" stationID="ELGHSJN" lineID="sw135a" trackNumber="1" nodeID="28" name="[HEDGEND] - [sw135/1]" kilometre="119.731" x="-1197308" y="500" xNet="-387445.5" yNet="-347025.83" referenceNode="5007"/>
+		<stationBorder exitType="regular" stationID="ELGHSJN" lineID="sw135a" trackNumber="1" nodeID="48" name="[ELGH] - [sw135/1]" kilometre="119.058" x="-1190579.5" y="0" xNet="-398747.8" yNet="-334729.04" referenceNode="540"/>
+		<stationBorder exitType="regular" stationID="ELGHSJN" lineID="sw135a" trackNumber="2" nodeID="49" name="[HEDGEND] - [sw135/2]" kilometre="119.114" x="-1191141.6" y="0" xNet="-397775.1" yNet="-335245.84" referenceNode="512"/>
+		<stationBorder exitType="alternative" stationID="HEDGEND" lineID="sw135a" trackNumber="2" nodeID="50" name="[ELGHSJN] - [sw135/2]" kilometre="123.767" x="-1237667" y="0" xNet="-345164.3" yNet="-386901.48" referenceNode="521"/>
+		<stationBorder exitType="regular" stationID="HEDGEND" lineID="sw135a" trackNumber="1" nodeID="51" name="[BOTLEY] - [sw135/1]" kilometre="124.117" x="-1241165" y="0" xNet="-341145.5" yNet="-390172.74" referenceNode="522"/>
+		<stationBorder exitType="regular" stationID="HEDGEND" lineID="sw135a" trackNumber="1" nodeID="52" name="[ELGHSJN] - [sw135/1]" kilometre="123.725" x="-1237247" y="500" xNet="-346422.9" yNet="-387122.72" referenceNode="5015"/>
+		<stationBorder exitType="alternative" stationID="HEDGEND" lineID="sw135a" trackNumber="2" nodeID="53" name="[BOTLEY] - [sw135/2]" kilometre="124.340" x="-1243403" y="500" xNet="-341345.5" yNet="-391172.74" referenceNode="5016"/>
+		<stationBorder exitType="locked" stationID="BOTLEY" trackNumber="" nodeID="537" name="Prellbock 150" description="End of plan : SW135; 79m 12ch" kilometre="127.380" x="-1273700" y="0" xNet="-298111.8" yNet="-419746.8" referenceNode="548"/>
+		<stationBorder exitType="alternative" stationID="BOTLEY" lineID="sw135a" trackNumber="1" nodeID="54" name="[HEDGEND] - [sw135/1]" kilometre="126.958" x="-1269578" y="0" xNet="-304306.3" yNet="-414535.1" referenceNode="533"/>
+		<stationBorder exitType="regular" stationID="BOTLEY" lineID="sw135a" trackNumber="2" nodeID="55" name="[HEDGEND] - [sw135/2]" kilometre="126.898" x="-1268980" y="500" xNet="-305814.9" yNet="-414619.51" referenceNode="5026"/>
+		<stationBorder exitType="regular" stationID="BOTLEY" lineID="sw135a" trackNumber="1" nodeID="56" name="[FAREHEM] - [sw135/1]" kilometre="127.390" x="-1273910.4" y="500" xNet="-298404.9" yNet="-420850.58" referenceNode="5029"/>
+	</nodes>
+	<links>
+		<link source="28" target="5008" length="256" gradient="-0.577" vmax="113" vmaxr="113" electrification="electrified"/>
+		<link source="48" target="540" length="12" gradient="-0.577" vmax="113" vmaxr="113" bidirectional="true" electrification="electrified"/>
+		<link source="49" target="512" length="23" gradient="0.577" vmax="113" vmaxr="113" electrification="electrified"/>
+		<link source="50" target="521" length="72" gradient="-2.985" vmax="113" vmaxr="113" electrification="electrified"/>
+		<link source="51" target="523" length="507" gradient="-2.985" vmax="113" vmaxr="113" electrification="electrified"/>
+		<link source="52" target="5015" length="54" gradient="-2.985" vmax="113" vmaxr="113" electrification="electrified"/>
+		<link source="53" target="5017" length="1170" gradient="-2.985" vmax="113" vmaxr="113" electrification="electrified"/>
+		<link source="54" target="533" length="19" gradient="-1.022" vmax="113" vmaxr="113" electrification="electrified"/>
+		<link source="55" target="5026" length="9" gradient="-1.022" vmax="113" vmaxr="113" electrification="electrified"/>
+		<link source="56" target="5058" gradient="-1.022" vmax="113" vmaxr="113" bidirectional="true" electrification="electrified"/>
+		<link source="508" target="509" length="37" gradient="-0.577" vmax="113" vmaxr="113" bidirectional="true" electrification="electrified"/>
+		<link source="509" target="510" length="180" gradient="-0.577" vmax="113" vmaxr="113" bidirectional="true" electrification="electrified"/>
+		<link source="510" target="542" length="60" gradient="-0.577" vmax="113" vmaxr="113" bidirectional="true" electrification="electrified"/>
+		<link source="512" target="538" gradient="0.577" vmax="113" vmaxr="113" bidirectional="true" electrification="electrified"/>
+		<link source="513" target="514" length="358" gradient="2.577" vmax="113" vmaxr="113" electrification="electrified"/>
+		<link source="513" target="541" length="869" gradient="0.577" vmax="113" vmaxr="113" electrification="electrified"/>
+		<link source="514" target="515" length="366" gradient="2.577" vmax="113" vmaxr="113" electrification="electrified"/>
+		<link source="515" target="516" length="180" gradient="2.577" vmax="113" vmaxr="113" electrification="electrified"/>
+		<link source="516" target="517" length="705" gradient="2.577" vmax="113" vmaxr="113" electrification="electrified"/>
+		<link source="517" target="518" length="745" gradient="3.344" vmax="113" vmaxr="113" electrification="electrified"/>
+		<link source="518" target="519" length="362" gradient="1.167" vmax="113" vmaxr="113" electrification="electrified"/>
+		<link source="519" target="520" length="845" gradient="1.988" vmax="113" vmaxr="113" electrification="electrified"/>
+		<link source="520" target="50" length="169" gradient="-2.985" vmax="113" vmaxr="113" electrification="electrified"/>
+		<link source="521" target="522" length="60" gradient="-2.985" vmax="113" vmaxr="113" electrification="electrified"/>
+		<link source="522" target="51" length="218" gradient="-2.985" vmax="113" vmaxr="113" electrification="electrified"/>
+		<link source="523" target="524" length="1062" gradient="-2.985" vmax="113" vmaxr="113" electrification="electrified"/>
+		<link source="524" target="525" length="366" gradient="-2.985" vmax="113" vmaxr="113" electrification="electrified"/>
+		<link source="525" target="526" length="180" gradient="-2.985" vmax="113" vmaxr="113" electrification="electrified"/>
+		<link source="526" target="527" length="61" gradient="-2.985" vmax="113" vmaxr="113" electrification="electrified"/>
+		<link source="527" target="528" length="242" gradient="-0.126" vmax="113" vmaxr="113" electrification="electrified"/>
+		<link source="528" target="529" length="80" gradient="1.894" vmax="113" vmaxr="113" electrification="electrified"/>
+		<link source="529" target="530" length="221" gradient="-1.022" vmax="113" vmaxr="113" electrification="electrified"/>
+		<link source="530" target="531" length="41" gradient="-1.022" vmax="113" vmaxr="113" electrification="electrified"/>
+		<link source="531" target="532" length="36" gradient="-1.022" vmax="113" vmaxr="113" electrification="electrified"/>
+		<link source="532" target="54" length="45" gradient="-1.022" vmax="113" vmaxr="113" electrification="electrified"/>
+		<link source="533" target="534" length="71" gradient="-1.022" vmax="113" vmaxr="113" electrification="electrified"/>
+		<link source="534" target="535" length="231" gradient="-1.022" vmax="113" vmaxr="113" electrification="electrified"/>
+		<link source="535" target="536" gradient="-1.022" vmax="64" vmaxr="64" electrification="electrified"/>
+		<link source="536" target="548" length="20" gradient="-1.022" vmax="64" vmaxr="64" electrification="electrified"/>
+		<link source="538" target="511" length="20" gradient="0.577" vmax="113" vmaxr="113" bidirectional="true" electrification="electrified"/>
+		<link source="539.elghj" target="508" length="143" gradient="-0.577" vmax="113" vmaxr="113" bidirectional="true" electrification="electrified"/>
+		<link source="540" target="511" length="1" gradient="-0.577" vmax="113" vmaxr="113" bidirectional="true" electrification="electrified"/>
+		<link source="541" target="49" length="54" gradient="0.577" vmax="113" vmaxr="113" electrification="electrified"/>
+		<link source="542" target="48" length="28" gradient="-0.577" vmax="113" vmaxr="113" bidirectional="true" electrification="electrified"/>
+		<link source="548" target="537" length="81" gradient="-1.022" vmax="64" vmaxr="64" electrification="electrified"/>
+		<link source="548" target="5029" length="91" gradient="-1.022" vmax="64" vmaxr="64" electrification="electrified"/>
+		<link source="5004" target="5005" gradient="-0.577" vmax="113" vmaxr="113" electrification="electrified"/>
+		<link source="5004" target="5065" length="14" gradient="0.577" vmax="64" vmaxr="64" electrification="electrified"/>
+		<link source="5005" target="5006" length="291" gradient="-0.577" vmax="113" vmaxr="113" electrification="electrified"/>
+		<link source="5006" target="5007" length="180" gradient="-0.577" vmax="113" vmaxr="113" electrification="electrified"/>
+		<link source="5007" target="28" length="110" gradient="-0.577" vmax="113" vmaxr="113" electrification="electrified"/>
+		<link source="5008" target="5009" length="50" gradient="-0.577" vmax="113" vmaxr="113" electrification="electrified"/>
+		<link source="5009" target="5010" length="1026" gradient="2.577" vmax="113" vmaxr="113" electrification="electrified"/>
+		<link source="5010" target="5011" length="583" gradient="2.577" vmax="113" vmaxr="113" electrification="electrified"/>
+		<link source="5011" target="5012" length="745" gradient="3.344" vmax="113" vmaxr="113" electrification="electrified"/>
+		<link source="5012" target="5013" length="362" gradient="1.167" vmax="113" vmaxr="113" electrification="electrified"/>
+		<link source="5013" target="5014" length="845" gradient="1.988" vmax="113" vmaxr="113" electrification="electrified"/>
+		<link source="5014" target="52" length="127" gradient="-2.985" vmax="113" vmaxr="113" electrification="electrified"/>
+		<link source="5015" target="5016" length="60" gradient="-2.985" vmax="113" vmaxr="113" electrification="electrified"/>
+		<link source="5016" target="53" length="501" gradient="-2.985" vmax="113" vmaxr="113" electrification="electrified"/>
+		<link source="5017" target="5018" length="180" gradient="-2.985" vmax="113" vmaxr="113" electrification="electrified"/>
+		<link source="5018" target="5019" length="366" gradient="-2.985" vmax="113" vmaxr="113" electrification="electrified"/>
+		<link source="5019" target="5020" length="237" gradient="-2.985" vmax="113" vmaxr="113" electrification="electrified"/>
+		<link source="5020" target="5021" length="242" gradient="-0.126" vmax="113" vmaxr="113" electrification="electrified"/>
+		<link source="5021" target="5022" length="80" gradient="1.894" vmax="113" vmaxr="113" electrification="electrified"/>
+		<link source="5022" target="5023" length="82" gradient="-1.022" vmax="113" vmaxr="113" electrification="electrified"/>
+		<link source="5023" target="5024" length="79" gradient="-1.022" vmax="113" vmaxr="113" electrification="electrified"/>
+		<link source="5024" target="5025" length="101" gradient="-1.022" vmax="113" vmaxr="113" electrification="electrified"/>
+		<link source="5025" target="55" length="21" gradient="-1.022" vmax="113" vmaxr="113" electrification="electrified"/>
+		<link source="5026" target="5027" length="70" gradient="-1.022" vmax="113" vmaxr="113" electrification="electrified"/>
+		<link source="5027" target="5028" length="266" gradient="-1.022" vmax="113" vmaxr="113" electrification="electrified"/>
+		<link source="5028" target="5064" length="38" gradient="-1.022" vmax="113" vmaxr="113" electrification="electrified"/>
+		<link source="5029" target="56" gradient="-1.022" vmax="113" vmaxr="113" bidirectional="true" electrification="electrified"/>
+		<link source="5030" target="5031" length="424" gradient="0.379" vmax="113" vmaxr="113" bidirectional="true" electrification="electrified"/>
+		<link source="5031" target="5032" length="59" gradient="0.379" vmax="113" vmaxr="113" bidirectional="true" electrification="electrified"/>
+		<link source="5032" target="5033" length="121" gradient="3.125" vmax="113" vmaxr="113" bidirectional="true" electrification="electrified"/>
+		<link source="5033" target="5034" length="366" gradient="3.125" vmax="113" vmaxr="113" bidirectional="true" electrification="electrified"/>
+		<link source="5034" target="5035" length="760" gradient="3.125" vmax="113" vmaxr="113" bidirectional="true" electrification="electrified"/>
+		<link source="5035" target="5036" length="1328" gradient="3.125" vmax="113" vmaxr="113" bidirectional="true" electrification="electrified"/>
+		<link source="5036" target="5037" length="1308" gradient="-0.131" vmax="113" vmaxr="113" bidirectional="true" electrification="electrified"/>
+		<link source="5037" target="5038" length="422" gradient="-2.146" vmax="113" vmaxr="113" bidirectional="true" electrification="electrified"/>
+		<link source="5038" target="5039" length="684" gradient="-1.934" vmax="113" vmaxr="113" bidirectional="true" electrification="electrified"/>
+		<link source="5039" target="5040" length="1183" gradient="-1.934" vmax="113" vmaxr="113" bidirectional="true" electrification="electrified"/>
+		<link source="5040" target="5062" length="327" gradient="-1.934" vmax="113" vmaxr="113" bidirectional="true" electrification="electrified"/>
+		<link source="5050" target="5063" length="13" gradient="-1.022" vmax="113" vmaxr="113" bidirectional="true" electrification="electrified"/>
+		<link source="5058" target="5050" length="69" gradient="-1.022" vmax="113" vmaxr="113" bidirectional="true" electrification="electrified"/>
+		<link source="5062" target="5041.fare" length="30" gradient="-1.934" vmax="113" vmaxr="113" bidirectional="true" electrification="electrified"/>
+		<link source="5063" target="5030" length="229" gradient="-1.022" vmax="113" vmaxr="113" bidirectional="true" electrification="electrified"/>
+		<link source="5064" target="5029" length="109" gradient="-1.022" vmax="113" vmaxr="113" electrification="electrified"/>
+		<link source="5065" target="512" length="47" gradient="0.577" vmax="64" vmaxr="64" electrification="electrified"/>
+	</links>
+	<dependentLinks/>
+	<blockSections>
+		<blocksection uuid="{00380fba-f510-48cf-9b45-a774db469b99}" lines="sw135a">
+			<part nodes="5018 5017 53 5016 5015 52 5014 5013 5012 5011 5010 5009 5008 28 5007"/>
+		</blocksection>
+		<blocksection uuid="{11760951-9608-4b60-9b0d-9bd6489eedf3}" lines="fare sw135a">
+			<part nodes="5041.fare 5062 5040 5039 5038 5037 5036 5035 5034 5033"/>
+		</blocksection>
+		<blocksection uuid="{14593731-600c-44ab-9653-ac59ac490cb4}" lines="sw135a">
+			<part nodes="5025 5024 5023 5022 5021 5020 5019 5018"/>
+		</blocksection>
+		<blocksection uuid="{1c7204de-6293-4ed1-b565-ecea1292e041}" lines="sw135a">
+			<part nodes="509 510 542 48 540 511 538 512 49 541 513 514 515"/>
+		</blocksection>
+		<blocksection uuid="{28af5981-9512-4584-8696-0187537658ea}" lines="fare sw135a" speedIndicators="5058">
+			<part nodes="536 548 5029 56 5058 5050 5063 5030 5031 5032 5033 5034 5035 5036 5037 5038 5039 5040 5062 5041.fare"/>
+		</blocksection>
+		<blocksection uuid="{3ecbeaa2-6dc1-47c4-9a3f-bd7b24b82797}" lines="elghj sw135a">
+			<part nodes="539.elghj 508 509"/>
+		</blocksection>
+		<blocksection uuid="{3ff0a444-be01-415a-bb90-64359d0d238e}" lines="elghj sw135a">
+			<part nodes="539.elghj 508 509"/>
+		</blocksection>
+		<blocksection uuid="{474efaee-7b75-40fd-bcef-f4222a6b6b2d}" lines="sw135a">
+			<part nodes="525 526 527 528 529 530 531 532 54 533 534 535 536"/>
+		</blocksection>
+		<blocksection uuid="{dff0b68d-2640-4207-978a-9b947b12495b}" lines="sw135a">
+			<part nodes="515 516 517 518 519 520 50 521 522 51 523 524 525"/>
+		</blocksection>
+		<blocksection uuid="{e8312007-c03e-47c4-98d2-2a5ea881eef6}" lines="elghj sw135a" speedIndicators="538 5004">
+			<part nodes="5007 5006 5005 5004 5065 512 538 511 540 48 542 510 509 508 539.elghj"/>
+		</blocksection>
+		<blocksection uuid="{f432d845-1de4-4b86-a44c-33ff1f5e83e4}" lines="sw135a">
+			<part nodes="5033 5032 5031 5030 5063 5050 5058 56 5029 5064 5028 5027 5026 55 5025"/>
+		</blocksection>
+	</blockSections>
+	<slipDistances>
+		<slipdistance uuid="{00d5143e-e56e-40d5-be62-5d0de94a2585}" vmax="999" lines="sw135a" serialNumber="0">
+			<part nodes="515 516"/>
+		</slipdistance>
+		<slipdistance uuid="{1b241b6b-aace-48e2-93ae-4e367abf0f6b}" vmax="999" lines="sw135a" serialNumber="0">
+			<part nodes="5007 5006"/>
+		</slipdistance>
+		<slipdistance uuid="{2086354a-b345-415d-a1e1-a2e56258ac19}" vmax="999" lines="sw135a" serialNumber="0">
+			<part nodes="5018 5017"/>
+		</slipdistance>
+		<slipdistance uuid="{24667f60-53bf-43e8-9572-992fb2860b1f}" vmax="999" lines="sw135a" serialNumber="1">
+			<part nodes="536 548 5029 56 5058 5050"/>
+		</slipdistance>
+		<slipdistance uuid="{397f0a5d-0b4d-4466-989f-36f7b23eec2d}" vmax="999" lines="sw135a" serialNumber="0">
+			<part nodes="5033 5032 5031"/>
+		</slipdistance>
+		<slipdistance uuid="{52d28244-8a19-47b7-ae83-cc22e8a2699e}" vmax="999" lines="sw135a" serialNumber="0">
+			<part nodes="525 526"/>
+		</slipdistance>
+		<slipdistance uuid="{5b535dc4-0252-4fa6-aa48-0063ab82a8f4}" vmax="999" lines="sw135a" serialNumber="0">
+			<part nodes="5025 5024 5023"/>
+		</slipdistance>
+		<slipdistance uuid="{7a4414df-a703-41c8-bd53-28967b3447b8}" vmax="999" lines="sw135a" serialNumber="0">
+			<part nodes="536 548 537"/>
+		</slipdistance>
+		<slipdistance uuid="{c16f5e69-a935-43ba-b7d4-e514d6b9d5a1}" vmax="999" lines="sw135a" serialNumber="0">
+			<part nodes="509 510"/>
+		</slipdistance>
+	</slipDistances>
+	<approachControlRoutes/>
+	<stationRoutes>
+		<stationRoute stationID="BOTLEY" name="[FAREHEM]-[sw135/1]-[1]-[HEDGEND]-[sw135/2] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="56 5029 5064 5028 5027 5026 55"/>
+		<stationRoute stationID="BOTLEY" name="[HEDGEND]-[sw135/1]-[2]-[FAREHEM]-[sw135/1] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=90;NRz=90;S=90;Rz=90;FGz=90;NGz=90;Gz=90;Lz=90;Unbekannt=90" nodes="54 533 534 535 536 548 5029 56"/>
+		<stationRoute stationID="ELGHSJN" name="[ELGH]-[sw135/1]-[1]-[HEDGEND]-[sw135/2] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="48 540 511 538 512 49"/>
+		<stationRoute stationID="ELGHSJN" name="[HEDGEND]-[sw135/1]-[1]-[ELGH]-[sw135/1] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=95;NRz=95;S=95;Rz=95;FGz=95;NGz=95;Gz=95;Lz=95;Unbekannt=95" nodes="28 5007 5006 5005 5004 5065 512 538 511 540 48"/>
+		<stationRoute stationID="HEDGEND" name="[BOTLEY]-[sw135/2]-[1]-[ELGHSJN]-[sw135/1] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="53 5016 5015 52"/>
+		<stationRoute stationID="HEDGEND" name="[ELGHSJN]-[sw135/2]-[2]-[BOTLEY]-[sw135/1] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="50 521 522 51"/>
+	</stationRoutes>
+	<lineCatalog/>
+	<zugNummernFelder/>
+	<switchGears/>
+</line>

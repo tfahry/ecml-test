@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<line lineID="worlej" name="Worle Junction" trafficRouting="on_the_left" type="global" dependentLines="gw105 gw107">
+	<transformations>
+		<transformation line="gw105" m11="1" m12="0" m21="0" m22="1" dx="0" dy="0"/>
+		<transformation line="gw107" m11="1.12399e-16" m12="1.28641" m21="-1.83567" m22="7.87676e-17" dx="1.49046e+06" dy="-1.76006e+06"/>
+	</transformations>
+	<version major="1" minor="2" patchlevel="0" comment=""/>
+	<creator user="Ahowe4" timestamp="2016-11-01T12:54:22"/>
+	<lasteditor user="Ahowe4" timestamp="2016-11-01T12:54:22"/>
+	<stations>
+		<station stationID="WORLEJ" name="Worle Jn" xNet="-2285817.3" yNet="372328.97" uicLocationCode="0" circleDiameter="0">
+			<textElement type="name">
+				<pos view="net" x="3180.2" y="3180.2" angle="0" system="source"/>
+				<pos view="wgs84" x="3180.2" y="3180.2" angle="0" system="source"/>
+				<pos view="line" x="6289.26" y="6289.26" angle="0" system="source"/>
+				<pos view="macro" x="28.2843" y="28.2843" angle="0" system="source"/>
+				<pos view="macroWgs84" x="0" y="0" angle="0" system="source"/>
+			</textElement>
+		</station>
+	</stations>
+	<nodes>
+		<node nodeID="25" kilometre="217.000" x="1421972.2" y="30641.318" xNet="-2284288" yNet="377802">
+			<netLimitInfo lineID="gw105"/>
+		</node>
+		<node nodeID="26" kilometre="218.000" x="1404150.2" y="30641.318" xNet="-2284114" yNet="367804">
+			<netLimitInfo lineID="gw105"/>
+		</node>
+		<node nodeID="1975" kilometre="218.000" x="1404150.2" y="31243.721" xNet="-2284314" yNet="367801">
+			<netLimitInfo lineID="gw105"/>
+		</node>
+		<switch start="2343" endOfMainTrack="2406" endOfBranchTrack="1381" nodeID="1377" name="POINTS: 724A" description="GEOGIS S&amp;C|MLN1|148066836|[492][237673]|" kilometre="217.330" x="1416091.3" y="30641.318" xNet="-2284231" yNet="374502"/>
+		<switch start="1379" endOfMainTrack="446" endOfBranchTrack="1382" nodeID="1378" name="POINTS: 724B" description="GEOGIS S&amp;C|MLN1|148062213|[496][237780]|" kilometre="217.428" x="1414344.1" y="31243.721" xNet="-2284413" yNet="373519"/>
+		<switch start="1378" endOfMainTrack="2389" endOfBranchTrack="1380" nodeID="1379" name="POINTS: 723" description="GEOGIS S&amp;C|MLN1|148062240|[496][237832]|" kilometre="217.477" x="1413470.5" y="31243.721" xNet="-2284405" yNet="373029"/>
+		<speedIndicator nodeID="1380" name="SPEED" kilometre="217.478" x="1413452.7" y="31249.627" xNet="-2284407" yNet="373019" referenceNode="2131"/>
+		<speedIndicator nodeID="1381" name="SPEED" kilometre="217.331" x="1416073.5" y="30650.177" xNet="-2284233" yNet="374493" referenceNode="1377"/>
+		<speedIndicator nodeID="1382" name="SPEED" kilometre="217.427" x="1414361.8" y="31237.815" xNet="-2284412" yNet="373530" referenceNode="1378"/>
+		<track trackID="T-1" stationID="WORLEJ" interlockingMachine="3 Aspect Pannel (76mph - 100mph)" nodeID="2343" name="SIG: B70" kilometre="217.187" x="1418639.3" y="30641.318" xNet="-2284256" yNet="375933" referenceNode="1572"/>
+		<node nodeID="2131" name="OL: B70, B333" kilometre="217.569" x="1411813.8" y="31798.877" xNet="-2284707" yNet="372122.38"/>
+		<node nodeID="2132" name="OL: B11" kilometre="217.670" x="1410032.9" y="31243.721" xNet="-2284372" yNet="371100"/>
+		<track trackID="U-2" stationID="WORLEJ" interlockingMachine="3 Aspect Pannel (76mph - 100mph)" nodeID="2344" name="SIG: B11" kilometre="217.948" x="1405078.9" y="31243.721" xNet="-2284323" yNet="368320" referenceNode="1502"/>
+		<node nodeID="2188" kilometre="217.660" x="1411813.8" y="34326.607" xNet="-2285533" yNet="371849"/>
+		<speedIndicator nodeID="1435" name="SPEED" kilometre="217.669" x="1411813.8" y="34598.279" xNet="-2285623" yNet="371848" referenceNode="2188"/>
+		<track trackID="B-3" stationID="WORLEJ" interlockingMachine="3 Aspect Pannel (Below 75mph)" nodeID="2356" name="SIG:B333" kilometre="217.806" x="1411813.8" y="38735.371" xNet="-2286992" yNet="371824" referenceNode="1501"/>
+		<stationBorder exitType="regular" stationID="WORLEJ" lineID="gw107" trackNumber="1" nodeID="1501" name="[WMILTON] - [gw105/1]" kilometre="217.862" x="1411813.8" y="40438.931" xNet="-2287514.3" yNet="371584" referenceNode="2356">
+			<netLimitInfo lineID="gw107"/>
+		</stationBorder>
+		<stationBorder exitType="alternative" stationID="WORLEJ" lineID="gw105" trackNumber="2" nodeID="1502" name="[UPHILLJ] - [gw105/2]" kilometre="217.964" x="1404800.3" y="31243.721" xNet="-2284320.3" yNet="368164" referenceNode="2344"/>
+		<stationBorder exitType="alternative" stationID="WORLEJ" lineID="gw105" trackNumber="2" nodeID="1572" name="[WORLE] - [gw105/2]" kilometre="217.131" x="1419639.2" y="30641.318" xNet="-2284265.6" yNet="376494" referenceNode="2343"/>
+		<node nodeID="2387" name="OL:B70" kilometre="217.378" x="1415230" y="30939.782" xNet="-2284321.2" yNet="374018.41"/>
+		<speedIndicator nodeID="446" kilometre="217.427" x="1414357.5" y="31243.721" xNet="-2284413.1" yNet="373526.53" referenceNode="1868"/>
+		<speedIndicator nodeID="2389" kilometre="217.478" x="1413452.7" y="31243.721" xNet="-2284404.8" yNet="373019.01" referenceNode="1379"/>
+		<switch start="1377" endOfMainTrack="1500" endOfBranchTrack="2408" nodeID="2406" name="POINTS:725B" kilometre="217.408" x="1414701.1" y="30641.318" xNet="-2284217.4" yNet="373722.63"/>
+		<switch start="2410" endOfMainTrack="2389" endOfBranchTrack="2409" nodeID="2407" name="POINTS:725A" kilometre="217.550" x="1412170.2" y="31243.721" xNet="-2284392.5" yNet="372299.35"/>
+		<speedIndicator nodeID="2408" kilometre="217.409" x="1414683.3" y="30645.56" xNet="-2284218.6" yNet="373712.61" referenceNode="2406"/>
+		<speedIndicator nodeID="2409" kilometre="217.549" x="1412188" y="31239.479" xNet="-2284391.3" yNet="372309.38" referenceNode="2436"/>
+		<node nodeID="2416" kilometre="217.597" x="1411458.7" y="31732.109" xNet="-2285511.5" yNet="371742.48"/>
+		<switch start="2407" endOfMainTrack="2132" endOfBranchTrack="2417" nodeID="2410" kilometre="217.537" x="1411956.5" y="31243.721" xNet="-2284390.5" yNet="372179.44"/>
+		<speedIndicator nodeID="2415" kilometre="217.621" x="1411458.7" y="32441.927" xNet="-2286970.3" yNet="371672.75" referenceNode="2429"/>
+		<speedIndicator nodeID="2417" kilometre="217.538" x="1411948.2" y="31251.861" xNet="-2284488" yNet="372032.99" referenceNode="2416"/>
+		<stationBorder exitType="alternative" stationID="WORLEJ" lineID="gw107" trackNumber="2" nodeID="2429" kilometre="217.781" x="1411458.7" y="37159.01" xNet="-2287465.9" yNet="371469.67" referenceNode="2415">
+			<netLimitInfo lineID="gw107"/>
+		</stationBorder>
+		<node nodeID="2436" kilometre="217.459" x="1413792.1" y="30857.674" xNet="-2284280.3" yNet="373211.46"/>
+		<stationBorder exitType="regular" stationID="WORLEJ" lineID="gw105" trackNumber="1" nodeID="1868" kilometre="217.131" x="1419636.1" y="31243.721" xNet="-2284465" yNet="376487.56" referenceNode="446"/>
+		<node nodeID="82" name="[WORLE] - [gw105/1]" kilometre="217.000" x="1421972.2" y="31243.721" xNet="-2284488" yNet="377798">
+			<netLimitInfo lineID="gw105"/>
+		</node>
+		<stationBorder exitType="regular" stationID="WORLEJ" lineID="gw105" trackNumber="1" nodeID="2713" kilometre="217.964" x="1404791.8" y="30641.318" xNet="-2284120.3" yNet="368163.94" referenceNode="1500"/>
+		<node nodeID="1500" name="OL:B70" kilometre="217.462" x="1413738.6" y="30641.318" xNet="-2284208" yNet="373183"/>
+	</nodes>
+	<links>
+		<link source="25" target="1572" length="131" vmax="161">
+			<vzg index="1" vmax="161"/>
+			<vzg index="2" vmax="161"/>
+			<vzg index="3" vmax="161"/>
+			<vzg index="4" vmax="161"/>
+			<vzg index="5" vmax="161"/>
+		</link>
+		<link source="82" target="1868" length="131" vmaxr="161">
+			<vzg index="1" vmaxr="161"/>
+			<vzg index="2" vmaxr="161"/>
+			<vzg index="3" vmaxr="161"/>
+			<vzg index="4" vmaxr="161"/>
+			<vzg index="5" vmaxr="161"/>
+		</link>
+		<link source="446" target="1378" length="1" vmax="64" vmaxr="161">
+			<vzg index="1" vmaxr="161"/>
+			<vzg index="2" vmaxr="161"/>
+			<vzg index="3" vmaxr="161"/>
+			<vzg index="4" vmaxr="161"/>
+			<vzg index="5" vmaxr="161"/>
+		</link>
+		<link source="1377" target="1381" length="1" vmax="161">
+			<vzg index="1" vmax="161"/>
+			<vzg index="2" vmax="161"/>
+			<vzg index="3" vmax="161"/>
+			<vzg index="4" vmax="161"/>
+			<vzg index="5" vmax="161"/>
+		</link>
+		<link source="1377" target="2406" length="78" vmax="161">
+			<vzg index="1" vmax="161"/>
+			<vzg index="2" vmax="161"/>
+			<vzg index="3" vmax="161"/>
+			<vzg index="4" vmax="161"/>
+			<vzg index="5" vmax="161"/>
+		</link>
+		<link source="1378" target="1379" length="49" vmax="64" vmaxr="161">
+			<vzg index="1" vmax="64" vmaxr="161"/>
+			<vzg index="2" vmax="64" vmaxr="161"/>
+			<vzg index="3" vmax="64" vmaxr="161"/>
+			<vzg index="4" vmax="64" vmaxr="161"/>
+			<vzg index="5" vmax="64" vmaxr="161"/>
+		</link>
+		<link source="1379" target="1380" length="1" vmax="64" vmaxr="161">
+			<vzg index="1" vmax="161" vmaxr="161"/>
+			<vzg index="2" vmax="161" vmaxr="161"/>
+			<vzg index="3" vmax="161" vmaxr="161"/>
+			<vzg index="4" vmax="161" vmaxr="161"/>
+			<vzg index="5" vmax="161" vmaxr="161"/>
+		</link>
+		<link source="1379" target="2389" length="1" vmax="64" vmaxr="161">
+			<vzg index="1" vmaxr="161"/>
+			<vzg index="2" vmaxr="161"/>
+			<vzg index="3" vmaxr="161"/>
+			<vzg index="4" vmaxr="161"/>
+			<vzg index="5" vmaxr="161"/>
+		</link>
+		<link source="1380" target="2131" length="91" vmax="64" vmaxr="64" radius="3100">
+			<vzg index="1" vmax="64" vmaxr="64"/>
+			<vzg index="2" vmax="64" vmaxr="64"/>
+			<vzg index="3" vmax="64" vmaxr="64"/>
+			<vzg index="4" vmax="64" vmaxr="64"/>
+			<vzg index="5" vmax="64" vmaxr="64"/>
+		</link>
+		<link source="1381" target="2387" length="47" vmax="64">
+			<vzg index="1" vmax="64"/>
+			<vzg index="2" vmax="64"/>
+			<vzg index="3" vmax="64"/>
+			<vzg index="4" vmax="64"/>
+			<vzg index="5" vmax="64"/>
+		</link>
+		<link source="1382" target="1378" length="1" vmax="64" vmaxr="161">
+			<vzg index="1" vmax="161"/>
+			<vzg index="2" vmax="161"/>
+			<vzg index="3" vmax="161"/>
+			<vzg index="4" vmax="161"/>
+			<vzg index="5" vmax="161"/>
+		</link>
+		<link source="1435" target="2356" length="137" vmax="97" vmaxr="97" radius="3100">
+			<vzg index="1" vmax="97" vmaxr="97"/>
+			<vzg index="2" vmax="97" vmaxr="97"/>
+			<vzg index="3" vmax="97" vmaxr="97"/>
+			<vzg index="4" vmax="97" vmaxr="97"/>
+			<vzg index="5" vmax="97" vmaxr="97"/>
+		</link>
+		<link source="1500" target="2713" length="502" vmax="161">
+			<vzg index="1" vmax="161"/>
+			<vzg index="2" vmax="161"/>
+			<vzg index="3" vmax="161"/>
+			<vzg index="4" vmax="161"/>
+			<vzg index="5" vmax="161"/>
+		</link>
+		<link source="1502" target="1975" length="36" vmax="161" vmaxr="161">
+			<vzg index="1" vmaxr="161"/>
+			<vzg index="2" vmaxr="161"/>
+			<vzg index="3" vmaxr="161"/>
+			<vzg index="4" vmaxr="161"/>
+			<vzg index="5" vmaxr="161"/>
+		</link>
+		<link source="1572" target="2343" length="56" vmax="161">
+			<vzg index="1" vmax="161"/>
+			<vzg index="2" vmax="161"/>
+			<vzg index="3" vmax="161"/>
+			<vzg index="4" vmax="161"/>
+			<vzg index="5" vmax="161"/>
+		</link>
+		<link source="1868" target="446" length="296" vmaxr="161">
+			<vzg index="1" vmaxr="161"/>
+			<vzg index="2" vmaxr="161"/>
+			<vzg index="3" vmaxr="161"/>
+			<vzg index="4" vmaxr="161"/>
+			<vzg index="5" vmaxr="161"/>
+		</link>
+		<link source="2131" target="2188" length="91" vmax="64" vmaxr="64" radius="3100"/>
+		<link source="2132" target="2344" length="278" vmax="161" vmaxr="161">
+			<vzg index="1" vmaxr="161"/>
+			<vzg index="2" vmaxr="161"/>
+			<vzg index="3" vmaxr="161"/>
+			<vzg index="4" vmaxr="161"/>
+			<vzg index="5" vmaxr="161"/>
+		</link>
+		<link source="2188" target="1435" length="5" vmax="64" vmaxr="64" radius="3100">
+			<vzg index="1" vmax="64" vmaxr="64"/>
+			<vzg index="2" vmax="64" vmaxr="64"/>
+			<vzg index="3" vmax="64" vmaxr="64"/>
+			<vzg index="4" vmax="64" vmaxr="64"/>
+			<vzg index="5" vmax="64" vmaxr="64"/>
+		</link>
+		<link source="2343" target="1377" length="143" vmax="161">
+			<vzg index="1" vmax="161"/>
+			<vzg index="2" vmax="161"/>
+			<vzg index="3" vmax="161"/>
+			<vzg index="4" vmax="161"/>
+			<vzg index="5" vmax="161"/>
+		</link>
+		<link source="2344" target="1502" length="16" vmax="161" vmaxr="161">
+			<vzg index="1" vmaxr="161"/>
+			<vzg index="2" vmaxr="161"/>
+			<vzg index="3" vmaxr="161"/>
+			<vzg index="4" vmaxr="161"/>
+			<vzg index="5" vmaxr="161"/>
+		</link>
+		<link source="2356" target="1501" length="56" vmax="97" vmaxr="97" radius="3100">
+			<vzg index="1" vmax="97" vmaxr="97"/>
+			<vzg index="2" vmax="97" vmaxr="97"/>
+			<vzg index="3" vmax="97" vmaxr="97"/>
+			<vzg index="4" vmax="97" vmaxr="97"/>
+			<vzg index="5" vmax="97" vmaxr="97"/>
+		</link>
+		<link source="2387" target="1382" length="78" vmax="64">
+			<vzg index="1" vmax="64"/>
+			<vzg index="2" vmax="64"/>
+			<vzg index="3" vmax="64"/>
+			<vzg index="4" vmax="64"/>
+			<vzg index="5" vmax="64"/>
+		</link>
+		<link source="2389" target="2407" length="72" vmax="161" vmaxr="161">
+			<vzg index="1" vmaxr="161"/>
+			<vzg index="2" vmaxr="161"/>
+			<vzg index="3" vmaxr="161"/>
+			<vzg index="4" vmaxr="161"/>
+			<vzg index="5" vmaxr="161"/>
+		</link>
+		<link source="2406" target="1500" length="54" vmax="161">
+			<vzg index="1" vmax="161"/>
+			<vzg index="2" vmax="161"/>
+			<vzg index="3" vmax="161"/>
+			<vzg index="4" vmax="161"/>
+			<vzg index="5" vmax="161"/>
+		</link>
+		<link source="2406" target="2408" length="1" vmax="161"/>
+		<link source="2407" target="2410" length="12" vmax="161" vmaxr="161">
+			<vzg index="1" vmaxr="161"/>
+			<vzg index="2" vmaxr="161"/>
+			<vzg index="3" vmaxr="161"/>
+			<vzg index="4" vmaxr="161"/>
+			<vzg index="5" vmaxr="161"/>
+		</link>
+		<link source="2408" target="2436" length="50" vmax="64" vmaxr="64"/>
+		<link source="2409" target="2407" length="1" vmax="161" vmaxr="161"/>
+		<link source="2410" target="2132" length="108" vmax="161" vmaxr="161">
+			<vzg index="1" vmaxr="161"/>
+			<vzg index="2" vmaxr="161"/>
+			<vzg index="3" vmaxr="161"/>
+			<vzg index="4" vmaxr="161"/>
+			<vzg index="5" vmaxr="161"/>
+		</link>
+		<link source="2410" target="2417" length="1" vmax="161" vmaxr="161"/>
+		<link source="2415" target="2429" length="160" vmax="97" vmaxr="97"/>
+		<link source="2416" target="2415" length="24" vmax="64" vmaxr="64"/>
+		<link source="2417" target="2416" length="59" vmax="64" vmaxr="64"/>
+		<link source="2436" target="2409" length="90" vmax="64" vmaxr="64"/>
+		<link source="2713" target="26" length="36" vmax="161">
+			<vzg index="1" vmax="161"/>
+			<vzg index="2" vmax="161"/>
+			<vzg index="3" vmax="161"/>
+			<vzg index="4" vmax="161"/>
+			<vzg index="5" vmax="161"/>
+		</link>
+	</links>
+	<dependentLinks/>
+	<blockSections>
+		<blocksection uuid="{00d5c598-ff94-4d77-a127-9370e1261447}" lines="gw105 worlej">
+			<part nodes="1975 1502 2344"/>
+		</blocksection>
+		<blocksection uuid="{17353705-48b8-44f9-8bab-0b2a0637171a}" lines="gw105 worlej" speedIndicators="446 2389">
+			<part nodes="2344 2132 2410 2407 2389 1379 1378 446 1868 82"/>
+		</blocksection>
+		<blocksection uuid="{249a7c00-4291-4f07-a0c6-3726cc70ae2c}" lines="gw105 worlej">
+			<part nodes="25 1572 2343"/>
+		</blocksection>
+		<blocksection uuid="{3227e67e-6a95-4ba2-802b-ef35951cdd61}" lines="gw107 worlej">
+			<part nodes="1501 2356"/>
+		</blocksection>
+		<blocksection uuid="{520e88d7-f4e7-405c-b104-2f1b4282bfe9}" lines="gw107 worlej">
+			<part nodes="2356 1501"/>
+		</blocksection>
+		<blocksection uuid="{57b9f137-d39e-4c13-88f8-6c049d1c2af8}" lines="gw107 worlej" speedIndicators="1380 1381 1382 1435">
+			<part nodes="2343 1377 1381 2387 1382 1378 1379 1380 2131 2188 1435 2356 1501"/>
+		</blocksection>
+		<blocksection uuid="{8528b4c4-f377-46ce-9279-a54f80feaaa1}" lines="gw107 worlej">
+			<part nodes="2343 1377 2406 2408 2436 2409 2407 2410 2417 2416 2415 2429"/>
+		</blocksection>
+		<blocksection uuid="{8a88303d-023f-4480-9848-251f70fcfb86}" lines="gw107 worlej">
+			<part nodes="2343 1377 1381 2387 1382 1378 1379 2389 2407 2410 2417 2416 2415 2429"/>
+		</blocksection>
+		<blocksection uuid="{b5f9e726-efb7-4266-a7c8-68d7f071cf68}" lines="gw105 worlej">
+			<part nodes="2343 1377 2406 1500 2713 26"/>
+		</blocksection>
+		<blocksection uuid="{ca897b61-0023-48ac-83f0-ff22f4eeb042}" lines="gw105 worlej" speedIndicators="446 1380 1435">
+			<part nodes="2356 1435 2188 2131 1380 1379 1378 446 1868 82"/>
+		</blocksection>
+	</blockSections>
+	<slipDistances>
+		<slipdistance uuid="{42a20ed1-aed6-4ed2-bad8-18d0528571fb}" publicName="1" vmax="999" lines="worlej" serialNumber="0">
+			<part nodes="2343 1377 2406 1500"/>
+		</slipdistance>
+		<slipdistance uuid="{42a81cdc-fcc9-4332-9241-dc8e9144d113}" publicName="2" vmax="999" lines="worlej" serialNumber="1">
+			<part nodes="2343 1377 2406 2408 2436"/>
+		</slipdistance>
+		<slipdistance uuid="{8fc055a6-82d2-492f-a2dc-48406520aa79}" vmax="999" lines="worlej" serialNumber="0">
+			<part nodes="2344 2132"/>
+		</slipdistance>
+		<slipdistance uuid="{bbea2e3c-2a0e-4b25-9973-9c440dc57954}" vmax="999" lines="worlej" serialNumber="0">
+			<part nodes="2356 1435 2188 2131"/>
+		</slipdistance>
+	</slipDistances>
+	<approachControlRoutes/>
+	<stationRoutes>
+		<stationRoute stationID="WORLEJ" name="Routey route" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="1572 2343 1377 2406 2408 2436 2409 2407 2410 2417 2416 2415 2429"/>
+		<stationRoute stationID="WORLEJ" name="[UPHILLJ]-[gw105/2]-[2]-[WORLE]-[gw105/1] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="1502 2344 2132 2410 2407 2389 1379 1378 446 1868"/>
+		<stationRoute stationID="WORLEJ" name="[WMILTON]-[gw105/1]-[3]-[WORLE]-[gw105/1] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=95;NRz=95;S=95;Rz=95;FGz=95;NGz=95;Gz=95;Lz=95;Unbekannt=95" nodes="1501 2356 1435 2188 2131 1380 1379 1378 446 1868"/>
+		<stationRoute stationID="WORLEJ" name="[WORLE]-[gw105/2]-[1]-[UPHILLJ]-[gw105/1] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="1572 2343 1377 2406 1500 2713"/>
+		<stationRoute stationID="WORLEJ" name="routey" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="1572 2343 1377 1381 2387 1382 1378 1379 2389 2407 2410 2417 2416 2415 2429"/>
+	</stationRoutes>
+	<lineCatalog/>
+	<zugNummernFelder/>
+	<switchGears/>
+</line>

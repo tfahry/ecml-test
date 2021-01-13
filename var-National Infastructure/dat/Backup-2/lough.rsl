@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<line lineID="lough" name="Loughborough" trafficRouting="on_the_left" type="global" dependentLines="md201 md201b md201x">
+	<transformations>
+		<transformation line="md201" m11="1" m12="0" m21="0" m22="1" dx="155089" dy="-8633.5"/>
+		<transformation line="md201b" m11="1" m12="0" m21="0" m22="1" dx="981044" dy="-34755.8"/>
+		<transformation line="md201x" m11="1" m12="0" m21="0" m22="1" dx="996755" dy="-34669.2"/>
+		<transformation line="md237" m11="1" m12="0" m21="0" m22="1" dx="517135" dy="36985.5"/>
+	</transformations>
+	<version major="1" minor="2" patchlevel="0" comment=""/>
+	<creator user="Ahowe4" timestamp="2016-11-01T12:54:22"/>
+	<lasteditor user="Ahowe4" timestamp="2016-11-01T12:54:22"/>
+	<stations>
+		<station stationID="LOGHBRO" name="Loughborough" xNet="-269397.1" yNet="3095562.95" uicLocationCode="0" circleDiameter="0">
+			<textElement type="name">
+				<pos view="net" x="1607.73" y="1607.73" angle="0" system="source"/>
+				<pos view="wgs84" x="1607.73" y="1607.73" angle="0" system="source"/>
+				<pos view="line" x="1579.58" y="1579.58" angle="0" system="source"/>
+				<pos view="macro" x="28.2843" y="28.2843" angle="0" system="source"/>
+				<pos view="macroWgs84" x="0" y="0" angle="0" system="source"/>
+			</textElement>
+		</station>
+		<station stationID="LOGHBSJ" name="Loughborough South Jn" xNet="-267272.6" yNet="3092710.95" uicLocationCode="0" circleDiameter="0">
+			<textElement type="name">
+				<pos view="net" x="1602" y="1602" angle="0" system="source"/>
+				<pos view="wgs84" x="1602" y="1602" angle="0" system="source"/>
+				<pos view="line" x="1803.32" y="1803.32" angle="0" system="source"/>
+				<pos view="macro" x="28.2843" y="28.2843" angle="0" system="source"/>
+				<pos view="macroWgs84" x="0" y="0" angle="0" system="source"/>
+			</textElement>
+		</station>
+	</stations>
+	<nodes>
+		<node nodeID="404" kilometre="179.000" x="880126.88" y="-35787.5" xNet="-266730" yNet="3090100">
+			<netLimitInfo lineID="md201b"/>
+		</node>
+		<node nodeID="803" kilometre="179.000" x="880126.88" y="-35987.5" xNet="-266554" yNet="3090194">
+			<netLimitInfo lineID="md201b"/>
+		</node>
+		<node nodeID="781" kilometre="179.000" x="880126.88" y="-36187.5" xNet="-266377" yNet="3090288">
+			<netLimitInfo lineID="md201b"/>
+		</node>
+		<node nodeID="783" kilometre="179.000" x="880126.88" y="-36387.5" xNet="-266200" yNet="3090382">
+			<netLimitInfo lineID="md201b"/>
+		</node>
+		<node nodeID="1" name="TC" kilometre="179.290" x="883029.88" y="-35787.5" xNet="-268094" yNet="3092662"/>
+		<node nodeID="3" name="OL:LR520" kilometre="179.290" x="883029.88" y="-35987.5" xNet="-267916" yNet="3092756"/>
+		<switch start="10" endOfMainTrack="8" endOfBranchTrack="7" nodeID="6" name="PNT:856B" kilometre="179.290" x="883033.88" y="-36187.5" xNet="-267742" yNet="3092853"/>
+		<switch start="1192" endOfMainTrack="4" endOfBranchTrack="6" nodeID="7" name="PNT:856A" kilometre="179.219" x="882324.88" y="-36387.5" xNet="-267232" yNet="3092323"/>
+		<track trackID="F-1" stationID="LOGHBSJ" type="timingPoint" nodeID="156" kilometre="179.080" x="880927.88" y="-35787.5" xNet="-267105" yNet="3090807" referenceNode="2541"/>
+		<track trackID="F-2" stationID="LOGHBSJ" type="timingPoint" nodeID="816" kilometre="179.080" x="880927.88" y="-35987.5" xNet="-266929" yNet="3090901" referenceNode="2543"/>
+		<track trackID="T-3" stationID="LOGHBSJ" type="timingPoint" nodeID="818" kilometre="179.080" x="880926.88" y="-36187.5" xNet="-266752" yNet="3090993" referenceNode="2884"/>
+		<track trackID="T-4" stationID="LOGHBSJ" type="timingPoint" nodeID="820" kilometre="179.080" x="880926.88" y="-36387.5" xNet="-266576" yNet="3091088" referenceNode="2885"/>
+		<speedIndicator nodeID="1192" name="SPEED" kilometre="179.217" x="882304.88" y="-36387.5" xNet="-267223" yNet="3092304" referenceNode="7"/>
+		<switch start="105" endOfMainTrack="6" endOfBranchTrack="853" nodeID="8" kilometre="179.090" x="881027.19" y="-36187.5" xNet="-266800" yNet="3091082"/>
+		<switch start="109" endOfMainTrack="820" endOfBranchTrack="8" nodeID="853" kilometre="179.145" x="881580.69" y="-36387.5" xNet="-266883" yNet="3091665"/>
+		<switch start="109" endOfMainTrack="1192" endOfBranchTrack="106" nodeID="89" kilometre="179.150" x="881630.94" y="-36387.5" xNet="-266906" yNet="3091709"/>
+		<speedIndicator nodeID="109" name="SPEED" kilometre="179.148" x="881614.01" y="-36387.5" xNet="-266898" yNet="3091694" referenceNode="89"/>
+		<speedIndicator nodeID="106" name="SPEED" kilometre="179.230" x="882334.38" y="-36686.168" xNet="-266972" yNet="3092469" referenceNode="352"/>
+		<track trackID="G-5" stationID="LOGHBSJ" interlockingMachine="3 Aspect Pannel (Below 75mph)" nodeID="150" kilometre="148.644" x="884389.88" y="-36947.5" xNet="-267046.65" yNet="3094570.4" referenceNode="14"/>
+		<speedIndicator nodeID="105" name="SPEED" kilometre="179.087" x="880999.01" y="-36187.5" xNet="-266786" yNet="3091058" referenceNode="818"/>
+		<speedIndicator nodeID="9" name="SPEED" kilometre="179.292" x="883053.82" y="-36187.5" xNet="-267751" yNet="3092871" referenceNode="5"/>
+		<stationBorder exitType="regular" stationID="LOGHBSJ" lineID="md201x" trackNumber="DS" nodeID="10" name="[LOGHBRO] - [md201/2]" kilometre="179.291" x="883039.86" y="-36187.5" xNet="-267744.7" yNet="3092858.4" referenceNode="6"/>
+		<stationBorder exitType="alternative" stationID="LOGHBSJ" lineID="md201b" trackNumber="SLD" netBorder="true" nodeID="2884" name="[BAROWOS] - [md201/3]" kilometre="179.056" x="880686.88" y="-36187.5" xNet="-266639.5" yNet="3090781.5" referenceNode="818"/>
+		<stationBorder exitType="regular" stationID="LOGHBSJ" lineID="md201b" trackNumber="SLU" netBorder="true" nodeID="2885" name="[BAROWOS] - [md201/4]" kilometre="179.056" x="880686.88" y="-36387.5" xNet="-266463.2" yNet="3090876.2" referenceNode="820"/>
+		<stationBorder exitType="alternative" stationID="LOGHBSJ" lineID="md201b" trackNumber="FLD" netBorder="true" nodeID="2541" name="[BAROWOS] - [md201/1]" kilometre="179.056" x="880687.58" y="-35787.5" xNet="-266992.5" yNet="3090594.9" referenceNode="156"/>
+		<stationBorder exitType="regular" stationID="LOGHBSJ" lineID="md201x" trackNumber="DF" nodeID="2542" name="[LOGHBRO] - [md201/3]" kilometre="179.143" x="881558.48" y="-35787.5" xNet="-267401.7" yNet="3091363.5" referenceNode="156"/>
+		<stationBorder exitType="regular" stationID="LOGHBSJ" lineID="md201b" trackNumber="FLU" netBorder="true" nodeID="2543" name="[BAROWOS] - [md201/2]" kilometre="179.056" x="880687.58" y="-35987.5" xNet="-266816.5" yNet="3090688.9" referenceNode="816"/>
+		<stationBorder exitType="alternative" stationID="LOGHBSJ" lineID="md201x" trackNumber="UF" nodeID="2544" name="[LOGHBRO] - [md201/4]" kilometre="179.143" x="881558.48" y="-35987.5" xNet="-267225.1" yNet="3091457.5" referenceNode="816"/>
+		<kilometreInconsistency newKilometre="148.824" nodeID="352" kilometre="179.300" x="882949.88" y="-36947.5" xNet="-267030" yNet="3093133" referenceNode="106"/>
+		<node nodeID="4" kilometre="179.292" x="883053.19" y="-36387.5" xNet="-267574.03" yNet="3092965.6"/>
+		<node nodeID="5" kilometre="179.302" x="883155.32" y="-36187.5" xNet="-267798.64" yNet="3092960.6"/>
+		<signal type="shunting" interlockingMachine="Limit Of Shunt" nodeID="546" name="LOS" kilometre="179.301" x="883141.88" y="-35787.5" xNet="-268146" yNet="3092763" referenceNode="435"/>
+		<speedIndicator nodeID="149" name="SPEED" kilometre="179.404" x="884171.88" y="-36187.5" xNet="-268276" yNet="3093860" referenceNode="1331"/>
+		<signal type="shunting" interlockingMachine="Shunt" nodeID="335" name="SIG:LR672" kilometre="179.812" x="888345.88" y="-35785.5" xNet="-270590" yNet="3097356" referenceNode="146"/>
+		<speedIndicator nodeID="146" name="SPEED" kilometre="179.828" x="888506.88" y="-35785.5" xNet="-270666" yNet="3097498" referenceNode="335"/>
+		<track trackID="U-2" stationID="LOGHBRO" interlockingMachine="3 Aspect Pannel (101mph - 125mph)" nodeID="1227" name="SIG:LR520" description="3 Aspect" kilometre="179.442" x="884546.88" y="-35987.5" xNet="-268628" yNet="3094096" referenceNode="2452">
+			<platform startPos="-2600" endPos="-100" width="150" left="true" open="false"/>
+		</track>
+		<signal interlockingMachine="3 Aspect Pannel (Below 75mph)" nodeID="1239" name="SIG:LR519" description="3 Aspect" kilometre="179.445" x="884594.88" y="-36187.5" xNet="-268475" yNet="3094233" referenceNode="2959"/>
+		<track trackID="D-3" stationID="LOGHBRO" interlockingMachine="3 Aspect Pannel (Below 75mph)" nodeID="1245" name="SIG:LR513" description="3 Aspect" kilometre="179.702" x="887248.88" y="-36185.5" xNet="-269723" yNet="3096575" referenceNode="1246"/>
+		<track trackID="U-4" stationID="LOGHBRO" interlockingMachine="3 Aspect Pannel (Below 75mph)" nodeID="1251" name="SIG:LR514" description="3 Aspect" kilometre="179.472" x="884854.88" y="-36387.5" xNet="-268419" yNet="3094555" referenceNode="2459"/>
+		<node nodeID="712" name="OL:LR511" kilometre="179.866" x="888886.88" y="-35785.5" xNet="-270844" yNet="3097833">
+			<netLimitInfo lineID="md201x"/>
+		</node>
+		<node nodeID="1255" name="OL:LR513" kilometre="179.866" x="888891.88" y="-36185.5" xNet="-270493" yNet="3098025">
+			<netLimitInfo lineID="md201x"/>
+		</node>
+		<signal type="shunting" interlockingMachine="Limit Of Shunt" nodeID="736" name="DUMMY" kilometre="179.703" x="887124.88" y="-35585.5" xNet="-270194" yNet="3096185" referenceNode="1267"/>
+		<node nodeID="746" kilometre="179.790" x="888124.88" y="-35385.5" xNet="-270840" yNet="3096973"/>
+		<signal type="shunting" interlockingMachine="Limit Of Shunt" nodeID="748" name="DUMMY" kilometre="179.850" x="888724.88" y="-35385.5" xNet="-271121" yNet="3097503" referenceNode="746"/>
+		<track trackID="D-1" stationID="LOGHBRO" interlockingMachine="4 Aspect Pannel (101mph - 125mph)" nodeID="171" name="SIG:LR511" description="4 Aspect" kilometre="179.694" x="887172.88" y="-35785.5" xNet="-270039" yNet="3096320" referenceNode="2450">
+			<platform startPos="-2600" endPos="-100" width="75" left="true" open="true"/>
+		</track>
+		<switch start="2955" endOfMainTrack="171" endOfBranchTrack="532" nodeID="1201" kilometre="179.787" x="888101.88" y="-35785.5" xNet="-270476" yNet="3097140"/>
+		<switch start="736" endOfMainTrack="1285" endOfBranchTrack="1424" nodeID="1267" kilometre="179.727" x="887399.88" y="-35585.5" xNet="-270323" yNet="3096428"/>
+		<switch start="1267" endOfMainTrack="2952" endOfBranchTrack="746" nodeID="1285" kilometre="179.763" x="887845.88" y="-35585.5" xNet="-270533" yNet="3096821"/>
+		<speedIndicator nodeID="660" name="SPEED" kilometre="179.787" x="888103.88" y="-35785.5" xNet="-270477" yNet="3097143" referenceNode="2955"/>
+		<node nodeID="1424" kilometre="179.755" x="887732.88" y="-35680.5" xNet="-270396" yNet="3096766" referenceNode="532" releaseContact="true" arranged="true"/>
+		<node nodeID="532" kilometre="179.762" x="887810.88" y="-35702.5" xNet="-270412" yNet="3096845" referenceNode="1424" releaseContact="true" arranged="true"/>
+		<track trackID="U-3" stationID="LOGHBRO" type="stopBoard" nodeID="1244" kilometre="179.458" x="884719.88" y="-36187.5" xNet="-268533" yNet="3094343" referenceNode="1247"/>
+		<node nodeID="1226" name="SD:LR514" kilometre="179.632" x="886545.88" y="-36385.5" xNet="-269215" yNet="3096048" referenceNode="2864" sightingDistance="true"/>
+		<node nodeID="1246" name="SD:LR519" kilometre="179.605" x="886266.88" y="-36185.5" xNet="-269261" yNet="3095707" referenceNode="1245" sightingDistance="true"/>
+		<node nodeID="1247" name="SD:LR513" kilometre="179.545" x="885634.88" y="-36186.5" xNet="-268964" yNet="3095150" referenceNode="1244" sightingDistance="true"/>
+		<node nodeID="1222" name="SD:LR520" kilometre="179.776" x="887987.88" y="-35985.5" xNet="-270246" yNet="3097134" referenceNode="2882" sightingDistance="true"/>
+		<node nodeID="435" name="SD:LR511" kilometre="179.350" x="883646.88" y="-35787.5" xNet="-268383" yNet="3093208" referenceNode="546" sightingDistance="true"/>
+		<node nodeID="427" name="GRAD" kilometre="179.400" x="884161.44" y="-35787.141" xNet="-268625" yNet="3093663"/>
+		<node nodeID="1200" name="GRAD" kilometre="179.400" x="884127.19" y="-35987.5" xNet="-268431" yNet="3093726"/>
+		<node nodeID="1331" name="GRAD" kilometre="179.400" x="884131.88" y="-36187.5" xNet="-268257" yNet="3093823"/>
+		<track trackID="T-1" stationID="LOGHBRO" type="timingPoint" nodeID="2450" kilometre="179.566" x="885862.59" y="-35786.214" xNet="-269423.76" yNet="3095163.9" referenceNode="2960"/>
+		<track trackID="T-2" stationID="LOGHBRO" type="timingPoint" nodeID="2452" kilometre="179.569" x="885856.61" y="-35986.739" xNet="-269243.85" yNet="3095252.3" referenceNode="1227"/>
+		<track trackID="T-3" stationID="LOGHBRO" type="timingPoint" nodeID="2457" kilometre="179.567" x="885868.59" y="-36186.13" xNet="-269073.83" yNet="3095356" referenceNode="1247"/>
+		<track trackID="T-4" stationID="LOGHBRO" type="timingPoint" nodeID="2459" kilometre="179.568" x="885871.58" y="-36386.298" xNet="-268897.59" yNet="3095452.7" referenceNode="1251"/>
+		<stationBorder exitType="alternative" stationID="LOGHBSJ" lineID="md201x" trackNumber="US" nodeID="1333" name="[LOGHBRO] - [md201/1]" kilometre="179.400" x="884134.88" y="-36387.5" xNet="-268082" yNet="3093920" referenceNode="4"/>
+		<stationBorder exitType="locked" stationID="LOGHBRO" trackNumber="" nodeID="2953" name="Prellbock 383" kilometre="179.703" x="887074.88" y="-35585.5" xNet="-270170.56" yNet="3096140.8" referenceNode="736"/>
+		<stationBorder exitType="locked" stationID="LOGHBRO" trackNumber="" nodeID="2954" name="Prellbock 384" kilometre="179.850" x="888774.88" y="-35385.5" xNet="-271144.42" yNet="3097547.2" referenceNode="748"/>
+		<stationBorder exitType="regular" stationID="LOGHBRO" lineID="md201x" trackNumber="DF" nodeID="2955" name="[LOGHBNJ] - [md201/1]" kilometre="179.787" x="888102.48" y="-35785.5" xNet="-270476.3" yNet="3097140.9" referenceNode="1201"/>
+		<stationBorder exitType="regular" stationID="LOGHBRO" lineID="md201x" trackNumber="UF" nodeID="2956" name="[LOGHBSJ] - [md201/4]" kilometre="179.429" x="884420.97" y="-35987.5" xNet="-268568.9" yNet="3093985" referenceNode="1227"/>
+		<stationBorder exitType="regular" stationID="LOGHBRO" lineID="md201x" trackNumber="DS" nodeID="2957" name="[LOGHBNJ] - [md201/4]" kilometre="179.751" x="887741.78" y="-36185.5" xNet="-269954" yNet="3097010" referenceNode="1245"/>
+		<stationBorder exitType="regular" stationID="LOGHBRO" lineID="md201x" trackNumber="US" nodeID="2958" name="[LOGHBSJ] - [md201/1]" kilometre="179.450" x="884638.88" y="-36387.5" xNet="-268317.9" yNet="3094364.5" referenceNode="1251"/>
+		<stationBorder exitType="alternative" stationID="LOGHBRO" lineID="md201x" trackNumber="DS" nodeID="2959" name="[LOGHBSJ] - [md201/2]" kilometre="179.454" x="884682.38" y="-36187.5" xNet="-268515.6" yNet="3094310" referenceNode="1244"/>
+		<stationBorder exitType="alternative" stationID="LOGHBRO" lineID="md201x" trackNumber="DF" nodeID="2960" name="[LOGHBSJ] - [md201/3]" kilometre="179.516" x="885352.24" y="-35786.492" xNet="-269184.13" yNet="3094713.6" referenceNode="2450"/>
+		<stationBorder exitType="alternative" stationID="LOGHBRO" lineID="md201x" trackNumber="UF" nodeID="2961" name="[LOGHBNJ] - [md201/2]" kilometre="179.631" x="886495.99" y="-35986.367" xNet="-269544.5" yNet="3095816.8" referenceNode="2452"/>
+		<stationBorder exitType="alternative" stationID="LOGHBRO" lineID="md201x" trackNumber="US" nodeID="2962" name="[LOGHBNJ] - [md201/3]" kilometre="179.587" x="886073.87" y="-36386.059" xNet="-268992.81" yNet="3095631.3" referenceNode="2459"/>
+		<node nodeID="2864" kilometre="179.865" x="888878.66" y="-36385.5" xNet="-270310.6" yNet="3098108.1">
+			<netLimitInfo lineID="md201x"/>
+		</node>
+		<node nodeID="2882" kilometre="179.867" x="888896" y="-35985.5" xNet="-270672.25" yNet="3097935.8">
+			<netLimitInfo lineID="md201x"/>
+		</node>
+		<node nodeID="2951" kilometre="179.866" x="888883.22" y="-35585.5" xNet="-271019.62" yNet="3097736.7">
+			<netLimitInfo lineID="md201x"/>
+		</node>
+		<stationBorder exitType="regular" stationID="LOGHBRO" lineID="md201x" trackNumber="5" nodeID="2952" kilometre="179.835" x="888571.59" y="-35585.5" xNet="-270873.43" yNet="3097461.6" referenceNode="1285"/>
+		<signal type="entry" interlockingMachine="2 Aspect Pannel (Below 75mph)" nodeID="2" name="[LOGHHOH] - [md237/1]" kilometre="148.594" x="885954.19" y="-36944.461" xNet="-267016.06" yNet="3095124.5" referenceNode="14"/>
+		<stationBorder exitType="alternative" stationID="LOGHBSJ" lineID="md201x" trackNumber="US" netBorder="true" nodeID="14" kilometre="148.624" x="885653.79" y="-36944.461" xNet="-267057.87" yNet="3094827" referenceNode="150"/>
+	</nodes>
+	<links>
+		<link source="1" target="546" length="11" gradient="-1.968" vmax="161" vmaxr="161" bidirectional="true"/>
+		<link source="3" target="1200" length="110" gradient="-1.968" vmax="177" vmaxr="177"/>
+		<link source="4" target="1333" length="108" gradient="-1.968" vmax="80" vmaxr="80"/>
+		<link source="5" target="1331" length="98" gradient="-1.968" vmax="80" vmaxr="80"/>
+		<link source="6" target="10" length="1" gradient="-1.968" vmax="80" vmaxr="80"/>
+		<link source="7" target="4" length="73" gradient="-1.968" vmax="80" vmaxr="80"/>
+		<link source="7" target="6" length="82" gradient="-1.968" vmax="48" vmaxr="48"/>
+		<link source="8" target="6" length="200" gradient="-1.968" vmax="80" vmaxr="80"/>
+		<link source="8" target="853" length="56" vmax="24" vmaxr="24"/>
+		<link source="9" target="5" length="10" gradient="-1.968" vmax="80" vmaxr="80"/>
+		<link source="10" target="9" length="1" gradient="-1.968" vmax="80" vmaxr="80"/>
+		<link source="14" target="2" length="30" vmax="16" vmaxr="16"/>
+		<link source="89" target="106" length="80" vmax="24" vmaxr="24"/>
+		<link source="89" target="1192" length="67" gradient="-1.968" vmax="80" vmaxr="80"/>
+		<link source="105" target="8" length="5" gradient="-1.968" vmax="80" vmaxr="80"/>
+		<link source="106" target="352" length="70" vmax="16" vmaxr="16"/>
+		<link source="109" target="89" length="2" gradient="-1.968" vmax="80" vmaxr="80"/>
+		<link source="146" target="712" length="38" vmax="177" vmaxr="177"/>
+		<link source="149" target="1239" length="41" vmax="64" vmaxr="64"/>
+		<link source="150" target="14" length="20" vmax="16" vmaxr="16"/>
+		<link source="156" target="2542" length="63" gradient="-1.968" vmax="161" vmaxr="161" bidirectional="true"/>
+		<link source="171" target="1201" length="93" vmax="161" vmaxr="161" bidirectional="true"/>
+		<link source="335" target="146" length="16" vmax="161" vmaxr="161"/>
+		<link source="352" target="150" length="180" vmax="16" vmaxr="16"/>
+		<link source="404" target="2541" length="56" gradient="-1.968" vmax="161" vmaxr="161" bidirectional="true"/>
+		<link source="427" target="2960" length="116" vmax="161" vmaxr="161" bidirectional="true"/>
+		<link source="435" target="427" length="50" gradient="-1.968" vmax="161" vmaxr="161" bidirectional="true"/>
+		<link source="532" target="1201" length="25" vmax="16" vmaxr="16"/>
+		<link source="546" target="435" length="49" gradient="-1.968" vmax="161" vmaxr="161" bidirectional="true"/>
+		<link source="660" target="335" length="25" vmax="161" vmaxr="161"/>
+		<link source="736" target="1267" length="24" vmax="16" vmaxr="16"/>
+		<link source="746" target="748" length="60" vmax="16" vmaxr="16"/>
+		<link source="748" target="2954" vmax="16" vmaxr="16"/>
+		<link source="781" target="2884" length="56" gradient="-1.968" vmax="80" vmaxr="80"/>
+		<link source="783" target="2885" length="56" gradient="-1.968" vmax="80" vmaxr="80"/>
+		<link source="803" target="2543" length="56" gradient="-1.968" vmax="177" vmaxr="177"/>
+		<link source="816" target="2544" length="63" gradient="-1.968" vmax="177" vmaxr="177"/>
+		<link source="818" target="105" length="5" gradient="-1.968" vmax="80" vmaxr="80"/>
+		<link source="820" target="853" length="65" gradient="-1.968" vmax="80" vmaxr="80"/>
+		<link source="853" target="109" length="3" gradient="-1.968" vmax="80" vmaxr="80"/>
+		<link source="1192" target="7" length="2" gradient="-1.968" vmax="80" vmaxr="80"/>
+		<link source="1200" target="2956" length="29" vmax="177" vmaxr="177"/>
+		<link source="1201" target="2955" vmax="161" vmaxr="161"/>
+		<link source="1222" target="2882" length="91" vmax="177" vmaxr="177"/>
+		<link source="1226" target="2864" length="233" vmax="80" vmaxr="80"/>
+		<link source="1227" target="2452" length="127" vmax="177" vmaxr="177"/>
+		<link source="1239" target="2959" length="9" vmax="64" vmaxr="64"/>
+		<link source="1244" target="1247" length="87" vmax="64" vmaxr="64"/>
+		<link source="1245" target="2957" length="49" vmax="64" vmaxr="64"/>
+		<link source="1246" target="1245" length="97" vmax="64" vmaxr="64"/>
+		<link source="1247" target="2457" length="22" vmax="64" vmaxr="64"/>
+		<link source="1251" target="2459" length="96" vmax="80" vmaxr="80"/>
+		<link source="1267" target="1285" length="36" vmax="16" vmaxr="16"/>
+		<link source="1267" target="1424" length="28" vmax="16" vmaxr="16"/>
+		<link source="1285" target="746" length="27" vmax="16" vmaxr="16"/>
+		<link source="1285" target="2952" length="72" vmax="16" vmaxr="16"/>
+		<link source="1331" target="149" length="4" vmax="80" vmaxr="80"/>
+		<link source="1333" target="2958" length="50" vmax="80" vmaxr="80"/>
+		<link source="1424" target="532" length="7" vmax="16" vmaxr="16"/>
+		<link source="2450" target="171" length="128" vmax="161" vmaxr="161" bidirectional="true"/>
+		<link source="2452" target="2961" length="62" vmax="177" vmaxr="177"/>
+		<link source="2457" target="1246" length="38" vmax="64" vmaxr="64"/>
+		<link source="2459" target="2962" length="19" vmax="80" vmaxr="80"/>
+		<link source="2541" target="156" length="24" gradient="-1.968" vmax="161" vmaxr="161" bidirectional="true"/>
+		<link source="2542" target="1" length="147" gradient="-1.968" vmax="161" vmaxr="161" bidirectional="true"/>
+		<link source="2543" target="816" length="24" gradient="-1.968" vmax="177" vmaxr="177"/>
+		<link source="2544" target="3" length="147" gradient="-1.968" vmax="177" vmaxr="177"/>
+		<link source="2884" target="818" length="24" gradient="-1.968" vmax="80" vmaxr="80"/>
+		<link source="2885" target="820" length="24" gradient="-1.968" vmax="80" vmaxr="80"/>
+		<link source="2952" target="2951" length="31" vmax="16" vmaxr="16"/>
+		<link source="2953" target="736" vmax="16" vmaxr="16"/>
+		<link source="2955" target="660" length="1" vmax="161" vmaxr="161"/>
+		<link source="2956" target="1227" length="13" vmax="177" vmaxr="177"/>
+		<link source="2957" target="1255" length="115" vmax="64" vmaxr="64"/>
+		<link source="2958" target="1251" length="22" vmax="80" vmaxr="80"/>
+		<link source="2959" target="1244" length="4" vmax="64" vmaxr="64"/>
+		<link source="2960" target="2450" length="50" vmax="161" vmaxr="161" bidirectional="true"/>
+		<link source="2961" target="1222" length="145" vmax="177" vmaxr="177"/>
+		<link source="2962" target="1226" length="45" vmax="80" vmaxr="80"/>
+	</links>
+	<dependentLinks/>
+	<blockSections>
+		<blocksection uuid="{0111955a-e17a-4efe-a04f-b7caab6790df}" lines="lough md201x" speedIndicators="146">
+			<part nodes="171 1201 2955 660 335 146 712"/>
+		</blocksection>
+		<blocksection uuid="{1001741e-101c-4dbd-b64c-e4209287ec61}" lines="lough md201b">
+			<part nodes="1227 2956 1200 3 2544 816 2543 803"/>
+		</blocksection>
+		<blocksection uuid="{12f5ede8-f78d-4861-aefc-ec03c54c9a04}" lines="lough md201x" shuntingBlock="true">
+			<part nodes="2864 1226 2962 2459 1251"/>
+		</blocksection>
+		<blocksection uuid="{1bece6f3-79cf-427b-baa5-139a875d08ba}" lines="lough md201b" speedIndicators="106 109">
+			<part nodes="150 352 106 89 109 853 820 2885 783"/>
+		</blocksection>
+		<blocksection uuid="{2a5b892f-2d21-4e2e-8cd1-99c2b86a5fdf}" lines="lough md201b" speedIndicators="9 105 149">
+			<part nodes="781 2884 818 105 8 6 10 9 5 1331 149 1239 2959 1244 1247 2457 1246 1245"/>
+		</blocksection>
+		<blocksection uuid="{2fbf7d9a-6ede-41ae-b07e-c27e67ee6e2b}" lines="lough">
+			<part nodes="1239 2959 1244 1247 2457 1246 1245"/>
+		</blocksection>
+		<blocksection uuid="{3d85c791-d2c9-42f8-912c-07ea77634eff}" lines="lough md201x">
+			<part nodes="1245 2957 1255"/>
+		</blocksection>
+		<blocksection uuid="{41e80b64-025d-4014-9a68-aa05488c2026}" lines="lough md201x" shuntingBlock="true">
+			<part nodes="736 1267 1285 2952 2951"/>
+		</blocksection>
+		<blocksection uuid="{4d9c9339-ef9e-4fe2-98bb-cb213e86b7ab}" lines="lough md201x" shuntingBlock="true">
+			<part nodes="712 146 335"/>
+		</blocksection>
+		<blocksection uuid="{4f49eda2-09c7-4243-88ff-c423c57f01c0}" lines="lough md201b">
+			<part nodes="404 2541 156 2542 1 546 435 427 2960 2450 171"/>
+		</blocksection>
+		<blocksection uuid="{4fc6a2e8-0501-43a4-b793-bf66fe7f3fc1}" lines="lough md201x" shuntingBlock="true">
+			<part nodes="2951 2952 1285 1267 736"/>
+		</blocksection>
+		<blocksection uuid="{50b2ae93-004f-4087-89ed-8b7805e2e37d}" lines="lough" shuntingBlock="true">
+			<part nodes="546 435 427 2960 2450 171"/>
+		</blocksection>
+		<blocksection uuid="{569269b8-eb18-4434-a096-0ca93645754c}" lines="lough md201x" speedIndicators="146">
+			<part nodes="171 1201 2955 660 335 146 712"/>
+		</blocksection>
+		<blocksection uuid="{860266ea-a81e-49cb-b062-ff3ac5727910}" lines="lough md201x">
+			<part nodes="2882 1222 2961 2452 1227"/>
+		</blocksection>
+		<blocksection uuid="{8605f5a5-ccd8-4cbc-93d2-8d63b629c8bf}" lines="lough">
+			<part nodes="1245 1246 2457 1247 1244 2959 1239"/>
+		</blocksection>
+		<blocksection uuid="{8b2340dc-c16a-4a79-bef9-9bce1ca667e2}" lines="lough md201x">
+			<part nodes="2882 1222 2961 2452 1227"/>
+		</blocksection>
+		<blocksection uuid="{8b682282-5cff-4a81-8a96-44ea7ebd5d89}" lines="lough md201x">
+			<part nodes="2864 1226 2962 2459 1251"/>
+		</blocksection>
+		<blocksection uuid="{b5c7c2bb-3809-4876-a26e-17cd8f996862}" lines="lough" shuntingBlock="true">
+			<part nodes="748 746 1285 1267 736"/>
+		</blocksection>
+		<blocksection uuid="{c4b54c5a-3dbb-406b-a2e7-207ee710f6b6}" lines="lough md201b" speedIndicators="9 109 149 1192">
+			<part nodes="1239 149 1331 5 9 10 6 7 1192 89 109 853 820 2885 783"/>
+		</blocksection>
+		<blocksection uuid="{cb4d75fb-82a9-4bc6-a757-558b106195e2}" lines="lough" shuntingBlock="true" speedIndicators="660">
+			<part nodes="335 660 2955 1201 171 2450 2960 427 435 546"/>
+		</blocksection>
+		<blocksection uuid="{cfe11eb9-b970-4803-b589-625354991eb4}" lines="lough" shuntingBlock="true">
+			<part nodes="736 1267 1285 746 748"/>
+		</blocksection>
+		<blocksection uuid="{d8fa8ba5-7655-48c4-b08d-c8f771af1330}" lines="lough md201b" speedIndicators="109 1192">
+			<part nodes="1251 2958 1333 4 7 1192 89 109 853 820 2885 783"/>
+		</blocksection>
+		<blocksection uuid="{e6018ce9-9ea8-4536-bcbc-c678cccb17c6}" lines="lough md201x">
+			<part nodes="1255 2957 1245 1246 2457 1247 1244 2959 1239"/>
+		</blocksection>
+	</blockSections>
+	<slipDistances>
+		<slipdistance uuid="{0b611c13-b412-4f74-9499-bdd825e32383}" vmax="999" lines="lough" serialNumber="0">
+			<part nodes="171 1201 2955 660 335 146 712"/>
+		</slipdistance>
+		<slipdistance uuid="{bd5c5b63-bab0-44ce-8f43-f2673cd6ec46}" vmax="999" lines="lough" serialNumber="0">
+			<part nodes="1227 2956 1200 3"/>
+		</slipdistance>
+		<slipdistance uuid="{f14cfe87-a008-4e21-80cc-64c4f3c8a648}" vmax="999" lines="lough" serialNumber="0">
+			<part nodes="1245 2957 1255"/>
+		</slipdistance>
+	</slipDistances>
+	<approachControlRoutes/>
+	<stationRoutes>
+		<stationRoute stationID="LOGHBRO" name="[LOGHBNJ]-[md201/1]-[1]-[LOGHBSJ]-[md201/3] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="2955 1201 171 2450 2960"/>
+		<stationRoute stationID="LOGHBRO" name="[LOGHBNJ]-[md201/2]-[2]-[LOGHBSJ]-[md201/4] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="2961 2452 1227 2956"/>
+		<stationRoute stationID="LOGHBRO" name="[LOGHBNJ]-[md201/3]-[4]-[LOGHBSJ]-[md201/1] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="2962 2459 1251 2958"/>
+		<stationRoute stationID="LOGHBRO" name="[LOGHBNJ]-[md201x/DS]-[3]-[LOGHBSJ]-[md201x/DS] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="2957 1245 1246 2457 1247 1244 2959"/>
+		<stationRoute stationID="LOGHBRO" name="[LOGHBSJ]-[md201/2]-[3]-[LOGHBNJ]-[md201/4] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="2959 1244 1247 2457 1246 1245 2957"/>
+		<stationRoute stationID="LOGHBRO" name="[LOGHBSJ]-[md201/2]-[3]-[LOGHBSJ]-[md201/2] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="2959 1244 1247 2457 1246 1245 1246 2457 1247 1244 2959"/>
+		<stationRoute stationID="LOGHBRO" name="[LOGHBSJ]-[md201/3]-[1]-[LOGHBNJ]-[md201/1] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="2960 2450 171 1201 2955"/>
+		<stationRoute stationID="LOGHBSJ" name="[BAROWOS]-[md201/1]-[1]-[LOGHBRO]-[md201/3] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="2541 156 2542"/>
+		<stationRoute stationID="LOGHBSJ" name="[BAROWOS]-[md201/3]-[3]-[LOGHBRO]-[md201/2] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="2884 818 105 8 6 10"/>
+		<stationRoute stationID="LOGHBSJ" name="[BAROWOS]-[md201b/SLD]-[3]-[]-[md201x/US] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=85;NRz=85;S=85;Rz=85;FGz=85;NGz=85;Gz=85;Lz=85;Unbekannt=85" nodes="2884 818 105 8 853 109 89 106 352 150 14"/>
+		<stationRoute stationID="LOGHBSJ" name="[LOGHBRO]-[md201/1]-[4]-[BAROWOS]-[md201/4] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="1333 4 7 1192 89 109 853 820 2885"/>
+		<stationRoute stationID="LOGHBSJ" name="[LOGHBRO]-[md201/2]-[4]-[BAROWOS]-[md201/4] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=90;NRz=90;S=90;Rz=90;FGz=90;NGz=90;Gz=90;Lz=90;Unbekannt=90" nodes="10 6 7 1192 89 109 853 820 2885"/>
+		<stationRoute stationID="LOGHBSJ" name="[LOGHBRO]-[md201/4]-[2]-[BAROWOS]-[md201/2] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="2544 816 2543"/>
+		<stationRoute stationID="LOGHBSJ" name="[]-[md201x/US]-[4-5]-[BAROWOS]-[md201b/SLU] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=95;NRz=95;S=95;Rz=95;FGz=95;NGz=95;Gz=95;Lz=95;Unbekannt=95" nodes="14 150 352 106 89 109 853 820 2885"/>
+	</stationRoutes>
+	<lineCatalog/>
+	<zugNummernFelder/>
+	<switchGears/>
+</line>

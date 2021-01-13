@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<line lineID="ea1510" name="REEDHAM JN - YARMOUTH" trafficRouting="on_the_left" type="local" dependentLines="redhm yarm">
+	<version major="1" minor="2" patchlevel="0" comment=""/>
+	<creator user="IMills7" timestamp="2017-01-16T10:43:07"/>
+	<lasteditor user="IMills7" timestamp="2017-01-16T10:43:07"/>
+	<stations>
+		<station stationID="BRNYARM" name="BERNEY ARMS" xNet="2887940" yNet="2829210" uicLocationCode="0" circleDiameter="0"/>
+	</stations>
+	<nodes>
+		<node nodeID="18" name="GRAD" description="-1606 / 0" kilometre="28.043" x="128660.48" y="0" xNet="2920695.9" yNet="2864234.8"/>
+		<node nodeID="19" name="GRAD" description="0 / -3969" kilometre="29.049" x="138720.48" y="0" xNet="2931343.9" yNet="2872507.9"/>
+		<track trackID="D-1" stationID="BRNYARM" type="stopBoard" nodeID="22" kilometre="25.577" x="104000.47" y="0" xNet="2888446.6" yNet="2829662.5" referenceNode="23"/>
+		<track trackID="U-1" stationID="BRNYARM" type="stopBoard" nodeID="23" kilometre="25.559" x="103820.48" y="0" xNet="2888319.9" yNet="2829533.3" referenceNode="22">
+			<platform startPos="-180" endPos="0" width="150" left="false" open="false"/>
+		</track>
+		<stationBorder exitType="regular" stationID="BRNYARM" lineID="ea1510" trackNumber="RDHM" nodeID="79" name="[YARMTH] - [e1510/1]" kilometre="25.642" x="104648.47" y="0" xNet="2888904.7" yNet="2830120" referenceNode="22"/>
+		<stationBorder exitType="regular" stationID="BRNYARM" lineID="ea1510" trackNumber="1" nodeID="80" name="[RDHAMNJN] - [e1510/1]" kilometre="24.845" x="96680.473" y="0" xNet="2886980.4" yNet="2828305.9" referenceNode="23"/>
+		<node nodeID="40" name="Limit of plan" description="12-SO-012-003 / 12-SO-012-004" kilometre="26.609" x="114320.47" y="0" xNet="2895744.4" yNet="2836958"/>
+		<node nodeID="56" name="GRAD" description="5500 / 0" kilometre="31.282" x="161472.78" y="0" xNet="2970983.3" yNet="2889477.7"/>
+		<node nodeID="67" name="GRAD" description="0 / 5500" kilometre="30.639" x="154657.62" y="0" xNet="2956314.4" yNet="2888768.4"/>
+		<node nodeID="70" name="GRAD" description="-3969 / 0" kilometre="29.430" x="142536.76" y="0" xNet="2936526.4" yNet="2875832.2"/>
+		<node nodeID="71" name="GRAD" description="0 / -1606" kilometre="27.579" x="124020.49" y="0" xNet="2917362.1" yNet="2861008.7"/>
+		<node nodeID="73" name="GRAD" description="-2475 / 0" kilometre="26.641" x="114640.47" y="0" xNet="2896383.6" yNet="2837665.3"/>
+		<speedIndicator nodeID="76" name="SPEED" description="60 / 50 Up" kilometre="31.180" x="160391.7" y="0" xNet="2968656.4" yNet="2889365.2" referenceNode="56"/>
+		<speedIndicator nodeID="77" name="SPEED" description="60 / 50 Up" kilometre="27.840" x="126630.48" y="0" xNet="2919237.4" yNet="2862823.4" referenceNode="71"/>
+		<node nodeID="81" kilometre="28.013" x="128360.49" y="0" xNet="2920480.4" yNet="2864026.2" referenceNode="77" releaseContact="true" arranged="true"/>
+		<node nodeID="16" name="GRAD" description="-5468 / 1140" kilometre="21.934" x="67570.471" y="0" xNet="2840181" yNet="2791416.5"/>
+		<node nodeID="17" name="GRAD" description="1140 / 732" kilometre="22.254" x="70770.467" y="0" xNet="2842926.2" yNet="2793065.3"/>
+		<node nodeID="72" name="GRAD" description="732 / 4455" kilometre="22.690" x="75130.464" y="0" xNet="2846662.6" yNet="2795311.5"/>
+		<node nodeID="82" name="GRAD" description="4455 / -6765" kilometre="23.221" x="80440.459" y="0" xNet="2851765.1" yNet="2798596.5"/>
+		<node nodeID="83" name="GRAD" description="-6765 / 5280" kilometre="25.685" x="105079.04" y="0" xNet="2889209.1" yNet="2830424"/>
+		<node nodeID="84" name="GRAD" description="5280 / -2475" kilometre="26.138" x="109610.48" y="0" xNet="2892413.7" yNet="2833626"/>
+		<node nodeID="85" kilometre="21.809" x="63323.822" y="18.217042" xNet="2838959.3" yNet="2790763.7" referenceNode="16" sightingDistance="true"/>
+	</nodes>
+	<links>
+		<link source="16" target="17" length="320" gradient="0.877" vmax="97" vmaxr="97" bidirectional="true">
+			<vzg index="1" vmax="64" vmaxr="64"/>
+		</link>
+		<link source="17" target="72" length="436" gradient="1.366" vmax="97" vmaxr="97" bidirectional="true">
+			<vzg index="1" vmax="64" vmaxr="64"/>
+		</link>
+		<link source="18" target="19" length="1006" vmax="80" vmaxr="97" bidirectional="true">
+			<vzg index="1" vmax="48" vmaxr="64"/>
+		</link>
+		<link source="19" target="70" length="381" gradient="-0.252" vmax="80" vmaxr="97" bidirectional="true">
+			<vzg index="1" vmax="48" vmaxr="64"/>
+		</link>
+		<link source="22" target="79" length="65" gradient="-0.148" vmax="97" vmaxr="97" bidirectional="true">
+			<vzg index="1" vmax="64" vmaxr="64"/>
+		</link>
+		<link source="23" target="22" length="18" gradient="-0.148" vmax="97" vmaxr="97" bidirectional="true">
+			<vzg index="1" vmax="64" vmaxr="64"/>
+		</link>
+		<link source="40" target="73" length="32" gradient="-0.404" vmax="97" vmaxr="97" bidirectional="true">
+			<vzg index="1" vmax="64" vmaxr="64"/>
+		</link>
+		<link source="56" target="124.yarm" length="408" vmax="80" vmaxr="80" bidirectional="true">
+			<vzg index="1" vmax="48" vmaxr="48"/>
+		</link>
+		<link source="67" target="76" length="541" gradient="0.182" vmax="80" vmaxr="97" bidirectional="true">
+			<vzg index="1" vmax="48" vmaxr="64"/>
+		</link>
+		<link source="70" target="67" length="1209" vmax="80" vmaxr="97" bidirectional="true">
+			<vzg index="1" vmax="48" vmaxr="64"/>
+		</link>
+		<link source="71" target="77" length="261" gradient="-0.623" vmax="97" vmaxr="97" bidirectional="true">
+			<vzg index="1" vmax="64" vmaxr="64"/>
+		</link>
+		<link source="72" target="82" length="531" gradient="0.224" vmax="97" vmaxr="97" bidirectional="true">
+			<vzg index="1" vmax="64" vmaxr="64"/>
+		</link>
+		<link source="73" target="71" length="938" vmax="97" vmaxr="97" bidirectional="true">
+			<vzg index="1" vmax="64" vmaxr="64"/>
+		</link>
+		<link source="76" target="56" length="102" gradient="0.182" vmax="80" vmaxr="80" bidirectional="true">
+			<vzg index="1" vmax="48" vmaxr="48"/>
+		</link>
+		<link source="77" target="81" length="173" gradient="-0.623" vmax="80" vmaxr="97" bidirectional="true">
+			<vzg index="1" vmax="48" vmaxr="64"/>
+		</link>
+		<link source="78.redhm" target="85" length="109" gradient="-0.183" vmax="97" vmaxr="97" bidirectional="true">
+			<vzg index="1" vmax="64" vmaxr="64"/>
+		</link>
+		<link source="79" target="83" length="43" gradient="-0.148" vmax="97" vmaxr="97" bidirectional="true">
+			<vzg index="1" vmax="64" vmaxr="64"/>
+		</link>
+		<link source="80" target="23" length="714" gradient="-0.148" vmax="97" vmaxr="97" bidirectional="true">
+			<vzg index="1" vmax="64" vmaxr="64"/>
+		</link>
+		<link source="81" target="18" length="30" gradient="-0.623" vmax="80" vmaxr="97" bidirectional="true">
+			<vzg index="1" vmax="48" vmaxr="64"/>
+		</link>
+		<link source="82" target="80" length="1624" gradient="-0.148" vmax="97" vmaxr="97" bidirectional="true">
+			<vzg index="1" vmax="64" vmaxr="64"/>
+		</link>
+		<link source="83" target="84" length="453" gradient="0.189" vmax="97" vmaxr="97" bidirectional="true">
+			<vzg index="1" vmax="64" vmaxr="64"/>
+		</link>
+		<link source="84" target="40" length="471" gradient="-0.404" vmax="97" vmaxr="97" bidirectional="true">
+			<vzg index="1" vmax="64" vmaxr="64"/>
+		</link>
+		<link source="85" target="16" length="125" gradient="-0.183" vmax="97" vmaxr="97" bidirectional="true">
+			<vzg index="1" vmax="64" vmaxr="64"/>
+		</link>
+	</links>
+	<dependentLinks/>
+	<blockSections>
+		<blocksection uuid="{69cbfe83-8746-46b2-8349-6c56eeefb0eb}" lines="ea1510 redhm yarm" speedIndicators="76 77">
+			<part nodes="124.yarm 56 76 67 70 19 18 81 77 71 73 40 84 83 79 22 23 80 82 72 17 16 85 78.redhm"/>
+		</blocksection>
+		<blocksection uuid="{bf3762fd-b523-4b6d-b6a9-ef5f7a634734}" lines="ea1510 redhm yarm" speedIndicators="76 77">
+			<part nodes="124.yarm 56 76 67 70 19 18 81 77 71 73 40 84 83 79 22 23 80 82 72 17 16 85 78.redhm"/>
+		</blocksection>
+		<blocksection uuid="{ccc55b77-5c3f-48b0-8571-eee6f3b22ba4}" lines="ea1510 redhm yarm" speedIndicators="76 77">
+			<part nodes="78.redhm 85 16 17 72 82 80 23 22 79 83 84 40 73 71 77 81 18 19 70 67 76 56 124.yarm"/>
+		</blocksection>
+		<blocksection uuid="{d40d279d-fa23-43c0-9e31-705d2cd8df5f}" lines="ea1510 redhm yarm" speedIndicators="76 77">
+			<part nodes="124.yarm 56 76 67 70 19 18 81 77 71 73 40 84 83 79 22 23 80 82 72 17 16 85 78.redhm"/>
+		</blocksection>
+		<blocksection uuid="{eaa75980-769c-44e8-8495-4be2df08c301}" lines="ea1510 redhm yarm" shuntingBlock="true" speedIndicators="76 77">
+			<part nodes="78.redhm 85 16 17 72 82 80 23 22 79 83 84 40 73 71 77 81 18 19 70 67 76 56 124.yarm"/>
+		</blocksection>
+	</blockSections>
+	<slipDistances/>
+	<approachControlRoutes/>
+	<stationRoutes>
+		<stationRoute stationID="BRNYARM" name="[RDHAMNJN]-[e1510/1]-[1]-[YARMTH]-[e1510/1] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="80 23 22 79"/>
+		<stationRoute stationID="BRNYARM" name="[YARMTH]-[e1510/1]-[1]-[RDHAMNJN]-[e1510/1] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="79 22 23 80"/>
+	</stationRoutes>
+	<lineCatalog/>
+	<zugNummernFelder/>
+	<switchGears/>
+</line>

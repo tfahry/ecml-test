@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<line lineID="ln861" name="Bradley Branch" trafficRouting="on_the_left" type="local" dependentLines="bradj bwdjn">
+	<version major="1" minor="2" patchlevel="0" comment=""/>
+	<creator user="Ahowe4" timestamp="2016-11-01T12:54:22"/>
+	<lasteditor user="Ahowe4" timestamp="2016-11-01T12:54:22"/>
+	<stations/>
+	<nodes>
+		<node nodeID="221" kilometre="58.000" x="407181.98" y="69029.029" xNet="-879770" yNet="4845700"/>
+		<node nodeID="224" name="SIG: H641" description="Distant signal H641" kilometre="58.533" x="402582.01" y="69029.029" xNet="-877346.73" yNet="4843492.3" referenceNode="5" presignal="true" with1000HzMagnet="true"/>
+		<node nodeID="225" name="SD: H545" kilometre="57.983" x="407351.98" y="69029.029" xNet="-880377" yNet="4846127" referenceNode="221" sightingDistance="true"/>
+		<kilometreInconsistency newKilometre="46.7" nodeID="5" name="CHANGE OF KM" description="Change of kilometrage" kilometre="58.650" x="401382.01" y="69029.029" xNet="-876474.57" yNet="4842661.4" referenceNode="224"/>
+		<node nodeID="169" name="GRAD" kilometre="46.666" x="400182.01" y="69029.029" xNet="-871123.44" yNet="4831640.5"/>
+		<node nodeID="141" name="SD: HM655" kilometre="46.183" x="396682.01" y="69029.029" xNet="-870975.24" yNet="4828757.6" referenceNode="169" sightingDistance="true"/>
+		<node nodeID="142" name="SIG: HM641" description="Distant signal HM641" kilometre="46.684" x="400782.01" y="69029.029" xNet="-875957.53" yNet="4841965.3" referenceNode="149" presignal="true" with1000HzMagnet="true"/>
+		<kilometreInconsistency newKilometre="58.651" nodeID="149" name="CHANGE OF KM" description="Change of kilometrage" kilometre="46.699" x="401182.01" y="69029.029" xNet="-876381.61" yNet="4842485.4" referenceNode="142"/>
+		<node nodeID="1216" kilometre="57.950" x="407681.98" y="69029.029" xNet="-880635.87" yNet="4846261.6"/>
+		<node nodeID="1217" kilometre="46.150" x="396282.01" y="69029.029" xNet="-871035.86" yNet="4828475.5"/>
+	</nodes>
+	<links>
+		<link source="5" target="149" length="1" gradient="-1.29" vmax="56" vmaxr="56" bidirectional="true"/>
+		<link source="141" target="169" length="483" vmax="56" vmaxr="56" bidirectional="true"/>
+		<link source="142" target="149" length="16" gradient="1.29" vmax="56" vmaxr="56" bidirectional="true"/>
+		<link source="169" target="142" length="18" gradient="1.29" vmax="56" vmaxr="56" bidirectional="true"/>
+		<link source="221" target="224" length="533" gradient="-1.29" vmax="56" vmaxr="56" bidirectional="true"/>
+		<link source="224" target="5" length="117" gradient="-1.29" vmax="56" vmaxr="56" bidirectional="true"/>
+		<link source="225" target="221" length="17" gradient="-1.29" vmax="56" vmaxr="56" bidirectional="true"/>
+		<link source="931.bradj" target="1217" length="44" vmax="56" vmaxr="56" bidirectional="true"/>
+		<link source="937.bwdjn" target="1216" length="44" gradient="-1.29" vmax="56" vmaxr="56" bidirectional="true"/>
+		<link source="1216" target="225" length="33" gradient="-1.29" vmax="56" vmaxr="56" bidirectional="true"/>
+		<link source="1217" target="141" length="33" vmax="56" vmaxr="56" bidirectional="true"/>
+	</links>
+	<dependentLinks/>
+	<blockSections>
+		<blocksection uuid="{39b7f725-8c01-4f27-9d99-8801eac169a3}" lines="bradj bwdjn ln861">
+			<part nodes="937.bwdjn 1216 225 221 224 5 149 142 169 141 1217 931.bradj"/>
+		</blocksection>
+		<blocksection uuid="{650e905a-c767-4451-9146-c79330feb42a}" lines="bradj bwdjn ln861">
+			<part nodes="931.bradj 1217 141 169 142 149 5 224 221 225 1216 937.bwdjn"/>
+		</blocksection>
+	</blockSections>
+	<slipDistances/>
+	<approachControlRoutes/>
+	<stationRoutes/>
+	<lineCatalog/>
+	<zugNummernFelder/>
+	<switchGears/>
+</line>

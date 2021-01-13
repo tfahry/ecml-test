@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<line lineID="blkh" name="Blackheath" trafficRouting="on_the_left" type="global" dependentLines="so290a so300">
+	<transformations>
+		<transformation line="so290a" m11="1" m12="0" m21="0" m22="1" dx="40" dy="-400"/>
+		<transformation line="so300" m11="1" m12="0" m21="0" m22="1" dx="0" dy="0"/>
+	</transformations>
+	<version major="1" minor="2" patchlevel="0" comment=""/>
+	<creator user="Ahowe4" timestamp="2016-11-01T12:54:22"/>
+	<lasteditor user="Ahowe4" timestamp="2016-11-01T12:54:22"/>
+	<stations>
+		<station stationID="BLKHTH" name="Blackheath" xNet="1139310.45" yNet="636718.965" uicLocationCode="0" circleDiameter="0">
+			<textElement type="name">
+				<pos view="net" x="2494.93" y="2494.93" angle="0" system="source"/>
+				<pos view="wgs84" x="2494.93" y="2494.93" angle="0" system="source"/>
+				<pos view="line" x="1580.2" y="1580.2" angle="0" system="source"/>
+				<pos view="macro" x="28.2843" y="28.2843" angle="0" system="source"/>
+				<pos view="macroWgs84" x="0" y="0" angle="0" system="source"/>
+			</textElement>
+		</station>
+		<station stationID="ZBLKHTHJ" name="Blackheath Junction (RailSys)" xNet="1148161.95" yNet="636850.925" uicLocationCode="0" circleDiameter="0">
+			<textElement type="name">
+				<pos view="net" x="1621.93" y="1621.93" angle="0" system="source"/>
+				<pos view="wgs84" x="1621.93" y="1621.93" angle="0" system="source"/>
+				<pos view="line" x="1028.36" y="1028.36" angle="0" system="source"/>
+				<pos view="macro" x="28.2843" y="28.2843" angle="0" system="source"/>
+				<pos view="macroWgs84" x="0" y="0" angle="0" system="source"/>
+			</textElement>
+		</station>
+	</stations>
+	<nodes>
+		<node nodeID="3" name="1000MM" description="1000MM : 11" kilometre="11.000" x="110000" y="300" xNet="1137617.3" yNet="636550.86"/>
+		<node nodeID="1020" name="GRAD" description="Gradient; 6m 68ch" kilometre="11.024" x="110240" y="300" xNet="1137996.2" yNet="636550.86"/>
+		<node nodeID="1029" name="GRAD" description="Gradient; 7m 9ch" kilometre="11.446" x="114460" y="300" xNet="1144658.1" yNet="636550.86"/>
+		<speedIndicator nodeID="1032" name="SPEED" description="Speed; 7m 14ch" kilometre="11.548" x="115480" y="300" xNet="1146268.4" yNet="636550.86" referenceNode="1033"/>
+		<switch start="1032" endOfMainTrack="1034" endOfBranchTrack="1084" nodeID="1033" name="POINTS : 849" description="POINTS : 849;  mph; 7m 14ch" kilometre="11.555" x="115550" y="300" xNet="1146378.9" yNet="636550.86"/>
+		<track trackID="U-1" stationID="BLKHTH" interlockingMachine="4 Aspect IECC (Below 75mph)" nodeID="1022" name="SIG : L452" description="Signal L452; 6m 70ch" kilometre="11.070" x="110700" y="300" xNet="1138722.4" yNet="636550.86" referenceNode="1023">
+			<platform startPos="-2820" endPos="0" width="150" left="true" open="true"/>
+		</track>
+		<track trackID="T-1" stationID="BLKHTH" type="timingPoint" nodeID="1023" name="T-1" description="BLKHTH T-1, timingPoint, 6m 75ch" kilometre="11.165" x="111650" y="300" xNet="1140222.1" yNet="636550.86" referenceNode="91"/>
+		<node nodeID="1025" name="SD : L452" description="sighting distance for SIG : L452" kilometre="11.242" x="112420" y="300" xNet="1141437.7" yNet="636550.86" referenceNode="1026" sightingDistance="true"/>
+		<node nodeID="1026" name="OL L454" description="OL for SIG : L454" kilometre="11.247" x="112470" y="300" xNet="1141516.6" yNet="636550.86"/>
+		<signal interlockingMachine="4 Aspect IECC (Below 75mph)" nodeID="1027" name="SIG : L454" description="Signal L454; 7m 4ch" kilometre="11.356" x="113560" y="300" xNet="1143237.3" yNet="636550.86" referenceNode="1029"/>
+		<node nodeID="1030" name="SD : L454" description="sighting distance for SIG : L454" kilometre="11.528" x="115280" y="300" xNet="1145952.6" yNet="636550.86" referenceNode="109" sightingDistance="true"/>
+		<track trackID="T-1" stationID="ZBLKHTHJ" type="timingPoint" nodeID="1031" name="T-1" description="BLKHTHJ T-1, timingPoint, 7m 14ch" kilometre="11.547" x="115470" y="300" xNet="1146252.6" yNet="636550.86" referenceNode="1032"/>
+		<node nodeID="1034" name="OL L460" description="OL for SIG : L460" kilometre="11.609" x="116090" y="300" xNet="1147231.3" yNet="636550.86"/>
+		<node nodeID="22" name="1000MM" description="1000MM : 11" kilometre="11.000" x="110000" y="500" xNet="1137617.3" yNet="636887.07">
+			<netLimitInfo lineID="so300"/>
+		</node>
+		<node nodeID="31" name="GRAD" description="Gradient; 7m 9ch" kilometre="11.446" x="114460" y="500" xNet="1144658.1" yNet="636887.07"/>
+		<speedIndicator nodeID="34" name="SPEED" description="Speed; 7m 14ch" kilometre="11.548" x="115480" y="500" xNet="1146268.4" yNet="636887.07" referenceNode="33"/>
+		<switch start="34" endOfMainTrack="46" endOfBranchTrack="103" nodeID="35" name="POINTS : 848" description="POINTS : 848;  mph; 7m 15ch" kilometre="11.577" x="115770" y="500" xNet="1146726.2" yNet="636887.07"/>
+		<node nodeID="24" name="OL L451" description="OL for SIG : L451" kilometre="11.051" x="110510" y="500" xNet="1138422.5" yNet="636887.07"/>
+		<node nodeID="25" name="SD : L453" description="sighting distance for SIG : L453" kilometre="11.093" x="110930" y="500" xNet="1139085.5" yNet="636887.07" referenceNode="24" sightingDistance="true"/>
+		<track trackID="T-2" stationID="BLKHTH" type="timingPoint" nodeID="26" name="T-2" description="BLKHTH T-2, timingPoint, 6m 75ch" kilometre="11.165" x="111650" y="500" xNet="1140222.1" yNet="636887.07" referenceNode="183"/>
+		<track trackID="D-2" stationID="BLKHTH" interlockingMachine="4 Aspect IECC (Below 75mph)" nodeID="28" name="SIG : L453" description="Signal L453; 7m 0.76ch" kilometre="11.281" x="112810" y="500" xNet="1142053.4" yNet="636887.07" referenceNode="27">
+			<platform startPos="-3030" endPos="0" width="150" left="true" open="true"/>
+		</track>
+		<node nodeID="32" name="OL L453" description="OL for SIG : L453" kilometre="11.470" x="114700" y="500" xNet="1145037" yNet="636887.07"/>
+		<track trackID="T-2" stationID="ZBLKHTHJ" type="timingPoint" nodeID="33" name="T-2" description="BLKHTHJ T-2, timingPoint, 7m 14ch" kilometre="11.547" x="115470" y="500" xNet="1146252.6" yNet="636887.07" referenceNode="111"/>
+		<node nodeID="37" name="SD : L461" description="sighting distance for SIG : L461" kilometre="11.721" x="117210" y="500" xNet="1148999.4" yNet="636887.07" referenceNode="98" sightingDistance="true">
+			<netLimitInfo lineID="so300"/>
+		</node>
+		<crossing type="kr" startOfMainTrack="35" startOfBranchTrack="1072" endOfMainTrack="98" endOfBranchTrack="1" nodeID="46" name="FD" description="FD" kilometre="11.635" x="116350" y="500" xNet="1147641.8" yNet="636887.07"/>
+		<node nodeID="27" name="REP : L453R" description="repeater signal; SIG : L453R" kilometre="11.183" x="111830" y="500" xNet="1140506.3" yNet="636887.07" referenceNode="26" presignal="true" with1000HzMagnet="true"/>
+		<switch start="24" endOfMainTrack="23" endOfBranchTrack="1024" nodeID="29" name="POINTS : C&amp;P" kilometre="11.040" x="110400" y="500" xNet="1138248.8" yNet="636887.07"/>
+		<switch start="1018" endOfMainTrack="3" endOfBranchTrack="1063" nodeID="1021" name="POINTS : C&amp;P" kilometre="10.985" x="109850" y="300" xNet="1137380.5" yNet="636550.86"/>
+		<node nodeID="1024" name="GRAD" kilometre="11.024" x="110241.14" y="442.23166" xNet="1137997.8" yNet="636789.57"/>
+		<node nodeID="1035" name="GRAD" description="Gradient; 7m 24.5ch" kilometre="11.758" x="117580" y="300" xNet="1149583.5" yNet="636550.86"/>
+		<node nodeID="1038" name="1000MM" description="1000MM : 12" kilometre="12.000" x="120000" y="300" xNet="1153403.9" yNet="636550.86">
+			<netLimitInfo lineID="so300"/>
+		</node>
+		<track trackID="U-1" stationID="ZBLKHTHJ" interlockingMachine="4 Aspect IECC (Below 75mph)" nodeID="1036" name="SIG : L460" description="Signal L460; 7m 26ch" kilometre="11.791" x="117910" y="300" xNet="1150104.5" yNet="636550.86" referenceNode="113"/>
+		<node nodeID="1037" name="SD : L460" description="sighting distance for SIG : L460" kilometre="11.861" x="118610" y="300" xNet="1151209.5" yNet="636550.86" referenceNode="1038" sightingDistance="true"/>
+		<node nodeID="38" kilometre="11.637" x="116358.12" y="900" xNet="1147776" yNet="637428.37">
+			<netLimitInfo lineID="so290a"/>
+		</node>
+		<speedIndicator nodeID="1057" name="SPEED" kilometre="11.556" x="115560" y="302.5" xNet="1146394.7" yNet="636555.07" referenceNode="1068"/>
+		<speedIndicator nodeID="39" name="SPEED" kilometre="11.578" x="115779.8" y="506.66666" xNet="1146884" yNet="636979.53" referenceNode="103"/>
+		<node nodeID="1063" name="tc" description="release contact for track circuit; " kilometre="11.010" x="110100.78" y="391.19144" xNet="1137776.3" yNet="636703.92" referenceNode="1021" releaseContact="true" arranged="true"/>
+		<node nodeID="1064" name="tc" description="release contact for track circuit; " kilometre="11.011" x="110110.8" y="394.83716" xNet="1137792.1" yNet="636710.04" referenceNode="1024" releaseContact="true" arranged="true"/>
+		<node nodeID="1068" name="tc" description="release contact for track circuit; " kilometre="11.587" x="115873.07" y="380.76849" xNet="1146888.9" yNet="636686.64" referenceNode="1057" releaseContact="true" arranged="true"/>
+		<node nodeID="1072" name="tc" description="release contact for track circuit; " kilometre="11.588" x="115883.01" y="383.25247" xNet="1146904.6" yNet="636690.83" referenceNode="46" releaseContact="true" arranged="true"/>
+		<stationBorder exitType="alternative" stationID="BLKHTH" lineID="so300" trackNumber="2" nodeID="23" name="[LEWISHM] - [s300/1]" description="Gradient; 6m 68ch" kilometre="11.024" x="110240" y="500" xNet="1137996.2" yNet="636887.07" referenceNode="29"/>
+		<stationBorder exitType="regular" stationID="BLKHTH" lineID="so300" trackNumber="1" nodeID="1018" name="[sigL260] - [s300/1]" description="OL for SIG : L452" kilometre="10.884" x="108840" y="300" xNet="1135786.1" yNet="636550.86" referenceNode="1021">
+			<netLimitInfo lineID="so300"/>
+		</stationBorder>
+		<stationBorder exitType="alternative" stationID="BLKHTH" lineID="so290a" trackNumber="1" nodeID="91" name="[BLKHTHJ] - [s290a/1]" kilometre="11.188" x="111881" y="300" xNet="1140586.8" yNet="636550.86" referenceNode="1023"/>
+		<stationBorder exitType="regular" stationID="BLKHTH" lineID="so290a" trackNumber="2" nodeID="95" name="[BLKHTHJ] - [s290a/2]" kilometre="11.330" x="113305" y="500" xNet="1142834.8" yNet="636887.07" referenceNode="28"/>
+		<stationBorder exitType="alternative" stationID="ZBLKHTHJ" lineID="so290a" trackNumber="1" nodeID="1" name="[ANGRSTJ] - [s290a/1]" description="OL for SIG : L456" kilometre="11.655" x="116510" y="700" xNet="1147952.8" yNet="637150.99" referenceNode="46">
+			<netLimitInfo lineID="so290a"/>
+		</stationBorder>
+		<stationBorder exitType="regular" stationID="ZBLKHTHJ" lineID="so300" trackNumber="1" nodeID="98" name="[KIDBROK] - [s300/1]" kilometre="11.661" x="116608" y="500" xNet="1148049.1" yNet="636887.07" referenceNode="46"/>
+		<stationBorder exitType="regular" stationID="ZBLKHTHJ" lineID="so290a" trackNumber="2" nodeID="103" name="[ANGRSTJ] - [s290a/2]" kilometre="11.577" x="115772.94" y="502" xNet="1146773.5" yNet="636914.81" referenceNode="35"/>
+		<stationBorder exitType="regular" stationID="ZBLKHTHJ" lineID="so290a" trackNumber="1" nodeID="109" name="[BLKHTH] - [s290a/1]" kilometre="11.541" x="115413" y="300" xNet="1146162.6" yNet="636550.86" referenceNode="1031"/>
+		<stationBorder exitType="alternative" stationID="ZBLKHTHJ" lineID="so290a" trackNumber="2" nodeID="111" name="[BLKHTH] - [s290a/2]" kilometre="11.524" x="115239" y="500" xNet="1145887.9" yNet="636887.07" referenceNode="33"/>
+		<stationBorder exitType="alternative" stationID="ZBLKHTHJ" lineID="so300" trackNumber="2" nodeID="113" name="[KIDBROK] - [s300/2]" kilometre="11.812" x="118120" y="300" xNet="1150436" yNet="636550.86" referenceNode="1036"/>
+		<speedIndicator nodeID="1084" kilometre="11.555" x="115550.5" y="300.125" xNet="1146379.7" yNet="636551.08" referenceNode="1057"/>
+		<node nodeID="183" name="AT: L453" kilometre="11.095" x="110950" y="500" xNet="1139117.1" yNet="636887.07" referenceNode="25" aspectTrigger="true"/>
+	</nodes>
+	<links>
+		<link source="3" target="1020" length="24" gradient="7.576" vmax="89" vmaxr="89">
+			<vzg index="9" vmax="56" vmaxr="56"/>
+		</link>
+		<link source="22" target="23" length="24" gradient="7.576" vmax="97" vmaxr="97">
+			<vzg index="9" vmax="64" vmaxr="64"/>
+		</link>
+		<link source="23" target="29" length="16" gradient="-3.049" vmax="97" vmaxr="97">
+			<vzg index="9" vmax="64" vmaxr="64"/>
+		</link>
+		<link source="24" target="25" length="42" gradient="-3.049" vmax="97" vmaxr="97">
+			<vzg index="9" vmax="64" vmaxr="64"/>
+		</link>
+		<link source="25" target="183" length="2" gradient="-3.049" vmax="97" vmaxr="97">
+			<vzg index="9" vmax="64" vmaxr="64"/>
+		</link>
+		<link source="26" target="27" length="18" gradient="-3.049" vmax="97" vmaxr="97">
+			<vzg index="9" vmax="64" vmaxr="64"/>
+		</link>
+		<link source="27" target="28" length="98" gradient="-3.049" vmax="97" vmaxr="97">
+			<vzg index="9" vmax="64" vmaxr="64"/>
+		</link>
+		<link source="28" target="95" length="50" gradient="-3.049" vmax="97" vmaxr="97">
+			<vzg index="9" vmax="64" vmaxr="64"/>
+		</link>
+		<link source="29" target="24" length="11" gradient="-3.049" vmax="97" vmaxr="97">
+			<vzg index="9" vmax="64" vmaxr="64"/>
+		</link>
+		<link source="31" target="32" length="24" gradient="0.579" vmax="97" vmaxr="97">
+			<vzg index="9" vmax="64" vmaxr="64"/>
+		</link>
+		<link source="32" target="111" length="54" gradient="0.579" vmax="97" vmaxr="97">
+			<vzg index="9" vmax="64" vmaxr="64"/>
+		</link>
+		<link source="33" target="34" length="1" gradient="0.579" vmax="97" vmaxr="97">
+			<vzg index="9" vmax="64" vmaxr="64"/>
+		</link>
+		<link source="34" target="35" length="29" gradient="0.579" vmax="32" vmaxr="32">
+			<vzg index="9" vmax="32" vmaxr="32"/>
+		</link>
+		<link source="35" target="46" length="58" gradient="0.579" vmax="32" vmaxr="32">
+			<vzg index="9" vmax="32" vmaxr="32"/>
+		</link>
+		<link source="35" target="103" gradient="5.682" vmax="32" vmaxr="32">
+			<vzg index="9" vmax="32" vmaxr="32"/>
+		</link>
+		<link source="39" target="38" length="59" gradient="5.682" vmax="97" vmaxr="97">
+			<vzg index="9" vmax="64" vmaxr="64"/>
+		</link>
+		<link source="46" target="1" length="20" gradient="5.682" vmax="97" vmaxr="97">
+			<vzg index="9" vmax="64" vmaxr="64"/>
+		</link>
+		<link source="46" target="98" length="26" gradient="0.579" vmax="32" vmaxr="32">
+			<vzg index="9" vmax="32" vmaxr="32"/>
+		</link>
+		<link source="91" target="1025" length="54" gradient="-3.049" vmax="89" vmaxr="89">
+			<vzg index="9" vmax="56" vmaxr="56"/>
+		</link>
+		<link source="95" target="31" length="115" gradient="-3.049" vmax="97" vmaxr="97">
+			<vzg index="9" vmax="64" vmaxr="64"/>
+		</link>
+		<link source="98" target="37" length="60" gradient="0.579" vmax="32" vmaxr="32">
+			<vzg index="9" vmax="32" vmaxr="32"/>
+		</link>
+		<link source="103" target="39" length="1" gradient="5.682" vmax="32" vmaxr="32">
+			<vzg index="9" vmax="32" vmaxr="32"/>
+		</link>
+		<link source="109" target="1031" length="6" gradient="0.579" vmax="89" vmaxr="89">
+			<vzg index="9" vmax="56" vmaxr="56"/>
+		</link>
+		<link source="111" target="33" length="23" gradient="0.579" vmax="97" vmaxr="97">
+			<vzg index="9" vmax="64" vmaxr="64"/>
+		</link>
+		<link source="113" target="1037" length="49" gradient="8.696" vmax="32" vmaxr="32">
+			<vzg index="9" vmax="32" vmaxr="32"/>
+		</link>
+		<link source="183" target="26" length="70" gradient="-3.049" vmax="97" vmaxr="97">
+			<vzg index="9" vmax="64" vmaxr="64"/>
+		</link>
+		<link source="1018" target="1021" length="101" gradient="7.576" vmax="89" vmaxr="89">
+			<vzg index="9" vmax="56" vmaxr="56"/>
+		</link>
+		<link source="1020" target="1022" length="46" gradient="-3.049" vmax="89" vmaxr="89">
+			<vzg index="9" vmax="56" vmaxr="56"/>
+		</link>
+		<link source="1021" target="3" length="15" gradient="7.576" vmax="89" vmaxr="89">
+			<vzg index="9" vmax="56" vmaxr="56"/>
+		</link>
+		<link source="1021" target="1063" length="25" gradient="7.576" vmax="24" vmaxr="24">
+			<vzg index="9" vmax="24" vmaxr="24"/>
+		</link>
+		<link source="1022" target="1023" length="95" gradient="-3.049" vmax="89" vmaxr="89">
+			<vzg index="9" vmax="56" vmaxr="56"/>
+		</link>
+		<link source="1023" target="91" length="23" gradient="-3.049" vmax="89" vmaxr="89">
+			<vzg index="9" vmax="56" vmaxr="56"/>
+		</link>
+		<link source="1024" target="29" length="16" gradient="-3.049" vmax="24" vmaxr="24">
+			<vzg index="9" vmax="24" vmaxr="24"/>
+		</link>
+		<link source="1025" target="1026" length="5" gradient="-3.049" vmax="89" vmaxr="89">
+			<vzg index="9" vmax="56" vmaxr="56"/>
+		</link>
+		<link source="1026" target="1027" length="109" gradient="-3.049" vmax="89" vmaxr="89">
+			<vzg index="9" vmax="56" vmaxr="56"/>
+		</link>
+		<link source="1027" target="1029" length="90" gradient="-3.049" vmax="89" vmaxr="89">
+			<vzg index="9" vmax="56" vmaxr="56"/>
+		</link>
+		<link source="1029" target="1030" length="82" gradient="0.579" vmax="89" vmaxr="89">
+			<vzg index="9" vmax="56" vmaxr="56"/>
+		</link>
+		<link source="1030" target="109" length="13" gradient="0.579" vmax="89" vmaxr="89">
+			<vzg index="9" vmax="56" vmaxr="56"/>
+		</link>
+		<link source="1031" target="1032" length="1" gradient="0.579" vmax="89" vmaxr="89">
+			<vzg index="9" vmax="56" vmaxr="56"/>
+		</link>
+		<link source="1032" target="1033" length="7" gradient="0.579" vmax="32" vmaxr="32">
+			<vzg index="9" vmax="32" vmaxr="32"/>
+		</link>
+		<link source="1033" target="1034" length="54" gradient="0.579" vmax="32" vmaxr="32">
+			<vzg index="9" vmax="32" vmaxr="32"/>
+		</link>
+		<link source="1033" target="1084" gradient="0.579" vmax="97" vmaxr="97">
+			<vzg index="9" vmax="64" vmaxr="64"/>
+		</link>
+		<link source="1034" target="1035" length="149" gradient="0.579" vmax="32" vmaxr="32">
+			<vzg index="9" vmax="32" vmaxr="32"/>
+		</link>
+		<link source="1035" target="1036" length="33" gradient="8.696" vmax="32" vmaxr="32">
+			<vzg index="9" vmax="32" vmaxr="32"/>
+		</link>
+		<link source="1036" target="113" length="21" gradient="8.696" vmax="32" vmaxr="32">
+			<vzg index="9" vmax="32" vmaxr="32"/>
+		</link>
+		<link source="1037" target="1038" length="139" gradient="8.696" vmax="32" vmaxr="32">
+			<vzg index="9" vmax="32" vmaxr="32"/>
+		</link>
+		<link source="1057" target="1068" length="31" gradient="0.579" vmax="97" vmaxr="97">
+			<vzg index="9" vmax="64" vmaxr="64"/>
+		</link>
+		<link source="1063" target="1064" length="1" gradient="7.576" vmax="24" vmaxr="24">
+			<vzg index="9" vmax="24" vmaxr="24"/>
+		</link>
+		<link source="1064" target="1024" length="13" gradient="7.576" vmax="24" vmaxr="24">
+			<vzg index="9" vmax="24" vmaxr="24"/>
+		</link>
+		<link source="1068" target="1072" length="1" gradient="0.579" vmax="97" vmaxr="97">
+			<vzg index="9" vmax="64" vmaxr="64"/>
+		</link>
+		<link source="1072" target="46" length="47" gradient="0.579" vmax="97" vmaxr="97">
+			<vzg index="9" vmax="64" vmaxr="64"/>
+		</link>
+		<link source="1084" target="1057" length="1" gradient="0.579" vmax="97" vmaxr="97">
+			<vzg index="9" vmax="64" vmaxr="64"/>
+		</link>
+	</links>
+	<dependentLinks/>
+	<blockSections>
+		<blocksection uuid="{23d10cda-0fca-40a0-a783-14a5e93d3bdb}" lines="blkh" speedIndicators="1032">
+			<part nodes="1036 1035 1034 1033 1032 1031 109 1030 1029 1027"/>
+		</blocksection>
+		<blocksection uuid="{6e138634-7e18-4750-8559-1d7bdf572927}" lines="blkh so300">
+			<part nodes="1022 1020 3 1021 1018"/>
+		</blocksection>
+		<blocksection uuid="{79ac31aa-db1e-42c5-a813-84893f59ecf1}" lines="blkh">
+			<part nodes="1027 1026 1025 91 1023 1022"/>
+		</blocksection>
+		<blocksection uuid="{8b985e3c-4fc0-482c-9036-62679d236e57}" lines="blkh so290a" speedIndicators="1032 1057 1084">
+			<part nodes="1 46 1072 1068 1057 1084 1033 1032 1031 109 1030 1029 1027"/>
+		</blocksection>
+		<blocksection uuid="{9e9b92f6-6f3f-4d0f-8d67-6a0c5d7ed930}" lines="blkh so300">
+			<part nodes="1038 1037 113 1036"/>
+		</blocksection>
+		<blocksection uuid="{b4789b27-5b01-4ad7-a57b-6ca92ed51311}" lines="blkh so300">
+			<part nodes="22 23 29 24 25 183 26 27 28"/>
+		</blocksection>
+		<blocksection uuid="{c261a8ff-bd9d-45e3-93b0-ffd69a9fec91}" lines="blkh so300" speedIndicators="34">
+			<part nodes="28 95 31 32 111 33 34 35 46 98 37"/>
+		</blocksection>
+		<blocksection uuid="{f79a0aa8-7e22-4cab-837b-13077ca4c5f5}" lines="blkh so290a" speedIndicators="34 39">
+			<part nodes="28 95 31 32 111 33 34 35 103 39 38"/>
+		</blocksection>
+	</blockSections>
+	<slipDistances>
+		<slipdistance uuid="{41c6481a-0e02-4b0d-a9af-23442db202c3}" vmax="999" lines="blkh so300" serialNumber="0">
+			<part nodes="22 23 29 24"/>
+		</slipdistance>
+		<slipdistance uuid="{b8cd671f-c788-4d94-ba53-ca20203ff71a}" vmax="999" lines="blkh" serialNumber="0">
+			<part nodes="1027 1026"/>
+		</slipdistance>
+		<slipdistance uuid="{c29323ae-0e07-4d33-add6-35fc8c0cf1a3}" vmax="999" lines="blkh" serialNumber="0">
+			<part nodes="28 95 31 32"/>
+		</slipdistance>
+		<slipdistance uuid="{c5eaf04e-357a-41f1-ba63-81a7f7ebc472}" vmax="999" lines="blkh" serialNumber="0">
+			<part nodes="1022 1020 3 1021 1018"/>
+		</slipdistance>
+		<slipdistance uuid="{edc4088e-4e05-46aa-b902-eca4dd1812b6}" vmax="999" lines="blkh" serialNumber="0">
+			<part nodes="1036 1035 1034"/>
+		</slipdistance>
+	</slipDistances>
+	<approachControlRoutes>
+		<ACRoute controlTyp="mar" uuid="{e7d5b09b-de25-4a46-9452-6fe309907262}" publicName="L453 - L461" lines="blkh so300">
+			<part nodes="28 95 31 32 111 33 34 35 46 98 37"/>
+		</ACRoute>
+	</approachControlRoutes>
+	<stationRoutes>
+		<stationRoute stationID="BLKHTH" name="[BLKHTHJ]-[s290a/1]-[1]-[LEWISHM]-[s300/1] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="91 1023 1022 1020 3 1021 1018"/>
+		<stationRoute stationID="BLKHTH" name="[LEWISHM]-[s300/2]-[2]-[BLKHTHJ]-[s290a/2] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="23 29 24 25 183 26 27 28 95"/>
+		<stationRoute stationID="ZBLKHTHJ" name="[ANGRSTJ]-[s290a/1]-[1]-[BLKHTH]-[s290a/1] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=95;NRz=95;S=95;Rz=95;FGz=95;NGz=95;Gz=95;Lz=95;Unbekannt=95" nodes="1 46 1072 1068 1057 1084 1033 1032 1031 109"/>
+		<stationRoute stationID="ZBLKHTHJ" name="[BLKHTH]-[s290a/2]-[2]-[ANGRSTJ]-[s290a/2] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=95;NRz=95;S=95;Rz=95;FGz=95;NGz=95;Gz=95;Lz=95;Unbekannt=95" nodes="111 33 34 35 103"/>
+		<stationRoute stationID="ZBLKHTHJ" name="[BLKHTH]-[s290a/2]-[2]-[KIDBROK]-[s300/1] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="111 33 34 35 46 98"/>
+		<stationRoute stationID="ZBLKHTHJ" name="[KIDBROK]-[s300/2]-[1]-[BLKHTH]-[s290a/1] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="113 1036 1035 1034 1033 1032 1031 109"/>
+	</stationRoutes>
+	<lineCatalog/>
+	<zugNummernFelder/>
+	<switchGears/>
+</line>

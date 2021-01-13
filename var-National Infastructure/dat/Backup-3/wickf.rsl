@@ -1,0 +1,469 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<line lineID="wickf" name="Wickford Jn" trafficRouting="on_the_left" type="global" dependentLines="ea1050 ea1060">
+	<transformations>
+		<transformation line="ea1050" m11="1" m12="0" m21="0" m22="1" dx="0" dy="0"/>
+		<transformation line="ea1060" m11="1" m12="0" m21="0" m22="1" dx="0" dy="0"/>
+	</transformations>
+	<version major="1" minor="2" patchlevel="0" comment=""/>
+	<creator user="Ahowe4" timestamp="2016-11-01T12:54:22"/>
+	<lasteditor user="Ahowe4" timestamp="2016-11-01T12:54:22"/>
+	<stations>
+		<station stationID="WIKFDSD" name="Wickford Down Siding" xNet="1707354.65" yNet="937085.195" uicLocationCode="0" circleDiameter="0">
+			<textElement type="name">
+				<pos view="net" x="1457.27" y="1457.27" angle="0" system="source"/>
+				<pos view="wgs84" x="1457.27" y="1457.27" angle="0" system="source"/>
+				<pos view="line" x="1122.83" y="1122.83" angle="0" system="source"/>
+				<pos view="macro" x="28.2843" y="28.2843" angle="0" system="source"/>
+				<pos view="macroWgs84" x="0" y="0" angle="0" system="source"/>
+			</textElement>
+		</station>
+		<station stationID="WIKFORD" name="Wickford" xNet="1710936.5" yNet="935190.635" uicLocationCode="0" circleDiameter="0">
+			<textElement type="name">
+				<pos view="net" x="4586.92" y="4586.92" angle="0" system="source"/>
+				<pos view="wgs84" x="4586.92" y="4586.92" angle="0" system="source"/>
+				<pos view="line" x="3577.51" y="3577.51" angle="0" system="source"/>
+				<pos view="macro" x="28.2843" y="28.2843" angle="0" system="source"/>
+				<pos view="macroWgs84" x="0" y="0" angle="0" system="source"/>
+			</textElement>
+		</station>
+		<station stationID="WIKFUSD" name="Wickford Up Siding" xNet="1707057.95" yNet="936362.32" uicLocationCode="0" circleDiameter="0">
+			<textElement type="name">
+				<pos view="net" x="1289.43" y="1289.43" angle="0" system="source"/>
+				<pos view="wgs84" x="1289.43" y="1289.43" angle="0" system="source"/>
+				<pos view="line" x="991.717" y="991.717" angle="0" system="source"/>
+				<pos view="macro" x="28.2843" y="28.2843" angle="0" system="source"/>
+				<pos view="macroWgs84" x="0" y="0" angle="0" system="source"/>
+			</textElement>
+		</station>
+	</stations>
+	<nodes>
+		<speedIndicator nodeID="483" name="SPEED" kilometre="46.349" x="317490" y="-10800" xNet="1706186.5" yNet="937536.42" referenceNode="1291"/>
+		<node nodeID="490" name="GRAD" kilometre="46.215" x="316150" y="-10800" xNet="1704722.8" yNet="938478.99"/>
+		<node nodeID="491" name="GRAD" kilometre="46.215" x="316150" y="-11000" xNet="1704575.9" yNet="938270.69"/>
+		<node nodeID="492" name="GRAD" kilometre="46.615" x="320150" y="-10800" xNet="1709092.4" yNet="935657.78"/>
+		<node nodeID="493" name="GRAD" kilometre="46.615" x="320150" y="-11000" xNet="1708945.4" yNet="935448.22"/>
+		<node nodeID="504" name="OL:549/594" kilometre="46.182" x="315820" y="-10800" xNet="1704364.2" yNet="938712.48"/>
+		<track trackID="U-2" stationID="WIKFORD" interlockingMachine="2 Aspect IECC (Below 75mph)" nodeID="506" name="SIG:594" kilometre="46.530" x="319300" y="-10800" xNet="1708162" yNet="936258.13" referenceNode="549"/>
+		<node nodeID="507" kilometre="46.691" x="320910" y="-10800" xNet="1709922.8" yNet="935121.95" referenceNode="548" sightingDistance="true"/>
+		<switch start="511" endOfMainTrack="1210" endOfBranchTrack="519" nodeID="509" name="POINT:2299A" kilometre="46.262" x="316620" y="-11000" xNet="1705090.3" yNet="937937.61"/>
+		<node nodeID="513" name="POINT:2299B" kilometre="46.312" x="317120" y="-11200" xNet="1705486.7" yNet="937376.17"/>
+		<track trackID="B-4" stationID="WIKFUSD" interlockingMachine="Buffer Stop" nodeID="514" name="BUFFER STOP" kilometre="46.591" x="319910" y="-11200" xNet="1708534.7" yNet="935407.38" referenceNode="655"/>
+		<track trackID="U-1" stationID="WIKFUSD" type="shunting" interlockingMachine="Shunt" nodeID="516" name="SIG:5146" kilometre="46.317" x="317170" y="-11200" xNet="1705543.9" yNet="937342.41" referenceNode="655"/>
+		<switch start="1291" endOfMainTrack="650" endOfBranchTrack="520" nodeID="517" name="POINT:2300A" kilometre="46.354" x="317540" y="-10800" xNet="1706241.4" yNet="937498.71"/>
+		<switch start="522" endOfMainTrack="510" endOfBranchTrack="521" nodeID="518" name="POINT:2300B" kilometre="46.413" x="318130" y="-11000" xNet="1706737.5" yNet="936874.07"/>
+		<speedIndicator nodeID="519" name="SPEED" kilometre="46.263" x="316632.88" y="-11005.154" xNet="1705099" yNet="937924.12" referenceNode="543"/>
+		<speedIndicator nodeID="520" name="SPEED" kilometre="46.355" x="317549.84" y="-10803.333" xNet="1706249.7" yNet="937489.04" referenceNode="517"/>
+		<speedIndicator nodeID="521" name="SPEED" kilometre="46.412" x="318120.16" y="-10996.667" xNet="1706729" yNet="936883.76" referenceNode="518"/>
+		<track trackID="U-3" stationID="WIKFORD" interlockingMachine="4 Aspect IECC (76mph - 100mph)" nodeID="522" name="SIG:592" kilometre="46.479" x="318790" y="-11000" xNet="1707459.7" yNet="936408.64" referenceNode="551">
+			<platform startPos="-2600" endPos="0" width="150" left="true" open="false"/>
+		</track>
+		<node nodeID="523" kilometre="46.729" x="321289.63" y="-11000" xNet="1710190.3" yNet="934645.05" referenceNode="554" sightingDistance="true"/>
+		<node nodeID="524" name="CURVE" kilometre="46.289" x="316890" y="-10800" xNet="1705531.2" yNet="937957.21"/>
+		<track trackID="B-1" stationID="WIKFDSD" interlockingMachine="Buffer Stop" nodeID="525" name="BUFFER STOP" kilometre="46.289" x="316890" y="-10600" xNet="1705678.2" yNet="938168.02" referenceNode="654"/>
+		<track trackID="B-11" stationID="WIKFDSD" interlockingMachine="Buffer Stop" nodeID="526" name="BUFFER STOP" kilometre="46.596" x="319960" y="-10600" xNet="1709031.2" yNet="936002.24" referenceNode="530"/>
+		<switch start="506" endOfMainTrack="1211" endOfBranchTrack="112" nodeID="527" name="POINT:2301B" kilometre="46.526" x="319260" y="-10800" xNet="1708119.7" yNet="936285.07"/>
+		<switch start="529" endOfMainTrack="530" endOfBranchTrack="542" nodeID="528" name="POINT:2301A" kilometre="46.470" x="318700" y="-10600" xNet="1707654.8" yNet="936892.33"/>
+		<track trackID="D-1" stationID="WIKFDSD" interlockingMachine="Buffer Stop" nodeID="529" name="SIG:5157" kilometre="46.464" x="318640" y="-10600" xNet="1707590.7" yNet="936933.32" referenceNode="654"/>
+		<track trackID="U-1" stationID="WIKFDSD" interlockingMachine="Buffer Stop" nodeID="530" name="SIG:5148" kilometre="46.506" x="319060" y="-10600" xNet="1708050.3" yNet="936635.41" referenceNode="526"/>
+		<track trackID="U-1" stationID="WIKFORD" interlockingMachine="Buffer Stop" nodeID="531" name="BUFFER STOP" kilometre="46.672" x="320720" y="-10600" xNet="1709861.7" yNet="935465.13" referenceNode="535"/>
+		<node nodeID="532" name="CURVE" kilometre="46.785" x="321850" y="-10600" xNet="1711098.2" yNet="934669.14"/>
+		<switch start="536" endOfMainTrack="658" endOfBranchTrack="538" nodeID="533" kilometre="46.828" x="322279.97" y="-10800" xNet="1711422" yNet="934155.89"/>
+		<track trackID="D-1" stationID="WIKFORD" interlockingMachine="3 Aspect IECC (Below 75mph)" nodeID="534" name="SIG:557" kilometre="46.789" x="321893" y="-10620" xNet="1711131.5" yNet="934615.21" referenceNode="532"/>
+		<node nodeID="535" kilometre="46.720" x="321200" y="-10600" xNet="1710386.9" yNet="935127.56" referenceNode="531" sightingDistance="true"/>
+		<switch start="541" endOfMainTrack="533" endOfBranchTrack="539" nodeID="536" name="POINT:2305B" kilometre="46.915" x="323149.97" y="-10800" xNet="1712370.1" yNet="933541.29"/>
+		<switch start="1208" endOfMainTrack="660" endOfBranchTrack="540" nodeID="537" name="POINT:2305A" kilometre="46.840" x="322399.97" y="-11000" xNet="1711403.9" yNet="933859.26"/>
+		<speedIndicator nodeID="538" name="SPEED" kilometre="46.827" x="322271.38" y="-10796" xNet="1711414.7" yNet="934165.63" referenceNode="533"/>
+		<speedIndicator nodeID="539" name="SPEED" kilometre="46.915" x="323145.06" y="-10801.312" xNet="1712363.5" yNet="933543.47" referenceNode="1195"/>
+		<speedIndicator nodeID="540" name="SPEED" kilometre="46.841" x="322409.41" y="-10997.485" xNet="1711415.9" yNet="933857.33" referenceNode="537"/>
+		<switch start="536" endOfMainTrack="1234" endOfBranchTrack="569" nodeID="541" name="POINT:2306" kilometre="46.921" x="323209.97" y="-10800" xNet="1712435.8" yNet="933497.82"/>
+		<node nodeID="2" name="CURVE" kilometre="47.000" x="323999.97" y="-10800" xNet="1713299.2" yNet="932939.61"/>
+		<node nodeID="3" name="CURVE" kilometre="46.974" x="323740" y="-10600" xNet="1713161.4" yNet="933333.31"/>
+		<node nodeID="4" name="OL" kilometre="46.978" x="323780" y="-10600" xNet="1713217.4" yNet="933323.48"/>
+		<node nodeID="5" name="OL" kilometre="46.985" x="323849.97" y="-10800" xNet="1713136.3" yNet="933046.44"/>
+		<node nodeID="549" kilometre="46.537" x="319370" y="-10800" xNet="1708240" yNet="936207.7" referenceNode="506" sightingDistance="true"/>
+		<switch start="659" endOfMainTrack="1207" endOfBranchTrack="568" nodeID="550" kilometre="46.783" x="321829.97" y="-11000" xNet="1710778.7" yNet="934262.62"/>
+		<track trackID="B-4" stationID="WIKFORD" interlockingMachine="Buffer Stop" nodeID="552" name="BUFFER STOP" kilometre="46.630" x="320300" y="-11200" xNet="1708962.7" yNet="935133.15" referenceNode="557"/>
+		<node nodeID="553" name="CURVE" kilometre="46.740" x="321400" y="-11200" xNet="1710163.9" yNet="934355.6"/>
+		<node nodeID="554" name="CURVE" kilometre="46.740" x="321399.97" y="-11000" xNet="1710312.2" yNet="934563.98"/>
+		<track trackID="D-2" stationID="WIKFORD" interlockingMachine="4 Aspect IECC (76mph - 100mph)" nodeID="548" name="SIG:559" kilometre="46.787" x="321869.97" y="-10800" xNet="1710971.9" yNet="934445.44" referenceNode="507">
+			<platform startPos="-2600" endPos="0" width="150" left="true" open="false"/>
+		</track>
+		<track trackID="D-3" stationID="WIKFORD" interlockingMachine="4 Aspect IECC (Below 75mph)" nodeID="555" name="SIG:553" kilometre="46.742" x="321419.94" y="-11000" xNet="1710332.6" yNet="934552.35" referenceNode="554"/>
+		<node nodeID="551" kilometre="46.490" x="318900" y="-11000" xNet="1707580" yNet="936331.27" referenceNode="522" sightingDistance="true"/>
+		<track trackID="D-4" stationID="WIKFORD" interlockingMachine="3 Aspect IECC (Below 75mph)" nodeID="556" name="SIG:555" kilometre="46.742" x="321417.19" y="-11192" xNet="1710189" yNet="934354.35" referenceNode="553"/>
+		<node nodeID="557" kilometre="46.672" x="320720" y="-11200" xNet="1709422.2" yNet="934837.76" referenceNode="552" sightingDistance="true"/>
+		<signal type="shunting" interlockingMachine="Shunt" nodeID="1" name="SIG:5150" kilometre="46.990" x="323899.97" y="-10800" xNet="1713191" yNet="933010.03" referenceNode="2"/>
+		<speedIndicator nodeID="568" name="SPEED" kilometre="46.782" x="321821.38" y="-11004" xNet="1710766.7" yNet="934263.3" referenceNode="550"/>
+		<speedIndicator nodeID="569" name="SPEED" kilometre="46.922" x="323218.81" y="-10796.667" xNet="1712446.5" yNet="933495.84" referenceNode="8"/>
+		<node nodeID="6" name="to Southend" kilometre="47.060" x="324600.91" y="-10800" xNet="1713954.3" yNet="932517.57"/>
+		<node nodeID="940" name="GA" kilometre="47.060" x="324597.44" y="-11000" xNet="1713804.7" yNet="932309.16"/>
+		<node nodeID="941" name="GA" kilometre="46.150" x="315500" y="-10800" xNet="1704014.1" yNet="938938.77">
+			<netLimitInfo lineID="ea1050"/>
+		</node>
+		<node nodeID="942" name="GA" kilometre="46.150" x="315500.66" y="-11000" xNet="1703865.8" yNet="938729.16">
+			<netLimitInfo lineID="ea1050"/>
+		</node>
+		<node nodeID="505" name="CURVE" kilometre="46.200" x="316000" y="-10800" xNet="1704557.3" yNet="938585.66"/>
+		<node nodeID="943" name="CURVE" kilometre="46.200" x="315999.13" y="-11000" xNet="1704410.5" yNet="938376.11"/>
+		<node nodeID="650" name="CURVE" kilometre="46.400" x="318000" y="-10800" xNet="1706743.3" yNet="937176.4"/>
+		<node nodeID="654" name="CURVE" kilometre="46.400" x="318000" y="-10600" xNet="1706890.3" yNet="937382.18"/>
+		<node nodeID="510" name="CURVE" kilometre="46.400" x="317996.47" y="-11000" xNet="1706592.4" yNet="936969.16"/>
+		<node nodeID="655" name="CURVE" kilometre="46.400" x="317996.47" y="-11200" xNet="1706444.2" yNet="936758.27"/>
+		<node nodeID="656" name="CURVE" kilometre="46.600" x="320000" y="-10800" xNet="1708928.2" yNet="935763.28"/>
+		<node nodeID="657" name="CURVE" kilometre="46.600" x="320000" y="-11000" xNet="1708781.2" yNet="935554.98"/>
+		<node nodeID="658" name="CURVE" kilometre="46.800" x="321999.97" y="-10800" xNet="1711112.9" yNet="934353.93"/>
+		<node nodeID="659" name="CURVE" kilometre="46.800" x="321997.34" y="-11000" xNet="1710966" yNet="934143.12"/>
+		<node nodeID="660" name="CURVE" kilometre="47.000" x="323998.31" y="-11000" xNet="1713149.4" yNet="932732.45"/>
+		<node nodeID="7" kilometre="46.949" x="323492.66" y="-10693.333" xNet="1712824.6" yNet="933411.19" referenceNode="8" releaseContact="true" arranged="true"/>
+		<node nodeID="8" kilometre="46.948" x="323483.81" y="-10696.666" xNet="1712811.3" yNet="933413.06" referenceNode="7" releaseContact="true" arranged="true"/>
+		<node nodeID="1195" kilometre="46.879" x="322786.66" y="-10896.884" xNet="1711905.1" yNet="933693.62" referenceNode="1197" releaseContact="true" arranged="true"/>
+		<node nodeID="1197" kilometre="46.878" x="322777.22" y="-10899.398" xNet="1711890.3" yNet="933700.45" referenceNode="1195" releaseContact="true" arranged="true"/>
+		<node nodeID="1199" kilometre="46.807" x="322073.59" y="-10704" xNet="1711264.8" yNet="934400.73" referenceNode="534" releaseContact="true" arranged="true"/>
+		<node nodeID="1200" kilometre="46.808" x="322082.19" y="-10708" xNet="1711272" yNet="934388.46" referenceNode="538" releaseContact="true" arranged="true"/>
+		<node nodeID="1201" kilometre="46.762" x="321623.59" y="-11096" xNet="1710485.9" yNet="934307.33" referenceNode="1202" releaseContact="true" arranged="true"/>
+		<node nodeID="1202" kilometre="46.762" x="321615" y="-11100" xNet="1710472.6" yNet="934309.18" referenceNode="1201" releaseContact="true" arranged="true"/>
+		<node nodeID="1203" kilometre="46.384" x="317844.84" y="-10903.333" xNet="1706497.9" yNet="937176.71" referenceNode="1204" releaseContact="true" arranged="true"/>
+		<node nodeID="1204" kilometre="46.381" x="317805.03" y="-10889.841" xNet="1706463.9" yNet="937216.72" referenceNode="1203" releaseContact="true" arranged="true"/>
+		<node nodeID="1205" kilometre="46.287" x="316867.41" y="-11098.969" xNet="1705286.1" yNet="937663.1" referenceNode="1290" releaseContact="true" arranged="true"/>
+		<node nodeID="1206" kilometre="46.288" x="316876.44" y="-11102.577" xNet="1705292" yNet="937652.02" referenceNode="513" releaseContact="true" arranged="true"/>
+		<node nodeID="1207" kilometre="46.744" x="321439.94" y="-11000" xNet="1710355.7" yNet="934539.63" referenceNode="550" releaseContact="true" arranged="true"/>
+		<node nodeID="1208" kilometre="46.838" x="322379.84" y="-11000" xNet="1711381.8" yNet="933874.61" referenceNode="659" releaseContact="true" arranged="true"/>
+		<node nodeID="1209" kilometre="46.789" x="321889.97" y="-10800" xNet="1710995.2" yNet="934430.17" referenceNode="658" releaseContact="true" arranged="true"/>
+		<node nodeID="1210" kilometre="46.354" x="317537.63" y="-11000" xNet="1706091.7" yNet="937291.54" referenceNode="510" releaseContact="true" arranged="true"/>
+		<node nodeID="1211" kilometre="46.436" x="318360" y="-10800" xNet="1707137.3" yNet="936921.95" referenceNode="650" releaseContact="true" arranged="true"/>
+		<node nodeID="545" name="CURVE" kilometre="47.000" x="324000" y="-10600" xNet="1713343.8" yNet="933327.3"/>
+		<speedIndicator nodeID="575" name="SPEED" kilometre="47.038" x="324380" y="-10600" xNet="1713844" yNet="933352.39" referenceNode="579"/>
+		<node nodeID="661" name="CURVE" kilometre="47.200" x="326000.03" y="-10600" xNet="1715975.5" yNet="933517.5"/>
+		<node nodeID="1234" name="TC" kilometre="46.932" x="323319.97" y="-10800" xNet="1712556.3" yNet="933420.26" referenceNode="541" releaseContact="true" arranged="true"/>
+		<speedIndicator nodeID="542" name="SPEED" kilometre="46.523" x="319230.63" y="-10789.51" xNet="1708097.1" yNet="936316.62" referenceNode="81"/>
+		<track trackID="T-4" stationID="WIKFORD" type="timingPoint" nodeID="543" name="T-4" description="Wickford T-4; timingPoint" kilometre="46.273" x="316732.1" y="-11044.843" xNet="1705178" yNet="937813.7" referenceNode="519"/>
+		<stationBorder exitType="regular" stationID="WIKFORD" lineID="ea1050" trackNumber="2" nodeID="511" name="[BILERCY] - [e1050/2]" kilometre="46.260" x="316600" y="-11000" xNet="1705067.1" yNet="937952.84" referenceNode="509"/>
+		<stationBorder exitType="alternative" stationID="WIKFORD" lineID="ea1050" trackNumber="1" nodeID="112" name="[WIKFDSD] - [e1050/1]" kilometre="46.525" x="319248.25" y="-10795.804" xNet="1708110.7" yNet="936297.68" referenceNode="527"/>
+		<stationBorder exitType="locked" stationID="WIKFORD" trackNumber="" nodeID="1286" name="Buffer stop 504" kilometre="46.672" x="320670" y="-10600" xNet="1709807.1" yNet="935500.29" referenceNode="531"/>
+		<stationBorder exitType="locked" stationID="WIKFORD" trackNumber="" nodeID="1287" name="Buffer stop 505" kilometre="46.630" x="320250" y="-11200" xNet="1708908" yNet="935168.32" referenceNode="552"/>
+		<stationBorder exitType="regular" stationID="WIKFORD" lineID="ea1050" trackNumber="1" nodeID="1290" name="[WIKFUSD] - [e1050/1]" kilometre="46.277" x="316772.69" y="-11061.081" xNet="1705210.4" yNet="937768.53" referenceNode="543"/>
+		<stationBorder exitType="alternative" stationID="WIKFORD" lineID="ea1050" trackNumber="1" nodeID="1291" name="[BILERCY] - [e1050/1]" kilometre="46.353" x="317525" y="-10800" xNet="1706224.9" yNet="937510.03" referenceNode="517"/>
+		<stationBorder exitType="locked" stationID="WIKFUSD" trackNumber="" nodeID="1294" name="Buffer stop 506" kilometre="46.591" x="319960" y="-11200" xNet="1708589.2" yNet="935372.09" referenceNode="514"/>
+		<stationBorder exitType="alternative" stationID="WIKFUSD" lineID="ea1050" trackNumber="1" nodeID="1295" name="[WIKFORD] - [e1050/1]" kilometre="46.316" x="317155" y="-11200" xNet="1705526.7" yNet="937352.55" referenceNode="516"/>
+		<stationBorder exitType="regular" stationID="WIKFDSD" lineID="ea1050" trackNumber="1" nodeID="81" name="[WIKFORD] - [e1050/1]" kilometre="46.524" x="319239.44" y="-10792.657" xNet="1708104" yNet="936307.17" referenceNode="542"/>
+		<stationBorder exitType="locked" stationID="WIKFDSD" trackNumber="" nodeID="1296" name="Buffer stop 507" kilometre="46.289" x="316840" y="-10600" xNet="1705623.5" yNet="938203.41" referenceNode="525"/>
+		<stationBorder exitType="locked" stationID="WIKFDSD" trackNumber="" nodeID="1297" name="Buffer stop 508" kilometre="46.596" x="320010" y="-10600" xNet="1709085.8" yNet="935966.98" referenceNode="526"/>
+		<signal type="entry" interlockingMachine="4 Aspect IECC (Below 75mph)" nodeID="714" name="DUMMY ENTRY" kilometre="47.014" x="324140.35" y="-11000" xNet="1713304.8" yNet="932632.1" referenceNode="660"/>
+		<signal type="exit" interlockingMachine="4 Aspect IECC (Below 75mph)" nodeID="64" name="DUMMY EXIT" kilometre="47.014" x="324144.06" y="-10800" xNet="1713456.2" yNet="932838.42" referenceNode="2"/>
+		<stationBorder exitType="regular" stationID="WIKFORD" lineID="ea1050" trackNumber="2" netBorder="true" nodeID="179" kilometre="47.042" x="324422.66" y="-10800" xNet="1713759.9" yNet="932642.76" referenceNode="11"/>
+		<stationBorder exitType="alternative" stationID="WIKFORD" lineID="ea1050" trackNumber="1" netBorder="true" nodeID="715" kilometre="47.043" x="324428.62" y="-11000" xNet="1713620.1" yNet="932428.43" referenceNode="714"/>
+		<stationBorder exitType="regular" stationID="WIKFORD" lineID="ea1060" trackNumber="1" netBorder="true" nodeID="717" kilometre="47.270" x="326700.92" y="-10600" xNet="1716805.9" yNet="933874.04" referenceNode="716"/>
+		<node nodeID="580" name="to Southminster" kilometre="47.337" x="327370.03" y="-10600" xNet="1717598.7" yNet="934214.41">
+			<netLimitInfo lineID="ea1060"/>
+		</node>
+		<node nodeID="10" name="OL SIG:559" description="OL for SIG : SIG:559" kilometre="47.029" x="324290" y="-10600" xNet="1713725.5" yNet="933346.45"/>
+		<node nodeID="11" name="OL SIG:559" description="OL for SIG : SIG:559" kilometre="47.029" x="324293.31" y="-10800" xNet="1713618.9" yNet="932733.6"/>
+		<node nodeID="716" name="DUMMY EXIT" kilometre="47.225" x="326253.5" y="-10600" xNet="1716275.8" yNet="933646.43"/>
+		<signal interlockingMachine="3 Aspect IECC (76mph - 100mph)" nodeID="579" name="SIG:596" kilometre="47.181" x="325810.03" y="-10600" xNet="1715728.3" yNet="933474.78" referenceNode="661"/>
+	</nodes>
+	<links>
+		<link source="1" target="2" length="10" gradient="9.804" vmax="129" vmaxr="97"/>
+		<link source="2" target="64" length="14" gradient="9.804" vmax="129" vmaxr="97"/>
+		<link source="3" target="4" length="4" gradient="10" vmax="48" vmaxr="48" bidirectional="true"/>
+		<link source="4" target="545" length="22" gradient="10" vmax="48" vmaxr="48" bidirectional="true"/>
+		<link source="5" target="1" length="5" gradient="9.804" vmax="129" vmaxr="97"/>
+		<link source="7" target="3" length="25" gradient="10" vmax="48" vmaxr="48" bidirectional="true"/>
+		<link source="8" target="7" length="1" gradient="10" vmax="48" vmaxr="48" bidirectional="true"/>
+		<link source="10" target="575" length="9" gradient="10" vmax="48" vmaxr="48" bidirectional="true"/>
+		<link source="11" target="179" length="13" gradient="9.804" vmax="129" vmaxr="97"/>
+		<link source="64" target="11" length="15" gradient="9.804" vmax="129" vmaxr="97"/>
+		<link source="81" target="112" length="1" gradient="-2.667" vmax="129" vmaxr="97" bidirectional="true"/>
+		<link source="112" target="527" length="1" gradient="-2.667" vmax="129" vmaxr="97" bidirectional="true"/>
+		<link source="179" target="6" length="18" gradient="9.804" vmax="129" vmaxr="97"/>
+		<link source="483" target="1291" length="4" gradient="-2.667" vmax="129" vmaxr="97"/>
+		<link source="490" target="524" length="74" gradient="-2.667" vmax="129" vmaxr="113"/>
+		<link source="491" target="511" length="45" gradient="-2.667" vmax="113" vmaxr="129"/>
+		<link source="492" target="507" length="76" gradient="9.804" vmax="129" vmaxr="97"/>
+		<link source="493" target="523" length="114" gradient="9.804" vmax="113" vmaxr="129"/>
+		<link source="504" target="505" length="18" gradient="-6.757" vmax="129" vmaxr="113"/>
+		<link source="505" target="490" length="15" gradient="-6.757" vmax="129" vmaxr="113"/>
+		<link source="506" target="549" length="7" gradient="-2.667" vmax="129" vmaxr="97"/>
+		<link source="507" target="548" length="96" gradient="9.804" vmax="129" vmaxr="97"/>
+		<link source="509" target="519" length="1" gradient="-2.667" vmax="113" vmaxr="129" bidirectional="true"/>
+		<link source="509" target="1210" length="92" gradient="-2.667" vmax="113" vmaxr="129"/>
+		<link source="510" target="518" length="13" gradient="-2.667" vmax="113" vmaxr="129"/>
+		<link source="511" target="509" length="2" gradient="-2.667" vmax="113" vmaxr="129"/>
+		<link source="513" target="1295" length="4" gradient="-2.667" vmax="24" vmaxr="24" bidirectional="true"/>
+		<link source="514" target="1294" gradient="-2.667" vmax="24" vmaxr="24" bidirectional="true"/>
+		<link source="516" target="655" length="83" gradient="-2.667" vmax="24" vmaxr="24" bidirectional="true"/>
+		<link source="517" target="520" length="1" vmax="129" vmaxr="97"/>
+		<link source="517" target="650" length="46" gradient="-2.667" vmax="129" vmaxr="97"/>
+		<link source="518" target="522" length="66" gradient="-2.667" vmax="113" vmaxr="129"/>
+		<link source="519" target="543" length="11" gradient="-2.667" vmax="24" vmaxr="24" bidirectional="true"/>
+		<link source="520" target="1204" length="29" vmax="40" vmaxr="40"/>
+		<link source="521" target="518" length="1" vmax="113" vmaxr="129"/>
+		<link source="522" target="551" length="11" gradient="-2.667" vmax="113" vmaxr="129"/>
+		<link source="523" target="554" length="11" gradient="9.804" vmax="113" vmaxr="129"/>
+		<link source="524" target="483" length="60" gradient="-2.667" vmax="129" vmaxr="113"/>
+		<link source="525" target="654" length="111" gradient="-2.667" vmax="24" vmaxr="24"/>
+		<link source="526" target="1297" gradient="-2.667" vmax="24" vmaxr="24"/>
+		<link source="527" target="506" length="4" gradient="-2.667" vmax="129" vmaxr="97"/>
+		<link source="528" target="530" length="36" gradient="-2.667" vmax="24" vmaxr="24"/>
+		<link source="528" target="542" length="57" gradient="-2.667" vmax="24" vmaxr="24" bidirectional="true"/>
+		<link source="529" target="528" length="6" gradient="-2.667" vmax="24" vmaxr="24"/>
+		<link source="530" target="526" length="90" gradient="-2.667" vmax="24" vmaxr="24"/>
+		<link source="531" target="535" length="48" gradient="9.804" vmax="24" vmaxr="24"/>
+		<link source="532" target="534" length="5" gradient="9.804" vmax="24" vmaxr="24"/>
+		<link source="533" target="536" length="87" gradient="9.804" vmax="129" vmaxr="97"/>
+		<link source="534" target="1199" length="21" gradient="9.804" vmax="24" vmaxr="24"/>
+		<link source="535" target="532" length="65" gradient="9.804" vmax="24" vmaxr="24"/>
+		<link source="536" target="541" length="6" gradient="9.804" vmax="129" vmaxr="97"/>
+		<link source="537" target="540" length="1" gradient="9.804" vmax="113" vmaxr="129"/>
+		<link source="537" target="660" length="160" gradient="9.804" vmax="113" vmaxr="129"/>
+		<link source="538" target="533" length="1" gradient="9.804" vmax="129" vmaxr="97"/>
+		<link source="539" target="536" length="1" gradient="9.804" vmax="129" vmaxr="97"/>
+		<link source="540" target="1197" length="39" gradient="9.804" vmax="48" vmaxr="48"/>
+		<link source="541" target="569" length="1" gradient="9.804" vmax="129" vmaxr="97" bidirectional="true"/>
+		<link source="541" target="1234" length="11" gradient="9.804" vmax="129" vmaxr="97"/>
+		<link source="542" target="81" length="1" gradient="-2.667" vmax="129" vmaxr="97" bidirectional="true"/>
+		<link source="543" target="1290" length="5" gradient="-2.667" vmax="24" vmaxr="24" bidirectional="true"/>
+		<link source="545" target="10" length="29" gradient="10" vmax="48" vmaxr="48" bidirectional="true"/>
+		<link source="548" target="1209" length="2" gradient="9.804" vmax="129" vmaxr="97"/>
+		<link source="549" target="656" length="63" gradient="-2.667" vmax="129" vmaxr="97"/>
+		<link source="550" target="659" length="17" gradient="9.804" vmax="113" vmaxr="129"/>
+		<link source="551" target="657" length="110" gradient="-2.667" vmax="113" vmaxr="129"/>
+		<link source="552" target="557" length="42" gradient="9.804" vmax="24" vmaxr="24"/>
+		<link source="553" target="556" length="2" gradient="9.804" vmax="24" vmaxr="24"/>
+		<link source="554" target="555" length="2" gradient="9.804" vmax="113" vmaxr="129"/>
+		<link source="555" target="1207" length="2" gradient="9.804" vmax="113" vmaxr="129"/>
+		<link source="556" target="1202" length="23" gradient="9.804" vmax="24" vmaxr="24"/>
+		<link source="557" target="553" length="68" gradient="9.804" vmax="24" vmaxr="24"/>
+		<link source="568" target="550" length="1" gradient="9.804" vmax="113" vmaxr="129"/>
+		<link source="569" target="8" length="26" gradient="10" vmax="48" vmaxr="48" bidirectional="true"/>
+		<link source="575" target="579" length="143" gradient="10" vmax="80" vmaxr="80" bidirectional="true"/>
+		<link source="579" target="661" length="19" gradient="10" vmax="80" vmaxr="80" bidirectional="true"/>
+		<link source="650" target="1211" length="36" gradient="-2.667" vmax="129" vmaxr="97"/>
+		<link source="654" target="529" length="64" gradient="-2.667" vmax="24" vmaxr="24"/>
+		<link source="655" target="514" length="191" gradient="-2.667" vmax="24" vmaxr="24" bidirectional="true"/>
+		<link source="656" target="492" length="15" gradient="-2.667" vmax="129" vmaxr="97"/>
+		<link source="657" target="493" length="15" gradient="-2.667" vmax="113" vmaxr="129"/>
+		<link source="658" target="533" length="28" gradient="9.804" vmax="129" vmaxr="97"/>
+		<link source="659" target="1208" length="38" gradient="9.804" vmax="113" vmaxr="129"/>
+		<link source="660" target="714" length="14" gradient="9.804" vmax="113" vmaxr="129"/>
+		<link source="661" target="716" length="25" gradient="10" vmax="80" vmaxr="80" bidirectional="true"/>
+		<link source="714" target="715" length="29" gradient="9.804" vmax="113" vmaxr="129"/>
+		<link source="715" target="940" length="17" gradient="9.804" vmax="113" vmaxr="129"/>
+		<link source="716" target="717" length="45" gradient="10" vmax="80" vmaxr="80" bidirectional="true"/>
+		<link source="717" target="580" length="67" gradient="10" vmax="80" vmaxr="80" bidirectional="true"/>
+		<link source="941" target="504" length="32" gradient="-6.757" vmax="129" vmaxr="113"/>
+		<link source="942" target="943" length="50" gradient="-6.757" vmax="113" vmaxr="129"/>
+		<link source="943" target="491" length="15" gradient="-6.757" vmax="113" vmaxr="129"/>
+		<link source="1195" target="539" length="38" gradient="9.804" vmax="48" vmaxr="48"/>
+		<link source="1197" target="1195" length="1" gradient="9.804" vmax="48" vmaxr="48"/>
+		<link source="1199" target="1200" length="1" gradient="9.804" vmax="24" vmaxr="24"/>
+		<link source="1200" target="538" length="22" gradient="9.804" vmax="24" vmaxr="24"/>
+		<link source="1201" target="568" length="23" gradient="9.804" vmax="24" vmaxr="24"/>
+		<link source="1202" target="1201" length="1" gradient="9.804" vmax="24" vmaxr="24"/>
+		<link source="1203" target="521" length="28" vmax="40" vmaxr="40"/>
+		<link source="1204" target="1203" length="1" vmax="40" vmaxr="40"/>
+		<link source="1205" target="1206" length="1" gradient="-2.667" vmax="24" vmaxr="24" bidirectional="true"/>
+		<link source="1206" target="513" length="27" gradient="-2.667" vmax="24" vmaxr="24" bidirectional="true"/>
+		<link source="1207" target="550" length="39" gradient="9.804" vmax="113" vmaxr="129"/>
+		<link source="1208" target="537" length="2" gradient="9.804" vmax="113" vmaxr="129"/>
+		<link source="1209" target="658" length="11" gradient="9.804" vmax="129" vmaxr="97"/>
+		<link source="1210" target="510" length="46" gradient="-2.667" vmax="113" vmaxr="129"/>
+		<link source="1211" target="527" length="90" gradient="-2.667" vmax="129" vmaxr="97"/>
+		<link source="1234" target="5" length="53" gradient="9.804" vmax="129" vmaxr="97"/>
+		<link source="1286" target="531" gradient="9.804" vmax="24" vmaxr="24"/>
+		<link source="1287" target="552" gradient="9.804" vmax="24" vmaxr="24"/>
+		<link source="1290" target="1205" length="10" gradient="-2.667" vmax="24" vmaxr="24" bidirectional="true"/>
+		<link source="1291" target="517" length="1" gradient="-2.667" vmax="129" vmaxr="97"/>
+		<link source="1295" target="516" length="1" gradient="-2.667" vmax="24" vmaxr="24" bidirectional="true"/>
+		<link source="1296" target="525" gradient="-2.667" vmax="24" vmaxr="24"/>
+	</links>
+	<dependentLinks/>
+	<blockSections>
+		<blocksection uuid="{06879f2e-44a6-430d-a01c-9b6d11261f91}" lines="ea1060 wickf" speedIndicators="575">
+			<part nodes="548 1209 658 533 536 541 569 8 7 3 4 545 10 575 579 661 716 717 580"/>
+		</blocksection>
+		<blocksection uuid="{0f591085-df02-473d-a855-0bb3490bca19}" lines="wickf">
+			<part nodes="548 507 492 656 549 506"/>
+		</blocksection>
+		<blocksection uuid="{0fd03aba-2528-44a4-af40-f9d2c518dd1b}" lines="wickf" shuntingBlock="true">
+			<part nodes="64 2 1"/>
+		</blocksection>
+		<blocksection uuid="{11d891a9-9d35-4336-84b6-b5e36b7f9928}" lines="wickf">
+			<part nodes="525 654 529"/>
+		</blocksection>
+		<blocksection uuid="{130fead3-08aa-4c90-b2c2-6e87984e0ee6}" lines="wickf">
+			<part nodes="531 535 532 534"/>
+		</blocksection>
+		<blocksection uuid="{174468ef-fbab-4cb3-8381-858fdb70cc44}" lines="wickf">
+			<part nodes="522 551 657 493 523 554 555"/>
+		</blocksection>
+		<blocksection uuid="{192f523c-b9b9-412a-b649-f2d0499927ba}" lines="ea1050 wickf" shuntingBlock="true" speedIndicators="519">
+			<part nodes="516 1295 513 1206 1205 1290 543 519 509 511 491 943 942"/>
+		</blocksection>
+		<blocksection uuid="{27d4f167-767b-4034-810c-fdaf2c67f860}" lines="wickf" speedIndicators="569 575">
+			<part nodes="579 575 10 545 4 3 7 8 569 541 536 533 658 1209 548 507 492 656 549 506"/>
+		</blocksection>
+		<blocksection uuid="{382c62f4-f103-40c9-999d-f9424169eaf6}" lines="wickf" speedIndicators="539 540 568">
+			<part nodes="556 1202 1201 568 550 659 1208 537 540 1197 1195 539 536 541 1234 5 1 2 64"/>
+		</blocksection>
+		<blocksection uuid="{3c93000b-2edf-4c40-a4c6-03165f687b08}" lines="wickf">
+			<part nodes="529 528 530 526"/>
+		</blocksection>
+		<blocksection uuid="{40ab9cf6-d7e8-495e-a0ac-6960f6c4b33c}" lines="wickf" speedIndicators="542">
+			<part nodes="506 527 112 81 542 528 529 654 525"/>
+		</blocksection>
+		<blocksection uuid="{49b0b933-f54d-4f33-9a4d-3190c1908788}" lines="ea1060 wickf" speedIndicators="575">
+			<part nodes="534 1199 1200 538 533 536 541 569 8 7 3 4 545 10 575 579 661 716 717 580"/>
+		</blocksection>
+		<blocksection uuid="{4ec12ff4-d9c7-4350-898e-b2763ee4b1db}" lines="wickf" speedIndicators="539 540">
+			<part nodes="555 1207 550 659 1208 537 540 1197 1195 539 536 541 1234 5 1 2 64"/>
+		</blocksection>
+		<blocksection uuid="{505ccb7c-35a8-44ed-9a4f-553ac6fbe12b}" lines="ea1050 wickf">
+			<part nodes="522 518 510 1210 509 511 491 943 942"/>
+		</blocksection>
+		<blocksection uuid="{524db722-e026-41d6-bcdb-a12afcc7d63e}" lines="ea1050 wickf" speedIndicators="483">
+			<part nodes="941 504 505 490 524 483 1291 517 650 1211 527 506 549 656 492 507 548"/>
+		</blocksection>
+		<blocksection uuid="{53b8c8d2-f1e3-4a24-a479-f9acfbc786aa}" lines="wickf" speedIndicators="538 569 575">
+			<part nodes="579 575 10 545 4 3 7 8 569 541 536 533 538 1200 1199 534 532 535 531"/>
+		</blocksection>
+		<blocksection uuid="{5ae3a05f-bba5-494f-8632-87452b77e221}" lines="wickf">
+			<part nodes="714 660 537 1208 659 550 1207 555 554 523 493 657 551 522"/>
+		</blocksection>
+		<blocksection uuid="{5c7f361c-95eb-4ef1-9056-d2d0e60a4c19}" lines="ea1050 wickf" speedIndicators="519">
+			<part nodes="942 943 491 511 509 519 543 1290 1205 1206 513 1295 516 655 514"/>
+		</blocksection>
+		<blocksection uuid="{5e79b337-a10d-444c-8a19-2fd82e6962ac}" lines="wickf">
+			<part nodes="530 528 529 654 525"/>
+		</blocksection>
+		<blocksection uuid="{7e9d74bd-28c6-42f4-a38f-b2862629d40b}" lines="wickf">
+			<part nodes="506 549 656 492 507 548"/>
+		</blocksection>
+		<blocksection uuid="{813bab11-db26-43bb-9a03-a1a2fa68479e}" lines="wickf" speedIndicators="538">
+			<part nodes="534 1199 1200 538 533 536 541 1234 5 1 2 64"/>
+		</blocksection>
+		<blocksection uuid="{927eca18-4327-4ef9-ad5d-af553afc15ab}" lines="wickf">
+			<part nodes="548 1209 658 533 536 541 1234 5 1 2 64"/>
+		</blocksection>
+		<blocksection uuid="{99b3a51f-c545-440a-9636-7225bccefb39}" lines="ea1060 wickf">
+			<part nodes="580 717 716 661 579"/>
+		</blocksection>
+		<blocksection uuid="{9ac51d74-4658-4eb6-bb4a-42212030e1b9}" lines="ea1050 wickf" speedIndicators="483">
+			<part nodes="506 527 1211 650 517 1291 483 524 490 505 504 941"/>
+		</blocksection>
+		<blocksection uuid="{9c0acb6b-acdf-4905-b6b0-a62aa561c30e}" lines="wickf" shuntingBlock="true" speedIndicators="539 540 568">
+			<part nodes="1 5 1234 541 536 539 1195 1197 540 537 1208 659 550 568 1201 1202 556 553 557 552"/>
+		</blocksection>
+		<blocksection uuid="{a0f93c7e-b8f6-4195-91e9-bf2677ba1a4c}" lines="ea1060 wickf">
+			<part nodes="580 717 716 661 579"/>
+		</blocksection>
+		<blocksection uuid="{b5d8cb90-df7a-4512-8e7e-49d07a13141a}" lines="ea1050 wickf">
+			<part nodes="942 943 491 511 509 1210 510 518 522 551 657 493 523 554 555"/>
+		</blocksection>
+		<blocksection uuid="{bb39f138-37eb-459c-a12d-ac3c1fcd1242}" lines="wickf" speedIndicators="542">
+			<part nodes="529 528 542 81 112 527 506 549 656 492 507 548"/>
+		</blocksection>
+		<blocksection uuid="{bc2fab0e-f91d-4e95-a2c2-172a447d7a81}" lines="wickf" shuntingBlock="true">
+			<part nodes="514 655 516"/>
+		</blocksection>
+		<blocksection uuid="{c79577b4-bd60-4474-9333-cb1f045776ab}" lines="wickf">
+			<part nodes="555 554 523 493 657 551 522"/>
+		</blocksection>
+		<blocksection uuid="{cd73d3e3-0dd0-4cfa-8934-d5a278bbeb40}" lines="wickf">
+			<part nodes="526 530"/>
+		</blocksection>
+		<blocksection uuid="{cf913714-9ccf-4c54-a897-3dd71b04d8e9}" lines="wickf" speedIndicators="539 540 568 569 575">
+			<part nodes="579 575 10 545 4 3 7 8 569 541 536 539 1195 1197 540 537 1208 659 550 568 1201 1202 556 553 557 552"/>
+		</blocksection>
+		<blocksection uuid="{d92c41b2-0eb6-4abf-b188-51ea3236626e}" lines="wickf" speedIndicators="539 540 569 575">
+			<part nodes="579 575 10 545 4 3 7 8 569 541 536 539 1195 1197 540 537 1208 659 550 1207 555 554 523 493 657 551 522"/>
+		</blocksection>
+		<blocksection uuid="{d9873d3f-1b18-4e9f-a95f-e66a066c2bd6}" lines="wickf">
+			<part nodes="552 557 553 556"/>
+		</blocksection>
+		<blocksection uuid="{dc82a93b-4bcc-4615-a7ad-c31b2453b669}" lines="ea1060 wickf" speedIndicators="575">
+			<part nodes="555 1207 550 659 1208 537 540 1197 1195 539 536 541 569 8 7 3 4 545 10 575 579 661 716 717 580"/>
+		</blocksection>
+		<blocksection uuid="{eae5cd00-fdfc-485a-a92e-1b3d8c116ae4}" lines="ea1060 wickf" speedIndicators="575">
+			<part nodes="556 1202 1201 568 550 659 1208 537 540 1197 1195 539 536 541 569 8 7 3 4 545 10 575 579 661 716 717 580"/>
+		</blocksection>
+		<blocksection uuid="{ee55c01b-2e39-49ef-83d5-2b0b6900200f}" lines="wickf" shuntingBlock="true" speedIndicators="538">
+			<part nodes="1 5 1234 541 536 533 538 1200 1199 534 532 535 531"/>
+		</blocksection>
+		<blocksection uuid="{fc3acfdd-e907-40f3-8e7e-b71c841bb86f}" lines="ea1050 wickf" speedIndicators="483 520 521">
+			<part nodes="941 504 505 490 524 483 1291 517 520 1204 1203 521 518 522 551 657 493 523 554 555"/>
+		</blocksection>
+		<blocksection uuid="{fd31e4a4-6858-48c2-a1cd-fb39cf5516a0}" lines="wickf" speedIndicators="568">
+			<part nodes="714 660 537 1208 659 550 568 1201 1202 556 553 557 552"/>
+		</blocksection>
+	</blockSections>
+	<slipDistances>
+		<slipdistance uuid="{1ae22e05-5535-4ed1-9572-83d3a58a3a94}" publicName="Up Line" vmax="999" lines="wickf" serialNumber="0">
+			<part nodes="522 518 510 1210 509"/>
+		</slipdistance>
+		<slipdistance uuid="{35b1dadd-e247-4615-bd9a-e7cf43cbb97b}" publicName="Main" vmax="999" lines="wickf" serialNumber="0">
+			<part nodes="548 1209 658 533 536 541 1234 5 1 2 64 11"/>
+		</slipdistance>
+		<slipdistance uuid="{6ef84f60-d6e4-4893-a330-8f0708310a80}" publicName="Branch" vmax="999" lines="wickf" serialNumber="1">
+			<part nodes="548 1209 658 533 536 541 569 8 7 3 4 545 10"/>
+		</slipdistance>
+		<slipdistance uuid="{810627d1-83db-4b22-a1a2-e51c9480ff3e}" vmax="999" lines="ea1050 wickf" serialNumber="0">
+			<part nodes="941 504"/>
+		</slipdistance>
+		<slipdistance uuid="{9c18511a-661e-4efe-9116-6c623ebe05bb}" publicName="Down Line" vmax="999" lines="wickf" serialNumber="1">
+			<part nodes="522 518 521 1203 1204 520 517 1291 483 524 490 505 504"/>
+		</slipdistance>
+		<slipdistance uuid="{c3f1ad34-395b-4522-b683-d3edf61f0ae8}" vmax="999" lines="ea1050 wickf" serialNumber="0">
+			<part nodes="942 943 491 511 509"/>
+		</slipdistance>
+	</slipDistances>
+	<approachControlRoutes/>
+	<stationRoutes>
+		<stationRoute stationID="WIKFDSD" name="[WIKFORD]-[ea1050/1]-[1-11]-[]-[?/] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=95;NRz=95;S=95;Rz=95;FGz=95;NGz=95;Gz=95;Lz=95;Unbekannt=95" nodes="81 542 528 529 654 525 654 529 528 530 526 1297"/>
+		<stationRoute stationID="WIKFDSD" name="[WIKFORD]-[ea1050/1]-[1]-[WIKFORD]-[ea1050/1] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=90;NRz=90;S=90;Rz=90;FGz=90;NGz=90;Gz=90;Lz=90;Unbekannt=90" nodes="81 542 528 529 654 525 654 529 528 542 81"/>
+		<stationRoute stationID="WIKFDSD" name="[WIKFORD]-[ea1050/1]-[1]-[]-[?/] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=95;NRz=95;S=95;Rz=95;FGz=95;NGz=95;Gz=95;Lz=95;Unbekannt=95" nodes="81 542 528 529 654 525 1296"/>
+		<stationRoute stationID="WIKFDSD" name="[]-[?/]-[1]-[WIKFORD]-[ea1050/1] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=95;NRz=95;S=95;Rz=95;FGz=95;NGz=95;Gz=95;Lz=95;Unbekannt=95" nodes="1296 525 654 529 528 542 81"/>
+		<stationRoute stationID="WIKFDSD" name="[]-[?/]-[1]-[WIKFORD]-[ea1050/1] (3)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=95;NRz=95;S=95;Rz=95;FGz=95;NGz=95;Gz=95;Lz=95;Unbekannt=95" nodes="1297 526 530 528 529 654 525 654 529 528 542 81"/>
+		<stationRoute stationID="WIKFORD" name="[BILERCY]-[ea1050/1]-[2]-[BILERCY]-[ea1050/1] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="1291 517 650 1211 527 506 549 656 492 507 548 507 492 656 549 506 527 1211 650 517 1291"/>
+		<stationRoute stationID="WIKFORD" name="[BILERCY]-[ea1050/1]-[2]-[WIKFDSD]-[ea1050/1] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=95;NRz=95;S=95;Rz=95;FGz=95;NGz=95;Gz=95;Lz=95;Unbekannt=95" nodes="1291 517 650 1211 527 506 549 656 492 507 548 507 492 656 549 506 527 112"/>
+		<stationRoute stationID="WIKFORD" name="[BILERCY]-[ea1050/1]-[2]-[]-[ea1050/1] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=95;NRz=95;S=95;Rz=95;FGz=95;NGz=95;Gz=95;Lz=95;Unbekannt=95" nodes="1291 517 650 1211 527 506 549 656 492 507 548 1209 658 533 536 541 569 8 7 3 4 545 10 575 579 661 716 717"/>
+		<stationRoute stationID="WIKFORD" name="[BILERCY]-[ea1050/1]-[2]-[]-[ea1050/2] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="1291 517 650 1211 527 506 549 656 492 507 548 1209 658 533 536 541 1234 5 1 2 64 11 179"/>
+		<stationRoute stationID="WIKFORD" name="[BILERCY]-[ea1050/1]-[3]-[BILERCY]-[ea1050/2] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=90;NRz=90;S=90;Rz=90;FGz=90;NGz=90;Gz=90;Lz=90;Unbekannt=90" nodes="1291 517 520 1204 1203 521 518 522 551 657 493 523 554 555 554 523 493 657 551 522 518 510 1210 509 511"/>
+		<stationRoute stationID="WIKFORD" name="[BILERCY]-[ea1050/1]-[3]-[]-[ea1050/1] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=75;NRz=75;S=75;Rz=75;FGz=75;NGz=75;Gz=75;Lz=75;Unbekannt=75" nodes="1291 517 520 1204 1203 521 518 522 551 657 493 523 554 555 1207 550 659 1208 537 540 1197 1195 539 536 541 569 8 7 3 4 545 10 575 579 661 716 717"/>
+		<stationRoute stationID="WIKFORD" name="[BILERCY]-[ea1050/1]-[3]-[]-[ea1050/2] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=80;NRz=80;S=80;Rz=80;FGz=80;NGz=80;Gz=80;Lz=80;Unbekannt=80" nodes="1291 517 520 1204 1203 521 518 522 551 657 493 523 554 555 1207 550 659 1208 537 540 1197 1195 539 536 541 1234 5 1 2 64 11 179"/>
+		<stationRoute stationID="WIKFORD" name="[BILERCY]-[ea1050/2]-[3]-[BILERCY]-[ea1050/2] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="511 509 1210 510 518 522 551 657 493 523 554 555 554 523 493 657 551 522 518 510 1210 509 511"/>
+		<stationRoute stationID="WIKFORD" name="[BILERCY]-[ea1050/2]-[3]-[]-[ea1050/1] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=85;NRz=85;S=85;Rz=85;FGz=85;NGz=85;Gz=85;Lz=85;Unbekannt=85" nodes="511 509 1210 510 518 522 551 657 493 523 554 555 1207 550 659 1208 537 540 1197 1195 539 536 541 569 8 7 3 4 545 10 575 579 661 716 717"/>
+		<stationRoute stationID="WIKFORD" name="[BILERCY]-[ea1050/2]-[3]-[]-[ea1050/2] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=90;NRz=90;S=90;Rz=90;FGz=90;NGz=90;Gz=90;Lz=90;Unbekannt=90" nodes="511 509 1210 510 518 522 551 657 493 523 554 555 1207 550 659 1208 537 540 1197 1195 539 536 541 1234 5 1 2 64 11 179"/>
+		<stationRoute stationID="WIKFORD" name="[BILERCY]-[ea1050/2]-[4]-[WIKFUSD]-[ea1050/1] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=95;NRz=95;S=95;Rz=95;FGz=95;NGz=95;Gz=95;Lz=95;Unbekannt=95" nodes="511 509 519 543 1290"/>
+		<stationRoute stationID="WIKFORD" name="[BTLSBDG]-[ea1060/1]-[1]-[BTLSBDG]-[ea1060/1] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=80;NRz=80;S=80;Rz=80;FGz=80;NGz=80;Gz=80;Lz=80;Unbekannt=80" nodes="717 716 661 579 575 10 545 4 3 7 8 569 541 536 533 538 1200 1199 534 532 535 531 535 532 534 1199 1200 538 533 536 541 569 8 7 3 4 545 10 575 579 661 716 717"/>
+		<stationRoute stationID="WIKFORD" name="[BTLSBDG]-[ea1060/1]-[1]-[]-[?/] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=90;NRz=90;S=90;Rz=90;FGz=90;NGz=90;Gz=90;Lz=90;Unbekannt=90" nodes="717 716 661 579 575 10 545 4 3 7 8 569 541 536 533 538 1200 1199 534 532 535 531 1286"/>
+		<stationRoute stationID="WIKFORD" name="[BTLSBDG]-[ea1060/1]-[1]-[]-[ea1050/2] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=85;NRz=85;S=85;Rz=85;FGz=85;NGz=85;Gz=85;Lz=85;Unbekannt=85" nodes="717 716 661 579 575 10 545 4 3 7 8 569 541 536 533 538 1200 1199 534 532 535 531 535 532 534 1199 1200 538 533 536 541 1234 5 1 2 64 11 179"/>
+		<stationRoute stationID="WIKFORD" name="[BTLSBDG]-[ea1060/1]-[2]-[BTLSBDG]-[ea1060/1] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=90;NRz=90;S=90;Rz=90;FGz=90;NGz=90;Gz=90;Lz=90;Unbekannt=90" nodes="717 716 661 579 575 10 545 4 3 7 8 569 541 536 533 658 1209 548 507 492 656 549 506 549 656 492 507 548 1209 658 533 536 541 569 8 7 3 4 545 10 575 579 661 716 717"/>
+		<stationRoute stationID="WIKFORD" name="[BTLSBDG]-[ea1060/1]-[2]-[]-[ea1050/2] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=95;NRz=95;S=95;Rz=95;FGz=95;NGz=95;Gz=95;Lz=95;Unbekannt=95" nodes="717 716 661 579 575 10 545 4 3 7 8 569 541 536 533 658 1209 548 507 492 656 549 506 549 656 492 507 548 1209 658 533 536 541 1234 5 1 2 64 11 179"/>
+		<stationRoute stationID="WIKFORD" name="[BTLSBDG]-[ea1060/1]-[3]-[BTLSBDG]-[ea1060/1] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=70;NRz=70;S=70;Rz=70;FGz=70;NGz=70;Gz=70;Lz=70;Unbekannt=70" nodes="717 716 661 579 575 10 545 4 3 7 8 569 541 536 539 1195 1197 540 537 1208 659 550 1207 555 554 523 493 657 551 522 551 657 493 523 554 555 1207 550 659 1208 537 540 1197 1195 539 536 541 569 8 7 3 4 545 10 575 579 661 716 717"/>
+		<stationRoute stationID="WIKFORD" name="[BTLSBDG]-[ea1060/1]-[3]-[]-[ea1050/2] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=75;NRz=75;S=75;Rz=75;FGz=75;NGz=75;Gz=75;Lz=75;Unbekannt=75" nodes="717 716 661 579 575 10 545 4 3 7 8 569 541 536 539 1195 1197 540 537 1208 659 550 1207 555 554 523 493 657 551 522 551 657 493 523 554 555 1207 550 659 1208 537 540 1197 1195 539 536 541 1234 5 1 2 64 11 179"/>
+		<stationRoute stationID="WIKFORD" name="[BTLSBDG]-[ea1060/1]-[4]-[BTLSBDG]-[ea1060/1] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=60;NRz=60;S=60;Rz=60;FGz=60;NGz=60;Gz=60;Lz=60;Unbekannt=60" nodes="717 716 661 579 575 10 545 4 3 7 8 569 541 536 539 1195 1197 540 537 1208 659 550 568 1201 1202 556 553 557 552 557 553 556 1202 1201 568 550 659 1208 537 540 1197 1195 539 536 541 569 8 7 3 4 545 10 575 579 661 716 717"/>
+		<stationRoute stationID="WIKFORD" name="[BTLSBDG]-[ea1060/1]-[4]-[]-[?/] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=80;NRz=80;S=80;Rz=80;FGz=80;NGz=80;Gz=80;Lz=80;Unbekannt=80" nodes="717 716 661 579 575 10 545 4 3 7 8 569 541 536 539 1195 1197 540 537 1208 659 550 568 1201 1202 556 553 557 552 1287"/>
+		<stationRoute stationID="WIKFORD" name="[BTLSBDG]-[ea1060/1]-[4]-[]-[ea1050/2] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=65;NRz=65;S=65;Rz=65;FGz=65;NGz=65;Gz=65;Lz=65;Unbekannt=65" nodes="717 716 661 579 575 10 545 4 3 7 8 569 541 536 539 1195 1197 540 537 1208 659 550 568 1201 1202 556 553 557 552 557 553 556 1202 1201 568 550 659 1208 537 540 1197 1195 539 536 541 1234 5 1 2 64 11 179"/>
+		<stationRoute stationID="WIKFORD" name="[WIKFDSD]-[ea1050/1]-[2]-[BILERCY]-[ea1050/1] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=95;NRz=95;S=95;Rz=95;FGz=95;NGz=95;Gz=95;Lz=95;Unbekannt=95" nodes="112 527 506 549 656 492 507 548 507 492 656 549 506 527 1211 650 517 1291"/>
+		<stationRoute stationID="WIKFORD" name="[WIKFDSD]-[ea1050/1]-[2]-[WIKFDSD]-[ea1050/1] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=90;NRz=90;S=90;Rz=90;FGz=90;NGz=90;Gz=90;Lz=90;Unbekannt=90" nodes="112 527 506 549 656 492 507 548 507 492 656 549 506 527 112"/>
+		<stationRoute stationID="WIKFORD" name="[WIKFDSD]-[ea1050/1]-[2]-[]-[ea1050/1] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=90;NRz=90;S=90;Rz=90;FGz=90;NGz=90;Gz=90;Lz=90;Unbekannt=90" nodes="112 527 506 549 656 492 507 548 1209 658 533 536 541 569 8 7 3 4 545 10 575 579 661 716 717"/>
+		<stationRoute stationID="WIKFORD" name="[WIKFDSD]-[ea1050/1]-[2]-[]-[ea1050/2] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=95;NRz=95;S=95;Rz=95;FGz=95;NGz=95;Gz=95;Lz=95;Unbekannt=95" nodes="112 527 506 549 656 492 507 548 1209 658 533 536 541 1234 5 1 2 64 11 179"/>
+		<stationRoute stationID="WIKFORD" name="[WIKFUSD]-[ea1050/1]-[4]-[BILERCY]-[ea1050/2] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=95;NRz=95;S=95;Rz=95;FGz=95;NGz=95;Gz=95;Lz=95;Unbekannt=95" nodes="1290 543 519 509 511"/>
+		<stationRoute stationID="WIKFORD" name="[]-[?/]-[1]-[BTLSBDG]-[ea1060/1] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=90;NRz=90;S=90;Rz=90;FGz=90;NGz=90;Gz=90;Lz=90;Unbekannt=90" nodes="1286 531 535 532 534 1199 1200 538 533 536 541 569 8 7 3 4 545 10 575 579 661 716 717"/>
+		<stationRoute stationID="WIKFORD" name="[]-[?/]-[4]-[BTLSBDG]-[ea1060/1] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=80;NRz=80;S=80;Rz=80;FGz=80;NGz=80;Gz=80;Lz=80;Unbekannt=80" nodes="1287 552 557 553 556 1202 1201 568 550 659 1208 537 540 1197 1195 539 536 541 569 8 7 3 4 545 10 575 579 661 716 717"/>
+		<stationRoute stationID="WIKFORD" name="[]-[ea1050/1]-[2-596]-[BILERCY]-[ea1050/1] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=95;NRz=95;S=95;Rz=95;FGz=95;NGz=95;Gz=95;Lz=95;Unbekannt=95" nodes="717 716 661 579 575 10 545 4 3 7 8 569 541 536 533 658 1209 548 507 492 656 549 506 527 1211 650 517 1291"/>
+		<stationRoute stationID="WIKFORD" name="[]-[ea1050/1]-[2-596]-[WIKFDSD]-[ea1050/1] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=90;NRz=90;S=90;Rz=90;FGz=90;NGz=90;Gz=90;Lz=90;Unbekannt=90" nodes="717 716 661 579 575 10 545 4 3 7 8 569 541 536 533 658 1209 548 507 492 656 549 506 527 112"/>
+		<stationRoute stationID="WIKFORD" name="[]-[ea1050/1]-[3-596]-[BILERCY]-[ea1050/2] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=85;NRz=85;S=85;Rz=85;FGz=85;NGz=85;Gz=85;Lz=85;Unbekannt=85" nodes="717 716 661 579 575 10 545 4 3 7 8 569 541 536 539 1195 1197 540 537 1208 659 550 1207 555 554 523 493 657 551 522 518 510 1210 509 511"/>
+		<stationRoute stationID="WIKFORD" name="[]-[ea1050/1]-[3]-[BILERCY]-[ea1050/2] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="715 714 660 537 1208 659 550 1207 555 554 523 493 657 551 522 518 510 1210 509 511"/>
+		<stationRoute stationID="WIKFORD" name="[]-[ea1050/1]-[3]-[BTLSBDG]-[ea1060/1] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=85;NRz=85;S=85;Rz=85;FGz=85;NGz=85;Gz=85;Lz=85;Unbekannt=85" nodes="715 714 660 537 1208 659 550 1207 555 554 523 493 657 551 522 551 657 493 523 554 555 1207 550 659 1208 537 540 1197 1195 539 536 541 569 8 7 3 4 545 10 575 579 661 716 717"/>
+		<stationRoute stationID="WIKFORD" name="[]-[ea1050/1]-[4]-[BTLSBDG]-[ea1060/1] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=75;NRz=75;S=75;Rz=75;FGz=75;NGz=75;Gz=75;Lz=75;Unbekannt=75" nodes="715 714 660 537 1208 659 550 568 1201 1202 556 553 557 552 557 553 556 1202 1201 568 550 659 1208 537 540 1197 1195 539 536 541 569 8 7 3 4 545 10 575 579 661 716 717"/>
+		<stationRoute stationID="WIKFORD" name="[]-[ea1050/2]-[1]-[BTLSBDG]-[ea1060/1] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=85;NRz=85;S=85;Rz=85;FGz=85;NGz=85;Gz=85;Lz=85;Unbekannt=85" nodes="179 11 64 2 1 5 1234 541 536 533 538 1200 1199 534 532 535 531 535 532 534 1199 1200 538 533 536 541 569 8 7 3 4 545 10 575 579 661 716 717"/>
+		<stationRoute stationID="WIKFORD" name="[]-[ea1050/2]-[4]-[BTLSBDG]-[ea1060/1] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=65;NRz=65;S=65;Rz=65;FGz=65;NGz=65;Gz=65;Lz=65;Unbekannt=65" nodes="179 11 64 2 1 5 1234 541 536 539 1195 1197 540 537 1208 659 550 568 1201 1202 556 553 557 552 557 553 556 1202 1201 568 550 659 1208 537 540 1197 1195 539 536 541 569 8 7 3 4 545 10 575 579 661 716 717"/>
+		<stationRoute stationID="WIKFUSD" name="[WIKFORD]-[ea1050/1]-[1-4]-[WIKFORD]-[ea1050/1] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="1295 516 655 514 655 516 1295"/>
+		<stationRoute stationID="WIKFUSD" name="[WIKFORD]-[ea1050/1]-[4]-[]-[?/] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="1295 516 655 514 1294"/>
+		<stationRoute stationID="WIKFUSD" name="[]-[?/]-[1]-[WIKFORD]-[ea1050/1] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="1294 514 655 516 1295"/>
+	</stationRoutes>
+	<lineCatalog/>
+	<zugNummernFelder/>
+	<switchGears/>
+</line>

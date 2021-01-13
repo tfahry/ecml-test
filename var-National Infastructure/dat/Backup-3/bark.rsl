@@ -1,0 +1,1057 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<line lineID="bark" name="Barkston Junction" trafficRouting="on_the_left" type="global" dependentLines="ln101 ln101a ln195">
+	<transformations>
+		<transformation line="101pd" m11="1" m12="0" m21="0" m22="1" dx="0" dy="0"/>
+		<transformation line="ln101" m11="1" m12="0" m21="0" m22="1" dx="0" dy="0"/>
+	</transformations>
+	<version major="1" minor="2" patchlevel="0" comment=""/>
+	<creator user="Ahowe4" timestamp="2016-11-01T12:54:22"/>
+	<lasteditor user="Ahowe4" timestamp="2016-11-01T12:54:22"/>
+	<stations>
+		<station stationID="GTHM" name="GRANTHAM" xNet="343969.135" yNet="3335362.1" uicLocationCode="0" circleDiameter="0">
+			<textElement type="name">
+				<pos view="net" x="13737.1" y="13737.1" angle="0" system="source"/>
+				<pos view="wgs84" x="13737.1" y="13737.1" angle="0" system="source"/>
+				<pos view="line" x="8768.85" y="8768.85" angle="0" system="source"/>
+				<pos view="macro" x="28.2843" y="28.2843" angle="0" system="source"/>
+				<pos view="macroWgs84" x="0" y="0" angle="0" system="source"/>
+			</textElement>
+		</station>
+		<station stationID="GTHMNBJ" name="Grantham Nottingham Branch Junction" xNet="335776.56" yNet="3346175.65" uicLocationCode="0" circleDiameter="0">
+			<textElement type="name">
+				<pos view="net" x="2246.45" y="2246.45" angle="0" system="source"/>
+				<pos view="wgs84" x="2246.45" y="2246.45" angle="0" system="source"/>
+				<pos view="line" x="1380.45" y="1380.45" angle="0" system="source"/>
+				<pos view="macro" x="28.2843" y="28.2843" angle="0" system="source"/>
+				<pos view="macroWgs84" x="0" y="0" angle="0" system="source"/>
+			</textElement>
+		</station>
+	</stations>
+	<nodes>
+		<node nodeID="1781" kilometre="171.200" x="-718000" y="200" xNet="336095.99" yNet="3349633.8"/>
+		<node nodeID="1782" kilometre="171.200" x="-718000" y="0" xNet="336590.39" yNet="3349883"/>
+		<node nodeID="1841" kilometre="168.800" x="-742000" y="200" xNet="352581.05" yNet="3315792.2">
+			<netLimitInfo lineID="ln101"/>
+		</node>
+		<node nodeID="1842" kilometre="168.800" x="-742000" y="0" xNet="353075.39" yNet="3316041.6">
+			<netLimitInfo lineID="ln101"/>
+		</node>
+		<node nodeID="1843" kilometre="168.800" x="-742000" y="-200" xNet="353569.79" yNet="3316290.8">
+			<netLimitInfo lineID="ln101"/>
+		</node>
+		<node nodeID="1844" kilometre="169.000" x="-740000" y="200" xNet="351207.28" yNet="3318612.4"/>
+		<node nodeID="1846" kilometre="169.000" x="-740000" y="-200" xNet="352196.03" yNet="3319111"/>
+		<node nodeID="1847" kilometre="169.200" x="-738000" y="200" xNet="349833.52" yNet="3321432.5"/>
+		<node nodeID="1848" kilometre="169.200" x="-738000" y="0" xNet="350327.92" yNet="3321681.8"/>
+		<node nodeID="1849" kilometre="169.200" x="-738000" y="-200" xNet="350822.26" yNet="3321931.1"/>
+		<node nodeID="1850" name="GRAD" kilometre="169.400" x="-736000" y="200" xNet="348459.83" yNet="3324252.6"/>
+		<node nodeID="1853" kilometre="169.600" x="-734000" y="200" xNet="347086.07" yNet="3327072.7"/>
+		<node nodeID="1854" kilometre="169.600" x="-734000" y="0" xNet="347580.38" yNet="3327322.1"/>
+		<node nodeID="1856" kilometre="169.800" x="-732000" y="200" xNet="345712.3" yNet="3329892.9"/>
+		<node nodeID="1857" kilometre="169.800" x="-732000" y="0" xNet="346206.64" yNet="3330142.2"/>
+		<node nodeID="1859" kilometre="170.000" x="-730000" y="200" xNet="344338.53" yNet="3332713"/>
+		<node nodeID="1860" kilometre="170.000" x="-730000" y="0" xNet="344832.87" yNet="3332962.4"/>
+		<speedIndicator nodeID="1864" name="SPEED" kilometre="169.524" x="-734760" y="0" xNet="348102.4" yNet="3326250.5" referenceNode="1943"/>
+		<speedIndicator nodeID="1865" name="SPEED" kilometre="169.524" x="-734760" y="200" xNet="347608.06" yNet="3326001.1" referenceNode="1850"/>
+		<signal type="shunting" interlockingMachine="Shunt" nodeID="1881" name="SIG: 1291" kilometre="168.920" x="-740800" y="0" xNet="352251.18" yNet="3317733.6" referenceNode="1842"/>
+		<signal type="shunting" interlockingMachine="Shunt" nodeID="1882" name="SIG: 1283" kilometre="168.920" x="-740800" y="-200" xNet="352745.52" yNet="3317982.9" referenceNode="1845"/>
+		<node nodeID="1883" name="TC" kilometre="168.921" x="-740790" y="-200" xNet="352738.65" yNet="3317997" referenceNode="1882" releaseContact="true" arranged="true"/>
+		<node nodeID="1884" name="TC" kilometre="168.922" x="-740780" y="-200" xNet="352731.77" yNet="3318011.1" referenceNode="45" releaseContact="true" arranged="true"/>
+		<node nodeID="1885" name="TC" kilometre="168.921" x="-740790" y="0" xNet="352244.3" yNet="3317747.7" referenceNode="1881" releaseContact="true" arranged="true"/>
+		<node nodeID="1886" name="TC" kilometre="168.922" x="-740780" y="0" xNet="352237.43" yNet="3317761.8" referenceNode="46" releaseContact="true" arranged="true"/>
+		<node nodeID="1887" name="TC" kilometre="168.921" x="-740790" y="200" xNet="351749.9" yNet="3317498.5" referenceNode="1888" releaseContact="true" arranged="true"/>
+		<node nodeID="1888" name="TC" kilometre="168.922" x="-740780" y="200" xNet="351743.09" yNet="3317512.4" referenceNode="1887" releaseContact="true" arranged="true"/>
+		<switch start="45" endOfMainTrack="4047" endOfBranchTrack="2011" nodeID="1889" name="POINTS: 2103A" kilometre="168.923" x="-740770" y="-200" xNet="352724.9" yNet="3318025.3"/>
+		<switch start="1899" endOfMainTrack="46" endOfBranchTrack="1892" nodeID="1890" name="POINTS: 2103B" kilometre="168.998" x="-740020" y="0" xNet="351715.37" yNet="3318833.5"/>
+		<speedIndicator nodeID="1892" name="SPEED" kilometre="168.997" x="-740030" y="-3" xNet="351729.67" yNet="3318823.2" referenceNode="1890"/>
+		<node nodeID="1893" name="TC" kilometre="168.960" x="-740400" y="-101" xNet="352226.07" yNet="3318423.5" referenceNode="2011" releaseContact="true" arranged="true"/>
+		<node nodeID="1894" name="TC" kilometre="168.961" x="-740390" y="-99" xNet="352214.26" yNet="3318435.1" referenceNode="1896" releaseContact="true" arranged="true"/>
+		<node nodeID="1895" name="OL: 1283" kilometre="169.103" x="-738970" y="-200" xNet="351488.52" yNet="3320563.4"/>
+		<node nodeID="1896" name="OL: 1283" kilometre="168.996" x="-740040" y="-5" xNet="351741.51" yNet="3318811.4"/>
+		<signal type="shunting" interlockingMachine="Shunt" nodeID="1897" name="SIG: 1286" kilometre="169.010" x="-739900" y="-200" xNet="352127.3" yNet="3319252.1" referenceNode="1895"/>
+		<node nodeID="1845" name="OL: 1286" kilometre="168.827" x="-741730" y="-200" xNet="353384.3" yNet="3316671.6"/>
+		<signal type="entry" interlockingMachine="3 Aspect Pannel (Below 75mph)" nodeID="1898" name="UP SIDINGS" kilometre="169.261" x="-737390" y="-200" xNet="350403.28" yNet="3322791.2" referenceNode="1849"/>
+		<switch start="1890" endOfMainTrack="1848" endOfBranchTrack="1902" nodeID="1899" name="POINTS: 2104A" kilometre="169.010" x="-739900" y="0" xNet="351632.96" yNet="3319002.7"/>
+		<switch start="1917" endOfMainTrack="47" endOfBranchTrack="1903" nodeID="1852" name="POINTS: 2104B" kilometre="169.071" x="-739290" y="200" xNet="350719.64" yNet="3319613.4"/>
+		<node nodeID="1900" name="TC" kilometre="169.040" x="-739600" y="98" xNet="351184.66" yNet="3319303.5" referenceNode="1907" releaseContact="true" arranged="true"/>
+		<node nodeID="1901" name="TC" kilometre="169.041" x="-739590" y="102" xNet="351167.93" yNet="3319312.6" referenceNode="1909" releaseContact="true" arranged="true"/>
+		<speedIndicator nodeID="1902" name="SPEED" kilometre="169.011" x="-739890" y="3" xNet="351618.66" yNet="3319013.1" referenceNode="1907"/>
+		<speedIndicator nodeID="1903" name="SPEED" kilometre="169.070" x="-739300" y="197" xNet="350733.93" yNet="3319603" referenceNode="1852"/>
+		<node nodeID="1855" name="TC" kilometre="169.014" x="-739860" y="200" xNet="351111.14" yNet="3318809.8" referenceNode="1858" releaseContact="true" arranged="true"/>
+		<node nodeID="1858" name="TC" kilometre="169.015" x="-739850" y="200" xNet="351104.27" yNet="3318823.9" referenceNode="1855" releaseContact="true" arranged="true"/>
+		<node nodeID="1905" kilometre="169.200" x="-738000" y="400" xNet="349339.2" yNet="3321183.2"/>
+		<node nodeID="1910" name="GRAD" kilometre="169.400" x="-736000" y="800" xNet="346976.75" yNet="3323504.6"/>
+		<node nodeID="1906" name="GRAD" kilometre="169.400" x="-736000" y="400" xNet="347965.43" yNet="3324003.3"/>
+		<node nodeID="1911" kilometre="169.600" x="-734000" y="800" xNet="345602.98" yNet="3326324.8"/>
+		<node nodeID="1913" kilometre="169.800" x="-732000" y="800" xNet="344229.21" yNet="3329144.9"/>
+		<node nodeID="1914" kilometre="169.800" x="-732000" y="400" xNet="345217.96" yNet="3329643.5"/>
+		<switch start="1852" endOfMainTrack="1946" endOfBranchTrack="1922" nodeID="1917" name="POINTS: 2105" kilometre="169.087" x="-739130" y="200" xNet="350609.75" yNet="3319839"/>
+		<node nodeID="1918" kilometre="169.160" x="-738400" y="400" xNet="349613.98" yNet="3320619.1"/>
+		<speedIndicator nodeID="1919" name="SPEED" kilometre="169.182" x="-738180" y="400" xNet="349462.84" yNet="3320929.3" referenceNode="1923"/>
+		<switch start="1922" endOfMainTrack="1918" endOfBranchTrack="1927" nodeID="1920" name="POINTS: 2106A" kilometre="169.137" x="-738630" y="337" xNet="349927.62" yNet="3320373.4"/>
+		<node nodeID="1921" name="POINTS: 2106B" kilometre="169.189" x="-738110" y="800" xNet="348426.05" yNet="3320529.4"/>
+		<speedIndicator nodeID="1922" name="SPEED" kilometre="169.088" x="-739120" y="203" xNet="350595.45" yNet="3319849.4" referenceNode="1920"/>
+		<node nodeID="1923" name="TC" kilometre="169.183" x="-738170" y="400" xNet="349455.96" yNet="3320943.5" referenceNode="1919" releaseContact="true" arranged="true"/>
+		<node nodeID="1924" name="TC" kilometre="169.184" x="-738160" y="400" xNet="349449.09" yNet="3320957.6" referenceNode="1905" releaseContact="true" arranged="true"/>
+		<signal type="shunting" interlockingMachine="Shunt" nodeID="1925" name="SIG: 1282" kilometre="169.186" x="-738140" y="200" xNet="349929.74" yNet="3321235" referenceNode="1847"/>
+		<node nodeID="1907" name="OL: 1282" kilometre="169.012" x="-739880" y="7" xNet="351601.96" yNet="3319022.1"/>
+		<node nodeID="1909" name="OL: D18" kilometre="169.063" x="-739370" y="174" xNet="350838.84" yNet="3319533.1"/>
+		<track trackID="U-5" stationID="GTHM" interlockingMachine="3 Aspect Pannel (Below 75mph)" nodeID="1926" name="SIG: D18" kilometre="169.246" x="-737540" y="800" xNet="348034.57" yNet="3321333.1" referenceNode="1981"/>
+		<node nodeID="1927" name="OL: D18" kilometre="169.138" x="-738620" y="346" xNet="349898.56" yNet="3320376.2"/>
+		<node nodeID="1928" name="TC" kilometre="169.235" x="-737650" y="800" xNet="348110.11" yNet="3321178" referenceNode="1926" releaseContact="true" arranged="true"/>
+		<node nodeID="1929" name="TC" kilometre="169.234" x="-737660" y="800" xNet="348116.96" yNet="3321163.9" referenceNode="1921" releaseContact="true" arranged="true"/>
+		<node nodeID="1861" name="TC" kilometre="169.394" x="-736060" y="0" xNet="348995.4" yNet="3324417.3" referenceNode="1930" releaseContact="true" arranged="true"/>
+		<node nodeID="1930" name="OL:22" kilometre="169.393" x="-736070" y="0" xNet="349002.21" yNet="3324403.3"/>
+		<node nodeID="1931" name="GRAD" kilometre="169.400" x="-736000" y="0" xNet="348954.15" yNet="3324501.9"/>
+		<signal interlockingMachine="3 Aspect Pannel (Below 75mph)" nodeID="1932" name="SIG: D15" kilometre="169.427" x="-735730" y="400" xNet="347779.98" yNet="3324384" referenceNode="1906"/>
+		<node nodeID="1935" name="TC" kilometre="169.430" x="-735700" y="400" xNet="347759.38" yNet="3324426.3" referenceNode="1936" releaseContact="true" arranged="true"/>
+		<node nodeID="1936" name="TC" kilometre="169.431" x="-735690" y="400" xNet="347752.5" yNet="3324440.4" referenceNode="1935" releaseContact="true" arranged="true"/>
+		<node nodeID="1937" name="TC" kilometre="169.493" x="-735070" y="400" xNet="347326.65" yNet="3325314.6" referenceNode="1939" releaseContact="true" arranged="true"/>
+		<node nodeID="1938" name="TC" kilometre="169.492" x="-735080" y="400" xNet="347333.52" yNet="3325300.5" referenceNode="1936" releaseContact="true" arranged="true"/>
+		<node nodeID="1940" name="OL: D20" kilometre="169.316" x="-736840" y="400" xNet="348542.4" yNet="3322818.9"/>
+		<node nodeID="1942" name="TC" kilometre="169.573" x="-734270" y="0" xNet="347765.84" yNet="3326941.4" referenceNode="1944" releaseContact="true" arranged="true"/>
+		<node nodeID="1943" name="TC" kilometre="169.572" x="-734280" y="0" xNet="347772.71" yNet="3326927.3" referenceNode="1864" releaseContact="true" arranged="true"/>
+		<track trackID="U-1" stationID="GTHM" length="290" interlockingMachine="4 Aspect Pannel (101mph - 125mph)" nodeID="1944" name="SIG: D22 GRTHM P1" kilometre="169.576" x="-734240" y="0" xNet="347745.27" yNet="3326983.6" referenceNode="1854"/>
+		<track trackID="D-1" stationID="GTHM" length="290" type="stopBoard" nodeID="1945" name="GRTHM P1" kilometre="169.966" x="-730340" y="0" xNet="345066.4" yNet="3332482.9" referenceNode="1965">
+			<platform startPos="-3860" endPos="-10" width="70" left="false" open="false"/>
+		</track>
+		<node nodeID="1948" kilometre="169.575" x="-734250" y="600" xNet="346269.06" yNet="3326221.5"/>
+		<node nodeID="1949" kilometre="169.500" x="-735000" y="400" xNet="347278.61" yNet="3325413.3"/>
+		<node nodeID="1951" name="OL: D15" kilometre="169.610" x="-733900" y="600" xNet="346028.66" yNet="3326715.1"/>
+		<track trackID="U-3" stationID="GTHM" length="64" interlockingMachine="Buffer Stop" nodeID="1933" name="BUFFER STOP P3" kilometre="169.729" x="-732710" y="400" xNet="345705.66" yNet="3328642.3" referenceNode="1985"/>
+		<track trackID="U-2" stationID="GTHM" length="289" type="stopBoard" nodeID="1912" name="GRTHM P2" kilometre="169.582" x="-734180" y="200" xNet="347209.71" yNet="3326818.9" referenceNode="1853">
+			<platform startPos="-1440" endPos="-10" width="210" left="false" open="true"/>
+		</track>
+		<track trackID="D-2" stationID="GTHM" length="289" type="stopBoard" nodeID="1941" name="GRTHM P2" kilometre="169.894" x="-731060" y="200" xNet="345066.64" yNet="3331218.3" referenceNode="1856">
+			<platform startPos="-1680" endPos="-10" width="140" left="true" open="true"/>
+		</track>
+		<track trackID="D-4" stationID="GTHM" length="249" interlockingMachine="3 Aspect Pannel (Below 75mph)" nodeID="1952" name="SIG: D19 GRTHM P4" kilometre="169.807" x="-731930" y="600" xNet="344675.52" yNet="3329492.9" referenceNode="1975"/>
+		<track trackID="U-4" stationID="GTHM" length="249" type="stopBoard" nodeID="1953" name="GRTHM P4" kilometre="169.582" x="-734180" y="600" xNet="346220.96" yNet="3326320.3" referenceNode="1951">
+			<platform startPos="-2240" endPos="-10" width="140" left="true" open="true"/>
+		</track>
+		<node nodeID="1954" name="OL: D19" kilometre="169.990" x="-730100" y="600" xNet="343418.51" yNet="3332073.3"/>
+		<track trackID="T-5" stationID="GTHM" interlockingMachine="3 Aspect Pannel (Below 75mph)" nodeID="1955" name="SIG: D17" kilometre="169.719" x="-732810" y="800" xNet="344785.58" yNet="3328002.8" referenceNode="1983"/>
+		<node nodeID="1957" name="TC" kilometre="169.726" x="-732740" y="800" xNet="344737.54" yNet="3328101.4" referenceNode="1955" releaseContact="true" arranged="true"/>
+		<node nodeID="1958" name="TC" kilometre="169.727" x="-732730" y="800" xNet="344730.67" yNet="3328115.5" referenceNode="1913" releaseContact="true" arranged="true"/>
+		<track trackID="D-3" stationID="GTHM" length="64" interlockingMachine="3 Aspect Pannel (Below 75mph)" nodeID="1959" name="SIG: D21" kilometre="169.833" x="-731670" y="400" xNet="344991.28" yNet="3330108.8" referenceNode="1914"/>
+		<node nodeID="1960" name="TC" kilometre="169.836" x="-731640" y="400" xNet="344970.68" yNet="3330151.2" referenceNode="1959" releaseContact="true" arranged="true"/>
+		<node nodeID="1961" name="TC" kilometre="169.837" x="-731630" y="400" xNet="344963.8" yNet="3330165.3" referenceNode="1969" releaseContact="true" arranged="true"/>
+		<node nodeID="1962" name="TC" kilometre="169.815" x="-731850" y="600" xNet="344620.6" yNet="3329605.6" referenceNode="1952" releaseContact="true" arranged="true"/>
+		<node nodeID="1963" name="TC" kilometre="169.816" x="-731840" y="600" xNet="344613.73" yNet="3329619.7" referenceNode="1973" releaseContact="true" arranged="true"/>
+		<track trackID="U-6" stationID="GTHM" interlockingMachine="Buffer Stop" nodeID="1966" name="END OF LINE BUFFER STOP" kilometre="169.593" x="-734070" y="1000" xNet="345156.76" yNet="3325976.6" referenceNode="4073"/>
+		<signal type="shunting" interlockingMachine="Shunt" nodeID="1967" name="SIG: 1291" kilometre="169.703" x="-732970" y="1000" xNet="344401.16" yNet="3327527.8" referenceNode="4073"/>
+		<switch start="1980" endOfMainTrack="1913" endOfBranchTrack="1970" nodeID="1964" name="POINTS: 2110" kilometre="169.820" x="-731800" y="800" xNet="344091.88" yNet="3329426.8"/>
+		<node nodeID="1968" kilometre="169.720" x="-732800" y="1000" xNet="344284.37" yNet="3327767.5"/>
+		<speedIndicator nodeID="1970" name="SPEED" kilometre="169.819" x="-731810" y="802" xNet="344093.77" yNet="3329410.3" referenceNode="1964"/>
+		<node nodeID="1971" name="OL: 1291" kilometre="169.818" x="-731820" y="804" xNet="344095.72" yNet="3329393.7"/>
+		<node nodeID="1972" name="POINTS: 2112A" kilometre="169.855" x="-731450" y="800" xNet="343851.48" yNet="3329920.4"/>
+		<switch start="4049" endOfMainTrack="1963" endOfBranchTrack="1974" nodeID="1973" name="POINTS: 2112B" kilometre="169.886" x="-731140" y="600" xNet="344132.9" yNet="3330606.8"/>
+		<node nodeID="1974" name="OL: 1291 &amp; D17" kilometre="169.885" x="-731150" y="606" xNet="344124.93" yNet="3330585.2"/>
+		<switch start="4051" endOfMainTrack="1998" endOfBranchTrack="1986" nodeID="1976" name="POINTS: 2113" kilometre="169.920" x="-730800" y="600" xNet="343899.34" yNet="3331086.3"/>
+		<node nodeID="1969" kilometre="169.885" x="-731150" y="400" xNet="344634.09" yNet="3330842.1"/>
+		<node nodeID="1904" name="GRAD" kilometre="169.913" x="-730870" y="0" xNet="345430.47" yNet="3331735.6"/>
+		<node nodeID="1956" name="GRAD" kilometre="169.913" x="-730870" y="200" xNet="344936.13" yNet="3331486.2"/>
+		<node nodeID="1977" name="GRAD" kilometre="169.913" x="-730870" y="600" xNet="343947.44" yNet="3330987.5"/>
+		<node nodeID="1978" name="GRAD" kilometre="169.913" x="-730870" y="559" xNet="344048.76" yNet="3331038.7"/>
+		<speedIndicator nodeID="1908" name="SPEED" kilometre="170.027" x="-729730" y="0" xNet="344647.42" yNet="3333343" referenceNode="2001"/>
+		<speedIndicator nodeID="1915" name="SPEED" kilometre="170.027" x="-729730" y="200" xNet="344153.1" yNet="3333093.7" referenceNode="2019"/>
+		<speedIndicator nodeID="1979" name="SPEED" kilometre="170.027" x="-729730" y="600" xNet="343164.36" yNet="3332595.1" referenceNode="1994"/>
+		<speedIndicator nodeID="1980" name="SPEED" kilometre="169.826" x="-731740" y="800" xNet="344050.66" yNet="3329511.5" referenceNode="1990"/>
+		<node nodeID="1916" name="TC" kilometre="169.395" x="-736050" y="0" xNet="348988.52" yNet="3324431.4" referenceNode="1931" releaseContact="true" arranged="true"/>
+		<node nodeID="1984" name="OL: D17" kilometre="169.902" x="-730980" y="600" xNet="344022.98" yNet="3330832.4"/>
+		<speedIndicator nodeID="1986" name="SPEED" kilometre="169.919" x="-730810" y="594" xNet="343921.06" yNet="3331079.6" referenceNode="1976"/>
+		<node nodeID="1987" name="OL: D21" kilometre="169.918" x="-730820" y="588" xNet="343942.76" yNet="3331073"/>
+		<node nodeID="1988" name="OL: D21" kilometre="170.016" x="-729840" y="600" xNet="343239.96" yNet="3332439.9"/>
+		<node nodeID="1946" name="OL: 1291" kilometre="169.103" x="-738970" y="200" xNet="350499.86" yNet="3320064.6"/>
+		<node nodeID="1989" name="OL: 1291" kilometre="169.069" x="-739310" y="193" xNet="350750.67" yNet="3319594"/>
+		<node nodeID="1990" name="TC" kilometre="169.841" x="-731590" y="800" xNet="343947.62" yNet="3329723" referenceNode="1980" releaseContact="true" arranged="true"/>
+		<node nodeID="1991" name="TC" kilometre="169.842" x="-731580" y="800" xNet="343940.77" yNet="3329737.1" referenceNode="1972" releaseContact="true" arranged="true"/>
+		<node nodeID="1992" name="TC" kilometre="169.993" x="-730070" y="0" xNet="344880.97" yNet="3332863.6" referenceNode="1860" releaseContact="true" arranged="true"/>
+		<node nodeID="1993" name="TC" kilometre="169.992" x="-730080" y="0" xNet="344887.85" yNet="3332849.5" referenceNode="1945" releaseContact="true" arranged="true"/>
+		<node nodeID="1994" name="TC" kilometre="170.096" x="-729040" y="600" xNet="342690.46" yNet="3333567.9" referenceNode="1979" releaseContact="true" arranged="true"/>
+		<node nodeID="1995" name="TC" kilometre="170.097" x="-729030" y="600" xNet="342683.59" yNet="3333582" referenceNode="1996" releaseContact="true" arranged="true"/>
+		<signal interlockingMachine="3 Aspect Pannel (Below 75mph)" nodeID="1996" name="SIG: D24" kilometre="170.099" x="-729010" y="600" xNet="342669.84" yNet="3333610.3" referenceNode="2020"/>
+		<node nodeID="1998" name="OL: D24" kilometre="169.916" x="-730840" y="600" xNet="343926.84" yNet="3331029.8"/>
+		<node nodeID="2000" kilometre="170.200" x="-728000" y="200" xNet="342964.77" yNet="3335533.2"/>
+		<node nodeID="2001" kilometre="170.200" x="-728000" y="0" xNet="343459.17" yNet="3335782.4"/>
+		<node nodeID="2002" kilometre="170.400" x="-726000" y="600" xNet="340602.31" yNet="3337854.6"/>
+		<node nodeID="2003" kilometre="170.400" x="-726000" y="200" xNet="341591.06" yNet="3338353.2"/>
+		<node nodeID="2004" kilometre="170.400" x="-726000" y="0" xNet="342085.4" yNet="3338602.6"/>
+		<node nodeID="2005" kilometre="170.600" x="-724000" y="600" xNet="339228.57" yNet="3340674.8"/>
+		<node nodeID="2006" kilometre="170.600" x="-724000" y="200" xNet="340217.29" yNet="3341173.3"/>
+		<node nodeID="2007" kilometre="170.600" x="-724000" y="0" xNet="340711.63" yNet="3341422.7"/>
+		<node nodeID="2009" kilometre="170.800" x="-722000" y="200" xNet="338843.52" yNet="3343993.5"/>
+		<node nodeID="2010" kilometre="170.800" x="-722000" y="0" xNet="339337.87" yNet="3344242.9"/>
+		<node nodeID="2012" kilometre="171.000" x="-720000" y="200" xNet="337469.76" yNet="3346813.7"/>
+		<signal interlockingMachine="3 Aspect Pannel (Below 75mph)" nodeID="2014" name="SIG: D25" kilometre="170.375" x="-726250" y="600" xNet="340774.08" yNet="3337502" referenceNode="2016"/>
+		<node nodeID="2015" name="OL: D25" kilometre="170.558" x="-724420" y="600" xNet="339517.07" yNet="3340082.5"/>
+		<signal interlockingMachine="4 Aspect Pannel (101mph - 125mph)" nodeID="2017" name="SIG: D23" kilometre="170.375" x="-726250" y="200" xNet="341762.76" yNet="3338000.7" referenceNode="2000"/>
+		<node nodeID="2018" name="OL: D23" kilometre="170.558" x="-724420" y="200" xNet="340505.76" yNet="3340581.2"/>
+		<node nodeID="2022" name="TC" kilometre="170.378" x="-726220" y="200" xNet="341742.14" yNet="3338043.1" referenceNode="2017" releaseContact="true" arranged="true"/>
+		<node nodeID="2023" name="TC" kilometre="170.379" x="-726210" y="200" xNet="341735.26" yNet="3338057.2" referenceNode="2003" releaseContact="true" arranged="true"/>
+		<node nodeID="2024" name="TC" kilometre="170.460" x="-725400" y="0" xNet="341673.23" yNet="3339448.7" referenceNode="2035" releaseContact="true" arranged="true"/>
+		<node nodeID="2025" name="TC" kilometre="170.459" x="-725410" y="0" xNet="341680.11" yNet="3339434.6" referenceNode="2004" releaseContact="true" arranged="true"/>
+		<node nodeID="2026" name="GRAD" kilometre="170.542" x="-724580" y="600" xNet="339626.99" yNet="3339856.9"/>
+		<node nodeID="2027" name="GRAD" kilometre="170.542" x="-724580" y="200" xNet="340615.65" yNet="3340355.6"/>
+		<node nodeID="2028" name="GRAD" kilometre="170.542" x="-724580" y="0" xNet="341109.99" yNet="3340604.9"/>
+		<node nodeID="2030" name="GRAD" kilometre="170.819" x="-721810" y="200" xNet="338713.01" yNet="3344261.4"/>
+		<node nodeID="2031" name="GRAD" kilometre="170.819" x="-721810" y="0" xNet="339207.35" yNet="3344510.8"/>
+		<node nodeID="2032" name="TC" kilometre="170.560" x="-724400" y="200" xNet="340492.01" yNet="3340609.4" referenceNode="2018" releaseContact="true" arranged="true"/>
+		<node nodeID="2033" name="TC" kilometre="170.561" x="-724390" y="200" xNet="340485.13" yNet="3340623.5" referenceNode="2006" releaseContact="true" arranged="true"/>
+		<signal interlockingMachine="4 Aspect Pannel (101mph - 125mph)" nodeID="2034" name="SIG: D26" kilometre="170.645" x="-723550" y="0" xNet="340402.54" yNet="3342057.2" referenceNode="2010"/>
+		<node nodeID="2035" name="OL: D26" kilometre="170.462" x="-725380" y="0" xNet="341659.54" yNet="3339476.8"/>
+		<node nodeID="2013" name="TC" kilometre="170.642" x="-723580" y="0" xNet="340423.17" yNet="3342014.9" referenceNode="2034" releaseContact="true" arranged="true"/>
+		<node nodeID="2037" name="TC" kilometre="170.641" x="-723590" y="0" xNet="340429.98" yNet="3342000.9" referenceNode="2007" releaseContact="true" arranged="true"/>
+		<node nodeID="2038" name="TC" kilometre="170.651" x="-723490" y="600" xNet="338878.26" yNet="3341393.9" referenceNode="2005" releaseContact="true" arranged="true"/>
+		<node nodeID="2039" name="TC" kilometre="170.652" x="-723480" y="600" xNet="338871.44" yNet="3341407.9" referenceNode="2040" releaseContact="true" arranged="true"/>
+		<switch start="2039" endOfMainTrack="2045" endOfBranchTrack="4053" nodeID="2040" name="POINTS: 2117" kilometre="170.746" x="-722540" y="600" xNet="338225.72" yNet="3342733.4"/>
+		<node nodeID="2047" kilometre="170.830" x="-721700" y="400" xNet="338143.13" yNet="3344167.1"/>
+		<node nodeID="2041" name="GRAD" kilometre="170.819" x="-721810" y="426" xNet="338154.41" yNet="3343979.7"/>
+		<switch start="2043" endOfMainTrack="2049" endOfBranchTrack="2051" nodeID="2048" name="POINTS: 2115" kilometre="170.837" x="-721630" y="800" xNet="337106.37" yNet="3343767.2"/>
+		<node nodeID="2049" kilometre="170.900" x="-721000" y="1000" xNet="336179.24" yNet="3344406.3"/>
+		<node nodeID="2043" name="GRAD" kilometre="170.819" x="-721810" y="760" xNet="337328.86" yNet="3343563.2"/>
+		<node nodeID="2045" name="SPEED" kilometre="170.747" x="-722530" y="602" xNet="338213.92" yNet="3342745"/>
+		<node nodeID="2050" name="TC" kilometre="170.912" x="-720880" y="1000" xNet="336096.82" yNet="3344575.4" referenceNode="2049" releaseContact="true" arranged="true"/>
+		<node nodeID="2051" name="TC" kilometre="170.912" x="-720880" y="800" xNet="336591.17" yNet="3344824.8" referenceNode="2053" releaseContact="true" arranged="true"/>
+		<node nodeID="2052" name="TC" kilometre="170.913" x="-720870" y="1000" xNet="336089.95" yNet="3344589.5" referenceNode="2064" releaseContact="true" arranged="true"/>
+		<node nodeID="2053" name="TC" kilometre="170.913" x="-720870" y="800" xNet="336584.29" yNet="3344838.9" referenceNode="2051" releaseContact="true" arranged="true"/>
+		<track trackID="U-2" stationID="GTHMNBJ" interlockingMachine="3 Aspect Pannel (Below 75mph)" nodeID="2054" name="SIG: D48" kilometre="171.177" x="-718230" y="800" xNet="334770.94" yNet="3348561.5" referenceNode="2044"/>
+		<node nodeID="2055" name="OL: D48" kilometre="170.994" x="-720060" y="800" xNet="336027.92" yNet="3345981.1"/>
+		<node nodeID="2058" name="TC" kilometre="171.075" x="-719250" y="400" xNet="336460.3" yNet="3347621.8" referenceNode="2063" releaseContact="true" arranged="true"/>
+		<node nodeID="2059" name="TC" kilometre="171.076" x="-719240" y="400" xNet="336453.42" yNet="3347635.9" referenceNode="2060" releaseContact="true" arranged="true"/>
+		<node nodeID="2060" kilometre="171.135" x="-718650" y="400" xNet="336048.13" yNet="3348467.9"/>
+		<switch start="4055" endOfMainTrack="2062" endOfBranchTrack="2061" nodeID="2029" name="POINTS: 2118" kilometre="171.182" x="-718180" y="200" xNet="336219.65" yNet="3349380"/>
+		<speedIndicator nodeID="2061" name="SPEED" kilometre="171.181" x="-718190" y="204" xNet="336216.67" yNet="3349360.8" referenceNode="2029"/>
+		<node nodeID="2042" name="TC" kilometre="171.142" x="-718580" y="200" xNet="336494.43" yNet="3348815.9" referenceNode="2012" releaseContact="true" arranged="true"/>
+		<node nodeID="2062" name="TC" kilometre="171.143" x="-718570" y="200" xNet="336487.56" yNet="3348830" referenceNode="2029" releaseContact="true" arranged="true"/>
+		<speedIndicator nodeID="2011" name="SPEED" kilometre="168.928" x="-740718" y="-186" xNet="352654.58" yNet="3318081.2" referenceNode="1893"/>
+		<node nodeID="2063" kilometre="171.000" x="-720000" y="400" xNet="336975.44" yNet="3346564.3"/>
+		<node nodeID="1891" kilometre="171.400" x="-716000" y="200" xNet="334722.31" yNet="3352453.8"/>
+		<node nodeID="2096" name="TC" kilometre="171.320" x="-716800" y="0" xNet="335766.12" yNet="3351575.2" referenceNode="2099" releaseContact="true" arranged="true"/>
+		<node nodeID="2097" name="TC" kilometre="171.319" x="-716810" y="0" xNet="335772.99" yNet="3351561" referenceNode="1782" releaseContact="true" arranged="true"/>
+		<switch start="1824" endOfMainTrack="68" endOfBranchTrack="2102" nodeID="2098" name="POINTS: 2119A" kilometre="171.324" x="-716760" y="200" xNet="335244.3" yNet="3351382.2"/>
+		<switch start="2065" endOfMainTrack="2096" endOfBranchTrack="2103" nodeID="2099" name="POINTS: 2119B" kilometre="171.368" x="-716320" y="0" xNet="335436.43" yNet="3352252"/>
+		<node nodeID="2100" name="TC" kilometre="171.347" x="-716530" y="95" xNet="335345.87" yNet="3351837.4" referenceNode="2102" releaseContact="true" arranged="true"/>
+		<node nodeID="2101" name="TC" kilometre="171.348" x="-716520" y="91" xNet="335348.85" yNet="3351856.6" referenceNode="2103" releaseContact="true" arranged="true"/>
+		<speedIndicator nodeID="2102" name="SPEED" kilometre="171.325" x="-716750" y="195" xNet="335249.78" yNet="3351402.6" referenceNode="2100"/>
+		<speedIndicator nodeID="2103" name="SPEED" kilometre="171.367" x="-716330" y="5" xNet="335430.89" yNet="3352231.7" referenceNode="2099"/>
+		<node nodeID="2104" name="TC" kilometre="171.526" x="-714740" y="0" xNet="334351.13" yNet="3354480" referenceNode="2111" releaseContact="true" arranged="true"/>
+		<node nodeID="2105" name="TC" kilometre="171.525" x="-714750" y="0" xNet="334358" yNet="3354465.9" referenceNode="2065" releaseContact="true" arranged="true"/>
+		<node nodeID="2106" name="GRAD" kilometre="171.581" x="-714190" y="200" xNet="333479.06" yNet="3355006.1">
+			<netLimitInfo lineID="ln101"/>
+		</node>
+		<node nodeID="2107" name="GRAD" kilometre="171.581" x="-714190" y="0" xNet="333973.4" yNet="3355255.4">
+			<netLimitInfo lineID="ln101"/>
+		</node>
+		<node nodeID="2111" name="OL: D28" kilometre="171.529" x="-714710" y="0" xNet="334330.56" yNet="3354522.2"/>
+		<node nodeID="4047" name="TC" kilometre="168.950" x="-740500" y="-200" xNet="352539.47" yNet="3318405.9" referenceNode="1889" releaseContact="true" arranged="true"/>
+		<node nodeID="4048" name="TC" kilometre="168.951" x="-740490" y="-200" xNet="352532.59" yNet="3318420" referenceNode="1846" releaseContact="true" arranged="true"/>
+		<node nodeID="4049" name="TC" kilometre="169.894" x="-731060" y="600" xNet="344077.92" yNet="3330719.7" referenceNode="1973" releaseContact="true" arranged="true"/>
+		<node nodeID="4050" name="TC" kilometre="169.895" x="-731050" y="600" xNet="344071.05" yNet="3330733.8" referenceNode="1984" releaseContact="true" arranged="true"/>
+		<node nodeID="4051" name="TC" kilometre="169.930" x="-730700" y="600" xNet="343830.68" yNet="3331227.2" referenceNode="1976" releaseContact="true" arranged="true"/>
+		<node nodeID="4052" name="TC" kilometre="169.931" x="-730690" y="600" xNet="343823.8" yNet="3331241.3" referenceNode="1954" releaseContact="true" arranged="true"/>
+		<node nodeID="4053" name="TC" kilometre="170.790" x="-722100" y="495" xNet="338183.03" yNet="3343484.8" referenceNode="2040" releaseContact="true" arranged="true"/>
+		<node nodeID="4054" name="TC" kilometre="170.791" x="-722090" y="493" xNet="338181.14" yNet="3343501.3" referenceNode="2041" releaseContact="true" arranged="true"/>
+		<node nodeID="4055" name="TC" kilometre="171.190" x="-718100" y="200" xNet="336164.71" yNet="3349492.7" referenceNode="2029" releaseContact="true" arranged="true"/>
+		<node nodeID="4056" name="TC" kilometre="171.191" x="-718090" y="200" xNet="336157.86" yNet="3349506.8" referenceNode="1781" releaseContact="true" arranged="true"/>
+		<node nodeID="4057" name="TC" kilometre="171.340" x="-716600" y="200" xNet="335134.41" yNet="3351607.8" referenceNode="68" releaseContact="true" arranged="true"/>
+		<node nodeID="4058" name="TC" kilometre="171.341" x="-716590" y="200" xNet="335127.54" yNet="3351622" referenceNode="1891" releaseContact="true" arranged="true"/>
+		<node nodeID="10713" name="TC" kilometre="169.120" x="-738803.25" y="200" xNet="350385.29" yNet="3320299.8" referenceNode="1946" releaseContact="true" arranged="true"/>
+		<stationBorder exitType="alternative" stationID="GTHM" lineID="ln101" trackNumber="1" nodeID="45" name="[HGHDJN] - [ln101/1]" kilometre="168.923" x="-740773" y="-200" xNet="352726.97" yNet="3318021" referenceNode="1889"/>
+		<stationBorder exitType="regular" stationID="GTHM" lineID="ln101" trackNumber="FLU" nodeID="46" name="[HGHDJN] - [ln101/2]" kilometre="168.975" x="-740248" y="0" xNet="351872.01" yNet="3318512" referenceNode="1890"/>
+		<stationBorder exitType="alternative" stationID="GTHM" lineID="ln101" trackNumber="FLD" nodeID="47" name="[HGHDJN] - [ln101/3]" kilometre="169.054" x="-739458" y="200" xNet="350835.05" yNet="3319376.5" referenceNode="1852"/>
+		<stationBorder exitType="locked" stationID="GTHM" lineID="ln101" trackNumber="" nodeID="49" name="Buffer stop 100" kilometre="169.261" x="-737340" y="-200" xNet="350368.93" yNet="3322861.8" referenceNode="1898"/>
+		<stationBorder exitType="locked" stationID="GTHM" lineID="ln101" trackNumber="" nodeID="51" name="Buffer stop 101" kilometre="169.729" x="-732760" y="400" xNet="345739.95" yNet="3328571.9" referenceNode="1933"/>
+		<stationBorder exitType="locked" stationID="GTHM" lineID="ln101" trackNumber="" nodeID="59" name="Buffer stop 102" kilometre="169.593" x="-734120" y="1000" xNet="345191.05" yNet="3325906.2" referenceNode="1966"/>
+		<stationBorder exitType="alternative" stationID="GTHM" lineID="ln101" trackNumber="FLU" nodeID="2065" name="[BRKSTSJ] - [ln101/1]" kilometre="171.400" x="-716000" y="0" xNet="335216.63" yNet="3352703.2" referenceNode="2099"/>
+		<stationBorder exitType="regular" stationID="GTHM" lineID="ln101" trackNumber="FLD" nodeID="68" name="[BRKSTSJ] - [ln101/2]" kilometre="171.329" x="-716712" y="200" xNet="335211.3" yNet="3351450" referenceNode="2098"/>
+		<stationBorder exitType="regular" stationID="GTHM" lineID="ln101" trackNumber="4" nodeID="2056" kilometre="170.777" x="-722231.14" y="667.58313" xNet="337846.54" yNet="3343084.7" referenceNode="2045"/>
+		<stationBorder exitType="regular" stationID="GTHMNBJ" lineID="ln101" trackNumber="4" nodeID="2057" kilometre="170.810" x="-721895.92" y="741.14502" xNet="337434.47" yNet="3343465.6" referenceNode="2043"/>
+		<node nodeID="1934" name="SD: D15" kilometre="169.357" x="-736430" y="400" xNet="348260.81" yNet="3323396.9" referenceNode="1940" sightingDistance="true"/>
+		<node nodeID="1950" name="SD: D20" kilometre="169.569" x="-734310" y="584" xNet="346349.83" yNet="3326156.9" referenceNode="1948" sightingDistance="true"/>
+		<node nodeID="1981" name="SD: D18" kilometre="169.316" x="-736840" y="800" xNet="347553.74" yNet="3322320.1" referenceNode="1910" sightingDistance="true"/>
+		<node nodeID="1983" name="SD: D17" kilometre="169.649" x="-733510" y="800" xNet="345266.41" yNet="3327015.7" referenceNode="1911" sightingDistance="true"/>
+		<node nodeID="1975" name="SD: D19" kilometre="169.737" x="-732630" y="600" xNet="345156.35" yNet="3328505.8" referenceNode="2185" sightingDistance="true"/>
+		<node nodeID="1985" name="SD: D21" kilometre="169.763" x="-732370" y="400" xNet="345472.11" yNet="3329121.7" referenceNode="1933" sightingDistance="true"/>
+		<node nodeID="1997" name="SD: D24" kilometre="170.177" x="-728230" y="600" xNet="342134.1" yNet="3334710.1" referenceNode="2016" sightingDistance="true"/>
+		<node nodeID="2016" name="SD: D25" kilometre="170.297" x="-727030" y="600" xNet="341309.82" yNet="3336402.2" referenceNode="1997" sightingDistance="true"/>
+		<node nodeID="2019" name="SD: D23" kilometre="170.015" x="-729850" y="200" xNet="344235.49" yNet="3332924.5" referenceNode="1859" sightingDistance="true"/>
+		<node nodeID="2036" name="SD: D26" kilometre="171.056" x="-719950" y="0" xNet="337929.81" yNet="3347133.4" referenceNode="1782" sightingDistance="true"/>
+		<node nodeID="4072" name="SD: END OF LINE" kilometre="169.799" x="-732010" y="400" xNet="345224.83" yNet="3329629.4" referenceNode="1914" sightingDistance="true"/>
+		<node nodeID="4073" name="SD: END OF LINE" kilometre="169.663" x="-733370" y="1000" xNet="344675.93" yNet="3326963.7" referenceNode="1967" sightingDistance="true"/>
+		<stationBorder exitType="alternative" stationID="GTHMNBJ" lineID="ln195" trackNumber="1" nodeID="2044" name="UP BRANCH" kilometre="171.200" x="-718000" y="800" xNet="334612.99" yNet="3348885.7" referenceNode="2054">
+			<netLimitInfo lineID="ln195"/>
+		</stationBorder>
+		<stationBorder exitType="regular" stationID="GTHMNBJ" lineID="ln195" trackNumber="2" nodeID="2046" name="DOWN BRANCH" kilometre="171.200" x="-718000" y="1000" xNet="334118.65" yNet="3348636.4" referenceNode="2064">
+			<netLimitInfo lineID="ln195"/>
+		</stationBorder>
+		<track trackID="T-1" stationID="GTHMNBJ" type="timingPoint" nodeID="2064" kilometre="171.000" x="-720000" y="1000" xNet="335492.35" yNet="3345816.3" referenceNode="2052"/>
+		<track trackID="X-4" stationID="GTHM" interlockingMachine="3 Aspect Pannel (Below 75mph)" nodeID="1939" name="SIG: D20" kilometre="169.499" x="-735010" y="400" xNet="347285.42" yNet="3325399.3" referenceNode="1949"/>
+		<node nodeID="2021" name="OL:D13" kilometre="168.926" x="-740640.226604571" y="200" xNet="351647.074637173" yNet="3317709.51632689"/>
+		<node nodeID="1965" name="SD:D22" kilometre="169.935" x="-730651.52021549" y="0" xNet="345280.390877082" yNet="3332043.65649616" referenceNode="1945" sightingDistance="true"/>
+		<node nodeID="1982" kilometre="169.934" x="-730696.197311481" y="0" xNet="345311.080670172" yNet="3331980.66179081" referenceNode="1965" aspectTrigger="true"/>
+		<node nodeID="2020" kilometre="170.176" x="-728456.77538732" y="600" xNet="342289.859802568" yNet="3334390.34670388" referenceNode="1997" aspectTrigger="true"/>
+		<node nodeID="1824" name="SD:D27" kilometre="171.301" x="-716866.553544932" y="200" xNet="335317.485958615" yNet="3351231.95950165" referenceNode="1781" sightingDistance="true"/>
+		<signal type="permissive" interlockingMachine="3 Aspect Pannel (Below 75mph)" nodeID="1999" name="A-3" kilometre="169.781" x="-732190" y="400" xNet="345348.47" yNet="3329375.55" referenceNode="4072"/>
+		<track trackID="B-3" stationID="GTHM" type="permissive" interlockingMachine="3 Aspect Pannel (Below 75mph)" nodeID="2115" name="B-3" kilometre="169.780" x="-732240.745848185" y="399.752134568192" xNet="345355.338888889" yNet="3329361.44722222" referenceNode="1985"/>
+		<node nodeID="2182" name="OL:B3" kilometre="169.781" x="-732196.474848479" y="399.968373942467" xNet="345349.346426671" yNet="3329373.75057497"/>
+		<node nodeID="2184" name="OL:A3" kilometre="169.780" x="-732233.909577363" y="399.785525974186" xNet="345354.413540582" yNet="3329363.34709013"/>
+		<track trackID="A-4" stationID="GTHM" type="permissive" interlockingMachine="3 Aspect Pannel (Below 75mph)" nodeID="2185" name="A4" kilometre="169.695" x="-733050" y="600" xNet="345444.830472441" yNet="3327913.6" referenceNode="1975"/>
+		<track trackID="B-4" stationID="GTHM" type="permissive" interlockingMachine="3 Aspect Pannel (Below 75mph)" nodeID="2208" name="B4" kilometre="169.694" x="-733112.494836385" y="600.600219683686" xNet="345451.699055118" yNet="3327899.5" referenceNode="1951"/>
+		<node nodeID="2211" name="OL:B4" kilometre="169.695" x="-733060.328963701" y="600.099202553109" xNet="345445.965691689" yNet="3327911.26959326"/>
+		<node nodeID="2376" name="OL:A4" kilometre="169.694" x="-733102.056650989" y="600.499968131738" xNet="345450.551831707" yNet="3327901.85504919"/>
+	</nodes>
+	<links>
+		<link source="45" target="1889" gradient="-5" vmax="64" vmaxr="64" electrification="electrified"/>
+		<link source="46" target="1890" length="23" gradient="-5" vmax="185" vmaxr="185" electrification="electrified">
+			<vzg index="9" vmax="121" vmaxr="121"/>
+		</link>
+		<link source="47" target="1852" length="17" gradient="-5" vmax="185" vmaxr="185" electrification="electrified">
+			<vzg index="9" vmax="121" vmaxr="121"/>
+		</link>
+		<link source="51" target="1933" vmax="16" vmaxr="16" electrification="electrified"/>
+		<link source="59" target="1966" vmax="8" vmaxr="8" electrification="electrified"/>
+		<link source="68" target="4057" length="11" gradient="4.167" vmax="185" vmaxr="185" electrification="electrified">
+			<vzg index="9" vmax="121" vmaxr="121"/>
+		</link>
+		<link source="1781" target="1824" length="101" gradient="4.167" vmax="185" vmaxr="185" electrification="electrified">
+			<vzg index="9" vmax="121" vmaxr="121"/>
+		</link>
+		<link source="1782" target="2097" length="119" gradient="4.167" vmax="185" vmaxr="185" electrification="electrified">
+			<vzg index="9" vmax="121" vmaxr="121"/>
+		</link>
+		<link source="1824" target="2098" length="23" gradient="4.167" vmax="185" vmaxr="185" electrification="electrified">
+			<vzg index="9" vmax="121" vmaxr="121"/>
+		</link>
+		<link source="1841" target="1887" length="121" gradient="-5" vmax="185" vmaxr="185" electrification="electrified">
+			<vzg index="9" vmax="121" vmaxr="121"/>
+		</link>
+		<link source="1842" target="1881" length="120" gradient="-5" vmax="185" vmaxr="185" electrification="electrified">
+			<vzg index="9" vmax="121" vmaxr="121"/>
+		</link>
+		<link source="1843" target="1845" length="27" gradient="-5" vmax="64" vmaxr="64" electrification="electrified"/>
+		<link source="1844" target="1855" length="14" gradient="-5" vmax="185" vmaxr="185" electrification="electrified">
+			<vzg index="9" vmax="121" vmaxr="121"/>
+		</link>
+		<link source="1845" target="1882" length="93" gradient="-5" vmax="64" vmaxr="64" electrification="electrified"/>
+		<link source="1846" target="1897" length="10" gradient="-5" vmax="64" vmaxr="64" electrification="electrified"/>
+		<link source="1847" target="1850" length="200" gradient="-5" vmax="185" vmaxr="185" electrification="electrified">
+			<vzg index="9" vmax="121" vmaxr="121"/>
+		</link>
+		<link source="1848" target="1930" length="193" gradient="-5" vmax="185" vmaxr="185" electrification="electrified">
+			<vzg index="9" vmax="121" vmaxr="121"/>
+		</link>
+		<link source="1849" target="1898" length="61" gradient="-5" vmax="64" vmaxr="64" electrification="electrified"/>
+		<link source="1850" target="1865" length="124" vmax="185" vmaxr="185" electrification="electrified">
+			<vzg index="9" vmax="121" vmaxr="121"/>
+		</link>
+		<link source="1852" target="1917" length="16" gradient="-5" vmax="185" vmaxr="185" electrification="electrified">
+			<vzg index="9" vmax="121" vmaxr="121"/>
+		</link>
+		<link source="1853" target="1856" length="200" vmax="161" vmaxr="161" electrification="electrified">
+			<vzg index="9" vmax="121" vmaxr="121"/>
+		</link>
+		<link source="1854" target="1857" length="200" vmax="161" vmaxr="161" electrification="electrified">
+			<vzg index="9" vmax="121" vmaxr="121"/>
+		</link>
+		<link source="1855" target="1858" length="1" gradient="-5" vmax="185" vmaxr="185" electrification="electrified">
+			<vzg index="9" vmax="121" vmaxr="121"/>
+		</link>
+		<link source="1856" target="1941" length="94" vmax="161" vmaxr="161" electrification="electrified">
+			<vzg index="9" vmax="121" vmaxr="121"/>
+		</link>
+		<link source="1857" target="1904" length="113" vmax="161" vmaxr="161" electrification="electrified">
+			<vzg index="9" vmax="121" vmaxr="121"/>
+		</link>
+		<link source="1858" target="47" length="39" gradient="-5" vmax="185" vmaxr="185" electrification="electrified">
+			<vzg index="9" vmax="121" vmaxr="121"/>
+		</link>
+		<link source="1859" target="2019" length="15" gradient="3.03" vmax="161" vmaxr="161" electrification="electrified">
+			<vzg index="9" vmax="121" vmaxr="121"/>
+		</link>
+		<link source="1860" target="1908" length="27" gradient="3.03" vmax="161" vmaxr="161" electrification="electrified">
+			<vzg index="9" vmax="121" vmaxr="121"/>
+		</link>
+		<link source="1861" target="1916" length="1" gradient="-5" vmax="185" vmaxr="185" electrification="electrified">
+			<vzg index="9" vmax="121" vmaxr="121"/>
+		</link>
+		<link source="1864" target="1943" length="48" vmax="161" vmaxr="161" electrification="electrified">
+			<vzg index="9" vmax="121" vmaxr="121"/>
+		</link>
+		<link source="1865" target="1912" length="58" vmax="161" vmaxr="161" electrification="electrified">
+			<vzg index="9" vmax="121" vmaxr="121"/>
+		</link>
+		<link source="1881" target="1885" length="1" gradient="-5" vmax="185" vmaxr="185" electrification="electrified">
+			<vzg index="9" vmax="121" vmaxr="121"/>
+		</link>
+		<link source="1882" target="1883" length="1" gradient="-5" vmax="64" vmaxr="64" electrification="electrified"/>
+		<link source="1883" target="1884" length="1" gradient="-5" vmax="64" vmaxr="64" electrification="electrified"/>
+		<link source="1884" target="45" length="1" gradient="-5" vmax="64" vmaxr="64" electrification="electrified"/>
+		<link source="1885" target="1886" length="1" gradient="-5" vmax="185" vmaxr="185" electrification="electrified">
+			<vzg index="9" vmax="121" vmaxr="121"/>
+		</link>
+		<link source="1886" target="46" length="53" gradient="-5" vmax="185" vmaxr="185" electrification="electrified">
+			<vzg index="9" vmax="121" vmaxr="121"/>
+		</link>
+		<link source="1887" target="1888" length="1" gradient="-5" vmax="185" vmaxr="185" electrification="electrified">
+			<vzg index="9" vmax="121" vmaxr="121"/>
+		</link>
+		<link source="1888" target="2021" length="4" gradient="-5" vmax="185" vmaxr="185" electrification="electrified">
+			<vzg index="9" vmax="121" vmaxr="121"/>
+		</link>
+		<link source="1889" target="2011" length="5" gradient="-5" vmax="64" vmaxr="64" electrification="electrified"/>
+		<link source="1889" target="4047" length="27" gradient="-5" vmax="64" vmaxr="64" electrification="electrified"/>
+		<link source="1890" target="1899" length="12" gradient="-5" vmax="185" vmaxr="185" electrification="electrified">
+			<vzg index="9" vmax="121" vmaxr="121"/>
+		</link>
+		<link source="1891" target="2106" length="181" gradient="4.167" vmax="185" vmaxr="185" electrification="electrified">
+			<vzg index="9" vmax="121" vmaxr="121"/>
+		</link>
+		<link source="1892" target="1890" length="1" gradient="-5" vmax="185" vmaxr="185" electrification="electrified"/>
+		<link source="1893" target="1894" length="1" gradient="-5" vmax="40" vmaxr="40" electrification="electrified"/>
+		<link source="1894" target="1896" length="35" gradient="-5" vmax="40" vmaxr="40" electrification="electrified"/>
+		<link source="1895" target="1849" length="97" gradient="-5" vmax="64" vmaxr="64" electrification="electrified"/>
+		<link source="1896" target="1892" length="1" gradient="-5" vmax="40" vmaxr="40" electrification="electrified"/>
+		<link source="1897" target="1895" length="93" gradient="-5" vmax="64" vmaxr="64" electrification="electrified"/>
+		<link source="1898" target="49" gradient="-5" vmax="64" vmaxr="64" electrification="electrified"/>
+		<link source="1899" target="1848" length="190" gradient="-5" vmax="185" vmaxr="185" electrification="electrified">
+			<vzg index="9" vmax="121" vmaxr="121"/>
+		</link>
+		<link source="1899" target="1902" length="1" gradient="-5" vmax="185" vmaxr="185" electrification="electrified"/>
+		<link source="1900" target="1901" length="1" gradient="-5" vmax="40" vmaxr="40" electrification="electrified"/>
+		<link source="1901" target="1909" length="22" gradient="-5" vmax="40" vmaxr="40" electrification="electrified"/>
+		<link source="1902" target="1907" length="1" gradient="-5" vmax="40" vmaxr="40" electrification="electrified"/>
+		<link source="1903" target="1852" length="1" gradient="-5" vmax="185" vmaxr="185" electrification="electrified"/>
+		<link source="1904" target="1982" length="21" gradient="3.03" vmax="161" vmaxr="161" electrification="electrified">
+			<vzg index="9" vmax="121" vmaxr="121"/>
+		</link>
+		<link source="1905" target="1940" length="116" gradient="-5" vmax="24" vmaxr="24" electrification="electrified"/>
+		<link source="1906" target="1932" length="27" vmax="24" vmaxr="24" electrification="electrified"/>
+		<link source="1907" target="1900" length="28" gradient="-5" vmax="40" vmaxr="40" electrification="electrified"/>
+		<link source="1908" target="2001" length="173" gradient="3.03" vmax="185" vmaxr="185" electrification="electrified">
+			<vzg index="9" vmax="121" vmaxr="121"/>
+		</link>
+		<link source="1909" target="1989" length="6" gradient="-5" vmax="40" vmaxr="40" electrification="electrified"/>
+		<link source="1910" target="1911" length="200" vmax="40" vmaxr="40" electrification="electrified"/>
+		<link source="1911" target="1983" length="49" vmax="40" vmaxr="40" electrification="electrified"/>
+		<link source="1912" target="1853" length="18" vmax="161" vmaxr="161" electrification="electrified">
+			<vzg index="9" vmax="121" vmaxr="121"/>
+		</link>
+		<link source="1913" target="1964" length="20" vmax="40" vmaxr="40" electrification="electrified"/>
+		<link source="1914" target="1959" length="33" vmax="16" vmaxr="16" electrification="electrified"/>
+		<link source="1915" target="2000" length="173" gradient="3.03" vmax="185" vmaxr="185" electrification="electrified">
+			<vzg index="9" vmax="121" vmaxr="121"/>
+		</link>
+		<link source="1916" target="1931" length="5" gradient="-5" vmax="185" vmaxr="185" electrification="electrified">
+			<vzg index="9" vmax="121" vmaxr="121"/>
+		</link>
+		<link source="1917" target="1922" length="1" gradient="-5" vmax="185" vmaxr="185" electrification="electrified"/>
+		<link source="1917" target="1946" length="16" gradient="-5" vmax="185" vmaxr="185" electrification="electrified">
+			<vzg index="9" vmax="121" vmaxr="121"/>
+		</link>
+		<link source="1918" target="1919" length="22" gradient="-5" vmax="40" vmaxr="40" electrification="electrified"/>
+		<link source="1919" target="1923" length="1" gradient="-5" vmax="24" vmaxr="24" electrification="electrified"/>
+		<link source="1920" target="1918" length="23" gradient="-5" vmax="40" vmaxr="40" electrification="electrified"/>
+		<link source="1920" target="1927" length="1" gradient="-5" vmax="40" vmaxr="40" electrification="electrified"/>
+		<link source="1921" target="1929" length="45" gradient="-5" vmax="40" vmaxr="40" electrification="electrified"/>
+		<link source="1922" target="1920" length="49" gradient="-5" vmax="40" vmaxr="40" electrification="electrified"/>
+		<link source="1923" target="1924" length="1" gradient="-5" vmax="24" vmaxr="24" electrification="electrified"/>
+		<link source="1924" target="1905" length="16" gradient="-5" vmax="24" vmaxr="24" electrification="electrified"/>
+		<link source="1925" target="1847" length="14" gradient="-5" vmax="185" vmaxr="185" electrification="electrified">
+			<vzg index="9" vmax="121" vmaxr="121"/>
+		</link>
+		<link source="1926" target="1981" length="70" gradient="-5" vmax="40" vmaxr="40" electrification="electrified"/>
+		<link source="1927" target="1921" length="51" gradient="-5" vmax="40" vmaxr="40" electrification="electrified"/>
+		<link source="1928" target="1926" length="11" gradient="-5" vmax="40" vmaxr="40" electrification="electrified"/>
+		<link source="1929" target="1928" length="1" gradient="-5" vmax="40" vmaxr="40" electrification="electrified"/>
+		<link source="1930" target="1861" length="1" gradient="-5" vmax="185" vmaxr="185" electrification="electrified">
+			<vzg index="9" vmax="121" vmaxr="121"/>
+		</link>
+		<link source="1931" target="1864" length="124" vmax="185" vmaxr="185" electrification="electrified">
+			<vzg index="9" vmax="121" vmaxr="121"/>
+		</link>
+		<link source="1932" target="1935" length="3" vmax="24" vmaxr="24" electrification="electrified"/>
+		<link source="1933" target="1985" length="34" vmax="16" vmaxr="16" electrification="electrified"/>
+		<link source="1934" target="1906" length="43" gradient="-5" vmax="24" vmaxr="24" electrification="electrified"/>
+		<link source="1935" target="1936" length="1" vmax="24" vmaxr="24" electrification="electrified"/>
+		<link source="1936" target="1938" length="61" vmax="24" vmaxr="24" electrification="electrified"/>
+		<link source="1937" target="1939" length="6" vmax="24" vmaxr="24" electrification="electrified"/>
+		<link source="1938" target="1937" length="1" vmax="24" vmaxr="24" electrification="electrified"/>
+		<link source="1939" target="1949" length="1" vmax="24" vmaxr="24" electrification="electrified"/>
+		<link source="1940" target="1934" length="41" gradient="-5" vmax="24" vmaxr="24" electrification="electrified"/>
+		<link source="1941" target="1956" length="19" vmax="161" vmaxr="161" electrification="electrified">
+			<vzg index="9" vmax="121" vmaxr="121"/>
+		</link>
+		<link source="1942" target="1944" length="3" vmax="161" vmaxr="161" electrification="electrified">
+			<vzg index="9" vmax="121" vmaxr="121"/>
+		</link>
+		<link source="1943" target="1942" length="1" vmax="161" vmaxr="161" electrification="electrified">
+			<vzg index="9" vmax="121" vmaxr="121"/>
+		</link>
+		<link source="1944" target="1854" length="24" vmax="161" vmaxr="161" electrification="electrified">
+			<vzg index="9" vmax="121" vmaxr="121"/>
+		</link>
+		<link source="1945" target="1993" length="26" gradient="3.03" vmax="161" vmaxr="161" electrification="electrified">
+			<vzg index="9" vmax="121" vmaxr="121"/>
+		</link>
+		<link source="1946" target="10713" length="17" gradient="-5" vmax="185" vmaxr="185" electrification="electrified">
+			<vzg index="9" vmax="121" vmaxr="121"/>
+		</link>
+		<link source="1948" target="1953" length="7" vmax="24" vmaxr="24" electrification="electrified"/>
+		<link source="1949" target="1950" length="69" vmax="24" vmaxr="24" electrification="electrified"/>
+		<link source="1950" target="1948" length="6" vmax="24" vmaxr="24" electrification="electrified"/>
+		<link source="1951" target="2208" length="84" vmax="24" vmaxr="24" electrification="electrified"/>
+		<link source="1952" target="1962" length="8" vmax="24" vmaxr="24" electrification="electrified"/>
+		<link source="1953" target="1951" length="28" vmax="24" vmaxr="24" electrification="electrified"/>
+		<link source="1954" target="1988" length="26" gradient="3.03" vmax="24" vmaxr="24" electrification="electrified"/>
+		<link source="1955" target="1957" length="7" vmax="40" vmaxr="40" electrification="electrified"/>
+		<link source="1956" target="1859" length="87" gradient="3.03" vmax="161" vmaxr="161" electrification="electrified">
+			<vzg index="9" vmax="121" vmaxr="121"/>
+		</link>
+		<link source="1957" target="1958" length="1" vmax="40" vmaxr="40" electrification="electrified"/>
+		<link source="1958" target="1913" length="73" vmax="40" vmaxr="40" electrification="electrified"/>
+		<link source="1959" target="1960" length="3" vmax="16" vmaxr="16" electrification="electrified"/>
+		<link source="1960" target="1961" length="1" vmax="16" vmaxr="16" electrification="electrified"/>
+		<link source="1961" target="1969" length="48" vmax="16" vmaxr="16" electrification="electrified"/>
+		<link source="1962" target="1963" length="1" vmax="24" vmaxr="24" electrification="electrified"/>
+		<link source="1963" target="1973" length="70" vmax="24" vmaxr="24" electrification="electrified"/>
+		<link source="1964" target="1980" length="6" vmax="40" vmaxr="40" electrification="electrified"/>
+		<link source="1965" target="1945" length="31" gradient="3.03" vmax="161" vmaxr="161" electrification="electrified">
+			<vzg index="9" vmax="121" vmaxr="121"/>
+		</link>
+		<link source="1966" target="4073" length="70" vmax="8" vmaxr="8" electrification="electrified"/>
+		<link source="1967" target="1968" length="16" vmax="8" vmaxr="8" electrification="electrified"/>
+		<link source="1968" target="1971" length="98" vmax="8" vmaxr="8" electrification="electrified"/>
+		<link source="1969" target="1978" length="28" vmax="16" vmaxr="16" electrification="electrified"/>
+		<link source="1970" target="1964" length="1" vmax="40" vmaxr="40" electrification="electrified"/>
+		<link source="1971" target="1970" length="1" vmax="8" vmaxr="8" electrification="electrified"/>
+		<link source="1972" target="1974" length="30" vmax="40" vmaxr="40" electrification="electrified"/>
+		<link source="1973" target="4049" length="8" vmax="24" vmaxr="24" electrification="electrified"/>
+		<link source="1974" target="1973" length="1" vmax="24" vmaxr="24" electrification="electrified"/>
+		<link source="1975" target="1952" length="70" vmax="24" vmaxr="24" electrification="electrified"/>
+		<link source="1976" target="4051" length="10" gradient="3.03" vmax="24" vmaxr="24" electrification="electrified"/>
+		<link source="1977" target="1998" length="3" gradient="3.03" vmax="24" vmaxr="24" electrification="electrified"/>
+		<link source="1978" target="1987" length="5" gradient="3.03" vmax="16" vmaxr="16" electrification="electrified"/>
+		<link source="1979" target="1994" length="69" gradient="3.03" vmax="40" vmaxr="40" electrification="electrified"/>
+		<link source="1980" target="1990" length="15" vmax="40" vmaxr="40" electrification="electrified"/>
+		<link source="1981" target="1910" length="84" gradient="-5" vmax="40" vmaxr="40" electrification="electrified"/>
+		<link source="1982" target="1965" length="1" gradient="3.03" vmax="161" vmaxr="161" electrification="electrified">
+			<vzg index="9" vmax="121" vmaxr="121"/>
+		</link>
+		<link source="1983" target="1955" length="70" vmax="40" vmaxr="40" electrification="electrified"/>
+		<link source="1984" target="1977" length="11" vmax="24" vmaxr="24" electrification="electrified"/>
+		<link source="1985" target="2115" length="17" vmax="16" vmaxr="16" electrification="electrified"/>
+		<link source="1986" target="1976" length="1" gradient="3.03" vmax="24" vmaxr="24" electrification="electrified"/>
+		<link source="1987" target="1986" length="1" gradient="3.03" vmax="16" vmaxr="16" electrification="electrified"/>
+		<link source="1988" target="1979" length="11" gradient="3.03" vmax="24" vmaxr="24" electrification="electrified"/>
+		<link source="1989" target="1903" length="1" gradient="-5" vmax="40" vmaxr="40" electrification="electrified"/>
+		<link source="1990" target="1991" length="1" vmax="24" vmaxr="24" electrification="electrified"/>
+		<link source="1991" target="1972" length="13" vmax="40" vmaxr="40" electrification="electrified"/>
+		<link source="1992" target="1860" length="7" gradient="3.03" vmax="161" vmaxr="161" electrification="electrified">
+			<vzg index="9" vmax="121" vmaxr="121"/>
+		</link>
+		<link source="1993" target="1992" length="1" gradient="3.03" vmax="161" vmaxr="161" electrification="electrified">
+			<vzg index="9" vmax="121" vmaxr="121"/>
+		</link>
+		<link source="1994" target="1995" length="1" gradient="3.03" vmax="40" vmaxr="40" electrification="electrified"/>
+		<link source="1995" target="1996" length="2" gradient="3.03" vmax="40" vmaxr="40" electrification="electrified"/>
+		<link source="1996" target="2020" length="77" gradient="3.03" vmax="40" vmaxr="40" electrification="electrified"/>
+		<link source="1997" target="2016" length="120" gradient="3.03" vmax="40" vmaxr="40" electrification="electrified"/>
+		<link source="1998" target="1976" length="4" gradient="3.03" vmax="24" vmaxr="24" electrification="electrified"/>
+		<link source="1999" target="4072" length="18" vmax="16" vmaxr="16" electrification="electrified"/>
+		<link source="2000" target="2017" length="175" gradient="3.03" vmax="185" vmaxr="185" electrification="electrified">
+			<vzg index="9" vmax="121" vmaxr="121"/>
+		</link>
+		<link source="2001" target="2004" length="200" gradient="3.03" vmax="185" vmaxr="185" electrification="electrified">
+			<vzg index="9" vmax="121" vmaxr="121"/>
+		</link>
+		<link source="2002" target="2026" length="142" gradient="3.03" vmax="40" vmaxr="40" electrification="electrified"/>
+		<link source="2003" target="2027" length="142" gradient="3.03" vmax="185" vmaxr="185" electrification="electrified">
+			<vzg index="9" vmax="121" vmaxr="121"/>
+		</link>
+		<link source="2004" target="2025" length="59" gradient="3.03" vmax="185" vmaxr="185" electrification="electrified">
+			<vzg index="9" vmax="121" vmaxr="121"/>
+		</link>
+		<link source="2005" target="2038" length="51" gradient="-3.03" vmax="40" vmaxr="40" electrification="electrified"/>
+		<link source="2006" target="2009" length="200" gradient="-3.03" vmax="185" vmaxr="185" electrification="electrified">
+			<vzg index="9" vmax="121" vmaxr="121"/>
+		</link>
+		<link source="2007" target="2037" length="41" gradient="-3.03" vmax="185" vmaxr="185" electrification="electrified">
+			<vzg index="9" vmax="121" vmaxr="121"/>
+		</link>
+		<link source="2009" target="2030" length="19" gradient="-3.03" vmax="185" vmaxr="185" electrification="electrified">
+			<vzg index="9" vmax="121" vmaxr="121"/>
+		</link>
+		<link source="2010" target="2031" length="19" gradient="-3.03" vmax="185" vmaxr="185" electrification="electrified">
+			<vzg index="9" vmax="121" vmaxr="121"/>
+		</link>
+		<link source="2011" target="1893" length="32" gradient="-5" vmax="40" vmaxr="40" electrification="electrified"/>
+		<link source="2012" target="2042" length="142" gradient="4.167" vmax="185" vmaxr="185" electrification="electrified">
+			<vzg index="9" vmax="121" vmaxr="121"/>
+		</link>
+		<link source="2013" target="2034" length="3" gradient="-3.03" vmax="185" vmaxr="185" electrification="electrified">
+			<vzg index="9" vmax="121" vmaxr="121"/>
+		</link>
+		<link source="2014" target="2002" length="25" gradient="3.03" vmax="40" vmaxr="40" electrification="electrified"/>
+		<link source="2015" target="2005" length="42" gradient="-3.03" vmax="40" vmaxr="40" electrification="electrified"/>
+		<link source="2016" target="2014" length="78" gradient="3.03" vmax="40" vmaxr="40" electrification="electrified"/>
+		<link source="2017" target="2022" length="3" gradient="3.03" vmax="185" vmaxr="185" electrification="electrified">
+			<vzg index="9" vmax="121" vmaxr="121"/>
+		</link>
+		<link source="2018" target="2032" length="2" gradient="-3.03" vmax="185" vmaxr="185" electrification="electrified">
+			<vzg index="9" vmax="121" vmaxr="121"/>
+		</link>
+		<link source="2019" target="1915" length="12" gradient="3.03" vmax="161" vmaxr="161" electrification="electrified">
+			<vzg index="9" vmax="121" vmaxr="121"/>
+		</link>
+		<link source="2020" target="1997" length="1" gradient="3.03" vmax="40" vmaxr="40" electrification="electrified"/>
+		<link source="2021" target="1844" length="74" gradient="-5" vmax="185" vmaxr="185" electrification="electrified">
+			<vzg index="9" vmax="121" vmaxr="121"/>
+		</link>
+		<link source="2022" target="2023" length="1" gradient="3.03" vmax="185" vmaxr="185" electrification="electrified">
+			<vzg index="9" vmax="121" vmaxr="121"/>
+		</link>
+		<link source="2023" target="2003" length="21" gradient="3.03" vmax="185" vmaxr="185" electrification="electrified">
+			<vzg index="9" vmax="121" vmaxr="121"/>
+		</link>
+		<link source="2024" target="2035" length="2" gradient="3.03" vmax="185" vmaxr="185" electrification="electrified">
+			<vzg index="9" vmax="121" vmaxr="121"/>
+		</link>
+		<link source="2025" target="2024" length="1" gradient="3.03" vmax="185" vmaxr="185" electrification="electrified">
+			<vzg index="9" vmax="121" vmaxr="121"/>
+		</link>
+		<link source="2026" target="2015" length="16" gradient="-3.03" vmax="40" vmaxr="40" electrification="electrified"/>
+		<link source="2027" target="2018" length="16" gradient="-3.03" vmax="185" vmaxr="185" electrification="electrified">
+			<vzg index="9" vmax="121" vmaxr="121"/>
+		</link>
+		<link source="2028" target="2007" length="58" gradient="-3.03" vmax="185" vmaxr="185" electrification="electrified">
+			<vzg index="9" vmax="121" vmaxr="121"/>
+		</link>
+		<link source="2029" target="4055" length="8" gradient="4.167" vmax="185" vmaxr="185" electrification="electrified">
+			<vzg index="9" vmax="121" vmaxr="121"/>
+		</link>
+		<link source="2030" target="2012" length="181" gradient="4.167" vmax="185" vmaxr="185" electrification="electrified">
+			<vzg index="9" vmax="121" vmaxr="121"/>
+		</link>
+		<link source="2031" target="2036" length="237" gradient="4.167" vmax="185" vmaxr="185" electrification="electrified">
+			<vzg index="9" vmax="121" vmaxr="121"/>
+		</link>
+		<link source="2032" target="2033" length="1" gradient="-3.03" vmax="185" vmaxr="185" electrification="electrified">
+			<vzg index="9" vmax="121" vmaxr="121"/>
+		</link>
+		<link source="2033" target="2006" length="39" gradient="-3.03" vmax="185" vmaxr="185" electrification="electrified">
+			<vzg index="9" vmax="121" vmaxr="121"/>
+		</link>
+		<link source="2034" target="2010" length="155" gradient="-3.03" vmax="185" vmaxr="185" electrification="electrified">
+			<vzg index="9" vmax="121" vmaxr="121"/>
+		</link>
+		<link source="2035" target="2028" length="80" gradient="3.03" vmax="185" vmaxr="185" electrification="electrified">
+			<vzg index="9" vmax="121" vmaxr="121"/>
+		</link>
+		<link source="2036" target="1782" length="144" gradient="4.167" vmax="185" vmaxr="185" electrification="electrified">
+			<vzg index="9" vmax="121" vmaxr="121"/>
+		</link>
+		<link source="2037" target="2013" length="1" gradient="-3.03" vmax="185" vmaxr="185" electrification="electrified">
+			<vzg index="9" vmax="121" vmaxr="121"/>
+		</link>
+		<link source="2038" target="2039" length="1" gradient="-3.03" vmax="40" vmaxr="40" electrification="electrified"/>
+		<link source="2039" target="2040" length="94" gradient="-3.03" vmax="40" vmaxr="40" electrification="electrified"/>
+		<link source="2040" target="2045" length="1" gradient="-3.03" vmax="64" vmaxr="64" bidirectional="true" electrification="electrified"/>
+		<link source="2040" target="4053" length="44" gradient="-3.03" vmax="40" vmaxr="40" electrification="electrified"/>
+		<link source="2041" target="2047" length="11" gradient="4.167" vmax="40" vmaxr="40" electrification="electrified"/>
+		<link source="2042" target="2062" length="1" gradient="4.167" vmax="185" vmaxr="185" electrification="electrified">
+			<vzg index="9" vmax="121" vmaxr="121"/>
+		</link>
+		<link source="2043" target="2048" length="18" gradient="4.167" vmax="64" vmaxr="64" bidirectional="true" electrification="electrified"/>
+		<link source="2045" target="2056" length="30" gradient="-3.03" vmax="64" vmaxr="64" bidirectional="true" electrification="electrified"/>
+		<link source="2047" target="2063" length="170" gradient="4.167" vmax="40" vmaxr="40" electrification="electrified"/>
+		<link source="2048" target="2049" length="63" gradient="4.167" vmax="64" vmaxr="64" electrification="electrified"/>
+		<link source="2048" target="2051" length="75" gradient="4.167" vmax="64" vmaxr="64" electrification="electrified"/>
+		<link source="2049" target="2050" length="12" gradient="4.167" vmax="64" vmaxr="64" electrification="electrified"/>
+		<link source="2050" target="2052" length="1" gradient="4.167" vmax="64" vmaxr="64" electrification="electrified"/>
+		<link source="2051" target="2053" length="1" gradient="4.167" vmax="64" vmaxr="64" electrification="electrified"/>
+		<link source="2052" target="2064" length="87" gradient="4.167" vmax="64" vmaxr="64" electrification="electrified"/>
+		<link source="2053" target="2055" length="81" gradient="4.167" vmax="64" vmaxr="64" electrification="electrified"/>
+		<link source="2054" target="2044" length="23" gradient="4.167" vmax="64" vmaxr="64" electrification="electrified"/>
+		<link source="2055" target="2054" length="183" gradient="4.167" vmax="64" vmaxr="64" electrification="electrified"/>
+		<link source="2056" target="2057" length="33" gradient="-3.03" vmax="64" vmaxr="64" bidirectional="true" electrification="electrified"/>
+		<link source="2057" target="2043" length="9" gradient="-3.03" vmax="64" vmaxr="64" bidirectional="true" electrification="electrified"/>
+		<link source="2058" target="2059" length="1" gradient="4.167" vmax="40" vmaxr="40" electrification="electrified"/>
+		<link source="2059" target="2060" length="59" gradient="4.167" vmax="40" vmaxr="40" electrification="electrified"/>
+		<link source="2060" target="2061" length="46" gradient="4.167" vmax="40" vmaxr="40" electrification="electrified"/>
+		<link source="2061" target="2029" length="1" gradient="4.167" vmax="185" vmaxr="185" electrification="electrified"/>
+		<link source="2062" target="2029" length="39" gradient="4.167" vmax="185" vmaxr="185" electrification="electrified">
+			<vzg index="9" vmax="121" vmaxr="121"/>
+		</link>
+		<link source="2063" target="2058" length="75" gradient="4.167" vmax="40" vmaxr="40" electrification="electrified"/>
+		<link source="2064" target="2046" length="200" gradient="4.167" vmax="64" vmaxr="64" electrification="electrified"/>
+		<link source="2065" target="2105" length="125" gradient="4.167" vmax="185" vmaxr="185" electrification="electrified">
+			<vzg index="9" vmax="121" vmaxr="121"/>
+		</link>
+		<link source="2096" target="2099" length="48" gradient="4.167" vmax="185" vmaxr="185" electrification="electrified">
+			<vzg index="9" vmax="121" vmaxr="121"/>
+		</link>
+		<link source="2097" target="2096" length="1" gradient="4.167" vmax="185" vmaxr="185" electrification="electrified">
+			<vzg index="9" vmax="121" vmaxr="121"/>
+		</link>
+		<link source="2098" target="68" length="5" gradient="4.167" vmax="185" vmaxr="185" electrification="electrified">
+			<vzg index="9" vmax="121" vmaxr="121"/>
+		</link>
+		<link source="2098" target="2102" length="1" gradient="4.167" vmax="185" vmaxr="185" electrification="electrified">
+			<vzg index="9" vmax="75" vmaxr="75"/>
+		</link>
+		<link source="2099" target="2065" length="32" gradient="4.167" vmax="185" vmaxr="185" electrification="electrified">
+			<vzg index="9" vmax="121" vmaxr="121"/>
+		</link>
+		<link source="2100" target="2101" length="1" gradient="4.167" vmax="40" vmaxr="40" electrification="electrified"/>
+		<link source="2101" target="2103" length="19" gradient="4.167" vmax="40" vmaxr="40" electrification="electrified"/>
+		<link source="2102" target="2100" length="22" gradient="4.167" vmax="40" vmaxr="40" electrification="electrified"/>
+		<link source="2103" target="2099" length="1" gradient="4.167" vmax="185" vmaxr="185" electrification="electrified"/>
+		<link source="2104" target="2111" length="3" gradient="4.167" vmax="185" vmaxr="185" electrification="electrified">
+			<vzg index="9" vmax="121" vmaxr="121"/>
+		</link>
+		<link source="2105" target="2104" length="1" gradient="4.167" vmax="185" vmaxr="185" electrification="electrified">
+			<vzg index="9" vmax="121" vmaxr="121"/>
+		</link>
+		<link source="2111" target="2107" length="52" gradient="4.167" vmax="185" vmaxr="185" electrification="electrified">
+			<vzg index="9" vmax="121" vmaxr="121"/>
+		</link>
+		<link source="2115" target="2184" vmax="16" vmaxr="16" electrification="electrified"/>
+		<link source="2182" target="1999" vmax="16" vmaxr="16" electrification="electrified"/>
+		<link source="2184" target="2182" length="1" vmax="16" vmaxr="16" electrification="electrified"/>
+		<link source="2185" target="1975" length="42" vmax="24" vmaxr="24" electrification="electrified"/>
+		<link source="2208" target="2376" vmax="24" vmaxr="24" electrification="electrified"/>
+		<link source="2211" target="2185" vmax="24" vmaxr="24" electrification="electrified"/>
+		<link source="2376" target="2211" length="1" vmax="24" vmaxr="24" electrification="electrified"/>
+		<link source="4047" target="4048" length="1" gradient="-5" vmax="64" vmaxr="64" electrification="electrified"/>
+		<link source="4048" target="1846" length="49" gradient="-5" vmax="64" vmaxr="64" electrification="electrified"/>
+		<link source="4049" target="4050" length="1" vmax="24" vmaxr="24" electrification="electrified"/>
+		<link source="4050" target="1984" length="7" vmax="24" vmaxr="24" electrification="electrified"/>
+		<link source="4051" target="4052" length="1" gradient="3.03" vmax="24" vmaxr="24" electrification="electrified"/>
+		<link source="4052" target="1954" length="59" gradient="3.03" vmax="24" vmaxr="24" electrification="electrified"/>
+		<link source="4053" target="4054" length="1" gradient="-3.03" vmax="40" vmaxr="40" electrification="electrified"/>
+		<link source="4054" target="2041" length="28" gradient="-3.03" vmax="40" vmaxr="40" electrification="electrified"/>
+		<link source="4055" target="4056" length="1" gradient="4.167" vmax="185" vmaxr="185" electrification="electrified">
+			<vzg index="9" vmax="121" vmaxr="121"/>
+		</link>
+		<link source="4056" target="1781" length="9" gradient="4.167" vmax="185" vmaxr="185" electrification="electrified">
+			<vzg index="9" vmax="121" vmaxr="121"/>
+		</link>
+		<link source="4057" target="4058" length="1" gradient="4.167" vmax="185" vmaxr="185" electrification="electrified">
+			<vzg index="9" vmax="121" vmaxr="121"/>
+		</link>
+		<link source="4058" target="1891" length="59" gradient="4.167" vmax="185" vmaxr="185" electrification="electrified">
+			<vzg index="9" vmax="121" vmaxr="121"/>
+		</link>
+		<link source="4072" target="1914" length="1" vmax="16" vmaxr="16" electrification="electrified"/>
+		<link source="4073" target="1967" length="40" vmax="8" vmaxr="8" electrification="electrified"/>
+		<link source="10713" target="1925" length="66" gradient="-5" vmax="185" vmaxr="185" electrification="electrified">
+			<vzg index="9" vmax="121" vmaxr="121"/>
+		</link>
+	</links>
+	<dependentLinks>
+		<dependentLink source="2055" target="2054" direction="opposite" mode="and" active="true" waitingPeriod="0">
+			<link source="1934" target="1906" direction="in"/>
+			<link source="1951" target="2208" direction="in"/>
+			<link source="1975" target="1952" direction="in"/>
+			<link source="2185" target="1975" direction="in"/>
+			<link source="2208" target="2376" direction="in"/>
+			<link source="2211" target="2185" direction="in"/>
+			<link source="2376" target="2211" direction="in"/>
+		</dependentLink>
+	</dependentLinks>
+	<blockSections>
+		<blocksection uuid="{0073c910-4c38-4138-b30c-74ceb8ea5c96}" lines="bark">
+			<part nodes="1932 1935 1936 1938 1937 1939 1949 1950 1948 1953 1951 2208 2376 2211 2185 1975 1952"/>
+		</blocksection>
+		<blocksection uuid="{01df6580-9d9a-4d8e-8f86-a16b01fa69c8}" lines="bark" speedIndicators="1979">
+			<part nodes="2208 2376 2211 2185 1975 1952 1962 1963 1973 4049 4050 1984 1977 1998 1976 4051 4052 1954 1988 1979 1994 1995 1996 2020 1997 2016 2014"/>
+		</blocksection>
+		<blocksection uuid="{0e7ca0ac-96b1-4841-8335-a074dc77951c}" lines="bark" speedIndicators="1970 1979 1980">
+			<part nodes="1996 1995 1994 1979 1988 1954 4052 4051 1976 1998 1977 1984 4050 4049 1973 1974 1972 1991 1990 1980 1964 1970 1971 1968 1967 4073 1966"/>
+		</blocksection>
+		<blocksection uuid="{0ebb0aa3-60cf-43fa-9ad9-905434146749}" lines="bark ln101">
+			<part nodes="2017 2022 2023 2003 2027 2018 2032 2033 2006 2009 2030 2012 2042 2062 2029 4055 4056 1781 1824 2098 68 4057 4058 1891 2106"/>
+		</blocksection>
+		<blocksection uuid="{10d660ed-13ee-4a04-b882-4dc5fd292fbf}" lines="bark">
+			<part nodes="2185 2211 2376 2208 1951 1953 1948 1950 1949 1939"/>
+		</blocksection>
+		<blocksection uuid="{14116f1b-dcf2-4274-bea3-9dcb2332cd6d}" lines="bark" speedIndicators="1979">
+			<part nodes="1996 1995 1994 1979 1988 1954 4052 4051 1976 1998 1977 1984 4050 4049 1973 1963 1962 1952 1975 2185"/>
+		</blocksection>
+		<blocksection uuid="{25965b18-4ac3-49fd-acd9-13a0c17eec09}" lines="bark ln101" speedIndicators="1902 1903 1919 1922">
+			<part nodes="1939 1937 1938 1936 1935 1932 1906 1934 1940 1905 1924 1923 1919 1918 1920 1922 1917 1852 1903 1989 1909 1901 1900 1907 1902 1899 1890 46 1886 1885 1881 1842"/>
+		</blocksection>
+		<blocksection uuid="{26f4defd-ad34-471b-8307-cc23f712575e}" lines="bark ln101" speedIndicators="1922">
+			<part nodes="1841 1887 1888 2021 1844 1855 1858 47 1852 1917 1922 1920 1927 1921 1929 1928 1926 1981 1910 1911 1983 1955"/>
+		</blocksection>
+		<blocksection uuid="{2bf405bb-43a6-4f02-a481-dd6629578e37}" lines="bark ln101" speedIndicators="1892 1902 1903 1922 2011">
+			<part nodes="1926 1928 1929 1921 1927 1920 1922 1917 1852 1903 1989 1909 1901 1900 1907 1902 1899 1890 1892 1896 1894 1893 2011 1889 45 1884 1883 1882 1845 1843"/>
+		</blocksection>
+		<blocksection uuid="{3201bb92-3866-4bd7-b97f-ccaaf9a3ef83}" lines="bark ln101" speedIndicators="1892 1902 1903 1919 1922 2011">
+			<part nodes="1939 1937 1938 1936 1935 1932 1906 1934 1940 1905 1924 1923 1919 1918 1920 1922 1917 1852 1903 1989 1909 1901 1900 1907 1902 1899 1890 1892 1896 1894 1893 2011 1889 45 1884 1883 1882 1845 1843"/>
+		</blocksection>
+		<blocksection uuid="{35aa79ce-04d3-4296-ab3e-ca0629e6d674}" lines="bark ln195">
+			<part nodes="2044 2054"/>
+		</blocksection>
+		<blocksection uuid="{3da19121-d4aa-4690-9f73-561c03a47181}" lines="bark ln101" speedIndicators="1919 1922">
+			<part nodes="1841 1887 1888 2021 1844 1855 1858 47 1852 1917 1922 1920 1918 1919 1923 1924 1905 1940 1934 1906 1932"/>
+		</blocksection>
+		<blocksection uuid="{404132e2-a20c-4125-9140-0b37fd5f5db5}" lines="bark" speedIndicators="1979 1986">
+			<part nodes="1996 1995 1994 1979 1988 1954 4052 4051 1976 1986 1987 1978 1969 1961 1960 1959 1914 4072 1999 2182 2184 2115 1985 1933"/>
+		</blocksection>
+		<blocksection uuid="{45148d6c-6390-4591-8df4-124743ea5b06}" lines="bark">
+			<part nodes="1933 1985 2115"/>
+		</blocksection>
+		<blocksection uuid="{5021a314-ef9b-49d0-b49d-6f0502076834}" lines="bark" shuntingBlock="true">
+			<part nodes="1898 1849 1895 1897"/>
+		</blocksection>
+		<blocksection uuid="{5076bb21-d94a-4bd3-a933-a8e78b6b77ef}" lines="bark" speedIndicators="1908">
+			<part nodes="2034 2013 2037 2007 2028 2035 2024 2025 2004 2001 1908 1860 1992 1993 1945 1965 1982 1904 1857 1854 1944"/>
+		</blocksection>
+		<blocksection uuid="{58c45f84-577e-4851-8bbb-4a7d6053ac71}" lines="bark">
+			<part nodes="1999 4072 1914 1959"/>
+		</blocksection>
+		<blocksection uuid="{59664ca6-28a7-4571-bc7a-d44320ebcdbf}" lines="bark">
+			<part nodes="2054 2055 2053 2051 2048 2043 2057 2056 2045 2040 2039 2038 2005 2015 2026 2002 2014 2016 1997 2020 1996"/>
+		</blocksection>
+		<blocksection uuid="{5e845551-0dac-4893-9ba9-0436651ce8e8}" lines="bark ln101" speedIndicators="2061">
+			<part nodes="2014 2002 2026 2015 2005 2038 2039 2040 4053 4054 2041 2047 2063 2058 2059 2060 2061 2029 4055 4056 1781 1824 2098 68 4057 4058 1891 2106"/>
+		</blocksection>
+		<blocksection uuid="{6278b0be-7477-4009-b9f2-6cb2fb548c0f}" lines="bark" speedIndicators="1979 1980">
+			<part nodes="1955 1957 1958 1913 1964 1980 1990 1991 1972 1974 1973 4049 4050 1984 1977 1998 1976 4051 4052 1954 1988 1979 1994 1995 1996 2020 1997 2016 2014"/>
+		</blocksection>
+		<blocksection uuid="{67af2221-6829-4d44-ac62-f8ab9a4b67f0}" lines="bark" shuntingBlock="true" speedIndicators="1892 1902 1903 1922 2011">
+			<part nodes="1882 1883 1884 45 1889 2011 1893 1894 1896 1892 1890 1899 1902 1907 1900 1901 1909 1989 1903 1852 1917 1922 1920 1918 1919 1923 1924 1905 1940 1934 1906 1932"/>
+		</blocksection>
+		<blocksection uuid="{70d29145-328b-4099-b143-20c04986838d}" lines="bark" shuntingBlock="true" speedIndicators="1902 1903 1919 1922">
+			<part nodes="1881 1885 1886 46 1890 1899 1902 1907 1900 1901 1909 1989 1903 1852 1917 1922 1920 1918 1919 1923 1924 1905 1940 1934 1906 1932"/>
+		</blocksection>
+		<blocksection uuid="{72fb41d1-2e2c-4494-af94-5ae17e92a670}" lines="bark ln101" shuntingBlock="true">
+			<part nodes="1842 1881"/>
+		</blocksection>
+		<blocksection uuid="{7cd64c6f-31ca-494c-a6a3-9f347e970a98}" lines="bark" speedIndicators="1979">
+			<part nodes="1952 1962 1963 1973 4049 4050 1984 1977 1998 1976 4051 4052 1954 1988 1979 1994 1995 1996 2020 1997 2016 2014"/>
+		</blocksection>
+		<blocksection uuid="{7d8c19e7-d0b0-4f54-ba8e-7dea6d8899ee}" lines="bark" speedIndicators="1979 1980">
+			<part nodes="1996 1995 1994 1979 1988 1954 4052 4051 1976 1998 1977 1984 4050 4049 1973 1974 1972 1991 1990 1980 1964 1913 1958 1957 1955 1983 1911 1910 1981 1926"/>
+		</blocksection>
+		<blocksection uuid="{82946fac-cf28-4eb6-b516-e27a8e8617cc}" lines="bark" speedIndicators="1979">
+			<part nodes="1996 1995 1994 1979 1988 1954 4052 4051 1976 1998 1977 1984 4050 4049 1973 1963 1962 1952 1975 2185 2211 2376 2208 1951 1953 1948 1950 1949 1939"/>
+		</blocksection>
+		<blocksection uuid="{85b43457-e510-46a9-a403-2db45b36cab4}" lines="bark" shuntingBlock="true" speedIndicators="1970 1979 1980">
+			<part nodes="1967 1968 1971 1970 1964 1980 1990 1991 1972 1974 1973 4049 4050 1984 1977 1998 1976 4051 4052 1954 1988 1979 1994 1995 1996 2020 1997 2016 2014"/>
+		</blocksection>
+		<blocksection uuid="{8c9a39de-6f7c-465e-91f8-72ea58631e8b}" lines="bark">
+			<part nodes="2185 1975 1952"/>
+		</blocksection>
+		<blocksection uuid="{92f07e60-677e-4083-a845-aa7225e48cdf}" lines="bark" speedIndicators="1979 1986">
+			<part nodes="1959 1960 1961 1969 1978 1987 1986 1976 4051 4052 1954 1988 1979 1994 1995 1996 2020 1997 2016 2014"/>
+		</blocksection>
+		<blocksection uuid="{9b4f618f-4c94-46b9-bc4e-58f63574f013}" lines="bark">
+			<part nodes="1955 1983 1911 1910 1981 1926"/>
+		</blocksection>
+		<blocksection uuid="{a050ecfa-7c18-412f-b591-44f29e7fb3ac}" lines="bark ln101" speedIndicators="1864">
+			<part nodes="1944 1942 1943 1864 1931 1916 1861 1930 1848 1899 1890 46 1886 1885 1881 1842"/>
+		</blocksection>
+		<blocksection uuid="{a230aafd-541e-4b1a-8c2f-a9c214b0adf4}" lines="bark ln101" shuntingBlock="true" speedIndicators="1892 1902 1903 2011">
+			<part nodes="1925 10713 1946 1917 1852 1903 1989 1909 1901 1900 1907 1902 1899 1890 1892 1896 1894 1893 2011 1889 45 1884 1883 1882 1845 1843"/>
+		</blocksection>
+		<blocksection uuid="{a37372a8-f468-49b7-90ca-c9dc29fb8603}" lines="bark" speedIndicators="1979 1986">
+			<part nodes="1996 1995 1994 1979 1988 1954 4052 4051 1976 1986 1987 1978 1969 1961 1960 1959 1914 4072 1999"/>
+		</blocksection>
+		<blocksection uuid="{a7656bca-3b8b-4455-bcba-2d42291e8719}" lines="bark ln101" speedIndicators="2061 2102 2103">
+			<part nodes="2107 2111 2104 2105 2065 2099 2103 2101 2100 2102 2098 1824 1781 4056 4055 2029 2061 2060 2059 2058 2063 2047 2041 4054 4053 2040 2039 2038 2005 2015 2026 2002 2014 2016 1997 2020 1996"/>
+		</blocksection>
+		<blocksection uuid="{a8d5a37e-c406-4e09-9970-5bfc47ef9adc}" lines="bark ln101" speedIndicators="1865 1915">
+			<part nodes="1841 1887 1888 2021 1844 1855 1858 47 1852 1917 1946 10713 1925 1847 1850 1865 1912 1853 1856 1941 1956 1859 2019 1915 2000 2017"/>
+		</blocksection>
+		<blocksection uuid="{ae6997cc-593f-4856-b96f-ecf1cde4ef54}" lines="bark" speedIndicators="1979 1986">
+			<part nodes="2115 2184 2182 1999 4072 1914 1959 1960 1961 1969 1978 1987 1986 1976 4051 4052 1954 1988 1979 1994 1995 1996 2020 1997 2016 2014"/>
+		</blocksection>
+		<blocksection uuid="{b02fb6a2-a1eb-4706-9b4c-a4574e34a396}" lines="bark">
+			<part nodes="1926 1981 1910 1911 1983 1955"/>
+		</blocksection>
+		<blocksection uuid="{b2d34f1b-e1de-409e-a1d5-401d542435a7}" lines="bark">
+			<part nodes="1932 1935 1936 1938 1937 1939 1949 1950 1948 1953 1951 2208"/>
+		</blocksection>
+		<blocksection uuid="{b4b85a07-b8f8-404d-84b6-3a353c0dde37}" lines="bark">
+			<part nodes="1952 1975 2185 2211 2376 2208 1951 1953 1948 1950 1949 1939"/>
+		</blocksection>
+		<blocksection uuid="{bb516b70-7cd9-4b9a-b857-adf52cf1cdd8}" lines="bark">
+			<part nodes="1939 1949 1950 1948 1953 1951 2208 2376 2211 2185 1975 1952"/>
+		</blocksection>
+		<blocksection uuid="{bc210d46-ffaa-4b66-b599-88dd0900e641}" lines="bark ln101">
+			<part nodes="2107 2111 2104 2105 2065 2099 2096 2097 1782 2036 2031 2010 2034"/>
+		</blocksection>
+		<blocksection uuid="{bd400632-b32a-4798-bf44-75c63a8ed6a3}" lines="bark" shuntingBlock="true" speedIndicators="1865 1915">
+			<part nodes="2017 2000 1915 2019 1859 1956 1941 1856 1853 1912 1865 1850 1847 1925"/>
+		</blocksection>
+		<blocksection uuid="{be8fc721-c319-432c-8a59-304273e4e21e}" lines="bark ln195">
+			<part nodes="2014 2002 2026 2015 2005 2038 2039 2040 2045 2056 2057 2043 2048 2049 2050 2052 2064 2046"/>
+		</blocksection>
+		<blocksection uuid="{bf883281-aa08-4b73-8731-fa54a244465b}" lines="bark ln101" shuntingBlock="true">
+			<part nodes="1897 1846 4048 4047 1889 45 1884 1883 1882 1845 1843"/>
+		</blocksection>
+		<blocksection uuid="{c376434f-29f1-4b28-8508-d40235c9aaf0}" lines="bark">
+			<part nodes="1933 1985 2115 2184 2182 1999 4072 1914 1959"/>
+		</blocksection>
+		<blocksection uuid="{cb16bbf4-6966-438b-8075-e63b541e949f}" lines="bark ln101" shuntingBlock="true">
+			<part nodes="1843 1845 1882"/>
+		</blocksection>
+		<blocksection uuid="{ce92c808-fbce-4c09-9eec-143d7cb83be9}" lines="bark ln101" speedIndicators="1902 1903 1922">
+			<part nodes="1926 1928 1929 1921 1927 1920 1922 1917 1852 1903 1989 1909 1901 1900 1907 1902 1899 1890 46 1886 1885 1881 1842"/>
+		</blocksection>
+		<blocksection uuid="{d54116ec-9978-4ad3-9c40-25f6a93c82d8}" lines="bark ln101" speedIndicators="1864 1892 2011">
+			<part nodes="1944 1942 1943 1864 1931 1916 1861 1930 1848 1899 1890 1892 1896 1894 1893 2011 1889 45 1884 1883 1882 1845 1843"/>
+		</blocksection>
+		<blocksection uuid="{dd51a543-ff77-4ed3-99d2-b0d66d23ea4b}" lines="bark ln101" shuntingBlock="true" speedIndicators="1902 1903">
+			<part nodes="1925 10713 1946 1917 1852 1903 1989 1909 1901 1900 1907 1902 1899 1890 46 1886 1885 1881 1842"/>
+		</blocksection>
+		<blocksection uuid="{deed0b0a-8273-4f39-8d87-0eeada04ab5c}" lines="bark">
+			<part nodes="2208 1951 1953 1948 1950 1949 1939"/>
+		</blocksection>
+	</blockSections>
+	<slipDistances>
+		<slipdistance uuid="{06a0107e-20fb-4572-8908-639ed956eabb}" vmax="999" lines="bark" serialNumber="0">
+			<part nodes="1996 1995 1994 1979 1988 1954 4052 4051 1976 1998"/>
+		</slipdistance>
+		<slipdistance uuid="{112a288f-5f99-40bf-a780-84d90a627907}" vmax="24" lines="bark" serialNumber="0">
+			<part nodes="2185 2211 2376"/>
+		</slipdistance>
+		<slipdistance uuid="{1245f93b-2484-4649-a5bd-0fe56a6ecae0}" vmax="999" lines="bark" serialNumber="0">
+			<part nodes="2054 2055"/>
+		</slipdistance>
+		<slipdistance uuid="{1dc18b8b-ec0d-41de-805e-1b21c74d7f48}" vmax="999" lines="bark ln101" serialNumber="0">
+			<part nodes="1841 1887 1888 2021"/>
+		</slipdistance>
+		<slipdistance uuid="{2470e76c-7c77-4728-b08f-b20b5787d1cf}" vmax="24" lines="bark" serialNumber="0">
+			<part nodes="1999 2182 2184"/>
+		</slipdistance>
+		<slipdistance uuid="{2d6bcfff-f548-481a-8986-c0ac7ca3c8df}" vmax="999" lines="bark" serialNumber="1">
+			<part nodes="1959 1960 1961 1969 1978 1987"/>
+		</slipdistance>
+		<slipdistance uuid="{2efcceeb-4974-4230-8202-c0fde284ca6c}" vmax="999" lines="bark" serialNumber="0">
+			<part nodes="1955 1957 1958 1913 1964 1980 1990 1991 1972 1974 1973 4049 4050 1984"/>
+		</slipdistance>
+		<slipdistance uuid="{3347e53c-ff25-4718-8f9e-e5d66f1a262e}" vmax="999" lines="bark" serialNumber="1">
+			<part nodes="1926 1928 1929 1921 1927"/>
+		</slipdistance>
+		<slipdistance uuid="{37569859-ef31-4cda-b499-fb4f381cfef6}" vmax="999" lines="bark" serialNumber="0">
+			<part nodes="1939 1937 1938 1936 1935 1932 1906 1934 1940"/>
+		</slipdistance>
+		<slipdistance uuid="{5022b43c-3f88-4b36-afaa-f35d6b1a43bb}" vmax="999" lines="bark" serialNumber="0">
+			<part nodes="1944 1942 1943 1864 1931 1916 1861 1930"/>
+		</slipdistance>
+		<slipdistance uuid="{5d5da243-a1c5-41fb-aff1-c84f4d5867b0}" vmax="999" lines="bark" serialNumber="0">
+			<part nodes="2014 2002 2026 2015"/>
+		</slipdistance>
+		<slipdistance uuid="{6c199b34-791f-4e6e-82ff-65b7aff3f280}" vmax="999" lines="bark" serialNumber="0">
+			<part nodes="1959 1960 1961 1969 1978 1987 1986 1976 4051 4052 1954 1988"/>
+		</slipdistance>
+		<slipdistance uuid="{6e371d02-d477-43b2-962a-aec26c217263}" vmax="24" lines="bark" serialNumber="0">
+			<part nodes="2208 2376 2211"/>
+		</slipdistance>
+		<slipdistance uuid="{b45edbd4-957e-4104-b7a3-de994cc779ba}" vmax="999" lines="bark ln101" serialNumber="0">
+			<part nodes="2107 2111"/>
+		</slipdistance>
+		<slipdistance uuid="{c6cf7d34-1fcc-481d-9dfc-2b65ec634163}" vmax="999" lines="bark" serialNumber="1">
+			<part nodes="1955 1957 1958 1913 1964 1980 1990 1991 1972 1974"/>
+		</slipdistance>
+		<slipdistance uuid="{d464bd89-0f01-4a9f-b0c8-438125c66f11}" vmax="999" lines="bark" serialNumber="0">
+			<part nodes="1932 1935 1936 1938 1937 1939 1949 1950 1948 1953 1951"/>
+		</slipdistance>
+		<slipdistance uuid="{dbdcb42f-ac8a-4ff5-829f-259ddd6502b9}" vmax="999" lines="bark" serialNumber="0">
+			<part nodes="1952 1962 1963 1973 4049 4050 1984 1977 1998 1976 4051 4052 1954"/>
+		</slipdistance>
+		<slipdistance uuid="{e7990bb7-402d-4b35-86fe-d3c61591f4fd}" vmax="24" lines="bark" serialNumber="0">
+			<part nodes="2115 2184 2182"/>
+		</slipdistance>
+		<slipdistance uuid="{e8c376c6-4c89-4bbb-911c-c91313316744}" vmax="999" lines="bark" serialNumber="0">
+			<part nodes="2017 2022 2023 2003 2027 2018"/>
+		</slipdistance>
+		<slipdistance uuid="{fbecac42-881d-4943-8871-b359b7084a8f}" vmax="999" lines="bark" serialNumber="0">
+			<part nodes="1926 1928 1929 1921 1927 1920 1922 1917 1852 1903 1989 1909"/>
+		</slipdistance>
+		<slipdistance uuid="{ff54dc9e-5683-4e2f-ae8a-cedd588ceab6}" vmax="999" lines="bark" serialNumber="0">
+			<part nodes="2034 2013 2037 2007 2028 2035"/>
+		</slipdistance>
+	</slipDistances>
+	<approachControlRoutes>
+		<ACRoute controlTyp="mar" uuid="{44dadc83-7578-4962-89dd-f3685ca1ed43}" publicName="MAR" description="D13-D17" lines="bark ln101">
+			<part nodes="1841 1887 1888 2021 1844 1855 1858 47 1852 1917 1922 1920 1927 1921 1929 1928 1926 1981 1910 1911 1983 1955"/>
+		</ACRoute>
+		<ACRoute controlTyp="mar" uuid="{9cb8aaf6-1d49-4ceb-ac36-06d3ff483558}" publicName="SIG D24 MAR" lines="bark">
+			<part nodes="1996 1995 1994 1979 1988 1954 4052 4051 1976 1986 1987 1978 1969 1961 1960 1959 1914 4072 1999 2182 2184 2115 1985 1933"/>
+		</ACRoute>
+		<ACRoute controlTyp="mar" uuid="{b03a9a73-6dbd-4aff-ae5b-92f197bca549}" publicName="MAR" lines="bark ln101">
+			<part nodes="1944 1942 1943 1864 1931 1916 1861 1930 1848 1899 1890 1892 1896 1894 1893 2011 1889 45 1884 1883 1882 1845 1843"/>
+		</ACRoute>
+		<ACRoute controlTyp="mar" uuid="{edda4295-ba99-46d6-b6e6-1c63b240db26}" publicName="SIG D28 MAR" lines="bark ln101">
+			<part nodes="2107 2111 2104 2105 2065 2099 2103 2101 2100 2102 2098 1824 1781 4056 4055 2029 2061 2060 2059 2058 2063 2047 2041 4054 4053 2040 2039 2038 2005 2015 2026 2002 2014 2016 1997 2020 1996"/>
+		</ACRoute>
+		<ACRoute controlTyp="mar" uuid="{f782b1c6-385d-493f-9e42-d2366892e1a3}" publicName="MAR" description="D13-D15" lines="bark ln101">
+			<part nodes="1841 1887 1888 2021 1844 1855 1858 47 1852 1917 1922 1920 1918 1919 1923 1924 1905 1940 1934 1906 1932"/>
+		</ACRoute>
+	</approachControlRoutes>
+	<stationRoutes>
+		<stationRoute stationID="GTHM" name="[BRKSTSJ]-[ln101/1]-[1-5]-[BRKSTSJ]-[ln101/2] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=60;NRz=60;S=60;Rz=60;FGz=60;NGz=60;Gz=60;Lz=60;Unbekannt=60" nodes="2065 2099 2103 2101 2100 2102 2098 1824 1781 4056 4055 2029 2061 2060 2059 2058 2063 2047 2041 4054 4053 2040 2039 2038 2005 2015 2026 2002 2014 2016 1997 2020 1996 1995 1994 1979 1988 1954 4052 4051 1976 1998 1977 1984 4050 4049 1973 1974 1972 1991 1990 1980 1964 1913 1958 1957 1955 1983 1911 1910 1981 1926 1981 1910 1911 1983 1955 1957 1958 1913 1964 1980 1990 1991 1972 1974 1973 4049 4050 1984 1977 1998 1976 4051 4052 1954 1988 1979 1994 1995 1996 2020 1997 2016 2014 2002 2026 2015 2005 2038 2039 2040 4053 4054 2041 2047 2063 2058 2059 2060 2061 2029 4055 4056 1781 1824 2098 68"/>
+		<stationRoute stationID="GTHM" name="[BRKSTSJ]-[ln101/1]-[1-5]-[TONOTT]-[ln101/4] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=70;NRz=70;S=70;Rz=70;FGz=70;NGz=70;Gz=70;Lz=70;Unbekannt=70" nodes="2065 2099 2103 2101 2100 2102 2098 1824 1781 4056 4055 2029 2061 2060 2059 2058 2063 2047 2041 4054 4053 2040 2039 2038 2005 2015 2026 2002 2014 2016 1997 2020 1996 1995 1994 1979 1988 1954 4052 4051 1976 1998 1977 1984 4050 4049 1973 1974 1972 1991 1990 1980 1964 1913 1958 1957 1955 1983 1911 1910 1981 1926 1981 1910 1911 1983 1955 1957 1958 1913 1964 1980 1990 1991 1972 1974 1973 4049 4050 1984 1977 1998 1976 4051 4052 1954 1988 1979 1994 1995 1996 2020 1997 2016 2014 2002 2026 2015 2005 2038 2039 2040 2045 2056"/>
+		<stationRoute stationID="GTHM" name="[BRKSTSJ]-[ln101/1]-[1]-[HGHDJN]-[ln101/1] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=90;NRz=90;S=90;Rz=90;FGz=90;NGz=90;Gz=90;Lz=90;Unbekannt=90" nodes="2065 2099 2096 2097 1782 2036 2031 2010 2034 2013 2037 2007 2028 2035 2024 2025 2004 2001 1908 1860 1992 1993 1945 1965 1982 1904 1857 1854 1944 1942 1943 1864 1931 1916 1861 1930 1848 1899 1890 1892 1896 1894 1893 2011 1889 45"/>
+		<stationRoute stationID="GTHM" name="[BRKSTSJ]-[ln101/1]-[1]-[HGHDJN]-[ln101/2] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="2065 2099 2096 2097 1782 2036 2031 2010 2034 2013 2037 2007 2028 2035 2024 2025 2004 2001 1908 1860 1992 1993 1945 1965 1982 1904 1857 1854 1944 1942 1943 1864 1931 1916 1861 1930 1848 1899 1890 46"/>
+		<stationRoute stationID="GTHM" name="[BRKSTSJ]-[ln101/1]-[3]-[BRKSTSJ]-[ln101/2] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=60;NRz=60;S=60;Rz=60;FGz=60;NGz=60;Gz=60;Lz=60;Unbekannt=60" nodes="2065 2099 2103 2101 2100 2102 2098 1824 1781 4056 4055 2029 2061 2060 2059 2058 2063 2047 2041 4054 4053 2040 2039 2038 2005 2015 2026 2002 2014 2016 1997 2020 1996 1995 1994 1979 1988 1954 4052 4051 1976 1986 1987 1978 1969 1961 1960 1959 1914 4072 1999 2182 2184 2115 1985 1933 1985 2115 2184 2182 1999 4072 1914 1959 1960 1961 1969 1978 1987 1986 1976 4051 4052 1954 1988 1979 1994 1995 1996 2020 1997 2016 2014 2002 2026 2015 2005 2038 2039 2040 4053 4054 2041 2047 2063 2058 2059 2060 2061 2029 4055 4056 1781 1824 2098 68"/>
+		<stationRoute stationID="GTHM" name="[BRKSTSJ]-[ln101/1]-[3]-[TONOTT]-[ln101/4] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=70;NRz=70;S=70;Rz=70;FGz=70;NGz=70;Gz=70;Lz=70;Unbekannt=70" nodes="2065 2099 2103 2101 2100 2102 2098 1824 1781 4056 4055 2029 2061 2060 2059 2058 2063 2047 2041 4054 4053 2040 2039 2038 2005 2015 2026 2002 2014 2016 1997 2020 1996 1995 1994 1979 1988 1954 4052 4051 1976 1986 1987 1978 1969 1961 1960 1959 1914 4072 1999 2182 2184 2115 1985 1933 1985 2115 2184 2182 1999 4072 1914 1959 1960 1961 1969 1978 1987 1986 1976 4051 4052 1954 1988 1979 1994 1995 1996 2020 1997 2016 2014 2002 2026 2015 2005 2038 2039 2040 2045 2056"/>
+		<stationRoute stationID="GTHM" name="[BRKSTSJ]-[ln101/1]-[3]-[]-[?/] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=75;NRz=75;S=75;Rz=75;FGz=75;NGz=75;Gz=75;Lz=75;Unbekannt=75" nodes="2065 2099 2103 2101 2100 2102 2098 1824 1781 4056 4055 2029 2061 2060 2059 2058 2063 2047 2041 4054 4053 2040 2039 2038 2005 2015 2026 2002 2014 2016 1997 2020 1996 1995 1994 1979 1988 1954 4052 4051 1976 1986 1987 1978 1969 1961 1960 1959 1914 4072 1999 2182 2184 2115 1985 1933 51"/>
+		<stationRoute stationID="GTHM" name="[BRKSTSJ]-[ln101/1]-[4]-[HGHDJN]-[ln101/1] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=55;NRz=55;S=55;Rz=55;FGz=55;NGz=55;Gz=55;Lz=55;Unbekannt=55" nodes="2065 2099 2103 2101 2100 2102 2098 1824 1781 4056 4055 2029 2061 2060 2059 2058 2063 2047 2041 4054 4053 2040 2039 2038 2005 2015 2026 2002 2014 2016 1997 2020 1996 1995 1994 1979 1988 1954 4052 4051 1976 1998 1977 1984 4050 4049 1973 1963 1962 1952 1975 2185 2211 2376 2208 1951 1953 1948 1950 1949 1939 1937 1938 1936 1935 1932 1906 1934 1940 1905 1924 1923 1919 1918 1920 1922 1917 1852 1903 1989 1909 1901 1900 1907 1902 1899 1890 1892 1896 1894 1893 2011 1889 45"/>
+		<stationRoute stationID="GTHM" name="[BRKSTSJ]-[ln101/1]-[4]-[HGHDJN]-[ln101/2] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=65;NRz=65;S=65;Rz=65;FGz=65;NGz=65;Gz=65;Lz=65;Unbekannt=65" nodes="2065 2099 2103 2101 2100 2102 2098 1824 1781 4056 4055 2029 2061 2060 2059 2058 2063 2047 2041 4054 4053 2040 2039 2038 2005 2015 2026 2002 2014 2016 1997 2020 1996 1995 1994 1979 1988 1954 4052 4051 1976 1998 1977 1984 4050 4049 1973 1963 1962 1952 1975 2185 2211 2376 2208 1951 1953 1948 1950 1949 1939 1937 1938 1936 1935 1932 1906 1934 1940 1905 1924 1923 1919 1918 1920 1922 1917 1852 1903 1989 1909 1901 1900 1907 1902 1899 1890 46"/>
+		<stationRoute stationID="GTHM" name="[BRKSTSJ]-[ln101/1]-[5]-[HGHDJN]-[ln101/1] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=45;NRz=45;S=45;Rz=45;FGz=45;NGz=45;Gz=45;Lz=45;Unbekannt=45" nodes="2065 2099 2103 2101 2100 2102 2098 1824 1781 4056 4055 2029 2061 2060 2059 2058 2063 2047 2041 4054 4053 2040 2039 2038 2005 2015 2026 2002 2014 2016 1997 2020 1996 1995 1994 1979 1988 1954 4052 4051 1976 1998 1977 1984 4050 4049 1973 1974 1972 1991 1990 1980 1964 1913 1958 1957 1955 1983 1911 1910 1981 1926 1928 1929 1921 1927 1920 1922 1917 1852 1903 1989 1909 1901 1900 1907 1902 1899 1890 1892 1896 1894 1893 2011 1889 45"/>
+		<stationRoute stationID="GTHM" name="[BRKSTSJ]-[ln101/1]-[5]-[HGHDJN]-[ln101/2] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=55;NRz=55;S=55;Rz=55;FGz=55;NGz=55;Gz=55;Lz=55;Unbekannt=55" nodes="2065 2099 2103 2101 2100 2102 2098 1824 1781 4056 4055 2029 2061 2060 2059 2058 2063 2047 2041 4054 4053 2040 2039 2038 2005 2015 2026 2002 2014 2016 1997 2020 1996 1995 1994 1979 1988 1954 4052 4051 1976 1998 1977 1984 4050 4049 1973 1974 1972 1991 1990 1980 1964 1913 1958 1957 1955 1983 1911 1910 1981 1926 1928 1929 1921 1927 1920 1922 1917 1852 1903 1989 1909 1901 1900 1907 1902 1899 1890 46"/>
+		<stationRoute stationID="GTHM" name="[BRKSTSJ]-[ln101/1]-[6]-[]-[?/] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=70;NRz=70;S=70;Rz=70;FGz=70;NGz=70;Gz=70;Lz=70;Unbekannt=70" nodes="2065 2099 2103 2101 2100 2102 2098 1824 1781 4056 4055 2029 2061 2060 2059 2058 2063 2047 2041 4054 4053 2040 2039 2038 2005 2015 2026 2002 2014 2016 1997 2020 1996 1995 1994 1979 1988 1954 4052 4051 1976 1998 1977 1984 4050 4049 1973 1974 1972 1991 1990 1980 1964 1970 1971 1968 1967 4073 1966 59"/>
+		<stationRoute stationID="GTHM" name="[BRKSTSJ]-[ln101/FLU]-[4]-[BRKSTSJ]-[ln101/FLD] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=70;NRz=70;S=70;Rz=70;FGz=70;NGz=70;Gz=70;Lz=70;Unbekannt=70" nodes="2065 2099 2103 2101 2100 2102 2098 1824 1781 4056 4055 2029 2061 2060 2059 2058 2063 2047 2041 4054 4053 2040 2039 2038 2005 2015 2026 2002 2014 2016 1997 2020 1996 1995 1994 1979 1988 1954 4052 4051 1976 1998 1977 1984 4050 4049 1973 1963 1962 1952 1975 2185 2211 2376 2208 1951 1953 1948 1950 1949 1939 1949 1950 1948 1953 1951 2208 2376 2211 2185 1975 1952 1962 1963 1973 4049 4050 1984 1977 1998 1976 4051 4052 1954 1988 1979 1994 1995 1996 2020 1997 2016 2014 2002 2026 2015 2005 2038 2039 2040 4053 4054 2041 2047 2063 2058 2059 2060 2061 2029 4055 4056 1781 1824 2098 68"/>
+		<stationRoute stationID="GTHM" name="[BRKSTSJ]-[ln101/FLU]-[4]-[BRKSTSJ]-[ln101/FLD] (3)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=70;NRz=70;S=70;Rz=70;FGz=70;NGz=70;Gz=70;Lz=70;Unbekannt=70" nodes="2065 2099 2103 2101 2100 2102 2098 1824 1781 4056 4055 2029 2061 2060 2059 2058 2063 2047 2041 4054 4053 2040 2039 2038 2005 2015 2026 2002 2014 2016 1997 2020 1996 1995 1994 1979 1988 1954 4052 4051 1976 1998 1977 1984 4050 4049 1973 1963 1962 1952 1975 2185 1975 1952 1962 1963 1973 4049 4050 1984 1977 1998 1976 4051 4052 1954 1988 1979 1994 1995 1996 2020 1997 2016 2014 2002 2026 2015 2005 2038 2039 2040 4053 4054 2041 2047 2063 2058 2059 2060 2061 2029 4055 4056 1781 1824 2098 68"/>
+		<stationRoute stationID="GTHM" name="[BRKSTSJ]-[ln101/FLU]-[4]-[GTHMNBJ]-[ln101/4] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=80;NRz=80;S=80;Rz=80;FGz=80;NGz=80;Gz=80;Lz=80;Unbekannt=80" nodes="2065 2099 2103 2101 2100 2102 2098 1824 1781 4056 4055 2029 2061 2060 2059 2058 2063 2047 2041 4054 4053 2040 2039 2038 2005 2015 2026 2002 2014 2016 1997 2020 1996 1995 1994 1979 1988 1954 4052 4051 1976 1998 1977 1984 4050 4049 1973 1963 1962 1952 1975 2185 1975 1952 1962 1963 1973 4049 4050 1984 1977 1998 1976 4051 4052 1954 1988 1979 1994 1995 1996 2020 1997 2016 2014 2002 2026 2015 2005 2038 2039 2040 2045 2056"/>
+		<stationRoute stationID="GTHM" name="[BRKSTSJ]-[ln101/FLU]-[4]-[TONOTT]-[ln101/4] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=80;NRz=80;S=80;Rz=80;FGz=80;NGz=80;Gz=80;Lz=80;Unbekannt=80" nodes="2065 2099 2103 2101 2100 2102 2098 1824 1781 4056 4055 2029 2061 2060 2059 2058 2063 2047 2041 4054 4053 2040 2039 2038 2005 2015 2026 2002 2014 2016 1997 2020 1996 1995 1994 1979 1988 1954 4052 4051 1976 1998 1977 1984 4050 4049 1973 1963 1962 1952 1975 2185 2211 2376 2208 1951 1953 1948 1950 1949 1939 1949 1950 1948 1953 1951 2208 2376 2211 2185 1975 1952 1962 1963 1973 4049 4050 1984 1977 1998 1976 4051 4052 1954 1988 1979 1994 1995 1996 2020 1997 2016 2014 2002 2026 2015 2005 2038 2039 2040 2045 2056"/>
+		<stationRoute stationID="GTHM" name="[GTHMNBJ]-[ln101/4]-[4]-[BRKSTSJ]-[ln101/FLD] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=90;NRz=90;S=90;Rz=90;FGz=90;NGz=90;Gz=90;Lz=90;Unbekannt=90" nodes="2056 2045 2040 2039 2038 2005 2015 2026 2002 2014 2016 1997 2020 1996 1995 1994 1979 1988 1954 4052 4051 1976 1998 1977 1984 4050 4049 1973 1963 1962 1952 1975 2185 1975 1952 1962 1963 1973 4049 4050 1984 1977 1998 1976 4051 4052 1954 1988 1979 1994 1995 1996 2020 1997 2016 2014 2002 2026 2015 2005 2038 2039 2040 4053 4054 2041 2047 2063 2058 2059 2060 2061 2029 4055 4056 1781 1824 2098 68"/>
+		<stationRoute stationID="GTHM" name="[GTHMNBJ]-[ln101/4]-[4]-[GTHMNBJ]-[ln101/4] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="2056 2045 2040 2039 2038 2005 2015 2026 2002 2014 2016 1997 2020 1996 1995 1994 1979 1988 1954 4052 4051 1976 1998 1977 1984 4050 4049 1973 1963 1962 1952 1975 2185 1975 1952 1962 1963 1973 4049 4050 1984 1977 1998 1976 4051 4052 1954 1988 1979 1994 1995 1996 2020 1997 2016 2014 2002 2026 2015 2005 2038 2039 2040 2045 2056"/>
+		<stationRoute stationID="GTHM" name="[HGHDJN]-[ln101/1]-[4]-[BRKSTSJ]-[ln101/2] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=65;NRz=65;S=65;Rz=65;FGz=65;NGz=65;Gz=65;Lz=65;Unbekannt=65" nodes="45 1889 2011 1893 1894 1896 1892 1890 1899 1902 1907 1900 1901 1909 1989 1903 1852 1917 1922 1920 1918 1919 1923 1924 1905 1940 1934 1906 1932 1935 1936 1938 1937 1939 1949 1950 1948 1953 1951 2208 2376 2211 2185 1975 1952 1962 1963 1973 4049 4050 1984 1977 1998 1976 4051 4052 1954 1988 1979 1994 1995 1996 2020 1997 2016 2014 2002 2026 2015 2005 2038 2039 2040 4053 4054 2041 2047 2063 2058 2059 2060 2061 2029 4055 4056 1781 1824 2098 68"/>
+		<stationRoute stationID="GTHM" name="[HGHDJN]-[ln101/1]-[4]-[HGHDJN]-[ln101/1] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=50;NRz=50;S=50;Rz=50;FGz=50;NGz=50;Gz=50;Lz=50;Unbekannt=50" nodes="45 1889 2011 1893 1894 1896 1892 1890 1899 1902 1907 1900 1901 1909 1989 1903 1852 1917 1922 1920 1918 1919 1923 1924 1905 1940 1934 1906 1932 1935 1936 1938 1937 1939 1949 1950 1948 1953 1951 2208 2376 2211 2185 1975 1952 1975 2185 2211 2376 2208 1951 1953 1948 1950 1949 1939 1937 1938 1936 1935 1932 1906 1934 1940 1905 1924 1923 1919 1918 1920 1922 1917 1852 1903 1989 1909 1901 1900 1907 1902 1899 1890 1892 1896 1894 1893 2011 1889 45"/>
+		<stationRoute stationID="GTHM" name="[HGHDJN]-[ln101/1]-[4]-[HGHDJN]-[ln101/FLU] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=60;NRz=60;S=60;Rz=60;FGz=60;NGz=60;Gz=60;Lz=60;Unbekannt=60" nodes="45 1889 2011 1893 1894 1896 1892 1890 1899 1902 1907 1900 1901 1909 1989 1903 1852 1917 1922 1920 1918 1919 1923 1924 1905 1940 1934 1906 1932 1935 1936 1938 1937 1939 1949 1950 1948 1953 1951 2208 2376 2211 2185 1975 1952 1975 2185 2211 2376 2208 1951 1953 1948 1950 1949 1939 1937 1938 1936 1935 1932 1906 1934 1940 1905 1924 1923 1919 1918 1920 1922 1917 1852 1903 1989 1909 1901 1900 1907 1902 1899 1890 46"/>
+		<stationRoute stationID="GTHM" name="[HGHDJN]-[ln101/1]-[4]-[HGHDJN]-[ln101/FLU] (3)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=60;NRz=60;S=60;Rz=60;FGz=60;NGz=60;Gz=60;Lz=60;Unbekannt=60" nodes="45 1889 2011 1893 1894 1896 1892 1890 1899 1902 1907 1900 1901 1909 1989 1903 1852 1917 1922 1920 1918 1919 1923 1924 1905 1940 1934 1906 1932 1935 1936 1938 1937 1939 1949 1950 1948 1953 1951 2208 1951 1953 1948 1950 1949 1939 1937 1938 1936 1935 1932 1906 1934 1940 1905 1924 1923 1919 1918 1920 1922 1917 1852 1903 1989 1909 1901 1900 1907 1902 1899 1890 46"/>
+		<stationRoute stationID="GTHM" name="[HGHDJN]-[ln101/1]-[4]-[TONOTT]-[ln101/4] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=75;NRz=75;S=75;Rz=75;FGz=75;NGz=75;Gz=75;Lz=75;Unbekannt=75" nodes="45 1889 2011 1893 1894 1896 1892 1890 1899 1902 1907 1900 1901 1909 1989 1903 1852 1917 1922 1920 1918 1919 1923 1924 1905 1940 1934 1906 1932 1935 1936 1938 1937 1939 1949 1950 1948 1953 1951 2208 2376 2211 2185 1975 1952 1962 1963 1973 4049 4050 1984 1977 1998 1976 4051 4052 1954 1988 1979 1994 1995 1996 2020 1997 2016 2014 2002 2026 2015 2005 2038 2039 2040 2045 2056"/>
+		<stationRoute stationID="GTHM" name="[HGHDJN]-[ln101/2]-[4]-[BRKSTSJ]-[ln101/2] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=75;NRz=75;S=75;Rz=75;FGz=75;NGz=75;Gz=75;Lz=75;Unbekannt=75" nodes="46 1890 1899 1902 1907 1900 1901 1909 1989 1903 1852 1917 1922 1920 1918 1919 1923 1924 1905 1940 1934 1906 1932 1935 1936 1938 1937 1939 1949 1950 1948 1953 1951 2208 2376 2211 2185 1975 1952 1962 1963 1973 4049 4050 1984 1977 1998 1976 4051 4052 1954 1988 1979 1994 1995 1996 2020 1997 2016 2014 2002 2026 2015 2005 2038 2039 2040 4053 4054 2041 2047 2063 2058 2059 2060 2061 2029 4055 4056 1781 1824 2098 68"/>
+		<stationRoute stationID="GTHM" name="[HGHDJN]-[ln101/2]-[4]-[TONOTT]-[ln101/4] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=85;NRz=85;S=85;Rz=85;FGz=85;NGz=85;Gz=85;Lz=85;Unbekannt=85" nodes="46 1890 1899 1902 1907 1900 1901 1909 1989 1903 1852 1917 1922 1920 1918 1919 1923 1924 1905 1940 1934 1906 1932 1935 1936 1938 1937 1939 1949 1950 1948 1953 1951 2208 2376 2211 2185 1975 1952 1962 1963 1973 4049 4050 1984 1977 1998 1976 4051 4052 1954 1988 1979 1994 1995 1996 2020 1997 2016 2014 2002 2026 2015 2005 2038 2039 2040 2045 2056"/>
+		<stationRoute stationID="GTHM" name="[HGHDJN]-[ln101/3]-[1-5]-[HGHDJN]-[ln101/1] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=60;NRz=60;S=60;Rz=60;FGz=60;NGz=60;Gz=60;Lz=60;Unbekannt=60" nodes="47 1852 1917 1922 1920 1927 1921 1929 1928 1926 1981 1910 1911 1983 1955 1983 1911 1910 1981 1926 1928 1929 1921 1927 1920 1922 1917 1852 1903 1989 1909 1901 1900 1907 1902 1899 1890 1892 1896 1894 1893 2011 1889 45"/>
+		<stationRoute stationID="GTHM" name="[HGHDJN]-[ln101/3]-[1-5]-[HGHDJN]-[ln101/2] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=70;NRz=70;S=70;Rz=70;FGz=70;NGz=70;Gz=70;Lz=70;Unbekannt=70" nodes="47 1852 1917 1922 1920 1927 1921 1929 1928 1926 1981 1910 1911 1983 1955 1983 1911 1910 1981 1926 1928 1929 1921 1927 1920 1922 1917 1852 1903 1989 1909 1901 1900 1907 1902 1899 1890 46"/>
+		<stationRoute stationID="GTHM" name="[HGHDJN]-[ln101/3]-[1]-[BRKSTSJ]-[ln101/2] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=75;NRz=75;S=75;Rz=75;FGz=75;NGz=75;Gz=75;Lz=75;Unbekannt=75" nodes="47 1852 1917 1922 1920 1927 1921 1929 1928 1926 1981 1910 1911 1983 1955 1957 1958 1913 1964 1980 1990 1991 1972 1974 1973 4049 4050 1984 1977 1998 1976 4051 4052 1954 1988 1979 1994 1995 1996 2020 1997 2016 2014 2002 2026 2015 2005 2038 2039 2040 4053 4054 2041 2047 2063 2058 2059 2060 2061 2029 4055 4056 1781 1824 2098 68"/>
+		<stationRoute stationID="GTHM" name="[HGHDJN]-[ln101/3]-[1]-[TONOTT]-[ln101/4] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=85;NRz=85;S=85;Rz=85;FGz=85;NGz=85;Gz=85;Lz=85;Unbekannt=85" nodes="47 1852 1917 1922 1920 1927 1921 1929 1928 1926 1981 1910 1911 1983 1955 1957 1958 1913 1964 1980 1990 1991 1972 1974 1973 4049 4050 1984 1977 1998 1976 4051 4052 1954 1988 1979 1994 1995 1996 2020 1997 2016 2014 2002 2026 2015 2005 2038 2039 2040 2045 2056"/>
+		<stationRoute stationID="GTHM" name="[HGHDJN]-[ln101/3]-[2]-[BRKSTSJ]-[ln101/2] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="47 1852 1917 1946 10713 1925 1847 1850 1865 1912 1853 1856 1941 1956 1859 2019 1915 2000 2017 2022 2023 2003 2027 2018 2032 2033 2006 2009 2030 2012 2042 2062 2029 4055 4056 1781 1824 2098 68"/>
+		<stationRoute stationID="GTHM" name="[HGHDJN]-[ln101/3]-[4]-[BRKSTSJ]-[ln101/2] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=85;NRz=85;S=85;Rz=85;FGz=85;NGz=85;Gz=85;Lz=85;Unbekannt=85" nodes="47 1852 1917 1922 1920 1918 1919 1923 1924 1905 1940 1934 1906 1932 1935 1936 1938 1937 1939 1949 1950 1948 1953 1951 2208 2376 2211 2185 1975 1952 1962 1963 1973 4049 4050 1984 1977 1998 1976 4051 4052 1954 1988 1979 1994 1995 1996 2020 1997 2016 2014 2002 2026 2015 2005 2038 2039 2040 4053 4054 2041 2047 2063 2058 2059 2060 2061 2029 4055 4056 1781 1824 2098 68"/>
+		<stationRoute stationID="GTHM" name="[HGHDJN]-[ln101/3]-[4]-[TONOTT]-[ln101/4] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=95;NRz=95;S=95;Rz=95;FGz=95;NGz=95;Gz=95;Lz=95;Unbekannt=95" nodes="47 1852 1917 1922 1920 1918 1919 1923 1924 1905 1940 1934 1906 1932 1935 1936 1938 1937 1939 1949 1950 1948 1953 1951 2208 2376 2211 2185 1975 1952 1962 1963 1973 4049 4050 1984 1977 1998 1976 4051 4052 1954 1988 1979 1994 1995 1996 2020 1997 2016 2014 2002 2026 2015 2005 2038 2039 2040 2045 2056"/>
+		<stationRoute stationID="GTHM" name="[HGHDJN]-[ln101/FLD]-[2]-[HGHDJN]-[ln101/FLU] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=90;NRz=90;S=90;Rz=90;FGz=90;NGz=90;Gz=90;Lz=90;Unbekannt=90" nodes="47 1852 1917 1946 10713 1925 1847 1850 1865 1912 1853 1856 1941 1956 1859 2019 1915 2000 2017 2000 1915 2019 1859 1956 1941 1856 1853 1912 1865 1850 1847 1925 10713 1946 1917 1852 1903 1989 1909 1901 1900 1907 1902 1899 1890 46"/>
+		<stationRoute stationID="GTHM" name="[HGHDJN]-[ln101/FLD]-[4]-[HGHDJN]-[ln101/1] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=70;NRz=70;S=70;Rz=70;FGz=70;NGz=70;Gz=70;Lz=70;Unbekannt=70" nodes="47 1852 1917 1922 1920 1918 1919 1923 1924 1905 1940 1934 1906 1932 1935 1936 1938 1937 1939 1949 1950 1948 1953 1951 2208 2376 2211 2185 1975 1952 1975 2185 2211 2376 2208 1951 1953 1948 1950 1949 1939 1937 1938 1936 1935 1932 1906 1934 1940 1905 1924 1923 1919 1918 1920 1922 1917 1852 1903 1989 1909 1901 1900 1907 1902 1899 1890 1892 1896 1894 1893 2011 1889 45"/>
+		<stationRoute stationID="GTHM" name="[HGHDJN]-[ln101/FLD]-[4]-[HGHDJN]-[ln101/FLU] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=80;NRz=80;S=80;Rz=80;FGz=80;NGz=80;Gz=80;Lz=80;Unbekannt=80" nodes="47 1852 1917 1922 1920 1918 1919 1923 1924 1905 1940 1934 1906 1932 1935 1936 1938 1937 1939 1949 1950 1948 1953 1951 2208 2376 2211 2185 1975 1952 1975 2185 2211 2376 2208 1951 1953 1948 1950 1949 1939 1937 1938 1936 1935 1932 1906 1934 1940 1905 1924 1923 1919 1918 1920 1922 1917 1852 1903 1989 1909 1901 1900 1907 1902 1899 1890 46"/>
+		<stationRoute stationID="GTHM" name="[HGHDJN]-[ln101/FLD]-[4]-[HGHDJN]-[ln101/FLU] (3)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=80;NRz=80;S=80;Rz=80;FGz=80;NGz=80;Gz=80;Lz=80;Unbekannt=80" nodes="47 1852 1917 1922 1920 1918 1919 1923 1924 1905 1940 1934 1906 1932 1935 1936 1938 1937 1939 1949 1950 1948 1953 1951 2208 1951 1953 1948 1950 1949 1939 1937 1938 1936 1935 1932 1906 1934 1940 1905 1924 1923 1919 1918 1920 1922 1917 1852 1903 1989 1909 1901 1900 1907 1902 1899 1890 46"/>
+		<stationRoute stationID="GTHM" name="[HGHDJN]-[ln101/FLU]-[4]-[HGHDJN]-[ln101/1] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=60;NRz=60;S=60;Rz=60;FGz=60;NGz=60;Gz=60;Lz=60;Unbekannt=60" nodes="46 1890 1899 1902 1907 1900 1901 1909 1989 1903 1852 1917 1922 1920 1918 1919 1923 1924 1905 1940 1934 1906 1932 1935 1936 1938 1937 1939 1949 1950 1948 1953 1951 2208 2376 2211 2185 1975 1952 1975 2185 2211 2376 2208 1951 1953 1948 1950 1949 1939 1937 1938 1936 1935 1932 1906 1934 1940 1905 1924 1923 1919 1918 1920 1922 1917 1852 1903 1989 1909 1901 1900 1907 1902 1899 1890 1892 1896 1894 1893 2011 1889 45"/>
+		<stationRoute stationID="GTHM" name="[HGHDJN]-[ln101/FLU]-[4]-[HGHDJN]-[ln101/FLU] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=70;NRz=70;S=70;Rz=70;FGz=70;NGz=70;Gz=70;Lz=70;Unbekannt=70" nodes="46 1890 1899 1902 1907 1900 1901 1909 1989 1903 1852 1917 1922 1920 1918 1919 1923 1924 1905 1940 1934 1906 1932 1935 1936 1938 1937 1939 1949 1950 1948 1953 1951 2208 2376 2211 2185 1975 1952 1975 2185 2211 2376 2208 1951 1953 1948 1950 1949 1939 1937 1938 1936 1935 1932 1906 1934 1940 1905 1924 1923 1919 1918 1920 1922 1917 1852 1903 1989 1909 1901 1900 1907 1902 1899 1890 46"/>
+		<stationRoute stationID="GTHM" name="[HGHDJN]-[ln101/FLU]-[4]-[HGHDJN]-[ln101/FLU] (3)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=70;NRz=70;S=70;Rz=70;FGz=70;NGz=70;Gz=70;Lz=70;Unbekannt=70" nodes="46 1890 1899 1902 1907 1900 1901 1909 1989 1903 1852 1917 1922 1920 1918 1919 1923 1924 1905 1940 1934 1906 1932 1935 1936 1938 1937 1939 1949 1950 1948 1953 1951 2208 1951 1953 1948 1950 1949 1939 1937 1938 1936 1935 1932 1906 1934 1940 1905 1924 1923 1919 1918 1920 1922 1917 1852 1903 1989 1909 1901 1900 1907 1902 1899 1890 46"/>
+		<stationRoute stationID="GTHM" name="[TONOTT]-[ln101/4]-[1-5]-[BRKSTSJ]-[ln101/2] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=80;NRz=80;S=80;Rz=80;FGz=80;NGz=80;Gz=80;Lz=80;Unbekannt=80" nodes="2056 2045 2040 2039 2038 2005 2015 2026 2002 2014 2016 1997 2020 1996 1995 1994 1979 1988 1954 4052 4051 1976 1998 1977 1984 4050 4049 1973 1974 1972 1991 1990 1980 1964 1913 1958 1957 1955 1983 1911 1910 1981 1926 1981 1910 1911 1983 1955 1957 1958 1913 1964 1980 1990 1991 1972 1974 1973 4049 4050 1984 1977 1998 1976 4051 4052 1954 1988 1979 1994 1995 1996 2020 1997 2016 2014 2002 2026 2015 2005 2038 2039 2040 4053 4054 2041 2047 2063 2058 2059 2060 2061 2029 4055 4056 1781 1824 2098 68"/>
+		<stationRoute stationID="GTHM" name="[TONOTT]-[ln101/4]-[1-5]-[TONOTT]-[ln101/4] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=90;NRz=90;S=90;Rz=90;FGz=90;NGz=90;Gz=90;Lz=90;Unbekannt=90" nodes="2056 2045 2040 2039 2038 2005 2015 2026 2002 2014 2016 1997 2020 1996 1995 1994 1979 1988 1954 4052 4051 1976 1998 1977 1984 4050 4049 1973 1974 1972 1991 1990 1980 1964 1913 1958 1957 1955 1983 1911 1910 1981 1926 1981 1910 1911 1983 1955 1957 1958 1913 1964 1980 1990 1991 1972 1974 1973 4049 4050 1984 1977 1998 1976 4051 4052 1954 1988 1979 1994 1995 1996 2020 1997 2016 2014 2002 2026 2015 2005 2038 2039 2040 2045 2056"/>
+		<stationRoute stationID="GTHM" name="[TONOTT]-[ln101/4]-[3]-[BRKSTSJ]-[ln101/2] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=80;NRz=80;S=80;Rz=80;FGz=80;NGz=80;Gz=80;Lz=80;Unbekannt=80" nodes="2056 2045 2040 2039 2038 2005 2015 2026 2002 2014 2016 1997 2020 1996 1995 1994 1979 1988 1954 4052 4051 1976 1986 1987 1978 1969 1961 1960 1959 1914 4072 1999 2182 2184 2115 1985 1933 1985 2115 2184 2182 1999 4072 1914 1959 1960 1961 1969 1978 1987 1986 1976 4051 4052 1954 1988 1979 1994 1995 1996 2020 1997 2016 2014 2002 2026 2015 2005 2038 2039 2040 4053 4054 2041 2047 2063 2058 2059 2060 2061 2029 4055 4056 1781 1824 2098 68"/>
+		<stationRoute stationID="GTHM" name="[TONOTT]-[ln101/4]-[3]-[TONOTT]-[ln101/4] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=90;NRz=90;S=90;Rz=90;FGz=90;NGz=90;Gz=90;Lz=90;Unbekannt=90" nodes="2056 2045 2040 2039 2038 2005 2015 2026 2002 2014 2016 1997 2020 1996 1995 1994 1979 1988 1954 4052 4051 1976 1986 1987 1978 1969 1961 1960 1959 1914 4072 1999 2182 2184 2115 1985 1933 1985 2115 2184 2182 1999 4072 1914 1959 1960 1961 1969 1978 1987 1986 1976 4051 4052 1954 1988 1979 1994 1995 1996 2020 1997 2016 2014 2002 2026 2015 2005 2038 2039 2040 2045 2056"/>
+		<stationRoute stationID="GTHM" name="[TONOTT]-[ln101/4]-[3]-[]-[?/] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=95;NRz=95;S=95;Rz=95;FGz=95;NGz=95;Gz=95;Lz=95;Unbekannt=95" nodes="2056 2045 2040 2039 2038 2005 2015 2026 2002 2014 2016 1997 2020 1996 1995 1994 1979 1988 1954 4052 4051 1976 1986 1987 1978 1969 1961 1960 1959 1914 4072 1999 2182 2184 2115 1985 1933 51"/>
+		<stationRoute stationID="GTHM" name="[TONOTT]-[ln101/4]-[4]-[BRKSTSJ]-[ln101/FLD] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=90;NRz=90;S=90;Rz=90;FGz=90;NGz=90;Gz=90;Lz=90;Unbekannt=90" nodes="2056 2045 2040 2039 2038 2005 2015 2026 2002 2014 2016 1997 2020 1996 1995 1994 1979 1988 1954 4052 4051 1976 1998 1977 1984 4050 4049 1973 1963 1962 1952 1975 2185 2211 2376 2208 1951 1953 1948 1950 1949 1939 1949 1950 1948 1953 1951 2208 2376 2211 2185 1975 1952 1962 1963 1973 4049 4050 1984 1977 1998 1976 4051 4052 1954 1988 1979 1994 1995 1996 2020 1997 2016 2014 2002 2026 2015 2005 2038 2039 2040 4053 4054 2041 2047 2063 2058 2059 2060 2061 2029 4055 4056 1781 1824 2098 68"/>
+		<stationRoute stationID="GTHM" name="[TONOTT]-[ln101/4]-[4]-[HGHDJN]-[ln101/1] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=75;NRz=75;S=75;Rz=75;FGz=75;NGz=75;Gz=75;Lz=75;Unbekannt=75" nodes="2056 2045 2040 2039 2038 2005 2015 2026 2002 2014 2016 1997 2020 1996 1995 1994 1979 1988 1954 4052 4051 1976 1998 1977 1984 4050 4049 1973 1963 1962 1952 1975 2185 2211 2376 2208 1951 1953 1948 1950 1949 1939 1937 1938 1936 1935 1932 1906 1934 1940 1905 1924 1923 1919 1918 1920 1922 1917 1852 1903 1989 1909 1901 1900 1907 1902 1899 1890 1892 1896 1894 1893 2011 1889 45"/>
+		<stationRoute stationID="GTHM" name="[TONOTT]-[ln101/4]-[4]-[HGHDJN]-[ln101/2] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=85;NRz=85;S=85;Rz=85;FGz=85;NGz=85;Gz=85;Lz=85;Unbekannt=85" nodes="2056 2045 2040 2039 2038 2005 2015 2026 2002 2014 2016 1997 2020 1996 1995 1994 1979 1988 1954 4052 4051 1976 1998 1977 1984 4050 4049 1973 1963 1962 1952 1975 2185 2211 2376 2208 1951 1953 1948 1950 1949 1939 1937 1938 1936 1935 1932 1906 1934 1940 1905 1924 1923 1919 1918 1920 1922 1917 1852 1903 1989 1909 1901 1900 1907 1902 1899 1890 46"/>
+		<stationRoute stationID="GTHM" name="[TONOTT]-[ln101/4]-[4]-[TONOTT]-[ln101/4] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="2056 2045 2040 2039 2038 2005 2015 2026 2002 2014 2016 1997 2020 1996 1995 1994 1979 1988 1954 4052 4051 1976 1998 1977 1984 4050 4049 1973 1963 1962 1952 1975 2185 2211 2376 2208 1951 1953 1948 1950 1949 1939 1949 1950 1948 1953 1951 2208 2376 2211 2185 1975 1952 1962 1963 1973 4049 4050 1984 1977 1998 1976 4051 4052 1954 1988 1979 1994 1995 1996 2020 1997 2016 2014 2002 2026 2015 2005 2038 2039 2040 2045 2056"/>
+		<stationRoute stationID="GTHM" name="[TONOTT]-[ln101/4]-[5]-[HGHDJN]-[ln101/1] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=65;NRz=65;S=65;Rz=65;FGz=65;NGz=65;Gz=65;Lz=65;Unbekannt=65" nodes="2056 2045 2040 2039 2038 2005 2015 2026 2002 2014 2016 1997 2020 1996 1995 1994 1979 1988 1954 4052 4051 1976 1998 1977 1984 4050 4049 1973 1974 1972 1991 1990 1980 1964 1913 1958 1957 1955 1983 1911 1910 1981 1926 1928 1929 1921 1927 1920 1922 1917 1852 1903 1989 1909 1901 1900 1907 1902 1899 1890 1892 1896 1894 1893 2011 1889 45"/>
+		<stationRoute stationID="GTHM" name="[TONOTT]-[ln101/4]-[5]-[HGHDJN]-[ln101/2] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=75;NRz=75;S=75;Rz=75;FGz=75;NGz=75;Gz=75;Lz=75;Unbekannt=75" nodes="2056 2045 2040 2039 2038 2005 2015 2026 2002 2014 2016 1997 2020 1996 1995 1994 1979 1988 1954 4052 4051 1976 1998 1977 1984 4050 4049 1973 1974 1972 1991 1990 1980 1964 1913 1958 1957 1955 1983 1911 1910 1981 1926 1928 1929 1921 1927 1920 1922 1917 1852 1903 1989 1909 1901 1900 1907 1902 1899 1890 46"/>
+		<stationRoute stationID="GTHM" name="[TONOTT]-[ln101/4]-[6]-[]-[?/] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=90;NRz=90;S=90;Rz=90;FGz=90;NGz=90;Gz=90;Lz=90;Unbekannt=90" nodes="2056 2045 2040 2039 2038 2005 2015 2026 2002 2014 2016 1997 2020 1996 1995 1994 1979 1988 1954 4052 4051 1976 1998 1977 1984 4050 4049 1973 1974 1972 1991 1990 1980 1964 1970 1971 1968 1967 4073 1966 59"/>
+		<stationRoute stationID="GTHM" name="[]-[?/]-[3]-[BRKSTSJ]-[ln101/2] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=85;NRz=85;S=85;Rz=85;FGz=85;NGz=85;Gz=85;Lz=85;Unbekannt=85" nodes="51 1933 1985 2115 2184 2182 1999 4072 1914 1959 1960 1961 1969 1978 1987 1986 1976 4051 4052 1954 1988 1979 1994 1995 1996 2020 1997 2016 2014 2002 2026 2015 2005 2038 2039 2040 4053 4054 2041 2047 2063 2058 2059 2060 2061 2029 4055 4056 1781 1824 2098 68"/>
+		<stationRoute stationID="GTHM" name="[]-[?/]-[3]-[TONOTT]-[ln101/4] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=95;NRz=95;S=95;Rz=95;FGz=95;NGz=95;Gz=95;Lz=95;Unbekannt=95" nodes="51 1933 1985 2115 2184 2182 1999 4072 1914 1959 1960 1961 1969 1978 1987 1986 1976 4051 4052 1954 1988 1979 1994 1995 1996 2020 1997 2016 2014 2002 2026 2015 2005 2038 2039 2040 2045 2056"/>
+		<stationRoute stationID="GTHMNBJ" name="[ALNGEJN]-[ln195/1]-[2]-[GTHM]-[ln101/4] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=95;NRz=95;S=95;Rz=95;FGz=95;NGz=95;Gz=95;Lz=95;Unbekannt=95" nodes="2044 2054 2055 2053 2051 2048 2043 2057"/>
+		<stationRoute stationID="GTHMNBJ" name="[GTHM]-[ln101/4]-[1]-[ALNGEJN]-[ln195/2] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="2057 2043 2048 2049 2050 2052 2064 2046"/>
+	</stationRoutes>
+	<lineCatalog/>
+	<zugNummernFelder/>
+	<switchGears/>
+</line>

@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<line lineID="fernj" name="Ferrybridge North Jn" trafficRouting="on_the_left" type="global" dependentLines="ln804b ln888 ln892">
+	<transformations>
+		<transformation line="curve" m11="-1" m12="1.22461e-16" m21="-1.22461e-16" m22="-1" dx="890537" dy="814.962"/>
+		<transformation line="ln804" m11="1" m12="0" m21="0" m22="1" dx="302691" dy="232813"/>
+		<transformation line="ln804b" m11="1" m12="0" m21="0" m22="1" dx="-1887.47" dy="138.463"/>
+		<transformation line="ln888" m11="-1" m12="-5.55112e-16" m21="5.55112e-16" m22="-1" dx="-39862.2" dy="24132.6"/>
+		<transformation line="ln892" m11="1" m12="0" m21="0" m22="1" dx="975660" dy="-1439.6"/>
+	</transformations>
+	<version major="1" minor="2" patchlevel="0" comment=""/>
+	<creator user="Ahowe4" timestamp="2016-11-01T12:54:22"/>
+	<lasteditor user="Ahowe4" timestamp="2016-11-01T12:54:22"/>
+	<stations>
+		<station stationID="FERYBDG" name="Ferrybridge North Jn" xNet="-360475.495" yNet="4886965.7" uicLocationCode="0" circleDiameter="0">
+			<textElement type="name">
+				<pos view="net" x="3138.29" y="3138.29" angle="0" system="source"/>
+				<pos view="wgs84" x="3138.29" y="3138.29" angle="0" system="source"/>
+				<pos view="line" x="2965.17" y="2965.17" angle="0" system="source"/>
+				<pos view="macro" x="28.2843" y="28.2843" angle="0" system="source"/>
+				<pos view="macroWgs84" x="0" y="0" angle="0" system="source"/>
+			</textElement>
+		</station>
+	</stations>
+	<nodes>
+		<kilometreInconsistency newKilometre="3.77" nodeID="24" name="CHANGE OF KM" description="Change of kilometrage" kilometre="92.910" x="-37243.326" y="613.9741" xNet="-360341.01" yNet="4885257" referenceNode="341"/>
+		<node nodeID="15" kilometre="93.000" x="-38143.326" y="613.9741" xNet="-360165.01" yNet="4884460"/>
+		<node nodeID="16" name="GRAD" description="Gradient; 57m 65.08ch" kilometre="93.042" x="-38563.326" y="613.9741" xNet="-360083" yNet="4884231"/>
+		<kilometreInconsistency newKilometre="3.87" nodeID="27" name="CHANGE OF KM" description="Change of kilometrage" kilometre="93.010" x="-38243.326" y="813.9741" xNet="-360392" yNet="4884638" referenceNode="28"/>
+		<node nodeID="28" name="GRAD" description="Gradient; 57m 65.08ch" kilometre="93.042" x="-38563.326" y="813.9741" xNet="-360189.01" yNet="4884061"/>
+		<node nodeID="29" name="OL: F617" kilometre="93.091" x="-39053.326" y="813.9741" xNet="-359773.01" yNet="4883802"/>
+		<track trackID="D-1" stationID="FERYBDG" interlockingMachine="3 Aspect Pannel (Below 75mph)" nodeID="30" name="SIG: F617" description="Signal F617; 57m 72.04ch" kilometre="93.182" x="-39963.326" y="813.9741" xNet="-359001.99" yNet="4883320" referenceNode="358"/>
+		<speedIndicator nodeID="17" name="SPEED" description="Speed; 57m 74.08ch" kilometre="93.223" x="-40373.326" y="613.9741" xNet="-358548" yNet="4883272" referenceNode="16">
+			<netLimitInfo lineID="ln888"/>
+		</speedIndicator>
+		<speedIndicator nodeID="31" name="SPEED" description="Speed; 57m 74.08ch" kilometre="93.223" x="-40373.326" y="813.9741" xNet="-358654.01" yNet="4883102" referenceNode="358">
+			<netLimitInfo lineID="ln888"/>
+		</speedIndicator>
+		<track trackID="U-5" stationID="FERYBDG" interlockingMachine="3 Aspect Pannel (76mph - 100mph)" nodeID="646" name="SIG: F614" description="Signal F614; 2m 20,89ch" kilometre="3.639" x="-35070.58" y="1059.0121" xNet="-360812" yNet="4891058" referenceNode="357"/>
+		<switch start="646" endOfMainTrack="343" endOfBranchTrack="789" nodeID="2" name="POINTS: 2023B" description="Points: 2023B; 40 mph; 2m 21,14ch" kilometre="3.644" x="-35120.58" y="1059.0121" xNet="-360817" yNet="4891008"/>
+		<switch start="343" endOfMainTrack="346" endOfBranchTrack="359" nodeID="3" name="POINTS: 2022" description="Points: 2022; 50 mph; 2m 27,00ch" kilometre="3.762" x="-36300.58" y="1059.0121" xNet="-360940" yNet="4889834"/>
+		<node nodeID="7" name="OL: F614" kilometre="3.840" x="-37080.58" y="1059.0121" xNet="-361021" yNet="4889058"/>
+		<crossing type="kr" startOfMainTrack="8" startOfBranchTrack="12" endOfMainTrack="7" endOfBranchTrack="340" nodeID="1" name="FD: 2021" description="Fixed diamond; 2021; 2m 32,12ch" kilometre="3.865" x="-37330.58" y="1059.0121" xNet="-361046.99" yNet="4888811"/>
+		<node nodeID="23" kilometre="4.000" x="-38680.58" y="1059.0121" xNet="-361188" yNet="4887467"/>
+		<speedIndicator nodeID="789" name="SPEED" description="Speed; 2m 21,19ch" kilometre="3.645" x="-35130.58" y="1069.0121" xNet="-360827" yNet="4890999" referenceNode="2"/>
+		<speedIndicator nodeID="10" name="SPEED" description="Speed; 2m 27,05ch" kilometre="3.763" x="-36310.58" y="1049.0121" xNet="-360930.99" yNet="4889824" referenceNode="359"/>
+		<node nodeID="11" kilometre="3.764" x="-36320.58" y="1039.0121" xNet="-360922" yNet="4889813"/>
+		<node nodeID="12" kilometre="3.866" x="-37340.58" y="1049.0121" xNet="-361038.99" yNet="4888799"/>
+		<switch start="5" endOfMainTrack="360" endOfBranchTrack="20" nodeID="4" name="POINTS: 2023A" description="Points: 2023A; 40 mph; 2m 25,96ch" kilometre="3.741" x="-36090.58" y="1259.0121" xNet="-361117.01" yNet="4890064"/>
+		<switch start="4" endOfMainTrack="14" endOfBranchTrack="21" nodeID="5" name="POINTS: 2021C" description="Points: 2021C; 40 mph; 2m 27,00ch" kilometre="3.762" x="-36300.58" y="1259.0121" xNet="-361139" yNet="4889855"/>
+		<node nodeID="14" name="SD: F621" description="Sighting distance for SIG: F621" kilometre="3.782" x="-36500.58" y="1259.0121" xNet="-361159" yNet="4889656" referenceNode="9" sightingDistance="true"/>
+		<node nodeID="9" name="GRAD" description="Gradient; 2m 33,02ch" kilometre="3.883" x="-37510.58" y="1259.0121" xNet="-361265" yNet="4888652"/>
+		<switch start="9" endOfMainTrack="6" endOfBranchTrack="18" nodeID="33" name="POINTS: 2020B" description="Points: 2020B; 15 mph; 2m 38,09ch" kilometre="3.985" x="-38530.58" y="1259.0121" xNet="-361372" yNet="4887638"/>
+		<node nodeID="6" kilometre="4.000" x="-38680.58" y="1259.0121" xNet="-361388" yNet="4887489"/>
+		<speedIndicator nodeID="20" name="SPEED" description="Speed; 2m 25,91ch" kilometre="3.740" x="-36080.58" y="1249.0121" xNet="-361105" yNet="4890073" referenceNode="344"/>
+		<speedIndicator nodeID="21" name="SPEED" description="Speed; 2m 27,05ch" kilometre="3.763" x="-36310.58" y="1249.0121" xNet="-361130" yNet="4889845" referenceNode="339"/>
+		<speedIndicator nodeID="18" name="SPEED" description="Speed; 2m 38,14ch" kilometre="3.986" x="-38540.58" y="1269.0121" xNet="-361383" yNet="4887629" referenceNode="33"/>
+		<node nodeID="19" name="GRAD" description="Gradient; 2m 38.19ch" kilometre="3.987" x="-38550.58" y="1279.0121" xNet="-361394" yNet="4887619"/>
+		<track trackID="D-3" stationID="FERYBDG" interlockingMachine="3 Aspect Pannel (Below 75mph)" nodeID="34" name="SIG: F615" description="Signal F615; 58m 2.09ch" kilometre="93.384" x="-40500.787" y="1438.6154" xNet="-362039" yNet="4885692" referenceNode="355"/>
+		<kilometreInconsistency newKilometre="3.99" nodeID="26" name="CHANGE OF KM" description="Change of kilometrage" kilometre="93.563" x="-38710.787" y="1438.6154" xNet="-361545" yNet="4887413" referenceNode="337"/>
+		<node nodeID="22" name="POINTS: 2020A" description="Points: F2020A; 58m 7.06ch" kilometre="93.484" x="-39500.787" y="1438.6154" xNet="-361763" yNet="4886652"/>
+		<node nodeID="32" kilometre="93.367" x="-40673.35" y="1438.6154" xNet="-362086.99" yNet="4885525.9">
+			<netLimitInfo lineID="ln892"/>
+		</node>
+		<node nodeID="653" name="GRAD" description="Gradient; 2m 62,49ch" kilometre="4.476" x="-43440.58" y="1059.0121" xNet="-361686" yNet="4882734">
+			<netLimitInfo lineID="ln804b"/>
+		</node>
+		<node nodeID="847" name="OL: F613" kilometre="4.193" x="-40610.58" y="1259.0121" xNet="-361589" yNet="4885569"/>
+		<track trackID="D-6" stationID="FERYBDG" interlockingMachine="3 Aspect Pannel (76mph - 100mph)" nodeID="848" name="SIG: F613" description="Signal F613; 2m 62,04ch" kilometre="4.467" x="-43350.58" y="1259.0121" xNet="-361875.01" yNet="4882844" referenceNode="354"/>
+		<node nodeID="849" name="GRAD" description="Gradient; 2m 62,49ch" kilometre="4.476" x="-43440.58" y="1259.0121" xNet="-361885" yNet="4882755">
+			<netLimitInfo lineID="ln804b"/>
+		</node>
+		<node nodeID="308" name="OL: F615" kilometre="3.989" x="-38658.053" y="1386.078" xNet="-361494.99" yNet="4887480.8"/>
+		<node nodeID="337" name="TC" description="Release contact for track circuit" kilometre="93.528" x="-39060.787" y="1438.6154" xNet="-361642" yNet="4887075.8" referenceNode="26" releaseContact="true" arranged="true"/>
+		<node nodeID="338" name="TC" description="Release contact for track circuit" kilometre="93.045" x="-38593.326" y="813.9741" xNet="-360163.99" yNet="4884045.1" referenceNode="28" releaseContact="true" arranged="true"/>
+		<node nodeID="339" name="TC" description="Release contact for track circuit" kilometre="3.813" x="-36810.338" y="1155.9199" xNet="-361089" yNet="4889338.4" referenceNode="340" releaseContact="true" arranged="true"/>
+		<node nodeID="340" name="TC" description="Release contact for track circuit" kilometre="3.814" x="-36820.342" y="1154.0563" xNet="-361089" yNet="4889328.2" referenceNode="339" releaseContact="true" arranged="true"/>
+		<node nodeID="341" name="TC" description="Release contact for track circuit" kilometre="92.943" x="-37573.326" y="613.9741" xNet="-360276.01" yNet="4884964.7" referenceNode="24" releaseContact="true" arranged="true"/>
+		<node nodeID="342" name="TC" description="Release contact for track circuit" kilometre="3.701" x="-35691.096" y="1259.0121" xNet="-361075" yNet="4890461.5" referenceNode="360" releaseContact="true" arranged="true"/>
+		<node nodeID="343" name="TC" description="Release contact for track circuit" kilometre="3.684" x="-35520.58" y="1059.0121" xNet="-360859" yNet="4890610" referenceNode="2" releaseContact="true" arranged="true"/>
+		<node nodeID="344" name="TC" description="Release contact for track circuit" kilometre="3.693" x="-35605.928" y="1159.0781" xNet="-360966" yNet="4890535.6" referenceNode="20" releaseContact="true" arranged="true"/>
+		<node nodeID="345" name="TC" description="Release contact for track circuit" kilometre="3.692" x="-35596.025" y="1157.2018" xNet="-360963" yNet="4890545.3" referenceNode="789" releaseContact="true" arranged="true"/>
+		<node nodeID="346" name="TC" description="Release contact for track circuit" kilometre="3.802" x="-36700.58" y="1059.0121" xNet="-360982" yNet="4889436" referenceNode="3" releaseContact="true" arranged="true"/>
+		<node nodeID="347" name="TC" description="Release contact for track circuit" kilometre="3.905" x="-37730.58" y="1059.0121" xNet="-361089" yNet="4888412.1" referenceNode="8" releaseContact="true" arranged="true"/>
+		<node nodeID="350" kilometre="3.623" x="-34913.261" y="1259.0121" xNet="-360993" yNet="4891235.4">
+			<netLimitInfo lineID="ln804b"/>
+		</node>
+		<node nodeID="647" kilometre="3.620" x="-34882.37" y="1059.0121" xNet="-360792" yNet="4891245.2">
+			<netLimitInfo lineID="ln804b"/>
+		</node>
+		<stationBorder exitType="regular" stationID="FERYBDG" lineID="ln804b" trackNumber="1" nodeID="8" name="[PTFTBHL] - [ln804/1]" description="Gradient; 2m 33,02ch" kilometre="3.883" x="-37510.58" y="1059.0121" xNet="-361066.01" yNet="4888631" referenceNode="1"/>
+		<stationBorder exitType="alternative" stationID="FERYBDG" lineID="ln804b" trackNumber="2" nodeID="354" name="[PTFTBHL] - [ln804/2]" kilometre="4.470" x="-43377.58" y="1259.0121" xNet="-361877.99" yNet="4882817.3" referenceNode="848"/>
+		<stationBorder exitType="regular" stationID="FERYBDG" lineID="ln892" trackNumber="1" nodeID="355" name="[PTFTEGJ] - [ln892/1]" kilometre="93.379" x="-40552.556" y="1438.6154" xNet="-362052.99" yNet="4885642.1" referenceNode="34"/>
+		<stationBorder exitType="alternative" stationID="FERYBDG" lineID="ln804b" trackNumber="2" nodeID="357" name="[FERRBSJ] - [ln804/2]" kilometre="3.633" x="-35014.117" y="1059.0121" xNet="-360806" yNet="4891114.1" referenceNode="646"/>
+		<stationBorder exitType="alternative" stationID="FERYBDG" lineID="ln888" trackNumber="1" nodeID="358" name="[KNTNGWJ] - [ln888/1]" kilometre="93.194" x="-40086.326" y="813.9741" xNet="-358898" yNet="4883254.6" referenceNode="30"/>
+		<stationBorder exitType="regular" stationID="FERYBDG" lineID="ln888" trackNumber="2" nodeID="359" name="[KNTNGWJ] - [ln888/2]" kilometre="3.762" x="-36303.58" y="1056.0121" xNet="-360937" yNet="4889831" referenceNode="3"/>
+		<stationBorder exitType="regular" stationID="FERYBDG" lineID="ln804b" trackNumber="1" nodeID="360" name="[FERRBSJ] - [ln804/1]" kilometre="3.729" x="-35970.735" y="1259.0121" xNet="-361104.01" yNet="4890183.2" referenceNode="4"/>
+	</nodes>
+	<links>
+		<link source="1" target="7" length="25" gradient="-6.0241" vmaxr="121"/>
+		<link source="1" target="340" length="51" gradient="-6.0241" vmax="64" vmaxr="64"/>
+		<link source="2" target="646" length="5" gradient="-6.0241" vmaxr="121"/>
+		<link source="3" target="343" length="78" gradient="-6.0241" vmaxr="121"/>
+		<link source="4" target="20" length="1" gradient="-6.0241" vmax="121" vmaxr="121"/>
+		<link source="4" target="360" length="12" gradient="-6.0241" vmax="121"/>
+		<link source="5" target="4" length="21" gradient="-6.0241" vmax="121" vmaxr="121"/>
+		<link source="6" target="33" length="15" gradient="-6.57895" vmax="121"/>
+		<link source="7" target="346" length="38" gradient="-6.0241" vmaxr="121"/>
+		<link source="8" target="1" length="18" gradient="-6.0241" vmaxr="121"/>
+		<link source="9" target="14" length="101" gradient="-6.0241" vmax="121" vmaxr="121"/>
+		<link source="10" target="359" length="1" gradient="-6.0241" vmaxr="121"/>
+		<link source="11" target="10" length="1" gradient="-6.0241" vmaxr="80"/>
+		<link source="11" target="24" length="6" gradient="6.024" vmax="80"/>
+		<link source="12" target="1" length="1" gradient="-6.0241" vmax="64" vmaxr="64"/>
+		<link source="12" target="27" length="4" gradient="6.024" vmaxr="64"/>
+		<link source="14" target="5" length="20" gradient="-6.0241" vmax="121" vmaxr="121"/>
+		<link source="15" target="16" length="42" gradient="6.0241" vmax="80"/>
+		<link source="16" target="17" length="181" gradient="10" vmax="80"/>
+		<link source="18" target="19" length="1" gradient="6.57895" vmax="24" vmaxr="24" bidirectional="true"/>
+		<link source="20" target="344" length="47" gradient="-6.0241" vmax="64" vmaxr="64"/>
+		<link source="21" target="5" length="1" gradient="-6.0241" vmax="121" vmaxr="121"/>
+		<link source="22" target="337" length="44" vmax="24" vmaxr="24" bidirectional="true"/>
+		<link source="23" target="347" length="95" gradient="-6.579" vmaxr="121"/>
+		<link source="24" target="341" length="33" gradient="6.0241" vmax="80"/>
+		<link source="26" target="308" length="1" vmax="24" vmaxr="24" bidirectional="true"/>
+		<link source="27" target="28" length="32" gradient="6.0241" vmaxr="64"/>
+		<link source="28" target="338" length="3" gradient="10" vmaxr="64"/>
+		<link source="29" target="30" length="91" gradient="10" vmaxr="64"/>
+		<link source="30" target="358" length="12" gradient="10" vmaxr="64"/>
+		<link source="32" target="355" length="12" vmax="24" vmaxr="24" bidirectional="true"/>
+		<link source="33" target="9" length="102" gradient="-6.57895" vmax="121" vmaxr="121"/>
+		<link source="33" target="18" length="1" gradient="6.57895" vmax="121" vmaxr="121" bidirectional="true"/>
+		<link source="34" target="22" length="100" vmax="24" vmaxr="24" bidirectional="true"/>
+		<link source="308" target="19" length="2" vmax="24" vmaxr="24" bidirectional="true"/>
+		<link source="337" target="26" length="35" vmax="24" vmaxr="24" bidirectional="true"/>
+		<link source="338" target="29" length="46" gradient="10" vmaxr="64"/>
+		<link source="339" target="21" length="50" gradient="-6.0241" vmax="64" vmaxr="64"/>
+		<link source="340" target="339" length="1" gradient="-6.0241" vmax="64" vmaxr="64"/>
+		<link source="341" target="15" length="57" gradient="6.0241" vmax="80"/>
+		<link source="342" target="350" length="78" gradient="-6.0241" vmax="121"/>
+		<link source="343" target="2" length="40" gradient="-6.0241" vmaxr="121"/>
+		<link source="344" target="345" length="1" gradient="-6.0241" vmax="64" vmaxr="64"/>
+		<link source="345" target="789" length="47" gradient="-6.0241" vmax="64" vmaxr="64"/>
+		<link source="346" target="3" length="40" gradient="-6.0241" vmaxr="121"/>
+		<link source="347" target="8" length="22" gradient="-6.579" vmaxr="121"/>
+		<link source="354" target="848" length="3" gradient="-6.57895" vmax="121"/>
+		<link source="355" target="34" length="5" vmax="24" vmaxr="24" bidirectional="true"/>
+		<link source="357" target="647" length="13" gradient="-6.0241" vmaxr="121"/>
+		<link source="358" target="31" length="29" gradient="10" vmaxr="64"/>
+		<link source="359" target="3" gradient="-6.0241" vmaxr="121"/>
+		<link source="360" target="342" length="28" gradient="-6.0241" vmax="121"/>
+		<link source="646" target="357" length="6" gradient="-6.0241" vmaxr="121"/>
+		<link source="653" target="23" length="476" gradient="-6.579" vmaxr="121"/>
+		<link source="789" target="2" length="1" gradient="-6.0241" vmaxr="121"/>
+		<link source="847" target="6" length="193" gradient="-6.57895" vmax="121"/>
+		<link source="848" target="847" length="274" gradient="-6.57895" vmax="121"/>
+		<link source="849" target="354" length="6" gradient="-6.57895" vmax="121"/>
+	</links>
+	<dependentLinks/>
+	<blockSections>
+		<blocksection uuid="{041d21d4-ac4c-4818-ab47-af31cddf7aaf}" lines="fernj knot ln888" speedIndicators="10 17">
+			<part nodes="646 2 343 3 359 10 11 24 341 15 16 17"/>
+		</blocksection>
+		<blocksection uuid="{101befe8-5a6c-40b8-88e2-00d5404e6989}" lines="fernj ln804b">
+			<part nodes="647 357 646"/>
+		</blocksection>
+		<blocksection uuid="{138c201a-4826-437b-8266-ff9def10f4cd}" lines="fernj knot ln888" speedIndicators="31">
+			<part nodes="31 358 30"/>
+		</blocksection>
+		<blocksection uuid="{18f708ee-af6d-4a58-8516-0f9dc051fb88}" lines="fernj ln892 ponej">
+			<part nodes="32 355 34"/>
+		</blocksection>
+		<blocksection uuid="{3f51c356-d8c2-4bcf-a27e-eb55e2a491f7}" lines="fernj knot ln888" shuntingBlock="true" speedIndicators="31">
+			<part nodes="31 358 30"/>
+		</blocksection>
+		<blocksection uuid="{4b9527a8-08ef-4a0b-b9cc-e686e96f2385}" lines="fernj ln804b">
+			<part nodes="647 357 646"/>
+		</blocksection>
+		<blocksection uuid="{5891eff7-20dc-4bb9-931f-39a37ea25a62}" lines="fernj ln804b" speedIndicators="18">
+			<part nodes="34 22 337 26 308 19 18 33 9 14 5 4 360 342 350"/>
+		</blocksection>
+		<blocksection uuid="{58b12455-a770-4a38-97ae-c2e7a193ffe9}" lines="fernj knot ln888" speedIndicators="31">
+			<part nodes="31 358 30"/>
+		</blocksection>
+		<blocksection uuid="{6de9c73c-3168-419c-b711-4d2dbef871cf}" lines="fernj ln804b">
+			<part nodes="848 847 6 33 9 14 5 4 360 342 350"/>
+		</blocksection>
+		<blocksection uuid="{79e8792b-38d3-4ec8-91ad-ec5d8bc8c3f7}" lines="fernj knot ln888" speedIndicators="31">
+			<part nodes="31 358 30"/>
+		</blocksection>
+		<blocksection uuid="{884bdc05-46b8-4c45-9ef2-47c4e4439f5e}" lines="fernj knot ln888" shuntingBlock="true" speedIndicators="31">
+			<part nodes="31 358 30"/>
+		</blocksection>
+		<blocksection uuid="{8aecdb15-887f-4bd3-a130-0e4ff857a23c}" lines="fernj knot ln888" speedIndicators="31">
+			<part nodes="31 358 30"/>
+		</blocksection>
+		<blocksection uuid="{9e8233e3-3eaa-4b1b-b9de-98692216e3be}" lines="fernj knot ln888" speedIndicators="31">
+			<part nodes="31 358 30"/>
+		</blocksection>
+		<blocksection uuid="{a62dec0d-bc7c-4661-a6e2-8a4518bdf88c}" lines="fernj knot ln888" shuntingBlock="true" speedIndicators="31">
+			<part nodes="31 358 30"/>
+		</blocksection>
+		<blocksection uuid="{af4e9995-fcf5-4ebb-a639-d1fd36e38e5d}" lines="fernj ln804b">
+			<part nodes="646 2 343 3 346 7 1 8 347 23 653"/>
+		</blocksection>
+		<blocksection uuid="{b565e895-62ab-47ae-ab02-bec0cf2bee76}" lines="fernj ln804b">
+			<part nodes="849 354 848"/>
+		</blocksection>
+		<blocksection uuid="{cbb07b8b-8c39-4b77-a6fa-c9bca79e9aae}" lines="fernj ln804b" shuntingBlock="true">
+			<part nodes="647 357 646"/>
+		</blocksection>
+		<blocksection uuid="{e150afff-1947-43a3-b8c7-9c15cabdc02c}" lines="fernj ln892 ponej" speedIndicators="18 20 789">
+			<part nodes="646 2 789 345 344 20 4 5 14 9 33 18 19 308 26 337 22 34 355 32"/>
+		</blocksection>
+		<blocksection uuid="{fdcc881a-ca77-46e9-8ef1-184e6bfcbd75}" lines="fernj ln804b" speedIndicators="21">
+			<part nodes="30 29 338 28 27 12 1 340 339 21 5 4 360 342 350"/>
+		</blocksection>
+		<blocksection uuid="{fef3d100-9ac8-4921-9d86-5e27e7240009}" lines="fernj knot ln888" shuntingBlock="true" speedIndicators="31">
+			<part nodes="31 358 30"/>
+		</blocksection>
+	</blockSections>
+	<slipDistances>
+		<slipdistance uuid="{553e1629-a015-44dd-a1ab-dc823aee51d3}" vmax="999" lines="fernj" serialNumber="0">
+			<part nodes="848 847"/>
+		</slipdistance>
+		<slipdistance uuid="{d0af4c9d-5ba4-49e4-8008-ede3c058fda0}" vmax="999" lines="fernj" serialNumber="0">
+			<part nodes="646 2 343 3 346 7"/>
+		</slipdistance>
+		<slipdistance uuid="{e3708aa7-6935-447e-9814-3f04d8a215a4}" vmax="999" lines="fernj" serialNumber="0">
+			<part nodes="34 22 337 26 308"/>
+		</slipdistance>
+		<slipdistance uuid="{ea73b1d0-9457-4460-a9f9-425fb29da1eb}" vmax="999" lines="fernj" serialNumber="0">
+			<part nodes="30 29"/>
+		</slipdistance>
+	</slipDistances>
+	<approachControlRoutes/>
+	<stationRoutes>
+		<stationRoute stationID="FERYBDG" name="[FERRBSJ]-[ln804/2]-[5]-[KNTNGWJ]-[ln888/2] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=95;NRz=95;S=95;Rz=95;FGz=95;NGz=95;Gz=95;Lz=95;Unbekannt=95" nodes="357 646 2 343 3 359"/>
+		<stationRoute stationID="FERYBDG" name="[FERRBSJ]-[ln804/2]-[5]-[PTFTBHL]-[ln804/1] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="357 646 2 343 3 346 7 1 8"/>
+		<stationRoute stationID="FERYBDG" name="[FERRBSJ]-[ln804/2]-[5]-[PTFTEGJ]-[ln892/1] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=85;NRz=85;S=85;Rz=85;FGz=85;NGz=85;Gz=85;Lz=85;Unbekannt=85" nodes="357 646 2 789 345 344 20 4 5 14 9 33 18 19 308 26 337 22 34 355"/>
+		<stationRoute stationID="FERYBDG" name="[KNTNGWJ]-[ln888/1]-[1]-[FERRBSJ]-[ln804/1] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=95;NRz=95;S=95;Rz=95;FGz=95;NGz=95;Gz=95;Lz=95;Unbekannt=95" nodes="358 30 29 338 28 27 12 1 340 339 21 5 4 360"/>
+		<stationRoute stationID="FERYBDG" name="[PTFTBHL]-[ln804/2]-[6]-[FERRBSJ]-[ln804/1] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="354 848 847 6 33 9 14 5 4 360"/>
+		<stationRoute stationID="FERYBDG" name="[PTFTEGJ]-[ln892/1]-[3]-[FERRBSJ]-[ln804/1] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=95;NRz=95;S=95;Rz=95;FGz=95;NGz=95;Gz=95;Lz=95;Unbekannt=95" nodes="355 34 22 337 26 308 19 18 33 9 14 5 4 360"/>
+	</stationRoutes>
+	<lineCatalog/>
+	<zugNummernFelder/>
+	<switchGears/>
+</line>

@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<line lineID="hazlge" name="Hazel Grove East Jn" trafficRouting="on_the_left" type="global" dependentLines="nw9001 nw9021">
+	<transformations>
+		<transformation line="nw9001" m11="-0.866025" m12="0.5" m21="-0.5" m22="-0.866025" dx="2.53814e+06" dy="-1.46183e+06"/>
+		<transformation line="nw9021" m11="-0.93358" m12="0.358368" m21="-0.358368" m22="-0.93358" dx="5.6051e+06" dy="-1.06712e+06"/>
+	</transformations>
+	<version major="1" minor="2" patchlevel="0" comment=""/>
+	<creator user="VWaddelo" timestamp="2016-07-08T10:58:15"/>
+	<lasteditor user="VWaddelo" timestamp="2016-07-08T10:58:15"/>
+	<stations>
+		<station stationID="HAZL" name="Hazel Grove" xNet="-1312403.3" yNet="4246860.05" uicLocationCode="0" circleDiameter="0">
+			<textElement type="name">
+				<pos view="net" x="1666.74" y="1666.74" angle="0" system="source"/>
+				<pos view="wgs84" x="1666.74" y="1666.74" angle="0" system="source"/>
+				<pos view="line" x="1182.42" y="1182.42" angle="0" system="source"/>
+				<pos view="macro" x="28.2843" y="28.2843" angle="0" system="source"/>
+				<pos view="macroWgs84" x="0" y="0" angle="0" system="source"/>
+			</textElement>
+		</station>
+		<station stationID="HAZLGEJ" name="Hazel Grove East Jn" xNet="-1307843.5" yNet="4241146.05" uicLocationCode="0" circleDiameter="0">
+			<textElement type="name">
+				<pos view="net" x="2891.1" y="2891.1" angle="0" system="source"/>
+				<pos view="wgs84" x="2891.1" y="2891.1" angle="0" system="source"/>
+				<pos view="line" x="2368.56" y="2368.56" angle="0" system="source"/>
+				<pos view="macro" x="28.2843" y="28.2843" angle="0" system="source"/>
+				<pos view="macroWgs84" x="0" y="0" angle="0" system="source"/>
+			</textElement>
+		</station>
+	</stations>
+	<nodes>
+		<node nodeID="151" name="OL : EY119" description="OL for SIG : EY119" kilometre="4.020" x="2899332.1" y="-15249.9" xNet="-1308098" yNet="4242799"/>
+		<node nodeID="41" name="SD : EY122" description="sighting distance for SIG : EY122" kilometre="4.179" x="2897857.8" y="-15845.5" xNet="-1308001" yNet="4242712" referenceNode="151" sightingDistance="true"/>
+		<track trackID="D-1" stationID="HAZLGEJ" interlockingMachine="3 Aspect Pannel (Below 75mph)" nodeID="153" name="SIG : EY119" description="Signal EY119; 2m 48.92ch" kilometre="4.203" x="2897635.3" y="-15935.4" xNet="-1307665" yNet="4242405" referenceNode="734"/>
+		<stationBorder exitType="regular" stationID="HAZLGEJ" lineID="nw9001" trackNumber="1" nodeID="734" kilometre="4.220" x="2897479.6" y="-15998.3" xNet="-1307500" yNet="4242200" referenceNode="153">
+			<netLimitInfo lineID="nw9001"/>
+		</stationBorder>
+		<track trackID="D-2" stationID="HAZL" length="171" interlockingMachine="3 Aspect Pannel (Below 75mph)" nodeID="75" name="SIG : HG17" description="Signal HG17; 2m 16.17ch" kilometre="3.544" x="2903593" y="-13000.226" xNet="-1312956.5" yNet="4247249" referenceNode="34">
+			<platform startPos="-1830" endPos="-20" width="150" left="true" open="true"/>
+		</track>
+		<node nodeID="34" name="SD : HG20" description="sighting distance for SIG : HG20" kilometre="3.603" x="2903046" y="-13221.244" xNet="-1312401.9" yNet="4246646.8" referenceNode="75" sightingDistance="true"/>
+		<track trackID="T-2" stationID="HAZL" type="timingPoint" nodeID="35" name="T-2" description="Hazel Grove T-2, timingPoint, 2m 20.99ch" kilometre="3.641" x="2902693.6" y="-13363.595" xNet="-1312044.7" yNet="4246258.9" referenceNode="34"/>
+		<node nodeID="36" name="SD : HG17" description="sighting distance for SIG : HG17" kilometre="3.669" x="2902434" y="-13468.485" xNet="-1311781.5" yNet="4245973.1" referenceNode="78" sightingDistance="true"/>
+		<track trackID="U-2" stationID="HAZL" length="171" interlockingMachine="3 Aspect Pannel (Below 75mph)" nodeID="37" name="SIG : HG20" description="Signal HG20; 2m 25.31ch" kilometre="3.728" x="2901887" y="-13689.503" xNet="-1311226.9" yNet="4245371" referenceNode="78"/>
+		<track trackID="D-1" stationID="HAZL" length="171" interlockingMachine="3 Aspect Pannel (Below 75mph)" nodeID="2" name="SIG : HG15" description="Signal HG15; 2m 16.17ch" kilometre="3.544" x="2903667.9" y="-13185.663" xNet="-1312761.8" yNet="4247446.1" referenceNode="142"/>
+		<node nodeID="142" name="SD : HG18" description="sighting distance for SIG : HG18" kilometre="3.603" x="2903120.9" y="-13406.681" xNet="-1312207.2" yNet="4246843.9" referenceNode="2" sightingDistance="true"/>
+		<track trackID="T-1" stationID="HAZL" type="timingPoint" nodeID="143" name="T-1" description="Hazel Grove T-1, timingPoint, 2m 20.99ch" kilometre="3.641" x="2902768.6" y="-13549.031" xNet="-1311850" yNet="4246456.1" referenceNode="142"/>
+		<node nodeID="144" name="SD : HG15" description="sighting distance for SIG  : HG15" kilometre="3.669" x="2902508.9" y="-13653.921" xNet="-1311586.8" yNet="4246170.2" referenceNode="145" sightingDistance="true"/>
+		<track trackID="U-1" stationID="HAZL" length="171" interlockingMachine="3 Aspect Pannel (Below 75mph)" nodeID="33" name="SIG : HG18" description="Signal HG18; 2m 25.31ch" kilometre="3.728" x="2901961.9" y="-13874.939" xNet="-1311032.2" yNet="4245568.1" referenceNode="145">
+			<platform startPos="-1830" endPos="-20" width="150" left="true" open="true"/>
+		</track>
+		<node nodeID="146" name="OL : HG18" description="OL for SIG : HG18" kilometre="3.808" x="2901220.2" y="-14174.625" xNet="-1310280.2" yNet="4244751.6"/>
+		<speedIndicator nodeID="79" name="SPEED" description="Speed; 2m 35.01ch" kilometre="3.923" x="2900153.9" y="-14605.422" xNet="-1309199.1" yNet="4243577.8" referenceNode="63"/>
+		<switch start="74" endOfMainTrack="66" endOfBranchTrack="67" nodeID="101" name="POINTS: 207" description="POINTS : 207; 39.77 mph; 2m 36.35ch" kilometre="3.950" x="2899903.6" y="-14706.566" xNet="-1308945.3" yNet="4243302.3"/>
+		<node nodeID="72" name="1000MM" description="1000MM : 4" kilometre="4.000" x="2899514.9" y="-15079.306" xNet="-1308280.6" yNet="4242989.1"/>
+		<switch start="74" endOfMainTrack="79" endOfBranchTrack="65" nodeID="63" name="POINTS: 206B" description="POINTS : 206B; 39.77 mph; 2m 35.35ch" kilometre="3.930" x="2900089" y="-14631.645" xNet="-1309133.3" yNet="4243506.4"/>
+		<switch start="131" endOfMainTrack="76" endOfBranchTrack="58" nodeID="40" name="POINTS: 206A" description="POINTS : 206A; 39.77 mph; 2m 30.93ch" kilometre="3.841" x="2900839.3" y="-14112.808" xNet="-1310164.6" yNet="4244217.7"/>
+		<switch start="2" endOfMainTrack="172" endOfBranchTrack="102" nodeID="140" name="POINTS: 205A" description="POINTS : 205A; 24.85 mph; 2m 14.88ch" kilometre="3.518" x="2903909" y="-13088.265" xNet="-1313006.3" yNet="4247711.5"/>
+		<switch start="31" endOfMainTrack="62" endOfBranchTrack="47" nodeID="32" name="POINTS: POINTS  : 205B" description="POINTS : 205B; 24.85 mph; 2m 12.04ch" kilometre="3.461" x="2904362.6" y="-12689.302" xNet="-1313736.8" yNet="4248096.1"/>
+		<switch start="32" endOfMainTrack="105" endOfBranchTrack="163" nodeID="31" name="POINTS: 204A" description="POINTS : 204A; 24.85 mph; 2m 11.25ch" kilometre="3.445" x="2904510.9" y="-12629.365" xNet="-1313887.2" yNet="4248259.4"/>
+		<speedIndicator nodeID="163" name="SPEED" description="Speed;" kilometre="3.444" x="2904521.3" y="-12628.401" xNet="-1313893.7" yNet="4248272.6" referenceNode="175"/>
+		<speedIndicator nodeID="102" name="SPEED" description="Speed;" kilometre="3.517" x="2903917.1" y="-13081.737" xNet="-1313018.6" yNet="4247718.7" referenceNode="140"/>
+		<speedIndicator nodeID="47" name="SPEED" description="Speed;" kilometre="3.462" x="2904354.8" y="-12696.757" xNet="-1313723.5" yNet="4248089.8" referenceNode="56"/>
+		<speedIndicator nodeID="65" name="SPEED" description="Speed;" kilometre="3.929" x="2900097.5" y="-14626.045" xNet="-1309144.6" yNet="4243514.6" referenceNode="63"/>
+		<node nodeID="56" name="tc" description="release contact for track circuit" kilometre="3.489" x="2904142.4" y="-12883.932" xNet="-1313381" yNet="4247909.9" referenceNode="47" releaseContact="true" arranged="true"/>
+		<node nodeID="57" name="tc" description="release contact for track circuit" kilometre="3.490" x="2904131.9" y="-12892.511" xNet="-1313364.9" yNet="4247900.7" referenceNode="102" releaseContact="true" arranged="true"/>
+		<node nodeID="58" name="tc" description="release contact for track circuit" kilometre="3.885" x="2900468.4" y="-14369.426" xNet="-1309654.6" yNet="4243866.1" referenceNode="40" releaseContact="true" arranged="true"/>
+		<node nodeID="59" name="tc" description="release contact for track circuit" kilometre="3.886" x="2900459.9" y="-14375.027" xNet="-1309643.3" yNet="4243857.9" referenceNode="65" releaseContact="true" arranged="true"/>
+		<node nodeID="62" name="tc" description="release contact for track circuit" kilometre="3.501" x="2903991.7" y="-12839.145" xNet="-1313360.8" yNet="4247687.9" referenceNode="32" releaseContact="true" arranged="true"/>
+		<node nodeID="172" name="tc" description="release contact for track circuit" kilometre="3.478" x="2904279.9" y="-12938.422" xNet="-1313382.3" yNet="4248119.8" referenceNode="140" releaseContact="true" arranged="true"/>
+		<node nodeID="173" name="tc" description="release contact for track circuit" kilometre="3.883" x="2900524.8" y="-14455.58" xNet="-1309575.1" yNet="4243986.1" referenceNode="79" releaseContact="true" arranged="true"/>
+		<node nodeID="73" name="tc" description="release contact for track circuit" kilometre="3.990" x="2899592.6" y="-15004.758" xNet="-1308413.5" yNet="4243051.7" referenceNode="66" releaseContact="true" arranged="true"/>
+		<track trackID="T-1" stationID="HAZLGEJ" type="timingPoint" nodeID="74" name="T-1" description="Hazel Grove East Jn T-1, timingPoint" kilometre="3.949" x="2899912.8" y="-14702.82" xNet="-1308954.7" yNet="4243312.4" referenceNode="63"/>
+		<track trackID="T-2" stationID="HAZLGEJ" type="timingPoint" nodeID="76" name="T-2" description="Hazel Grove East Jn T-2, timingPoint" kilometre="3.949" x="2899837.9" y="-14517.384" xNet="-1309149.4" yNet="4243115.3" referenceNode="40"/>
+		<stationBorder exitType="regular" stationID="HAZL" lineID="nw9001" trackNumber="DHV" nodeID="105" name="[HAZELGWJ] - [n9001/3]" kilometre="3.433" x="2904622.2" y="-12584.413" xNet="-1314000" yNet="4248381.9" referenceNode="31">
+			<netLimitInfo lineID="nw9001"/>
+		</stationBorder>
+		<stationBorder exitType="alternative" stationID="HAZL" lineID="nw9001" trackNumber="DHV" nodeID="106" name="[HAZLGEJ] - [n9001/1]" kilometre="3.752" x="2901664.5" y="-13779.408" xNet="-1311001.3" yNet="4245126.1" referenceNode="37"/>
+		<stationBorder exitType="regular" stationID="HAZL" lineID="nw9001" trackNumber="UHV" nodeID="107" name="[HAZLGEJ] - [n9001/2]" kilometre="3.752" x="2901739.4" y="-13964.845" xNet="-1310806.6" yNet="4245323.2" referenceNode="33"/>
+		<stationBorder exitType="alternative" stationID="HAZL" lineID="nw9001" trackNumber="HAZE" nodeID="175" kilometre="3.433" x="2904639.1" y="-12617.807" xNet="-1313966.7" yNet="4248421.9" referenceNode="163">
+			<netLimitInfo lineID="nw9001"/>
+		</stationBorder>
+		<stationBorder exitType="alternative" stationID="HAZL" lineID="nw9001" trackNumber="UHV" nodeID="130" kilometre="3.432" x="2904710.7" y="-12764.343" xNet="-1313819.1" yNet="4248594" referenceNode="172">
+			<netLimitInfo lineID="nw9001"/>
+		</stationBorder>
+		<stationBorder exitType="regular" stationID="HAZLGEJ" lineID="nw9001" trackNumber="DHV" nodeID="131" kilometre="3.836" x="2900888.5" y="-14092.917" xNet="-1310214.5" yNet="4244271.8" referenceNode="40"/>
+		<node nodeID="39" name="[HAZL] - [n9001/1]" description="OL for SIG : HG20" kilometre="3.808" x="2901145.2" y="-13989.188" xNet="-1310474.8" yNet="4244554.4"/>
+		<stationBorder exitType="alternative" stationID="HAZLGEJ" lineID="nw9001" trackNumber="UHV" nodeID="152" kilometre="3.835" x="2900970.7" y="-14275.394" xNet="-1310027.3" yNet="4244477" referenceNode="173"/>
+		<speedIndicator nodeID="67" name="SPEED" description="Speed; 2m 36.40ch" kilometre="3.951" x="2899894.3" y="-14710.312" xNet="-1308935.9" yNet="4243292.1" referenceNode="101"/>
+		<node nodeID="145" kilometre="3.670" x="2902499.7" y="-13657.667" xNet="-1311577.4" yNet="4246160.1" referenceNode="33" aspectTrigger="true"/>
+		<node nodeID="78" kilometre="3.670" x="2902424.8" y="-13472.231" xNet="-1311772.1" yNet="4245963" referenceNode="37" aspectTrigger="true"/>
+		<node nodeID="66" name="[HAZLGHJ] - [n9001/1]" kilometre="3.962" x="2899810.3" y="-14796.024" xNet="-1308785.8" yNet="4243227.1"/>
+		<node nodeID="43" name="KM" kilometre="4.000" x="2899441.3" y="-14889.617" xNet="-1308481.3" yNet="4242791.4"/>
+		<node nodeID="110" name="KM" kilometre="4.000" x="2899366.4" y="-14704.183" xNet="-1308676" yNet="4242594.3"/>
+		<speedIndicator nodeID="169" kilometre="3.950" x="2899828.6" y="-14521.13" xNet="-1309140" yNet="4243105.1" referenceNode="76"/>
+		<speedIndicator nodeID="88" kilometre="4.265" x="2897001.9" y="-15825.988" xNet="-1307505.3" yNet="4240416" referenceNode="282"/>
+		<speedIndicator nodeID="147" kilometre="4.265" x="2896927" y="-15640.568" xNet="-1307700" yNet="4240218.9" referenceNode="110"/>
+		<node nodeID="1" name="OL " description="OL for SIG : " kilometre="3.998" x="2899384.8" y="-14697.115" xNet="-1308694.2" yNet="4242614.8"/>
+		<stationBorder exitType="regular" stationID="HAZLGEJ" lineID="nw9021" trackNumber="UM" nodeID="92" kilometre="4.488" x="2894945.5" y="-16615.306" xNet="-1305472.5" yNet="4238130.2" referenceNode="109">
+			<netLimitInfo lineID="nw9021"/>
+		</stationBorder>
+		<stationBorder exitType="alternative" stationID="HAZLGEJ" lineID="nw9021" trackNumber="DM" nodeID="158" kilometre="4.500" x="2894764.4" y="-16470.707" xNet="-1305562.1" yNet="4237815.1" referenceNode="139">
+			<netLimitInfo lineID="nw9021"/>
+		</stationBorder>
+		<track trackID="D-2" stationID="HAZLGEJ" interlockingMachine="3 Aspect Pannel (Below 75mph)" nodeID="139" name="SIG: 23" kilometre="4.400" x="2895684.3" y="-16117.595" xNet="-1306471.5" yNet="4238837.6" referenceNode="158"/>
+		<signal interlockingMachine="2 Aspect Pannel (Below 75mph)" nodeID="109" name="SIG: 24" kilometre="4.400" x="2895759.1" y="-16303.007" xNet="-1306276.8" yNet="4239034.6" referenceNode="88"/>
+		<node nodeID="282" kilometre="4.256" x="2897084.7" y="-15794.187" xNet="-1307587.2" yNet="4240508" referenceNode="43" sightingDistance="true"/>
+	</nodes>
+	<links>
+		<link source="1" target="110" length="2" vmax="64" vmaxr="64">
+			<vzg index="1" vmax="40" vmaxr="40"/>
+		</link>
+		<link source="2" target="142" length="59" vmax="64" vmaxr="64" electrification="electrified"/>
+		<link source="31" target="32" length="16" vmax="64" vmaxr="64" electrification="electrified"/>
+		<link source="32" target="47" length="1" vmax="64" vmaxr="64" electrification="electrified"/>
+		<link source="32" target="62" length="40" vmax="64" vmaxr="64" electrification="electrified"/>
+		<link source="33" target="107" length="24" vmax="64" vmaxr="64" electrification="electrified"/>
+		<link source="34" target="35" length="38" vmax="64" vmaxr="64" electrification="electrified"/>
+		<link source="35" target="36" length="28" vmax="64" vmaxr="64" electrification="electrified"/>
+		<link source="36" target="78" length="1" vmax="64" vmaxr="64" electrification="electrified"/>
+		<link source="37" target="106" length="24" vmax="64" vmaxr="64" electrification="electrified"/>
+		<link source="39" target="131" length="28" vmax="64" vmaxr="64" electrification="electrified"/>
+		<link source="40" target="58" length="44" vmax="64" vmaxr="64" electrification="electrified"/>
+		<link source="40" target="76" length="108" vmax="64" vmaxr="64" electrification="electrified"/>
+		<link source="41" target="153" length="24" vmax="64" vmaxr="48" bidirectional="true"/>
+		<link source="43" target="282" length="256" gradient="16.667" vmax="64" vmaxr="64">
+			<vzg index="1" vmax="40" vmaxr="40"/>
+		</link>
+		<link source="47" target="56" length="27" vmax="40" vmaxr="40" electrification="electrified"/>
+		<link source="56" target="57" length="1" vmax="40" vmaxr="40" electrification="electrified"/>
+		<link source="57" target="102" length="27" vmax="40" vmaxr="40" electrification="electrified"/>
+		<link source="58" target="59" length="1" vmax="64" vmaxr="64" electrification="electrified"/>
+		<link source="59" target="65" length="43" vmax="64" vmaxr="64" electrification="electrified"/>
+		<link source="62" target="75" length="43" vmax="64" vmaxr="64" electrification="electrified"/>
+		<link source="63" target="74" length="19" vmax="64" vmaxr="48" electrification="electrified"/>
+		<link source="65" target="63" length="1" vmax="64" vmaxr="48" electrification="electrified"/>
+		<link source="66" target="73" length="28" vmax="64" vmaxr="48" bidirectional="true" electrification="electrified"/>
+		<link source="67" target="43" length="49" vmax="64" vmaxr="64">
+			<vzg index="1" vmax="40" vmaxr="40"/>
+		</link>
+		<link source="72" target="151" length="20" vmax="64" vmaxr="48" bidirectional="true" electrification="electrified"/>
+		<link source="73" target="72" length="10" vmax="64" vmaxr="48" bidirectional="true" electrification="electrified"/>
+		<link source="74" target="101" length="1" vmax="64" vmaxr="48" electrification="electrified"/>
+		<link source="75" target="34" length="59" vmax="64" vmaxr="64" electrification="electrified"/>
+		<link source="76" target="169" length="1" vmax="64" vmaxr="64" electrification="electrified"/>
+		<link source="78" target="37" length="58" vmax="64" vmaxr="64" electrification="electrified"/>
+		<link source="79" target="63" length="7" vmax="64" vmaxr="48" electrification="electrified"/>
+		<link source="88" target="109" length="135" gradient="16.667" vmax="97" vmaxr="97">
+			<vzg index="1" vmax="40" vmaxr="40"/>
+		</link>
+		<link source="101" target="66" length="12" vmax="64" vmaxr="48" bidirectional="true" electrification="electrified"/>
+		<link source="101" target="67" length="1" vmax="64" vmaxr="48" electrification="electrified"/>
+		<link source="102" target="140" length="1" vmax="64" vmaxr="64" electrification="electrified"/>
+		<link source="105" target="31" length="12" vmax="64" vmaxr="64" electrification="electrified"/>
+		<link source="106" target="39" length="56" vmax="64" vmaxr="64" electrification="electrified"/>
+		<link source="107" target="146" length="56" vmax="64" vmaxr="64" electrification="electrified"/>
+		<link source="109" target="92" length="88" gradient="16.667" vmax="97" vmaxr="97">
+			<vzg index="1" vmax="40" vmaxr="40"/>
+		</link>
+		<link source="110" target="147" length="265" gradient="16.667" vmax="64" vmaxr="64">
+			<vzg index="1" vmax="40" vmaxr="40"/>
+		</link>
+		<link source="130" target="172" length="46" vmax="64" vmaxr="64" electrification="electrified"/>
+		<link source="131" target="40" length="5" vmax="64" vmaxr="64" electrification="electrified"/>
+		<link source="139" target="158" length="100" gradient="16.667" vmax="97" vmaxr="97">
+			<vzg index="1" vmax="40" vmaxr="40"/>
+		</link>
+		<link source="140" target="2" length="26" vmax="64" vmaxr="64" electrification="electrified"/>
+		<link source="142" target="143" length="38" vmax="64" vmaxr="64" electrification="electrified"/>
+		<link source="143" target="144" length="28" vmax="64" vmaxr="64" electrification="electrified"/>
+		<link source="144" target="145" length="1" vmax="64" vmaxr="64" electrification="electrified"/>
+		<link source="145" target="33" length="58" vmax="64" vmaxr="64" electrification="electrified"/>
+		<link source="146" target="152" length="27" vmax="64" vmaxr="64" electrification="electrified"/>
+		<link source="147" target="139" length="135" gradient="16.667" vmax="97" vmaxr="97">
+			<vzg index="1" vmax="40" vmaxr="40"/>
+		</link>
+		<link source="151" target="41" length="159" vmax="64" vmaxr="48" bidirectional="true"/>
+		<link source="152" target="173" length="48" vmax="64" vmaxr="64" electrification="electrified"/>
+		<link source="153" target="734" length="17" vmax="64" vmaxr="48" bidirectional="true"/>
+		<link source="163" target="31" length="1" vmax="64" vmaxr="64" electrification="electrified"/>
+		<link source="169" target="1" length="48" vmax="64" vmaxr="64">
+			<vzg index="1" vmax="40" vmaxr="40"/>
+		</link>
+		<link source="172" target="140" length="40" vmax="64" vmaxr="64" electrification="electrified"/>
+		<link source="173" target="79" length="40" vmax="64" vmaxr="64" electrification="electrified"/>
+		<link source="175" target="163" length="11" vmax="40" vmaxr="40" electrification="electrified"/>
+		<link source="282" target="88" length="9" gradient="16.667" vmax="64" vmaxr="64">
+			<vzg index="1" vmax="40" vmaxr="40"/>
+		</link>
+	</links>
+	<dependentLinks/>
+	<blockSections>
+		<blocksection uuid="{0f5aedd6-757d-4461-89c6-2f133e82a2f0}" lines="hazlge nw9001" shuntingBlock="true" signallingSystem="atc-dk" speedIndicators="163">
+			<part nodes="175 163 31 32 62 75 34 35 36 78 37"/>
+		</blocksection>
+		<blocksection uuid="{10c37d9f-f082-4f9a-92e0-dcff909f8910}" lines="hazlge">
+			<part nodes="75 34 35 36 78 37"/>
+		</blocksection>
+		<blocksection uuid="{16a5d864-ac2f-4f8d-ae2c-312fa044ee0d}" lines="hazlge">
+			<part nodes="2 142 143 144 145 33"/>
+		</blocksection>
+		<blocksection uuid="{1853a6dd-55f4-476c-8771-149fac82af4d}" lines="hazl hazlge nw9001">
+			<part nodes="734 153"/>
+		</blocksection>
+		<blocksection uuid="{1af69038-eb51-4b93-b8b3-ed0a59f4f4c3}" lines="hazlge nw9001" shuntingBlock="true" signallingSystem="atc-dk">
+			<part nodes="105 31 32 62 75 34 35 36 78 37"/>
+		</blocksection>
+		<blocksection uuid="{1c4d6f09-41a3-48f3-9afc-00a0fa242646}" lines="hazlge nw9001" signallingSystem="atc-dk" speedIndicators="47 102">
+			<part nodes="2 140 102 57 56 47 32 31 105"/>
+		</blocksection>
+		<blocksection uuid="{1e0de24e-3c8b-41c6-92c9-1a27ba267d82}" lines="hazlge nw9021">
+			<part nodes="109 92"/>
+		</blocksection>
+		<blocksection uuid="{2540d099-7f12-46b2-a419-81566a8a4cc6}" lines="hazlge nw9001" signallingSystem="atc-dk">
+			<part nodes="2 140 172 130"/>
+		</blocksection>
+		<blocksection uuid="{35f65445-0c31-4e63-8749-8c91747e8202}" lines="hazlge nw9001" signallingSystem="atc-dk">
+			<part nodes="130 172 140 2 142 143 144 145 33"/>
+		</blocksection>
+		<blocksection uuid="{3f61e8c3-7faa-4385-9ff9-209e3f3a7cb4}" lines="hazlge nw9001" shuntingBlock="true" signallingSystem="atc-dk">
+			<part nodes="130 172 140 2 142 143 144 145 33"/>
+		</blocksection>
+		<blocksection uuid="{5c260bfd-6d75-485d-b231-34a432207350}" lines="hazlge" speedIndicators="67 88">
+			<part nodes="33 107 146 152 173 79 63 74 101 67 43 282 88 109"/>
+		</blocksection>
+		<blocksection uuid="{61517e5d-c18a-41fe-8745-0c95783e040d}" lines="hazlge nw9001" signallingSystem="atc-dk">
+			<part nodes="75 62 32 31 105"/>
+		</blocksection>
+		<blocksection uuid="{650490f7-49de-4cf5-a781-b57e196f7557}" lines="hazlge nw9001" shuntingBlock="true" signallingSystem="atc-dk" speedIndicators="47 102">
+			<part nodes="105 31 32 47 56 57 102 140 2 142 143 144 145 33"/>
+		</blocksection>
+		<blocksection uuid="{6f788af1-a08e-4f6c-97d7-a7272249a4fd}" lines="hazlge">
+			<part nodes="33 145 144 143 142 2"/>
+		</blocksection>
+		<blocksection uuid="{74816166-368b-4541-b82e-d648553e789d}" lines="hazlge nw9001" signallingSystem="atc-dk" speedIndicators="163">
+			<part nodes="75 62 32 31 163 175"/>
+		</blocksection>
+		<blocksection uuid="{77c9935f-bced-488b-954e-5952a9f7d10e}" lines="hazlge nw9001" signallingSystem="atc-dk" speedIndicators="163">
+			<part nodes="175 163 31 32 62 75 34 35 36 78 37"/>
+		</blocksection>
+		<blocksection uuid="{7d7c56b9-f470-437c-9885-124e420c3472}" lines="hazl hazlge nw9001">
+			<part nodes="33 107 146 152 173 79 63 74 101 66 73 72 151 41 153 734"/>
+		</blocksection>
+		<blocksection uuid="{8f5908f7-fc49-4ac9-ae6e-88c0f7c7ee3c}" lines="hazlge nw9001" signallingSystem="atc-dk">
+			<part nodes="75 62 32 31 105"/>
+		</blocksection>
+		<blocksection uuid="{95cf8b09-23e6-4cdb-9e71-417305bc0893}" lines="hazlge" speedIndicators="65">
+			<part nodes="153 41 151 72 73 66 101 74 63 65 59 58 40 131 39 106 37 78 36 35 34 75"/>
+		</blocksection>
+		<blocksection uuid="{a023c722-87f5-4616-855c-810ea736e6c0}" lines="hazl hazlge nw9001">
+			<part nodes="37 106 39 131 40 58 59 65 63 74 101 66 73 72 151 41 153 734"/>
+		</blocksection>
+		<blocksection uuid="{a57ad752-39a2-444c-9061-4c9a3dca3404}" lines="hazlge nw9001" signallingSystem="atc-dk" speedIndicators="47 102">
+			<part nodes="2 140 102 57 56 47 32 31 105"/>
+		</blocksection>
+		<blocksection uuid="{b0da957b-d532-42a0-a526-de0a0e14cac0}" lines="hazlge nw9021">
+			<part nodes="158 139"/>
+		</blocksection>
+		<blocksection uuid="{d29bbfc4-dd28-48c6-ad26-96854adae856}" lines="hazlge nw9001" shuntingBlock="true" signallingSystem="atc-dk">
+			<part nodes="105 31 32 62 75 34 35 36 78 37"/>
+		</blocksection>
+		<blocksection uuid="{db822d82-3025-4f86-9e9f-e7fbee52daf4}" lines="hazlge" speedIndicators="147 169">
+			<part nodes="139 147 110 1 169 76 40 131 39 106 37 78 36 35 34 75"/>
+		</blocksection>
+		<blocksection uuid="{dc416796-674f-4d9a-a3cb-daa3790e424d}" lines="hazlge" speedIndicators="79">
+			<part nodes="153 41 151 72 73 66 101 74 63 79 173 152 146 107 33 145 144 143 142 2"/>
+		</blocksection>
+		<blocksection uuid="{e899a97e-3f7b-4877-9698-32c5eabf9bca}" lines="hazlge" speedIndicators="67 88">
+			<part nodes="37 106 39 131 40 58 59 65 63 74 101 67 43 282 88 109"/>
+		</blocksection>
+		<blocksection uuid="{ec0365f2-3153-4abe-924f-01b1cbc10341}" lines="hazlge">
+			<part nodes="37 78 36 35 34 75"/>
+		</blocksection>
+	</blockSections>
+	<slipDistances>
+		<slipdistance uuid="{1f9f1ca4-eceb-47f6-9ea3-9cbd1f27bf41}" vmax="999" lines="hazlge nw9001" serialNumber="0">
+			<part nodes="2 140 172 130"/>
+		</slipdistance>
+		<slipdistance uuid="{29054f57-a13c-4718-89f8-689903982e0b}" vmax="999" lines="hazlge nw9001" serialNumber="1">
+			<part nodes="2 140 102 57 56 47 32 31 105"/>
+		</slipdistance>
+		<slipdistance uuid="{55d93c4e-c5f0-4472-b8d0-ce2be04e9e88}" vmax="999" lines="hazlge" serialNumber="0">
+			<part nodes="37 106 39"/>
+		</slipdistance>
+		<slipdistance uuid="{5f623e07-f43a-4993-b3aa-c4b4b70cedd5}" vmax="999" lines="hazlge" serialNumber="0">
+			<part nodes="33 107 146"/>
+		</slipdistance>
+		<slipdistance uuid="{7800890e-8e04-4b49-8f13-d64a68090e5f}" vmax="999" lines="hazlge" serialNumber="0">
+			<part nodes="139 147 110 1"/>
+		</slipdistance>
+		<slipdistance uuid="{79132c08-f8e9-40aa-8704-4d4f2399d340}" vmax="999" lines="hazlge nw9021" serialNumber="0">
+			<part nodes="109 92"/>
+		</slipdistance>
+		<slipdistance uuid="{7a743136-8951-4b52-81b6-ffee4ad5dc77}" vmax="999" lines="hazlge" serialNumber="0">
+			<part nodes="153 41 151"/>
+		</slipdistance>
+		<slipdistance uuid="{a5301641-8e8c-410f-842c-27b3a42b8286}" vmax="999" lines="hazlge nw9001" serialNumber="0">
+			<part nodes="75 62 32 31 105"/>
+		</slipdistance>
+		<slipdistance uuid="{c2c47726-aa16-4135-a90b-0b0678f3006b}" vmax="999" lines="hazlge nw9001" serialNumber="1">
+			<part nodes="75 62 32 31 105"/>
+		</slipdistance>
+	</slipDistances>
+	<approachControlRoutes>
+		<ACRoute controlTyp="mar" uuid="{43656edf-b0e3-45dc-8638-af986f79af00}" publicName="HG15 [205A]" lines="hazlge">
+			<part nodes="2 140 102"/>
+		</ACRoute>
+		<ACRoute controlTyp="mar" uuid="{58eb7868-7a6b-4a62-8c6e-3d1c550c0d9f}" publicName="HG17 [203A]" lines="hazlge nw9001">
+			<part nodes="75 62 32 31 105"/>
+		</ACRoute>
+		<ACRoute controlTyp="mar" uuid="{7ea3a65b-0cbd-448b-8508-89a9278c4a4c}" publicName="HG17 [204A]" lines="hazlge">
+			<part nodes="75 62 32 31 163"/>
+		</ACRoute>
+		<ACRoute controlTyp="mar" uuid="{dd7e33ec-ec6e-4515-bf5b-3030d9b781bf}" publicName="HG15 [202A]" lines="hazlge nw9001">
+			<part nodes="2 140 172 130"/>
+		</ACRoute>
+	</approachControlRoutes>
+	<stationRoutes>
+		<stationRoute stationID="HAZL" name="D UHV" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="107 33 145 144 143 142 2 140 172 130"/>
+		<stationRoute stationID="HAZL" name="DHV" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="106 37 78 36 35 34 75 62 32 31 105"/>
+		<stationRoute stationID="HAZL" name="DHV [1]" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="105 31 32 62 75 34 35 36 78 37 106"/>
+		<stationRoute stationID="HAZL" name="DHV [2]" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=90;NRz=90;S=90;Rz=90;FGz=90;NGz=90;Gz=90;Lz=90;Unbekannt=90" nodes="107 33 145 144 143 142 2 140 102 57 56 47 32 31 105"/>
+		<stationRoute stationID="HAZL" name="DHV [3]" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=95;NRz=95;S=95;Rz=95;FGz=95;NGz=95;Gz=95;Lz=95;Unbekannt=95" nodes="175 163 31 32 62 75 34 35 36 78 37 106"/>
+		<stationRoute stationID="HAZL" name="HAZL" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=95;NRz=95;S=95;Rz=95;FGz=95;NGz=95;Gz=95;Lz=95;Unbekannt=95" nodes="106 37 78 36 35 34 75 62 32 31 163 175"/>
+		<stationRoute stationID="HAZL" name="UHV" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="130 172 140 2 142 143 144 145 33 107"/>
+		<stationRoute stationID="HAZL" name="UHV [1]" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=90;NRz=90;S=90;Rz=90;FGz=90;NGz=90;Gz=90;Lz=90;Unbekannt=90" nodes="105 31 32 47 56 57 102 140 2 142 143 144 145 33 107"/>
+		<stationRoute stationID="HAZL" name="UHV [2]" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="175 163 31 32 47 56 57 102 140 2 142 143 144 145 33 107"/>
+		<stationRoute stationID="HAZL" name="[HAZELGWJ]-[nw9001/DHV]-[1]-[HAZELGWJ]-[nw9001/DHV] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=80;NRz=80;S=80;Rz=80;FGz=80;NGz=80;Gz=80;Lz=80;Unbekannt=80" nodes="105 31 32 47 56 57 102 140 2 142 143 144 145 33 145 144 143 142 2 140 102 57 56 47 32 31 105"/>
+		<stationRoute stationID="HAZL" name="[HAZELGWJ]-[nw9001/DHV]-[1]-[HAZELGWJ]-[nw9001/UHV] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=90;NRz=90;S=90;Rz=90;FGz=90;NGz=90;Gz=90;Lz=90;Unbekannt=90" nodes="105 31 32 47 56 57 102 140 2 142 143 144 145 33 145 144 143 142 2 140 172 130"/>
+		<stationRoute stationID="HAZL" name="[HAZELGWJ]-[nw9001/DHV]-[2]-[HAZELGWJ]-[nw9001/DHV] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="105 31 32 62 75 34 35 36 78 37 78 36 35 34 75 62 32 31 105"/>
+		<stationRoute stationID="HAZL" name="[HAZELGWJ]-[nw9001/DHV]-[2]-[HAZELGWJ]-[nw9001/HAZE] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=95;NRz=95;S=95;Rz=95;FGz=95;NGz=95;Gz=95;Lz=95;Unbekannt=95" nodes="105 31 32 62 75 34 35 36 78 37 78 36 35 34 75 62 32 31 163 175"/>
+		<stationRoute stationID="HAZL" name="[HAZELGWJ]-[nw9001/HAZE]-[2]-[HAZELGWJ]-[nw9001/DHV] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=95;NRz=95;S=95;Rz=95;FGz=95;NGz=95;Gz=95;Lz=95;Unbekannt=95" nodes="175 163 31 32 62 75 34 35 36 78 37 78 36 35 34 75 62 32 31 105"/>
+		<stationRoute stationID="HAZL" name="[HAZELGWJ]-[nw9001/HAZE]-[2]-[HAZELGWJ]-[nw9001/HAZE] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=90;NRz=90;S=90;Rz=90;FGz=90;NGz=90;Gz=90;Lz=90;Unbekannt=90" nodes="175 163 31 32 62 75 34 35 36 78 37 78 36 35 34 75 62 32 31 163 175"/>
+		<stationRoute stationID="HAZL" name="[HAZELGWJ]-[nw9001/UHV]-[1]-[HAZELGWJ]-[nw9001/DHV] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=90;NRz=90;S=90;Rz=90;FGz=90;NGz=90;Gz=90;Lz=90;Unbekannt=90" nodes="130 172 140 2 142 143 144 145 33 145 144 143 142 2 140 102 57 56 47 32 31 105"/>
+		<stationRoute stationID="HAZL" name="[HAZELGWJ]-[nw9001/UHV]-[1]-[HAZELGWJ]-[nw9001/UHV] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="130 172 140 2 142 143 144 145 33 145 144 143 142 2 140 172 130"/>
+		<stationRoute stationID="HAZL" name="[HAZLGEJ]-[nw9001/DHV]-[2]-[HAZLGEJ]-[nw9001/DHV] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="106 37 78 36 35 34 75 34 35 36 78 37 106"/>
+		<stationRoute stationID="HAZL" name="[HAZLGEJ]-[nw9001/UHV]-[1]-[HAZLGEJ]-[nw9001/UHV] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="107 33 145 144 143 142 2 142 143 144 145 33 107"/>
+		<stationRoute stationID="HAZLGEJ" name="[HAZLGHJ]-[nw9001/1]-[1]-[HAZL]-[nw9001/DHV] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=90;NRz=90;S=90;Rz=90;FGz=90;NGz=90;Gz=90;Lz=90;Unbekannt=90" nodes="734 153 41 151 72 73 66 101 74 63 65 59 58 40 131"/>
+		<stationRoute stationID="HAZLGEJ" name="[HAZLGHJ]-[nw9001/1]-[1]-[HAZL]-[nw9001/UHV] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="734 153 41 151 72 73 66 101 74 63 79 173 152"/>
+		<stationRoute stationID="HAZLGEJ" name="[HAZL]-[nw9001/DHV]-[1]-[HAZLGHJ]-[nw9001/1] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=90;NRz=90;S=90;Rz=90;FGz=90;NGz=90;Gz=90;Lz=90;Unbekannt=90" nodes="131 40 58 59 65 63 74 101 66 73 72 151 41 153 734"/>
+		<stationRoute stationID="HAZLGEJ" name="[HAZL]-[nw9001/DHV]-[1]-[MDWD]-[nw9021/UM] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=85;NRz=85;S=85;Rz=85;FGz=85;NGz=85;Gz=85;Lz=85;Unbekannt=85" nodes="131 40 58 59 65 63 74 101 67 43 282 88 109 92"/>
+		<stationRoute stationID="HAZLGEJ" name="[HAZL]-[nw9001/UHV]-[1]-[HAZLGHJ]-[nw9001/1] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="152 173 79 63 74 101 66 73 72 151 41 153 734"/>
+		<stationRoute stationID="HAZLGEJ" name="[HAZL]-[nw9001/UHV]-[1]-[MDWD]-[nw9021/UM] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=95;NRz=95;S=95;Rz=95;FGz=95;NGz=95;Gz=95;Lz=95;Unbekannt=95" nodes="152 173 79 63 74 101 67 43 282 88 109 92"/>
+		<stationRoute stationID="HAZLGEJ" name="[MDWD]-[nw9021/DM]-[2]-[HAZL]-[nw9001/DHV] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="158 139 147 110 1 169 76 40 131"/>
+	</stationRoutes>
+	<lineCatalog/>
+	<zugNummernFelder/>
+	<switchGears/>
+</line>

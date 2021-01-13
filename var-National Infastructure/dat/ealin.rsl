@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<line lineID="ealin" name="Ealing/Hanwell area" trafficRouting="on_the_left" type="global" dependentLines="gw103p gw174">
+	<transformations>
+		<transformation line="103" m11="1" m12="0" m21="0" m22="1" dx="0" dy="0"/>
+		<transformation line="174" m11="1" m12="0" m21="0" m22="1" dx="0" dy="0"/>
+		<transformation line="gw103" m11="-1" m12="1.22461e-16" m21="-1.22461e-16" m22="-1" dx="63999.5" dy="23171.2"/>
+		<transformation line="gw174" m11="-1" m12="1.22465e-16" m21="-1.22465e-16" m22="-1" dx="23226.2" dy="62999.2"/>
+		<transformation line="gw174_" m11="-1" m12="1.22461e-16" m21="-1.22461e-16" m22="-1" dx="-89178" dy="-2800"/>
+	</transformations>
+	<version major="1" minor="2" patchlevel="0" comment=""/>
+	<creator user="Ahowe4" timestamp="2016-11-01T12:54:22"/>
+	<lasteditor user="Ahowe4" timestamp="2016-11-01T12:54:22"/>
+	<stations>
+		<station stationID="DRAYGRN" name="Drayton Green" xNet="768122.245" yNet="727241.5" kilometre="11.406" uicLocationCode="0" circleDiameter="0">
+			<textElement type="name">
+				<pos view="net" x="2020.37" y="2020.37" angle="0" system="source"/>
+				<pos view="wgs84" x="2020.37" y="2020.37" angle="0" system="source"/>
+				<pos view="line" x="785.811" y="785.811" angle="0" system="source"/>
+				<pos view="macro" x="28.2843" y="28.2843" angle="0" system="source"/>
+				<pos view="macroWgs84" x="0" y="0" angle="0" system="source"/>
+			</textElement>
+		</station>
+		<station stationID="ZZZCSLBR" name="Castle Bar Turnaround" xNet="767217.475" yNet="732794.805" uicLocationCode="0" circleDiameter="0">
+			<textElement type="name">
+				<pos view="net" x="1603.7" y="1603.7" angle="0" system="source"/>
+				<pos view="wgs84" x="1603.7" y="1603.7" angle="0" system="source"/>
+				<pos view="line" x="1077.77" y="1077.77" angle="0" system="source"/>
+				<pos view="macro" x="28.2843" y="28.2843" angle="0" system="source"/>
+				<pos view="macroWgs84" x="0" y="0" angle="0" system="source"/>
+			</textElement>
+		</station>
+		<station stationID="ZZZDYGRJ" name="Drayton Green Junction" xNet="766553.5" yNet="722969.5" uicLocationCode="0" circleDiameter="0">
+			<textElement type="name">
+				<pos view="net" x="906.684" y="906.684" angle="0" system="source"/>
+				<pos view="wgs84" x="906.684" y="906.684" angle="0" system="source"/>
+				<pos view="line" x="835.585" y="835.585" angle="0" system="source"/>
+				<pos view="macro" x="28.2843" y="28.2843" angle="0" system="source"/>
+				<pos view="macroWgs84" x="0" y="0" angle="0" system="source"/>
+			</textElement>
+		</station>
+	</stations>
+	<nodes>
+		<signal interlockingMachine="3 Aspect IECC (Below 75mph)" nodeID="5006" name="SIG:SN219" kilometre="11.294" x="-125584.7" y="123773.82" xNet="769141" yNet="726247" referenceNode="5029"/>
+		<node nodeID="5109" name="GRAD" kilometre="0.497" x="-127108" y="123075.94" xNet="766879" yNet="724387"/>
+		<node nodeID="5117" name="GRAD" kilometre="0.537" x="-126072" y="123127.94" xNet="767305" yNet="724359"/>
+		<crossing type="kr" startOfMainTrack="3336" startOfBranchTrack="3334" endOfMainTrack="5018" endOfBranchTrack="5017" nodeID="5016" name="CROSSING" kilometre="11.336" x="-125969.3" y="123773.82" xNet="768135" yNet="727556"/>
+		<switch start="5022" endOfMainTrack="3480" endOfBranchTrack="5019" nodeID="5014" name="POINTS:8158" kilometre="11.376" x="-126353.9" y="124069.5" xNet="768103" yNet="728270"/>
+		<switch start="5057" endOfMainTrack="5018" endOfBranchTrack="3467" nodeID="5056" name="POINTS:8159" kilometre="11.380" x="-126442" y="123776.94" xNet="767894" yNet="728242"/>
+		<switch start="3499" endOfMainTrack="5115" endOfBranchTrack="5113" nodeID="5112" name="POINTS:8157" kilometre="0.087" x="-128480" y="122887.94" xNet="765971" yNet="721999"/>
+		<node nodeID="5064" name="11.400km" kilometre="11.400" x="-126930.8" y="123773.82" xNet="767802.23" yNet="728623.94"/>
+		<node nodeID="5022" name="11.400km" kilometre="11.400" x="-126930.8" y="124069.5" xNet="767990.5" yNet="728692.51"/>
+		<track trackID="D-2" stationID="DRAYGRN" interlockingMachine="3 Aspect IECC (Below 75mph)" nodeID="5107" name="SIG:SN221" kilometre="0.580" x="-126668" y="123077.94" xNet="767048" yNet="724853" referenceNode="5110"/>
+		<stationBorder exitType="regular" stationID="ZZZDYGRJ" lineID="gw103p" trackNumber="1" nodeID="3131" name="[HANWELL] - [gw103/1]" kilometre="0.080" x="-128848.6" y="122521.18" xNet="765909" yNet="721861" referenceNode="3499">
+			<netLimitInfo lineID="gw103p"/>
+		</stationBorder>
+		<stationBorder exitType="regular" stationID="ZZZDYGRJ" lineID="gw103p" trackNumber="UWL" nodeID="5124" name="[DRAYGRN] - [gw174/2]" kilometre="0.438" x="-126551" y="122896.94" xNet="767198" yNet="724078" referenceNode="5128"/>
+		<stationBorder exitType="regular" stationID="DRAYGRN" lineID="gw103p" trackNumber="UWL" nodeID="3334" name="[DRAYGRJ] - [gw174/2]" kilometre="11.300" x="-125768" y="123545.94" xNet="767769" yNet="726301" referenceNode="5016"/>
+		<stationBorder exitType="alternative" stationID="DRAYGRN" lineID="gw103p" trackNumber="DGFD" nodeID="3336" name="[WEALINGJ] - [gw174/6]" kilometre="11.300" x="-125897" y="123776.94" xNet="769016" yNet="726425" referenceNode="5016"/>
+		<signal interlockingMachine="3 Aspect IECC (Below 75mph)" nodeID="4" name="SIG:SN226" kilometre="11.538" x="-128070.4" y="124077.2" xNet="767526" yNet="730664" referenceNode="321"/>
+		<node nodeID="9631" name="11.600km" kilometre="11.600" x="-128935.8" y="123781.52" xNet="767083" yNet="731418"/>
+		<node nodeID="5073" name="11.800km" kilometre="11.800" x="-130858.8" y="123781.52" xNet="766705.59" yNet="734792.2"/>
+		<node nodeID="5035" name="11.800km" kilometre="11.800" x="-130858.8" y="124077.2" xNet="766914.18" yNet="734819"/>
+		<stationBorder exitType="alternative" stationID="ZZZCSLBR" lineID="gw174" trackNumber="2" nodeID="5047" kilometre="11.822" x="-131055.6" y="124077.2" xNet="766883.18" yNet="735038" referenceNode="5035">
+			<netLimitInfo lineID="gw174"/>
+		</stationBorder>
+		<node nodeID="5025" name="GRAD" kilometre="11.265" x="-125492" y="123774.94" xNet="769632" yNet="725723">
+			<netLimitInfo lineID="gw103p"/>
+		</node>
+		<node nodeID="5027" name="GRAD" kilometre="11.265" x="-125552.6" y="124069.5" xNet="769917" yNet="725922">
+			<netLimitInfo lineID="gw103p"/>
+		</node>
+		<node nodeID="9691" name="GRAD" kilometre="11.747" x="-130349.2" y="124077.2" xNet="767041" yNet="733592"/>
+		<node nodeID="9692" name="GRAD" kilometre="11.747" x="-130349.2" y="123781.52" xNet="766837" yNet="733531"/>
+		<speedIndicator nodeID="5029" name="SPEED" kilometre="11.293" x="-125530" y="123774.94" xNet="769227" yNet="726121" referenceNode="5025"/>
+		<speedIndicator nodeID="5019" name="SPEED (25)" kilometre="11.375" x="-126309" y="124022.94" xNet="768133" yNet="728044" referenceNode="5014"/>
+		<kilometreInconsistency newKilometre="11.28" nodeID="5111" kilometre="0.616" x="-126079" y="123378.94" xNet="767336" yNet="725869" referenceNode="5107"/>
+		<kilometreInconsistency newKilometre="0.616" nodeID="5125" kilometre="11.280" x="-125768" y="123293.94" xNet="767661" yNet="725791" referenceNode="5130"/>
+		<node nodeID="5128" name="SIGHT SIG:SN229" kilometre="0.320" x="-127278" y="122899.94" xNet="766997" yNet="723400" referenceNode="5124" sightingDistance="true"/>
+		<node nodeID="5129" name="SD:SN221" kilometre="0.491" x="-127284" y="123076.94" xNet="766803" yNet="724192" referenceNode="5116" sightingDistance="true"/>
+		<node nodeID="9693" name="SD:SN226" kilometre="11.616" x="-128818.5" y="124077.2" xNet="767285" yNet="731848" referenceNode="9694" sightingDistance="true"/>
+		<node nodeID="639" kilometre="11.615" x="-128808.9" y="124077.2" xNet="767302" yNet="731748" referenceNode="9693" aspectTrigger="true"/>
+		<track trackID="U-1" stationID="ZZZDYGRJ" interlockingMachine="3 Aspect IECC (Below 75mph)" nodeID="5126" name="SIG SN229" kilometre="0.231" x="-127937" y="122891.94" xNet="766734" yNet="722790" referenceNode="5127"/>
+		<node nodeID="9695" name="Tunnel" kilometre="11.602" x="-128955" y="123781.52" xNet="767064" yNet="731538"/>
+		<node nodeID="321" kilometre="11.602" x="-128684.2" y="124077.2" xNet="767339.14" yNet="731579.85"/>
+		<track trackID="D-1" stationID="DRAYGRN" type="stopBoard" nodeID="5066" kilometre="11.467" x="-127627.1" y="123776.24" xNet="767549.15" yNet="729582.85" referenceNode="5065">
+			<platform startPos="-600" endPos="0" width="150" left="true" open="false"/>
+		</track>
+		<track trackID="U-2" stationID="DRAYGRN" type="stopBoard" nodeID="5024" kilometre="11.422" x="-127153.4" y="124070.43" xNet="767899.7" yNet="729034.39" referenceNode="5028">
+			<platform startPos="-600" endPos="0" width="150" left="true" open="false"/>
+		</track>
+		<node nodeID="5082" kilometre="11.809" x="-130945.4" y="123781.52" xNet="766690" yNet="734881.34">
+			<netLimitInfo lineID="gw174"/>
+		</node>
+		<stationBorder exitType="regular" stationID="ZZZCSLBR" lineID="gw174" trackNumber="2" nodeID="5026" kilometre="11.530" x="-128007.2" y="124076.73" xNet="767551.77" yNet="730551.61" referenceNode="4"/>
+		<stationBorder exitType="regular" stationID="DRAYGRN" lineID="gw174" trackNumber="1" nodeID="5071" kilometre="11.480" x="-127755" y="123776.76" xNet="767503.59" yNet="729762.23" referenceNode="5088"/>
+		<stationBorder exitType="regular" stationID="DRAYGRN" lineID="gw174" trackNumber="2" nodeID="5053" kilometre="11.480" x="-127614.9" y="124073.84" xNet="767711.62" yNet="729854.58" referenceNode="5028"/>
+		<speedIndicator nodeID="5057" name="SPEED" kilometre="11.383" x="-126767.9" y="123774.86" xNet="767868.82" yNet="728361.3" referenceNode="5056"/>
+		<speedIndicator nodeID="3467" name="SPEED" kilometre="11.319" x="-126280" y="123683.94" xNet="767654" yNet="727085" referenceNode="3501"/>
+		<track trackID="T-2" stationID="DRAYGRN" type="timingPoint" nodeID="5028" kilometre="11.447" x="-127348.2" y="124071.87" xNet="767820.32" yNet="729380.54" referenceNode="5024"/>
+		<track trackID="T-1" stationID="DRAYGRN" type="timingPoint" nodeID="5065" kilometre="11.441" x="-127356.9" y="123775.3" xNet="767647.36" yNet="729210.74" referenceNode="5064"/>
+		<speedIndicator nodeID="3480" name="SPEED" kilometre="11.375" x="-126351.6" y="124069.82" xNet="768200" yNet="728058" referenceNode="5014"/>
+		<track trackID="T-2" stationID="ZZZCSLBR" type="timingPoint" nodeID="9694" kilometre="11.650" x="-129215.8" y="124077.2" xNet="767221.67" yNet="732300.64" referenceNode="9693"/>
+		<track trackID="D-2" stationID="ZZZCSLBR" type="shunting" interlockingMachine="Limit Of Shunt" nodeID="9696" name="SIG:6155" kilometre="11.793" x="-130791.5" y="124077.2" xNet="766941.12" yNet="734567" referenceNode="9691"/>
+		<stationBorder exitType="regular" stationID="DRAYGRN" lineID="gw103p" trackNumber="UGFD" nodeID="5060" kilometre="11.300" x="-125857.9" y="124072.98" xNet="769277.94" yNet="726677.59" referenceNode="5067"/>
+		<track trackID="T-1" stationID="ZZZDYGRJ" type="timingPoint" nodeID="5127" kilometre="0.280" x="-127624" y="122895.94" xNet="766870" yNet="723078" referenceNode="5126"/>
+		<node nodeID="5017" name="OL:SN226" kilometre="11.358" x="-126160.9" y="123914.35" xNet="768161.77" yNet="727700.08"/>
+		<node nodeID="5061" name="OL:SN226" kilometre="11.358" x="-126239.7" y="124070.54" xNet="768444.33" yNet="727745.11"/>
+		<node nodeID="5088" name="OL:SN219" kilometre="11.474" x="-127696" y="123776.52" xNet="767524.62" yNet="729679.44"/>
+		<node nodeID="5113" name="OL:SN229" kilometre="0.171" x="-128198" y="122888.94" xNet="766547" yNet="722313"/>
+		<node nodeID="3499" name="TC" kilometre="0.083" x="-128809.6" y="122551.15" xNet="765935.57" yNet="721920.14" referenceNode="3131" releaseContact="true" arranged="true"/>
+		<node nodeID="5115" name="TC" kilometre="0.127" x="-128321" y="123072.94" xNet="766053.38" yNet="722216.13" referenceNode="5112" releaseContact="true" arranged="true"/>
+		<node nodeID="5130" name="TC" kilometre="11.296" x="-125768" y="123415.94" xNet="767747.4" yNet="726199" referenceNode="3334" releaseContact="true" arranged="true"/>
+		<node nodeID="5018" name="TC" kilometre="11.376" x="-126399" y="123776.66" xNet="767921.73" yNet="728152.27" referenceNode="5016" releaseContact="true" arranged="true"/>
+		<node nodeID="5067" name="TC" kilometre="11.336" x="-126093.5" y="124071.47" xNet="768763.54" yNet="727336.33" referenceNode="5061" releaseContact="true" arranged="true"/>
+		<node nodeID="3501" name="OL:SN221" kilometre="11.316" x="-126079" y="123553.94" xNet="767624.16" yNet="726964.84"/>
+		<stationBorder exitType="regular" stationID="ZZZDYGRJ" lineID="gw103p" trackNumber="DWL" nodeID="5116" kilometre="0.200" x="-127814" y="123074.94" xNet="766203.72" yNet="722612.39" referenceNode="5118"/>
+		<track trackID="T-2" stationID="ZZZDYGRJ" type="timingPoint" nodeID="5118" kilometre="0.160" x="-128093" y="123072.94" xNet="766121.34" yNet="722395.26" referenceNode="5115"/>
+		<stationBorder exitType="regular" stationID="DRAYGRN" lineID="gw103p" trackNumber="DWL" nodeID="5110" kilometre="0.540" x="-126945" y="123077.94" xNet="766966.55" yNet="724628.42" referenceNode="5107"/>
+	</nodes>
+	<links>
+		<link source="4" target="321" length="64" vmax="32" vmaxr="32" bidirectional="true" electrification="electrified"/>
+		<link source="321" target="639" length="13" vmax="32" vmaxr="32" bidirectional="true" tunnelCrossSection="100" electrification="electrified"/>
+		<link source="639" target="9693" length="1" vmax="32" vmaxr="32" bidirectional="true" tunnelCrossSection="100" electrification="electrified"/>
+		<link source="3131" target="3499" length="3" gradient="0.205" vmax="40" vmaxr="40" bidirectional="true" electrification="electrified"/>
+		<link source="3334" target="5016" length="36" vmax="40" vmaxr="40" electrification="electrified"/>
+		<link source="3336" target="5016" length="36" vmax="32" electrification="electrified"/>
+		<link source="3467" target="5056" length="61" vmax="32" electrification="electrified"/>
+		<link source="3480" target="5014" length="1" vmaxr="32" electrification="electrified"/>
+		<link source="3499" target="5112" length="4" gradient="0.205" vmax="40" vmaxr="40" bidirectional="true" electrification="electrified"/>
+		<link source="3501" target="3467" length="3" vmax="40" electrification="electrified"/>
+		<link source="5006" target="3336" length="6" vmax="32" electrification="electrified"/>
+		<link source="5014" target="5022" length="24" vmax="32" vmaxr="32" bidirectional="true" electrification="electrified"/>
+		<link source="5016" target="5017" length="22" vmax="40" vmaxr="40" electrification="electrified"/>
+		<link source="5016" target="5018" length="40" vmax="32" electrification="electrified"/>
+		<link source="5017" target="5019" length="17" vmax="40" vmaxr="40" electrification="electrified"/>
+		<link source="5018" target="5056" length="4" vmax="32" electrification="electrified"/>
+		<link source="5019" target="5014" length="1" vmax="32" vmaxr="32" electrification="electrified"/>
+		<link source="5022" target="5024" length="22" vmax="32" vmaxr="32" bidirectional="true" electrification="electrified"/>
+		<link source="5024" target="5028" length="25" vmax="32" vmaxr="32" bidirectional="true" electrification="electrified"/>
+		<link source="5025" target="5029" length="28" vmax="32" electrification="electrified">
+			<vzg index="1" vmax="24"/>
+			<vzg index="8" vmax="24"/>
+		</link>
+		<link source="5026" target="4" length="8" vmax="32" vmaxr="32" bidirectional="true" electrification="electrified"/>
+		<link source="5027" target="5060" length="35" vmaxr="32" electrification="electrified">
+			<vzg index="1" vmaxr="24"/>
+			<vzg index="8" vmaxr="24"/>
+		</link>
+		<link source="5028" target="5053" length="33" vmax="32" vmaxr="32" bidirectional="true" electrification="electrified"/>
+		<link source="5029" target="5006" length="1" vmax="32" electrification="electrified"/>
+		<link source="5035" target="5047" length="22" gradient="-0.5" vmaxr="32" bidirectional="true" tunnelCrossSection="100" electrification="electrified"/>
+		<link source="5053" target="5026" length="50" vmax="32" vmaxr="32" bidirectional="true" electrification="electrified"/>
+		<link source="5056" target="5057" length="3" vmax="32" bidirectional="true" electrification="electrified"/>
+		<link source="5057" target="5064" length="17" vmax="65" bidirectional="true" electrification="electrified"/>
+		<link source="5060" target="5067" length="36" vmaxr="32" electrification="electrified">
+			<vzg index="1" vmaxr="24"/>
+			<vzg index="8" vmaxr="24"/>
+		</link>
+		<link source="5061" target="3480" length="17" vmaxr="32" electrification="electrified">
+			<vzg index="1" vmaxr="24"/>
+			<vzg index="8" vmaxr="24"/>
+		</link>
+		<link source="5064" target="5065" length="41" vmax="65" bidirectional="true" electrification="electrified"/>
+		<link source="5065" target="5066" length="26" vmax="65" bidirectional="true" electrification="electrified"/>
+		<link source="5066" target="5088" length="7" vmax="65" bidirectional="true" electrification="electrified"/>
+		<link source="5067" target="5061" length="22" vmaxr="32" electrification="electrified">
+			<vzg index="1" vmaxr="24"/>
+			<vzg index="8" vmaxr="24"/>
+		</link>
+		<link source="5071" target="9631" length="120" vmax="65" bidirectional="true" electrification="electrified"/>
+		<link source="5073" target="5082" length="9" gradient="-0.5" vmax="65" bidirectional="true" tunnelCrossSection="100" electrification="electrified"/>
+		<link source="5088" target="5071" length="6" vmax="65" bidirectional="true" electrification="electrified"/>
+		<link source="5107" target="5111" length="36" vmax="40" electrification="electrified"/>
+		<link source="5109" target="5110" length="43" vmax="40" electrification="electrified"/>
+		<link source="5110" target="5107" length="40" vmax="40" electrification="electrified"/>
+		<link source="5111" target="3501" length="36" vmax="40" electrification="electrified"/>
+		<link source="5112" target="5113" length="84" gradient="0.205" vmax="40" vmaxr="40" electrification="electrified"/>
+		<link source="5112" target="5115" length="40" gradient="0.205" vmax="40" electrification="electrified"/>
+		<link source="5113" target="5126" length="60" gradient="0.205" vmax="40" vmaxr="40" electrification="electrified"/>
+		<link source="5115" target="5118" length="33" gradient="0.205" vmax="40" electrification="electrified"/>
+		<link source="5116" target="5129" length="291" gradient="0.205" vmax="40" electrification="electrified"/>
+		<link source="5117" target="5125" length="79" vmax="40" vmaxr="40" electrification="electrified"/>
+		<link source="5118" target="5116" length="40" gradient="0.205" vmax="40" electrification="electrified"/>
+		<link source="5124" target="5117" length="99" gradient="0.205" vmax="40" vmaxr="40" electrification="electrified"/>
+		<link source="5125" target="5130" length="16" vmax="40" vmaxr="40" electrification="electrified"/>
+		<link source="5126" target="5127" length="49" gradient="0.205" vmax="40" vmaxr="40" electrification="electrified"/>
+		<link source="5127" target="5128" length="40" gradient="0.205" vmax="40" vmaxr="40" electrification="electrified"/>
+		<link source="5128" target="5124" length="118" gradient="0.205" vmax="40" vmaxr="40" electrification="electrified"/>
+		<link source="5129" target="5109" length="6" gradient="0.205" vmax="40" electrification="electrified"/>
+		<link source="5130" target="3334" length="4" vmax="40" vmaxr="40" electrification="electrified"/>
+		<link source="9631" target="9695" length="2" vmax="65" bidirectional="true" electrification="electrified"/>
+		<link source="9691" target="9696" length="46" gradient="-0.5" vmax="32" vmaxr="32" bidirectional="true" tunnelCrossSection="100" electrification="electrified"/>
+		<link source="9692" target="5073" length="53" gradient="-0.5" vmax="65" bidirectional="true" tunnelCrossSection="100" electrification="electrified"/>
+		<link source="9693" target="9694" length="34" vmax="32" vmaxr="32" bidirectional="true" tunnelCrossSection="100" electrification="electrified"/>
+		<link source="9694" target="9691" length="97" vmax="32" vmaxr="32" bidirectional="true" tunnelCrossSection="100" electrification="electrified"/>
+		<link source="9695" target="9692" length="145" vmax="65" bidirectional="true" tunnelCrossSection="100" electrification="electrified"/>
+		<link source="9696" target="5035" length="7" gradient="-0.5" vmaxr="32" bidirectional="true" tunnelCrossSection="100" electrification="electrified"/>
+	</links>
+	<dependentLinks/>
+	<blockSections>
+		<blocksection uuid="{06554f74-319d-4b5d-8946-afedc24afc34}" lines="ealin gw103p" shuntingBlock="true" speedIndicators="5019">
+			<part nodes="3131 3499 5112 5113 5126 5127 5128 5124 5117 5125 5130 3334 5016 5017 5019 5014 5022 5024 5028 5053 5026 4 321 639 9693 9694 9691 9696"/>
+		</blocksection>
+		<blocksection uuid="{08724431-07b5-4f68-bef4-350d5f9bfb55}" lines="ealin" shuntingBlock="true">
+			<part nodes="4 321 639 9693 9694 9691 9696"/>
+		</blocksection>
+		<blocksection uuid="{0f0de590-f7f5-41d7-8d35-1de266dc84a1}" lines="ealin gw103p" speedIndicators="3480">
+			<part nodes="4 5026 5053 5028 5024 5022 5014 3480 5061 5067 5060 5027"/>
+		</blocksection>
+		<blocksection uuid="{1787eb6e-1519-4cb2-bb11-ee9e81107aa5}" lines="ealin gw174">
+			<part nodes="5107 5111 3501 3467 5056 5057 5064 5065 5066 5088 5071 9631 9695 9692 5073 5082"/>
+		</blocksection>
+		<blocksection uuid="{1dc811ae-5cb8-4f7b-aeb5-575926d1f6bc}" lines="ealin" shuntingBlock="true">
+			<part nodes="9696 9691 9694 9693 639 321 4"/>
+		</blocksection>
+		<blocksection uuid="{1f09cec0-1e6a-4913-807f-97fa84c0d7ce}" lines="ealin gw103p" speedIndicators="5029">
+			<part nodes="5025 5029 5006"/>
+		</blocksection>
+		<blocksection uuid="{20b24d85-ed51-4471-ad21-bc14617b186a}" lines="ealin gw174">
+			<part nodes="5047 5035 9696 9691 9694 9693 639 321 4"/>
+		</blocksection>
+		<blocksection uuid="{23da278c-c6b6-42c7-84b9-e65689c6fcee}" lines="ealin gw103p" speedIndicators="5029">
+			<part nodes="5025 5029 5006"/>
+		</blocksection>
+		<blocksection uuid="{2679a992-83a7-4601-84d4-bc990cb41e88}" lines="ealin gw103p" shuntingBlock="true" speedIndicators="5019">
+			<part nodes="3131 3499 5112 5113 5126 5127 5128 5124 5117 5125 5130 3334 5016 5017 5019 5014 5022 5024 5028 5053 5026 4 321 639 9693 9694 9691 9696"/>
+		</blocksection>
+		<blocksection uuid="{287f44b4-634b-4d5c-84e9-a55a20d4f211}" lines="ealin" speedIndicators="5019">
+			<part nodes="4 5026 5053 5028 5024 5022 5014 5019 5017 5016 3334 5130 5125 5117 5124 5128 5127 5126"/>
+		</blocksection>
+		<blocksection uuid="{2a33c722-0c69-4db9-80f0-eded166aa691}" lines="ealin gw103p">
+			<part nodes="3131 3499 5112 5115 5118 5116 5129 5109 5110 5107"/>
+		</blocksection>
+		<blocksection uuid="{5d42e5fb-7018-4129-a878-240ca05db4f4}" lines="ealin gw103p" shuntingBlock="true">
+			<part nodes="3131 3499 5112 5115 5118 5116 5129 5109 5110 5107"/>
+		</blocksection>
+		<blocksection uuid="{8562c7f2-b8ff-42f3-be61-a06788976a8c}" lines="ealin" shuntingBlock="true" speedIndicators="5019">
+			<part nodes="5126 5127 5128 5124 5117 5125 5130 3334 5016 5017 5019 5014 5022 5024 5028 5053 5026 4 321 639 9693 9694 9691 9696"/>
+		</blocksection>
+		<blocksection uuid="{a8c057ee-58bc-4447-8f2f-bcdfe886ba87}" lines="ealin gw174">
+			<part nodes="5006 3336 5016 5018 5056 5057 5064 5065 5066 5088 5071 9631 9695 9692 5073 5082"/>
+		</blocksection>
+		<blocksection uuid="{db1772f8-5f46-4618-8be8-314ffff7eafa}" lines="ealin gw103p">
+			<part nodes="5126 5113 5112 3499 3131"/>
+		</blocksection>
+		<blocksection uuid="{f77c33ff-6903-422e-936a-2dca66519019}" lines="ealin gw103p" speedIndicators="5029">
+			<part nodes="5025 5029 5006"/>
+		</blocksection>
+	</blockSections>
+	<slipDistances>
+		<slipdistance uuid="{6af86814-b4c2-4a48-ac01-e6a1c259f55a}" publicName="Straight" vmax="999" lines="ealin" serialNumber="0">
+			<part nodes="5126 5113"/>
+		</slipdistance>
+		<slipdistance uuid="{774a5461-15d8-45c8-8ddc-442c5ea215d5}" publicName="Cross" vmax="999" lines="ealin" serialNumber="0">
+			<part nodes="4 5026 5053 5028 5024 5022 5014 5019 5017"/>
+		</slipdistance>
+		<slipdistance uuid="{8be0b8a5-19d1-4d2f-9084-1cad45b26354}" publicName="Straight" vmax="999" lines="ealin" serialNumber="1">
+			<part nodes="4 5026 5053 5028 5024 5022 5014 3480 5061"/>
+		</slipdistance>
+		<slipdistance uuid="{db6d6294-e244-40df-992f-0a1643d2ca71}" publicName="Straight" vmax="999" lines="ealin" serialNumber="0">
+			<part nodes="5006 3336 5016 5018 5056 5057 5064 5065 5066 5088"/>
+		</slipdistance>
+	</slipDistances>
+	<approachControlRoutes>
+		<ACRoute controlTyp="mar" uuid="{08ed0607-0509-4777-b84b-9893fd6a2cb9}" publicName="SN232 - SN221 MAR" description="from SN232 to SN221 MAR" lines="ealin gw103p">
+			<part nodes="3131 3499 5112 5115 5118 5116 5129 5109 5110 5107"/>
+		</ACRoute>
+		<ACRoute controlTyp="mar" uuid="{1adf2ea1-67c3-4ad0-a03a-9cb64ebf852f}" publicName="SN226 - SN229 MAR" description="SN226 MAR" lines="ealin">
+			<part nodes="4 5026 5053 5028 5024 5022 5014 5019 5017 5016 3334 5130 5125 5117 5124 5128 5127 5126"/>
+		</ACRoute>
+		<ACRoute controlTyp="mar" uuid="{37933a1d-9a09-4d97-8449-cfd2c07f1cd6}" publicName="SN215 - SN219 MAR" lines="ealin gw103p">
+			<part nodes="5025 5029 5006"/>
+		</ACRoute>
+	</approachControlRoutes>
+	<stationRoutes>
+		<stationRoute stationID="DRAYGRN" name="[ZZZCSLBR]-[gw103/2]-[2]-[ZZZDYGRJ]-[gw174/2] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=95;NRz=95;S=95;Rz=95;FGz=95;NGz=95;Gz=95;Lz=95;Unbekannt=95" nodes="5053 5028 5024 5022 5014 5019 5017 5016 3334"/>
+		<stationRoute stationID="DRAYGRN" name="[ZZZCSLBR]-[gw103/2]-[2]-[ZZZWEALJ]-[gw103/UGFD] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="5053 5028 5024 5022 5014 3480 5061 5067 5060"/>
+		<stationRoute stationID="DRAYGRN" name="[ZZZDYGRJ]-[gw103/DWL]-[1-2]-[CBARPAR]-[gw174/1] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=95;NRz=95;S=95;Rz=95;FGz=95;NGz=95;Gz=95;Lz=95;Unbekannt=95" nodes="5110 5107 5111 3501 3467 5056 5057 5064 5065 5066 5088 5071"/>
+		<stationRoute stationID="DRAYGRN" name="[ZZZDYGRJ]-[gw174/2]-[2]-[ZZZCSLBR]-[gw103/2] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=95;NRz=95;S=95;Rz=95;FGz=95;NGz=95;Gz=95;Lz=95;Unbekannt=95" nodes="3334 5016 5017 5019 5014 5022 5024 5028 5053"/>
+		<stationRoute stationID="DRAYGRN" name="[ZZZWEALJ]-[gw103/DGFD]-[1]-[CBARPAR]-[gw174/1] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="3336 5016 5018 5056 5057 5064 5065 5066 5088 5071"/>
+		<stationRoute stationID="ZZZCSLBR" name="[CBARPAR]-[gw174/2]-[2]-[ZZZWEALJ]-[gw174/5] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="5047 5035 9696 9691 9694 9693 639 321 4 5026"/>
+		<stationRoute stationID="ZZZCSLBR" name="[DRAYGRN]-[gw103/2]-[2]-[DRAYGRN]-[gw103/2] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="5026 4 321 639 9693 9694 9691 9696 9691 9694 9693 639 321 4 5026"/>
+		<stationRoute stationID="ZZZDYGRJ" name="[DRAYGRN]-[gw174/2]-[1]-[HANWELL]-[gw103/1] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=95;NRz=95;S=95;Rz=95;FGz=95;NGz=95;Gz=95;Lz=95;Unbekannt=95" nodes="5124 5128 5127 5126 5113 5112 3499 3131"/>
+		<stationRoute stationID="ZZZDYGRJ" name="[HANWELL]-[gw103/1]-[1]-[DRAYGRN]-[gw103/UWL] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=95;NRz=95;S=95;Rz=95;FGz=95;NGz=95;Gz=95;Lz=95;Unbekannt=95" nodes="3131 3499 5112 5113 5126 5127 5128 5124"/>
+		<stationRoute stationID="ZZZDYGRJ" name="[HANWELL]-[gw103/1]-[2]-[DRAYGRN]-[gw103/DWL] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="3131 3499 5112 5115 5118 5116"/>
+	</stationRoutes>
+	<lineCatalog/>
+	<zugNummernFelder/>
+	<switchGears/>
+</line>

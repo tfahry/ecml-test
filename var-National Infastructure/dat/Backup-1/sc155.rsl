@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<line lineID="sc155" name="SC155" trafficRouting="on_the_left" type="local" dependentLines="mktnh mlrhj">
+	<version major="1" minor="2" patchlevel="0" comment=""/>
+	<creator user="VWaddelo" timestamp="2016-07-08T10:58:15"/>
+	<lasteditor user="VWaddelo" timestamp="2016-07-08T10:58:15"/>
+	<stations>
+		<station stationID="MILLGOO" name="Millerhill Goods" xNet="-2343420" yNet="9095750" uicLocationCode="0" circleDiameter="0">
+			<textElement type="name">
+				<pos view="net" x="765.731" y="765.731" angle="0" system="source"/>
+				<pos view="wgs84" x="765.731" y="765.731" angle="0" system="source"/>
+				<pos view="line" x="703.598" y="703.598" angle="0" system="source"/>
+				<pos view="macro" x="28.2843" y="28.2843" angle="0" system="source"/>
+			</textElement>
+		</station>
+	</stations>
+	<nodes>
+		<node nodeID="11" kilometre="1.000" x="10000" y="3200" xNet="-2344089.3" yNet="9094487.6"/>
+		<node nodeID="12" kilometre="1.200" x="12000" y="3200" xNet="-2342984.3" yNet="9096505.1"/>
+		<node nodeID="14" kilometre="1.600" x="16000" y="3200" xNet="-2342800" yNet="9100100"/>
+		<node nodeID="25" kilometre="1.000" x="10000" y="3000" xNet="-2343895.1" yNet="9094435.2"/>
+		<node nodeID="26" kilometre="1.200" x="12000" y="3000" xNet="-2342792.1" yNet="9096428.4"/>
+		<signal interlockingMachine="3 Aspect Pannel (Below 75mph)" nodeID="28" name="SIG: M20" kilometre="1.600" x="16000" y="3000" xNet="-2342600" yNet="9100100" referenceNode="56"/>
+		<switch start="57" endOfMainTrack="12" endOfBranchTrack="68" nodeID="37" name="POINTS: 79B" kilometre="1.205" x="12049.999" y="3200" xNet="-2342957.9" yNet="9096549.5"/>
+		<switch start="64" endOfMainTrack="81" endOfBranchTrack="68" nodeID="38" name="POINTS: 79A" kilometre="1.112" x="11120" y="3000" xNet="-2343431.9" yNet="9095508.1"/>
+		<node nodeID="55" name="OL: M20" kilometre="1.417" x="14169.999" y="3000" xNet="-2342647" yNet="9098300"/>
+		<node nodeID="56" name="SD: M20" kilometre="1.694" x="16939.998" y="3000" xNet="-2342600" yNet="9101000" referenceNode="29.mktnh" sightingDistance="true"/>
+		<node nodeID="58" name="OL: M17" kilometre="1.233" x="12329.999" y="3000" xNet="-2342700" yNet="9096600"/>
+		<node nodeID="59" name="SD: M19" kilometre="0.956" x="9560" y="3200" xNet="-2344108.4" yNet="9094256.7" referenceNode="17.mlrhj" sightingDistance="true"/>
+		<node nodeID="60" name="SD: M17" kilometre="0.956" x="9560" y="3000" xNet="-2343910.6" yNet="9094272.4" referenceNode="24.mlrhj" sightingDistance="true"/>
+		<node nodeID="67" name="TC" kilometre="1.133" x="11328.098" y="3000" xNet="-2342975" yNet="9096068" referenceNode="81" releaseContact="true" arranged="true"/>
+		<node nodeID="68" name="TC" kilometre="1.131" x="11312.788" y="3041.4597" xNet="-2343107" yNet="9096145" referenceNode="38" releaseContact="true" arranged="true"/>
+		<track trackID="U-1" stationID="MILLGOO" interlockingMachine="3 Aspect Pannel (Below 75mph)" nodeID="40" name="SIG: M19" kilometre="1.050" x="10500" y="3200" xNet="-2343865.9" yNet="9095039.1" referenceNode="73"/>
+		<track trackID="U-2" stationID="MILLGOO" interlockingMachine="3 Aspect Pannel (Below 75mph)" nodeID="39" name="SIG: M17" kilometre="1.050" x="10500" y="3000" xNet="-2343683.8" yNet="9094950.6" referenceNode="80"/>
+		<track trackID="T-1" stationID="MILLGOO" type="timingPoint" nodeID="64" kilometre="1.104" x="11044.979" y="3000" xNet="-2343462.4" yNet="9095440.2" referenceNode="39"/>
+		<stationBorder exitType="regular" stationID="MILLGOO" lineID="sc155" trackNumber="1" nodeID="57" name="[MNKTNHJ] - [sc155/1]" kilometre="1.233" x="12329.999" y="3200" xNet="-2342900" yNet="9096700" referenceNode="37"/>
+		<stationBorder exitType="alternative" stationID="MILLGOO" lineID="sc155" trackNumber="1" nodeID="73" name="[MLRHEJN] - [sc155/1]" kilometre="1.035" x="10350" y="3200" xNet="-2343932.8" yNet="9094873.2" referenceNode="40"/>
+		<stationBorder exitType="regular" stationID="MILLGOO" lineID="sc155" trackNumber="2" nodeID="80" name="[MLRHEJN] - [sc155/2]" kilometre="1.035" x="10350" y="3000" xNet="-2343747.2" yNet="9094796.3" referenceNode="39"/>
+		<stationBorder exitType="alternative" stationID="MILLGOO" lineID="sc155" trackNumber="2" nodeID="81" name="[MNKTNHJ] - [sc155/2]" kilometre="1.118" x="11182.429" y="3000" xNet="-2343139" yNet="9095798" referenceNode="38"/>
+	</nodes>
+	<links>
+		<link source="11" target="73" length="35" vmax="48" vmaxr="48"/>
+		<link source="12" target="37" length="5" vmax="48" vmaxr="48"/>
+		<link source="14" target="15.mktnh" length="200" vmax="48" vmaxr="48"/>
+		<link source="17.mlrhj" target="59" length="156" vmax="48" vmaxr="48"/>
+		<link source="24.mlrhj" target="60" length="156" vmax="48" vmaxr="48"/>
+		<link source="25" target="80" length="35" vmax="48" vmaxr="48"/>
+		<link source="26" target="58" length="33" vmax="48" vmaxr="48"/>
+		<link source="28" target="56" length="94" vmax="48" vmaxr="48"/>
+		<link source="37" target="57" length="28" vmax="48" vmaxr="48"/>
+		<link source="38" target="68" length="19" vmax="48" vmaxr="48"/>
+		<link source="38" target="81" length="6" vmax="48" vmaxr="48"/>
+		<link source="39" target="64" length="54" vmax="48" vmaxr="48"/>
+		<link source="40" target="12" length="150" vmax="48" vmaxr="48"/>
+		<link source="55" target="28" length="183" vmax="48" vmaxr="48"/>
+		<link source="56" target="29.mktnh" length="106" vmax="48" vmaxr="48"/>
+		<link source="57" target="14" length="367" vmax="48" vmaxr="48"/>
+		<link source="58" target="55" length="184" vmax="48" vmaxr="48"/>
+		<link source="59" target="11" length="44" vmax="48" vmaxr="48"/>
+		<link source="60" target="25" length="44" vmax="48" vmaxr="48"/>
+		<link source="64" target="38" length="8" vmax="48" vmaxr="48"/>
+		<link source="67" target="26" length="67" vmax="48" vmaxr="48"/>
+		<link source="68" target="37" length="74" vmax="48" vmaxr="48"/>
+		<link source="73" target="40" length="15" vmax="48" vmaxr="48"/>
+		<link source="80" target="39" length="15" vmax="48" vmaxr="48"/>
+		<link source="81" target="67" length="15" vmax="48" vmaxr="48"/>
+	</links>
+	<dependentLinks/>
+	<blockSections>
+		<blocksection uuid="{48b02085-cea2-47de-8350-1c87ff872266}" lines="mlrhj sc155">
+			<part nodes="17.mlrhj 59 11 73 40"/>
+		</blocksection>
+		<blocksection uuid="{94871e18-645a-48fc-a66f-38763f0f2cb9}" lines="mlrhj sc155">
+			<part nodes="28 55 58 26 67 81 38 64 39 80 25 60 24.mlrhj"/>
+		</blocksection>
+		<blocksection uuid="{9e854644-e29f-44d7-9d20-6ca4d2439684}" lines="mlrhj sc155">
+			<part nodes="24.mlrhj 60 25 80 39"/>
+		</blocksection>
+		<blocksection uuid="{abd54729-cfec-416f-9a21-094c66e62968}" lines="mktnh sc155">
+			<part nodes="29.mktnh 56 28"/>
+		</blocksection>
+		<blocksection uuid="{b406e230-356c-4c4c-86cc-e57b9d42ebc5}" lines="mktnh sc155">
+			<part nodes="39 64 38 68 37 57 14 15.mktnh"/>
+		</blocksection>
+		<blocksection uuid="{d8250808-430f-4f0e-abf7-53a080a9d673}" lines="mktnh sc155">
+			<part nodes="40 12 37 57 14 15.mktnh"/>
+		</blocksection>
+		<blocksection uuid="{da8360ce-d99c-4500-967a-c4a35d89aebd}" lines="mlrhj sc155">
+			<part nodes="24.mlrhj 60 25 80 39"/>
+		</blocksection>
+	</blockSections>
+	<slipDistances>
+		<slipdistance uuid="{16d621b3-f345-4c51-b316-a7e20a1d2c6e}" vmax="999" lines="sc155" serialNumber="0">
+			<part nodes="39 64 38 81 67 26 58"/>
+		</slipdistance>
+		<slipdistance uuid="{b7972961-edea-4385-99a7-47ea7c9de6fd}" vmax="999" lines="sc155" serialNumber="0">
+			<part nodes="40 12 37 57"/>
+		</slipdistance>
+		<slipdistance uuid="{f0e164db-83d6-4f98-a0a0-ab31285c6d10}" vmax="999" lines="sc155" serialNumber="0">
+			<part nodes="28 55"/>
+		</slipdistance>
+	</slipDistances>
+	<approachControlRoutes/>
+	<stationRoutes>
+		<stationRoute stationID="MILLGOO" name="[MLRHEJN]-[sc155/1]-[1]-[MNKTNHJ]-[sc155/1] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="73 40 12 37 57"/>
+		<stationRoute stationID="MILLGOO" name="[MLRHEJN]-[sc155/2]-[1-2]-[MNKTNHJ]-[sc155/1] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=90;NRz=90;S=90;Rz=90;FGz=90;NGz=90;Gz=90;Lz=90;Unbekannt=90" nodes="80 39 64 38 68 37 57"/>
+		<stationRoute stationID="MILLGOO" name="[MNKTNHJ]-[sc155/2]-[1]-[MLRHEJN]-[sc155/2] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="81 38 64 39 80"/>
+	</stationRoutes>
+	<lineCatalog/>
+	<zugNummernFelder/>
+	<switchGears/>
+</line>

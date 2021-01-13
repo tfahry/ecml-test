@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<line lineID="sc159" name="Millerhill South Junction - Millerhill Branch" trafficRouting="on_the_left" type="local" dependentLines="mlrhj">
+	<version major="1" minor="2" patchlevel="0" comment=""/>
+	<creator user="VWaddelo" timestamp="2016-07-08T10:58:15"/>
+	<lasteditor user="VWaddelo" timestamp="2016-07-08T10:58:15"/>
+	<stations>
+		<station stationID="MILLBR" name="Millerhill Branch" xNet="-2332970" yNet="9078780" uicLocationCode="0" circleDiameter="0">
+			<textElement type="name">
+				<pos view="net" x="2074.65" y="2074.65" angle="0" system="source"/>
+				<pos view="wgs84" x="2074.65" y="2074.65" angle="0" system="source"/>
+				<pos view="line" x="2074.69" y="2074.69" angle="0" system="source"/>
+				<pos view="macro" x="28.2843" y="28.2843" angle="0" system="source"/>
+			</textElement>
+		</station>
+	</stations>
+	<nodes>
+		<signal type="exit" interlockingMachine="2 Aspect Pannel (Below 75mph)" nodeID="132" kilometre="11.000" x="0" y="2000" xNet="-2330640.5" yNet="9077088.4" referenceNode="137"/>
+		<node nodeID="135" kilometre="10.400" x="6000" y="2200" xNet="-2335612.7" yNet="9080452.5"/>
+		<node nodeID="136" kilometre="10.200" x="8000" y="2200" xNet="-2337230.7" yNet="9081628.1"/>
+		<node nodeID="137" kilometre="10.800" x="2000" y="2000" xNet="-2332257.9" yNet="9078264.8"/>
+		<node nodeID="138" kilometre="10.600" x="4000" y="2000" xNet="-2333877.3" yNet="9079440.1"/>
+		<node nodeID="139" kilometre="10.400" x="6000" y="2000" xNet="-2335495.7" yNet="9080613.5"/>
+		<node nodeID="140" kilometre="10.200" x="8000" y="2000" xNet="-2337112.6" yNet="9081790.7"/>
+		<signal interlockingMachine="2 Aspect Pannel (Below 75mph)" nodeID="141" name="SIG: M6" kilometre="10.426" x="5740" y="2200" xNet="-2335402" yNet="9080301.9" referenceNode="135"/>
+		<switch start="138" endOfMainTrack="240" endOfBranchTrack="259" nodeID="143" name="POINTS: 71" kilometre="10.597" x="4030" y="2000" xNet="-2333901.4" yNet="9079456.4"/>
+		<node nodeID="144" name="Autogen" kilometre="10.570" x="4300" y="2200" xNet="-2334236.6" yNet="9079452.7"/>
+		<signal interlockingMachine="3 Aspect Pannel (Below 75mph)" nodeID="145" name="SIG: M3" kilometre="10.706" x="2940" y="2000" xNet="-2333018.7" yNet="9078815.1" referenceNode="153"/>
+		<node nodeID="152" name="OL: M3" kilometre="10.523" x="4769.999" y="2000" xNet="-2334500" yNet="9079891.3"/>
+		<node nodeID="153" name="SD: M3" kilometre="10.784" x="2160.0022" y="2000" xNet="-2332388.7" yNet="9078358.6" referenceNode="137" sightingDistance="true"/>
+		<node nodeID="154" name="OL: M6" kilometre="10.517" x="4829.9966" y="2200" xNet="-2334665.3" yNet="9079764.2"/>
+		<node nodeID="155" name="OL: M4" kilometre="10.517" x="4829.9966" y="2000" xNet="-2334547.8" yNet="9079926"/>
+		<node nodeID="159" name="SD: M6" kilometre="10.348" x="6519.9966" y="2200" xNet="-2336034.2" yNet="9080758.7" referenceNode="136" sightingDistance="true"/>
+		<node nodeID="160" name="SD: M4" kilometre="10.348" x="6519.9966" y="2000" xNet="-2335915.8" yNet="9080919.9" referenceNode="140" sightingDistance="true"/>
+		<node nodeID="161" name="GRAD" kilometre="10.628" x="3720.0037" y="2000" xNet="-2333649.2" yNet="9079274.4"/>
+		<node nodeID="239" name="TC" kilometre="10.582" x="4182.7759" y="2113.1675" xNet="-2334090.9" yNet="9079454.4" referenceNode="259" releaseContact="true" arranged="true"/>
+		<node nodeID="240" name="TC" kilometre="10.581" x="4194.0039" y="2000" xNet="-2334034.1" yNet="9079552.8" referenceNode="143" releaseContact="true" arranged="true"/>
+		<track trackID="U-1" stationID="MILLBR" interlockingMachine="2 Aspect Pannel (Below 75mph)" nodeID="142" name="SIG: M4" kilometre="10.426" x="5740" y="2000" xNet="-2335284.8" yNet="9080461.5" referenceNode="258"/>
+		<stationBorder exitType="locked" stationID="MILLBR" trackNumber="" nodeID="257" name="Prellbock 220" kilometre="11.000" x="-50" y="2000" xNet="-2330600" yNet="9077059" referenceNode="132"/>
+		<stationBorder exitType="alternative" stationID="MILLBR" lineID="sc159" trackNumber="1" nodeID="258" name="[MLRHWJN] - [sc161/1]" kilometre="10.418" x="5818" y="2000" xNet="-2335347.9" yNet="9080507.3" referenceNode="142"/>
+		<stationBorder exitType="alternative" stationID="MILLBR" lineID="sc159" trackNumber="2" nodeID="259" name="[MLRHWJN] - [sc161/2]" kilometre="10.592" x="4075.8328" y="2033.9503" xNet="-2333958.3" yNet="9079455.7" referenceNode="143"/>
+	</nodes>
+	<links>
+		<link source="132" target="137" length="200" gradient="-4.587" vmax="40" vmaxr="40"/>
+		<link source="135" target="159" length="52" gradient="-5.714" vmax="40" vmaxr="40"/>
+		<link source="136" target="128.mlrhj" length="200" gradient="-5.714" vmax="40" vmaxr="40"/>
+		<link source="137" target="153" length="16" gradient="-4.587" vmax="40" vmaxr="40"/>
+		<link source="138" target="143" length="3" gradient="-5.714" vmax="40" vmaxr="40"/>
+		<link source="139" target="160" length="52" gradient="-5.714" vmax="40" vmaxr="40"/>
+		<link source="140" target="84.mlrhj" length="200" gradient="-5.714" vmax="40" vmaxr="40"/>
+		<link source="141" target="135" length="26" gradient="-5.714" vmax="40" vmaxr="40"/>
+		<link source="142" target="258" length="8" gradient="-5.714" vmax="40" vmaxr="40"/>
+		<link source="143" target="240" length="16" gradient="-5.714" vmax="40" vmaxr="40"/>
+		<link source="143" target="259" length="5" gradient="-5.714" vmax="40" vmaxr="40"/>
+		<link source="144" target="154" length="53" gradient="-5.714" vmax="40" vmaxr="40"/>
+		<link source="145" target="161" length="78" gradient="-4.587" vmax="40" vmaxr="40"/>
+		<link source="152" target="155" length="6" gradient="-5.714" vmax="40" vmaxr="40"/>
+		<link source="153" target="145" length="78" gradient="-4.587" vmax="40" vmaxr="40"/>
+		<link source="154" target="141" length="92" gradient="-5.714" vmax="40" vmaxr="40"/>
+		<link source="155" target="142" length="91" gradient="-5.714" vmax="40" vmaxr="40"/>
+		<link source="159" target="136" length="148" gradient="-5.714" vmax="40" vmaxr="40"/>
+		<link source="160" target="140" length="148" gradient="-5.714" vmax="40" vmaxr="40"/>
+		<link source="161" target="138" length="28" gradient="-5.714" vmax="40" vmaxr="40"/>
+		<link source="239" target="144" length="12" gradient="-5.714" vmax="40" vmaxr="40"/>
+		<link source="240" target="152" length="58" gradient="-5.714" vmax="40" vmaxr="40"/>
+		<link source="257" target="132" gradient="-4.587" vmax="40" vmaxr="40"/>
+		<link source="258" target="139" length="18" gradient="-5.714" vmax="40" vmaxr="40"/>
+		<link source="259" target="239" length="10" gradient="-5.714" vmax="40" vmaxr="40"/>
+	</links>
+	<dependentLinks/>
+	<blockSections>
+		<blocksection uuid="{0901a7ff-aa7a-4213-8518-0d6dda92c562}" lines="sc159">
+			<part nodes="142 155 152 240 143 138 161 145 153 137 132"/>
+		</blocksection>
+		<blocksection uuid="{10433555-e82a-4ed4-8dcb-68eff6f7fc82}" lines="sc159">
+			<part nodes="141 154 144 239 259 143 138 161 145 153 137 132"/>
+		</blocksection>
+		<blocksection uuid="{13cb7ea9-ac2c-4f02-ac9d-3738e312cc78}" lines="mlrhj sc159">
+			<part nodes="145 161 138 143 259 239 144 154 141 135 159 136 128.mlrhj"/>
+		</blocksection>
+		<blocksection uuid="{13d72daf-1a82-4310-a003-04fe1dbe8bed}" lines="mlrhj sc159">
+			<part nodes="128.mlrhj 136 159 135 141"/>
+		</blocksection>
+		<blocksection uuid="{16c23672-e171-427f-8bab-8a424eea1a47}" lines="mlrhj sc159 sc161">
+			<part nodes="84.mlrhj 140 160 139 258 142"/>
+		</blocksection>
+		<blocksection uuid="{42a406d7-b93b-4560-af0c-e54994eb96c1}" lines="mlrhj sc159 sc161">
+			<part nodes="128.mlrhj 136 159 135 141"/>
+		</blocksection>
+		<blocksection uuid="{5daafcf3-368d-4b04-9c14-e995535a727c}" lines="sc159">
+			<part nodes="132 137 153 145"/>
+		</blocksection>
+		<blocksection uuid="{5fa78199-6407-498c-8750-fa96d7805e9c}" lines="mlrhj sc159" shuntingBlock="true">
+			<part nodes="84.mlrhj 140 160 139 258 142"/>
+		</blocksection>
+		<blocksection uuid="{893a2c9c-52be-43dd-981f-05e553c23d6e}" lines="mlrhj sc159" shuntingBlock="true">
+			<part nodes="84.mlrhj 140 160 139 258 142"/>
+		</blocksection>
+		<blocksection uuid="{9361e2d2-75ed-4993-8400-011baf950d4d}" lines="mlrhj sc159" shuntingBlock="true">
+			<part nodes="128.mlrhj 136 159 135 141"/>
+		</blocksection>
+		<blocksection uuid="{95a426ca-7452-4185-beae-09db1e36cb43}" lines="mlrhj sc159">
+			<part nodes="145 161 138 143 240 152 155 142 258 139 160 140 84.mlrhj"/>
+		</blocksection>
+		<blocksection uuid="{d3639fe9-2a6c-4f5b-9666-71c5780e1ce0}" lines="mlrhj sc159">
+			<part nodes="84.mlrhj 140 160 139 258 142"/>
+		</blocksection>
+	</blockSections>
+	<slipDistances>
+		<slipdistance uuid="{5ddcb754-95af-4104-869c-ee2774431cfc}" vmax="999" lines="sc159" serialNumber="0">
+			<part nodes="141 154"/>
+		</slipdistance>
+		<slipdistance uuid="{7fc14d9c-4c7d-46c9-be84-e94d82132b08}" vmax="999" lines="sc159" serialNumber="0">
+			<part nodes="142 155"/>
+		</slipdistance>
+		<slipdistance uuid="{e9861802-9183-43ed-b5a7-2686e8997388}" vmax="999" lines="sc159" serialNumber="0">
+			<part nodes="145 161 138 143 240 152"/>
+		</slipdistance>
+	</slipDistances>
+	<approachControlRoutes/>
+	<stationRoutes>
+		<stationRoute stationID="MILLBR" name="[MLRHWJN]-[sc159/1]-[1]-[MLRHWJN]-[sc159/1] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="258 142 155 152 240 143 138 161 145 153 137 132 137 153 145 161 138 143 240 152 155 142 258"/>
+		<stationRoute stationID="MILLBR" name="[MLRHWJN]-[sc159/1]-[1]-[MLRHWJN]-[sc159/2] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=95;NRz=95;S=95;Rz=95;FGz=95;NGz=95;Gz=95;Lz=95;Unbekannt=95" nodes="258 142 155 152 240 143 138 161 145 153 137 132 137 153 145 161 138 143 259"/>
+		<stationRoute stationID="MILLBR" name="[MLRHWJN]-[sc159/1]-[1]-[]-[?/] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="258 142 155 152 240 143 138 161 145 153 137 132 257"/>
+	</stationRoutes>
+	<lineCatalog/>
+	<zugNummernFelder/>
+	<switchGears/>
+</line>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<line lineID="so310s" name="SO310 Lee Spur Loop" trafficRouting="on_the_left" type="local" dependentLines="leelp leespr">
+	<version major="1" minor="2" patchlevel="0" comment=""/>
+	<creator user="Ahowe4" timestamp="2016-11-01T12:54:22"/>
+	<lasteditor user="Ahowe4" timestamp="2016-11-01T12:54:22"/>
+	<stations/>
+	<nodes>
+		<node nodeID="9" kilometre="0.353" x="119907.2" y="2964.3641" xNet="1137888.6" yNet="614125.25"/>
+		<node nodeID="1022" x="116689.21" y="3301.7013" xNet="1148088.5" yNet="619843.01"/>
+		<kilometreInconsistency newKilometre="12.101" nodeID="1036" x="116430.86" y="3282.0989" xNet="1148453.5" yNet="620346.64" referenceNode="1022"/>
+		<node nodeID="1062" name="SD : 299" description="sighting distance for SIG : 299" kilometre="0.313" x="118338.64" y="3274.2579" xNet="1138074.7" yNet="614889.7" referenceNode="1022" sightingDistance="true"/>
+		<node nodeID="31" name="SD : 345" description="sighting distance for SIG : 345" kilometre="0.116" x="118199.53" y="3117.4381" xNet="1147038.7" yNet="617891.32" referenceNode="95" sightingDistance="true"/>
+		<node nodeID="95" kilometre="0.382" x="120183.2" y="2603.8535" xNet="1137231.7" yNet="613235.36"/>
+	</nodes>
+	<links>
+		<link source="9" target="866.leespr" length="21" gradient="9.091" vmax="24" vmaxr="24">
+			<vzg index="9" vmax="24" vmaxr="24"/>
+		</link>
+		<link source="31" target="95" length="266" gradient="9.091" vmax="24" vmaxr="24">
+			<vzg index="9" vmax="24" vmaxr="24"/>
+		</link>
+		<link source="95" target="108.leespr" length="40" gradient="9.091" vmax="24" vmaxr="24">
+			<vzg index="9" vmax="24" vmaxr="24"/>
+		</link>
+		<link source="863.leelp" target="31" length="49" gradient="9.091" vmax="24" vmaxr="24">
+			<vzg index="9" vmax="24" vmaxr="24"/>
+		</link>
+		<link source="1022" target="1036" gradient="-9.091" vmax="24" vmaxr="24">
+			<vzg index="9" vmax="24" vmaxr="24"/>
+		</link>
+		<link source="1022" target="1062" length="313" gradient="9.091" vmax="24" vmaxr="24">
+			<vzg index="9" vmax="24" vmaxr="24"/>
+		</link>
+		<link source="1036" target="859.leelp" gradient="-9.091" vmax="24" vmaxr="24">
+			<vzg index="9" vmax="24" vmaxr="24"/>
+		</link>
+		<link source="1062" target="9" length="40" gradient="9.091" vmax="24" vmaxr="24">
+			<vzg index="9" vmax="24" vmaxr="24"/>
+		</link>
+	</links>
+	<dependentLinks/>
+	<blockSections>
+		<blocksection uuid="{495d9df7-c0a8-4325-8cf1-05b7d87b81bd}" lines="leelp leespr so310s">
+			<part nodes="108.leespr 95 31 863.leelp"/>
+		</blocksection>
+		<blocksection uuid="{53df607c-412a-4daa-a3b1-f968eeef9fcf}" lines="leelp leespr so310s">
+			<part nodes="859.leelp 1036 1022 1062 9 866.leespr"/>
+		</blocksection>
+		<blocksection uuid="{6788d576-d539-4f75-b841-8d285543e71e}" lines="leelp leespr so310s" shuntingBlock="true">
+			<part nodes="108.leespr 95 31 863.leelp"/>
+		</blocksection>
+		<blocksection uuid="{8c076a41-b65c-4de6-82f6-cd0ef0f0ca07}" lines="leelp leespr so310s" shuntingBlock="true">
+			<part nodes="108.leespr 95 31 863.leelp"/>
+		</blocksection>
+		<blocksection uuid="{9e9d94d4-e40a-4a4d-a1bf-6c717c341f17}" lines="leelp leespr so310s" shuntingBlock="true">
+			<part nodes="108.leespr 95 31 863.leelp"/>
+		</blocksection>
+		<blocksection uuid="{a581baba-8d54-455d-b7e8-bd262049b9e2}" lines="leelp leespr so310s" shuntingBlock="true">
+			<part nodes="108.leespr 95 31 863.leelp"/>
+		</blocksection>
+		<blocksection uuid="{bd461456-b1c7-4cbd-8024-f333e5896cb2}" lines="leelp leespr so310s" shuntingBlock="true">
+			<part nodes="108.leespr 95 31 863.leelp"/>
+		</blocksection>
+	</blockSections>
+	<slipDistances/>
+	<approachControlRoutes/>
+	<stationRoutes/>
+	<lineCatalog/>
+	<zugNummernFelder/>
+	<switchGears/>
+</line>

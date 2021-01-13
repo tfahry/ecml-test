@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<line lineID="ln918" name="Springbank North Jn to Walton Street Jn" trafficRouting="on_the_left" type="local" dependentLines="spring walt">
+	<version major="1" minor="2" patchlevel="0" comment=""/>
+	<creator user="Ahowe4" timestamp="2016-11-01T12:54:22"/>
+	<lasteditor user="Ahowe4" timestamp="2016-11-01T12:54:22"/>
+	<stations/>
+	<nodes>
+		<node nodeID="421" kilometre="6.600" x="841657" y="-20600" xNet="637196.33" yNet="4976648.1"/>
+		<node nodeID="449" name="SD: HR46" kilometre="6.640" x="841115" y="-20600" xNet="637232.87" yNet="4976289.5" referenceNode="421" sightingDistance="true"/>
+		<node nodeID="451" name="SD: HR67" kilometre="6.450" x="843686" y="-20600" xNet="637060.49" yNet="4977994.8" referenceNode="421" sightingDistance="true"/>
+	</nodes>
+	<links>
+		<link source="421" target="451" length="150" vmax="40" vmaxr="40" bidirectional="true"/>
+		<link source="449" target="421" length="40" vmax="40" vmaxr="40" bidirectional="true"/>
+		<link source="451" target="420.walt" length="50" vmax="40" vmaxr="40" bidirectional="true"/>
+		<link source="475.spring" target="449" length="29" vmax="40" vmaxr="40" bidirectional="true"/>
+	</links>
+	<dependentLinks/>
+	<blockSections>
+		<blocksection uuid="{33d5b1f5-fda6-41f3-b560-deaa3bd17da8}" lines="ln918 spring walt">
+			<part nodes="420.walt 451 421 449 475.spring"/>
+		</blocksection>
+		<blocksection uuid="{4a6b6937-b484-405b-be5e-1674dd6b8bec}" lines="ln918 spring walt">
+			<part nodes="475.spring 449 421 451 420.walt"/>
+		</blocksection>
+		<blocksection uuid="{7884b26d-33dd-4dfb-bdd9-03b80df035fe}" lines="ln918 spring walt">
+			<part nodes="475.spring 449 421 451 420.walt"/>
+		</blocksection>
+		<blocksection uuid="{ddf71e2c-fece-4867-9910-380b8c7174f0}" lines="ln918 spring walt">
+			<part nodes="420.walt 451 421 449 475.spring"/>
+		</blocksection>
+		<blocksection uuid="{e389c774-4051-4550-b15f-de8ed062dfc5}" lines="ln918 spring walt">
+			<part nodes="420.walt 451 421 449 475.spring"/>
+		</blocksection>
+	</blockSections>
+	<slipDistances/>
+	<approachControlRoutes/>
+	<stationRoutes/>
+	<lineCatalog/>
+	<zugNummernFelder/>
+	<switchGears/>
+</line>

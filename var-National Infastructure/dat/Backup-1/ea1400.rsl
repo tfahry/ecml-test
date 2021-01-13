@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<line lineID="ea1400" name="Gas Factory Jn - Bow Jn" trafficRouting="on_the_left" type="local" dependentLines="bowj gftj">
+	<version major="1" minor="2" patchlevel="0" comment=""/>
+	<creator user="Ahowe4" timestamp="2016-11-01T12:54:22"/>
+	<lasteditor user="Ahowe4" timestamp="2016-11-01T12:54:22"/>
+	<stations/>
+	<nodes>
+		<node nodeID="6" name="CURVE" kilometre="4.800" x="6000" y="-90000" xNet="1112771.2" yNet="759521.19"/>
+		<node nodeID="17" name="GRAD" kilometre="4.742" x="5419.999" y="-90000" xNet="1112413.1" yNet="759064.88"/>
+		<node nodeID="19" name="SIG:L235BR" kilometre="4.886" x="6859.998" y="-90000" xNet="1113300" yNet="760200" referenceNode="6" presignal="true" with1000HzMagnet="true"/>
+		<node nodeID="25" name="SD:L235BR" kilometre="4.792" x="5919.998" y="-90000" xNet="1112721.3" yNet="759459" referenceNode="17" sightingDistance="true"/>
+	</nodes>
+	<links>
+		<link source="6" target="19" length="98" gradient="-9.009" vmax="48" vmaxr="48" bidirectional="true">
+			<vzg index="1" vmax="32" vmaxr="32"/>
+		</link>
+		<link source="17" target="25" length="50" gradient="-9.009" vmax="48" vmaxr="48" bidirectional="true">
+			<vzg index="1" vmax="32" vmaxr="32"/>
+		</link>
+		<link source="19" target="26.bowj" length="14" gradient="-9.009" vmax="48" vmaxr="48" bidirectional="true">
+			<vzg index="1" vmax="32" vmaxr="32"/>
+		</link>
+		<link source="25" target="6" length="8" gradient="-9.009" vmax="48" vmaxr="48" bidirectional="true">
+			<vzg index="1" vmax="32" vmaxr="32"/>
+		</link>
+		<link source="27.gftj" target="17" length="42" gradient="2.95" vmax="48" vmaxr="48" bidirectional="true">
+			<vzg index="1" vmax="32" vmaxr="32"/>
+		</link>
+	</links>
+	<dependentLinks/>
+	<blockSections>
+		<blocksection uuid="{32c01096-aa59-44d3-be54-cbee3beda0cd}" lines="bowj ea1400 gftj">
+			<part nodes="26.bowj 19 6 25 17 27.gftj"/>
+		</blocksection>
+		<blocksection uuid="{624583fa-a1a8-4b34-af5a-d727ae175f2b}" lines="bowj ea1400 gftj">
+			<part nodes="27.gftj 17 25 6 19 26.bowj"/>
+		</blocksection>
+		<blocksection uuid="{82c15777-391b-4080-b4a2-9895c2c2c885}" lines="bowj ea1400 gftj">
+			<part nodes="27.gftj 17 25 6 19 26.bowj"/>
+		</blocksection>
+		<blocksection uuid="{920965e3-b069-432a-84d0-9735279a2c8f}" lines="bowj ea1400 gftj">
+			<part nodes="26.bowj 19 6 25 17 27.gftj"/>
+		</blocksection>
+		<blocksection uuid="{b6c655ae-e90e-42ec-8bd3-205d9975ccea}" lines="bowj ea1400 gftj">
+			<part nodes="26.bowj 19 6 25 17 27.gftj"/>
+		</blocksection>
+	</blockSections>
+	<slipDistances/>
+	<approachControlRoutes/>
+	<stationRoutes/>
+	<lineCatalog/>
+	<zugNummernFelder/>
+	<switchGears/>
+</line>

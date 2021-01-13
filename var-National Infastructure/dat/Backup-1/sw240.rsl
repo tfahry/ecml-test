@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<line lineID="sw240" name="Old Kew Junction To Key east Junction" trafficRouting="on_the_left" type="local" dependentLines="kewej newkew oldkew">
+	<version major="1" minor="2" patchlevel="0" comment=""/>
+	<creator user="Ahowe4" timestamp="2016-11-01T12:54:22"/>
+	<lasteditor user="Ahowe4" timestamp="2016-11-01T12:54:22"/>
+	<stations/>
+	<nodes>
+		<node nodeID="609" name="GRAD" description="GRADIENT; 3M 41ch" kilometre="5.653" x="157844.52" y="-5446.6325" xNet="816092.05" yNet="685599.96"/>
+		<node nodeID="611" name="GRAD" description="GRADIENT: 3m 46ch" kilometre="5.753" x="158369.89" y="-4606.3639" xNet="814922.92" yNet="684431.18"/>
+		<node nodeID="612" name="GRAD" description="GRADIENT: 3m 46ch" kilometre="5.753" x="158624.71" y="-4764.7012" xNet="814550.5" yNet="684730.09"/>
+		<kilometreInconsistency newKilometre="5.613" nodeID="623" kilometre="15.772" x="154656.38" y="-2540.6559" xNet="818672.47" yNet="678034" referenceNode="649"/>
+		<kilometreInconsistency newKilometre="5.613" nodeID="621" kilometre="15.772" x="155020.08" y="-2436.8009" xNet="817618.87" yNet="678411.3" referenceNode="615.newkew"/>
+		<signal interlockingMachine="3 Aspect Pannel (Below 75mph)" nodeID="625" name="SIG: F128" description="SIGNAL" kilometre="15.590" x="154285.83" y="-1376.9035" xNet="818515.29" yNet="675651.36" referenceNode="649"/>
+		<node nodeID="646" name="xSD: SIG F135" kilometre="5.908" x="159191.26" y="-3291.8882" xNet="813110.8" yNet="682619.58" referenceNode="611" sightingDistance="true"/>
+		<node nodeID="647" name="xSD: SIG KE46" kilometre="5.754" x="158630.01" y="-4756.223" xNet="814538.81" yNet="684718.41" referenceNode="589.oldkew" sightingDistance="true"/>
+		<node nodeID="648" name="xSD: SIG KE49" kilometre="5.495" x="155327.52" y="-4816.8403" xNet="818303.86" yNet="683693.41" referenceNode="621" sightingDistance="true"/>
+		<node nodeID="649" name="xSD: SIG F128" kilometre="15.735" x="154580.59" y="-2302.6156" xNet="818640.32" yNet="677546.64" referenceNode="623" sightingDistance="true"/>
+		<node nodeID="643" kilometre="5.454" x="155048.52" y="-5069.8403" xNet="819213.46" yNet="685233.15"/>
+		<node nodeID="628" kilometre="5.461" x="155432.12" y="-5112.6796" xNet="818500.14" yNet="685207"/>
+	</nodes>
+	<links>
+		<link source="609.kewej" target="609" gradient="-5.988" vmax="72"/>
+		<link source="609" target="611" length="100" gradient="1.046" vmax="72" vmaxr="72" electrification="electrified">
+			<vzg index="9" vmax="48" vmaxr="48"/>
+		</link>
+		<link source="610.kewej" target="612" length="100" gradient="1.046" vmax="72" vmaxr="72" electrification="electrified">
+			<vzg index="9" vmax="48" vmaxr="48"/>
+		</link>
+		<link source="611" target="646" length="155" vmax="72" vmaxr="72" electrification="electrified">
+			<vzg index="9" vmax="48" vmaxr="48"/>
+		</link>
+		<link source="612" target="647" length="1" vmax="72" vmaxr="72" electrification="electrified">
+			<vzg index="9" vmax="48" vmaxr="48"/>
+		</link>
+		<link source="615.newkew" target="621" length="207" gradient="5.99" vmax="32" vmaxr="32" electrification="electrified">
+			<vzg index="9" vmax="32" vmaxr="32"/>
+		</link>
+		<link source="621" target="648" length="118" gradient="5.99" vmax="32" vmaxr="32" electrification="electrified">
+			<vzg index="9" vmax="32" vmaxr="32"/>
+		</link>
+		<link source="622.newkew" target="625" length="105" gradient="5.99" vmax="32" vmaxr="32" electrification="electrified">
+			<vzg index="9" vmax="32" vmaxr="32"/>
+		</link>
+		<link source="623" target="643" length="159" gradient="5.99" vmax="32" vmaxr="32" electrification="electrified">
+			<vzg index="9" vmax="32" vmaxr="32"/>
+		</link>
+		<link source="625" target="649" length="145" gradient="5.99" vmax="32" vmaxr="32" electrification="electrified">
+			<vzg index="9" vmax="32" vmaxr="32"/>
+		</link>
+		<link source="628" target="628.kewej" gradient="5.99" vmax="32" vmaxr="32"/>
+		<link source="643" target="643.kewej" gradient="5.99" vmax="32" vmaxr="32"/>
+		<link source="646" target="591.oldkew" length="127" vmax="72" vmaxr="72" electrification="electrified">
+			<vzg index="9" vmax="48" vmaxr="48"/>
+		</link>
+		<link source="647" target="589.oldkew" length="281" vmax="72" vmaxr="72" electrification="electrified">
+			<vzg index="9" vmax="48" vmaxr="48"/>
+		</link>
+		<link source="648" target="628" length="34" gradient="5.99" vmax="32" vmaxr="32" electrification="electrified">
+			<vzg index="9" vmax="32" vmaxr="32"/>
+		</link>
+		<link source="649" target="623" length="37" gradient="5.99" vmax="32" vmaxr="32" electrification="electrified">
+			<vzg index="9" vmax="32" vmaxr="32"/>
+		</link>
+	</links>
+	<dependentLinks/>
+	<blockSections>
+		<blocksection uuid="{8fe995a9-266a-4133-a028-830b36bebd16}" lines="kewej sw240">
+			<part nodes="643.kewej 643 623 649 625"/>
+		</blocksection>
+		<blocksection uuid="{c11ad963-76d0-48c0-9444-45093094752b}" lines="kewej oldkew sw240">
+			<part nodes="589.oldkew 647 612 610.kewej"/>
+		</blocksection>
+		<blocksection uuid="{e94f4a93-c345-4737-8f42-d78d8899bb71}" lines="kewej newkew sw240">
+			<part nodes="615.newkew 621 648 628 628.kewej"/>
+		</blocksection>
+		<blocksection uuid="{f90eb98f-442b-42c2-9b0f-6fb14c1456a4}" lines="newkew sw240">
+			<part nodes="625 622.newkew"/>
+		</blocksection>
+		<blocksection uuid="{f97fc6f1-17a4-4c72-847b-d4fe710d0e7b}" lines="kewej oldkew sw240">
+			<part nodes="609.kewej 609 611 646 591.oldkew"/>
+		</blocksection>
+	</blockSections>
+	<slipDistances>
+		<slipdistance uuid="{87599bf2-2711-465a-b51a-2d0f6ffc9d1f}" vmax="999" lines="newkew sw240" serialNumber="0">
+			<part nodes="625 622.newkew"/>
+		</slipdistance>
+	</slipDistances>
+	<approachControlRoutes/>
+	<stationRoutes/>
+	<lineCatalog/>
+	<zugNummernFelder/>
+	<switchGears/>
+</line>

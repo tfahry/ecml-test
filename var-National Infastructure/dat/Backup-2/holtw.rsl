@@ -1,0 +1,604 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<line lineID="holtw" name="Holytown" trafficRouting="on_the_left" type="global" dependentLines="sc007 sc011 sc015 sc017">
+	<transformations>
+		<transformation line="sc007" m11="-1" m12="1.22465e-16" m21="-1.22465e-16" m22="-1" dx="193871" dy="-467564"/>
+		<transformation line="sc011" m11="1" m12="0" m21="0" m22="1" dx="96955.3" dy="467486"/>
+		<transformation line="sc015" m11="1" m12="0" m21="0" m22="1" dx="-4110.76" dy="4863.13"/>
+		<transformation line="sc017" m11="1" m12="0" m21="0" m22="1" dx="1.52607e+06" dy="465993"/>
+		<transformation line="sc093_" m11="6.12303e-17" m12="-1" m21="1" m22="6.12303e-17" dx="1.93749e+06" dy="-52018.8"/>
+	</transformations>
+	<version major="1" minor="2" patchlevel="0" comment=""/>
+	<creator user="thetheri" timestamp="2014-12-22T14:09:01"/>
+	<lasteditor user="thetheri" timestamp="2014-12-22T14:09:01"/>
+	<stations>
+		<station stationID="HOLYTNJ" name="Holytown Jn" xNet="-3029530" yNet="9037640" uicLocationCode="0" circleDiameter="0">
+			<textElement type="name">
+				<pos view="net" x="3402.86" y="3402.86" angle="0" system="source"/>
+				<pos view="wgs84" x="3402.86" y="3402.86" angle="0" system="source"/>
+				<pos view="line" x="3716.81" y="3716.81" angle="0" system="source"/>
+				<pos view="macro" x="28.2843" y="28.2843" angle="0" system="source"/>
+			</textElement>
+		</station>
+		<station stationID="HOLYTWN" name="HOLYTOWN" xNet="-3035330" yNet="9040600" uicLocationCode="0" circleDiameter="0">
+			<textElement type="name">
+				<pos view="net" x="1342.36" y="1342.36" angle="0" system="source"/>
+				<pos view="wgs84" x="1342.36" y="1342.36" angle="0" system="source"/>
+				<pos view="line" x="2050.21" y="2050.21" angle="0" system="source"/>
+				<pos view="macro" x="28.2843" y="28.2843" angle="0" system="source"/>
+			</textElement>
+		</station>
+		<station stationID="MOSENDE" name="Mossend East Jn / Fullwood Jn" xNet="-3045320" yNet="9040660" uicLocationCode="0" circleDiameter="0">
+			<textElement type="name">
+				<pos view="net" x="2319.96" y="2319.96" angle="0" system="source"/>
+				<pos view="wgs84" x="2319.96" y="2319.96" angle="0" system="source"/>
+				<pos view="line" x="3836.63" y="3836.63" angle="0" system="source"/>
+				<pos view="macro" x="28.2843" y="28.2843" angle="0" system="source"/>
+			</textElement>
+		</station>
+	</stations>
+	<nodes>
+		<node nodeID="65" name="GRAD" kilometre="5.672" x="-48545.078" y="-467656.52" xNet="-3048379" yNet="9040501.2">
+			<netLimitInfo lineID="sc011"/>
+		</node>
+		<node nodeID="2" name="OL: M338" kilometre="5.860" x="-45671.078" y="-467456.52" xNet="-3046499" yNet="9040701.2"/>
+		<node nodeID="9" kilometre="1.710" x="-28246.078" y="-467456.52" xNet="-3035099" yNet="9040701.2"/>
+		<node nodeID="10" kilometre="1.710" x="-28246.078" y="-467656.52" xNet="-3035099" yNet="9040501.2"/>
+		<switch start="139" endOfMainTrack="296" endOfBranchTrack="109" nodeID="93" name="POINTS: 132" kilometre="6.095" x="-42076.078" y="-467456.52" xNet="-3044147" yNet="9040701.2"/>
+		<switch start="140" endOfMainTrack="291" endOfBranchTrack="110" nodeID="94" name="POINTS: 131B" kilometre="6.095" x="-42079.078" y="-467656.52" xNet="-3044149" yNet="9040501.2"/>
+		<switch start="291" endOfMainTrack="123" endOfBranchTrack="225" nodeID="96" name="POINTS: 129" kilometre="6.032" x="-43042.078" y="-467656.52" xNet="-3044779" yNet="9040501.2"/>
+		<switch start="97" endOfMainTrack="296" endOfBranchTrack="112" nodeID="95" name="POINTS: 131A" kilometre="6.007" x="-43424.078" y="-467456.52" xNet="-3045029" yNet="9040701.2"/>
+		<switch start="95" endOfMainTrack="288" endOfBranchTrack="113" nodeID="97" name="POINTS: 128B" kilometre="5.999" x="-43546.078" y="-467456.52" xNet="-3045109" yNet="9040701.2"/>
+		<switch start="99" endOfMainTrack="293" endOfBranchTrack="116" nodeID="98" name="POINTS: 128A" kilometre="5.925" x="-44677.078" y="-467656.52" xNet="-3045849" yNet="9040501.2"/>
+		<switch start="98" endOfMainTrack="6" endOfBranchTrack="115" nodeID="99" name="POINTS: 127" kilometre="5.919" x="-44769.078" y="-467656.52" xNet="-3045909" yNet="9040501.2"/>
+		<switch start="288" endOfMainTrack="2" endOfBranchTrack="114" nodeID="100" name="POINTS: 126" kilometre="5.901" x="-45044.078" y="-467456.52" xNet="-3046089" yNet="9040701.2"/>
+		<kilometreInconsistency newKilometre="0.54" nodeID="101" name="EXIT DOWN MOSSEND NORTH CURVE" kilometre="5.830" x="-46129.078" y="-467256.52" xNet="-3046791.4" yNet="9040901" referenceNode="227">
+			<netLimitInfo lineID="sc015"/>
+		</kilometreInconsistency>
+		<node nodeID="102" kilometre="5.870" x="-45518.078" y="-467256.52" xNet="-3046399" yNet="9040901.2"/>
+		<kilometreInconsistency newKilometre="0.5" nodeID="7" name="ENTRY UP MOSSEND EAST CURVE" kilometre="5.820" x="-46282.078" y="-467856.52" xNet="-3046899" yNet="9040301.2" referenceNode="104"/>
+		<node nodeID="104" kilometre="5.870" x="-45518.078" y="-467856.52" xNet="-3046399" yNet="9040301.2"/>
+		<kilometreInconsistency newKilometre="0.5" nodeID="8" name="EXIT DOWN MOSSEND EAST CURVE" kilometre="5.820" x="-46282.078" y="-468056.52" xNet="-3046899" yNet="9040101.2" referenceNode="106">
+			<netLimitInfo lineID="sc017"/>
+		</kilometreInconsistency>
+		<node nodeID="106" kilometre="5.920" x="-44754.078" y="-468056.52" xNet="-3045899" yNet="9040101.2"/>
+		<kilometreInconsistency newKilometre="0.54" nodeID="107" name="ENTRY UP MOSSEND NORTH CURVE" kilometre="5.830" x="-46129.078" y="-467056.52" xNet="-3046787.8" yNet="9041101.2" referenceNode="231">
+			<netLimitInfo lineID="sc015"/>
+		</kilometreInconsistency>
+		<node nodeID="108" kilometre="5.900" x="-45060.078" y="-467056.52" xNet="-3046099" yNet="9041101.2"/>
+		<speedIndicator nodeID="109" name="SPEED" kilometre="6.094" x="-42091.078" y="-467454.52" xNet="-3044157" yNet="9040703.2" referenceNode="93"/>
+		<speedIndicator nodeID="110" name="SPEED" kilometre="6.094" x="-42094.078" y="-467654.52" xNet="-3044159" yNet="9040503.2" referenceNode="94"/>
+		<speedIndicator nodeID="111" name="SPEED" kilometre="6.031" x="-43057.078" y="-467660.52" xNet="-3044789" yNet="9040497.2" referenceNode="225"/>
+		<speedIndicator nodeID="112" name="SPEED" kilometre="6.008" x="-43409.078" y="-467458.52" xNet="-3045019" yNet="9040699.2" referenceNode="125"/>
+		<speedIndicator nodeID="113" name="SPEED" kilometre="5.998" x="-43562.078" y="-467459.52" xNet="-3045119" yNet="9040698.2" referenceNode="97"/>
+		<speedIndicator nodeID="114" name="SPEED" kilometre="5.900" x="-45060.078" y="-467450.52" xNet="-3046099" yNet="9040707.2" referenceNode="100"/>
+		<speedIndicator nodeID="115" name="SPEED" kilometre="5.918" x="-44784.078" y="-467660.52" xNet="-3045919" yNet="9040497.2" referenceNode="99"/>
+		<kilometreInconsistency newKilometre="0.81" nodeID="117" name="C.O.K" kilometre="6.100" x="-41999.078" y="-467456.52" xNet="-3044097" yNet="9040701.2" referenceNode="139"/>
+		<kilometreInconsistency newKilometre="0.81" nodeID="118" name="C.O.K" kilometre="6.100" x="-42003.078" y="-467656.52" xNet="-3044099" yNet="9040501.2" referenceNode="140"/>
+		<node nodeID="4" kilometre="0.815" x="-41923.078" y="-467456.52" xNet="-3044047" yNet="9040701.2"/>
+		<node nodeID="3" kilometre="0.815" x="-41926.078" y="-467656.52" xNet="-3044049" yNet="9040501.2"/>
+		<node nodeID="123" name="OL: M343" kilometre="5.996" x="-43592.078" y="-467656.52" xNet="-3045139" yNet="9040501.2"/>
+		<node nodeID="124" name="OL: M343" kilometre="5.984" x="-43776.078" y="-467827.52" xNet="-3045259" yNet="9040330.2"/>
+		<node nodeID="125" name="OL: M343" kilometre="6.031" x="-43057.078" y="-467511.52" xNet="-3044789" yNet="9040646.2"/>
+		<node nodeID="126" name="SD: M343" kilometre="1.059" x="-38197.078" y="-467656.52" xNet="-3041609" yNet="9040501.2" referenceNode="5" sightingDistance="true"/>
+		<signal interlockingMachine="4 Aspect IECC (101mph - 125mph)" nodeID="129" name="SIG: M346" kilometre="1.119" x="-37278.078" y="-467456.52" xNet="-3041008" yNet="9040701.2" referenceNode="226"/>
+		<node nodeID="1" name="OL: M346" kilometre="1.210" x="-35887.078" y="-467456.52" xNet="-3040098" yNet="9040701.2"/>
+		<node nodeID="131" name="SD: M346" kilometre="0.916" x="-40379.078" y="-467456.52" xNet="-3043037" yNet="9040701.2" referenceNode="4" sightingDistance="true"/>
+		<track trackID="D-1" stationID="HOLYTWN" interlockingMachine="4 Aspect Pannel (101mph - 125mph)" nodeID="14" name="SIG: M347" kilometre="1.599" x="-30233.078" y="-467656.52" xNet="-3036399" yNet="9040501.2" referenceNode="19">
+			<platform startPos="-1420" endPos="-10" width="70" left="true" open="false"/>
+		</track>
+		<node nodeID="5" name="OL: M347" kilometre="1.306" x="-34421.078" y="-467656.52" xNet="-3039139" yNet="9040501.2"/>
+		<node nodeID="285" name="TC" kilometre="5.883" x="-45319.078" y="-467340.52" xNet="-3046269" yNet="9040817.2" referenceNode="102" releaseContact="true" arranged="true"/>
+		<node nodeID="286" name="TC" kilometre="5.884" x="-45304.078" y="-467346.52" xNet="-3046259" yNet="9040811.2" referenceNode="114" releaseContact="true" arranged="true"/>
+		<node nodeID="287" name="TC" kilometre="5.860" x="-45671.078" y="-467256.52" xNet="-3046499" yNet="9040901.2" referenceNode="102" releaseContact="true" arranged="true"/>
+		<node nodeID="288" name="TC" kilometre="5.920" x="-44754.078" y="-467456.52" xNet="-3045899" yNet="9040701.2" referenceNode="100" releaseContact="true" arranged="true"/>
+		<node nodeID="289" name="TC" kilometre="6.056" x="-42677.078" y="-467567.52" xNet="-3044540" yNet="9040590.2" referenceNode="290" releaseContact="true" arranged="true"/>
+		<node nodeID="290" name="TC" kilometre="6.055" x="-42692.078" y="-467565.52" xNet="-3044550" yNet="9040592.2" referenceNode="289" releaseContact="true" arranged="true"/>
+		<node nodeID="291" name="TC" kilometre="6.060" x="-42620.078" y="-467656.52" xNet="-3044503" yNet="9040501.2" referenceNode="94" releaseContact="true" arranged="true"/>
+		<node nodeID="292" name="TC" kilometre="5.970" x="-43983.078" y="-467876.52" xNet="-3045395" yNet="9040281.2" referenceNode="124" releaseContact="true" arranged="true"/>
+		<node nodeID="293" name="TC" kilometre="5.979" x="-43849.078" y="-467656.52" xNet="-3045307" yNet="9040501.2" referenceNode="123" releaseContact="true" arranged="true"/>
+		<node nodeID="294" name="TC" kilometre="5.961" x="-44135.078" y="-467560.52" xNet="-3045494" yNet="9040597.2" referenceNode="116" releaseContact="true" arranged="true"/>
+		<node nodeID="295" name="TC" kilometre="5.962" x="-44119.078" y="-467557.52" xNet="-3045484" yNet="9040600.2" referenceNode="113" releaseContact="true" arranged="true"/>
+		<node nodeID="296" name="TC" kilometre="6.040" x="-42912.078" y="-467456.52" xNet="-3044694" yNet="9040701.2" referenceNode="95" releaseContact="true" arranged="true"/>
+		<node nodeID="297" name="TC" kilometre="5.999" x="-43546.078" y="-467259.52" xNet="-3045109" yNet="9040898.2" referenceNode="108" releaseContact="true" arranged="true"/>
+		<node nodeID="298" name="TC" kilometre="6.000" x="-43531.078" y="-467261.52" xNet="-3045099" yNet="9040896.2" referenceNode="714" releaseContact="true" arranged="true"/>
+		<node nodeID="299" name="TC" kilometre="5.899" x="-45078.078" y="-467739.52" xNet="-3046111" yNet="9040418.2" referenceNode="104" releaseContact="true" arranged="true"/>
+		<node nodeID="714" name="OL M336" description="OL for SIG : M336" kilometre="6.054" x="-42704.078" y="-467372.52" xNet="-3044557.9" yNet="9040785.3"/>
+		<node nodeID="64" name="GRAD" kilometre="5.672" x="-48735.378" y="-467456.52" xNet="-3048379" yNet="9040701.2"/>
+		<node nodeID="136" name="SD: M347" kilometre="1.802" x="-25534.378" y="-467670.52" xNet="-3034373.65037763" yNet="9040501.14116937" referenceNode="340" sightingDistance="true"/>
+		<switch start="514" endOfMainTrack="375" endOfBranchTrack="152" nodeID="141" name="POINTS: 240A" kilometre="1.989" x="-23944.378" y="-467670.52" xNet="-3032779" yNet="9040501.2"/>
+		<switch start="143" endOfMainTrack="400" endOfBranchTrack="153" nodeID="142" name="POINTS: 240B" kilometre="2.050" x="-23444.378" y="-467470.52" xNet="-3032279" yNet="9040701.2"/>
+		<switch start="142" endOfMainTrack="167" endOfBranchTrack="169" nodeID="143" name="POINTS: 242" kilometre="2.064" x="-23234.378" y="-467470.52" xNet="-3032257" yNet="9040701"/>
+		<switch start="616" endOfMainTrack="510" endOfBranchTrack="511" nodeID="144" name="POINTS: 243A" kilometre="2.134" x="-22964.378" y="-467670.52" xNet="-3031799" yNet="9040501.2"/>
+		<switch start="147" endOfMainTrack="519" endOfBranchTrack="518" nodeID="146" name="POINTS: 243B" kilometre="2.300" x="-21514.378" y="-467670.52" xNet="-3030357" yNet="9040502"/>
+		<switch start="146" endOfMainTrack="542" endOfBranchTrack="164" nodeID="147" name="POINTS: 245" kilometre="2.329" x="-21404.378" y="-467670.52" xNet="-3030309.17983651" yNet="9040502"/>
+		<speedIndicator nodeID="152" name="SPEED" kilometre="1.990" x="-23934.378" y="-467666.52" xNet="-3032769" yNet="9040505.2" referenceNode="401"/>
+		<speedIndicator nodeID="153" name="SPEED" kilometre="2.049" x="-23454.378" y="-467474.52" xNet="-3032289" yNet="9040697.2" referenceNode="142"/>
+		<kilometreInconsistency newKilometre="144.027" nodeID="164" name="C.O.K" kilometre="2.340" x="-21264.378" y="-467752.87" xNet="-3029926.3" yNet="9040309.9" referenceNode="147"/>
+		<kilometreInconsistency newKilometre="144.027" nodeID="165" name="C.O.K" kilometre="2.340" x="-21264.378" y="-468070.52" xNet="-3030093.1" yNet="9040051.1" referenceNode="510"/>
+		<node nodeID="306" name="TC" kilometre="1.910" x="-24263.995" y="-467670.52" xNet="-3033099" yNet="9040501.2" referenceNode="514" releaseContact="true" arranged="true"/>
+		<track trackID="U-1" stationID="MOSENDE" interlockingMachine="4 Aspect IECC (101mph - 125mph)" nodeID="88" name="SIG: M338" kilometre="5.668" x="-48775.378" y="-467456.52" xNet="-3048419" yNet="9040701.2" referenceNode="232"/>
+		<node nodeID="119" kilometre="5.619" x="-49265.008" y="-467456.52" xNet="-3048908.6" yNet="9040701.2">
+			<netLimitInfo lineID="sc011"/>
+		</node>
+		<track trackID="U-3" stationID="MOSENDE" interlockingMachine="4 Aspect IECC (Below 75mph)" nodeID="713" name="SIG : M336" description="Signal M336" kilometre="5.873" x="-45472.078" y="-467056.52" xNet="-3046369" yNet="9041101.2" referenceNode="231"/>
+		<node nodeID="719" kilometre="0.449" x="-49883.04" y="-467858.47" xNet="-3047304.8" yNet="9040187.7">
+			<netLimitInfo lineID="sc017"/>
+		</node>
+		<track trackID="U-5" stationID="MOSENDE" interlockingMachine="4 Aspect Pannel (Below 75mph)" nodeID="705" name="SIG : M342" description="Signal M342" kilometre="0.466" x="-49594.992" y="-467858.47" xNet="-3047169.4" yNet="9040225.6" referenceNode="230"/>
+		<track trackID="D-2" stationID="MOSENDE" interlockingMachine="4 Aspect Pannel (101mph - 125mph)" nodeID="122" name="SIG: M343" kilometre="0.856" x="-41299.078" y="-467656.52" xNet="-3043639" yNet="9040501.2" referenceNode="229"/>
+		<node nodeID="189" kilometre="143.865" x="-14612.7" y="-468070.52" xNet="-3025577" yNet="9034244">
+			<netLimitInfo lineID="sc011"/>
+		</node>
+		<node nodeID="190" kilometre="143.869" x="-14649.46" y="-467870.52" xNet="-3025404.1" yNet="9034469.2">
+			<netLimitInfo lineID="sc011"/>
+		</node>
+		<track trackID="U-2" stationID="MOSENDE" type="shunting" interlockingMachine="Shunt" nodeID="6" name="SHUNT: M330" kilometre="5.844" x="-45915.078" y="-467656.52" xNet="-3046659" yNet="9040501.2" referenceNode="228"/>
+		<track trackID="U-4" stationID="MOSENDE" type="shunting" interlockingMachine="Shunt" nodeID="127" name="SHUNT: M328" kilometre="5.850" x="-45824.078" y="-467256.52" xNet="-3046599" yNet="9040901.2" referenceNode="227"/>
+		<track trackID="D-6" stationID="MOSENDE" type="shunting" interlockingMachine="Shunt" nodeID="128" name="SHUNT: M345" kilometre="0.968" x="-39584.078" y="-467456.52" xNet="-3042517" yNet="9040701.2" referenceNode="226"/>
+		<stationBorder exitType="alternative" stationID="HOLYTNJ" lineID="sc011" trackNumber="1" nodeID="81" name="[WISHAWC] - [sc011/1]" kilometre="143.894" x="-14907.935" y="-468070.52" xNet="-3025819.1" yNet="9034577.2" referenceNode="165"/>
+		<stationBorder exitType="regular" stationID="HOLYTNJ" lineID="sc011" trackNumber="2" nodeID="78" name="[WISHAWC] - [sc011/2]" kilometre="144.026" x="-16645.814" y="-467870.52" xNet="-3027050.1" yNet="9036715.4" referenceNode="164"/>
+		<stationBorder exitType="alternative" stationID="MOSENDE" lineID="sc011" trackNumber="1" nodeID="232" name="[MOSENDW] - [sc011/1]" kilometre="5.653" x="-48922.267" y="-467456.52" xNet="-3048565.9" yNet="9040701.2" referenceNode="88"/>
+		<stationBorder exitType="regular" stationID="MOSENDE" lineID="sc015" trackNumber="2" nodeID="231" name="[MOSENDN] - [sc093/2]" kilometre="5.860" x="-45669.178" y="-467056.52" xNet="-3046498" yNet="9041101.2" referenceNode="713"/>
+		<stationBorder exitType="alternative" stationID="MOSENDE" lineID="sc017" trackNumber="1" nodeID="230" name="[MOSENDS] - [sc093/2]" kilometre="0.461" x="-49714.137" y="-467859.66" xNet="-3047210" yNet="9040214.2" referenceNode="705"/>
+		<stationBorder exitType="alternative" stationID="MOSENDE" lineID="sc011" trackNumber="1" nodeID="229" name="[HOLYTWN] - [sc011/1]" kilometre="0.917" x="-40368.478" y="-467656.52" xNet="-3043030" yNet="9040501.2" referenceNode="122"/>
+		<stationBorder exitType="regular" stationID="MOSENDE" lineID="sc011" trackNumber="2" nodeID="228" name="[MOSENDW] - [sc011/2]" kilometre="5.792" x="-46704.078" y="-467656.52" xNet="-3047175" yNet="9040501.2" referenceNode="6"/>
+		<stationBorder exitType="regular" stationID="MOSENDE" lineID="sc015" trackNumber="1" nodeID="227" name="[MOSENDN] - [sc093/1]" kilometre="5.844" x="-45915.578" y="-467256.52" xNet="-3046659" yNet="9040901.2" referenceNode="127"/>
+		<stationBorder exitType="regular" stationID="MOSENDE" lineID="sc011" trackNumber="2" nodeID="226" name="[HOLYTWN] - [sc011/2]" kilometre="1.013" x="-38892.278" y="-467456.52" xNet="-3042064.3" yNet="9040701.2" referenceNode="128"/>
+		<stationBorder exitType="regular" stationID="MOSENDE" lineID="sc017" trackNumber="2" nodeID="225" name="[MOSENDS] - [sc093/1]" kilometre="6.032" x="-43046.578" y="-467657.72" xNet="-3044782" yNet="9040500" referenceNode="96"/>
+		<stationBorder exitType="regular" stationID="HOLYTWN" lineID="sc011" trackNumber="1" nodeID="234" name="[MOSENDE] - [sc011/1]" kilometre="1.498" x="-31489.478" y="-467656.52" xNet="-3037221" yNet="9040501.2" referenceNode="513"/>
+		<stationBorder exitType="regular" stationID="HOLYTWN" lineID="sc011" trackNumber="2" nodeID="246" kilometre="1.877" x="-25694.267" y="-467456.52" xNet="-3033429.5" yNet="9040701.2" referenceNode="30"/>
+		<stationBorder exitType="alternative" stationID="HOLYTNJ" lineID="sc011" trackNumber="2" nodeID="248" kilometre="1.896" x="-25402.715" y="-467456.52" xNet="-3033238.8" yNet="9040701.2" referenceNode="77"/>
+		<stationBorder exitType="regular" stationID="HOLYTNJ" lineID="sc011" trackNumber="1" nodeID="235" kilometre="1.895" x="-24409.286" y="-467670.52" xNet="-3033244.2" yNet="9040501.2" referenceNode="306"/>
+		<stationBorder exitType="regular" stationID="HOLYTNJ" lineID="sc007" trackNumber="2" nodeID="334" kilometre="2.344" x="-21011.56" y="-467470.52" xNet="-3029846.2" yNet="9040701.2" referenceNode="159">
+			<netLimitInfo lineID="sc007"/>
+		</stationBorder>
+		<stationBorder exitType="alternative" stationID="HOLYTNJ" lineID="sc007" trackNumber="1" nodeID="542" kilometre="2.344" x="-21104.151" y="-467670.52" xNet="-3029857.3" yNet="9040501.3" referenceNode="147">
+			<netLimitInfo lineID="sc007"/>
+		</stationBorder>
+		<node nodeID="368" name="OL: M347" description="AV" kilometre="2.002" x="-24151.1794184397" y="-467463.56964539" xNet="-3032581.83687943" yNet="9040701.2">
+			<textElement type="name">
+				<pos view="net" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="wgs84" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="line" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="macro" x="55.47" y="83.205" angle="0" system="source"/>
+			</textElement>
+			<textElement type="kilo">
+				<pos view="net" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="wgs84" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="line" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="macro" x="49.9756" y="-62.4695" angle="0" system="source"/>
+			</textElement>
+		</node>
+		<node nodeID="77" name="OL:M494" kilometre="1.982" x="-24353.1226808511" y="-467461.583829787" xNet="-3032668.36170213" yNet="9040701.2">
+			<textElement type="name">
+				<pos view="net" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="wgs84" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="line" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="macro" x="55.47" y="83.205" angle="0" system="source"/>
+			</textElement>
+			<textElement type="kilo">
+				<pos view="net" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="wgs84" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="line" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="macro" x="49.9756" y="-62.4695" angle="0" system="source"/>
+			</textElement>
+		</node>
+		<node nodeID="255" name="SD: M494" kilometre="1.569" x="-30400.84" y="-467456.52" xNet="-3036508.718" yNet="9040701.2" referenceNode="1" sightingDistance="true">
+			<textElement type="name">
+				<pos view="net" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="wgs84" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="line" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="macro" x="55.47" y="83.205" angle="0" system="source"/>
+			</textElement>
+			<textElement type="kilo">
+				<pos view="net" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="wgs84" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="line" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="macro" x="49.9756" y="-62.4695" angle="0" system="source"/>
+			</textElement>
+		</node>
+		<stationBorder exitType="alternative" stationID="HOLYTWN" lineID="sc011" trackNumber="2" nodeID="315" kilometre="1.791" x="-27002.6440571429" y="-467456.52" xNet="-3034285.36804181" yNet="9040701.2" referenceNode="24">
+			<textElement type="name">
+				<pos view="net" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="wgs84" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="line" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="macro" x="55.47" y="83.205" angle="0" system="source"/>
+			</textElement>
+			<textElement type="kilo">
+				<pos view="net" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="wgs84" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="line" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="macro" x="49.9756" y="-62.4695" angle="0" system="source"/>
+			</textElement>
+		</stationBorder>
+		<track trackID="U-2" stationID="HOLYTWN" interlockingMachine="4 Aspect IECC (Below 75mph)" nodeID="24" name="SIG:GMH494" kilometre="1.802" x="-26837.678" y="-467456.52" xNet="-3034177.46341463" yNet="9040701.2" referenceNode="315">
+			<textElement type="name">
+				<pos view="net" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="wgs84" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="line" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="macro" x="55.47" y="83.205" angle="0" system="source"/>
+			</textElement>
+			<textElement type="kilo">
+				<pos view="net" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="wgs84" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="line" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="macro" x="49.9756" y="-62.4695" angle="0" system="source"/>
+			</textElement>
+			<platform startPos="-1200" endPos="0" width="150" left="true" open="true"/>
+		</track>
+		<node nodeID="159" name="GRAD" kilometre="2.135" x="-22868.8518088235" y="-467470.52" xNet="-3031744.92647059" yNet="9040701.15588235">
+			<textElement type="name">
+				<pos view="net" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="wgs84" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="line" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="macro" x="55.47" y="83.205" angle="0" system="source"/>
+			</textElement>
+			<textElement type="kilo">
+				<pos view="net" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="wgs84" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="line" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="macro" x="49.9756" y="-62.4695" angle="0" system="source"/>
+			</textElement>
+		</node>
+		<node nodeID="160" name="GRAD" kilometre="2.135" x="-22789.2847794118" y="-467522.272941176" xNet="-3031665.42647059" yNet="9040649.71470588">
+			<textElement type="name">
+				<pos view="net" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="wgs84" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="line" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="macro" x="55.47" y="83.205" angle="0" system="source"/>
+			</textElement>
+			<textElement type="kilo">
+				<pos view="net" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="wgs84" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="line" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="macro" x="49.9756" y="-62.4695" angle="0" system="source"/>
+			</textElement>
+		</node>
+		<node nodeID="601" kilometre="2.120" x="-23021.0972" y="-467670.52" xNet="-3031855.72" yNet="9040501.2">
+			<textElement type="name">
+				<pos view="net" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="wgs84" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="line" x="55.47" y="83.205" angle="0" system="source"/>
+				<pos view="macro" x="55.47" y="83.205" angle="0" system="source"/>
+			</textElement>
+			<textElement type="kilo">
+				<pos view="net" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="wgs84" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="line" x="49.9756" y="-62.4695" angle="0" system="source"/>
+				<pos view="macro" x="49.9756" y="-62.4695" angle="0" system="source"/>
+			</textElement>
+		</node>
+		<node nodeID="82" name="GRAD" kilometre="5.745" x="-47545.5168297872" y="-467456.52" xNet="-3047649" yNet="9040701.2"/>
+		<node nodeID="85" name="GRAD" kilometre="5.745" x="-47425.1363333333" y="-467656.52" xNet="-3047646.56666667" yNet="9040501.2"/>
+		<node nodeID="369" kilometre="1.673" x="-28811.512" y="-467456.52" xNet="-3035468.926" yNet="9040701.2"/>
+		<node nodeID="19" kilometre="1.673" x="-28908.4113333333" y="-467656.52" xNet="-3035532.33333333" yNet="9040501.2"/>
+		<node nodeID="375" kilometre="2.027" x="-23726.8110434783" y="-467670.52" xNet="-3032561.43478261" yNet="9040501.2"/>
+		<node nodeID="400" kilometre="2.027" x="-23898.7503404255" y="-467466.051914894" xNet="-3032473.68085106" yNet="9040701.2"/>
+		<node nodeID="401" kilometre="2.020" x="-23700.6694510965" y="-467573.036580439" xNet="-3032535.2914511" yNet="9040598.68341956" referenceNode="152" releaseContact="true" arranged="true"/>
+		<node nodeID="506" kilometre="2.020" x="-23693.4255848877" y="-467570.139033955" xNet="-3032528.04758489" yNet="9040601.58096604" referenceNode="153" releaseContact="true" arranged="true"/>
+		<track trackID="T-2" stationID="HOLYTWN" type="timingPoint" nodeID="29" kilometre="1.811" x="-26700.46868" y="-467456.52" xNet="-3034087.70780487" yNet="9040701.2" referenceNode="24"/>
+		<track trackID="T-1" stationID="MOSENDE" type="timingPoint" nodeID="139" kilometre="6.096" x="-42060.678" y="-467456.52" xNet="-3044137" yNet="9040701.2" referenceNode="93"/>
+		<track trackID="T-2" stationID="MOSENDE" type="timingPoint" nodeID="140" kilometre="6.096" x="-42063.878" y="-467656.52" xNet="-3044139" yNet="9040501.2" referenceNode="94"/>
+		<stationBorder exitType="regular" stationID="HOLYTWN" lineID="sc011" trackNumber="1" nodeID="508" kilometre="1.837" x="-25114.7270501033" y="-467670.52" xNet="-3033949.45796393" yNet="9040501.2" referenceNode="509"/>
+		<speedIndicator nodeID="116" name="SPEED" kilometre="5.926" x="-44662.078" y="-467653.52" xNet="-3045839" yNet="9040504.2" referenceNode="294"/>
+		<node nodeID="30" name="GRAD" kilometre="1.828" x="-26441.29552" y="-467456.52" xNet="-3033918.16943089" yNet="9040701.2"/>
+		<node nodeID="509" name="GRAD" kilometre="1.828" x="-25222.3016543479" y="-467670.52" xNet="-3034057.00464887" yNet="9040501.2"/>
+		<node nodeID="510" name="GRAD" kilometre="2.135" x="-22956.1255728155" y="-467672.461747573" xNet="-3031790.71893204" yNet="9040499.01504854"/>
+		<node nodeID="511" name="GRAD" kilometre="2.135" x="-22957.9338461027" y="-467670.52" xNet="-3031792.59140006" yNet="9040501.20355539"/>
+		<signal interlockingMachine="4 Aspect IECC (Below 75mph)" nodeID="340" name="SIG:GMH498" kilometre="1.802" x="-25534.378" y="-467670.52" xNet="-3034369" yNet="9040501.2" referenceNode="136"/>
+		<node nodeID="513" name="SD:GMH498" kilometre="1.570" x="-30593.8265148515" y="-467656.52" xNet="-3036635.01980198" yNet="9040501.2" referenceNode="234" sightingDistance="true"/>
+		<node nodeID="514" name="OL:GMH498" kilometre="1.982" x="-24016.5495806452" y="-467670.52" xNet="-3032851.25806452" yNet="9040501.2"/>
+		<node nodeID="518" name="RC" kilometre="2.173" x="-22491.8194775557" y="-467556.86241612" xNet="-3031360.14024785" yNet="9040615.24944122" referenceNode="160" releaseContact="true" arranged="true"/>
+		<node nodeID="519" name="RC" kilometre="2.173" x="-22625.4785603336" y="-467670.52" xNet="-3031461.97035035" yNet="9040501.386979" referenceNode="146" releaseContact="true" arranged="false"/>
+		<track trackID="T-1" stationID="HOLYTWN" type="timingPoint" nodeID="372" kilometre="1.811" x="-25422.6474404671" y="-467670.52" xNet="-3034257.29843838" yNet="9040501.2" referenceNode="340"/>
+		<track trackID="T-2" stationID="HOLYTNJ" type="timingPoint" nodeID="167" kilometre="2.131" x="-23193.19195029" y="-467470.52" xNet="-3031782.44387295" yNet="9040698.34574011" referenceNode="143"/>
+		<track trackID="T-3" stationID="HOLYTNJ" type="timingPoint" nodeID="169" kilometre="2.131" x="-23184.2266512013" y="-467476.351317316" xNet="-3031720.1898479" yNet="9040657.55862024" referenceNode="143"/>
+		<track trackID="D-1" stationID="HOLYTNJ" type="stopBoard" nodeID="614" kilometre="2.070" x="-23318.873" y="-467670.52" xNet="-3032300" yNet="9040500" referenceNode="615"/>
+		<node nodeID="615" kilometre="2.100" x="-23145.17045" y="-467670.52" xNet="-3031979.795" yNet="9040501.2" referenceNode="601" releaseContact="true" arranged="true"/>
+		<node nodeID="170" kilometre="143.903" x="-15781.151121019" y="-467870.52" xNet="-3026337.18280255" yNet="9035742.52356688" referenceNode="78" releaseContact="true" arranged="true"/>
+		<track trackID="T-1" stationID="HOLYTNJ" type="timingPoint" nodeID="616" kilometre="2.131" x="-22976.5321142857" y="-467670.52" xNet="-3031811.15428571" yNet="9040501.2" referenceNode="601"/>
+	</nodes>
+	<links>
+		<link source="1" target="255" length="359" gradient="11.628" vmax="105" vmaxr="105" owner="2018 01-03" buildingActivityNetworkSegment="Shotts"/>
+		<link source="2" target="100" length="41" gradient="11.628" vmax="105" vmaxr="105" owner="2018 01-03" buildingActivityNetworkSegment="Shotts"/>
+		<link source="3" target="122" length="41" gradient="11.628" vmax="105" vmaxr="105" owner="2018 01-03" buildingActivityNetworkSegment="Shotts"/>
+		<link source="4" target="131" length="101" gradient="11.628" vmax="105" vmaxr="105" owner="2018 01-03" buildingActivityNetworkSegment="Shotts"/>
+		<link source="5" target="234" length="192" gradient="11.628" vmax="105" vmaxr="105" owner="2018 01-03" buildingActivityNetworkSegment="Shotts"/>
+		<link source="6" target="99" length="75" gradient="11.628" vmax="105" vmaxr="105" owner="2018 01-03" buildingActivityNetworkSegment="Shotts"/>
+		<link source="7" target="104" length="50" gradient="11.628" vmax="40" vmaxr="40" owner="2018 01-03" buildingActivityNetworkSegment="Shotts"/>
+		<link source="8" target="106" length="100" gradient="11.628" vmax="40" vmaxr="40" owner="2018 01-03" buildingActivityNetworkSegment="Shotts"/>
+		<link source="9" target="315" length="81" gradient="11.628" vmax="105" vmaxr="105" owner="2018 01-03" buildingActivityNetworkSegment="Shotts"/>
+		<link source="10" target="136" length="92" gradient="11.628" vmax="105" vmaxr="105" owner="2018 01-03" buildingActivityNetworkSegment="Shotts"/>
+		<link source="14" target="19" length="74" gradient="11.628" vmax="105" vmaxr="105" owner="2018 01-03" buildingActivityNetworkSegment="Shotts"/>
+		<link source="19" target="10" length="37" gradient="11.628" vmax="105" vmaxr="105" owner="2018 01-03" buildingActivityNetworkSegment="Shotts"/>
+		<link source="24" target="29" length="9" gradient="11.628" vmax="105" vmaxr="105" owner="2018 01-03" buildingActivityNetworkSegment="Shotts"/>
+		<link source="29" target="30" length="17" gradient="11.628" vmax="105" vmaxr="105" owner="2018 01-03" buildingActivityNetworkSegment="Shotts"/>
+		<link source="30" target="246" length="49" gradient="10.753" vmax="105" vmaxr="105" owner="2018 01-03" buildingActivityNetworkSegment="Shotts"/>
+		<link source="64" target="82" length="73" gradient="3.497" vmax="105" vmaxr="105" owner="2018 01-03" buildingActivityNetworkSegment="Shotts"/>
+		<link source="65" target="85" length="73" gradient="3.497" vmax="105" vmaxr="105" owner="2018 01-03" buildingActivityNetworkSegment="Shotts"/>
+		<link source="77" target="368" length="20" gradient="10.753" vmax="105" vmaxr="105" owner="2018 01-03" buildingActivityNetworkSegment="Shotts"/>
+		<link source="78" target="170" length="123" gradient="8.547" vmax="105" vmaxr="105" owner="2018 01-03" buildingActivityNetworkSegment="Shotts"/>
+		<link source="81" target="189" length="29" gradient="8.547" vmax="105" vmaxr="105" owner="2018 01-03" buildingActivityNetworkSegment="Shotts"/>
+		<link source="82" target="2" length="115" gradient="11.628" vmax="105" vmaxr="105" owner="2018 01-03" buildingActivityNetworkSegment="Shotts"/>
+		<link source="85" target="228" length="47" gradient="11.628" vmax="105" vmaxr="105" owner="2018 01-03" buildingActivityNetworkSegment="Shotts"/>
+		<link source="88" target="64" length="4" gradient="3.497" vmax="105" vmaxr="105" owner="2018 01-03" buildingActivityNetworkSegment="Shotts"/>
+		<link source="93" target="139" length="1" gradient="11.628" vmax="105" vmaxr="105" owner="2018 01-03" buildingActivityNetworkSegment="Shotts"/>
+		<link source="94" target="140" length="1" gradient="11.628" vmax="105" vmaxr="105" owner="2018 01-03" buildingActivityNetworkSegment="Shotts"/>
+		<link source="95" target="112" length="1" gradient="11.628" vmax="105" vmaxr="105" owner="2018 01-03" buildingActivityNetworkSegment="Shotts"/>
+		<link source="95" target="296" length="33" gradient="11.628" vmax="105" vmaxr="105" owner="2018 01-03" buildingActivityNetworkSegment="Shotts"/>
+		<link source="96" target="291" length="28" gradient="11.628" vmax="105" vmaxr="105" owner="2018 01-03" buildingActivityNetworkSegment="Shotts"/>
+		<link source="97" target="95" length="8" gradient="11.628" vmax="105" vmaxr="105" owner="2018 01-03" buildingActivityNetworkSegment="Shotts"/>
+		<link source="98" target="116" length="1" gradient="11.628" vmax="105" vmaxr="105" owner="2018 01-03" buildingActivityNetworkSegment="Shotts"/>
+		<link source="98" target="293" length="54" gradient="11.628" vmax="105" vmaxr="105" owner="2018 01-03" buildingActivityNetworkSegment="Shotts"/>
+		<link source="99" target="98" length="6" gradient="11.628" vmax="105" vmaxr="105" owner="2018 01-03" buildingActivityNetworkSegment="Shotts"/>
+		<link source="100" target="288" length="19" gradient="11.628" vmax="105" vmaxr="105" owner="2018 01-03" buildingActivityNetworkSegment="Shotts"/>
+		<link source="101" target="227" length="14" gradient="11.628" vmax="64" vmaxr="64" owner="2018 01-03" buildingActivityNetworkSegment="Shotts"/>
+		<link source="102" target="285" length="13" gradient="11.628" vmax="64" vmaxr="64" owner="2018 01-03" buildingActivityNetworkSegment="Shotts"/>
+		<link source="104" target="299" length="29" gradient="11.628" vmax="40" vmaxr="40" owner="2018 01-03" buildingActivityNetworkSegment="Shotts"/>
+		<link source="106" target="292" length="50" gradient="11.628" vmax="40" vmaxr="40" owner="2018 01-03" buildingActivityNetworkSegment="Shotts"/>
+		<link source="107" target="231" length="30" gradient="11.628" vmax="64" vmaxr="64" owner="2018 01-03" buildingActivityNetworkSegment="Shotts"/>
+		<link source="108" target="297" length="99" gradient="11.628" vmax="64" vmaxr="64" owner="2018 01-03" buildingActivityNetworkSegment="Shotts"/>
+		<link source="109" target="93" length="1" gradient="11.628" vmax="105" vmaxr="105" owner="2018 01-03" buildingActivityNetworkSegment="Shotts"/>
+		<link source="110" target="94" length="1" gradient="11.628" vmax="105" vmaxr="105" owner="2018 01-03" buildingActivityNetworkSegment="Shotts"/>
+		<link source="111" target="225" length="1" gradient="11.628" vmax="105" vmaxr="105" owner="2018 01-03" buildingActivityNetworkSegment="Shotts"/>
+		<link source="112" target="125" length="23" gradient="11.628" vmax="64" vmaxr="64" owner="2018 01-03" buildingActivityNetworkSegment="Shotts"/>
+		<link source="113" target="97" length="1" gradient="11.628" vmax="105" vmaxr="105" owner="2018 01-03" buildingActivityNetworkSegment="Shotts"/>
+		<link source="114" target="100" length="1" gradient="11.628" vmax="105" vmaxr="105" owner="2018 01-03" buildingActivityNetworkSegment="Shotts"/>
+		<link source="115" target="99" length="1" gradient="11.628" vmax="105" vmaxr="105" owner="2018 01-03" buildingActivityNetworkSegment="Shotts"/>
+		<link source="116" target="294" length="35" gradient="11.628" vmax="40" vmaxr="40" owner="2018 01-03" buildingActivityNetworkSegment="Shotts"/>
+		<link source="117" target="4" length="5" gradient="11.628" vmax="105" vmaxr="105" owner="2018 01-03" buildingActivityNetworkSegment="Shotts"/>
+		<link source="118" target="3" length="5" gradient="11.628" vmax="105" vmaxr="105" owner="2018 01-03" buildingActivityNetworkSegment="Shotts"/>
+		<link source="119" target="232" length="34" gradient="3.497" vmax="105" vmaxr="105" owner="2018 01-03" buildingActivityNetworkSegment="Shotts"/>
+		<link source="122" target="229" length="61" gradient="11.628" vmax="105" vmaxr="105" owner="2018 01-03" buildingActivityNetworkSegment="Shotts"/>
+		<link source="123" target="96" length="36" gradient="11.628" vmax="105" vmaxr="105" owner="2018 01-03" buildingActivityNetworkSegment="Shotts"/>
+		<link source="124" target="111" length="47" gradient="11.628" vmax="40" vmaxr="40" owner="2018 01-03" buildingActivityNetworkSegment="Shotts"/>
+		<link source="125" target="290" length="24" gradient="11.628" vmax="64" vmaxr="64" owner="2018 01-03" buildingActivityNetworkSegment="Shotts"/>
+		<link source="126" target="5" length="247" gradient="11.628" vmax="105" vmaxr="105" owner="2018 01-03" buildingActivityNetworkSegment="Shotts"/>
+		<link source="127" target="287" length="10" gradient="11.628" vmax="64" vmaxr="64" owner="2018 01-03" buildingActivityNetworkSegment="Shotts"/>
+		<link source="128" target="226" length="45" gradient="11.628" vmax="105" vmaxr="105" owner="2018 01-03" buildingActivityNetworkSegment="Shotts"/>
+		<link source="129" target="1" length="91" gradient="11.628" vmax="105" vmaxr="105" owner="2018 01-03" buildingActivityNetworkSegment="Shotts"/>
+		<link source="131" target="128" length="52" gradient="11.628" vmax="105" vmaxr="105" owner="2018 01-03" buildingActivityNetworkSegment="Shotts"/>
+		<link source="136" target="340" gradient="11.628" vmax="105" vmaxr="105" owner="2018 01-03" buildingActivityNetworkSegment="Shotts"/>
+		<link source="139" target="117" length="4" gradient="11.628" vmax="105" vmaxr="105" owner="2018 01-03" buildingActivityNetworkSegment="Shotts"/>
+		<link source="140" target="118" length="4" gradient="11.628" vmax="105" vmaxr="105" owner="2018 01-03" buildingActivityNetworkSegment="Shotts"/>
+		<link source="141" target="152" length="1" gradient="10.753" vmax="105" vmaxr="105" owner="2018 01-03" buildingActivityNetworkSegment="Shotts"/>
+		<link source="141" target="375" length="38" gradient="10.753" vmax="105" vmaxr="105" owner="2018 01-03" buildingActivityNetworkSegment="Shotts"/>
+		<link source="142" target="143" length="14" gradient="10.753" vmax="105" vmaxr="105" owner="2018 01-03" buildingActivityNetworkSegment="Shotts"/>
+		<link source="143" target="167" length="8" gradient="10.753" vmax="105" vmaxr="105" owner="2018 01-03" buildingActivityNetworkSegment="Shotts"/>
+		<link source="143" target="169" length="8" gradient="10.753" vmax="105" vmaxr="105" owner="2018 01-03" buildingActivityNetworkSegment="Shotts"/>
+		<link source="144" target="510" length="1" gradient="10.753" vmax="105" vmaxr="105" owner="2018 01-03" buildingActivityNetworkSegment="Shotts"/>
+		<link source="144" target="511" length="1" gradient="10.753" vmax="105" vmaxr="105" owner="2018 01-03" buildingActivityNetworkSegment="Shotts"/>
+		<link source="146" target="147" length="29" gradient="9.346" vmax="105" vmaxr="105" owner="2018 01-03" buildingActivityNetworkSegment="Shotts"/>
+		<link source="147" target="164" length="11" gradient="8.547" vmax="105" vmaxr="105" owner="2018 01-03" buildingActivityNetworkSegment="Shotts"/>
+		<link source="147" target="542" length="15" gradient="9.346" vmax="105" vmaxr="105" owner="2018 01-03" buildingActivityNetworkSegment="Shotts"/>
+		<link source="152" target="401" length="30" gradient="10.753" vmax="24" vmaxr="24" owner="2018 01-03" buildingActivityNetworkSegment="Shotts"/>
+		<link source="153" target="142" length="1" gradient="10.753" vmax="105" vmaxr="105" owner="2018 01-03" buildingActivityNetworkSegment="Shotts"/>
+		<link source="159" target="334" length="209" gradient="9.346" vmax="105" vmaxr="105" owner="2018 01-03" buildingActivityNetworkSegment="Shotts"/>
+		<link source="160" target="518" length="38" gradient="8.547" vmax="105" vmaxr="105" owner="2018 01-03" buildingActivityNetworkSegment="Shotts"/>
+		<link source="164" target="78" length="1" gradient="8.547" vmax="105" vmaxr="105" owner="2018 01-03" buildingActivityNetworkSegment="Shotts"/>
+		<link source="165" target="81" length="133" gradient="8.547" vmax="105" vmaxr="105" owner="2018 01-03" buildingActivityNetworkSegment="Shotts"/>
+		<link source="167" target="159" length="63" gradient="10.753" vmax="105" vmaxr="105" owner="2018 01-03" buildingActivityNetworkSegment="Shotts"/>
+		<link source="169" target="160" length="63" gradient="10.753" vmax="105" vmaxr="105" owner="2018 01-03" buildingActivityNetworkSegment="Shotts"/>
+		<link source="170" target="190" length="34" gradient="8.547" vmax="105" vmaxr="105" owner="2018 01-03" buildingActivityNetworkSegment="Shotts"/>
+		<link source="225" target="96" gradient="11.628" vmax="105" vmaxr="105" owner="2018 01-03" buildingActivityNetworkSegment="Shotts"/>
+		<link source="226" target="129" length="106" gradient="11.628" vmax="105" vmaxr="105" owner="2018 01-03" buildingActivityNetworkSegment="Shotts"/>
+		<link source="227" target="127" length="6" gradient="11.628" vmax="64" vmaxr="64" owner="2018 01-03" buildingActivityNetworkSegment="Shotts"/>
+		<link source="228" target="6" length="52" gradient="11.628" vmax="105" vmaxr="105" owner="2018 01-03" buildingActivityNetworkSegment="Shotts"/>
+		<link source="229" target="126" length="142" gradient="11.628" vmax="105" vmaxr="105" owner="2018 01-03" buildingActivityNetworkSegment="Shotts"/>
+		<link source="230" target="705" length="5" gradient="11.628" vmax="40" vmaxr="40" owner="2018 01-03" buildingActivityNetworkSegment="Shotts"/>
+		<link source="231" target="713" length="13" gradient="11.628" vmax="64" vmaxr="64" owner="2018 01-03" buildingActivityNetworkSegment="Shotts"/>
+		<link source="232" target="88" length="15" gradient="3.497" vmax="105" vmaxr="105" owner="2018 01-03" buildingActivityNetworkSegment="Shotts"/>
+		<link source="234" target="513" length="72" gradient="11.628" vmax="105" vmaxr="105" owner="2018 01-03" buildingActivityNetworkSegment="Shotts"/>
+		<link source="235" target="306" length="15" gradient="10.753" vmax="105" vmaxr="105" owner="2018 01-03" buildingActivityNetworkSegment="Shotts"/>
+		<link source="246" target="248" length="19" gradient="10.753" vmax="105" vmaxr="105" owner="2018 01-03" buildingActivityNetworkSegment="Shotts"/>
+		<link source="248" target="77" length="86" gradient="10.753" vmax="105" vmaxr="105" owner="2018 01-03" buildingActivityNetworkSegment="Shotts"/>
+		<link source="255" target="369" length="104" gradient="11.628" vmax="105" vmaxr="105" owner="2018 01-03" buildingActivityNetworkSegment="Shotts"/>
+		<link source="285" target="286" length="1" gradient="11.628" vmax="64" vmaxr="64" owner="2018 01-03" buildingActivityNetworkSegment="Shotts"/>
+		<link source="286" target="114" length="16" gradient="11.628" vmax="64" vmaxr="64" owner="2018 01-03" buildingActivityNetworkSegment="Shotts"/>
+		<link source="287" target="102" length="10" gradient="11.628" vmax="64" vmaxr="64" owner="2018 01-03" buildingActivityNetworkSegment="Shotts"/>
+		<link source="288" target="97" length="79" gradient="11.628" vmax="105" vmaxr="105" owner="2018 01-03" buildingActivityNetworkSegment="Shotts"/>
+		<link source="289" target="110" length="38" gradient="11.628" vmax="64" vmaxr="64" owner="2018 01-03" buildingActivityNetworkSegment="Shotts"/>
+		<link source="290" target="289" length="1" gradient="11.628" vmax="64" vmaxr="64" owner="2018 01-03" buildingActivityNetworkSegment="Shotts"/>
+		<link source="291" target="94" length="35" gradient="11.628" vmax="105" vmaxr="105" owner="2018 01-03" buildingActivityNetworkSegment="Shotts"/>
+		<link source="292" target="124" length="14" gradient="11.628" vmax="40" vmaxr="40" owner="2018 01-03" buildingActivityNetworkSegment="Shotts"/>
+		<link source="293" target="123" length="17" gradient="11.628" vmax="105" vmaxr="105" owner="2018 01-03" buildingActivityNetworkSegment="Shotts"/>
+		<link source="294" target="295" length="1" gradient="11.628" vmax="40" vmaxr="40" owner="2018 01-03" buildingActivityNetworkSegment="Shotts"/>
+		<link source="295" target="113" length="36" gradient="11.628" vmax="40" vmaxr="40" owner="2018 01-03" buildingActivityNetworkSegment="Shotts"/>
+		<link source="296" target="93" length="55" gradient="11.628" vmax="105" vmaxr="105" owner="2018 01-03" buildingActivityNetworkSegment="Shotts"/>
+		<link source="297" target="298" length="1" gradient="11.628" vmax="64" vmaxr="64" owner="2018 01-03" buildingActivityNetworkSegment="Shotts"/>
+		<link source="298" target="714" length="54" gradient="11.628" vmax="64" vmaxr="64" owner="2018 01-03" buildingActivityNetworkSegment="Shotts"/>
+		<link source="299" target="115" length="19" gradient="11.628" vmax="40" vmaxr="40" owner="2018 01-03" buildingActivityNetworkSegment="Shotts"/>
+		<link source="306" target="514" length="72" gradient="10.753" vmax="105" vmaxr="105" owner="2018 01-03" buildingActivityNetworkSegment="Shotts"/>
+		<link source="315" target="24" length="11" gradient="11.628" vmax="105" vmaxr="105" owner="2018 01-03" buildingActivityNetworkSegment="Shotts"/>
+		<link source="340" target="372" length="9" gradient="11.628" vmax="105" vmaxr="105" owner="2018 01-03" buildingActivityNetworkSegment="Shotts"/>
+		<link source="368" target="400" length="25" gradient="10.753" vmax="105" vmaxr="105" owner="2018 01-03" buildingActivityNetworkSegment="Shotts"/>
+		<link source="369" target="9" length="37" gradient="11.628" vmax="105" vmaxr="105" owner="2018 01-03" buildingActivityNetworkSegment="Shotts"/>
+		<link source="372" target="509" length="17" gradient="11.628" vmax="105" vmaxr="105" owner="2018 01-03" buildingActivityNetworkSegment="Shotts"/>
+		<link source="375" target="614" length="43" gradient="10.753" vmax="105" vmaxr="105" owner="2018 01-03" buildingActivityNetworkSegment="Shotts"/>
+		<link source="400" target="142" length="23" gradient="10.753" vmax="105" vmaxr="105" owner="2018 01-03" buildingActivityNetworkSegment="Shotts"/>
+		<link source="401" target="506" gradient="10.753" vmax="24" vmaxr="24" owner="2018 01-03" buildingActivityNetworkSegment="Shotts"/>
+		<link source="506" target="153" length="29" gradient="10.753" vmax="24" vmaxr="24" owner="2018 01-03" buildingActivityNetworkSegment="Shotts"/>
+		<link source="508" target="235" length="58" gradient="10.753" vmax="105" vmaxr="105" owner="2018 01-03" buildingActivityNetworkSegment="Shotts"/>
+		<link source="509" target="508" length="9" gradient="10.753" vmax="105" vmaxr="105" owner="2018 01-03" buildingActivityNetworkSegment="Shotts"/>
+		<link source="510" target="165" length="205" gradient="8.547" vmax="105" vmaxr="105" owner="2018 01-03" buildingActivityNetworkSegment="Shotts"/>
+		<link source="511" target="519" length="38" gradient="9.346" vmax="105" vmaxr="105" owner="2018 01-03" buildingActivityNetworkSegment="Shotts"/>
+		<link source="513" target="14" length="29" gradient="11.628" vmax="105" vmaxr="105" owner="2018 01-03" buildingActivityNetworkSegment="Shotts"/>
+		<link source="514" target="141" length="7" gradient="10.753" vmax="105" vmaxr="105" owner="2018 01-03" buildingActivityNetworkSegment="Shotts"/>
+		<link source="518" target="146" length="127" gradient="8.547" vmax="105" vmaxr="105" owner="2018 01-03" buildingActivityNetworkSegment="Shotts"/>
+		<link source="519" target="146" length="127" gradient="9.346" vmax="105" vmaxr="105" owner="2018 01-03" buildingActivityNetworkSegment="Shotts"/>
+		<link source="601" target="616" length="11" gradient="10.753" vmax="105" vmaxr="105" owner="2018 01-03" buildingActivityNetworkSegment="Shotts"/>
+		<link source="614" target="615" length="30" gradient="10.753" vmax="105" vmaxr="105" owner="2018 01-03" buildingActivityNetworkSegment="Shotts"/>
+		<link source="615" target="601" length="20" gradient="10.753" vmax="105" vmaxr="105" owner="2018 01-03" buildingActivityNetworkSegment="Shotts"/>
+		<link source="616" target="144" length="3" gradient="10.753" vmax="105" vmaxr="105" owner="2018 01-03" buildingActivityNetworkSegment="Shotts"/>
+		<link source="705" target="7" length="34" gradient="11.628" vmax="40" vmaxr="40" owner="2018 01-03" buildingActivityNetworkSegment="Shotts"/>
+		<link source="713" target="108" length="27" gradient="11.628" vmax="64" vmaxr="64" owner="2018 01-03" buildingActivityNetworkSegment="Shotts"/>
+		<link source="714" target="109" length="40" gradient="11.628" vmax="64" vmaxr="64" owner="2018 01-03" buildingActivityNetworkSegment="Shotts"/>
+		<link source="719" target="230" length="12" gradient="11.628" vmax="40" vmaxr="40" owner="2018 01-03" buildingActivityNetworkSegment="Shotts"/>
+	</links>
+	<dependentLinks/>
+	<blockSections>
+		<blocksection uuid="{017f6adc-cc81-4b18-a264-13dfa5e968a5}" lines="holtw monj sc015" shuntingBlock="true" speedIndicators="109">
+			<part nodes="128 131 4 117 139 93 109 714 298 297 108 713 231 107"/>
+		</blocksection>
+		<blocksection uuid="{03e6a0c7-80a8-4a85-9f5c-66641e14dbe5}" lines="holtw mosj sc017" speedIndicators="111">
+			<part nodes="122 3 118 140 94 291 96 225 111 124 292 106 8"/>
+		</blocksection>
+		<blocksection uuid="{1cafcb40-5970-4783-9c8d-de416ffec98d}" lines="holtw monj sc015">
+			<part nodes="107 231 713"/>
+		</blocksection>
+		<blocksection uuid="{20b9b611-2331-43cf-b23f-8c60c3a666fe}" lines="holtw" shuntingBlock="true" speedIndicators="114">
+			<part nodes="127 287 102 285 286 114 100 288 97 95 296 93 139 117 4 131 128 226 129"/>
+		</blocksection>
+		<blocksection uuid="{216ca3f5-c2e4-4469-8738-bc636a09ad56}" lines="holtw">
+			<part nodes="129 1 255 369 9 315 24"/>
+		</blocksection>
+		<blocksection uuid="{233cb09f-1dc1-4a0b-ab98-4c634d8e6ac8}" lines="holtw monj sc015">
+			<part nodes="107 231 713"/>
+		</blocksection>
+		<blocksection uuid="{236b6f6a-e1cd-42cc-9748-7a456431c845}" lines="belsh holtw sc011">
+			<part nodes="122 3 118 140 94 291 96 123 293 98 99 6 228 85 65"/>
+		</blocksection>
+		<blocksection uuid="{2971da68-3d89-4a54-a33f-f8e3f98a7198}" lines="holtw mosj sc017">
+			<part nodes="719 230 705"/>
+		</blocksection>
+		<blocksection uuid="{2bc99bd2-58ee-47a3-8e80-ea5606760044}" lines="holtw" shuntingBlock="true" speedIndicators="113">
+			<part nodes="6 99 98 116 294 295 113 97 95 296 93 139 117 4 131 128 226 129"/>
+		</blocksection>
+		<blocksection uuid="{355c823a-a4b5-407b-9a52-2f32bb2098c2}" lines="holtw sc011">
+			<part nodes="340 372 509 508 235 306 514 141 375 614 615 601 616 144 511 519 146 147 164 78 170 190"/>
+		</blocksection>
+		<blocksection uuid="{3da80782-5b55-4715-9855-fb8147f3a465}" lines="belsh holtw sc011" speedIndicators="110 112 113 116">
+			<part nodes="122 3 118 140 94 110 289 290 125 112 95 97 113 295 294 116 98 99 6 228 85 65"/>
+		</blocksection>
+		<blocksection uuid="{41f46fa4-b722-4983-821f-95e0d8062bd3}" lines="holtw">
+			<part nodes="88 64 82 2 100 288 97 95 112 125 290 289 110 94 140 118 3 122 229 126 5 234 513 14 19 10 136 340"/>
+		</blocksection>
+		<blocksection uuid="{4ae0c376-9f6e-45f4-9534-413843ce462f}" lines="holtw monj sc015" speedIndicators="114">
+			<part nodes="101 227 127 287 102 285 286 114 100 288 97 95 296 93 139 117 4 131 128 226 129"/>
+		</blocksection>
+		<blocksection uuid="{53ea1882-680e-4d19-8505-1c57db738b69}" lines="holtw mosj sc017">
+			<part nodes="719 230 705"/>
+		</blocksection>
+		<blocksection uuid="{571f54c8-54eb-4f32-a3a1-81208fe51ca4}" lines="holtw sc011">
+			<part nodes="24 29 30 246 248 77 368 400 142 143 169 160 518 146 147 164 78 170 190"/>
+		</blocksection>
+		<blocksection uuid="{575e5502-2039-4839-a623-4dce8e1aaadd}" lines="holtw sc007">
+			<part nodes="542 147 146 519 511 144 616 601 615 614 375 141 514 306 235 508 509 372 340 136 10 19 14"/>
+		</blocksection>
+		<blocksection uuid="{5d521958-a43f-42db-b339-af8ca936853b}" lines="holtw sc007">
+			<part nodes="24 29 30 246 248 77 368 400 142 143 167 159 334"/>
+		</blocksection>
+		<blocksection uuid="{5f4084ff-ade7-4590-b570-943b98e3c67f}" lines="belsh holtw sc011">
+			<part nodes="119 232 88"/>
+		</blocksection>
+		<blocksection uuid="{645618ed-f109-4635-b513-499729d79da6}" lines="holtw monj sc015">
+			<part nodes="107 231 713"/>
+		</blocksection>
+		<blocksection uuid="{7b00f083-2089-413f-80bd-6d38d5c5d320}" lines="holtw" speedIndicators="109">
+			<part nodes="713 108 297 298 714 109 93 139 117 4 131 128 226 129"/>
+		</blocksection>
+		<blocksection uuid="{80706cc9-05ce-40d2-a83c-9563ad700ec6}" lines="holtw">
+			<part nodes="14 513 234 5 126 229 122"/>
+		</blocksection>
+		<blocksection uuid="{8b8d3014-9459-4902-925f-62a0b7b207e6}" lines="holtw" speedIndicators="115">
+			<part nodes="705 7 104 299 115 99 98 293 123 96 291 94 140 118 3 122 229 126 5 234 513 14 19 10 136 340"/>
+		</blocksection>
+		<blocksection uuid="{8ee49531-2a5e-422f-a130-14a9a398e93a}" lines="holtw" speedIndicators="113 115">
+			<part nodes="705 7 104 299 115 99 98 116 294 295 113 97 95 296 93 139 117 4 131 128 226 129"/>
+		</blocksection>
+		<blocksection uuid="{8f76499a-e7a3-4b9a-9839-e05043259c65}" lines="belsh holtw sc011" shuntingBlock="true" speedIndicators="113 116">
+			<part nodes="128 131 4 117 139 93 296 95 97 113 295 294 116 98 99 6 228 85 65"/>
+		</blocksection>
+		<blocksection uuid="{93392387-2562-443f-b6eb-effe6c2502b1}" lines="holtw monj sc015" speedIndicators="110 112 114">
+			<part nodes="122 3 118 140 94 110 289 290 125 112 95 97 288 100 114 286 285 102 287 127 227 101"/>
+		</blocksection>
+		<blocksection uuid="{ac07a201-d6c7-42e9-a036-ea67c4d3ce24}" lines="holtw sc011" speedIndicators="152 153">
+			<part nodes="340 372 509 508 235 306 514 141 152 401 506 153 142 143 169 160 518 146 147 164 78 170 190"/>
+		</blocksection>
+		<blocksection uuid="{bbbe7729-5ca0-4fd5-9ce5-9c2871e9ae58}" lines="holtw monj sc015" shuntingBlock="true" speedIndicators="114">
+			<part nodes="128 131 4 117 139 93 296 95 97 288 100 114 286 285 102 287 127 227 101"/>
+		</blocksection>
+		<blocksection uuid="{d10421de-3a5e-49d2-92e3-5ee6ea10bbd0}" lines="holtw mosj sc017">
+			<part nodes="719 230 705"/>
+		</blocksection>
+		<blocksection uuid="{d3bd71c8-18dd-4d3d-a932-de55a888ac51}" lines="holtw monj sc015" shuntingBlock="true">
+			<part nodes="101 227 127"/>
+		</blocksection>
+		<blocksection uuid="{e110e4d4-df6f-4dfd-816b-ab94deb4cb50}" lines="holtw mosj sc017" shuntingBlock="true">
+			<part nodes="719 230 705"/>
+		</blocksection>
+		<blocksection uuid="{e16309a8-04a5-417a-8fce-73893671178f}" lines="holtw mosj sc017 sc093">
+			<part nodes="719 230 705"/>
+		</blocksection>
+		<blocksection uuid="{e165d775-c73e-4349-9717-f9c290743119}" lines="holtw sc007">
+			<part nodes="542 147 146 518 160 169 143 142 153 506 401 152 141 514 306 235 508 509 372 340 136 10 19 14"/>
+		</blocksection>
+		<blocksection uuid="{e7981657-d39d-4fff-9b98-56049758ce4d}" lines="holtw sc007">
+			<part nodes="340 372 509 508 235 306 514 141 152 401 506 153 142 143 167 159 334"/>
+		</blocksection>
+		<blocksection uuid="{f41ac238-894b-48b6-8963-faefd2801735}" lines="holtw sc007" speedIndicators="152 153">
+			<part nodes="334 159 167 143 142 153 506 401 152 141 514 306 235 508 509 372 340 136 10 19 14"/>
+		</blocksection>
+		<blocksection uuid="{f6b2ddec-a46f-46aa-bbcb-ac67521928b2}" lines="holtw">
+			<part nodes="88 64 82 2 100 288 97 95 296 93 139 117 4 131 128 226 129"/>
+		</blocksection>
+		<blocksection uuid="{fe639cb2-4b25-44d8-85e7-1a7cadf89975}" lines="holtw sc011">
+			<part nodes="189 81 165 510 144 616 601 615 614 375 141 514 306 235 508 509 372 340 136 10 19 14"/>
+		</blocksection>
+	</blockSections>
+	<slipDistances>
+		<slipdistance uuid="{0040318d-6799-4c80-82ec-1e9d07419a27}" vmax="999" lines="holtw" serialNumber="0">
+			<part nodes="122 3 118 140 94 291 96 123"/>
+		</slipdistance>
+		<slipdistance uuid="{1d51dabb-6e6c-48d4-b4db-4cd233a94de9}" vmax="999" lines="holtw" serialNumber="2">
+			<part nodes="122 3 118 140 94 110 289 290 125"/>
+		</slipdistance>
+		<slipdistance uuid="{2ccc8bc4-1769-49b9-be9c-3717eb9673eb}" vmax="999" lines="holtw" serialNumber="0">
+			<part nodes="129 1"/>
+		</slipdistance>
+		<slipdistance uuid="{4036aab4-9593-4d31-a405-2f06f861429f}" vmax="999" lines="holtw" serialNumber="0">
+			<part nodes="88 64 82 2"/>
+		</slipdistance>
+		<slipdistance uuid="{45c791cd-81d0-4b24-aea2-d4e7fea36f3f}" vmax="999" lines="holtw" serialNumber="0">
+			<part nodes="14 513 234 5"/>
+		</slipdistance>
+		<slipdistance uuid="{5f6ea77c-f02a-4b02-9d3b-50f3bc0dda48}" vmax="999" lines="holtw" serialNumber="0">
+			<part nodes="340 372 509 508 235 306 514"/>
+		</slipdistance>
+		<slipdistance uuid="{876fff25-c40c-404f-9a86-48065e993ee1}" vmax="999" lines="holtw" serialNumber="0">
+			<part nodes="24 29 30 246 248 77"/>
+		</slipdistance>
+		<slipdistance uuid="{9f70bed9-8d93-473b-8685-0f57357497f3}" vmax="999" lines="holtw" serialNumber="1">
+			<part nodes="122 3 118 140 94 291 96 225 111 124"/>
+		</slipdistance>
+		<slipdistance uuid="{d3ee9dab-691b-42ee-a377-515ae0873b45}" vmax="999" lines="holtw" serialNumber="0">
+			<part nodes="713 108 297 298 714"/>
+		</slipdistance>
+	</slipDistances>
+	<approachControlRoutes/>
+	<stationRoutes>
+		<stationRoute stationID="HOLYTNJ" name="[CARFIN]-[sc007/1]-[2]-[HOLYTWN]-[sc011/1] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=95;NRz=95;S=95;Rz=95;FGz=95;NGz=95;Gz=95;Lz=95;Unbekannt=95" nodes="542 147 146 519 511 144 616 601 615 614 375 141 514 306 235"/>
+		<stationRoute stationID="HOLYTNJ" name="[CARFIN]-[sc007/1]-[3]-[HOLYTWN]-[sc011/1] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=80;NRz=80;S=80;Rz=80;FGz=80;NGz=80;Gz=80;Lz=80;Unbekannt=80" nodes="542 147 146 518 160 169 143 142 153 506 401 152 141 514 306 235"/>
+		<stationRoute stationID="HOLYTNJ" name="[CARFIN]-[sc007/2]-[2]-[HOLYTWN]-[sc011/1] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=90;NRz=90;S=90;Rz=90;FGz=90;NGz=90;Gz=90;Lz=90;Unbekannt=90" nodes="334 159 167 143 142 153 506 401 152 141 514 306 235"/>
+		<stationRoute stationID="HOLYTNJ" name="[HOLYTWN]-[sc011/1]-[2]-[CARFIN]-[sc007/2] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=90;NRz=90;S=90;Rz=90;FGz=90;NGz=90;Gz=90;Lz=90;Unbekannt=90" nodes="235 306 514 141 152 401 506 153 142 143 167 159 334"/>
+		<stationRoute stationID="HOLYTNJ" name="[HOLYTWN]-[sc011/1]-[3]-[WISHAWC]-[sc011/2] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=75;NRz=75;S=75;Rz=75;FGz=75;NGz=75;Gz=75;Lz=75;Unbekannt=75" nodes="235 306 514 141 152 401 506 153 142 143 169 160 518 146 147 164 78"/>
+		<stationRoute stationID="HOLYTNJ" name="[HOLYTWN]-[sc011/2]-[1]-[CARFIN]-[sc007/2] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="248 77 368 400 142 143 167 159 334"/>
+		<stationRoute stationID="HOLYTNJ" name="[HOLYTWN]-[sc011/2]-[2]-[WISHAWC]-[sc011/2] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=85;NRz=85;S=85;Rz=85;FGz=85;NGz=85;Gz=85;Lz=85;Unbekannt=85" nodes="248 77 368 400 142 143 169 160 518 146 147 164 78"/>
+		<stationRoute stationID="HOLYTNJ" name="[WISHAWC]-[sc011/1]-[1]-[HOLYTWN]-[sc011/1] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="81 165 510 144 616 601 615 614 375 141 514 306 235"/>
+		<stationRoute stationID="HOLYTNJ" name="[WISHAWC]-[sc011/2]-[2]-[HOLYTWN]-[sc011/1] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=90;NRz=90;S=90;Rz=90;FGz=90;NGz=90;Gz=90;Lz=90;Unbekannt=90" nodes="78 164 147 146 519 511 144 616 601 615 614 375 141 514 306 235"/>
+		<stationRoute stationID="HOLYTWN" name="[HOLYTNJ]-[sc011/1]-[2]-[MOSENDE]-[sc011/1] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="508 509 372 340 136 10 19 14 513 234"/>
+		<stationRoute stationID="HOLYTWN" name="[MOSENDE]-[sc011/1]-[1]-[HOLYTNJ]-[sc011/1] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="234 513 14 19 10 136 340 372 509 508"/>
+		<stationRoute stationID="HOLYTWN" name="[MOSENDE]-[sc011/2]-[2]-[HOLYTNJ]-[sc011/2] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="315 24 29 30 246"/>
+		<stationRoute stationID="MOSENDE" name="[HOLYTWN]-[sc011/1]-[2]-[MOSENDN]-[sc093/1] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=85;NRz=85;S=85;Rz=85;FGz=85;NGz=85;Gz=85;Lz=85;Unbekannt=85" nodes="229 122 3 118 140 94 110 289 290 125 112 95 97 288 100 114 286 285 102 287 127 227"/>
+		<stationRoute stationID="MOSENDE" name="[HOLYTWN]-[sc011/1]-[2]-[MOSENDS]-[sc093/1] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=95;NRz=95;S=95;Rz=95;FGz=95;NGz=95;Gz=95;Lz=95;Unbekannt=95" nodes="229 122 3 118 140 94 291 96 225"/>
+		<stationRoute stationID="MOSENDE" name="[HOLYTWN]-[sc011/1]-[2]-[MOSENDW]-[sc011/2] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="229 122 3 118 140 94 291 96 123 293 98 99 6 228"/>
+		<stationRoute stationID="MOSENDE" name="[MOSENDN]-[sc015/1]-[4]-[HOLYTWN]-[sc011/2] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=95;NRz=95;S=95;Rz=95;FGz=95;NGz=95;Gz=95;Lz=95;Unbekannt=95" nodes="227 127 287 102 285 286 114 100 288 97 95 296 93 139 117 4 131 128 226"/>
+		<stationRoute stationID="MOSENDE" name="[MOSENDN]-[sc015/1]-[4]-[MOSENDN]-[sc015/1] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="227 127 227"/>
+		<stationRoute stationID="MOSENDE" name="[MOSENDN]-[sc093/2]-[3]-[HOLYTWN]-[sc011/2] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=95;NRz=95;S=95;Rz=95;FGz=95;NGz=95;Gz=95;Lz=95;Unbekannt=95" nodes="231 713 108 297 298 714 109 93 139 117 4 131 128 226"/>
+		<stationRoute stationID="MOSENDE" name="[MOSENDS]-[sc093/2]-[5]-[HOLYTWN]-[sc011/2] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=85;NRz=85;S=85;Rz=85;FGz=85;NGz=85;Gz=85;Lz=85;Unbekannt=85" nodes="230 705 7 104 299 115 99 98 116 294 295 113 97 95 296 93 139 117 4 131 128 226"/>
+		<stationRoute stationID="MOSENDE" name="[MOSENDW]-[sc011/1]-[1]-[HOLYTWN]-[sc011/2] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="232 88 64 82 2 100 288 97 95 296 93 139 117 4 131 128 226"/>
+	</stationRoutes>
+	<lineCatalog/>
+	<zugNummernFelder/>
+	<switchGears/>
+</line>

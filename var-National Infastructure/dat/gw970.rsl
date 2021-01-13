@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<line lineID="gw970" name="Gulf Oil Branch Jn - Waterston Gulf Oil Refinery Freight" trafficRouting="on_the_left" type="local" dependentLines="gulf">
+	<version major="1" minor="2" patchlevel="0" comment=""/>
+	<creator user="Ahowe4" timestamp="2016-11-01T12:54:22"/>
+	<lasteditor user="Ahowe4" timestamp="2016-11-01T12:54:22"/>
+	<stations/>
+	<nodes>
+		<signal type="exit" interlockingMachine="Shunt" nodeID="2" kilometre="1.207" x="12070" y="0" xNet="-4622222.3" yNet="1184525.5" referenceNode="4"/>
+		<node nodeID="3" kilometre="1.000" x="10000" y="0" xNet="-4621970.5" yNet="1186579.6"/>
+		<signal type="entry" interlockingMachine="Shunt" nodeID="4" kilometre="1.159" x="11590.507" y="0" xNet="-4622164.2" yNet="1185001.4" referenceNode="2"/>
+		<node nodeID="9" name="GRAD" kilometre="0.547" x="5470" y="0" xNet="-4621418.4" yNet="1191075.7"/>
+	</nodes>
+	<links>
+		<link source="3" target="4" length="159" gradient="13.33" vmax="24" vmaxr="24" radius="3100"/>
+		<link source="4" target="2" length="48" gradient="13.33" vmax="24" vmaxr="24" radius="3100"/>
+		<link source="7.gulf" target="9" length="165" gradient="-10.9" vmax="24" vmaxr="24" radius="3100"/>
+		<link source="9" target="3" length="453" gradient="13.33" vmax="24" vmaxr="24" radius="3100"/>
+	</links>
+	<dependentLinks/>
+	<blockSections>
+		<blocksection uuid="{17838bb6-6e56-40a6-9f55-20d2fe29206c}" lines="gulf gw970" shuntingBlock="true">
+			<part nodes="4 3 9 7.gulf"/>
+		</blocksection>
+		<blocksection uuid="{a3819f7c-a8a6-4201-bea7-0bb14c42942d}" lines="gulf gw970" shuntingBlock="true">
+			<part nodes="7.gulf 9 3 4 2"/>
+		</blocksection>
+	</blockSections>
+	<slipDistances/>
+	<approachControlRoutes/>
+	<stationRoutes/>
+	<lineCatalog/>
+	<zugNummernFelder/>
+	<switchGears/>
+</line>

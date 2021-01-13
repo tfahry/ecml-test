@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<line lineID="minste" name="Minster East Jn" trafficRouting="on_the_left" type="global" dependentLines="so220 so240">
+	<transformations>
+		<transformation line="so220" m11="-1" m12="-1.22461e-16" m21="1.22461e-16" m22="-1" dx="2.64023e+06" dy="34199.6"/>
+	</transformations>
+	<version major="1" minor="2" patchlevel="0" comment=""/>
+	<creator user="Ahowe4" timestamp="2016-11-01T12:54:22"/>
+	<lasteditor user="Ahowe4" timestamp="2016-11-01T12:54:22"/>
+	<stations>
+		<station stationID="MINSTEJ" name="Minster East Jn" xNet="2657906.1" yNet="441732.29" uicLocationCode="0" circleDiameter="0">
+			<textElement type="name">
+				<pos view="net" x="1851.03" y="1851.03" angle="0" system="source"/>
+				<pos view="wgs84" x="1851.03" y="1851.03" angle="0" system="source"/>
+				<pos view="line" x="1960.53" y="1960.53" angle="0" system="source"/>
+				<pos view="macro" x="28.2843" y="28.2843" angle="0" system="source"/>
+				<pos view="macroWgs84" x="0" y="0" angle="0" system="source"/>
+			</textElement>
+		</station>
+	</stations>
+	<nodes>
+		<crossing type="kr" startOfMainTrack="454" startOfBranchTrack="3" endOfMainTrack="328" endOfBranchTrack="610" nodeID="327" name="FD" description="FD" kilometre="132.245" x="1317760.5" y="-800.18451" xNet="2655907.5" yNet="442002.02"/>
+		<switch start="348" endOfMainTrack="327" endOfBranchTrack="656" nodeID="328" name="POINTS : 58" description="POINTS : 58; 20 mph; 82m 16ch" kilometre="132.289" x="1317320.5" y="-800.18451" xNet="2656343.8" yNet="441947.57"/>
+		<node nodeID="329" name="GRAD" description="Gradient; 82m 18ch" kilometre="132.328" x="1316930.5" y="-800.18452" xNet="2656731.3" yNet="441900.9"/>
+		<node nodeID="353" name="OL 66" description="OL for SIG : 66" kilometre="132.309" x="1317120.5" y="-800.18451" xNet="2656543.2" yNet="441923.53"/>
+		<track trackID="D-2" stationID="MINSTEJ" interlockingMachine="4 Aspect Pannel (Below 75mph)" nodeID="398" name="SIG : 66" description="Signal 66; 82m 36ch" kilometre="132.693" x="1313280.5" y="-800.18456" xNet="2660354.5" yNet="441455.42" referenceNode="652"/>
+		<switch start="202" endOfMainTrack="162" endOfBranchTrack="349" nodeID="163" name="POINTS : 59" description="POINTS : 59; 20 mph; 82m 16ch" kilometre="132.288" x="1317331.5" y="-1000.1845" xNet="2656359.3" yNet="442148.39"/>
+		<node nodeID="164" name="GRAD" description="Gradient; 82m 18ch" kilometre="132.328" x="1316931.5" y="-1000.1845" xNet="2656756" yNet="442099.6"/>
+		<track trackID="U-1" stationID="MINSTEJ" interlockingMachine="3 Aspect Pannel (Below 75mph)" nodeID="162" name="SIG : 7" description="Signal 7; 82m 12ch" kilometre="132.204" x="1318171.5" y="-1000.1845" xNet="2655524.2" yNet="442250.92" referenceNode="657"/>
+		<node nodeID="165" name="OL 7" description="OL for SIG : 7" kilometre="132.606" x="1314151.5" y="-1000.1845" xNet="2659515.8" yNet="441760.89"/>
+		<node nodeID="457" kilometre="132.713" x="1313083.5" y="-800.18456" xNet="2660550.3" yNet="441431.38">
+			<netLimitInfo lineID="so220"/>
+		</node>
+		<node nodeID="458" kilometre="132.713" x="1313081.5" y="-1000.1846" xNet="2660577.8" yNet="441630.64">
+			<netLimitInfo lineID="so220"/>
+		</node>
+		<kilometreInconsistency newKilometre="132.245" nodeID="3" x="1318211.5" y="-200.1845" xNet="2655691.5" yNet="441924.45" referenceNode="240"/>
+		<track trackID="U-3" stationID="MINSTEJ" interlockingMachine="3 Aspect IECC (Below 75mph)" nodeID="240" name="SIG : 10" description="Signal 10; 0m 3.28ch" kilometre="0.066" x="1318611.5" y="-200.1845" xNet="2655371.1" yNet="441363.29" referenceNode="658"/>
+		<node nodeID="465" name="OL 10" description="OL for SIG : 10" kilometre="132.359" x="1316621.5" y="-1000.1845" xNet="2657063.8" yNet="442061.77"/>
+		<track trackID="T-1" stationID="MINSTEJ" type="timingPoint" nodeID="202" name="T-1" description="MINSTEJ T-1, timingPoint; 82m 17ch" kilometre="132.308" x="1317135" y="-1000.1845" xNet="2656554.2" yNet="442124.35" referenceNode="163"/>
+		<track trackID="T-2" stationID="MINSTEJ" type="timingPoint" nodeID="348" name="T-2" description="MINSTEJ T-2, timingPoint; 82m 17ch" kilometre="132.308" x="1317127.5" y="-800.18451" xNet="2656536.1" yNet="441924.38" referenceNode="328"/>
+		<speedIndicator nodeID="349" name="SPEED" kilometre="132.287" x="1317341.5" y="-995.53251" xNet="2656348.8" yNet="442144.92" referenceNode="611"/>
+		<node nodeID="610" name="tc" description="release contact for track circuit;" kilometre="132.265" x="1317559.8" y="-893.77051" xNet="2656118.9" yNet="442070.46" referenceNode="327" releaseContact="true" arranged="true"/>
+		<node nodeID="611" name="tc" description="release contact for track circuit;" kilometre="132.266" x="1317549.9" y="-898.39551" xNet="2656129.4" yNet="442073.86" referenceNode="349" releaseContact="true" arranged="true"/>
+		<stationBorder exitType="alternative" stationID="MINSTEJ" lineID="so220" trackNumber="2" nodeID="652" name="[RAMSGTE] - [s220/2]" kilometre="132.703" x="1313185.5" y="-800.18456" xNet="2660448.9" yNet="441443.83" referenceNode="398"/>
+		<stationBorder exitType="regular" stationID="MINSTEJ" lineID="so220" trackNumber="1" nodeID="653" name="[RAMSGTE] - [s220/1]" kilometre="132.702" x="1313188.8" y="-1000.1846" xNet="2660471.3" yNet="441643.65" referenceNode="165"/>
+		<stationBorder exitType="regular" stationID="MINSTEJ" lineID="so240" trackNumber="1" nodeID="656" name="[MINSTSJN] - [s220/1]" kilometre="132.289" x="1317587.8" y="-560.18451" xNet="2656265.6" yNet="441923.95" referenceNode="328">
+			<netLimitInfo lineID="so240"/>
+		</stationBorder>
+		<stationBorder exitType="alternative" stationID="MINSTEJ" lineID="so220" trackNumber="2" nodeID="657" name="[MINSTER] - [s220/2]" kilometre="132.201" x="1318197.9" y="-1000.1845" xNet="2655498.1" yNet="442254.17" referenceNode="162">
+			<netLimitInfo lineID="so220"/>
+		</stationBorder>
+		<stationBorder exitType="alternative" stationID="MINSTEJ" lineID="so240" trackNumber="2" nodeID="658" name="[MINSTSJN] - [s240/2]" kilometre="0.087" x="1318672.7" y="-200.1845" xNet="2655340.9" yNet="441210.41" referenceNode="240">
+			<netLimitInfo lineID="so240"/>
+		</stationBorder>
+		<stationBorder exitType="regular" stationID="MINSTEJ" lineID="so220" trackNumber="1" nodeID="454" name="[MINSTER] - [s220/1]" kilometre="132.199" x="1318222.5" y="-800.1845" xNet="2655449.3" yNet="442058.09" referenceNode="327">
+			<netLimitInfo lineID="so220"/>
+		</stationBorder>
+	</nodes>
+	<links>
+		<link source="3" target="240" length="66" gradient="2.101" vmax="32" vmaxr="32"/>
+		<link source="3" target="327" gradient="-2.101" vmax="32"/>
+		<link source="162" target="163" length="84" vmax="113"/>
+		<link source="163" target="202" length="20" vmax="113"/>
+		<link source="164" target="465" length="31" gradient="3.03" vmax="113"/>
+		<link source="165" target="653" length="96" gradient="3.03" vmax="113"/>
+		<link source="202" target="164" length="20" vmax="113"/>
+		<link source="240" target="658" length="21" gradient="-2.101" vmaxr="32"/>
+		<link source="327" target="328" length="44" vmaxr="113"/>
+		<link source="327" target="610" length="20" vmax="32" vmaxr="32"/>
+		<link source="328" target="348" length="19" vmaxr="113"/>
+		<link source="329" target="398" length="365" gradient="3.03" vmaxr="113"/>
+		<link source="348" target="353" length="1" vmaxr="113"/>
+		<link source="349" target="163" length="1" vmax="113"/>
+		<link source="353" target="329" length="19" vmaxr="113"/>
+		<link source="398" target="652" length="10" gradient="3.03" vmaxr="113"/>
+		<link source="454" target="327" length="46" vmaxr="113"/>
+		<link source="465" target="165" length="247" gradient="3.03" vmax="113"/>
+		<link source="610" target="611" length="1" vmax="32" vmaxr="32"/>
+		<link source="611" target="349" length="21" vmax="32" vmaxr="32"/>
+		<link source="652" target="457" length="10" gradient="3.03" vmaxr="113"/>
+		<link source="653" target="458" length="11" gradient="3.03" vmax="113"/>
+		<link source="656" target="328" gradient="-2.101" vmax="113" vmaxr="113"/>
+		<link source="657" target="162" length="3" vmax="113"/>
+	</links>
+	<dependentLinks/>
+	<blockSections>
+		<blocksection uuid="{07caadc7-1270-4b77-9344-c275d8965949}" lines="minste minsts so240">
+			<part nodes="658 240"/>
+		</blocksection>
+		<blocksection uuid="{5e24b7de-9365-4d42-8bf0-e55e7245434c}" lines="minst minste so220">
+			<part nodes="657 162"/>
+		</blocksection>
+		<blocksection uuid="{6eb4d259-01e5-4832-92da-e1df3b58c093}" lines="minst minste so220">
+			<part nodes="657 162"/>
+		</blocksection>
+		<blocksection uuid="{8bffd806-fe00-42de-9247-b6d238fc429f}" lines="minste so220">
+			<part nodes="398 329 353 348 328 327 454"/>
+		</blocksection>
+		<blocksection uuid="{a922a2ef-7c98-4d5d-b76b-59c1a4dd67d9}" lines="minste so220" speedIndicators="349">
+			<part nodes="240 3 327 610 611 349 163 202 164 465 165 653 458"/>
+		</blocksection>
+		<blocksection uuid="{b28019e7-e0f0-463e-ae91-cd1ceaa410c8}" lines="minste minsts so240">
+			<part nodes="398 329 353 348 328 656"/>
+		</blocksection>
+		<blocksection uuid="{d806b6f4-a883-484d-a524-888beda22ae7}" lines="minste so220">
+			<part nodes="457 652 398"/>
+		</blocksection>
+		<blocksection uuid="{e258bd94-ae3e-4679-9435-abf8c67166d6}" lines="minste so220">
+			<part nodes="162 163 202 164 465 165 653 458"/>
+		</blocksection>
+	</blockSections>
+	<slipDistances>
+		<slipdistance uuid="{17d0ed9b-af09-4fec-9dd2-8ca8c3848b2b}" vmax="999" lines="minste" serialNumber="0">
+			<part nodes="398 329 353"/>
+		</slipdistance>
+		<slipdistance uuid="{5185eb8c-358c-4f5a-8453-5e552b9217f8}" vmax="999" lines="minste" serialNumber="0">
+			<part nodes="240 3 327 610 611 349 163 202 164 465"/>
+		</slipdistance>
+		<slipdistance uuid="{c5262eb7-bfac-4e11-87c4-b16b4ab24a77}" vmax="999" lines="minste" serialNumber="0">
+			<part nodes="162 163 202 164 465 165"/>
+		</slipdistance>
+	</slipDistances>
+	<approachControlRoutes/>
+	<stationRoutes>
+		<stationRoute stationID="MINSTEJ" name="[MINSTER]-[s220/2]-[1]-[RAMSGTE]-[s220/1] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="657 162 163 202 164 465 165 653"/>
+		<stationRoute stationID="MINSTEJ" name="[MINSTSJN]-[s240/2]-[1-3]-[RAMSGTE]-[s220/1] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=95;NRz=95;S=95;Rz=95;FGz=95;NGz=95;Gz=95;Lz=95;Unbekannt=95" nodes="658 240 3 327 610 611 349 163 202 164 465 165 653"/>
+		<stationRoute stationID="MINSTEJ" name="[RAMSGTE]-[s220/2]-[2]-[MINSTER]-[s220/1] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="652 398 329 353 348 328 327 454"/>
+		<stationRoute stationID="MINSTEJ" name="[RAMSGTE]-[s220/2]-[2]-[MINSTSJN]-[s220/1] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=95;NRz=95;S=95;Rz=95;FGz=95;NGz=95;Gz=95;Lz=95;Unbekannt=95" nodes="652 398 329 353 348 328 656"/>
+	</stationRoutes>
+	<lineCatalog/>
+	<zugNummernFelder/>
+	<switchGears/>
+</line>

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<line lineID="gulf" name="Gulf Oil Branch Jn" trafficRouting="on_the_left" type="global" dependentLines="gw960 gw970">
+	<transformations>
+		<transformation line="gw960" m11="1" m12="0" m21="0" m22="1" dx="-2683.86" dy="8.28118"/>
+		<transformation line="gw970" m11="1" m12="0" m21="0" m22="1" dx="-174392" dy="-102.604"/>
+	</transformations>
+	<version major="1" minor="2" patchlevel="0" comment=""/>
+	<creator user="Ahowe4" timestamp="2016-11-01T12:54:22"/>
+	<lasteditor user="Ahowe4" timestamp="2016-11-01T12:54:22"/>
+	<stations>
+		<station stationID="GLFOBJ" name="Gulf Oil Branch Jn" xNet="-4622299" yNet="1195795.15" uicLocationCode="0" circleDiameter="0">
+			<textElement type="name">
+				<pos view="net" x="2312.1" y="2312.1" angle="0" system="source"/>
+				<pos view="wgs84" x="2312.1" y="2312.1" angle="0" system="source"/>
+				<pos view="line" x="2314.46" y="2314.46" angle="0" system="source"/>
+				<pos view="macro" x="28.2843" y="28.2843" angle="0" system="source"/>
+				<pos view="macroWgs84" x="0" y="0" angle="0" system="source"/>
+			</textElement>
+		</station>
+	</stations>
+	<nodes>
+		<node nodeID="3" name="TC" kilometre="453.721" x="174241.84" y="400" xNet="-4619716" yNet="1197055.3"/>
+		<switch start="3" endOfMainTrack="2" endOfBranchTrack="5" nodeID="6" name="POINTS:312A" description="Joins to Line GW970" kilometre="453.835" x="175381.84" y="400" xNet="-4620739.8" yNet="1196555.8"/>
+		<node nodeID="156" name="SD:25" kilometre="453.594" x="172970.94" y="400" xNet="-4618573.4" yNet="1197612.9" referenceNode="160" sightingDistance="true"/>
+		<kilometreInconsistency newKilometre="453.835" nodeID="5" name="POINTS:312A Joins To Line GW960" description="GEOGIS S&amp;C|GOB|148070592|[500][0]|" x="175747.48" y="103.03197" xNet="-4620751.9" yNet="1196504.9" referenceNode="4"/>
+		<node nodeID="4" name="TC" kilometre="0.162" x="177367.48" y="103.03197" xNet="-4620948.7" yNet="1194897.7"/>
+		<node nodeID="7" name="TC" kilometre="0.382" x="179567.48" y="103.03197" xNet="-4621217.3" yNet="1192713.4">
+			<netLimitInfo lineID="gw970"/>
+		</node>
+		<node nodeID="8" name="SD:26" kilometre="0.234" x="178087.48" y="103.03197" xNet="-4621036.7" yNet="1194182.7" referenceNode="7" sightingDistance="true"/>
+		<node nodeID="160" kilometre="453.589" x="172920.91" y="400" xNet="-4618528.1" yNet="1197634.6">
+			<netLimitInfo lineID="gw960"/>
+		</node>
+		<node nodeID="2" kilometre="453.842" x="175450.89" y="400" xNet="-4620801.5" yNet="1196525.4"/>
+		<node nodeID="114" kilometre="454.000" x="177031.84" y="400" xNet="-4622223.2" yNet="1195831.7"/>
+		<node nodeID="115" name="TC" kilometre="454.317" x="180199.45" y="400" xNet="-4625070.8" yNet="1194444"/>
+		<node nodeID="113" name="OL:25" kilometre="453.890" x="175931.84" y="400" xNet="-4621234.3" yNet="1196314.9"/>
+		<node nodeID="153" name="OL:28" kilometre="454.149" x="178520.72" y="400" xNet="-4623561.1" yNet="1195179.6"/>
+		<node nodeID="161" kilometre="454.351" x="180541.07" y="400" xNet="-4625376.9" yNet="1194293.6">
+			<netLimitInfo lineID="gw960"/>
+		</node>
+		<track trackID="D-1" stationID="GLFOBJ" interlockingMachine="3 Aspect Pannel (Below 75mph)" nodeID="1" name="SIG:25" kilometre="453.719" x="174221.84" y="400" xNet="-4619698" yNet="1197064.2" referenceNode="67"/>
+		<track trackID="U-2" stationID="GLFOBJ" interlockingMachine="3 Aspect Pannel (Below 75mph)" nodeID="9" name="SIG:26" kilometre="0.164" x="177387.48" y="103.03197" xNet="-4620951.6" yNet="1194877.3" referenceNode="68"/>
+		<track trackID="U-1" stationID="GLFOBJ" interlockingMachine="3 Aspect Pannel (Below 75mph)" nodeID="116" name="SIG:28" kilometre="454.329" x="180319.69" y="400" xNet="-4625178.2" yNet="1194391.1" referenceNode="74"/>
+		<stationBorder exitType="regular" stationID="GLFOBJ" lineID="gw960" trackNumber="1" nodeID="67" name="[JHNSTND] - [gw960/1]" kilometre="453.681" x="173846.57" y="400" xNet="-4619360.1" yNet="1197228.5" referenceNode="1"/>
+		<stationBorder exitType="locked" stationID="GLFOBJ" trackNumber="" nodeID="68" name="Buffer stop 320" kilometre="0.185" x="177597.48" y="103.03197" xNet="-4620977.1" yNet="1194668.9" referenceNode="9"/>
+		<stationBorder exitType="regular" stationID="GLFOBJ" lineID="gw960" trackNumber="1" nodeID="74" name="[HRBRNSJ] - [gw960/1]" kilometre="454.336" x="180386.1" y="400" xNet="-4625237.9" yNet="1194361.8" referenceNode="116"/>
+	</nodes>
+	<links>
+		<link source="1" target="3" length="2" gradient="-11.364" vmax="64" vmaxr="64" bidirectional="true"/>
+		<link source="2" target="113" length="48" gradient="-11.364" vmax="64" vmaxr="64" bidirectional="true"/>
+		<link source="3" target="6" length="114" gradient="-11.364" vmax="64" vmaxr="64" bidirectional="true"/>
+		<link source="4" target="9" length="2" gradient="-10.9" vmax="24" vmaxr="24" radius="3100"/>
+		<link source="5" target="4" length="162" gradient="-10.9" vmax="24" vmaxr="24" radius="3100"/>
+		<link source="6" target="2" length="7" gradient="-11.364" vmax="64" vmaxr="64" bidirectional="true"/>
+		<link source="6" target="5" length="1" gradient="-11.364" vmax="64" vmaxr="64"/>
+		<link source="8" target="7" length="148" gradient="-10.9" vmax="24" vmaxr="24" radius="3100"/>
+		<link source="9" target="68" length="21" gradient="-10.9" vmax="24" vmaxr="24" radius="3100"/>
+		<link source="67" target="1" length="37" gradient="-11.364" vmax="64" vmaxr="64" bidirectional="true"/>
+		<link source="68" target="8" length="49" gradient="-10.9" vmax="24" vmaxr="24" radius="3100"/>
+		<link source="74" target="161" length="15" gradient="-11.364" vmax="64" vmaxr="64" bidirectional="true"/>
+		<link source="113" target="114" length="110" gradient="-11.364" vmax="64" vmaxr="64" bidirectional="true"/>
+		<link source="114" target="153" length="149" gradient="-11.364" vmax="64" vmaxr="64" bidirectional="true"/>
+		<link source="115" target="116" length="12" gradient="-11.364" vmax="64" vmaxr="64" bidirectional="true"/>
+		<link source="116" target="74" length="7" gradient="-11.364" vmax="64" vmaxr="64" bidirectional="true"/>
+		<link source="153" target="115" length="168" gradient="-11.364" vmax="64" vmaxr="64" bidirectional="true"/>
+		<link source="156" target="67" length="88" gradient="-11.364" vmax="64" vmaxr="64" bidirectional="true"/>
+		<link source="160" target="156" length="5" gradient="-11.364" vmax="64" vmaxr="64" bidirectional="true"/>
+	</links>
+	<dependentLinks/>
+	<blockSections>
+		<blocksection uuid="{17838bb6-6e56-40a6-9f55-20d2fe29206c}" lines="gulf gw970" shuntingBlock="true">
+			<part nodes="7 8 68 9"/>
+		</blocksection>
+		<blocksection uuid="{2272e2ae-57c6-475e-8323-63c499181189}" lines="gulf gw960 mlfdh">
+			<part nodes="161 74 116"/>
+		</blocksection>
+		<blocksection uuid="{322ab79e-8a72-4252-9fef-d8d8eb94fedd}" lines="gulf gw960 mlfdh">
+			<part nodes="161 74 116"/>
+		</blocksection>
+		<blocksection uuid="{3ba80b26-0be5-43f4-badb-8ce5f0c32bca}" lines="gulf gw960 mlfdh">
+			<part nodes="116 74 161"/>
+		</blocksection>
+		<blocksection uuid="{54cc9421-5ddb-4a14-baec-7b0629fb89ff}" lines="gulf gw960 mlfdh">
+			<part nodes="1 3 6 2 113 114 153 115 116 74 161"/>
+		</blocksection>
+		<blocksection uuid="{5f6a6e1b-df25-444d-b606-074c5f26499a}" lines="gulf gw960">
+			<part nodes="9 4 5 6 3 1 67 156 160"/>
+		</blocksection>
+		<blocksection uuid="{648314a4-88fb-4c18-bced-2b91281afea0}" lines="gulf gw960">
+			<part nodes="9 4 5 6 3 1 67 156 160"/>
+		</blocksection>
+		<blocksection uuid="{936d16b6-06d7-48ce-960a-826ac12d8862}" lines="gulf gw960">
+			<part nodes="160 156 67 1"/>
+		</blocksection>
+		<blocksection uuid="{a1a867d6-6598-4c69-9e48-c124872cbc48}" lines="gulf gw960">
+			<part nodes="116 115 153 114 113 2 6 3 1 67 156 160"/>
+		</blocksection>
+		<blocksection uuid="{a3819f7c-a8a6-4201-bea7-0bb14c42942d}" lines="gulf gw970" shuntingBlock="true">
+			<part nodes="1 3 6 5 4 9 68 8 7"/>
+		</blocksection>
+		<blocksection uuid="{a7cced46-d93b-4b18-885d-cc8b76fa18ec}" lines="gulf gw960">
+			<part nodes="160 156 67 1"/>
+		</blocksection>
+		<blocksection uuid="{b2bfaaae-bb05-48c6-bb26-b7954d45e969}" lines="gulf gw960">
+			<part nodes="1 67 156 160"/>
+		</blocksection>
+		<blocksection uuid="{d23da4b5-d1f5-48e0-b0eb-699cc7aefb66}" lines="gulf gw960 mlfdh">
+			<part nodes="161 74 116"/>
+		</blocksection>
+	</blockSections>
+	<slipDistances>
+		<slipdistance uuid="{712a9cc9-ffc1-495a-9117-9134ca7bb8db}" vmax="999" lines="gulf" serialNumber="0">
+			<part nodes="1 3 6 2 113"/>
+		</slipdistance>
+		<slipdistance uuid="{8c997966-3949-4980-a799-b1b4512014b5}" vmax="999" lines="gulf" serialNumber="0">
+			<part nodes="116 115 153"/>
+		</slipdistance>
+	</slipDistances>
+	<approachControlRoutes/>
+	<stationRoutes>
+		<stationRoute stationID="GLFOBJ" name="[HRBRNSJ]-[gw960/1]-[1]-[JHNSTND]-[gw960/1] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="74 116 115 153 114 113 2 6 3 1 67"/>
+		<stationRoute stationID="GLFOBJ" name="[JHNSTND]-[gw960/1]-[1]-[HRBRNSJ]-[gw960/1] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="67 1 3 6 2 113 114 153 115 116 74"/>
+		<stationRoute stationID="GLFOBJ" name="[JHNSTND]-[gw960/1]-[1]-[]-[?/] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=95;NRz=95;S=95;Rz=95;FGz=95;NGz=95;Gz=95;Lz=95;Unbekannt=95" nodes="67 1 3 6 5 4 9 68"/>
+		<stationRoute stationID="GLFOBJ" name="[]-[?/]-[2]-[JHNSTND]-[gw960/1] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=95;NRz=95;S=95;Rz=95;FGz=95;NGz=95;Gz=95;Lz=95;Unbekannt=95" nodes="68 9 4 5 6 3 1 67"/>
+	</stationRoutes>
+	<lineCatalog/>
+	<zugNummernFelder/>
+	<switchGears/>
+</line>

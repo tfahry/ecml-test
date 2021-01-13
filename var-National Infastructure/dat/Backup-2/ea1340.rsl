@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<line lineID="ea1340" name="Stratford Lea Jn - High Meads Jn" trafficRouting="on_the_left" type="local" dependentLines="highm leaj">
+	<version major="1" minor="2" patchlevel="0" comment=""/>
+	<creator user="Ahowe4" timestamp="2016-11-01T12:54:22"/>
+	<lasteditor user="Ahowe4" timestamp="2016-11-01T12:54:22"/>
+	<stations/>
+	<nodes>
+		<node nodeID="59329" kilometre="1.148" x="30336" y="4080" xNet="1114061" yNet="784265.97"/>
+		<node nodeID="1" kilometre="1.113" x="30461" y="3880" xNet="1114341.4" yNet="784156.33"/>
+		<node nodeID="59342" name="OL" kilometre="1.127" x="30641.65" y="3880" xNet="1114852.1" yNet="784504.99"/>
+		<node nodeID="59348" name="SD:NL1290" kilometre="1.149" x="30931.025" y="3880" xNet="1115208.5" yNet="784617.31" referenceNode="59351" sightingDistance="true"/>
+		<node nodeID="59350" name="GRAD" kilometre="1.118" x="30528.207" y="3880" xNet="1114660.3" yNet="784381.87"/>
+		<node nodeID="59351" name="OL: SIG NL1422" kilometre="1.199" x="31088.709" y="3880" xNet="1115435.4" yNet="784685.71"/>
+	</nodes>
+	<links>
+		<link source="1" target="59350" length="5" gradient="-7.936" vmax="24" vmaxr="24">
+			<vzg index="1" vmax="24" vmaxr="24"/>
+		</link>
+		<link source="59304.leaj" target="59329" length="31" gradient="-7.936" vmax="24" vmaxr="24">
+			<vzg index="1" vmax="24" vmaxr="24"/>
+		</link>
+		<link source="59305.leaj" target="1" length="20" gradient="-7.936" vmax="24" vmaxr="24">
+			<vzg index="1" vmax="24" vmaxr="24"/>
+		</link>
+		<link source="59329" target="59338.highm" length="32" gradient="-7.936" vmax="24" vmaxr="24">
+			<vzg index="1" vmax="24" vmaxr="24"/>
+		</link>
+		<link source="59342" target="59348" length="22" gradient="5.586" vmax="24" vmaxr="24">
+			<vzg index="1" vmax="24" vmaxr="24"/>
+		</link>
+		<link source="59348" target="59351" length="50" gradient="5.586" vmax="24" vmaxr="24">
+			<vzg index="1" vmax="24" vmaxr="24"/>
+		</link>
+		<link source="59350" target="59342" length="9" gradient="5.586" vmax="24" vmaxr="24">
+			<vzg index="1" vmax="24" vmaxr="24"/>
+		</link>
+		<link source="59351" target="59352.highm" length="62" gradient="5.586" vmax="24" vmaxr="24">
+			<vzg index="1" vmax="24" vmaxr="24"/>
+		</link>
+	</links>
+	<dependentLinks/>
+	<blockSections>
+		<blocksection uuid="{851d75dc-a9cb-49bf-b9ac-31168e84d4c6}" lines="ea1340 highm leaj">
+			<part nodes="59304.leaj 59329 59338.highm"/>
+		</blocksection>
+		<blocksection uuid="{9fe07fd4-f7a7-4d15-992f-f2b668a22e7c}" lines="ea1340 highm leaj">
+			<part nodes="59304.leaj 59329 59338.highm"/>
+		</blocksection>
+		<blocksection uuid="{d8006930-0a0c-4ae0-9ed5-e10ecbbb8ee8}" lines="ea1340 highm leaj">
+			<part nodes="59352.highm 59351 59348 59342 59350 1 59305.leaj"/>
+		</blocksection>
+	</blockSections>
+	<slipDistances>
+		<slipdistance uuid="{bfbda5f1-7dbe-4d20-a134-6bac7f7b27ba}" publicName="Lea Jn" vmax="999" lines="ea1340 highm" serialNumber="0">
+			<part nodes="59352.highm 59351"/>
+		</slipdistance>
+	</slipDistances>
+	<approachControlRoutes/>
+	<stationRoutes/>
+	<lineCatalog/>
+	<zugNummernFelder/>
+	<switchGears/>
+</line>

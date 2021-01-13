@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<line lineID="yates" name="Yates South" trafficRouting="on_the_left" type="global" dependentLines="gw400 gw430 gw440">
+	<transformations>
+		<transformation line="gw400" m11="1" m12="0" m21="0" m22="1" dx="-18149.6" dy="-268252"/>
+		<transformation line="gw400b" m11="1" m12="0" m21="0" m22="1" dx="-17986.7" dy="-268244"/>
+		<transformation line="gw430" m11="-0.62932" m12="0.777146" m21="-0.777146" m22="-0.62932" dx="669187" dy="-898490"/>
+		<transformation line="gw440" m11="1" m12="0" m21="0" m22="1" dx="-678405" dy="40125.3"/>
+	</transformations>
+	<version major="1" minor="2" patchlevel="0" comment=""/>
+	<creator user="Ahowe4" timestamp="2016-11-01T12:54:22"/>
+	<lasteditor user="Ahowe4" timestamp="2016-11-01T12:54:22"/>
+	<stations>
+		<station stationID="YATE" name="YATE STATION" xNet="-1672045" yNet="732963.65" uicLocationCode="0" circleDiameter="0">
+			<textElement type="name">
+				<pos view="net" x="724.611" y="724.611" angle="0" system="source"/>
+				<pos view="wgs84" x="724.611" y="724.611" angle="0" system="source"/>
+				<pos view="line" x="722.948" y="722.948" angle="0" system="source"/>
+				<pos view="macro" x="28.2843" y="28.2843" angle="0" system="source"/>
+				<pos view="macroWgs84" x="0" y="0" angle="0" system="source"/>
+			</textElement>
+		</station>
+		<station stationID="YATEMDL" name="YATE MIDDLE JUNCTION" xNet="-1672486.15" yNet="734146.35" uicLocationCode="0" circleDiameter="0">
+			<textElement type="name">
+				<pos view="net" x="642.556" y="642.556" angle="0" system="source"/>
+				<pos view="wgs84" x="642.556" y="642.556" angle="0" system="source"/>
+				<pos view="line" x="762.013" y="762.013" angle="0" system="source"/>
+				<pos view="macro" x="28.2843" y="28.2843" angle="0" system="source"/>
+				<pos view="macroWgs84" x="0" y="0" angle="0" system="source"/>
+			</textElement>
+		</station>
+		<station stationID="YATES" name="YATE SOUTH JUNCTION" xNet="-1673107.4" yNet="728916.95" uicLocationCode="0" circleDiameter="0">
+			<textElement type="name">
+				<pos view="net" x="2291.09" y="2291.09" angle="0" system="source"/>
+				<pos view="wgs84" x="2291.09" y="2291.09" angle="0" system="source"/>
+				<pos view="line" x="2278.65" y="2278.65" angle="0" system="source"/>
+				<pos view="macro" x="28.2843" y="28.2843" angle="0" system="source"/>
+				<pos view="macroWgs84" x="0" y="0" angle="0" system="source"/>
+			</textElement>
+		</station>
+	</stations>
+	<nodes>
+		<node nodeID="11" name="GRAD" kilometre="193.171" x="1080710" y="-39400" xNet="-1673183" yNet="728573"/>
+		<node nodeID="12" name="GRAD" kilometre="193.171" x="1080710" y="-39200" xNet="-1672992" yNet="728529"/>
+		<track trackID="U-1" stationID="YATES" interlockingMachine="3 Aspect Pannel (76mph - 100mph)" nodeID="59" name="YATES SIG: 149" kilometre="193.451" x="1083510" y="-39400" xNet="-1673817" yNet="725846" referenceNode="1843"/>
+		<node nodeID="60" name="OL 149" kilometre="193.267" x="1081670" y="-39400" xNet="-1673399" yNet="727638"/>
+		<switch start="72" endOfMainTrack="60" endOfBranchTrack="616" nodeID="63" name="POINTS: 989B" kilometre="193.180" x="1080800" y="-39400" xNet="-1673204" yNet="728483"/>
+		<signal type="shunting" interlockingMachine="Shunt" nodeID="65" name="SIG: 607" kilometre="193.250" x="1081500" y="-39600" xNet="-1673556" yNet="727846" referenceNode="132"/>
+		<track trackID="D-2" stationID="YATES" interlockingMachine="3 Aspect Pannel (101mph - 125mph)" nodeID="1" name="YATES SIG: 136" kilometre="192.851" x="1077510" y="-39200" xNet="-1672272" yNet="731647" referenceNode="4"/>
+		<node nodeID="66" name="OL 136" kilometre="193.024" x="1079240" y="-39200" xNet="-1672661" yNet="729963"/>
+		<switch start="11" endOfMainTrack="2" endOfBranchTrack="70" nodeID="68" name="POINTS: 990A" description="GEOGIS S&amp;C|BGL2|148078263|[496][211173]|" kilometre="193.101" x="1080010" y="-39400" xNet="-1673025" yNet="729255"/>
+		<switch start="1" endOfMainTrack="66" endOfBranchTrack="71" nodeID="69" name="POINTS: 990B" description="GEOGIS S&amp;C|BGL2|148077781|[492][211070]|" kilometre="193.010" x="1079100" y="-39200" xNet="-1672630" yNet="730096"/>
+		<speedIndicator nodeID="70" name="SPEED" kilometre="193.100" x="1080000" y="-39398" xNet="-1673024" yNet="729263" referenceNode="1681"/>
+		<speedIndicator nodeID="71" name="SPEED" kilometre="193.011" x="1079110" y="-39202" xNet="-1672632" yNet="730088" referenceNode="69"/>
+		<track trackID="T-1" stationID="YATES" type="timingPoint" nodeID="72" name="YATES" kilometre="193.175" x="1080750" y="-39400" xNet="-1673196" yNet="728535" referenceNode="11"/>
+		<track trackID="T-2" stationID="YATES" type="timingPoint" nodeID="73" name="YATES" kilometre="193.175" x="1080750" y="-39200" xNet="-1672997" yNet="728489" referenceNode="12"/>
+		<track trackID="D-1" stationID="YATE" type="stopBoard" nodeID="74" name="YATE P1" kilometre="192.742" x="1076420" y="-39400" xNet="-1672221" yNet="732756" referenceNode="491"/>
+		<track trackID="U-1" stationID="YATE" type="stopBoard" nodeID="75" name="YATE P1" kilometre="192.695" x="1075950" y="-39400" xNet="-1672112" yNet="733211" referenceNode="491">
+			<platform startPos="-470" endPos="0" width="75" left="true" open="true"/>
+		</track>
+		<switch start="5" endOfMainTrack="14" endOfBranchTrack="13" nodeID="6" name="POINTS: 992A" description="GEOGIS S&amp;C|BGL2|148067246|[496][210681]|" kilometre="192.647" x="1075470" y="-39400" xNet="-1672008" yNet="733681"/>
+		<track trackID="D-2" stationID="YATE" type="stopBoard" nodeID="76" name="YATE P2" kilometre="192.682" x="1075820" y="-39200" xNet="-1671892" yNet="733292" referenceNode="77">
+			<platform startPos="-470" endPos="0" width="75" left="true" open="true"/>
+		</track>
+		<track trackID="U-2" stationID="YATE" type="stopBoard" nodeID="77" name="YATE P2" kilometre="192.636" x="1075360" y="-39200" xNet="-1671788" yNet="733744" referenceNode="76"/>
+		<track trackID="T-1" stationID="YATEMDL" type="timingPoint" nodeID="81" name="YATEMDL" kilometre="192.658" x="1075580" y="-39400" xNet="-1672029" yNet="733571" referenceNode="5"/>
+		<signal type="shunting" interlockingMachine="Shunt" nodeID="5" name="SIG: 609" kilometre="192.655" x="1075550" y="-39400" xNet="-1672022" yNet="733603" referenceNode="81"/>
+		<speedIndicator nodeID="616" name="SPEED" kilometre="193.181" x="1080810" y="-39403" xNet="-1673209" yNet="728476" referenceNode="63"/>
+		<node nodeID="1680" kilometre="193.024" x="1079238.4" y="-39230.262" xNet="-1672688" yNet="729968" referenceNode="71" releaseContact="true" arranged="true"/>
+		<node nodeID="1681" kilometre="193.081" x="1079812.1" y="-39356.629" xNet="-1672941" yNet="729437" referenceNode="70" releaseContact="true" arranged="true"/>
+		<track trackID="T-1" stationID="YATE" type="timingPoint" nodeID="491" kilometre="192.721" x="1076205.6" y="-39400" xNet="-1672171.2" yNet="732963.5" referenceNode="75"/>
+		<track trackID="T-2" stationID="YATE" type="timingPoint" nodeID="496" kilometre="192.722" x="1076222.4" y="-39200" xNet="-1671982.5" yNet="732900.4" referenceNode="76"/>
+		<stationBorder exitType="regular" stationID="YATES" lineID="gw400" trackNumber="1" nodeID="2" name="[YATE] - [gw400/1]" kilometre="193.000" x="1079000" y="-39400" xNet="-1672799" yNet="730237" referenceNode="68"/>
+		<stationBorder exitType="regular" stationID="YATES" lineID="gw400" trackNumber="1" nodeID="1843" name="[WSTLGHJ] - [gw400/1]" kilometre="193.455" x="1083546" y="-39400" xNet="-1673825.1" yNet="725810.9" referenceNode="59"/>
+		<stationBorder exitType="alternative" stationID="YATES" lineID="gw400" trackNumber="2" nodeID="4" name="[YATE] - [gw400/2]" kilometre="192.812" x="1077123.7" y="-39200" xNet="-1672185.1" yNet="732023" referenceNode="1"/>
+		<stationBorder exitType="regular" stationID="YATES" lineID="gw400" trackNumber="2" nodeID="1845" name="[WSTLGHJ] - [gw400/2]" kilometre="193.261" x="1081614" y="-39200" xNet="-1673192.6" yNet="727647.5" referenceNode="73"/>
+		<stationBorder exitType="regular" stationID="YATE" lineID="gw400" trackNumber="1" nodeID="1886" name="[YATES] - [gw400/1]" kilometre="192.819" x="1077194" y="-39400" xNet="-1672394.4" yNet="732000.3" referenceNode="74"/>
+		<stationBorder exitType="regular" stationID="YATE" lineID="gw400" trackNumber="1" nodeID="1887" name="[YATEMDL] - [gw400/1]" kilometre="192.684" x="1075839" y="-39400" xNet="-1672087.1" yNet="733319" referenceNode="75"/>
+		<stationBorder exitType="alternative" stationID="YATE" lineID="gw400" trackNumber="1" nodeID="1888" name="[DUMRV136] - [gw400/1]" kilometre="192.616" x="1075159" y="-39200" xNet="-1671695.6" yNet="733927" referenceNode="77">
+			<netLimitInfo lineID="gw400"/>
+		</stationBorder>
+		<stationBorder exitType="regular" stationID="YATE" lineID="gw400" trackNumber="2" nodeID="1889" name="[YATES] - [gw400/2]" kilometre="192.749" x="1076492.8" y="-39200" xNet="-1672043.3" yNet="732637.2" referenceNode="496"/>
+		<stationBorder exitType="regular" stationID="YATEMDL" lineID="gw400" trackNumber="1" nodeID="1894" name="[YATE] - [gw400/1]" kilometre="192.666" x="1075657.7" y="-39400" xNet="-1672046.4" yNet="733495.4" referenceNode="81"/>
+		<switch start="39" endOfMainTrack="25" endOfBranchTrack="41" nodeID="40" name="POINTS" kilometre="0.040" x="1074891.4" y="-40102.242" xNet="-1672332.1" yNet="734007.6"/>
+		<node nodeID="41" name="OL" kilometre="0.060" x="1074609.3" y="-40121.972" xNet="-1672361.7" yNet="734288.9"/>
+		<signal type="shunting" interlockingMachine="Shunt" nodeID="38" name="SIG: 504" kilometre="0.025" x="1074989.8" y="-39989.035" xNet="-1672215.6" yNet="733913.2" referenceNode="39"/>
+		<node nodeID="23" name="OL" kilometre="0.210" x="1073776.1" y="-41385.248" xNet="-1673653.3" yNet="735077.5">
+			<netLimitInfo lineID="gw430"/>
+		</node>
+		<node nodeID="24" name="OL" kilometre="0.210" x="1073625.2" y="-41254.036" xNet="-1673527.4" yNet="735232.9">
+			<netLimitInfo lineID="gw430"/>
+		</node>
+		<node nodeID="25" name="OL" kilometre="0.060" x="1074760.2" y="-40253.184" xNet="-1672487.6" yNet="734133.5"/>
+		<track trackID="U-3" stationID="YATES" interlockingMachine="2 Aspect Pannel (Below 75mph)" nodeID="114" name="SIG: XXX" description="BGL2" kilometre="193.400" x="1083458.5" y="-39740.562" xNet="-1674004.3" yNet="726360.7" referenceNode="1842"/>
+		<node nodeID="132" name="GRAD_con" kilometre="193.300" x="1082458.5" y="-39740.562" xNet="-1673715.9" yNet="727320.7"/>
+		<signal interlockingMachine="2 Aspect Pannel (Below 75mph)" nodeID="130" name="SIG: XXX" description="BGL2" kilometre="193.420" x="1083654.4" y="-39740.562" xNet="-1674067.8" yNet="726175.4" referenceNode="1842"/>
+		<node nodeID="3" name="[WSTLRTS] - [gw440/1]" kilometre="193.474" x="1084195.6" y="-39740.562" xNet="-1674244" yNet="725663.8">
+			<netLimitInfo lineID="gw440"/>
+		</node>
+		<stationBorder exitType="regular" stationID="YATES" lineID="gw440" trackNumber="1" nodeID="1842" kilometre="193.408" x="1083536.8" y="-39740.562" xNet="-1674029.7" yNet="726286.6" referenceNode="114"/>
+		<stationBorder exitType="regular" stationID="YATEMDL" lineID="gw400" trackNumber="2" nodeID="14" kilometre="192.605" x="1075053.3" y="-39400" xNet="-1671852.1" yNet="733986.8" referenceNode="6">
+			<netLimitInfo lineID="gw400"/>
+		</stationBorder>
+		<kilometreInconsistency newKilometre="192.645" nodeID="37" kilometre="0.002" x="1075140.7" y="-39815.452" xNet="-1672036.8" yNet="733768.5" referenceNode="38"/>
+		<signal interlockingMachine="Phone For Authorisation" nodeID="9" name="INCOMING PFA" description="TELEPHONE SIGNALMAN" kilometre="0.100" x="1074497.8" y="-40555.068" xNet="-1672798.4" yNet="734385.2" referenceNode="62"/>
+		<stationBorder exitType="regular" stationID="YATEMDL" lineID="gw430" trackNumber="1" netBorder="true" nodeID="62" kilometre="0.141" x="1074226.2" y="-40867.53" xNet="-1673120.2" yNet="734645.8" referenceNode="9"/>
+		<stationBorder exitType="alternative" stationID="YATEMDL" lineID="gw430" trackNumber="2" netBorder="true" nodeID="64" kilometre="0.141" x="1074079.2" y="-40731.687" xNet="-1672989.5" yNet="734797.3" referenceNode="10"/>
+		<speedIndicator nodeID="13" name="SPEED" kilometre="192.646" x="1075300" y="-39600" xNet="-1672018.8" yNet="733712.6" referenceNode="6"/>
+		<track trackID="S-1" stationID="YATEMDL" interlockingMachine="Phone For Authorisation" nodeID="39" name="PFA" description="AWAIT INSTRUCTIONS" kilometre="0.030" x="1074957" y="-40026.771" xNet="-1672254.4" yNet="733944.7" referenceNode="38"/>
+		<track trackID="S-2" stationID="YATEMDL" interlockingMachine="Phone For Authorisation" nodeID="10" name="OUTGOING PFA" description="TELEPHONE SIGNALMAN" kilometre="0.100" x="1074346.8" y="-40423.856" xNet="-1672672.6" yNet="734540.7" referenceNode="64"/>
+		<speedIndicator nodeID="242" kilometre="193.422" x="1083220" y="-39400" xNet="-1673751.1" yNet="726128.47" referenceNode="60"/>
+		<speedIndicator nodeID="1849" kilometre="193.422" x="1083220.8" y="-39200" xNet="-1673556.4" yNet="726082.52" referenceNode="1845"/>
+		<node nodeID="7" name="SPEED" kilometre="193.463" x="1083630" y="-39400" xNet="-1673844" yNet="725729">
+			<netLimitInfo lineID="gw400"/>
+		</node>
+		<node nodeID="8" name="SPEED" kilometre="193.463" x="1083630" y="-39200" xNet="-1673649" yNet="725684">
+			<netLimitInfo lineID="gw400"/>
+		</node>
+	</nodes>
+	<links>
+		<link source="1" target="69" length="159" gradient="2.208" vmax="145" vmaxr="145" radius="2100"/>
+		<link source="2" target="68" length="101" gradient="2.208" vmax="145" vmaxr="145" bidirectional="true" radius="1100"/>
+		<link source="3" target="130" length="54" vmax="32" vmaxr="32" bidirectional="true" radius="3100"/>
+		<link source="4" target="1" length="39" gradient="2.208" vmax="145" vmaxr="145" radius="2100"/>
+		<link source="5" target="81" length="3" gradient="2.208" vmax="145" vmaxr="145" bidirectional="true" radius="1100"/>
+		<link source="6" target="5" length="8" gradient="2.208" vmax="145" vmaxr="145" bidirectional="true" radius="1100"/>
+		<link source="9" target="62" length="41" vmax="32" vmaxr="32"/>
+		<link source="10" target="64" length="41" vmax="32" vmaxr="32"/>
+		<link source="11" target="72" length="4" gradient="6.667" vmax="145" vmaxr="145" radius="1100"/>
+		<link source="12" target="73" length="4" gradient="6.667" vmax="145" vmaxr="145" radius="2100"/>
+		<link source="13" target="6" length="1" gradient="2.208" vmax="145" vmaxr="145"/>
+		<link source="13" target="37" length="1" vmax="32" vmaxr="32"/>
+		<link source="14" target="6" length="42" gradient="2.208" vmax="145" vmaxr="145" bidirectional="true" radius="1100"/>
+		<link source="25" target="9" length="40" vmax="32" vmaxr="32"/>
+		<link source="37" target="38" length="23" vmax="32" vmaxr="32"/>
+		<link source="38" target="39" length="5" vmax="32" vmaxr="32"/>
+		<link source="39" target="40" length="10" vmax="32" vmaxr="32"/>
+		<link source="40" target="25" length="20" vmax="32" vmaxr="32"/>
+		<link source="40" target="41" length="20" vmax="32" vmaxr="32"/>
+		<link source="41" target="10" length="40" vmax="32" vmaxr="32"/>
+		<link source="59" target="1843" length="4" gradient="6.667" vmax="105" vmaxr="105" radius="1100"/>
+		<link source="60" target="242" length="155" gradient="6.667" vmax="145" vmaxr="145" radius="1100"/>
+		<link source="62" target="23" length="69" vmax="32" vmaxr="32"/>
+		<link source="63" target="60" length="87" gradient="6.667" vmax="145" vmaxr="145" radius="1100"/>
+		<link source="63" target="616" length="1" gradient="6.667" vmax="145" vmaxr="145" bidirectional="true" radius="-1100"/>
+		<link source="64" target="24" length="69" vmax="32" vmaxr="32"/>
+		<link source="66" target="12" length="147" gradient="2.208" vmax="145" vmaxr="145" radius="2100"/>
+		<link source="68" target="11" length="70" gradient="2.208" vmax="145" vmaxr="145" radius="1100"/>
+		<link source="69" target="66" length="14" gradient="2.208" vmax="145" vmaxr="145" radius="2100"/>
+		<link source="69" target="71" length="1" gradient="2.208" vmax="145" vmaxr="145"/>
+		<link source="70" target="68" length="1" gradient="2.208" vmax="145" vmaxr="145"/>
+		<link source="71" target="1680" length="13" gradient="2.208" vmax="64" vmaxr="64"/>
+		<link source="72" target="63" length="5" gradient="6.667" vmax="145" vmaxr="145" radius="1100"/>
+		<link source="73" target="1845" length="86" gradient="6.667" vmax="145" vmaxr="145" radius="2100"/>
+		<link source="74" target="1886" length="77" gradient="2.208" vmax="145" vmaxr="145" bidirectional="true" radius="1100"/>
+		<link source="75" target="491" length="26" gradient="2.208" vmax="145" vmaxr="145" bidirectional="true" radius="1100"/>
+		<link source="76" target="496" length="40" gradient="2.208" vmax="145" vmaxr="145" radius="2100"/>
+		<link source="77" target="76" length="46" gradient="2.208" vmax="145" vmaxr="145" radius="2100"/>
+		<link source="81" target="1894" length="8" gradient="2.208" vmax="145" vmaxr="145" bidirectional="true" radius="1100"/>
+		<link source="114" target="132" length="100" vmax="32" vmaxr="32" bidirectional="true" radius="3100"/>
+		<link source="130" target="1842" length="12" vmax="32" vmaxr="32" bidirectional="true" radius="3100"/>
+		<link source="132" target="65" length="50" gradient="-6.667" vmax="32" vmaxr="32" bidirectional="true"/>
+		<link source="242" target="59" length="29" gradient="6.667" vmax="105" vmaxr="105" radius="1100"/>
+		<link source="491" target="74" length="21" gradient="2.208" vmax="145" vmaxr="145" bidirectional="true" radius="1100"/>
+		<link source="496" target="1889" length="27" gradient="2.208" vmax="145" vmaxr="145" radius="2100"/>
+		<link source="616" target="65" length="69" gradient="6.667" vmax="32" vmaxr="32" bidirectional="true"/>
+		<link source="1680" target="1681" length="57" gradient="2.208" vmax="64" vmaxr="64"/>
+		<link source="1681" target="70" length="19" gradient="2.208" vmax="64" vmaxr="64"/>
+		<link source="1842" target="114" length="8" vmax="32" vmaxr="32" bidirectional="true" radius="3100"/>
+		<link source="1843" target="7" length="8" gradient="6.667" vmax="105" vmaxr="105" radius="1100"/>
+		<link source="1845" target="1849" length="161" gradient="6.667" vmax="145" vmaxr="145" radius="2100"/>
+		<link source="1849" target="8" length="41" gradient="6.667" vmax="105" vmaxr="105" radius="2100"/>
+		<link source="1886" target="2" length="181" gradient="2.208" vmax="145" vmaxr="145" bidirectional="true" radius="1100"/>
+		<link source="1887" target="75" length="11" gradient="2.208" vmax="145" vmaxr="145" bidirectional="true" radius="1100"/>
+		<link source="1888" target="77" length="20" gradient="2.208" vmax="145" vmaxr="145" radius="2100"/>
+		<link source="1889" target="4" length="63" gradient="2.208" vmax="145" vmaxr="145" radius="2100"/>
+		<link source="1894" target="1887" length="18" gradient="2.208" vmax="145" vmaxr="145" bidirectional="true" radius="1100"/>
+	</links>
+	<dependentLinks/>
+	<blockSections>
+		<blocksection uuid="{003c2e22-808a-4aec-8daf-4d33afb89c8b}" lines="yates" speedIndicators="13 616">
+			<part nodes="10 41 40 39 38 37 13 6 5 81 1894 1887 75 491 74 1886 2 68 11 72 63 616 65 132 114 1842 130"/>
+		</blocksection>
+		<blocksection uuid="{0787fe0c-e913-43c5-9051-6f543d7bd8c2}" lines="gw400 west yates" shuntingBlock="true">
+			<part nodes="7 1843 59"/>
+		</blocksection>
+		<blocksection uuid="{07d29b42-680e-4a6d-8f92-5a6255bbb8b2}" lines="gw440 yates">
+			<part nodes="130 3"/>
+		</blocksection>
+		<blocksection uuid="{1236d3a0-15f3-4f08-b45d-7b42e3b8ca38}" lines="yates" shuntingBlock="true" speedIndicators="242">
+			<part nodes="59 242 60 63 72 11 68 2 1886 74 491 75 1887 1894 81 5"/>
+		</blocksection>
+		<blocksection uuid="{1aad7035-800f-47b2-bec4-ea5d89858556}" lines="yates" speedIndicators="13 616">
+			<part nodes="9 25 40 39 38 37 13 6 5 81 1894 1887 75 491 74 1886 2 68 11 72 63 616 65 132 114 1842 130"/>
+		</blocksection>
+		<blocksection uuid="{1b0d36f7-7383-40ec-ad54-f6a5c7fdcc19}" lines="gw440 yates">
+			<part nodes="3 130 1842 114"/>
+		</blocksection>
+		<blocksection uuid="{1b6020c7-e8e4-411f-b486-4894675f2ecb}" lines="gw400 yates" speedIndicators="242">
+			<part nodes="59 242 60 63 72 11 68 2 1886 74 491 75 1887 1894 81 5 6 14"/>
+		</blocksection>
+		<blocksection uuid="{23637390-2242-43c5-a104-7c2b200dc6f9}" lines="yates" shuntingBlock="true">
+			<part nodes="65 132 114 1842 130"/>
+		</blocksection>
+		<blocksection uuid="{33966328-390e-42b4-9403-dc043d76c49d}" lines="yates" speedIndicators="13 242">
+			<part nodes="59 242 60 63 72 11 68 2 1886 74 491 75 1887 1894 81 5 6 13 37 38 39"/>
+		</blocksection>
+		<blocksection uuid="{3884cc7b-4637-44ff-913f-7982d36eaa61}" lines="yates" shuntingBlock="true">
+			<part nodes="9 25 40 39 38"/>
+		</blocksection>
+		<blocksection uuid="{3c9cb2a5-ac44-4dca-b189-86a6197889ac}" lines="gw400 west yates">
+			<part nodes="7 1843 59"/>
+		</blocksection>
+		<blocksection uuid="{5093a294-52ec-4d24-8e3f-9ccd94ac8dba}" lines="yates" shuntingBlock="true">
+			<part nodes="114 132 65"/>
+		</blocksection>
+		<blocksection uuid="{55ae7f98-6bcf-4675-8952-29c4438a725d}" lines="yates" shuntingBlock="true">
+			<part nodes="10 41 40 39 38"/>
+		</blocksection>
+		<blocksection uuid="{5a3e0dfa-9650-48aa-b5be-958a07ad40eb}" lines="gw430 yates">
+			<part nodes="23 62 9"/>
+		</blocksection>
+		<blocksection uuid="{5c9e2446-d5ab-4211-9735-c79966c079bf}" lines="gw400 yates" speedIndicators="13 242">
+			<part nodes="39 38 37 13 6 5 81 1894 1887 75 491 74 1886 2 68 11 72 63 60 242 59 1843 7"/>
+		</blocksection>
+		<blocksection uuid="{608df571-c4b4-48e9-bbea-c3c44a027ffc}" lines="gw400 yates" speedIndicators="70 71">
+			<part nodes="1 69 71 1680 1681 70 68 11 72 63 60 242 59 1843 7"/>
+		</blocksection>
+		<blocksection uuid="{646c6d93-4216-462f-bbe3-800b97eb8732}" lines="gw440 yates">
+			<part nodes="3 130 1842 114"/>
+		</blocksection>
+		<blocksection uuid="{657a12c9-0795-4ae7-b4f2-2b0fa20125f5}" lines="gw400 yates" speedIndicators="1849">
+			<part nodes="1 69 66 12 73 1845 1849 8"/>
+		</blocksection>
+		<blocksection uuid="{6984e706-972d-43ea-adaa-ec1d4d284175}" lines="gw400 yates" speedIndicators="13 242">
+			<part nodes="9 25 40 39 38 37 13 6 5 81 1894 1887 75 491 74 1886 2 68 11 72 63 60 242 59 1843 7"/>
+		</blocksection>
+		<blocksection uuid="{73b2cdf6-77e7-4a67-b3cb-29a0dfd4a39e}" lines="yates">
+			<part nodes="114 1842 130"/>
+		</blocksection>
+		<blocksection uuid="{76038ad0-8061-45f8-aec5-3ced4b7a700f}" lines="gw400 yates" speedIndicators="13 242">
+			<part nodes="10 41 40 39 38 37 13 6 5 81 1894 1887 75 491 74 1886 2 68 11 72 63 60 242 59 1843 7"/>
+		</blocksection>
+		<blocksection uuid="{7632bd43-44a8-483a-bbb9-d120f8d8c51e}" lines="gw440 yates">
+			<part nodes="130 3"/>
+		</blocksection>
+		<blocksection uuid="{81e41438-94b2-438a-ae60-043252288162}" lines="yates" shuntingBlock="true" speedIndicators="13 616">
+			<part nodes="38 37 13 6 5 81 1894 1887 75 491 74 1886 2 68 11 72 63 616 65 132 114 1842 130"/>
+		</blocksection>
+		<blocksection uuid="{8548ce49-3272-44d7-b7ad-66cb78db4fa3}" lines="gw400 yates" speedIndicators="616">
+			<part nodes="114 132 65 616 63 72 11 68 2 1886 74 491 75 1887 1894 81 5 6 14"/>
+		</blocksection>
+		<blocksection uuid="{8e4b9d39-08a9-412d-b08e-0db225a80717}" lines="gw400 yates">
+			<part nodes="59 1843 7"/>
+		</blocksection>
+		<blocksection uuid="{9404e90b-1cf1-4785-942e-a0ec5c1fb92f}" lines="gw440 yates">
+			<part nodes="130 3"/>
+		</blocksection>
+		<blocksection uuid="{9cef459a-8b02-4bec-b4f1-061cab55175e}" lines="gw400 west yates">
+			<part nodes="7 1843 59"/>
+		</blocksection>
+		<blocksection uuid="{a5bfcf09-3c18-4163-88e2-190591383a54}" lines="gw440 yates">
+			<part nodes="3 130 1842 114"/>
+		</blocksection>
+		<blocksection uuid="{a97f4fee-f105-4241-8e63-202d03c4a1ec}" lines="yates" shuntingBlock="true" speedIndicators="616">
+			<part nodes="5 81 1894 1887 75 491 74 1886 2 68 11 72 63 616 65 132 114 1842 130"/>
+		</blocksection>
+		<blocksection uuid="{ad6f62a5-cc96-4c8e-8319-462fc10a267c}" lines="yates" speedIndicators="13 616">
+			<part nodes="114 132 65 616 63 72 11 68 2 1886 74 491 75 1887 1894 81 5 6 13 37 38 39"/>
+		</blocksection>
+		<blocksection uuid="{aff705d9-c9ae-498d-afaa-4711cec281fc}" lines="yates" shuntingBlock="true" speedIndicators="616">
+			<part nodes="65 616 63 72 11 68 2 1886 74 491 75 1887 1894 81 5"/>
+		</blocksection>
+		<blocksection uuid="{b845c328-a568-4d61-9d7e-516962cb15cb}" lines="gw430 yates">
+			<part nodes="24 64 10"/>
+		</blocksection>
+		<blocksection uuid="{b99724ba-b20c-484a-a8e6-125f1c9259ac}" lines="gw440 yates">
+			<part nodes="3 130 1842 114"/>
+		</blocksection>
+		<blocksection uuid="{bd598036-f9f3-4dda-8258-cc5e8cd1703e}" lines="yates" speedIndicators="70 71 616">
+			<part nodes="1 69 71 1680 1681 70 68 11 72 63 616 65 132 114 1842 130"/>
+		</blocksection>
+		<blocksection uuid="{c0c5abb4-dfdb-4c18-b514-e537e0743bb2}" lines="yates" shuntingBlock="true" speedIndicators="13">
+			<part nodes="5 6 13 37 38 39"/>
+		</blocksection>
+		<blocksection uuid="{c9eed228-3ab5-48c8-96a9-b7e73c9a3f24}" lines="yates" speedIndicators="13 616">
+			<part nodes="39 38 37 13 6 5 81 1894 1887 75 491 74 1886 2 68 11 72 63 616 65 132 114 1842 130"/>
+		</blocksection>
+		<blocksection uuid="{d7dac899-d220-45d8-8782-f4f26473f26a}" lines="gw430 yates">
+			<part nodes="9 62 23"/>
+		</blocksection>
+		<blocksection uuid="{de698397-5cbb-4e48-96c3-e552fef4dd4f}" lines="yates" shuntingBlock="true">
+			<part nodes="39 38"/>
+		</blocksection>
+		<blocksection uuid="{e0c1e6aa-90d9-4508-ae9e-40cfc70e86a0}" lines="gw430 yates">
+			<part nodes="39 40 25 9 62 23"/>
+		</blocksection>
+		<blocksection uuid="{e11910d5-8e81-449f-9626-06ceff8aaddc}" lines="gw400 yates" shuntingBlock="true" speedIndicators="242">
+			<part nodes="5 81 1894 1887 75 491 74 1886 2 68 11 72 63 60 242 59 1843 7"/>
+		</blocksection>
+		<blocksection uuid="{e7a57f1a-0dc5-4377-b0cf-fa341b5db4b7}" lines="gw440 yates">
+			<part nodes="130 3"/>
+		</blocksection>
+		<blocksection uuid="{eb1a5dea-9250-4bee-b6f2-83ad4b03888f}" lines="gw400 yates" shuntingBlock="true">
+			<part nodes="5 6 14"/>
+		</blocksection>
+		<blocksection uuid="{f4284911-9428-4fa0-96ad-23bcb9c8a19b}" lines="yates" shuntingBlock="true">
+			<part nodes="38 39"/>
+		</blocksection>
+		<blocksection uuid="{f9b2152e-d1c4-4c5b-8e6a-5bd618e44803}" lines="gw400 yates">
+			<part nodes="1888 77 76 496 1889 4 1"/>
+		</blocksection>
+		<blocksection uuid="{fa552ee3-e2bb-44d0-a952-a05bd6daf2db}" lines="gw400 yates" shuntingBlock="true" speedIndicators="13 242">
+			<part nodes="38 37 13 6 5 81 1894 1887 75 491 74 1886 2 68 11 72 63 60 242 59 1843 7"/>
+		</blocksection>
+		<blocksection uuid="{fef1d28b-34f5-473a-b679-c9d0b3cd918e}" lines="gw440 yates">
+			<part nodes="130 3"/>
+		</blocksection>
+	</blockSections>
+	<slipDistances>
+		<slipdistance uuid="{0bfe9371-bb31-42c1-a6e4-a8eba75e260b}" vmax="999" lines="yates" serialNumber="0">
+			<part nodes="9 25"/>
+		</slipdistance>
+		<slipdistance uuid="{4cb9b81e-630b-436c-8995-c8831f9473d0}" vmax="999" lines="yates" serialNumber="1">
+			<part nodes="39 40 41 10 64 24"/>
+		</slipdistance>
+		<slipdistance uuid="{58a55ada-4254-4981-b9ca-f721d25f524b}" vmax="999" lines="yates" serialNumber="0">
+			<part nodes="59 242 60"/>
+		</slipdistance>
+		<slipdistance uuid="{748c5d73-6e3e-44e3-835b-3c403d89d2e8}" vmax="999" lines="yates" serialNumber="0">
+			<part nodes="39 40 25 9 62 23"/>
+		</slipdistance>
+		<slipdistance uuid="{82392ea0-a124-4a51-b34d-0fbc01497a8c}" vmax="999" lines="yates" serialNumber="0">
+			<part nodes="1 69 66"/>
+		</slipdistance>
+		<slipdistance uuid="{fc135fd2-afd6-4d4f-845d-7213162e58b4}" vmax="999" lines="yates" serialNumber="0">
+			<part nodes="10 41"/>
+		</slipdistance>
+	</slipDistances>
+	<approachControlRoutes/>
+	<stationRoutes>
+		<stationRoute stationID="YATE" name="[DUMRV13]-[gw400/1]-[2]-[YATES]-[gw400/2] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="1888 77 76 496 1889"/>
+		<stationRoute stationID="YATE" name="[YATEMDL]-[gw400/1]-[1]-[YATES]-[gw400/1] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="1887 75 491 74 1886"/>
+		<stationRoute stationID="YATE" name="[YATES]-[gw400/1]-[1]-[YATEMDL]-[gw400/1] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="1886 74 491 75 1887"/>
+		<stationRoute stationID="YATEMDL" name="Route" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="1894 81 5 6 13 37 38 39 40 25 9 62"/>
+		<stationRoute stationID="YATEMDL" name="[DUMYWLP]-[gw430/1]-[1]-[YATE]-[gw400/1] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=95;NRz=95;S=95;Rz=95;FGz=95;NGz=95;Gz=95;Lz=95;Unbekannt=95" nodes="62 9 25 40 39 38 37 13 6 5 81 1894"/>
+		<stationRoute stationID="YATEMDL" name="[DUMYWLP]-[gw430/2]-[1]-[YATE]-[gw400/1] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=90;NRz=90;S=90;Rz=90;FGz=90;NGz=90;Gz=90;Lz=90;Unbekannt=90" nodes="64 10 41 40 39 38 37 13 6 5 81 1894"/>
+		<stationRoute stationID="YATEMDL" name="[YATE]-[gw400/1]-[1]-[WCKWART]-[gw400/2] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="1894 81 5 6 14"/>
+		<stationRoute stationID="YATES" name="[WSTLGHJ]-[gw400/1]-[1]-[YATE]-[gw400/1] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="1843 59 242 60 63 72 11 68 2"/>
+		<stationRoute stationID="YATES" name="[WSTLRTS]-[gw440/1]-[1-3]-[YATE]-[gw400/1] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=95;NRz=95;S=95;Rz=95;FGz=95;NGz=95;Gz=95;Lz=95;Unbekannt=95" nodes="1842 114 132 65 616 63 72 11 68 2"/>
+		<stationRoute stationID="YATES" name="[YATE]-[gw400/1]-[1]-[WSTLGHJ]-[gw400/1] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="2 68 11 72 63 60 242 59 1843"/>
+		<stationRoute stationID="YATES" name="[YATE]-[gw400/1]-[1]-[WSTLRTS]-[gw440/1] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=95;NRz=95;S=95;Rz=95;FGz=95;NGz=95;Gz=95;Lz=95;Unbekannt=95" nodes="2 68 11 72 63 616 65 132 114 1842"/>
+		<stationRoute stationID="YATES" name="[YATE]-[gw400/2]-[1-2]-[WSTLGHJ]-[gw400/1] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=90;NRz=90;S=90;Rz=90;FGz=90;NGz=90;Gz=90;Lz=90;Unbekannt=90" nodes="4 1 69 71 1680 1681 70 68 11 72 63 60 242 59 1843"/>
+		<stationRoute stationID="YATES" name="[YATE]-[gw400/2]-[1-2]-[WSTLRTS]-[gw440/1] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=85;NRz=85;S=85;Rz=85;FGz=85;NGz=85;Gz=85;Lz=85;Unbekannt=85" nodes="4 1 69 71 1680 1681 70 68 11 72 63 616 65 132 114 1842"/>
+		<stationRoute stationID="YATES" name="[YATE]-[gw400/2]-[2]-[WSTLGHJ]-[gw400/2] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="4 1 69 66 12 73 1845"/>
+	</stationRoutes>
+	<lineCatalog/>
+	<zugNummernFelder/>
+	<switchGears/>
+</line>

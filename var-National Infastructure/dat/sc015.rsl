@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<line lineID="sc015" name="Mossend North Jn - Mossend East Jn" trafficRouting="on_the_left" type="local" dependentLines="holtw monj mrypkj">
+	<version major="1" minor="2" patchlevel="0" comment=""/>
+	<creator user="VWaddelo" timestamp="2016-07-08T10:58:15"/>
+	<lasteditor user="VWaddelo" timestamp="2016-07-08T10:58:15"/>
+	<stations/>
+	<nodes>
+		<speedIndicator nodeID="711" name="SPEED" description="Speed" kilometre="0.270" x="-54456.467" y="-462408.45" xNet="-3049014.1" yNet="9042435" referenceNode="713"/>
+		<speedIndicator nodeID="712" name="SPEED" description="Speed" kilometre="0.270" x="-56016.162" y="-462211.26" xNet="-3048845.4" yNet="9042602.7" referenceNode="11"/>
+		<node nodeID="715" name="SD : M336" description="sighting distance for SIG : M336" kilometre="0.458" x="-54058.093" y="-462211.26" xNet="-3047647.7" yNet="9041717.8" referenceNode="712" sightingDistance="true"/>
+		<node nodeID="718" name="SD : M321" description="sighting distance for SIG : M321" kilometre="0.239" x="-55662.703" y="-462408.45" xNet="-3049259.2" yNet="9042660" referenceNode="711" sightingDistance="true"/>
+		<node nodeID="716" kilometre="0.520" x="-51160.954035863" y="-462197.700959734" xNet="-3046995.24232097" yNet="9041249.94861624"/>
+		<node nodeID="713" kilometre="0.508" x="-50734.3584358161" y="-462395.156216037" xNet="-3047052.07519165" yNet="9041080.90540513"/>
+		<node nodeID="11" kilometre="0.010" x="-59754.1202749893" y="-462210.047295055" xNet="-3050475.43691932" yNet="9044036.31906078"/>
+	</nodes>
+	<links>
+		<link source="11" target="712" length="260" gradient="11.628" vmax="48" vmaxr="48"/>
+		<link source="128.monj" target="11" length="10" gradient="11.628" vmax="48" vmaxr="48" owner="2017 10-12" buildingActivityNetworkSegment="Grangemo"/>
+		<link source="711" target="713" length="238" gradient="11.628" vmax="64" vmaxr="64"/>
+		<link source="712" target="715" length="188" gradient="11.628" vmax="64" vmaxr="64"/>
+		<link source="713" target="101.holtw" length="32" gradient="11.628" vmax="64" vmaxr="64" electrification="electrified" owner="2018 01-03" buildingActivityNetworkSegment="Shotts"/>
+		<link source="715" target="716" length="62" gradient="11.628" vmax="64" vmaxr="64"/>
+		<link source="716" target="107.holtw" length="20" gradient="11.628" vmax="64" vmaxr="64" electrification="electrified" owner="2018 01-03" buildingActivityNetworkSegment="Shotts"/>
+		<link source="718" target="711" length="31" gradient="11.628" vmax="48" vmaxr="48"/>
+		<link source="722.monj" target="718" length="78" gradient="11.628" vmax="48" vmaxr="48"/>
+	</links>
+	<dependentLinks/>
+	<blockSections>
+		<blocksection uuid="{017f6adc-cc81-4b18-a264-13dfa5e968a5}" lines="holtw monj sc015" shuntingBlock="true" speedIndicators="712">
+			<part nodes="107.holtw 716 715 712 11 128.monj"/>
+		</blocksection>
+		<blocksection uuid="{1cafcb40-5970-4783-9c8d-de416ffec98d}" lines="holtw monj sc015" speedIndicators="712">
+			<part nodes="128.monj 11 712 715 716 107.holtw"/>
+		</blocksection>
+		<blocksection uuid="{233cb09f-1dc1-4a0b-ab98-4c634d8e6ac8}" lines="holtw monj sc015" speedIndicators="712">
+			<part nodes="128.monj 11 712 715 716 107.holtw"/>
+		</blocksection>
+		<blocksection uuid="{4ae0c376-9f6e-45f4-9534-413843ce462f}" lines="holtw monj sc015" speedIndicators="711">
+			<part nodes="722.monj 718 711 713 101.holtw"/>
+		</blocksection>
+		<blocksection uuid="{645618ed-f109-4635-b513-499729d79da6}" lines="holtw monj sc015" speedIndicators="712">
+			<part nodes="128.monj 11 712 715 716 107.holtw"/>
+		</blocksection>
+		<blocksection uuid="{93392387-2562-443f-b6eb-effe6c2502b1}" lines="holtw monj sc015" speedIndicators="711">
+			<part nodes="101.holtw 713 711 718 722.monj"/>
+		</blocksection>
+		<blocksection uuid="{bbbe7729-5ca0-4fd5-9ce5-9c2871e9ae58}" lines="holtw monj sc015" shuntingBlock="true" speedIndicators="711">
+			<part nodes="101.holtw 713 711 718 722.monj"/>
+		</blocksection>
+		<blocksection uuid="{d3bd71c8-18dd-4d3d-a932-de55a888ac51}" lines="holtw monj sc015" shuntingBlock="true" speedIndicators="711">
+			<part nodes="722.monj 718 711 713 101.holtw"/>
+		</blocksection>
+	</blockSections>
+	<slipDistances/>
+	<approachControlRoutes/>
+	<stationRoutes/>
+	<lineCatalog/>
+	<zugNummernFelder/>
+	<switchGears/>
+</line>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<line lineID="sc049" name="Terminus Jn - Muirhouse Cent Jn" trafficRouting="on_the_left" type="local" dependentLines="mhcj termj">
+	<version major="1" minor="2" patchlevel="0" comment=""/>
+	<creator user="VWaddelo" timestamp="2016-07-08T10:58:15"/>
+	<lasteditor user="VWaddelo" timestamp="2016-07-08T10:58:15"/>
+	<stations/>
+	<nodes>
+		<node nodeID="627" name="GRAD" kilometre="163.186" x="-14388" y="-457" xNet="-3222887.6" yNet="9063048.5"/>
+		<node nodeID="643" name="SD:To MUIRHOUSE JN" kilometre="163.190" x="-14353" y="-457" xNet="-3222879.7" yNet="9063129.5" referenceNode="31.termj" sightingDistance="true"/>
+	</nodes>
+	<links>
+		<link source="83.mhcj" target="627" length="50" gradient="-2.375" vmax="24" vmaxr="24" bidirectional="true"/>
+		<link source="627" target="643" length="4" gradient="-4.049" vmax="24" vmaxr="24" bidirectional="true"/>
+		<link source="643" target="31.termj" length="104" gradient="-4.049" vmax="24" vmaxr="24" bidirectional="true"/>
+	</links>
+	<dependentLinks/>
+	<blockSections>
+		<blocksection uuid="{5db511bb-ca3a-4a16-94a7-57a6d2e08652}" lines="mhcj sc049 termj">
+			<part nodes="31.termj 643 627 83.mhcj"/>
+		</blocksection>
+		<blocksection uuid="{c79a767e-c3b2-41f6-8f98-addd42814622}" lines="mhcj sc049 termj">
+			<part nodes="83.mhcj 627 643 31.termj"/>
+		</blocksection>
+		<blocksection uuid="{de87ef8a-ed7d-4d70-85d8-c229399270d9}" lines="mhcj sc049 termj">
+			<part nodes="83.mhcj 627 643 31.termj"/>
+		</blocksection>
+	</blockSections>
+	<slipDistances/>
+	<approachControlRoutes/>
+	<stationRoutes/>
+	<lineCatalog/>
+	<zugNummernFelder/>
+	<switchGears/>
+</line>

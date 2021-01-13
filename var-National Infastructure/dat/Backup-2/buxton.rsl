@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<line lineID="buxton" name="Buxton" trafficRouting="on_the_left" type="global" dependentLines="nw9005 nw9019 nw9021">
+	<transformations>
+		<transformation line="nw9005" m11="1" m12="0" m21="0" m22="1" dx="-655536" dy="12750"/>
+		<transformation line="nw9019" m11="1" m12="0" m21="0" m22="1" dx="-3.16316e+06" dy="13922.8"/>
+	</transformations>
+	<version major="1" minor="2" patchlevel="0" comment=""/>
+	<creator user="VWaddelo" timestamp="2016-07-08T10:58:15"/>
+	<lasteditor user="VWaddelo" timestamp="2016-07-08T10:58:15"/>
+	<stations>
+		<station stationID="BUXTNO1" name="Buxton No. 1 Signal Box" xNet="-1066294.05" yNet="3974037.75" uicLocationCode="0" circleDiameter="0">
+			<textElement type="name">
+				<pos view="net" x="1745.11" y="1745.11" angle="0" system="source"/>
+				<pos view="wgs84" x="1745.11" y="1745.11" angle="0" system="source"/>
+				<pos view="line" x="1198.97" y="1198.97" angle="0" system="source"/>
+				<pos view="macro" x="28.2843" y="28.2843" angle="0" system="source"/>
+				<pos view="macroWgs84" x="0" y="0" angle="0" system="source"/>
+			</textElement>
+		</station>
+		<station stationID="BUXTON" name="Buxton" xNet="-1063489.25" yNet="3970345.35" uicLocationCode="0" circleDiameter="0">
+			<textElement type="name">
+				<pos view="net" x="2348.34" y="2348.34" angle="0" system="source"/>
+				<pos view="wgs84" x="2348.34" y="2348.34" angle="0" system="source"/>
+				<pos view="line" x="1580.59" y="1580.59" angle="0" system="source"/>
+				<pos view="macro" x="28.2843" y="28.2843" angle="0" system="source"/>
+				<pos view="macroWgs84" x="0" y="0" angle="0" system="source"/>
+			</textElement>
+		</station>
+		<station stationID="BUXTURS" name="Buxton Up Relief Sidings" xNet="-1066956.75" yNet="3976062.6" uicLocationCode="0" circleDiameter="0">
+			<textElement type="name">
+				<pos view="net" x="2418.04" y="2418.04" angle="0" system="source"/>
+				<pos view="wgs84" x="2418.04" y="2418.04" angle="0" system="source"/>
+				<pos view="line" x="1598.06" y="1598.06" angle="0" system="source"/>
+				<pos view="macro" x="28.2843" y="28.2843" angle="0" system="source"/>
+				<pos view="macroWgs84" x="0" y="0" angle="0" system="source"/>
+			</textElement>
+		</station>
+	</stations>
+	<nodes>
+		<node nodeID="14" name="1000MM" description="1000MM : 267" kilometre="267.000" x="3163704.5" y="-13697.795" xNet="-1064718" yNet="3973118.5">
+			<netLimitInfo lineID="nw9005"/>
+		</node>
+		<switch start="12" endOfMainTrack="296" endOfBranchTrack="7" nodeID="4" name="POINTS : 40" description="POINTS : 40; 14.91 mph; 165m 74.51ch" kilometre="267.041" x="3163294.5" y="-13697.795" xNet="-1065107.6" yNet="3973556.4"/>
+		<crossing type="ekw" startOfMainTrack="295" startOfBranchTrack="17" endOfMainTrack="296" endOfBranchTrack="5" nodeID="6" name="SS : 21" description="SS : 21; 165m 77.55ch" kilometre="267.102" x="3162684.5" y="-13697.795" xNet="-1065687.4" yNet="3974207.9"/>
+		<signal type="shunting" interlockingMachine="Shunt" nodeID="1" name="SIG : 43" description="Signal 43; 166m 0.54ch" kilometre="267.162" x="3162084.5" y="-13697.795" xNet="-1066257.7" yNet="3974848.8" referenceNode="10"/>
+		<speedIndicator nodeID="7" name="SPEED" description="Speed; 165m 74.56ch" kilometre="267.042" x="3163284.5" y="-13687.795" xNet="-1065107" yNet="3973577" referenceNode="4"/>
+		<signal type="shunting" interlockingMachine="Shunt" nodeID="2" name="SIG : 46" description="Signal 46; 166m 0.54ch" kilometre="267.162" x="3162084.5" y="-13297.795" xNet="-1065850" yNet="3975247.2" referenceNode="262"/>
+		<switch start="3" endOfMainTrack="15" endOfBranchTrack="17" nodeID="9" name="POINTS : 41b" description="POINTS : 41b;  mph;" kilometre="267.154" x="3162159.5" y="-13297.795" xNet="-1065778.7" yNet="3975167.1"/>
+		<signal interlockingMachine="Semaphore (Inner Home)" nodeID="249" name="SIG : Terminal" description="Signal Terminal;" kilometre="267.480" x="3158904.5" y="-13297.795" xNet="-1068872.4" yNet="3978643.6" referenceNode="262"/>
+		<signal interlockingMachine="Semaphore (Inner Home)" nodeID="239" name="SIG : Terminal" description="Signal Terminal;" kilometre="267.480" x="3158904.5" y="-13697.795" xNet="-1069280" yNet="3978245.2" referenceNode="22"/>
+		<node nodeID="15" name="tc" description="release contact for track circuit" kilometre="267.096" x="3162752.5" y="-13490.795" xNet="-1065411.8" yNet="3974341.5" referenceNode="7" releaseContact="true" arranged="true"/>
+		<node nodeID="16" name="tc" description="release contact for track circuit" kilometre="267.149" x="3162211" y="-13697.795" xNet="-1066137.4" yNet="3974713.6" referenceNode="295" releaseContact="true" arranged="true"/>
+		<node nodeID="17" name="tc" description="release contact for track circuit" kilometre="267.127" x="3162453.5" y="-13522.795" xNet="-1065728.6" yNet="3974628.9" referenceNode="6" releaseContact="true" arranged="true"/>
+		<node nodeID="18" kilometre="267.270" x="3160994.5" y="-13497.795" xNet="-1067089.8" yNet="3976212.2"/>
+		<node nodeID="274" kilometre="267.420" x="3159494.5" y="-13497.795" xNet="-1068515.4" yNet="3977814.3"/>
+		<node nodeID="20" kilometre="267.235" x="3161294.5" y="-13897.795" xNet="-1067212.4" yNet="3975493.3"/>
+		<switch start="1" endOfMainTrack="11" endOfBranchTrack="20" nodeID="10" name="POINTS :" description="POINTS : ;  mph;" kilometre="267.225" x="3161458.8" y="-13697.795" xNet="-1066852.4" yNet="3975517.1"/>
+		<switch start="249" endOfMainTrack="274" endOfBranchTrack="2" nodeID="262" name="POINTS :" description="POINTS : ;  mph;" kilometre="267.440" x="3159303.3" y="-13297.795" xNet="-1068493.3" yNet="3978217.7"/>
+		<switch start="10" endOfMainTrack="22" endOfBranchTrack="18" nodeID="11" name="POINTS :" description="POINTS : ;  mph;" kilometre="267.238" x="3161326.8" y="-13697.795" xNet="-1066977.8" yNet="3975658"/>
+		<signal interlockingMachine="Semaphore (Inner Home)" nodeID="277" name="SIG : Terminal" description="Signal Terminal;" kilometre="267.480" x="3158904.3" y="-13897.795" xNet="-1069484.1" yNet="3978046.2" referenceNode="21"/>
+		<node nodeID="278" name="tc" description="release contact for track circuit" kilometre="267.289" x="3160799.5" y="-13497.795" xNet="-1067275.1" yNet="3976420.4" referenceNode="18" releaseContact="true" arranged="true"/>
+		<node nodeID="21" name="tc" description="release contact for track circuit" kilometre="267.266" x="3160988.3" y="-13897.795" xNet="-1067503.4" yNet="3975820.4" referenceNode="277" releaseContact="true" arranged="true"/>
+		<node nodeID="22" name="tc" description="release contact for track circuit" kilometre="267.281" x="3160890.3" y="-13697.795" xNet="-1067392.7" yNet="3976124.2" referenceNode="11" releaseContact="true" arranged="true"/>
+		<track trackID="Z-1" stationID="BUXTURS" type="timingPoint" nodeID="3" kilometre="267.158" x="3162122" y="-13297.795" xNet="-1065814.3" yNet="3975207.1" referenceNode="9"/>
+		<stationBorder exitType="regular" stationID="BUXTURS" lineID="nw9005" trackNumber="1" nodeID="12" name="[TOPLEYP] - [n9005/1]" description="OL for SIG : 37" kilometre="267.033" x="3163374.5" y="-13697.795" xNet="-1065031.6" yNet="3973470.9" referenceNode="4"/>
+		<stationBorder exitType="locked" stationID="BUXTURS" trackNumber="" nodeID="237" name="Buffer stop 100" description="Buffer Stop" kilometre="267.481" x="3158894.5" y="-13697.795" xNet="-1069289.5" yNet="3978255.9" referenceNode="239"/>
+		<stationBorder exitType="locked" stationID="BUXTURS" trackNumber="" nodeID="248" name="Buffer stop 102" description="Buffer Stop" kilometre="267.481" x="3158894.5" y="-13297.795" xNet="-1068881.9" yNet="3978654.3" referenceNode="249"/>
+		<stationBorder exitType="locked" stationID="BUXTURS" trackNumber="" nodeID="276" name="Buffer stop 103" description="Buffer Stop" kilometre="267.481" x="3158894.5" y="-13897.795" xNet="-1069493.4" yNet="3978056.7" referenceNode="277"/>
+		<stationBorder exitType="regular" stationID="BUXTNO1" lineID="nw9019" trackNumber="1" nodeID="13" name="[HINDLS1] - [n9019/1]" kilometre="0.138" x="3164198.5" y="-13922.795" xNet="-1064477.8" yNet="3972366.8" referenceNode="23">
+			<netLimitInfo lineID="nw9019"/>
+		</stationBorder>
+		<node nodeID="23" kilometre="0.127" x="3164084.5" y="-13922.795" xNet="-1064586.1" yNet="3972488.5"/>
+		<speedIndicator nodeID="91" kilometre="30.135" x="3161267.9" y="-14159.529" xNet="-1067504.4" yNet="3975261.1" referenceNode="196"/>
+		<speedIndicator nodeID="156" kilometre="30.316" x="3163052.7" y="-14356.605" xNet="-1066008.9" yNet="3973158.5" referenceNode="187"/>
+		<node nodeID="187" kilometre="30.216" x="3162066.7" y="-14356.603" xNet="-1066946.1" yNet="3974211.6" referenceNode="156" sightingDistance="true"/>
+		<node nodeID="25" name="OL SIG: BN33" description="OL for SIG : SIG: BN33" kilometre="30.276" x="3162658.2" y="-14159.547" xNet="-1066183" yNet="3973776.1"/>
+		<node nodeID="192" kilometre="30.493" x="3164798.5" y="-14547.795" xNet="-1064544.5" yNet="3971103.4"/>
+		<switch start="195" endOfMainTrack="275" endOfBranchTrack="192" nodeID="191" name="POINTS: 12A" kilometre="30.465" x="3164521.9" y="-14356.608" xNet="-1064612.6" yNet="3971589.3"/>
+		<switch start="250" endOfMainTrack="263" endOfBranchTrack="191" nodeID="195" name="POINTS: 25A" kilometre="30.352" x="3163407.7" y="-14356.606" xNet="-1065671.6" yNet="3972779.4"/>
+		<switch start="238" endOfMainTrack="264" endOfBranchTrack="243" nodeID="27" name="POINTS: 25B" kilometre="30.433" x="3164206.3" y="-14159.567" xNet="-1064711.7" yNet="3972122.7"/>
+		<stationBorder exitType="regular" stationID="BUXTURS" lineID="nw9021" trackNumber="BUX" nodeID="5" kilometre="267.094" x="3162759.6" y="-13747.993" xNet="-1065667.2" yNet="3974077.8" referenceNode="6"/>
+		<switch start="246" endOfMainTrack="280" endOfBranchTrack="25" nodeID="28" name="POINTS: 30" kilometre="30.328" x="3163170.9" y="-14159.554" xNet="-1065695.7" yNet="3973228.5"/>
+		<node nodeID="26" name="POINTS : 28" description="POINTS : 28; 14,91 mph; 0m 4,42ch" kilometre="0.089" x="3163704.5" y="-13922.795" xNet="-1064947.3" yNet="3972894.4"/>
+		<kilometreInconsistency newKilometre="30.326" nodeID="244" kilometre="267.073" x="3163135.2" y="-14123.766" xNet="-1065693.3" yNet="3973302.3" referenceNode="245"/>
+		<switch start="246" endOfMainTrack="242" endOfBranchTrack="279" nodeID="19" name="POINTS: 39A" kilometre="30.339" x="3163278.2" y="-14159.555" xNet="-1065593.8" yNet="3973113.9"/>
+		<kilometreInconsistency newKilometre="0.002" nodeID="232" kilometre="30.341" x="3163287.8" y="-14154.235" xNet="-1065579.2" yNet="3973109" referenceNode="279"/>
+		<stationBorder exitType="alternative" stationID="BUXTNO1" lineID="nw9021" trackNumber="UM" nodeID="196" kilometre="30.092" x="3160848.8" y="-14159.523" xNet="-1067902.7" yNet="3975708.7" referenceNode="91">
+			<netLimitInfo lineID="nw9021"/>
+		</stationBorder>
+		<stationBorder exitType="regular" stationID="BUXTNO1" lineID="nw9021" trackNumber="DM" nodeID="197" kilometre="30.092" x="3160841.8" y="-14356.601" xNet="-1068110.3" yNet="3975519.9" referenceNode="241">
+			<netLimitInfo lineID="nw9021"/>
+		</stationBorder>
+		<stationBorder exitType="regular" stationID="BUXTNO1" lineID="nw9021" trackNumber="UM" nodeID="242" kilometre="30.356" x="3163448.9" y="-14159.557" xNet="-1065431.5" yNet="3972931.6" referenceNode="19"/>
+		<stationBorder exitType="regular" stationID="BUXTON" lineID="nw9021" trackNumber="UM" nodeID="243" kilometre="30.381" x="3163691.9" y="-14159.56" xNet="-1065200.6" yNet="3972672.1" referenceNode="27"/>
+		<stationBorder exitType="regular" stationID="BUXTNO1" lineID="nw9021" trackNumber="BUX" nodeID="245" kilometre="267.087" x="3162885.7" y="-13874.165" xNet="-1065676" yNet="3973817.4" referenceNode="244"/>
+		<stationBorder exitType="locked" stationID="BUXTON" trackNumber="" nodeID="168" kilometre="30.800" x="3167825" y="-14159.614" xNet="-1061272.4" yNet="3968257.6" referenceNode="24"/>
+		<stationBorder exitType="locked" stationID="BUXTON" trackNumber="" nodeID="149" kilometre="30.800" x="3167825" y="-14356.614" xNet="-1061473.2" yNet="3968061.3" referenceNode="190"/>
+		<stationBorder exitType="locked" stationID="BUXTON" trackNumber="" nodeID="193" kilometre="30.800" x="3167823.5" y="-14547.795" xNet="-1061669.5" yNet="3967872.5" referenceNode="194"/>
+		<track trackID="U-1" stationID="BUXTNO1" interlockingMachine="AB Starter (Block)" nodeID="188" name="SIG: BN33" kilometre="30.256" x="3162461" y="-14159.544" xNet="-1066370.5" yNet="3973986.8" referenceNode="309"/>
+		<track trackID="T-1" stationID="BUXTNO1" type="timingPoint" nodeID="246" kilometre="30.334" x="3163234.1" y="-14159.554" xNet="-1065635.7" yNet="3973161" referenceNode="28"/>
+		<track trackID="U-2" stationID="BUXTON" interlockingMachine="Buffer Stop" nodeID="24" name="Buffer Stop" kilometre="30.759" x="3167420.7" y="-14159.609" xNet="-1061656.6" yNet="3968689.3" referenceNode="233">
+			<platform startPos="-1455" endPos="-15" width="150" left="true" open="true"/>
+		</track>
+		<track trackID="U-99" stationID="BUXTON" interlockingMachine="Buffer Stop" nodeID="190" name="Buffer Stop" kilometre="30.759" x="3167420.7" y="-14356.613" xNet="-1061857.4" yNet="3968493.1" referenceNode="235"/>
+		<track trackID="U-1" stationID="BUXTON" interlockingMachine="Buffer Stop" nodeID="194" name="Buffer Stop" kilometre="30.759" x="3167419.5" y="-14547.795" xNet="-1062053.4" yNet="3968304" referenceNode="234">
+			<platform startPos="-1455" endPos="-15" width="150" left="false" open="true"/>
+		</track>
+		<track trackID="D-2" stationID="BUXTON" interlockingMachine="AB Starter (Block)" nodeID="233" name="SIG: BN18" kilometre="30.610" x="3165951.5" y="-14159.59" xNet="-1063053" yNet="3970258.6" referenceNode="24"/>
+		<track trackID="D-99" stationID="BUXTON" type="shunting" interlockingMachine="Shunt" nodeID="235" name="SIG: BN11" kilometre="30.540" x="3165259.8" y="-14356.609" xNet="-1063911.3" yNet="3970801.2" referenceNode="190"/>
+		<track trackID="D-1" stationID="BUXTON" interlockingMachine="AB Starter (Block)" nodeID="234" name="SIG: BN9" kilometre="30.610" x="3165951.4" y="-14547.795" xNet="-1063448.8" yNet="3969872.1" referenceNode="194"/>
+		<track trackID="X-2" stationID="BUXTON" type="shunting" interlockingMachine="Shunt" nodeID="238" name="SIG: BN17" kilometre="30.443" x="3164304.9" y="-14159.568" xNet="-1064618" yNet="3972017.3" referenceNode="233"/>
+		<stationBorder exitType="regular" stationID="BUXTNO1" lineID="nw9021" trackNumber="DM" nodeID="247" kilometre="30.345" x="3163334.9" y="-14356.606" xNet="-1065740.8" yNet="3972857.1" referenceNode="240"/>
+		<stationBorder exitType="regular" stationID="BUXTON" lineID="nw9021" trackNumber="DM" nodeID="250" kilometre="30.348" x="3163371.3" y="-14356.606" xNet="-1065706.1" yNet="3972818.2" referenceNode="195"/>
+		<track trackID="D-2" stationID="BUXTNO1" type="shunting" interlockingMachine="Limit Of Shunt" nodeID="241" name="DUMMY LOS" kilometre="30.165" x="3161561.2" y="-14356.603" xNet="-1067426.5" yNet="3974751.6" referenceNode="187"/>
+		<track trackID="U-2" stationID="BUXTNO1" type="shunting" interlockingMachine="Shunt" nodeID="240" name="SIG: BN16" kilometre="30.342" x="3163309.1" y="-14356.605" xNet="-1065765.3" yNet="3972884.7" referenceNode="261"/>
+		<track trackID="T-2" stationID="BUXTNO1" type="timingPoint" nodeID="261" kilometre="30.331" x="3163200.4" y="-14356.605" xNet="-1065868.6" yNet="3973000.7" referenceNode="156"/>
+		<speedIndicator nodeID="263" kilometre="30.353" x="3163417.5" y="-14354.173" xNet="-1065659.7" yNet="3972771.3" referenceNode="195"/>
+		<speedIndicator nodeID="264" kilometre="30.432" x="3164196.4" y="-14162" xNet="-1064723.6" yNet="3972130.8" referenceNode="263"/>
+		<speedIndicator nodeID="275" kilometre="30.466" x="3164531.7" y="-14356.608" xNet="-1064603.3" yNet="3971578.8" referenceNode="191"/>
+		<speedIndicator nodeID="279" kilometre="30.340" x="3163282.5" y="-14157.177" xNet="-1065587.3" yNet="3973111.7" referenceNode="19"/>
+		<speedIndicator nodeID="280" kilometre="30.327" x="3163159.5" y="-14148.085" xNet="-1065694.9" yNet="3973252.2" referenceNode="244"/>
+		<speedIndicator nodeID="295" kilometre="267.103" x="3162673.6" y="-13697.795" xNet="-1065697.8" yNet="3974219.6" referenceNode="6"/>
+		<speedIndicator nodeID="296" kilometre="267.101" x="3162694.5" y="-13697.795" xNet="-1065677.9" yNet="3974197.2" referenceNode="4"/>
+		<node nodeID="309" name="GRAD" kilometre="30.216" x="3162066.7" y="-14159.539" xNet="-1066745.3" yNet="3974407.9"/>
+	</nodes>
+	<links>
+		<link source="1" target="10" length="63" gradient="15.1515" vmax="16" vmaxr="16"/>
+		<link source="2" target="262" length="278" gradient="15.1515" vmax="24" vmaxr="24"/>
+		<link source="3" target="2" length="4" gradient="15.1515" vmax="24" vmaxr="24"/>
+		<link source="4" target="7" length="1" gradient="15.1515" vmax="16" vmaxr="16"/>
+		<link source="4" target="296" length="60" gradient="15.1515" vmax="16" vmaxr="16"/>
+		<link source="5" target="6" length="8" gradient="15.1515" vmax="24" vmaxr="24" bidirectional="true"/>
+		<link source="5" target="245" length="7" gradient="15.385" vmax="24" vmaxr="24" bidirectional="true"/>
+		<link source="6" target="17" length="25" gradient="15.1515" vmax="24" vmaxr="24"/>
+		<link source="6" target="295" length="1" gradient="15.1515" vmax="24" vmaxr="24"/>
+		<link source="7" target="15" length="54" gradient="15.1515" vmax="24" vmaxr="24"/>
+		<link source="9" target="3" length="4" gradient="15.1515" vmax="24" vmaxr="24"/>
+		<link source="10" target="11" length="13" gradient="15.1515" vmax="16" vmaxr="16"/>
+		<link source="10" target="20" length="10" gradient="15.151" vmax="16" vmaxr="16"/>
+		<link source="11" target="18" length="32" gradient="15.151" vmax="16" vmaxr="16"/>
+		<link source="11" target="22" length="44" gradient="15.1515" vmax="16" vmaxr="16"/>
+		<link source="12" target="4" length="8" gradient="15.1515" vmax="16" vmaxr="16" bidirectional="true"/>
+		<link source="14" target="12" length="33" gradient="15.1515" vmax="16" vmaxr="16" bidirectional="true"/>
+		<link source="15" target="9" length="58" gradient="15.1515" vmax="24" vmaxr="24"/>
+		<link source="16" target="1" length="13" gradient="15.1515" vmax="16" vmaxr="16"/>
+		<link source="17" target="9" length="27" gradient="15.1515" vmax="24" vmaxr="24"/>
+		<link source="18" target="278" length="20" gradient="15.151" vmax="16" vmaxr="16"/>
+		<link source="19" target="242" length="17" gradient="15.385" vmax="40" vmaxr="40"/>
+		<link source="19" target="279" length="1" gradient="15.385" vmax="40" vmaxr="40" bidirectional="true"/>
+		<link source="20" target="21" length="31" gradient="15.151" vmax="16" vmaxr="16"/>
+		<link source="21" target="277" length="214" gradient="15.151" vmax="16" vmaxr="16"/>
+		<link source="22" target="239" length="198" gradient="15.1515" vmax="16" vmaxr="16"/>
+		<link source="23" target="13" length="11" gradient="5.46448" vmax="32" vmaxr="32" bidirectional="true"/>
+		<link source="24" target="168" length="41" gradient="3.333"/>
+		<link source="25" target="28" length="52" gradient="15.385" vmax="40" vmaxr="40"/>
+		<link source="26" target="23" length="38" gradient="5.46448" vmax="32" vmaxr="32" bidirectional="true"/>
+		<link source="27" target="238" length="10" gradient="3.333" vmax="40" vmaxr="40"/>
+		<link source="28" target="246" length="6" gradient="15.385" vmax="40" vmaxr="40"/>
+		<link source="91" target="309" length="81" gradient="-15.152" vmax="40" vmaxr="40"/>
+		<link source="156" target="261" length="15" gradient="15.385" vmax="40" vmaxr="40"/>
+		<link source="187" target="156" length="100" gradient="15.385" vmax="97" vmaxr="97">
+			<vzg index="1" vmax="40" vmaxr="40"/>
+		</link>
+		<link source="188" target="25" length="20" gradient="15.385" vmax="40" vmaxr="40"/>
+		<link source="190" target="149" length="41" gradient="3.333"/>
+		<link source="191" target="192" length="28" gradient="3.333" vmax="40" vmaxr="40"/>
+		<link source="191" target="275" length="1" gradient="3.333" vmax="40" vmaxr="40"/>
+		<link source="192" target="234" length="117" gradient="3.333" vmax="40" vmaxr="40"/>
+		<link source="194" target="193" length="41" gradient="3.333"/>
+		<link source="195" target="191" length="113" gradient="3.333" vmax="40" vmaxr="40"/>
+		<link source="195" target="263" length="1" vmax="40" vmaxr="40"/>
+		<link source="196" target="91" length="43" gradient="-15.152" vmax="97" vmaxr="97">
+			<vzg index="1" vmax="40" vmaxr="40"/>
+		</link>
+		<link source="197" target="241" length="73" gradient="-15.152" vmax="97" vmaxr="97">
+			<vzg index="1" vmax="40" vmaxr="40"/>
+		</link>
+		<link source="232" target="26" length="87" gradient="5.464" vmax="32" vmaxr="32" bidirectional="true"/>
+		<link source="233" target="24" length="149" gradient="3.333" vmax="40" vmaxr="40"/>
+		<link source="234" target="194" length="149" gradient="3.333" vmax="40" vmaxr="40"/>
+		<link source="235" target="190" length="219" gradient="3.333" vmax="24" vmaxr="24"/>
+		<link source="238" target="233" length="167" gradient="3.333" vmax="40" vmaxr="40"/>
+		<link source="239" target="237" length="1" gradient="15.1515" vmax="16" vmaxr="16"/>
+		<link source="240" target="247" length="3" gradient="15.385" vmax="40" vmaxr="40"/>
+		<link source="241" target="187" length="51" gradient="-15.152" vmax="97" vmaxr="97">
+			<vzg index="1" vmax="40" vmaxr="40"/>
+		</link>
+		<link source="242" target="243" length="25" gradient="3.333" vmax="40" vmaxr="40"/>
+		<link source="243" target="27" length="52" gradient="3.333" vmax="40" vmaxr="40"/>
+		<link source="244" target="280" length="1" gradient="15.385" vmax="24" vmaxr="24" bidirectional="true"/>
+		<link source="245" target="244" length="14" gradient="15.385" vmax="24" vmaxr="24" bidirectional="true"/>
+		<link source="246" target="19" length="5" gradient="15.385" vmax="40" vmaxr="40"/>
+		<link source="247" target="250" length="4" gradient="15.385" vmax="40" vmaxr="40"/>
+		<link source="249" target="248" length="1" gradient="15.1515" vmax="24" vmaxr="24"/>
+		<link source="250" target="195" length="3" gradient="15.385" vmax="40" vmaxr="40"/>
+		<link source="261" target="240" length="11" gradient="15.385" vmax="40" vmaxr="40"/>
+		<link source="262" target="249" length="40" gradient="15.1515" vmax="24" vmaxr="24"/>
+		<link source="263" target="264" length="79" gradient="3.333" vmax="24" vmaxr="24"/>
+		<link source="264" target="27" length="1" gradient="3.333" vmax="40" vmaxr="40"/>
+		<link source="274" target="262" length="20" gradient="15.151" vmax="16" vmaxr="16"/>
+		<link source="275" target="235" length="74" gradient="3.333" vmax="24" vmaxr="24"/>
+		<link source="277" target="276" length="1" gradient="15.151" vmax="16" vmaxr="16"/>
+		<link source="278" target="274" length="130" gradient="15.151" vmax="16" vmaxr="16"/>
+		<link source="279" target="232" length="1" gradient="15.385" vmax="32" vmaxr="32" bidirectional="true"/>
+		<link source="280" target="28" length="1" gradient="15.385" vmax="40" vmaxr="40" bidirectional="true"/>
+		<link source="295" target="16" length="46" gradient="15.1515" vmax="16" vmaxr="16"/>
+		<link source="296" target="6" length="1" gradient="15.1515" vmax="24" vmaxr="24"/>
+		<link source="309" target="188" length="40" gradient="15.385" vmax="40" vmaxr="40"/>
+	</links>
+	<dependentLinks/>
+	<blockSections>
+		<blocksection uuid="{0a161065-40cb-44c0-b9e5-161f752a1387}" lines="buxton nw9021" shuntingBlock="true" speedIndicators="156 275">
+			<part nodes="235 275 191 195 250 247 240 261 156 187 241 197"/>
+		</blocksection>
+		<blocksection uuid="{0cd600cf-230a-497d-8d07-c3ff7f458201}" lines="buxton" shuntingBlock="true" speedIndicators="156 263 264">
+			<part nodes="238 27 264 263 195 250 247 240 261 156 187 241"/>
+		</blocksection>
+		<blocksection uuid="{0e9bc449-9768-4341-b284-6bd93c3f273c}" lines="buxton nw9021" speedIndicators="156 263 264">
+			<part nodes="233 238 27 264 263 195 250 247 240 261 156 187 241 197"/>
+		</blocksection>
+		<blocksection uuid="{10b5741e-67c0-4397-8ebc-fa725a9c05b7}" lines="buxton nw9005" speedIndicators="7">
+			<part nodes="14 12 4 7 15 9 3 2 262 249"/>
+		</blocksection>
+		<blocksection uuid="{111be11e-3fbc-415a-85ae-dd62d089ab94}" lines="buxton nw9019" speedIndicators="279">
+			<part nodes="188 25 28 246 19 279 232 26 23 13"/>
+		</blocksection>
+		<blocksection uuid="{18b8d621-dc31-448e-a4be-0c1795465e4c}" lines="buxton" shuntingBlock="true" speedIndicators="280">
+			<part nodes="238 27 243 242 19 246 28 280 244 245 5 6 17 9 3 2 262 249"/>
+		</blocksection>
+		<blocksection uuid="{1f22858f-ed65-4b0a-af46-d81b5c3ee6c2}" lines="buxton nw9021" speedIndicators="156">
+			<part nodes="234 192 191 195 250 247 240 261 156 187 241 197"/>
+		</blocksection>
+		<blocksection uuid="{248aef17-9ac6-4a96-8e88-b86ae6d9228b}" lines="buxton" speedIndicators="280">
+			<part nodes="233 238 27 243 242 19 246 28 280 244 245 5 6 17 9 3 2 262 249"/>
+		</blocksection>
+		<blocksection uuid="{2ba9f9bb-bbf2-4eb9-b2e5-adc017d4717d}" lines="buxton" shuntingBlock="true">
+			<part nodes="240 247 250 195 191 192 234 194"/>
+		</blocksection>
+		<blocksection uuid="{2bf035f2-98bd-41b2-a6bb-e5b7045e61b0}" lines="buxton">
+			<part nodes="194 234"/>
+		</blocksection>
+		<blocksection uuid="{2fed657a-ddb3-4975-a5c4-4c4eedc418c6}" lines="buxton nw9021" speedIndicators="91">
+			<part nodes="196 91 309 188"/>
+		</blocksection>
+		<blocksection uuid="{402876be-34b3-4d2f-ac76-fec7b33298d3}" lines="buxton nw9005" shuntingBlock="true" speedIndicators="7">
+			<part nodes="2 3 9 15 7 4 12 14"/>
+		</blocksection>
+		<blocksection uuid="{4677d2dd-8cf2-49d6-90ed-a358402bd1f3}" lines="buxton" shuntingBlock="true" speedIndicators="156 263 264">
+			<part nodes="233 238 27 264 263 195 250 247 240 261 156 187 241"/>
+		</blocksection>
+		<blocksection uuid="{50bdded7-46a1-46bb-b9b7-8c758dd73972}" lines="buxton nw9019" speedIndicators="279 280 295">
+			<part nodes="13 23 26 232 279 19 246 28 280 244 245 5 6 295 16 1 10 11 22 239"/>
+		</blocksection>
+		<blocksection uuid="{68791d79-f14e-402f-acff-c5b07f6eb14d}" lines="buxton" shuntingBlock="true" speedIndicators="156 275">
+			<part nodes="235 275 191 195 250 247 240 261 156 187 241"/>
+		</blocksection>
+		<blocksection uuid="{6d9b3807-72c9-4f6b-8a47-f23ddd82c977}" lines="buxton" shuntingBlock="true" speedIndicators="156">
+			<part nodes="241 187 156 261 240"/>
+		</blocksection>
+		<blocksection uuid="{760e4e06-b004-4f66-a611-58de42cb96bc}" lines="buxton" shuntingBlock="true" speedIndicators="280 295">
+			<part nodes="1 16 295 6 5 245 244 280 28 246 19 242 243 27 238 233 24"/>
+		</blocksection>
+		<blocksection uuid="{7a24e0c4-5de4-4f4d-ac57-bad633ced27e}" lines="buxton nw9019" speedIndicators="279 280">
+			<part nodes="13 23 26 232 279 19 246 28 280 244 245 5 6 17 9 3 2 262 249"/>
+		</blocksection>
+		<blocksection uuid="{7d496b0d-17e9-4b84-92ed-21033f9c3141}" lines="buxton">
+			<part nodes="24 233"/>
+		</blocksection>
+		<blocksection uuid="{85de9bf6-8033-43ee-b732-50303590ffe6}" lines="buxton" shuntingBlock="true">
+			<part nodes="190 235"/>
+		</blocksection>
+		<blocksection uuid="{89b30c94-0fda-4a0f-9d20-f3ff3bb59a25}" lines="buxton" shuntingBlock="true" speedIndicators="280 295">
+			<part nodes="238 27 243 242 19 246 28 280 244 245 5 6 295 16 1 10 11 22 239"/>
+		</blocksection>
+		<blocksection uuid="{8bfc789e-85db-40de-85d8-825ac6d44bf0}" lines="buxton nw9019" speedIndicators="279">
+			<part nodes="188 25 28 246 19 279 232 26 23 13"/>
+		</blocksection>
+		<blocksection uuid="{9661614d-59f6-4e22-afb2-044aa17fa242}" lines="buxton" shuntingBlock="true" speedIndicators="280">
+			<part nodes="2 3 9 17 6 5 245 244 280 28 246 19 242 243 27 238 233 24"/>
+		</blocksection>
+		<blocksection uuid="{97676b8a-a524-400f-a89b-a0bf5cffc3c8}" lines="buxton" shuntingBlock="true">
+			<part nodes="24 233 238"/>
+		</blocksection>
+		<blocksection uuid="{a2cf15de-b487-40e6-9adc-a55de5ca60e9}" lines="buxton">
+			<part nodes="188 25 28 246 19 242 243 27 238 233 24"/>
+		</blocksection>
+		<blocksection uuid="{bb045d73-6caf-4f19-9665-5d906078ab53}" lines="buxton nw9021" shuntingBlock="true" speedIndicators="156 263 264">
+			<part nodes="238 27 264 263 195 250 247 240 261 156 187 241 197"/>
+		</blocksection>
+		<blocksection uuid="{c22be229-6232-4b5e-8755-14557fa43be3}" lines="buxton" shuntingBlock="true" speedIndicators="156">
+			<part nodes="234 192 191 195 250 247 240 261 156 187 241"/>
+		</blocksection>
+		<blocksection uuid="{c6177834-8118-437a-8ddd-e5a73fa17321}" lines="buxton nw9019" speedIndicators="279">
+			<part nodes="188 25 28 246 19 279 232 26 23 13"/>
+		</blocksection>
+		<blocksection uuid="{cd7bc72d-7e55-47a9-af1e-9f4a2e9e5817}" lines="buxton nw9005" shuntingBlock="true" speedIndicators="295">
+			<part nodes="1 16 295 6 296 4 12 14"/>
+		</blocksection>
+		<blocksection uuid="{cdd1c016-1450-4292-b8c2-bd7a752caeca}" lines="buxton" shuntingBlock="true" speedIndicators="275">
+			<part nodes="240 247 250 195 191 275 235 190"/>
+		</blocksection>
+		<blocksection uuid="{d1a9cbda-f082-4dd9-ba11-83c54d7b2380}" lines="buxton" shuntingBlock="true">
+			<part nodes="249 262 2"/>
+		</blocksection>
+		<blocksection uuid="{d810b4ae-d56b-4590-a2f1-c04e64ec2784}" lines="buxton" shuntingBlock="true" speedIndicators="263 264">
+			<part nodes="240 247 250 195 263 264 27 238 233 24"/>
+		</blocksection>
+		<blocksection uuid="{eb228778-7f52-4d1d-b2e4-d0007d95ec2f}" lines="buxton" shuntingBlock="true">
+			<part nodes="239 22 11 10 1"/>
+		</blocksection>
+		<blocksection uuid="{ec6fb705-6dd9-4846-8b61-e414a2e3887b}" lines="buxton nw9019" speedIndicators="279">
+			<part nodes="188 25 28 246 19 279 232 26 23 13"/>
+		</blocksection>
+		<blocksection uuid="{ecd7ac77-e341-47f9-96ff-49b2fa05bf21}" lines="buxton" speedIndicators="280 295">
+			<part nodes="233 238 27 243 242 19 246 28 280 244 245 5 6 295 16 1 10 11 22 239"/>
+		</blocksection>
+		<blocksection uuid="{fe7ff38f-9e84-4775-b747-500c8d3f6a6e}" lines="buxton nw9005" speedIndicators="295 296">
+			<part nodes="14 12 4 296 6 295 16 1 10 11 22 239"/>
+		</blocksection>
+	</blockSections>
+	<slipDistances>
+		<slipdistance uuid="{247d714f-16ec-4047-ad64-ea3b3dee2af4}" vmax="999" lines="buxton" serialNumber="0">
+			<part nodes="188 25"/>
+		</slipdistance>
+		<slipdistance uuid="{acd73882-adbe-41b5-bae1-b169881b89f4}" vmax="999" lines="buxton nw9005" serialNumber="0">
+			<part nodes="14 12"/>
+		</slipdistance>
+	</slipDistances>
+	<approachControlRoutes/>
+	<stationRoutes>
+		<stationRoute stationID="BUXTNO1" name="[BUXTON]-[nw9021/DM]-[2]-[BUXTON]-[nw9021/DM] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="247 240 261 156 187 241 187 156 261 240 247"/>
+		<stationRoute stationID="BUXTNO1" name="[BUXTON]-[nw9021/DM]-[2]-[DVHL]-[nw9021/DM] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="247 240 261 156 187 241 197"/>
+		<stationRoute stationID="BUXTNO1" name="[BUXTON]-[nw9021/UM]-[1]-[BUXTURS]-[nw9021/BUX] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="242 19 246 28 280 244 245"/>
+		<stationRoute stationID="BUXTNO1" name="[BUXTURS]-[nw9021/BUX]-[1]-[BUXTON]-[nw9021/UM] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="245 244 280 28 246 19 242"/>
+		<stationRoute stationID="BUXTNO1" name="[BUXTURS]-[nw9021/BUX]-[1]-[HINDLS1]-[nw9019/1] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=95;NRz=95;S=95;Rz=95;FGz=95;NGz=95;Gz=95;Lz=95;Unbekannt=95" nodes="245 244 280 28 246 19 279 232 26 23 13"/>
+		<stationRoute stationID="BUXTNO1" name="[DVHL]-[nw9021/UM]-[1]-[BUXTON]-[nw9021/UM] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=95;NRz=95;S=95;Rz=95;FGz=95;NGz=95;Gz=95;Lz=95;Unbekannt=95" nodes="196 91 309 188 25 28 246 19 242"/>
+		<stationRoute stationID="BUXTNO1" name="[DVHL]-[nw9021/UM]-[1]-[HINDLS1]-[nw9019/1] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=90;NRz=90;S=90;Rz=90;FGz=90;NGz=90;Gz=90;Lz=90;Unbekannt=90" nodes="196 91 309 188 25 28 246 19 279 232 26 23 13"/>
+		<stationRoute stationID="BUXTNO1" name="[HINDLS1]-[nw9019/1]-[1]-[BUXTURS]-[nw9021/BUX] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=95;NRz=95;S=95;Rz=95;FGz=95;NGz=95;Gz=95;Lz=95;Unbekannt=95" nodes="13 23 26 232 279 19 246 28 280 244 245"/>
+		<stationRoute stationID="BUXTON" name="[BUXTNO1]-[nw9021/DM]-[1]-[BUXTNO1]-[nw9021/DM] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=80;NRz=80;S=80;Rz=80;FGz=80;NGz=80;Gz=80;Lz=80;Unbekannt=80" nodes="250 195 191 192 234 194 234 192 191 195 250"/>
+		<stationRoute stationID="BUXTON" name="[BUXTNO1]-[nw9021/DM]-[1]-[]-[?/] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=90;NRz=90;S=90;Rz=90;FGz=90;NGz=90;Gz=90;Lz=90;Unbekannt=90" nodes="250 195 191 192 234 194 193"/>
+		<stationRoute stationID="BUXTON" name="[BUXTNO1]-[nw9021/DM]-[2]-[BUXTNO1]-[nw9021/DM] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=95;NRz=95;S=95;Rz=95;FGz=95;NGz=95;Gz=95;Lz=95;Unbekannt=95" nodes="243 27 238 233 24 233 238 27 264 263 195 250"/>
+		<stationRoute stationID="BUXTON" name="[BUXTNO1]-[nw9021/DM]-[2]-[BUXTNO1]-[nw9021/DM] (3)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=90;NRz=90;S=90;Rz=90;FGz=90;NGz=90;Gz=90;Lz=90;Unbekannt=90" nodes="243 27 238 233 24 233 238 27 243"/>
+		<stationRoute stationID="BUXTON" name="[BUXTNO1]-[nw9021/DM]-[2]-[BUXTNO1]-[nw9021/DM] (4)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="250 195 263 264 27 238 233 24 233 238 27 264 263 195 250"/>
+		<stationRoute stationID="BUXTON" name="[BUXTNO1]-[nw9021/DM]-[2]-[BUXTNO1]-[nw9021/DM] (5)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=95;NRz=95;S=95;Rz=95;FGz=95;NGz=95;Gz=95;Lz=95;Unbekannt=95" nodes="250 195 263 264 27 238 233 24 233 238 27 243"/>
+		<stationRoute stationID="BUXTON" name="[BUXTNO1]-[nw9021/DM]-[2]-[]-[?/] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="250 195 263 264 27 238 233 24 168"/>
+		<stationRoute stationID="BUXTON" name="[BUXTNO1]-[nw9021/DM]-[2]-[]-[?/] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=95;NRz=95;S=95;Rz=95;FGz=95;NGz=95;Gz=95;Lz=95;Unbekannt=95" nodes="243 27 238 233 24 168"/>
+		<stationRoute stationID="BUXTON" name="[BUXTNO1]-[nw9021/DM]-[99]-[BUXTNO1]-[nw9021/DM] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=90;NRz=90;S=90;Rz=90;FGz=90;NGz=90;Gz=90;Lz=90;Unbekannt=90" nodes="250 195 191 275 235 190 235 275 191 195 250"/>
+		<stationRoute stationID="BUXTON" name="[BUXTNO1]-[nw9021/DM]-[99]-[]-[?/] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=95;NRz=95;S=95;Rz=95;FGz=95;NGz=95;Gz=95;Lz=95;Unbekannt=95" nodes="250 195 191 275 235 190 149"/>
+		<stationRoute stationID="BUXTON" name="[]-[?/]-[1]-[BUXTNO1]-[nw9021/DM] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=90;NRz=90;S=90;Rz=90;FGz=90;NGz=90;Gz=90;Lz=90;Unbekannt=90" nodes="193 194 234 192 191 195 250"/>
+		<stationRoute stationID="BUXTON" name="[]-[?/]-[2]-[BUXTNO1]-[nw9021/DM] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="168 24 233 238 27 264 263 195 250"/>
+		<stationRoute stationID="BUXTON" name="[]-[?/]-[2]-[BUXTNO1]-[nw9021/DM] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=95;NRz=95;S=95;Rz=95;FGz=95;NGz=95;Gz=95;Lz=95;Unbekannt=95" nodes="168 24 233 238 27 243"/>
+		<stationRoute stationID="BUXTON" name="[]-[?/]-[99]-[BUXTNO1]-[nw9021/DM] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=95;NRz=95;S=95;Rz=95;FGz=95;NGz=95;Gz=95;Lz=95;Unbekannt=95" nodes="149 190 235 275 191 195 250"/>
+		<stationRoute stationID="BUXTURS" name="[BUXTNO1]-[nw9021/BUX]-[1]-[]-[?/] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=90;NRz=90;S=90;Rz=90;FGz=90;NGz=90;Gz=90;Lz=90;Unbekannt=90" nodes="5 6 17 9 3 2 262 249 248"/>
+		<stationRoute stationID="BUXTURS" name="[TOPLEYP]-[n9005/1]-[1]-[]-[?/] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=90;NRz=90;S=90;Rz=90;FGz=90;NGz=90;Gz=90;Lz=90;Unbekannt=90" nodes="12 4 7 15 9 3 2 262 249 248"/>
+		<stationRoute stationID="BUXTURS" name="[]-[?/]-[1]-[BUXTNO1]-[nw9021/BUX] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=90;NRz=90;S=90;Rz=90;FGz=90;NGz=90;Gz=90;Lz=90;Unbekannt=90" nodes="248 249 262 2 3 9 17 6 5"/>
+		<stationRoute stationID="BUXTURS" name="[]-[?/]-[1]-[TOPLEYP]-[n9005/1] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=90;NRz=90;S=90;Rz=90;FGz=90;NGz=90;Gz=90;Lz=90;Unbekannt=90" nodes="248 249 262 2 3 9 15 7 4 12"/>
+	</stationRoutes>
+	<lineCatalog/>
+	<zugNummernFelder/>
+	<switchGears/>
+</line>

@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<line lineID="asvj" name="Ash Vale JN" trafficRouting="on_the_left" type="global" dependentLines="sw120 sw260">
+	<transformations>
+		<transformation line="sw120" m11="1" m12="0" m21="0" m22="2.65458" dx="289921" dy="673.582"/>
+		<transformation line="sw260" m11="1" m12="0" m21="0" m22="1" dx="0" dy="0"/>
+	</transformations>
+	<version major="1" minor="2" patchlevel="0" comment=""/>
+	<creator user="Ahowe4" timestamp="2016-11-01T12:54:22"/>
+	<lasteditor user="Ahowe4" timestamp="2016-11-01T12:54:22"/>
+	<stations>
+		<station stationID="ASHVALE" name="Ash Vale" xNet="325681.935" yNet="265968.65" uicLocationCode="0" circleDiameter="0">
+			<textElement type="name">
+				<pos view="net" x="7920.11" y="7920.11" angle="0" system="source"/>
+				<pos view="wgs84" x="7920.11" y="7920.11" angle="0" system="source"/>
+				<pos view="line" x="5265.67" y="5265.67" angle="0" system="source"/>
+				<pos view="macro" x="28.2843" y="28.2843" angle="0" system="source"/>
+				<pos view="macroWgs84" x="0" y="0" angle="0" system="source"/>
+			</textElement>
+		</station>
+	</stations>
+	<nodes>
+		<switch start="5126" endOfMainTrack="5090" endOfBranchTrack="5110" nodeID="5021" name="TO" description="TO : 10; 15 mph; 32m 30ch" kilometre="52.103" x="454743" y="357" xNet="325666.09" yNet="261529.77"/>
+		<switch start="85" endOfMainTrack="203" endOfBranchTrack="5102" nodeID="17" name="TO" description="TO : 9; 15 mph; 32m 30ch" kilometre="52.103" x="454943" y="-64" xNet="327293.25" yNet="260440.81"/>
+		<switch start="323" endOfMainTrack="599" endOfBranchTrack="604" nodeID="581" name="TO" description="TO : 8; 15 mph; 40m 41.5ch" kilometre="65.209" x="467372" y="695" xNet="326573.61" yNet="276454.02"/>
+		<switch start="603" endOfMainTrack="98" endOfBranchTrack="604" nodeID="592" name="TO" description="TO : 8; 15 mph; 40m 46ch" kilometre="65.299" x="466835" y="1040" xNet="325193.03" yNet="275744.4"/>
+		<crossing type="kr" startOfMainTrack="5021" startOfBranchTrack="5102" endOfMainTrack="5020" endOfBranchTrack="5109" nodeID="5090" kilometre="52.043" x="455838" y="356" xNet="326911.21" yNet="263296"/>
+		<speedIndicator nodeID="5102" name="S" description="End of plan : South-East/aav-03.jpg; 40m 56.5ch" kilometre="52.103" x="455517" y="231" xNet="327140.6" yNet="261511.91" referenceNode="5090"/>
+		<speedIndicator nodeID="580" name="S" description="Speed; 40m 41.5ch" kilometre="65.209" x="467472" y="695" xNet="326576.97" yNet="277346.62" referenceNode="323">
+			<netLimitInfo lineID="sw260"/>
+		</speedIndicator>
+		<node nodeID="20" name="S" description="Speed; 32m 38ch" kilometre="52.263" x="453343" y="-64" xNet="324892.76" yNet="257019.93"/>
+		<node nodeID="15" name="OL" description="OL for SIG : HW1" kilometre="51.920" x="456773" y="-64" xNet="328818.1" yNet="262616.51"/>
+		<node nodeID="19" name="U-2" description="ASHVALE U-2, stopBoard" kilometre="52.233" x="453643" y="-64" xNet="325236.65" yNet="257506.38"/>
+		<node nodeID="5027" name="D-1" description="ASHVALE D-1, stopBoard" kilometre="52.334" x="452433" y="357" xNet="322807.63" yNet="257434.97">
+			<netLimitInfo lineID="sw120"/>
+		</node>
+		<node nodeID="583" name="GRAD" description="Gradient; 40m 50ch" kilometre="65.380" x="465762" y="695" xNet="326580.32" yNet="274008.3"/>
+		<node nodeID="585" kilometre="65.430" x="465362" y="695" xNet="326573.61" yNet="272809.97"/>
+		<node nodeID="594" kilometre="65.385" x="466417" y="1037" xNet="325193.03" yNet="273849.86"/>
+		<node nodeID="595" kilometre="65.425" x="466354" y="1037" xNet="325194.71" yNet="272774.27"/>
+		<node nodeID="587" kilometre="65.450" x="464505" y="695" xNet="326575.29" yNet="269366.79"/>
+		<node nodeID="597" kilometre="65.445" x="466165" y="1039" xNet="325214.84" yNet="268614.76"/>
+		<node nodeID="167" name="OL" description="OL for SIG : HW6" kilometre="52.163" x="454342" y="-64" xNet="326036.29" yNet="258645.43" referenceNode="99" releaseContact="true" arranged="true"/>
+		<kilometreInconsistency newKilometre="65.45" nodeID="5103" name="Change of kilometrage" kilometre="52.043" x="456433" y="1038" xNet="325270.19" yNet="266251.62" referenceNode="5110"/>
+		<kilometreInconsistency newKilometre="65.45" nodeID="5109" name="Change of kilometrage" kilometre="52.043" x="456438" y="696" xNet="326665.88" yNet="266595.27" referenceNode="5090"/>
+		<track trackID="T-2" stationID="ASHVALE" type="timingPoint" nodeID="21" name="T-2" description="ASHVALE T-2, timingPoint" kilometre="52.263" x="453243" y="-64" xNet="324780.37" yNet="256854.79" referenceNode="20"/>
+		<track trackID="T-1" stationID="ASHVALE" type="timingPoint" nodeID="5026" name="T-1" description="ASHVALE T-1, timingPoint" kilometre="52.263" x="453043" y="357" xNet="323507.14" yNet="258432.45" referenceNode="325"/>
+		<signal interlockingMachine="3 Aspect Pannel (Below 75mph)" nodeID="584" name="SIG : HW6" description="Signal HW6; 40m 50.5ch" kilometre="65.390" x="465662" y="695" xNet="326573.61" yNet="273532.98" referenceNode="583"/>
+		<node nodeID="5126" description="Km" kilometre="52.200" x="453773" y="357" xNet="324844.33" yNet="260340.07"/>
+		<node nodeID="204" description="Km" kilometre="52.200" x="453973" y="-64" xNet="325613.66" yNet="258043.37"/>
+		<node nodeID="5124" description="Km" kilometre="51.800" x="457389" y="356.89938" xNet="329682.54" yNet="267251.56" referenceNode="78" releaseContact="true" arranged="true">
+			<netLimitInfo lineID="sw120"/>
+		</node>
+		<node nodeID="202" description="Km" kilometre="51.800" x="457793" y="-61" xNet="330191.45" yNet="264574.28">
+			<netLimitInfo lineID="sw120"/>
+		</node>
+		<node nodeID="598" kilometre="65.450" x="457129.75" y="1038.0715" xNet="325266.22" yNet="266420.78" referenceNode="5103" releaseContact="true" arranged="true"/>
+		<node nodeID="599" kilometre="65.275" x="466776.34" y="695" xNet="326573.61" yNet="275591.41" referenceNode="581" releaseContact="true" arranged="true"/>
+		<stationBorder exitType="regular" stationID="ASHVALE" lineID="sw120" trackNumber="2" nodeID="5020" name="[PRBRITJ] - [sw120/2]" description="OL for SIG : HW16" kilometre="52.023" x="456195" y="356" xNet="327279.84" yNet="263825.98" referenceNode="5090"/>
+		<stationBorder exitType="locked" stationID="ASHVALE" trackNumber="" nodeID="596" name="Prellbock 598" x="467469" y="1038" xNet="325193.03" yNet="277103.38" referenceNode="98"/>
+		<stationBorder exitType="alternative" stationID="ASHVALE" lineID="sw120" trackNumber="1" nodeID="203" name="[PRBRITJ] - [sw120/1]" description="Km" kilometre="52.000" x="455973" y="-64" xNet="328066.58" yNet="261545.64" referenceNode="17"/>
+		<stationBorder exitType="regular" stationID="ASHVALE" lineID="sw260" trackNumber="1" nodeID="323" name="[FRIMLYJ] - [sw260/1]" kilometre="65.209" x="467402" y="695" xNet="326574.62" yNet="276721.79" referenceNode="581"/>
+		<stationBorder exitType="alternative" stationID="ASHVALE" lineID="sw120" trackNumber="2" nodeID="325" name="[ALDRSJN] - [sw120/2]" kilometre="52.284" x="452860" y="357" xNet="323297.29" yNet="258133.21" referenceNode="5026"/>
+		<speedIndicator nodeID="5110" name="B" description="End of plan : South-East/aav-03.jpg; 40m 56.5ch" kilometre="52.102" x="454743" y="357" xNet="325414.46" yNet="263622.92" referenceNode="5103"/>
+		<speedIndicator nodeID="603" name="SPEED" kilometre="65.318" x="466685.62" y="1038.805" xNet="325193.03" yNet="275191.06" referenceNode="592"/>
+		<speedIndicator nodeID="604" name="SPEED" kilometre="65.210" x="467366.03" y="698.83333" xNet="326558.28" yNet="276446.14" referenceNode="581"/>
+		<node nodeID="85" name="xSD: SIG WA525" kilometre="52.105" x="454922.97" y="-64" xNet="327251.36" yNet="260380.96" referenceNode="17" sightingDistance="true"/>
+		<node nodeID="610" name="xSD: SIG HW6" kilometre="65.320" x="466341.62" y="695" xNet="326576.48" yNet="274912.92" referenceNode="599" sightingDistance="true"/>
+		<node nodeID="78" name="pOL HW16" description="OL for SIG : HW16" kilometre="52.014" x="456243.19" y="356.0363" xNet="327376.82" yNet="263964.25"/>
+		<signal interlockingMachine="2 Aspect Pannel (Below 75mph)" nodeID="612" name="SIG: HW14" kilometre="65.402" x="466390.23" y="1037" xNet="325193.74" yNet="273392.8" referenceNode="595"/>
+		<node nodeID="611" name="pOL SIG HW16" description="This is correct" kilometre="65.358" x="466525.25" y="1037.7274" xNet="325193.03" yNet="274390.35"/>
+		<node nodeID="98" name="xOL SIG: HW14" description="OL for SIG : SIG: HW14" kilometre="24.814" x="467228.08" y="1038.76" xNet="325193.03" yNet="276586.96"/>
+		<node nodeID="99" name="pOL HW6" description="OL for SIG : HW6" kilometre="52.120" x="454772.72" y="-64" xNet="326937.11" yNet="259932.11"/>
+		<node nodeID="100" name="pOL HW6" description="OL for SIG : HW6" kilometre="65.433" x="465233.45" y="695" xNet="326573.86" yNet="272293.5"/>
+		<track trackID="U-1" stationID="ASHVALE" interlockingMachine="4 Aspect Pannel (76mph - 100mph)" nodeID="5023" name="SIG : HW16" description="Signal HW16; 32m 35ch" kilometre="52.203" x="453743" y="357" xNet="324827.34" yNet="260315.84" referenceNode="5026">
+			<platform startPos="-1610" endPos="0" width="250" left="true" open="true"/>
+		</track>
+		<stationBorder exitType="regular" stationID="ASHVALE" lineID="sw120" trackNumber="1" nodeID="45" kilometre="52.344" x="452616.3" y="-64.455052" xNet="323628.66" yNet="255215.51" referenceNode="23">
+			<netLimitInfo lineID="sw120"/>
+		</stationBorder>
+		<track trackID="D-2" stationID="ASHVALE" interlockingMachine="4 Aspect Pannel (76mph - 100mph)" nodeID="23" name="SIG : WA525" description="Signal WA525; 32m 41ch" kilometre="52.324" x="452733" y="-64" xNet="323810.77" yNet="255475.72" referenceNode="21">
+			<platform startPos="-1780" endPos="0" width="250" left="true" open="true"/>
+		</track>
+	</nodes>
+	<links>
+		<link source="15" target="203" length="80" gradient="-7.576" vmax="113" vmaxr="113" electrification="electrified">
+			<vzg index="9" vmax="72" vmaxr="72"/>
+		</link>
+		<link source="17" target="85" length="2" gradient="-7.576" vmax="113" vmaxr="113" electrification="electrified">
+			<vzg index="9" vmax="72" vmaxr="72"/>
+		</link>
+		<link source="19" target="20" length="30" gradient="-7.576" vmax="113" vmaxr="113" electrification="electrified">
+			<vzg index="9" vmax="72" vmaxr="72"/>
+		</link>
+		<link source="20" target="21" gradient="-7.576" vmax="113" vmaxr="113" electrification="electrified">
+			<vzg index="9" vmax="72" vmaxr="72"/>
+		</link>
+		<link source="21" target="23" length="61" gradient="-7.576" vmax="113" vmaxr="113" electrification="electrified">
+			<vzg index="9" vmax="72" vmaxr="72"/>
+		</link>
+		<link source="23" target="45" length="20" gradient="-7.576" vmax="113" vmaxr="113" electrification="electrified">
+			<vzg index="9" vmax="72" vmaxr="72"/>
+		</link>
+		<link source="78" target="5020" length="9" gradient="-7.576" vmax="113" vmaxr="113" electrification="electrified">
+			<vzg index="9" vmax="72" vmaxr="72"/>
+		</link>
+		<link source="85" target="99" length="15" gradient="-7.576" vmax="113" vmaxr="113" electrification="electrified">
+			<vzg index="9" vmax="72" vmaxr="72"/>
+		</link>
+		<link source="98" target="592" length="31" gradient="1.52" vmax="24" vmaxr="24" electrification="electrified">
+			<vzg index="9" vmax="24" vmaxr="24"/>
+		</link>
+		<link source="99" target="167" length="43" gradient="-7.576" vmax="113" vmaxr="113" electrification="electrified">
+			<vzg index="9" vmax="72" vmaxr="72"/>
+		</link>
+		<link source="100" target="587" length="17" gradient="-7.576" vmax="32" electrification="electrified">
+			<vzg index="9" vmax="32" vmaxr="72"/>
+		</link>
+		<link source="167" target="204" length="37" gradient="-7.576" vmax="113" vmaxr="113" electrification="electrified">
+			<vzg index="9" vmax="72" vmaxr="72"/>
+		</link>
+		<link source="202" target="15" length="120" gradient="-7.576" vmax="113" vmaxr="113" electrification="electrified">
+			<vzg index="9" vmax="72" vmaxr="72"/>
+		</link>
+		<link source="203" target="17" length="103" gradient="-7.576" vmax="113" vmaxr="113" electrification="electrified">
+			<vzg index="9" vmax="72" vmaxr="72"/>
+		</link>
+		<link source="204" target="19" length="33" gradient="-7.576" vmax="113" vmaxr="113" electrification="electrified">
+			<vzg index="9" vmax="72" vmaxr="72"/>
+		</link>
+		<link source="323" target="581" gradient="1.515" vmax="32" vmaxr="32" bidirectional="true" electrification="electrified">
+			<vzg index="9" vmax="32" vmaxr="32"/>
+		</link>
+		<link source="325" target="5027" length="50" gradient="-7.576" vmax="113" vmaxr="113" electrification="electrified">
+			<vzg index="9" vmax="72" vmaxr="72"/>
+		</link>
+		<link source="580" target="323" gradient="1.515" vmax="32" vmaxr="32" bidirectional="true" electrification="electrified">
+			<vzg index="9" vmax="32" vmaxr="32"/>
+		</link>
+		<link source="581" target="599" length="66" gradient="1.515" vmax="32" vmaxr="32" electrification="electrified">
+			<vzg index="9" vmax="32" vmaxr="32"/>
+		</link>
+		<link source="581" target="604" length="1" gradient="1.517" vmax="32" vmaxr="32" electrification="electrified">
+			<vzg index="9" vmax="32" vmaxr="32"/>
+		</link>
+		<link source="583" target="584" length="10" gradient="-7.576" vmax="32" vmaxr="32" electrification="electrified">
+			<vzg index="9" vmax="32" vmaxr="32"/>
+		</link>
+		<link source="584" target="585" length="40" gradient="-7.576" vmax="32" vmaxr="32" electrification="electrified">
+			<vzg index="9" vmax="32" vmaxr="32"/>
+		</link>
+		<link source="585" target="100" length="3" gradient="-7.576" vmax="32" electrification="electrified">
+			<vzg index="9" vmax="32" vmaxr="72"/>
+		</link>
+		<link source="587" target="5109" gradient="-7.576" vmax="32" electrification="electrified">
+			<vzg index="9" vmax="32" vmaxr="32"/>
+		</link>
+		<link source="592" target="603" length="19" gradient="1.517" vmax="24" vmaxr="24" electrification="electrified">
+			<vzg index="9" vmax="24" vmaxr="24"/>
+		</link>
+		<link source="594" target="612" length="17" gradient="-7.576" vmax="32" vmaxr="32" electrification="electrified">
+			<vzg index="9" vmax="32" vmaxr="32"/>
+		</link>
+		<link source="595" target="597" length="20" gradient="-7.576" vmaxr="32" electrification="electrified">
+			<vzg index="9" vmax="32" vmaxr="32"/>
+		</link>
+		<link source="596" target="98" length="19" gradient="1.52" vmax="24" vmaxr="24" electrification="electrified">
+			<vzg index="9" vmax="24" vmaxr="24"/>
+		</link>
+		<link source="597" target="598" length="5" gradient="-7.576" vmaxr="32" electrification="electrified">
+			<vzg index="9" vmax="72" vmaxr="32"/>
+		</link>
+		<link source="598" target="5103" gradient="-7.576" vmaxr="32" electrification="electrified">
+			<vzg index="9" vmax="72" vmaxr="32"/>
+		</link>
+		<link source="599" target="610" length="45" gradient="1.515" vmax="32" vmaxr="32" electrification="electrified">
+			<vzg index="9" vmax="32" vmaxr="32"/>
+		</link>
+		<link source="603" target="611" length="40" gradient="1.517" vmax="32" vmaxr="32" electrification="electrified">
+			<vzg index="9" vmax="32" vmaxr="32"/>
+		</link>
+		<link source="604" target="592" length="89" gradient="1.517" vmax="24" vmaxr="24" electrification="electrified">
+			<vzg index="9" vmax="24" vmaxr="24"/>
+		</link>
+		<link source="610" target="583" length="60" gradient="1.515" vmax="32" vmaxr="32" electrification="electrified">
+			<vzg index="9" vmax="32" vmaxr="32"/>
+		</link>
+		<link source="611" target="594" length="27" gradient="1.517" vmax="32" vmaxr="32" electrification="electrified">
+			<vzg index="9" vmax="32" vmaxr="32"/>
+		</link>
+		<link source="612" target="595" length="23" gradient="-7.576" vmax="32" vmaxr="32" electrification="electrified">
+			<vzg index="9" vmax="32" vmaxr="32"/>
+		</link>
+		<link source="5020" target="5090" length="20" gradient="-7.576" vmax="113" vmaxr="113" electrification="electrified">
+			<vzg index="9" vmax="72" vmaxr="72"/>
+		</link>
+		<link source="5021" target="5126" length="97" gradient="-7.576" vmax="113" vmaxr="113" electrification="electrified">
+			<vzg index="9" vmax="72" vmaxr="72"/>
+		</link>
+		<link source="5023" target="5026" length="60" gradient="-7.576" vmax="113" vmaxr="113" electrification="electrified">
+			<vzg index="9" vmax="72" vmaxr="72"/>
+		</link>
+		<link source="5026" target="325" length="21" gradient="-7.576" vmax="113" vmaxr="113" electrification="electrified">
+			<vzg index="9" vmax="72" vmaxr="72"/>
+		</link>
+		<link source="5090" target="5021" length="60" gradient="-7.576" vmax="113" vmaxr="113" electrification="electrified">
+			<vzg index="9" vmax="72" vmaxr="72"/>
+		</link>
+		<link source="5090" target="5102" length="60" gradient="-7.576" vmax="32" electrification="electrified">
+			<vzg index="9" vmax="32" vmaxr="72"/>
+		</link>
+		<link source="5102" target="17" gradient="-7.576" vmax="113" vmaxr="32" electrification="electrified">
+			<vzg index="9" vmax="72" vmaxr="32"/>
+		</link>
+		<link source="5103" target="5110" length="59" gradient="-7.576" vmaxr="32" electrification="electrified">
+			<vzg index="9" vmax="32" vmaxr="32"/>
+		</link>
+		<link source="5109" target="5090" gradient="-7.576" vmax="32" electrification="electrified">
+			<vzg index="9" vmax="32" vmaxr="72"/>
+		</link>
+		<link source="5110" target="5021" length="1" gradient="-7.58" vmax="113" vmaxr="113" electrification="electrified">
+			<vzg index="9" vmax="72" vmaxr="72"/>
+		</link>
+		<link source="5124" target="78" length="214" gradient="-7.576" vmax="113" vmaxr="113" electrification="electrified">
+			<vzg index="9" vmax="72" vmaxr="72"/>
+		</link>
+		<link source="5126" target="5023" length="3" gradient="-7.576" vmax="113" vmaxr="113" electrification="electrified">
+			<vzg index="9" vmax="72" vmaxr="72"/>
+		</link>
+	</links>
+	<dependentLinks/>
+	<blockSections>
+		<blocksection uuid="{194e9938-1b88-463f-8db6-eb1d50b2f0c8}" lines="asvj sw260" speedIndicators="580">
+			<part nodes="580 323 581 599 610 583 584"/>
+		</blocksection>
+		<blocksection uuid="{28e34430-dcaf-4ebc-89c0-75373645480a}" lines="aldsj asvj sw120">
+			<part nodes="23 45"/>
+		</blocksection>
+		<blocksection uuid="{31b1cf7a-d8f2-4d3c-8839-13b5f27bf925}" lines="asvj" speedIndicators="5102">
+			<part nodes="584 585 100 587 5109 5090 5102 17 85 99 167 204 19 20 21 23"/>
+		</blocksection>
+		<blocksection uuid="{457e1856-811e-4d1d-ac09-b0a148b296fc}" lines="asvj sw260" speedIndicators="580 603 604">
+			<part nodes="612 594 611 603 592 604 581 323 580"/>
+		</blocksection>
+		<blocksection uuid="{ae2a9114-1818-44e6-b37f-8e40b0f6e899}" lines="asvj sw120">
+			<part nodes="5023 5126 5021 5090 5020 78 5124"/>
+		</blocksection>
+		<blocksection uuid="{bc2b792c-1f40-4c3c-8a51-da297b6418fb}" lines="asvj sw120">
+			<part nodes="5027 325 5026 5023"/>
+		</blocksection>
+		<blocksection uuid="{be3bbe22-45f4-4654-bd45-46252eff367b}" lines="asvj sw120">
+			<part nodes="202 15 203 17 85 99 167 204 19 20 21 23"/>
+		</blocksection>
+		<blocksection uuid="{cefa56ea-054a-4b8f-8892-4ddccb62b450}" lines="asvj" speedIndicators="5110">
+			<part nodes="5023 5126 5021 5110 5103 598 597 595 612"/>
+		</blocksection>
+	</blockSections>
+	<slipDistances>
+		<slipdistance uuid="{246a6da1-c1d5-44ca-a763-94dc0b466434}" publicName="Single Line" vmax="999" lines="asvj sw260" serialNumber="0">
+			<part nodes="612 594 611 603 592 604 581 323 580"/>
+		</slipdistance>
+		<slipdistance uuid="{4bf07a90-61aa-45b0-b268-5de941d3df40}" publicName="Up Alton" vmax="999" lines="asvj" serialNumber="0">
+			<part nodes="5023 5126 5021 5090 5020 78"/>
+		</slipdistance>
+		<slipdistance uuid="{4e086104-61bf-4f41-bc9b-d491c74bb08b}" vmax="999" lines="asvj sw120" serialNumber="0">
+			<part nodes="23 45"/>
+		</slipdistance>
+		<slipdistance uuid="{7fb5802e-63a5-4b03-8b17-28a402c0a10d}" publicName="OL" vmax="999" lines="asvj" serialNumber="0">
+			<part nodes="584 585 100 587 5109 5090 5102 17 85 99"/>
+		</slipdistance>
+		<slipdistance uuid="{90ecf52e-14cc-47d4-ba93-99ebe1c9ad14}" publicName="ROL" vmax="999" lines="asvj" serialNumber="1">
+			<part nodes="584 585 100"/>
+		</slipdistance>
+		<slipdistance uuid="{b0a6112a-526d-46be-a1e7-2ec6d9306656}" publicName="Up Branch" vmax="999" lines="asvj" serialNumber="1">
+			<part nodes="5023 5126 5021 5110 5103 598 597 595 612 594 611"/>
+		</slipdistance>
+		<slipdistance uuid="{f78908ec-efb6-4e77-bd41-37f19f81d58d}" publicName="Sand Drag" vmax="999" lines="asvj" serialNumber="1">
+			<part nodes="612 594 611 603 592 98"/>
+		</slipdistance>
+	</slipDistances>
+	<approachControlRoutes/>
+	<stationRoutes>
+		<stationRoute stationID="ASHVALE" name="[ALDRSJN]-[sw120/2]-[1]-[FRIMLYJ]-[sw260/1] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=85;NRz=85;S=85;Rz=85;FGz=85;NGz=85;Gz=85;Lz=85;Unbekannt=85" nodes="325 5026 5023 5126 5021 5110 5103 598 597 595 612 594 611 603 592 604 581 323"/>
+		<stationRoute stationID="ASHVALE" name="[ALDRSJN]-[sw120/2]-[1]-[PRBRITJ]-[sw120/2] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="325 5026 5023 5126 5021 5090 5020"/>
+		<stationRoute stationID="ASHVALE" name="[FRIMLYJ]-[sw260/1]-[2]-[ALDRSJN]-[sw120/1] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=95;NRz=95;S=95;Rz=95;FGz=95;NGz=95;Gz=95;Lz=95;Unbekannt=95" nodes="323 581 599 610 583 584 585 100 587 5109 5090 5102 17 85 99 167 204 19 20 21 23 45"/>
+		<stationRoute stationID="ASHVALE" name="[PRBRITJ]-[sw120/1]-[2]-[ALDRSJN]-[sw120/1] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="203 17 85 99 167 204 19 20 21 23 45"/>
+	</stationRoutes>
+	<lineCatalog/>
+	<zugNummernFelder/>
+	<switchGears/>
+</line>

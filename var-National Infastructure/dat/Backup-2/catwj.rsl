@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<line lineID="catwj" name="Cathcart West Jn" trafficRouting="on_the_left" type="global" dependentLines="sc051 sc053 sc055">
+	<transformations>
+		<transformation line="sc053" m11="1" m12="0" m21="0" m22="1" dx="1.58476e+06" dy="-872.8"/>
+		<transformation line="sc055" m11="1" m12="0" m21="0" m22="1" dx="1.58868e+06" dy="-1733.8"/>
+	</transformations>
+	<version major="1" minor="2" patchlevel="0" comment=""/>
+	<creator user="VWaddelo" timestamp="2016-07-08T10:58:15"/>
+	<lasteditor user="VWaddelo" timestamp="2016-07-08T10:58:15"/>
+	<stations>
+		<station stationID="CCRT" name="Cathcart" xNet="-3218825.1" yNet="9024956.7" uicLocationCode="0" circleDiameter="0">
+			<textElement type="name">
+				<pos view="net" x="832.138" y="832.138" angle="0" system="source"/>
+				<pos view="wgs84" x="832.138" y="832.138" angle="0" system="source"/>
+				<pos view="line" x="687.846" y="687.846" angle="0" system="source"/>
+				<pos view="macro" x="28.2843" y="28.2843" angle="0" system="source"/>
+				<pos view="macroWgs84" x="0" y="0" angle="0" system="source"/>
+			</textElement>
+		</station>
+		<station stationID="CCRTWJN" name="Cathcart West Jn" xNet="-3218688.7" yNet="9023243.85" uicLocationCode="0" circleDiameter="0">
+			<textElement type="name">
+				<pos view="net" x="1847.92" y="1847.92" angle="0" system="source"/>
+				<pos view="wgs84" x="1847.92" y="1847.92" angle="0" system="source"/>
+				<pos view="line" x="2266.74" y="2266.74" angle="0" system="source"/>
+				<pos view="macro" x="28.2843" y="28.2843" angle="0" system="source"/>
+				<pos view="macroWgs84" x="0" y="0" angle="0" system="source"/>
+			</textElement>
+		</station>
+	</stations>
+	<nodes>
+		<node nodeID="72" name="OL: C45" kilometre="3.462" x="34620" y="0" xNet="-3218019.2" yNet="9025300">
+			<netLimitInfo lineID="sc051"/>
+		</node>
+		<track trackID="D-1" stationID="CCRT" type="stopBoard" nodeID="73" name="PLT: CATHCART" kilometre="3.497" x="34969.996" y="-200" xNet="-3218420.6" yNet="9025262.8" referenceNode="249">
+			<platform startPos="-1530" endPos="0" width="150" left="false" open="false"/>
+		</track>
+		<signal interlockingMachine="3 Aspect Pannel (Below 75mph)" nodeID="75" name="SIG: C47" kilometre="3.630" x="36299.996" y="0" xNet="-3219395.2" yNet="9024336.1" referenceNode="376"/>
+		<node nodeID="76" name="TC" kilometre="3.631" x="36309.996" y="0" xNet="-3219403.5" yNet="9024329.9"/>
+		<track trackID="U-2" stationID="CCRT" type="stopBoard" nodeID="77" name="PLT: CATHCART" kilometre="3.650" x="36500" y="0" xNet="-3219559" yNet="9024221.2" referenceNode="76"/>
+		<node nodeID="79" name="OL: C68" kilometre="3.645" x="36453.863" y="-200" xNet="-3219636.2" yNet="9024411.3"/>
+		<switch start="122" endOfMainTrack="378" endOfBranchTrack="275" nodeID="121" name="POINTS: 126" kilometre="3.722" x="37223.172" y="-200" xNet="-3220266.2" yNet="9023970.3"/>
+		<node nodeID="122" name="TC" kilometre="3.723" x="37233.16" y="-200" xNet="-3220274.4" yNet="9023965.1"/>
+		<switch start="122" endOfMainTrack="278" endOfBranchTrack="276" nodeID="123" name="POINTS: 128" kilometre="3.727" x="37269.957" y="-200" xNet="-3220304.5" yNet="9023943.7"/>
+		<node nodeID="127" name="TC" kilometre="3.756" x="37560" y="0" xNet="-3220427.4" yNet="9023613.4"/>
+		<node nodeID="128" name="OL: C68" kilometre="3.812" x="38120.012" y="-200" xNet="-3221000.8" yNet="9023456.1"/>
+		<track trackID="D-1" stationID="CCRTWJN" interlockingMachine="4 Aspect Pannel (Below 75mph)" nodeID="129" name="SIG: C68" kilometre="3.815" x="38150" y="-200" xNet="-3221025.4" yNet="9023438.5" referenceNode="422"/>
+		<node nodeID="130" name="OL: C47" kilometre="3.819" x="38189.789" y="0" xNet="-3220943.6" yNet="9023252.1">
+			<netLimitInfo lineID="sc051"/>
+		</node>
+		<speedIndicator nodeID="142" name="SPEED" kilometre="3.520" x="35200.598" y="-200" xNet="-3218609.7" yNet="9025130.2" referenceNode="206"/>
+		<speedIndicator nodeID="143" name="SPEED" kilometre="3.520" x="35200" y="0" xNet="-3218494.2" yNet="9024966.7" referenceNode="72"/>
+		<node nodeID="205" name="GRAD" kilometre="3.565" x="35650" y="0" xNet="-3218862.8" yNet="9024708.8"/>
+		<node nodeID="206" name="GRAD" kilometre="3.565" x="35646.824" y="-200" xNet="-3218975" yNet="9024873.8"/>
+		<node nodeID="249" name="SD: C59" kilometre="3.503" x="35030.152" y="-200" xNet="-3218469.7" yNet="9025227.6" referenceNode="142" sightingDistance="true"/>
+		<node nodeID="250" name="SD: C47" kilometre="3.560" x="35600" y="0" xNet="-3218821.8" yNet="9024736.8" referenceNode="143" sightingDistance="true"/>
+		<node nodeID="274" kilometre="3.687" x="36871.563" y="-98.550728" xNet="-3219936" yNet="9024054.1" referenceNode="275" releaseContact="true" arranged="true"/>
+		<node nodeID="275" kilometre="3.688" x="36881.609" y="-101.44928" xNet="-3219945.3" yNet="9024049.8" referenceNode="274" releaseContact="true" arranged="true"/>
+		<node nodeID="276" kilometre="3.753" x="37529.977" y="-103.7037" xNet="-3220462.6" yNet="9023715.5" referenceNode="277" releaseContact="true" arranged="true"/>
+		<node nodeID="277" kilometre="3.755" x="37549.977" y="-96.296295" xNet="-3220474.3" yNet="9023697.7" referenceNode="276" releaseContact="true" arranged="true"/>
+		<node nodeID="5" kilometre="162.449" x="36324" y="218" xNet="-3218758.3" yNet="9024036.8"/>
+		<node nodeID="4" kilometre="162.449" x="36650.5" y="338" xNet="-3218757.4" yNet="9023838"/>
+		<node nodeID="44" name="OL:C69" kilometre="162.461" x="36860.9" y="124.66669" xNet="-3218868.1" yNet="9023845.7"/>
+		<node nodeID="3" name="OL:C61" kilometre="162.442" x="36253" y="295" xNet="-3218687.6" yNet="9024032.6"/>
+		<crossing type="kr" startOfMainTrack="274" startOfBranchTrack="124" endOfMainTrack="379" endOfBranchTrack="409" nodeID="120" name="FD: 328T" kilometre="3.653" x="36530" y="0" xNet="-3219716.9" yNet="9024106.1"/>
+		<switch start="125" endOfMainTrack="120" endOfBranchTrack="208" nodeID="124" name="POINTS: 125" kilometre="3.699" x="36990" y="0" xNet="-3219960.5" yNet="9023939.6"/>
+		<node nodeID="1" kilometre="162.484" x="38073.981" y="217.46025" xNet="-3220723.7" yNet="9023139.6"/>
+		<switch start="124" endOfMainTrack="127" endOfBranchTrack="2" nodeID="125" name="POINTS: 127" kilometre="3.734" x="37340" y="0" xNet="-3220247.3" yNet="9023739.7"/>
+		<crossing type="kr" startOfMainTrack="377" startOfBranchTrack="1" endOfMainTrack="127" endOfBranchTrack="277" nodeID="126" name="FD: 325T" kilometre="3.781" x="37810" y="0" xNet="-3220632.2" yNet="9023469.5"/>
+		<node nodeID="304" kilometre="3.831" x="38310.222" y="-200" xNet="-3221156.6" yNet="9023346.3">
+			<netLimitInfo lineID="sc051"/>
+		</node>
+		<node nodeID="53" name="GEOGIS" description="GEOGIS S&amp;C|KHL|148089862|[504][177664]|" kilometre="162.456" x="36378" y="155" xNet="-3218853.1" yNet="9024043.7"/>
+		<node nodeID="300" name="TC" kilometre="133.689" x="36438" y="97" xNet="-3219009.7" yNet="9024056" referenceNode="379" releaseContact="true" arranged="true"/>
+		<node nodeID="270" name="to sc055" kilometre="162.551" x="39063.7" y="863.96" xNet="-3221108.7" yNet="9022081.7">
+			<netLimitInfo lineID="sc053"/>
+		</node>
+		<node nodeID="271" name="to sc055" kilometre="162.551" x="39163.7" y="663.96" xNet="-3221245.1" yNet="9022227.1">
+			<netLimitInfo lineID="sc053"/>
+		</node>
+		<node nodeID="279" kilometre="162.504" x="38693.7" y="663.96" xNet="-3220936.7" yNet="9022632"/>
+		<node nodeID="22" name="TC" kilometre="162.220" x="33353.9" y="2533.8" xNet="-3216449" yNet="9023674.7"/>
+		<node nodeID="34" name="GRAD" kilometre="162.180" x="32984.1" y="2533.8" xNet="-3216045.9" yNet="9023646.5">
+			<netLimitInfo lineID="sc055"/>
+		</node>
+		<node nodeID="35" name="GRAD" kilometre="162.180" x="32985.6" y="2333.8" xNet="-3216038" yNet="9023846.6">
+			<netLimitInfo lineID="sc055"/>
+		</node>
+		<speedIndicator nodeID="12" name="SPEED" kilometre="162.282" x="33927.1" y="2533.8" xNet="-3217074.5" yNet="9023720.1" referenceNode="22"/>
+		<speedIndicator nodeID="13" name="SPEED" kilometre="162.282" x="33929.5" y="2333.8" xNet="-3217069.5" yNet="9023918.7" referenceNode="49"/>
+		<node nodeID="49" name="GEOGIS" description="GEOGIS S&amp;C|KHL|148066115|[504][177576]|" kilometre="162.375" x="35064.7" y="2335.9974" xNet="-3218010.2" yNet="9023984.5"/>
+		<node nodeID="204" name="GEOGIS" description="GEOGIS S&amp;C|KHL|148059355|[500][177643]|" kilometre="162.437" x="35360.1" y="2533.8" xNet="-3218636.5" yNet="9023828.8"/>
+		<node nodeID="280" name="TC" kilometre="162.514" x="38693.7" y="863.96" xNet="-3220776.8" yNet="9022510.1" referenceNode="2" releaseContact="true" arranged="true"/>
+		<node nodeID="302" name="TC" kilometre="3.689" x="36893.53" y="-200" xNet="-3219996.1" yNet="9024159.8" referenceNode="378" releaseContact="true" arranged="true"/>
+		<node nodeID="303" name="TC" kilometre="3.801" x="38009.889" y="0" xNet="-3220796" yNet="9023354.6" referenceNode="377" releaseContact="true" arranged="true"/>
+		<track trackID="D-3" stationID="CCRTWJN" interlockingMachine="4 Aspect Pannel (Below 75mph)" nodeID="281" name="SIG:C61" kilometre="162.522" x="38869.2" y="663.96" xNet="-3221097" yNet="9022389.3" referenceNode="425"/>
+		<stationBorder exitType="regular" stationID="CCRT" lineID="sc051" trackNumber="1" nodeID="328" name="[CCRTWJN] - [sc051/1]" kilometre="3.651" x="36509.542" y="0" xNet="-3219609.3" yNet="9024184.8" referenceNode="77"/>
+		<stationBorder exitType="alternative" stationID="CCRT" lineID="sc051" trackNumber="2" nodeID="329" name="[CCRTWJN] - [sc051/2]" kilometre="3.654" x="36548.212" y="-200" xNet="-3219713.4" yNet="9024357" referenceNode="79"/>
+		<stationBorder exitType="regular" stationID="CCRT" lineID="sc051" trackNumber="1" nodeID="375" name="[CCRTNJN] - [sc051/1]" kilometre="3.461" x="34612.996" y="-200" xNet="-3217936.8" yNet="9025728.6" referenceNode="73">
+			<netLimitInfo lineID="sc051"/>
+		</stationBorder>
+		<stationBorder exitType="alternative" stationID="CCRT" lineID="sc051" trackNumber="2" nodeID="376" name="[CCRTNJN] - [sc051/2]" kilometre="3.571" x="35713" y="0" xNet="-3218914.4" yNet="9024672.3" referenceNode="75"/>
+		<stationBorder exitType="regular" stationID="CCRTWJN" lineID="sc053" trackNumber="1" nodeID="2" name="[MUIREND] - [sc053/1]" kilometre="162.484" x="37828.7" y="294.96" xNet="-3220417.5" yNet="9023219" referenceNode="125"/>
+		<stationBorder exitType="alternative" stationID="CCRTWJN" lineID="sc051" trackNumber="1" nodeID="330" name="[CCRT] - [sc051/1]" kilometre="3.652" x="36519.771" y="0" xNet="-3219663.1" yNet="9024146" referenceNode="409"/>
+		<stationBorder exitType="regular" stationID="CCRTWJN" lineID="sc051" trackNumber="2" nodeID="377" name="[LNSD] - [sc051/2]" kilometre="3.787" x="37869.967" y="0" xNet="-3220681.3" yNet="9023435.4" referenceNode="126"/>
+		<stationBorder exitType="alternative" stationID="CCRTWJN" lineID="sc051" trackNumber="2" nodeID="378" name="[CCRT] - [sc051/2]" kilometre="3.712" x="37124.279" y="-200" xNet="-3220185.1" yNet="9024026.2" referenceNode="121"/>
+		<stationBorder exitType="regular" stationID="CCRTWJN" lineID="sc055" trackNumber="2" nodeID="379" name="[CCRTEJN] - [sc055/2]" kilometre="42.664" x="36502.4" y="29.1" xNet="-3219504.7" yNet="9024091.5" referenceNode="120"/>
+		<stationBorder exitType="alternative" stationID="CCRTWJN" lineID="sc051" trackNumber="1" nodeID="422" name="[LNSD] - [sc051/1]" kilometre="3.820" x="38198.067" y="-200" xNet="-3221064.9" yNet="9023411.7" referenceNode="129"/>
+		<stationBorder exitType="alternative" stationID="CCRTWJN" lineID="sc053" trackNumber="2" nodeID="425" name="[MUIREND] - [sc053/2]" kilometre="162.531" x="38957.55" y="663.96" xNet="-3221141.4" yNet="9022341.7" referenceNode="281"/>
+		<stationBorder exitType="alternative" stationID="CCRTWJN" lineID="sc055" trackNumber="1" nodeID="298" kilometre="162.199" x="33158.322" y="2533.8" xNet="-3216236" yNet="9023660.2" referenceNode="153"/>
+		<node nodeID="208" name="[CCRTEJN] - [sc055/1]" description="GEOGIS S&amp;C|NNH|148068666|[500][177672]|" kilometre="162.463" x="36896" y="89.11115" xNet="-3218923.7" yNet="9023851"/>
+		<track trackID="D-4" stationID="CCRTWJN" interlockingMachine="3 Aspect Pannel (Below 75mph)" nodeID="153" name="SIG:C69" kilometre="162.217" x="33326.1" y="2533.8" xNet="-3216419" yNet="9023672.9" referenceNode="298"/>
+		<track trackID="T-2" stationID="CCRTWJN" type="timingPoint" nodeID="409" kilometre="3.652" x="36524.408" y="0" xNet="-3219687.5" yNet="9024128.4" referenceNode="330"/>
+		<node nodeID="278" kilometre="3.801" x="38010.005" y="-200" xNet="-3220910.7" yNet="9023519.2"/>
+	</nodes>
+	<links>
+		<link source="1" target="279" length="20" gradient="5.347" vmax="32" vmaxr="32"/>
+		<link source="2" target="280" length="30" gradient="5.347" vmax="32" vmaxr="32"/>
+		<link source="3" target="5" length="7" gradient="1" vmax="32" vmaxr="32" radius="1100"/>
+		<link source="4" target="44" length="12" gradient="1" vmax="32" vmaxr="32" radius="2100"/>
+		<link source="5" target="53" length="7" gradient="1" vmax="32" vmaxr="32" radius="1100"/>
+		<link source="12" target="204" length="155" gradient="1" vmax="32" vmaxr="32" radius="2100"/>
+		<link source="13" target="49" length="93" gradient="1" vmax="32" vmaxr="32" radius="1100"/>
+		<link source="22" target="12" length="62" gradient="1" vmax="40" vmaxr="40" radius="2100"/>
+		<link source="34" target="298" length="19" gradient="1" vmax="40" vmaxr="40" radius="2100"/>
+		<link source="35" target="13" length="102" gradient="1" vmax="40" vmaxr="40" radius="1100"/>
+		<link source="44" target="208" length="2" gradient="1" vmax="32" vmaxr="32" radius="2100"/>
+		<link source="49" target="3" length="67" gradient="1" vmax="32" vmaxr="32" radius="1100"/>
+		<link source="53" target="300" length="4" gradient="1" vmax="32" vmaxr="32"/>
+		<link source="72" target="143" length="58" gradient="3.333" vmax="64" vmaxr="64"/>
+		<link source="73" target="249" length="6" gradient="3.333" vmax="64" vmaxr="64"/>
+		<link source="75" target="76" length="1" gradient="5.882" vmax="32" vmaxr="32"/>
+		<link source="76" target="77" length="19" gradient="5.882" vmax="32" vmaxr="32"/>
+		<link source="77" target="328" length="1" gradient="5.882" vmax="32" vmaxr="32"/>
+		<link source="79" target="329" length="9" gradient="5.882" vmax="32" vmaxr="32"/>
+		<link source="120" target="124" length="46" gradient="5.882" vmax="32" vmaxr="32"/>
+		<link source="120" target="274" length="34" gradient="5.882" vmax="32" vmaxr="32"/>
+		<link source="121" target="122" length="1" gradient="5.882" vmax="32" vmaxr="32"/>
+		<link source="122" target="123" length="4" gradient="5.882" vmax="32" vmaxr="32"/>
+		<link source="123" target="276" length="26" gradient="5.882" vmax="32" vmaxr="32"/>
+		<link source="123" target="278" length="74" gradient="5.882" vmax="32" vmaxr="32"/>
+		<link source="124" target="125" length="35" gradient="5.882" vmax="32" vmaxr="32"/>
+		<link source="125" target="2" length="1" gradient="5.347" vmax="32" vmaxr="32"/>
+		<link source="125" target="127" length="22" gradient="5.882" vmax="32" vmaxr="32"/>
+		<link source="126" target="1" length="1" gradient="5.347" vmax="32" vmaxr="32"/>
+		<link source="126" target="377" length="6" gradient="5.882" vmax="32" vmaxr="32"/>
+		<link source="127" target="126" length="25" gradient="5.882" vmax="32" vmaxr="32"/>
+		<link source="128" target="129" length="3" gradient="5.882" vmax="32" vmaxr="32"/>
+		<link source="129" target="422" length="5" gradient="5.882" vmax="32" vmaxr="32"/>
+		<link source="142" target="206" length="45" gradient="3.333" vmax="32" vmaxr="32"/>
+		<link source="143" target="250" length="40" gradient="3.333" vmax="32" vmaxr="32"/>
+		<link source="153" target="22" length="3" gradient="1" vmax="40" vmaxr="40" radius="2100"/>
+		<link source="204" target="4" length="12" gradient="1" vmax="32" vmaxr="32" radius="2100"/>
+		<link source="205" target="376" length="6" gradient="5.882" vmax="32" vmaxr="32"/>
+		<link source="206" target="79" length="80" gradient="5.882" vmax="32" vmaxr="32"/>
+		<link source="208" target="124" length="31" gradient="1" vmax="32" vmaxr="32" radius="1100"/>
+		<link source="249" target="142" length="17" gradient="3.333" vmax="64" vmaxr="64"/>
+		<link source="250" target="205" length="5" gradient="3.333" vmax="32" vmaxr="32"/>
+		<link source="274" target="275" length="1" gradient="5.882" vmax="32" vmaxr="32"/>
+		<link source="275" target="121" length="34" gradient="5.882" vmax="32" vmaxr="32"/>
+		<link source="276" target="277" length="2" gradient="5.882" vmax="32" vmaxr="32"/>
+		<link source="277" target="126" length="26" gradient="5.882" vmax="32" vmaxr="32"/>
+		<link source="278" target="128" length="11" gradient="5.882" vmax="32" vmaxr="32"/>
+		<link source="279" target="281" length="18" gradient="5.347" vmax="32" vmaxr="32"/>
+		<link source="280" target="270" length="37" gradient="5.347" vmax="32" vmaxr="32"/>
+		<link source="281" target="425" length="9" gradient="5.347" vmax="32" vmaxr="32"/>
+		<link source="298" target="153" length="18" gradient="1" vmax="40" vmaxr="40" radius="2100"/>
+		<link source="300" target="379" length="13" gradient="1" vmax="32" vmaxr="32"/>
+		<link source="302" target="378" length="23" gradient="5.882" vmax="32" vmaxr="32"/>
+		<link source="303" target="130" length="18" gradient="5.882" vmax="32" vmaxr="32"/>
+		<link source="328" target="330" length="1" gradient="5.882" vmax="32" vmaxr="32"/>
+		<link source="329" target="302" length="35" gradient="5.882" vmax="32" vmaxr="32"/>
+		<link source="330" target="409" gradient="5.882" vmax="32" vmaxr="32"/>
+		<link source="375" target="73" length="36" gradient="3.333" vmax="64" vmaxr="64"/>
+		<link source="376" target="75" length="59" gradient="5.882" vmax="32" vmaxr="32"/>
+		<link source="377" target="303" length="14" gradient="5.882" vmax="32" vmaxr="32"/>
+		<link source="378" target="121" length="10" gradient="5.882" vmax="32" vmaxr="32"/>
+		<link source="379" target="120" length="5" gradient="1" vmax="32" vmaxr="32"/>
+		<link source="409" target="120" length="1" gradient="5.882" vmax="32" vmaxr="32"/>
+		<link source="422" target="304" length="11" gradient="5.882" vmax="32" vmaxr="32"/>
+		<link source="425" target="271" length="20" gradient="5.347" vmax="32" vmaxr="32"/>
+	</links>
+	<dependentLinks/>
+	<blockSections>
+		<blocksection uuid="{0dd03443-575f-4988-9ae3-93e379eaca25}" lines="catwj sc051" speedIndicators="12">
+			<part nodes="153 22 12 204 4 44 208 124 125 127 126 377 303 130"/>
+		</blocksection>
+		<blocksection uuid="{298cbe4c-5afe-4683-a7de-b2eabba4bc87}" lines="catej catwj sc055">
+			<part nodes="34 298 153"/>
+		</blocksection>
+		<blocksection uuid="{4259afab-f580-4b75-8fce-ba189d3b045d}" lines="catnj catwj sc051" speedIndicators="143">
+			<part nodes="72 143 250 205 376 75"/>
+		</blocksection>
+		<blocksection uuid="{439d5369-cd4e-4692-8ce1-78ee21048292}" lines="catwj sc051">
+			<part nodes="304 422 129"/>
+		</blocksection>
+		<blocksection uuid="{51c49dc1-9223-4380-afd8-2a07938ba086}" lines="catej catwj sc055">
+			<part nodes="129 128 278 123 122 121 275 274 120 379 300 53 5 3 49 13 35"/>
+		</blocksection>
+		<blocksection uuid="{62c9052c-252f-483a-b054-64ffb47bc183}" lines="catnj catwj sc051" shuntingBlock="true">
+			<part nodes="72 143 250 205 376 75"/>
+		</blocksection>
+		<blocksection uuid="{65c282cc-bc1a-4ef9-94fa-f1b18c4e550b}" lines="catwj sc051">
+			<part nodes="281 279 1 126 277 276 123 122 121 378 302 329 79 206 142 249 73 375"/>
+		</blocksection>
+		<blocksection uuid="{69237729-1014-45bd-94ad-0007766d4fb9}" lines="catnj catwj sc051" shuntingBlock="true">
+			<part nodes="75 376 205 250 143 72"/>
+		</blocksection>
+		<blocksection uuid="{716119d2-722f-4cc8-a447-fd0a9c84a720}" lines="catej catwj sc055">
+			<part nodes="34 298 153"/>
+		</blocksection>
+		<blocksection uuid="{909c0b5f-eb4f-4dd5-b43c-e13e71eebb80}" lines="catwj sc051">
+			<part nodes="75 76 77 328 330 409 120 124 125 127 126 377 303 130"/>
+		</blocksection>
+		<blocksection uuid="{9daa5729-f74b-4853-abeb-b2197942bab1}" lines="catwj sc053">
+			<part nodes="271 425 281"/>
+		</blocksection>
+		<blocksection uuid="{c6a1af28-5001-4216-8ccc-bf8f4b9cacc0}" lines="catwj sc051" speedIndicators="142">
+			<part nodes="129 128 278 123 122 121 378 302 329 79 206 142 249 73 375"/>
+		</blocksection>
+		<blocksection uuid="{eb46ee71-0085-486e-af8a-6603d90ed837}" lines="catej catwj sc055" shuntingBlock="true">
+			<part nodes="34 298 153"/>
+		</blocksection>
+		<blocksection uuid="{fbe14a34-4b91-4b32-8e5c-31eddc0b3a68}" lines="catwj sc053">
+			<part nodes="75 76 77 328 330 409 120 124 125 2 280 270"/>
+		</blocksection>
+		<blocksection uuid="{fd5af41d-2498-4ea0-addd-a34f3183b79e}" lines="catwj sc053" speedIndicators="12">
+			<part nodes="153 22 12 204 4 44 208 124 125 2 280 270"/>
+		</blocksection>
+		<blocksection uuid="{fe459169-0d0a-4ea3-b4b4-ed897addd525}" lines="catej catwj sc055">
+			<part nodes="281 279 1 126 277 276 123 122 121 275 274 120 379 300 53 5 3 49 13 35"/>
+		</blocksection>
+	</blockSections>
+	<slipDistances>
+		<slipdistance uuid="{186f9368-9923-4ecf-a3b3-6d1bd7b1c4b8}" vmax="999" lines="catwj" serialNumber="0">
+			<part nodes="153 22 12 204 4 44"/>
+		</slipdistance>
+		<slipdistance uuid="{1b004a78-7859-43ae-a618-d2d2c7189456}" vmax="999" lines="catwj sc051" serialNumber="0">
+			<part nodes="304 422 129 128 278"/>
+		</slipdistance>
+		<slipdistance uuid="{43283201-dc17-41c8-98b8-2496d2e92467}" lines="catwj" serialNumber="0">
+			<part nodes="129 128 278 123 122 121 378 302 329 79"/>
+		</slipdistance>
+		<slipdistance uuid="{585b377e-47d9-49d7-99c2-3abab44cc037}" vmax="999" lines="catwj" serialNumber="1">
+			<part nodes="281 279 1 126 277 276 123 122 121 275 274 120 379 300 53 5 3"/>
+		</slipdistance>
+		<slipdistance uuid="{94f888a6-14ab-4526-88af-f11f7709899c}" vmax="999" lines="catwj" serialNumber="1">
+			<part nodes="75 76 77 328 330 409 120 124 125 2 280"/>
+		</slipdistance>
+		<slipdistance uuid="{ad9af5c5-3075-4c45-9f9e-e2b9ec67055b}" lines="catwj" serialNumber="0">
+			<part nodes="75 76 77 328 330 409 120 124 125 127 126 377 303 130"/>
+		</slipdistance>
+		<slipdistance uuid="{dceb2b9a-3b4d-449d-9ad2-3e8245442f68}" vmax="999" lines="catwj" serialNumber="0">
+			<part nodes="281 279 1 126 277 276 123 122 121 378 302 329 79"/>
+		</slipdistance>
+		<slipdistance uuid="{f02b1249-653c-420f-9736-e193c9d02809}" vmax="999" lines="catwj" serialNumber="1">
+			<part nodes="129 128 278 123 122 121 275 274 120 379 300 53 5 3"/>
+		</slipdistance>
+	</slipDistances>
+	<approachControlRoutes/>
+	<stationRoutes>
+		<stationRoute stationID="CCRT" name="[CCRTNJN]-[sc051/2]-[2]-[CCRTWJN]-[sc051/1] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="376 75 76 77 328"/>
+		<stationRoute stationID="CCRT" name="[CCRTWJN]-[sc051/2]-[1]-[CCRTNJN]-[sc051/1] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="329 79 206 142 249 73 375"/>
+		<stationRoute stationID="CCRTWJN" name="[CCRTEJN]-[sc055/1]-[2]-[LNSD]-[sc051/2] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=95;NRz=95;S=95;Rz=95;FGz=95;NGz=95;Gz=95;Lz=95;Unbekannt=95" nodes="298 153 22 12 204 4 44 208 124 125 127 126 377"/>
+		<stationRoute stationID="CCRTWJN" name="[CCRTEJN]-[sc055/1]-[2]-[MUIREND]-[sc053/1] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=90;NRz=90;S=90;Rz=90;FGz=90;NGz=90;Gz=90;Lz=90;Unbekannt=90" nodes="298 153 22 12 204 4 44 208 124 125 2"/>
+		<stationRoute stationID="CCRTWJN" name="[CCRT]-[sc051/1]-[2]-[LNSD]-[sc051/2] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="330 409 120 124 125 127 126 377"/>
+		<stationRoute stationID="CCRTWJN" name="[CCRT]-[sc051/1]-[2]-[MUIREND]-[sc053/1] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=95;NRz=95;S=95;Rz=95;FGz=95;NGz=95;Gz=95;Lz=95;Unbekannt=95" nodes="330 409 120 124 125 2"/>
+		<stationRoute stationID="CCRTWJN" name="[LNSD]-[sc051/1]-[1]-[CCRTEJN]-[sc055/2] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=95;NRz=95;S=95;Rz=95;FGz=95;NGz=95;Gz=95;Lz=95;Unbekannt=95" nodes="422 129 128 278 123 122 121 275 274 120 379"/>
+		<stationRoute stationID="CCRTWJN" name="[LNSD]-[sc051/1]-[1]-[CCRT]-[sc051/2] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="422 129 128 278 123 122 121 378"/>
+		<stationRoute stationID="CCRTWJN" name="[MUIREND]-[sc053/2]-[1-3]-[CCRTEJN]-[sc055/2] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=90;NRz=90;S=90;Rz=90;FGz=90;NGz=90;Gz=90;Lz=90;Unbekannt=90" nodes="425 281 279 1 126 277 276 123 122 121 275 274 120 379"/>
+		<stationRoute stationID="CCRTWJN" name="[MUIREND]-[sc053/2]-[1-3]-[CCRT]-[sc051/2] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=95;NRz=95;S=95;Rz=95;FGz=95;NGz=95;Gz=95;Lz=95;Unbekannt=95" nodes="425 281 279 1 126 277 276 123 122 121 378"/>
+	</stationRoutes>
+	<lineCatalog/>
+	<zugNummernFelder/>
+	<switchGears/>
+</line>

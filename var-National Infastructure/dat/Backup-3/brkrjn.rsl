@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<line lineID="brkrjn" name="Berkley Road Junction" trafficRouting="on_the_left" type="global" dependentLines="gw400 gw425">
+	<transformations>
+		<transformation line="gw400b" m11="1" m12="0" m21="0" m22="1" dx="0" dy="0"/>
+		<transformation line="gw425" m11="1" m12="0" m21="0" m22="1" dx="-593715" dy="307981"/>
+	</transformations>
+	<version major="1" minor="2" patchlevel="0" comment=""/>
+	<creator user="Ahowe4" timestamp="2016-11-01T12:54:22"/>
+	<lasteditor user="Ahowe4" timestamp="2016-11-01T12:54:22"/>
+	<stations>
+		<station stationID="BRKRJUN" name="Berkley Road Junction" xNet="-1592235.6" yNet="1091136.65" uicLocationCode="0" circleDiameter="0">
+			<textElement type="name">
+				<pos view="net" x="4105.62" y="4105.62" angle="0" system="source"/>
+				<pos view="wgs84" x="4105.62" y="4105.62" angle="0" system="source"/>
+				<pos view="line" x="7945.1" y="7945.1" angle="0" system="source"/>
+				<pos view="macro" x="28.2843" y="28.2843" angle="0" system="source"/>
+				<pos view="macroWgs84" x="0" y="0" angle="0" system="source"/>
+			</textElement>
+		</station>
+	</stations>
+	<nodes>
+		<node nodeID="42" name="GRAD" kilometre="173.442" x="864556.42" y="-307452.4" xNet="-1591896" yNet="1092034"/>
+		<node nodeID="3" name="GRAD" kilometre="173.294" x="863076.42" y="-307652.4" xNet="-1591773.8" yNet="1093177.9"/>
+		<node nodeID="4" name="GRAD" kilometre="173.294" x="863076.42" y="-307452.4" xNet="-1591629.8" yNet="1093037.9"/>
+		<node nodeID="45" name="GRAD" kilometre="172.950" x="859636.42" y="-307652.4" xNet="-1590582.8" yNet="1097592.9">
+			<netLimitInfo lineID="gw400"/>
+		</node>
+		<node nodeID="46" name="GRAD" kilometre="172.950" x="859636.42" y="-307452.4" xNet="-1590439.8" yNet="1097451.9">
+			<netLimitInfo lineID="gw400"/>
+		</node>
+		<track trackID="U-1" stationID="BRKRJUN" interlockingMachine="3 Aspect Pannel (76mph - 100mph)" nodeID="177" name="BRKRJUN SIG: G11" kilometre="173.943" x="869566.42" y="-307652.4" xNet="-1592578" yNet="1087282.1" referenceNode="1891"/>
+		<node nodeID="179" name="OL G11" kilometre="173.659" x="866726.42" y="-307652.4" xNet="-1592567.8" yNet="1088201"/>
+		<switch start="210" endOfMainTrack="179" endOfBranchTrack="185" nodeID="180" name="POINTS: 760A" description="GEOGIS S&amp;C|BGL2|148071497|[496][189864]|" kilometre="173.611" x="866246.42" y="-307652.4" xNet="-1592522.8" yNet="1089199.9"/>
+		<track trackID="V-3" stationID="BRKRJUN" type="shunting" interlockingMachine="Shunt" nodeID="184" name="BRKRJUN SIG: 401" kilometre="0.109" x="867276.42" y="-307852.4" xNet="-1593048" yNet="1087504" referenceNode="7"/>
+		<speedIndicator nodeID="185" name="SPEED" kilometre="173.612" x="866256.42" y="-307656.4" xNet="-1592532.8" yNet="1089188.9" referenceNode="180"/>
+		<switch start="210" endOfMainTrack="41" endOfBranchTrack="187" nodeID="181" name="POINTS: 759B" description="GEOGIS S&amp;C|BGL2|148067420|[496][189825]|" kilometre="173.580" x="865936.42" y="-307652.4" xNet="-1592474" yNet="1090389"/>
+		<switch start="42" endOfMainTrack="1" endOfBranchTrack="188" nodeID="186" name="POINTS: 759A" description="GEOGIS S&amp;C|BGL2|148091026|[492][189751]|" kilometre="173.501" x="865146.42" y="-307452.4" xNet="-1592111" yNet="1091199"/>
+		<speedIndicator nodeID="187" name="SPEED" kilometre="173.579" x="865926.42" y="-307649.4" xNet="-1592466" yNet="1090397" referenceNode="1679"/>
+		<speedIndicator nodeID="188" name="SPEED" kilometre="173.502" x="865156.42" y="-307455.4" xNet="-1592176" yNet="1091046" referenceNode="186"/>
+		<node nodeID="5" name="OL 674" kilometre="173.339" x="863526.42" y="-307452.4" xNet="-1591731.8" yNet="1092677.9"/>
+		<track trackID="D-2" stationID="BRKRJUN" interlockingMachine="3 Aspect Pannel (76mph - 100mph)" nodeID="2" name="BRKRJUN SIG: 674" kilometre="173.059" x="860726.42" y="-307452.4" xNet="-1590631.8" yNet="1096377.9" referenceNode="6"/>
+		<track trackID="T-1" stationID="BRKRJUN" type="timingPoint" nodeID="210" name="BRKRJUN" kilometre="173.608" x="866216.42" y="-307652.4" xNet="-1592466" yNet="1090197" referenceNode="181"/>
+		<track trackID="T-2" stationID="BRKRJUN" type="timingPoint" nodeID="1" name="BRKRJUN" kilometre="173.608" x="866216.42" y="-307452.4" xNet="-1592191" yNet="1090000" referenceNode="186"/>
+		<node nodeID="1678" kilometre="173.520" x="865332.36" y="-307499.73" xNet="-1592276" yNet="1090674" referenceNode="188" releaseContact="true" arranged="true"/>
+		<node nodeID="1679" kilometre="173.559" x="865725.73" y="-307598.85" xNet="-1592331.8" yNet="1090577.9" referenceNode="187" releaseContact="true" arranged="true"/>
+		<stationBorder exitType="regular" stationID="BRKRJUN" lineID="gw400" trackNumber="2" nodeID="41" name="[DURSLEY] - [gw400/2]" kilometre="173.442" x="864556.42" y="-307652.4" xNet="-1592331.8" yNet="1091277.9" referenceNode="181"/>
+		<stationBorder exitType="alternative" stationID="BRKRJUN" lineID="gw400" trackNumber="1" nodeID="1891" name="[CHFIELD] - [gw400/1]" kilometre="174.037" x="870505.42" y="-307652.4" xNet="-1592548" yNet="1086442.1" referenceNode="177">
+			<netLimitInfo lineID="gw400"/>
+		</stationBorder>
+		<stationBorder exitType="alternative" stationID="BRKRJUN" lineID="gw400" trackNumber="1" nodeID="6" name="[DURSLEY] - [gw400/1]" kilometre="173.026" x="860399.42" y="-307452.4" xNet="-1590574.2" yNet="1096700.1" referenceNode="2"/>
+		<stationBorder exitType="regular" stationID="BRKRJUN" lineID="gw400" trackNumber="2" nodeID="1893" name="[CHFIELD] - [gw400/2]" kilometre="174.005" x="870188.42" y="-307452.4" xNet="-1592271.8" yNet="1087327.9" referenceNode="1">
+			<netLimitInfo lineID="gw400"/>
+		</stationBorder>
+		<kilometreInconsistency newKilometre="0.009" nodeID="183" name="Change of kilometrage" description="Change of kilometrage" kilometre="173.613" x="866736.42" y="-307852.4" xNet="-1593031.8" yNet="1088477.9" referenceNode="185"/>
+		<node nodeID="524" kilometre="0.360" x="882623.82" y="-307969.08" xNet="-1593070.7" yNet="1086533.4"/>
+		<node nodeID="7" name="Grad_con" description="Grad_con" kilometre="0.200" x="868186.42" y="-307852.4" xNet="-1593052.8" yNet="1087116.5"/>
+		<track trackID="U-3" stationID="BRKRJUN" interlockingMachine="2 Aspect Pannel (Below 75mph)" nodeID="476" name="DUMMY" kilometre="0.381" x="882832" y="-307973.3" xNet="-1593628" yNet="1085615.9" referenceNode="525"/>
+		<stationBorder exitType="regular" stationID="BRKRJUN" lineID="gw425" trackNumber="1" nodeID="525" kilometre="0.384" x="882865.51" y="-307972.72" xNet="-1593897" yNet="1085573.2" referenceNode="476">
+			<netLimitInfo lineID="gw425"/>
+		</stationBorder>
+		<node nodeID="182" name="OL DUMMY" description="OL for SIG : DUMMY" kilometre="0.201" x="871668.16" y="-307892.29" xNet="-1593055" yNet="1086957"/>
+	</nodes>
+	<links>
+		<link source="1" target="1893" length="397" gradient="2.817" vmax="161" vmaxr="161" radius="2100"/>
+		<link source="2" target="4" length="235" gradient="4.367" vmax="161" vmaxr="161" radius="2100"/>
+		<link source="3" target="41" length="148" vmax="161" vmaxr="161" radius="1100"/>
+		<link source="4" target="5" length="45" vmax="161" vmaxr="161" radius="2100"/>
+		<link source="5" target="42" length="103" vmax="161" vmaxr="161" radius="2100"/>
+		<link source="6" target="2" length="33" gradient="4.367" vmax="161" vmaxr="161" radius="2100"/>
+		<link source="7" target="182" length="1" vmax="24" vmaxr="24" bidirectional="true"/>
+		<link source="41" target="181" length="138" gradient="2.817" vmax="161" vmaxr="161" radius="1100"/>
+		<link source="42" target="186" length="59" gradient="2.817" vmax="161" vmaxr="161" radius="2100"/>
+		<link source="45" target="3" length="344" gradient="4.367" vmax="161" vmaxr="161" radius="1100"/>
+		<link source="46" target="6" length="76" gradient="4.367" vmax="161" vmaxr="161" radius="2100"/>
+		<link source="177" target="1891" length="94" gradient="2.817" vmax="161" vmaxr="161" radius="1100"/>
+		<link source="179" target="177" length="284" gradient="2.817" vmax="161" vmaxr="161" radius="1100"/>
+		<link source="180" target="179" length="48" gradient="2.817" vmax="161" vmaxr="161" radius="1100"/>
+		<link source="180" target="185" length="1" gradient="2.817" vmax="161" vmaxr="161" bidirectional="true"/>
+		<link source="181" target="210" length="28" gradient="2.817" vmax="161" vmaxr="161" radius="1100"/>
+		<link source="182" target="524" length="159" vmax="24" vmaxr="24" bidirectional="true"/>
+		<link source="183" target="184" length="101" gradient="2.817" vmax="24" vmaxr="24" bidirectional="true"/>
+		<link source="184" target="7" length="91" gradient="2.817" vmax="24" vmaxr="24" bidirectional="true"/>
+		<link source="185" target="183" length="1" gradient="2.817" vmax="24" vmaxr="24" bidirectional="true"/>
+		<link source="186" target="1" length="107" gradient="2.817" vmax="161" vmaxr="161" radius="2100"/>
+		<link source="186" target="188" length="1" gradient="2.817" vmax="161" vmaxr="161"/>
+		<link source="187" target="181" length="1" gradient="2.817" vmax="161" vmaxr="161"/>
+		<link source="188" target="1678" length="18" gradient="2.817" vmax="32" vmaxr="32"/>
+		<link source="210" target="180" length="3" gradient="2.817" vmax="161" vmaxr="161" radius="1100"/>
+		<link source="476" target="524" length="21" vmax="24" vmaxr="24" bidirectional="true" radius="3100"/>
+		<link source="525" target="476" length="3" vmax="24" vmaxr="24" bidirectional="true" radius="3100"/>
+		<link source="1678" target="1679" length="39" gradient="2.817" vmax="32" vmaxr="32"/>
+		<link source="1679" target="187" length="20" gradient="2.817" vmax="32" vmaxr="32"/>
+	</links>
+	<dependentLinks/>
+	<blockSections>
+		<blocksection uuid="{0fe46a79-8982-49ae-9387-5105353d91ed}" lines="brkrjn gw425">
+			<part nodes="525 476"/>
+		</blocksection>
+		<blocksection uuid="{228c4e33-4c8d-4e25-8d67-b1f0f004222b}" lines="brkrjn gw425" speedIndicators="185 187 188">
+			<part nodes="2 4 5 42 186 188 1678 1679 187 181 210 180 185 183 184 7 182 524 476 525"/>
+		</blocksection>
+		<blocksection uuid="{3dd39be1-4399-453f-9ce7-40a07d2b2de2}" lines="brkrjn gw425">
+			<part nodes="476 525"/>
+		</blocksection>
+		<blocksection uuid="{4efe4427-f6d4-4e59-a0db-dbde4e10c2ee}" lines="brkrjn gw400">
+			<part nodes="1891 177"/>
+		</blocksection>
+		<blocksection uuid="{505c7534-9a7f-469e-b185-9f3a3d133058}" lines="brkrjn gw425" shuntingBlock="true">
+			<part nodes="184 7 182 524 476 525"/>
+		</blocksection>
+		<blocksection uuid="{50871147-cde3-4639-b4b2-4538eed6b01e}" lines="brkrjn gw400" shuntingBlock="true" speedIndicators="185">
+			<part nodes="184 183 185 180 210 181 41 3 45"/>
+		</blocksection>
+		<blocksection uuid="{58503f54-b7f9-497a-8f29-64071c75f8bc}" lines="brkrjn gw425" shuntingBlock="true">
+			<part nodes="525 476"/>
+		</blocksection>
+		<blocksection uuid="{70c003ed-4b8f-43d7-99d7-713582f72edb}" lines="brkrjn" shuntingBlock="true">
+			<part nodes="476 524 182 7 184"/>
+		</blocksection>
+		<blocksection uuid="{aab091f0-8969-4b51-be48-698f44831f9e}" lines="brkrjn gw400">
+			<part nodes="2 4 5 42 186 1 1893"/>
+		</blocksection>
+		<blocksection uuid="{ae1fa44a-56c1-48aa-afe2-b396b04271bd}" lines="brkrjn gw425">
+			<part nodes="525 476"/>
+		</blocksection>
+		<blocksection uuid="{b325a22e-6d56-4ec6-9aad-b08463dc0a92}" lines="brkrjn gw400">
+			<part nodes="177 179 180 210 181 41 3 45"/>
+		</blocksection>
+		<blocksection uuid="{cc4d78f1-da61-4da7-af4c-36cf6b7db1ba}" lines="brkrjn gw400">
+			<part nodes="46 6 2"/>
+		</blocksection>
+		<blocksection uuid="{ccae9fc1-db7c-403a-ba31-63f9aa6d6678}" lines="brkrjn gw400">
+			<part nodes="476 524 182 7 184 183 185 180 210 181 41 3 45"/>
+		</blocksection>
+		<blocksection uuid="{ec198c3c-a805-4408-9555-83241897b7d0}" lines="brkrjn gw425" shuntingBlock="true">
+			<part nodes="525 476"/>
+		</blocksection>
+	</blockSections>
+	<slipDistances>
+		<slipdistance uuid="{23ece251-3e4b-4c79-8f0a-5c482c28c5a5}" vmax="999" lines="brkrjn" serialNumber="0">
+			<part nodes="476 524 182"/>
+		</slipdistance>
+		<slipdistance uuid="{248d681b-732e-4147-a20c-29186ba03697}" vmax="999" lines="brkrjn" serialNumber="0">
+			<part nodes="177 179"/>
+		</slipdistance>
+		<slipdistance uuid="{61da08e4-acfd-4909-8c48-a9bdc27238bd}" vmax="999" lines="brkrjn" serialNumber="0">
+			<part nodes="2 4 5"/>
+		</slipdistance>
+	</slipDistances>
+	<approachControlRoutes/>
+	<stationRoutes>
+		<stationRoute stationID="BRKRJUN" name="[BRKBNFL]-[gw425/1]-[1-3]-[DURSLEY]-[gw400/2] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=95;NRz=95;S=95;Rz=95;FGz=95;NGz=95;Gz=95;Lz=95;Unbekannt=95" nodes="525 476 524 182 7 184 183 185 180 210 181 41"/>
+		<stationRoute stationID="BRKRJUN" name="[CHFIELD]-[gw400/1]-[1]-[DURSLEY]-[gw400/2] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="1891 177 179 180 210 181 41"/>
+		<stationRoute stationID="BRKRJUN" name="[DURSLEY]-[gw400/1]-[1-2]-[BRKBNFL]-[gw425/1] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=85;NRz=85;S=85;Rz=85;FGz=85;NGz=85;Gz=85;Lz=85;Unbekannt=85" nodes="6 2 4 5 42 186 188 1678 1679 187 181 210 180 185 183 184 7 182 524 476 525"/>
+		<stationRoute stationID="BRKRJUN" name="[DURSLEY]-[gw400/1]-[2]-[CHFIELD]-[gw400/2] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="6 2 4 5 42 186 1 1893"/>
+	</stationRoutes>
+	<lineCatalog/>
+	<zugNummernFelder/>
+	<switchGears/>
+</line>

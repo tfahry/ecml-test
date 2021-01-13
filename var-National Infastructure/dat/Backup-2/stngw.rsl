@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<line lineID="stngw" name="Sittingbourne West Jn" trafficRouting="on_the_left" type="global" dependentLines="so110b so150a">
+	<transformations>
+		<transformation line="so150" m11="1" m12="0" m21="0" m22="1" dx="-1558.01" dy="1124.65"/>
+		<transformation line="so150a" m11="1" m12="0" m21="0" m22="1" dx="107.701" dy="-1102.6"/>
+	</transformations>
+	<version major="1" minor="2" patchlevel="0" comment=""/>
+	<creator user="Ahowe4" timestamp="2016-11-01T12:54:22"/>
+	<lasteditor user="Ahowe4" timestamp="2016-11-01T12:54:22"/>
+	<stations>
+		<station stationID="STNGWJN" name="Sittingbourne Western Jn" xNet="1965857.15" yNet="449834.655" uicLocationCode="0" circleDiameter="0">
+			<textElement type="name">
+				<pos view="net" x="2450.39" y="2450.39" angle="0" system="source"/>
+				<pos view="wgs84" x="2450.39" y="2450.39" angle="0" system="source"/>
+				<pos view="line" x="1900.74" y="1900.74" angle="0" system="source"/>
+				<pos view="macro" x="28.2843" y="28.2843" angle="0" system="source"/>
+				<pos view="macroWgs84" x="0" y="0" angle="0" system="source"/>
+			</textElement>
+		</station>
+	</stations>
+	<nodes>
+		<node nodeID="122" name="GRAD" description="Gradient; 43m 70.5ch" kilometre="70.620" x="706867" y="1500" xNet="1968147.5" yNet="450212.78"/>
+		<node nodeID="6" name="FD : 66" description="FD : 66; m -1775ch" kilometre="70.676" x="707319" y="1300" xNet="1968531.7" yNet="450359.34"/>
+		<track trackID="U-3" stationID="STNGWJN" interlockingMachine="3 Aspect IECC (Below 75mph)" nodeID="7" name="SIG : 11" description="Signal 11; 43m 75.32ch" kilometre="70.717" x="707466" y="1300" xNet="1968924.2" yNet="450826.1" referenceNode="269"/>
+		<node nodeID="8" name="SD : 11" description="sighting distance for SIG : 11" kilometre="70.811" x="708406" y="1300" xNet="1969527.9" yNet="451546.74" referenceNode="120" sightingDistance="true"/>
+		<switch start="2349" endOfMainTrack="1180" endOfBranchTrack="1168" nodeID="1165" name="POINTS : 66" description="POINTS : 66; 20 mph; 43m 70ch" kilometre="70.616" x="706290" y="900" xNet="1966428" yNet="448903.54"/>
+		<switch start="2348" endOfMainTrack="661" endOfBranchTrack="268" nodeID="655" name="POINTS : 64" description="POINTS : 64; 20 mph; 43m 70ch" kilometre="70.615" x="706280" y="1100" xNet="1966455.8" yNet="449101.08"/>
+		<track trackID="D-2" stationID="STNGWJN" interlockingMachine="4 Aspect IECC (76mph - 100mph)" nodeID="21" name="SIG : 2A/2B" description="Signal 2A/2B; 43m 52ch" kilometre="70.256" x="702690" y="1100" xNet="1962956" yNet="449498" referenceNode="19"/>
+		<node nodeID="865" name="OL 2A/2B" description="OL for SIG : 2A/2B" kilometre="70.436" x="704490" y="1100" xNet="1964767" yNet="449358"/>
+		<crossing type="kr" startOfMainTrack="6" startOfBranchTrack="786" endOfMainTrack="1175" endOfBranchTrack="655" nodeID="661" name="FD : 66" description="FD: 66; 20 mph; 43m 73ch" kilometre="70.676" x="706886.56" y="1100" xNet="1967051.2" yNet="448985.27"/>
+		<node nodeID="167" kilometre="70.844" x="708187" y="1500" xNet="1969511" yNet="451903.99">
+			<netLimitInfo lineID="so150a"/>
+		</node>
+		<node nodeID="120" kilometre="70.839" x="708687" y="1300" xNet="1969692.4" yNet="451778.33">
+			<netLimitInfo lineID="so150a"/>
+		</node>
+		<track trackID="T-2" stationID="STNGWJN" type="timingPoint" nodeID="2348" name="T-2" description="STNGWJN T-2, timingPoint. 43m 70ch" kilometre="70.614" x="706270" y="1100" xNet="1966446" yNet="449102.97" referenceNode="865"/>
+		<track trackID="T-1" stationID="STNGWJN" type="timingPoint" nodeID="2349" name="T-1" description="STNGWJN T-1, timingPoint. 43m70ch" kilometre="70.615" x="706280" y="900" xNet="1966418.2" yNet="448905.43" referenceNode="2196"/>
+		<speedIndicator nodeID="125" name="SPEED" description="Speed; 43m 75ch" kilometre="70.710" x="707397" y="1500" xNet="1968695.2" yNet="450892.23" referenceNode="122"/>
+		<speedIndicator nodeID="119" name="SPEED" description="Speed; 43m 75ch" kilometre="70.710" x="707449" y="1300" xNet="1968879.1" yNet="450772.51" referenceNode="7"/>
+		<node nodeID="2196" name="OL 11" description="OL for SIG : 11" kilometre="70.609" x="706220" y="900" xNet="1966359.3" yNet="448916.87"/>
+		<speedIndicator nodeID="657" name="SPEED" kilometre="70.616" x="706397.38" y="1180" xNet="1966794.2" yNet="449323.42" referenceNode="268"/>
+		<speedIndicator nodeID="1168" name="SPEED" kilometre="70.617" x="706299.94" y="903.33331" xNet="1966438.3" yNet="448904.92" referenceNode="1176"/>
+		<node nodeID="807" name="tc" description="release contact for track circuit;" kilometre="70.618" x="706619.63" y="1331.4375" xNet="1967434.6" yNet="449744.27" referenceNode="657" releaseContact="true" arranged="true"/>
+		<node nodeID="841" name="tc" description="release contact for track circuit;" kilometre="70.619" x="706695.69" y="1383.2661" xNet="1967653.9" yNet="449888.33" referenceNode="122" releaseContact="true" arranged="true"/>
+		<node nodeID="1175" name="tc" description="release contact for track circuit;" kilometre="70.651" x="706639.63" y="1017.2187" xNet="1966793.2" yNet="448951.38" referenceNode="1176" releaseContact="true" arranged="true"/>
+		<node nodeID="1176" name="tc" description="release contact for track circuit;" kilometre="70.650" x="706629.63" y="1013.8691" xNet="1966782.8" yNet="448950" referenceNode="1175" releaseContact="true" arranged="true"/>
+		<stationBorder exitType="regular" stationID="STNGWJN" lineID="so150a" trackNumber="1" nodeID="268" name="[STNGNJN] - [s150/1]" kilometre="70.615" x="706315.21" y="1124" xNet="1966557.3" yNet="449167.76" referenceNode="655"/>
+		<stationBorder exitType="alternative" stationID="STNGWJN" lineID="so150a" trackNumber="2" nodeID="269" name="[STNGNJN] - [s150/2]" kilometre="70.745" x="707748" y="1300" xNet="1969105.3" yNet="451042.29" referenceNode="7"/>
+		<stationBorder exitType="alternative" stationID="STNGWJN" lineID="so110b" trackNumber="1" nodeID="19" name="Prellbock 479" kilometre="70.227" x="702400.69" y="1100" xNet="1962661" yNet="449518" referenceNode="21">
+			<netLimitInfo lineID="so110b"/>
+		</stationBorder>
+		<stationBorder exitType="regular" stationID="STNGWJN" lineID="so110b" trackNumber="2" nodeID="20" name="Prellbock 480" kilometre="70.226" x="702386.81" y="900" xNet="1962609" yNet="449257" referenceNode="2196">
+			<netLimitInfo lineID="so110b"/>
+		</stationBorder>
+		<stationBorder exitType="alternative" stationID="STNGWJN" lineID="so110b" trackNumber="1" nodeID="1180" kilometre="70.761" x="707739.19" y="900" xNet="1967850.4" yNet="448627.02" referenceNode="1165">
+			<netLimitInfo lineID="so110b"/>
+		</stationBorder>
+		<stationBorder exitType="regular" stationID="STNGWJN" lineID="so110b" trackNumber="2" nodeID="786" kilometre="70.761" x="707739.19" y="1100" xNet="1967888.1" yNet="448822.66" referenceNode="661">
+			<netLimitInfo lineID="so110b"/>
+		</stationBorder>
+	</nodes>
+	<links>
+		<link source="6" target="119" length="34" gradient="-20" vmaxr="32"/>
+		<link source="7" target="269" length="28" gradient="-20" vmaxr="48"/>
+		<link source="8" target="120" length="28" gradient="-20" vmaxr="48"/>
+		<link source="19" target="21" length="29" gradient="-8.333" vmax="129"/>
+		<link source="20" target="2196" length="383" gradient="-8.333" vmaxr="145"/>
+		<link source="21" target="865" length="180" gradient="-8.333" vmax="129"/>
+		<link source="119" target="7" length="7" gradient="-20" vmaxr="48"/>
+		<link source="122" target="125" length="90" gradient="-20" vmax="32"/>
+		<link source="125" target="167" length="134" gradient="-20" vmax="48"/>
+		<link source="268" target="657" length="1" gradient="-8.333" vmax="129"/>
+		<link source="269" target="8" length="66" gradient="-20" vmaxr="48"/>
+		<link source="655" target="268" gradient="-8.333" vmax="129"/>
+		<link source="655" target="661" length="61" gradient="-8.333" vmax="129"/>
+		<link source="657" target="807" length="2" gradient="-8.333" vmax="32"/>
+		<link source="661" target="6" gradient="-8.333" vmaxr="32"/>
+		<link source="661" target="786" length="85" gradient="-8.333" vmax="129"/>
+		<link source="807" target="841" length="1" gradient="-8.333" vmax="32"/>
+		<link source="841" target="122" length="1" gradient="-8.333" vmax="32"/>
+		<link source="865" target="2348" length="178" gradient="-8.333" vmax="129"/>
+		<link source="1165" target="1168" length="1" gradient="-8.333" vmaxr="145"/>
+		<link source="1165" target="1180" length="145" gradient="-8.333" vmaxr="145"/>
+		<link source="1168" target="1176" length="33" gradient="-8.333" vmaxr="32"/>
+		<link source="1175" target="661" length="25" gradient="-8.333" vmaxr="32"/>
+		<link source="1176" target="1175" length="1" gradient="-8.333" vmaxr="32"/>
+		<link source="2196" target="2349" length="6" gradient="-8.333" vmaxr="145"/>
+		<link source="2348" target="655" length="1" gradient="-8.333" vmax="129"/>
+		<link source="2349" target="1165" length="1" gradient="-8.333" vmaxr="145"/>
+	</links>
+	<dependentLinks/>
+	<blockSections>
+		<blocksection uuid="{4b7dceae-6f0e-4778-9a39-88cf81f6dce2}" lines="so150a stngm stngw" speedIndicators="125 657">
+			<part nodes="21 865 2348 655 268 657 807 841 122 125 167"/>
+		</blocksection>
+		<blocksection uuid="{6a1c6fa7-06f2-48ec-b6c8-532e881283b2}" lines="so110b stngw">
+			<part nodes="19 21"/>
+		</blocksection>
+		<blocksection uuid="{6b28654f-98e8-4364-b65e-fbb21612a5fd}" lines="so110b stng stngw">
+			<part nodes="1180 1165 2349 2196 20"/>
+		</blocksection>
+		<blocksection uuid="{70ea1140-152b-4d87-80b3-763c55d40eae}" lines="so110b stngw" speedIndicators="119 1168">
+			<part nodes="7 119 6 661 1175 1176 1168 1165 2349 2196 20"/>
+		</blocksection>
+		<blocksection uuid="{bc13a63a-3620-4e8f-af88-00109eda71ac}" lines="so150a stngm stngw">
+			<part nodes="120 8 269 7"/>
+		</blocksection>
+		<blocksection uuid="{c3c85803-2b91-4c9c-ab45-2f273d55ce79}" lines="so110b stng stngw" shuntingBlock="true">
+			<part nodes="1180 1165 2349 2196 20"/>
+		</blocksection>
+		<blocksection uuid="{ebaa9bef-de51-4274-b197-a6dbbd507bf9}" lines="so110b stng stngw">
+			<part nodes="21 865 2348 655 661 786"/>
+		</blocksection>
+	</blockSections>
+	<slipDistances>
+		<slipdistance uuid="{254fb530-b29d-498f-995e-35067fa8ea49}" vmax="999" lines="stngw" serialNumber="0">
+			<part nodes="7 119 6 661 1175 1176 1168 1165 2349 2196"/>
+		</slipdistance>
+		<slipdistance uuid="{7a286949-6ab3-40e9-a69e-4596169b67dd}" vmax="999" lines="stngw" serialNumber="0">
+			<part nodes="21 865"/>
+		</slipdistance>
+	</slipDistances>
+	<approachControlRoutes/>
+	<stationRoutes>
+		<stationRoute stationID="STNGWJN" name="[EJSTGNBG]-[so110/1]-[1]-[NEWNGTN]-[s110b/2] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="1180 1165 2349 2196 20"/>
+		<stationRoute stationID="STNGWJN" name="[NEWNGTN]-[s110b/1]-[2]-[EJSTGNBG]-[so110/2] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="19 21 865 2348 655 661 786"/>
+		<stationRoute stationID="STNGWJN" name="[NEWNGTN]-[s110b/1]-[2]-[STNGNJN]-[so150/1] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=95;NRz=95;S=95;Rz=95;FGz=95;NGz=95;Gz=95;Lz=95;Unbekannt=95" nodes="19 21 865 2348 655 268"/>
+		<stationRoute stationID="STNGWJN" name="[STNGNJN]-[so150/2]-[1-3]-[NEWNGTN]-[s110b/2] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=95;NRz=95;S=95;Rz=95;FGz=95;NGz=95;Gz=95;Lz=95;Unbekannt=95" nodes="269 7 119 6 661 1175 1176 1168 1165 2349 2196 20"/>
+	</stationRoutes>
+	<lineCatalog/>
+	<zugNummernFelder/>
+	<switchGears/>
+</line>

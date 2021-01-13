@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<line lineID="aldsj" name="Aldershot junction (north/south), SW123" trafficRouting="on_the_left" type="global" dependentLines="sw120 sw265">
+	<transformations>
+		<transformation line="sw120" m11="-0.0644922" m12="-7.89776e-18" m21="1.22461e-16" m22="-1" dx="778435" dy="-644.359"/>
+		<transformation line="sw265" m11="-0.100801" m12="0.00146154" m21="0.21131" m22="-0.643564" dx="967776" dy="-1570.67"/>
+	</transformations>
+	<version major="1" minor="2" patchlevel="0" comment=""/>
+	<creator user="Ahowe4" timestamp="2016-11-01T12:54:22"/>
+	<lasteditor user="Ahowe4" timestamp="2016-11-01T12:54:22"/>
+	<stations>
+		<station stationID="ALDRSJN" name="Aldershot North JCN" xNet="307302.615" yNet="235531.385" uicLocationCode="0" circleDiameter="0">
+			<textElement type="name">
+				<pos view="net" x="4725.58" y="4725.58" angle="0" system="source"/>
+				<pos view="wgs84" x="4725.58" y="4725.58" angle="0" system="source"/>
+				<pos view="line" x="42087.1" y="42087.1" angle="0" system="source"/>
+				<pos view="macro" x="28.2843" y="28.2843" angle="0" system="source"/>
+				<pos view="macroWgs84" x="0" y="0" angle="0" system="source"/>
+			</textElement>
+		</station>
+		<station stationID="ALDRSJS" name="Aldershot South Jn" xNet="316242.155" yNet="235112.155" uicLocationCode="0" circleDiameter="0">
+			<textElement type="name">
+				<pos view="net" x="4411" y="4411" angle="0" system="source"/>
+				<pos view="wgs84" x="4411" y="4411" angle="0" system="source"/>
+				<pos view="line" x="40809.5" y="40809.5" angle="0" system="source"/>
+				<pos view="macro" x="28.2843" y="28.2843" angle="0" system="source"/>
+				<pos view="macroWgs84" x="0" y="0" angle="0" system="source"/>
+			</textElement>
+		</station>
+	</stations>
+	<nodes>
+		<switch start="33" endOfMainTrack="31" endOfBranchTrack="332" nodeID="32" name="TO" description="TO : S; 15 mph; 33m 40ch" kilometre="53.913" x="821156" y="-1154" xNet="306613.37" yNet="233930.75"/>
+		<crossing type="kr" startOfMainTrack="35" startOfBranchTrack="32" endOfMainTrack="322" endOfBranchTrack="18" nodeID="31" name="OL" description="OL for SIG : AS3" kilometre="53.872" x="809868" y="-1154" xNet="307725.76" yNet="235395.84"/>
+		<switch start="5040" endOfMainTrack="60" endOfBranchTrack="35" nodeID="5039" name="TO" description="TO : 19; 15 mph; 33m 40ch" kilometre="53.913" x="822723" y="-2290" xNet="305500.96" yNet="235395.84"/>
+		<switch start="18014" endOfMainTrack="18018" endOfBranchTrack="18086" nodeID="18015" name="TO" description="TO : 10;  mph; 50m 1ch" kilometre="80.487" x="738314" y="-2894" xNet="316624.94" yNet="233930.75"/>
+		<switch start="13036" endOfMainTrack="1" endOfBranchTrack="13045" nodeID="13024" description="TO : 12;  mph; 50m 1ch" kilometre="80.487" x="740884" y="-3599" xNet="317224.04" yNet="235476.43"/>
+		<crossing type="kr" startOfMainTrack="18018" startOfBranchTrack="13099" endOfMainTrack="328" endOfBranchTrack="18098" nodeID="18087" kilometre="80.537" x="755530" y="-2887" xNet="315989.28" yNet="235395.84"/>
+		<node nodeID="18016" name="GRAD" description="Gradient; 50m 19ch" kilometre="80.849" x="794592" y="-2883" xNet="314860.99" yNet="238688.63">
+			<netLimitInfo lineID="sw265"/>
+		</node>
+		<node nodeID="2" name="OL" description="OL for SIG : FW4" kilometre="80.386" x="707450" y="-2905" xNet="317932.79" yNet="231335.71"/>
+		<kilometreInconsistency newKilometre="81.291" nodeID="141" name="Change of kilometrage" kilometre="53.872" x="811338" y="-355" xNet="308838.16" yNet="233930.75" referenceNode="142"/>
+		<kilometreInconsistency newKilometre="53.872" nodeID="170" name="Change of kilometrage" kilometre="81.291" x="806687" y="-855" xNet="308997.07" yNet="235395.84" referenceNode="72"/>
+		<track trackID="T-2" stationID="ALDRSJN" type="timingPoint" nodeID="33" name="T-2" description="ALDRSJN T-2, timingPoint" kilometre="53.913" x="825374" y="-1154" xNet="305755.23" yNet="232976.62" referenceNode="326"/>
+		<track trackID="T-1" stationID="ALDRSJN" type="timingPoint" nodeID="5040" name="T-1" description="ALDRSJN T-1, timingPoint" kilometre="53.913" x="830476" y="-2290" xNet="304755.66" yNet="234524.11" referenceNode="5130"/>
+		<track trackID="T-1" stationID="ALDRSJS" type="timingPoint" nodeID="13015" name="T-1" description="ALDRSJS T-1, timingPoint" kilometre="80.487" x="713913" y="-3608" xNet="318690.81" yNet="232099.39" referenceNode="13036"/>
+		<track trackID="T-2" stationID="ALDRSJS" type="timingPoint" nodeID="18014" name="T-2" description="ALDRSJS T-2, timingPoint" kilometre="80.487" x="714739" y="-2902" xNet="317629.27" yNet="232022.47" referenceNode="50"/>
+		<node nodeID="213" description="Km" kilometre="54.000" x="827465" y="-1154" xNet="305047.87" yNet="232102.13"/>
+		<node nodeID="5130" description="Km" kilometre="54.000" x="835799.56" y="-2290" xNet="303777.05" yNet="233315.58"/>
+		<node nodeID="312" kilometre="54.219" x="833408.44" y="-1154" xNet="303132.66" yNet="229734.1" referenceNode="213" releaseContact="true" arranged="true">
+			<netLimitInfo lineID="sw120"/>
+		</node>
+		<node nodeID="313" kilometre="81.108" x="801699.69" y="-855" xNet="310445.17" yNet="235395.84" referenceNode="335" releaseContact="true" arranged="true"/>
+		<node nodeID="13036" kilometre="80.487" x="733232.69" y="-3601.2139" xNet="317666.33" yNet="234460.72" referenceNode="13024" releaseContact="true" arranged="true"/>
+		<node nodeID="13099" kilometre="80.507" x="749086.31" y="-3227.8999" xNet="316368.8" yNet="235395.84" referenceNode="18087" releaseContact="true" arranged="true"/>
+		<node nodeID="18018" kilometre="80.518" x="748947" y="-2889.6768" xNet="316232.32" yNet="234835.61" referenceNode="18015" releaseContact="true" arranged="true"/>
+		<node nodeID="18092" kilometre="80.604" x="763969.94" y="-2886.1357" xNet="315745.46" yNet="236107.29" referenceNode="328" releaseContact="true" arranged="true"/>
+		<node nodeID="18093" kilometre="80.548" x="754263.44" y="-2119.4775" xNet="315012.66" yNet="233930.75" referenceNode="18095" releaseContact="true" arranged="true"/>
+		<stationBorder exitType="regular" stationID="ALDRSJN" lineID="sw120" trackNumber="2" nodeID="5135" name="[ASHVALE] - [sw120/2]" description="Km" kilometre="53.800" x="816783.19" y="-2290" xNet="306564.21" yNet="236742.72" referenceNode="60">
+			<netLimitInfo lineID="sw120"/>
+		</stationBorder>
+		<stationBorder exitType="regular" stationID="ALDRSJN" lineID="sw120" trackNumber="2" nodeID="322" name="[ALDRSJS] - [sw120/2]" kilometre="53.872" x="808913.7" y="-1064.3" xNet="308107.15" yNet="235395.84" referenceNode="31"/>
+		<stationBorder exitType="regular" stationID="ALDRSJN" lineID="sw120" trackNumber="1" nodeID="326" name="[ALDRSHT] - [sw120/1]" kilometre="53.939" x="826001.3" y="-1154" xNet="305543.02" yNet="232714.27" referenceNode="33"/>
+		<stationBorder exitType="regular" stationID="ALDRSJS" lineID="sw120" trackNumber="1" nodeID="18086" name="[ALDRSJN] - [sw120/1]" description="Beginning of plan nsa-01; 50m 1ch" kilometre="80.487" x="747765" y="-2655" xNet="315512.54" yNet="233930.75" referenceNode="18015"/>
+		<stationBorder exitType="regular" stationID="ALDRSJS" lineID="sw265" trackNumber="2" nodeID="328" name="[NTHCAMP] - [sw265/2]" kilometre="80.557" x="758061.98" y="-2886.7407" xNet="315916.14" yNet="235609.27" referenceNode="18087"/>
+		<stationBorder exitType="regular" stationID="ALDRSJS" lineID="sw265" trackNumber="2" nodeID="329" name="[ASHH] - [sw265/2]" kilometre="80.343" x="706088.24" y="-3627.2985" xNet="319787.32" yNet="232044.45" referenceNode="13015">
+			<netLimitInfo lineID="sw265"/>
+		</stationBorder>
+		<speedIndicator nodeID="35" name="SPEED" kilometre="53.912" x="822409.46" y="-2262.2927" xNet="305555.23" yNet="235395.84" referenceNode="31"/>
+		<speedIndicator nodeID="332" name="SPEED" kilometre="53.912" x="820910.55" y="-1134.025" xNet="306668.99" yNet="233930.75" referenceNode="333"/>
+		<speedIndicator nodeID="18094" name="SPEED" kilometre="80.488" x="747871.53" y="-2646.2209" xNet="315504.34" yNet="233930.75" referenceNode="18086"/>
+		<speedIndicator nodeID="13045" name="SPEED" kilometre="80.488" x="741294.12" y="-3580.445" xNet="317181.28" yNet="235472.39" referenceNode="13024"/>
+		<node nodeID="176" name="xSD: SIG FW3" kilometre="81.028" x="799514.02" y="-855" xNet="311079.83" yNet="235395.84" referenceNode="313" sightingDistance="true"/>
+		<node nodeID="18097" name="xSD: SIG AS1" kilometre="80.892" x="789755.86" y="-355" xNet="312181.2" yNet="233930.75" referenceNode="18096" sightingDistance="true"/>
+		<speedIndicator nodeID="18098" name="SPEED" kilometre="80.586" x="761005.59" y="-2408.3631" xNet="315475.62" yNet="235395.84" referenceNode="18087"/>
+		<speedIndicator nodeID="142" name="SPEED" kilometre="53.891" x="815757.35" y="-714.65208" xNet="307836.71" yNet="233930.75" referenceNode="141"/>
+		<speedIndicator nodeID="335" name="SPEED" kilometre="81.270" x="806102.06" y="-855" xNet="309166.91" yNet="235395.84" referenceNode="313"/>
+		<speedIndicator nodeID="18095" name="SPEED" kilometre="80.524" x="751694.26" y="-2331.1983" xNet="315210.29" yNet="233930.75" referenceNode="18094"/>
+		<node nodeID="1" name="OL SIG: GD958" description="OL for SIG : SIG: GD958" kilometre="80.576" x="769292.03" y="-3588.5617" xNet="316825.06" yNet="236538.89"/>
+		<node nodeID="60" name="pOL AS20" description="OL for SIG : AS20" kilometre="53.865" x="820199.89" y="-2290" xNet="305952.62" yNet="235967.96"/>
+		<node nodeID="72" name="pOL AS20" description="OL for SIG : AS20" kilometre="81.284" x="806492.02" y="-855" xNet="309053.69" yNet="235395.84"/>
+		<node nodeID="50" name="OL SIG: GD957" description="OL for SIG : SIG: GD957" kilometre="80.479" x="714155.88" y="-2902.24" xNet="317653.55" yNet="231967.53"/>
+		<node nodeID="74" name="OL FW3" description="OL for SIG : FW3" kilometre="80.767" x="780609.2" y="-855" xNet="313600.71" yNet="235395.84"/>
+		<node nodeID="333" name="xOL SIG AS1" kilometre="53.909" x="820057.67" y="-1064.6168" xNet="306862.25" yNet="233930.75"/>
+		<node nodeID="29" name="GRAD" description="Gradient; 33m 22ch" kilometre="53.551" x="733809.67" y="-1136.359" xNet="310376.44" yNet="238688.63"/>
+		<node nodeID="211" description="Km" kilometre="53.600" x="741407.49" y="-1136.359" xNet="309845.78" yNet="238031.84"/>
+		<node nodeID="212" description="Km" kilometre="53.800" x="789118.68" y="-1148.359" xNet="308369.76" yNet="236199.12"/>
+		<node nodeID="18" name="pOL SIG: AS3" description="OL for SIG : SIG: AS3" kilometre="53.801" x="789428.18" y="-1148.4675" xNet="308365.33" yNet="236193.57"/>
+		<stationBorder exitType="alternative" stationID="ALDRSJS" lineID="sw265" trackNumber="1" nodeID="13018" name="GRAD" description="Gradient; 50m 19ch" kilometre="80.849" x="804389.63" y="-3410.729" xNet="315893.93" yNet="239067.72" referenceNode="13017">
+			<netLimitInfo lineID="sw265"/>
+		</stationBorder>
+		<track trackID="U-1" stationID="ALDRSJS" interlockingMachine="4 Aspect Pannel (Below 75mph)" nodeID="13017" name="SIG: GD958" kilometre="80.759" x="799080.99" y="-3486.9027" xNet="316165.68" yNet="238321.89" referenceNode="13018"/>
+		<stationBorder exitType="alternative" stationID="ALDRSJS" lineID="sw265" trackNumber="1" nodeID="18024" kilometre="80.130" x="688996.16" y="-2926.0401" xNet="321065.77" yNet="231156.59" referenceNode="18019">
+			<netLimitInfo lineID="sw265"/>
+		</stationBorder>
+		<track trackID="D-1" stationID="ALDRSJS" interlockingMachine="3 Aspect Pannel (Below 75mph)" nodeID="18019" name="SIG: GD957" kilometre="80.218" x="696101.07" y="-2914.2795" xNet="319816.37" yNet="231239.19" referenceNode="18024"/>
+		<stationBorder exitType="alternative" stationID="ALDRSJS" lineID="sw120" trackNumber="2" nodeID="174" kilometre="80.985" x="798347.51" y="-855" xNet="311418.54" yNet="235395.84" referenceNode="171"/>
+		<track trackID="U-2" stationID="ALDRSJS" interlockingMachine="3 Aspect Pannel (Below 75mph)" nodeID="171" name="SIG : FW3" description="Signal FW3; 50m 24ch" kilometre="80.950" x="797383" y="-855" xNet="311698.6" yNet="235395.84" referenceNode="174"/>
+		<stationBorder exitType="alternative" stationID="ALDRSJN" lineID="sw120" trackNumber="2" nodeID="5136" description="Km" kilometre="54.200" x="840274.69" y="-2290" xNet="302138.06" yNet="231289.97" referenceNode="5042">
+			<netLimitInfo lineID="sw120"/>
+		</stationBorder>
+		<track trackID="U-1" stationID="ALDRSJN" interlockingMachine="4 Aspect Pannel (76mph - 100mph)" nodeID="5042" name="SIG : AS21" description="Signal AS20; 33m 49ch" kilometre="54.094" x="838229" y="-2290" xNet="303285.71" yNet="232709.24" referenceNode="5136"/>
+		<node nodeID="321" name="[ALDRSJS] - [sw120/1]" kilometre="53.901" x="818210.6" y="-914.3" xNet="307280.8" yNet="233930.75"/>
+		<stationBorder exitType="alternative" stationID="ALDRSJN" lineID="sw120" trackNumber="1" nodeID="18096" kilometre="80.857" x="786171.06" y="-533.21538" xNet="312467.17" yNet="233930.75" referenceNode="18097"/>
+		<track trackID="D-2" stationID="ALDRSJN" interlockingMachine="4 Aspect Pannel (Below 75mph)" nodeID="18088" name="SIG : AS1" description="Signal AS1; 50m 26ch" kilometre="80.970" x="797383" y="-355" xNet="311539.69" yNet="233930.75" referenceNode="18097"/>
+		<stationBorder exitType="alternative" stationID="ALDRSJN" lineID="sw120" trackNumber="1" nodeID="28" name="GRAD" description="Gradient; 33m 18ch" kilometre="53.470" x="721250.01" y="-1136.359" xNet="311255.24" yNet="239772.8" referenceNode="29">
+			<netLimitInfo lineID="sw120"/>
+		</stationBorder>
+		<track trackID="D-1" stationID="ALDRSJN" interlockingMachine="4 Aspect Pannel (Below 75mph)" nodeID="30" name="SIG: AS3" kilometre="53.572" x="737066.03" y="-1136.359" xNet="310149" yNet="238407.13" referenceNode="29"/>
+	</nodes>
+	<links>
+		<link source="1" target="13017" length="183" gradient="2.5" vmax="113" vmaxr="113" electrification="electrified">
+			<vzg index="9" vmax="72" vmaxr="72"/>
+		</link>
+		<link source="2" target="50" length="93" gradient="2.5" vmax="113" vmaxr="113" electrification="electrified">
+			<vzg index="9" vmax="72" vmaxr="72"/>
+		</link>
+		<link source="18" target="31" length="71" gradient="10" vmax="113" vmaxr="113" electrification="electrified">
+			<vzg index="9" vmax="72" vmaxr="72"/>
+		</link>
+		<link source="28" target="29" length="81" vmax="113" vmaxr="113" electrification="electrified">
+			<vzg index="9" vmax="72" vmaxr="72"/>
+		</link>
+		<link source="29" target="30" length="21" gradient="10" vmax="113" vmaxr="113" electrification="electrified">
+			<vzg index="9" vmax="72" vmaxr="72"/>
+		</link>
+		<link source="30" target="211" length="28" gradient="10" vmax="113" vmaxr="113" electrification="electrified">
+			<vzg index="9" vmax="72" vmaxr="72"/>
+		</link>
+		<link source="31" target="32" length="41" gradient="10" vmax="113" vmaxr="113" electrification="electrified">
+			<vzg index="9" vmax="72" vmaxr="72"/>
+		</link>
+		<link source="31" target="35" length="40" gradient="10" vmaxr="24" electrification="electrified">
+			<vzg index="9" vmax="72" vmaxr="24"/>
+		</link>
+		<link source="32" target="33" gradient="10" vmax="113" vmaxr="113" bidirectional="true" electrification="electrified">
+			<vzg index="9" vmax="72" vmaxr="72"/>
+		</link>
+		<link source="33" target="326" length="26" gradient="10" vmax="113" vmaxr="113" bidirectional="true" electrification="electrified">
+			<vzg index="9" vmax="72" vmaxr="72"/>
+		</link>
+		<link source="35" target="5039" length="1" gradient="10" vmax="113" vmaxr="113" electrification="electrified">
+			<vzg index="9" vmax="72" vmaxr="72"/>
+		</link>
+		<link source="50" target="18014" length="8" gradient="2.5" vmax="113" vmaxr="113" electrification="electrified">
+			<vzg index="9" vmax="72" vmaxr="72"/>
+		</link>
+		<link source="60" target="5039" length="48" gradient="10" vmax="113" vmaxr="113" electrification="electrified">
+			<vzg index="9" vmax="72" vmaxr="72"/>
+		</link>
+		<link source="72" target="170" length="7" gradient="2.5" vmaxr="24" electrification="electrified">
+			<vzg index="9" vmax="40" vmaxr="24"/>
+		</link>
+		<link source="74" target="171" length="183" gradient="2.5" vmax="40" vmaxr="40" electrification="electrified">
+			<vzg index="9" vmax="40" vmaxr="40"/>
+		</link>
+		<link source="141" target="142" length="19" gradient="2.5" vmax="40" vmaxr="40" electrification="electrified">
+			<vzg index="9" vmax="40" vmaxr="40"/>
+		</link>
+		<link source="142" target="321" length="10" gradient="2.5" vmax="24" electrification="electrified">
+			<vzg index="9" vmax="24" vmaxr="40"/>
+		</link>
+		<link source="170" target="322" gradient="10" vmaxr="24" electrification="electrified">
+			<vzg index="9" vmax="72" vmaxr="24"/>
+		</link>
+		<link source="171" target="174" length="35" gradient="2.5" vmax="40" vmaxr="40" electrification="electrified">
+			<vzg index="9" vmax="40" vmaxr="40"/>
+		</link>
+		<link source="174" target="176" length="43" gradient="2.5" vmax="40" vmaxr="40" electrification="electrified">
+			<vzg index="9" vmax="40" vmaxr="40"/>
+		</link>
+		<link source="176" target="313" length="80" gradient="2.5" vmax="40" vmaxr="40" electrification="electrified">
+			<vzg index="9" vmax="40" vmaxr="40"/>
+		</link>
+		<link source="211" target="212" length="200" gradient="10" vmax="113" vmaxr="113" electrification="electrified">
+			<vzg index="9" vmax="72" vmaxr="72"/>
+		</link>
+		<link source="212" target="18" length="1" gradient="10" vmax="113" vmaxr="113" electrification="electrified">
+			<vzg index="9" vmax="72" vmaxr="72"/>
+		</link>
+		<link source="213" target="312" length="219" gradient="10" vmax="113" vmaxr="113" bidirectional="true" electrification="electrified">
+			<vzg index="9" vmax="72" vmaxr="72"/>
+		</link>
+		<link source="313" target="335" length="162" gradient="2.5" vmax="40" vmaxr="40" electrification="electrified">
+			<vzg index="9" vmax="40" vmaxr="40"/>
+		</link>
+		<link source="321" target="333" length="8" gradient="2.5" vmax="24" electrification="electrified">
+			<vzg index="9" vmax="24" vmaxr="72"/>
+		</link>
+		<link source="322" target="31" gradient="10" vmaxr="24" electrification="electrified">
+			<vzg index="9" vmax="72" vmaxr="24"/>
+		</link>
+		<link source="326" target="213" length="61" gradient="10" vmax="113" vmaxr="113" bidirectional="true" electrification="electrified">
+			<vzg index="9" vmax="72" vmaxr="72"/>
+		</link>
+		<link source="328" target="18092" length="47" gradient="2.5" vmax="113" vmaxr="113" electrification="electrified">
+			<vzg index="9" vmax="72" vmaxr="72"/>
+		</link>
+		<link source="329" target="13015" length="144" gradient="2.5" vmax="113" vmaxr="113" electrification="electrified">
+			<vzg index="9" vmax="72" vmaxr="72"/>
+		</link>
+		<link source="332" target="32" length="1" gradient="2.5" vmax="113" vmaxr="113" electrification="electrified">
+			<vzg index="9" vmax="72" vmaxr="72"/>
+		</link>
+		<link source="333" target="332" length="3" gradient="2.5" vmax="24" electrification="electrified">
+			<vzg index="9" vmax="24" vmaxr="72"/>
+		</link>
+		<link source="335" target="72" length="14" gradient="2.5" vmaxr="24" electrification="electrified">
+			<vzg index="9" vmax="40" vmaxr="24"/>
+		</link>
+		<link source="5039" target="5040" gradient="10" vmax="113" vmaxr="113" bidirectional="true" electrification="electrified">
+			<vzg index="9" vmax="72" vmaxr="72"/>
+		</link>
+		<link source="5040" target="5130" length="87" gradient="10" vmax="113" vmaxr="113" bidirectional="true" electrification="electrified">
+			<vzg index="9" vmax="72" vmaxr="72"/>
+		</link>
+		<link source="5042" target="5136" length="106" gradient="10" vmax="113" vmaxr="113" bidirectional="true" electrification="electrified">
+			<vzg index="9" vmax="72" vmaxr="72"/>
+		</link>
+		<link source="5130" target="5042" length="94" gradient="10" vmax="113" vmaxr="113" bidirectional="true" electrification="electrified">
+			<vzg index="9" vmax="72" vmaxr="72"/>
+		</link>
+		<link source="5135" target="60" length="65" gradient="10" vmax="113" vmaxr="113" electrification="electrified">
+			<vzg index="9" vmax="72" vmaxr="72"/>
+		</link>
+		<link source="13015" target="13036" gradient="2.5" vmax="113" vmaxr="113" electrification="electrified">
+			<vzg index="9" vmax="72" vmaxr="72"/>
+		</link>
+		<link source="13017" target="13018" length="90" gradient="2.5" vmax="113" vmaxr="113" electrification="electrified">
+			<vzg index="9" vmax="72" vmaxr="72"/>
+		</link>
+		<link source="13024" target="1" length="89" gradient="2.5" vmax="113" vmaxr="113" electrification="electrified">
+			<vzg index="9" vmax="72" vmaxr="72"/>
+		</link>
+		<link source="13024" target="13045" length="1" gradient="2.5" vmax="113" vmaxr="113" electrification="electrified">
+			<vzg index="9" vmax="72" vmaxr="72"/>
+		</link>
+		<link source="13036" target="13024" gradient="2.5" vmax="113" vmaxr="113" electrification="electrified">
+			<vzg index="9" vmax="72" vmaxr="72"/>
+		</link>
+		<link source="13045" target="13099" length="19" gradient="2.5" vmaxr="24" electrification="electrified">
+			<vzg index="9" vmax="72" vmaxr="24"/>
+		</link>
+		<link source="13099" target="18087" length="30" gradient="2.5" vmaxr="24" electrification="electrified">
+			<vzg index="9" vmax="72" vmaxr="24"/>
+		</link>
+		<link source="18014" target="18015" gradient="2.5" vmax="113" vmaxr="113" electrification="electrified">
+			<vzg index="9" vmax="72" vmaxr="72"/>
+		</link>
+		<link source="18015" target="18018" length="31" gradient="2.5" vmax="113" vmaxr="113" electrification="electrified">
+			<vzg index="9" vmax="72" vmaxr="72"/>
+		</link>
+		<link source="18015" target="18086" gradient="2.5" vmax="113" vmaxr="113" electrification="electrified">
+			<vzg index="9" vmax="72" vmaxr="72"/>
+		</link>
+		<link source="18018" target="18087" length="19" gradient="2.5" vmax="113" vmaxr="113" electrification="electrified">
+			<vzg index="9" vmax="72" vmaxr="72"/>
+		</link>
+		<link source="18019" target="2" length="168" gradient="2.5" vmax="113" vmaxr="113" electrification="electrified">
+			<vzg index="9" vmax="72" vmaxr="72"/>
+		</link>
+		<link source="18024" target="18019" length="88" gradient="2.5" vmax="113" vmaxr="113" electrification="electrified">
+			<vzg index="9" vmax="72" vmaxr="72"/>
+		</link>
+		<link source="18086" target="18094" length="1" gradient="2.5" vmax="113" vmaxr="113" electrification="electrified">
+			<vzg index="9" vmax="72" vmaxr="72"/>
+		</link>
+		<link source="18087" target="328" length="20" gradient="2.5" vmax="113" vmaxr="113" electrification="electrified">
+			<vzg index="9" vmax="72" vmaxr="72"/>
+		</link>
+		<link source="18087" target="18098" length="49" gradient="2.5" vmaxr="24" electrification="electrified">
+			<vzg index="9" vmax="40" vmaxr="24"/>
+		</link>
+		<link source="18088" target="141" length="321" gradient="2.5" vmax="40" vmaxr="40" electrification="electrified">
+			<vzg index="9" vmax="40" vmaxr="40"/>
+		</link>
+		<link source="18092" target="18016" length="245" gradient="2.5" vmax="113" vmaxr="113" electrification="electrified">
+			<vzg index="9" vmax="72" vmaxr="72"/>
+		</link>
+		<link source="18093" target="18096" length="309" gradient="2.5" vmax="40" vmaxr="40" electrification="electrified">
+			<vzg index="9" vmax="40" vmaxr="40"/>
+		</link>
+		<link source="18094" target="18095" length="36" gradient="2.5" vmax="24" electrification="electrified">
+			<vzg index="9" vmax="24" vmaxr="40"/>
+		</link>
+		<link source="18095" target="18093" length="24" gradient="2.5" vmax="40" vmaxr="40" electrification="electrified">
+			<vzg index="9" vmax="40" vmaxr="40"/>
+		</link>
+		<link source="18096" target="18097" length="35" gradient="2.5" vmax="40" vmaxr="40" electrification="electrified">
+			<vzg index="9" vmax="40" vmaxr="40"/>
+		</link>
+		<link source="18097" target="18088" length="78" gradient="2.5" vmax="40" vmaxr="40" electrification="electrified">
+			<vzg index="9" vmax="40" vmaxr="40"/>
+		</link>
+		<link source="18098" target="74" length="181" gradient="2.5" vmax="40" vmaxr="40" electrification="electrified">
+			<vzg index="9" vmax="40" vmaxr="40"/>
+		</link>
+	</links>
+	<dependentLinks/>
+	<blockSections>
+		<blocksection uuid="{28e34430-dcaf-4ebc-89c0-75373645480a}" lines="aldsj asvj sw120">
+			<part nodes="28 29 30"/>
+		</blocksection>
+		<blocksection uuid="{4b84cf28-57f8-401d-874f-80ff423e82aa}" lines="aldsj sw265">
+			<part nodes="18024 18019"/>
+		</blocksection>
+		<blocksection uuid="{4bc717aa-d808-44b7-9ad8-8604ad48f788}" lines="aldsj sw265">
+			<part nodes="13018 13017"/>
+		</blocksection>
+		<blocksection uuid="{52768520-71d3-44cd-834b-8dc24c942147}" lines="aldsj sw120">
+			<part nodes="5042 5130 5040 5039 60 5135"/>
+		</blocksection>
+		<blocksection uuid="{694a5a3a-6e0b-4482-ac14-8b0cdc7c0b5a}" lines="aldsj sw120">
+			<part nodes="5136 5042"/>
+		</blocksection>
+		<blocksection uuid="{6ecfa303-7495-408b-8f29-95ca7e576ae3}" lines="aldsj sw120">
+			<part nodes="30 211 212 18 31 32 33 326 213 312"/>
+		</blocksection>
+		<blocksection uuid="{7de06aa5-108c-4547-a091-4df3ccc18f57}" lines="aldsj sw265" speedIndicators="13045 18098">
+			<part nodes="171 74 18098 18087 13099 13045 13024 13036 13015 329"/>
+		</blocksection>
+		<blocksection uuid="{8486763e-64c7-4ae5-9d72-b02d8c5ded57}" lines="aldsj sw265">
+			<part nodes="18019 18024"/>
+		</blocksection>
+		<blocksection uuid="{8c1d4e6c-f338-4c2b-a282-9c3186093358}" lines="aldsj" speedIndicators="18094 18095">
+			<part nodes="18019 2 50 18014 18015 18086 18094 18095 18093 18096 18097 18088"/>
+		</blocksection>
+		<blocksection uuid="{8ff41b38-8fa8-4f27-97c6-c855db75f74f}" lines="aldsj sw265">
+			<part nodes="18019 2 50 18014 18015 18018 18087 328 18092 18016"/>
+		</blocksection>
+		<blocksection uuid="{9347d98a-c59d-49b5-ba80-a504cf48337a}" lines="aldsj sw120" speedIndicators="142 332">
+			<part nodes="18088 141 142 321 333 332 32 33 326 213 312"/>
+		</blocksection>
+		<blocksection uuid="{abf83477-59c3-48b2-8643-334b987dee68}" lines="aldsj sw265">
+			<part nodes="13017 1 13024 13036 13015 329"/>
+		</blocksection>
+		<blocksection uuid="{db8a392a-e7c1-45f9-bcc8-9666da1245a8}" lines="aldsj" speedIndicators="35 335">
+			<part nodes="5042 5130 5040 5039 35 31 322 170 72 335 313 176 174 171"/>
+		</blocksection>
+	</blockSections>
+	<slipDistances>
+		<slipdistance uuid="{0013f7aa-8e14-4165-a8bd-185d501637d4}" vmax="999" lines="aldsj" serialNumber="0">
+			<part nodes="18019 2 50"/>
+		</slipdistance>
+		<slipdistance uuid="{0456cab8-a5bb-4efb-8ff3-e61dfbc78d1e}" publicName="Up Branch" vmax="999" lines="aldsj" serialNumber="1">
+			<part nodes="5042 5130 5040 5039 35 31 322 170 72"/>
+		</slipdistance>
+		<slipdistance uuid="{6760e2b6-527e-47ec-9e7b-850f3b29e675}" publicName="Up Main" vmax="999" lines="aldsj" serialNumber="0">
+			<part nodes="5042 5130 5040 5039 60"/>
+		</slipdistance>
+		<slipdistance uuid="{67cb5e14-a7fb-4932-ba57-f8f4b30e4176}" vmax="999" lines="aldsj" serialNumber="0">
+			<part nodes="171 74"/>
+		</slipdistance>
+		<slipdistance uuid="{6d34cad0-f4bc-43d4-afb5-78a7d1ebec8a}" vmax="999" lines="aldsj" serialNumber="0">
+			<part nodes="18088 141 142 321 333"/>
+		</slipdistance>
+		<slipdistance uuid="{cb41acbf-739c-4ceb-be5e-6f2d612b6fe9}" vmax="999" lines="aldsj" serialNumber="0">
+			<part nodes="13017 1"/>
+		</slipdistance>
+		<slipdistance uuid="{ffb55751-3b36-4bbe-b282-27e67887747f}" vmax="999" lines="aldsj" serialNumber="0">
+			<part nodes="30 211 212 18"/>
+		</slipdistance>
+	</slipDistances>
+	<approachControlRoutes/>
+	<stationRoutes>
+		<stationRoute stationID="ALDRSJN" name="[ALDRS15]-[sw120/2]-[1]-[ALDRSJS]-[sw120/2] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=95;NRz=95;S=95;Rz=95;FGz=95;NGz=95;Gz=95;Lz=95;Unbekannt=95" nodes="5136 5042 5130 5040 5039 35 31 322"/>
+		<stationRoute stationID="ALDRSJN" name="[ALDRS15]-[sw120/2]-[1]-[ASHVALE]-[sw120/2] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="5136 5042 5130 5040 5039 60 5135"/>
+		<stationRoute stationID="ALDRSJN" name="[ALDRSJS]-[sw120/1]-[2]-[ALDRSHT]-[sw120/1] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=95;NRz=95;S=95;Rz=95;FGz=95;NGz=95;Gz=95;Lz=95;Unbekannt=95" nodes="18096 18097 18088 141 142 321 333 332 32 33 326"/>
+		<stationRoute stationID="ALDRSJN" name="[ASHVALE]-[sw120/1]-[1-2]-[ALDRSHT]-[sw120/1] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="28 29 30 211 212 18 31 32 33 326"/>
+		<stationRoute stationID="ALDRSJS" name="[ALDRSJN]-[sw120/2]-[1-2]-[ASHH]-[sw265/2] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=95;NRz=95;S=95;Rz=95;FGz=95;NGz=95;Gz=95;Lz=95;Unbekannt=95" nodes="174 171 74 18098 18087 13099 13045 13024 13036 13015 329"/>
+		<stationRoute stationID="ALDRSJS" name="[ASHH]-[sw265/1]-[1-2]-[ALDRSJN]-[sw120/1] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=95;NRz=95;S=95;Rz=95;FGz=95;NGz=95;Gz=95;Lz=95;Unbekannt=95" nodes="18024 18019 2 50 18014 18015 18086"/>
+		<stationRoute stationID="ALDRSJS" name="[ASHH]-[sw265/1]-[1-2]-[NTHCAMP]-[sw265/2] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="18024 18019 2 50 18014 18015 18018 18087 328"/>
+		<stationRoute stationID="ALDRSJS" name="[ASHH]-[sw265/1]-[1]-[ASHH]-[sw265/1] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="18024 18019 18024"/>
+		<stationRoute stationID="ALDRSJS" name="[NTHCAMP]-[sw265/1]-[1]-[ASHH]-[sw265/2] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="13018 13017 1 13024 13036 13015 329"/>
+	</stationRoutes>
+	<lineCatalog/>
+	<zugNummernFelder/>
+	<switchGears/>
+</line>

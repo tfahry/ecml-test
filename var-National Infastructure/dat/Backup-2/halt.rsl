@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<line lineID="halt" name="Halton" trafficRouting="on_the_left" type="global" dependentLines="n2001 nw3021">
+	<transformations>
+		<transformation line="nw2001" m11="1" m12="0" m21="0" m22="1" dx="0" dy="0"/>
+		<transformation line="nw3021" m11="1" m12="0" m21="0" m22="1" dx="-14039.1" dy="2118.65"/>
+	</transformations>
+	<version major="1" minor="2" patchlevel="0" comment=""/>
+	<creator user="VWaddelo" timestamp="2016-07-08T10:58:15"/>
+	<lasteditor user="VWaddelo" timestamp="2016-07-08T10:58:15"/>
+	<stations>
+		<station stationID="HALTONJ" name="Halton Jn" xNet="-1962612.65" yNet="4163510.15" uicLocationCode="0" circleDiameter="0">
+			<textElement type="name">
+				<pos view="net" x="5538.68" y="5538.68" angle="0" system="source"/>
+				<pos view="wgs84" x="5538.68" y="5538.68" angle="0" system="source"/>
+				<pos view="line" x="6773.08" y="6773.08" angle="0" system="source"/>
+				<pos view="macro" x="28.2843" y="28.2843" angle="0" system="source"/>
+				<pos view="macroWgs84" x="0" y="0" angle="0" system="source"/>
+			</textElement>
+		</station>
+	</stations>
+	<nodes>
+		<signal interlockingMachine="4 Aspect Pannel (76mph - 100mph)" nodeID="12758" name="SIG: HN108" kilometre="288.088" x="2721754" y="-10835.901" xNet="-1957451.9" yNet="4160982.8" referenceNode="12795"/>
+		<node nodeID="1" name="OL: HN1" kilometre="288.648" x="2716154" y="-10835.901" xNet="-1965181.6" yNet="4166507.7"/>
+		<node nodeID="13065" name="GRAD" kilometre="0.213" x="2719214" y="-11243.901" xNet="-1961234.9" yNet="4162662.4"/>
+		<node nodeID="13066" name="OL: HN19" kilometre="0.173" x="2718814" y="-11198.901" xNet="-1961754.5" yNet="4163150.8"/>
+		<switch start="17901" endOfMainTrack="17730" endOfBranchTrack="13412" nodeID="17723" name="POINTS:" kilometre="288.566" x="2716974" y="-10991.901" xNet="-1964154.5" yNet="4165380.7"/>
+		<node nodeID="12795" name="SD: HN108" kilometre="288.370" x="2718934.2" y="-10835.901" xNet="-1961344.2" yNet="4163764.9" referenceNode="12803" sightingDistance="true"/>
+		<kilometreInconsistency newKilometre="288.551" nodeID="13697" kilometre="0.004" x="2717124" y="-11008.776" xNet="-1963958.9" yNet="4165198.7" referenceNode="13066"/>
+		<track trackID="T-1" stationID="HALTONJ" type="timingPoint" nodeID="12803" kilometre="288.615" x="2716481.4" y="-10835.901" xNet="-1964729.6" yNet="4166184.6" referenceNode="12795"/>
+		<track trackID="T-2" stationID="HALTONJ" type="timingPoint" nodeID="17901" kilometre="288.616" x="2716473.7" y="-10991.901" xNet="-1964844.9" yNet="4165874" referenceNode="17723"/>
+		<track trackID="U-1" stationID="HALTONJ" interlockingMachine="4 Aspect Pannel (76mph - 100mph)" nodeID="13111" name="SIG: HN23" kilometre="288.299" x="2719644" y="-10991.901" xNet="-1960470.1" yNet="4162747.6" referenceNode="13821"/>
+		<track trackID="D-2" stationID="HALTONJ" interlockingMachine="4 Aspect Pannel (76mph - 100mph)" nodeID="12759" name="SIG: HN1" kilometre="288.849" x="2714144" y="-10835.901" xNet="-1967956.6" yNet="4168488" referenceNode="12817"/>
+		<stationBorder exitType="regular" stationID="HALTONJ" lineID="n2001" trackNumber="UL" nodeID="13820" kilometre="288.050" x="2722134.6" y="-10835.901" xNet="-1956926.8" yNet="4160607.5" referenceNode="12758">
+			<netLimitInfo lineID="n2001"/>
+		</stationBorder>
+		<stationBorder exitType="alternative" stationID="HALTONJ" lineID="n2001" trackNumber="DL" nodeID="13821" kilometre="288.051" x="2722126.1" y="-10991.901" xNet="-1957044.7" yNet="4160302.5" referenceNode="13111">
+			<netLimitInfo lineID="n2001"/>
+		</stationBorder>
+		<stationBorder exitType="alternative" stationID="HALTONJ" lineID="n2001" trackNumber="UFL" nodeID="12817" kilometre="288.876" x="2713870.5" y="-10835.901" xNet="-1968333.7" yNet="4168757.6" referenceNode="12759">
+			<netLimitInfo lineID="n2001"/>
+		</stationBorder>
+		<stationBorder exitType="regular" stationID="HALTONJ" lineID="n2001" trackNumber="DFL" nodeID="17902" kilometre="288.876" x="2713877" y="-10991.901" xNet="-1968428" yNet="4168435.4" referenceNode="17906">
+			<netLimitInfo lineID="n2001"/>
+		</stationBorder>
+		<track trackID="U-2" stationID="HALTONJ" interlockingMachine="4 Aspect Pannel (Below 75mph)" nodeID="13139" name="SIG: HN19" kilometre="0.355" x="2720570" y="-11378.438" xNet="-1959312.4" yNet="4161140" referenceNode="13667"/>
+		<speedIndicator nodeID="13412" name="SPEED" kilometre="288.561" x="2717024" y="-10997.526" xNet="-1964089.4" yNet="4165319.9" referenceNode="17723"/>
+		<switch start="17901" endOfMainTrack="17902" endOfBranchTrack="17907" nodeID="17906" kilometre="288.648" x="2716154.1" y="-10991.901" xNet="-1965285.9" yNet="4166189.3"/>
+		<switch start="12759" endOfMainTrack="1" endOfBranchTrack="17908" nodeID="12779" kilometre="288.749" x="2715144" y="-10835.901" xNet="-1966575.9" yNet="4167502.8"/>
+		<speedIndicator nodeID="17907" kilometre="288.649" x="2716144.1" y="-10990.356" xNet="-1965298.7" yNet="4166202.4" referenceNode="17908"/>
+		<speedIndicator nodeID="17908" kilometre="288.748" x="2715154" y="-10837.446" xNet="-1966563.2" yNet="4167489.8" referenceNode="12779"/>
+		<node nodeID="27" name="SD:19" kilometre="0.492" x="2733207.8" y="-13401.406" xNet="-1956181.3" yNet="4157164.8">
+			<netLimitInfo lineID="nw3021"/>
+		</node>
+		<stationBorder exitType="regular" stationID="HALTONJ" lineID="nw3021" trackNumber="1" nodeID="13062" name="Buffer stop 136" kilometre="0.453" x="2732868.3" y="-13301.747" xNet="-1956797.3" yNet="4158262.7" referenceNode="13667"/>
+		<node nodeID="13667" name="SD: HN19" kilometre="0.419" x="2721282.7" y="-11466.771" xNet="-1958346.6" yNet="4160452.3"/>
+		<node nodeID="17730" name="OL SIG:HN23" kilometre="288.479" x="2717844.1" y="-10991.901" xNet="-1962953.9" yNet="4164522.5"/>
+	</nodes>
+	<links>
+		<link source="1" target="12803" length="33" gradient="8.6957" vmax="145" vmaxr="145"/>
+		<link source="12758" target="13820" length="38" gradient="8.6957" vmax="145" vmaxr="145"/>
+		<link source="12759" target="12779" length="100" gradient="8.6957" vmax="145" vmaxr="145"/>
+		<link source="12779" target="1" length="101" gradient="8.6957" vmax="145" vmaxr="145"/>
+		<link source="12795" target="12758" length="282" gradient="8.6957" vmax="145" vmaxr="145"/>
+		<link source="12803" target="12795" length="245" gradient="8.6957" vmax="145" vmaxr="145"/>
+		<link source="12817" target="12759" length="27" gradient="8.6957" vmax="145" vmaxr="145"/>
+		<link source="13062" target="27" length="39" vmax="64" vmaxr="64" bidirectional="true"/>
+		<link source="13062" target="13667" length="34" gradient="2.7027" vmax="64" vmaxr="64" bidirectional="true"/>
+		<link source="13065" target="13066" length="40" gradient="5.4945" vmax="32" vmaxr="32" bidirectional="true"/>
+		<link source="13066" target="13697" length="169" gradient="5.4945" vmax="32" vmaxr="32" bidirectional="true"/>
+		<link source="13111" target="13821" length="248" gradient="8.6957" vmax="145" vmaxr="145"/>
+		<link source="13139" target="13065" length="142" gradient="2.7027" vmax="32" vmaxr="32" bidirectional="true"/>
+		<link source="13412" target="17723" length="5" gradient="5.4945" vmax="145" vmaxr="145" bidirectional="true"/>
+		<link source="13667" target="13139" length="64" gradient="2.7027" vmax="64" vmaxr="64" bidirectional="true"/>
+		<link source="13697" target="13412" length="10" gradient="5.4945" vmax="32" vmaxr="32" bidirectional="true"/>
+		<link source="17723" target="17730" length="87" gradient="8.6957" vmax="145" vmaxr="145"/>
+		<link source="17730" target="13111" length="180" gradient="8.6957" vmax="145" vmaxr="145"/>
+		<link source="17901" target="17723" length="50" gradient="8.6957" vmax="145" vmaxr="145"/>
+		<link source="17902" target="17906" length="228" gradient="8.6957" vmax="145" vmaxr="145"/>
+		<link source="17906" target="17901" length="32" gradient="8.6957" vmax="145" vmaxr="145"/>
+		<link source="17906" target="17907" length="1" vmax="64" vmaxr="64"/>
+		<link source="17907" target="17908" length="99" vmax="64" vmaxr="64"/>
+		<link source="17908" target="12779" length="1" vmax="64" vmaxr="64"/>
+	</links>
+	<dependentLinks/>
+	<blockSections>
+		<blocksection uuid="{11b5da50-7f36-415b-8469-5a11af25a3bc}" lines="halt n2001">
+			<part nodes="12817 12759"/>
+		</blocksection>
+		<blocksection uuid="{22f3547a-f5f2-4c12-8d16-3997a72edc84}" lines="halt n2001">
+			<part nodes="12758 13820"/>
+		</blocksection>
+		<blocksection uuid="{c72b0fa2-4eff-448b-b506-27d3d25e32cc}" lines="halt n2001">
+			<part nodes="13821 13111"/>
+		</blocksection>
+		<blocksection uuid="{d18361e7-3e1e-49d2-855c-274e93c6c15f}" lines="halt">
+			<part nodes="12759 12779 1 12803 12795 12758"/>
+		</blocksection>
+		<blocksection uuid="{df1d4eea-73ac-4181-8f17-3937cef2bb8b}" lines="halt nw3021">
+			<part nodes="27 13062 13667 13139"/>
+		</blocksection>
+		<blocksection uuid="{e62f0cab-8808-4579-add8-315aee16c035}" lines="halt n2001" speedIndicators="13412">
+			<part nodes="13139 13065 13066 13697 13412 17723 17901 17906 17902"/>
+		</blocksection>
+		<blocksection uuid="{ea06289d-8e17-45eb-887e-77b1e50ed5ba}" lines="halt n2001">
+			<part nodes="13111 17730 17723 17901 17906 17902"/>
+		</blocksection>
+	</blockSections>
+	<slipDistances>
+		<slipdistance uuid="{707030f9-57c6-4d21-a185-5acec242ae61}" vmax="999" lines="halt" serialNumber="0">
+			<part nodes="13139 13065 13066"/>
+		</slipdistance>
+		<slipdistance uuid="{a5633261-af92-4c9e-afd1-f0c7e3c2971c}" vmax="999" lines="halt" serialNumber="1">
+			<part nodes="12759 12779 17908 17907 17906"/>
+		</slipdistance>
+		<slipdistance uuid="{a9d359a8-13ec-49ff-ac89-d60c1b0f70ab}" vmax="999" lines="halt n2001" serialNumber="0">
+			<part nodes="12758 13820"/>
+		</slipdistance>
+		<slipdistance uuid="{b6b40779-2b4f-4f32-b094-a3b356cbe138}" vmax="999" lines="halt" serialNumber="0">
+			<part nodes="13111 17730"/>
+		</slipdistance>
+		<slipdistance uuid="{cc4d0251-7b55-42ad-9282-d7ba0d0540b2}" vmax="999" lines="halt" serialNumber="0">
+			<part nodes="12759 12779 1"/>
+		</slipdistance>
+	</slipDistances>
+	<approachControlRoutes/>
+	<stationRoutes>
+		<stationRoute stationID="HALTONJ" name="HALTONJ01" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="13062 13667 13139 13065 13066 13697 13412 17723 17901 17906 17902"/>
+		<stationRoute stationID="HALTONJ" name="[RUNCORN]-[n2001/UFL]-[1-2]-[WEAVERJ]-[n2001/UL] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="12817 12759 12779 1 12803 12795 12758 13820"/>
+		<stationRoute stationID="HALTONJ" name="[WEAVERJ]-[n2001/DL]-[1-2]-[RUNCORN]-[n2001/DFL] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="13821 13111 17730 17723 17901 17906 17902"/>
+	</stationRoutes>
+	<lineCatalog/>
+	<zugNummernFelder/>
+	<switchGears/>
+</line>

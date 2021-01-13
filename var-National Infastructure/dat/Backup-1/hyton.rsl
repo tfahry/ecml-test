@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<line lineID="hyton" name="Huyton Jn" trafficRouting="on_the_left" type="global" dependentLines="nw2015 nw2023">
+	<transformations>
+		<transformation line="nw2015" m11="1" m12="0" m21="0" m22="1" dx="0" dy="0"/>
+		<transformation line="nw2023" m11="1" m12="0" m21="0" m22="1" dx="-97951.2" dy="800"/>
+	</transformations>
+	<version major="1" minor="2" patchlevel="0" comment=""/>
+	<creator user="VWaddelo" timestamp="2016-07-08T10:58:15"/>
+	<lasteditor user="VWaddelo" timestamp="2016-07-08T10:58:15"/>
+	<stations>
+		<station stationID="HUYTON" name="Huyton" xNet="-2095169.2" yNet="4325382.6" uicLocationCode="0" circleDiameter="0">
+			<textElement type="name">
+				<pos view="net" x="1587.36" y="1587.36" angle="0" system="source"/>
+				<pos view="wgs84" x="1587.36" y="1587.36" angle="0" system="source"/>
+				<pos view="line" x="1522.79" y="1522.79" angle="0" system="source"/>
+				<pos view="macro" x="28.2843" y="28.2843" angle="0" system="source"/>
+				<pos view="macroWgs84" x="0" y="0" angle="0" system="source"/>
+			</textElement>
+		</station>
+		<station stationID="HYTNJN" name="Huyton Jn" xNet="-2087946.1" yNet="4325267" uicLocationCode="0" circleDiameter="0">
+			<textElement type="name">
+				<pos view="net" x="1802.42" y="1802.42" angle="0" system="source"/>
+				<pos view="wgs84" x="1802.42" y="1802.42" angle="0" system="source"/>
+				<pos view="line" x="1780.45" y="1780.45" angle="0" system="source"/>
+				<pos view="macro" x="28.2843" y="28.2843" angle="0" system="source"/>
+				<pos view="macroWgs84" x="0" y="0" angle="0" system="source"/>
+			</textElement>
+		</station>
+	</stations>
+	<nodes>
+		<track trackID="D-2" stationID="HYTNJN" interlockingMachine="4 Aspect Pannel (76mph - 100mph)" nodeID="165" name="SIG: HN15" description="Signal HN15; 6m 14.11ch; 4 Aspect" kilometre="9.940" x="99400" y="-1200" xNet="-2086053.6" yNet="4324809.3" referenceNode="47"/>
+		<kilometreInconsistency nodeID="212" name="CHANGE OF KM" description="Change of kilometrage" kilometre="9.873" x="98730" y="-800" xNet="-2086700" yNet="4325704.9" referenceNode="288"/>
+		<switch start="672" endOfMainTrack="497" endOfBranchTrack="214" nodeID="32" name="POINTS: 20" description="Points: 20; 25 mph" kilometre="9.583" x="95830" y="-1200" xNet="-2089618.8" yNet="4324996"/>
+		<crossing type="kr" startOfMainTrack="462" startOfBranchTrack="464" endOfMainTrack="193" endOfBranchTrack="461" nodeID="155" name="FD:" description="Fixed diamond" kilometre="9.643" x="96430" y="-1000" xNet="-2089009.6" yNet="4325164.3"/>
+		<kilometreInconsistency nodeID="213" name="CHANGE OF KM" description="Change of kilometrage" kilometre="9.873" x="98730" y="-600" xNet="-2086744.6" yNet="4325900" referenceNode="544"/>
+		<switch start="671" endOfMainTrack="462" endOfBranchTrack="215" nodeID="146" name="POINTS: 19" description="Points: 19; 25 mph; 6m 12.97ch" kilometre="9.583" x="95830" y="-1000" xNet="-2089608.9" yNet="4325195.7"/>
+		<node nodeID="234" kilometre="9.700" x="97000" y="-600" xNet="-2088419.1" yNet="4325534"/>
+		<node nodeID="204" kilometre="9.700" x="97000" y="-800" xNet="-2088430" yNet="4325334.2"/>
+		<track trackID="D-3" stationID="HYTNJN" interlockingMachine="Semaphore (Starter)" nodeID="205" name="SIG: HN11" description="Semaphore signal" kilometre="9.786" x="97860" y="-800" xNet="-2087544.7" yNet="4325510" referenceNode="605"/>
+		<node nodeID="288" name="SD: HN11" description="Sighting distance for SIG: 11" kilometre="9.864" x="98640" y="-800" xNet="-2086787.6" yNet="4325684.8" referenceNode="212" sightingDistance="true"/>
+		<node nodeID="289" name="OL: HN11" kilometre="9.606" x="96060" y="-1123.4138" xNet="-2089385" yNet="4325060.9"/>
+		<node nodeID="222" kilometre="4.210" x="99009.555" y="-600" xNet="-2084774.1" yNet="4326500">
+			<netLimitInfo lineID="nw2023"/>
+		</node>
+		<node nodeID="227" kilometre="4.210" x="99009.563" y="-800" xNet="-2084734" yNet="4326304.1">
+			<netLimitInfo lineID="nw2023"/>
+		</node>
+		<node nodeID="462" name="TC" description="Release contact for track circuit" kilometre="9.623" x="96230" y="-1000" xNet="-2089209.7" yNet="4325174.7" referenceNode="146" releaseContact="true" arranged="true"/>
+		<node nodeID="463" name="TC" description="Release contact for track circuit" kilometre="9.624" x="96239.914" y="-859.47699" xNet="-2089192.4" yNet="4325314.7" referenceNode="215" releaseContact="true" arranged="true"/>
+		<node nodeID="464" name="TC" description="Release contact for track circuit" kilometre="9.613" x="96130" y="-1100.0653" xNet="-2089314.2" yNet="4325080.4" referenceNode="465" releaseContact="true" arranged="true"/>
+		<node nodeID="465" name="TC" description="Release contact for track circuit" kilometre="9.612" x="96120" y="-1103.4008" xNet="-2089324.9" yNet="4325077.6" referenceNode="464" releaseContact="true" arranged="true"/>
+		<node nodeID="497" name="OL: HN15" kilometre="9.760" x="97600" y="-1200" xNet="-2087851.5" yNet="4324903.4"/>
+		<speedIndicator nodeID="461" name="SPEED" kilometre="9.656" x="96562.391" y="-953.54663" xNet="-2088875" yNet="4325203.4" referenceNode="204"/>
+		<speedIndicator nodeID="460" name="SPEED" kilometre="9.656" x="96559.852" y="-750.25861" xNet="-2088866.8" yNet="4325407.1" referenceNode="463"/>
+		<speedIndicator nodeID="215" name="SPEED" kilometre="9.584" x="95840" y="-996" xNet="-2089598.3" yNet="4325199.2" referenceNode="146"/>
+		<speedIndicator nodeID="214" name="SPEED" kilometre="9.584" x="95840" y="-1197" xNet="-2089609" yNet="4324998.5" referenceNode="289"/>
+		<stationBorder exitType="regular" stationID="HYTNJN" lineID="nw2015" trackNumber="UM" nodeID="193" name="[WHISTON] - [n2015/1]" kilometre="10.000" x="100000" y="-1000" xNet="-2085444.5" yNet="4324977.5" referenceNode="155">
+			<netLimitInfo lineID="nw2015"/>
+		</stationBorder>
+		<stationBorder exitType="alternative" stationID="HYTNJN" lineID="nw2023" trackNumber="1" netBorder="true" nodeID="605" name="[PRESCOT] - [n2023/1]" kilometre="9.809" x="98094" y="-800" xNet="-2087317.6" yNet="4325562.4" referenceNode="205"/>
+		<stationBorder exitType="alternative" stationID="HYTNJN" lineID="nw2015" trackNumber="DM" nodeID="47" kilometre="10.000" x="100000" y="-1200" xNet="-2085455.3" yNet="4324777.7" referenceNode="165">
+			<netLimitInfo lineID="nw2015"/>
+		</stationBorder>
+		<stationBorder exitType="alternative" stationID="HYTNJN" lineID="nw2015" trackNumber="UM" nodeID="1" kilometre="9.500" x="94999.999" y="-1000" xNet="-2090437.7" yNet="4325239.2" referenceNode="671"/>
+		<stationBorder exitType="regular" stationID="HYTNJN" lineID="nw2015" trackNumber="DM" nodeID="2" kilometre="9.500" x="94999.999" y="-1200" xNet="-2090447.7" yNet="4325039.5" referenceNode="672"/>
+		<node nodeID="3" kilometre="9.450" x="94500" y="-1000" xNet="-2090937" yNet="4325265.3"/>
+		<node nodeID="4" kilometre="9.450" x="94500" y="-1200" xNet="-2090947" yNet="4325065.6"/>
+		<stationBorder exitType="regular" stationID="HYTNJN" lineID="nw2023" trackNumber="2" netBorder="true" nodeID="544" kilometre="9.809" x="98091.389" y="-600" xNet="-2087366.8" yNet="4325756.3" referenceNode="234"/>
+		<track trackID="T-1" stationID="HYTNJN" type="timingPoint" nodeID="671" kilometre="9.575" x="95747.489" y="-1000" xNet="-2089691.3" yNet="4325200" referenceNode="1"/>
+		<track trackID="T-2" stationID="HYTNJN" type="timingPoint" nodeID="672" kilometre="9.575" x="95749.998" y="-1200" xNet="-2089698.7" yNet="4325000.2" referenceNode="2"/>
+		<node nodeID="59" name="SD: HN16" description="Sighting distance for SIG: HNC16" kilometre="9.299" x="92990" y="-1200" xNet="-2092454.9" yNet="4325144.7" referenceNode="670" sightingDistance="true"/>
+		<node nodeID="496" name="OL: HN34" kilometre="9.396" x="93960" y="-1000" xNet="-2091476.2" yNet="4325293.6"/>
+		<node nodeID="36" name="OL: HN16" kilometre="8.856" x="88560" y="-1200" xNet="-2096879.7" yNet="4325376.5"/>
+		<signal type="shunting" interlockingMachine="Shunt" nodeID="37" name="SIG: 25" description="Shunt Signal 25; 5m 40.32ch" kilometre="8.858" x="88580" y="-1200" xNet="-2096859.3" yNet="4325375.5" referenceNode="36"/>
+		<switch start="37" endOfMainTrack="225" endOfBranchTrack="97" nodeID="38" name="POINTS: 24" description="Points: 24; 15 mph; 5m 40.82ch" kilometre="8.868" x="88680" y="-1200" xNet="-2096759.2" yNet="4325370.2"/>
+		<node nodeID="225" kilometre="9.000" x="90000" y="-1200" xNet="-2095441.2" yNet="4325301.2"/>
+		<track trackID="T-2" stationID="HUYTON" type="timingPoint" nodeID="42" name="T-1" description="Huyton T-1, timingPoint, 5m 54.98ch" kilometre="9.153" x="91530" y="-1200" xNet="-2093912.8" yNet="4325221.2" referenceNode="40"/>
+		<node nodeID="190" name="SD: HN34" description="Sighting distance for SIG: HNC34" kilometre="8.981" x="89810" y="-1000" xNet="-2095620.2" yNet="4325510.9" referenceNode="144" sightingDistance="true"/>
+		<node nodeID="191" kilometre="9.000" x="90000" y="-1000" xNet="-2095430.3" yNet="4325500.9"/>
+		<signal type="shunting" interlockingMachine="Shunt" nodeID="167" name="SIG: 22" description="Shunt Signal 22; 5m 50.56ch" kilometre="9.064" x="90640" y="-1000" xNet="-2094791.2" yNet="4325467.4" referenceNode="176"/>
+		<track trackID="T-1" stationID="HUYTON" type="timingPoint" nodeID="176" name="T-2" description="Huyton T-2, timingPoint, 5m 54.98ch" kilometre="9.153" x="91530" y="-1000" xNet="-2093902.9" yNet="4325420.8" referenceNode="167"/>
+		<switch start="190" endOfMainTrack="542" endOfBranchTrack="74" nodeID="144" name="POINTS: 23" description="Points: 23; 15 mph; 5m 43.68ch" kilometre="8.925" x="89250" y="-1000" xNet="-2096179.6" yNet="4325540.1"/>
+		<node nodeID="287" name="TC" description="Release contact for track circuit" kilometre="8.896" x="88965" y="-1100.2598" xNet="-2096469.8" yNet="4325454.6" referenceNode="299" releaseContact="true" arranged="true"/>
+		<node nodeID="299" name="TC" description="Release contact for track circuit" kilometre="8.896" x="88955.18" y="-1103.7147" xNet="-2096479.5" yNet="4325451.7" referenceNode="287" releaseContact="true" arranged="true"/>
+		<speedIndicator nodeID="97" name="SPEED" description="Speed; 5m 40.87ch" kilometre="8.869" x="88690" y="-1197" xNet="-2096749.5" yNet="4325372.7" referenceNode="38"/>
+		<speedIndicator nodeID="74" name="SPEED" kilometre="8.924" x="89240" y="-1003.5194" xNet="-2096190.2" yNet="4325536.6" referenceNode="287"/>
+		<node nodeID="670" kilometre="9.400" x="94000.002" y="-1200" xNet="-2091446.3" yNet="4325091.8"/>
+		<stationBorder exitType="regular" stationID="HUYTON" lineID="nw2015" trackNumber="UM" nodeID="542" kilometre="8.820" x="88201.372" y="-1000" xNet="-2097404" yNet="4325595" referenceNode="144">
+			<netLimitInfo lineID="nw2015"/>
+		</stationBorder>
+		<stationBorder exitType="regular" stationID="HUYTON" lineID="nw2015" trackNumber="DM" nodeID="555" kilometre="8.820" x="88200.001" y="-1200" xNet="-2097403" yNet="4325399" referenceNode="36">
+			<netLimitInfo lineID="nw2015"/>
+		</stationBorder>
+		<stationBorder exitType="regular" stationID="HUYTON" lineID="nw2015" trackNumber="UM" nodeID="673" kilometre="9.250" x="92500.003" y="-1000" xNet="-2092934.4" yNet="4325370" referenceNode="114"/>
+		<stationBorder exitType="alternative" stationID="HUYTON" lineID="nw2015" trackNumber="DM" nodeID="674" kilometre="9.250" x="92502.444" y="-1200" xNet="-2092942" yNet="4325170.2" referenceNode="42"/>
+		<track trackID="D-2" stationID="HUYTON" interlockingMachine="4 Aspect Pannel (76mph - 100mph)" nodeID="40" name="SIG: HN16" description="Signal HNC16; 5m 50.56ch" kilometre="9.064" x="90640" y="-1200" xNet="-2094802.1" yNet="4325267.6" referenceNode="42">
+			<platform startPos="-1500" endPos="0" width="150" left="true" open="true"/>
+		</track>
+		<track trackID="U-1" stationID="HUYTON" interlockingMachine="3 Aspect Pannel (76mph - 100mph)" nodeID="114" name="SIG: HN34" description="Signal HNC34; 5m 58.12ch" kilometre="9.216" x="92160" y="-1000" xNet="-2093274" yNet="4325387.8" referenceNode="176">
+			<platform startPos="-1500" endPos="0" width="150" left="true" open="true"/>
+		</track>
+	</nodes>
+	<links>
+		<link source="1" target="671" length="75" gradient="-0.711744" vmax="121"/>
+		<link source="2" target="672" length="75" gradient="-0.711744" vmaxr="121"/>
+		<link source="3" target="1" length="50" gradient="-0.711744" vmax="121"/>
+		<link source="4" target="2" length="50" gradient="-0.711744" vmaxr="121"/>
+		<link source="32" target="214" length="1" gradient="-0.712" vmaxr="121"/>
+		<link source="32" target="497" length="177" gradient="-0.711744" vmaxr="121"/>
+		<link source="36" target="37" length="2" gradient="-0.711744" vmax="121" vmaxr="121"/>
+		<link source="37" target="38" length="10" gradient="-0.711744" vmax="121" vmaxr="121"/>
+		<link source="38" target="97" length="1" gradient="-0.711744" vmax="121" vmaxr="121"/>
+		<link source="38" target="225" length="132" gradient="-0.711744" vmaxr="121"/>
+		<link source="40" target="42" length="89" gradient="-0.711744" vmaxr="121"/>
+		<link source="42" target="674" length="97" gradient="-0.711744" vmaxr="121"/>
+		<link source="59" target="670" length="101" gradient="-0.711744" vmaxr="121"/>
+		<link source="74" target="144" length="1" gradient="-0.712" vmax="121" vmaxr="121"/>
+		<link source="97" target="299" length="27" gradient="-0.712" vmax="32" vmaxr="32"/>
+		<link source="114" target="673" length="34" gradient="-0.711744" vmax="121"/>
+		<link source="144" target="190" length="56" gradient="-0.711744" vmax="121" vmaxr="121"/>
+		<link source="146" target="215" length="1" gradient="-0.712" vmax="121"/>
+		<link source="146" target="462" length="40" gradient="-0.711744" vmax="121"/>
+		<link source="155" target="193" length="357" gradient="-0.711744" vmax="121"/>
+		<link source="155" target="461" length="13" gradient="-0.712" vmaxr="40"/>
+		<link source="165" target="47" length="60" gradient="-0.711744" vmaxr="121"/>
+		<link source="167" target="176" length="89" gradient="-0.711744" vmax="121" vmaxr="121"/>
+		<link source="176" target="114" length="63" gradient="-0.711744" vmax="121" vmaxr="121"/>
+		<link source="190" target="191" length="19" gradient="-0.711744" vmax="121" vmaxr="121"/>
+		<link source="191" target="167" length="64" gradient="-0.711744" vmax="121" vmaxr="121"/>
+		<link source="204" target="205" length="86" gradient="-0.712" vmaxr="72"/>
+		<link source="205" target="605" length="23" vmaxr="72"/>
+		<link source="212" target="227" length="73" gradient="-0.712" vmaxr="72"/>
+		<link source="213" target="222" length="73" gradient="-0.712" vmax="72"/>
+		<link source="214" target="289" length="22" gradient="-0.712" vmaxr="40"/>
+		<link source="215" target="463" length="40" gradient="-0.712" vmax="40"/>
+		<link source="225" target="40" length="64" gradient="-0.711744" vmaxr="121"/>
+		<link source="234" target="544" length="109" gradient="-0.712" vmax="72"/>
+		<link source="287" target="74" length="27" gradient="-0.712" vmax="32" vmaxr="32"/>
+		<link source="288" target="212" length="9" gradient="-0.712" vmaxr="72"/>
+		<link source="289" target="465" length="6" gradient="-0.712" vmaxr="40"/>
+		<link source="299" target="287" length="1" gradient="-0.712" vmax="32" vmaxr="32"/>
+		<link source="460" target="234" length="44" gradient="-0.712" vmax="72"/>
+		<link source="461" target="204" length="44" gradient="-0.712" vmaxr="72"/>
+		<link source="462" target="155" length="20" gradient="-0.711744" vmax="121"/>
+		<link source="463" target="460" length="32" gradient="-0.712" vmax="40"/>
+		<link source="464" target="155" length="30" gradient="-0.712" vmaxr="40"/>
+		<link source="465" target="464" length="1" gradient="-0.712" vmaxr="40"/>
+		<link source="496" target="3" length="54" gradient="-0.711744" vmax="121"/>
+		<link source="497" target="165" length="180" gradient="-0.711744" vmaxr="121"/>
+		<link source="542" target="144" length="105" gradient="-0.711744" vmax="121" vmaxr="121"/>
+		<link source="544" target="213" length="64" gradient="-0.712" vmax="72"/>
+		<link source="555" target="36" length="36" gradient="-0.711744" vmax="121" vmaxr="121"/>
+		<link source="605" target="288" length="55" vmaxr="72"/>
+		<link source="670" target="4" length="50" gradient="-0.711744" vmaxr="121"/>
+		<link source="671" target="146" length="8" gradient="-0.711744" vmax="121"/>
+		<link source="672" target="32" length="8" gradient="-0.711744" vmaxr="121"/>
+		<link source="673" target="496" length="146" gradient="-0.711744" vmax="121"/>
+		<link source="674" target="59" length="49" gradient="-0.711744" vmaxr="121"/>
+	</links>
+	<dependentLinks/>
+	<blockSections>
+		<blocksection uuid="{0032b5d2-b772-4dd0-b371-933c7f75bba6}" lines="hyton">
+			<part nodes="165 497 32 672 2 4 670 59 674 42 40"/>
+		</blocksection>
+		<blocksection uuid="{08e62af1-adf1-47c8-9b3b-794ee33850c8}" lines="hyton nw2015">
+			<part nodes="542 144 190 191 167 176 114"/>
+		</blocksection>
+		<blocksection uuid="{1376aa35-82e8-496a-9577-832069768014}" lines="hyton" speedIndicators="214 461">
+			<part nodes="205 204 461 155 464 465 289 214 32 672 2 4 670 59 674 42 40"/>
+		</blocksection>
+		<blocksection uuid="{2c8a019c-4f0e-41d6-b73c-374321413aa0}" lines="hyton nw2015" shuntingBlock="true">
+			<part nodes="37 36 555"/>
+		</blocksection>
+		<blocksection uuid="{5daa49f2-ac0e-4a3b-9bfd-dd6c36ddeb70}" lines="hyton nw2023" speedIndicators="215 460">
+			<part nodes="114 673 496 3 1 671 146 215 463 460 234 544 213 222"/>
+		</blocksection>
+		<blocksection uuid="{6018820d-4e82-406f-8e7e-04cbfcbb042b}" lines="hyton nw2015">
+			<part nodes="47 165"/>
+		</blocksection>
+		<blocksection uuid="{6238702d-0845-4ea1-a428-6411cbeea07a}" lines="hyton nw2023">
+			<part nodes="227 212 288 605 205"/>
+		</blocksection>
+		<blocksection uuid="{6e636dd8-4d9c-4832-aa39-cda8ec5ee1f1}" lines="hyton nw2015" shuntingBlock="true" speedIndicators="74 97">
+			<part nodes="167 191 190 144 74 287 299 97 38 37 36 555"/>
+		</blocksection>
+		<blocksection uuid="{b9ade161-74b7-4c8b-b3d0-1d2635a9aa1a}" lines="hyton nw2015">
+			<part nodes="114 673 496 3 1 671 146 462 155 193"/>
+		</blocksection>
+		<blocksection uuid="{bfc9860b-009f-4903-b7ea-2d2000293156}" lines="hyton" shuntingBlock="true" speedIndicators="74 97">
+			<part nodes="37 38 97 299 287 74 144 190 191 167 176 114"/>
+		</blocksection>
+		<blocksection uuid="{ca339afa-969a-4802-8b4c-bfb2c4d212a6}" lines="hyton nw2015">
+			<part nodes="40 225 38 37 36 555"/>
+		</blocksection>
+		<blocksection uuid="{eb58e341-06c1-4931-bb78-d6c951475452}" lines="hyton" shuntingBlock="true">
+			<part nodes="114 176 167"/>
+		</blocksection>
+	</blockSections>
+	<slipDistances>
+		<slipdistance uuid="{045d8bd6-9ca8-4623-9ce5-6c96d800dd3a}" vmax="999" lines="hyton" serialNumber="0">
+			<part nodes="205 204 461 155 464 465 289"/>
+		</slipdistance>
+		<slipdistance uuid="{4ca2e3df-a4e2-4484-890a-35b58efd190d}" vmax="999" lines="hyton" serialNumber="0">
+			<part nodes="114 673 496"/>
+		</slipdistance>
+		<slipdistance uuid="{4caa10bf-6368-48e5-8238-8346af7d395e}" vmax="999" lines="hyton" serialNumber="0">
+			<part nodes="165 497"/>
+		</slipdistance>
+		<slipdistance uuid="{fdf73fda-8675-4539-96c5-e37fae5d3890}" vmax="999" lines="hyton" serialNumber="0">
+			<part nodes="40 225 38 37 36"/>
+		</slipdistance>
+	</slipDistances>
+	<approachControlRoutes/>
+	<stationRoutes>
+		<stationRoute stationID="HUYTON" name="[HYTNJN]-[nw2015/DM]-[2]-[ROBY]-[nw2015/DM] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="674 42 40 225 38 37 36 555"/>
+		<stationRoute stationID="HUYTON" name="[ROBY]-[nw2015/UM]-[1]-[HYTNJN]-[nw2015/UM] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="542 144 190 191 167 176 114 673"/>
+		<stationRoute stationID="HUYTON" name="[ROBY]-[nw2015/UM]-[1]-[ROBY]-[nw2015/DM] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=90;NRz=90;S=90;Rz=90;FGz=90;NGz=90;Gz=90;Lz=90;Unbekannt=90" nodes="542 144 190 191 167 176 114 176 167 191 190 144 74 287 299 97 38 37 36 555"/>
+		<stationRoute stationID="HYTNJN" name="[HUYTON]-[nw2015/UM]-[1]-[WHISTON]-[nw2015/UM] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="1 671 146 462 155 193"/>
+		<stationRoute stationID="HYTNJN" name="[HUYTON]-[nw2015/UM]-[1]-[]-[nw2023/2] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=95;NRz=95;S=95;Rz=95;FGz=95;NGz=95;Gz=95;Lz=95;Unbekannt=95" nodes="1 671 146 215 463 460 234 544"/>
+		<stationRoute stationID="HYTNJN" name="[WHISTON]-[nw2015/DM]-[2]-[HUYTON]-[nw2015/DM] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="47 165 497 32 672 2"/>
+		<stationRoute stationID="HYTNJN" name="[]-[nw2023/1]-[2-3]-[HUYTON]-[nw2015/DM] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=95;NRz=95;S=95;Rz=95;FGz=95;NGz=95;Gz=95;Lz=95;Unbekannt=95" nodes="605 205 204 461 155 464 465 289 214 32 672 2"/>
+	</stationRoutes>
+	<lineCatalog/>
+	<zugNummernFelder/>
+	<switchGears/>
+</line>

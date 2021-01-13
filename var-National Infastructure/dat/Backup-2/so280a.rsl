@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<line lineID="so280a" name="Blackfriars Jn - Metropolitan Jn" trafficRouting="on_the_left" type="local" dependentLines="blfr canon metj">
+	<version major="1" minor="2" patchlevel="0" comment=""/>
+	<creator user="Ahowe4" timestamp="2016-11-01T12:54:22"/>
+	<lasteditor user="Ahowe4" timestamp="2016-11-01T12:54:22"/>
+	<stations/>
+	<nodes>
+		<node nodeID="24" name="200MM" description="200MM : 1.6" kilometre="1.600" x="16000" y="3500" xNet="1017479.5" yNet="711299.65"/>
+		<node nodeID="25" name="200MM" description="200MM : 1.6" kilometre="1.600" x="16000" y="3200" xNet="1017362.9" yNet="710945.53"/>
+		<node nodeID="1126" name="SD : VS376" description="sighting distance for SIG : VS376" kilometre="1.632" x="16320" y="3200" xNet="1017650.1" yNet="710818.55" referenceNode="1255" sightingDistance="true"/>
+		<node nodeID="1621" name="SD : L33" description="sighting distance for SIG : L33" kilometre="1.552" x="15520" y="3500" xNet="1017074.3" yNet="711469.56" referenceNode="1631" sightingDistance="true"/>
+		<node nodeID="1123" name="OL VS376" description="OL for SIG : VS376" kilometre="1.513" x="15130" y="3200" xNet="1016581.1" yNet="711288.92"/>
+		<signal interlockingMachine="4 Aspect Pannel (Below 75mph)" nodeID="1125" name="SIG : VS376" description="Signal VS376; 1m 0.93ch" kilometre="1.562" x="15620" y="3200" xNet="1017021.7" yNet="711095.77" referenceNode="25"/>
+		<node nodeID="1631" kilometre="1.502" x="15020" y="3500" xNet="1016649.3" yNet="711644.83"/>
+		<node nodeID="1255" name="OL L44" description="OL for SIG : L44" kilometre="1.668" x="16680" y="3200" xNet="1017973.6" yNet="710676.53"/>
+		<node nodeID="7044" name="GRAD" description="Gradient; 1m 44.06ch" kilometre="2.496" x="23072.813" y="3057.7131" xNet="1028442.4" yNet="715969.38"/>
+		<node nodeID="7041" name="GRAD" description="Gradient; 1m 41.8ch" kilometre="2.450" x="24424.356" y="3057.7131" xNet="1028442.4" yNet="716792.08"/>
+		<node nodeID="7043" name="SD : 38" description="sighting distance for SIG : 38" kilometre="2.483" x="23484.986" y="3057.7131" xNet="1028442.4" yNet="716201.89" referenceNode="7042" sightingDistance="true"/>
+		<node nodeID="7042" name="SD : 78" description="sighting distance for SIG : 78" kilometre="2.457" x="24060.11" y="3057.7131" xNet="1028442.4" yNet="716666.89" referenceNode="7043" sightingDistance="true"/>
+		<node nodeID="1122" name="SD : VS370" description="sighting distance for SIG : VS370" kilometre="1.483" x="14830" y="3200" xNet="1016311" yNet="711408.75" referenceNode="1123" sightingDistance="true"/>
+		<node nodeID="1620" name="[MTRPLTJ] - [so280/1]" description="200MM : 1.4" kilometre="1.400" x="14000" y="3500" xNet="1015787.8" yNet="712002.53"/>
+		<node nodeID="7050" kilometre="2.536" x="21960.591" y="3057.7734" xNet="1028442.4" yNet="715252.52"/>
+	</nodes>
+	<links>
+		<link source="24" target="980.metj" length="15" vmax="24" vmaxr="24">
+			<vzg index="9" vmax="24" vmaxr="24"/>
+		</link>
+		<link source="25" target="1126" length="32" vmax="24" vmaxr="24">
+			<vzg index="9" vmax="24" vmaxr="24"/>
+		</link>
+		<link source="274.blfr" target="1122" length="49" vmax="24" vmaxr="24">
+			<vzg index="9" vmax="24" vmaxr="24"/>
+		</link>
+		<link source="1122" target="1123" length="30" vmax="24" vmaxr="24">
+			<vzg index="9" vmax="24" vmaxr="24"/>
+		</link>
+		<link source="1123" target="1125" length="49" vmax="24" vmaxr="24">
+			<vzg index="9" vmax="24" vmaxr="24"/>
+		</link>
+		<link source="1125" target="25" length="38" vmax="24" vmaxr="24">
+			<vzg index="9" vmax="24" vmaxr="24"/>
+		</link>
+		<link source="1126" target="1255" length="36" vmax="24" vmaxr="24">
+			<vzg index="9" vmax="24" vmaxr="24"/>
+		</link>
+		<link source="1255" target="1119.metj" length="66" vmax="24" vmaxr="24">
+			<vzg index="9" vmax="24" vmaxr="24"/>
+		</link>
+		<link source="1620" target="1631" length="102" vmax="24" vmaxr="24">
+			<vzg index="9" vmax="24" vmaxr="24"/>
+		</link>
+		<link source="1621" target="24" length="48" vmax="24" vmaxr="24">
+			<vzg index="9" vmax="24" vmaxr="24"/>
+		</link>
+		<link source="1631" target="1621" length="50" vmax="24" vmaxr="24">
+			<vzg index="9" vmax="24" vmaxr="24"/>
+		</link>
+		<link source="1660.blfr" target="1620" length="26" vmax="24" vmaxr="24">
+			<vzg index="9" vmax="24" vmaxr="24"/>
+		</link>
+		<link source="7040.canon" target="7041" length="50" gradient="-2.525" vmax="32" vmaxr="32" bidirectional="true">
+			<vzg index="9" vmax="32" vmaxr="32"/>
+		</link>
+		<link source="7041" target="7042" length="7" gradient="6.667" vmax="32" vmaxr="32" bidirectional="true">
+			<vzg index="9" vmax="32" vmaxr="32"/>
+		</link>
+		<link source="7042" target="7043" length="26" gradient="6.667" vmax="32" vmaxr="32" bidirectional="true">
+			<vzg index="9" vmax="32" vmaxr="32"/>
+		</link>
+		<link source="7043" target="7044" length="13" gradient="6.667" vmax="32" vmaxr="32" bidirectional="true">
+			<vzg index="9" vmax="32" vmaxr="32"/>
+		</link>
+		<link source="7044" target="7050" length="40" gradient="-7.813" vmax="32" vmaxr="32" bidirectional="true">
+			<vzg index="9" vmax="32" vmaxr="32"/>
+		</link>
+		<link source="7050" target="7052.metj" length="14" gradient="-7.813" vmax="32" vmaxr="32" bidirectional="true">
+			<vzg index="9" vmax="32" vmaxr="32"/>
+		</link>
+	</links>
+	<dependentLinks/>
+	<blockSections>
+		<blocksection uuid="{02162c67-3cda-4bb2-a6d1-617be6739413}" lines="blfr metj so280a">
+			<part nodes="1660.blfr 1620 1631 1621 24 980.metj"/>
+		</blocksection>
+		<blocksection uuid="{52079385-a232-4de8-8859-a9960d3393b2}" lines="canon metj so280a">
+			<part nodes="7040.canon 7041 7042 7043 7044 7050 7052.metj"/>
+		</blocksection>
+		<blocksection uuid="{5f82a06e-26ee-4e3a-a18c-e7e71530f800}" lines="canon metj so280a">
+			<part nodes="7052.metj 7050 7044 7043 7042 7041 7040.canon"/>
+		</blocksection>
+		<blocksection uuid="{83f91584-0f22-4a6b-9ba9-53352f3672bc}" lines="blfr metj so280a" shuntingBlock="true">
+			<part nodes="1660.blfr 1620 1631 1621 24 980.metj"/>
+		</blocksection>
+		<blocksection uuid="{941461bc-f6ea-4b1c-a065-40b74901fc68}" lines="metj so280a">
+			<part nodes="1119.metj 1255 1126 25 1125"/>
+		</blocksection>
+		<blocksection uuid="{e7117876-6104-43d4-a42c-305ec3423efa}" lines="canon metj so280a">
+			<part nodes="7052.metj 7050 7044 7043 7042 7041 7040.canon"/>
+		</blocksection>
+		<blocksection uuid="{e80d2e1c-794d-4658-8797-826235c66f14}" lines="canon metj so280a">
+			<part nodes="7040.canon 7041 7042 7043 7044 7050 7052.metj"/>
+		</blocksection>
+		<blocksection uuid="{f6f57220-bebc-41ac-8574-8fc890b6ac9a}" lines="blfr metj so280a" shuntingBlock="true">
+			<part nodes="980.metj 24 1621 1631 1620 1660.blfr"/>
+		</blocksection>
+		<blocksection uuid="{fb9cafae-a65f-4914-b3b6-889a286d69a4}" lines="blfr so280a">
+			<part nodes="1125 1123 1122 274.blfr"/>
+		</blocksection>
+	</blockSections>
+	<slipDistances>
+		<slipdistance uuid="{03dd48d7-266b-4aa5-a2e1-9619661038ba}" vmax="999" lines="so280a" serialNumber="0">
+			<part nodes="1125 1123"/>
+		</slipdistance>
+		<slipdistance uuid="{2e8d68c6-2484-4ea8-ac33-c8938ebcd580}" vmax="999" lines="metj so280a" serialNumber="0">
+			<part nodes="1119.metj 1255"/>
+		</slipdistance>
+	</slipDistances>
+	<approachControlRoutes/>
+	<stationRoutes/>
+	<lineCatalog/>
+	<zugNummernFelder/>
+	<switchGears/>
+</line>

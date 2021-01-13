@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<line lineID="sruisl" name="South Ruislip" trafficRouting="on_the_left" type="global" dependentLines="gw110 md701">
+	<transformations>
+		<transformation line="gw110" m11="-1" m12="-1.22465e-16" m21="1.22465e-16" m22="-1" dx="1.51425e+06" dy="42767.6"/>
+		<transformation line="gw174" m11="1" m12="0" m21="0" m22="1" dx="50101" dy="2657"/>
+		<transformation line="md701" m11="1" m12="0" m21="0" m22="1" dx="-79449" dy="47057"/>
+	</transformations>
+	<version major="1" minor="2" patchlevel="0" comment=""/>
+	<creator user="VWaddelo" timestamp="2016-07-08T10:58:15"/>
+	<lasteditor user="VWaddelo" timestamp="2016-07-08T10:58:15"/>
+	<stations>
+		<station stationID="SRUISLP" name="South Ruislip" xNet="679403.75" yNet="797453" uicLocationCode="0" circleDiameter="0">
+			<textElement type="name">
+				<pos view="net" x="2593.35" y="2593.35" angle="0" system="source"/>
+				<pos view="wgs84" x="2593.35" y="2593.35" angle="0" system="source"/>
+				<pos view="line" x="4195.28" y="4195.28" angle="0" system="source"/>
+				<pos view="macro" x="28.2843" y="28.2843" angle="0" system="source"/>
+				<pos view="macroWgs84" x="0" y="0" angle="0" system="source"/>
+			</textElement>
+		</station>
+	</stations>
+	<nodes>
+		<signal interlockingMachine="4 Aspect Pannel (76mph - 100mph)" nodeID="3" name="SIG:ME70" kilometre="0.068" x="195085" y="-65301.001" xNet="682581.6" yNet="796371.9" referenceNode="19"/>
+		<node nodeID="19" kilometre="0.069" x="195105" y="-65301.001" xNet="682572.2" yNet="796375.2"/>
+		<kilometreInconsistency nodeID="80000" name="SPEED" x="193617" y="-65304.001" xNet="683408.5" yNet="796054.3" referenceNode="14"/>
+		<node nodeID="80001" name="GRAD" kilometre="0.048" x="192448" y="-65305.001" xNet="684067.6" yNet="795814.8"/>
+		<node nodeID="80002" name="OL" kilometre="0.077" x="191648" y="-65305.001" xNet="684443.1" yNet="795677.6"/>
+		<node nodeID="80003" name="OL" kilometre="0.186" x="189888" y="-65305.001" xNet="685338" yNet="795254">
+			<netLimitInfo lineID="md701"/>
+		</node>
+		<kilometreInconsistency nodeID="80021" name="SPEED" x="193583" y="-64787.001" xNet="683268.9" yNet="795664.4" referenceNode="80022"/>
+		<node nodeID="80024" name="GRAD" kilometre="0.021" x="193429" y="-64785.001" xNet="683339.9" yNet="795635.8"/>
+		<track trackID="D-3" stationID="SRUISLP" type="stopBoard" nodeID="26" kilometre="0.242" x="200755" y="-64790.001" xNet="679890.1" yNet="796908.8" referenceNode="80023">
+			<platform startPos="-1220" endPos="0" width="150" left="true" open="true"/>
+		</track>
+		<track trackID="A-3" stationID="SRUISLP" interlockingMachine="3 Aspect Pannel (Below 75mph)" nodeID="27" name="SIG:ME405" kilometre="0.323" x="202815" y="-64790.001" xNet="678921.9" yNet="797261.5" referenceNode="29"/>
+		<node nodeID="80070" kilometre="0.114" x="191048" y="-65305.001" xNet="684725.8" yNet="795574.3"/>
+		<track trackID="U-4" stationID="SRUISLP" type="stopBoard" nodeID="28" kilometre="0.071" x="195406" y="-65302.001" xNet="682554.1" yNet="796382.5" referenceNode="30">
+			<platform startPos="-1610" endPos="0" width="150" left="true" open="true"/>
+		</track>
+		<node nodeID="68" kilometre="0.186" x="190722.55700664" y="-65027.5200040429" xNet="685383.594312156" yNet="795016.131796124">
+			<netLimitInfo lineID="md701"/>
+		</node>
+		<node nodeID="20" kilometre="0.328" x="202923" y="-65026.001" xNet="678943.1" yNet="797466.3"/>
+		<node nodeID="21" kilometre="0.328" x="202915" y="-64790.001" xNet="678874.5" yNet="797278.6"/>
+		<node nodeID="22" kilometre="0.174" x="198181" y="-65302.001" xNet="681249.3" yNet="796850.6"/>
+		<signal type="shunting" interlockingMachine="Shunt" nodeID="80040" name="SIG:SHUNT ME573" kilometre="0.414" x="204072" y="-65294.001" xNet="678203.7" yNet="797949.2" referenceNode="238"/>
+		<signal interlockingMachine="4 Aspect Pannel (76mph - 100mph)" nodeID="80042" name="SIG:ME74" kilometre="0.833" x="208262" y="-65294.001" xNet="674266.9" yNet="799381.1" referenceNode="80075"/>
+		<node nodeID="80049" name="OL" kilometre="0.396" x="203892" y="-65019.001" xNet="678305.1" yNet="797698.6"/>
+		<node nodeID="80054" name="OL" kilometre="0.505" x="204982" y="-65019.001" xNet="677281" yNet="798071.6"/>
+		<signal type="shunting" interlockingMachine="Shunt" nodeID="80051" name="SIG:SHUNT ME574" kilometre="0.608" x="206012" y="-65094.001" xNet="676312.8" yNet="798424.2" referenceNode="80076"/>
+		<node nodeID="80066" name="OL" kilometre="0.505" x="204982" y="-64799.001" xNet="677212.3" yNet="797883.9"/>
+		<node nodeID="80063" name="GRAD" kilometre="0.585" x="205782" y="-65041.001" xNet="676494.1" yNet="798252"/>
+		<switch start="1031" endOfMainTrack="80073" endOfBranchTrack="80071" nodeID="80079" name="POINTS:" kilometre="0.605" x="205982" y="-65094.001" xNet="676341.3" yNet="798413.5"/>
+		<signal type="shunting" interlockingMachine="Shunt" nodeID="80076" name="SIG:SHUNT" kilometre="0.644" x="206372" y="-65094.001" xNet="675972.2" yNet="798547.7" referenceNode="80051"/>
+		<node nodeID="29" kilometre="0.306" x="202394.48" y="-64790.001" xNet="679119.2" yNet="797189.4"/>
+		<node nodeID="31" kilometre="0.302" x="202614.94" y="-65026.258" xNet="679185.7" yNet="797377.8"/>
+		<node nodeID="30" kilometre="0.160" x="197801.83" y="-65302.001" xNet="681428.5" yNet="796786.3"/>
+		<node nodeID="80075" kilometre="0.849" x="208421.76" y="-65294.001" xNet="674116.1" yNet="799435.6">
+			<netLimitInfo lineID="md701"/>
+		</node>
+		<node nodeID="80086" kilometre="0.849" x="208420.48" y="-65094.001" xNet="674048.6" yNet="799247.1">
+			<netLimitInfo lineID="md701"/>
+		</node>
+		<stationBorder exitType="alternative" stationID="SRUISLP" lineID="md701" trackNumber="2" nodeID="80039" name="[WRUISLP] - [md701/2]" kilometre="0.651" x="206442" y="-65294.001" xNet="675976.5" yNet="798758.7" referenceNode="80040"/>
+		<stationBorder exitType="regular" stationID="SRUISLP" lineID="md701" trackNumber="1" nodeID="1031" name="[WRUISLP] - [md701/1]" kilometre="0.606" x="205991" y="-65094.001" xNet="676331.8" yNet="798416.7" referenceNode="80079"/>
+		<stationBorder exitType="alternative" stationID="SRUISLP" lineID="md701" trackNumber="2" nodeID="1034" name="[NTHOLTS] - [md701/1]" kilometre="0.060" x="195196.2" y="-65028.201" xNet="682493.3" yNet="796147.3" referenceNode="1036"/>
+		<stationBorder exitType="regular" stationID="SRUISLP" lineID="md701" trackNumber="1" nodeID="1035" name="[NTHOLTP] - [md701/1]" kilometre="0.048" x="194587" y="-65302.101" xNet="682831" yNet="796277.2" referenceNode="3"/>
+		<speedIndicator nodeID="14" name="SPEED" kilometre="0.010" x="193607" y="-65300.001" xNet="683290" yNet="796100.1" referenceNode="80000"/>
+		<node nodeID="238" name="SD:" kilometre="0.303" x="201347.41" y="-65297.701" xNet="679612.29" yNet="797441.1" referenceNode="80040" sightingDistance="true"/>
+		<node nodeID="80023" name="SD:" kilometre="0.167" x="198713.36" y="-64789.258" xNet="680851.76" yNet="796555.29" referenceNode="80025" sightingDistance="true"/>
+		<node nodeID="105" name="SD" kilometre="0.253" x="202124.17" y="-65026.865" xNet="679648.18" yNet="797209.73" referenceNode="1036" sightingDistance="true"/>
+		<signal interlockingMachine="3 Aspect Pannel (Below 75mph)" nodeID="80067" name="SIG:ME76" kilometre="0.833" x="208260.647724138" y="-65094.001" xNet="674198.834482759" yNet="799192.424137931" referenceNode="80086"/>
+		<node nodeID="80080" name="OL" kilometre="0.653" x="206462" y="-65094.001" xNet="675887.885" yNet="798578.285"/>
+		<kilometreInconsistency nodeID="331" x="193682.029358654" y="-65027.5200040429" xNet="683313.795005521" yNet="795830.722382272" referenceNode="377"/>
+		<node nodeID="377" name="GRAD" kilometre="0.050" x="192629.389046859" y="-65027.5200040429" xNet="683979.261499012" yNet="795568.821269804"/>
+		<node nodeID="468" name="OL" kilometre="0.149" x="191708.790773613" y="-64788.0005283324" xNet="684741.090488854" yNet="794844.53977223">
+			<netLimitInfo lineID="md701"/>
+		</node>
+		<node nodeID="471" name="GRAD" kilometre="0.262" x="190934.76946362" y="-63959.8643817554" xNet="685558.853966395" yNet="794792.527579872">
+			<netLimitInfo lineID="gw110"/>
+		</node>
+		<switch start="4" endOfMainTrack="500" endOfBranchTrack="523" nodeID="239" kilometre="0.102" x="192092.254545455" y="-64783.0373636364" xNet="684330.554545455" yNet="795273.754545455"/>
+		<stationBorder exitType="alternative" stationID="SRUISLP" lineID="md701" trackNumber="4" nodeID="500" kilometre="0.134" x="191827.8412223" y="-64786.4596605181" xNet="684613.635193588" yNet="794977.794110939" referenceNode="239"/>
+		<stationBorder exitType="regular" stationID="SRUISLP" lineID="gw110" trackNumber="3" nodeID="518" kilometre="0.166" x="191629.141576124" y="-64453.6835863012" xNet="684860.471048149" yNet="795067.648123424" referenceNode="824"/>
+		<track trackID="U-3" stationID="SRUISLP" type="stopBoard" nodeID="80025" kilometre="0.119" x="197238.765508982" y="-64788.6092814371" xNet="681546.506826347" yNet="796299.225808383" referenceNode="80023"/>
+		<speedIndicator nodeID="80071" kilometre="0.604" x="205972" y="-65091.351" xNet="676348.94" yNet="798405.425" referenceNode="80063"/>
+		<node nodeID="80078" name="POINTS:" kilometre="0.486" x="204792" y="-65019.001" xNet="677459.2" yNet="798006.9"/>
+		<speedIndicator nodeID="523" kilometre="0.103" x="192085.018405309" y="-64777.8912108655" xNet="684338.834490809" yNet="795270.53413261" referenceNode="239"/>
+		<node nodeID="80073" name="SPEED" kilometre="0.604" x="205972" y="-65093.251" xNet="676350.697" yNet="798410.081"/>
+		<track trackID="T-1" stationID="SRUISLP" type="timingPoint" nodeID="1036" kilometre="0.141" x="198103.793626943" y="-65027.6402953368" xNet="681299.234093264" yNet="796593.190310881" referenceNode="1034"/>
+		<signal interlockingMachine="2 Aspect Pannel (Below 75mph)" nodeID="80022" kilometre="0.062" x="195487.684550898" y="-64787.8389281437" xNet="682371.518682635" yNet="795995.149580838" referenceNode="80025"/>
+		<node nodeID="824" name="OL:ME72" kilometre="0.118" x="191976.476303122" y="-64700.6989193026" xNet="684463.033671128" yNet="795222.227939947"/>
+		<node nodeID="40" name="SD:ME72" kilometre="0.277" x="201651.590625" y="-64790.001" xNet="679468.5140625" yNet="797062.253125" referenceNode="29" sightingDistance="true"/>
+		<node nodeID="4" name="OL SIG:ME63" description="OL for SIG : SIG:ME63" kilometre="0.043" x="193065.933333333" y="-64784.4676666667" xNet="683608.966666667" yNet="795537.466666667"/>
+		<track trackID="A-1" stationID="SRUISLP" interlockingMachine="3 Aspect Pannel (Below 75mph)" nodeID="25" name="SIG:ME73" kilometre="0.323" x="202823" y="-65026.001" xNet="678990.5" yNet="797449.4" referenceNode="31"/>
+	</nodes>
+	<links>
+		<link source="3" target="19" length="1" vmax="161" vmaxr="161">
+			<vzg index="1" vmax="97" vmaxr="97"/>
+			<vzg index="8" vmax="113" vmaxr="113"/>
+		</link>
+		<link source="4" target="80024" length="22" vmax="97" vmaxr="97"/>
+		<link source="14" target="1035" length="38" vmax="161" vmaxr="161">
+			<vzg index="1" vmax="97" vmaxr="97"/>
+			<vzg index="8" vmax="113" vmaxr="113"/>
+		</link>
+		<link source="19" target="28" length="2" vmax="161" vmaxr="161">
+			<vzg index="1" vmax="97" vmaxr="97"/>
+			<vzg index="8" vmax="113" vmaxr="113"/>
+		</link>
+		<link source="20" target="80049" length="68" vmax="161" vmaxr="161">
+			<vzg index="1" vmax="97" vmaxr="97"/>
+		</link>
+		<link source="21" target="80066" length="177" vmax="97" vmaxr="97"/>
+		<link source="22" target="238" length="129" vmax="161" vmaxr="161">
+			<vzg index="1" vmax="97" vmaxr="97"/>
+			<vzg index="8" vmax="113" vmaxr="113"/>
+		</link>
+		<link source="25" target="20" length="5" vmax="161" vmaxr="161">
+			<vzg index="1" vmax="97" vmaxr="97"/>
+		</link>
+		<link source="26" target="40" length="35" vmax="97" vmaxr="97"/>
+		<link source="27" target="21" length="5" vmax="97" vmaxr="97"/>
+		<link source="28" target="30" length="89" vmax="161" vmaxr="161">
+			<vzg index="1" vmax="97" vmaxr="97"/>
+			<vzg index="8" vmax="113" vmaxr="113"/>
+		</link>
+		<link source="29" target="27" length="17" vmax="97" vmaxr="97"/>
+		<link source="30" target="22" length="14" vmax="161" vmaxr="161">
+			<vzg index="1" vmax="97" vmaxr="97"/>
+			<vzg index="8" vmax="113" vmaxr="113"/>
+		</link>
+		<link source="31" target="25" length="21" vmax="161" vmaxr="161">
+			<vzg index="1" vmax="97" vmaxr="97"/>
+		</link>
+		<link source="40" target="29" length="29" vmax="97" vmaxr="97"/>
+		<link source="68" target="377" length="136" gradient="-5.556" vmax="161" vmaxr="161" electrification="electrified">
+			<vzg index="1" vmax="97" vmaxr="97"/>
+		</link>
+		<link source="105" target="31" length="49" vmax="161" vmaxr="161">
+			<vzg index="1" vmax="97" vmaxr="97"/>
+		</link>
+		<link source="238" target="80040" length="111" vmax="161" vmaxr="161">
+			<vzg index="1" vmax="97" vmaxr="97"/>
+			<vzg index="8" vmax="113" vmaxr="113"/>
+		</link>
+		<link source="239" target="4" length="59" vmax="97" vmaxr="97"/>
+		<link source="239" target="523" length="1" vmax="97" vmaxr="97" electrification="electrified"/>
+		<link source="331" target="1034" length="60" vmax="161" vmaxr="161">
+			<vzg index="1" vmax="97" vmaxr="97"/>
+		</link>
+		<link source="377" target="331" length="50" vmax="161" vmaxr="161" electrification="electrified">
+			<vzg index="1" vmax="97" vmaxr="97"/>
+		</link>
+		<link source="468" target="500" length="15" vmax="97" electrification="electrified"/>
+		<link source="500" target="239" length="32" vmax="97" electrification="electrified"/>
+		<link source="518" target="471" length="96" vmax="80" vmaxr="80" electrification="electrified"/>
+		<link source="523" target="824" length="15" vmax="80" vmaxr="80" electrification="electrified"/>
+		<link source="824" target="518" length="48" vmax="80" vmaxr="80" electrification="electrified"/>
+		<link source="1031" target="80051" length="2" vmax="161" vmaxr="97">
+			<vzg index="1" vmax="97" vmaxr="97"/>
+		</link>
+		<link source="1034" target="1036" length="81" vmax="161" vmaxr="161">
+			<vzg index="1" vmax="97" vmaxr="97"/>
+		</link>
+		<link source="1035" target="3" length="19" vmax="161" vmaxr="161">
+			<vzg index="1" vmax="97" vmaxr="97"/>
+			<vzg index="8" vmax="113" vmaxr="113"/>
+		</link>
+		<link source="1036" target="105" length="112" vmax="161" vmaxr="161">
+			<vzg index="1" vmax="97" vmaxr="97"/>
+		</link>
+		<link source="80000" target="14" length="10" vmax="161" vmaxr="161">
+			<vzg index="1" vmax="97" vmaxr="97"/>
+		</link>
+		<link source="80001" target="80000" length="48" vmax="161" vmaxr="161">
+			<vzg index="1" vmax="97" vmaxr="97"/>
+		</link>
+		<link source="80002" target="80001" length="29" gradient="-5.5556" vmax="161" vmaxr="161">
+			<vzg index="1" vmax="97" vmaxr="97"/>
+		</link>
+		<link source="80003" target="80070" length="72" gradient="-5.556" vmax="161" vmaxr="161">
+			<vzg index="1" vmax="97" vmaxr="97"/>
+		</link>
+		<link source="80021" target="80022" length="62" vmax="97" vmaxr="97"/>
+		<link source="80022" target="80025" length="57" vmax="97" vmaxr="97"/>
+		<link source="80023" target="26" length="75" vmax="97" vmaxr="97"/>
+		<link source="80024" target="80021" length="21" vmax="97" vmaxr="97"/>
+		<link source="80025" target="80023" length="48" vmax="97" vmaxr="97"/>
+		<link source="80039" target="80042" length="182" vmax="161" vmaxr="161">
+			<vzg index="1" vmax="97" vmaxr="97"/>
+			<vzg index="8" vmax="113" vmaxr="113"/>
+		</link>
+		<link source="80040" target="80039" length="237" vmax="161" vmaxr="161">
+			<vzg index="1" vmax="97" vmaxr="97"/>
+			<vzg index="8" vmax="113" vmaxr="113"/>
+		</link>
+		<link source="80042" target="80075" length="16" vmax="161" vmaxr="161">
+			<vzg index="1" vmax="97" vmaxr="97"/>
+			<vzg index="8" vmax="113" vmaxr="113"/>
+		</link>
+		<link source="80049" target="80078" length="90" vmax="161" vmaxr="161">
+			<vzg index="1" vmax="97" vmaxr="97"/>
+		</link>
+		<link source="80051" target="80076" length="36" vmax="161" vmaxr="97">
+			<vzg index="1" vmax="97" vmaxr="97"/>
+		</link>
+		<link source="80054" target="80073" length="99" vmax="161" vmaxr="161">
+			<vzg index="1" vmax="97" vmaxr="97"/>
+		</link>
+		<link source="80063" target="80071" length="19" vmax="97" vmaxr="97"/>
+		<link source="80066" target="80063" length="80" vmax="97" vmaxr="97"/>
+		<link source="80067" target="80086" length="16" vmax="161" vmaxr="97">
+			<vzg index="1" vmax="97" vmaxr="97"/>
+			<vzg index="8" vmax="113" vmaxr="113"/>
+		</link>
+		<link source="80070" target="80002" length="37" gradient="-5.556" vmax="161" vmaxr="161">
+			<vzg index="1" vmax="97" vmaxr="97"/>
+		</link>
+		<link source="80071" target="80079" length="1" vmax="161" vmaxr="97">
+			<vzg index="1" vmax="97" vmaxr="97"/>
+		</link>
+		<link source="80073" target="80079" length="1" vmax="161" vmaxr="97">
+			<vzg index="1" vmax="97" vmaxr="97"/>
+		</link>
+		<link source="80076" target="80080" length="9" vmax="161" vmaxr="97">
+			<vzg index="1" vmax="97" vmaxr="97"/>
+		</link>
+		<link source="80078" target="80054" length="19" vmax="161" vmaxr="161">
+			<vzg index="1" vmax="97" vmaxr="97"/>
+		</link>
+		<link source="80079" target="1031" length="1" vmax="161" vmaxr="97">
+			<vzg index="1" vmax="97" vmaxr="97"/>
+		</link>
+		<link source="80080" target="80067" length="180" vmax="161" vmaxr="97">
+			<vzg index="1" vmax="97" vmaxr="97"/>
+		</link>
+	</links>
+	<dependentLinks/>
+	<blockSections>
+		<blocksection uuid="{0d45aaca-e92c-403d-9308-63898c8a717b}" lines="sruisl" shuntingBlock="true" speedIndicators="80071">
+			<part nodes="80051 1031 80079 80071 80063 80066 21 27 29 40 26 80023 80025 80022"/>
+		</blocksection>
+		<blocksection uuid="{212ac83a-40a2-4ab8-8a57-bb08053eb6c2}" lines="md701 sruisl">
+			<part nodes="80075 80042"/>
+		</blocksection>
+		<blocksection uuid="{338ea3c2-8812-40a5-8ef6-6cbe650d47b1}" lines="sruisl" shuntingBlock="true">
+			<part nodes="3 19 28 30 22 238 80040"/>
+		</blocksection>
+		<blocksection uuid="{38ce1b2b-b4a2-47e0-8979-9ec84b691ec8}" lines="md701 sruisl" speedIndicators="80071">
+			<part nodes="27 21 80066 80063 80071 80079 1031 80051 80076 80080 80067 80086"/>
+		</blocksection>
+		<blocksection uuid="{39a2768b-d768-4a92-a09f-40d2f43b5159}" lines="md701 sruisl" speedIndicators="14">
+			<part nodes="3 1035 14 80000 80001 80002 80070 80003"/>
+		</blocksection>
+		<blocksection uuid="{49a5554e-e1f2-4e3d-8aaa-86100ca2502e}" lines="sruisl">
+			<part nodes="80042 80039 80040 238 22 30 28 19 3"/>
+		</blocksection>
+		<blocksection uuid="{5af47952-8ec3-4c6d-9716-1307cdfc6af9}" lines="md701 sruisl">
+			<part nodes="25 20 80049 80078 80054 80073 80079 1031 80051 80076 80080 80067 80086"/>
+		</blocksection>
+		<blocksection uuid="{7b940186-7bb1-411f-a613-24cf1c42c615}" lines="sruisl" shuntingBlock="true" speedIndicators="80071">
+			<part nodes="27 21 80066 80063 80071 80079 1031 80051 80076"/>
+		</blocksection>
+		<blocksection uuid="{7dc6d764-a26a-4b18-8920-55b003153ac4}" lines="md701 sruisl" shuntingBlock="true">
+			<part nodes="80076 80080 80067 80086"/>
+		</blocksection>
+		<blocksection uuid="{ac0b9e47-1d9d-4912-9fe0-ea960bb90ac5}" lines="gw110 sruisl" speedIndicators="523">
+			<part nodes="80022 80021 80024 4 239 523 824 518 471"/>
+		</blocksection>
+		<blocksection uuid="{aea0e6f8-1d74-4969-82f0-0bc07634004d}" lines="md701 sruisl">
+			<part nodes="68 377 331 1034 1036 105 31 25"/>
+		</blocksection>
+		<blocksection uuid="{bdc73a23-409e-49ee-8d20-8a107fca5c83}" lines="gw110 sruisl" speedIndicators="523">
+			<part nodes="471 518 824 523 239 4 80024 80021 80022 80025 80023 26 40 29 27"/>
+		</blocksection>
+		<blocksection uuid="{c2387555-14fe-428c-b1b8-cb4e849eb4fe}" lines="sruisl" shuntingBlock="true">
+			<part nodes="80067 80080 80076 80051"/>
+		</blocksection>
+		<blocksection uuid="{e6d1e5f4-0ceb-44b6-937f-7f9abdfcb812}" lines="md701 sruisl">
+			<part nodes="468 500 239 4 80024 80021 80022 80025 80023 26 40 29 27"/>
+		</blocksection>
+		<blocksection uuid="{f609712c-6891-4312-92f0-8dbc61bb52da}" lines="sruisl">
+			<part nodes="80067 80080 80076 80051 1031 80079 80071 80063 80066 21 27 29 40 26 80023 80025 80022"/>
+		</blocksection>
+		<blocksection uuid="{fc148fc0-c529-4fb0-83dc-15cb90eb80a3}" lines="sruisl" shuntingBlock="true">
+			<part nodes="25 20 80049 80078 80054 80073 80079 1031 80051 80076"/>
+		</blocksection>
+	</blockSections>
+	<slipDistances>
+		<slipdistance uuid="{2ad61479-9c55-4ec9-8f11-6de5825dfc62}" vmax="999" lines="sruisl" serialNumber="0">
+			<part nodes="80042 80039"/>
+		</slipdistance>
+		<slipdistance uuid="{4a9e71a4-7ffd-474b-aaf8-e2852db6cea5}" vmax="999" lines="sruisl" serialNumber="0">
+			<part nodes="80067 80080"/>
+		</slipdistance>
+		<slipdistance uuid="{79e83830-b316-404b-b1a5-90402859ec3d}" vmax="999" lines="md701 sruisl" serialNumber="0">
+			<part nodes="468 500 239 4"/>
+		</slipdistance>
+		<slipdistance uuid="{a28e1dc6-5449-40a1-9bec-ab661a99dcd0}" vmax="999" lines="sruisl" serialNumber="0">
+			<part nodes="25 20 80049 80078 80054"/>
+		</slipdistance>
+		<slipdistance uuid="{b9d8dfec-44f1-406a-95fb-fa62f3255531}" vmax="999" lines="sruisl" serialNumber="0">
+			<part nodes="80022 80021 80024 4 239 523 824"/>
+		</slipdistance>
+		<slipdistance uuid="{e23ce9a5-e4b3-4e9f-9e36-09f3974d6060}" vmax="999" lines="sruisl" serialNumber="0">
+			<part nodes="27 21 80066"/>
+		</slipdistance>
+		<slipdistance uuid="{f4a7b900-7162-43cd-af3e-08e61ddcda60}" vmax="999" lines="sruisl" serialNumber="0">
+			<part nodes="3 1035 14 80000 80001 80002 80070"/>
+		</slipdistance>
+	</slipDistances>
+	<approachControlRoutes/>
+	<stationRoutes>
+		<stationRoute stationID="SRUISLP" name="[GFORDWJ]-[gw110/1]-[3]-[WRUISLP]-[md701/1] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=90;NRz=90;S=90;Rz=90;FGz=90;NGz=90;Gz=90;Lz=90;Unbekannt=90" nodes="518 824 523 239 4 80024 80021 80022 80025 80023 26 40 29 27 21 80066 80063 80071 80079 1031"/>
+		<stationRoute stationID="SRUISLP" name="[NTHOLTS]-[md701/1]-[5]-[WRUISLP]-[md701/1] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=95;NRz=95;S=95;Rz=95;FGz=95;NGz=95;Gz=95;Lz=95;Unbekannt=95" nodes="1034 1036 105 31 25 20 80049 80078 80054 80073 80079 1031"/>
+		<stationRoute stationID="SRUISLP" name="[NTHOPKJ]-[md701/1]-[3]-[WRUISLP]-[md701/1] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=95;NRz=95;S=95;Rz=95;FGz=95;NGz=95;Gz=95;Lz=95;Unbekannt=95" nodes="500 239 4 80024 80021 80022 80025 80023 26 40 29 27 21 80066 80063 80071 80079 1031"/>
+		<stationRoute stationID="SRUISLP" name="[WRUISLP]-[md701/1]-[3]-[GFORDWJ]-[gw110/1] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=90;NRz=90;S=90;Rz=90;FGz=90;NGz=90;Gz=90;Lz=90;Unbekannt=90" nodes="1031 80079 80071 80063 80066 21 27 29 40 26 80023 80025 80022 80021 80024 4 239 523 824 518"/>
+		<stationRoute stationID="SRUISLP" name="[WRUISLP]-[md701/2]-[4]-[NTHOLTP]-[md701/1] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="80039 80040 238 22 30 28 19 3 1035"/>
+	</stationRoutes>
+	<lineCatalog/>
+	<zugNummernFelder/>
+	<switchGears/>
+</line>

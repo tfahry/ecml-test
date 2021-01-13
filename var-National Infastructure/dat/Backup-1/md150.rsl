@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<line lineID="md150" name="Willesden Suburban Jn - Kensal Green Jn " trafficRouting="on_the_left" type="local" dependentLines="kenslg wlsjl">
+	<version major="1" minor="2" patchlevel="0" comment=""/>
+	<creator user="Ahowe4" timestamp="2016-11-01T12:54:22"/>
+	<lasteditor user="Ahowe4" timestamp="2016-11-01T12:54:22"/>
+	<stations/>
+	<nodes>
+		<node nodeID="14333" kilometre="8.505" x="83247.365" y="-1321.4832" xNet="889653.15" yNet="759526.54"/>
+		<node nodeID="1" name="SD:HL1102" kilometre="8.579" x="83723.452" y="-1301.6222" xNet="873703.84" yNet="753856.18" referenceNode="14346" sightingDistance="true"/>
+		<node nodeID="14346" kilometre="8.661" x="84542.142" y="-1301.8852" xNet="873455.73" yNet="753823.6"/>
+		<node nodeID="14442" kilometre="8.483" x="83168.683" y="-1073.6222" xNet="890066" yNet="759550"/>
+		<node nodeID="94" kilometre="8.491" x="83296.142" y="-1070.3982" xNet="877276" yNet="753953"/>
+		<node nodeID="14335" kilometre="8.510" x="83279.532" y="-1320.1412" xNet="877256" yNet="754127"/>
+		<node nodeID="14336" kilometre="8.508" x="83263.821" y="-1320.7972" xNet="884577" yNet="755300"/>
+		<node nodeID="14444" name="Dummy due to entering block section" description="with overlap to the next main signal" kilometre="8.488" x="83238.142" y="-1073.6222" xNet="884652" yNet="755092.19"/>
+	</nodes>
+	<links>
+		<link source="1" target="14346" length="82" gradient="-12.5" vmax="24" vmaxr="24"/>
+		<link source="94" target="14445.wlsjl" length="7" gradient="-12.5" vmax="24" vmaxr="24"/>
+		<link source="442.kenslg" target="14333" length="14" gradient="-12.5" vmax="24" vmaxr="24"/>
+		<link source="14333" target="14336" length="3" gradient="-12.5" vmax="24" vmaxr="24"/>
+		<link source="14335" target="1" length="69" gradient="-12.5" vmax="24" vmaxr="24"/>
+		<link source="14336" target="14335" length="2" gradient="-12.5" vmax="24" vmaxr="24"/>
+		<link source="14346" target="90.wlsjl" length="64" gradient="-12.5" vmax="24" vmaxr="24" tunnelCrossSection="10"/>
+		<link source="14439.kenslg" target="14442" length="16" gradient="-12.5" vmax="24" vmaxr="24"/>
+		<link source="14442" target="14444" length="5" gradient="-12.5" vmax="24" vmaxr="24"/>
+		<link source="14444" target="94" length="3" gradient="-12.5" vmax="24" vmaxr="24"/>
+	</links>
+	<dependentLinks/>
+	<blockSections>
+		<blocksection uuid="{56ea396c-3bb0-40d1-912a-2c2b4a049707}" lines="kenslg md150 wlsjl">
+			<part nodes="90.wlsjl 14346 1 14335 14336 14333 442.kenslg"/>
+		</blocksection>
+		<blocksection uuid="{81ade298-bd33-4317-ba4e-ea843c590665}" lines="kenslg md150 wlsjl">
+			<part nodes="90.wlsjl 14346 1 14335 14336 14333 442.kenslg"/>
+		</blocksection>
+		<blocksection uuid="{ccabb90e-f2c2-4072-9e51-f43104713319}" lines="kenslg md150 wlsjl" shuntingBlock="true">
+			<part nodes="14439.kenslg 14442 14444 94 14445.wlsjl"/>
+		</blocksection>
+	</blockSections>
+	<slipDistances/>
+	<approachControlRoutes/>
+	<stationRoutes/>
+	<lineCatalog/>
+	<zugNummernFelder/>
+	<switchGears/>
+</line>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<line lineID="md270" name="CDNRPKJ to BUTTMRC" trafficRouting="on_the_left" type="local" dependentLines="codnr">
+	<version major="1" minor="2" patchlevel="0" comment=""/>
+	<creator user="Ahowe4" timestamp="2016-11-01T12:54:22"/>
+	<lasteditor user="Ahowe4" timestamp="2016-11-01T12:54:22"/>
+	<stations>
+		<station stationID="BUTTMRC" name="Ironville GF (Butterley Midland Railway)" xNet="-445089.94" yNet="3628594.4" uicLocationCode="0" circleDiameter="0">
+			<textElement type="name">
+				<pos view="net" x="76.3593" y="76.3593" angle="0" system="source"/>
+				<pos view="wgs84" x="76.3593" y="76.3593" angle="0" system="source"/>
+				<pos view="line" x="76.2936" y="76.2936" angle="0" system="source"/>
+				<pos view="macro" x="28.2843" y="28.2843" angle="0" system="source"/>
+				<pos view="macroWgs84" x="0" y="0" angle="0" system="source"/>
+			</textElement>
+		</station>
+	</stations>
+	<nodes>
+		<node nodeID="3" kilometre="0.200" x="18801.778" y="-572.21134" xNet="-443654.16" yNet="3627697.2"/>
+		<node nodeID="4" kilometre="0.300" x="17801.778" y="-572.21134" xNet="-444502.25" yNet="3628227.2"/>
+		<track trackID="T-1" stationID="BUTTMRC" type="timingPoint" nodeID="5" kilometre="0.349" x="17108.694" y="-572.21134" xNet="-444934.401384966" yNet="3628496.91318222" referenceNode="9"/>
+		<stationBorder exitType="locked" stationID="BUTTMRC" trackNumber="" nodeID="6" name="Buffer stop 180" kilometre="0.370" x="17100.828" y="-572.21134" xNet="-445096.76" yNet="3628598.6" referenceNode="7"/>
+		<stationBorder exitType="alternative" stationID="BUTTMRC" lineID="md270" trackNumber="1" nodeID="8" name="[CDNRPKJ] - [md270/1]" kilometre="0.348" x="17316.619" y="-572.21134" xNet="-444913.57" yNet="3628484.2" referenceNode="5"/>
+		<signal type="exit" interlockingMachine="4 Aspect Pannel (Below 75mph)" nodeID="7" name="Exit" kilometre="0.369" x="17101.3541318538" y="-572.21134" xNet="-445085.900345906" yNet="3628591.79849047" referenceNode="9"/>
+		<signal type="entry" interlockingMachine="4 Aspect Pannel (Below 75mph)" nodeID="9" name="Entry" kilometre="0.359" x="17105.0240659269" y="-572.21134" xNet="-445010.150865436" yNet="3628544.35583635" referenceNode="7"/>
+	</nodes>
+	<links>
+		<link source="2.codnr" target="3" length="100" vmax="24" vmaxr="24" bidirectional="true"/>
+		<link source="3" target="4" length="100" vmax="24" vmaxr="24" bidirectional="true"/>
+		<link source="4" target="8" length="48" vmax="24" vmaxr="24" bidirectional="true"/>
+		<link source="5" target="9" length="10" vmax="24" vmaxr="24" bidirectional="true"/>
+		<link source="7" target="6" length="1" vmax="24" vmaxr="24" bidirectional="true"/>
+		<link source="8" target="5" length="1" vmax="24" vmaxr="24" bidirectional="true"/>
+		<link source="9" target="7" length="10" vmax="24" vmaxr="24" bidirectional="true"/>
+	</links>
+	<dependentLinks/>
+	<blockSections>
+		<blocksection uuid="{2f371002-228f-4269-9806-8418d58160d5}" lines="codnr md270">
+			<part nodes="9 5 8 4 3 2.codnr"/>
+		</blocksection>
+		<blocksection uuid="{7ffe79c9-5c1b-4905-bb84-9c01e8c62674}" lines="codnr md270">
+			<part nodes="2.codnr 3 4 8 5 9 7"/>
+		</blocksection>
+		<blocksection uuid="{bbb50dee-b227-4201-b1b9-5b2d2ce335a0}" lines="codnr md270" shuntingBlock="true">
+			<part nodes="2.codnr 3 4 8 5 9 7"/>
+		</blocksection>
+		<blocksection uuid="{ff546050-429d-44ba-a504-1f8926d92d60}" lines="codnr md270">
+			<part nodes="2.codnr 3 4 8 5 9 7"/>
+		</blocksection>
+	</blockSections>
+	<slipDistances/>
+	<approachControlRoutes/>
+	<stationRoutes>
+		<stationRoute stationID="BUTTMRC" name="Entry" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="6 7 9 5 8"/>
+		<stationRoute stationID="BUTTMRC" name="Exit" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="8 5 9 7 6"/>
+	</stationRoutes>
+	<lineCatalog/>
+	<zugNummernFelder/>
+	<switchGears/>
+</line>

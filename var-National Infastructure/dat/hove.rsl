@@ -1,0 +1,717 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<line lineID="hove" name="Hove" trafficRouting="on_the_left" type="global" dependentLines="630_1 so630">
+	<transformations>
+		<transformation line="630_1" m11="1" m12="1.77972e-16" m21="-1.77972e-16" m22="1" dx="-221172" dy="-599.567"/>
+	</transformations>
+	<version major="1" minor="2" patchlevel="0" comment=""/>
+	<creator user="Ahowe4" timestamp="2016-11-01T12:54:22"/>
+	<lasteditor user="Ahowe4" timestamp="2016-11-01T12:54:22"/>
+	<stations>
+		<station stationID="HOVE" name="Hove" xNet="959729.55" yNet="-503057.175" uicLocationCode="0" circleDiameter="0">
+			<textElement type="name">
+				<pos view="net" x="4204.95" y="4204.95" angle="0" system="source"/>
+				<pos view="wgs84" x="4204.95" y="4204.95" angle="0" system="source"/>
+				<pos view="line" x="1679" y="1679" angle="0" system="source"/>
+				<pos view="macro" x="28.2843" y="28.2843" angle="0" system="source"/>
+				<pos view="macroWgs84" x="0" y="0" angle="0" system="source"/>
+			</textElement>
+		</station>
+		<station stationID="HOVEJN" name="Hove Junction" xNet="970445.685" yNet="-503342.33" uicLocationCode="0" circleDiameter="0">
+			<textElement type="name">
+				<pos view="net" x="3141.51" y="3141.51" angle="0" system="source"/>
+				<pos view="wgs84" x="3141.51" y="3141.51" angle="0" system="source"/>
+				<pos view="line" x="1615.23" y="1615.23" angle="0" system="source"/>
+				<pos view="macro" x="28.2843" y="28.2843" angle="0" system="source"/>
+				<pos view="macroWgs84" x="0" y="0" angle="0" system="source"/>
+			</textElement>
+		</station>
+	</stations>
+	<nodes>
+		<node nodeID="19039" name="200MM" description="200MM : 1.6" kilometre="1.600" x="228900" y="500" xNet="975545.23" yNet="-503881.89">
+			<netLimitInfo lineID="so630"/>
+		</node>
+		<node nodeID="19041" name="200MM" description="200MM : 1.8" kilometre="1.800" x="226900" y="500" xNet="971688.53" yNet="-503491.77"/>
+		<node nodeID="19042" name="GRAD" description="Gradient; 1m 12ch" kilometre="1.851" x="226444" y="500" xNet="970702.46" yNet="-503393.73"/>
+		<switch start="19317" endOfMainTrack="19042" endOfBranchTrack="22330" nodeID="19043" name="POINTS : 1888" description="POINTS : 1888;  mph; 1m 12.05ch" kilometre="1.852" x="226394" y="500" xNet="970685.1" yNet="-503391.98"/>
+		<switch start="19317" endOfMainTrack="19046" endOfBranchTrack="19052" nodeID="19045" name="POINTS : 1891" description="POINTS : 1891;  mph; 1m 15ch" kilometre="1.911" x="225790" y="500" xNet="969544.83" yNet="-503277.04"/>
+		<switch start="19048" endOfMainTrack="19050" endOfBranchTrack="19344" nodeID="19049" name="POINTS : 1893" description="POINTS : 1893;  mph; 1m 18.5ch" kilometre="1.982" x="225080" y="500" xNet="968176.89" yNet="-503139.14"/>
+		<node nodeID="19050" name="200MM" description="200MM : 2.0" kilometre="2.000" x="224900" y="500" xNet="967827.67" yNet="-503103.94"/>
+		<node nodeID="19055" name="GRAD" description="Gradient; 1m 33.5ch" kilometre="2.283" x="222070" y="500" xNet="962369.43" yNet="-502553.74"/>
+		<switch start="19330" endOfMainTrack="91" endOfBranchTrack="19348" nodeID="19059" name="POINTS : 1897" description="POINTS : 1897;  mph; 1m 44ch" kilometre="2.474" x="219960" y="500" xNet="957251.65" yNet="-503237.53"/>
+		<speedIndicator nodeID="19060" name="SPEED" description="Speed; 1m 47ch" kilometre="2.555" x="219350" y="500" xNet="953706.72" yNet="-503903.84" referenceNode="19061"/>
+		<node nodeID="19064" name="200MM" description="200MM : 2.6" kilometre="2.600" x="218900" y="500" xNet="953050.62" yNet="-503952.49">
+			<netLimitInfo lineID="so630"/>
+		</node>
+		<node nodeID="19046" name="tc 2" description="release contact for track circuit; 1m 17.51ch" kilometre="1.962" x="225285" y="500" xNet="968570.63" yNet="-503177.48" referenceNode="19045" releaseContact="true" arranged="true"/>
+		<node nodeID="19047" name="OL T680" description="OL for SIG : T680" kilometre="1.962" x="225280" y="500" xNet="968562.77" yNet="-503178.04"/>
+		<node nodeID="19048" name="tc 1" description="release contact for track circuit; 1m 17.56ch" kilometre="1.962" x="225275" y="500" xNet="968551.19" yNet="-503176.87" referenceNode="19049" releaseContact="true" arranged="true"/>
+		<track trackID="T-2" stationID="HOVEJN" type="timingPoint" nodeID="19051" name="T-2" description="HOVEJN T-2, timingPoint, 1m 23ch" kilometre="2.072" x="224180" y="500" xNet="966438.51" yNet="-502963.91" referenceNode="85"/>
+		<node nodeID="19054" name="SD : T679" description="sighting distance for SIG : T679" kilometre="2.206" x="222840" y="500" xNet="963855.21" yNet="-502702.15" referenceNode="19053" sightingDistance="true"/>
+		<track trackID="U-2" stationID="HOVE" interlockingMachine="4 Aspect Pannel (Below 75mph)" nodeID="19053" name="SIG : T680" description="Signal T680; 1m 26.5ch" kilometre="2.142" x="223480" y="500" xNet="965088.09" yNet="-502826.43" referenceNode="19054">
+			<platform startPos="-2500" endPos="0" width="150" left="true" open="false"/>
+		</track>
+		<track trackID="T-2" stationID="HOVE" type="timingPoint" nodeID="19056" name="T-2" description="HOVE T-2, timingPoint, 1m 35ch" kilometre="2.313" x="221770" y="500" xNet="961790.61" yNet="-502495.39" referenceNode="19057"/>
+		<track trackID="D-2" stationID="HOVE" interlockingMachine="4 Aspect Pannel (Below 75mph)" nodeID="19058" name="SIG : T679" description="Signal T679; 1m 39ch" kilometre="2.394" x="220960" y="500" xNet="960225.88" yNet="-502337.66" referenceNode="19057"/>
+		<node nodeID="19057" name="SD : T680" description="sighting distance for SIG : T680" kilometre="2.361" x="221290" y="500" xNet="960862.58" yNet="-502401.84" referenceNode="19058" sightingDistance="true"/>
+		<node nodeID="19061" name="tc 2" description="release contact for track circuit; 1m 47.93ch" kilometre="2.573" x="219165" y="500" xNet="953436.46" yNet="-503924.35" referenceNode="19060" releaseContact="true" arranged="true"/>
+		<node nodeID="19062" name="OL T679" description="OL for SIG : T679" kilometre="2.574" x="219160" y="500" xNet="953429.15" yNet="-503924.88"/>
+		<node nodeID="19063" name="tc 1" description="release contact for track circuit; 1m 47.98ch" kilometre="2.575" x="219155" y="500" xNet="953423.19" yNet="-503924.52" referenceNode="19064" releaseContact="true" arranged="true"/>
+		<node nodeID="22031" name="200MM" description="200MM : 1.6" kilometre="1.600" x="228900" y="300" xNet="975515.89" yNet="-504149.56">
+			<netLimitInfo lineID="so630"/>
+		</node>
+		<switch start="22313" endOfMainTrack="22034" endOfBranchTrack="22051" nodeID="22033" name="POINTS : 1888" description="POINTS : 1888; 25 mph; 1m 9ch" kilometre="1.790" x="227000" y="300" xNet="971850.05" yNet="-503780.03"/>
+		<node nodeID="22034" name="200MM" description="200MM : 1.8" kilometre="1.800" x="226900" y="300" xNet="971657.12" yNet="-503760.58"/>
+		<node nodeID="22038" name="GRAD" description="Gradient; 1m 12ch" kilometre="1.851" x="226390" y="300" xNet="970673.13" yNet="-503661.4"/>
+		<node nodeID="22042" name="200MM" description="200MM : 2.0" kilometre="2.000" x="224900" y="300" xNet="967798.34" yNet="-503371.61"/>
+		<switch start="22044" endOfMainTrack="22042" endOfBranchTrack="19374" nodeID="22043" name="POINTS : 1893" description="POINTS : 1893; 30 mph; 1m 22ch" kilometre="2.052" x="224380" y="300" xNet="966796.99" yNet="-503270.67"/>
+		<node nodeID="22047" name="GRAD" description="Gradient; 1m 33.5ch" kilometre="2.283" x="222070" y="300" xNet="962338.17" yNet="-502821.21"/>
+		<track trackID="D-2" stationID="HOVEJN" interlockingMachine="4 Aspect Pannel (Below 75mph)" nodeID="22032" name="SIG : T673" description="Signal T673; 1m 2.67ch" kilometre="1.663" x="228270" y="300" xNet="974300.38" yNet="-504027.03" referenceNode="86"/>
+		<node nodeID="22035" name="tc 2" description="release contact for track circuit; 1m 11.59ch" kilometre="1.842" x="226475" y="300" xNet="970837.13" yNet="-503677.93" referenceNode="22034" releaseContact="true" arranged="true"/>
+		<node nodeID="22036" name="OL T673" description="OL for SIG : T673" kilometre="1.843" x="226470" y="300" xNet="970827.48" yNet="-503676.95"/>
+		<node nodeID="22037" name="tc 1" description="release contact for track circuit; 1m 11.64ch" kilometre="1.844" x="226465" y="300" xNet="970819.76" yNet="-503676.18" referenceNode="22038" releaseContact="true" arranged="true"/>
+		<node nodeID="22039" name="tc 2" description="release contact for track circuit; 1m 17.01ch" kilometre="1.952" x="225385" y="300" xNet="968736.02" yNet="-503466.13" referenceNode="22038" releaseContact="true" arranged="true"/>
+		<node nodeID="22040" name="OL T682" description="OL for SIG : T682" kilometre="1.952" x="225380" y="300" xNet="968726.37" yNet="-503465.16"/>
+		<node nodeID="22041" name="tc 1" description="release contact for track circuit; 1m 17.06ch" kilometre="1.952" x="225375" y="300" xNet="968714.8" yNet="-503463.99" referenceNode="22042" releaseContact="true" arranged="true"/>
+		<track trackID="T-3" stationID="HOVEJN" type="timingPoint" nodeID="22044" name="T-3" description="HOVEJN T-3, timingPoint, 1m 23ch" kilometre="2.072" x="224180" y="300" xNet="966409.18" yNet="-503231.58" referenceNode="22043"/>
+		<node nodeID="22046" name="SD : T677" description="sighting distance for SIG : T677" kilometre="2.204" x="222860" y="300" xNet="963862.38" yNet="-502974.85" referenceNode="22045" sightingDistance="true"/>
+		<track trackID="U-3" stationID="HOVE" interlockingMachine="4 Aspect Pannel (Below 75mph)" nodeID="22045" name="SIG : T682" description="Signal T682; 1m 25.98ch" kilometre="2.132" x="223580" y="300" xNet="965251.54" yNet="-503114.89" referenceNode="22046"/>
+		<track trackID="T-3" stationID="HOVE" type="timingPoint" nodeID="22048" name="T-3" description="HOVE T-3, timingPoint, 1m 35ch" kilometre="2.313" x="221770" y="300" xNet="961759.35" yNet="-502762.86" referenceNode="22047"/>
+		<track trackID="D-3" stationID="HOVE" interlockingMachine="4 Aspect Pannel (Below 75mph)" nodeID="22050" name="SIG : T677" description="Signal T677; 1m 38.91ch" kilometre="2.392" x="220980" y="300" xNet="960237.06" yNet="-502609.41" referenceNode="22049">
+			<platform startPos="-2500" endPos="0" width="150" left="true" open="true"/>
+		</track>
+		<node nodeID="22049" name="SD : T682" description="sighting distance for SIG : T682" kilometre="2.351" x="221390" y="300" xNet="961028.11" yNet="-502689.15" referenceNode="22050" sightingDistance="true"/>
+		<node nodeID="22052" name="tc 2" description="release contact for track circuit; 1m 47.83ch" kilometre="2.537" x="219185" y="300" xNet="956623.36" yNet="-503361.98" referenceNode="22050" releaseContact="true" arranged="true"/>
+		<node nodeID="22053" name="OL T677" description="OL for SIG : T677" kilometre="2.538" x="219180" y="300" xNet="956615.67" yNet="-503360.77"/>
+		<node nodeID="22054" name="tc 1" description="release contact for track circuit; 1m 47.88ch" kilometre="2.538" x="219175" y="300" xNet="956607.98" yNet="-503359.56" referenceNode="22312" releaseContact="true" arranged="true"/>
+		<switch start="6" endOfMainTrack="19368" endOfBranchTrack="19365" nodeID="19313" name="POINTS : 1889" description="POINTS : 1889;  mph; 50m 30ch" kilometre="81.071" x="226292" y="700" xNet="970901.58" yNet="-503143.17"/>
+		<switch start="19045" endOfMainTrack="19043" endOfBranchTrack="19346" nodeID="19317" name="POINTS : 1890" description="POINTS : 1890;  mph; 1m 14.4ch" kilometre="1.899" x="225907" y="500" xNet="969772.5" yNet="-503299.98"/>
+		<switch start="19347" endOfMainTrack="19334" endOfBranchTrack="19373" nodeID="19318" name="POINTS : 1892" description="POINTS : 1892;  mph; 1m 18ch" kilometre="1.971" x="225489" y="700" xNet="968634.55" yNet="-502914.65"/>
+		<switch start="19347" endOfMainTrack="19324" endOfBranchTrack="19370" nodeID="19321" name="POINTS : 1895" description="POINTS : 1895;  mph; 1m 19.4ch" kilometre="2.000" x="224597" y="698" xNet="967341.86" yNet="-502784.34"/>
+		<switch start="19051" endOfMainTrack="19050" endOfBranchTrack="19342" nodeID="19322" name="POINTS : 1895" description="POINTS : 1895;  mph; 1m 23ch" kilometre="2.072" x="224260" y="500" xNet="966592.86" yNet="-502979.47"/>
+		<node nodeID="22310" name="tc" kilometre="1.832" x="226599" y="425" xNet="971164.75" yNet="-503536.4" referenceNode="22330" releaseContact="true" arranged="true"/>
+		<node nodeID="22311" name="tc" kilometre="1.810" x="226791" y="362" xNet="971381.35" yNet="-503606.95" referenceNode="22051" releaseContact="true" arranged="true"/>
+		<node nodeID="19319" name="tc" kilometre="2.002" x="224842" y="428" xNet="967670.33" yNet="-503186.86" referenceNode="19344" releaseContact="true" arranged="true"/>
+		<switch start="22340" endOfMainTrack="22054" endOfBranchTrack="19377" nodeID="22312" name="POINTS : 1897" description="POINTS : 1897;  mph; 1m 48ch" kilometre="2.549" x="219018" y="300" xNet="953881.82" yNet="-504052.7"/>
+		<node nodeID="19320" name="tc" kilometre="2.524" x="219342" y="373" xNet="956768.91" yNet="-503259.82" referenceNode="19377" releaseContact="true" arranged="true"/>
+		<node nodeID="19323" name="tc" kilometre="2.499" x="219737" y="445" xNet="956976.5" yNet="-503292.49" referenceNode="19348" releaseContact="true" arranged="true"/>
+		<track trackID="T-1" stationID="HOVEJN" type="timingPoint" nodeID="19324" name="T-1" description="HOVEJN T-1, timingPoint, 1m 23ch" kilometre="2.072" x="224221" y="698" xNet="966537.3" yNet="-502703.24" referenceNode="88"/>
+		<node nodeID="19325" name="SD : T681" description="sighting distance for SIG : T681" kilometre="2.206" x="222838" y="698" xNet="963868.96" yNet="-502434.27" referenceNode="19335" sightingDistance="true"/>
+		<node nodeID="19326" kilometre="2.283" x="222088" y="698" xNet="962419.99" yNet="-502288.21"/>
+		<track trackID="T-1" stationID="HOVE" type="timingPoint" nodeID="19327" name="T-1" description="HOVE T-1, timingPoint, 1m 35ch" kilometre="2.313" x="221771" y="698" xNet="961810.3" yNet="-502226.75" referenceNode="19328"/>
+		<node nodeID="19328" kilometre="2.361" x="221311" y="698" xNet="960934.36" yNet="-502138.45"/>
+		<track trackID="D-1" stationID="HOVE" interlockingMachine="4 Aspect Pannel (Below 75mph)" nodeID="19329" name="SIG : T681" description="Signal T681; 1m 39ch" kilometre="2.394" x="220989" y="698" xNet="960313.09" yNet="-502075.83" referenceNode="19328"/>
+		<switch start="19059" endOfMainTrack="19372" endOfBranchTrack="19349" nodeID="19330" name="POINTS : 1898" description="POINTS : 1898;  mph; 1m 42.05ch" kilometre="2.455" x="220148" y="500" xNet="957594.55" yNet="-503291.49"/>
+		<kilometreInconsistency newKilometre="81.179" nodeID="19331" name="Change of kilometrage" kilometre="1.899" x="225982" y="544" xNet="969898.01" yNet="-503276.1" referenceNode="19346"/>
+		<switch start="19376" endOfMainTrack="19368" endOfBranchTrack="19332" nodeID="19333" name="POINTS : 1889" description="POINTS : 1889;  mph; 50m 36ch" kilometre="81.161" x="225888" y="700" xNet="969657.13" yNet="-503017.73"/>
+		<kilometreInconsistency newKilometre="81.211" nodeID="19334" name="Change of kilometrage" kilometre="1.931" x="225666" y="700" xNet="969089.88" yNet="-502960.55" referenceNode="19318"/>
+		<track trackID="D-1" stationID="HOVEJN" interlockingMachine="4 Aspect Pannel (Below 75mph)" nodeID="2" name="SIG : T675" description="Signal T675; 50m 25ch" kilometre="80.970" x="227288" y="700" xNet="972960.94" yNet="-502632.25" referenceNode="89"/>
+		<speedIndicator nodeID="19344" name="SPEED" description="Speed;" kilometre="1.982" x="225015" y="474" xNet="968062.64" yNet="-503149.28" referenceNode="19049"/>
+		<speedIndicator nodeID="19348" name="SPEED" description="Speed;" kilometre="2.494" x="219950" y="494" xNet="957235.4" yNet="-503240.56" referenceNode="19059"/>
+		<node nodeID="22313" kilometre="1.790" x="227064" y="300" xNet="971971.61" yNet="-503792.29"/>
+		<node nodeID="3" name="GRAD" description="Gradient; 50m 26ch" kilometre="80.990" x="227091" y="700" xNet="972558.86" yNet="-502687.8"/>
+		<node nodeID="4" name="GRAD" description="Gradient; 50m 26ch" kilometre="80.990" x="227104" y="900" xNet="972361.96" yNet="-502473.1">
+			<netLimitInfo lineID="630_1"/>
+		</node>
+		<node nodeID="19364" name="tc" kilometre="16.560" x="226032" y="580" xNet="970054.98" yNet="-503249.98" referenceNode="19331" releaseContact="true" arranged="true"/>
+		<node nodeID="19365" name="tc" kilometre="66.410" x="226110" y="618" xNet="970697.07" yNet="-503122.56" referenceNode="19313" releaseContact="true" arranged="true"/>
+		<node nodeID="19366" name="tc" kilometre="1.931" x="225680" y="575" xNet="969175.28" yNet="-503124.77" referenceNode="19052" releaseContact="true" arranged="true"/>
+		<node nodeID="19367" name="tc" kilometre="1.951" x="225583" y="645" xNet="968915.6" yNet="-503020.11" referenceNode="19373" releaseContact="true" arranged="true"/>
+		<node nodeID="19368" name="tc" kilometre="81.091" x="226202" y="700" xNet="970625.68" yNet="-503115.36" referenceNode="19313" releaseContact="true" arranged="true"/>
+		<node nodeID="19369" name="tc" kilometre="2.044" x="224384" y="579" xNet="966830.36" yNet="-502912.75" referenceNode="19342" releaseContact="true" arranged="true"/>
+		<node nodeID="19370" name="tc" kilometre="2.020" x="224451" y="616" xNet="967024.99" yNet="-502863.36" referenceNode="19321" releaseContact="true" arranged="true"/>
+		<node nodeID="19371" name="tc" kilometre="2.032" x="224673" y="387" xNet="967348.95" yNet="-503218.06" referenceNode="19374" releaseContact="true" arranged="true"/>
+		<node nodeID="5" name="200MM" description="200MM : 81.0" kilometre="81.000" x="227008" y="900" xNet="972021.04" yNet="-502540.22"/>
+		<node nodeID="6" name="200MM" description="200MM : 81.0" kilometre="81.000" x="226994" y="700" xNet="972360.79" yNet="-502715.19"/>
+		<track trackID="U-1" stationID="HOVE" interlockingMachine="4 Aspect Pannel (Below 75mph)" nodeID="19335" name="SIG : 678" description="Signal 678; 1m 25.98ch" kilometre="2.132" x="223601.75" y="698" xNet="965342.53" yNet="-502582.81" referenceNode="19325"/>
+		<node nodeID="19336" name="SD : 678" description="sighting distance for SIG : 678" kilometre="2.226" x="222643.66" y="698" xNet="963493.46" yNet="-502396.42" referenceNode="19378" sightingDistance="true"/>
+		<node nodeID="1" kilometre="80.956" x="227424" y="700" xNet="973238.58" yNet="-502594.27">
+			<netLimitInfo lineID="630_1"/>
+		</node>
+		<node nodeID="19311" kilometre="2.096" x="223940" y="500" xNet="965975.5" yNet="-502916.9"/>
+		<switch start="19329" endOfMainTrack="19359" endOfBranchTrack="19349" nodeID="19343" name="POINTS : 1898" description="POINTS : 1898;  mph; 1m 39.25ch" kilometre="2.399" x="220955" y="699" xNet="960174.33" yNet="-502060.48"/>
+		<node nodeID="19359" name="OL T681" description="OL for SIG : T681" x="220219" y="699" xNet="957206.35" yNet="-503005.68"/>
+		<node nodeID="19372" name="OL T679" description="OL for SIG : T679" kilometre="2.440" x="220498.86" y="500" xNet="959336.28" yNet="-502247.23"/>
+		<node nodeID="19347" name="OL T678" description="OL for SIG : T678" kilometre="1.998" x="224658.52" y="698.13794" xNet="967430.98" yNet="-502793.33"/>
+		<speedIndicator nodeID="19377" name="SPEED" description="Speed;" kilometre="2.549" x="219034.2" y="303.64999" xNet="953895.92" yNet="-504047.15" referenceNode="19320"/>
+		<track trackID="U-3" stationID="HOVEJN" interlockingMachine="4 Aspect Pannel (Below 75mph)" nodeID="19427" name="SIG : T672" description="Signal T672; 1m 4ch" kilometre="1.653" x="228370" y="500" xNet="974522.73" yNet="-503778.06" referenceNode="19041"/>
+		<node nodeID="19428" name="SD : T672" description="sighting distance for SIG : T672" kilometre="1.841" x="226533.41" y="500" xNet="970895.81" yNet="-503412.96" referenceNode="19042" sightingDistance="true"/>
+		<node nodeID="19363" kilometre="2.277" x="222143.97" y="698" xNet="962528.09" yNet="-502299.1"/>
+		<node nodeID="19375" kilometre="2.277" x="222128.36" y="500" xNet="962482.04" yNet="-502565.01"/>
+		<node nodeID="22213" kilometre="2.277" x="222134.56" y="300" xNet="962462.73" yNet="-502833.77"/>
+		<node nodeID="19378" kilometre="2.271" x="222206.36" y="698" xNet="962648.62" yNet="-502311.25"/>
+		<node nodeID="19412" kilometre="2.271" x="222190.83" y="500" xNet="962602.58" yNet="-502577.08"/>
+		<node nodeID="22214" kilometre="2.271" x="222191.83" y="300" xNet="962573.23" yNet="-502844.9"/>
+		<stationBorder exitType="regular" stationID="HOVEJN" lineID="630_1" trackNumber="1" nodeID="19332" name="[PRSPJC] - [630_1/1]" kilometre="81.071" x="226305" y="900" xNet="971266.86" yNet="-502747" referenceNode="19333"/>
+		<stationBorder exitType="alternative" stationID="HOVEJN" lineID="630_1" trackNumber="1" nodeID="85" name="[HOVE] - [630_1/1]" kilometre="2.075" x="224150" y="500" xNet="966380.63" yNet="-502958.08" referenceNode="19051"/>
+		<stationBorder exitType="alternative" stationID="HOVEJN" lineID="so630" trackNumber="2" nodeID="86" name="[BRGHTN] - [so630/2]" kilometre="1.644" x="228459" y="300" xNet="974665.03" yNet="-504063.79" referenceNode="22032"/>
+		<stationBorder exitType="regular" stationID="HOVEJN" lineID="630_1" trackNumber="2" nodeID="87" name="[HOVE] - [630_1/2]" kilometre="2.090" x="224000" y="300" xNet="966061.89" yNet="-503196.57" referenceNode="22044"/>
+		<stationBorder exitType="alternative" stationID="HOVEJN" lineID="630_1" trackNumber="3" nodeID="88" name="[HOVE] - [630_1/3]" kilometre="2.090" x="224035.23" y="698" xNet="966178.88" yNet="-502667.11" referenceNode="19324"/>
+		<stationBorder exitType="alternative" stationID="HOVEJN" lineID="630_1" trackNumber="2" nodeID="89" name="[PRSP] - [630_1/1]" kilometre="80.966" x="227328.8" y="700" xNet="973044.24" yNet="-502620.87" referenceNode="2"/>
+		<stationBorder exitType="regular" stationID="HOVEJN" lineID="so630" trackNumber="1" nodeID="90" name="[BRGHTN] - [so630/1]" kilometre="1.637" x="228529" y="500" xNet="974829.48" yNet="-503809.21" referenceNode="19427"/>
+		<stationBorder exitType="locked" stationID="HOVE" trackNumber="" nodeID="19360" name="Buffer stop 164" description="to siding" x="220167" y="699" xNet="957112.94" yNet="-502990.99" referenceNode="19359"/>
+		<stationBorder exitType="alternative" stationID="HOVE" lineID="so630" trackNumber="1" nodeID="91" name="[SIGT684] - [so630/1]" kilometre="2.498" x="219777" y="500" xNet="956970.31" yNet="-503192.92" referenceNode="19059"/>
+		<stationBorder exitType="regular" stationID="HOVE" lineID="630_1" trackNumber="1" nodeID="92" name="[HOVEJN] - [630_1/1]" kilometre="2.128" x="223618" y="500" xNet="965354.31" yNet="-502853.56" referenceNode="19053"/>
+		<stationBorder exitType="alternative" stationID="HOVE" lineID="630_1" trackNumber="2" nodeID="93" name="[HOVEJN] - [630_1/2]" kilometre="2.119" x="223706" y="300" xNet="965494.65" yNet="-503139.39" referenceNode="22045"/>
+		<stationBorder exitType="regular" stationID="HOVE" lineID="630_1" trackNumber="3" nodeID="94" name="[HOVEJN] - [630_1/3]" kilometre="2.119" x="223731.79" y="698" xNet="965593.43" yNet="-502608.1" referenceNode="19335"/>
+		<stationBorder exitType="regular" stationID="HOVE" lineID="so630" trackNumber="2" nodeID="22340" kilometre="2.550" x="218999.64" y="300" xNet="953865.67" yNet="-504053.87" referenceNode="22312"/>
+		<speedIndicator nodeID="22055" name="SPEED" description="Speed; 1m 47ch" kilometre="2.556" x="218900" y="300" xNet="953778.05" yNet="-504060.26" referenceNode="22340">
+			<netLimitInfo lineID="so630"/>
+		</speedIndicator>
+		<speedIndicator nodeID="19349" name="SPEED" description="SPEED" kilometre="2.454" x="220158.62" y="502.61842" xNet="957609.88" yNet="-503290.95" referenceNode="19343"/>
+		<speedIndicator nodeID="19342" name="SPEED" description="SPEED" kilometre="2.072" x="224316" y="539" xNet="966675.19" yNet="-502958" referenceNode="19322"/>
+		<speedIndicator nodeID="19376" name="SPEED" description="SPEED" kilometre="81.197" x="225728.58" y="700" xNet="969249.77" yNet="-502976.67" referenceNode="19334"/>
+		<speedIndicator nodeID="19373" name="SPEED" description="SPEED" kilometre="1.970" x="225493.7" y="697.25" xNet="968648.6" yNet="-502919.92" referenceNode="19318"/>
+		<speedIndicator nodeID="19346" kilometre="1.899" x="225946.02" y="522.88956" xNet="969837.78" yNet="-503287.55" referenceNode="19331"/>
+		<speedIndicator nodeID="19052" name="SPEED" description="SPEED" kilometre="1.912" x="225784.5" y="503.75" xNet="969526.35" yNet="-503269.42" referenceNode="19366"/>
+		<speedIndicator nodeID="19374" kilometre="2.051" x="224394.65" y="304.35" xNet="966824.58" yNet="-503268.04" referenceNode="19371"/>
+		<speedIndicator nodeID="22330" name="SPEED" description="SPEED" kilometre="1.851" x="226405.59" y="495.7603" xNet="970712.21" yNet="-503400.14" referenceNode="22310"/>
+		<speedIndicator nodeID="22051" name="SPEED" description="SPEED" kilometre="1.791" x="226989.55" y="303.1" xNet="971826.62" yNet="-503771.38" referenceNode="22033"/>
+	</nodes>
+	<links>
+		<link source="1" target="89" length="10" gradient="-11.111" vmax="64" vmaxr="64" electrification="electrified" lineCategory="uic-B2">
+			<vzg index="9" vmax="40" vmaxr="40"/>
+		</link>
+		<link source="2" target="3" length="20" gradient="-11.111" vmax="64" vmaxr="64" electrification="electrified" lineCategory="uic-B2">
+			<vzg index="9" vmax="40" vmaxr="40"/>
+		</link>
+		<link source="3" target="6" length="10" gradient="-3.937" vmax="64" vmaxr="64" electrification="electrified" lineCategory="uic-B2">
+			<vzg index="9" vmax="40" vmaxr="40"/>
+		</link>
+		<link source="4" target="5" length="10" gradient="-3.937" vmax="64" vmaxr="64" electrification="electrified" lineCategory="uic-B2">
+			<vzg index="9" vmax="40" vmaxr="40"/>
+		</link>
+		<link source="5" target="19332" length="71" gradient="-3.937" vmax="64" vmaxr="64" electrification="electrified" lineCategory="uic-B2">
+			<vzg index="9" vmax="40" vmaxr="40"/>
+		</link>
+		<link source="6" target="19313" length="71" gradient="-3.937" vmax="64" vmaxr="64" electrification="electrified" lineCategory="uic-B2">
+			<vzg index="9" vmax="40" vmaxr="40"/>
+		</link>
+		<link source="85" target="19311" length="21" gradient="-8.696" vmax="97" vmaxr="97" electrification="electrified" lineCategory="uic-B2">
+			<vzg index="9" vmax="64" vmaxr="64"/>
+		</link>
+		<link source="86" target="22032" length="19" gradient="-3.906" vmax="97" vmaxr="97" electrification="electrified" lineCategory="uic-B2">
+			<vzg index="9" vmax="64" vmaxr="64"/>
+		</link>
+		<link source="87" target="93" length="29" gradient="-8.696" vmax="97" vmaxr="48" electrification="electrified" lineCategory="uic-B2">
+			<vzg index="9" vmax="64" vmaxr="48"/>
+		</link>
+		<link source="88" target="94" length="29" gradient="-8.696" vmax="48" vmaxr="48" electrification="electrified" lineCategory="uic-B2">
+			<vzg index="9" vmax="48" vmaxr="48"/>
+		</link>
+		<link source="89" target="2" length="4" gradient="-11.111" vmax="64" vmaxr="64" electrification="electrified" lineCategory="uic-B2">
+			<vzg index="9" vmax="40" vmaxr="40"/>
+		</link>
+		<link source="90" target="19427" length="16" gradient="-3.906" vmax="97" vmaxr="97" electrification="electrified" lineCategory="uic-B2">
+			<vzg index="9" vmax="64" vmaxr="64"/>
+		</link>
+		<link source="91" target="19060" length="57" gradient="-3.185" vmax="97" vmaxr="97" electrification="electrified" lineCategory="uic-B2">
+			<vzg index="9" vmax="48" vmaxr="64"/>
+		</link>
+		<link source="92" target="19053" length="14" gradient="-8.696" vmax="97" vmaxr="97" electrification="electrified" lineCategory="uic-B2">
+			<vzg index="9" vmax="64" vmaxr="64"/>
+		</link>
+		<link source="93" target="22045" length="13" gradient="-8.696" vmax="97" vmaxr="48" electrification="electrified" lineCategory="uic-B2">
+			<vzg index="9" vmax="64" vmaxr="48"/>
+		</link>
+		<link source="94" target="19335" length="13" gradient="-8.696" vmax="48" vmaxr="48" electrification="electrified" lineCategory="uic-B2">
+			<vzg index="9" vmax="48" vmaxr="48"/>
+		</link>
+		<link source="19039" target="90" length="37" gradient="-3.906" vmax="97" vmaxr="97" electrification="electrified" lineCategory="uic-B2">
+			<vzg index="9" vmax="64" vmaxr="64"/>
+		</link>
+		<link source="19041" target="19428" length="41" gradient="-3.906" vmax="97" vmaxr="97" electrification="electrified" lineCategory="uic-B2">
+			<vzg index="9" vmax="64" vmaxr="64"/>
+		</link>
+		<link source="19042" target="19043" length="1" gradient="-8.696" vmax="97" vmaxr="97" electrification="electrified" lineCategory="uic-B2">
+			<vzg index="9" vmax="64" vmaxr="64"/>
+		</link>
+		<link source="19043" target="19317" length="47" gradient="-8.696" vmax="97" vmaxr="97" electrification="electrified" lineCategory="uic-B2">
+			<vzg index="9" vmax="64" vmaxr="64"/>
+		</link>
+		<link source="19045" target="19046" length="51" gradient="-8.696" vmax="97" vmaxr="97" electrification="electrified" lineCategory="uic-B2">
+			<vzg index="9" vmax="64" vmaxr="64"/>
+		</link>
+		<link source="19045" target="19052" length="1" gradient="-8.696" vmax="97" vmaxr="97" electrification="electrified">
+			<vzg index="9" vmax="40" vmaxr="40"/>
+		</link>
+		<link source="19046" target="19047" gradient="-8.696" vmax="97" vmaxr="97" electrification="electrified" lineCategory="uic-B2">
+			<vzg index="9" vmax="64" vmaxr="64"/>
+		</link>
+		<link source="19047" target="19048" gradient="-8.696" vmax="97" vmaxr="97" electrification="electrified" lineCategory="uic-B2">
+			<vzg index="9" vmax="64" vmaxr="64"/>
+		</link>
+		<link source="19048" target="19049" length="20" gradient="-8.696" vmax="97" vmaxr="97" electrification="electrified" lineCategory="uic-B2">
+			<vzg index="9" vmax="64" vmaxr="64"/>
+		</link>
+		<link source="19049" target="19050" length="18" gradient="-8.696" vmax="97" vmaxr="97" electrification="electrified" lineCategory="uic-B2">
+			<vzg index="9" vmax="64" vmaxr="64"/>
+		</link>
+		<link source="19049" target="19344" gradient="-8.696" vmax="97" vmaxr="97" electrification="electrified" lineCategory="uic-B2">
+			<vzg index="9" vmax="64" vmaxr="64"/>
+		</link>
+		<link source="19050" target="19322" length="71" gradient="-8.696" vmax="97" vmaxr="97" electrification="electrified" lineCategory="uic-B2">
+			<vzg index="9" vmax="64" vmaxr="64"/>
+		</link>
+		<link source="19051" target="85" length="3" gradient="-8.696" vmax="97" vmaxr="97" electrification="electrified" lineCategory="uic-B2">
+			<vzg index="9" vmax="64" vmaxr="64"/>
+		</link>
+		<link source="19052" target="19366" length="19" gradient="-8.696" vmax="40" vmaxr="40" electrification="electrified">
+			<vzg index="9" vmax="40" vmaxr="40"/>
+		</link>
+		<link source="19053" target="19054" length="64" gradient="-8.696" vmax="97" vmaxr="97" electrification="electrified" lineCategory="uic-B2">
+			<vzg index="9" vmax="64" vmaxr="64"/>
+		</link>
+		<link source="19054" target="19412" length="65" gradient="-8.696" vmax="97" vmaxr="97" electrification="electrified" lineCategory="uic-B2">
+			<vzg index="9" vmax="64" vmaxr="64"/>
+		</link>
+		<link source="19055" target="19056" length="30" gradient="-3.185" vmax="97" vmaxr="97" electrification="electrified" lineCategory="uic-B2">
+			<vzg index="9" vmax="64" vmaxr="64"/>
+		</link>
+		<link source="19056" target="19057" length="48" gradient="-3.185" vmax="97" vmaxr="97" electrification="electrified" lineCategory="uic-B2">
+			<vzg index="9" vmax="64" vmaxr="64"/>
+		</link>
+		<link source="19057" target="19058" length="33" gradient="-3.185" vmax="97" vmaxr="97" electrification="electrified" lineCategory="uic-B2">
+			<vzg index="9" vmax="64" vmaxr="64"/>
+		</link>
+		<link source="19058" target="19372" length="46" gradient="-3.185" vmax="97" vmaxr="97" electrification="electrified" lineCategory="uic-B2">
+			<vzg index="9" vmax="64" vmaxr="64"/>
+		</link>
+		<link source="19059" target="91" length="24" gradient="-3.185" vmax="97" vmaxr="97" electrification="electrified" lineCategory="uic-B2">
+			<vzg index="9" vmax="48" vmaxr="64"/>
+		</link>
+		<link source="19059" target="19348" gradient="-3.185" vmax="97" vmaxr="97" electrification="electrified" lineCategory="uic-B2">
+			<vzg index="9" vmax="48" vmaxr="48"/>
+		</link>
+		<link source="19060" target="19061" length="18" gradient="-3.185" vmax="113" vmaxr="113" electrification="electrified" lineCategory="uic-B2">
+			<vzg index="9" vmax="72" vmaxr="72"/>
+		</link>
+		<link source="19061" target="19062" length="1" gradient="-3.185" vmax="113" vmaxr="113" electrification="electrified" lineCategory="uic-B2">
+			<vzg index="9" vmax="72" vmaxr="72"/>
+		</link>
+		<link source="19062" target="19063" length="1" gradient="-3.185" vmax="113" vmaxr="113" electrification="electrified" lineCategory="uic-B2">
+			<vzg index="9" vmax="72" vmaxr="72"/>
+		</link>
+		<link source="19063" target="19064" length="26" gradient="-3.185" vmax="113" vmaxr="113" electrification="electrified" lineCategory="uic-B2">
+			<vzg index="9" vmax="72" vmaxr="72"/>
+		</link>
+		<link source="19311" target="92" length="32" gradient="-8.696" vmax="97" vmaxr="97" electrification="electrified" lineCategory="uic-B2">
+			<vzg index="9" vmax="64" vmaxr="64"/>
+		</link>
+		<link source="19313" target="19365" length="20" gradient="-3.937" vmax="64" vmaxr="64" electrification="electrified" lineCategory="uic-B2">
+			<vzg index="9" vmax="40" vmaxr="40"/>
+		</link>
+		<link source="19313" target="19368" length="20" gradient="-3.937" vmax="64" vmaxr="64" electrification="electrified" lineCategory="uic-B2">
+			<vzg index="9" vmax="40" vmaxr="40"/>
+		</link>
+		<link source="19317" target="19045" length="12" gradient="-8.696" vmax="97" vmaxr="97" electrification="electrified" lineCategory="uic-B2">
+			<vzg index="9" vmax="64" vmaxr="64"/>
+		</link>
+		<link source="19318" target="19347" length="27" gradient="-8.696" vmax="48" vmaxr="48" electrification="electrified" lineCategory="uic-B2">
+			<vzg index="9" vmax="40" vmaxr="40"/>
+		</link>
+		<link source="19319" target="19371" length="30" gradient="-8.696" vmax="48" vmaxr="48" electrification="electrified" lineCategory="uic-B2">
+			<vzg index="9" vmax="48" vmaxr="48"/>
+		</link>
+		<link source="19320" target="19377" length="25" gradient="-3.185" vmax="48" vmaxr="48" electrification="electrified">
+			<vzg index="9" vmax="48" vmaxr="48"/>
+		</link>
+		<link source="19321" target="19324" length="72" gradient="-8.696" vmax="48" vmaxr="48" electrification="electrified">
+			<vzg index="9" vmax="40" vmaxr="40"/>
+		</link>
+		<link source="19321" target="19370" length="20" gradient="-8.696" vmax="48" vmaxr="48" electrification="electrified">
+			<vzg index="9" vmax="48" vmaxr="48"/>
+		</link>
+		<link source="19322" target="19051" length="1" gradient="-8.696" vmax="97" vmaxr="97" electrification="electrified" lineCategory="uic-B2">
+			<vzg index="9" vmax="64" vmaxr="64"/>
+		</link>
+		<link source="19323" target="19320" length="25" gradient="-3.185" vmax="48" vmaxr="48" electrification="electrified" lineCategory="uic-B2">
+			<vzg index="9" vmax="48" vmaxr="48"/>
+		</link>
+		<link source="19324" target="88" length="18" gradient="-8.696" vmax="48" vmaxr="48" electrification="electrified" lineCategory="uic-B2">
+			<vzg index="9" vmax="48" vmaxr="48"/>
+		</link>
+		<link source="19325" target="19336" length="20" gradient="-8.696" vmax="48" vmaxr="48" electrification="electrified" lineCategory="uic-B2">
+			<vzg index="9" vmax="48" vmaxr="48"/>
+		</link>
+		<link source="19326" target="19327" length="30" gradient="-3.185" vmax="48" vmaxr="48" electrification="electrified" lineCategory="uic-B2">
+			<vzg index="9" vmax="48" vmaxr="48"/>
+		</link>
+		<link source="19327" target="19328" length="48" gradient="-3.185" vmax="48" vmaxr="48" electrification="electrified" lineCategory="uic-B2">
+			<vzg index="9" vmax="48" vmaxr="48"/>
+		</link>
+		<link source="19328" target="19329" length="33" gradient="-3.185" vmax="48" vmaxr="48" electrification="electrified" lineCategory="uic-B2">
+			<vzg index="9" vmax="48" vmaxr="48"/>
+		</link>
+		<link source="19329" target="19343" length="5" gradient="-3.185" vmax="48" vmaxr="48" electrification="electrified" lineCategory="uic-B2">
+			<vzg index="9" vmax="48" vmaxr="48"/>
+		</link>
+		<link source="19330" target="19059" length="19" gradient="-3.185" vmax="97" vmaxr="97" electrification="electrified" lineCategory="uic-B2">
+			<vzg index="9" vmax="48" vmaxr="64"/>
+		</link>
+		<link source="19331" target="19346" gradient="-8.696" vmax="64" vmaxr="64" electrification="electrified" lineCategory="uic-B2">
+			<vzg index="9" vmax="40" vmaxr="40"/>
+		</link>
+		<link source="19332" target="19333" length="90" gradient="-3.937" vmax="64" vmaxr="64" electrification="electrified" lineCategory="uic-B2">
+			<vzg index="9" vmax="40" vmaxr="40"/>
+		</link>
+		<link source="19333" target="19376" length="36" gradient="-3.937" vmax="64" vmaxr="64" electrification="electrified" lineCategory="uic-B2">
+			<vzg index="9" vmax="40" vmaxr="40"/>
+		</link>
+		<link source="19334" target="19318" length="40" gradient="-3.937" vmax="48" vmaxr="48" electrification="electrified" lineCategory="uic-B2">
+			<vzg index="9" vmax="40" vmaxr="40"/>
+		</link>
+		<link source="19335" target="19325" length="74" gradient="-8.696" vmax="48" vmaxr="48" electrification="electrified" lineCategory="uic-B2">
+			<vzg index="9" vmax="48" vmaxr="48"/>
+		</link>
+		<link source="19336" target="19378" length="45" gradient="-8.696" vmax="48" vmaxr="48" electrification="electrified" lineCategory="uic-B2">
+			<vzg index="9" vmax="48" vmaxr="48"/>
+		</link>
+		<link source="19342" target="19322" gradient="-8.696" vmax="97" vmaxr="97" electrification="electrified">
+			<vzg index="9" vmax="48" vmaxr="48"/>
+		</link>
+		<link source="19343" target="19349" length="75" gradient="-3.185" vmax="48" vmaxr="48" electrification="electrified" lineCategory="uic-B2">
+			<vzg index="9" vmax="48" vmaxr="48"/>
+		</link>
+		<link source="19343" target="19359" length="87" gradient="-3.18" vmax="48" vmaxr="48" electrification="electrified">
+			<vzg index="9" vmax="48" vmaxr="48"/>
+		</link>
+		<link source="19344" target="19319" length="20" gradient="-8.696" vmax="48" vmaxr="48" electrification="electrified" lineCategory="uic-B2">
+			<vzg index="9" vmax="48" vmaxr="48"/>
+		</link>
+		<link source="19346" target="19317" gradient="-8.696" vmax="97" vmaxr="97" electrification="electrified" lineCategory="uic-B2">
+			<vzg index="9" vmax="40" vmaxr="40"/>
+		</link>
+		<link source="19347" target="19321" length="2" gradient="-8.696" vmax="48" vmaxr="48" electrification="electrified" lineCategory="uic-B2">
+			<vzg index="9" vmax="40" vmaxr="40"/>
+		</link>
+		<link source="19348" target="19323" length="25" gradient="-3.185" vmax="48" vmaxr="48" electrification="electrified" lineCategory="uic-B2">
+			<vzg index="9" vmax="48" vmaxr="48"/>
+		</link>
+		<link source="19349" target="19330" length="1" gradient="-3.185" vmax="97" vmaxr="97" electrification="electrified" lineCategory="uic-B2">
+			<vzg index="9" vmax="48" vmaxr="48"/>
+		</link>
+		<link source="19359" target="19360" length="5" gradient="-3.18" vmax="48" vmaxr="48" electrification="electrified">
+			<vzg index="9" vmax="48" vmaxr="48"/>
+		</link>
+		<link source="19363" target="19326" length="6" gradient="-8.696" vmax="48" vmaxr="48" electrification="electrified" lineCategory="uic-B2">
+			<vzg index="9" vmax="48" vmaxr="48"/>
+		</link>
+		<link source="19364" target="19331" length="20" gradient="-3.937" vmax="64" vmaxr="64" electrification="electrified" lineCategory="uic-B2">
+			<vzg index="9" vmax="40" vmaxr="40"/>
+		</link>
+		<link source="19365" target="19364" length="68" gradient="-3.937" vmax="64" vmaxr="64" electrification="electrified" lineCategory="uic-B2">
+			<vzg index="9" vmax="40" vmaxr="40"/>
+		</link>
+		<link source="19366" target="19367" length="20" gradient="-8.696" vmax="40" vmaxr="40" electrification="electrified" lineCategory="uic-B2">
+			<vzg index="9" vmax="40" vmaxr="40"/>
+		</link>
+		<link source="19367" target="19373" length="19" gradient="-8.696" vmax="40" vmaxr="40" electrification="electrified">
+			<vzg index="9" vmax="40" vmaxr="40"/>
+		</link>
+		<link source="19368" target="19333" length="70" gradient="-3.937" vmax="64" vmaxr="64" electrification="electrified" lineCategory="uic-B2">
+			<vzg index="9" vmax="40" vmaxr="40"/>
+		</link>
+		<link source="19369" target="19342" length="28" gradient="-8.696" vmax="48" vmaxr="48" electrification="electrified" lineCategory="uic-B2">
+			<vzg index="9" vmax="48" vmaxr="48"/>
+		</link>
+		<link source="19370" target="19369" length="24" gradient="-8.696" vmax="48" vmaxr="48" electrification="electrified" lineCategory="uic-B2">
+			<vzg index="9" vmax="48" vmaxr="48"/>
+		</link>
+		<link source="19371" target="19374" length="19" gradient="-8.696" vmax="48" vmaxr="48" electrification="electrified" lineCategory="uic-B2">
+			<vzg index="9" vmax="48" vmaxr="48"/>
+		</link>
+		<link source="19372" target="19330" length="15" gradient="-3.185" vmax="97" vmaxr="97" electrification="electrified">
+			<vzg index="9" vmax="64" vmaxr="64"/>
+		</link>
+		<link source="19373" target="19318" length="1" gradient="-8.696" vmax="48" vmaxr="48" electrification="electrified">
+			<vzg index="9" vmax="40" vmaxr="40"/>
+		</link>
+		<link source="19374" target="22043" length="1" gradient="-8.696" vmax="97" vmaxr="97" electrification="electrified" lineCategory="uic-B2">
+			<vzg index="9" vmax="48" vmaxr="48"/>
+		</link>
+		<link source="19375" target="19055" length="6" gradient="-8.696" vmax="97" vmaxr="97" electrification="electrified" lineCategory="uic-B2">
+			<vzg index="9" vmax="64" vmaxr="64"/>
+		</link>
+		<link source="19376" target="19334" length="14" gradient="-3.937" vmax="48" vmaxr="48" electrification="electrified" lineCategory="uic-B2">
+			<vzg index="9" vmax="40" vmaxr="40"/>
+		</link>
+		<link source="19377" target="22312" gradient="-3.185" vmax="97" vmaxr="97" electrification="electrified">
+			<vzg index="9" vmax="48" vmaxr="48"/>
+		</link>
+		<link source="19378" target="19363" length="6" gradient="-8.696" vmax="48" vmaxr="48" electrification="electrified" lineCategory="uic-B2">
+			<vzg index="9" vmax="48" vmaxr="48"/>
+		</link>
+		<link source="19412" target="19375" length="6" gradient="-8.696" vmax="97" vmaxr="97" electrification="electrified" lineCategory="uic-B2">
+			<vzg index="9" vmax="64" vmaxr="64"/>
+		</link>
+		<link source="19427" target="19041" length="147" gradient="-3.906" vmax="97" vmaxr="97" electrification="electrified">
+			<vzg index="9" vmax="64" vmaxr="64"/>
+		</link>
+		<link source="19428" target="19042" length="10" gradient="-3.906" vmax="97" vmaxr="97" electrification="electrified" lineCategory="uic-B2">
+			<vzg index="9" vmax="64" vmaxr="64"/>
+		</link>
+		<link source="22031" target="86" length="44" gradient="-3.906" vmax="97" vmaxr="97" electrification="electrified" lineCategory="uic-B2">
+			<vzg index="9" vmax="64" vmaxr="64"/>
+		</link>
+		<link source="22032" target="22313" length="127" gradient="-3.906" vmax="97" vmaxr="97" electrification="electrified" lineCategory="uic-B2">
+			<vzg index="9" vmax="64" vmaxr="64"/>
+		</link>
+		<link source="22033" target="22034" length="10" gradient="-3.906" vmax="97" vmaxr="97" electrification="electrified" lineCategory="uic-B2">
+			<vzg index="9" vmax="64" vmaxr="64"/>
+		</link>
+		<link source="22033" target="22051" length="1" gradient="-3.906" vmax="97" vmaxr="97" electrification="electrified" lineCategory="uic-B2">
+			<vzg index="9" vmax="40" vmaxr="48"/>
+		</link>
+		<link source="22034" target="22035" length="43" gradient="-3.906" vmax="97" vmaxr="97" electrification="electrified" lineCategory="uic-B2">
+			<vzg index="9" vmax="64" vmaxr="64"/>
+		</link>
+		<link source="22035" target="22036" gradient="-3.906" vmax="97" vmaxr="97" electrification="electrified" lineCategory="uic-B2">
+			<vzg index="9" vmax="64" vmaxr="64"/>
+		</link>
+		<link source="22036" target="22037" gradient="-3.906" vmax="97" vmaxr="97" electrification="electrified" lineCategory="uic-B2">
+			<vzg index="9" vmax="64" vmaxr="64"/>
+		</link>
+		<link source="22037" target="22038" length="8" gradient="-3.906" vmax="97" vmaxr="97" electrification="electrified" lineCategory="uic-B2">
+			<vzg index="9" vmax="64" vmaxr="64"/>
+		</link>
+		<link source="22038" target="22039" length="101" gradient="-8.696" vmax="97" vmaxr="97" electrification="electrified" lineCategory="uic-B2">
+			<vzg index="9" vmax="64" vmaxr="64"/>
+		</link>
+		<link source="22039" target="22040" gradient="-8.696" vmax="97" vmaxr="97" electrification="electrified" lineCategory="uic-B2">
+			<vzg index="9" vmax="64" vmaxr="64"/>
+		</link>
+		<link source="22040" target="22041" gradient="-8.696" vmax="97" vmaxr="97" electrification="electrified" lineCategory="uic-B2">
+			<vzg index="9" vmax="64" vmaxr="64"/>
+		</link>
+		<link source="22041" target="22042" length="48" gradient="-8.696" vmax="97" vmaxr="97" electrification="electrified" lineCategory="uic-B2">
+			<vzg index="9" vmax="64" vmaxr="64"/>
+		</link>
+		<link source="22042" target="22043" length="52" gradient="-8.696" vmax="97" vmaxr="48" electrification="electrified" lineCategory="uic-B2">
+			<vzg index="9" vmax="64" vmaxr="48"/>
+		</link>
+		<link source="22043" target="22044" length="20" gradient="-8.696" vmax="97" vmaxr="48" electrification="electrified" lineCategory="uic-B2">
+			<vzg index="9" vmax="64" vmaxr="48"/>
+		</link>
+		<link source="22044" target="87" length="18" gradient="-8.696" vmax="97" vmaxr="48" electrification="electrified" lineCategory="uic-B2">
+			<vzg index="9" vmax="64" vmaxr="48"/>
+		</link>
+		<link source="22045" target="22046" length="72" gradient="-8.696" vmax="97" vmaxr="97" electrification="electrified" lineCategory="uic-B2">
+			<vzg index="9" vmax="64" vmaxr="64"/>
+		</link>
+		<link source="22046" target="22214" length="67" gradient="-8.696" vmax="97" vmaxr="97" electrification="electrified" lineCategory="uic-B2">
+			<vzg index="9" vmax="64" vmaxr="64"/>
+		</link>
+		<link source="22047" target="22048" length="30" gradient="-3.185" vmax="97" vmaxr="97" electrification="electrified" lineCategory="uic-B2">
+			<vzg index="9" vmax="64" vmaxr="64"/>
+		</link>
+		<link source="22048" target="22049" length="38" gradient="-3.185" vmax="97" vmaxr="97" electrification="electrified" lineCategory="uic-B2">
+			<vzg index="9" vmax="64" vmaxr="64"/>
+		</link>
+		<link source="22049" target="22050" length="41" gradient="-3.185" vmax="97" vmaxr="97" electrification="electrified" lineCategory="uic-B2">
+			<vzg index="9" vmax="64" vmaxr="64"/>
+		</link>
+		<link source="22050" target="22052" length="145" gradient="-3.185" vmax="97" vmaxr="97" electrification="electrified" lineCategory="uic-B2">
+			<vzg index="9" vmax="72" vmaxr="72"/>
+		</link>
+		<link source="22051" target="22311" length="19" gradient="-3.906" vmax="40" vmaxr="48" electrification="electrified" lineCategory="uic-B2">
+			<vzg index="9" vmax="40" vmaxr="48"/>
+		</link>
+		<link source="22052" target="22053" length="1" gradient="-3.185" vmax="97" vmaxr="97" electrification="electrified" lineCategory="uic-B2">
+			<vzg index="9" vmax="72" vmaxr="72"/>
+		</link>
+		<link source="22053" target="22054" gradient="-3.185" vmax="97" vmaxr="97" electrification="electrified" lineCategory="uic-B2">
+			<vzg index="9" vmax="72" vmaxr="72"/>
+		</link>
+		<link source="22054" target="22312" length="11" gradient="-3.185" vmax="97" vmaxr="97" electrification="electrified" lineCategory="uic-B2">
+			<vzg index="9" vmax="72" vmaxr="72"/>
+		</link>
+		<link source="22213" target="22047" length="6" gradient="-8.696" vmax="97" vmaxr="97" electrification="electrified" lineCategory="uic-B2">
+			<vzg index="9" vmax="64" vmaxr="64"/>
+		</link>
+		<link source="22214" target="22213" length="6" gradient="-8.696" vmax="97" vmaxr="97" electrification="electrified" lineCategory="uic-B2">
+			<vzg index="9" vmax="64" vmaxr="64"/>
+		</link>
+		<link source="22310" target="22330" length="19" gradient="-3.906" vmax="40" vmaxr="48" electrification="electrified" lineCategory="uic-B2">
+			<vzg index="9" vmax="40" vmaxr="48"/>
+		</link>
+		<link source="22311" target="22310" length="22" gradient="-3.906" vmax="40" vmaxr="48" electrification="electrified" lineCategory="uic-B2">
+			<vzg index="9" vmax="40" vmaxr="48"/>
+		</link>
+		<link source="22312" target="22340" length="1" gradient="-3.185" vmax="97" vmaxr="97" electrification="electrified" lineCategory="uic-B2">
+			<vzg index="9" vmax="72" vmaxr="72"/>
+		</link>
+		<link source="22313" target="22033" gradient="-3.906" vmax="97" vmaxr="97" electrification="electrified" lineCategory="uic-B2">
+			<vzg index="9" vmax="64" vmaxr="64"/>
+		</link>
+		<link source="22330" target="19043" length="1" gradient="-3.906" vmax="97" vmaxr="97" electrification="electrified" lineCategory="uic-B2">
+			<vzg index="9" vmax="40" vmaxr="48"/>
+		</link>
+		<link source="22340" target="22055" length="6" gradient="-3.185" vmax="97" vmaxr="97" electrification="electrified" lineCategory="uic-B2">
+			<vzg index="9" vmax="72" vmaxr="72"/>
+		</link>
+	</links>
+	<dependentLinks/>
+	<blockSections>
+		<blocksection uuid="{05b4720a-74c1-4789-b9fc-8c5084cd13ac}" lines="630_1 hove prs">
+			<part nodes="1 89 2"/>
+		</blocksection>
+		<blocksection uuid="{0ce540a7-36cd-4804-86c2-2a67581dfd40}" lines="630_1 hove" speedIndicators="19342 19376">
+			<part nodes="19053 92 19311 85 19051 19322 19342 19369 19370 19321 19347 19318 19334 19376 19333 19332 5 4"/>
+		</blocksection>
+		<blocksection uuid="{1ab0aa20-2d61-4947-baeb-92b4e523a567}" lines="hove">
+			<part nodes="19335 19325 19336 19378 19363 19326 19327 19328 19329"/>
+		</blocksection>
+		<blocksection uuid="{2835742a-04cf-4f1d-bcb1-5c5652214c5d}" lines="630_1 hove prs">
+			<part nodes="1 89 2"/>
+		</blocksection>
+		<blocksection uuid="{366f4bfe-c78e-4e99-bcb8-803ce38bde8b}" lines="hove">
+			<part nodes="22050 22049 22048 22047 22213 22214 22046 22045"/>
+		</blocksection>
+		<blocksection uuid="{3b8cc0bc-1f0d-41bb-90b1-7fbffb286d1c}" lines="hove so630" speedIndicators="19060">
+			<part nodes="19064 19063 19062 19061 19060 91 19059 19330 19349 19343 19329 19328 19327 19326 19363 19378 19336 19325 19335"/>
+		</blocksection>
+		<blocksection uuid="{4d2f16a9-cc6e-4aee-8d74-b6a11efa930d}" lines="hove" speedIndicators="22051 22330">
+			<part nodes="22032 22313 22033 22051 22311 22310 22330 19043 19317 19045 19052 19366 19367 19373 19318 19347 19321 19324 88 94 19335 19325 19336 19378 19363 19326 19327 19328 19329"/>
+		</blocksection>
+		<blocksection uuid="{5bc5489b-69aa-43e8-8b75-b7f304f2bb75}" lines="hove">
+			<part nodes="2 3 6 19313 19368 19333 19376 19334 19318 19347 19321 19324 88 94 19335 19325 19336 19378 19363 19326 19327 19328 19329"/>
+		</blocksection>
+		<blocksection uuid="{6130daea-d8d3-4023-9d1c-d25448c5a88a}" lines="hove">
+			<part nodes="22045 22046 22214 22213 22047 22048 22049 22050"/>
+		</blocksection>
+		<blocksection uuid="{6a2c81a3-d021-4f88-a14c-0b46bf8bc0b0}" lines="hove">
+			<part nodes="2 3 6 19313 19368 19333 19376 19334 19318 19347 19321 19370 19369 19342 19322 19051 85 19311 92 19053 19054 19412 19375 19055 19056 19057 19058"/>
+		</blocksection>
+		<blocksection uuid="{6bb99444-a56d-4272-8b24-ced03aa1b161}" lines="hove">
+			<part nodes="19053 92 19311 85 19051 19322 19050 19049 19048 19047 19046 19045 19317 19043 19042 19428 19041 19427"/>
+		</blocksection>
+		<blocksection uuid="{6c91b828-f3c0-4263-ad12-b5a0643af73b}" lines="hove so630">
+			<part nodes="19427 90 19039"/>
+		</blocksection>
+		<blocksection uuid="{6e0f70bd-4a29-4b9a-b86a-0c72fa085f0c}" lines="630_1 hove" speedIndicators="19376">
+			<part nodes="19335 94 88 19324 19321 19347 19318 19334 19376 19333 19332 5 4"/>
+		</blocksection>
+		<blocksection uuid="{6ecca258-32a4-46aa-b9cf-bfe0b859c6d3}" lines="hove" speedIndicators="19344 19346 19374">
+			<part nodes="2 3 6 19313 19365 19364 19331 19346 19317 19045 19046 19047 19048 19049 19344 19319 19371 19374 22043 22044 87 93 22045 22046 22214 22213 22047 22048 22049 22050"/>
+		</blocksection>
+		<blocksection uuid="{7b7e6bcd-4338-4007-8aa1-0a9198081afa}" lines="hove so630" speedIndicators="19348 19349 19377 22055">
+			<part nodes="19329 19343 19349 19330 19059 19348 19323 19320 19377 22312 22340 22055"/>
+		</blocksection>
+		<blocksection uuid="{8ddc5fba-526b-4340-b9f9-e9523ebc206f}" lines="hove" speedIndicators="22051 22330">
+			<part nodes="22032 22313 22033 22051 22311 22310 22330 19043 19317 19045 19046 19047 19048 19049 19050 19322 19051 85 19311 92 19053 19054 19412 19375 19055 19056 19057 19058"/>
+		</blocksection>
+		<blocksection uuid="{92d60308-f3c6-4bd7-9b9e-bbee668f2172}" lines="hove" speedIndicators="19052 19373">
+			<part nodes="19335 94 88 19324 19321 19347 19318 19373 19367 19366 19052 19045 19317 19043 19042 19428 19041 19427"/>
+		</blocksection>
+		<blocksection uuid="{9c3f62cd-d66c-4827-9464-2d6910ce5809}" lines="630_1 hove prs">
+			<part nodes="1 89 2"/>
+		</blocksection>
+		<blocksection uuid="{a40d7f64-af7b-4584-ad3f-24f605a1177b}" lines="hove">
+			<part nodes="19053 19054 19412 19375 19055 19056 19057 19058"/>
+		</blocksection>
+		<blocksection uuid="{a5eb1bc0-4f92-40ec-870a-04d218575321}" lines="hove so630" speedIndicators="22055">
+			<part nodes="22050 22052 22053 22054 22312 22340 22055"/>
+		</blocksection>
+		<blocksection uuid="{a72cd221-1072-48d4-9fe5-483417ec3f39}" lines="hove so630">
+			<part nodes="22031 86 22032"/>
+		</blocksection>
+		<blocksection uuid="{a90a128e-6b6d-4725-8142-3f715b435406}" lines="hove">
+			<part nodes="19329 19328 19327 19326 19363 19378 19336 19325 19335"/>
+		</blocksection>
+		<blocksection uuid="{ac7c7f82-f949-40fc-bd0e-64b08a54c304}" lines="hove" speedIndicators="19346">
+			<part nodes="2 3 6 19313 19365 19364 19331 19346 19317 19045 19046 19047 19048 19049 19050 19322 19051 85 19311 92 19053 19054 19412 19375 19055 19056 19057 19058"/>
+		</blocksection>
+		<blocksection uuid="{b27add18-4cff-47eb-b7cd-bcf594347e7d}" lines="hove">
+			<part nodes="22032 22313 22033 22034 22035 22036 22037 22038 22039 22040 22041 22042 22043 22044 87 93 22045 22046 22214 22213 22047 22048 22049 22050"/>
+		</blocksection>
+		<blocksection uuid="{cf7cbc92-d048-4635-86cf-406831131552}" lines="hove so630" speedIndicators="19348 19377 22055">
+			<part nodes="19058 19372 19330 19059 19348 19323 19320 19377 22312 22340 22055"/>
+		</blocksection>
+		<blocksection uuid="{d34004be-40da-456f-b456-d5e33eeb394e}" lines="hove">
+			<part nodes="19058 19057 19056 19055 19375 19412 19054 19053"/>
+		</blocksection>
+		<blocksection uuid="{dc3eecfd-a860-4fa6-a01a-a222f5714713}" lines="hove so630" speedIndicators="19060">
+			<part nodes="19064 19063 19062 19061 19060 91 19059 19330 19372 19058 19057 19056 19055 19375 19412 19054 19053"/>
+		</blocksection>
+		<blocksection uuid="{f5fd2347-b6b1-4dc3-9bff-4e377143d0a9}" lines="hove" speedIndicators="19344">
+			<part nodes="22045 93 87 22044 22043 19374 19371 19319 19344 19049 19048 19047 19046 19045 19317 19043 19042 19428 19041 19427"/>
+		</blocksection>
+	</blockSections>
+	<slipDistances>
+		<slipdistance uuid="{002d37e9-2026-4d6a-b688-6c5cb33d990e}" vmax="999" lines="hove" serialNumber="0">
+			<part nodes="22032 22313 22033 22034 22035 22036"/>
+		</slipdistance>
+		<slipdistance uuid="{01c2b3f8-ed1e-4d80-9063-eaa8b7233969}" publicName="OL1" vmax="999" lines="hove" serialNumber="0">
+			<part nodes="22045 93 87 22044 22043 22042 22041 22040"/>
+		</slipdistance>
+		<slipdistance uuid="{0962604d-1cb4-482b-90fc-0d7ba5bb1e86}" publicName="OL2" vmax="999" lines="hove" serialNumber="1">
+			<part nodes="22045 93 87 22044 22043 19374 19371 19319 19344 19049 19048 19047"/>
+		</slipdistance>
+		<slipdistance uuid="{24525bf4-c54f-432f-aa0d-15db8560edea}" publicName="OL2" vmax="999" lines="hove" serialNumber="1">
+			<part nodes="19058 19372 19330 19059 19348 19323 19320 19377 22312 22340 22055"/>
+		</slipdistance>
+		<slipdistance uuid="{273c7bc3-2083-4ad0-95df-a036c9f690b7}" publicName="OL1" vmax="999" lines="hove so630" serialNumber="0">
+			<part nodes="19058 19372 19330 19059 91 19060 19061 19062 19063 19064"/>
+		</slipdistance>
+		<slipdistance uuid="{37692cb9-746f-4a7e-a41d-74cbfbf65915}" publicName="OL3" vmax="999" lines="hove" serialNumber="2">
+			<part nodes="19058 19372"/>
+		</slipdistance>
+		<slipdistance uuid="{46a6edec-b924-44ec-ae38-854b004b9eea}" publicName="OL1" vmax="999" lines="hove" serialNumber="0">
+			<part nodes="19053 92 19311 85 19051 19322 19050 19049 19048 19047"/>
+		</slipdistance>
+		<slipdistance uuid="{48be016d-038b-40dd-8460-13a281725ace}" vmax="999" lines="hove so630" serialNumber="0">
+			<part nodes="22050 22052 22053 22054 22312 22340 22055"/>
+		</slipdistance>
+		<slipdistance uuid="{5119f32d-d545-403d-8313-f8e5750169fc}" publicName="OL1" vmax="999" lines="hove" serialNumber="0">
+			<part nodes="19329 19343 19359"/>
+		</slipdistance>
+		<slipdistance uuid="{5380a285-4c5f-4c7d-8ca5-b1e0b2ce30e2}" publicName="OL2" vmax="999" lines="hove" serialNumber="1">
+			<part nodes="19329 19343 19349 19330 19059 19348 19323 19320 19377 22312 22340 22055"/>
+		</slipdistance>
+		<slipdistance uuid="{9e5598f2-fb58-4dd0-9275-e7ea186a1281}" publicName="OL2" vmax="999" lines="hove" serialNumber="1">
+			<part nodes="19053 92 19311 85 19051 19322 19342 19369 19370 19321 19347"/>
+		</slipdistance>
+		<slipdistance uuid="{b2454eef-e2a3-4e6a-8457-d80653c35f44}" publicName="OL3" vmax="999" lines="hove" serialNumber="2">
+			<part nodes="19053 92 19311"/>
+		</slipdistance>
+		<slipdistance uuid="{d0a7a7a5-d7ab-47d8-a5aa-3e0bd2763a5b}" vmax="999" lines="hove" serialNumber="0">
+			<part nodes="19335 94 88 19324 19321 19347"/>
+		</slipdistance>
+		<slipdistance uuid="{df132668-edce-4d17-bbbe-f92113728428}" vmax="999" lines="hove" serialNumber="0">
+			<part nodes="2 3 6 19313"/>
+		</slipdistance>
+		<slipdistance uuid="{e97d4638-9067-454e-8e1d-68812b07d537}" vmax="999" lines="hove so630" serialNumber="0">
+			<part nodes="19427 90 19039"/>
+		</slipdistance>
+	</slipDistances>
+	<approachControlRoutes/>
+	<stationRoutes>
+		<stationRoute stationID="HOVE" name="[HOVEJN]-[630_1/1]-[2]-[ALDTON]-[so630/1] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=90;NRz=90;S=90;Rz=90;FGz=90;NGz=90;Gz=90;Lz=90;Unbekannt=90" nodes="92 19053 19054 19412 19375 19055 19056 19057 19058 19372 19330 19059 19348 19323 19320 19377 22312 22340"/>
+		<stationRoute stationID="HOVE" name="[HOVEJN]-[630_1/1]-[2]-[HOVEJN]-[630_1/1] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="92 19053 19054 19412 19375 19055 19056 19057 19058 19057 19056 19055 19375 19412 19054 19053 92"/>
+		<stationRoute stationID="HOVE" name="[HOVEJN]-[630_1/2]-[3]-[ALDTON]-[so630/1] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="93 22045 22046 22214 22213 22047 22048 22049 22050 22052 22053 22054 22312 22340"/>
+		<stationRoute stationID="HOVE" name="[HOVEJN]-[630_1/2]-[3]-[HOVEJN]-[630_1/2] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="93 22045 22046 22214 22213 22047 22048 22049 22050 22049 22048 22047 22213 22214 22046 22045 93"/>
+		<stationRoute stationID="HOVE" name="[HOVEJN]-[630_1/3]-[1]-[ALDTON]-[so630/1] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=80;NRz=80;S=80;Rz=80;FGz=80;NGz=80;Gz=80;Lz=80;Unbekannt=80" nodes="94 19335 19325 19336 19378 19363 19326 19327 19328 19329 19343 19349 19330 19059 19348 19323 19320 19377 22312 22340"/>
+		<stationRoute stationID="HOVE" name="[HOVEJN]-[630_1/3]-[1]-[HOVEJN]-[630_1/3] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="94 19335 19325 19336 19378 19363 19326 19327 19328 19329 19328 19327 19326 19363 19378 19336 19325 19335 94"/>
+		<stationRoute stationID="HOVE" name="[SIGT684]-[so630/1]-[1]-[ALDTON]-[so630/1] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=70;NRz=70;S=70;Rz=70;FGz=70;NGz=70;Gz=70;Lz=70;Unbekannt=70" nodes="91 19059 19330 19349 19343 19329 19328 19327 19326 19363 19378 19336 19325 19335 19325 19336 19378 19363 19326 19327 19328 19329 19343 19349 19330 19059 19348 19323 19320 19377 22312 22340"/>
+		<stationRoute stationID="HOVE" name="[SIGT684]-[so630/1]-[1]-[HOVEJN]-[630_1/3] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=90;NRz=90;S=90;Rz=90;FGz=90;NGz=90;Gz=90;Lz=90;Unbekannt=90" nodes="91 19059 19330 19349 19343 19329 19328 19327 19326 19363 19378 19336 19325 19335 94"/>
+		<stationRoute stationID="HOVE" name="[SIGT684]-[so630/1]-[2]-[ALDTON]-[so630/1] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=90;NRz=90;S=90;Rz=90;FGz=90;NGz=90;Gz=90;Lz=90;Unbekannt=90" nodes="91 19059 19330 19372 19058 19057 19056 19055 19375 19412 19054 19053 19054 19412 19375 19055 19056 19057 19058 19372 19330 19059 19348 19323 19320 19377 22312 22340"/>
+		<stationRoute stationID="HOVE" name="[SIGT684]-[so630/1]-[2]-[HOVEJN]-[630_1/1] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="91 19059 19330 19372 19058 19057 19056 19055 19375 19412 19054 19053 92"/>
+		<stationRoute stationID="HOVE" name="[]-[?/]-[1]-[ALDTON]-[so630/1] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=80;NRz=80;S=80;Rz=80;FGz=80;NGz=80;Gz=80;Lz=80;Unbekannt=80" nodes="19360 19359 19343 19329 19328 19327 19326 19363 19378 19336 19325 19335 19325 19336 19378 19363 19326 19327 19328 19329 19343 19349 19330 19059 19348 19323 19320 19377 22312 22340"/>
+		<stationRoute stationID="HOVE" name="[]-[?/]-[1]-[HOVEJN]-[630_1/3] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="19360 19359 19343 19329 19328 19327 19326 19363 19378 19336 19325 19335 94"/>
+		<stationRoute stationID="HOVEJN" name="[BRGHTN]-[so630/2]-[1-2]-[HOVE]-[630_1/3] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=80;NRz=80;S=80;Rz=80;FGz=80;NGz=80;Gz=80;Lz=80;Unbekannt=80" nodes="86 22032 22313 22033 22051 22311 22310 22330 19043 19317 19045 19052 19366 19367 19373 19318 19347 19321 19324 88"/>
+		<stationRoute stationID="HOVEJN" name="[BRGHTN]-[so630/2]-[2-3]-[HOVE]-[630_1/2] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="86 22032 22313 22033 22034 22035 22036 22037 22038 22039 22040 22041 22042 22043 22044 87"/>
+		<stationRoute stationID="HOVEJN" name="[BRGHTN]-[so630/2]-[2]-[HOVE]-[630_1/1] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=90;NRz=90;S=90;Rz=90;FGz=90;NGz=90;Gz=90;Lz=90;Unbekannt=90" nodes="86 22032 22313 22033 22051 22311 22310 22330 19043 19317 19045 19046 19047 19048 19049 19050 19322 19051 85"/>
+		<stationRoute stationID="HOVEJN" name="[HOVE]-[630_1/1]-[2-3]-[BRGHTN]-[so630/1] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="85 19051 19322 19050 19049 19048 19047 19046 19045 19317 19043 19042 19428 19041 19427 90"/>
+		<stationRoute stationID="HOVEJN" name="[HOVE]-[630_1/1]-[2]-[PRSPJC]-[630_1/1] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=85;NRz=85;S=85;Rz=85;FGz=85;NGz=85;Gz=85;Lz=85;Unbekannt=85" nodes="85 19051 19322 19342 19369 19370 19321 19347 19318 19334 19376 19333 19332"/>
+		<stationRoute stationID="HOVEJN" name="[HOVE]-[630_1/2]-[3]-[BRGHTN]-[so630/1] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=90;NRz=90;S=90;Rz=90;FGz=90;NGz=90;Gz=90;Lz=90;Unbekannt=90" nodes="87 22044 22043 19374 19371 19319 19344 19049 19048 19047 19046 19045 19317 19043 19042 19428 19041 19427 90"/>
+		<stationRoute stationID="HOVEJN" name="[HOVE]-[630_1/3]-[1-3]-[BRGHTN]-[so630/1] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=90;NRz=90;S=90;Rz=90;FGz=90;NGz=90;Gz=90;Lz=90;Unbekannt=90" nodes="88 19324 19321 19347 19318 19373 19367 19366 19052 19045 19317 19043 19042 19428 19041 19427 90"/>
+		<stationRoute stationID="HOVEJN" name="[HOVE]-[630_1/3]-[1]-[PRSPJC]-[630_1/1] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=95;NRz=95;S=95;Rz=95;FGz=95;NGz=95;Gz=95;Lz=95;Unbekannt=95" nodes="88 19324 19321 19347 19318 19334 19376 19333 19332"/>
+		<stationRoute stationID="HOVEJN" name="[PRSP]-[630_1/1]-[1-2]-[HOVE]-[630_1/1] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=90;NRz=90;S=90;Rz=90;FGz=90;NGz=90;Gz=90;Lz=90;Unbekannt=90" nodes="89 2 3 6 19313 19368 19333 19376 19334 19318 19347 19321 19370 19369 19342 19322 19051 85"/>
+		<stationRoute stationID="HOVEJN" name="[PRSP]-[630_1/1]-[1-2]-[HOVE]-[630_1/1] (3)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=90;NRz=90;S=90;Rz=90;FGz=90;NGz=90;Gz=90;Lz=90;Unbekannt=90" nodes="89 2 3 6 19313 19365 19364 19331 19346 19317 19045 19046 19047 19048 19049 19050 19322 19051 85"/>
+		<stationRoute stationID="HOVEJN" name="[PRSP]-[630_1/1]-[1-3]-[HOVE]-[630_1/2] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=80;NRz=80;S=80;Rz=80;FGz=80;NGz=80;Gz=80;Lz=80;Unbekannt=80" nodes="89 2 3 6 19313 19365 19364 19331 19346 19317 19045 19046 19047 19048 19049 19344 19319 19371 19374 22043 22044 87"/>
+		<stationRoute stationID="HOVEJN" name="[PRSP]-[630_1/1]-[1]-[HOVE]-[630_1/3] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="89 2 3 6 19313 19368 19333 19376 19334 19318 19347 19321 19324 88"/>
+	</stationRoutes>
+	<lineCatalog/>
+	<zugNummernFelder/>
+	<switchGears/>
+</line>

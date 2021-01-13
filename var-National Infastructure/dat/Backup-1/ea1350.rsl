@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<line lineID="ea1350" name="Channelsea North Jn - Temple Mills East Jn" trafficRouting="on_the_left" type="local" dependentLines="chnel highm tmpme">
+	<version major="1" minor="2" patchlevel="0" comment=""/>
+	<creator user="AHowe4" timestamp="2016-07-12T13:42:23"/>
+	<lasteditor user="AHowe4" timestamp="2016-07-12T13:42:23"/>
+	<stations/>
+	<nodes>
+		<node nodeID="59221" name="SD:NL1420" kilometre="0.078" x="4406.86895191" y="-1080.14568132" xNet="1117523.9" yNet="783267.96" referenceNode="59226" sightingDistance="true"/>
+		<node nodeID="59226" name="GA" kilometre="0.100" x="4296.11588091" y="-902.90364932" xNet="1117147" yNet="783621"/>
+		<node nodeID="59228" name="CNR" kilometre="0.154" x="4227" y="-592" xNet="1116618.3" yNet="784025.84"/>
+		<node nodeID="151" name="TC22" kilometre="0.846" x="8630" y="659" xNet="1118600" yNet="786600"/>
+		<speedIndicator nodeID="152" name="SPEED" kilometre="0.844" x="8530" y="659" xNet="1118500" yNet="786200" referenceNode="169"/>
+		<node nodeID="159" name="SD:S703" kilometre="0.815" x="8330" y="659" xNet="1117813.5" yNet="785451.12" referenceNode="59205" sightingDistance="true"/>
+		<speedIndicator nodeID="59218" name="SPEED" kilometre="0.441" x="6576.1499" y="471.46106" xNet="1117166.2" yNet="784962.59" referenceNode="59219"/>
+		<node nodeID="59205" name="OL S1600/S163" kilometre="0.430" x="7843.313" y="661.901" xNet="1117616.8" yNet="785346.37"/>
+		<node nodeID="59219" name="SD:156" kilometre="0.461" x="6702.0498" y="470.25095" xNet="1117294.2" yNet="785003.49" referenceNode="2" sightingDistance="true"/>
+		<node nodeID="59224" name="CNR" kilometre="0.551" x="7269.144" y="464.80023" xNet="1117691.3" yNet="785174.17"/>
+		<node nodeID="169" name="cnr" kilometre="0.826" x="8409.0186" y="659" xNet="1118400" yNet="785900"/>
+		<node nodeID="170" name="CNR" kilometre="0.869" x="8825.8926" y="659.26935" xNet="1119198.9" yNet="788043.53"/>
+		<node nodeID="171" name="CNR" kilometre="0.864" x="8786.0371" y="659.21454" xNet="1119000" yNet="787900"/>
+		<node nodeID="1" name="SD:NL1423" kilometre="0.166" x="4040" y="-445" xNet="1116804.7" yNet="783695.86" referenceNode="33.chnel" sightingDistance="true"/>
+		<node nodeID="2" name="OL SIG: NL1424" description="OL for SIG : SIG: NL1424" kilometre="0.525" x="7105.3168" y="466.37488" xNet="1117576.6" yNet="785124.86"/>
+	</nodes>
+	<links>
+		<link source="1" target="59335.highm" length="39" gradient="5.586" vmax="24" vmaxr="24">
+			<vzg index="1" vmax="24" vmaxr="24"/>
+		</link>
+		<link source="2" target="59224" length="26" gradient="5.586" vmax="32" vmaxr="32"/>
+		<link source="30.chnel" target="59221" length="49" gradient="-6.666" vmax="24" vmaxr="24">
+			<vzg index="1" vmax="24" vmaxr="24"/>
+		</link>
+		<link source="33.chnel" target="1" length="82" gradient="5.586" vmax="24" vmaxr="24">
+			<vzg index="1" vmax="24" vmaxr="24"/>
+		</link>
+		<link source="151" target="171" length="18" gradient="5.586" vmax="24" vmaxr="24"/>
+		<link source="152" target="151" length="2" gradient="5.586" vmax="24" vmaxr="24"/>
+		<link source="159" target="169" length="11" gradient="5.586" vmax="32" vmaxr="32"/>
+		<link source="169" target="152" length="18" gradient="5.586" vmax="32" vmaxr="32"/>
+		<link source="170" target="163.tmpme" length="8" gradient="5.586" vmax="24" vmaxr="24"/>
+		<link source="171" target="170" length="5" gradient="5.586" vmax="24" vmaxr="24"/>
+		<link source="59204.highm" target="59205" length="34" gradient="5.586" vmax="32" vmaxr="32"/>
+		<link source="59205" target="159" length="385" gradient="5.586" vmax="32" vmaxr="32"/>
+		<link source="59216.highm" target="59218" length="10" gradient="5.586" vmax="32" vmaxr="32">
+			<vzg index="1" vmax="24" vmaxr="24"/>
+		</link>
+		<link source="59218" target="59219" length="20" gradient="5.586" vmax="32" vmaxr="32"/>
+		<link source="59219" target="2" length="64" gradient="5.586" vmax="32" vmaxr="32"/>
+		<link source="59221" target="59226" length="22" gradient="5.586" vmax="24" vmaxr="24">
+			<vzg index="1" vmax="24" vmaxr="24"/>
+		</link>
+		<link source="59224" target="165.tmpme" length="90" gradient="5.586" vmax="32" vmaxr="32"/>
+		<link source="59226" target="59228" length="54" gradient="5.586" vmax="24" vmaxr="24">
+			<vzg index="1" vmax="24" vmaxr="24"/>
+		</link>
+		<link source="59228" target="59229.highm" length="26" gradient="5.586" vmax="24" vmaxr="24">
+			<vzg index="1" vmax="24" vmaxr="24"/>
+		</link>
+	</links>
+	<dependentLinks/>
+	<blockSections>
+		<blocksection uuid="{235268a5-cc66-4868-a8cb-4a199cb83932}" lines="chnel ea1350 highm">
+			<part nodes="33.chnel 1 59335.highm"/>
+		</blocksection>
+		<blocksection uuid="{65daf85a-1a9f-44ca-a34d-3a9ac8aea0d1}" lines="ea1350 highm tmpme" speedIndicators="152">
+			<part nodes="59204.highm 59205 159 169 152 151 171 170 163.tmpme"/>
+		</blocksection>
+		<blocksection uuid="{8171e877-c3c5-4f11-a27a-eed3bf7dc7a7}" lines="ea1350 highm tmpme" speedIndicators="59218">
+			<part nodes="165.tmpme 59224 2 59219 59218 59216.highm"/>
+		</blocksection>
+		<blocksection uuid="{847bb169-3792-4d63-9217-de57d18dd1dd}" lines="chnel ea1350 highm">
+			<part nodes="33.chnel 1 59335.highm"/>
+		</blocksection>
+		<blocksection uuid="{942657ee-61b5-4059-ae0e-aa0ca9c1b911}" lines="chnel ea1350 highm">
+			<part nodes="59229.highm 59228 59226 59221 30.chnel"/>
+		</blocksection>
+		<blocksection uuid="{cdb9e84e-4dbf-46fa-ab17-965e728ae628}" lines="chnel ea1350 highm">
+			<part nodes="33.chnel 1 59335.highm"/>
+		</blocksection>
+		<blocksection uuid="{f525c325-ec3c-47c5-a80a-975f8818ab37}" lines="ea1350 highm tmpme" speedIndicators="152">
+			<part nodes="59204.highm 59205 159 169 152 151 171 170 163.tmpme"/>
+		</blocksection>
+	</blockSections>
+	<slipDistances>
+		<slipdistance uuid="{f83b3433-d606-45f7-ac9b-fcdd904aa0cb}" vmax="999" lines="ea1350 tmpme" serialNumber="0">
+			<part nodes="165.tmpme 59224 2"/>
+		</slipdistance>
+	</slipDistances>
+	<approachControlRoutes/>
+	<stationRoutes/>
+	<lineCatalog/>
+	<zugNummernFelder/>
+	<switchGears/>
+</line>

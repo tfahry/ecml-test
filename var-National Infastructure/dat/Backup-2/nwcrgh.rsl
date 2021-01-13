@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<line lineID="nwcrgh" name="Newcraighall" trafficRouting="on_the_left" type="global" dependentLines="sc161 sc164">
+	<version major="1" minor="2" patchlevel="0" comment=""/>
+	<creator user="AHowe4" timestamp="2018-02-22T19:01:39"/>
+	<lasteditor user="AHowe4" timestamp="2018-02-22T19:01:39"/>
+	<stations>
+		<station stationID="NCHN" name="Newcraighall North" xNet="-2358350.34514055" yNet="9097244.81640377" uicLocationCode="0" circleDiameter="0"/>
+	</stations>
+	<nodes>
+		<node nodeID="10" kilometre="7.800" x="843112.27" y="-4916.6787" xNet="-2357334.9" yNet="9096754.2">
+			<netLimitInfo lineID="sc161"/>
+		</node>
+		<signal interlockingMachine="3 Aspect IECC (1mph - 40mph)" nodeID="861" name="SIG EM22" kilometre="7.774" x="842874.87668942" y="-4810.47385563141" xNet="-2357545.40238908" yNet="9096907.13856655" referenceNode="1090"/>
+		<node nodeID="937" name="GRAD" kilometre="7.910" x="844033.494781285" y="-5545.76363162409" xNet="-2356566.44204774" yNet="9095946.49562667"/>
+		<signal interlockingMachine="3 Aspect IECC (1mph - 40mph)" nodeID="900" name="SIG: EM23" kilometre="7.918" x="844106.785022949" y="-5578.39452659084" xNet="-2356501.54942127" yNet="9095899.32268208" referenceNode="1099"/>
+		<node nodeID="2" name="Overlap EM23" kilometre="7.736" x="842445.27220814" y="-4838.64188128212" xNet="-2357972.68566005" yNet="9096968.7481632"/>
+		<node nodeID="1078" name="Overlap EM26" kilometre="7.774" x="842792.125413769" y="-4993.07076928784" xNet="-2357665.5749861" yNet="9096745.49760925"/>
+		<node nodeID="412" name="GRAD" description="182/100" kilometre="7.781" x="842811.771756198" y="-6793.30924549411" xNet="-2358446.64516318" yNet="9096615.47743674"/>
+		<kilometreInconsistency newKilometre="7.77" nodeID="458" kilometre="0.056" x="842716.686026103" y="-6706.14257245124" xNet="-2358358.46316676" yNet="9096770.5561201"/>
+		<node nodeID="1090" name="SD EM22" kilometre="7.696" x="842162.696757679" y="-4491.85932252559" xNet="-2358176.90955631" yNet="9097365.95426621" referenceNode="1091" sightingDistance="true"/>
+		<switch start="1112" endOfMainTrack="1100" endOfBranchTrack="2" nodeID="3" name="POINTS" kilometre="7.707" x="842180.568445949" y="-4720.78825622514" xNet="-2358219.30815243" yNet="9097149.11054044"/>
+		<speedIndicator nodeID="1" name="Speed" kilometre="7.708" x="842622.301796765" y="-6289.54365384553" xNet="-2358267.9512206" yNet="9096974.91398481" referenceNode="458"/>
+		<node nodeID="404" name="GA" kilometre="8.000" x="843113.175666429" y="-8243.97130133552" xNet="-2358913.58392157" yNet="9095726.90470588">
+			<netLimitInfo lineID="sc164"/>
+		</node>
+		<stationBorder exitType="regular" stationID="NCHN" lineID="sc161" trackNumber="1" nodeID="1098" kilometre="7.694" x="842064.734692662" y="-4668.65981472611" xNet="-2358463.51916124" yNet="9097327.47564001" referenceNode="1112"/>
+		<stationBorder exitType="regular" stationID="NCHN" lineID="sc161" trackNumber="1" nodeID="1099" kilometre="7.941" x="844317.983524662" y="-5672.42609164089" xNet="-2356314.55009952" yNet="9095763.38568701" referenceNode="900">
+			<netLimitInfo lineID="sc161"/>
+		</stationBorder>
+		<stationBorder exitType="regular" stationID="NCHN" lineID="sc164" trackNumber="1" nodeID="1100" kilometre="7.707" x="842325.059719918" y="-5423.9024411111" xNet="-2358239.48870471" yNet="9097064.36760615" referenceNode="3"/>
+		<track trackID="T-1" stationID="NCHN" type="timingPoint" nodeID="1112" kilometre="7.700" x="842118.415203032" y="-4692.81755169875" xNet="-2358350.34514055" yNet="9097244.81640377" referenceNode="3"/>
+		<node nodeID="1120" name="OL SIG EM26" kilometre="7.792" x="842851.673718258" y="-6910.38530839881" xNet="-2358470.09870812" yNet="9096570.84592971"/>
+		<node nodeID="1106" kilometre="7.659" x="841742.106146683" y="-4523.46790988258" xNet="-2358665.68959601" yNet="9097473.34775857">
+			<netLimitInfo lineID="sc161"/>
+		</node>
+		<node nodeID="1091" kilometre="7.653" x="841771.496189995" y="-4316.84430080382" xNet="-2358523.79655959" yNet="9097617.98181454">
+			<netLimitInfo lineID="sc161"/>
+		</node>
+	</nodes>
+	<links>
+		<link source="1" target="1100" length="1" gradient="5.495" vmax="40" vmaxr="48" electrification="electrified"/>
+		<link source="2" target="3" length="29" gradient="-5.682" vmax="40" vmaxr="48" owner="2017 07-09" buildingActivityNetworkSegment="ESEP"/>
+		<link source="3" target="1112" length="7" gradient="-5.682" vmax="40" vmaxr="48" owner="2017 07-09" buildingActivityNetworkSegment="ESEP"/>
+		<link source="10" target="861" length="26" gradient="-5.682" vmax="32" vmaxr="32" owner="2017 07-09" buildingActivityNetworkSegment="ESEP"/>
+		<link source="404" target="1120" length="208" gradient="-10" vmax="48" vmaxr="48"/>
+		<link source="412" target="458" length="11" gradient="5.495" vmax="48" vmaxr="48"/>
+		<link source="458" target="1" length="62" gradient="5.495" vmax="48" vmaxr="48" electrification="electrified"/>
+		<link source="861" target="1090" length="78" gradient="-5.682" vmax="32" vmaxr="32" owner="2017 07-09" buildingActivityNetworkSegment="ESEP"/>
+		<link source="900" target="937" length="8" gradient="-13.699" vmax="40" vmaxr="48" owner="2017 07-09" buildingActivityNetworkSegment="ESEP"/>
+		<link source="937" target="1078" length="136" gradient="-5.682" vmax="40" vmaxr="48" owner="2017 07-09" buildingActivityNetworkSegment="ESEP"/>
+		<link source="1078" target="2" length="38" gradient="-5.682" vmax="40" vmaxr="48" owner="2017 07-09" buildingActivityNetworkSegment="ESEP"/>
+		<link source="1090" target="1091" length="43" gradient="-5.682" vmax="32" vmaxr="32" owner="2017 07-09" buildingActivityNetworkSegment="ESEP"/>
+		<link source="1098" target="1106" length="35" gradient="-5.682" vmax="40" vmaxr="48" owner="2017 07-09" buildingActivityNetworkSegment="ESEP"/>
+		<link source="1099" target="900" length="23" gradient="-13.699" vmax="40" vmaxr="48" owner="2017 07-09" buildingActivityNetworkSegment="ESEP"/>
+		<link source="1100" target="3" gradient="5.495" vmax="40" vmaxr="48" electrification="electrified"/>
+		<link source="1112" target="1098" length="6" gradient="-5.682" vmax="40" vmaxr="48" owner="2017 07-09" buildingActivityNetworkSegment="ESEP"/>
+		<link source="1120" target="412" length="11" gradient="-10" vmax="48" vmaxr="48"/>
+	</links>
+	<dependentLinks/>
+	<blockSections>
+		<blocksection uuid="{26218260-7e6e-47f5-b9fc-b75a1e4ebc5d}" lines="nwcrgh sc161" shuntingBlock="true">
+			<part nodes="861 10"/>
+		</blocksection>
+		<blocksection uuid="{2d593a4b-5f5b-4ec8-bfe4-252e6a8fa38b}" lines="mlrhj nwcrgh sc161" shuntingBlock="true">
+			<part nodes="1099 900"/>
+		</blocksection>
+		<blocksection uuid="{304c2fd5-9efd-4ff1-8122-9561f78f8240}" lines="mlrhj nwcrgh sc161" shuntingBlock="true">
+			<part nodes="10 861 1090 1091"/>
+		</blocksection>
+		<blocksection uuid="{431e81fc-a855-4074-90c7-4a73ccee4aca}" lines="nwcrgh sc161">
+			<part nodes="10 861 1090 1091"/>
+		</blocksection>
+		<blocksection uuid="{472f4bd1-76be-446b-818e-065c9b03b0d7}" lines="mlrhj nwcrgh sc161" shuntingBlock="true">
+			<part nodes="10 861 1090 1091"/>
+		</blocksection>
+		<blocksection uuid="{4d1efe3a-9579-41e0-8e28-283538e6cf8e}" lines="nwcrgh sc161">
+			<part nodes="861 10"/>
+		</blocksection>
+		<blocksection uuid="{63af3e5e-3d84-41dc-a8a8-24f8a4a2042a}" lines="nidrsj nwcrgh sc161 sc163">
+			<part nodes="1091 1090 861"/>
+		</blocksection>
+		<blocksection uuid="{64643341-9160-4813-98e6-ba0d7ad25485}" lines="mlrhj nwcrgh sc161" shuntingBlock="true">
+			<part nodes="1099 900"/>
+		</blocksection>
+		<blocksection uuid="{73225e00-75ce-4dfe-8b0f-5c12ba98a32b}" lines="mlrhj nwcrgh sc161" shuntingBlock="true">
+			<part nodes="1099 900"/>
+		</blocksection>
+		<blocksection uuid="{750444c0-2793-45e4-8230-79acfcff51dc}" lines="nwcrgh sc161" shuntingBlock="true">
+			<part nodes="1099 900"/>
+		</blocksection>
+		<blocksection uuid="{7e72dc08-3c0c-410b-b845-91a98319b543}" lines="nwcrgh sc161" shuntingBlock="true">
+			<part nodes="861 10"/>
+		</blocksection>
+		<blocksection uuid="{931e6be6-51af-4620-99e8-db04d750d079}" lines="nwcrgh sc161">
+			<part nodes="900 937 1078 2 3 1112 1098 1106"/>
+		</blocksection>
+		<blocksection uuid="{9483c61a-770c-46bb-886f-8d8f3e22782a}" lines="nwcrgh sc161 sc164" speedIndicators="1">
+			<part nodes="404 1120 412 458 1 1100 3 1112 1098 1106"/>
+		</blocksection>
+		<blocksection uuid="{a62c23e2-df84-4395-a23f-659538e24ece}" lines="nwcrgh sc161" shuntingBlock="true">
+			<part nodes="10 861 1090 1091"/>
+		</blocksection>
+		<blocksection uuid="{b79e7761-725e-4278-8922-4cf3fb9f915e}" lines="mlrhj nwcrgh sc161" shuntingBlock="true">
+			<part nodes="10 861 1090 1091"/>
+		</blocksection>
+		<blocksection uuid="{b8c46b02-be4d-4c41-b5ee-6905d1aa1051}" lines="nwcrgh sc161 sc164" speedIndicators="1">
+			<part nodes="1106 1098 1112 3 1100 1 458 412 1120 404"/>
+		</blocksection>
+		<blocksection uuid="{c0e58d0b-8e34-4545-803f-93e320199211}" lines="nwcrgh sc161" shuntingBlock="true">
+			<part nodes="10 861 1090 1091"/>
+		</blocksection>
+		<blocksection uuid="{d7560bb4-1af1-488f-be05-a8a8f5a592f4}" lines="nidrsj nwcrgh sc161">
+			<part nodes="1091 1090 861"/>
+		</blocksection>
+		<blocksection uuid="{e30bd62f-b067-4c37-96b3-f8a36688e4a8}" lines="mlrhj nwcrgh sc161" shuntingBlock="true">
+			<part nodes="1099 900"/>
+		</blocksection>
+		<blocksection uuid="{ec06e1be-f401-4da7-a8ac-a2295d392db4}" lines="nwcrgh sc161">
+			<part nodes="1099 900"/>
+		</blocksection>
+		<blocksection uuid="{ee9d9333-8a96-4210-b3e8-d98be9c44434}" lines="nwcrgh sc161" shuntingBlock="true">
+			<part nodes="1106 1098 1112 3 2 1078 937 900 1099"/>
+		</blocksection>
+		<blocksection uuid="{f358dbe3-6829-4bfe-ad1b-16d2bbd7d8b6}" lines="nwcrgh sc161">
+			<part nodes="900 1099"/>
+		</blocksection>
+		<blocksection uuid="{f927a1c4-fdc0-4e79-9aaa-4060da825f32}" lines="nwcrgh sc161">
+			<part nodes="10 861 1090 1091"/>
+		</blocksection>
+		<blocksection uuid="{ff5e20a7-c34d-4f6c-a119-e5251bcea4ae}" lines="nwcrgh sc161">
+			<part nodes="861 10"/>
+		</blocksection>
+	</blockSections>
+	<slipDistances>
+		<slipdistance uuid="{4554de20-94a0-4390-8f15-8ea2073b419d}" vmax="999" lines="nwcrgh sc161" serialNumber="0">
+			<part nodes="1106 1098 1112 3 2 1078"/>
+		</slipdistance>
+		<slipdistance uuid="{9deae748-74b6-4648-a1ae-14e7f4c32e56}" vmax="999" lines="nwcrgh sc161" serialNumber="1">
+			<part nodes="1106 1098 1112 3 1100 1 458 412 1120"/>
+		</slipdistance>
+		<slipdistance uuid="{baf37342-d5c8-43ad-bfb4-cde8e2f370ca}" vmax="999" lines="nwcrgh sc161" serialNumber="0">
+			<part nodes="861 10"/>
+		</slipdistance>
+		<slipdistance uuid="{c37f087c-9e52-4ecc-8687-152feb9b2fd7}" vmax="999" lines="nwcrgh sc161" serialNumber="1">
+			<part nodes="861 10"/>
+		</slipdistance>
+	</slipDistances>
+	<approachControlRoutes>
+		<ACRoute controlTyp="may" uuid="{f46cb209-1740-440f-a12e-2b03192646a7}" publicName="MAY- FA" description="EM22 - MD2 Short" lines="nwcrgh sc161">
+			<part nodes="861 10"/>
+		</ACRoute>
+	</approachControlRoutes>
+	<stationRoutes>
+		<stationRoute stationID="NCHN" name="D1" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="1100 3 1112 1098"/>
+		<stationRoute stationID="NCHN" name="U1" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="1098 1112 3 1100"/>
+		<stationRoute stationID="NCHN" name="[MYE]-[sc161/1]-[1]-[NCRAGHA]-[sc161/1] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="1099 900 937 1078 2 3 1112 1098"/>
+		<stationRoute stationID="NCHN" name="[NCRAGHA]-[sc161/1]-[1]-[MYE]-[sc161/1] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="1098 1112 3 2 1078 937 900 1099"/>
+	</stationRoutes>
+	<lineCatalog/>
+	<zugNummernFelder/>
+	<switchGears/>
+</line>

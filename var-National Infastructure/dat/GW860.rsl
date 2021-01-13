@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<line lineID="GW860" name="GW860 Penarth Curve" trafficRouting="on_the_left" type="local" dependentLines="ninian pensj">
+	<version major="1" minor="2" patchlevel="0" comment=""/>
+	<creator user="JCowe" timestamp="2017-06-19T10:30:19"/>
+	<lasteditor user="JCowe" timestamp="2017-06-19T10:30:19"/>
+	<stations/>
+	<nodes>
+		<node nodeID="435" kilometre="0.300" x="7627" y="-905" xNet="-2603303.15" yNet="694828.495"/>
+		<node nodeID="437" kilometre="0.300" x="7627" y="-1105" xNet="-2603410.15" yNet="694665.495"/>
+		<node nodeID="79" name="SD: CF2526" kilometre="0.301" x="7614.0002" y="-1105" xNet="-2603412.55" yNet="694668.265" referenceNode="437" sightingDistance="true"/>
+		<node nodeID="39" name="SD: CF2527" kilometre="0.330" x="7238.5589" y="-905" xNet="-2603397.05" yNet="694912.925" referenceNode="38.ninian" sightingDistance="true"/>
+	</nodes>
+	<links>
+		<link source="38.ninian" target="39" length="40" gradient="-1.667" vmax="48" vmaxr="48"/>
+		<link source="39" target="435" length="30" gradient="-1.667" vmax="48" vmaxr="48"/>
+		<link source="76.ninian" target="79" length="69" gradient="-1.667" vmax="40" vmaxr="40"/>
+		<link source="79" target="437" length="1" gradient="-1.667" vmax="40" vmaxr="40"/>
+		<link source="435" target="440.pensj" length="50" gradient="-1.667" vmax="48" vmaxr="48"/>
+		<link source="437" target="439.pensj" length="50" gradient="-1.667" vmax="40" vmaxr="40"/>
+	</links>
+	<dependentLinks/>
+	<blockSections>
+		<blocksection uuid="{0966eaee-d51f-4191-8774-24dd672eb890}" lines="GW860 ninian pensj">
+			<part nodes="38.ninian 39 435 440.pensj"/>
+		</blocksection>
+		<blocksection uuid="{134995da-1da0-4632-a3f8-ee98049eadd8}" lines="GW860 ninian pensj">
+			<part nodes="439.pensj 437 79 76.ninian"/>
+		</blocksection>
+		<blocksection uuid="{89c2fe44-72c1-4efa-bb10-8acf86f73353}" lines="GW860 ninian pensj">
+			<part nodes="38.ninian 39 435 440.pensj"/>
+		</blocksection>
+		<blocksection uuid="{e3f830f6-9f53-406e-82e8-dc71e422c13c}" lines="GW860 ninian pensj">
+			<part nodes="38.ninian 39 435 440.pensj"/>
+		</blocksection>
+	</blockSections>
+	<slipDistances/>
+	<approachControlRoutes/>
+	<stationRoutes/>
+	<lineCatalog/>
+	<zugNummernFelder/>
+	<switchGears/>
+</line>

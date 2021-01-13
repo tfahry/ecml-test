@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<line lineID="wilt" name="Wilton" trafficRouting="on_the_left" type="global" dependentLines="sw115a">
+	<transformations>
+		<transformation line="sw115" m11="1" m12="0" m21="0" m22="1" dx="1.70833e+06" dy="1537.24"/>
+		<transformation line="sw115a" m11="1.19374" m12="0" m21="0" m22="0.959625" dx="1.63449e+06" dy="1499.8"/>
+	</transformations>
+	<version major="1" minor="2" patchlevel="0" comment=""/>
+	<creator user="Ahowe4" timestamp="2016-11-01T12:54:22"/>
+	<lasteditor user="Ahowe4" timestamp="2016-11-01T12:54:22"/>
+	<stations>
+		<station stationID="QUIDECC" name="Quidhampton Sdgs E.C.C." xNet="-1010585.65" yNet="-99170.095" uicLocationCode="0" circleDiameter="0">
+			<textElement type="name">
+				<pos view="net" x="1366.81" y="1366.81" angle="0" system="source"/>
+				<pos view="wgs84" x="1366.81" y="1366.81" angle="0" system="source"/>
+				<pos view="line" x="3512.49" y="3512.49" angle="0" system="source"/>
+				<pos view="macro" x="28.2843" y="28.2843" angle="0" system="source"/>
+				<pos view="macroWgs84" x="0" y="0" angle="0" system="source"/>
+			</textElement>
+		</station>
+		<station stationID="WILTONJ" name="Wilton Jn" xNet="-1005093.6" yNet="-101149.815" uicLocationCode="0" circleDiameter="0">
+			<textElement type="name">
+				<pos view="net" x="10619.8" y="10619.8" angle="0" system="source"/>
+				<pos view="wgs84" x="10619.8" y="10619.8" angle="0" system="source"/>
+				<pos view="line" x="5976.64" y="5976.64" angle="0" system="source"/>
+				<pos view="macro" x="28.2843" y="28.2843" angle="0" system="source"/>
+				<pos view="macroWgs84" x="0" y="0" angle="0" system="source"/>
+			</textElement>
+		</station>
+	</stations>
+	<nodes>
+		<switch start="8126" endOfMainTrack="8128" endOfBranchTrack="8172" nodeID="8127" name="TO" description="TO : 141; 40 mph; 85m 37ch" kilometre="137.539" x="373029" y="-1247.916" xNet="-1000520.6" yNet="-110493.9"/>
+		<track trackID="D-2" stationID="WILTONJ" interlockingMachine="3 Aspect Pannel (Below 75mph)" nodeID="8124" name="SIG : SY55" description="Signal SY55; 85m 23ch" kilometre="137.257" x="375849" y="-1247.916" xNet="-997615.4" yNet="-110448.24" referenceNode="39"/>
+		<track trackID="T-2" stationID="WILTONJ" type="timingPoint" nodeID="8126" name="T-2" description="WILTONJ T-2, timingPoint" kilometre="137.539" x="373049" y="-1247.916" xNet="-999835.1" yNet="-110481.37" referenceNode="8125"/>
+		<track trackID="U-1" stationID="WILTONJ" interlockingMachine="3 Aspect Pannel (Below 75mph)" nodeID="3115" name="SIG : SY54" description="Signal SY54; 85m 6.5ch" kilometre="136.925" x="379189" y="-747.916" xNet="-993894.3" yNet="-109881.86" referenceNode="3116"/>
+		<track trackID="T-1" stationID="WILTONJ" type="timingPoint" nodeID="3121" name="T-1" description="WILTONJ T-1, timingPoint" kilometre="137.539" x="373029" y="-747.916" xNet="-999797.7" yNet="-109985.55" referenceNode="3119"/>
+		<node nodeID="8123" name="S" description="Speed; 85m 23ch" kilometre="137.257" x="375869" y="-1247.916" xNet="-997205.1" yNet="-110439.32"/>
+		<node nodeID="8121" name="GRAD" description="Gradient; 85m 10ch" kilometre="136.995" x="378489" y="-1247.916" xNet="-994586.8" yNet="-110394.3"/>
+		<node nodeID="8122" name="GRAD" description="Gradient; 85m 22ch" kilometre="137.237" x="376069" y="-1247.916" xNet="-997005.3" yNet="-110436.23"/>
+		<node nodeID="8120" name="SD : SY55" description="sighting distance for SIG : SY55" kilometre="136.891" x="379529" y="-1247.916" xNet="-993547.2" yNet="-110375.77" referenceNode="8476" sightingDistance="true"/>
+		<node nodeID="8125" name="OL" description="OL for SIG : SY55" kilometre="137.437" x="374069" y="-1247.916" xNet="-999004.6" yNet="-110471.22"/>
+		<node nodeID="3118" name="S" description="Speed; 85m 23ch" kilometre="137.257" x="375869" y="-747.916" xNet="-997214.5" yNet="-109941.14"/>
+		<node nodeID="3116" name="GRAD" description="Gradient; 85m 10ch" kilometre="136.995" x="378489" y="-747.916" xNet="-994595.5" yNet="-109894.23"/>
+		<node nodeID="3117" name="GRAD" description="Gradient; 85m 22ch" kilometre="137.237" x="376069" y="-747.916" xNet="-997013.9" yNet="-109936.16"/>
+		<node nodeID="3119" name="SD : SY54" description="sighting distance for SIG : SY54" kilometre="137.291" x="375529" y="-747.916" xNet="-997554.8" yNet="-109946.64" referenceNode="3121" sightingDistance="true"/>
+		<stationBorder exitType="regular" stationID="WILTONJ" lineID="sw115a" trackNumber="1" nodeID="8128" name="[WILSJN] - [sw115/1]" description="Gradient; 85m 45ch" kilometre="137.699" x="371449" y="-1247.916" xNet="-1001624.5" yNet="-110517.8" referenceNode="8127">
+			<netLimitInfo lineID="sw115a"/>
+		</stationBorder>
+		<stationBorder exitType="alternative" stationID="WILTONJ" lineID="sw115a" trackNumber="2" nodeID="3122" name="[WILSJN] - [sw115/2]" description="Gradient; 85m 45ch" kilometre="137.699" x="371449" y="-747.916" xNet="-1001633.1" yNet="-110017.73" referenceNode="3142">
+			<netLimitInfo lineID="sw115a"/>
+		</stationBorder>
+		<stationBorder exitType="alternative" stationID="WILTONJ" lineID="sw115a" trackNumber="1" nodeID="39" name="[SLSBRY] - [sw115/1]" kilometre="137.257" x="375855" y="-1247.916" xNet="-997492.3" yNet="-110445.56" referenceNode="8124"/>
+		<stationBorder exitType="regular" stationID="WILTONJ" lineID="sw115a" trackNumber="2" nodeID="40" name="[SLSBRY] - [sw115/2]" kilometre="136.871" x="379729" y="-747.916" xNet="-993354.7" yNet="-109872.19" referenceNode="3115">
+			<netLimitInfo lineID="sw115a"/>
+		</stationBorder>
+		<node nodeID="8172" name="SPEED" kilometre="137.540" x="373019" y="-1241.666" xNet="-1000526.7" yNet="-110487.86"/>
+		<node nodeID="3143" name="SPEED" kilometre="137.540" x="372721.8" y="-541.5806" xNet="-1000428" yNet="-109956.76"/>
+		<crossing type="kr" startOfMainTrack="3141" startOfBranchTrack="8172" endOfMainTrack="3122" endOfBranchTrack="3186" nodeID="3142" kilometre="137.619" x="372232.7" y="-747.916" xNet="-1001010.5" yNet="-110006.23"/>
+		<switch start="3121" endOfMainTrack="3142" endOfBranchTrack="3143" nodeID="3141" name="TO" description="TO : 142;  mph; 85m 37ch" kilometre="137.539" x="373019.1" y="-747.916" xNet="-1000385.6" yNet="-109994.62"/>
+		<node nodeID="75" name="KM" kilometre="213.000" x="370544" y="95" xNet="-1012282.9" yNet="-97930.83"/>
+		<switch start="542" endOfMainTrack="137" endOfBranchTrack="139" nodeID="106" name="POINTS: SY5B " description="GEOGIS S&amp;C|SAL|148068957|[504][232856]|" kilometre="212.920" x="369744" y="95" xNet="-1012774.2" yNet="-97300.77"/>
+		<switch start="136" endOfMainTrack="222" endOfBranchTrack="140" nodeID="107" name="GEOGIS Node" description="GEOGIS S&amp;C|SAL|148075512|[500][232924]|" kilometre="212.999" x="370534" y="295" xNet="-1012133.2" yNet="-97799.2"/>
+		<switch start="268" endOfMainTrack="301" endOfBranchTrack="138" nodeID="37" name="POINTS: SY5A" description="GEOGIS S&amp;C|SAL|148067967|[500][232922]|" kilometre="212.957" x="370114" y="295" xNet="-1012390.7" yNet="-97466.02"/>
+		<node nodeID="108" kilometre="213.019" x="370734" y="495" xNet="-1011857.1" yNet="-97839.17"/>
+		<signal type="entry" interlockingMachine="2 Aspect Pannel (Below 75mph)" nodeID="109" name="SIG: QUIDHAMPTON ECC ENTRY" kilometre="213.999" x="380534" y="495" xNet="-1009300" yNet="-100391.47" referenceNode="267"/>
+		<speedIndicator nodeID="136" name="SPEED" kilometre="212.980" x="370344" y="295" xNet="-1012247" yNet="-97651.21" referenceNode="268"/>
+		<speedIndicator nodeID="137" name="SPEED" kilometre="212.980" x="370344" y="95" xNet="-1012399.5" yNet="-97770.95" referenceNode="75"/>
+		<speedIndicator nodeID="138" name="SPEED" description="GEOGIS S&amp;C|SAL|148067967|[500][232922]|" kilometre="212.956" x="370104" y="289.5946" xNet="-1012402.7" yNet="-97469.07" referenceNode="505"/>
+		<speedIndicator nodeID="139" name="SPEED" description="GEOGIS S&amp;C|SAL|148068957|[504][232856]|" kilometre="212.921" x="369754" y="100.4054" xNet="-1012766.4" yNet="-97306.82" referenceNode="506"/>
+		<speedIndicator nodeID="140" name="SPEED" kilometre="213.000" x="370544" y="305" xNet="-1012113.9" yNet="-97801.41" referenceNode="107"/>
+		<track trackID="S-60" stationID="WILTONJ" interlockingMachine="2 Aspect Pannel (76mph - 100mph)" nodeID="265" name="SIG: SY60" kilometre="212.306" x="363604" y="295" xNet="-1016398.7" yNet="-92337.32" referenceNode="540"/>
+		<node nodeID="266" name="OL: SY60" kilometre="212.486" x="365404" y="295" xNet="-1015289.9" yNet="-93758.13"/>
+		<track trackID="D-1" stationID="QUIDECC" type="exit" interlockingMachine="2 Aspect Pannel (Below 75mph)" nodeID="267" name="SIG: QUIDHAMPTON ECC EXIT" kilometre="213.990" x="380439.38" y="495" xNet="-1009359.4" yNet="-100317.8" referenceNode="345"/>
+		<signal type="shunting" interlockingMachine="Shunt" nodeID="268" name="SIG: 8/SY250" kilometre="212.970" x="370247" y="295" xNet="-1012309.6" yNet="-97575.9" referenceNode="37"/>
+		<signal type="shunting" interlockingMachine="Shunt" nodeID="269" name="SIG: SY7" kilometre="212.910" x="369645.38" y="95" xNet="-1012841.4" yNet="-97223.26" referenceNode="478"/>
+		<track trackID="U-1" stationID="QUIDECC" type="shunting" interlockingMachine="Shunt" nodeID="270" name="SIG: SY6" kilometre="213.030" x="370845.41" y="495" xNet="-1011782.1" yNet="-97922.74" referenceNode="345"/>
+		<node nodeID="345" name="GEOGIS Node" description="GEOGIS S&amp;C|SAL|148066743|[496][233794]|" kilometre="213.781" x="378355.69" y="495" xNet="-1010800" yNet="-98917.8"/>
+		<node nodeID="503" name="TC" kilometre="213.009" x="370639" y="400" xNet="-1011985.5" yNet="-97820.23" referenceNode="504" releaseContact="true" arranged="true"/>
+		<node nodeID="504" name="TC" kilometre="213.009" x="370629.5" y="390.5" xNet="-1011998.4" yNet="-97818.33" referenceNode="503" releaseContact="true" arranged="true"/>
+		<node nodeID="505" name="TC" kilometre="212.939" x="369929" y="195" xNet="-1012584.5" yNet="-97387.96" referenceNode="506" releaseContact="true" arranged="true"/>
+		<node nodeID="506" name="TC" kilometre="212.938" x="369919.28" y="189.74475" xNet="-1012594.7" yNet="-97383.31" referenceNode="505" releaseContact="true" arranged="true"/>
+		<stationBorder exitType="regular" stationID="QUIDECC" lineID="sw115a" trackNumber="1" nodeID="532" name="[WILTONJ] - [sw170/1]" kilometre="213.010" x="370649.53" y="410.52721" xNet="-1011971.3" yNet="-97822.39" referenceNode="108"/>
+		<track trackID="T-3" stationID="WILTONJ" type="timingPoint" nodeID="533" name="T-3" description="Wilton Jn T-3; timingPoint" kilometre="213.001" x="370553.5" y="314.5" xNet="-1012101.1" yNet="-97803.28" referenceNode="140"/>
+		<stationBorder exitType="locked" stationID="WILTONJ" lineID="sw170" trackNumber="1" netBorder="true" nodeID="540" name="[WYLYEGF] - [sw170/1]" kilometre="212.236" x="362899" y="295" xNet="-1016832.5" yNet="-91781.83" referenceNode="265"/>
+		<stationBorder exitType="alternative" stationID="WILTONJ" lineID="sw115a" trackNumber="1" nodeID="541" name="[QUIDECC] - [sw170/1]" kilometre="213.003" x="370576.3" y="337.3" xNet="-1012070.3" yNet="-97807.75" referenceNode="533"/>
+		<stationBorder exitType="locked" stationID="WILTONJ" lineID="sw170" trackNumber="2" nodeID="542" name="[WYLYEGF] - [sw170/2]" kilometre="212.917" x="369714.41" y="95" xNet="-1012794.3" yNet="-97277.55" referenceNode="106"/>
+		<stationBorder exitType="locked" stationID="QUIDECC" trackNumber="" nodeID="552" name="Buffer stop 106" kilometre="213.999" x="380584" y="495" xNet="-1009200" yNet="-100517.8" referenceNode="109"/>
+		<node nodeID="301" kilometre="212.917" x="369710.45" y="295" xNet="-1012639.1" yNet="-97148.34"/>
+		<node nodeID="404" kilometre="212.234" x="362883.13" y="95" xNet="-1017000" yNet="-91892.73"/>
+		<node nodeID="8476" kilometre="136.874" x="379695.5" y="-1247.916" xNet="-992357" yNet="-110390.23">
+			<netLimitInfo lineID="sw115a"/>
+		</node>
+		<kilometreInconsistency newKilometre="137.541" nodeID="555" kilometre="213.094" x="371490.34" y="295" xNet="-1000456.2" yNet="-109889.72" referenceNode="222"/>
+		<kilometreInconsistency newKilometre="213.015" nodeID="3186" name="SPEED" kilometre="137.620" x="371821.4" y="-429.4834" xNet="-1001055.3" yNet="-109969.64" referenceNode="3142"/>
+		<node nodeID="98" name="GRAD" kilometre="213.014" x="371267" y="-97" xNet="-1001290.5" yNet="-109502.1"/>
+		<node nodeID="222" name="GRAD" kilometre="213.093" x="371480.38" y="295" xNet="-1000530.6" yNet="-109750.85"/>
+		<node nodeID="478" name="SD: SY61" kilometre="212.266" x="363204.31" y="95" xNet="-1016802.5" yNet="-92145.93" referenceNode="269" sightingDistance="true"/>
+	</nodes>
+	<links>
+		<link source="37" target="268" length="13" gradient="4.762" vmax="121" vmaxr="24" radius="2100"/>
+		<link source="39" target="8124" gradient="-5.882" vmax="80" vmaxr="113"/>
+		<link source="40" target="3115" length="54" gradient="8.696" vmax="113" vmaxr="113"/>
+		<link source="98" target="75" length="14" gradient="-4.762" vmax="64" radius="-1100"/>
+		<link source="106" target="137" length="60" gradient="4.762" vmaxr="121" radius="1100"/>
+		<link source="106" target="139" length="1" gradient="4.762" vmax="121" vmaxr="121" radius="3700"/>
+		<link source="107" target="140" length="1" gradient="4.762" vmax="8" vmaxr="8" bidirectional="true" radius="2900"/>
+		<link source="108" target="270" length="11" gradient="4.762" vmax="8" vmaxr="8" bidirectional="true" radius="2900"/>
+		<link source="109" target="552" gradient="4.762" vmax="8" vmaxr="8" bidirectional="true"/>
+		<link source="136" target="107" length="19" gradient="4.762" vmax="64" vmaxr="24" radius="2100"/>
+		<link source="137" target="75" length="20" gradient="4.762" vmaxr="64" radius="1100"/>
+		<link source="138" target="37" length="1" gradient="4.762" vmax="121" vmaxr="121" radius="3700"/>
+		<link source="139" target="506" length="17" gradient="4.762" vmax="24" vmaxr="24" radius="3700"/>
+		<link source="140" target="533" length="1" gradient="4.762" vmax="8" vmaxr="8" bidirectional="true" radius="2900"/>
+		<link source="222" target="107" length="94" gradient="-4.762" vmaxr="64" radius="-2100"/>
+		<link source="265" target="266" length="180" gradient="4.762" vmax="121" radius="2100"/>
+		<link source="266" target="301" length="431" gradient="4.762" vmax="121" radius="2100"/>
+		<link source="267" target="109" length="9" gradient="4.762" vmax="8" vmaxr="8" bidirectional="true"/>
+		<link source="268" target="136" length="10" gradient="4.762" vmax="121" vmaxr="24" radius="2100"/>
+		<link source="269" target="542" length="7" gradient="4.762" vmax="121" vmaxr="121" radius="1100"/>
+		<link source="270" target="345" length="751" gradient="4.762" vmax="8" vmaxr="8" bidirectional="true" radius="2900"/>
+		<link source="301" target="37" length="40" gradient="4.762" vmax="121" radius="2100"/>
+		<link source="345" target="267" length="209" gradient="4.762" vmax="8" vmaxr="8" bidirectional="true" radius="2900"/>
+		<link source="404" target="478" length="32" gradient="4.762" vmax="24" vmaxr="121" radius="1100"/>
+		<link source="478" target="269" length="644" gradient="4.762" vmax="24" vmaxr="121" radius="1100"/>
+		<link source="503" target="532" length="1" gradient="4.762" vmax="8" vmaxr="8" bidirectional="true" radius="2900"/>
+		<link source="504" target="503" length="1" gradient="4.762" vmax="8" vmaxr="8" bidirectional="true" radius="2900"/>
+		<link source="505" target="138" length="17" gradient="4.762" vmax="24" vmaxr="24" radius="3700"/>
+		<link source="506" target="505" length="1" gradient="4.762" vmax="24" vmaxr="24" radius="3700"/>
+		<link source="532" target="108" length="8" gradient="4.762" vmax="8" vmaxr="8" bidirectional="true" radius="2900"/>
+		<link source="533" target="541" length="2" gradient="4.762" vmax="8" vmaxr="8" bidirectional="true" radius="2900"/>
+		<link source="540" target="265" length="70" gradient="4.762" vmax="121" radius="2100"/>
+		<link source="541" target="504" length="6" gradient="4.762" vmax="8" vmaxr="8" bidirectional="true" radius="2900"/>
+		<link source="542" target="106" length="3" gradient="4.762" vmax="121" vmaxr="121" radius="1100"/>
+		<link source="555" target="222" length="1" gradient="-4.762" vmaxr="64" radius="-2100"/>
+		<link source="3115" target="3116" length="70" gradient="8.696" vmax="113" vmaxr="113"/>
+		<link source="3116" target="3117" length="242" vmax="113" vmaxr="113"/>
+		<link source="3117" target="3118" length="20" gradient="-5.882" vmax="113" vmaxr="113"/>
+		<link source="3118" target="3119" length="34" gradient="-5.882" vmax="80" vmaxr="113"/>
+		<link source="3119" target="3121" length="248" gradient="-5.882" vmax="80" vmaxr="113"/>
+		<link source="3121" target="3141" gradient="-5.882" vmax="80" vmaxr="113"/>
+		<link source="3141" target="3142" length="80" gradient="-5.882" vmax="80" vmaxr="113"/>
+		<link source="3141" target="3143" length="1" gradient="-5.882" vmax="80" vmaxr="113"/>
+		<link source="3142" target="3122" length="80" gradient="-5.882" vmax="80" vmaxr="113"/>
+		<link source="3142" target="3186" length="1" gradient="-5.88" vmax="64"/>
+		<link source="3143" target="555" length="1" gradient="-4.762" vmaxr="64"/>
+		<link source="3186" target="98" length="1" gradient="-5.882" vmax="64" radius="-1100"/>
+		<link source="8120" target="8121" length="104" gradient="8.696" vmax="113" vmaxr="113"/>
+		<link source="8121" target="8122" length="242" vmax="113" vmaxr="113"/>
+		<link source="8122" target="8123" length="20" gradient="-5.882" vmax="113" vmaxr="113"/>
+		<link source="8123" target="39" gradient="-5.882" vmax="80" vmaxr="113"/>
+		<link source="8124" target="8125" length="180" gradient="-5.882" vmax="80" vmaxr="113"/>
+		<link source="8125" target="8126" length="102" gradient="-5.882" vmax="80" vmaxr="113"/>
+		<link source="8126" target="8127" gradient="-5.882" vmax="80" vmaxr="113"/>
+		<link source="8127" target="8128" length="160" gradient="-5.882" vmax="80" vmaxr="113"/>
+		<link source="8127" target="8172" length="1" gradient="-5.88" vmax="80" vmaxr="113"/>
+		<link source="8172" target="3142" length="79" gradient="-5.88" vmax="64"/>
+		<link source="8476" target="8120" length="17" gradient="8.696" vmax="113" vmaxr="113"/>
+	</links>
+	<dependentLinks/>
+	<blockSections>
+		<blocksection uuid="{1c01b12e-7623-484b-a542-0f653c1ac0ef}" lines="wilt" shuntingBlock="true" speedIndicators="138 139">
+			<part nodes="269 542 106 139 506 505 138 37 268"/>
+		</blocksection>
+		<blocksection uuid="{20e2db86-9483-4e8e-bd1c-1ebb1be13857}" lines="sw115a wilt">
+			<part nodes="8124 8125 8126 8127 8128"/>
+		</blocksection>
+		<blocksection uuid="{2d036b11-9d50-464f-b6ac-89b1c29c6594}" lines="wilt" shuntingBlock="true">
+			<part nodes="265 266 301 37 268"/>
+		</blocksection>
+		<blocksection uuid="{5110086f-a1c4-4c41-b675-d1f12a50debb}" lines="wilt">
+			<part nodes="265 266 301 37 268 136 107 140 533 541 504 503 532 108 270 345 267"/>
+		</blocksection>
+		<blocksection uuid="{6007f652-4232-4205-934e-7bf0833c30e0}" lines="wilt" shuntingBlock="true">
+			<part nodes="109 267 345 270"/>
+		</blocksection>
+		<blocksection uuid="{9596b913-9cac-441f-a28f-1fcf645a84ef}" lines="sw115a wilt">
+			<part nodes="8476 8120 8121 8122 8123 39 8124"/>
+		</blocksection>
+		<blocksection uuid="{9f33e1a3-4a69-4dee-b00e-30e424af8d7c}" lines="sw115a wilt">
+			<part nodes="3122 3142 3141 3121 3119 3118 3117 3116 3115"/>
+		</blocksection>
+		<blocksection uuid="{e4e03f52-9684-4ab1-a247-3c5550cbbe6b}" lines="sw115a wilt">
+			<part nodes="3115 40"/>
+		</blocksection>
+		<blocksection uuid="{f291b9ae-ffc2-4c11-8697-ddf677eb75d3}" lines="wilt" shuntingBlock="true" speedIndicators="136 140">
+			<part nodes="268 136 107 140 533 541 504 503 532 108 270 345 267"/>
+		</blocksection>
+	</blockSections>
+	<slipDistances>
+		<slipdistance uuid="{4ad5b74e-21ee-4729-86d7-e6d010c6ee84}" vmax="999" lines="wilt" serialNumber="0">
+			<part nodes="3115 40"/>
+		</slipdistance>
+		<slipdistance uuid="{b5e530b0-2c40-49f2-b4d4-8a63059ee173}" vmax="999" lines="wilt" serialNumber="0">
+			<part nodes="8124 8125"/>
+		</slipdistance>
+		<slipdistance uuid="{f266b380-c843-495a-a079-0f6909c9ff86}" vmax="999" lines="wilt" serialNumber="0">
+			<part nodes="265 266"/>
+		</slipdistance>
+	</slipDistances>
+	<approachControlRoutes/>
+	<stationRoutes>
+		<stationRoute stationID="QUIDECC" name="[WILTONJ]-[sw170/1]-[1]-[]-[?/] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="532 108 270 345 267 109 552"/>
+		<stationRoute stationID="WILTONJ" name="[SLSBRY]-[sw115/1]-[2]-[WILSJN]-[sw115/1] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="39 8124 8125 8126 8127 8128"/>
+		<stationRoute stationID="WILTONJ" name="[WILSJN]-[sw115/2]-[1]-[SLSBRY]-[sw115/2] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="3122 3142 3141 3121 3119 3118 3117 3116 3115 40"/>
+		<stationRoute stationID="WILTONJ" name="[WYLYEGF]-[sw170/1]-[3-60]-[QUIDECC]-[sw170/1] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=95;NRz=95;S=95;Rz=95;FGz=95;NGz=95;Gz=95;Lz=95;Unbekannt=95" nodes="540 265 266 301 37 268 136 107 140 533 541"/>
+		<stationRoute stationID="WILTONJ" name="[WYLYEGF]-[sw170/2]-[3]-[QUIDECC]-[sw170/1] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=85;NRz=85;S=85;Rz=85;FGz=85;NGz=85;Gz=85;Lz=85;Unbekannt=85" nodes="542 106 139 506 505 138 37 268 136 107 140 533 541"/>
+	</stationRoutes>
+	<lineCatalog/>
+	<zugNummernFelder/>
+	<switchGears/>
+</line>

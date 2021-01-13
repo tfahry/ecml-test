@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<line lineID="zsflt" name="Southfleet Jn" trafficRouting="on_the_left" type="global" dependentLines="so400 so460">
+	<transformations>
+		<transformation line="so400" m11="1" m12="0" m21="0" m22="1" dx="-1.65948e+06" dy="-12100"/>
+		<transformation line="so460" m11="1" m12="0" m21="0" m22="1" dx="0" dy="0"/>
+	</transformations>
+	<version major="1" minor="2" patchlevel="0" comment=""/>
+	<creator user="Ahowe4" timestamp="2016-11-01T12:54:22"/>
+	<lasteditor user="Ahowe4" timestamp="2016-11-01T12:54:22"/>
+	<stations>
+		<station stationID="SFLTJN" name="Southfleet Jn" xNet="1585769.3" yNet="509060.4" uicLocationCode="0" circleDiameter="0">
+			<textElement type="name">
+				<pos view="net" x="6003.25" y="6003.25" angle="0" system="source"/>
+				<pos view="wgs84" x="6003.25" y="6003.25" angle="0" system="source"/>
+				<pos view="line" x="1733.21" y="1733.21" angle="0" system="source"/>
+				<pos view="macro" x="28.2843" y="28.2843" angle="0" system="source"/>
+				<pos view="macroWgs84" x="0" y="0" angle="0" system="source"/>
+			</textElement>
+		</station>
+	</stations>
+	<nodes>
+		<node nodeID="6" name="GRAD" description="Gradient; 25m 5.79ch" kilometre="40.350" x="2062706" y="12400" xNet="1585165.8" yNet="509040.31"/>
+		<switch start="1121" endOfMainTrack="578" endOfBranchTrack="1484" nodeID="563" name="POINTS" description="POINTS : " kilometre="40.150" x="2060706" y="12400" xNet="1578106.9" yNet="511315.8"/>
+		<node nodeID="5" name="GRAD" description="Gradient; 25m 5.79ch" kilometre="40.350" x="2062706" y="12600" xNet="1585345.3" yNet="509469.6"/>
+		<switch start="2027" endOfMainTrack="2" endOfBranchTrack="1486" nodeID="3" name="POINTS" description="POINTS : " kilometre="40.150" x="2060706" y="12600" xNet="1578286.4" yNet="511745.08"/>
+		<node nodeID="4" name="OL AF208" description="OL for SIG : AF208" kilometre="40.240" x="2061606" y="12600" xNet="1581462.9" yNet="510721.11"/>
+		<node nodeID="59" name="1000MM" description="1000MM : 205" kilometre="205.000" x="2050000" y="12000" xNet="1563807.5" yNet="514584.44"/>
+		<node nodeID="60" name="1000MM" description="1000MM : 206" kilometre="206.000" x="2060000" y="12000" xNet="1575160.8" yNet="511875.74"/>
+		<node nodeID="36" name="POINTS : 2202E" description="POINTS : 2202E; 999 mph; 128m 0.74ch" kilometre="206.012" x="2060110" y="12000" xNet="1577216.7" yNet="511217.86"/>
+		<kilometreInconsistency newKilometre="40.15" nodeID="37" name="B" description="End of plan : 2FM.tiff ; 128m 0.79ch" kilometre="206.012" x="2060120" y="12000" xNet="1577627.2" yNet="511251.18" referenceNode="36"/>
+		<signal interlockingMachine="CTRL Dummy" nodeID="42" name="SIG : UW204" description="Signal UW204; 127m 23.78ch" kilometre="204.865" x="2048650" y="12000" xNet="1558891.3" yNet="515375.15" referenceNode="59">
+			<netLimitInfo lineID="so460"/>
+		</signal>
+		<node nodeID="72" name="SD : UW204" description="sighting distance for SIG : UW204" kilometre="205.084" x="2050840" y="12000" xNet="1566866.3" yNet="514092.91" referenceNode="60" sightingDistance="true"/>
+		<node nodeID="30" name="1000MM" description="1000MM : 205" kilometre="205.000" x="2050000" y="12200" xNet="1563812.3" yNet="515055.46"/>
+		<node nodeID="33" name="1000MM" description="1000MM : 206" kilometre="206.000" x="2060000" y="12200" xNet="1575764.1" yNet="513040.44"/>
+		<node nodeID="34" name="POINTS : 2204E" description="POINTS : 2204E; 999 mph; 128m 0.74ch" kilometre="206.012" x="2060110" y="12200" xNet="1577173.4" yNet="512598.36"/>
+		<kilometreInconsistency newKilometre="40.15" nodeID="35" name="B" description="End of plan : 2FM.tiff ; 128m 0.79ch" kilometre="206.012" x="2060120" y="12200" xNet="1577911.5" yNet="512026.69" referenceNode="34"/>
+		<node nodeID="29" name="SD : AF205" description="sighting distance for SIG : AF205" kilometre="204.896" x="2048960" y="12200" xNet="1560025.7" yNet="515664.69" referenceNode="74" sightingDistance="true"/>
+		<signal interlockingMachine="CTRL Dummy" nodeID="31" name="SIG : AF205" description="Signal AF205; 127m 36.2ch" kilometre="205.115" x="2051150" y="12200" xNet="1568001.6" yNet="514384.59" referenceNode="30"/>
+		<node nodeID="32" name="OL AF205" description="OL for SIG : AF205" kilometre="205.295" x="2052950" y="12200" xNet="1574554.5" yNet="513331.79"/>
+		<track trackID="T-2" stationID="SFLTJN" type="timingPoint" nodeID="1057" name="T-1" description="SFLTJN T-1, timingPoint; 24m 75.85ch" kilometre="40.151" x="2060717" y="12600" xNet="1578326" yNet="511732.34" referenceNode="2027"/>
+		<track trackID="T-1" stationID="SFLTJN" type="timingPoint" nodeID="1058" name="T-2" description="SFLTJN T-2, timingPoint; 24m 75.85ch" kilometre="40.151" x="2060717" y="12400" xNet="1578147.1" yNet="511302.83" referenceNode="1121"/>
+		<speedIndicator nodeID="1121" name="SPEED" description="Speed; 24m 75.84ch" kilometre="40.150" x="2060708.1" y="12400" xNet="1578114.6" yNet="511313.29" referenceNode="1058"/>
+		<speedIndicator nodeID="1157" name="SPEED" description="Speed; 24m 75.84ch" kilometre="41.150" x="2060702.5" y="12597.588" xNet="1578284" yNet="511746.85" referenceNode="35"/>
+		<node nodeID="74" kilometre="204.865" x="2048655.4" y="12200" xNet="1558916.2" yNet="515842.81">
+			<netLimitInfo lineID="so460"/>
+		</node>
+		<node nodeID="564" name="SD : AF215" description="sighting distance for SIG : AF215" kilometre="40.479" x="2064270" y="12400" xNet="1589718.8" yNet="507572.62" referenceNode="565" sightingDistance="true"/>
+		<node nodeID="565" name="OL AF206" description="OL for SIG : AF206" kilometre="40.401" x="2063490" y="12400" xNet="1586965.8" yNet="508460.06"/>
+		<track trackID="U-1" stationID="SFLTJN" interlockingMachine="CTRL Dummy" nodeID="427" name="SIG : AF206" description="Signal AF206; 25m 17.27ch" kilometre="40.581" x="2065290" y="12400" xNet="1593318.8" yNet="506412.13" referenceNode="1501"/>
+		<node nodeID="1039" kilometre="40.361" x="2063090" y="12400" xNet="1585553.7" yNet="508915.27"/>
+		<node nodeID="1371" kilometre="40.625" x="2065730" y="12400" xNet="1594871.8" yNet="505911.52">
+			<netLimitInfo lineID="so400"/>
+		</node>
+		<signal interlockingMachine="CTRL Dummy" nodeID="1193" name="SIG : AF208" description="Signal AF208; 25m 9.27ch" kilometre="40.420" x="2063680" y="12600" xNet="1587815.9" yNet="508673.18" referenceNode="1388"/>
+		<node nodeID="185" kilometre="40.361" x="2063085.5" y="12600" xNet="1585717.7" yNet="509349.56"/>
+		<signal interlockingMachine="CTRL Dummy" nodeID="398" name="SIG : AF209" description="Signal AF209; 24m 18,68ch" kilometre="39.000" x="2047858.9" y="12416.96" xNet="1513900" yNet="544500" referenceNode="492"/>
+		<signal interlockingMachine="CTRL Dummy" nodeID="399" name="SIG : AF762" description="Signal AF762; 24m 19,67ch" kilometre="39.020" x="2048058.9" y="12416.96" xNet="1515900" yNet="543000" referenceNode="616"/>
+		<node nodeID="533" name="1000MM" description="1000MM : 39" kilometre="39.000" x="2047858.9" y="12616.96" xNet="1516100" yNet="543800"/>
+		<signal interlockingMachine="CTRL Dummy" nodeID="430" name="SIG : AF862" description="Signal AF862; 24m 42,53ch" kilometre="39.480" x="2052658.9" y="12616.96" xNet="1525900" yNet="534800" referenceNode="431"/>
+		<signal interlockingMachine="CTRL Dummy" nodeID="431" name="SIG : AF207" description="Signal AF207; 24m 43,53ch" kilometre="39.500" x="2052858.9" y="12616.96" xNet="1529200" yNet="531600" referenceNode="430"/>
+		<node nodeID="1383" kilometre="16.924" x="2060375.3" y="12605.783" xNet="1576175.7" yNet="512693.41"/>
+		<node nodeID="1384" kilometre="36.723" x="2060486.8" y="12600.849" xNet="1576438.9" yNet="512365"/>
+		<node nodeID="1385" kilometre="6.806" x="2060318.4" y="12408.304" xNet="1571407.9" yNet="513743.19"/>
+		<node nodeID="1386" kilometre="21.731" x="2060402.4" y="12404.585" xNet="1571671" yNet="513414.78"/>
+		<node nodeID="615" kilometre="39.848" x="2056339.7" y="12616.96" xNet="1534723.5" yNet="525812.2"/>
+		<node nodeID="616" kilometre="39.850" x="2056359.2" y="12416.96" xNet="1534612.8" yNet="525360.73"/>
+		<node nodeID="1388" kilometre="40.437" x="2063848.3" y="12600" xNet="1588409.6" yNet="508481.81">
+			<netLimitInfo lineID="so400"/>
+		</node>
+		<node nodeID="492" kilometre="38.930" x="2047156.7" y="12416.96" xNet="1513400" yNet="545300">
+			<netLimitInfo lineID="so400"/>
+		</node>
+		<node nodeID="617" kilometre="38.931" x="2047166.2" y="12616.96" xNet="1514800" yNet="544900">
+			<netLimitInfo lineID="so400"/>
+		</node>
+		<stationBorder exitType="regular" stationID="SFLTJN" lineID="so460" trackNumber="1" nodeID="1484" name="[FAWKHMJ] - [s460/1]" kilometre="40.150" x="2060530.2" y="12280" xNet="1577963" yNet="511296.41" referenceNode="563"/>
+		<stationBorder exitType="alternative" stationID="SFLTJN" lineID="so460" trackNumber="2" nodeID="1486" name="[FAWKHMJ] - [s460/2]" kilometre="40.450" x="2060705" y="12599.276" xNet="1578285.8" yNet="511745.52" referenceNode="3"/>
+		<stationBorder exitType="regular" stationID="SFLTJN" lineID="so400" trackNumber="DNC" nodeID="1500" name="[SFLTX] - [s400/1]" kilometre="40.178" x="2060983.7" y="12600" xNet="1579266.9" yNet="511429.02" referenceNode="1057"/>
+		<stationBorder exitType="alternative" stationID="SFLTJN" lineID="so400" trackNumber="UPC" nodeID="1501" name="[SFLTX] - [s400/2]" kilometre="40.594" x="2065422" y="12400" xNet="1593784.7" yNet="506261.95" referenceNode="427"/>
+		<stationBorder exitType="regular" stationID="SFLTJN" lineID="so400" trackNumber="UPC" nodeID="578" name="[EBBINT] - [s400k/1]" description="Gradient; 24m 75.34ch" kilometre="40.140" x="2060606" y="12400" xNet="1577753.9" yNet="511429.57" referenceNode="563"/>
+		<stationBorder exitType="alternative" stationID="SFLTJN" lineID="so400" trackNumber="DNC" nodeID="2" name="[EBBINT] - [s400k/2]" description="Gradient; 24m 75.34ch" kilometre="40.140" x="2060606" y="12600" xNet="1577933.4" yNet="511858.85" referenceNode="3"/>
+		<speedIndicator nodeID="2027" kilometre="40.150" x="2060706.6" y="12600" xNet="1578288.4" yNet="511744.44" referenceNode="3"/>
+		<speedIndicator nodeID="577" name="SPEED" description="Speed; 24m 75ch" kilometre="40.130" x="2060506" y="12400" xNet="1577401" yNet="511543.34" referenceNode="578"/>
+		<speedIndicator nodeID="1" name="SPEED" description="Speed; 24m 75ch" kilometre="40.130" x="2060506" y="12600" xNet="1577580.5" yNet="511972.63" referenceNode="2"/>
+		<speedIndicator nodeID="7" x="2060280" y="12610" xNet="1568763.9" yNet="515082.67" referenceNode="1383"/>
+		<speedIndicator nodeID="8" x="2060280" y="12410" xNet="1568584.3" yNet="514653.39" referenceNode="1385"/>
+	</nodes>
+	<links>
+		<link source="1" target="2" length="10" vmax="299" vmaxr="270"/>
+		<link source="1" target="1384" length="11" vmax="299" vmaxr="270"/>
+		<link source="2" target="3" length="10" gradient="16.949" vmax="299" vmaxr="270"/>
+		<link source="3" target="2027" gradient="16.949" vmax="299" vmaxr="270"/>
+		<link source="4" target="5" length="110" gradient="16.949" vmax="299" vmaxr="270"/>
+		<link source="5" target="185" length="11" gradient="23.81" vmax="299" vmaxr="270"/>
+		<link source="6" target="1039" length="11" gradient="23.81" vmax="270" vmaxr="299"/>
+		<link source="29" target="30" length="104" gradient="-10.638" vmax="160"/>
+		<link source="30" target="31" length="115" gradient="-10.638" vmax="160"/>
+		<link source="31" target="32" length="180" gradient="-10.638" vmax="160"/>
+		<link source="32" target="33" length="705" gradient="-10.638" vmax="160"/>
+		<link source="33" target="34" length="12" gradient="-10.638" vmax="160"/>
+		<link source="34" target="35" gradient="-10.638" vmax="160"/>
+		<link source="35" target="1157" vmax="160"/>
+		<link source="36" target="37" gradient="-10.638" vmaxr="160"/>
+		<link source="37" target="1484" vmaxr="160"/>
+		<link source="42" target="59" length="135" gradient="-10.638" vmaxr="160"/>
+		<link source="59" target="72" length="84" gradient="-10.638" vmaxr="160"/>
+		<link source="60" target="36" length="12" gradient="-10.638" vmaxr="160"/>
+		<link source="72" target="60" length="916" gradient="-10.638" vmaxr="160"/>
+		<link source="74" target="29" length="31" gradient="-10.638" vmax="160"/>
+		<link source="185" target="1193" length="59" gradient="23.81" vmax="299" vmaxr="270"/>
+		<link source="398" target="399" length="20" gradient="17.909" vmax="230" vmaxr="230"/>
+		<link source="399" target="616" length="830" gradient="17.909" vmax="230" vmaxr="230"/>
+		<link source="427" target="1501" length="13" gradient="23.81" vmax="270" vmaxr="299"/>
+		<link source="430" target="431" length="20" gradient="17.909" vmax="230" vmaxr="230"/>
+		<link source="431" target="615" length="348" gradient="17.909" vmax="230" vmaxr="230"/>
+		<link source="492" target="398" length="70" gradient="17.909" vmax="230" vmaxr="230"/>
+		<link source="533" target="430" length="480" gradient="17.909" vmax="230" vmaxr="230"/>
+		<link source="563" target="1121" gradient="16.949" vmax="270" vmaxr="299"/>
+		<link source="564" target="427" length="102" gradient="23.81" vmax="270" vmaxr="299"/>
+		<link source="565" target="564" length="78" gradient="23.81" vmax="270" vmaxr="299"/>
+		<link source="577" target="578" length="10" vmax="270" vmaxr="299"/>
+		<link source="577" target="1386" length="60" vmax="270" vmaxr="299"/>
+		<link source="578" target="563" length="10" gradient="16.949" vmax="270" vmaxr="299"/>
+		<link source="615" target="7" length="152" gradient="-17.909" vmax="230" vmaxr="230"/>
+		<link source="616" target="8" length="150" gradient="-17.909" vmax="230" vmaxr="230"/>
+		<link source="617" target="533" length="69" gradient="17.909" vmax="230" vmaxr="230"/>
+		<link source="1039" target="565" length="40" gradient="23.81" vmax="270" vmaxr="299"/>
+		<link source="1057" target="1500" length="27" gradient="16.949" vmax="299" vmaxr="270"/>
+		<link source="1058" target="6" length="199" gradient="16.949" vmax="270" vmaxr="299"/>
+		<link source="1121" target="1058" length="1" gradient="16.949" vmax="270" vmaxr="299"/>
+		<link source="1157" target="1486" vmax="160"/>
+		<link source="1193" target="1388" length="17" gradient="23.81" vmax="299" vmaxr="270"/>
+		<link source="1383" target="7" length="55" vmax="299" vmaxr="270"/>
+		<link source="1384" target="1383" length="64" vmax="299" vmaxr="270" tunnelCrossSection="1"/>
+		<link source="1385" target="8" length="22" vmax="270" vmaxr="299"/>
+		<link source="1386" target="1385" length="48" vmax="270" vmaxr="299" tunnelCrossSection="1"/>
+		<link source="1484" target="563" vmaxr="160"/>
+		<link source="1486" target="3" vmax="160"/>
+		<link source="1500" target="4" length="62" gradient="16.949" vmax="299" vmaxr="270"/>
+		<link source="1501" target="1371" length="31" gradient="23.81" vmax="270" vmaxr="299"/>
+		<link source="2027" target="1057" length="1" gradient="16.949" vmax="299" vmaxr="270"/>
+	</links>
+	<dependentLinks/>
+	<blockSections>
+		<blocksection uuid="{166e52a5-cd14-42f1-bead-601db01b62c5}" lines="so400 zsflt" signallingSystem="atc-dk">
+			<part nodes="1388 1193"/>
+		</blocksection>
+		<blocksection uuid="{2a058a78-8f83-4dbc-a7a4-c2e8ee652b80}" lines="so400 zsflt" signallingSystem="atc-dk">
+			<part nodes="617 533 430 431"/>
+		</blocksection>
+		<blocksection uuid="{33683455-fca6-44b3-b804-44f25b5d4226}" lines="so400 zsflt" signallingSystem="atc-dk" speedIndicators="8 577">
+			<part nodes="398 399 616 8 1385 1386 577 578 563 1121 1058 6 1039 565 564 427 1501 1371"/>
+		</blocksection>
+		<blocksection uuid="{3d92b1c3-541f-4442-8ebd-7578dbb3acec}" lines="zsflt" signallingSystem="atc-dk" speedIndicators="1 7">
+			<part nodes="1193 185 5 4 1500 1057 2027 3 2 1 1384 1383 7 615 431 430"/>
+		</blocksection>
+		<blocksection uuid="{46574902-9897-467f-aef2-4661c72d5020}" lines="so400 zsflt" signallingSystem="atc-dk" speedIndicators="1 7">
+			<part nodes="431 615 7 1383 1384 1 2 3 2027 1057 1500 4 5 185 1193 1388"/>
+		</blocksection>
+		<blocksection uuid="{4c9d1405-4858-4335-8d35-3e2ccf12dd2f}" lines="so400 zsflt" signallingSystem="atc-dk">
+			<part nodes="399 398 492"/>
+		</blocksection>
+		<blocksection uuid="{524d4370-1a40-4dbd-bc01-0c4fe178d6b8}" lines="so400 zsflt" signallingSystem="atc-dk">
+			<part nodes="1388 1193"/>
+		</blocksection>
+		<blocksection uuid="{5c2aefd6-dae2-49b4-a399-0211339d437e}" lines="so400 zsflt" signallingSystem="atc-dk">
+			<part nodes="492 398"/>
+		</blocksection>
+		<blocksection uuid="{616643a4-7777-4379-8082-0c00f125e448}" lines="so460 zsflt">
+			<part nodes="74 29 30 31"/>
+		</blocksection>
+		<blocksection uuid="{6fabe65e-9f3d-4f47-813b-45cc55a410ac}" lines="so400 zsflt" signallingSystem="atc-dk">
+			<part nodes="1371 1501 427"/>
+		</blocksection>
+		<blocksection uuid="{7970a4bb-123d-48b0-9300-c116f0026bc5}" lines="so400 zsflt" signallingSystem="atc-dk" speedIndicators="1 7">
+			<part nodes="431 615 7 1383 1384 1 2 3 2027 1057 1500 4 5 185 1193 1388"/>
+		</blocksection>
+		<blocksection uuid="{87ce8b74-a719-4e70-b35d-5249ddcdb035}" lines="so400 zsflt" signallingSystem="atc-dk">
+			<part nodes="1388 1193"/>
+		</blocksection>
+		<blocksection uuid="{9f9a6b8f-f181-4858-a1b4-43b7d08ae630}" lines="so400 zsflt" signallingSystem="atc-dk">
+			<part nodes="430 533 617"/>
+		</blocksection>
+		<blocksection uuid="{adc992ff-e02e-4ad7-961b-eeddb987cc0f}" lines="so400 zsflt" signallingSystem="atc-dk">
+			<part nodes="1371 1501 427"/>
+		</blocksection>
+		<blocksection uuid="{e125bb6f-0787-460a-99f3-49488c60ad52}" lines="so400 zsflt" signallingSystem="atc-dk" speedIndicators="2027">
+			<part nodes="31 32 33 34 35 1157 1486 3 2027 1057 1500 4 5 185 1193 1388"/>
+		</blocksection>
+		<blocksection uuid="{e65c9a95-33e1-44d2-8b6a-609b159f1034}" lines="zsflt" signallingSystem="atc-dk" speedIndicators="8 577">
+			<part nodes="427 564 565 1039 6 1058 1121 563 578 577 1386 1385 8 616 399"/>
+		</blocksection>
+		<blocksection uuid="{ea34676d-79c2-4e96-8738-0c5f6c16c529}" lines="so400 zsflt" signallingSystem="atc-dk">
+			<part nodes="1388 1193"/>
+		</blocksection>
+		<blocksection uuid="{ee4a787f-c8d7-469e-910e-3c2edd9aaf54}" lines="zsflt" signallingSystem="atc-dk" speedIndicators="1121">
+			<part nodes="427 564 565 1039 6 1058 1121 563 1484 37 36 60 72 59 42"/>
+		</blocksection>
+		<blocksection uuid="{f3f997c1-9945-4c14-b15e-bbc6b3e12f3e}" lines="so400 zsflt" signallingSystem="atc-dk" speedIndicators="2027">
+			<part nodes="31 32 33 34 35 1157 1486 3 2027 1057 1500 4 5 185 1193 1388"/>
+		</blocksection>
+	</blockSections>
+	<slipDistances>
+		<slipdistance uuid="{39fa2ef1-3d6b-4761-83d0-d0d269235f47}" vmax="999" lines="zsflt" serialNumber="0">
+			<part nodes="427 564 565"/>
+		</slipdistance>
+		<slipdistance uuid="{60b4eff8-caee-4c74-9f21-bdac3ed0e940}" vmax="999" lines="zsflt" serialNumber="0">
+			<part nodes="31 32"/>
+		</slipdistance>
+		<slipdistance uuid="{a56aa22a-8414-42bf-98da-f912e837f84a}" vmax="999" lines="zsflt" serialNumber="0">
+			<part nodes="1193 185 5 4"/>
+		</slipdistance>
+	</slipDistances>
+	<approachControlRoutes/>
+	<stationRoutes>
+		<stationRoute stationID="SFLTJN" name="[EBBINT]-[s400k/1]-[2]-[SFLTX]-[s400/2] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="578 563 1121 1058 6 1039 565 564 427 1501"/>
+		<stationRoute stationID="SFLTJN" name="[EBBINT]-[s400k/2]-[1]-[SFLTX]-[s400/1] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="2 3 2027 1057 1500"/>
+		<stationRoute stationID="SFLTJN" name="[FAWKHMJ]-[s460/2]-[1]-[SFLTX]-[s400/1] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=95;NRz=95;S=95;Rz=95;FGz=95;NGz=95;Gz=95;Lz=95;Unbekannt=95" nodes="1486 3 2027 1057 1500"/>
+		<stationRoute stationID="SFLTJN" name="[SFLTX]-[s400/1]-[1]-[EBBINT]-[s400k/2] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="1500 1057 2027 3 2"/>
+		<stationRoute stationID="SFLTJN" name="[SFLTX]-[s400/2]-[1-2]-[EBBINT]-[s400k/1] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="1501 427 564 565 1039 6 1058 1121 563 578"/>
+		<stationRoute stationID="SFLTJN" name="[SFLTX]-[s400/2]-[1-2]-[FAWKHMJ]-[s460/1] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=95;NRz=95;S=95;Rz=95;FGz=95;NGz=95;Gz=95;Lz=95;Unbekannt=95" nodes="1501 427 564 565 1039 6 1058 1121 563 1484"/>
+	</stationRoutes>
+	<lineCatalog/>
+	<zugNummernFelder/>
+	<switchGears/>
+</line>

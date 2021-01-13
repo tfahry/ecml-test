@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<line lineID="tmpme" name="Temple Mills East Jn" trafficRouting="on_the_left" type="global" dependentLines="ea1280 ea1350">
+	<transformations>
+		<transformation line="ea1280" m11="1" m12="0" m21="0" m22="1" dx="0" dy="0"/>
+		<transformation line="ea1350" m11="1" m12="0" m21="0" m22="1" dx="-54.8866" dy="59.36"/>
+	</transformations>
+	<version major="1" minor="2" patchlevel="0" comment=""/>
+	<creator user="Ahowe4" timestamp="2016-11-01T12:54:22"/>
+	<lasteditor user="Ahowe4" timestamp="2016-11-01T12:54:22"/>
+	<stations>
+		<station stationID="STFD703" name="Stratford Signal 703" xNet="1119713.95" yNet="788363.955" uicLocationCode="0" circleDiameter="0">
+			<textElement type="name">
+				<pos view="net" x="190.376" y="190.376" angle="0" system="source"/>
+				<pos view="wgs84" x="190.376" y="190.376" angle="0" system="source"/>
+				<pos view="line" x="345.425" y="345.425" angle="0" system="source"/>
+				<pos view="macro" x="28.2843" y="28.2843" angle="0" system="source"/>
+				<pos view="macroWgs84" x="0" y="0" angle="0" system="source"/>
+			</textElement>
+		</station>
+		<station stationID="TMPLMEJ" name="Temple Mills East Jn" xNet="1122426.65" yNet="789014.525" uicLocationCode="0" circleDiameter="0">
+			<textElement type="name">
+				<pos view="net" x="2041.3" y="2041.3" angle="0" system="source"/>
+				<pos view="wgs84" x="2041.3" y="2041.3" angle="0" system="source"/>
+				<pos view="line" x="2678.44" y="2678.44" angle="0" system="source"/>
+				<pos view="macro" x="28.2843" y="28.2843" angle="0" system="source"/>
+				<pos view="macroWgs84" x="0" y="0" angle="0" system="source"/>
+			</textElement>
+		</station>
+	</stations>
+	<nodes>
+		<node nodeID="90" name="TC1" kilometre="7.032" x="8983" y="200" xNet="1123838.1" yNet="788587.97"/>
+		<node nodeID="100" name="TC7" kilometre="7.258" x="11079.997" y="0" xNet="1121325.4" yNet="790114.12" referenceNode="288" releaseContact="true" arranged="true"/>
+		<track trackID="D-1" stationID="STFD703" interlockingMachine="4 Aspect Pannel (1mph - 40mph)" nodeID="148" name="SIN S703" kilometre="0.860" x="9921.3414651843" y="593.783145793913" xNet="1119543.5" yNet="788256.12" referenceNode="320"/>
+		<signal interlockingMachine="3 Aspect IECC (1mph - 40mph)" nodeID="156" name="SIG: NL1424" kilometre="0.673" x="8437.8516" y="400" xNet="1118422.7" yNet="785658.91" referenceNode="211"/>
+		<node nodeID="163" name="GA" kilometre="0.877" x="8946.7295" y="600" xNet="1119350.1" yNet="788140.69">
+			<netLimitInfo lineID="ea1350"/>
+		</node>
+		<node nodeID="164" name="GA" kilometre="7.009" x="8587.1885" y="200" xNet="1124942.1" yNet="787884.27"/>
+		<node nodeID="4" name="GA" kilometre="7.699" x="15489.446" y="200" xNet="1119967.5" yNet="789964.52"/>
+		<node nodeID="38" name="GA" kilometre="6.838" x="6884.7866" y="0" xNet="1125548.3" yNet="787780.37"/>
+		<node nodeID="165" name="GA" kilometre="0.641" x="7890.0361" y="400" xNet="1117880.6" yNet="785265.91">
+			<netLimitInfo lineID="ea1350"/>
+		</node>
+		<node nodeID="211" name="CNR" kilometre="0.738" x="8852.9658" y="400" xNet="1118584.8" yNet="785774.53"/>
+		<stationBorder exitType="alternative" stationID="STFD703" lineID="ea1350" trackNumber="1" nodeID="282" name="[HIGHMDSJ] - [e1350/1]" kilometre="0.883" x="9002.4588" y="600" xNet="1119485.5" yNet="788221.49" referenceNode="320"/>
+		<node nodeID="48" name="GA" kilometre="7.871" x="17213.452" y="200" xNet="1118725.1" yNet="790134.34">
+			<netLimitInfo lineID="ea1280"/>
+		</node>
+		<node nodeID="59" name="GA" kilometre="7.872" x="17224.777" y="0" xNet="1118928.5" yNet="790326.98">
+			<netLimitInfo lineID="ea1280"/>
+		</node>
+		<stationBorder exitType="alternative" stationID="TMPLMEJ" lineID="ea1280" trackNumber="UP" nodeID="75" name="TMPLMEJ" kilometre="7.678" x="15277.115" y="0" xNet="1119802.2" yNet="790217.04" referenceNode="2"/>
+		<track trackID="T-1" stationID="STFD703" type="timingPoint" nodeID="320" kilometre="0.884" x="9014.8082" y="600" xNet="1119515.5" yNet="788239.4" referenceNode="282"/>
+		<stationBorder exitType="regular" stationID="TMPLMEJ" lineID="ea1280" trackNumber="DWN" nodeID="34" kilometre="7.678" x="15284.3462512186" y="200" xNet="1120116.73128106" yNet="789950.065734204" referenceNode="222"/>
+		<kilometreInconsistency newKilometre="7.296" nodeID="213" kilometre="1.078" x="11128.8092185344" y="327.505178100857" xNet="1120966.22170359" yNet="789467.002185422" referenceNode="224"/>
+		<stationBorder exitType="regular" stationID="STFD703" lineID="ea1280" trackNumber="DWN" nodeID="201" name="STFD703" kilometre="0.897" x="10310.5104165234" y="600.816319613295" xNet="1119558.69548443" yNet="788265.654795067" referenceNode="148"/>
+		<kilometreInconsistency newKilometre="7.333" nodeID="202" kilometre="1.168" x="11670.8907711469" y="307.840522967592" xNet="1120852.03039548" yNet="789627.169085092" referenceNode="199"/>
+		<signal interlockingMachine="3 Aspect IECC (1mph - 40mph)" nodeID="2" name="SIN S704" kilometre="7.655" x="15168.6284042417" y="0" xNet="1119823.73379979" yNet="790214.086525283" referenceNode="75"/>
+		<node nodeID="217" name="OL:S704" kilometre="7.508" x="13625.9610603196" y="0" xNet="1120142.40861983" yNet="790181.305660322"/>
+		<node nodeID="218" name="SD:S704" kilometre="7.798" x="15886.4173372486" y="0" xNet="1119528.87359529" yNet="790251.433390104" referenceNode="229" sightingDistance="true"/>
+		<signal interlockingMachine="3 Aspect IECC (1mph - 40mph)" nodeID="222" name="SIG:S705" kilometre="7.626" x="14961.5213847331" y="200" xNet="1120153.03111694" yNet="789944.886192405" referenceNode="64"/>
+		<node nodeID="8" name="OL:S705" kilometre="7.812" x="16881.9820070129" y="200" xNet="1118963.97290374" yNet="790101.689165717"/>
+		<node nodeID="54" name="SD:S705" kilometre="7.483" x="13173.2066801981" y="200" xNet="1120411.72652637" yNet="789913.982640348" referenceNode="238" sightingDistance="true"/>
+		<track trackID="DWN-2" stationID="TMPLMEJ" type="timingPoint" nodeID="216" name="Temple Mills East Jn" kilometre="7.343" x="11921.5637753645" y="198.907588370657" xNet="1120798.3741345" yNet="789881.930035034" referenceNode="225"/>
+		<node nodeID="225" name="Release Contact" kilometre="7.336" x="11820.863668576" y="200.219511987715" xNet="1121031.82184481" yNet="789868.818964656" referenceNode="247" releaseContact="true" arranged="true"/>
+		<node nodeID="230" name="Release Contact" kilometre="6.913" x="7523.36973138695" y="200" xNet="1125074.92997334" yNet="787796.669454664" referenceNode="245" releaseContact="true" arranged="true"/>
+		<node nodeID="226" name="Release Contact" kilometre="6.996" x="8465.74283814414" y="0" xNet="1124621.08381377" yNet="788380.617432521" referenceNode="265" releaseContact="true" arranged="true"/>
+		<node nodeID="227" name="Release Contact" kilometre="7.104" x="9717.4718224516" y="200" xNet="1123189.22353694" yNet="788917.266290995" referenceNode="208" releaseContact="true" arranged="true"/>
+		<node nodeID="288" name="Release Contact" kilometre="7.340" x="11877.1565102011" y="0" xNet="1120920.58120304" yNet="790118.67758963" referenceNode="290" releaseContact="true" arranged="true"/>
+		<node nodeID="228" name="Release Contact" kilometre="7.651" x="15072.6417887117" y="0" xNet="1119837.31500069" yNet="790212.646922258" referenceNode="2" releaseContact="true" arranged="true"/>
+		<node nodeID="229" name="Release Contact" kilometre="7.829" x="16964.5407392793" y="0" xNet="1119045.23915751" yNet="790312.290400622" referenceNode="59" releaseContact="true" arranged="true"/>
+		<stationBorder exitType="regular" stationID="TMPLMEJ" lineID="ea1280" trackNumber="DWN" nodeID="232" kilometre="0.897" x="10570.9964374164" y="600.436434301449" xNet="1119571.64368935" yNet="788273.779477172" referenceNode="194"/>
+		<track trackID="UP-1" stationID="TMPLMEJ" type="timingPoint" nodeID="113" name="Olympic Park Jn " kilometre="6.860" x="7138.10851640305" y="0" xNet="1125308.13526099" yNet="787937.437596755" referenceNode="38"/>
+		<track trackID="DWN-1" stationID="TMPLMEJ" type="timingPoint" nodeID="234" name="Olympic Park Jn DWN" kilometre="6.860" x="7145.84171446655" y="200" xNet="1125221.83829643" yNet="787703.321271654" referenceNode="10"/>
+		<crossing type="kr" startOfMainTrack="205" startOfBranchTrack="231" endOfMainTrack="241" endOfBranchTrack="244" nodeID="237" kilometre="6.870" x="7033.25312882449" y="100.134978537353" xNet="1125363.49844876" yNet="787746.447671286"/>
+		<node nodeID="192" name="OL:S901" kilometre="6.806" x="6132.49275083247" y="0" xNet="1126182.66717446" yNet="787271.972051472">
+			<netLimitInfo lineID="ea1280"/>
+		</node>
+		<node nodeID="65" name="GRAD" description="401\L" kilometre="6.692" x="5429.23362388839" y="200" xNet="1130527.73143068" yNet="785907.877768956">
+			<netLimitInfo lineID="ea1280"/>
+		</node>
+		<node nodeID="238" name="GRAD" description="L\500" kilometre="7.389" x="12402.066819343" y="200" xNet="1120632.60244993" yNet="789891.784627967"/>
+		<node nodeID="240" name="GRAD" description="L\500" kilometre="7.389" x="12423.7321718064" y="0" xNet="1120654.36220402" yNet="790130.386250012"/>
+		<node nodeID="64" name="GRAD" description="500\L" kilometre="7.549" x="14053.2356256136" y="200" xNet="1120260.02482495" yNet="789930.126655163"/>
+		<node nodeID="243" name="GRAD" description="500\L" kilometre="7.549" x="14049.3530367631" y="0" xNet="1119999.70687958" yNet="790195.608539529"/>
+		<speedIndicator nodeID="188" name="SPEED" description="25mph" kilometre="6.876" x="7432.70097695405" y="0" xNet="1125028.84351076" yNet="788120.09423562" referenceNode="190"/>
+		<switch start="189" endOfMainTrack="234" endOfBranchTrack="203" nodeID="10" name="POINTS814A" kilometre="6.816" x="6658.35034194057" y="200" xNet="1125584.8582842" yNet="787468.26743153"/>
+		<switch start="198" endOfMainTrack="38" endOfBranchTrack="191" nodeID="39" name="POINTS815A" kilometre="6.816" x="6653.41583197836" y="0" xNet="1125743.40198113" yNet="787624.010322273"/>
+		<switch start="230" endOfMainTrack="234" endOfBranchTrack="239" nodeID="245" name="POINTS815B" kilometre="6.875" x="7390.90340995342" y="200" xNet="1125102.11473669" yNet="787779.299170447"/>
+		<switch start="188" endOfMainTrack="113" endOfBranchTrack="241" nodeID="117" name="POINTS814B" kilometre="6.875" x="7416.62513540802" y="0" xNet="1125044.08439613" yNet="788110.126705636"/>
+		<stationBorder exitType="regular" stationID="TMPLMEJ" lineID="ea1280" trackNumber="1" nodeID="189" kilometre="6.810" x="6602.38300747158" y="200" xNet="1125809.93002113" yNet="787397.215717022" referenceNode="10"/>
+		<stationBorder exitType="regular" stationID="TMPLMEJ" lineID="ea1280" trackNumber="2" nodeID="198" kilometre="6.815" x="6620.56838790636" y="0" xNet="1125771.10038688" yNet="787601.812117145" referenceNode="39"/>
+		<speedIndicator nodeID="191" name="SPEED" description="25mph" kilometre="6.823" x="6768.07845761206" y="32.1767749624543" xNet="1125696.86058752" yNet="787639.009932351" referenceNode="39"/>
+		<speedIndicator nodeID="239" name="SPEED" description="30mph\40mph" kilometre="6.874" x="7247.88033185289" y="160.23323583641" xNet="1125124.19970548" yNet="787776.523464464" referenceNode="244"/>
+		<speedIndicator nodeID="203" name="SPEED" description="25mph" kilometre="6.817" x="6761.57203776198" y="171.92333905975" xNet="1125571.30303624" yNet="787485.302148423" referenceNode="205"/>
+		<node nodeID="205" name="Release Contact" kilometre="6.837" x="6861.96373142629" y="145.396078476238" xNet="1125494.51501096" yNet="787581.800735169" referenceNode="237" releaseContact="true" arranged="true"/>
+		<node nodeID="241" name="Release Contact" kilometre="6.873" x="7265.68169854866" y="39.4257211030178" xNet="1125169.84593859" yNet="787966.936899349" referenceNode="117" releaseContact="true" arranged="true"/>
+		<node nodeID="231" name="Release Contact" kilometre="6.837" x="6851.29611815263" y="57.4919567672587" xNet="1125594.72555776" yNet="787671.926557808" referenceNode="191" releaseContact="true" arranged="true"/>
+		<node nodeID="244" name="Release Contact" kilometre="6.873" x="7212.0133481437" y="150.190039144281" xNet="1125164.1896229" yNet="787771.49741013" referenceNode="237" releaseContact="true" arranged="true"/>
+		<node nodeID="233" name="Release Contact" kilometre="6.806" x="6559.33509266902" y="200" xNet="1125983.04651932" yNet="787342.565478956" referenceNode="189" releaseContact="true" arranged="true"/>
+		<track trackID="UP-2" stationID="TMPLMEJ" type="timingPoint" nodeID="290" name="Temple Mills East Jn" kilometre="7.345" x="11932.6346288267" y="0" xNet="1120893.09745955" yNet="790119.708030993" referenceNode="288"/>
+		<switch start="247" endOfMainTrack="223" endOfBranchTrack="209" nodeID="246" kilometre="7.316" x="11541.847985427" y="200.133219457861" xNet="1121243.65879431" yNet="789844.186803695"/>
+		<switch start="240" endOfMainTrack="290" endOfBranchTrack="259" associatedSwitch="247" nodeID="289" name="817B" kilometre="7.348" x="12067.0939352404" y="1.03071001021965" xNet="1120877.6412046" yNet="790120.287528631"/>
+		<switch start="246" endOfMainTrack="225" endOfBranchTrack="264" associatedSwitch="289" nodeID="247" name="817A" kilometre="7.317" x="11544.2610629653" y="200.023204443998" xNet="1121241.46365262" yNet="789844.478365901"/>
+		<switch start="263" endOfMainTrack="216" endOfBranchTrack="204" nodeID="236" name="816" kilometre="7.348" x="12011.8943148333" y="200.461596642447" xNet="1120780.24264335" yNet="789883.007893807"/>
+		<speedIndicator nodeID="204" name="SPEED" description="30mph\40mph" kilometre="7.347" x="11872.4686670637" y="246.219099959886" xNet="1120791.72878471" yNet="789842.073324388" referenceNode="202"/>
+		<speedIndicator nodeID="259" name="SPEED" description="15mph" kilometre="7.347" x="11971.7718938597" y="39.4347335729556" xNet="1120909.99637765" yNet="790095.759484153" referenceNode="289"/>
+		<node nodeID="263" name="Release Contact" kilometre="7.357" x="12093.344764315" y="200.365236049192" xNet="1120749.4220192" yNet="789884.840080684" referenceNode="236" releaseContact="true" arranged="true"/>
+		<node nodeID="264" name="64" kilometre="7.334" x="11788.4063451016" y="108.313440163606" xNet="1121052.16746287" yNet="789987.981395714" referenceNode="259" releaseContact="true" arranged="true"/>
+		<node nodeID="223" name="64" kilometre="7.305" x="11313.1122042622" y="263.072981206545" xNet="1121094.09481029" yNet="789640.849773044" referenceNode="246" releaseContact="true" arranged="true"/>
+		<node nodeID="194" kilometre="0.956" x="10878.8280512065" y="602.105702817088" xNet="1119800.54991541" yNet="788512.380634575"/>
+		<node nodeID="224" kilometre="0.956" x="10895.8722217061" y="407.044640432455" xNet="1120109.72999605" yNet="788596.827377031"/>
+		<node nodeID="185" name="OLS697" kilometre="6.801" x="6547.8222318158" y="200" xNet="1126029.34530438" yNet="787327.949658669"/>
+		<signal interlockingMachine="3 Aspect IECC (1mph - 40mph)" nodeID="212" name="SIG:S700" kilometre="6.989" x="8399.04927129366" y="0" xNet="1124644.84481667" yNet="788365.502480564" referenceNode="226"/>
+		<node nodeID="190" name="OL:S700" kilometre="6.894" x="7896.60721721247" y="0" xNet="1124844.50066928" yNet="788237.90519147"/>
+		<node nodeID="235" name="SD:S700" kilometre="7.132" x="9900.85731407317" y="0" xNet="1123379.99167305" yNet="789135.389838722" referenceNode="100" sightingDistance="true"/>
+		<node nodeID="265" name="ASPECT TRIGGER" kilometre="7.131" x="9840.0687773118" y="0" xNet="1123432.56181744" yNet="789103.419211339" referenceNode="235" aspectTrigger="true"/>
+		<signal interlockingMachine="3 Aspect IECC (1mph - 40mph)" nodeID="208" name="SIN S701" kilometre="7.100" x="9391.16881353547" y="200" xNet="1123543.53420096" yNet="788743.135949849" referenceNode="90"/>
+		<node nodeID="209" name="OL:S701" kilometre="7.280" x="10363.2161979483" y="200.020740527969" xNet="1122493.56468564" yNet="789254.60236709"/>
+		<node nodeID="266" name="SD:S701" kilometre="6.957" x="8536.32653128049" y="200" xNet="1124948.43566728" yNet="787880.048487792" referenceNode="230" sightingDistance="true"/>
+		<node nodeID="199" name="OL:S703" kilometre="1.085" x="11193.1854142453" y="485.083612762281" xNet="1120333.93054172" yNet="789077.875261631"/>
+		<node nodeID="215" name="SD:NL1424" kilometre="0.751" x="9028.87939123146" y="400" xNet="1118897.59810629" yNet="786815.232985546" referenceNode="219" sightingDistance="true"/>
+		<speedIndicator nodeID="219" name="SPEED" description="20mph" kilometre="0.799" x="9121.09987592758" y="400" xNet="1119024.75186616" yNet="787209.12521683" referenceNode="220"/>
+		<stationBorder exitType="regular" stationID="TMPLMEJ" lineID="ea1350" trackNumber="1" nodeID="220" kilometre="0.919" x="10473.8346026399" y="405.36943781711" xNet="1119851.72418039" yNet="788266.834340427" referenceNode="224"/>
+	</nodes>
+	<links>
+		<link source="2" target="75" length="23" vmax="64" vmaxr="64" electrification="electrified" owner="2018 01-03">
+			<vzg index="1" vmax="48" vmaxr="48"/>
+		</link>
+		<link source="4" target="8" length="113" vmax="64" vmaxr="64" electrification="electrified" owner="2018 01-03">
+			<vzg index="1" vmax="48" vmaxr="48"/>
+		</link>
+		<link source="8" target="48" length="59" vmax="64" vmaxr="64" electrification="electrified" owner="2018 01-03">
+			<vzg index="1" vmax="48" vmaxr="48"/>
+		</link>
+		<link source="10" target="203" length="1" vmax="64" vmaxr="64" electrification="electrified" owner="2018 01-03">
+			<vzg index="1" vmax="48" vmaxr="48"/>
+		</link>
+		<link source="10" target="234" length="44" vmax="64" vmaxr="64" electrification="electrified" owner="2018 01-03">
+			<vzg index="1" vmax="48" vmaxr="48"/>
+		</link>
+		<link source="34" target="4" length="21" vmax="64" vmaxr="64" electrification="electrified" owner="2018 01-03">
+			<vzg index="1" vmax="48" vmaxr="48"/>
+		</link>
+		<link source="38" target="113" length="22" vmax="40" vmaxr="40" electrification="electrified" owner="2018 01-03">
+			<vzg index="1" vmax="48" vmaxr="48"/>
+		</link>
+		<link source="39" target="38" length="22" vmax="40" vmaxr="40" electrification="electrified" owner="2018 01-03">
+			<vzg index="1" vmax="48" vmaxr="48"/>
+		</link>
+		<link source="39" target="191" length="7" vmax="32" vmaxr="40" electrification="electrified" owner="2018 01-03"/>
+		<link source="54" target="64" length="66" gradient="2" vmax="64" vmaxr="64" electrification="electrified" owner="2018 01-03">
+			<vzg index="1" vmax="48" vmaxr="48"/>
+		</link>
+		<link source="64" target="222" length="77" vmax="64" vmaxr="64" electrification="electrified" owner="2018 01-03">
+			<vzg index="1" vmax="48" vmaxr="48"/>
+		</link>
+		<link source="65" target="185" length="109" vmax="64" vmaxr="64" electrification="electrified" owner="2018 01-03">
+			<vzg index="1" vmax="48" vmaxr="48"/>
+		</link>
+		<link source="75" target="218" length="120" vmax="64" vmaxr="64" electrification="electrified" owner="2018 01-03">
+			<vzg index="1" vmax="48" vmaxr="48"/>
+		</link>
+		<link source="90" target="208" length="68" vmax="64" vmaxr="64" electrification="electrified" owner="2018 01-03">
+			<vzg index="1" vmax="48" vmaxr="48"/>
+		</link>
+		<link source="100" target="288" length="82" vmax="64" vmaxr="64" electrification="electrified" owner="2018 01-03">
+			<vzg index="1" vmax="48" vmaxr="48"/>
+		</link>
+		<link source="113" target="117" length="15" vmax="40" vmaxr="40" electrification="electrified" owner="2018 01-03">
+			<vzg index="1" vmax="48" vmaxr="48"/>
+		</link>
+		<link source="117" target="188" length="1" vmax="40" vmaxr="40" electrification="electrified" owner="2018 01-03">
+			<vzg index="1" vmax="48" vmaxr="48"/>
+		</link>
+		<link source="148" target="201" length="37" vmax="32" vmaxr="32" electrification="electrified" owner="2018 01-03"/>
+		<link source="156" target="211" length="65" vmax="32" vmaxr="32" electrification="electrified" owner="2018 01-03"/>
+		<link source="163" target="282" length="6" vmax="24" vmaxr="24" electrification="electrified" owner="2018 01-03"/>
+		<link source="164" target="90" length="23" vmax="64" vmaxr="64" electrification="electrified" owner="2018 01-03">
+			<vzg index="1" vmax="48" vmaxr="48"/>
+		</link>
+		<link source="165" target="156" length="32" vmax="32" vmaxr="32" electrification="electrified" owner="2018 01-03"/>
+		<link source="185" target="233" length="5" vmax="64" vmaxr="64" electrification="electrified" owner="2018 01-03">
+			<vzg index="1" vmax="48" vmaxr="48"/>
+		</link>
+		<link source="188" target="190" length="18" vmax="64" vmaxr="64" electrification="electrified" owner="2018 01-03">
+			<vzg index="1" vmax="48" vmaxr="48"/>
+		</link>
+		<link source="189" target="10" length="6" vmax="64" vmaxr="64" electrification="electrified" owner="2018 01-03">
+			<vzg index="1" vmax="48" vmaxr="48"/>
+		</link>
+		<link source="190" target="212" length="95" vmax="64" vmaxr="64" electrification="electrified" owner="2018 01-03">
+			<vzg index="1" vmax="48" vmaxr="48"/>
+		</link>
+		<link source="191" target="231" length="14" vmax="40" vmaxr="40" electrification="electrified" owner="2018 01-03"/>
+		<link source="192" target="198" length="9" vmax="32" vmaxr="40" electrification="electrified" owner="2018 01-03"/>
+		<link source="194" target="199" length="129" vmax="32" vmaxr="32" electrification="electrified" owner="2018 01-03"/>
+		<link source="198" target="39" length="1" vmax="32" vmaxr="40" electrification="electrified" owner="2018 01-03"/>
+		<link source="199" target="202" length="83" vmax="32" vmaxr="32" electrification="electrified" owner="2018 01-03"/>
+		<link source="201" target="232" vmax="32" vmaxr="32" electrification="electrified" owner="2018 01-03"/>
+		<link source="202" target="204" length="14" vmax="32" vmaxr="32" electrification="electrified" owner="2018 01-03"/>
+		<link source="203" target="205" length="20" vmax="40" vmaxr="40" electrification="electrified" owner="2018 01-03"/>
+		<link source="204" target="236" length="1" vmax="64" vmaxr="64" electrification="electrified" owner="2018 01-03">
+			<vzg index="1" vmax="48" vmaxr="48"/>
+		</link>
+		<link source="205" target="237" length="33" vmax="40" vmaxr="40" electrification="electrified" owner="2018 01-03"/>
+		<link source="208" target="227" length="4" vmax="64" vmaxr="64" electrification="electrified" owner="2018 01-03">
+			<vzg index="1" vmax="48" vmaxr="48"/>
+		</link>
+		<link source="209" target="246" length="36" vmax="64" vmaxr="64" electrification="electrified" owner="2018 01-03">
+			<vzg index="1" vmax="48" vmaxr="48"/>
+		</link>
+		<link source="211" target="215" length="13" vmax="32" vmaxr="32" electrification="electrified" owner="2018 01-03"/>
+		<link source="212" target="226" length="7" vmax="64" vmaxr="64" electrification="electrified" owner="2018 01-03">
+			<vzg index="1" vmax="48" vmaxr="48"/>
+		</link>
+		<link source="213" target="223" length="9" vmax="24" vmaxr="24" electrification="electrified" owner="2018 01-03"/>
+		<link source="215" target="219" length="48" vmax="32" vmaxr="32" electrification="electrified" owner="2018 01-03"/>
+		<link source="216" target="236" length="5" vmax="64" vmaxr="64" electrification="electrified" owner="2018 01-03">
+			<vzg index="1" vmax="48" vmaxr="48"/>
+		</link>
+		<link source="217" target="243" length="41" gradient="2" vmax="64" vmaxr="64" electrification="electrified" owner="2018 01-03">
+			<vzg index="1" vmax="48" vmaxr="48"/>
+		</link>
+		<link source="218" target="229" length="31" vmax="64" vmaxr="64" electrification="electrified" owner="2018 01-03">
+			<vzg index="1" vmax="48" vmaxr="48"/>
+		</link>
+		<link source="219" target="220" length="120" vmax="24" vmaxr="24" electrification="electrified" owner="2018 01-03"/>
+		<link source="220" target="224" length="37" vmax="24" vmaxr="24" electrification="electrified" owner="2018 01-03"/>
+		<link source="222" target="34" length="52" vmax="64" vmaxr="64" electrification="electrified" owner="2018 01-03">
+			<vzg index="1" vmax="48" vmaxr="48"/>
+		</link>
+		<link source="223" target="246" length="11" vmax="24" vmaxr="24" electrification="electrified" owner="2018 01-03"/>
+		<link source="224" target="213" length="122" vmax="24" vmaxr="24" electrification="electrified" owner="2018 01-03"/>
+		<link source="225" target="216" length="7" vmax="64" vmaxr="64" electrification="electrified" owner="2018 01-03">
+			<vzg index="1" vmax="48" vmaxr="48"/>
+		</link>
+		<link source="226" target="265" length="135" vmax="64" vmaxr="64" electrification="electrified" owner="2018 01-03">
+			<vzg index="1" vmax="48" vmaxr="48"/>
+		</link>
+		<link source="227" target="209" length="176" vmax="64" vmaxr="64" electrification="electrified" owner="2018 01-03">
+			<vzg index="1" vmax="48" vmaxr="48"/>
+		</link>
+		<link source="228" target="2" length="4" vmax="64" vmaxr="64" electrification="electrified" owner="2018 01-03">
+			<vzg index="1" vmax="48" vmaxr="48"/>
+		</link>
+		<link source="229" target="59" length="43" vmax="64" vmaxr="64" electrification="electrified" owner="2018 01-03">
+			<vzg index="1" vmax="48" vmaxr="48"/>
+		</link>
+		<link source="230" target="266" length="44" vmax="64" vmaxr="64" electrification="electrified" owner="2018 01-03">
+			<vzg index="1" vmax="48" vmaxr="48"/>
+		</link>
+		<link source="231" target="237" length="33" vmax="40" vmaxr="40" electrification="electrified" owner="2018 01-03"/>
+		<link source="232" target="194" length="59" vmax="32" vmaxr="32" electrification="electrified" owner="2018 01-03"/>
+		<link source="233" target="189" length="4" vmax="64" vmaxr="64" electrification="electrified" owner="2018 01-03">
+			<vzg index="1" vmax="48" vmaxr="48"/>
+		</link>
+		<link source="234" target="245" length="15" vmax="64" vmaxr="64" electrification="electrified" owner="2018 01-03">
+			<vzg index="1" vmax="48" vmaxr="48"/>
+		</link>
+		<link source="235" target="100" length="126" vmax="64" vmaxr="64" electrification="electrified" owner="2018 01-03">
+			<vzg index="1" vmax="48" vmaxr="48"/>
+		</link>
+		<link source="236" target="263" length="9" vmax="64" vmaxr="64" electrification="electrified" owner="2018 01-03">
+			<vzg index="1" vmax="48" vmaxr="48"/>
+		</link>
+		<link source="237" target="241" length="3" vmax="40" vmaxr="40" electrification="electrified" owner="2018 01-03"/>
+		<link source="237" target="244" length="3" vmax="40" vmaxr="40" electrification="electrified" owner="2018 01-03"/>
+		<link source="238" target="54" length="94" gradient="2" vmax="64" vmaxr="64" electrification="electrified" owner="2018 01-03">
+			<vzg index="1" vmax="48" vmaxr="48"/>
+		</link>
+		<link source="239" target="245" length="1" vmax="64" vmaxr="64" electrification="electrified" owner="2018 01-03">
+			<vzg index="1" vmax="48" vmaxr="48"/>
+		</link>
+		<link source="240" target="217" length="119" gradient="2" vmax="64" vmaxr="64" electrification="electrified" owner="2018 01-03">
+			<vzg index="1" vmax="48" vmaxr="48"/>
+		</link>
+		<link source="241" target="117" length="2" vmax="40" vmaxr="40" electrification="electrified" owner="2018 01-03"/>
+		<link source="243" target="228" length="102" vmax="64" vmaxr="64" electrification="electrified" owner="2018 01-03">
+			<vzg index="1" vmax="48" vmaxr="48"/>
+		</link>
+		<link source="244" target="239" length="1" vmax="40" vmaxr="40" electrification="electrified" owner="2018 01-03"/>
+		<link source="245" target="230" length="38" vmax="64" vmaxr="64" electrification="electrified" owner="2018 01-03">
+			<vzg index="1" vmax="48" vmaxr="48"/>
+		</link>
+		<link source="246" target="247" length="1" vmax="64" vmaxr="64" bidirectional="true" electrification="electrified" owner="2018 01-03">
+			<vzg index="1" vmax="48" vmaxr="48"/>
+		</link>
+		<link source="247" target="225" length="19" vmax="64" vmaxr="64" electrification="electrified" owner="2018 01-03">
+			<vzg index="1" vmax="48" vmaxr="48"/>
+		</link>
+		<link source="247" target="264" length="17" vmax="24" vmaxr="24" electrification="electrified" owner="2018 01-03"/>
+		<link source="259" target="289" length="1" vmax="64" vmaxr="64" electrification="electrified" owner="2018 01-03">
+			<vzg index="1" vmax="48" vmaxr="48"/>
+		</link>
+		<link source="263" target="238" length="32" vmax="64" vmaxr="64" electrification="electrified" owner="2018 01-03">
+			<vzg index="1" vmax="48" vmaxr="48"/>
+		</link>
+		<link source="264" target="259" length="13" vmax="24" vmaxr="24" electrification="electrified" owner="2018 01-03"/>
+		<link source="265" target="235" length="1" vmax="64" vmaxr="64" electrification="electrified" owner="2018 01-03">
+			<vzg index="1" vmax="48" vmaxr="48"/>
+		</link>
+		<link source="266" target="164" length="52" vmax="64" vmaxr="64" electrification="electrified" owner="2018 01-03">
+			<vzg index="1" vmax="48" vmaxr="48"/>
+		</link>
+		<link source="282" target="320" length="1" vmax="24" vmaxr="24" electrification="electrified" owner="2018 01-03"/>
+		<link source="288" target="290" length="5" vmax="64" vmaxr="64" electrification="electrified" owner="2018 01-03">
+			<vzg index="1" vmax="48" vmaxr="48"/>
+		</link>
+		<link source="289" target="240" length="41" vmax="64" vmaxr="64" electrification="electrified" owner="2018 01-03">
+			<vzg index="1" vmax="48" vmaxr="48"/>
+		</link>
+		<link source="290" target="289" length="3" vmax="64" vmaxr="64" electrification="electrified" owner="2018 01-03">
+			<vzg index="1" vmax="48" vmaxr="48"/>
+		</link>
+		<link source="320" target="148" length="24" vmax="32" vmaxr="32" electrification="electrified" owner="2018 01-03"/>
+	</links>
+	<dependentLinks/>
+	<blockSections>
+		<blocksection uuid="{294ead0e-0c2d-471d-803a-abfd6bb9568a}" lines="ea1280 tmpme">
+			<part nodes="59 229 218 75 2"/>
+		</blocksection>
+		<blocksection uuid="{2b05ce54-58b0-4122-8650-3a5316fd2312}" lines="tmpme">
+			<part nodes="2 228 243 217 240 289 290 288 100 235 265 226 212"/>
+		</blocksection>
+		<blocksection uuid="{32d55a1d-81ea-4211-ba1e-6fa3a452d79f}" lines="ea1280 tmpme">
+			<part nodes="59 229 218 75 2"/>
+		</blocksection>
+		<blocksection uuid="{3d8cf982-e0ff-4798-800a-c6b99efea0d0}" lines="tmpme" speedIndicators="204">
+			<part nodes="148 201 232 194 199 202 204 236 263 238 54 64 222"/>
+		</blocksection>
+		<blocksection uuid="{4f7e9f25-0c7d-43c1-970e-87337e88941e}" lines="ea1280 tmpme">
+			<part nodes="222 34 4 8 48"/>
+		</blocksection>
+		<blocksection uuid="{556f9ae7-4603-4435-9bc7-27ddd6a0801f}" lines="tmpme" speedIndicators="219 259">
+			<part nodes="2 228 243 217 240 289 259 264 247 246 223 213 224 220 219 215 211 156"/>
+		</blocksection>
+		<blocksection uuid="{5a3be2d1-2c56-498b-a335-2ba5b1a28b01}" lines="ea1280 stfd tmpme" speedIndicators="191 239">
+			<part nodes="192 198 39 191 231 237 244 239 245 230 266 164 90 208"/>
+		</blocksection>
+		<blocksection uuid="{65daf85a-1a9f-44ca-a34d-3a9ac8aea0d1}" lines="ea1350 highm tmpme">
+			<part nodes="163 282 320 148"/>
+		</blocksection>
+		<blocksection uuid="{80b129f7-ac10-4ded-b060-337cfff8e787}" lines="ea1280 tmpme">
+			<part nodes="59 229 218 75 2"/>
+		</blocksection>
+		<blocksection uuid="{8171e877-c3c5-4f11-a27a-eed3bf7dc7a7}" lines="ea1350 highm tmpme">
+			<part nodes="156 165"/>
+		</blocksection>
+		<blocksection uuid="{87c83ede-b037-4780-9e8d-f2bf11b574ef}" lines="ea1280 stfd tmpme" speedIndicators="188 203">
+			<part nodes="212 190 188 117 241 237 205 203 10 189 233 185 65"/>
+		</blocksection>
+		<blocksection uuid="{ca01db1f-5d47-4364-9e99-3b6948fa61cc}" lines="tmpme" shuntingBlock="true">
+			<part nodes="208 227 209 246 247 225 216 236 263 238 54 64 222"/>
+		</blocksection>
+		<blocksection uuid="{d979ef0d-045a-4025-8af8-09f2a68c39c2}" lines="ea1280 stfd tmpme">
+			<part nodes="65 185 233 189 10 234 245 230 266 164 90 208"/>
+		</blocksection>
+		<blocksection uuid="{f525c325-ec3c-47c5-a80a-975f8818ab37}" lines="ea1350 highm tmpme">
+			<part nodes="163 282 320 148"/>
+		</blocksection>
+		<blocksection uuid="{fffd2b7c-8fdd-4d2e-91fe-108fd9244aa1}" lines="ea1280 stfd tmpme" speedIndicators="188">
+			<part nodes="212 190 188 117 113 38 39 198 192"/>
+		</blocksection>
+	</blockSections>
+	<slipDistances>
+		<slipdistance uuid="{6b6f5faa-e2db-403e-8d28-cd69e458e54f}" vmax="999" lines="ea1280 stfd tmpme" serialNumber="0">
+			<part nodes="65 185"/>
+		</slipdistance>
+		<slipdistance uuid="{6cafa9f0-b585-4976-a246-6a8d7b96fe0f}" vmax="999" considerIndicator="true" lines="tmpme" serialNumber="0">
+			<part nodes="148 201 232 194 199"/>
+		</slipdistance>
+		<slipdistance uuid="{7bfd3cea-05ab-4052-b046-a2867144e128}" vmax="999" considerIndicator="true" lines="tmpme" serialNumber="0">
+			<part nodes="2 228 243 217"/>
+		</slipdistance>
+		<slipdistance uuid="{94570596-d465-4c40-b0cf-6dc8df77e655}" vmax="999" considerIndicator="true" lines="tmpme" serialNumber="0">
+			<part nodes="222 34 4 8"/>
+		</slipdistance>
+		<slipdistance uuid="{e895176b-d67b-45d8-8b71-56e12c3b400b}" vmax="999" considerIndicator="true" lines="tmpme" serialNumber="0">
+			<part nodes="208 227 209"/>
+		</slipdistance>
+		<slipdistance uuid="{f83b3433-d606-45f7-ac9b-fcdd904aa0cb}" vmax="999" lines="ea1350 tmpme" serialNumber="0">
+			<part nodes="156 165"/>
+		</slipdistance>
+		<slipdistance uuid="{fb5c27f6-7201-4801-98ed-df443da4c9b9}" vmax="999" considerIndicator="true" lines="tmpme" serialNumber="0">
+			<part nodes="212 190"/>
+		</slipdistance>
+	</slipDistances>
+	<approachControlRoutes>
+		<ACRoute controlTyp="mar" uuid="{ead18cb1-4368-4ef0-aa0a-6ab022333425}" publicName="S704 - NL1424 Approach Control " description="MAR" lines="tmpme">
+			<part nodes="2 228 243 217 240 289 259 264 247 246 223 213 224 220 219 215 211 156"/>
+		</ACRoute>
+	</approachControlRoutes>
+	<stationRoutes>
+		<stationRoute stationID="STFD703" name="[ZZZHGHMJ]-[ea1350/1]-[1]-[TMPLMEJ]-[ea1280/1] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="282 320 148 201"/>
+		<stationRoute stationID="TMPLMEJ" name="[STFD]-[ea1280/DWN]-[1-2]-[TMPLRRJ]-[ea1280/DWN] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=95;NRz=95;S=95;Rz=95;FGz=95;NGz=95;Gz=95;Lz=95;Unbekannt=95" nodes="189 10 234 245 230 266 164 90 208 227 209 246 247 225 216 236 263 238 54 64 222 34"/>
+		<stationRoute stationID="TMPLMEJ" name="[STFD]-[ea1280/UP]-[2]-[TMPLRRJ]-[ea1280/DWN] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=85;NRz=85;S=85;Rz=85;FGz=85;NGz=85;Gz=85;Lz=85;Unbekannt=85" nodes="198 39 191 231 237 244 239 245 230 266 164 90 208 227 209 246 247 225 216 236 263 238 54 64 222 34"/>
+		<stationRoute stationID="TMPLMEJ" name="[TMPLRRJ]-[ea1280/UP]-[1-2]-[STFD]-[ea1280/UP] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="75 2 228 243 217 240 289 290 288 100 235 265 226 212 190 188 117 113 38 39 198"/>
+		<stationRoute stationID="TMPLMEJ" name="[TMPLRRJ]-[ea1280/UP]-[2]-[STFD]-[ea1280/DWN] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=90;NRz=90;S=90;Rz=90;FGz=90;NGz=90;Gz=90;Lz=90;Unbekannt=90" nodes="75 2 228 243 217 240 289 290 288 100 235 265 226 212 190 188 117 241 237 205 203 10 189"/>
+	</stationRoutes>
+	<lineCatalog/>
+	<zugNummernFelder/>
+	<switchGears/>
+</line>

@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<line lineID="sett" name="Settle Junction" trafficRouting="on_the_left" type="global" dependentLines="nz0001 nz0003">
+	<transformations>
+		<transformation line="nw9901" m11="1" m12="0" m21="0" m22="1" dx="0" dy="0"/>
+		<transformation line="nz0001" m11="1" m12="0" m21="0" m22="1" dx="0" dy="0"/>
+		<transformation line="nz0003" m11="-0.891007" m12="0.45399" m21="-0.45399" m22="-0.891007" dx="3.76517e+06" dy="-1.72381e+06"/>
+	</transformations>
+	<version major="1" minor="2" patchlevel="0" comment=""/>
+	<creator user="VWaddelo" timestamp="2016-07-08T10:58:15"/>
+	<lasteditor user="VWaddelo" timestamp="2016-07-08T10:58:15"/>
+	<stations>
+		<station stationID="SETTLEJ" name="Settle Junction" xNet="-1486038.95" yNet="5502916.45" kilometre="377.461" uicLocationCode="0" circleDiameter="0">
+			<textElement type="name">
+				<pos view="net" x="2351.37" y="2351.37" angle="0" system="source"/>
+				<pos view="wgs84" x="2351.37" y="2351.37" angle="0" system="source"/>
+				<pos view="line" x="2713.26" y="2713.26" angle="0" system="source"/>
+				<pos view="macro" x="28.2843" y="28.2843" angle="0" system="source"/>
+				<pos view="macroWgs84" x="0" y="0" angle="0" system="source"/>
+			</textElement>
+		</station>
+	</stations>
+	<nodes>
+		<switch start="4" endOfMainTrack="56" endOfBranchTrack="83875" nodeID="10" name="POINTS:21" description="GEOGIS S&amp;C|SKW1|148083853|[500][412818]|" kilometre="377.481" x="3774913" y="-4645" xNet="-1486412.3" yNet="5502987"/>
+		<switch start="57" endOfMainTrack="135" endOfBranchTrack="59" nodeID="3" name="POINTS:20" description="GEOGIS S&amp;C|SKW1|148057014|[496][412851]|" kilometre="377.511" x="3775003" y="-4633" xNet="-1486418.6" yNet="5503278.1"/>
+		<node nodeID="9" description="GEOGIS S&amp;C|SKW1|148053314|[504][412818]|" kilometre="377.481" x="3774913" y="-4845" xNet="-1486211.5" yNet="5502990.7"/>
+		<node nodeID="8" name="Node for global area" kilometre="377.600" x="3775886" y="-4452" xNet="-1486454.9" yNet="5503974.8"/>
+		<node nodeID="7" name="OL:8" kilometre="377.570" x="3775604" y="-4555" xNet="-1486342.4" yNet="5503697"/>
+		<track trackID="T-1" stationID="SETTLEJ" type="timingPoint" nodeID="4" name="SETTLE JN" kilometre="377.461" x="3774713" y="-4645" xNet="-1486408.5" yNet="5502786.3" referenceNode="10"/>
+		<track trackID="T-2" stationID="SETTLEJ" type="timingPoint" nodeID="68537" name="SETTLE JN" kilometre="377.461" x="3774712" y="-4845" xNet="-1486208.3" yNet="5502791" referenceNode="9"/>
+		<switch start="4" endOfMainTrack="2" endOfBranchTrack="134" nodeID="56710" name="POINTS:28a" description="GEOGIS S&amp;C|SKW1|148056710|[500][412715]|" kilometre="377.387" x="3773971" y="-4645" xNet="-1486396.1" yNet="5502087.4"/>
+		<node nodeID="82300" name="POINTS:28b" kilometre="377.357" x="3773671" y="-4445" xNet="-1486590.1" yNet="5501783.7">
+			<netLimitInfo lineID="nz0001"/>
+		</node>
+		<node nodeID="11" name="OL:5" kilometre="377.370" x="3773808" y="-4845" xNet="-1486192.9" yNet="5501890.7"/>
+		<node nodeID="57156" name="Node for global area" kilometre="377.600" x="3775841" y="-4327" xNet="-1486639.6" yNet="5503897.9"/>
+		<node nodeID="12" name="Node for Global area" kilometre="377.370" x="3773800" y="-4645" xNet="-1486392.7" yNet="5501887.6"/>
+		<speedIndicator nodeID="68542" name="SPEED" kilometre="377.421" x="3774319" y="-4845" xNet="-1486201.3" yNet="5502390.3" referenceNode="68537"/>
+		<speedIndicator nodeID="82302" name="SPEED" kilometre="377.386" x="3773961" y="-4638" xNet="-1486414.9" yNet="5502059.2" referenceNode="82304"/>
+		<node nodeID="2" name="OL:15/18" kilometre="377.376" x="3773861" y="-4645" xNet="-1486394.3" yNet="5501986.4"/>
+		<track trackID="U-2" stationID="SETTLEJ" interlockingMachine="Semaphore (Inner Home)" nodeID="53337" name="SIG:5" kilometre="377.550" x="3775596" y="-4845" xNet="-1486141.9" yNet="5503141" referenceNode="137"/>
+		<node nodeID="53338" name="GRAD" kilometre="377.900" x="3779094" y="-4845" xNet="-1484835.1" yNet="5505995.7">
+			<netLimitInfo lineID="nz0001"/>
+		</node>
+		<node nodeID="53351" name="SD:5" kilometre="377.738" x="3777474" y="-4845" xNet="-1485510.5" yNet="5504546" referenceNode="53353" sightingDistance="true"/>
+		<node nodeID="53353" name="OL:4" kilometre="377.819" x="3778284" y="-4845" xNet="-1485172.7" yNet="5505271.4"/>
+		<signal interlockingMachine="Semaphore (Starter)" nodeID="57148" name="SIG:14" kilometre="377.910" x="3779049" y="-2703.0173" xNet="-1487801.7" yNet="5506774" referenceNode="57157"/>
+		<node nodeID="1" name="OL:7" kilometre="377.795" x="3778115.3" y="-3403.4104" xNet="-1487166.5" yNet="5505736.9"/>
+		<track trackID="U-3" stationID="SETTLEJ" interlockingMachine="Semaphore (Outer Home)" nodeID="57151" name="SIG:8" kilometre="377.750" x="3777712.5" y="-3608.5994" xNet="-1487016.7" yNet="5505365.7" referenceNode="138"/>
+		<speedIndicator nodeID="57154" name="SPEED" kilometre="377.700" x="3777267.8" y="-3835.0237" xNet="-1486829.3" yNet="5504902.4" referenceNode="57151"/>
+		<speedIndicator nodeID="57155" name="SPEED" kilometre="377.670" x="3776910.5" y="-3792.6497" xNet="-1486902.8" yNet="5504548.5" referenceNode="57156"/>
+		<switch start="136" endOfMainTrack="11" endOfBranchTrack="68538" nodeID="68535" name="POINTS:13b" description="GEOGIS S&amp;C|SKW1|148068535|[504][412613]|" kilometre="377.293" x="3772933" y="-4845" xNet="-1486179.4" yNet="5501136.9"/>
+		<switch start="12" endOfMainTrack="86189" endOfBranchTrack="68539" nodeID="66218" name="POINTS:13a" description="GEOGIS S&amp;C|SKW1|148066218|[500][412680]|" kilometre="377.355" x="3773546" y="-4645" xNet="-1486389.1" yNet="5501686.8"/>
+		<signal type="shunting" interlockingMachine="Shunt" nodeID="87348" name="SIG:27" kilometre="377.289" x="3772887" y="-4845" xNet="-1486178.7" yNet="5501090.8" referenceNode="87350"/>
+		<speedIndicator nodeID="68538" name="SPEED" kilometre="377.294" x="3772943" y="-4842" xNet="-1486180.9" yNet="5501146.3" referenceNode="68535"/>
+		<speedIndicator nodeID="68539" name="SPEED" kilometre="377.354" x="3773536" y="-4648" xNet="-1486383.7" yNet="5501668.1" referenceNode="66218"/>
+		<node nodeID="68540" name="TC" kilometre="377.324" x="3773241" y="-4745" xNet="-1486295.4" yNet="5501429.5" referenceNode="68539" releaseContact="true" arranged="true"/>
+		<node nodeID="87350" name="GRAD" kilometre="377.055" x="3770550" y="-4845" xNet="-1486138.2" yNet="5498739.6">
+			<netLimitInfo lineID="nz0001"/>
+		</node>
+		<node nodeID="86184" name="GRAD" kilometre="377.055" x="3770549" y="-4645" xNet="-1486337.2" yNet="5498736.8">
+			<netLimitInfo lineID="nz0001"/>
+		</node>
+		<track trackID="D-1" stationID="SETTLEJ" interlockingMachine="Semaphore (Inner Home)" nodeID="86189" name="SIG:15/18" kilometre="377.196" x="3771958" y="-4645" xNet="-1486363.1" yNet="5500187.5" referenceNode="139"/>
+		<node nodeID="68543" name="TC" kilometre="377.323" x="3773231" y="-4748.2334" xNet="-1486291.7" yNet="5501420.3" referenceNode="68538" releaseContact="true" arranged="true"/>
+		<node nodeID="57157" name="SD:14" kilometre="377.722" x="3777373.8" y="-3556.614" xNet="-1487097.5" yNet="5505030.7" referenceNode="57155" sightingDistance="true"/>
+		<node nodeID="56" name="TC" kilometre="377.496" x="3774958" y="-4639" xNet="-1486415.4" yNet="5503132.6" referenceNode="10" releaseContact="true" arranged="true"/>
+		<node nodeID="57" name="TC" kilometre="377.497" x="3774961.5" y="-4638.5386" xNet="-1486415.7" yNet="5503143.8" referenceNode="3" releaseContact="true" arranged="true"/>
+		<node nodeID="82304" name="TC" kilometre="377.371" x="3773816" y="-4541.5" xNet="-1486502.6" yNet="5501921.5" referenceNode="82305" releaseContact="true" arranged="true"/>
+		<node nodeID="82305" name="TC" kilometre="377.371" x="3773806.3" y="-4535.0669" xNet="-1486508.3" yNet="5501912.2" referenceNode="82304" releaseContact="true" arranged="true"/>
+		<node nodeID="57016" name="378.000km" kilometre="378.000" x="3779852" y="-2298.5527" xNet="-1488138.9" yNet="5507608.4"/>
+		<node nodeID="57017" name="378.000km" kilometre="378.000" x="3779945.5" y="-2475.3921" xNet="-1487953.3" yNet="5507683.3"/>
+		<node nodeID="57144" name="Cleatop LC" kilometre="378.588" x="3785091" y="370.90729" xNet="-1491990.1" yNet="5518782.7">
+			<netLimitInfo lineID="nz0003"/>
+		</node>
+		<node nodeID="57145" name="Cleatop LC" kilometre="378.588" x="3785179.3" y="191.34401" xNet="-1491816.9" yNet="5518882.8">
+			<netLimitInfo lineID="nz0003"/>
+		</node>
+		<node nodeID="57146" name="SD:7" kilometre="378.163" x="3781395" y="-1736.7507" xNet="-1488552.4" yNet="5509167.7" referenceNode="57145" sightingDistance="true"/>
+		<signal interlockingMachine="Semaphore (Outer Home)" nodeID="57147" name="SIG:7" kilometre="377.975" x="3779720" y="-2590.2517" xNet="-1487840.9" yNet="5507405.6" referenceNode="57017"/>
+		<node nodeID="57152" name="SD:8" kilometre="377.938" x="3779390.3" y="-2758.2278" xNet="-1487728.3" yNet="5507127.9" referenceNode="57147" sightingDistance="true"/>
+		<node nodeID="57058" name="OL:14" kilometre="378.090" x="3780653.8" y="-1889.9762" xNet="-1488474" yNet="5508437.4"/>
+		<speedIndicator nodeID="34" name="SPEED" kilometre="377.513" x="3775020.5" y="-4626.251" xNet="-1486420.6" yNet="5503283.8" referenceNode="135"/>
+		<speedIndicator nodeID="59" name="SPEED" kilometre="377.513" x="3775023.3" y="-4629.6895" xNet="-1486417.5" yNet="5503285.4" referenceNode="7"/>
+		<stationBorder exitType="regular" stationID="SETTLEJ" lineID="nz0001" trackNumber="2" nodeID="83875" name="[SETTLE] - [n0001/2]" kilometre="377.900" x="3779099" y="-4645" xNet="-1485016.2" yNet="5506080.6" referenceNode="10">
+			<netLimitInfo lineID="nz0001"/>
+		</stationBorder>
+		<stationBorder exitType="locked" stationID="SETTLEJ" trackNumber="" nodeID="134" name="Prellbock 192" kilometre="377.387" x="3773968" y="-4642.9" xNet="-1486401.7" yNet="5502079" referenceNode="56710"/>
+		<stationBorder exitType="regular" stationID="SETTLEJ" lineID="nz0003" trackNumber="2" nodeID="135" name="[GGSWCK] - [n0003/2]" kilometre="377.512" x="3775008.3" y="-4630.9753" xNet="-1486419.3" yNet="5503279.9" referenceNode="3"/>
+		<stationBorder exitType="regular" stationID="SETTLEJ" lineID="nz0001" trackNumber="1" nodeID="136" name="[LPRESTN] - [n0001/1]" kilometre="377.292" x="3772919.2" y="-4845" xNet="-1486179.1" yNet="5501122.9" referenceNode="68535"/>
+		<stationBorder exitType="alternative" stationID="SETTLEJ" lineID="nz0001" trackNumber="1" nodeID="137" name="[SETTLE] - [n0001/1]" kilometre="377.606" x="3776159.4" y="-4845" xNet="-1485952.6" yNet="5503562.5" referenceNode="53337"/>
+		<stationBorder exitType="alternative" stationID="SETTLEJ" lineID="nz0003" trackNumber="1" nodeID="138" name="[GGSWCK] - [n0003/1]" kilometre="377.763" x="3777833.3" y="-3547.0427" xNet="-1487061.7" yNet="5505477.1" referenceNode="57151"/>
+		<stationBorder exitType="alternative" stationID="SETTLEJ" lineID="nz0001" trackNumber="2" nodeID="139" name="[LPRESTN] - [n0001/2]" kilometre="377.154" x="3771535.3" y="-4645" xNet="-1486355.2" yNet="5499752.3" referenceNode="86189"/>
+	</nodes>
+	<links>
+		<link source="1" target="57152" length="143" vmax="97" vmaxr="97" radius="1100">
+			<vzg index="1" vmax="89" vmaxr="89"/>
+		</link>
+		<link source="2" target="56710" length="11" vmax="97" vmaxr="97" radius="2100"/>
+		<link source="3" target="57" length="12" vmax="97" vmaxr="97" radius="-3400"/>
+		<link source="3" target="59" length="2" vmax="97" vmaxr="97" radius="1100"/>
+		<link source="3" target="135" length="1" vmax="97" vmaxr="97" radius="2100"/>
+		<link source="4" target="10" length="20" vmax="97" vmaxr="97" radius="2100"/>
+		<link source="7" target="8" length="30" vmax="24" vmaxr="24" radius="1100"/>
+		<link source="8" target="57154" length="100" vmax="24" vmaxr="24" radius="1100"/>
+		<link source="9" target="53337" length="69" vmax="97" vmaxr="97" bidirectional="true" radius="1100">
+			<vzg index="1" vmax="56" vmaxr="56"/>
+		</link>
+		<link source="10" target="83875" length="419" vmax="97" vmaxr="97" bidirectional="true" radius="2100"/>
+		<link source="11" target="68542" length="52" vmax="97" vmaxr="97" bidirectional="true" radius="1100"/>
+		<link source="12" target="2" length="6" vmax="97" vmaxr="97" radius="2100"/>
+		<link source="34" target="57156" length="87" vmax="24" vmaxr="24" radius="2100"/>
+		<link source="56" target="10" length="12" vmax="97" vmaxr="97" radius="-3400"/>
+		<link source="57" target="56" length="1" vmax="97" vmaxr="97" radius="-3400"/>
+		<link source="59" target="7" length="57" vmax="24" vmaxr="24" radius="1100"/>
+		<link source="134" target="56710" vmax="97" vmaxr="97" radius="2900"/>
+		<link source="135" target="34" length="1" vmax="97" vmaxr="97" radius="2100"/>
+		<link source="136" target="68535" length="1" vmax="97" vmaxr="97" radius="1100"/>
+		<link source="137" target="53351" length="132" vmax="97" vmaxr="97" bidirectional="true" radius="1100">
+			<vzg index="1" vmax="56" vmaxr="56"/>
+		</link>
+		<link source="138" target="1" length="31" vmax="97" vmaxr="97" radius="1100">
+			<vzg index="1" vmax="89" vmaxr="89"/>
+		</link>
+		<link source="139" target="86189" length="42" vmax="97" vmaxr="97" radius="2100"/>
+		<link source="53337" target="137" length="56" vmax="97" vmaxr="97" bidirectional="true" radius="1100">
+			<vzg index="1" vmax="56" vmaxr="56"/>
+		</link>
+		<link source="53351" target="53353" length="81" vmax="97" vmaxr="97" bidirectional="true" radius="1100">
+			<vzg index="1" vmax="56" vmaxr="56"/>
+		</link>
+		<link source="53353" target="53338" length="81" vmax="97" vmaxr="97" bidirectional="true" radius="1100">
+			<vzg index="1" vmax="56" vmaxr="56"/>
+		</link>
+		<link source="56710" target="4" length="74" vmax="97" vmaxr="97" radius="2100"/>
+		<link source="57016" target="57058" length="90" vmax="97" vmaxr="97" radius="2100"/>
+		<link source="57017" target="57146" length="163" vmax="97" vmaxr="97" radius="1100">
+			<vzg index="1" vmax="89" vmaxr="89"/>
+		</link>
+		<link source="57058" target="57144" length="498" vmax="97" vmaxr="97" radius="2100"/>
+		<link source="57146" target="57145" length="425" vmax="97" vmaxr="97" radius="1100">
+			<vzg index="1" vmax="89" vmaxr="89"/>
+		</link>
+		<link source="57147" target="57017" length="25" vmax="97" vmaxr="97" radius="1100">
+			<vzg index="1" vmax="89" vmaxr="89"/>
+		</link>
+		<link source="57148" target="57016" length="90" vmax="97" vmaxr="97" radius="2100"/>
+		<link source="57151" target="138" length="14" vmax="97" vmaxr="97" radius="1100">
+			<vzg index="1" vmax="89" vmaxr="89"/>
+		</link>
+		<link source="57152" target="57147" length="37" vmax="97" vmaxr="97" radius="1100">
+			<vzg index="1" vmax="89" vmaxr="89"/>
+		</link>
+		<link source="57154" target="57151" length="50" vmax="97" vmaxr="97" radius="1100">
+			<vzg index="1" vmax="89" vmaxr="89"/>
+		</link>
+		<link source="57155" target="57157" length="52" vmax="97" vmaxr="97" radius="2100"/>
+		<link source="57156" target="57155" length="70" vmax="24" vmaxr="24" radius="2100"/>
+		<link source="57157" target="57148" length="188" vmax="97" vmaxr="97" radius="2100"/>
+		<link source="66218" target="12" length="15" vmax="97" vmaxr="97" radius="2100"/>
+		<link source="68535" target="11" length="77" vmax="97" vmaxr="97" bidirectional="true" radius="1100"/>
+		<link source="68535" target="68538" length="1" vmax="97" vmaxr="97" radius="2700"/>
+		<link source="68537" target="9" length="20" vmax="97" vmaxr="97" bidirectional="true" radius="1100">
+			<vzg index="1" vmax="56" vmaxr="56"/>
+		</link>
+		<link source="68538" target="68543" length="29" vmax="24" vmaxr="24" radius="2700"/>
+		<link source="68539" target="66218" length="1" vmax="97" vmaxr="97" radius="2700"/>
+		<link source="68540" target="68539" length="30" vmax="24" vmaxr="24" radius="2700"/>
+		<link source="68542" target="68537" length="39" vmax="97" vmaxr="97" bidirectional="true" radius="1100">
+			<vzg index="1" vmax="56" vmaxr="56"/>
+		</link>
+		<link source="68543" target="68540" length="1" vmax="24" vmaxr="24" radius="2700"/>
+		<link source="82300" target="82305" length="14" vmax="24" vmaxr="24" radius="2900"/>
+		<link source="82302" target="134" length="1" vmax="97" vmaxr="97" radius="2900"/>
+		<link source="82304" target="82302" length="14" vmax="24" vmaxr="24" radius="2900"/>
+		<link source="82305" target="82304" length="1" vmax="24" vmaxr="24" radius="2900"/>
+		<link source="86184" target="139" length="99" vmax="97" vmaxr="97" radius="2100"/>
+		<link source="86189" target="66218" length="159" vmax="97" vmaxr="97" radius="2100"/>
+		<link source="87348" target="136" length="4" vmax="97" vmaxr="97" radius="1100"/>
+		<link source="87350" target="87348" length="233" vmax="97" vmaxr="97" radius="1100"/>
+	</links>
+	<dependentLinks/>
+	<blockSections>
+		<blocksection uuid="{08446dce-373c-4cc3-a553-037d7433d694}" lines="nz0001 sett" speedIndicators="68542">
+			<part nodes="53337 9 68537 68542 11 68535 136 87348 87350"/>
+		</blocksection>
+		<blocksection uuid="{4a3e150e-4179-4231-940f-c7916a889845}" lines="crnf nz0003 sett">
+			<part nodes="57148 57016 57058 57144"/>
+		</blocksection>
+		<blocksection uuid="{689fd565-68a3-4f08-88fe-2ccc6f2ffdb8}" lines="nz0001 sett" shuntingBlock="true" speedIndicators="68538 68539">
+			<part nodes="87348 136 68535 68538 68543 68540 68539 66218 12 2 56710 4 10 83875"/>
+		</blocksection>
+		<blocksection uuid="{82e9da50-4b73-4a12-8e69-1fba8e1f04dd}" lines="sett" shuntingBlock="true" speedIndicators="34 57155 68538 68539">
+			<part nodes="87348 136 68535 68538 68543 68540 68539 66218 12 2 56710 4 10 56 57 3 135 34 57156 57155 57157 57148"/>
+		</blocksection>
+		<blocksection uuid="{a1ab6940-7582-4c85-ba1c-307b7ec2b134}" lines="sett" speedIndicators="34 57155">
+			<part nodes="86189 66218 12 2 56710 4 10 56 57 3 135 34 57156 57155 57157 57148"/>
+		</blocksection>
+		<blocksection uuid="{becd7be4-b3f8-4677-8735-982407ecd96c}" lines="nz0001 sett">
+			<part nodes="86189 66218 12 2 56710 4 10 83875"/>
+		</blocksection>
+		<blocksection uuid="{bfca270e-92ea-4e9b-bb7e-a8eb974586c3}" lines="crnf nz0003 sett">
+			<part nodes="57145 57146 57017 57147"/>
+		</blocksection>
+		<blocksection uuid="{ca3352d4-be0b-43c8-b3b0-2302e2df5dd2}" lines="sett">
+			<part nodes="57147 57152 1 138 57151"/>
+		</blocksection>
+		<blocksection uuid="{d7b26c34-1864-4512-99b5-21d6d40f22c0}" lines="nz0001 sett">
+			<part nodes="86184 139 86189"/>
+		</blocksection>
+		<blocksection uuid="{eb647d44-20eb-48db-a173-9895f4590f0a}" lines="nz0001 sett" speedIndicators="59 57154">
+			<part nodes="57151 57154 8 7 59 3 57 56 10 4 56710 2 12 66218 68539 68540 68543 68538 68535 136 87348 87350"/>
+		</blocksection>
+	</blockSections>
+	<slipDistances>
+		<slipdistance uuid="{891d0b00-5919-41fe-a50d-82c1082b9ab9}" vmax="999" lines="sett" serialNumber="0">
+			<part nodes="57147 57152 1"/>
+		</slipdistance>
+		<slipdistance uuid="{9b66594b-7204-4ada-be50-b0d45c163e5f}" vmax="999" lines="sett" serialNumber="0">
+			<part nodes="57148 57016 57058"/>
+		</slipdistance>
+		<slipdistance uuid="{a803f879-2394-411a-9acf-fda059073de3}" vmax="999" lines="sett" serialNumber="0">
+			<part nodes="53337 9 68537 68542 11"/>
+		</slipdistance>
+		<slipdistance uuid="{baa4666e-4716-47a0-a335-e2dea02d59ca}" vmax="999" lines="sett" serialNumber="0">
+			<part nodes="86189 66218 12 2"/>
+		</slipdistance>
+		<slipdistance uuid="{db4b0c8f-6578-46a2-8040-fdaf250cbd0e}" vmax="999" lines="sett" serialNumber="0">
+			<part nodes="57151 57154 8 7"/>
+		</slipdistance>
+	</slipDistances>
+	<approachControlRoutes/>
+	<stationRoutes>
+		<stationRoute stationID="SETTLEJ" name="[GGSWCK]-[n0003/1]-[1-3]-[LPRESTN]-[n0001/1] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=85;NRz=85;S=85;Rz=85;FGz=85;NGz=85;Gz=85;Lz=85;Unbekannt=85" nodes="138 57151 57154 8 7 59 3 57 56 10 4 56710 2 12 66218 68539 68540 68543 68538 68535 136"/>
+		<stationRoute stationID="SETTLEJ" name="[GGSWCK]-[n0003/1]-[1-3]-[]-[?/] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=90;NRz=90;S=90;Rz=90;FGz=90;NGz=90;Gz=90;Lz=90;Unbekannt=90" nodes="138 57151 57154 8 7 59 3 57 56 10 4 56710 134"/>
+		<stationRoute stationID="SETTLEJ" name="[GGSWCK]-[n0003/2]-[1]-[LPRESTN]-[n0001/1] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=90;NRz=90;S=90;Rz=90;FGz=90;NGz=90;Gz=90;Lz=90;Unbekannt=90" nodes="135 3 57 56 10 4 56710 2 12 66218 68539 68540 68543 68538 68535 136"/>
+		<stationRoute stationID="SETTLEJ" name="[LPRESTN]-[n0001/1]-[1]-[GGSWCK]-[n0003/2] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=90;NRz=90;S=90;Rz=90;FGz=90;NGz=90;Gz=90;Lz=90;Unbekannt=90" nodes="136 68535 68538 68543 68540 68539 66218 12 2 56710 4 10 56 57 3 135"/>
+		<stationRoute stationID="SETTLEJ" name="[LPRESTN]-[n0001/1]-[1]-[SETTLE]-[n0001/2] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=85;NRz=85;S=85;Rz=85;FGz=85;NGz=85;Gz=85;Lz=85;Unbekannt=85" nodes="136 68535 68538 68543 68540 68539 66218 12 2 56710 4 10 83875"/>
+		<stationRoute stationID="SETTLEJ" name="[LPRESTN]-[n0001/2]-[1]-[GGSWCK]-[n0003/2] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="139 86189 66218 12 2 56710 4 10 56 57 3 135"/>
+		<stationRoute stationID="SETTLEJ" name="[LPRESTN]-[n0001/2]-[1]-[SETTLE]-[n0001/2] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=95;NRz=95;S=95;Rz=95;FGz=95;NGz=95;Gz=95;Lz=95;Unbekannt=95" nodes="139 86189 66218 12 2 56710 4 10 83875"/>
+		<stationRoute stationID="SETTLEJ" name="[SETTLE]-[n0001/1]-[2]-[LPRESTN]-[n0001/1] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="137 53337 9 68537 68542 11 68535 136"/>
+		<stationRoute stationID="SETTLEJ" name="[SETTLE]-[n0001/2]-[1]-[LPRESTN]-[n0001/1] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=85;NRz=85;S=85;Rz=85;FGz=85;NGz=85;Gz=85;Lz=85;Unbekannt=85" nodes="83875 10 4 56710 2 12 66218 68539 68540 68543 68538 68535 136"/>
+		<stationRoute stationID="SETTLEJ" name="[SETTLE]-[n0001/2]-[1]-[]-[?/] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=90;NRz=90;S=90;Rz=90;FGz=90;NGz=90;Gz=90;Lz=90;Unbekannt=90" nodes="83875 10 4 56710 134"/>
+		<stationRoute stationID="SETTLEJ" name="[]-[?/]-[1]-[GGSWCK]-[n0003/2] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=95;NRz=95;S=95;Rz=95;FGz=95;NGz=95;Gz=95;Lz=95;Unbekannt=95" nodes="134 56710 4 10 56 57 3 135"/>
+		<stationRoute stationID="SETTLEJ" name="[]-[?/]-[1]-[SETTLE]-[n0001/2] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=90;NRz=90;S=90;Rz=90;FGz=90;NGz=90;Gz=90;Lz=90;Unbekannt=90" nodes="134 56710 4 10 83875"/>
+	</stationRoutes>
+	<lineCatalog/>
+	<zugNummernFelder/>
+	<switchGears/>
+</line>

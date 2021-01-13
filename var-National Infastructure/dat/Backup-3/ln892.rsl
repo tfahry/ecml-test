@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<line lineID="ln892" name="Pontefract East Jn to Ferrybridge North Jn" trafficRouting="on_the_left" type="local" dependentLines="fernj ponej">
+	<version major="1" minor="2" patchlevel="0" comment=""/>
+	<creator user="Ahowe4" timestamp="2016-11-01T12:54:22"/>
+	<lasteditor user="Ahowe4" timestamp="2016-11-01T12:54:22"/>
+	<stations/>
+	<nodes>
+		<node nodeID="6" name="SD : 377" description="sighting distance for SIG : 377" kilometre="92.772" x="927720" y="0" xNet="-363815" yNet="4881118" referenceNode="7" sightingDistance="true"/>
+		<node nodeID="7" name="1000MM" description="1000MM : 93" kilometre="93.000" x="930000" y="0" xNet="-362523" yNet="4882667"/>
+		<node nodeID="8" name="SD : F615" description="sighting distance for SIG : F615" kilometre="93.314" x="933140" y="0" xNet="-362232.01" yNet="4885018" referenceNode="7" sightingDistance="true"/>
+		<node nodeID="26" kilometre="92.740" x="927397.94" y="0" xNet="-364118.01" yNet="4881008"/>
+		<node nodeID="33" kilometre="93.355" x="933545.19" y="0" xNet="-362120" yNet="4885408.2"/>
+	</nodes>
+	<links>
+		<link source="6" target="7" length="228" vmax="24" vmaxr="24" bidirectional="true"/>
+		<link source="7" target="8" length="314" vmax="24" vmaxr="24" bidirectional="true"/>
+		<link source="8" target="33" length="41" vmax="24" vmaxr="24" bidirectional="true"/>
+		<link source="25.ponej" target="26" length="14" vmax="24" vmaxr="24" bidirectional="true"/>
+		<link source="26" target="6" length="32" vmax="24" vmaxr="24" bidirectional="true"/>
+		<link source="33" target="32.fernj" length="12" vmax="24" vmaxr="24" bidirectional="true"/>
+	</links>
+	<dependentLinks/>
+	<blockSections>
+		<blocksection uuid="{18f708ee-af6d-4a58-8516-0f9dc051fb88}" lines="fernj ln892 ponej">
+			<part nodes="25.ponej 26 6 7 8 33 32.fernj"/>
+		</blocksection>
+		<blocksection uuid="{e150afff-1947-43a3-b8c7-9c15cabdc02c}" lines="fernj ln892 ponej">
+			<part nodes="32.fernj 33 8 7 6 26 25.ponej"/>
+		</blocksection>
+	</blockSections>
+	<slipDistances/>
+	<approachControlRoutes/>
+	<stationRoutes/>
+	<lineCatalog/>
+	<zugNummernFelder/>
+	<switchGears/>
+</line>

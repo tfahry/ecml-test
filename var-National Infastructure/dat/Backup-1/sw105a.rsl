@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<line lineID="sw105a" name="Southampton to Southampton Western Docks" trafficRouting="on_the_left" type="local" dependentLines="soton">
+	<version major="1" minor="2" patchlevel="0" comment=""/>
+	<creator user="Ahowe4" timestamp="2016-11-01T12:54:22"/>
+	<lasteditor user="Ahowe4" timestamp="2016-11-01T12:54:22"/>
+	<stations>
+		<station stationID="MBRKDE" name="MILLBROOK DoCK (Entrance)" xNet="-527643.49" yNet="-423276.105" uicLocationCode="0" circleDiameter="0">
+			<textElement type="name">
+				<pos view="net" x="439.12" y="439.12" angle="0" system="source"/>
+				<pos view="wgs84" x="439.12" y="439.12" angle="0" system="source"/>
+				<pos view="line" x="757.099" y="757.099" angle="0" system="source"/>
+				<pos view="macro" x="28.2843" y="28.2843" angle="0" system="source"/>
+				<pos view="macroWgs84" x="0" y="0" angle="0" system="source"/>
+			</textElement>
+		</station>
+		<station stationID="MBRKDX" name="MILLBROOK DOCK (Exit)" xNet="-528925.2" yNet="-423599.235" uicLocationCode="0" circleDiameter="0">
+			<textElement type="name">
+				<pos view="net" x="719.011" y="719.011" angle="0" system="source"/>
+				<pos view="wgs84" x="719.011" y="719.011" angle="0" system="source"/>
+				<pos view="line" x="224.171" y="224.171" angle="0" system="source"/>
+				<pos view="macro" x="28.2843" y="28.2843" angle="0" system="source"/>
+				<pos view="macroWgs84" x="0" y="0" angle="0" system="source"/>
+			</textElement>
+		</station>
+		<station stationID="SOTD107" name="Southampton Western Docks Berth 107" xNet="-533853.405" yNet="-430683.12" uicLocationCode="0" circleDiameter="0">
+			<textElement type="name">
+				<pos view="net" x="1845.03" y="1845.03" angle="0" system="source"/>
+				<pos view="wgs84" x="1845.03" y="1845.03" angle="0" system="source"/>
+				<pos view="line" x="171.686" y="171.686" angle="0" system="source"/>
+				<pos view="macro" x="28.2843" y="28.2843" angle="0" system="source"/>
+				<pos view="macroWgs84" x="0" y="0" angle="0" system="source"/>
+			</textElement>
+		</station>
+		<station stationID="SOTDWD" name="Southampton Western Docks" xNet="-532324.06" yNet="-429723.535" uicLocationCode="0" circleDiameter="0">
+			<textElement type="name">
+				<pos view="net" x="2561.98" y="2561.98" angle="0" system="source"/>
+				<pos view="wgs84" x="2561.98" y="2561.98" angle="0" system="source"/>
+				<pos view="line" x="313.442" y="313.442" angle="0" system="source"/>
+				<pos view="macro" x="28.2843" y="28.2843" angle="0" system="source"/>
+				<pos view="macroWgs84" x="0" y="0" angle="0" system="source"/>
+			</textElement>
+		</station>
+		<station stationID="SOTDWGB" name="Southampton Western Docks GBRF" xNet="-533296.16" yNet="-430861.42" uicLocationCode="0" circleDiameter="0">
+			<textElement type="name">
+				<pos view="net" x="1689.98" y="1689.98" angle="0" system="source"/>
+				<pos view="wgs84" x="1689.98" y="1689.98" angle="0" system="source"/>
+				<pos view="line" x="26.6933" y="26.6933" angle="0" system="source"/>
+				<pos view="macro" x="28.2843" y="28.2843" angle="0" system="source"/>
+				<pos view="macroWgs84" x="0" y="0" angle="0" system="source"/>
+			</textElement>
+		</station>
+	</stations>
+	<nodes>
+		<stationBorder exitType="regular" stationID="MBRKDE" lineID="sw105a" trackNumber="DDB" nodeID="915" kilometre="129.394" x="1423250.5" y="-886.59664" xNet="-528169" yNet="-423607" referenceNode="912"/>
+		<track trackID="E-2" stationID="MBRKDE" interlockingMachine="Shunt" nodeID="912" name="SIG E851" kilometre="129.365" x="1423349.8" y="-886.59664" xNet="-527684" yNet="-422983" referenceNode="964"/>
+		<track trackID="E-1" stationID="MBRKDX" interlockingMachine="3 Aspect Pannel (Below 75mph)" nodeID="19334" name="SIG E852" kilometre="129.433" x="1424276.8" y="-572.59664" xNet="-529324" yNet="-424078" referenceNode="19366"/>
+		<stationBorder exitType="regular" stationID="MBRKDX" lineID="sw105a" trackNumber="UDB" nodeID="19340" kilometre="129.325" x="1424754.6" y="-255.565" xNet="-528300.08" yNet="-422797.25" referenceNode="19334"/>
+		<stationBorder exitType="alternative" stationID="MBRKDE" lineID="sw105a" trackNumber="DDB" nodeID="917" kilometre="129.221" x="1425391.9" y="-886.59664" xNet="-527117.98" yNet="-422945.21" referenceNode="964"/>
+		<node nodeID="946" kilometre="129.880" x="1423228.8" y="-896.19542" xNet="-531617" yNet="-429572"/>
+		<switch start="954" endOfMainTrack="957" endOfBranchTrack="946" nodeID="947" kilometre="129.818" x="1423242.9" y="-886.59664" xNet="-531588.21" yNet="-428492.76"/>
+		<stationBorder exitType="alternative" stationID="MBRKDX" lineID="sw105a" trackNumber="UDB" nodeID="19366" kilometre="129.470" x="1424205.5" y="-572.59664" xNet="-529550.32" yNet="-424401.22" referenceNode="19334"/>
+		<track trackID="D-1" stationID="SOTD107" type="shunting" interlockingMachine="Shunt" nodeID="19410" kilometre="130.295" x="1423336.3" y="-572.59664" xNet="-535270.58" yNet="-432574.26" referenceNode="19419"/>
+		<track trackID="D-1" stationID="SOTDWGB" type="shunting" interlockingMachine="Shunt" nodeID="948" kilometre="130.295" x="1423163.6" y="-886.59664" xNet="-534522.76" yNet="-432562.52" referenceNode="951"/>
+		<track trackID="D-1" stationID="SOTDWD" type="shunting" interlockingMachine="Shunt" nodeID="949" kilometre="130.295" x="1423164.2" y="-894.67051" xNet="-533970" yNet="-432670" referenceNode="952"/>
+		<stationBorder exitType="locked" stationID="SOTD107" trackNumber="" netBorder="true" nodeID="19357" kilometre="130.300" x="1423301.9" y="-572.59664" xNet="-535417" yNet="-432772" referenceNode="19410"/>
+		<stationBorder exitType="locked" stationID="SOTDWGB" trackNumber="" netBorder="true" nodeID="911" kilometre="130.300" x="1423159" y="-886.59664" xNet="-534694" yNet="-432800" referenceNode="948"/>
+		<stationBorder exitType="locked" stationID="SOTDWD" trackNumber="" netBorder="true" nodeID="919" kilometre="130.300" x="1423163.4" y="-894.65213" xNet="-534117" yNet="-432872" referenceNode="949"/>
+		<track trackID="U-1" stationID="SOTD107" interlockingMachine="Shunt" nodeID="19419" kilometre="129.895" x="1423757.7" y="-572.59664" xNet="-532485" yNet="-428893" referenceNode="19410"/>
+		<track trackID="U-1" stationID="SOTDWGB" interlockingMachine="Shunt" nodeID="951" kilometre="129.895" x="1423230.1" y="-886.59664" xNet="-532061.96" yNet="-429149.78" referenceNode="948"/>
+		<track trackID="U-1" stationID="SOTDWD" interlockingMachine="Shunt" nodeID="952" kilometre="129.895" x="1423226.4" y="-896.14032" xNet="-531702.02" yNet="-429683.94" referenceNode="949"/>
+		<switch start="955" endOfMainTrack="956" endOfBranchTrack="19420" nodeID="953" name="Points" kilometre="129.790" x="1423243.4" y="-886.59664" xNet="-531140" yNet="-427816"/>
+		<switch start="19423" endOfMainTrack="19422" endOfBranchTrack="953" nodeID="19420" name="Points" kilometre="129.719" x="1423943.2" y="-572.59664" xNet="-531269.68" yNet="-427032.84"/>
+		<switch start="955" endOfMainTrack="947" endOfBranchTrack="19421" nodeID="954" name="Points" kilometre="129.807" x="1423243.1" y="-886.59664" xNet="-531412.23" yNet="-428227.06"/>
+		<switch start="19424" endOfMainTrack="19422" endOfBranchTrack="954" nodeID="19421" kilometre="129.831" x="1423825.2" y="-572.59664" xNet="-532043.06" yNet="-428216.57"/>
+		<track trackID="T-51" stationID="SOTDWD" type="timingPoint" nodeID="19422" kilometre="129.800" x="1423857.8" y="-572.59664" xNet="-531739" yNet="-427753" referenceNode="19421"/>
+		<track trackID="T-50" stationID="SOTDWD" type="timingPoint" nodeID="955" kilometre="129.798" x="1423243.2" y="-886.59664" xNet="-531275.45" yNet="-428020.53" referenceNode="954"/>
+		<stationBorder exitType="alternative" stationID="SOTDWD" lineID="sw105a" trackNumber="UDB" nodeID="19423" kilometre="129.676" x="1423988.8" y="-572.59664" xNet="-530970.6" yNet="-426575.07" referenceNode="19420"/>
+		<stationBorder exitType="alternative" stationID="SOTDWD" lineID="sw105a" trackNumber="DDB" nodeID="956" kilometre="129.709" x="1423244.8" y="-886.59664" xNet="-530531.12" yNet="-426953.4" referenceNode="953"/>
+		<stationBorder exitType="alternative" stationID="SOTDWD" lineID="sw105a" trackNumber="GRF" nodeID="957" kilometre="129.843" x="1423238.6" y="-886.59664" xNet="-531744.44" yNet="-428709.43" referenceNode="947"/>
+		<stationBorder exitType="alternative" stationID="SOTDWGB" lineID="sw105a" trackNumber="GRF" nodeID="958" kilometre="129.868" x="1423234.5" y="-886.59664" xNet="-531898.32" yNet="-428922.84" referenceNode="951"/>
+		<stationBorder exitType="alternative" stationID="SOTDWD" lineID="sw105a" trackNumber="107" nodeID="19424" kilometre="129.843" x="1423812.3" y="-572.59664" xNet="-532127.29" yNet="-428345.49" referenceNode="19421"/>
+		<stationBorder exitType="alternative" stationID="SOTD107" lineID="sw105a" trackNumber="107" nodeID="19425" kilometre="129.867" x="1423787.5" y="-572.59664" xNet="-532289.81" yNet="-428594.24" referenceNode="19419"/>
+		<signal interlockingMachine="2 Aspect Pannel (Below 75mph)" nodeID="19426" kilometre="129.580" x="1424089.6" y="-572.59664" xNet="-530541" yNet="-425931" referenceNode="19423"/>
+		<speedIndicator nodeID="963" kilometre="129.444" x="1423249.6" y="-886.59664" xNet="-528544.16" yNet="-424138.48" referenceNode="915"/>
+		<speedIndicator nodeID="19427" kilometre="129.579" x="1424090.7" y="-572.59664" xNet="-530303" yNet="-425553.25" referenceNode="19426"/>
+		<speedIndicator nodeID="964" kilometre="129.263" x="1424796.2" y="-886.59664" xNet="-527283.08" yNet="-422956.24" referenceNode="917"/>
+	</nodes>
+	<links>
+		<link source="911" target="948" length="5" vmax="8" vmaxr="8" bidirectional="true"/>
+		<link source="912" target="964" length="102" vmax="24" vmaxr="24" bidirectional="true"/>
+		<link source="915" target="912" length="29" vmax="24" vmaxr="24" bidirectional="true"/>
+		<link source="917" target="916.soton" length="60" vmax="32" vmaxr="32" bidirectional="true"/>
+		<link source="919" target="949" length="5" vmax="8" vmaxr="8"/>
+		<link source="946" target="947" length="62" vmax="8" vmaxr="8"/>
+		<link source="947" target="954" length="11" vmax="8" vmaxr="8"/>
+		<link source="948" target="951" length="400" vmax="8" vmaxr="8" bidirectional="true"/>
+		<link source="949" target="952" length="400" vmax="8" vmaxr="8"/>
+		<link source="951" target="958" length="27" vmax="8" vmaxr="8" bidirectional="true"/>
+		<link source="952" target="946" length="15" vmax="8" vmaxr="8"/>
+		<link source="953" target="956" length="81" vmax="8" vmaxr="8" bidirectional="true"/>
+		<link source="953" target="19420" vmax="8" vmaxr="8"/>
+		<link source="954" target="955" length="9" vmax="8" vmaxr="8"/>
+		<link source="955" target="953" length="8" vmax="8" vmaxr="8"/>
+		<link source="956" target="963" length="265" vmax="8" vmaxr="8" bidirectional="true"/>
+		<link source="957" target="947" length="25" vmax="8" vmaxr="8" bidirectional="true"/>
+		<link source="958" target="957" length="25" vmax="8" vmaxr="8" bidirectional="true"/>
+		<link source="963" target="915" length="50" vmax="24" vmaxr="24" bidirectional="true"/>
+		<link source="964" target="917" length="42" vmax="32" vmaxr="32" bidirectional="true"/>
+		<link source="19334" target="19340" length="108" vmax="32" vmaxr="32" bidirectional="true"/>
+		<link source="19340" target="19298.soton" length="13" vmax="32" vmaxr="32" bidirectional="true"/>
+		<link source="19357" target="19410" length="5" vmax="8" vmaxr="8" bidirectional="true"/>
+		<link source="19366" target="19334" length="37" vmax="32" vmaxr="32" bidirectional="true"/>
+		<link source="19410" target="19419" length="400" vmax="8" vmaxr="8" bidirectional="true"/>
+		<link source="19419" target="19425" length="28" vmax="8" vmaxr="8" bidirectional="true"/>
+		<link source="19420" target="19423" length="43" vmax="8" vmaxr="8" bidirectional="true"/>
+		<link source="19421" target="954" vmax="8" vmaxr="8"/>
+		<link source="19421" target="19422" length="31" vmax="8" vmaxr="8"/>
+		<link source="19422" target="19420" length="81" vmax="8" vmaxr="8"/>
+		<link source="19423" target="19426" length="96" vmax="8" vmaxr="8" bidirectional="true"/>
+		<link source="19424" target="19421" length="12" vmax="8" vmaxr="8" bidirectional="true"/>
+		<link source="19425" target="19424" length="24" vmax="8" vmaxr="8" bidirectional="true"/>
+		<link source="19426" target="19427" length="1" vmax="8" vmaxr="8" bidirectional="true"/>
+		<link source="19427" target="19366" length="109" vmax="32" vmaxr="32" bidirectional="true"/>
+	</links>
+	<dependentLinks/>
+	<blockSections>
+		<blocksection uuid="{02c5cd24-4c9d-4a54-b81b-a8d99b689edd}" lines="sw105a" shuntingBlock="true" speedIndicators="963">
+			<part nodes="912 915 963 956 953 955 954 19421 19424 19425 19419 19410"/>
+		</blocksection>
+		<blocksection uuid="{118aa9f7-5e76-4331-811d-c98b4e9ba6a5}" lines="sw105a" shuntingBlock="true">
+			<part nodes="19410 19419"/>
+		</blocksection>
+		<blocksection uuid="{2d733568-e03b-4ca2-a752-3d6b702f2b48}" lines="sw105a" shuntingBlock="true">
+			<part nodes="948 951"/>
+		</blocksection>
+		<blocksection uuid="{3a7c045d-ae97-434f-b1dd-59ce21867087}" lines="soton sw105a" shuntingBlock="true" speedIndicators="964">
+			<part nodes="916.soton 917 964 912"/>
+		</blocksection>
+		<blocksection uuid="{45ed2f0f-8ab2-4f92-87c7-22700029bcd5}" lines="sw105a" speedIndicators="19427">
+			<part nodes="19426 19427 19366 19334"/>
+		</blocksection>
+		<blocksection uuid="{5740a923-0dad-4a83-b68f-98827fa9ad27}" lines="sw105a" shuntingBlock="true" speedIndicators="963">
+			<part nodes="912 915 963 956 953 955 954 947 957 958 951 948"/>
+		</blocksection>
+		<blocksection uuid="{5b5b50af-0c27-4e79-abf1-383ad6750143}" lines="soton sw105a" shuntingBlock="true" speedIndicators="964">
+			<part nodes="916.soton 917 964 912"/>
+		</blocksection>
+		<blocksection uuid="{5e4bc3c9-6eb8-427a-89d3-aeaab0cae0d7}" lines="sw105a" shuntingBlock="true">
+			<part nodes="19419 19425 19424 19421 19422 19420 19423 19426"/>
+		</blocksection>
+		<blocksection uuid="{60a27e78-bcab-4db9-bdb8-20f2e99cdb70}" lines="sw105a" shuntingBlock="true">
+			<part nodes="952 946 947 954 955 953 19420 19423 19426"/>
+		</blocksection>
+		<blocksection uuid="{732107ed-f670-4fb1-8e57-12792bcc0421}" lines="sw105a" shuntingBlock="true">
+			<part nodes="949 952"/>
+		</blocksection>
+		<blocksection uuid="{9e4f2915-2ec9-4d96-8250-5ef64d0d4817}" lines="soton sw105a">
+			<part nodes="19334 19340 19298.soton"/>
+		</blocksection>
+		<blocksection uuid="{b9f3c38d-3cf0-4856-88e9-001c4f03b07d}" lines="sw105a" shuntingBlock="true" speedIndicators="963">
+			<part nodes="912 915 963 956 953 955 954 947 946 952 949"/>
+		</blocksection>
+		<blocksection uuid="{bae32d4f-0f00-4301-9ac3-e2cba8c552ab}" lines="sw105a" shuntingBlock="true">
+			<part nodes="951 958 957 947 954 955 953 19420 19423 19426"/>
+		</blocksection>
+	</blockSections>
+	<slipDistances/>
+	<approachControlRoutes>
+		<ACRoute controlTyp="mar" uuid="{3159e6d7-6e52-41ba-91c8-10c2bda18745}" publicName="MAR SIG:745 and SIG:851" lines="soton sw105a">
+			<part nodes="916.soton 917 964 912"/>
+		</ACRoute>
+	</approachControlRoutes>
+	<stationRoutes>
+		<stationRoute stationID="MBRKDE" name="[MBRK]-[sw105a/DDB]-[2]-[SOTDWD]-[sw105a/1] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="917 964 912 915"/>
+		<stationRoute stationID="MBRKDX" name="[SOTDWD]-[sw105a/UDB]-[1]-[MBRK]-[sw105a/UDB] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="19366 19334 19340"/>
+		<stationRoute stationID="SOTD107" name="[SOTDWD]-[sw105a/107]-[1]-[SOTDWD]-[sw105a/107] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="19425 19419 19410 19419 19425"/>
+		<stationRoute stationID="SOTD107" name="[SOTDWD]-[sw105a/107]-[1]-[]-[?/] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="19425 19419 19410 19357"/>
+		<stationRoute stationID="SOTD107" name="[]-[?/]-[1]-[SOTDWD]-[sw105a/107] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="19357 19410 19419 19425"/>
+		<stationRoute stationID="SOTDWD" name="[MBRKDE]-[sw105a/DDB]-[1-50]-[MBRKDX]-[sw105a/UDB] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=80;NRz=80;S=80;Rz=80;FGz=80;NGz=80;Gz=80;Lz=80;Unbekannt=80" nodes="956 953 955 954 947 946 952 949 952 946 947 954 955 953 19420 19423"/>
+		<stationRoute stationID="SOTDWD" name="[MBRKDE]-[sw105a/DDB]-[1-50]-[]-[?/] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=95;NRz=95;S=95;Rz=95;FGz=95;NGz=95;Gz=95;Lz=95;Unbekannt=95" nodes="956 953 955 954 947 946 952 949 919"/>
+		<stationRoute stationID="SOTDWD" name="[MBRKDE]-[sw105a/DDB]-[50]-[SOTD107]-[sw105a/107] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=90;NRz=90;S=90;Rz=90;FGz=90;NGz=90;Gz=90;Lz=90;Unbekannt=90" nodes="956 953 955 954 19421 19424"/>
+		<stationRoute stationID="SOTDWD" name="[MBRKDE]-[sw105a/DDB]-[50]-[SOTDWGB]-[sw105a/GRF] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="956 953 955 954 947 957"/>
+		<stationRoute stationID="SOTDWD" name="[SOTD107]-[sw105a/107]-[51]-[MBRKDX]-[sw105a/UDB] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="19424 19421 19422 19420 19423"/>
+		<stationRoute stationID="SOTDWD" name="[SOTDWGB]-[sw105a/GRF]-[50]-[MBRKDX]-[sw105a/UDB] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=90;NRz=90;S=90;Rz=90;FGz=90;NGz=90;Gz=90;Lz=90;Unbekannt=90" nodes="957 947 954 955 953 19420 19423"/>
+		<stationRoute stationID="SOTDWD" name="[]-[?/]-[1-50]-[MBRKDX]-[sw105a/UDB] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=85;NRz=85;S=85;Rz=85;FGz=85;NGz=85;Gz=85;Lz=85;Unbekannt=85" nodes="919 949 952 946 947 954 955 953 19420 19423"/>
+		<stationRoute stationID="SOTDWGB" name="[SOTDWD]-[sw105a/GRF]-[1]-[SOTDWD]-[sw105a/GRF] (2)" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="958 951 948 951 958"/>
+		<stationRoute stationID="SOTDWGB" name="[SOTDWD]-[sw105a/GRF]-[1]-[]-[?/] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="958 951 948 911"/>
+		<stationRoute stationID="SOTDWGB" name="[]-[?/]-[1]-[SOTDWD]-[sw105a/GRF] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="911 948 951 958"/>
+	</stationRoutes>
+	<lineCatalog/>
+	<zugNummernFelder/>
+	<switchGears/>
+</line>

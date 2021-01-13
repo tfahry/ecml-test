@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<line lineID="sc091" name="Dalrymple Jn to Pennyvenie Colliery" trafficRouting="on_the_left" type="local" dependentLines="dlry">
+	<version major="1" minor="2" patchlevel="0" comment=""/>
+	<creator user="VWaddelo" timestamp="2016-07-08T10:58:15"/>
+	<lasteditor user="VWaddelo" timestamp="2016-07-08T10:58:15"/>
+	<stations>
+		<station stationID="BRMHSJN" name="Holehouse Jn" xNet="-3547323.05" yNet="8417000.5" uicLocationCode="0" circleDiameter="0">
+			<textElement type="name">
+				<pos view="net" x="935.977" y="935.977" angle="0" system="source"/>
+				<pos view="wgs84" x="935.977" y="935.977" angle="0" system="source"/>
+				<pos view="line" x="936.916" y="936.916" angle="0" system="source"/>
+				<pos view="macro" x="28.2843" y="28.2843" angle="0" system="source"/>
+				<pos view="macroWgs84" x="0" y="0" angle="0" system="source"/>
+			</textElement>
+		</station>
+	</stations>
+	<nodes>
+		<node nodeID="1077" x="-1965232.6" y="-1600" xNet="-3548817.4" yNet="8429616"/>
+		<node nodeID="1078" x="-1961232.6" y="-1600" xNet="-3548347.7" yNet="8425648"/>
+		<node nodeID="1079" x="-1957232.6" y="-1600" xNet="-3547877.9" yNet="8421684"/>
+		<node nodeID="1082" x="-1955232.6" y="-1600" xNet="-3547642.9" yNet="8419704"/>
+		<track trackID="T-1" stationID="BRMHSJN" type="timingPoint" nodeID="1083" x="-1953232.6" y="-1600" xNet="-3547408.2" yNet="8417720" referenceNode="1084"/>
+		<signal interlockingMachine="2 Aspect Pannel (Below 75mph)" nodeID="1084" x="-1951232.6" y="-1600" xNet="-3547173.4" yNet="8415736" referenceNode="1083"/>
+		<stationBorder exitType="locked" stationID="BRMHSJN" lineID="sc091" trackNumber="" nodeID="10" name="Prellbock 177" x="-1951182.6" y="-1600" xNet="-3547167.5" yNet="8415686" referenceNode="1084"/>
+		<stationBorder exitType="regular" stationID="BRMHSJN" lineID="sc091" trackNumber="1" nodeID="11" name="[DLRYMPL] - [SC091/1]" x="-1953832.6" y="-1600" xNet="-3547478.6" yNet="8418315" referenceNode="1083"/>
+	</nodes>
+	<links>
+		<link source="11" target="1083" length="60" vmax="80" vmaxr="80" bidirectional="true"/>
+		<link source="1077" target="1078" length="200" vmax="80" vmaxr="80" bidirectional="true"/>
+		<link source="1078" target="1079" length="200" vmax="80" vmaxr="80" bidirectional="true"/>
+		<link source="1079" target="1082" length="200" vmax="80" vmaxr="80" bidirectional="true"/>
+		<link source="1081.dlry" target="1077" length="180" vmax="80" vmaxr="80" bidirectional="true"/>
+		<link source="1082" target="11" length="140" vmax="80" vmaxr="80" bidirectional="true"/>
+		<link source="1083" target="1084" length="200" vmax="80" vmaxr="80" bidirectional="true"/>
+		<link source="1084" target="10" vmax="80" vmaxr="80" bidirectional="true"/>
+	</links>
+	<dependentLinks/>
+	<blockSections>
+		<blocksection uuid="{5418add3-a093-4cb5-b487-1a94d12d5f39}" lines="dlry sc091">
+			<part nodes="1081.dlry 1077 1078 1079 1082 11 1083 1084"/>
+		</blocksection>
+		<blocksection uuid="{cfd81cbc-50c5-438b-8b8e-634611b892bf}" lines="dlry sc091">
+			<part nodes="1084 1083 11 1082 1079 1078 1077 1081.dlry"/>
+		</blocksection>
+	</blockSections>
+	<slipDistances/>
+	<approachControlRoutes/>
+	<stationRoutes>
+		<stationRoute stationID="BRMHSJN" name="[DLRYMPL]-[SC091/1]-[1]-[]-[?/] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="11 1083 1084 10"/>
+		<stationRoute stationID="BRMHSJN" name="[]-[?/]-[1]-[DLRYMPL]-[SC091/1] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="10 1084 1083 11"/>
+	</stationRoutes>
+	<lineCatalog/>
+	<zugNummernFelder/>
+	<switchGears/>
+</line>

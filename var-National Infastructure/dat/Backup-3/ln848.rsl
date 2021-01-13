@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<line lineID="ln848" name="Crofton West Jn to Hare Park Jn" trafficRouting="on_the_left" type="local" dependentLines="crftw harep">
+	<version major="1" minor="2" patchlevel="0" comment=""/>
+	<creator user="Ahowe4" timestamp="2016-11-01T12:54:22"/>
+	<lasteditor user="Ahowe4" timestamp="2016-11-01T12:54:22"/>
+	<stations/>
+	<nodes>
+		<node nodeID="8" name="GRAD" description="Gradient; 172m 16.00ch" kilometre="277.129" x="2771290" y="0" xNet="-550978.49" yNet="4790262.9"/>
+		<node nodeID="9" name="GRAD" description="Gradient; 172m 43.98ch" kilometre="277.692" x="2776920" y="0" xNet="-553445" yNet="4791390"/>
+		<node nodeID="10" name="OL 302" description="OL for SIG : 302" kilometre="277.942" x="2779420" y="0" xNet="-556545" yNet="4792590"/>
+		<node nodeID="11" name="1000MM" description="1000MM : 278" kilometre="278.000" x="2780000" y="0" xNet="-557906" yNet="4794344"/>
+		<signal interlockingMachine="4 Aspect Pannel (Below 75mph)" nodeID="12" name="SIG : 302" description="Signal 302; 172m 65.35ch" kilometre="278.122" x="2781220" y="0" xNet="-559252.88" yNet="4795496.3" referenceNode="13"/>
+		<node nodeID="13" name="SD : 302" description="sighting distance for SIG : 302" kilometre="278.294" x="2782940" y="0" xNet="-559979.84" yNet="4797055.9" referenceNode="18" sightingDistance="true"/>
+		<node nodeID="24" name="GRAD" description="Gradient; 172m 16.00ch" kilometre="277.129" x="2771290" y="200" xNet="-551159.32" yNet="4790178.4"/>
+		<node nodeID="25" name="SD : 309" description="sighting distance for SIG : 309" kilometre="277.362" x="2773620" y="200" xNet="-552245" yNet="4790690" referenceNode="24" sightingDistance="true"/>
+		<signal interlockingMachine="4 Aspect Pannel (Below 75mph)" nodeID="26" name="SIG : 309" description="Signal 309; 172m 36.12ch" kilometre="277.534" x="2775340" y="200" xNet="-553545" yNet="4791190" referenceNode="25"/>
+		<node nodeID="27" name="GRAD" description="Gradient; 172m 43.98ch" kilometre="277.692" x="2776920" y="200" xNet="-554945" yNet="4791790"/>
+		<node nodeID="28" name="OL 309" description="OL for SIG : 309" kilometre="277.714" x="2777140" y="200" xNet="-556645" yNet="4792390"/>
+		<node nodeID="29" name="1000MM" description="1000MM : 278" kilometre="278.000" x="2780000" y="200" xNet="-559400" yNet="4795300"/>
+		<node nodeID="36" kilometre="278.340" x="2783405" y="200" xNet="-560357.63" yNet="4797393.4"/>
+		<node nodeID="18" kilometre="278.342" x="2783418" y="0" xNet="-560181.68" yNet="4797488.9"/>
+	</nodes>
+	<links>
+		<link source="7.harep" target="8" length="129" gradient="-9.52381" vmaxr="89"/>
+		<link source="8" target="9" length="563" gradient="-5" vmaxr="89"/>
+		<link source="9" target="10" length="250" gradient="-10" vmaxr="89"/>
+		<link source="10" target="11" length="58" gradient="-10" vmaxr="89"/>
+		<link source="11" target="12" length="122" gradient="-10" vmaxr="89"/>
+		<link source="12" target="13" length="172" gradient="-10" vmaxr="89"/>
+		<link source="13" target="18" length="48" gradient="-10" vmaxr="89"/>
+		<link source="18" target="14.crftw" length="14" gradient="-10" vmaxr="89"/>
+		<link source="23.harep" target="24" length="129" gradient="-9.52381" vmax="89"/>
+		<link source="24" target="25" length="233" gradient="-5" vmax="89"/>
+		<link source="25" target="26" length="172" gradient="-5" vmax="89"/>
+		<link source="26" target="27" length="158" gradient="-5" vmax="89"/>
+		<link source="27" target="28" length="22" gradient="-10" vmax="89"/>
+		<link source="28" target="29" length="286" gradient="-10" vmax="89"/>
+		<link source="29" target="36" length="341" gradient="-10" vmax="89"/>
+		<link source="36" target="30.crftw" length="15" gradient="-10" vmax="89"/>
+	</links>
+	<dependentLinks/>
+	<blockSections>
+		<blocksection uuid="{50d464d1-7758-4bf3-ac1d-6293086226e4}" lines="harep ln848">
+			<part nodes="12 11 10 9 8 7.harep"/>
+		</blocksection>
+		<blocksection uuid="{5fef517b-60ac-40d3-b85f-7a7fb435f863}" lines="crftw ln848">
+			<part nodes="14.crftw 18 13 12"/>
+		</blocksection>
+		<blocksection uuid="{97b00584-807c-4074-b3cb-55c18daf336c}" lines="crftw ln848">
+			<part nodes="26 27 28 29 36 30.crftw"/>
+		</blocksection>
+		<blocksection uuid="{dca4d8a5-6fad-4319-9c98-76a47d214e5c}" lines="harep ln848">
+			<part nodes="23.harep 24 25 26"/>
+		</blocksection>
+	</blockSections>
+	<slipDistances>
+		<slipdistance uuid="{27ab7ee8-653a-4e56-8314-b66a9d1e44f0}" vmax="999" lines="ln848" serialNumber="0">
+			<part nodes="26 27 28"/>
+		</slipdistance>
+		<slipdistance uuid="{4de43c26-49a6-4ef9-84f8-f8b4b380adde}" vmax="999" lines="ln848" serialNumber="0">
+			<part nodes="12 11 10"/>
+		</slipdistance>
+	</slipDistances>
+	<approachControlRoutes>
+		<ACRoute controlTyp="mar" uuid="{31731ae6-71a2-4bb4-b883-de6f68022127}" publicName="MAR" description="263-309" lines="harep ln848">
+			<part nodes="23.harep 24 25 26"/>
+		</ACRoute>
+	</approachControlRoutes>
+	<stationRoutes/>
+	<lineCatalog/>
+	<zugNummernFelder/>
+	<switchGears/>
+</line>

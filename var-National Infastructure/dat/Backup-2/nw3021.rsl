@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<line lineID="nw3021" name="Frodsham Jn - Halton Jn" trafficRouting="on_the_left" type="local" dependentLines="frds halt">
+	<version major="1" minor="2" patchlevel="0" comment=""/>
+	<creator user="VWaddelo" timestamp="2016-07-08T10:58:15"/>
+	<lasteditor user="VWaddelo" timestamp="2016-07-08T10:58:15"/>
+	<stations/>
+	<nodes>
+		<speedIndicator nodeID="17" name="SPEED" kilometre="2.520" x="2738000.9" y="-11170.754" xNet="-1940984.9" yNet="4134673.6" referenceNode="18"/>
+		<node nodeID="18" kilometre="2.307" x="2735871.1" y="-11170.754" xNet="-1940984.9" yNet="4135222.2"/>
+		<speedIndicator nodeID="21" name="SPEED" kilometre="0.668" x="2719483.5" y="-11170.754" xNet="-1953717" yNet="4153873.4" referenceNode="28"/>
+		<node nodeID="26" name="GRAD" kilometre="0.753" x="2720333.3" y="-11170.754" xNet="-1952484.8" yNet="4151953.4"/>
+		<node nodeID="29" name="OL:27" kilometre="2.527" x="2738072.3" y="-11170.754" xNet="-1940984.9" yNet="4133850.7"/>
+		<node nodeID="28" kilometre="0.706" x="2719863.7" y="-11170.754" xNet="-1953165.7" yNet="4153014.3" referenceNode="26" sightingDistance="true"/>
+		<node nodeID="4" name="OL " description="OL for SIG : " kilometre="1.532" x="2728122" y="-11170.754" xNet="-1945600.3" yNet="4142236.9"/>
+		<node nodeID="32" kilometre="2.627" x="2739072.4" y="-11170.754" xNet="-1941452.2" yNet="4133283.6" referenceNode="15.frds" sightingDistance="true"/>
+		<node nodeID="25" kilometre="1.807" x="2730871.7" y="-11170.754" xNet="-1943962.5" yNet="4139747.8" referenceNode="33" presignal="true" with1000HzMagnet="true"/>
+		<node nodeID="33" kilometre="1.737" x="2730171.8" y="-11170.754" xNet="-1944379.4" yNet="4140381.4" referenceNode="25" presignal="true" with1000HzMagnet="true"/>
+		<signal interlockingMachine="Semaphore (Block)" nodeID="34" kilometre="2.549" x="2738292.3" y="-11170.754" xNet="-1941087.7" yNet="4133725.9" referenceNode="32"/>
+	</nodes>
+	<links>
+		<link source="4" target="26" length="779" gradient="12.5" vmax="64" vmaxr="64" bidirectional="true"/>
+		<link source="15.frds" target="32" length="5" gradient="12.5" vmax="32" bidirectional="true"/>
+		<link source="17" target="18" length="213" gradient="12.5" vmax="64" vmaxr="64" bidirectional="true"/>
+		<link source="18" target="25" length="500" gradient="12.5" vmax="64" vmaxr="64" bidirectional="true"/>
+		<link source="21" target="27.halt" length="176" gradient="2.702" vmax="64" vmaxr="64" bidirectional="true"/>
+		<link source="25" target="33" length="70" gradient="12.5" vmax="64" vmaxr="64" bidirectional="true"/>
+		<link source="26" target="28" length="47" gradient="2.702" vmax="64" vmaxr="64" bidirectional="true"/>
+		<link source="28" target="21" length="38" gradient="2.702" vmax="64" vmaxr="64" bidirectional="true"/>
+		<link source="29" target="17" length="7" gradient="12.5" vmax="64" vmaxr="64" bidirectional="true"/>
+		<link source="32" target="34" length="78" gradient="12.5" vmax="64" vmaxr="64" bidirectional="true"/>
+		<link source="33" target="4" length="205" gradient="12.5" vmax="64" vmaxr="64" bidirectional="true"/>
+		<link source="34" target="29" length="22" gradient="12.5" vmax="64" vmaxr="64" bidirectional="true"/>
+	</links>
+	<dependentLinks/>
+	<blockSections>
+		<blocksection uuid="{5d46d8a7-9c0b-4b1e-8d87-036a441582e1}" lines="frds nw3021">
+			<part nodes="15.frds 32 34"/>
+		</blocksection>
+		<blocksection uuid="{df1d4eea-73ac-4181-8f17-3937cef2bb8b}" lines="halt nw3021" speedIndicators="17 21">
+			<part nodes="34 29 17 18 25 33 4 26 28 21 27.halt"/>
+		</blocksection>
+	</blockSections>
+	<slipDistances/>
+	<approachControlRoutes/>
+	<stationRoutes/>
+	<lineCatalog/>
+	<zugNummernFelder/>
+	<switchGears/>
+</line>

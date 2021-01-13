@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<line lineID="GW850" name="GW850 Leckwith Loop" trafficRouting="on_the_left" type="local" dependentLines="leckw ninian">
+	<version major="1" minor="2" patchlevel="0" comment=""/>
+	<creator user="JCowe" timestamp="2017-06-19T10:30:19"/>
+	<lasteditor user="JCowe" timestamp="2017-06-19T10:30:19"/>
+	<stations/>
+	<nodes>
+		<node nodeID="387" kilometre="0.250" x="5497983" y="181386" xNet="-2611251.15" yNet="697513.495"/>
+		<node nodeID="390" kilometre="0.200" x="5498483" y="181386" xNet="-2610998.15" yNet="697058.495"/>
+		<node nodeID="395" name="SD: C305" description="70" kilometre="0.185" x="5498633" y="181386" xNet="-2610939.45" yNet="696952.895" referenceNode="390" sightingDistance="true"/>
+		<node nodeID="396" name="SD: C520" description="70" kilometre="0.230" x="5498183" y="181386" xNet="-2611149.95" yNet="697331.495" referenceNode="390" sightingDistance="true"/>
+	</nodes>
+	<links>
+		<link source="385.ninian" target="395" length="35" vmax="32" vmaxr="32"/>
+		<link source="387" target="38.leckw" length="20" vmax="32" vmaxr="32"/>
+		<link source="390" target="396" length="30" vmax="32" vmaxr="32"/>
+		<link source="395" target="390" length="15" vmax="32" vmaxr="32"/>
+		<link source="396" target="387" length="20" vmax="32" vmaxr="32"/>
+	</links>
+	<dependentLinks/>
+	<blockSections>
+		<blocksection uuid="{6504ee38-b963-4c2a-9be5-77b5b4111d28}" lines="GW850 leckw ninian">
+			<part nodes="385.ninian 395 390 396 387 38.leckw"/>
+		</blocksection>
+		<blocksection uuid="{8f7301db-4f81-4ed3-af98-1e264b15e5aa}" lines="GW850 leckw ninian">
+			<part nodes="38.leckw 387 396 390 395 385.ninian"/>
+		</blocksection>
+		<blocksection uuid="{a22e6d5b-4a62-4c52-8f58-860c06a4d090}" lines="GW850 leckw ninian">
+			<part nodes="385.ninian 395 390 396 387 38.leckw"/>
+		</blocksection>
+		<blocksection uuid="{c880ac5c-6ac3-4ef8-af22-032a23487a36}" lines="GW850 leckw ninian">
+			<part nodes="38.leckw 387 396 390 395 385.ninian"/>
+		</blocksection>
+		<blocksection uuid="{d85aebc7-35a0-489e-a43e-da293c08786b}" lines="GW850 leckw ninian" shuntingBlock="true">
+			<part nodes="38.leckw 387 396 390 395 385.ninian"/>
+		</blocksection>
+	</blockSections>
+	<slipDistances/>
+	<approachControlRoutes/>
+	<stationRoutes/>
+	<lineCatalog/>
+	<zugNummernFelder/>
+	<switchGears/>
+</line>

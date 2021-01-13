@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<line lineID="gw980" name="Herbrandston Jn - Robeston Amoco Sidings Freight" trafficRouting="on_the_left" type="local" dependentLines="mlfdh">
+	<version major="1" minor="2" patchlevel="0" comment=""/>
+	<creator user="Ahowe4" timestamp="2016-11-01T12:54:22"/>
+	<lasteditor user="Ahowe4" timestamp="2016-11-01T12:54:22"/>
+	<stations>
+		<station stationID="ROBSTNS" name="Robeston Amoco Sidings" xNet="-4653039.25" yNet="1185088.05" uicLocationCode="0" circleDiameter="0">
+			<textElement type="name">
+				<pos view="net" x="714.587" y="714.587" angle="0" system="source"/>
+				<pos view="wgs84" x="714.587" y="714.587" angle="0" system="source"/>
+				<pos view="line" x="714.198" y="714.198" angle="0" system="source"/>
+				<pos view="macro" x="28.2843" y="28.2843" angle="0" system="source"/>
+				<pos view="macroWgs84" x="0" y="0" angle="0" system="source"/>
+			</textElement>
+		</station>
+	</stations>
+	<nodes>
+		<signal type="exit" interlockingMachine="Buffer Stop" nodeID="2" name="SIG" kilometre="0.632" x="6320" y="0" xNet="-4653999.8" yNet="1185054.7" referenceNode="7"/>
+		<signal type="entry" interlockingMachine="Buffer Stop" nodeID="7" name="SIG" kilometre="0.620" x="6200" y="0" xNet="-4653880.5" yNet="1185059.5" referenceNode="2"/>
+		<node nodeID="8" name="GRAD" kilometre="0.216" x="2159.6802" y="0" xNet="-4649840.7" yNet="1185200.6"/>
+		<track trackID="T-1" stationID="ROBSTNS" type="timingPoint" nodeID="9" kilometre="0.529" x="5288.6274" y="0" xNet="-4652967.8" yNet="1185090.9" referenceNode="7"/>
+		<stationBorder exitType="locked" stationID="ROBSTNS" trackNumber="" nodeID="3" name="Buffer stop 184" kilometre="0.632" x="6370" y="0" xNet="-4654049.2" yNet="1185052.4" referenceNode="2"/>
+		<stationBorder exitType="regular" stationID="ROBSTNS" lineID="gw980" trackNumber="1" nodeID="11" name="[HRBRNSJ] - [gw980/1]" kilometre="0.435" x="4349.9432" y="0" xNet="-4652029.3" yNet="1185123.7" referenceNode="9"/>
+	</nodes>
+	<links>
+		<link source="2" target="3" gradient="-1.85" vmax="32" vmaxr="32" bidirectional="true"/>
+		<link source="6.mlfdh" target="8" length="25" gradient="-6.53" vmax="32" vmaxr="32" bidirectional="true"/>
+		<link source="7" target="2" length="12" gradient="-1.85" vmax="32" vmaxr="32" bidirectional="true"/>
+		<link source="8" target="11" length="219" gradient="-1.85" vmax="32" vmaxr="32" bidirectional="true"/>
+		<link source="9" target="7" length="91" gradient="-1.85" vmax="32" vmaxr="32" bidirectional="true"/>
+		<link source="11" target="9" length="94" gradient="-1.85" vmax="32" vmaxr="32" bidirectional="true"/>
+	</links>
+	<dependentLinks/>
+	<blockSections>
+		<blocksection uuid="{2cc8d03a-3965-42bf-b98f-a29a7b220b70}" lines="gw980 mlfdh">
+			<part nodes="6.mlfdh 8 11 9 7 2"/>
+		</blocksection>
+		<blocksection uuid="{57316fdf-94ec-43ea-a447-0dd008796a5d}" lines="gw980 mlfdh">
+			<part nodes="7 9 11 8 6.mlfdh"/>
+		</blocksection>
+		<blocksection uuid="{73007ea4-644a-40ae-aa13-c193f845af7a}" lines="gw980">
+			<part nodes="7 2"/>
+		</blocksection>
+		<blocksection uuid="{d04439cd-a9b6-4ae5-9cc6-69b930bcef30}" lines="gw980">
+			<part nodes="2 7"/>
+		</blocksection>
+	</blockSections>
+	<slipDistances/>
+	<approachControlRoutes/>
+	<stationRoutes>
+		<stationRoute stationID="ROBSTNS" name="[HRBRNSJ]-[gw980/1]-[1]-[]-[?/] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="11 9 7 2 3"/>
+		<stationRoute stationID="ROBSTNS" name="[]-[?/]-[1]-[HRBRNSJ]-[gw980/1] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="3 2 7 9 11"/>
+	</stationRoutes>
+	<lineCatalog/>
+	<zugNummernFelder/>
+	<switchGears/>
+</line>

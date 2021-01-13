@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<line lineID="so300a" name="SO300A (Erith Loop)" trafficRouting="on_the_left" type="local" dependentLines="brnhps slad">
+	<version major="1" minor="2" patchlevel="0" comment=""/>
+	<creator user="Ahowe4" timestamp="2016-11-01T12:54:22"/>
+	<lasteditor user="Ahowe4" timestamp="2016-11-01T12:54:22"/>
+	<stations>
+		<station stationID="ERITHLP" name="Erith Loop " xNet="1351385.2" yNet="639897.84" uicLocationCode="0" circleDiameter="0">
+			<textElement type="name">
+				<pos view="net" x="1513.89" y="1513.89" angle="0" system="source"/>
+				<pos view="wgs84" x="1513.89" y="1513.89" angle="0" system="source"/>
+				<pos view="line" x="700.08" y="700.08" angle="0" system="source"/>
+				<pos view="macro" x="28.2843" y="28.2843" angle="0" system="source"/>
+				<pos view="macroWgs84" x="0" y="0" angle="0" system="source"/>
+			</textElement>
+		</station>
+	</stations>
+	<nodes>
+		<track trackID="D-2" stationID="ERITHLP" interlockingMachine="4 Aspect IECC (Below 75mph)" nodeID="197" name="SIG : NK263" description="Signal NK263" kilometre="24.601" x="246302.55" y="-187.4771" xNet="1352330" yNet="640845.92" referenceNode="66"/>
+		<track trackID="U-1" stationID="ERITHLP" interlockingMachine="4 Aspect IECC (Below 75mph)" nodeID="1201" name="SIG : NK262" description="Signal NK262" kilometre="24.467" x="244962.55" y="-387.47712" xNet="1350372.5" yNet="638828.67" referenceNode="71"/>
+		<node nodeID="1213" name="GRAD" description="Gradient; 15m 28ch" kilometre="24.703" x="247322.55" y="-387.47709" xNet="1354336.5" yNet="641957.51"/>
+		<node nodeID="205" name="GRAD" description="Gradient; 15m 28ch" kilometre="24.703" x="247322.55" y="-187.47709" xNet="1354369.6" yNet="642585.09"/>
+		<node nodeID="206" name="SD : NK263" description="sighting distance for SIG : NK263" kilometre="24.531" x="245602.55" y="-187.47711" xNet="1351225" yNet="639957.73" referenceNode="209.brnhps" sightingDistance="true"/>
+		<node nodeID="1214" name="SD : NK262" description="sighting distance for SIG : NK262" kilometre="24.602" x="246316.64" y="-387.4771" xNet="1352646.8" yNet="640623.9" referenceNode="1213" sightingDistance="true"/>
+		<node nodeID="207" name="OL NK263" description="OL for SIG : NK263" kilometre="24.836" x="248652.55" y="-187.47708" xNet="1357022.2" yNet="644846.98"/>
+		<node nodeID="1233" kilometre="24.840" x="248692.55" y="-387.47708" xNet="1356637.5" yNet="643773.84"/>
+		<stationBorder exitType="regular" stationID="ERITHLP" lineID="so300a" trackNumber="1" nodeID="63" name="[SLADEGN] - [s300/1]" kilometre="24.632" x="246608.55" y="-187.4771" xNet="1352941.9" yNet="641367.68" referenceNode="197"/>
+		<stationBorder exitType="alternative" stationID="ERITHLP" lineID="so300a" trackNumber="2" nodeID="66" name="[BRNHPSJ] - [s300/2]" kilometre="24.580" x="246092.55" y="-187.47711" xNet="1351998.5" yNet="640579.46" referenceNode="197"/>
+		<stationBorder exitType="alternative" stationID="ERITHLP" lineID="so300a" trackNumber="2" nodeID="71" name="[SLADEGN] - [s300/2]" kilometre="24.507" x="245368.78" y="-387.47712" xNet="1351054.8" yNet="639367.24" referenceNode="1201"/>
+		<stationBorder exitType="regular" stationID="ERITHLP" lineID="so300a" trackNumber="1" nodeID="84" name="[BRNHPSJ] - [s300/1]" kilometre="24.435" x="244638.55" y="-387.47712" xNet="1349828.5" yNet="638428" referenceNode="1201"/>
+	</nodes>
+	<links>
+		<link source="63" target="205" length="38" gradient="-14.286" vmax="32" vmaxr="32">
+			<vzg index="9" vmax="32" vmaxr="32"/>
+		</link>
+		<link source="66" target="197" length="21" gradient="-14.286" vmax="32" vmaxr="32">
+			<vzg index="9" vmax="32" vmaxr="32"/>
+		</link>
+		<link source="71" target="1214" length="49" gradient="-14.286" vmax="32" vmaxr="32">
+			<vzg index="9" vmax="32" vmaxr="32"/>
+		</link>
+		<link source="84" target="1201" length="32" gradient="-14.286" vmax="32" vmaxr="32">
+			<vzg index="9" vmax="32" vmaxr="32"/>
+		</link>
+		<link source="197" target="63" length="16" gradient="-14.286" vmax="32" vmaxr="32">
+			<vzg index="9" vmax="32" vmaxr="32"/>
+		</link>
+		<link source="205" target="207" length="71" gradient="2.488" vmax="32" vmaxr="32">
+			<vzg index="9" vmax="32" vmaxr="32"/>
+		</link>
+		<link source="206" target="66" length="49" gradient="-14.286" vmax="32" vmaxr="32">
+			<vzg index="9" vmax="32" vmaxr="32"/>
+		</link>
+		<link source="207" target="455.slad" length="43" gradient="2.488" vmax="32" vmaxr="32">
+			<vzg index="9" vmax="32" vmaxr="32"/>
+		</link>
+		<link source="208.brnhps" target="84" length="76" gradient="-14.286" vmax="32" vmaxr="32">
+			<vzg index="9" vmax="32" vmaxr="32"/>
+		</link>
+		<link source="209.brnhps" target="206" length="191" gradient="-14.286" vmax="32" vmaxr="32">
+			<vzg index="9" vmax="32" vmaxr="32"/>
+		</link>
+		<link source="1201" target="71" length="21" gradient="-14.286" vmax="32" vmaxr="32">
+			<vzg index="9" vmax="32" vmaxr="32"/>
+		</link>
+		<link source="1213" target="1233" length="71" gradient="2.488" vmax="32" vmaxr="32">
+			<vzg index="9" vmax="32" vmaxr="32"/>
+		</link>
+		<link source="1214" target="1213" length="52" gradient="-14.286" vmax="32" vmaxr="32">
+			<vzg index="9" vmax="32" vmaxr="32"/>
+		</link>
+		<link source="1233" target="520.slad" length="63" gradient="2.488" vmax="32" vmaxr="32">
+			<vzg index="9" vmax="32" vmaxr="32"/>
+		</link>
+	</links>
+	<dependentLinks/>
+	<blockSections>
+		<blocksection uuid="{af2c79a0-1484-4ddb-bafb-f4a38f7dce61}" lines="brnhps so300a">
+			<part nodes="209.brnhps 206 66 197"/>
+		</blocksection>
+		<blocksection uuid="{b0d7520f-7713-4835-ab10-24af9ab4aa9e}" lines="brnhps so300a">
+			<part nodes="1201 84 208.brnhps"/>
+		</blocksection>
+		<blocksection uuid="{b35d636d-515f-42ef-bffe-2d9b2bac3370}" lines="slad so300a">
+			<part nodes="197 63 205 207 455.slad"/>
+		</blocksection>
+		<blocksection uuid="{f7fc1b65-acc0-419f-aed1-42d053793535}" lines="slad so300a" shuntingBlock="true">
+			<part nodes="197 63 205 207 455.slad"/>
+		</blocksection>
+		<blocksection uuid="{faed396f-69bc-4550-b468-ce31643275a5}" lines="slad so300a">
+			<part nodes="520.slad 1233 1213 1214 71 1201"/>
+		</blocksection>
+	</blockSections>
+	<slipDistances>
+		<slipdistance uuid="{985445b9-6f19-4474-abdb-809b757c275c}" vmax="999" lines="so300a" serialNumber="0">
+			<part nodes="1201 84 208.brnhps"/>
+		</slipdistance>
+		<slipdistance uuid="{f2f58d98-30e9-45e9-9468-bad6de3332a9}" vmax="999" lines="so300a" serialNumber="0">
+			<part nodes="197 63 205 207"/>
+		</slipdistance>
+	</slipDistances>
+	<approachControlRoutes/>
+	<stationRoutes>
+		<stationRoute stationID="ERITHLP" name="[BRNHPSJ]-[s300/2]-[2]-[SLADEGN]-[s300/1] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="66 197 63"/>
+		<stationRoute stationID="ERITHLP" name="[SLADEGN]-[s300/2]-[1]-[BRNHPSJ]-[s300/1] (1)" continuousMainTrack="true" passThroughAllowed="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="71 1201 84"/>
+	</stationRoutes>
+	<lineCatalog/>
+	<zugNummernFelder/>
+	<switchGears/>
+</line>
